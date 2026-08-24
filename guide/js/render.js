@@ -4,7 +4,9 @@ function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').repl
 
 function splitPhone(text){
   if(typeof text!=='string')return[{type:'text',content:text||''}];
-  const TEL=/(0\d{2,4}-?\d{2,4}-?\d{3,4})/g,BOLD=/\*\*([^*]+?)\*\*/g,REF=/见【([^】]+)】/g;
+  // REF 必须带引导词才算交叉引用 —— 正文里也有 学研災【不含疾病】 这类纯强调用法，
+  // 只认裸【】会把它误判成链接。引导词按语言给全，译本用各自语言写即可。
+  const TEL=/(0\d{2,4}-?\d{2,4}-?\d{3,4})/g,BOLD=/\*\*([^*]+?)\*\*/g,REF=/(?:见|参照|See|참조)\s*【([^】]+)】/g;
   const marks=[];let m;
   TEL.lastIndex=0;while((m=TEL.exec(text))!==null)marks.push({at:m.index,len:m[0].length,seg:{type:'tel',number:m[1]}});
   BOLD.lastIndex=0;while((m=BOLD.exec(text))!==null)marks.push({at:m.index,len:m[0].length,seg:{type:'bold',content:m[1]}});
@@ -22,7 +24,7 @@ function renderSegments(segs){
     if(s.type==='text')return esc(s.content);
     if(s.type==='bold')return`<strong class="bold">${esc(s.content)}</strong>`;
     if(s.type==='tel')return`<button class="tel" data-tel="${esc(s.number)}">📞 ${esc(s.number)}</button>`;
-    if(s.type==='ref')return`<button class="ref" data-guide="${esc(s.guide)}" data-label="${esc(s.label)}">见【${esc(s.label)}】›</button>`;
+    if(s.type==='ref'){const see=window.GuideI18N?window.GuideI18N.t('seeRef'):'见';return`<button class="ref" data-guide="${esc(s.guide)}" data-label="${esc(s.label)}">${esc(see)}【${esc(s.label)}】›</button>`;}
     return esc(s.content||'');
   }).join('');
 }

@@ -125,6 +125,20 @@ function showCategory(catId){
   navigate('article/'+encodeURIComponent(art._id));
 }
 
+/** 交叉引用「见【某篇·某节】」的目标解析。中文原名先试，再试各语言译名 —— 译本里
+    写的是该语言的篇名，只按中文标题找会在非中文界面下全部失效。 */
+function resolveRef(name){
+  const n=String(name||'').trim();
+  if(!n)return null;
+  const direct=ARTICLES.find(a=>a.title.includes(n)||n.includes(a.title));
+  if(direct)return direct;
+  const I=window.ARTICLES_I18N||{};
+  return ARTICLES.find(a=>{
+    const tr=I[a._id]&&I[a._id].title;
+    return tr&&Object.values(tr).some(v=>v&&(v.includes(n)||n.includes(v)));
+  })||null;
+}
+
 /** 当前语言下该篇应渲染的 blocks。有译本用译本，否则回退中文原文（逐篇独立判断）。 */
 function bodyBlocks(art){
   const lang=I18N.getLang();
@@ -184,8 +198,7 @@ function showArticle(id){
   });
   body.querySelectorAll('.ref').forEach(btn=>{
     btn.addEventListener('click',()=>{
-      const guide=btn.dataset.guide||'';
-      const hit=ARTICLES.find(a=>a.title.includes(guide)||guide.includes(a.title));
+      const hit=resolveRef(btn.dataset.guide||'');
       if(hit)navigate('article/'+encodeURIComponent(hit._id));
     });
   });

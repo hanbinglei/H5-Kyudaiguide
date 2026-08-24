@@ -29,11 +29,19 @@ if (fs.existsSync(path.join(G, 'articles-body-i18n.js'))) {
 }
 
 const LANGS = ['ja', 'en', 'ko'];
+
+// 「联络方式按读者国籍本地化」是有意为之，不是翻译手滑：
+// 应急联系篇里的领事馆一节，中文版指向中国总领事馆，韩语版就该指向韩国总领事馆，
+// 日/英版面向多国读者则改为「查你自己国家的公馆」。这几组的 URL/电话必然与中文不同，
+// 所以跳过等值断言，改为打印差异供人工复核 —— 但结构断言照旧执行。
+const CONTACT_LOCALIZED = { 'guide-emergency': ['ja', 'en', 'ko'] };
+
 const errors = [];
+const notes = [];
 const stats = { translated: 0, pending: 0, blocks: 0 };
 
 // ── 从一棵 blocks 树里收集所有 URL / 电话 ──
-const TEL = /(0\d{2,4}-\d{2,4}-\d{3,4}|#\d{4}|\+86-10-\d{5,8})/g;
+const TEL = /(0\d{2,4}-\d{2,4}-\d{3,4}|#\d{4}|\+\d{1,3}(?:-\d{1,8}){1,3})/g;
 function harvest(blocks, urls, tels) {
   for (const b of blocks || []) {
     const texts = [];
@@ -89,16 +97,17 @@ for (const art of ARTICLES) {
     stats.blocks += tr.length;
     compare(art.blocks, tr, lang, art._id, '');
 
-    // URL / 电话集合必须一致
+    // URL / 电话集合必须一致（本地化联络方式的组除外，改为打印差异）
     const zu = [], zt = [], tu = [], tt = [];
     harvest(art.blocks, zu, zt);
     harvest(tr, tu, tt);
+    const localized = (CONTACT_LOCALIZED[art._id] || []).includes(lang);
     const setEq = (a, b, what) => {
       const A = [...new Set(a)].sort(), B = [...new Set(b)].sort();
-      if (A.join('|') !== B.join('|')) {
-        const miss = A.filter(x => !B.includes(x)), extra = B.filter(x => !A.includes(x));
-        errors.push(`${art._id}/${lang}: ${what}不一致 缺=${JSON.stringify(miss)} 多=${JSON.stringify(extra)}`);
-      }
+      if (A.join('|') === B.join('|')) return;
+      const miss = A.filter(x => !B.includes(x)), extra = B.filter(x => !A.includes(x));
+      const msg = `${art._id}/${lang}: ${what} 中文有而译本无=${JSON.stringify(miss)} 译本新增=${JSON.stringify(extra)}`;
+      (localized ? notes : errors).push(msg);
     };
     setEq(zu, tu, 'URL');
     setEq(zt, tt, '电话');
@@ -107,9 +116,13 @@ for (const art of ARTICLES) {
 
 console.log(`文章 ${ARTICLES.length} 篇 × ${LANGS.length} 语 = ${ARTICLES.length * LANGS.length} 组`);
 console.log(`已翻译 ${stats.translated} 组（${stats.blocks} 块） · 待翻译 ${stats.pending} 组`);
+if (notes.length) {
+  console.log(`\n⚙ ${notes.length} 处「有意本地化」的联络方式差异（请人工核对号码真实性）：`);
+  notes.forEach(n => console.log('  ' + n));
+}
 if (errors.length) {
   console.error(`\n✗ ${errors.length} 处问题：`);
   errors.forEach(e => console.error('  ' + e));
   process.exit(1);
 }
-console.log('✓ 结构 / URL / 电话 全部一致');
+console.log('\n✓ 结构一致；URL / 电话除已声明的本地化外完全一致');

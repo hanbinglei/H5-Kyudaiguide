@@ -83,9 +83,9 @@ window.ARTICLES_I18N = {
 'guide-emergency': {
   title:{ ja:'緊急連絡先', en:'Emergency Contacts', ko:'긴급 연락처' },
   summary:{
-    ja:'生命/安全の緊急番号（110/119/#7119）、中国大使館・領事館と外交部ホットライン、学校と外国人相談窓口、生活相談ホットライン。',
-    en:'Life-safety emergency numbers (110 / 119 / #7119), Chinese embassy & consulate and MFA hotlines, university and foreign-resident help desks, daily-life hotlines.',
-    ko:'생명/안전 긴급번호(110/119/#7119), 중국 대사관·영사관과 외교부 핫라인, 학교와 외국인 상담 창구, 생활 상담 핫라인.' },
+    ja:'生命・安全の緊急番号（110/119/#7119）、福岡の各国領事館、学内と外国人相談窓口、生活相談ホットライン、この地域の災害リスク。',
+    en:'Life-safety emergency numbers (110 / 119 / #7119), consulates in Fukuoka, university and foreign-resident help desks, daily-life hotlines, and local disaster risk.',
+    ko:'생명·안전 긴급번호(110/119/#7119), 주후쿠오카 대한민국 총영사관, 학교와 외국인 상담 창구, 생활 상담 핫라인, 이 지역의 재해 위험.' },
 },
 'guide-antifraud': {
   title:{ ja:'詐欺防止ガイド（新入生必読）', en:'Anti-Fraud Guide (Must-Read)', ko:'사기 방지 가이드(필독)' },
