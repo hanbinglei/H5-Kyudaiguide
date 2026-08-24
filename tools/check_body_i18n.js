@@ -34,7 +34,10 @@ const LANGS = ['ja', 'en', 'ko'];
 // 应急联系篇里的领事馆一节，中文版指向中国总领事馆，韩语版就该指向韩国总领事馆，
 // 日/英版面向多国读者则改为「查你自己国家的公馆」。这几组的 URL/电话必然与中文不同，
 // 所以跳过等值断言，改为打印差异供人工复核 —— 但结构断言照旧执行。
-const CONTACT_LOCALIZED = { 'guide-emergency': ['ja', 'en', 'ko'] };
+const CONTACT_LOCALIZED = {
+  'guide-emergency': ['ja', 'en', 'ko'],  // 领事馆按读者国籍
+  'guide-medical': ['ja', 'en', 'ko'],    // 福冈市官网指向各语言版
+};
 
 const errors = [];
 const notes = [];
