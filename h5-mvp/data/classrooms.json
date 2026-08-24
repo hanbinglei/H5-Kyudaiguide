@@ -1,0 +1,1854 @@
+[
+ {
+  "code": "1209",
+  "building": 165694547,
+  "floor": "2",
+  "name_ja": "センター1号館 1209",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター1号館1209"
+  ],
+  "seats": 30,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "1210",
+  "building": 165694547,
+  "floor": "2",
+  "name_ja": "センター1号館 1210",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター1号館1210"
+  ],
+  "seats": 30,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "1303",
+  "building": 165694547,
+  "floor": "3",
+  "name_ja": "センター1号館 1303",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター1号館1303"
+  ],
+  "seats": 80,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "1304",
+  "building": 165694547,
+  "floor": "3",
+  "name_ja": "センター1号館 1304",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター1号館1304"
+  ],
+  "seats": 28,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "1305",
+  "building": 165694547,
+  "floor": "3",
+  "name_ja": "センター1号館 1305",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター1号館1305"
+  ],
+  "seats": 40,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "1306",
+  "building": 165694547,
+  "floor": "3",
+  "name_ja": "センター1号館 1306",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター1号館1306"
+  ],
+  "seats": 40,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "1401",
+  "building": 165694547,
+  "floor": "4",
+  "name_ja": "センター1号館 1401",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター1号館1401"
+  ],
+  "seats": 58,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "1402",
+  "building": 165694547,
+  "floor": "4",
+  "name_ja": "センター1号館 1402",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター1号館1402"
+  ],
+  "seats": 80,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "1403",
+  "building": 165694547,
+  "floor": "4",
+  "name_ja": "センター1号館 1403",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター1号館1403"
+  ],
+  "seats": 80,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "1404",
+  "building": 165694547,
+  "floor": "4",
+  "name_ja": "センター1号館 1404",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター1号館1404"
+  ],
+  "seats": 34,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "1405",
+  "building": 165694547,
+  "floor": "4",
+  "name_ja": "センター1号館 1405",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター1号館1405"
+  ],
+  "seats": 40,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "1406",
+  "building": 165694547,
+  "floor": "4",
+  "name_ja": "センター1号館 1406",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター1号館1406"
+  ],
+  "seats": 40,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "1407",
+  "building": 165694547,
+  "floor": "4",
+  "name_ja": "センター1号館 1407",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター1号館1407"
+  ],
+  "seats": 40,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "1408",
+  "building": 165694547,
+  "floor": "4",
+  "name_ja": "センター1号館 1408",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター1号館1408"
+  ],
+  "seats": 40,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "1607",
+  "building": 165694547,
+  "floor": "6",
+  "name_ja": "センター1号館 1607",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター1号館1607"
+  ],
+  "seats": 30,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "1608",
+  "building": 165694547,
+  "floor": "6",
+  "name_ja": "センター1号館 1608",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター1号館1608"
+  ],
+  "seats": 30,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2103",
+  "building": 165694554,
+  "floor": "1",
+  "name_ja": "センター2号館 2103",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2103"
+  ],
+  "seats": 63,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2104",
+  "building": 165694554,
+  "floor": "1",
+  "name_ja": "センター2号館 2104",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2104"
+  ],
+  "seats": 63,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2105",
+  "building": 165694554,
+  "floor": "1",
+  "name_ja": "センター2号館 2105",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2105"
+  ],
+  "seats": 63,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2106",
+  "building": 165694554,
+  "floor": "1",
+  "name_ja": "センター2号館 2106",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2106"
+  ],
+  "seats": 63,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2107",
+  "building": 165694554,
+  "floor": "1",
+  "name_ja": "センター2号館 2107",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2107"
+  ],
+  "seats": 60,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2108",
+  "building": 165694554,
+  "floor": "1",
+  "name_ja": "センター2号館 2108",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2108"
+  ],
+  "seats": 60,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2201",
+  "building": 165694554,
+  "floor": "2",
+  "name_ja": "センター2号館 2201",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2201"
+  ],
+  "seats": 63,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2202",
+  "building": 165694554,
+  "floor": "2",
+  "name_ja": "センター2号館 2202",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2202"
+  ],
+  "seats": 63,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2203",
+  "building": 165694554,
+  "floor": "2",
+  "name_ja": "センター2号館 2203",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2203"
+  ],
+  "seats": 63,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2204",
+  "building": 165694554,
+  "floor": "2",
+  "name_ja": "センター2号館 2204",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2204"
+  ],
+  "seats": 63,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2205",
+  "building": 165694554,
+  "floor": "2",
+  "name_ja": "センター2号館 2205",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2205"
+  ],
+  "seats": 40,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2206",
+  "building": 165694554,
+  "floor": "2",
+  "name_ja": "センター2号館 2206",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2206"
+  ],
+  "seats": 40,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2207",
+  "building": 165694554,
+  "floor": "2",
+  "name_ja": "センター2号館 2207",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2207"
+  ],
+  "seats": 63,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2208",
+  "building": 165694554,
+  "floor": "2",
+  "name_ja": "センター2号館 2208",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2208"
+  ],
+  "seats": 63,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2209",
+  "building": 165694554,
+  "floor": "2",
+  "name_ja": "センター2号館 2209",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2209"
+  ],
+  "seats": 63,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2210",
+  "building": 165694554,
+  "floor": "2",
+  "name_ja": "センター2号館 2210",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2210"
+  ],
+  "seats": 63,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2211",
+  "building": 165694554,
+  "floor": "2",
+  "name_ja": "センター2号館 2211",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2211"
+  ],
+  "seats": 63,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2212",
+  "building": 165694554,
+  "floor": "2",
+  "name_ja": "センター2号館 2212",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2212"
+  ],
+  "seats": 63,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2213",
+  "building": 165694554,
+  "floor": "2",
+  "name_ja": "センター2号館 2213",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2213"
+  ],
+  "seats": 40,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2214",
+  "building": 165694554,
+  "floor": "2",
+  "name_ja": "センター2号館 2214",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2214"
+  ],
+  "seats": 40,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2215",
+  "building": 165694554,
+  "floor": "2",
+  "name_ja": "センター2号館 2215",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2215"
+  ],
+  "seats": 63,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2216",
+  "building": 165694554,
+  "floor": "2",
+  "name_ja": "センター2号館 2216",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2216"
+  ],
+  "seats": 63,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2301",
+  "building": 165694554,
+  "floor": "3",
+  "name_ja": "センター2号館 2301",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2301"
+  ],
+  "seats": 40,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2302",
+  "building": 165694554,
+  "floor": "3",
+  "name_ja": "センター2号館 2302",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2302"
+  ],
+  "seats": 40,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2303",
+  "building": 165694554,
+  "floor": "3",
+  "name_ja": "センター2号館 2303",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2303"
+  ],
+  "seats": 127,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2304",
+  "building": 165694554,
+  "floor": "3",
+  "name_ja": "センター2号館 2304",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2304"
+  ],
+  "seats": 127,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2305",
+  "building": 165694554,
+  "floor": "3",
+  "name_ja": "センター2号館 2305",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2305"
+  ],
+  "seats": 127,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2306",
+  "building": 165694554,
+  "floor": "3",
+  "name_ja": "センター2号館 2306",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2306"
+  ],
+  "seats": 127,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2308",
+  "building": 165694554,
+  "floor": "3",
+  "name_ja": "センター2号館 2308",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2308"
+  ],
+  "seats": 127,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2309",
+  "building": 165694554,
+  "floor": "3",
+  "name_ja": "センター2号館 2309",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2309"
+  ],
+  "seats": 40,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2310",
+  "building": 165694554,
+  "floor": "3",
+  "name_ja": "センター2号館 2310",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2310"
+  ],
+  "seats": 40,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2401",
+  "building": 165694554,
+  "floor": "4",
+  "name_ja": "センター2号館 2401",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2401"
+  ],
+  "seats": 40,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2402",
+  "building": 165694554,
+  "floor": "4",
+  "name_ja": "センター2号館 2402",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2402"
+  ],
+  "seats": 40,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2403",
+  "building": 165694554,
+  "floor": "4",
+  "name_ja": "センター2号館 2403",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2403"
+  ],
+  "seats": 150,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2404",
+  "building": 165694554,
+  "floor": "4",
+  "name_ja": "センター2号館 2404",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2404"
+  ],
+  "seats": 150,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2406",
+  "building": 165694554,
+  "floor": "4",
+  "name_ja": "センター2号館 2406",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2406"
+  ],
+  "seats": 150,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2407",
+  "building": 165694554,
+  "floor": "4",
+  "name_ja": "センター2号館 2407",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2407"
+  ],
+  "seats": 150,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2408",
+  "building": 165694554,
+  "floor": "4",
+  "name_ja": "センター2号館 2408",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2408"
+  ],
+  "seats": 40,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "2409",
+  "building": 165694554,
+  "floor": "4",
+  "name_ja": "センター2号館 2409",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "センター2号館2409"
+  ],
+  "seats": 36,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "A-101",
+  "building": 770575334,
+  "floor": "1",
+  "name_ja": "演習室A-101",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "演習室A-101",
+   "A101"
+  ],
+  "seats": 30,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "A-102",
+  "building": 770575334,
+  "floor": "1",
+  "name_ja": "演習室A-102",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "演習室A-102",
+   "A102"
+  ],
+  "seats": 30,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "A-103",
+  "building": 770575334,
+  "floor": "1",
+  "name_ja": "演習室A-103",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "演習室A-103",
+   "A103"
+  ],
+  "seats": 30,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "A-104",
+  "building": 770575334,
+  "floor": "1",
+  "name_ja": "演習室A-104",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "演習室A-104",
+   "A104"
+  ],
+  "seats": 30,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "A-105",
+  "building": 770575334,
+  "floor": "1",
+  "name_ja": "演習室A-105",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "演習室A-105",
+   "A105"
+  ],
+  "seats": 60,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "A-117",
+  "building": 770575334,
+  "floor": "1",
+  "name_ja": "演習室A-117",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "演習室A-117",
+   "A117"
+  ],
+  "seats": 140,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "A-118",
+  "building": 770575334,
+  "floor": "1",
+  "name_ja": "演習室A-118",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "演習室A-118",
+   "A118"
+  ],
+  "seats": 98,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "B-101",
+  "building": 770575334,
+  "floor": "1",
+  "name_ja": "演習室B-101",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "演習室B-101",
+   "B101"
+  ],
+  "seats": 98,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "B-102",
+  "building": 770575334,
+  "floor": "1",
+  "name_ja": "演習室B-102",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "演習室B-102",
+   "B102"
+  ],
+  "seats": 45,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "B-103",
+  "building": 770575334,
+  "floor": "1",
+  "name_ja": "演習室B-103",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "演習室B-103",
+   "B103"
+  ],
+  "seats": 30,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "B-104",
+  "building": 770575334,
+  "floor": "1",
+  "name_ja": "演習室B-104",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "演習室B-104",
+   "B104"
+  ],
+  "seats": 30,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "B-105",
+  "building": 770575334,
+  "floor": "1",
+  "name_ja": "演習室B-105",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "演習室B-105",
+   "B105"
+  ],
+  "seats": 30,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "B-106",
+  "building": 770575334,
+  "floor": "1",
+  "name_ja": "演習室B-106",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "演習室B-106",
+   "B106"
+  ],
+  "seats": 22,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "B-112",
+  "building": 770575334,
+  "floor": "1",
+  "name_ja": "演習室B-112",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "演習室B-112",
+   "B112"
+  ],
+  "seats": 200,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "B-207",
+  "building": 770575334,
+  "floor": "2",
+  "name_ja": "演習室B-207",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "演習室B-207",
+   "B207"
+  ],
+  "seats": 12,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "B-208",
+  "building": 770575334,
+  "floor": "2",
+  "name_ja": "演習室B-208",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "演習室B-208",
+   "B208"
+  ],
+  "seats": 32,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "B-217",
+  "building": 770575334,
+  "floor": "2",
+  "name_ja": "演習室B-217",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "演習室B-217",
+   "B217"
+  ],
+  "seats": 12,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "B-218",
+  "building": 770575334,
+  "floor": "2",
+  "name_ja": "演習室B-218",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "演習室B-218",
+   "B218"
+  ],
+  "seats": 12,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "B-219",
+  "building": 770575334,
+  "floor": "2",
+  "name_ja": "演習室B-219",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "演習室B-219",
+   "B219"
+  ],
+  "seats": 12,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "B-220",
+  "building": 770575334,
+  "floor": "2",
+  "name_ja": "演習室B-220",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "演習室B-220",
+   "B220"
+  ],
+  "seats": 12,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "B-221",
+  "building": 770575334,
+  "floor": "2",
+  "name_ja": "演習室B-221",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "演習室B-221",
+   "B221"
+  ],
+  "seats": 12,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "C-210",
+  "building": 770575334,
+  "floor": "2",
+  "name_ja": "演習室C-210",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "演習室C-210",
+   "C210"
+  ],
+  "seats": 12,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "C-211",
+  "building": 770575334,
+  "floor": "2",
+  "name_ja": "演習室C-211",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "演習室C-211",
+   "C211"
+  ],
+  "seats": 12,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "C-212",
+  "building": 770575334,
+  "floor": "2",
+  "name_ja": "演習室C-212",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "演習室C-212",
+   "C212"
+  ],
+  "seats": 30,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "プレゼンスペース（イースト1号館）",
+  "building": 770575334,
+  "floor": "1",
+  "name_ja": "イースト1号館 プレゼンスペース",
+  "name_zh": "演示空间",
+  "name_en": "Presentation Space",
+  "aliases": [
+   "プレゼンスペース"
+  ],
+  "seats": null,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "D-103",
+  "building": 770575335,
+  "floor": "1",
+  "name_ja": "講義室D-103",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "講義室D-103",
+   "D103"
+  ],
+  "seats": 350,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "D-105",
+  "building": 770575335,
+  "floor": "1",
+  "name_ja": "講義室D-105",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "講義室D-105",
+   "D105"
+  ],
+  "seats": 250,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "D-106",
+  "building": 770575335,
+  "floor": "1",
+  "name_ja": "講義室D-106",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "講義室D-106",
+   "D106"
+  ],
+  "seats": 50,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "D-107",
+  "building": 770575335,
+  "floor": "1",
+  "name_ja": "講義室D-107",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "講義室D-107",
+   "D107"
+  ],
+  "seats": 50,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "D-108",
+  "building": 770575335,
+  "floor": "1",
+  "name_ja": "講義室D-108",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "講義室D-108",
+   "D108"
+  ],
+  "seats": 24,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "D-109",
+  "building": 770575335,
+  "floor": "1",
+  "name_ja": "講義室D-109",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "講義室D-109",
+   "D109"
+  ],
+  "seats": 24,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "D-110",
+  "building": 770575335,
+  "floor": "1",
+  "name_ja": "講義室D-110",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "講義室D-110",
+   "D110"
+  ],
+  "seats": 12,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "D-111",
+  "building": 770575335,
+  "floor": "1",
+  "name_ja": "講義室D-111",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "講義室D-111",
+   "D111"
+  ],
+  "seats": 12,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "D-112",
+  "building": 770575335,
+  "floor": "1",
+  "name_ja": "講義室D-112",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "講義室D-112",
+   "D112"
+  ],
+  "seats": 12,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "E-101",
+  "building": 770575335,
+  "floor": "1",
+  "name_ja": "講義室E-101",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "講義室E-101",
+   "E101"
+  ],
+  "seats": 30,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "E-102",
+  "building": 770575335,
+  "floor": "1",
+  "name_ja": "講義室E-102",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "講義室E-102",
+   "E102"
+  ],
+  "seats": 30,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "E-103",
+  "building": 770575335,
+  "floor": "1",
+  "name_ja": "講義室E-103",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "講義室E-103",
+   "E103"
+  ],
+  "seats": 30,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "E-104",
+  "building": 770575335,
+  "floor": "1",
+  "name_ja": "講義室E-104",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "講義室E-104",
+   "E104"
+  ],
+  "seats": 30,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "E-105",
+  "building": 770575335,
+  "floor": "1",
+  "name_ja": "講義室E-105",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "講義室E-105",
+   "E105"
+  ],
+  "seats": 70,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "E-109",
+  "building": 770575335,
+  "floor": "1",
+  "name_ja": "講義室E-109",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "講義室E-109",
+   "E109"
+  ],
+  "seats": 140,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "E-110",
+  "building": 770575335,
+  "floor": "1",
+  "name_ja": "講義室E-110",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "講義室E-110",
+   "E110"
+  ],
+  "seats": 100,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "E-112",
+  "building": 770575335,
+  "floor": "1",
+  "name_ja": "講義室E-112",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "講義室E-112",
+   "E112"
+  ],
+  "seats": 100,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "プレゼンスペース（イースト2号館）",
+  "building": 770575335,
+  "floor": "1",
+  "name_ja": "イースト2号館 プレゼンスペース",
+  "name_zh": "演示空间",
+  "name_en": "Presentation Space",
+  "aliases": [
+   "プレゼンスペース"
+  ],
+  "seats": null,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "大講義室Ⅰ",
+  "building": 770575332,
+  "floor": "1",
+  "name_ja": "大講義室Ⅰ",
+  "name_zh": "大讲义室Ⅰ（铃与未来厅Ⅰ）",
+  "name_en": "Lecture Room I (Suzuyo Mirai Hall I)",
+  "aliases": [
+   "鈴与未来ホールⅠ",
+   "Suzuyo Mirai Hall"
+  ],
+  "seats": 500,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "大講義室Ⅱ",
+  "building": 770575333,
+  "floor": "1",
+  "name_ja": "大講義室Ⅱ",
+  "name_zh": "大讲义室Ⅱ（铃与未来厅Ⅱ）",
+  "name_en": "Lecture Room II (Suzuyo Mirai Hall II)",
+  "aliases": [
+   "鈴与未来ホールⅡ",
+   "Suzuyo Mirai Hall"
+  ],
+  "seats": 500,
+  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
+ },
+ {
+  "code": "工学部第1講義室",
+  "building": 167423392,
+  "floor": "2",
+  "name_ja": "工学部第1講義室",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "工学部第1",
+   "第1講義室"
+  ],
+  "seats": null,
+  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
+ },
+ {
+  "code": "工学部第2講義室",
+  "building": 167423392,
+  "floor": "2",
+  "name_ja": "工学部第2講義室",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "工学部第2",
+   "第2講義室"
+  ],
+  "seats": null,
+  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
+ },
+ {
+  "code": "工学部第3講義室",
+  "building": 167423392,
+  "floor": "3",
+  "name_ja": "工学部第3講義室",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "工学部第3",
+   "第3講義室"
+  ],
+  "seats": null,
+  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
+ },
+ {
+  "code": "工学部第4講義室",
+  "building": 167423392,
+  "floor": "3",
+  "name_ja": "工学部第4講義室",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "工学部第4",
+   "第4講義室"
+  ],
+  "seats": null,
+  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
+ },
+ {
+  "code": "工学部第5講義室",
+  "building": 10019151273,
+  "floor": "1",
+  "name_ja": "工学部第5講義室",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "工学部第5",
+   "第5講義室",
+   "総合学習プラザ"
+  ],
+  "seats": null,
+  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
+ },
+ {
+  "code": "工学部第6講義室",
+  "building": 10019151273,
+  "floor": "1",
+  "name_ja": "工学部第6講義室",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "工学部第6",
+   "第6講義室",
+   "総合学習プラザ"
+  ],
+  "seats": null,
+  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
+ },
+ {
+  "code": "工学部第7講義室",
+  "building": 10019151273,
+  "floor": "1",
+  "name_ja": "工学部第7講義室",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "工学部第7",
+   "第7講義室",
+   "総合学習プラザ"
+  ],
+  "seats": null,
+  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
+ },
+ {
+  "code": "工学部第8講義室",
+  "building": 10019151273,
+  "floor": "1",
+  "name_ja": "工学部第8講義室",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "工学部第8",
+   "第8講義室",
+   "総合学習プラザ"
+  ],
+  "seats": null,
+  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
+ },
+ {
+  "code": "工学部第9講義室",
+  "building": 10019151273,
+  "floor": "1",
+  "name_ja": "工学部第9講義室",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "工学部第9",
+   "第9講義室",
+   "総合学習プラザ"
+  ],
+  "seats": null,
+  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
+ },
+ {
+  "code": "工学部第10講義室",
+  "building": 10019151273,
+  "floor": "1",
+  "name_ja": "工学部第10講義室",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "工学部第10",
+   "第10講義室",
+   "総合学習プラザ"
+  ],
+  "seats": null,
+  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
+ },
+ {
+  "code": "工学部第11講義室",
+  "building": 10019151273,
+  "floor": "1",
+  "name_ja": "工学部第11講義室",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "工学部第11",
+   "第11講義室",
+   "総合学習プラザ"
+  ],
+  "seats": null,
+  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
+ },
+ {
+  "code": "工学部第12講義室",
+  "building": 10019151273,
+  "floor": "2",
+  "name_ja": "工学部第12講義室",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "工学部第12",
+   "第12講義室",
+   "総合学習プラザ"
+  ],
+  "seats": null,
+  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
+ },
+ {
+  "code": "工学部第13講義室",
+  "building": 10019151273,
+  "floor": "2",
+  "name_ja": "工学部第13講義室",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "工学部第13",
+   "第13講義室",
+   "総合学習プラザ"
+  ],
+  "seats": null,
+  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
+ },
+ {
+  "code": "工学部第14講義室",
+  "building": 10019151273,
+  "floor": "2",
+  "name_ja": "工学部第14講義室",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "工学部第14",
+   "第14講義室",
+   "総合学習プラザ"
+  ],
+  "seats": null,
+  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
+ },
+ {
+  "code": "工学部第15講義室",
+  "building": 10019151273,
+  "floor": "2",
+  "name_ja": "工学部第15講義室",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "工学部第15",
+   "第15講義室",
+   "総合学習プラザ"
+  ],
+  "seats": null,
+  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
+ },
+ {
+  "code": "工学部第16講義室",
+  "building": 10019151273,
+  "floor": "2",
+  "name_ja": "工学部第16講義室",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "工学部第16",
+   "第16講義室",
+   "総合学習プラザ"
+  ],
+  "seats": null,
+  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
+ },
+ {
+  "code": "工学部大講義室",
+  "building": 10019151273,
+  "floor": "2",
+  "name_ja": "工学部大講義室",
+  "name_zh": "工学部大讲义室",
+  "name_en": "Engineering Large Lecture Room",
+  "aliases": [
+   "大講義室（工学部）",
+   "総合学習プラザ大講義室"
+  ],
+  "seats": null,
+  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
+ },
+ {
+  "code": "工学部中講義室",
+  "building": 10019151272,
+  "floor": "2",
+  "name_ja": "工学部中講義室",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "中講義室"
+  ],
+  "seats": null,
+  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
+ },
+ {
+  "code": "311講義室",
+  "building": 10019151272,
+  "floor": "3",
+  "name_ja": "311講義室（機械1）",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "311",
+   "機械1"
+  ],
+  "seats": null,
+  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
+ },
+ {
+  "code": "312講義室",
+  "building": 10019151272,
+  "floor": "3",
+  "name_ja": "312講義室（機械2）",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "312",
+   "機械2"
+  ],
+  "seats": null,
+  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
+ },
+ {
+  "code": "313講義室",
+  "building": 10019151272,
+  "floor": "3",
+  "name_ja": "313講義室（機械3）",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "313",
+   "機械3"
+  ],
+  "seats": null,
+  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
+ },
+ {
+  "code": "製図室302",
+  "building": 10019151272,
+  "floor": "3",
+  "name_ja": "製図室302",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "302"
+  ],
+  "seats": null,
+  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
+ },
+ {
+  "code": "製図室303",
+  "building": 10019151272,
+  "floor": "3",
+  "name_ja": "製図室303",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "303"
+  ],
+  "seats": null,
+  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
+ },
+ {
+  "code": "製図室304",
+  "building": 10019151272,
+  "floor": "3",
+  "name_ja": "製図室304",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "304"
+  ],
+  "seats": null,
+  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
+ },
+ {
+  "code": "C-501",
+  "building": 10012235450,
+  "floor": "5",
+  "name_ja": "C-501／大講義室",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "C501",
+   "大講義室"
+  ],
+  "seats": null,
+  "source": "https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"
+ },
+ {
+  "code": "C-502",
+  "building": 10012235450,
+  "floor": "5",
+  "name_ja": "C-502",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "C502"
+  ],
+  "seats": null,
+  "source": "https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"
+ },
+ {
+  "code": "C-503",
+  "building": 10012235450,
+  "floor": "5",
+  "name_ja": "C-503／小講義室",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "C503",
+   "小講義室"
+  ],
+  "seats": null,
+  "source": "https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"
+ },
+ {
+  "code": "C-504",
+  "building": 10012235450,
+  "floor": "5",
+  "name_ja": "C-504／小講義室",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "C504",
+   "小講義室"
+  ],
+  "seats": null,
+  "source": "https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"
+ },
+ {
+  "code": "C-512",
+  "building": 10012235450,
+  "floor": "5",
+  "name_ja": "C-512／中講義室",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "C512",
+   "中講義室"
+  ],
+  "seats": null,
+  "source": "https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"
+ },
+ {
+  "code": "C-513",
+  "building": 10012235450,
+  "floor": "5",
+  "name_ja": "C-513／中講義室",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "C513",
+   "中講義室"
+  ],
+  "seats": null,
+  "source": "https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"
+ },
+ {
+  "code": "C-514",
+  "building": 10012235450,
+  "floor": "5",
+  "name_ja": "C-514",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "C514"
+  ],
+  "seats": null,
+  "source": "https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"
+ },
+ {
+  "code": "C-515",
+  "building": 10012235450,
+  "floor": "5",
+  "name_ja": "C-515",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "C515"
+  ],
+  "seats": null,
+  "source": "https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"
+ },
+ {
+  "code": "C-408",
+  "building": 10012235450,
+  "floor": "4",
+  "name_ja": "C-408／大会議室",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "C408",
+   "大会議室"
+  ],
+  "seats": null,
+  "source": "https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"
+ },
+ {
+  "code": "C-409",
+  "building": 10012235450,
+  "floor": "4",
+  "name_ja": "C-409／小会議室",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "C409",
+   "小会議室"
+  ],
+  "seats": null,
+  "source": "https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"
+ },
+ {
+  "code": "D-413",
+  "building": 10012235450,
+  "floor": "4",
+  "name_ja": "D-413／IMIオーディトリアム",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "D413",
+   "IMIオーディトリアム"
+  ],
+  "seats": null,
+  "source": "https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"
+ },
+ {
+  "code": "D-414",
+  "building": 10012235450,
+  "floor": "4",
+  "name_ja": "D-414／IMIコンファレンスルーム",
+  "name_zh": "",
+  "name_en": "",
+  "aliases": [
+   "D414",
+   "IMIコンファレンスルーム"
+  ],
+  "seats": null,
+  "source": "https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"
+ }
+]

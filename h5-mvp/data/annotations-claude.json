@@ -1,0 +1,620 @@
+
+{
+ "225209493": {
+  "name_zh": "松涛炼成场",
+  "name_ja": "松濤錬成場",
+  "name_en": "Shoto Training Center",
+  "cat": "sports",
+  "tier": 1,
+  "num": 5
+ },
+ "166555793": {
+  "name_zh": "课外活动设施Ⅱ",
+  "name_ja": "課外活動施設Ⅱ",
+  "name_en": "Extracurricular Activities Facility II",
+  "cat": "other",
+  "num": 6
+ },
+ "1388144045": {
+  "name_zh": "课外活动设施Ⅲ",
+  "name_ja": "課外活動施設Ⅲ",
+  "name_en": "Extracurricular Activities Facility III",
+  "cat": "other",
+  "num": 7
+ },
+ "772333520": {
+  "name_zh": "小体育馆",
+  "name_ja": "小体育館",
+  "name_en": "Gymnasium (West)",
+  "cat": "sports",
+  "tier": 1,
+  "num": 8
+ },
+ "222850489": {
+  "name_zh": "加速器·束流应用科学中心（CE70）",
+  "name_ja": "加速器・ビーム応用科学センター",
+  "name_en": "Center for Accelerator and Beam Applied Science (CE70)",
+  "cat": "research",
+  "num": 9
+ },
+ "222850501": {
+  "name_zh": "船舶海洋性能工学实验楼（EN80）",
+  "name_ja": "船舶海洋性能工学実験棟",
+  "name_en": "Seakeeping and Manoeuvring Basin (EN80)",
+  "cat": "research",
+  "num": 10
+ },
+ "222850490": {
+  "name_zh": "先进航空航天工学实验楼（EN70）",
+  "name_ja": "先進航空宇宙工学実験棟",
+  "name_en": "Center for Advanced Aerospace Engineering (EN70)",
+  "cat": "research",
+  "num": 11
+ },
+ "223785628": {
+  "name_zh": "卫星·通信实验楼（IE20）",
+  "name_ja": "衛星・通信実験棟",
+  "name_en": "Satellite Communications Laboratory (IE20)",
+  "cat": "research",
+  "num": 12
+ },
+ "225209468": {
+  "name_zh": "农业生物研究设施（AG40）",
+  "name_ja": "アグリ・バイオ研究施設",
+  "name_en": "Agri-Bio Research Laboratory (AG40)",
+  "cat": "research",
+  "num": 13
+ },
+ "222850493": {
+  "name_zh": "公共3号馆（CF3）",
+  "name_ja": "パブリック3号館",
+  "name_en": "Common Facility 3 (CF3)",
+  "cat": "teaching",
+  "num": 14
+ },
+ "222850494": {
+  "name_zh": "次世代能源实证设施（FE）",
+  "name_ja": "次世代エネルギー実証施設",
+  "name_en": "Hydrogen Institute for Sustainability (FE)",
+  "cat": "research",
+  "num": 15
+ },
+ "772333504": {
+  "name_zh": "生物环境利用推进中心（AG10）",
+  "name_ja": "生物環境利用推進センター",
+  "name_en": "Biotron Application Center (AG10)",
+  "cat": "research",
+  "num": 20
+ },
+ "772333505": {
+  "name_zh": "水环境·森林保全实验楼（AG11）",
+  "name_ja": "水環境実験棟・森林保全実験棟",
+  "name_en": "Water Environment Engineering Laboratory (AG11)",
+  "cat": "research",
+  "num": 21
+ },
+ "772333507": {
+  "name_zh": "家蚕生物资源研究设施（AG22）",
+  "name_ja": "カイコバイオリソース研究施設",
+  "name_en": "Laboratory for Silkworm Bioresources (AG22)",
+  "cat": "research",
+  "num": 22
+ },
+ "224604028": {
+  "name_zh": "工学部实验设施群·航空風洞実験棟",
+  "name_ja": "航空風洞実験棟",
+  "name_en": "Engineering Department Experimental Facilities",
+  "cat": "research",
+  "num": 26
+ },
+ "167428490": {
+  "name_zh": "工学部实验设施群·航空宇宙工学／知能機械システム実験棟",
+  "name_ja": "航空宇宙工学／知能機械システム実験棟",
+  "name_en": "Engineering Department Experimental Facilities",
+  "cat": "research",
+  "num": 26
+ },
+ "166554947": {
+  "name_zh": "工学部实验设施群·都市環境システム工学実験棟",
+  "name_ja": "都市環境システム工学実験棟",
+  "name_en": "Engineering Department Experimental Facilities",
+  "cat": "research",
+  "num": 26
+ },
+ "900234570": {
+  "name_zh": "工学系综合研究楼（协作空间）",
+  "name_ja": "工学系総合研究棟",
+  "name_en": "Engineering Research Laboratory",
+  "cat": "research",
+  "num": 27
+ },
+ "900413738": {
+  "name_zh": "钢铁研究中心（EN40）",
+  "name_ja": "鉄鋼リサーチセンター（EN40）",
+  "name_en": "Research Center for Steel (EN40)",
+  "cat": "research",
+  "num": 28
+ },
+ "1388128338": {
+  "name_zh": "加氢站（HY40）",
+  "name_ja": "水素ステーション（HY40）",
+  "name_en": "Hydrogen Station (HY40)",
+  "cat": "other",
+  "num": 29
+ },
+ "166554953": {
+  "name_zh": "氢能源国际研究中心（HY30）",
+  "name_ja": "水素エネルギー国際研究センター",
+  "name_en": "Hydrogen Institute for Sustainability (HY30)",
+  "cat": "research",
+  "num": 30
+ },
+ "166554957": {
+  "name_zh": "氢材料尖端科学研究中心（HY10）",
+  "name_ja": "水素材料先端科学研究センター",
+  "name_en": "Hydrogen Institute for Sustainability (HY10)",
+  "cat": "research",
+  "num": 31
+ },
+ "167423390": {
+  "name_zh": "West 3号馆",
+  "name_ja": "ウエスト3号館",
+  "name_en": "West Zone 3",
+  "cat": "teaching",
+  "num": 34
+ },
+ "166556131": {
+  "name_zh": "Big Dora（食堂·售店）",
+  "name_ja": "ビッグどら",
+  "name_en": "Big Dora (Restaurant and Stores)",
+  "cat": "dining",
+  "tier": 1,
+  "num": 37
+ },
+ "167423392": {
+  "name_zh": "西讲义楼（E-café）",
+  "name_ja": "西講義棟",
+  "name_en": "Lecture Hall West, E-café",
+  "cat": "teaching",
+  "num": 38
+ },
+ "1388128332": {
+  "name_zh": "石艺术 QIAO",
+  "name_ja": "石のアート QIAO（チャオ）",
+  "name_en": "QIAO (Rock Art)",
+  "cat": "other",
+  "num": 39
+ },
+ "494148473": {
+  "name_zh": "Big Leaf（食堂·商店·讲义室）",
+  "name_ja": "ビッグリーフ",
+  "name_en": "Big Leaf (Restaurant, Shops and Lecture Rooms)",
+  "cat": "dining",
+  "tier": 1,
+  "num": 41
+ },
+ "166554943": {
+  "name_zh": "理系图书馆（Libca）",
+  "name_ja": "理系図書館",
+  "name_en": "Science and Technology Library",
+  "cat": "library",
+  "tier": 1,
+  "num": 42
+ },
+ "224604022": {
+  "name_zh": "信息基盘研究开发中心楼",
+  "name_ja": "情報基盤研究開発センター棟",
+  "name_en": "Research Institute for Information Technology Building",
+  "cat": "research",
+  "num": 43
+ },
+ "166554944": {
+  "name_zh": "低温中心（CE60,61）",
+  "name_ja": "低温センター",
+  "name_en": "Low Temperature Center (Ito Center) (CE60, 61)",
+  "cat": "research",
+  "num": 44
+ },
+ "166554959": {
+  "name_zh": "超导系统科学研究中心（CE50,51）",
+  "name_ja": "超伝導システム科学研究センター",
+  "name_en": "Research Institute of Superconductor Science and Systems (RISS)",
+  "cat": "research",
+  "num": 45
+ },
+ "900234563": {
+  "name_zh": "先导物质科学研究所（CE41）",
+  "name_ja": "先導物質科学研究所",
+  "name_en": "Institute for Materials Chemistry and Engineering (CE41)",
+  "cat": "research",
+  "num": 46
+ },
+ "166554952": {
+  "name_zh": "环境工学研究教育中心（CE40）",
+  "name_ja": "環境工学研究教育センター",
+  "name_en": "Center for Research and Education of Environmental Technology (CE40)",
+  "cat": "teaching",
+  "num": 47
+ },
+ "900234564": {
+  "name_zh": "同位素综合中心（CE31）",
+  "name_ja": "アイソトープ総合センター",
+  "name_en": "Central Institute of Radioisotope Science and Safety Management (CE31)",
+  "cat": "research",
+  "num": 48
+ },
+ "166554960": {
+  "name_zh": "超高压电子显微镜楼（CE20,21）",
+  "name_ja": "超高圧電子顕微鏡棟",
+  "name_en": "Research Laboratory for High Voltage Electron Microscopy (CE20, 21)",
+  "cat": "other",
+  "num": 49
+ },
+ "166554946": {
+  "name_zh": "公共1号馆（CF1）",
+  "name_ja": "パブリック1号館",
+  "name_en": "Common Facility 1 (CF1)",
+  "cat": "teaching",
+  "num": 50
+ },
+ "900234565": {
+  "name_zh": "国际空间天气科学·教育中心（CE10）",
+  "name_ja": "国際宇宙天気科学・教育センター",
+  "name_en": "International Research Center for Space and Planetary Environmental Science (CE10)",
+  "cat": "teaching",
+  "num": 51
+ },
+ "166559841": {
+  "name_zh": "稻盛财团纪念馆",
+  "name_ja": "稲盛財団記念館",
+  "name_en": "INAMORI Center",
+  "cat": "admin",
+  "tier": 1,
+  "num": 52
+ },
+ "166559478": {
+  "name_zh": "能源中心",
+  "name_ja": "エネルギーセンター",
+  "name_en": "Energy Center",
+  "cat": "research",
+  "num": 53
+ },
+ "166553608": {
+  "name_zh": "公共4号馆（CF4）",
+  "name_ja": "パブリック4号館",
+  "name_en": "Common Facility 4 (CF4)",
+  "cat": "teaching",
+  "num": 54
+ },
+ "166553605": {
+  "name_zh": "环保中心",
+  "name_ja": "エコセンター",
+  "name_en": "Eco Center",
+  "cat": "admin",
+  "tier": 1,
+  "num": 55
+ },
+ "166556132": {
+  "name_zh": "公共2号馆（CF2·童梦咖啡）",
+  "name_ja": "パブリック2号館",
+  "name_en": "Common Facility 2 (CF2), Doumu Cafe",
+  "cat": "teaching",
+  "num": 56
+ },
+ "900436139": {
+  "name_zh": "校园公共空间",
+  "name_ja": "キャンパス・コモン",
+  "name_en": "Campus Common",
+  "cat": "other",
+  "num": 57
+ },
+ "900410843": {
+  "name_zh": "给水中心·环境安全中心",
+  "name_ja": "給水センター",
+  "name_en": "Water Supply Center, Center for Environment and Safety",
+  "cat": "admin",
+  "tier": 1,
+  "num": 58
+ },
+ "165694577": {
+  "name_zh": "Center 5号馆",
+  "name_ja": "センター5号館",
+  "name_en": "Center Zone 5",
+  "cat": "admin",
+  "tier": 1,
+  "num": 59
+ },
+ "222850629": {
+  "name_zh": "Center 6号馆·伊都诊疗所",
+  "name_ja": "センター6号館",
+  "name_en": "Center Zone 6, Ito Clinic",
+  "cat": "admin",
+  "tier": 1,
+  "num": 60
+ },
+ "166556363": {
+  "name_zh": "Big Sand（食堂·售店）",
+  "name_ja": "ビックさんど",
+  "name_en": "Big Sand (Restaurant and Stores)",
+  "cat": "dining",
+  "tier": 1,
+  "num": 61
+ },
+ "165694557": {
+  "name_zh": "Big Orange（信息中心）",
+  "name_ja": "ビッグオレンジ",
+  "name_en": "Big Orange (Information Center)",
+  "cat": "dining",
+  "tier": 1,
+  "num": 62
+ },
+ "165694547": {
+  "name_zh": "Center 1号馆",
+  "name_ja": "センター1号館",
+  "name_en": "Center Zone 1",
+  "cat": "admin",
+  "tier": 1,
+  "num": 63
+ },
+ "165694554": {
+  "name_zh": "Center 2号馆（Q-Commons·Qasis食堂）",
+  "name_ja": "センター2号館",
+  "name_en": "Center Zone 2, Q-Commons & Qasis",
+  "cat": "dining",
+  "tier": 1,
+  "num": 64
+ },
+ "329404792": {
+  "name_zh": "Center 3号馆",
+  "name_ja": "センター3号館",
+  "name_en": "Center Zone 3",
+  "cat": "admin",
+  "tier": 1,
+  "num": 65
+ },
+ "900236665": {
+  "name_zh": "Center 4号馆",
+  "name_ja": "センター4号館",
+  "name_en": "Center Zone 4",
+  "cat": "admin",
+  "tier": 1,
+  "num": 66
+ },
+ "617112195": {
+  "name_zh": "椎木讲堂（大学本部）",
+  "name_ja": "椎木講堂",
+  "name_en": "Shiiki Hall, University Headquarters",
+  "cat": "admin",
+  "tier": 1,
+  "num": 67
+ },
+ "1388137200": {
+  "name_zh": "藤井画廊",
+  "name_ja": "フジイギャラリー",
+  "name_en": "Fujii Gallery",
+  "cat": "other",
+  "num": 68
+ },
+ "165694585": {
+  "name_zh": "课外活动设施Ⅰ",
+  "name_ja": "課外活動施設Ⅰ",
+  "name_en": "Extracurricular Activities Facility I",
+  "cat": "other",
+  "num": 70
+ },
+ "1388128319": {
+  "name_zh": "综合体育馆",
+  "name_ja": "総合体育館",
+  "name_en": "Gymnasium",
+  "cat": "sports",
+  "tier": 1,
+  "num": 71
+ },
+ "617425205": {
+  "name_zh": "皎皎舍（书店·售店）",
+  "name_ja": "皎皎舎",
+  "name_en": "Koh-Koh-Sha House (Stores)",
+  "cat": "dorm",
+  "tier": 1,
+  "num": 73
+ },
+ "900252571": {
+  "name_zh": "亭亭舍",
+  "name_ja": "亭亭舎",
+  "name_en": "Tei-Tei-Sha House",
+  "cat": "dorm",
+  "tier": 1,
+  "num": 74
+ },
+ "165699327": {
+  "name_zh": "伊都迎宾馆",
+  "name_ja": "伊都ゲストハウス",
+  "name_en": "Ito Guest House",
+  "cat": "dorm",
+  "tier": 1,
+  "num": 78
+ },
+ "900410844": {
+  "name_zh": "日本乔纳森·KS·蔡文化馆",
+  "name_ja": "日本ジョナサン・ＫＳ・チョイ文化館",
+  "name_en": "Jonathan KS Choi Cultural Centre of Japan",
+  "cat": "admin",
+  "tier": 1,
+  "num": 79
+ },
+ "221699862": {
+  "name_zh": "碳中和能源国际研究所 第1研究楼",
+  "name_ja": "カーボンニュートラル・エネルギー国際研究所 第1研究棟",
+  "name_en": "International Institute for Carbon-Neutral Energy Research (I²CNER) 1",
+  "cat": "research",
+  "num": 80
+ },
+ "222842348": {
+  "name_zh": "碳中和能源国际研究所 第2研究楼",
+  "name_ja": "カーボンニュートラル・エネルギー国際研究所 第2研究棟",
+  "name_en": "International Institute for Carbon-Neutral Energy Research (I²CNER) 2",
+  "cat": "research",
+  "num": 81
+ },
+ "770575329": {
+  "name_zh": "共进化社会系统创新设施",
+  "name_ja": "共進化社会システムイノベーション施設",
+  "name_en": "Research Facilities for Co-Evolutional Social Systems",
+  "cat": "other",
+  "num": 83
+ },
+ "770575334": {
+  "name_zh": "East 1号馆（售店·就职咨询）",
+  "name_ja": "イースト1号館",
+  "name_en": "East Zone 1 (Stores)",
+  "cat": "teaching",
+  "num": 84
+ },
+ "770575335": {
+  "name_zh": "East 2号馆",
+  "name_ja": "イースト2号館",
+  "name_en": "East Zone 2",
+  "cat": "teaching",
+  "num": 85
+ },
+ "770575332": {
+  "name_zh": "大讲义室Ⅰ（铃与未来厅Ⅰ）",
+  "name_ja": "大講義室Ⅰ",
+  "name_en": "Lecture Room I (Suzuyo Mirai Hall I)",
+  "cat": "teaching",
+  "num": 86
+ },
+ "770575333": {
+  "name_zh": "大讲义室Ⅱ（铃与未来厅Ⅱ）",
+  "name_ja": "大講義室Ⅱ",
+  "name_en": "Lecture Room II (Suzuyo Mirai Hall II)",
+  "cat": "teaching",
+  "num": 87
+ },
+ "770575331": {
+  "name_zh": "Big Sky（食堂）",
+  "name_ja": "ビッグスカイ",
+  "name_en": "Big Sky (Restaurant)",
+  "cat": "dining",
+  "tier": 1,
+  "num": 88
+ },
+ "770575330": {
+  "name_zh": "中央图书馆",
+  "name_ja": "九州大学中央図書館",
+  "name_en": "Central Library",
+  "cat": "library",
+  "tier": 1,
+  "num": 89
+ },
+ "1388137272": {
+  "name_zh": "石原古坟横穴式石室搬迁展示",
+  "name_ja": "石ヶ原古墳横穴式石室の移築展示",
+  "name_en": "Exhibition of Stone Chamber from Ishigahara Tumulus",
+  "cat": "other",
+  "num": 90
+ },
+ "772304630": {
+  "name_zh": "建筑构造实验楼（HE10）",
+  "name_ja": "建築構造実験棟",
+  "name_en": "Structural Building Engineering Laboratory (HE10)",
+  "cat": "research",
+  "num": 91
+ },
+ "772304631": {
+  "name_zh": "建筑环境实验楼（HE20）",
+  "name_ja": "建築環境実験棟",
+  "name_en": "Architectural Environment Research Building (HE20)",
+  "cat": "research",
+  "num": 92
+ },
+ "772304632": {
+  "name_zh": "AMS专攻实验楼（IS10）",
+  "name_ja": "AMS専攻実験棟",
+  "name_en": "Laboratory for Automotive Science (IS10)",
+  "cat": "research",
+  "num": 93
+ },
+ "772304633": {
+  "name_zh": "行动实验楼（HE30）",
+  "name_ja": "行動実験棟",
+  "name_en": "Psychological Experiment Building (HE30)",
+  "cat": "research",
+  "num": 94
+ },
+ "772304634": {
+  "name_zh": "综合临床心理中心（HE40）",
+  "name_ja": "総合臨床心理センター",
+  "name_en": "Center for Clinical Psychology and Human Development (HE40)",
+  "cat": "research",
+  "num": 95
+ },
+ "772304639": {
+  "name_zh": "伊都协奏馆（学生宿舍）",
+  "name_ja": "九州大学 伊都協奏館",
+  "name_en": "Ito Harmony House (Student Residence)",
+  "cat": "dorm",
+  "tier": 1,
+  "num": 96
+ },
+ "10012235222": {
+  "name_zh": "West 5号馆（Agri Dining）",
+  "name_ja": "ウエスト5号館",
+  "name_en": "West Zone 5, Agri. Dining",
+  "cat": "dining",
+  "tier": 1,
+  "num": 32
+ },
+ "10012235369": {
+  "name_zh": "宿舍楼Ⅲ",
+  "name_ja": "ドミトリー3",
+  "name_en": "Dormitory III (Student Residence)",
+  "cat": "dorm",
+  "tier": 1,
+  "num": 77
+ },
+ "10012235370": {
+  "name_zh": "宿舍楼Ⅰ",
+  "name_ja": "ドミトリー1",
+  "name_en": "Dormitory I (Student Residence)",
+  "cat": "dorm",
+  "tier": 1,
+  "num": 75
+ },
+ "10012235371": {
+  "name_zh": "宿舍楼Ⅱ",
+  "name_ja": "ドミトリー2",
+  "name_en": "Dormitory II (Student Residence)",
+  "cat": "dorm",
+  "tier": 1,
+  "num": 76
+ },
+ "10012235450": {
+  "name_zh": "West 1号馆",
+  "name_ja": "ウエスト1号館",
+  "name_en": "West Zone 1",
+  "cat": "teaching",
+  "num": 36
+ },
+ "10019151271": {
+  "name_zh": "West 2号馆（售店·书店）",
+  "name_ja": "ウエスト2号館",
+  "name_en": "West Zone 2 (Stores)",
+  "cat": "teaching",
+  "num": 35
+ },
+ "10019151272": {
+  "name_zh": "West 4号馆（就职咨询室）",
+  "name_ja": "ウエスト4号館",
+  "name_en": "West Zone 4",
+  "cat": "teaching",
+  "num": 33
+ },
+ "10019151273": {
+  "name_zh": "综合学习广场",
+  "name_ja": "総合学習プラザ",
+  "name_en": "Open Learning Plaza",
+  "cat": "teaching",
+  "num": 40
+ }
+}

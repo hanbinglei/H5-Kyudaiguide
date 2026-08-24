@@ -1,0 +1,100 @@
+{
+  "buildings": [
+    {
+      "id": "B001",
+      "code": "89",
+      "name": { "zh": "中央图书馆", "ja": "中央図書館", "en": "Central Library" },
+      "zone": "east",
+      "category": "library",
+      "polygon": [[0.745, 0.320], [0.785, 0.320], [0.785, 0.355], [0.745, 0.355]],
+      "anchor": [0.765, 0.338],
+      "facilities_note": { "zh": "自习室、研讨室、PC区", "ja": "自習室、グループ学習室、PCエリア", "en": "Study rooms, group study, PC area" },
+      "tags": ["图书馆", "図書館", "library", "自习", "勉強"]
+    },
+    {
+      "id": "B002",
+      "code": "61",
+      "name": { "zh": "Big Sand食堂·商店", "ja": "ビッグサンド（食堂·売店）", "en": "Big Sand (Restaurant & Stores)" },
+      "zone": "center",
+      "category": "cafeteria",
+      "polygon": [[0.595, 0.370], [0.630, 0.370], [0.630, 0.395], [0.595, 0.395]],
+      "anchor": [0.612, 0.382],
+      "facilities_note": { "zh": "食堂、売店", "ja": "食堂、売店", "en": "Cafeteria, shop" },
+      "tags": ["食堂", "カフェテリア", "cafeteria", "吃饭"]
+    },
+    {
+      "id": "B003",
+      "code": "54",
+      "name": { "zh": "理学部", "ja": "理学部", "en": "School of Science" },
+      "zone": "center",
+      "category": "academic",
+      "polygon": [[0.405, 0.380], [0.455, 0.380], [0.455, 0.410], [0.405, 0.410]],
+      "anchor": [0.430, 0.395],
+      "facilities_note": { "zh": "物理/化学/生物/地球惑星", "ja": "物理/化学/生物/地球惑星", "en": "Physics, Chemistry, Biology, Earth & Planetary Sciences" },
+      "tags": ["理学部", "science", "理学", "研究"]
+    },
+    {
+      "id": "B004",
+      "code": "63",
+      "name": { "zh": "センター1号館", "ja": "センター1号館", "en": "Center Building 1" },
+      "zone": "center",
+      "category": "administration",
+      "polygon": [[0.570, 0.380], [0.605, 0.380], [0.605, 0.405], [0.570, 0.405]],
+      "anchor": [0.590, 0.392],
+      "facilities_note": { "zh": "留学生課、教务、総務", "ja": "留学生課、教務、総務", "en": "International Student Office, Academic Affairs, General Affairs" },
+      "tags": ["留学生課", "international office", "教务"]
+    },
+    {
+      "id": "B005",
+      "code": "65",
+      "name": { "zh": "センター3号館", "ja": "センター3号館", "en": "Center Building 3" },
+      "zone": "center",
+      "category": "administration",
+      "polygon": [[0.560, 0.360], [0.590, 0.360], [0.590, 0.380], [0.560, 0.380]],
+      "anchor": [0.575, 0.372],
+      "facilities_note": { "zh": "学术支援、研究推進", "ja": "学術支援、研究推進", "en": "Academic Support, Research Promotion" },
+      "tags": ["研究推進", "research promotion", "学术支援"]
+    },
+    {
+      "id": "B006",
+      "code": "8",
+      "name": { "zh": "体育馆", "ja": "体育館", "en": "Gymnasium" },
+      "zone": "west",
+      "category": "sports",
+      "polygon": [[0.165, 0.255], [0.205, 0.255], [0.205, 0.290], [0.165, 0.290]],
+      "anchor": [0.185, 0.270],
+      "facilities_note": { "zh": "体育课、社团活动 ❤️推荐", "ja": "体育授業、サークル活動 ❤️おすすめ", "en": "PE classes, club activities ❤️recommended" },
+      "tags": ["体育館", "gym", "体育", "スポーツ", "sports"]
+    },
+    {
+      "id": "B007",
+      "code": "43",
+      "name": { "zh": "信息技术研究所", "ja": "情報技術研究所", "en": "Research Institute for IT" },
+      "zone": "west",
+      "category": "research",
+      "polygon": [[0.360, 0.500], [0.390, 0.500], [0.390, 0.530], [0.360, 0.530]],
+      "anchor": [0.375, 0.515],
+      "facilities_note": { "zh": "IT支援 ❤️推荐", "ja": "ITサポート ❤️おすすめ", "en": "IT support ❤️recommended" },
+      "tags": ["IT", "情报", "サポート", "网络"]
+    },
+    {
+      "id": "B008",
+      "code": "78",
+      "name": { "zh": "伊都ゲストハウス", "ja": "伊都ゲストハウス", "en": "Ito Guest House" },
+      "zone": "east",
+      "category": "service",
+      "polygon": [[0.635, 0.275], [0.665, 0.275], [0.665, 0.295], [0.635, 0.295]],
+      "anchor": [0.650, 0.285],
+      "facilities_note": { "zh": "来宾住宿、ショップ", "ja": "来賓宿泊、ショップ", "en": "Guest accommodation, shop" },
+      "tags": ["ゲストハウス", "宿泊", "guest house"]
+    }
+  ],
+  "_meta": {
+    "version": "0.2.0",
+    "map_file": "ito-campus-detailed.png",
+    "map_size": [4961, 3508],
+    "coord_system": "normalized 0~1",
+    "status": "vision-analyzed coordinates (2026-07-18), 需在浏览器中对照实图微调",
+    "zone_boundaries": { "west": [0, 0.38], "center": [0.38, 0.62], "east": [0.62, 1.0] }
+  }
+}

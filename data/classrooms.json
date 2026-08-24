@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "description": "九州大学伊都キャンパス 教室一覧。classroom-naming.md の命名規則に基づく。",
+    "status": "BUILDING LIST COMPLETE — 各教室の部屋番号詳細はシラバスから要補充",
+    "source": "ITO_1_Eng.pdf + 伊都キャンパスマップ画像"
+  },
+  "classrooms": [
+    {"code": "椎木講堂", "name_zh": "椎木讲堂", "name_ja": "椎木講堂", "zone": "east", "type": "hall", "note": "大講堂・式典"},
+    {"code": "鈴与未來I", "name_zh": "铃与未来大厅 I", "name_ja": "鈴與未來ホール I", "zone": "east", "type": "hall", "note": "第1講義室"},
+    {"code": "鈴与未來II", "name_zh": "铃与未来大厅 II", "name_ja": "鈴與未來ホール II", "zone": "east", "type": "hall", "note": "第2講義室"},
+    {"code": "BigLeaf", "name_zh": "Big Leaf（含講義室）", "name_ja": "ビッグリーフ（レストラン・売店・講義室）", "zone": "center", "type": "mixed", "note": "複合施設内講義室"}
+  ],
+  "teaching_buildings": {
+    "west": [
+      {"id": "W1", "name_ja": "ウエスト1号棟", "name_zh": "西1号楼", "name_en": "West Zone 1", "facilities": ["講義室", "大講義室", "教室"]},
+      {"id": "W2", "name_ja": "ウエスト2号棟", "name_zh": "西2号楼", "name_en": "West Zone 2", "facilities": ["講義室", "演習室"]},
+      {"id": "W3", "name_ja": "ウエスト3号棟", "name_zh": "西3号楼", "name_en": "West Zone 3", "facilities": ["講義室"]},
+      {"id": "W4", "name_ja": "ウエスト4号棟", "name_zh": "西4号楼", "name_en": "West Zone 4", "facilities": ["セミナー室", "講義室"]},
+      {"id": "W5", "name_ja": "ウエスト5号棟", "name_zh": "西5号楼", "name_en": "West Zone 5", "facilities": ["教室", "演習室"]},
+      {"id": "W6", "name_ja": "ウエスト6号棟", "name_zh": "西6号楼", "name_en": "West Zone 6", "facilities": ["講義室"]},
+      {"id": "W7", "name_ja": "ウエスト7号棟", "name_zh": "西7号楼", "name_en": "West Zone 7", "facilities": ["セミナー室", "演習室"]},
+      {"id": "W8", "name_ja": "ウエスト8号棟", "name_zh": "西8号楼", "name_en": "West Zone 8", "facilities": ["教室", "講義室"]},
+      {"id": "W9", "name_ja": "ウエスト9号棟", "name_zh": "西9号楼", "name_en": "West Zone 9", "facilities": ["演習室"]},
+      {"id": "W10", "name_ja": "ウエスト10号棟", "name_zh": "西10号楼", "name_en": "West Zone 10", "facilities": ["教室"]}
+    ],
+    "east": [
+      {"id": "E2", "name_ja": "イースト2号棟", "name_zh": "东2号楼", "name_en": "East Zone 2", "facilities": ["講義室"]},
+      {"id": "E3", "name_ja": "イースト3号棟", "name_zh": "东3号楼", "name_en": "East Zone 3", "facilities": ["教室", "講義室"]},
+      {"id": "E4", "name_ja": "イースト4号棟", "name_zh": "东4号楼", "name_en": "East Zone 4", "facilities": ["セミナー室"]},
+      {"id": "E5", "name_ja": "イースト5号棟", "name_zh": "东5号楼", "name_en": "East Zone 5", "facilities": ["講義室"]},
+      {"id": "E6", "name_ja": "イースト6号棟", "name_zh": "东6号楼", "name_en": "East Zone 6", "facilities": ["教室"]},
+      {"id": "E7", "name_ja": "イースト7号棟", "name_zh": "东7号楼", "name_en": "East Zone 7", "facilities": ["演習室", "講義室"]},
+      {"id": "E8", "name_ja": "イースト8号棟", "name_zh": "东8号楼", "name_en": "East Zone 8", "facilities": ["セミナー室"]},
+      {"id": "E9", "name_ja": "イースト9号棟", "name_zh": "东9号楼", "name_en": "East Zone 9", "facilities": ["教室", "講義室"]}
+    ],
+    "center": [
+      {"id": "C5", "name_ja": "センター5号棟", "name_zh": "中心5号楼", "name_en": "Center Zone 5", "facilities": ["教室", "講義室"]},
+      {"id": "C6", "name_ja": "センター6号棟", "name_zh": "中心6号楼", "name_en": "Center Zone 6", "facilities": ["大講義室", "講義室"]},
+      {"id": "C7", "name_ja": "センター7号棟", "name_zh": "中心7号楼", "name_en": "Center Zone 7", "facilities": ["セミナー室"]},
+      {"id": "C8", "name_ja": "センター8号棟", "name_zh": "中心8号楼", "name_en": "Center Zone 8", "facilities": ["講義室"]},
+      {"id": "C9", "name_ja": "センター9号棟", "name_zh": "中心9号楼", "name_en": "Center Zone 9", "facilities": ["教室", "演習室"]},
+      {"id": "C10", "name_ja": "センター10号棟", "name_zh": "中心10号楼", "name_en": "Center Zone 10", "facilities": ["講義室", "セミナー室"]}
+    ]
+  },
+  "_note": "各棟の具体的な部屋番号（101, 201, 301等）はシラバスからの情報で補充してください。教室コード命名規則（W1-201等）の確認も必要です。"
+}

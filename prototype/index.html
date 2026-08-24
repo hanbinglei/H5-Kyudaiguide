@@ -1,0 +1,336 @@
+<!--
+  九大伊都校区交互地图 — 可行性原型（浏览器版）
+  ================================================
+  目的：验证 plan.md 里最难的部分能不能做——Canvas 地图引擎的
+        缩放 / 平移 / 双指捏合 / 点击识别建筑（射线法）。
+  说明：这里的坐标变换、命中检测逻辑与微信小程序 Canvas 2D 完全同构，
+        跑通后可直接移植（把 pointer 事件换成小程序 touch 事件即可）。
+  运行：在项目根目录起静态服务器，访问 /prototype/index.html
+-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>Kyudai Ito Map — 原型</title>
+<style>
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #e8ece4; }
+  #map { width: 100%; height: 100%; display: block; touch-action: none; cursor: grab; }
+  #map.dragging { cursor: grabbing; }
+
+  /* 顶部工具条：语言切换 + 标定模式开关 */
+  #toolbar {
+    position: fixed; top: 10px; left: 10px; display: flex; gap: 6px;
+    font: 14px/1 system-ui, sans-serif; z-index: 10;
+  }
+  #toolbar button {
+    padding: 6px 12px; border: 1px solid #999; border-radius: 6px;
+    background: #fff; cursor: pointer;
+  }
+  #toolbar button.active { background: #8b1f41; color: #fff; border-color: #8b1f41; }
+
+  /* 建筑详情卡片（点中建筑后弹出） */
+  #card {
+    position: fixed; left: 50%; bottom: 20px; transform: translateX(-50%);
+    min-width: 260px; max-width: 90vw; padding: 14px 18px;
+    background: #fff; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,.25);
+    font: 14px/1.5 system-ui, sans-serif; display: none; z-index: 10;
+  }
+  #card h3 { margin: 0 0 4px; font-size: 17px; }
+  #card .sub { color: #666; font-size: 12px; }
+
+  /* 标定模式：输出归一化坐标的面板 */
+  #calib {
+    position: fixed; top: 10px; right: 10px; width: 300px; display: none; z-index: 10;
+    font: 12px/1.4 monospace;
+  }
+  #calib textarea { width: 100%; height: 160px; }
+</style>
+
+<canvas id="map"></canvas>
+
+<div id="toolbar">
+  <button data-lang="zh" class="active">中文</button>
+  <button data-lang="ja">日本語</button>
+  <button data-lang="en">EN</button>
+  <button id="calibBtn">标定模式</button>
+</div>
+
+<div id="card"></div>
+
+<div id="calib">
+  <div style="background:#fff;padding:8px;border-radius:8px">
+    单击添加顶点，回车闭合当前多边形并输出坐标 ↓
+    <textarea id="calibOut" readonly></textarea>
+  </div>
+</div>
+
+<script>
+'use strict';
+
+/* ============================================================
+ * 数据层：建筑数据（与 plan.md 4.1 结构一致，坐标为归一化 0~1）
+ * 坐标系：相对于底图 ito-campus-detailed.png 的宽高比例。
+ * 初始为估算值，用标定模式描点后替换为精确值。
+ * ============================================================ */
+const BUILDINGS = [
+  {
+    id: 'LIB',
+    name: { zh: '中央图书馆', ja: '中央図書館', en: 'Central Library' },
+    desc: { zh: '89号 · iCube支持台 / 咖啡厅 / 售店', ja: '89番 · iCubeサポート / カフェ / 売店', en: 'No.89 · iCube desk / Cafe / Stores' },
+    polygon: [] // 标定后填入
+  },
+  {
+    id: 'SHIIKI',
+    name: { zh: '椎木讲堂', ja: '椎木講堂', en: 'Shiiki Hall' },
+    desc: { zh: '67号 · 大学本部 / 入学典礼会场', ja: '67番 · 大学本部 / 入学式会場', en: 'No.67 · HQ / Ceremony hall' },
+    polygon: []
+  },
+  {
+    id: 'BIGSAND',
+    name: { zh: 'Big Sand（食堂·售店）', ja: 'ビッグさんど（食堂・売店）', en: 'Big Sand (Restaurant & Stores)' },
+    desc: { zh: '61号 · 保健中心同栋', ja: '61番 · 健康支援センター併設', en: 'No.61 · w/ Health Center' },
+    polygon: []
+  }
+];
+
+/* ============================================================
+ * 视口状态：屏幕坐标 = 图片像素坐标 × scale + offset
+ * 这就是 plan.md 6.1 的 transform_matrix，移植时原样照抄。
+ * ============================================================ */
+const view = { scale: 1, offsetX: 0, offsetY: 0, minScale: 0.05, maxScale: 8 };
+let lang = 'zh';
+let selected = null;   // 当前选中的建筑
+let hovered = null;    // 鼠标悬停的建筑
+
+const canvas = document.getElementById('map');
+const ctx = canvas.getContext('2d');
+const dpr = window.devicePixelRatio || 1;
+
+const img = new Image();
+img.src = '../ito-campus-detailed.png';
+img.onload = () => { fitToScreen(); render(); };
+
+/** 画布尺寸跟随窗口，内部按 DPR 放大保证清晰度 */
+function resize() {
+  canvas.width = innerWidth * dpr;
+  canvas.height = innerHeight * dpr;
+  canvas.style.width = innerWidth + 'px';
+  canvas.style.height = innerHeight + 'px';
+  render();
+}
+addEventListener('resize', resize);
+resize();
+
+/** 初始视口：整图居中铺满屏幕（contain 模式） */
+function fitToScreen() {
+  const s = Math.min(innerWidth / img.width, innerHeight / img.height);
+  view.scale = s;
+  view.minScale = s * 0.8;          // 最多缩小到全图的 80%，防止丢图
+  view.offsetX = (innerWidth - img.width * s) / 2;
+  view.offsetY = (innerHeight - img.height * s) / 2;
+}
+
+/* ---------- 坐标换算（plan.md 6.1，核心公式） ---------- */
+
+/** 屏幕坐标 → 归一化地图坐标（0~1） */
+function screenToMap(sx, sy) {
+  return {
+    x: (sx - view.offsetX) / (img.width * view.scale),
+    y: (sy - view.offsetY) / (img.height * view.scale)
+  };
+}
+
+/** 归一化地图坐标 → 屏幕坐标 */
+function mapToScreen(mx, my) {
+  return {
+    x: mx * img.width * view.scale + view.offsetX,
+    y: my * img.height * view.scale + view.offsetY
+  };
+}
+
+/* ---------- 渲染 ---------- */
+
+/** 主渲染：底图 + 建筑多边形 + 标定中的临时顶点 */
+function render() {
+  if (!img.complete) return;
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.clearRect(0, 0, innerWidth, innerHeight);
+  ctx.drawImage(img, view.offsetX, view.offsetY, img.width * view.scale, img.height * view.scale);
+
+  // 建筑多边形：普通=半透明紫，悬停=加深，选中=红
+  for (const b of BUILDINGS) {
+    if (b.polygon.length < 3) continue;
+    tracePolygon(b.polygon);
+    ctx.fillStyle = b === selected ? 'rgba(200,30,60,.45)'
+                  : b === hovered  ? 'rgba(90,50,160,.40)'
+                  : 'rgba(90,50,160,.22)';
+    ctx.fill();
+    ctx.strokeStyle = b === selected ? '#c81e3c' : '#5a32a0';
+    ctx.lineWidth = 2;
+    ctx.stroke();
+  }
+
+  // 标定模式：画当前未闭合的顶点串
+  if (calibMode && calibPts.length) {
+    tracePolygon(calibPts, /*close=*/false);
+    ctx.strokeStyle = '#ff8800'; ctx.lineWidth = 2; ctx.stroke();
+    for (const p of calibPts) {
+      const s = mapToScreen(p[0], p[1]);
+      ctx.beginPath(); ctx.arc(s.x, s.y, 4, 0, 7); ctx.fillStyle = '#ff8800'; ctx.fill();
+    }
+  }
+}
+
+/** 把归一化多边形描成 Canvas 路径 */
+function tracePolygon(pts, close = true) {
+  ctx.beginPath();
+  pts.forEach((p, i) => {
+    const s = mapToScreen(p[0], p[1]);
+    i === 0 ? ctx.moveTo(s.x, s.y) : ctx.lineTo(s.x, s.y);
+  });
+  if (close) ctx.closePath();
+}
+
+/* ---------- 命中检测：射线法（plan.md 6.3 方案1） ----------
+ * 原理：从点向右发一条水平射线，数它穿过多边形边的次数，
+ * 奇数次=在内部。对 <200 栋建筑 O(n) 遍历足够快。 */
+function pointInPolygon(x, y, poly) {
+  let inside = false;
+  for (let i = 0, j = poly.length - 1; i < poly.length; j = i++) {
+    const [xi, yi] = poly[i], [xj, yj] = poly[j];
+    // 条件1：点的 y 在这条边的 y 区间内；条件2：交点在点的右侧
+    if ((yi > y) !== (yj > y) && x < (xj - xi) * (y - yi) / (yj - yi) + xi) inside = !inside;
+  }
+  return inside;
+}
+
+/** 找出屏幕点 (sx,sy) 命中的建筑，没有则返回 null */
+function hitTest(sx, sy) {
+  const m = screenToMap(sx, sy);
+  return BUILDINGS.find(b => b.polygon.length >= 3 && pointInPolygon(m.x, m.y, b.polygon)) || null;
+}
+
+/* ---------- 手势：单指拖动平移 / 滚轮与双指捏合缩放 ----------
+ * 用 Pointer Events 统一鼠标和触摸；pointers 表记录当前按下的指针。
+ * 移植到小程序时换成 touchstart/move/end，逻辑不变。 */
+const pointers = new Map();
+let dragMoved = 0;           // 按下以来累计移动距离，用于区分"点击"和"拖动"
+let lastPinchDist = 0;       // 上一帧双指间距，用于算缩放增量
+
+canvas.addEventListener('pointerdown', e => {
+  canvas.setPointerCapture(e.pointerId);
+  pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+  dragMoved = 0;
+  if (pointers.size === 2) lastPinchDist = pinchDist();
+  canvas.classList.add('dragging');
+});
+
+canvas.addEventListener('pointermove', e => {
+  if (!pointers.has(e.pointerId)) {
+    // 未按下：做悬停高亮
+    const h = hitTest(e.clientX, e.clientY);
+    if (h !== hovered) { hovered = h; render(); }
+    return;
+  }
+  const prev = pointers.get(e.pointerId);
+  const dx = e.clientX - prev.x, dy = e.clientY - prev.y;
+  pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+  dragMoved += Math.abs(dx) + Math.abs(dy);
+
+  if (pointers.size === 1) {
+    // 单指/鼠标拖动 → 平移
+    view.offsetX += dx; view.offsetY += dy;
+  } else if (pointers.size === 2) {
+    // 双指捏合 → 以两指中心为锚点缩放
+    const d = pinchDist();
+    const [p1, p2] = [...pointers.values()];
+    zoomAt((p1.x + p2.x) / 2, (p1.y + p2.y) / 2, d / lastPinchDist);
+    lastPinchDist = d;
+  }
+  render();
+});
+
+canvas.addEventListener('pointerup', e => {
+  pointers.delete(e.pointerId);
+  canvas.classList.remove('dragging');
+  // 几乎没移动 → 视为点击
+  if (dragMoved < 6) handleTap(e.clientX, e.clientY);
+});
+canvas.addEventListener('pointercancel', e => pointers.delete(e.pointerId));
+
+/** 当前两个触点的间距 */
+function pinchDist() {
+  const [p1, p2] = [...pointers.values()];
+  return Math.hypot(p1.x - p2.x, p1.y - p2.y) || 1;
+}
+
+/** 以屏幕点 (px,py) 为锚点缩放 factor 倍：
+ *  锚点对应的地图位置在缩放前后保持不动 → offset = p - (p - offset) * k */
+function zoomAt(px, py, factor) {
+  const newScale = Math.min(view.maxScale, Math.max(view.minScale, view.scale * factor));
+  const k = newScale / view.scale;
+  view.offsetX = px - (px - view.offsetX) * k;
+  view.offsetY = py - (py - view.offsetY) * k;
+  view.scale = newScale;
+}
+
+// 桌面：滚轮缩放（指数步进，手感均匀）
+canvas.addEventListener('wheel', e => {
+  e.preventDefault();
+  zoomAt(e.clientX, e.clientY, Math.pow(1.0015, -e.deltaY));
+  render();
+}, { passive: false });
+
+/* ---------- 点击处理：标定模式记点 / 普通模式选建筑 ---------- */
+function handleTap(sx, sy) {
+  if (calibMode) {
+    const m = screenToMap(sx, sy);
+    calibPts.push([+m.x.toFixed(4), +m.y.toFixed(4)]);
+    render();
+    return;
+  }
+  selected = hitTest(sx, sy);
+  render();
+  showCard();
+}
+
+/** 建筑详情卡片：按当前语言显示（i18n 演示） */
+function showCard() {
+  const card = document.getElementById('card');
+  if (!selected) { card.style.display = 'none'; return; }
+  card.innerHTML = `<h3>${selected.name[lang]}</h3><div class="sub">${selected.desc[lang]}</div>`;
+  card.style.display = 'block';
+}
+
+/* ---------- 语言切换 ---------- */
+document.querySelectorAll('#toolbar [data-lang]').forEach(btn => {
+  btn.onclick = () => {
+    lang = btn.dataset.lang;
+    document.querySelectorAll('#toolbar [data-lang]').forEach(b => b.classList.toggle('active', b === btn));
+    showCard();  // 卡片文字随语言即时刷新
+  };
+});
+
+/* ---------- 标定模式：给建筑描多边形，输出归一化坐标 ----------
+ * 这就是管理后台"描边编辑器"的雏形：点顶点 → 回车闭合 → 得到 JSON。 */
+let calibMode = false;
+const calibPts = [];
+
+document.getElementById('calibBtn').onclick = () => {
+  calibMode = !calibMode;
+  document.getElementById('calibBtn').classList.toggle('active', calibMode);
+  document.getElementById('calib').style.display = calibMode ? 'block' : 'none';
+  calibPts.length = 0;
+  render();
+};
+
+addEventListener('keydown', e => {
+  if (!calibMode) return;
+  if (e.key === 'Enter' && calibPts.length >= 3) {
+    // 输出当前多边形的归一化坐标，追加到面板里
+    const out = document.getElementById('calibOut');
+    out.value += JSON.stringify(calibPts) + '\n\n';
+    calibPts.length = 0;
+    render();
+  }
+  if (e.key === 'Escape') { calibPts.length = 0; render(); }
+});
+</script>

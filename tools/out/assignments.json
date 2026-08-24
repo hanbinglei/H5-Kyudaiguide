@@ -1,0 +1,1204 @@
+{
+ "1": {
+  "legend_en": "Archery Range",
+  "hits": [
+   {
+    "lon": 130.2059427,
+    "lat": 33.6033742,
+    "how": "poi-point",
+    "osm_id": null,
+    "osm_name": null
+   }
+  ]
+ },
+ "2": {
+  "legend_en": "Baseball Field   ♥",
+  "hits": [
+   {
+    "lon": 130.2068688,
+    "lat": 33.6025614,
+    "how": "poi-point",
+    "osm_id": null,
+    "osm_name": null
+   }
+  ]
+ },
+ "3": {
+  "legend_en": "Athletic Field   ♥",
+  "hits": [
+   {
+    "lon": 130.2087676,
+    "lat": 33.6002508,
+    "how": "poi-point",
+    "osm_id": null,
+    "osm_name": null
+   }
+  ]
+ },
+ "4": {
+  "legend_en": "Japanese Archery Range",
+  "hits": [
+   {
+    "lon": 130.2096963,
+    "lat": 33.6011593,
+    "how": "poi-point",
+    "osm_id": null,
+    "osm_name": null
+   }
+  ]
+ },
+ "5": {
+  "legend_en": "Shoto Training Center",
+  "hits": [
+   {
+    "lon": 130.2087244,
+    "lat": 33.5991999,
+    "how": "inside",
+    "osm_id": 225209493,
+    "osm_name": "松濤錬成場"
+   }
+  ]
+ },
+ "6": {
+  "legend_en": "Extracurricular Activities Facility Ⅱ   ♥",
+  "hits": [
+   {
+    "lon": 130.2090569,
+    "lat": 33.5992841,
+    "how": "inside",
+    "osm_id": 166555793,
+    "osm_name": "課外活動施設Ⅱ"
+   }
+  ]
+ },
+ "7": {
+  "legend_en": "Extracurricular Activities Facility Ⅲ  ♥",
+  "hits": [
+   {
+    "lon": 130.2108729,
+    "lat": 33.600627,
+    "how": "nearest(27m)",
+    "osm_id": 1388144045,
+    "osm_name": ""
+   }
+  ]
+ },
+ "8": {
+  "legend_en": "Gymnasium   ♥",
+  "hits": [
+   {
+    "lon": 130.2098648,
+    "lat": 33.5992996,
+    "how": "inside",
+    "osm_id": 772333520,
+    "osm_name": "小体育館"
+   }
+  ]
+ },
+ "9": {
+  "legend_en": "Center for Accelerator and Beam Applied Science (CE70)",
+  "hits": [
+   {
+    "lon": 130.2098735,
+    "lat": 33.5983278,
+    "how": "inside",
+    "osm_id": 222850489,
+    "osm_name": "加速器・ビーム応用科学センター"
+   }
+  ]
+ },
+ "10": {
+  "legend_en": "Seakeeping and Manoeuvring Basin /",
+  "hits": [
+   {
+    "lon": 130.2112347,
+    "lat": 33.5973348,
+    "how": "inside",
+    "osm_id": 222850501,
+    "osm_name": "船舶海洋性能工学実験棟"
+   }
+  ]
+ },
+ "11": {
+  "legend_en": "Center for Advanced Aerospace Engineering (EN70)",
+  "hits": [
+   {
+    "lon": 130.2114574,
+    "lat": 33.5965103,
+    "how": "inside",
+    "osm_id": 222850490,
+    "osm_name": "先進航空宇宙工学実験棟"
+   }
+  ]
+ },
+ "12": {
+  "legend_en": "Satellite Communications Laboratory (IE20)",
+  "hits": [
+   {
+    "lon": 130.2115344,
+    "lat": 33.5984523,
+    "how": "unmatched(min 95m)",
+    "osm_id": null,
+    "osm_name": null
+   }
+  ]
+ },
+ "13": {
+  "legend_en": "Agri-Bio Research Laboratory (AG40)   ♥",
+  "hits": [
+   {
+    "lon": 130.2126095,
+    "lat": 33.5989627,
+    "how": "inside",
+    "osm_id": 225209468,
+    "osm_name": "アグリ・バイオ研究施設"
+   }
+  ]
+ },
+ "14": {
+  "legend_en": "Common Facility 3 (CF3)",
+  "hits": [
+   {
+    "lon": 130.2122304,
+    "lat": 33.5973693,
+    "how": "inside",
+    "osm_id": 222850493,
+    "osm_name": "パブリック3号館"
+   }
+  ]
+ },
+ "15": {
+  "legend_en": "Hydrogen Institute for Sustainability",
+  "hits": [
+   {
+    "lon": 130.2125077,
+    "lat": 33.5975988,
+    "how": "inside",
+    "osm_id": 222850494,
+    "osm_name": "次世代エネルギー実証施設"
+   }
+  ]
+ },
+ "16": {
+  "legend_en": "University Farm（Livestock Area）  ♥",
+  "hits": [
+   {
+    "lon": 130.2135183,
+    "lat": 33.6005445,
+    "how": "poi-point",
+    "osm_id": null,
+    "osm_name": null
+   }
+  ]
+ },
+ "17": {
+  "legend_en": "University Farm（Paddy Field）  ♥",
+  "hits": [
+   {
+    "lon": 130.2191503,
+    "lat": 33.600009,
+    "how": "poi-point",
+    "osm_id": null,
+    "osm_name": null
+   }
+  ]
+ },
+ "18": {
+  "legend_en": "Tennis Court",
+  "hits": [
+   {
+    "lon": 130.2112349,
+    "lat": 33.5941664,
+    "how": "poi-point",
+    "osm_id": null,
+    "osm_name": null
+   }
+  ]
+ },
+ "19": {
+  "legend_en": "Biodiversity Conservation Zone",
+  "hits": [
+   {
+    "lon": 130.2142082,
+    "lat": 33.5963753,
+    "how": "poi-point",
+    "osm_id": null,
+    "osm_name": null
+   }
+  ]
+ },
+ "20": {
+  "legend_en": "Biotron Application Center (AG10)   ♥",
+  "hits": [
+   {
+    "lon": 130.2119133,
+    "lat": 33.5934844,
+    "how": "inside",
+    "osm_id": 772333504,
+    "osm_name": "生物環境利用推進センター"
+   }
+  ]
+ },
+ "21": {
+  "legend_en": "Water Environment Engineering Laboratory",
+  "hits": [
+   {
+    "lon": 130.2113551,
+    "lat": 33.5932746,
+    "how": "inside",
+    "osm_id": 772333505,
+    "osm_name": "水環境実験棟・森林保全実験棟"
+   }
+  ]
+ },
+ "22": {
+  "legend_en": "Laboratory for Silkworm Bioresources (AG22)",
+  "hits": [
+   {
+    "lon": 130.2134233,
+    "lat": 33.5921374,
+    "how": "inside",
+    "osm_id": 772333507,
+    "osm_name": "カイコバイオリソース研究施設"
+   }
+  ]
+ },
+ "23": {
+  "legend_en": "Agriculture Zone   ♥",
+  "hits": [
+   {
+    "lon": 130.2145536,
+    "lat": 33.592226,
+    "how": "poi-point",
+    "osm_id": null,
+    "osm_name": null
+   }
+  ]
+ },
+ "24": {
+  "legend_en": "Centennial Space of the Faculty of Agriculture",
+  "hits": [
+   {
+    "lon": 130.2135331,
+    "lat": 33.5934001,
+    "how": "poi-point",
+    "osm_id": null,
+    "osm_name": null
+   }
+  ]
+ },
+ "26": {
+  "legend_en": "Engineering Department Experimental Facilities",
+  "hits": [
+   {
+    "lon": 130.2151686,
+    "lat": 33.5949413,
+    "how": "nearest(5m)-ambiguous",
+    "osm_id": 224604028,
+    "osm_name": "航空風洞実験棟"
+   },
+   {
+    "lon": 130.2157089,
+    "lat": 33.5954207,
+    "how": "inside",
+    "osm_id": 167428490,
+    "osm_name": "航空宇宙工学／知能機械システム実験棟"
+   },
+   {
+    "lon": 130.218291,
+    "lat": 33.5963951,
+    "how": "inside",
+    "osm_id": 166554947,
+    "osm_name": "都市環境システム工学実験棟"
+   }
+  ]
+ },
+ "27": {
+  "legend_en": "Engineering Research Laboratory",
+  "hits": [
+   {
+    "lon": 130.2162172,
+    "lat": 33.595811,
+    "how": "inside",
+    "osm_id": 167428490,
+    "osm_name": "航空宇宙工学／知能機械システム実験棟"
+   }
+  ]
+ },
+ "28": {
+  "legend_en": "Research Center for Steel (EN40)",
+  "hits": [
+   {
+    "lon": 130.2166913,
+    "lat": 33.595948,
+    "how": "inside",
+    "osm_id": 900413738,
+    "osm_name": "材料工学部門棟"
+   }
+  ]
+ },
+ "29": {
+  "legend_en": "Hydrogen Station (HY40)",
+  "hits": [
+   {
+    "lon": 130.2174628,
+    "lat": 33.596741,
+    "how": "nearest(3m)-ambiguous",
+    "osm_id": 1388128338,
+    "osm_name": ""
+   }
+  ]
+ },
+ "30": {
+  "legend_en": "Hydrogen Institute for Sustainability (HY30)",
+  "hits": [
+   {
+    "lon": 130.2179612,
+    "lat": 33.5969411,
+    "how": "inside",
+    "osm_id": 166554953,
+    "osm_name": "水素エネルギー国際研究センター"
+   }
+  ]
+ },
+ "31": {
+  "legend_en": "Hydrogen Institute for Sustainability (HY10)   ♥",
+  "hits": [
+   {
+    "lon": 130.2188557,
+    "lat": 33.5970744,
+    "how": "nearest(5m)-ambiguous",
+    "osm_id": 166554951,
+    "osm_name": "海洋構造工学実験棟"
+   }
+  ]
+ },
+ "32": {
+  "legend_en": "West Zone 5   ♥",
+  "hits": [
+   {
+    "lon": 130.2136007,
+    "lat": 33.5939278,
+    "how": "nearest(32m)",
+    "osm_id": 1388121662,
+    "osm_name": ""
+   }
+  ]
+ },
+ "33": {
+  "legend_en": "West Zone 4 (Stores)   ♥",
+  "hits": [
+   {
+    "lon": 130.2164651,
+    "lat": 33.5950653,
+    "how": "unmatched(min 38m)",
+    "osm_id": null,
+    "osm_name": null
+   }
+  ]
+ },
+ "34": {
+  "legend_en": "West Zone 3   ♥",
+  "hits": [
+   {
+    "lon": 130.217285,
+    "lat": 33.5957824,
+    "how": "inside",
+    "osm_id": 167423390,
+    "osm_name": "ウエスト3号館"
+   }
+  ]
+ },
+ "35": {
+  "legend_en": "West Zone 2 (Stores)   ♥",
+  "hits": [
+   {
+    "lon": 130.2182652,
+    "lat": 33.5959068,
+    "how": "nearest(29m)-ambiguous",
+    "osm_id": 1388121634,
+    "osm_name": ""
+   }
+  ]
+ },
+ "36": {
+  "legend_en": "West Zone 1   ♥",
+  "hits": [
+   {
+    "lon": 130.2210506,
+    "lat": 33.5964226,
+    "how": "nearest(30m)",
+    "osm_id": 494148473,
+    "osm_name": "ビッグリーフ"
+   }
+  ]
+ },
+ "37": {
+  "legend_en": "Big Dora (Restaurant and Stores)",
+  "hits": [
+   {
+    "lon": 130.2159872,
+    "lat": 33.5943101,
+    "how": "nearest(1m)",
+    "osm_id": 166556131,
+    "osm_name": "ビッグどら"
+   }
+  ]
+ },
+ "38": {
+  "legend_en": "Lecture Hall West (Faculty of Engineering),",
+  "hits": [
+   {
+    "lon": 130.2170899,
+    "lat": 33.5949148,
+    "how": "nearest(1m)",
+    "osm_id": 167423392,
+    "osm_name": "西講義棟"
+   }
+  ]
+ },
+ "39": {
+  "legend_en": "QIAO (Rock Art)",
+  "hits": [
+   {
+    "lon": 130.2173695,
+    "lat": 33.5953844,
+    "how": "nearest(26m)-ambiguous",
+    "osm_id": 167423392,
+    "osm_name": "西講義棟"
+   }
+  ]
+ },
+ "40": {
+  "legend_en": "Open Learning Plaza",
+  "hits": [
+   {
+    "lon": 130.2180316,
+    "lat": 33.5954488,
+    "how": "unmatched(min 61m)",
+    "osm_id": null,
+    "osm_name": null
+   }
+  ]
+ },
+ "41": {
+  "legend_en": "Big Leaf (Restaurant, Shops and Lecture Rooms)",
+  "hits": [
+   {
+    "lon": 130.2213285,
+    "lat": 33.5961116,
+    "how": "nearest(1m)-ambiguous",
+    "osm_id": 494148473,
+    "osm_name": "ビッグリーフ"
+   }
+  ]
+ },
+ "42": {
+  "legend_en": "Science and Technology Library   ♥",
+  "hits": [
+   {
+    "lon": 130.2198391,
+    "lat": 33.5957718,
+    "how": "inside",
+    "osm_id": 166554943,
+    "osm_name": "理系図書館"
+   }
+  ]
+ },
+ "43": {
+  "legend_en": "Research Institute for Information Technology Building   ♥",
+  "hits": [
+   {
+    "lon": 130.2195084,
+    "lat": 33.595158,
+    "how": "inside",
+    "osm_id": 224604022,
+    "osm_name": "情報基盤研究開発センター棟"
+   }
+  ]
+ },
+ "44": {
+  "legend_en": "Low Temperature Center (Ito Center) (CE60, 61)   ♥",
+  "hits": [
+   {
+    "lon": 130.2171183,
+    "lat": 33.5974475,
+    "how": "nearest(3m)-ambiguous",
+    "osm_id": 166554944,
+    "osm_name": "低温センター"
+   }
+  ]
+ },
+ "45": {
+  "legend_en": "Research Institute of Superconductor Science and Systems(RISS),",
+  "hits": [
+   {
+    "lon": 130.217348,
+    "lat": 33.5978674,
+    "how": "inside",
+    "osm_id": 166554959,
+    "osm_name": "超伝導システム科学研究センター"
+   }
+  ]
+ },
+ "46": {
+  "legend_en": "Institute for Materials Chemistry and Engineering (CE41)   ♥",
+  "hits": [
+   {
+    "lon": 130.217557,
+    "lat": 33.5983238,
+    "how": "inside",
+    "osm_id": 900234563,
+    "osm_name": "先導物質科学研究所"
+   }
+  ]
+ },
+ "47": {
+  "legend_en": "Center for Research and Education of Environmental Technology (CE40)",
+  "hits": [
+   {
+    "lon": 130.2177695,
+    "lat": 33.59769,
+    "how": "inside",
+    "osm_id": 166554952,
+    "osm_name": "環境工学研究教育センター"
+   }
+  ]
+ },
+ "48": {
+  "legend_en": "Central Institute of Radioisotope Science and Safety Management (CE31)",
+  "hits": [
+   {
+    "lon": 130.2179329,
+    "lat": 33.5983271,
+    "how": "inside",
+    "osm_id": 900234564,
+    "osm_name": "アイソトープ総合センター"
+   }
+  ]
+ },
+ "49": {
+  "legend_en": "Research Laboratory for High Voltage Electron Microscopy (The Ultramicroscopy Research Center) (CE20, 21)",
+  "hits": [
+   {
+    "lon": 130.2182558,
+    "lat": 33.5982058,
+    "how": "inside",
+    "osm_id": 166554960,
+    "osm_name": "超高圧電子顕微鏡棟"
+   }
+  ]
+ },
+ "50": {
+  "legend_en": "Common Facility 1 (CF1)",
+  "hits": [
+   {
+    "lon": 130.218611,
+    "lat": 33.5982655,
+    "how": "inside",
+    "osm_id": 166554946,
+    "osm_name": "パブリック1号館"
+   }
+  ]
+ },
+ "51": {
+  "legend_en": "International Research Center for Space and Planetary Environmental Science (CE10)",
+  "hits": [
+   {
+    "lon": 130.2187783,
+    "lat": 33.5978811,
+    "how": "inside",
+    "osm_id": 900234565,
+    "osm_name": "国際宇宙天気科学・教育センター"
+   }
+  ]
+ },
+ "52": {
+  "legend_en": "INAMORI Center   ♥",
+  "hits": [
+   {
+    "lon": 130.2194437,
+    "lat": 33.5979537,
+    "how": "inside",
+    "osm_id": 166559841,
+    "osm_name": "稲盛財団記念館"
+   }
+  ]
+ },
+ "53": {
+  "legend_en": "Energy Center",
+  "hits": [
+   {
+    "lon": 130.2198494,
+    "lat": 33.5978118,
+    "how": "inside",
+    "osm_id": 166559478,
+    "osm_name": "エネルギーセンター"
+   }
+  ]
+ },
+ "54": {
+  "legend_en": "Common Facility 4 (CF4)   ♥",
+  "hits": [
+   {
+    "lon": 130.2196799,
+    "lat": 33.5969874,
+    "how": "nearest(2m)",
+    "osm_id": 166553608,
+    "osm_name": "パブリック4号館"
+   }
+  ]
+ },
+ "55": {
+  "legend_en": "Eco Center",
+  "hits": [
+   {
+    "lon": 130.2207723,
+    "lat": 33.5969663,
+    "how": "nearest(4m)",
+    "osm_id": 166553605,
+    "osm_name": "エコセンター"
+   }
+  ]
+ },
+ "56": {
+  "legend_en": "Common Facility 2 (CF2)   ♥",
+  "hits": [
+   {
+    "lon": 130.214718,
+    "lat": 33.5953609,
+    "how": "inside",
+    "osm_id": 166556132,
+    "osm_name": "パブリック2号館"
+   }
+  ]
+ },
+ "57": {
+  "legend_en": "Campus Common",
+  "hits": [
+   {
+    "lon": 130.2178537,
+    "lat": 33.5943956,
+    "how": "nearest(18m)-ambiguous",
+    "osm_id": 1388121504,
+    "osm_name": ""
+   }
+  ]
+ },
+ "58": {
+  "legend_en": "Water Supply Center, Center for Environment and Safety   ♥",
+  "hits": [
+   {
+    "lon": 130.2228978,
+    "lat": 33.5986759,
+    "how": "inside",
+    "osm_id": 900410843,
+    "osm_name": "給水センター"
+   }
+  ]
+ },
+ "59": {
+  "legend_en": "Center Zone 5   ♥",
+  "hits": [
+   {
+    "lon": 130.222002,
+    "lat": 33.5974462,
+    "how": "nearest(11m)",
+    "osm_id": 165694577,
+    "osm_name": "センター5号館"
+   }
+  ]
+ },
+ "60": {
+  "legend_en": "Center Zone 6",
+  "hits": [
+   {
+    "lon": 130.2223852,
+    "lat": 33.5971589,
+    "how": "nearest(4m)-ambiguous",
+    "osm_id": 222850629,
+    "osm_name": "センター6号館"
+   }
+  ]
+ },
+ "61": {
+  "legend_en": "Big Sand (Restaurant and Stores)   ♥",
+  "hits": [
+   {
+    "lon": 130.2223033,
+    "lat": 33.5966819,
+    "how": "inside",
+    "osm_id": 166556363,
+    "osm_name": "ビックさんど"
+   }
+  ]
+ },
+ "62": {
+  "legend_en": "Big Orange (Information Center)   ♥",
+  "hits": [
+   {
+    "lon": 130.2230495,
+    "lat": 33.5977238,
+    "how": "inside",
+    "osm_id": 165694557,
+    "osm_name": "ビッグオレンジ"
+   }
+  ]
+ },
+ "63": {
+  "legend_en": "Center Zone 1   ♥",
+  "hits": [
+   {
+    "lon": 130.2233134,
+    "lat": 33.5974451,
+    "how": "inside",
+    "osm_id": 165694547,
+    "osm_name": "センター1号館"
+   }
+  ]
+ },
+ "64": {
+  "legend_en": "Center Zone 2   ♥",
+  "hits": [
+   {
+    "lon": 130.2234445,
+    "lat": 33.5968642,
+    "how": "inside",
+    "osm_id": 165694554,
+    "osm_name": "センター2号館"
+   }
+  ]
+ },
+ "65": {
+  "legend_en": "Center Zone 3   ♥",
+  "hits": [
+   {
+    "lon": 130.2253476,
+    "lat": 33.597532,
+    "how": "inside",
+    "osm_id": 329404792,
+    "osm_name": "センター3号館"
+   }
+  ]
+ },
+ "66": {
+  "legend_en": "Center Zone 4   ♥",
+  "hits": [
+   {
+    "lon": 130.2251563,
+    "lat": 33.5981483,
+    "how": "inside",
+    "osm_id": 900236665,
+    "osm_name": "センター4号館"
+   }
+  ]
+ },
+ "67": {
+  "legend_en": "Shiiki Hall   ♥",
+  "hits": [
+   {
+    "lon": 130.2252154,
+    "lat": 33.5992756,
+    "how": "inside",
+    "osm_id": 617112195,
+    "osm_name": "椎木講堂"
+   }
+  ]
+ },
+ "68": {
+  "legend_en": "Fujii gallery",
+  "hits": [
+   {
+    "lon": 130.2259798,
+    "lat": 33.5990073,
+    "how": "nearest(2m)",
+    "osm_id": 1388137200,
+    "osm_name": ""
+   }
+  ]
+ },
+ "69": {
+  "legend_en": "Tennis Court",
+  "hits": [
+   {
+    "lon": 130.2217879,
+    "lat": 33.595576,
+    "how": "poi-point",
+    "osm_id": null,
+    "osm_name": null
+   }
+  ]
+ },
+ "70": {
+  "legend_en": "Extracurricular Activities Facility I",
+  "hits": [
+   {
+    "lon": 130.2220259,
+    "lat": 33.5953776,
+    "how": "inside",
+    "osm_id": 165694585,
+    "osm_name": "課外活動施設Ⅰ"
+   }
+  ]
+ },
+ "71": {
+  "legend_en": "Gymnasium   ♥",
+  "hits": [
+   {
+    "lon": 130.2226229,
+    "lat": 33.595236,
+    "how": "inside",
+    "osm_id": 1388128319,
+    "osm_name": "総合体育館"
+   }
+  ]
+ },
+ "72": {
+  "legend_en": "Multipurpose Sports Field",
+  "hits": [
+   {
+    "lon": 130.2233409,
+    "lat": 33.5949388,
+    "how": "poi-point",
+    "osm_id": null,
+    "osm_name": null
+   }
+  ]
+ },
+ "73": {
+  "legend_en": "Koh-Koh-Sha House (Stores)",
+  "hits": [
+   {
+    "lon": 130.222238,
+    "lat": 33.5959811,
+    "how": "nearest(21m)-ambiguous",
+    "osm_id": 617425205,
+    "osm_name": "皎皎舎"
+   }
+  ]
+ },
+ "74": {
+  "legend_en": "Tei-Tei-Sha House",
+  "hits": [
+   {
+    "lon": 130.2227179,
+    "lat": 33.5957225,
+    "how": "nearest(7m)-ambiguous",
+    "osm_id": 900252571,
+    "osm_name": "亭亭舎"
+   }
+  ]
+ },
+ "75": {
+  "legend_en": "Dormitory I (Student Residence)   ♥",
+  "hits": [
+   {
+    "lon": 130.2239804,
+    "lat": 33.6003261,
+    "how": "nearest(7m)-ambiguous",
+    "osm_id": 1388144750,
+    "osm_name": ""
+   }
+  ]
+ },
+ "76": {
+  "legend_en": "Dormitory II (Student Residence)   ♥",
+  "hits": [
+   {
+    "lon": 130.2241793,
+    "lat": 33.5999258,
+    "how": "nearest(30m)-ambiguous",
+    "osm_id": 1388144800,
+    "osm_name": ""
+   }
+  ]
+ },
+ "77": {
+  "legend_en": "Dormitory III (Student Residence)   ♥",
+  "hits": [
+   {
+    "lon": 130.2237713,
+    "lat": 33.6008471,
+    "how": "nearest(21m)-ambiguous",
+    "osm_id": 1388144918,
+    "osm_name": ""
+   }
+  ]
+ },
+ "78": {
+  "legend_en": "Ito Guest House",
+  "hits": [
+   {
+    "lon": 130.2235396,
+    "lat": 33.5991917,
+    "how": "inside",
+    "osm_id": 165699327,
+    "osm_name": "伊都ゲストハウス"
+   }
+  ]
+ },
+ "79": {
+  "legend_en": "Jonathan KS Choi Cultural Centre of Japan",
+  "hits": [
+   {
+    "lon": 130.2236845,
+    "lat": 33.5987994,
+    "how": "inside",
+    "osm_id": 900410844,
+    "osm_name": "日本ジョナサン・ＫＳ・チョイ文化館"
+   }
+  ]
+ },
+ "80": {
+  "legend_en": "International Institute for Carbon-Neutral Energy Research (I 2 CNER)1   ♥",
+  "hits": [
+   {
+    "lon": 130.2254931,
+    "lat": 33.5968309,
+    "how": "nearest(3m)",
+    "osm_id": 221699862,
+    "osm_name": "カーボンニュートラル・エネルギー国際研究所 第1研究棟"
+   }
+  ]
+ },
+ "81": {
+  "legend_en": "International Institute for Carbon-Neutral Energy Research (I 2 CNER)2   ♥",
+  "hits": [
+   {
+    "lon": 130.2262103,
+    "lat": 33.5972236,
+    "how": "nearest(12m)",
+    "osm_id": 222842348,
+    "osm_name": "カーボンニュートラル・エネルギー国際研究所 第2研究棟"
+   }
+  ]
+ },
+ "82": {
+  "legend_en": "Hydrogen Institute for Sustainability (Next-Generation Fuel Cell Collaboration Facility)",
+  "hits": [
+   {
+    "lon": 130.2260354,
+    "lat": 33.5966221,
+    "how": "nearest(0m)",
+    "osm_id": 221699862,
+    "osm_name": "カーボンニュートラル・エネルギー国際研究所 第1研究棟"
+   }
+  ]
+ },
+ "83": {
+  "legend_en": "Research Facilities for Co-Evolutional Social Systems   ♥",
+  "hits": [
+   {
+    "lon": 130.2274052,
+    "lat": 33.5969047,
+    "how": "nearest(3m)",
+    "osm_id": 770575329,
+    "osm_name": "共進化社会システムイノベーション施設"
+   }
+  ]
+ },
+ "84": {
+  "legend_en": "East Zone 1 (Stores)   ♥",
+  "hits": [
+   {
+    "lon": 130.2273044,
+    "lat": 33.5992121,
+    "how": "inside",
+    "osm_id": 770575334,
+    "osm_name": "イースト1号館"
+   }
+  ]
+ },
+ "85": {
+  "legend_en": "East Zone 2   ♥",
+  "hits": [
+   {
+    "lon": 130.2280348,
+    "lat": 33.5983854,
+    "how": "inside",
+    "osm_id": 770575335,
+    "osm_name": "イースト2号館"
+   }
+  ]
+ },
+ "86": {
+  "legend_en": "Lecture Room I (Suzuyo Mirai Hall I)",
+  "hits": [
+   {
+    "lon": 130.2271665,
+    "lat": 33.598777,
+    "how": "nearest(2m)",
+    "osm_id": 770575332,
+    "osm_name": "大講義室Ⅰ"
+   }
+  ]
+ },
+ "87": {
+  "legend_en": "Lecture Room II (Suzuyo Mirai Hall II)",
+  "hits": [
+   {
+    "lon": 130.2271892,
+    "lat": 33.5984373,
+    "how": "inside",
+    "osm_id": 770575333,
+    "osm_name": "大講義室Ⅱ"
+   }
+  ]
+ },
+ "88": {
+  "legend_en": "Big Sky (Restaurant)",
+  "hits": [
+   {
+    "lon": 130.2274048,
+    "lat": 33.5979586,
+    "how": "inside",
+    "osm_id": 770575331,
+    "osm_name": "ビッグスカイ"
+   }
+  ]
+ },
+ "89": {
+  "legend_en": "Central Library   ♥",
+  "hits": [
+   {
+    "lon": 130.2265391,
+    "lat": 33.5984055,
+    "how": "inside",
+    "osm_id": 770575330,
+    "osm_name": "九州大学中央図書館"
+   }
+  ]
+ },
+ "90": {
+  "legend_en": "Exhibition of Stone Chamber and Passage from Ishigahara Tumulus",
+  "hits": [
+   {
+    "lon": 130.2278384,
+    "lat": 33.5993445,
+    "how": "nearest(2m)",
+    "osm_id": 1388137272,
+    "osm_name": ""
+   }
+  ]
+ },
+ "91": {
+  "legend_en": "Structural Building Engineering Laboratory (HE10)",
+  "hits": [
+   {
+    "lon": 130.2258858,
+    "lat": 33.5999599,
+    "how": "inside",
+    "osm_id": 772304630,
+    "osm_name": "建築構造実験棟"
+   }
+  ]
+ },
+ "92": {
+  "legend_en": "Architectural Environment Research Building (HE20)",
+  "hits": [
+   {
+    "lon": 130.2264396,
+    "lat": 33.5998801,
+    "how": "nearest(1m)-ambiguous",
+    "osm_id": 772304631,
+    "osm_name": "建築環境実験棟"
+   }
+  ]
+ },
+ "93": {
+  "legend_en": "Laboratory for Automotive Science (IS10)",
+  "hits": [
+   {
+    "lon": 130.2263309,
+    "lat": 33.6001712,
+    "how": "nearest(9m)-ambiguous",
+    "osm_id": 772304632,
+    "osm_name": "AMS専攻実験棟"
+   }
+  ]
+ },
+ "94": {
+  "legend_en": "Psychological Experiment Building (HE30)",
+  "hits": [
+   {
+    "lon": 130.2267157,
+    "lat": 33.6001221,
+    "how": "inside",
+    "osm_id": 772304633,
+    "osm_name": "行動実験棟"
+   }
+  ]
+ },
+ "95": {
+  "legend_en": "Center for Clinical Psychology and",
+  "hits": [
+   {
+    "lon": 130.2270537,
+    "lat": 33.6002644,
+    "how": "nearest(1m)",
+    "osm_id": 772304634,
+    "osm_name": "総合臨床心理センター"
+   }
+  ]
+ },
+ "96": {
+  "legend_en": "Ito Harmony House (Student Residence)   ♥",
+  "hits": [
+   {
+    "lon": 130.2288321,
+    "lat": 33.603136,
+    "how": "inside",
+    "osm_id": 772304639,
+    "osm_name": "九州大学 伊都協奏館"
+   }
+  ]
+ },
+ "97": {
+  "legend_en": "Multipurpose Sports Field   ♥",
+  "hits": [
+   {
+    "lon": 130.2295412,
+    "lat": 33.6019746,
+    "how": "poi-point",
+    "osm_id": null,
+    "osm_name": null
+   }
+  ]
+ },
+ "98": {
+  "legend_en": "Tennis Court",
+  "hits": [
+   {
+    "lon": 130.2306447,
+    "lat": 33.6015408,
+    "how": "poi-point",
+    "osm_id": null,
+    "osm_name": null
+   }
+  ]
+ },
+ "99": {
+  "legend_en": "Agriculture Zone   ♥",
+  "hits": [
+   {
+    "lon": 130.2313962,
+    "lat": 33.6030675,
+    "how": "poi-point",
+    "osm_id": null,
+    "osm_name": null
+   }
+  ]
+ },
+ "100": {
+  "legend_en": "University Museum Storage",
+  "hits": [
+   {
+    "lon": 130.2318212,
+    "lat": 33.6013395,
+    "how": "unmatched(min 705m)",
+    "osm_id": null,
+    "osm_name": null
+   }
+  ]
+ }
+}

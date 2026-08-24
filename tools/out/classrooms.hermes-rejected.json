@@ -1,0 +1,208 @@
+[
+  {
+    "code": "椎木講堂",
+    "building": 617112195,
+    "floor": "1",
+    "name_ja": "椎木講堂",
+    "name_zh": "椎木讲堂",
+    "name_en": "Shiiki Hall",
+    "aliases": ["Shiiki Hall", "椎木", "大学本部"],
+    "source": "annotations-claude.json + マップ画像"
+  },
+  {
+    "code": "大講義室Ⅰ",
+    "building": 770575332,
+    "floor": "1",
+    "name_ja": "大講義室Ⅰ（鈴与未來ホールⅠ）",
+    "name_zh": "大讲义室Ⅰ（铃与未来厅Ⅰ）",
+    "name_en": "Lecture Room I (Suzuyo Mirai Hall I)",
+    "aliases": ["鈴与未來ホールⅠ", "Suzuyo Mirai Hall I", "大講Ⅰ", "第1講義室"],
+    "source": "annotations-claude.json + ITO_1_Eng.pdf"
+  },
+  {
+    "code": "大講義室Ⅱ",
+    "building": 770575333,
+    "floor": "1",
+    "name_ja": "大講義室Ⅱ（鈴与未來ホールⅡ）",
+    "name_zh": "大讲义室Ⅱ（铃与未来厅Ⅱ）",
+    "name_en": "Lecture Room II (Suzuyo Mirai Hall II)",
+    "aliases": ["鈴与未來ホールⅡ", "Suzuyo Mirai Hall II", "大講Ⅱ", "第2講義室"],
+    "source": "annotations-claude.json + ITO_1_Eng.pdf"
+  },
+  {
+    "code": "西講義棟",
+    "building": 167423392,
+    "floor": "1",
+    "name_ja": "西講義棟（工学部）",
+    "name_zh": "西讲义楼（工学部）",
+    "name_en": "Lecture Hall West (Faculty of Engineering)",
+    "aliases": ["Lecture Hall West", "工学部西講義棟", "E-café"],
+    "source": "annotations-claude.json + ITO_1_Eng.pdf"
+  },
+  {
+    "code": "BigLeaf講義室",
+    "building": 494148473,
+    "floor": "1",
+    "name_ja": "ビッグリーフ講義室",
+    "name_zh": "Big Leaf 讲义室",
+    "name_en": "Big Leaf Lecture Room",
+    "aliases": ["ビッグリーフ", "Big Leaf", "リーフ"],
+    "source": "annotations-claude.json + ITO_1_Eng.pdf"
+  },
+  {
+    "code": "C6大講義室",
+    "building": 222850629,
+    "floor": "1",
+    "name_ja": "センター6号館 大講義室",
+    "name_zh": "Center 6号馆 大讲义室",
+    "name_en": "Center Zone 6 Large Lecture Room",
+    "aliases": ["C6", "センター6", "Center 6"],
+    "source": "annotations-claude.json + マップ画像"
+  },
+  {
+    "code": "W3-101",
+    "building": 167423390,
+    "floor": "1",
+    "name_ja": "ウエスト3号館 101教室",
+    "name_zh": "West 3号馆 101教室",
+    "name_en": "West Zone 3 Room 101",
+    "aliases": ["West3-101", "ウエスト3-101", "W3"],
+    "source": "inferred: 日本大学教室番号標準パターン"
+  },
+  {
+    "code": "C5-101",
+    "building": 165694577,
+    "floor": "1",
+    "name_ja": "センター5号館 101教室",
+    "name_zh": "Center 5号馆 101教室",
+    "name_en": "Center Zone 5 Room 101",
+    "aliases": ["Center5-101", "センター5-101", "C5"],
+    "source": "inferred: 日本大学教室番号標準パターン"
+  },
+  {
+    "code": "E2-101",
+    "building": 770575335,
+    "floor": "1",
+    "name_ja": "イースト2号館 101教室",
+    "name_zh": "East 2号馆 101教室",
+    "name_en": "East Zone 2 Room 101",
+    "aliases": ["East2-101", "イースト2-101", "E2"],
+    "source": "inferred: 日本大学教室番号標準パターン"
+  },
+  {
+    "code": "C1-101",
+    "building": 165694547,
+    "floor": "1",
+    "name_ja": "センター1号館 101",
+    "name_zh": "Center 1号馆 101",
+    "name_en": "Center Zone 1 Room 101",
+    "aliases": ["センター1-101"],
+    "source": "inferred"
+  },
+  {
+    "code": "C2-101",
+    "building": 165694554,
+    "floor": "1",
+    "name_ja": "センター2号館 101",
+    "name_zh": "Center 2号馆 101",
+    "name_en": "Center Zone 2 Room 101",
+    "aliases": ["センター2-101"],
+    "source": "inferred"
+  },
+  {
+    "code": "C3-101",
+    "building": 329404792,
+    "floor": "1",
+    "name_ja": "センター3号館 101",
+    "name_zh": "Center 3号馆 101",
+    "name_en": "Center Zone 3 Room 101",
+    "aliases": ["センター3-101"],
+    "source": "inferred"
+  },
+  {
+    "code": "C4-101",
+    "building": 900236665,
+    "floor": "1",
+    "name_ja": "センター4号館 101",
+    "name_zh": "Center 4号馆 101",
+    "name_en": "Center Zone 4 Room 101",
+    "aliases": ["センター4-101"],
+    "source": "inferred"
+  },
+  {
+    "code": "E1-101",
+    "building": 770575334,
+    "floor": "1",
+    "name_ja": "イースト1号館 101",
+    "name_zh": "East 1号馆 101",
+    "name_en": "East Zone 1 Room 101",
+    "aliases": ["イースト1-101"],
+    "source": "inferred"
+  },
+  {
+    "code": "W1-101",
+    "building": null,
+    "building_pending": "west1",
+    "floor": "1",
+    "name_ja": "ウエスト1号館 101教室",
+    "name_zh": "West 1号馆 101教室",
+    "name_en": "West Zone 1 Room 101",
+    "aliases": ["West1-101", "ウエスト1-101", "W1"],
+    "source": "inferred: building_pending — West 1号館のOSM輪郭帰属未確定"
+  },
+  {
+    "code": "W2-101",
+    "building": null,
+    "building_pending": "west2",
+    "floor": "1",
+    "name_ja": "ウエスト2号館 101教室",
+    "name_zh": "West 2号馆 101教室",
+    "name_en": "West Zone 2 Room 101",
+    "aliases": ["West2-101", "ウエスト2-101", "W2"],
+    "source": "inferred: building_pending"
+  },
+  {
+    "code": "W4-101",
+    "building": null,
+    "building_pending": "west4",
+    "floor": "1",
+    "name_ja": "ウエスト4号館 101教室",
+    "name_zh": "West 4号馆 101教室",
+    "name_en": "West Zone 4 Room 101",
+    "aliases": ["West4-101", "ウエスト4-101", "W4"],
+    "source": "inferred: building_pending"
+  },
+  {
+    "code": "W5-101",
+    "building": null,
+    "building_pending": "west5",
+    "floor": "1",
+    "name_ja": "ウエスト5号館 101教室",
+    "name_zh": "West 5号馆 101教室",
+    "name_en": "West Zone 5 Room 101",
+    "aliases": ["West5-101", "ウエスト5-101", "W5"],
+    "source": "inferred: building_pending"
+  },
+  {
+    "code": "E3-101",
+    "building": null,
+    "building_pending": "east3",
+    "floor": "1",
+    "name_ja": "イースト3号館 101教室",
+    "name_zh": "East 3号馆 101教室",
+    "name_en": "East Zone 3 Room 101",
+    "aliases": ["East3-101", "イースト3-101", "E3"],
+    "source": "inferred: building_pending"
+  },
+  {
+    "code": "C7-101",
+    "building": null,
+    "building_pending": "center7",
+    "floor": "1",
+    "name_ja": "センター7号館 101セミナー室",
+    "name_zh": "Center 7号馆 101研讨室",
+    "name_en": "Center Zone 7 Room 101",
+    "aliases": ["Center7-101", "センター7-101", "C7"],
+    "source": "inferred: building_pending"
+  }
+]

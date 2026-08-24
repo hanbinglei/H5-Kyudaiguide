@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>九州大学伊都校区 — 交互地图（标注版）</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; overflow: hidden; font-family: system-ui, -apple-system, sans-serif; }
+  #map { width: 100%; height: 100%; background: #f8f6f2; }
+
+  #toolbar {
+    position: fixed; top: 12px; left: 50%; transform: translateX(-50%);
+    display: flex; gap: 6px; z-index: 1000;
+    background: rgba(255,255,255,0.92); backdrop-filter: blur(8px);
+    border-radius: 10px; padding: 4px; box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  }
+  #toolbar button {
+    padding: 7px 13px; border: none; border-radius: 8px; font-size: 13px;
+    cursor: pointer; background: transparent; color: #555; transition: all 0.15s;
+  }
+  #toolbar button:hover { background: #f0f0f0; }
+  #toolbar button.active, #toolbar button.edit-on { background: #c0392b; color: #fff; font-weight: 600; }
+
+  #info {
+    position: fixed; left: 10px; bottom: 10px; z-index: 1000;
+    background: rgba(255,255,255,0.90); backdrop-filter: blur(6px);
+    border-radius: 8px; padding: 5px 12px; font-size: 11px; color: #999;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+    pointer-events: none;
+  }
+  #hover-label {
+    position: fixed; z-index: 1001; pointer-events: none;
+    background: rgba(30,30,30,0.88); color: #fff;
+    padding: 5px 10px; border-radius: 6px; font-size: 13px;
+    display: none; white-space: nowrap;
+    transform: translate(-50%, -120%);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+
+  /* 标注模式弹窗 */
+  #annotate-dialog {
+    position: fixed; z-index: 2000; top: 50%; left: 50%; transform: translate(-50%,-50%);
+    background: #fff; border-radius: 14px; padding: 20px 24px; display: none;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.3); min-width: 300px; max-width: 90vw;
+  }
+  #annotate-dialog h3 { margin: 0 0 14px; font-size: 16px; color: #333; }
+  #annotate-dialog input { 
+    width: 100%; padding: 8px 10px; margin-bottom: 8px; border: 1px solid #ddd; 
+    border-radius: 6px; font-size: 14px; 
+  }
+  #annotate-dialog input:focus { outline: none; border-color: #8b1f41; }
+  #annotate-dialog label { font-size: 11px; color: #999; display: block; margin-bottom: 2px; }
+  #annotate-dialog .btns { display: flex; gap: 8px; margin-top: 14px; }
+  #annotate-dialog .btns button { 
+    flex: 1; padding: 10px; border: none; border-radius: 8px; font-size: 14px; cursor: pointer; 
+  }
+  #annotate-dialog .btn-save { background: #8b1f41; color: #fff; }
+  #annotate-dialog .btn-cancel { background: #f5f5f5; color: #666; }
+  #annotate-dialog .btn-delete { background: #fff; color: #c0392b; border: 1px solid #c0392b; }
+
+  #legend {
+    position: fixed; right: 10px; bottom: 40px; z-index: 1000;
+    background: rgba(255,255,255,0.92); backdrop-filter: blur(6px);
+    border-radius: 8px; padding: 8px 12px; font-size: 11px; color: #666;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.08); line-height: 1.8;
+  }
+  #legend span { display: inline-block; width: 12px; height: 12px; border-radius: 2px; margin-right: 6px; vertical-align: middle; }
+</style>
+</head>
+<body>
+
+<div id="map"></div>
+<div id="toolbar">
+  <button id="btn-edit">✏️ 标注模式</button>
+  <button id="btn-export" style="display:none;">📤 导出</button>
+</div>
+<div id="info"></div>
+<div id="hover-label"></div>
+<div id="legend">
+  <span style="background:#d4c5c9;border:1px solid #8b1f41;"></span> 有名建筑<br>
+  <span style="background:#eee;border:0.5px solid #ddd;"></span> 未知建筑<br>
+  <span style="background:#8b1f41;"></span> 你的标注
+</div>
+
+<div id="annotate-dialog">
+  <h3 id="dlg-title">标注建筑</h3>
+  <label>中文名称</label><input id="dlg-zh" placeholder="如：中央图书馆" autofocus>
+  <label>日本語</label><input id="dlg-ja" placeholder="例：中央図書館">
+  <label>English</label><input id="dlg-en" placeholder="e.g. Central Library">
+  <div class="btns">
+    <button class="btn-delete" id="btn-delete" style="display:none;">删除</button>
+    <button class="btn-cancel" id="btn-cancel">取消</button>
+    <button class="btn-save" id="btn-save">保存</button>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js"></script>
+
+<script>
+// ==================== Campus bounds ====================
+const CAMPUS_BOUNDS = L.latLngBounds([33.582, 130.192], [33.618, 130.242]);
+const map = L.map('map', {
+  center: [33.600, 130.218], zoom: 16, minZoom: 15, maxZoom: 19,
+  maxBounds: CAMPUS_BOUNDS, maxBoundsViscosity: 1.0,
+  zoomControl: true, attributionControl: false
+});
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', { maxZoom: 19, bounds: CAMPUS_BOUNDS }).addTo(map);
+L.rectangle(CAMPUS_BOUNDS, { color: '#8b1f41', weight: 2.5, fill: false, dashArray: '8 4', opacity: 0.7 }).addTo(map);
+map.fitBounds(CAMPUS_BOUNDS);
+
+// ==================== State ====================
+let buildingLayer;
+let editMode = false;
+let selectedOsmId = null;
+let selectedLayer = null;
+let annotations = {};  // {osm_id: {name_zh, name_ja, name_en}}
+let allFeatures = [];
+
+const hoverLabel = document.getElementById('hover-label');
+const infoDiv = document.getElementById('info');
+
+// ==================== Load annotations ====================
+// 底版：批量标注（annotations-claude.json）；用户 localStorage 标注覆盖其上
+let baseAnnotations = {};
+try {
+  const saved = localStorage.getItem('kyudai-annotations');
+  if (saved) annotations = JSON.parse(saved);
+} catch(e) {}
+fetch('data/annotations-claude.json').then(r => r.json()).then(base => {
+  baseAnnotations = base;
+  annotations = Object.assign({}, base, annotations);
+  if (allFeatures.length) {
+    renderBuildings({ type: 'FeatureCollection', features: allFeatures });
+    updateCounts();
+  }
+}).catch(() => {});
+
+// ==================== Building style ====================
+function buildingStyle(feature) {
+  const osmId = feature.properties.id;
+  const hasOsmName = !!feature.properties.name;
+  const hasAnnotation = !!annotations[osmId];
+  
+  if (hasAnnotation) {
+    return { color: '#8b1f41', weight: 1.5, fillColor: '#8b1f41', fillOpacity: 0.3, opacity: 0.8 };
+  }
+  if (hasOsmName) {
+    return { color: '#8b1f41', weight: 1, fillColor: '#d4c5c9', fillOpacity: 0.45, opacity: 0.7 };
+  }
+  // In edit mode, show all buildings slightly more visible
+  if (editMode) {
+    return { color: '#bbb', weight: 0.5, fillColor: '#eee', fillOpacity: 0.2, opacity: 0.3 };
+  }
+  return { color: '#ccc', weight: 0.3, fillColor: '#e8e4e0', fillOpacity: 0.12, opacity: 0.12 };
+}
+
+function getDisplayName(feature) {
+  const osmId = feature.properties.id;
+  if (annotations[osmId]) {
+    return annotations[osmId].name_zh || annotations[osmId].name_ja || Object.values(annotations[osmId])[0];
+  }
+  return feature.properties.name || '';
+}
+
+// ==================== Load & render ====================
+fetch('data/osm-buildings.geojson')
+  .then(r => r.json())
+  .then(data => {
+    allFeatures = data.features;
+    renderBuildings(data);
+    updateCounts();
+  });
+
+function renderBuildings(geojson) {
+  if (buildingLayer) map.removeLayer(buildingLayer);
+  
+  buildingLayer = L.geoJSON(geojson, {
+    style: buildingStyle,
+    onEachFeature: function(feature, layer) {
+      layer._osmId = feature.properties.id;
+      layer._feature = feature;
+      
+      const displayName = getDisplayName(feature);
+      
+      // Hover (only if named)
+      if (displayName) {
+        layer.on('mouseover', function(e) {
+          if (editMode) return;
+          layer.setStyle({ color: '#6b1531', weight: 2.5, fillColor: '#8b1f41', fillOpacity: 0.35, opacity: 1 });
+          layer.bringToFront();
+          hoverLabel.textContent = displayName;
+          hoverLabel.style.display = 'block';
+        });
+        layer.on('mousemove', function(e) {
+          if (editMode) return;
+          hoverLabel.style.left = e.originalEvent.clientX + 'px';
+          hoverLabel.style.top = e.originalEvent.clientY + 'px';
+        });
+        layer.on('mouseout', function() {
+          if (editMode) return;
+          layer.setStyle(buildingStyle(feature));
+          hoverLabel.style.display = 'none';
+        });
+      }
+      
+      // Click: show info OR enter annotation
+      layer.on('click', function(e) {
+        if (editMode) {
+          openAnnotationDialog(feature, layer);
+        } else if (displayName) {
+          L.popup().setLatLng(e.latlng).setContent('<b>' + displayName + '</b>').openOn(map);
+        }
+      });
+    }
+  }).addTo(map);
+}
+
+function updateCounts() {
+  const total = allFeatures.length;
+  const osmNamed = allFeatures.filter(f => f.properties.name).length;
+  const myAnnotated = Object.keys(annotations).length;
+  const totalNamed = allFeatures.filter(f => getDisplayName(f)).length;
+  infoDiv.innerHTML = `伊都校区 &nbsp;|&nbsp; ${total} 栋 &nbsp;|&nbsp; <span style="color:#8b1f41;font-weight:600">OSM ${osmNamed}</span> + <span style="color:#c0392b;font-weight:600">你 ${myAnnotated}</span> = ${totalNamed} 有名`;
+}
+
+// ==================== Annotation dialog ====================
+const dialog = document.getElementById('annotate-dialog');
+const dlgTitle = document.getElementById('dlg-title');
+const dlgZh = document.getElementById('dlg-zh');
+const dlgJa = document.getElementById('dlg-ja');
+const dlgEn = document.getElementById('dlg-en');
+const btnDelete = document.getElementById('btn-delete');
+
+function openAnnotationDialog(feature, layer) {
+  const osmId = feature.properties.id;
+  selectedOsmId = osmId;
+  selectedLayer = layer;
+  
+  const existing = annotations[osmId];
+  dlgZh.value = existing?.name_zh || '';
+  dlgJa.value = existing?.name_ja || '';
+  dlgEn.value = existing?.name_en || '';
+  dlgTitle.textContent = existing ? '编辑标注' : '标注建筑';
+  btnDelete.style.display = existing ? 'block' : 'none';
+  
+  dialog.style.display = 'block';
+  setTimeout(() => dlgZh.focus(), 100);
+}
+
+function closeDialog() {
+  dialog.style.display = 'none';
+  selectedOsmId = null;
+  selectedLayer = null;
+}
+
+document.getElementById('btn-save').addEventListener('click', () => {
+  if (!selectedOsmId) return;
+  const zh = dlgZh.value.trim();
+  const ja = dlgJa.value.trim();
+  const en = dlgEn.value.trim();
+  if (!zh && !ja && !en) {
+    // All empty = delete
+    delete annotations[selectedOsmId];
+  } else {
+    annotations[selectedOsmId] = { name_zh: zh, name_ja: ja, name_en: en };
+  }
+  localStorage.setItem('kyudai-annotations', JSON.stringify(annotations));
+  closeDialog();
+  // Refresh style of the clicked building
+  if (selectedLayer) selectedLayer.setStyle(buildingStyle(allFeatures.find(f => f.properties.id === selectedOsmId) || {}));
+  updateCounts();
+});
+
+document.getElementById('btn-cancel').addEventListener('click', closeDialog);
+document.getElementById('btn-delete').addEventListener('click', () => {
+  if (!selectedOsmId) return;
+  delete annotations[selectedOsmId];
+  localStorage.setItem('kyudai-annotations', JSON.stringify(annotations));
+  closeDialog();
+  renderBuildings({ type: 'FeatureCollection', features: allFeatures });
+  updateCounts();
+});
+
+// Keyboard: Enter to save, Esc to cancel
+document.addEventListener('keydown', e => {
+  if (dialog.style.display !== 'block') return;
+  if (e.key === 'Enter') { e.preventDefault(); document.getElementById('btn-save').click(); }
+  if (e.key === 'Escape') { e.preventDefault(); closeDialog(); }
+});
+
+// ==================== Edit mode toggle ====================
+// [R1 修复] 此处原有一个重复的 click 监听器（与下方 L346 各绑一次，
+// editMode 被翻转两次导致按钮完全失效）。切换逻辑统一由下方监听器承担。
+const btnEdit = document.getElementById('btn-edit');
+const btnExport = document.getElementById('btn-export');
+
+// ==================== Export ====================
+btnExport.addEventListener('click', () => {
+  const data = JSON.stringify(annotations, null, 2);
+  const blob = new Blob([data], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'kyudai-annotations.json';
+  a.click();
+  URL.revokeObjectURL(url);
+});
+
+// ==================== Load annotations from file ====================
+const fileInput = document.createElement('input');
+fileInput.type = 'file';
+fileInput.accept = '.json';
+fileInput.style.display = 'none';
+fileInput.addEventListener('change', e => {
+  const file = e.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = () => {
+    try {
+      const imported = JSON.parse(reader.result);
+      Object.assign(annotations, imported);
+      localStorage.setItem('kyudai-annotations', JSON.stringify(annotations));
+      renderBuildings({ type: 'FeatureCollection', features: allFeatures });
+      updateCounts();
+      alert(`导入 ${Object.keys(imported).length} 条标注`);
+    } catch(ex) { alert('文件格式错误'); }
+  };
+  reader.readAsText(file);
+});
+document.body.appendChild(fileInput);
+
+// Add import button
+const btnImport = document.createElement('button');
+btnImport.textContent = '📥 导入';
+btnImport.style.cssText = btnExport.style.cssText;
+btnImport.addEventListener('click', () => fileInput.click());
+btnExport.parentNode.insertBefore(btnImport, btnExport.nextSibling);
+
+// Initially hide import/export
+btnImport.style.display = 'none';
+
+// Show import/export in edit mode
+const origToggle = btnEdit.onclick;
+btnEdit.onclick = null;
+btnEdit.addEventListener('click', () => {
+  editMode = !editMode;
+  btnEdit.textContent = editMode ? '✅ 完成标注' : '✏️ 标注模式';
+  btnEdit.className = editMode ? 'edit-on' : '';
+  btnExport.style.display = editMode ? 'inline-block' : 'none';
+  btnImport.style.display = editMode ? 'inline-block' : 'none';
+  renderBuildings({ type: 'FeatureCollection', features: allFeatures });
+  updateCounts();
+});
+
+// Initial counts
+updateCounts();
+</script>
+
+</body>
+</html>

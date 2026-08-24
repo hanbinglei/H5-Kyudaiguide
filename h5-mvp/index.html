@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>九州大学伊都校区 — 交互地图 MVP</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; overflow: hidden; font-family: system-ui, -apple-system, sans-serif; }
+  #map { width: 100%; height: 100%; background: #f5f2ed; }
+
+  #toolbar {
+    position: fixed; top: 10px; left: 50%; transform: translateX(-50%);
+    display: flex; gap: 6px; z-index: 1000;
+    background: rgba(255,255,255,0.92); backdrop-filter: blur(8px);
+    border-radius: 10px; padding: 4px; box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+  }
+  #toolbar button {
+    padding: 8px 14px; border: none; border-radius: 8px; font-size: 14px;
+    cursor: pointer; background: transparent; color: #555; transition: all 0.15s;
+  }
+  #toolbar button:hover { background: #f2f2f2; }
+  #toolbar button.active { background: #8b1f41; color: #fff; font-weight: 600; }
+
+  #info {
+    position: fixed; left: 10px; bottom: 10px; z-index: 1000;
+    background: rgba(255,255,255,0.88); backdrop-filter: blur(6px);
+    border-radius: 8px; padding: 6px 12px; font-size: 12px; color: #777;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+  }
+
+  @media (max-width: 480px) {
+    #toolbar { gap: 2px; padding: 3px; }
+    #toolbar button { padding: 6px 10px; font-size: 13px; }
+  }
+
+  .leaflet-popup-content { font-size: 14px; margin: 10px 14px; }
+  .popup-title { font-size: 16px; font-weight: 700; margin-bottom: 4px; color: #222; }
+  .popup-sub { font-size: 12px; color: #888; margin-bottom: 6px; }
+  .popup-facilities { font-size: 13px; color: #555; line-height: 1.5; }
+</style>
+</head>
+<body>
+
+<div id="map"></div>
+<div id="toolbar">
+  <button data-lang="zh" class="active">中文</button>
+  <button data-lang="ja">日本語</button>
+  <button data-lang="en">English</button>
+</div>
+<div id="info">Kyudai Ito Campus Map · MVP 0.1 · <span id="build-count">-</span> buildings</div>
+
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js"></script>
+<script src="js/coord.js"></script>
+
+<script>
+// ==================== 主逻辑 ====================
+
+const IMG_W = 4961, IMG_H = 3508;  // 与 coord.js 保持一致
+
+const map = L.map('map', {
+  crs: L.CRS.Simple,
+  minZoom: -2,
+  maxZoom: 3,
+  zoomSnap: 0.1,
+  zoomDelta: 0.25,
+  attributionControl: false
+});
+
+L.imageOverlay('../ito-campus-detailed.png', [[0, 0], [IMG_H, IMG_W]]).addTo(map);
+map.fitBounds([[0, 0], [IMG_H, IMG_W]]);
+
+// ---------- 语言 ----------
+let currentLang = 'zh';
+document.querySelectorAll('#toolbar button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    currentLang = btn.dataset.lang;
+    document.querySelectorAll('#toolbar button').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    // popup 内容下次点击时刷新
+    buildingLayers.forEach(p => { p.unbindPopup(); p.bindPopup(''); });
+  });
+});
+
+// ---------- 坐标转换 (复用 coord.js 函数签名) ----------
+function polygonToLatLng(polygon) {
+  return polygon.map(([nx, ny]) => [ny * IMG_H, nx * IMG_W]);
+}
+
+// ---------- 建筑渲染 ----------
+const buildingLayers = [];
+const zoneNames = {
+  east:  { zh:'东区',  ja:'イーストゾーン', en:'East Zone' },
+  west:  { zh:'西区',  ja:'ウエストゾーン', en:'West Zone' },
+  center:{ zh:'中心区', ja:'センターゾーン', en:'Center Zone' }
+};
+
+function renderBuildings(buildings) {
+  buildings.forEach((b, i) => {
+    const latlngs = polygonToLatLng(b.polygon);
+    const poly = L.polygon(latlngs, {
+      color: '#8b1f41', weight: 2, fillColor: '#8b1f41', fillOpacity: 0.18, opacity: 0.6
+    }).addTo(map);
+
+    poly.bindPopup('');
+    poly._b = b;
+    poly.on('click', () => {
+      const name = b.name[currentLang] || b.name.zh;
+      const zone = zoneNames[b.zone]?.[currentLang] || b.zone;
+      const note = b.facilities_note?.[currentLang] || '';
+      poly.setPopupContent(`
+        <div class="popup-title">${b.code ? '['+b.code+'] ' : ''}${name}</div>
+        <div class="popup-sub">${zone} · ${b.category}</div>
+        ${note ? `<div class="popup-facilities">${note}</div>` : ''}
+      `);
+    });
+
+    buildingLayers.push(poly);
+  });
+  document.getElementById('build-count').textContent = buildings.length;
+}
+
+// ---------- 加载数据 ----------
+async function init() {
+  try {
+    const resp = await fetch('data/buildings.json');
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const data = await resp.json();
+    renderBuildings(data.buildings);
+    console.log(`✅ 加载 ${data.buildings.length} 栋建筑`);
+  } catch (e) {
+    // 降级：使用内嵌样例数据 (文件协议无法 fetch)
+    console.warn('fetch 失败，使用内嵌样例:', e.message);
+    const fallback = [
+      { id:'FALLBACK', code:'例', name:{zh:'样例建筑',ja:'サンプル',en:'Sample'}, zone:'center', category:'sample',
+        polygon:[[0.44,0.32],[0.47,0.32],[0.47,0.35],[0.44,0.35]], anchor:[0.455,0.335],
+        facilities_note:{zh:'需本地起HTTP服务器加载完整数据',ja:'HTTPサーバーが必要',en:'HTTP server required'} }
+    ];
+    renderBuildings(fallback);
+    document.getElementById('info').textContent += ' ⚠️ 内嵌降级';
+  }
+}
+
+init();
+</script>
+</body>
+</html>

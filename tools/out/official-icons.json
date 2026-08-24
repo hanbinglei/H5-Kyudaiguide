@@ -1,0 +1,605 @@
+[
+ {
+  "type": "entrance",
+  "lon": 130.2106004,
+  "lat": 33.6022867
+ },
+ {
+  "type": "exit",
+  "lon": 130.2101057,
+  "lat": 33.6022769
+ },
+ {
+  "type": "entrance",
+  "lon": 130.2313665,
+  "lat": 33.6003635
+ },
+ {
+  "type": "exit",
+  "lon": 130.2313822,
+  "lat": 33.6007411
+ },
+ {
+  "type": "atm",
+  "lon": 130.2165632,
+  "lat": 33.5945265
+ },
+ {
+  "type": "atm",
+  "lon": 130.2144998,
+  "lat": 33.5940524
+ },
+ {
+  "type": "atm",
+  "lon": 130.2188336,
+  "lat": 33.5956163
+ },
+ {
+  "type": "store",
+  "lon": 130.214165,
+  "lat": 33.5939825
+ },
+ {
+  "type": "store",
+  "lon": 130.2163822,
+  "lat": 33.5942476
+ },
+ {
+  "type": "store",
+  "lon": 130.2191783,
+  "lat": 33.5956261
+ },
+ {
+  "type": "store",
+  "lon": 130.2208856,
+  "lat": 33.5957768
+ },
+ {
+  "type": "store",
+  "lon": 130.2229542,
+  "lat": 33.5961465
+ },
+ {
+  "type": "store",
+  "lon": 130.2225715,
+  "lat": 33.5964333
+ },
+ {
+  "type": "store",
+  "lon": 130.2262184,
+  "lat": 33.5986943
+ },
+ {
+  "type": "store",
+  "lon": 130.222422,
+  "lat": 33.5977975
+ },
+ {
+  "type": "store",
+  "lon": 130.2270488,
+  "lat": 33.5994546
+ },
+ {
+  "type": "toilets",
+  "lon": 130.2062289,
+  "lat": 33.6029492
+ },
+ {
+  "type": "toilets",
+  "lon": 130.2080525,
+  "lat": 33.6007698
+ },
+ {
+  "type": "toilets",
+  "lon": 130.2093575,
+  "lat": 33.5993183
+ },
+ {
+  "type": "toilets",
+  "lon": 130.2129389,
+  "lat": 33.5988024
+ },
+ {
+  "type": "toilets",
+  "lon": 130.2146838,
+  "lat": 33.5936973
+ },
+ {
+  "type": "toilets",
+  "lon": 130.214816,
+  "lat": 33.5922529
+ },
+ {
+  "type": "parking",
+  "lon": 130.2127019,
+  "lat": 33.5942523
+ },
+ {
+  "type": "parking",
+  "lon": 130.2137416,
+  "lat": 33.59456
+ },
+ {
+  "type": "parking",
+  "lon": 130.215611,
+  "lat": 33.5961032
+ },
+ {
+  "type": "parking",
+  "lon": 130.2202194,
+  "lat": 33.5955154
+ },
+ {
+  "type": "parking",
+  "lon": 130.2182487,
+  "lat": 33.5942483
+ },
+ {
+  "type": "parking",
+  "lon": 130.221108,
+  "lat": 33.5968759
+ },
+ {
+  "type": "parking",
+  "lon": 130.2212875,
+  "lat": 33.5983948
+ },
+ {
+  "type": "parking",
+  "lon": 130.2242744,
+  "lat": 33.5991216
+ },
+ {
+  "type": "parking",
+  "lon": 130.2258305,
+  "lat": 33.5971149
+ },
+ {
+  "type": "parking",
+  "lon": 130.2296535,
+  "lat": 33.5996729
+ },
+ {
+  "type": "parking",
+  "lon": 130.2275772,
+  "lat": 33.5996974
+ },
+ {
+  "type": "parking",
+  "lon": 130.2283917,
+  "lat": 33.5987018
+ },
+ {
+  "type": "parking",
+  "lon": 130.210894,
+  "lat": 33.5970108
+ },
+ {
+  "type": "parking",
+  "lon": 130.2103821,
+  "lat": 33.5982042
+ },
+ {
+  "type": "parking",
+  "lon": 130.2112019,
+  "lat": 33.598889
+ },
+ {
+  "type": "parking",
+  "lon": 130.2121833,
+  "lat": 33.5976768
+ },
+ {
+  "type": "parking",
+  "lon": 130.2117964,
+  "lat": 33.5969203
+ },
+ {
+  "type": "parking",
+  "lon": 130.2117625,
+  "lat": 33.5951711
+ },
+ {
+  "type": "entrance",
+  "lon": 130.2244061,
+  "lat": 33.5986616
+ },
+ {
+  "type": "exit",
+  "lon": 130.2244103,
+  "lat": 33.5982842
+ },
+ {
+  "type": "entrance",
+  "lon": 130.223909,
+  "lat": 33.5981688
+ },
+ {
+  "type": "exit",
+  "lon": 130.2239257,
+  "lat": 33.5985337
+ },
+ {
+  "type": "toilets",
+  "lon": 130.2168645,
+  "lat": 33.5948073
+ },
+ {
+  "type": "toilets",
+  "lon": 130.2162135,
+  "lat": 33.5949157
+ },
+ {
+  "type": "toilets",
+  "lon": 130.2257058,
+  "lat": 33.5992348
+ },
+ {
+  "type": "toilets",
+  "lon": 130.2278519,
+  "lat": 33.5981357
+ },
+ {
+  "type": "toilets",
+  "lon": 130.2270682,
+  "lat": 33.5997286
+ },
+ {
+  "type": "toilets",
+  "lon": 130.2268864,
+  "lat": 33.5987917
+ },
+ {
+  "type": "toilets",
+  "lon": 130.2273632,
+  "lat": 33.6002099
+ },
+ {
+  "type": "toilets",
+  "lon": 130.2286014,
+  "lat": 33.6014021
+ },
+ {
+  "type": "toilets",
+  "lon": 130.2256703,
+  "lat": 33.5977499
+ },
+ {
+  "type": "toilets",
+  "lon": 130.2232682,
+  "lat": 33.5990914
+ },
+ {
+  "type": "toilets",
+  "lon": 130.2229792,
+  "lat": 33.597367
+ },
+ {
+  "type": "toilets",
+  "lon": 130.2219055,
+  "lat": 33.5970604
+ },
+ {
+  "type": "toilets",
+  "lon": 130.2232792,
+  "lat": 33.5964343
+ },
+ {
+  "type": "toilets",
+  "lon": 130.2215763,
+  "lat": 33.5957797
+ },
+ {
+  "type": "toilets",
+  "lon": 130.2213927,
+  "lat": 33.596492
+ },
+ {
+  "type": "toilets",
+  "lon": 130.2186238,
+  "lat": 33.5959779
+ },
+ {
+  "type": "toilets",
+  "lon": 130.2184119,
+  "lat": 33.5955421
+ },
+ {
+  "type": "toilets",
+  "lon": 130.2201315,
+  "lat": 33.5959413
+ },
+ {
+  "type": "toilets",
+  "lon": 130.2191813,
+  "lat": 33.5979689
+ },
+ {
+  "type": "toilets",
+  "lon": 130.2227608,
+  "lat": 33.5949341
+ },
+ {
+  "type": "toilets",
+  "lon": 130.2253907,
+  "lat": 33.5971506
+ },
+ {
+  "type": "toilets",
+  "lon": 130.2267558,
+  "lat": 33.5980276
+ },
+ {
+  "type": "gate",
+  "lon": 130.2304375,
+  "lat": 33.6008322,
+  "name": "East Gate"
+ },
+ {
+  "type": "gate",
+  "lon": 130.2304376,
+  "lat": 33.6008322,
+  "name": "East Gate"
+ },
+ {
+  "type": "gate",
+  "lon": 130.214023,
+  "lat": 33.5919997,
+  "name": "South Gate"
+ },
+ {
+  "type": "atm",
+  "lon": 130.2229188,
+  "lat": 33.5964321
+ },
+ {
+  "type": "atm",
+  "lon": 130.223302,
+  "lat": 33.5961449
+ },
+ {
+  "type": "atm",
+  "lon": 130.2270019,
+  "lat": 33.5991013
+ },
+ {
+  "type": "aed",
+  "lon": 130.20666,
+  "lat": 33.60293,
+  "name": "Baseball Field"
+ },
+ {
+  "type": "aed",
+  "lon": 130.20864,
+  "lat": 33.60049,
+  "name": "Athletic Field"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2091115,
+  "lat": 33.5991743,
+  "name": "Extracurricular Activities Facility Ⅱ"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2094944,
+  "lat": 33.5992872,
+  "name": "Gymnasium"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2123359,
+  "lat": 33.5989699,
+  "name": "Agri-Bio Research Laboratory (AG40)"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2115964,
+  "lat": 33.5933886,
+  "name": "Biotron Application Center (AG10)"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2125837,
+  "lat": 33.5975944,
+  "name": "Hydrogen Institute for Sustainability (HY10)"
+ },
+ {
+  "type": "aed",
+  "lon": 130.213855,
+  "lat": 33.5940218,
+  "name": "West Zone 5"
+ },
+ {
+  "type": "aed",
+  "lon": 130.216511,
+  "lat": 33.5951275,
+  "name": "West Zone 4 (Stores)"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2173181,
+  "lat": 33.5957947,
+  "name": "West Zone 3"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2183329,
+  "lat": 33.595969,
+  "name": "West Zone 2 (Stores)"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2204598,
+  "lat": 33.5964172,
+  "name": "West Zone 1"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2201698,
+  "lat": 33.5957584,
+  "name": "Science and Technology Library"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2197994,
+  "lat": 33.5953533,
+  "name": "Research Institute for Information Technology Building"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2177728,
+  "lat": 33.5976862,
+  "name": "Low Temperature Center (Ito Center) (CE60, 61)"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2175762,
+  "lat": 33.598288,
+  "name": "Institute for Materials Chemistry and Engineering (CE41)"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2190331,
+  "lat": 33.5978405,
+  "name": "INAMORI Center"
+ },
+ {
+  "type": "aed",
+  "lon": 130.219799,
+  "lat": 33.5968837,
+  "name": "Common Facility 4 (CF4)"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2145922,
+  "lat": 33.5952756,
+  "name": "Common Facility 2 (CF2)"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2231647,
+  "lat": 33.5987982,
+  "name": "Water Supply Center, Center for Environment and Safety"
+ },
+ {
+  "type": "aed",
+  "lon": 130.222054,
+  "lat": 33.5973419,
+  "name": "Center Zone 5"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2224755,
+  "lat": 33.5966224,
+  "name": "Big Sand (Restaurant and Stores)"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2229653,
+  "lat": 33.5977095,
+  "name": "Big Orange (Information Center)"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2234177,
+  "lat": 33.5974682,
+  "name": "Center Zone 1"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2238089,
+  "lat": 33.5969967,
+  "name": "Center Zone 2"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2249059,
+  "lat": 33.5974855,
+  "name": "Center Zone 3"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2251123,
+  "lat": 33.5981391,
+  "name": "Center Zone 4"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2252712,
+  "lat": 33.5994108,
+  "name": "Shiiki Hall"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2234419,
+  "lat": 33.6002205,
+  "name": "Dormitory I (Student Residence)"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2249484,
+  "lat": 33.6000274,
+  "name": "Dormitory II (Student Residence)"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2233265,
+  "lat": 33.60076,
+  "name": "Dormitory III (Student Residence)"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2257298,
+  "lat": 33.5967827,
+  "name": "International Institute for Carbon-Neutral Energy Research (I 2 CNER)1"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2264338,
+  "lat": 33.597213,
+  "name": "International Institute for Carbon-Neutral Energy Research (I 2 CNER)2"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2275306,
+  "lat": 33.5969753,
+  "name": "Research Facilities for Co-Evolutional Social Systems"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2271006,
+  "lat": 33.5993833,
+  "name": "East Zone 1 (Stores)"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2278855,
+  "lat": 33.5982286,
+  "name": "East Zone 2"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2267356,
+  "lat": 33.5983181,
+  "name": "Central Library"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2272246,
+  "lat": 33.600209,
+  "name": "Human Development (HE40)"
+ },
+ {
+  "type": "aed",
+  "lon": 130.2288613,
+  "lat": 33.6031164,
+  "name": "Ito Harmony House (Student Residence)"
+ },
+ {
+  "type": "aed",
+  "lon": 130.22348,
+  "lat": 33.59489,
+  "name": "Multipurpose Sports Field"
+ }
+]

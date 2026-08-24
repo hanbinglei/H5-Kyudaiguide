@@ -1,0 +1,1767 @@
+[
+ {
+  "id": "n1757000290",
+  "type": "restaurant",
+  "lon": 130.2271361,
+  "lat": 33.5954384,
+  "name": "○勝",
+  "name_en": ""
+ },
+ {
+  "id": "n1764937675",
+  "type": "restaurant",
+  "lon": 130.2264813,
+  "lat": 33.5949742,
+  "name": "家又家",
+  "name_en": ""
+ },
+ {
+  "id": "n1764937808",
+  "type": "bus_stop",
+  "lon": 130.2275709,
+  "lat": 33.5950589,
+  "name": "西消防署元岡出張所前",
+  "name_en": "",
+  "bus_dir": "town"
+ },
+ {
+  "id": "n1772366059",
+  "type": "bus_stop",
+  "lon": 130.2220789,
+  "lat": 33.5977768,
+  "name": "九大ビッグオレンジ",
+  "name_en": "",
+  "bus_dir": "town"
+ },
+ {
+  "id": "n1772416395",
+  "type": "bus_stop",
+  "lon": 130.2235515,
+  "lat": 33.5982287,
+  "name": "九大ビックオレンジ",
+  "name_en": "",
+  "bus_name": "九大ビッグオレンジ",
+  "bus_dir": "campus"
+ },
+ {
+  "id": "n1780051763",
+  "type": "bus_stop",
+  "lon": 130.2102508,
+  "lat": 33.5994013,
+  "name": "九大総合グラウンド",
+  "name_en": "",
+  "bus_dir": "town"
+ },
+ {
+  "id": "n1780083989",
+  "type": "atm",
+  "lon": 130.2161554,
+  "lat": 33.5945009,
+  "name": "",
+  "name_en": ""
+ },
+ {
+  "id": "n1780083990",
+  "type": "vending_machine",
+  "lon": 130.2164162,
+  "lat": 33.594594,
+  "name": "",
+  "name_en": ""
+ },
+ {
+  "id": "n1788201555",
+  "type": "toilets",
+  "lon": 130.2162923,
+  "lat": 33.5948775,
+  "name": "",
+  "name_en": ""
+ },
+ {
+  "id": "n1788217001",
+  "type": "toilets",
+  "lon": 130.2160501,
+  "lat": 33.5944626,
+  "name": "",
+  "name_en": ""
+ },
+ {
+  "id": "n1788217003",
+  "type": "toilets",
+  "lon": 130.2171418,
+  "lat": 33.5950818,
+  "name": "",
+  "name_en": ""
+ },
+ {
+  "id": "n1788217006",
+  "type": "toilets",
+  "lon": 130.2147292,
+  "lat": 33.595411,
+  "name": "",
+  "name_en": ""
+ },
+ {
+  "id": "n1788217008",
+  "type": "toilets",
+  "lon": 130.2189773,
+  "lat": 33.5958916,
+  "name": "",
+  "name_en": ""
+ },
+ {
+  "id": "n1788217010",
+  "type": "toilets",
+  "lon": 130.2197491,
+  "lat": 33.5959386,
+  "name": "",
+  "name_en": ""
+ },
+ {
+  "id": "n1788217012",
+  "type": "toilets",
+  "lon": 130.2231733,
+  "lat": 33.596765,
+  "name": "",
+  "name_en": ""
+ },
+ {
+  "id": "n1788217013",
+  "type": "toilets",
+  "lon": 130.2227453,
+  "lat": 33.5967872,
+  "name": "",
+  "name_en": ""
+ },
+ {
+  "id": "n1788217015",
+  "type": "toilets",
+  "lon": 130.2203379,
+  "lat": 33.5969711,
+  "name": "",
+  "name_en": ""
+ },
+ {
+  "id": "n1788217018",
+  "type": "toilets",
+  "lon": 130.2235831,
+  "lat": 33.5973982,
+  "name": "",
+  "name_en": ""
+ },
+ {
+  "id": "n1788217019",
+  "type": "toilets",
+  "lon": 130.2223057,
+  "lat": 33.5974102,
+  "name": "",
+  "name_en": ""
+ },
+ {
+  "id": "n2326594670",
+  "type": "bus_stop",
+  "lon": 130.2292628,
+  "lat": 33.59391,
+  "name": "産学連携交流センター",
+  "name_en": "",
+  "bus_dir": "town"
+ },
+ {
+  "id": "n2326637111",
+  "type": "bus_stop",
+  "lon": 130.2261836,
+  "lat": 33.5949891,
+  "name": "山手",
+  "name_en": "",
+  "bus_name": "山手（福岡市西区）"
+ },
+ {
+  "id": "n2326695745",
+  "type": "vending_machine",
+  "lon": 130.227114,
+  "lat": 33.5953915,
+  "name": "",
+  "name_en": ""
+ },
+ {
+  "id": "n2326695748",
+  "type": "vending_machine",
+  "lon": 130.2270857,
+  "lat": 33.5954016,
+  "name": "",
+  "name_en": ""
+ },
+ {
+  "id": "n2326714637",
+  "type": "bus_stop",
+  "lon": 130.2293116,
+  "lat": 33.5936092,
+  "name": "産学連携交流センター",
+  "name_en": "",
+  "bus_dir": "campus"
+ },
+ {
+  "id": "n2334294371",
+  "type": "restaurant",
+  "lon": 130.2195231,
+  "lat": 33.5979631,
+  "name": "KIHACHI",
+  "name_en": ""
+ },
+ {
+  "id": "n2334294372",
+  "type": "cafe",
+  "lon": 130.214916,
+  "lat": 33.5952823,
+  "name": "童夢カフェinOPERA",
+  "name_en": ""
+ },
+ {
+  "id": "n2334985724",
+  "type": "restaurant",
+  "lon": 130.2275868,
+  "lat": 33.5942401,
+  "name": "Estate Blu",
+  "name_en": ""
+ },
+ {
+  "id": "n2334985725",
+  "type": "restaurant",
+  "lon": 130.2276498,
+  "lat": 33.59432,
+  "name": "一番うどん",
+  "name_en": ""
+ },
+ {
+  "id": "n2335024105",
+  "type": "bus_stop",
+  "lon": 130.216346,
+  "lat": 33.596576,
+  "name": "九大工学部",
+  "name_en": "",
+  "bus_dir": "town"
+ },
+ {
+  "id": "n2335027345",
+  "type": "vending_machine",
+  "lon": 130.2175039,
+  "lat": 33.5950441,
+  "name": "",
+  "name_en": ""
+ },
+ {
+  "id": "n2335027346",
+  "type": "vending_machine",
+  "lon": 130.2223294,
+  "lat": 33.5967415,
+  "name": "",
+  "name_en": ""
+ },
+ {
+  "id": "n2335027347",
+  "type": "vending_machine",
+  "lon": 130.2201574,
+  "lat": 33.5977024,
+  "name": "",
+  "name_en": ""
+ },
+ {
+  "id": "n2335027348",
+  "type": "convenience",
+  "lon": 130.2191271,
+  "lat": 33.5959419,
+  "name": "生協",
+  "name_en": ""
+ },
+ {
+  "id": "n2335031253",
+  "type": "bus_stop",
+  "lon": 130.2268247,
+  "lat": 33.5952179,
+  "name": "西消防署元岡出張所前",
+  "name_en": "",
+  "bus_dir": "campus"
+ },
+ {
+  "id": "n2340240571",
+  "type": "vending_machine",
+  "lon": 130.2080164,
+  "lat": 33.6013038,
+  "name": "",
+  "name_en": ""
+ },
+ {
+  "id": "n2344058601",
+  "type": "vending_machine",
+  "lon": 130.2174719,
+  "lat": 33.5950673,
+  "name": "",
+  "name_en": ""
+ },
+ {
+  "id": "n3207131045",
+  "type": "restaurant",
+  "lon": 130.2252898,
+  "lat": 33.599178,
+  "name": "Itri Ito",
+  "name_en": ""
+ },
+ {
+  "id": "n3362698194",
+  "type": "cafe",
+  "lon": 130.223885,
+  "lat": 33.597035,
+  "name": "Qasis ( クアシス )",
+  "name_en": ""
+ },
+ {
+  "id": "n3362715094",
+  "type": "vending_machine",
+  "lon": 130.223599,
+  "lat": 33.596939,
+  "name": "",
+  "name_en": ""
+ },
+ {
+  "id": "n3362718993",
+  "type": "vending_machine",
+  "lon": 130.2089636,
+  "lat": 33.5994078,
+  "name": "",
+  "name_en": ""
+ },
+ {
+  "id": "n3362721695",
+  "type": "vending_machine",
+  "lon": 130.2241203,
+  "lat": 33.5971143,
+  "name": "",
+  "name_en": ""
+ },
+ {
+  "id": "n3362732993",
+  "type": "vending_machine",
+  "lon": 130.224304,
+  "lat": 33.597161,
+  "name": "",
+  "name_en": ""
+ },
+ {
+  "id": "n3362791229",
+  "type": "aed",
+  "lon": 130.2198047,
+  "lat": 33.5959672,
+  "name": "",
+  "name_en": ""
+ },
+ {
+  "id": "n3362792930",
+  "type": "convenience",
+  "lon": 130.2226677,
+  "lat": 33.5967981,
+  "name": "ローソン",
+  "name_en": "Lawson"
+ },
+ {
+  "id": "n3362872372",
+  "type": "toilets",
+  "lon": 130.2242569,
+  "lat": 33.5971643,
+  "name": "福祉型お手洗い",
+  "name_en": ""
+ },
+ {
+  "id": "n3362881383",
+  "type": "cafe",
+  "lon": 130.2243242,
+  "lat": 33.5970897,
+  "name": "サークルカフェ",
+  "name_en": ""
+ },
+ {
+  "id": "n4689738989",
+  "type": "convenience",
+  "lon": 130.2281224,
+  "lat": 33.5938783,
+  "name": "ファミリーマート",
+  "name_en": "FamilyMart"
+ },
+ {
+  "id": "n5832181593",
+  "type": "bank",
+  "lon": 130.2225111,
+  "lat": 33.5962901,
+  "name": "福岡銀行ATM",
+  "name_en": ""
+ },
+ {
+  "id": "n6355559487",
+  "type": "bus_stop",
+  "lon": 130.2258813,
+  "lat": 33.5982675,
+  "name": "九大中央図書館",
+  "name_en": "",
+  "bus_dir": "campus"
+ },
+ {
+  "id": "n6355559488",
+  "type": "bus_stop",
+  "lon": 130.2266443,
+  "lat": 33.5973965,
+  "name": "九大中央図書館",
+  "name_en": "",
+  "bus_dir": "town"
+ },
+ {
+  "id": "n6355559489",
+  "type": "bus_stop",
+  "lon": 130.2195874,
+  "lat": 33.5975373,
+  "name": "九大理学部",
+  "name_en": "",
+  "bus_dir": "campus"
+ },
+ {
+  "id": "n6355559490",
+  "type": "bus_stop",
+  "lon": 130.2171358,
+  "lat": 33.5969899,
+  "name": "九大工学部",
+  "name_en": "",
+  "bus_dir": "campus"
+ },
+ {
+  "id": "n6355559491",
+  "type": "bus_stop",
+  "lon": 130.2129541,
+  "lat": 33.594637,
+  "name": "九大農学部",
+  "name_en": "",
+  "bus_dir": "town"
+ },
+ {
+  "id": "n6355559492",
+  "type": "bus_stop",
+  "lon": 130.2137616,
+  "lat": 33.5943893,
+  "name": "九大農学部",
+  "name_en": "",
+  "bus_dir": "campus"
+ },
+ {
+  "id": "n6355559493",
+  "type": "bus_stop",
+  "lon": 130.2116346,
+  "lat": 33.5974323,
+  "name": "九大船舶・航空実験棟",
+  "name_en": "",
+  "bus_dir": "campus"
+ },
+ {
+  "id": "n6355559494",
+  "type": "bus_stop",
+  "lon": 130.2118921,
+  "lat": 33.5973407,
+  "name": "九大船舶・航空実験棟",
+  "name_en": "",
+  "bus_dir": "town"
+ },
+ {
+  "id": "n6355559495",
+  "type": "bus_stop",
+  "lon": 130.2100763,
+  "lat": 33.5993804,
+  "name": "九大総合グラウンド",
+  "name_en": "",
+  "bus_dir": "campus"
+ },
+ {
+  "id": "n6355559496",
+  "type": "bus_stop",
+  "lon": 130.228221,
+  "lat": 33.5995152,
+  "name": "九大イーストゾーン",
+  "name_en": "",
+  "bus_dir": "campus"
+ },
+ {
+  "id": "n6355559497",
+  "type": "bus_stop",
+  "lon": 130.2288082,
+  "lat": 33.5989806,
+  "name": "九大イーストゾーン",
+  "name_en": "",
+  "bus_dir": "town"
+ },
+ {
+  "id": "n6355559498",
+  "type": "bus_stop",
+  "lon": 130.2294269,
+  "lat": 33.6013538,
+  "name": "九大東ゲート",
+  "name_en": "",
+  "bus_dir": "campus"
+ },
+ {
+  "id": "n6355559500",
+  "type": "bus_stop",
+  "lon": 130.2294069,
+  "lat": 33.601162,
+  "name": "九大東ゲート",
+  "name_en": "",
+  "bus_dir": "town"
+ },
+ {
+  "id": "n6355559501",
+  "type": "bus_stop",
+  "lon": 130.224587,
+  "lat": 33.5978679,
+  "name": "九大センターゾーン入口",
+  "name_en": ""
+ },
+ {
+  "id": "n6849319936",
+  "type": "cafe",
+  "lon": 130.2264533,
+  "lat": 33.5986712,
+  "name": "童夢カフェ",
+  "name_en": "Domu cafe"
+ },
+ {
+  "id": "n6849320891",
+  "type": "restaurant",
+  "lon": 130.2129476,
+  "lat": 33.5941454,
+  "name": "アグリダイニング",
+  "name_en": "agridining"
+ },
+ {
+  "id": "n6849320892",
+  "type": "cafe",
+  "lon": 130.2173921,
+  "lat": 33.5951037,
+  "name": "Eカフェ",
+  "name_en": "E-cafe"
+ },
+ {
+  "id": "n6849323127",
+  "type": "convenience",
+  "lon": 130.2131399,
+  "lat": 33.5941212,
+  "name": "農学部生協",
+  "name_en": ""
+ },
+ {
+  "id": "n7254938513",
+  "type": "bus_stop",
+  "lon": 130.2226634,
+  "lat": 33.6026043,
+  "name": "桑原西",
+  "name_en": ""
+ },
+ {
+  "id": "n7254938514",
+  "type": "bus_stop",
+  "lon": 130.2248125,
+  "lat": 33.6037681,
+  "name": "桑原公民館",
+  "name_en": "",
+  "bus_name": "桑原公民館（福岡県）"
+ },
+ {
+  "id": "n7254938515",
+  "type": "bus_stop",
+  "lon": 130.2277848,
+  "lat": 33.6049437,
+  "name": "桑原東",
+  "name_en": ""
+ },
+ {
+  "id": "n7254938526",
+  "type": "bus_stop",
+  "lon": 130.2286574,
+  "lat": 33.6032838,
+  "name": "九大伊都協奏館",
+  "name_en": ""
+ },
+ {
+  "id": "n8363633747",
+  "type": "bus_stop",
+  "lon": 130.2234864,
+  "lat": 33.591075,
+  "name": "元岡",
+  "name_en": ""
+ },
+ {
+  "id": "n12881221535",
+  "type": "cafe",
+  "lon": 130.2297925,
+  "lat": 33.59429,
+  "name": "スターバックス",
+  "name_en": "Starbucks"
+ },
+ {
+  "id": "n12881221536",
+  "type": "books",
+  "lon": 130.2296185,
+  "lat": 33.5941596,
+  "name": "TSUTAYA",
+  "name_en": ""
+ },
+ {
+  "id": "n13805237545",
+  "type": "restaurant",
+  "lon": 130.2018538,
+  "lat": 33.5937595,
+  "name": "",
+  "name_en": "Ichiran no Mori Itoshima"
+ },
+ {
+  "id": "w165694557",
+  "type": "restaurant",
+  "lon": 130.2229253,
+  "lat": 33.5977021,
+  "name": "ビッグオレンジ",
+  "name_en": "Big Orange"
+ },
+ {
+  "id": "w166554942",
+  "type": "restaurant",
+  "lon": 130.2164337,
+  "lat": 33.5968439,
+  "name": "九大あかでみっくらんたん",
+  "name_en": "Kyudai Academic Lantern"
+ },
+ {
+  "id": "w166556131",
+  "type": "restaurant",
+  "lon": 130.216188,
+  "lat": 33.5944166,
+  "name": "ビッグどら",
+  "name_en": "Big Dora"
+ },
+ {
+  "id": "w166556363",
+  "type": "restaurant",
+  "lon": 130.2225762,
+  "lat": 33.5966447,
+  "name": "ビックさんど",
+  "name_en": "Big Sand"
+ },
+ {
+  "id": "w223800052",
+  "type": "convenience",
+  "lon": 130.223787,
+  "lat": 33.5909374,
+  "name": "セブン-イレブン",
+  "name_en": "7-Eleven"
+ },
+ {
+  "id": "w223800054",
+  "type": "convenience",
+  "lon": 130.2317915,
+  "lat": 33.5914497,
+  "name": "ローソン",
+  "name_en": "Lawson"
+ },
+ {
+  "id": "w329401911",
+  "type": "books",
+  "lon": 130.2163676,
+  "lat": 33.5944312,
+  "name": "書店",
+  "name_en": ""
+ },
+ {
+  "id": "w494148473",
+  "type": "restaurant",
+  "lon": 130.2210147,
+  "lat": 33.596043,
+  "name": "ビッグリーフ",
+  "name_en": "Big Leaf"
+ },
+ {
+  "id": "w494148475",
+  "type": "fast_food",
+  "lon": 130.2214488,
+  "lat": 33.5960844,
+  "name": "モスバーガー",
+  "name_en": "MOS Burger"
+ },
+ {
+  "id": "w770575331",
+  "type": "restaurant",
+  "lon": 130.2270623,
+  "lat": 33.5979193,
+  "name": "ビッグスカイ",
+  "name_en": "Big Sky"
+ },
+ {
+  "id": "w900209646",
+  "type": "toilets",
+  "lon": 130.2060108,
+  "lat": 33.6034676,
+  "name": "",
+  "name_en": ""
+ },
+ {
+  "id": "w1416902554",
+  "type": "hospital",
+  "lon": 130.2292741,
+  "lat": 33.6117412,
+  "name": "シーサイド病院",
+  "name_en": "SEASIDE HOSPITAL"
+ },
+ {
+  "id": "official_atm_1",
+  "type": "atm",
+  "lon": 130.2165632,
+  "lat": 33.5945265,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_atm_2",
+  "type": "atm",
+  "lon": 130.2144998,
+  "lat": 33.5940524,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_atm_3",
+  "type": "atm",
+  "lon": 130.2188336,
+  "lat": 33.5956163,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_convenience_4",
+  "type": "convenience",
+  "lon": 130.214165,
+  "lat": 33.5939825,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_convenience_5",
+  "type": "convenience",
+  "lon": 130.2163822,
+  "lat": 33.5942476,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_convenience_6",
+  "type": "convenience",
+  "lon": 130.2191783,
+  "lat": 33.5956261,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_convenience_7",
+  "type": "convenience",
+  "lon": 130.2208856,
+  "lat": 33.5957768,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_convenience_8",
+  "type": "convenience",
+  "lon": 130.2229542,
+  "lat": 33.5961465,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_convenience_9",
+  "type": "convenience",
+  "lon": 130.2225715,
+  "lat": 33.5964333,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_convenience_10",
+  "type": "convenience",
+  "lon": 130.2262184,
+  "lat": 33.5986943,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_convenience_11",
+  "type": "convenience",
+  "lon": 130.222422,
+  "lat": 33.5977975,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_convenience_12",
+  "type": "convenience",
+  "lon": 130.2270488,
+  "lat": 33.5994546,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_toilets_13",
+  "type": "toilets",
+  "lon": 130.2062289,
+  "lat": 33.6029492,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_toilets_14",
+  "type": "toilets",
+  "lon": 130.2080525,
+  "lat": 33.6007698,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_toilets_15",
+  "type": "toilets",
+  "lon": 130.2093575,
+  "lat": 33.5993183,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_toilets_16",
+  "type": "toilets",
+  "lon": 130.2129389,
+  "lat": 33.5988024,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_toilets_17",
+  "type": "toilets",
+  "lon": 130.2146838,
+  "lat": 33.5936973,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_toilets_18",
+  "type": "toilets",
+  "lon": 130.214816,
+  "lat": 33.5922529,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_toilets_19",
+  "type": "toilets",
+  "lon": 130.2168645,
+  "lat": 33.5948073,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_toilets_20",
+  "type": "toilets",
+  "lon": 130.2257058,
+  "lat": 33.5992348,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_toilets_21",
+  "type": "toilets",
+  "lon": 130.2278519,
+  "lat": 33.5981357,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_toilets_22",
+  "type": "toilets",
+  "lon": 130.2270682,
+  "lat": 33.5997286,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_toilets_23",
+  "type": "toilets",
+  "lon": 130.2268864,
+  "lat": 33.5987917,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_toilets_24",
+  "type": "toilets",
+  "lon": 130.2273632,
+  "lat": 33.6002099,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_toilets_25",
+  "type": "toilets",
+  "lon": 130.2286014,
+  "lat": 33.6014021,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_toilets_26",
+  "type": "toilets",
+  "lon": 130.2256703,
+  "lat": 33.5977499,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_toilets_27",
+  "type": "toilets",
+  "lon": 130.2232682,
+  "lat": 33.5990914,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_toilets_28",
+  "type": "toilets",
+  "lon": 130.2229792,
+  "lat": 33.597367,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_toilets_29",
+  "type": "toilets",
+  "lon": 130.2219055,
+  "lat": 33.5970604,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_toilets_30",
+  "type": "toilets",
+  "lon": 130.2232792,
+  "lat": 33.5964343,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_toilets_31",
+  "type": "toilets",
+  "lon": 130.2215763,
+  "lat": 33.5957797,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_toilets_32",
+  "type": "toilets",
+  "lon": 130.2213927,
+  "lat": 33.596492,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_toilets_33",
+  "type": "toilets",
+  "lon": 130.2186238,
+  "lat": 33.5959779,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_toilets_34",
+  "type": "toilets",
+  "lon": 130.2184119,
+  "lat": 33.5955421,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_toilets_35",
+  "type": "toilets",
+  "lon": 130.2201315,
+  "lat": 33.5959413,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_toilets_36",
+  "type": "toilets",
+  "lon": 130.2191813,
+  "lat": 33.5979689,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_toilets_37",
+  "type": "toilets",
+  "lon": 130.2227608,
+  "lat": 33.5949341,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_toilets_38",
+  "type": "toilets",
+  "lon": 130.2253907,
+  "lat": 33.5971506,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_toilets_39",
+  "type": "toilets",
+  "lon": 130.2267558,
+  "lat": 33.5980276,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_atm_40",
+  "type": "atm",
+  "lon": 130.2229188,
+  "lat": 33.5964321,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_atm_41",
+  "type": "atm",
+  "lon": 130.223302,
+  "lat": 33.5961449,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "official_atm_42",
+  "type": "atm",
+  "lon": 130.2270019,
+  "lat": 33.5991013,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026"
+ },
+ {
+  "id": "off_entrance_1",
+  "type": "entrance",
+  "lon": 130.2106004,
+  "lat": 33.6022867,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_exit_1",
+  "type": "exit",
+  "lon": 130.2101057,
+  "lat": 33.6022769,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_entrance_2",
+  "type": "entrance",
+  "lon": 130.2313665,
+  "lat": 33.6003635,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_exit_2",
+  "type": "exit",
+  "lon": 130.2313822,
+  "lat": 33.6007411,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_parking_1",
+  "type": "parking",
+  "lon": 130.2127019,
+  "lat": 33.5942523,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_parking_2",
+  "type": "parking",
+  "lon": 130.2137416,
+  "lat": 33.59456,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_parking_3",
+  "type": "parking",
+  "lon": 130.215611,
+  "lat": 33.5961032,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_parking_4",
+  "type": "parking",
+  "lon": 130.2202194,
+  "lat": 33.5955154,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_parking_5",
+  "type": "parking",
+  "lon": 130.2182487,
+  "lat": 33.5942483,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_parking_6",
+  "type": "parking",
+  "lon": 130.221108,
+  "lat": 33.5968759,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_parking_7",
+  "type": "parking",
+  "lon": 130.2212875,
+  "lat": 33.5983948,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_parking_8",
+  "type": "parking",
+  "lon": 130.2242744,
+  "lat": 33.5991216,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_parking_9",
+  "type": "parking",
+  "lon": 130.2258305,
+  "lat": 33.5971149,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_parking_10",
+  "type": "parking",
+  "lon": 130.2296535,
+  "lat": 33.5996729,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_parking_11",
+  "type": "parking",
+  "lon": 130.2275772,
+  "lat": 33.5996974,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_parking_12",
+  "type": "parking",
+  "lon": 130.2283917,
+  "lat": 33.5987018,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_parking_13",
+  "type": "parking",
+  "lon": 130.210894,
+  "lat": 33.5970108,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_parking_14",
+  "type": "parking",
+  "lon": 130.2103821,
+  "lat": 33.5982042,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_parking_15",
+  "type": "parking",
+  "lon": 130.2112019,
+  "lat": 33.598889,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_parking_16",
+  "type": "parking",
+  "lon": 130.2121833,
+  "lat": 33.5976768,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_parking_17",
+  "type": "parking",
+  "lon": 130.2117964,
+  "lat": 33.5969203,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_parking_18",
+  "type": "parking",
+  "lon": 130.2117625,
+  "lat": 33.5951711,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_entrance_3",
+  "type": "entrance",
+  "lon": 130.2244061,
+  "lat": 33.5986616,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_exit_3",
+  "type": "exit",
+  "lon": 130.2244103,
+  "lat": 33.5982842,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_entrance_4",
+  "type": "entrance",
+  "lon": 130.223909,
+  "lat": 33.5981688,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_exit_4",
+  "type": "exit",
+  "lon": 130.2239257,
+  "lat": 33.5985337,
+  "name": "",
+  "name_en": "",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_gate_1",
+  "type": "gate",
+  "lon": 130.2304375,
+  "lat": 33.6008322,
+  "name": "",
+  "name_en": "East Gate",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_gate_2",
+  "type": "gate",
+  "lon": 130.214023,
+  "lat": 33.5919997,
+  "name": "",
+  "name_en": "South Gate",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_1",
+  "type": "aed",
+  "lon": 130.20666,
+  "lat": 33.60293,
+  "name": "",
+  "name_en": "Baseball Field",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_2",
+  "type": "aed",
+  "lon": 130.20864,
+  "lat": 33.60049,
+  "name": "",
+  "name_en": "Athletic Field",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_3",
+  "type": "aed",
+  "lon": 130.2091115,
+  "lat": 33.5991743,
+  "name": "",
+  "name_en": "Extracurricular Activities Facility Ⅱ",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_4",
+  "type": "aed",
+  "lon": 130.2094944,
+  "lat": 33.5992872,
+  "name": "",
+  "name_en": "Gymnasium",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_5",
+  "type": "aed",
+  "lon": 130.2123359,
+  "lat": 33.5989699,
+  "name": "",
+  "name_en": "Agri-Bio Research Laboratory (AG40)",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_6",
+  "type": "aed",
+  "lon": 130.2115964,
+  "lat": 33.5933886,
+  "name": "",
+  "name_en": "Biotron Application Center (AG10)",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_7",
+  "type": "aed",
+  "lon": 130.2125837,
+  "lat": 33.5975944,
+  "name": "",
+  "name_en": "Hydrogen Institute for Sustainability (HY10)",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_8",
+  "type": "aed",
+  "lon": 130.213855,
+  "lat": 33.5940218,
+  "name": "",
+  "name_en": "West Zone 5",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_9",
+  "type": "aed",
+  "lon": 130.216511,
+  "lat": 33.5951275,
+  "name": "",
+  "name_en": "West Zone 4 (Stores)",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_10",
+  "type": "aed",
+  "lon": 130.2173181,
+  "lat": 33.5957947,
+  "name": "",
+  "name_en": "West Zone 3",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_11",
+  "type": "aed",
+  "lon": 130.2183329,
+  "lat": 33.595969,
+  "name": "",
+  "name_en": "West Zone 2 (Stores)",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_12",
+  "type": "aed",
+  "lon": 130.2204598,
+  "lat": 33.5964172,
+  "name": "",
+  "name_en": "West Zone 1",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_13",
+  "type": "aed",
+  "lon": 130.2201698,
+  "lat": 33.5957584,
+  "name": "",
+  "name_en": "Science and Technology Library",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_14",
+  "type": "aed",
+  "lon": 130.2197994,
+  "lat": 33.5953533,
+  "name": "",
+  "name_en": "Research Institute for Information Technology Building",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_15",
+  "type": "aed",
+  "lon": 130.2177728,
+  "lat": 33.5976862,
+  "name": "",
+  "name_en": "Low Temperature Center (Ito Center) (CE60, 61)",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_16",
+  "type": "aed",
+  "lon": 130.2175762,
+  "lat": 33.598288,
+  "name": "",
+  "name_en": "Institute for Materials Chemistry and Engineering (CE41)",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_17",
+  "type": "aed",
+  "lon": 130.2190331,
+  "lat": 33.5978405,
+  "name": "",
+  "name_en": "INAMORI Center",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_18",
+  "type": "aed",
+  "lon": 130.219799,
+  "lat": 33.5968837,
+  "name": "",
+  "name_en": "Common Facility 4 (CF4)",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_19",
+  "type": "aed",
+  "lon": 130.2145922,
+  "lat": 33.5952756,
+  "name": "",
+  "name_en": "Common Facility 2 (CF2)",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_20",
+  "type": "aed",
+  "lon": 130.2231647,
+  "lat": 33.5987982,
+  "name": "",
+  "name_en": "Water Supply Center, Center for Environment and Safety",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_21",
+  "type": "aed",
+  "lon": 130.222054,
+  "lat": 33.5973419,
+  "name": "",
+  "name_en": "Center Zone 5",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_22",
+  "type": "aed",
+  "lon": 130.2224755,
+  "lat": 33.5966224,
+  "name": "",
+  "name_en": "Big Sand (Restaurant and Stores)",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_23",
+  "type": "aed",
+  "lon": 130.2229653,
+  "lat": 33.5977095,
+  "name": "",
+  "name_en": "Big Orange (Information Center)",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_24",
+  "type": "aed",
+  "lon": 130.2234177,
+  "lat": 33.5974682,
+  "name": "",
+  "name_en": "Center Zone 1",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_25",
+  "type": "aed",
+  "lon": 130.2238089,
+  "lat": 33.5969967,
+  "name": "",
+  "name_en": "Center Zone 2",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_26",
+  "type": "aed",
+  "lon": 130.2249059,
+  "lat": 33.5974855,
+  "name": "",
+  "name_en": "Center Zone 3",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_27",
+  "type": "aed",
+  "lon": 130.2251123,
+  "lat": 33.5981391,
+  "name": "",
+  "name_en": "Center Zone 4",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_28",
+  "type": "aed",
+  "lon": 130.2252712,
+  "lat": 33.5994108,
+  "name": "",
+  "name_en": "Shiiki Hall",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_29",
+  "type": "aed",
+  "lon": 130.2234419,
+  "lat": 33.6002205,
+  "name": "",
+  "name_en": "Dormitory I (Student Residence)",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_30",
+  "type": "aed",
+  "lon": 130.2249484,
+  "lat": 33.6000274,
+  "name": "",
+  "name_en": "Dormitory II (Student Residence)",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_31",
+  "type": "aed",
+  "lon": 130.2233265,
+  "lat": 33.60076,
+  "name": "",
+  "name_en": "Dormitory III (Student Residence)",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_32",
+  "type": "aed",
+  "lon": 130.2257298,
+  "lat": 33.5967827,
+  "name": "",
+  "name_en": "International Institute for Carbon-Neutral Energy Research (I 2 CNER)1",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_33",
+  "type": "aed",
+  "lon": 130.2264338,
+  "lat": 33.597213,
+  "name": "",
+  "name_en": "International Institute for Carbon-Neutral Energy Research (I 2 CNER)2",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_34",
+  "type": "aed",
+  "lon": 130.2275306,
+  "lat": 33.5969753,
+  "name": "",
+  "name_en": "Research Facilities for Co-Evolutional Social Systems",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_35",
+  "type": "aed",
+  "lon": 130.2271006,
+  "lat": 33.5993833,
+  "name": "",
+  "name_en": "East Zone 1 (Stores)",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_36",
+  "type": "aed",
+  "lon": 130.2278855,
+  "lat": 33.5982286,
+  "name": "",
+  "name_en": "East Zone 2",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_37",
+  "type": "aed",
+  "lon": 130.2267356,
+  "lat": 33.5983181,
+  "name": "",
+  "name_en": "Central Library",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_38",
+  "type": "aed",
+  "lon": 130.2272246,
+  "lat": 33.600209,
+  "name": "",
+  "name_en": "Human Development (HE40)",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_39",
+  "type": "aed",
+  "lon": 130.2288613,
+  "lat": 33.6031164,
+  "name": "",
+  "name_en": "Ito Harmony House (Student Residence)",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "off_aed_40",
+  "type": "aed",
+  "lon": 130.22348,
+  "lat": 33.59489,
+  "name": "",
+  "name_en": "Multipurpose Sports Field",
+  "src": "kyudai-map-2026-ext"
+ },
+ {
+  "id": "gmap_bs_1",
+  "type": "bus_stop",
+  "lon": 130.215086,
+  "lat": 33.584877,
+  "name": "泊北口",
+  "name_en": "",
+  "src": "google-maps-2026-08-16"
+ },
+ {
+  "id": "gmap_bs_2",
+  "type": "bus_stop",
+  "lon": 130.215236,
+  "lat": 33.584793,
+  "name": "泊北口",
+  "name_en": "",
+  "src": "google-maps-2026-08-16"
+ },
+ {
+  "id": "gmap_bs_3",
+  "type": "bus_stop",
+  "lon": 130.213196,
+  "lat": 33.584058,
+  "name": "国際村前",
+  "name_en": "",
+  "src": "google-maps-2026-08-16"
+ },
+ {
+  "id": "gmap_bs_4",
+  "type": "bus_stop",
+  "lon": 130.212984,
+  "lat": 33.583921,
+  "name": "国際村前",
+  "name_en": "",
+  "src": "google-maps-2026-08-16"
+ },
+ {
+  "id": "gmap_bs_5",
+  "type": "bus_stop",
+  "lon": 130.223863,
+  "lat": 33.564616,
+  "name": "産の宮",
+  "name_en": "",
+  "src": "google-maps-2026-08-16"
+ },
+ {
+  "id": "gmap_bs_6",
+  "type": "bus_stop",
+  "lon": 130.223273,
+  "lat": 33.564563,
+  "name": "産の宮",
+  "name_en": "",
+  "src": "google-maps-2026-08-16"
+ },
+ {
+  "id": "gmap_bs_7",
+  "type": "bus_stop",
+  "lon": 130.224189,
+  "lat": 33.565757,
+  "name": "産の宮北",
+  "name_en": "",
+  "src": "google-maps-2026-08-16"
+ }
+]

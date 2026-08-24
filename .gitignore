@@ -1,0 +1,29 @@
+# ===== 九大官方版权物 =====
+# 官方地图 PDF / 图片：本地保留供管线（配准/提取）使用，但不再分发。
+# fork 本项目的人请从九大官网自备，见 README「数据源自备」。
+ITO_1_Eng.pdf
+kyudai_map_Ito_E_2026.pdf
+access_E02.pdf
+center-ichiran.pdf
+ito-plaza.pdf
+mech-lecture.pdf
+west1-layout.pdf
+ito-campus-detailed.png
+ito-campus-access.png
+ito-campus-no-annotations-temp.png
+ito-campus-map.jpg
+
+# ===== 可再生的中间产物 / 调试图 / 备份（管线脚本可重建）=====
+*.bak
+*.bak-*
+h5-mvp/data/osm-raw.json
+tools/out/*.png
+
+# 验证 / 取证截图（开发过程产物，不入库）
+_evidence_*.png
+_final_*.png
+_v2_*.png
+
+# 内部开发记录 / 方案文档（含协作过程，不公开）
+CHANGELOG.md
+docs/

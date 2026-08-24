@@ -1,0 +1,267 @@
+{
+  "_meta": {
+    "purpose": "九州大学 全部学部（本科）与大学院学府 → 行政窗口 的对照表。配合 offices.draft.json 使用：faculty.office 指向 offices[].id。",
+    "generated": "2026-08-02",
+    "why": "地图搜「農学府」「人間環境学府」这类组织名时，先在本表命中，再跳到对应 office 的建筑坐标。学生记得住自己的学府名，记不住『人文社会科学系事務部学務課人環・教育担当』。",
+    "coverage": "12 学部 + 21 学府（含连系学府）+ 2 类全学项目。伊都校区 / 病院（馬出）/ 筑紫 / 大橋 四个校区全覆盖，非伊都的显式标 campus。",
+    "sources": [
+      "https://www.kyushu-u.ac.jp/ja/contact/student_section （各部局の学生担当窓口：学部/学府 → 係 + 电话，权威对照表）",
+      "https://www.kyushu-u.ac.jp/ja/contact/department （部局事務部：事务部内部各課係分工）",
+      "https://web.card.kyushu-u.ac.jp/students/contact.html （学務担当窓口一覧：建筑 + 楼层 + 房号）"
+    ],
+    "enNameNote": "标 _enUnverified: true 的英文名是通用译名，未在本次抓取的官方页面上逐字确认。已确认的来自：人間環境学府（hues 页脚）、統合新領域学府 / 共創学部（ISC 英文页）。",
+    "knownGaps": [
+      "統合新領域学府：归工学部等事務部教務課統合新領域係（TEL 092-802-3859），推测在 ウエスト4号館，房号未确认",
+      "システム生命科学府：另有独立事務 092-802-4033（sls-jimu@sls.kyushu-u.ac.jp），所在建筑未确认；学生窗口走理学部等事務部",
+      "マス・フォア・イノベーション連係学府 / 人文情報連係学府：新设连系学府，独立窗口是否存在未确认"
+    ]
+  },
+
+  "undergraduate": [
+    {
+      "name_ja": "共創学部", "name_zh": "共创学部", "name_en": "School of Interdisciplinary Science and Innovation",
+      "campus": "ito", "office": "off-kyoso",
+      "desk_ja": "学務部基幹教育・共創学部課 共創学生係", "tel": "092-802-5951",
+      "aliases": ["共創", "共创", "Kyoso"]
+    },
+    {
+      "name_ja": "文学部", "name_zh": "文学部", "name_en": "School of Letters", "_enUnverified": true,
+      "campus": "ito", "office": "off-jinsya-gakumu",
+      "desk_ja": "人文社会科学系事務部学務課 人文担当", "tel": "092-802-6372",
+      "aliases": ["文学部", "文学院"]
+    },
+    {
+      "name_ja": "教育学部", "name_zh": "教育学部", "name_en": "School of Education", "_enUnverified": true,
+      "campus": "ito", "office": "off-jinsya-gakumu",
+      "desk_ja": "人文社会科学系事務部学務課 人環・教育担当", "tel": "092-802-6362",
+      "aliases": ["教育学部", "教育学院"]
+    },
+    {
+      "name_ja": "法学部", "name_zh": "法学部", "name_en": "School of Law", "_enUnverified": true,
+      "campus": "ito", "office": "off-jinsya-gakumu",
+      "desk_ja": "人文社会科学系事務部学務課 法学担当", "tel": "092-802-6367",
+      "aliases": ["法学部", "法学院"]
+    },
+    {
+      "name_ja": "経済学部", "name_zh": "经济学部", "name_en": "School of Economics", "_enUnverified": true,
+      "campus": "ito", "office": "off-jinsya-gakumu",
+      "desk_ja": "人文社会科学系事務部学務課 経済担当", "tel": "092-802-6383",
+      "aliases": ["経済学部", "经济学部", "经济学院", "ビジネス・スクール"]
+    },
+    {
+      "name_ja": "理学部", "name_zh": "理学部", "name_en": "School of Science", "_enUnverified": true,
+      "campus": "ito", "office": "off-sci-kyomu",
+      "desk_ja": "理学部等事務部教務課 学生支援係", "tel": "092-802-4014",
+      "aliases": ["理学部", "理学院"]
+    },
+    {
+      "name_ja": "工学部", "name_zh": "工学部", "name_en": "School of Engineering", "_enUnverified": true,
+      "campus": "ito", "office": "off-eng-kyomu",
+      "desk_ja": "工学部等事務部教務課 教務係", "tel": "092-802-2722",
+      "aliases": ["工学部", "工学院", "建築学科", "建筑学科", "建築", "建筑"],
+      "exception_zh": "★ 工学部【建築学科】例外：归人文社会科学系事務部学務課 人環・教育担当（TEL 092-802-6362），窗口在 イースト1号館，不是 ウエスト4号館。",
+      "exceptionOffice": "off-jinsya-gakumu"
+    },
+    {
+      "name_ja": "農学部", "name_zh": "农学部", "name_en": "School of Agriculture", "_enUnverified": true,
+      "campus": "ito", "office": "off-agr-gakusei",
+      "desk_ja": "農学部等事務部学生課 学生係", "tel": "092-802-4508",
+      "aliases": ["農学部", "农学部", "农学院"]
+    },
+    {
+      "name_ja": "医学部（医学科・生命科学科）", "name_zh": "医学部（医学科·生命科学科）", "name_en": "School of Medicine", "_enUnverified": true,
+      "campus": "hospital", "office": null,
+      "desk_ja": "医系学部等事務部学務課 医学学生係", "tel": "092-642-6020",
+      "aliases": ["医学部", "医学院"],
+      "note_zh": "不在伊都校区，在病院（馬出）校区：福岡市東区馬出3-1-1。"
+    },
+    {
+      "name_ja": "医学部 保健学科", "name_zh": "医学部 保健学科", "name_en": "School of Medicine, Department of Health Sciences", "_enUnverified": true,
+      "campus": "hospital", "office": null,
+      "desk_ja": "医系学部等事務部学務課 保健学学生係", "tel": "092-642-6680",
+      "aliases": ["保健学科", "保健学"],
+      "note_zh": "不在伊都校区，在病院（馬出）校区。"
+    },
+    {
+      "name_ja": "歯学部", "name_zh": "齿学部", "name_en": "School of Dentistry", "_enUnverified": true,
+      "campus": "hospital", "office": null,
+      "desk_ja": "医系学部等事務部学務課 歯学学生係", "tel": "092-642-6262",
+      "aliases": ["歯学部", "齿学部", "牙学院"],
+      "note_zh": "不在伊都校区，在病院（馬出）校区。"
+    },
+    {
+      "name_ja": "薬学部", "name_zh": "药学部", "name_en": "School of Pharmaceutical Sciences", "_enUnverified": true,
+      "campus": "hospital", "office": null,
+      "desk_ja": "医系学部等事務部学務課 薬学学生係", "tel": "092-642-6541",
+      "aliases": ["薬学部", "药学部", "药学院"],
+      "note_zh": "不在伊都校区，在病院（馬出）校区。"
+    },
+    {
+      "name_ja": "芸術工学部", "name_zh": "艺术工学部", "name_en": "School of Design", "_enUnverified": true,
+      "campus": "ohashi", "office": null,
+      "desk_ja": "芸術工学部事務部学務課 教務係", "tel": "092-553-4418",
+      "aliases": ["芸術工学部", "艺术工学部", "芸工"],
+      "note_zh": "不在伊都校区，在大橋校区：福岡市南区塩原4-9-1。"
+    }
+  ],
+
+  "graduate": [
+    {
+      "name_ja": "人文科学府", "name_zh": "人文科学府", "name_en": "Graduate School of Humanities", "_enUnverified": true,
+      "campus": "ito", "office": "off-jinsya-gakumu",
+      "desk_ja": "人文社会科学系事務部学務課 人文担当", "tel": "092-802-6372",
+      "aliases": ["人文科学府", "人文学府"]
+    },
+    {
+      "name_ja": "人文情報連係学府", "name_zh": "人文信息连系学府", "name_en": "Graduate School of Humanities and Information Studies", "_enUnverified": true,
+      "campus": "ito", "office": "off-jinsya-gakumu",
+      "desk_ja": "人文社会科学系事務部学務課 人文担当", "tel": "092-802-6372",
+      "aliases": ["人文情報連係学府", "人文信息连系学府"]
+    },
+    {
+      "name_ja": "人間環境学府", "name_zh": "人间环境学府", "name_en": "Graduate School of Human-Environment Studies",
+      "campus": "ito", "office": "off-jinsya-gakumu",
+      "desk_ja": "人文社会科学系事務部学務課 人環・教育担当", "tel": "092-802-6362",
+      "aliases": ["人間環境学府", "人间环境学府", "人環", "人环", "HUES"],
+      "note_zh": "都市共生设计·人间共生系统·行动系统·教育系统·空间系统·实践临床心理学 六个专攻。"
+    },
+    {
+      "name_ja": "法学府", "name_zh": "法学府", "name_en": "Graduate School of Law", "_enUnverified": true,
+      "campus": "ito", "office": "off-jinsya-gakumu",
+      "desk_ja": "人文社会科学系事務部学務課 法学担当", "tel": "092-802-6367",
+      "aliases": ["法学府"]
+    },
+    {
+      "name_ja": "法務学府（法科大学院）", "name_zh": "法务学府（法科大学院）", "name_en": "Kyushu University Law School", "_enUnverified": true,
+      "campus": "ito", "office": "off-jinsya-gakumu",
+      "desk_ja": "人文社会科学系事務部学務課 法務担当", "tel": "092-802-6374",
+      "aliases": ["法務学府", "法务学府", "法科大学院", "ロースクール", "Law School"]
+    },
+    {
+      "name_ja": "経済学府", "name_zh": "经济学府", "name_en": "Graduate School of Economics", "_enUnverified": true,
+      "campus": "ito", "office": "off-jinsya-gakumu",
+      "desk_ja": "人文社会科学系事務部学務課 経済担当", "tel": "092-802-6383",
+      "aliases": ["経済学府", "经济学府"]
+    },
+    {
+      "name_ja": "地球社会統合科学府", "name_zh": "地球社会统合科学府", "name_en": "Graduate School of Integrated Sciences for Global Society", "_enUnverified": true,
+      "campus": "ito", "office": "off-jinsya-gakumu",
+      "desk_ja": "人文社会科学系事務部学務課 企画総括・地球社会担当", "tel": "092-802-6381",
+      "aliases": ["地球社会統合科学府", "地球社会统合科学府", "ISGS", "比較社会文化学府", "比较社会文化学府"],
+      "note_zh": "旧「比較社会文化学府」相关咨询也走这里（旧名仍作为别名保留）。"
+    },
+    {
+      "name_ja": "理学府", "name_zh": "理学府", "name_en": "Graduate School of Science", "_enUnverified": true,
+      "campus": "ito", "office": "off-sci-kyomu",
+      "desk_ja": "理学部等事務部教務課 学生支援係", "tel": "092-802-4014",
+      "aliases": ["理学府"]
+    },
+    {
+      "name_ja": "数理学府", "name_zh": "数理学府", "name_en": "Graduate School of Mathematics", "_enUnverified": true,
+      "campus": "ito", "office": "off-sci-kyomu",
+      "desk_ja": "理学部等事務部教務課 学生支援係", "tel": "092-802-4014",
+      "aliases": ["数理学府", "数学学府", "IMI"]
+    },
+    {
+      "name_ja": "システム生命科学府", "name_zh": "系统生命科学府", "name_en": "Graduate School of Systems Life Sciences", "_enUnverified": true,
+      "campus": "ito", "office": "off-sci-kyomu",
+      "desk_ja": "理学部等事務部教務課 学生支援係", "tel": "092-802-4014",
+      "aliases": ["システム生命科学府", "系统生命科学府", "SLS"],
+      "note_zh": "另有学府独立事務（092-802-4033 / sls-jimu@sls.kyushu-u.ac.jp），所在建筑未确认；学籍·证明书走理学部等事务部。"
+    },
+    {
+      "name_ja": "マス・フォア・イノベーション連係学府", "name_zh": "Math for Innovation 连系学府", "name_en": "Graduate School of Mathematics for Innovation", "_enUnverified": true,
+      "campus": "ito", "office": "off-sci-kyomu",
+      "desk_ja": "理学部等事務部教務課", "tel": "092-802-4013",
+      "aliases": ["マス・フォア・イノベーション", "GPMI", "Math for Innovation"]
+    },
+    {
+      "name_ja": "工学府", "name_zh": "工学府", "name_en": "Graduate School of Engineering", "_enUnverified": true,
+      "campus": "ito", "office": "off-eng-kyomu",
+      "desk_ja": "工学部等事務部教務課 教務係", "tel": "092-802-2722",
+      "aliases": ["工学府"],
+      "note_zh": "国际化·留学生係另有专线 092-802-2735。"
+    },
+    {
+      "name_ja": "システム情報科学府", "name_zh": "系统信息科学府", "name_en": "Graduate School of Information Science and Electrical Engineering", "_enUnverified": true,
+      "campus": "ito", "office": "off-eng-kyomu",
+      "desk_ja": "工学部等事務部教務課 教務係", "tel": "092-802-2722",
+      "aliases": ["システム情報科学府", "系统信息科学府", "ISEE"],
+      "note_zh": "学籍·证明书等共通手续在 ウエスト4号館 2F；专攻级事务室在 ウエスト2号館 3F（见 off-isee-jimu）。",
+      "secondaryOffice": "off-isee-jimu"
+    },
+    {
+      "name_ja": "統合新領域学府", "name_zh": "统合新领域学府", "name_en": "Graduate School of Integrated Frontier Sciences",
+      "campus": "ito", "office": "off-eng-kyomu",
+      "desk_ja": "工学部等事務部教務課 統合新領域係", "tel": "092-802-3859",
+      "aliases": ["統合新領域学府", "统合新领域学府", "IFS"],
+      "note_zh": "归工学部等事务部，但係别独立。具体房号未确认（教务课本部在 ウエスト4号館 2F 203）。",
+      "confidence": "needs_check"
+    },
+    {
+      "name_ja": "生物資源環境科学府", "name_zh": "生物资源环境科学府", "name_en": "Graduate School of Bioresource and Bioenvironmental Sciences", "_enUnverified": true,
+      "campus": "ito", "office": "off-agr-gakusei",
+      "desk_ja": "農学部等事務部学生課 学生係", "tel": "092-802-4508",
+      "aliases": ["生物資源環境科学府", "生物资源环境科学府", "農学府", "农学府", "農学研究院"],
+      "note_zh": "★ 学生日常说的「農学府」就是它——正式名里没有「農学府」三个字，所以必须靠别名才搜得到。留学生专线 092-802-4510。"
+    },
+    {
+      "name_ja": "総合理工学府", "name_zh": "总合理工学府", "name_en": "Graduate School of Engineering Sciences", "_enUnverified": true,
+      "campus": "chikushi", "office": null,
+      "desk_ja": "筑紫地区事務部教務課 教務係", "tel": "092-583-7512",
+      "aliases": ["総合理工学府", "总合理工学府"],
+      "note_zh": "不在伊都校区，在筑紫校区：春日市春日公園6-1。"
+    },
+    {
+      "name_ja": "医学系学府", "name_zh": "医学系学府", "name_en": "Graduate School of Medical Sciences", "_enUnverified": true,
+      "campus": "hospital", "office": null,
+      "desk_ja": "医系学部等事務部学務課 大学院係", "tel": "092-642-6025",
+      "aliases": ["医学系学府", "医学府"],
+      "note_zh": "不在伊都校区，在病院（馬出）校区。"
+    },
+    {
+      "name_ja": "医学系学府 保健学専攻", "name_zh": "医学系学府 保健学专攻", "name_en": "Graduate School of Medical Sciences, Department of Health Sciences", "_enUnverified": true,
+      "campus": "hospital", "office": null,
+      "desk_ja": "医系学部等事務部学務課 保健学学生係", "tel": "092-642-6680",
+      "aliases": ["保健学専攻", "保健学专攻"],
+      "note_zh": "不在伊都校区，在病院（馬出）校区。"
+    },
+    {
+      "name_ja": "歯学府", "name_zh": "齿学府", "name_en": "Graduate School of Dental Science", "_enUnverified": true,
+      "campus": "hospital", "office": null,
+      "desk_ja": "医系学部等事務部学務課 歯学学生係", "tel": "092-642-6262",
+      "aliases": ["歯学府", "齿学府"],
+      "note_zh": "不在伊都校区，在病院（馬出）校区。"
+    },
+    {
+      "name_ja": "薬学府", "name_zh": "药学府", "name_en": "Graduate School of Pharmaceutical Sciences", "_enUnverified": true,
+      "campus": "hospital", "office": null,
+      "desk_ja": "医系学部等事務部学務課 薬学学生係", "tel": "092-642-6541",
+      "aliases": ["薬学府", "药学府"],
+      "note_zh": "不在伊都校区，在病院（馬出）校区。"
+    },
+    {
+      "name_ja": "芸術工学府", "name_zh": "艺术工学府", "name_en": "Graduate School of Design", "_enUnverified": true,
+      "campus": "ohashi", "office": null,
+      "desk_ja": "芸術工学部事務部学務課 教務係", "tel": "092-553-4418",
+      "aliases": ["芸術工学府", "艺术工学府"],
+      "note_zh": "不在伊都校区，在大橋校区。"
+    }
+  ],
+
+  "universityWide": [
+    {
+      "name_ja": "基幹教育・全学教育", "name_zh": "基干教育·全学教育", "name_en": "Faculty of Arts and Science (General Education)", "_enUnverified": true,
+      "campus": "ito", "office": "off-kikan-kyomu",
+      "desk_ja": "学務部教務課 基幹教育教務係", "tel": "092-802-5941",
+      "aliases": ["基幹教育", "基干教育", "全学教育", "教養科目"],
+      "note_zh": "本科一二年级的通识课统一走这里。"
+    },
+    {
+      "name_ja": "21世紀プログラム", "name_zh": "21世纪项目", "name_en": "The 21st Century Program", "_enUnverified": true,
+      "campus": "ito", "office": "off-kyoso",
+      "desk_ja": "学務部基幹教育・共創学部課 共創学生係", "tel": "092-802-5951",
+      "aliases": ["21世紀プログラム", "21世纪项目"]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+[
+ {
+  "num": 1,
+  "type": "sports",
+  "lon": 130.2059427,
+  "lat": 33.6033742,
+  "name_zh": "射箭场",
+  "name_ja": "アーチェリー場",
+  "name_en": "Archery Range"
+ },
+ {
+  "num": 2,
+  "type": "sports",
+  "lon": 130.2068688,
+  "lat": 33.6025614,
+  "name_zh": "棒球场",
+  "name_ja": "野球場",
+  "name_en": "Baseball Field"
+ },
+ {
+  "num": 3,
+  "type": "sports",
+  "lon": 130.2087676,
+  "lat": 33.6002508,
+  "name_zh": "田径场",
+  "name_ja": "陸上競技場",
+  "name_en": "Athletic Field"
+ },
+ {
+  "num": 4,
+  "type": "sports",
+  "lon": 130.2096963,
+  "lat": 33.6011593,
+  "name_zh": "弓道场",
+  "name_ja": "弓道場",
+  "name_en": "Japanese Archery Range"
+ },
+ {
+  "num": 16,
+  "type": "farm",
+  "lon": 130.2135183,
+  "lat": 33.6005445,
+  "name_zh": "附属农场（畜产区）",
+  "name_ja": "附属農場（畜産エリア）",
+  "name_en": "University Farm (Livestock Area)"
+ },
+ {
+  "num": 17,
+  "type": "farm",
+  "lon": 130.2191503,
+  "lat": 33.600009,
+  "name_zh": "附属农场（水田区）",
+  "name_ja": "附属農場（水田エリア）",
+  "name_en": "University Farm (Paddy Field)"
+ },
+ {
+  "num": 18,
+  "type": "sports",
+  "lon": 130.2112349,
+  "lat": 33.5941664,
+  "name_zh": "网球场",
+  "name_ja": "テニスコート",
+  "name_en": "Tennis Court"
+ },
+ {
+  "num": 19,
+  "type": "nature",
+  "lon": 130.2142082,
+  "lat": 33.5963753,
+  "name_zh": "生物多样性保全区",
+  "name_ja": "生物多様性保全ゾーン",
+  "name_en": "Biodiversity Conservation Zone"
+ },
+ {
+  "num": 23,
+  "type": "farm",
+  "lon": 130.2145536,
+  "lat": 33.592226,
+  "name_zh": "植物圃场设施",
+  "name_ja": "植物圃場施設",
+  "name_en": "Agriculture Zone"
+ },
+ {
+  "num": 24,
+  "type": "plaza",
+  "lon": 130.2135331,
+  "lat": 33.5934001,
+  "name_zh": "农学部百周年纪念广场",
+  "name_ja": "",
+  "name_en": "Centennial Space of the Faculty of Agriculture"
+ },
+ {
+  "num": 69,
+  "type": "sports",
+  "lon": 130.2217879,
+  "lat": 33.595576,
+  "name_zh": "网球场",
+  "name_ja": "テニスコート",
+  "name_en": "Tennis Court"
+ },
+ {
+  "num": 72,
+  "type": "sports",
+  "lon": 130.2233409,
+  "lat": 33.5949388,
+  "name_zh": "多目的运动场",
+  "name_ja": "多目的グラウンド",
+  "name_en": "Multipurpose Sports Field"
+ },
+ {
+  "num": 97,
+  "type": "sports",
+  "lon": 130.2295412,
+  "lat": 33.6019746,
+  "name_zh": "多目的运动场",
+  "name_ja": "多目的グラウンド",
+  "name_en": "Multipurpose Sports Field"
+ },
+ {
+  "num": 98,
+  "type": "sports",
+  "lon": 130.2306447,
+  "lat": 33.6015408,
+  "name_zh": "网球场",
+  "name_ja": "テニスコート",
+  "name_en": "Tennis Court"
+ },
+ {
+  "num": 99,
+  "type": "farm",
+  "lon": 130.2313962,
+  "lat": 33.6030675,
+  "name_zh": "水田圃场设施",
+  "name_ja": "水田圃場施設",
+  "name_en": "Agriculture Zone"
+ },
+ {
+  "num": 900,
+  "type": "dorm",
+  "lon": 130.2126651,
+  "lat": 33.5833964,
+  "name_zh": "SETTLE International（学生宿舍）",
+  "name_ja": "セトルインターナショナル",
+  "name_en": "SETTLE International (Student Residence)",
+  "src": "google-maps-2026-08-16"
+ }
+]
