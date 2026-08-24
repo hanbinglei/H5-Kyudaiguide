@@ -125,6 +125,14 @@ function showCategory(catId){
   navigate('article/'+encodeURIComponent(art._id));
 }
 
+/** 当前语言下该篇应渲染的 blocks。有译本用译本，否则回退中文原文（逐篇独立判断）。 */
+function bodyBlocks(art){
+  const lang=I18N.getLang();
+  if(lang==='zh')return art.blocks||[];
+  const tr=window.ARTICLES_BODY_I18N&&window.ARTICLES_BODY_I18N[art._id]&&window.ARTICLES_BODY_I18N[art._id][lang];
+  return (Array.isArray(tr)&&tr.length)?tr:(art.blocks||[]);
+}
+
 // ── 文章详情 ──
 function showArticle(id){
   const art=ARTICLES.find(a=>String(a._id)===String(id));
@@ -137,18 +145,20 @@ function showArticle(id){
   const title=I18N.articleField(art,'title');
   const summary=I18N.articleField(art,'summary');
   const catLabel=I18N.catName(art.category);
-  const notice=t('bodyNotice');
+  // 正文逐篇回退：该篇有当前语言译本就用译本，否则用中文原文并挂提示条
+  const blocks=bodyBlocks(art);
+  const notice=(blocks===art.blocks)?t('bodyNotice'):'';
 
   $('articleHeader').innerHTML=`<h1>${esc(title)}</h1>
     <div class="meta">${esc(catLabel)} · ${esc(t('updated'))} ${esc(art.updatedAt||'')} · ${esc(t('byAdmin'))}</div>
     ${summary?`<div style="margin-top:8px;font-size:13px;color:#666;background:#f8f8f8;border-radius:8px;padding:8px 10px">${esc(summary)}</div>`:''}
     ${notice?`<div class="notice" style="margin-top:8px">🌐 ${esc(notice)}</div>`:''}`;
 
-  // 正文（中文原文；TOC 与正文同语言）
+  // 正文（TOC 取自同一份 blocks，与正文语言必然一致）
   const body=$('articleBody');
-  body.innerHTML=window.GuideRender.renderBlocks(art.blocks||[],null);
+  body.innerHTML=window.GuideRender.renderBlocks(blocks,null);
 
-  const headings=(art.blocks||[]).filter(b=>b.type==='heading').map(b=>b.text);
+  const headings=blocks.filter(b=>b.type==='heading').map(b=>b.text);
   const toc=$('toc');
   if(headings.length>1){
     toc.style.display='';
