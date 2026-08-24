@@ -37,6 +37,7 @@ const LANGS = ['ja', 'en', 'ko'];
 const CONTACT_LOCALIZED = {
   'guide-emergency': ['ja', 'en', 'ko'],  // 领事馆按读者国籍
   'guide-medical': ['ja', 'en', 'ko'],    // 福冈市官网指向各语言版
+  'guide-antifraud': ['ja', 'en', 'ko'],  // 报案渠道与公馆按读者国籍
 };
 
 const errors = [];
