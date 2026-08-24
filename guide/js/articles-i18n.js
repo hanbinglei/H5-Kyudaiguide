@@ -1,65 +1,98 @@
-// articles-i18n.js — 文章多语言翻译（与 data-articles.js 的 _id 严格对应）
-// 空分类（4/7/9/12）无文章，i18n 不需要条目
+// articles-i18n.js — 文章导航层多语言（title / summary，与 data-articles.js 的 _id 严格对应）
+// 设计：正文（blocks）与小节 TOC 为中文原文，切换语言时由 UI 层显示「正文为中文」提示；
+//       这里只翻标题与摘要，供宫格 / 详情头 / 搜索结果使用。零缺省回退到 zh 原文。
 (function(){
 window.ARTICLES_I18N = {
-// cat=1 入境准备 — hot-firststeps（无 heading）
-'hot-firststeps': {
-  title:{ ja:'到着後に最初にやること', en:'First Things After Arrival', ko:'도착 후 가장 먼저 할 일' },
-  summary:{ ja:'日本に到着して最初に優先すべき手続きの順序。', en:'Priority order of tasks right after landing in Japan.', ko:'일본 도착 후 가장 먼저 처리할 순서.' },
+'guide-entry': {
+  title:{ ja:'入国準備', en:'Arrival & Entry', ko:'입국 준비' },
+  summary:{
+    ja:'到着前後にやること：シャトルバス、荷物、在留カードと銀行/保険の順序、寝具の持参、研究室への連絡。',
+    en:'What to do before and after landing: shuttle bus, luggage, the residence-card → bank/insurance order, bringing bedding, contacting your lab.',
+    ko:'도착 전후 해야 할 일: 셔틀버스, 짐, 재류카드와 은행/보험 순서, 침구 지참, 연구실 연락.' },
 },
-
-// cat=2 在留手续 — guide-2（权威指南，4 sections）
-'guide-2': {
-  title:{ ja:'在留手続（住民登録・再入国・役所）', en:'Residence Procedures (Registration / Re-entry / Ward Office)', ko:'체류 수속 (주민등록·재입국·구청)' },
-  summary:{ ja:'到着後にやるべき在留手続の全体像。住民登録→銀行→電話の順序。', en:'Full sequence of residence tasks after arrival. Registration → bank → SIM.', ko:'도착 후 처리할 체류 수속 전체 순서.' },
-  sections:{ ja:['到着後の手続き順序','住民登録の2つの方法','日本を一時離れる場合','よく使う公的機関'], en:['Post-arrival Order','Two Ways to Register Residence','Temporarily Leaving Japan','Key Public Offices'], ko:['도착 후 절차 순서','주민등록 2가지 방법','일시 출국 시','자주 쓰는 공적 기관'] },
+'guide-residence': {
+  title:{ ja:'在留手続き', en:'Residence Procedures', ko:'체류 수속' },
+  summary:{
+    ja:'在留カードの住所登録（自分で/学校代行）、引越し時の住所変更と郵便転送、在留カード更新と2026年特定在留カード、campusweb/SSO、マイナンバー、国民健康保険と国民年金の学生特例、帰国前の手続き。',
+    en:'Residence-card address registration (self / via school), moving & mail forwarding, card renewal and the 2026 special residence card, campusweb/SSO login, My Number, National Health Insurance & pension student exemption, procedures before leaving Japan.',
+    ko:'재류카드 주소 등록(직접/학교 대행), 이사 시 주소 변경과 우편 전송, 재류카드 갱신과 2026 특정 재류카드, campusweb/SSO, 마이넘버, 국민건강보험과 국민연금 학생 특례, 귀국 전 수속.' },
 },
-
-// cat=3 租房 — hot-rent3（无 heading）
-'hot-rent3': {
-  title:{ ja:'福岡3エリアの住まい選び', en:'Choosing Housing in 3 Fukuoka Areas', ko:'후쿠오카 3지역 주거 선택' },
-  summary:{ ja:'学研・周船寺・校区横の3エリア比較。家賃・通勤・生活利便性。', en:'Kyudai-gakken / Susenji / Campus-adjacent: rent, commute, convenience.', ko:'학연·스센지·캠퍼스 인접 3지역 비교.' },
+'guide-housing': {
+  title:{ ja:'住まい探し', en:'Housing', ko:'주거' },
+  summary:{
+    ja:'福岡3エリア（学研都市/周船寺/キャンパス横）の選び方、初期費用と水道光熱、郵便転送、周辺の賃貸ルートと実用リンク。',
+    en:'Choosing among 3 Fukuoka areas (Gakken-toshi / Susenji / campus-side), initial costs and utilities, mail forwarding, local rental channels and useful links.',
+    ko:'후쿠오카 3개 지역(학연도시/스센지/캠퍼스 옆) 선택법, 초기 비용과 공과금, 우편 전송, 주변 임대 경로와 실용 링크.' },
 },
-
-// cat=5 手机·网络 — hot-sim（1 section）
-'hot-sim': {
-  title:{ ja:'おすすめSIMカード', en:'Recommended SIM Cards', ko:'추천 SIM카드' },
-  summary:{ ja:'留学生におすすめのSIMカード・格安SIMまとめ。', en:'Budget SIM cards recommended for international students.', ko:'유학생 추천 저가 SIM카드.' },
-  sections:{ ja:['みんなの経験（募集中）'], en:["Everyone's Experience (Collecting)"], ko:['경험 공유 (수집 중)'] },
+'guide-bank': {
+  title:{ ja:'銀行・送金', en:'Banking & Remittance', ko:'은행·송금' },
+  summary:{
+    ja:'口座開設の共通知識（印鑑・営業時間）、オリエンテーション参加の意味、家賃の口座振替、クレジットカード（PayPay 等）、各銀行の特徴と必要書類、海外送金とマイナンバー。',
+    en:'Account-opening basics (personal seal, business hours), why to attend orientation, rent via direct debit, credit cards (PayPay etc.), each bank’s requirements and document checklist, overseas remittance and My Number.',
+    ko:'계좌 개설 공통 상식(도장·영업시간), 오리엔테이션 참가 이유, 월세 자동이체, 신용카드(PayPay 등), 각 은행 특징과 서류 체크리스트, 해외 송금과 마이넘버.' },
 },
-
-// cat=6 学业·奖学金 — guide-6（无 heading）
-'guide-6': {
-  title:{ ja:'私費留学生奨学金', en:'Private-Sponsored Student Scholarships', ko:'사비 유학생 장학금' },
-  summary:{ ja:'私費留学生が申請できる奨学金情報。', en:'Scholarship info for privately-funded international students.', ko:'사비 유학생 신청 가능 장학금 정보.' },
+'guide-phone': {
+  title:{ ja:'携帯・ネット', en:'Mobile & Internet', ko:'휴대폰·인터넷' },
+  summary:{
+    ja:'来日前の一時上網カード（CMlink/旅行SIM）、SIM選び（povo/ahamo/Y!mobile/UQ mobile/楽天）、オンライン申込と多言語サポート、eSIM、学内WiFi（SSOKID@Kitnet）と eduroam、解約・乗り換えリンク。',
+    en:'Temporary data SIM before arrival (CMlink / travel SIM), choosing a SIM (povo / ahamo / Y!mobile / UQ mobile / Rakuten), online application & multilingual support, eSIM, campus WiFi (SSOKID@Kitnet) and eduroam, cancellation & porting links.',
+    ko:'입국 전 임시 데이터 SIM(CMlink/여행 SIM), SIM 선택(povo/ahamo/Y!mobile/UQ mobile/라쿠텐), 온라인 신청과 다국어 지원, eSIM, 교내 WiFi(SSOKID@Kitnet)와 eduroam, 해지·번호이동 링크.' },
 },
-
-// cat=8 医疗·保险 — hot-med-otc（1 section）
-'hot-med-otc': {
-  title:{ ja:'常用薬の準備', en:'Preparing OTC Medications', ko:'상비약 준비' },
-  summary:{ ja:'日本に持ってきたい常備薬と、現地での入手方法。', en:'Medications to bring from home + how to buy locally.', ko:'가져갈 상비약과 현지 구매 방법.' },
-  sections:{ ja:['みんなの常備薬（募集中）'], en:['OTC Meds (Collecting)'], ko:['상비약 (수집 중)'] },
+'guide-academic': {
+  title:{ ja:'学業・奨学金', en:'Study & Scholarships', ko:'학업·장학금' },
+  summary:{
+    ja:'学校アカウントと各種証明書、履修と授業、直接受験/研究生からの進学、RA と私費留学生奨学金、JTCs 日本語コース、健康診断と学内相談窓口。',
+    en:'School accounts & certificates, course registration, direct-exam / research-student admission, RA positions & scholarships for self-funded students, JTCs Japanese courses, health checkup and on-campus counseling.',
+    ko:'학교 계정과 각종 증명서, 수강 신청, 직접 수험/연구생 진학, RA와 사비 유학생 장학금, JTCs 일본어 과정, 건강검진과 교내 상담 창구.' },
 },
-
-// cat=10 生活贴士 — ito-guide（4 sections，最权威）
-'ito-guide': {
-  title:{ ja:'新伊都国風土記', en:'New Ito Chronicle', ko:'신 이토 풍토기' },
-  summary:{ ja:'九州大学伊都キャンパスおよび周辺の生活ガイド。地理・天気・行政区画。', en:'Living guide for Kyushu University Ito Campus: geography, weather, admin areas.', ko:'규슈대 이토 캠퍼스 및 주변 생활 가이드.' },
-  sections:{ ja:['基本情報','気候','行政区画','糸島と係島'], en:['Basic Info','Climate','Administrative Divisions','Itoshima vs 糸島'], ko:['기본 정보','기후','행정 구역','이토시마'] },
+'guide-parttime': {
+  title:{ ja:'アルバイト', en:'Part-time Work', ko:'아르바이트' },
+  summary:{
+    ja:'資格外活動許可、労働時間の上限（週28時間）、福岡の最低時給、探し方と注意点、実用リンク。',
+    en:'Permission to engage in other activities, the 28 h/week limit, Fukuoka minimum wage, where to find jobs and cautions, useful links.',
+    ko:'자격외활동허가, 주 28시간 제한, 후쿠오카 최저시급, 구직 경로와 주의점, 실용 링크.' },
 },
-
-// cat=11 购物 — guide-11（6 sections）
-'guide-11': {
-  title:{ ja:'買い物ガイド（伊都キャンパス周辺）', en:'Shopping Guide (Ito Campus Area)', ko:'쇼핑 가이드 (이토 캠퍼스 주변)' },
-  summary:{ ja:'周辺のスーパー・コンビニ・ドラッグストア・ディスカウント情報。', en:'Nearby supermarkets, convenience stores, drugstores & discounts.', ko:'근처 슈퍼마켓·편의점·약국·할인 정보.' },
-  sections:{ ja:['早見表','最寄り：九大学研都市駅周辺','割引・量販','大型スーパー','コンビニ','延伸商圏（7km）'], en:['Quick Reference','Kyudai-gakken Station Area','Discounts & Bulk','Supermarkets','Convenience Stores','Extended (7 km)'], ko:['빠른 참조','학연도시역 주변','할인·대량 구매','슈퍼마켓','편의점','확장 상권 (7km)'] },
+'guide-medical': {
+  title:{ ja:'医療・保険', en:'Medical & Insurance', ko:'의료·보험' },
+  summary:{
+    ja:'国民健康保険、ESP 緊急支援（三者通訳）、多言語医療ホットライン、キャンパス保健センター、福岡市の外国人医療・生活支援。',
+    en:'National Health Insurance, ESP emergency support (three-way interpretation), multilingual medical hotlines, the campus health center, Fukuoka City support for foreign residents.',
+    ko:'국민건강보험, ESP 긴급 지원(3자 통역), 다국어 의료 핫라인, 캠퍼스 보건센터, 후쿠오카시 외국인 의료·생활 지원.' },
 },
-
-// cat=13 安全必读 — guide-antifraud（5 sections）
+'guide-transport': {
+  title:{ ja:'交通', en:'Transport', ko:'교통' },
+  summary:{
+    ja:'自転車（購入/防犯登録/処分）、バスと定期券（回数券/エコルカード/通学定期）、シェアサイクル、原付と免許。',
+    en:'Bicycles (buying / anti-theft registration / disposal), buses & commuter passes (coupon tickets / Ecole card / student pass), bike-share, mopeds and licenses.',
+    ko:'자전거(구입/방범등록/처분), 버스와 정기권(회수권/에코루/통학정기), 공유자전거, 원동기와 면허.' },
+},
+'guide-life': {
+  title:{ ja:'生活のコツ', en:'Life Tips', ko:'생활 팁' },
+  summary:{
+    ja:'福岡の天気と台風、ゴミ分別と指定袋、市の LINE アカウント、サークルと EZぷらっと、寮の修繕依頼、Coffee Hour、食堂・図書館とキャンパスイベント。',
+    en:'Fukuoka weather & typhoons, garbage sorting & designated bags, the city’s LINE account, clubs and EZ-Platto, dorm repair requests, Coffee Hour, canteens, libraries and campus events.',
+    ko:'후쿠오카 날씨와 태풍, 쓰레기 분리와 지정 봉투, 시 LINE 계정, 동아리와 EZ뿌랏토, 기숙사 수리 요청, Coffee Hour, 식당·도서관과 캠퍼스 행사.' },
+},
+'guide-shopping': {
+  title:{ ja:'買い物', en:'Shopping', ko:'쇼핑' },
+  summary:{
+    ja:'日用品はどこで買うか、伊都周辺の買い物マップ（駅前生鮮/ドラッグストア/ディスカウント/総合スーパー/コンビニ/7km圏）、中古と参考リンク。',
+    en:'Where to buy daily goods, an Ito-area shopping map (station fresh food / drugstores / discount / supermarkets / convenience stores / 7 km zone), second-hand and reference links.',
+    ko:'생필품 구매처, 이토 주변 쇼핑 지도(역 앞 신선식품/약국/할인점/종합슈퍼/편의점/7km권), 중고와 참고 링크.' },
+},
+'guide-emergency': {
+  title:{ ja:'緊急連絡先', en:'Emergency Contacts', ko:'긴급 연락처' },
+  summary:{
+    ja:'生命/安全の緊急番号（110/119/#7119）、中国大使館・領事館と外交部ホットライン、学校と外国人相談窓口、生活相談ホットライン。',
+    en:'Life-safety emergency numbers (110 / 119 / #7119), Chinese embassy & consulate and MFA hotlines, university and foreign-resident help desks, daily-life hotlines.',
+    ko:'생명/안전 긴급번호(110/119/#7119), 중국 대사관·영사관과 외교부 핫라인, 학교와 외국인 상담 창구, 생활 상담 핫라인.' },
+},
 'guide-antifraud': {
-  title:{ ja:'詐欺防止ガイド（初心者必読）', en:'Anti-Fraud Guide (Must-Read for Beginners)', ko:'사기 방지 가이드 (초보 필독)' },
-  summary:{ ja:'留学生向け詐欺対策。手口・防止・緊急時の対応。', en:'Anti-fraud for international students: tactics, prevention, emergency.', ko:'유학생 대상 사기 대책: 수법·예방·긴급 대응.' },
-  sections:{ ja:['① よくある詐欺の手口','② 防犯の基本原則','③ 日常の警戒チェックリスト','④ 詐欺に引っかかった場合','⑤ 騙しを見抜くコツ'], en:['① Common Fraud Types','② Prevention Basics','③ Daily Checklist','④ If You Got Scammed','⑤ Spotting Red Flags'], ko:['① 흔한 사기 수법','② 예방 기본 원칙','③ 일일 점검 체크리스트','④ 사기 피해 시 대응','⑤ 사기 의심 포인트'] },
+  title:{ ja:'詐欺防止ガイド（新入生必読）', en:'Anti-Fraud Guide (Must-Read)', ko:'사기 방지 가이드(필독)' },
+  summary:{
+    ja:'留学生を狙うよくある詐欺の手口（大使館なりすまし/両替詐欺/バーチャル誘拐など）、防犯の基本原則、日常チェックリスト、被害後の対応と相談先。新入生はまずこれを。',
+    en:'Common scams targeting international students (embassy impersonation / currency-exchange fraud / virtual kidnapping), core prevention principles, a daily checklist, and what to do if scammed. Read this first.',
+    ko:'유학생을 노리는 흔한 사기(대사관 사칭/환전 사기/가상 납치 등), 예방 기본 원칙, 일일 체크리스트, 피해 후 대응과 상담처. 신입생 필독.' },
 },
 };
 })();

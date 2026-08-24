@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light">
 <title>Kyudai Guide · 九大指南</title>
-<link rel="stylesheet" href="css/style.css?v=20260824">
+<link rel="stylesheet" href="css/style.css?v=20260825">
 </head>
 <body>
 <div id="app">
@@ -36,6 +36,7 @@
           <div class="section-title" id="guideHead">指南 · 12 场景</div>
           <div class="section-sub" id="guideSub">选一个场景直接查看指南</div>
         </div>
+        <div id="pinnedCard" class="card-lite" style="display:none;margin-bottom:10px"></div>
         <div id="catGrid" class="cat-grid"></div>
       </div>
       <!-- 列表视图（搜索结果 / 空分类提示） -->
@@ -56,18 +57,11 @@
           <button class="marrow" id="btnNext" aria-label="下一月">›</button>
           <button class="mtoday" id="btnToday" style="display:none">今天</button>
         </div>
-        <div class="wkhead">
-          <span class="wkh sun">日</span><span class="wkh">一</span><span class="wkh">二</span><span class="wkh">三</span><span class="wkh">四</span><span class="wkh">五</span><span class="wkh">六</span>
-        </div>
+        <div class="wkhead" id="wkhead"></div>
         <div id="wgrid" class="wgrid"></div>
         <div id="runs" class="runs"></div>
         <div class="mfoot">
-          <div class="legend">
-            <span class="lg"><i class="lg-c c-rest"></i>假期/假日</span>
-            <span class="lg"><i class="lg-c c-admin"></i>行政</span>
-            <span class="lg"><i class="lg-c c-term"></i>学期</span>
-            <span class="lg"><i class="lg-c c-misc"></i>活动</span>
-          </div>
+          <div class="legend" id="legendWrap"></div>
           <button class="expand" id="btnExpand">展开 ⌄</button>
         </div>
       </div>
@@ -80,7 +74,7 @@
         <div id="upcomingList"></div>
       </div>
       <div id="monthCard" class="card" style="display:none">
-        <div class="chead"><span class="ctitle" id="monthListTitle"></span><span class="csub">点一条看详情</span></div>
+        <div class="chead"><span class="ctitle" id="monthListTitle"></span><span class="csub" id="monthTap">点一条看详情</span></div>
         <div id="monthList"></div>
         <div id="pendingList"></div>
       </div>
@@ -121,7 +115,6 @@
       <nav id="toc" class="toc" style="display:none"></nav>
       <div id="articleBody" class="article-body"></div>
       <div class="article-end" id="articleEnd">— 全文完 —</div>
-      <div id="relatedWrap" class="related" style="display:none"></div>
     </section>
   </main>
 
@@ -141,14 +134,14 @@
   </div>
 </div>
 
-<script src="js/data-categories.js?v=20260824"></script>
-<script src="js/data-faculties.js?v=20260824"></script>
-<script src="js/data-articles.js?v=20260824"></script>
-<script src="js/articles-i18n.js?v=20260824"></script>
-<script src="js/data-cunli.js?v=20260824"></script>
-<script src="js/cunli-utils.js?v=20260824"></script>
-<script src="js/i18n.js?v=20260824"></script>
-<script src="js/render.js?v=20260824"></script>
-<script src="js/app.js?v=20260824"></script>
+<script src="js/data-categories.js?v=20260825"></script>
+<script src="js/data-faculties.js?v=20260825"></script>
+<script src="js/data-articles.js?v=20260825"></script>
+<script src="js/articles-i18n.js?v=20260825"></script>
+<script src="js/data-cunli.js?v=20260825"></script>
+<script src="js/cunli-utils.js?v=20260825"></script>
+<script src="js/i18n.js?v=20260825"></script>
+<script src="js/render.js?v=20260825"></script>
+<script src="js/app.js?v=20260825"></script>
 </body>
 </html>
