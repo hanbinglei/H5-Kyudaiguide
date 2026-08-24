@@ -2,7 +2,8 @@
 // 架构约定：
 //   · 所有界面文案只能来自本词典；app.js/render.js 不得再写死任何语言的字符串。
 //   · 回退链固定为「当前语言 → zh」——zh 是内容源语言，绝不回退到第三种语言。
-//   · 文章正文（blocks/TOC）为中文原文，非 zh 界面由 bodyNotice 明示，见 articles-i18n.js 头注。
+//   · 文章正文见 articles-body-i18n.js（13 篇 ja/en/ko 已全译）。bodyNotice 保留为兜底：
+//     日后新增文章尚无译本时，该篇会回退中文原文并在顶部显示这条提示。
 (function(){
 // ── 品类名（12 宫格与文章分类标签共用） ──
 const CAT_I18N = {

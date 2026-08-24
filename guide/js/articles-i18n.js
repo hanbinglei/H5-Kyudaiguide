@@ -1,6 +1,6 @@
 // articles-i18n.js — 文章导航层多语言（title / summary，与 data-articles.js 的 _id 严格对应）
-// 设计：正文（blocks）与小节 TOC 为中文原文，切换语言时由 UI 层显示「正文为中文」提示；
-//       这里只翻标题与摘要，供宫格 / 详情头 / 搜索结果使用。零缺省回退到 zh 原文。
+// 分工：本文件只管标题与摘要（供宫格 / 详情头 / 搜索结果 / 交叉引用解析使用）；
+//       正文在 articles-body-i18n.js。缺条目时回退 zh 原文。
 (function(){
 window.ARTICLES_I18N = {
 'guide-entry': {
