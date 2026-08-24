@@ -25,20 +25,27 @@ function hPush(item){
 function hClear(){try{localStorage.removeItem(HKEY)}catch(e){}}
 
 // ── routing ──
-function currentHash(){return location.hash.replace(/^#/,'')||'map'}
+function currentHash(){return location.hash.replace(/^#/,'')||'guide'}
 function navigate(h){if(location.hash!=='#'+h)location.hash='#'+h;else onHashChange()}
 function onHashChange(){
   const raw=currentHash();
   if(raw.startsWith('article/')){showArticle(decodeURIComponent(raw.slice(8)));setTab('guide');return}
   if(raw.startsWith('category/')){showCategory(decodeURIComponent(raw.slice(9)));setTab('guide');return}
-  const tab=raw.split('?')[0].split('/')[0]||'map';
+  const tab=raw.split('?')[0].split('/')[0]||'guide';
   setTab(tab);
   if(tab==='guide')renderGrid();
   if(tab==='cunli')renderCunli();
   if(tab==='faculty')renderFaculties();
   if(tab==='history')renderHistory();
 }
+/** 地图 iframe 首次真正需要时才注入 src。地图侧数据约 500KB，
+    默认进来的人是来看指南的，不该替他先下载。 */
+function mountMap(){
+  const f=$("mapFrame");
+  if(f&&!f.src&&f.dataset.src)f.src=f.dataset.src;
+}
 function setTab(tab){
+  if(tab==='map')mountMap();
   document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('on',b.dataset.tab===tab));
   document.querySelectorAll('.pane').forEach(p=>{
     if(p.id==='pane-article')return;
@@ -396,6 +403,11 @@ function init(){
   $('btnClearHistory').addEventListener('click',()=>{hClear();renderHistory();toast(t('cleared'))});
   window.addEventListener('hashchange',onHashChange);
   onHashChange();
+}
+// Service Worker：让指南断网可读（见 sw.js 头注）。
+// file:// 下打开时 navigator.serviceWorker 不存在，注册失败也不该影响页面本身。
+if('serviceWorker' in navigator){
+  window.addEventListener('load',()=>{navigator.serviceWorker.register('sw.js').catch(()=>{})});
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 })();

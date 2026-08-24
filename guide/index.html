@@ -4,7 +4,29 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light">
-<title>Kyudai Guide · 九大指南</title>
+<meta name="theme-color" content="#7B2D3E">
+<title>Kyudai Guide · 九大伊都 留学生ガイド</title>
+<meta name="description" content="Guide, campus map, academic calendar and faculty links for international students at Kyushu University Ito Campus. 中文 / 日本語 / English / 한국어. Works offline.">
+
+<!-- 分享卡片：学生之间主要靠 LINE / 微信群转发，没有这几行贴出去就只是一条裸链接 -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kyudai Guide">
+<meta property="og:title" content="Kyudai Guide · 九大伊都 留学生ガイド">
+<meta property="og:description" content="入境·在留·租房·银行·交通·应急 12 篇指南 + 校园地图 + 学年历。中文 / 日本語 / English / 한국어，可离线。">
+<meta property="og:image" content="https://hanbinglei.github.io/H5-Kyudaiguide/guide/og-cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://hanbinglei.github.io/H5-Kyudaiguide/guide/">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- 主屏图标 / PWA -->
+<link rel="icon" href="icons/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Kyudai Guide">
+
 <link rel="stylesheet" href="css/style.css?v=20260826">
 </head>
 <body>
@@ -23,13 +45,15 @@
 
   <main id="main" class="main">
     <!-- 地图：主页 -->
-    <section id="pane-map" class="pane pane-map">
-      <iframe id="mapFrame" title="校园地图" src="../h5-mvp/app.html" loading="lazy"></iframe>
+    <section id="pane-map" class="pane pane-map" style="display:none">
+      <!-- src 延迟到用户点「地图」tab 才注入：地图数据约 500KB，
+           而默认进来的人是要看指南的，不该先替他下载地图。见 app.js mountMap() -->
+      <iframe id="mapFrame" title="校园地图" data-src="../h5-mvp/app.html" loading="lazy"></iframe>
       <div class="map-tip" id="mapTip">地图由 Kyudaimap 提供 · 支持搜索与定位</div>
     </section>
 
     <!-- 指南：12 品类 -->
-    <section id="pane-guide" class="pane" style="display:none">
+    <section id="pane-guide" class="pane">
       <!-- 宫格视图 -->
       <div id="catGridWrap">
         <div class="section-head">
@@ -119,8 +143,8 @@
   </main>
 
   <nav class="tabbar" aria-label="主导航">
-    <button class="tab on" data-tab="map" id="tabMap">地图</button>
-    <button class="tab" data-tab="guide" id="tabGuide">指南</button>
+    <button class="tab" data-tab="map" id="tabMap">地图</button>
+    <button class="tab on" data-tab="guide" id="tabGuide">指南</button>
     <button class="tab" data-tab="cunli" id="tabCunli">村历</button>
     <button class="tab" data-tab="faculty" id="tabFaculty">官网</button>
     <button class="tab" data-tab="history" id="tabHistory">历史</button>

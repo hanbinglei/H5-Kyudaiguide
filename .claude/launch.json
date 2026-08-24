@@ -4,8 +4,9 @@
     {
       "name": "kyudaimap-proto",
       "runtimeExecutable": "npx",
-      "runtimeArgs": ["--yes", "http-server", "-p", "8123", "-c-1", "."],
-      "port": 8123
+      "runtimeArgs": ["--yes", "http-server", "-c-1", "."],
+      "port": 8137,
+      "autoPort": true
     }
   ]
 }

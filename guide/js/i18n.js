@@ -124,14 +124,31 @@ const UI = {
 };
 const LANGS = ['zh','ja','en','ko'];
 function getLang(){
-  try{ const v=localStorage.getItem('kyudai-lang'); if(v && UI[v]) return v; }catch(e){}
-  try{ const b=(navigator.language||'').toLowerCase(); if(b.startsWith('ja')) return 'ja'; if(b.startsWith('ko')) return 'ko'; if(b.startsWith('en')) return 'en'; }catch(e){}
-  return 'zh';
+  // 地图支持 7 语（含 hi/es/fr），指南目前只有 4 语。用户在地图里选了印地语，
+  // localStorage 存下的就是 'hi' —— 这里若直接回落中文，等于把印地语用户丢进中文界面。
+  // 存过偏好但本站不支持该语言时一律回落英文：对非中文母语者，英文是可读性最高的兜底。
+  let stored=null;
+  try{ stored=localStorage.getItem('kyudai-lang'); }catch(e){}
+  if(stored && UI[stored]) return stored;
+  try{ const b=(navigator.language||'').toLowerCase();
+    if(b.startsWith('zh')) return 'zh';
+    if(b.startsWith('ja')) return 'ja';
+    if(b.startsWith('ko')) return 'ko';
+    if(b.startsWith('en')) return 'en';
+  }catch(e){}
+  return stored ? 'en' : 'zh';
 }
 let lang = getLang();
 function setLang(v){ if(!UI[v]) v='zh'; lang=v; try{ localStorage.setItem('kyudai-lang',v); }catch(e){}
-  // 地图 iframe 同读 localStorage('kyudai-lang')，重载即同步
-  try{ const f=document.getElementById('mapFrame'); if(f){ const src=f.src; f.src=src; } }catch(e){}
+  applyDocLang();
+  // 地图 iframe 同读 localStorage('kyudai-lang')，重载即同步。
+  // 未挂载（还没点过地图 tab）时 src 为空，此时重设会把 iframe 指向当前页 —— 必须跳过。
+  try{ const f=document.getElementById('mapFrame'); if(f&&f.src){ f.src=f.src; } }catch(e){}
+}
+/** 同步 <html lang>。不同步的话浏览器始终认为整站是中文：Chrome 会对着英文正文
+    弹「翻译此页」，CJK 字体按中文规则回退，读屏软件也用错语言朗读。 */
+function applyDocLang(){
+  try{ document.documentElement.setAttribute('lang', lang==='zh'?'zh-Hans':lang); }catch(e){}
 }
 /** t('key') / t('tabs.map')。回退链：当前语言 → zh。函数值原样返回（调用方自带参数）。 */
 function t(key){
@@ -153,5 +170,6 @@ function articleField(art, field){
   }
   return art[field]||'';
 }
-window.GuideI18N={ LANGS, UI, CAT_I18N, getLang:()=>lang, setLang, t, catName, articleField, _s(v){lang=v;} };
+applyDocLang();
+window.GuideI18N={ LANGS, UI, CAT_I18N, getLang:()=>lang, setLang, t, catName, articleField, applyDocLang, _s(v){lang=v;applyDocLang();} };
 })();
