@@ -219,12 +219,18 @@ function showArticle(id){
   }else{toc.style.display='none';toc.innerHTML=''}
 
   // 电话 / 互引
-  body.querySelectorAll('.tel').forEach(btn=>{
-    btn.addEventListener('click',async()=>{
-      const tel=btn.dataset.tel||btn.textContent.replace(/[^0-9-]/g,'');
-      try{await navigator.clipboard.writeText(tel);toast(t('copied')+tel)}catch(e){location.href='tel:'+tel.replace(/-/g,'')}
+  // 电话本身是 <a href="tel:">：手机上交给系统（会先弹确认框，不会误拨）。
+  // 桌面浏览器拨不了号，这里拦下改为复制 —— 用能不能悬停/精确指点来区分，比 UA 嗅探可靠。
+  const isDesktop=(()=>{try{return matchMedia('(hover: hover) and (pointer: fine)').matches}catch(e){return false}})();
+  if(isDesktop){
+    body.querySelectorAll('.tel').forEach(a=>{
+      a.addEventListener('click',async e=>{
+        e.preventDefault();
+        const tel=a.dataset.tel||a.textContent.replace(/[^0-9-]/g,'');
+        try{await navigator.clipboard.writeText(tel);toast(t('copied')+tel)}catch(_){}
+      });
     });
-  });
+  }
   body.querySelectorAll('.ref').forEach(btn=>{
     btn.addEventListener('click',()=>{
       const hit=resolveRef(btn.dataset.guide||'');

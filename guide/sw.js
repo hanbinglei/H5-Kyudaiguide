@@ -8,7 +8,7 @@
  * 地图在 ../h5-mvp/（约 500KB 数据）不在作用域内，不会被它缓存 —— 这是有意的：
  * 指南是随身要看的，地图是到了校园才用的，没必要为后者占掉学生的存储和流量。
  */
-const VERSION = 'kg-20260827';
+const VERSION = 'kg-20260828';
 const CORE = [
   './',
   './index.html',
@@ -71,20 +71,21 @@ self.addEventListener('fetch', e => {
     return;
   }
 
-  // 静态资源：缓存优先。ignoreSearch 让 ?v=xxxx 变化也能命中，
-  // 真正的版本更新靠上面 VERSION 换名 + activate 清旧缓存来完成。
+  // 静态资源：stale-while-revalidate —— 先用缓存立刻响应（快、且离线可用），
+  // 同时在后台取新版写回缓存，下次加载即是最新。
+  //
+  // 为什么不用纯缓存优先：ignoreSearch 让 ?v=xxxx 的版本号失去作用，
+  // 纯缓存优先会导致内容更新后用户仍看到旧版 JS/数据，直到某次恰好重装 SW。
+  // 对一个以「内容正确」为要务的站点，那个滞后窗口不能接受。
   e.respondWith((async () => {
-    const hit = await caches.match(req, { ignoreSearch: true });
-    if (hit) return hit;
-    try {
-      const net = await fetch(req);
-      if (net && net.ok && net.type === 'basic') {
-        const c = await caches.open(VERSION);
-        c.put(req, net.clone());
-      }
+    const cache = await caches.open(VERSION);
+    const hit = await cache.match(req, { ignoreSearch: true });
+    const fetching = fetch(req).then(net => {
+      if (net && net.ok && net.type === 'basic') cache.put(req, net.clone());
       return net;
-    } catch (_) {
-      return Response.error();
-    }
+    }).catch(() => null);
+    if (hit) { e.waitUntil(fetching); return hit; }
+    const net = await fetching;
+    return net || Response.error();
   })());
 });

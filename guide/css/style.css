@@ -257,3 +257,6 @@ button{font:inherit}
 .fac-campus.fc-ohashi{background:#fdf1e3;color:#b06a12}
 .fac-campus.fc-chikushi{background:#eaf5ec;color:#2f8a4d}
 .fac-go{font-size:14px;color:var(--muted2)}
+
+/* 正文里直接写出的 URL（notice/warning 里的官方页面地址） */
+.inline-url{color:#1677ff;word-break:break-all;border-bottom:1px solid #bcd8ff}

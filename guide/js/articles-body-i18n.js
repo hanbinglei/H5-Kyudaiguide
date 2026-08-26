@@ -7367,8 +7367,8 @@ window.ARTICLES_BODY_I18N = {
       "text": "西区の 24 時間段ボール回収場所"
      },
      {
-      "text": "生協経由の TOEIC 申込（個人申込より安い）",
-      "url": "https://www.kyushu-u.ac.jp/ja/education/employment/TOEIC"
+      "text": "九大生協（語学試験など学内申込の案内）",
+      "url": "https://www.coop.kyushu-u.ac.jp/"
      }
     ]
    },
@@ -7640,8 +7640,8 @@ window.ARTICLES_BODY_I18N = {
       "text": "24-hour cardboard drop-off in Nishi Ward"
      },
      {
-      "text": "TOEIC registration through the co-op (cheaper than applying yourself)",
-      "url": "https://www.kyushu-u.ac.jp/ja/education/employment/TOEIC"
+      "text": "Kyudai Co-op (on-campus sign-up for language tests, etc.)",
+      "url": "https://www.coop.kyushu-u.ac.jp/"
      }
     ]
    },
@@ -7913,8 +7913,8 @@ window.ARTICLES_BODY_I18N = {
       "text": "니시구 24시간 골판지 수거 장소"
      },
      {
-      "text": "생협을 통한 TOEIC 신청(개인 신청보다 저렴)",
-      "url": "https://www.kyushu-u.ac.jp/ja/education/employment/TOEIC"
+      "text": "규슈대 생협(어학시험 등 교내 신청 안내)",
+      "url": "https://www.coop.kyushu-u.ac.jp/"
      }
     ]
    },
