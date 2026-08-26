@@ -1,0 +1,174 @@
+{
+  "_id": "guide-phone",
+  "category": "5",
+  "title": "手机·网络",
+  "summary": "来日前临时上网卡（CMlink / 旅行SIM）、SIM卡选择（povo/ahamo/Y!mobile/UQ mobile/乐天）、在线申请与多语言客服、eSIM、校园WiFi（SSOKID@Kitnet）与eduroam、注销与转卡链接。",
+  "tags": [
+    "手机",
+    "SIM",
+    "eduroam"
+  ],
+  "author": "管理员",
+  "updatedAt": "2026-08-15",
+  "blocks": [
+    {
+      "id": "72f94d",
+      "type": "heading",
+      "text": "来日前：临时上网卡（推荐）"
+    },
+    {
+      "id": "69d3e3",
+      "type": "paragraph",
+      "text": "建议来日本前先准备一张可短期使用的上网卡（约 1 周即可，保险起见也可申请更长有效期），落地后用于导航、联络与办理手续，过渡更从容。"
+    },
+    {
+      "id": "58e988",
+      "type": "paragraph",
+      "text": "可选中国移动的 CMlink，或在电商平台购买旅行用流量卡（旅游 SIM）即可，办理简单、即买即用。"
+    },
+    {
+      "id": "17c7e7",
+      "type": "notice",
+      "text": "临时卡仅作落地过渡之用；长期在日生活请尽快办理日本本地的格安 SIM（见下文 SIM 卡选择）。"
+    },
+    {
+      "id": "57ee3f",
+      "type": "heading",
+      "text": "SIM 卡选择"
+    },
+    {
+      "id": "a65f78",
+      "type": "paragraph",
+      "text": "日本三大运营商（docomo / au / SoftBank）本品牌的月租普遍较贵，学生更推荐选择大运营商的子品牌：例如 SoftBank 旗下的 Y!mobile、au 旗下的 UQ mobile，资费更低且网络相对稳定；此外乐天移动（Rakuten）因资费便宜，也是留学生中选用较多的一家。"
+    },
+    {
+      "id": "930aa8",
+      "type": "paragraph",
+      "text": "若按月流量挑选，povo、ahamo 等格安 SIM 性价比高——povo 按需购买流量包、ahamo 流量较多且支持 5G；据既往经验，povo、ahamo 在伊都周边体验较好，乐天移动、SoftBank 在伊都校区周边信号一般。"
+    },
+    {
+      "id": "95aeea",
+      "type": "notice",
+      "text": "面向留学生的 GTN、Sakura 等 SIM，据既往经验价格偏高、信号评价较差，办理前建议先比较。此外也可了解 Jio、Mobal 等。"
+    },
+    {
+      "id": "b88191",
+      "type": "heading",
+      "text": "在线申请与多语言客服"
+    },
+    {
+      "id": "1238cc",
+      "type": "paragraph",
+      "text": "优先选择支持在线申请、无需信用卡的格安 SIM（如 IIJmio、LINEMO 等），通常可在网上完成申请开通。"
+    },
+    {
+      "id": "bb18de",
+      "type": "notice",
+      "text": "说明：原「LINE MOBILE」已于 2021 年停止新签、2023 年终止服务，后继为 SoftBank 系的 LINEMO，现请认准 LINEMO。"
+    },
+    {
+      "id": "a79fe6",
+      "type": "paragraph",
+      "text": "如需电话咨询，以下主流运营商提供多语言客服："
+    },
+    {
+      "id": "7cc68f",
+      "type": "list",
+      "items": [
+        {
+          "text": "docomo：0120-005-250（英・中・葡・西），受理时间 工作日 9:00~20:00"
+        },
+        {
+          "text": "au：0120-959-472（英・韩・中・葡）"
+        },
+        {
+          "text": "SoftBank：0800-919-0157，接通后按 8→9→9 转英语，英语受理 10:00~19:00"
+        }
+      ]
+    },
+    {
+      "id": "3fc4be",
+      "text": "eSIM",
+      "type": "heading"
+    },
+    {
+      "id": "d3cc3b",
+      "type": "paragraph",
+      "text": "eSIM 可能因机型不兼容而无法正常使用，首次办理建议优先选实体 SIM，或另备一张实体卡以防万一。"
+    },
+    {
+      "id": "a747f8",
+      "type": "heading",
+      "text": "校园网络"
+    },
+    {
+      "id": "7bdf67",
+      "type": "paragraph",
+      "text": "拿到学校账号后即可连接校内 WiFi；eduroam 是跨校 WiFi 服务，需另行注册。"
+    },
+    {
+      "id": "72a8d0",
+      "text": "校内 WiFi 的登录账号为本人 SSOKID@Kitnet，密码为激活 SSOKID 时设置的密码（与 Campusmate 相同）。",
+      "type": "paragraph"
+    },
+    {
+      "id": "0fb853",
+      "type": "links",
+      "items": [
+        {
+          "text": "九大校园网（KiteNet）连接手册",
+          "url": "https://www.nc.kyushu-u.ac.jp/en/kitenet-en/#manual"
+        },
+        {
+          "text": "eduroam 注册",
+          "url": "https://www.nc.kyushu-u.ac.jp/net/eduroam/"
+        }
+      ]
+    },
+    {
+      "id": "93c21c",
+      "type": "heading",
+      "text": "注销 / 转卡"
+    },
+    {
+      "id": "5b8387",
+      "type": "links",
+      "items": [
+        {
+          "text": "povo 无法 LINE 年龄认证的处理",
+          "url": "https://archive.iii.kyushu-u.ac.jp/public/chZBQvKJXFG-062U_y4xquQ7cH_2rixMydT2JqEsYaBK"
+        },
+        {
+          "url": "https://www.softbank.jp/support/faq/view/10062",
+          "text": "SoftBank 号码注销流程"
+        },
+        {
+          "text": "au 转 povo 办理",
+          "url": "https://povo.jp/procedure/au/"
+        }
+      ]
+    },
+    {
+      "id": "939835",
+      "type": "heading",
+      "text": "办卡前：两个前提缺一不可"
+    },
+    {
+      "id": "3604eb",
+      "type": "list",
+      "items": [
+        {
+          "text": "已完成住址登录 —— 在留卡背面要有住址"
+        },
+        {
+          "text": "有可用于扣款的信用卡，或已开好的日本银行口座"
+        }
+      ]
+    },
+    {
+      "id": "7e41fb",
+      "type": "warning",
+      "text": "这两条决定了办卡不可能是落地第一天的事。常见顺序是：住址登录 → 办卡 / 开户 → 其余手续。而开户本身又要求有电话号码，所以真遇到互相卡住时，可以先用 Supporter 或サポートセンター的号码开户，拿到自己的号码后再去变更。"
+    }
+  ]
+}

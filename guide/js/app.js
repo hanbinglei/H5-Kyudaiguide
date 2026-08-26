@@ -146,12 +146,34 @@ function resolveRef(name){
   })||null;
 }
 
-/** 当前语言下该篇应渲染的 blocks。有译本用译本，否则回退中文原文（逐篇独立判断）。 */
-function bodyBlocks(art){
+/** 当前语言的译文表（按区块 ID 索引）。整篇没有译文时返回 null。 */
+function trMap(art){
   const lang=I18N.getLang();
-  if(lang==='zh')return art.blocks||[];
-  const tr=window.ARTICLES_BODY_I18N&&window.ARTICLES_BODY_I18N[art._id]&&window.ARTICLES_BODY_I18N[art._id][lang];
-  return (Array.isArray(tr)&&tr.length)?tr:(art.blocks||[]);
+  if(lang==='zh')return null;
+  const e=window.ARTICLES_BODY_I18N&&window.ARTICLES_BODY_I18N[art._id];
+  const m=e&&e[lang];
+  return (m&&Object.keys(m).length)?m:null;
+}
+
+/** 把译文按 ID 覆盖到中文区块上。
+    结构（type、嵌套形状）永远来自中文，译文只提供文字字段 ——
+    所以译本不可能与中文结构漂移；某个区块缺译时也只有那一块显示中文。 */
+function mergeBlocks(blocks,map){
+  return blocks.map(b=>{
+    const tr=b.id&&map[b.id];
+    const nested=(b.type==='collapse'&&Array.isArray(b.blocks))?mergeBlocks(b.blocks,map):null;
+    if(!tr&&!nested)return b;
+    const out=Object.assign({},b,tr||{});
+    if(nested)out.blocks=nested;
+    return out;
+  });
+}
+
+/** 当前语言下该篇应渲染的 blocks。 */
+function bodyBlocks(art){
+  const blocks=art.blocks||[];
+  const map=trMap(art);
+  return map?mergeBlocks(blocks,map):blocks;
 }
 
 // ── 文章详情 ──
@@ -166,9 +188,9 @@ function showArticle(id){
   const title=I18N.articleField(art,'title');
   const summary=I18N.articleField(art,'summary');
   const catLabel=I18N.catName(art.category);
-  // 正文逐篇回退：该篇有当前语言译本就用译本，否则用中文原文并挂提示条
+  // 提示条只在「整篇都没有译文」时出现；个别区块缺译不打扰读者，静默显示中文即可
   const blocks=bodyBlocks(art);
-  const notice=(blocks===art.blocks)?t('bodyNotice'):'';
+  const notice=trMap(art)?'':t('bodyNotice');
 
   $('articleHeader').innerHTML=`<h1>${esc(title)}</h1>
     <div class="meta">${esc(catLabel)} · ${esc(t('updated'))} ${esc(art.updatedAt||'')} · ${esc(t('byAdmin'))}</div>

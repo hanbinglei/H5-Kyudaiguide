@@ -1,0 +1,83 @@
+{
+  "_note": "文章清单。新增文章需在此登记，构建脚本据此收录。",
+  "articles": [
+    {
+      "_id": "guide-entry",
+      "category": "1",
+      "blocks": 74,
+      "file": "content/guide-entry.json"
+    },
+    {
+      "_id": "guide-residence",
+      "category": "2",
+      "blocks": 64,
+      "file": "content/guide-residence.json"
+    },
+    {
+      "_id": "guide-housing",
+      "category": "3",
+      "blocks": 49,
+      "file": "content/guide-housing.json"
+    },
+    {
+      "_id": "guide-bank",
+      "category": "4",
+      "blocks": 29,
+      "file": "content/guide-bank.json"
+    },
+    {
+      "_id": "guide-phone",
+      "category": "5",
+      "blocks": 24,
+      "file": "content/guide-phone.json"
+    },
+    {
+      "_id": "guide-academic",
+      "category": "6",
+      "blocks": 52,
+      "file": "content/guide-academic.json"
+    },
+    {
+      "_id": "guide-parttime",
+      "category": "7",
+      "blocks": 9,
+      "file": "content/guide-parttime.json"
+    },
+    {
+      "_id": "guide-medical",
+      "category": "8",
+      "blocks": 23,
+      "file": "content/guide-medical.json"
+    },
+    {
+      "_id": "guide-transport",
+      "category": "9",
+      "blocks": 66,
+      "file": "content/guide-transport.json"
+    },
+    {
+      "_id": "guide-life",
+      "category": "10",
+      "blocks": 46,
+      "file": "content/guide-life.json"
+    },
+    {
+      "_id": "guide-shopping",
+      "category": "11",
+      "blocks": 39,
+      "file": "content/guide-shopping.json"
+    },
+    {
+      "_id": "guide-emergency",
+      "category": "12",
+      "blocks": 28,
+      "file": "content/guide-emergency.json"
+    },
+    {
+      "_id": "guide-antifraud",
+      "category": "13",
+      "blocks": 37,
+      "file": "content/guide-antifraud.json"
+    }
+  ]
+}

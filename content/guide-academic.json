@@ -1,0 +1,404 @@
+{
+  "_id": "guide-academic",
+  "category": "6",
+  "title": "学业·奖学金",
+  "summary": "学校账号与各类证明、选课与课程、直考/研究升学、RA与私费留学生奖学金、JTCs日语课程、健康诊断与学内相谈窗口。",
+  "tags": [
+    "学业",
+    "选课",
+    "奖学金"
+  ],
+  "author": "管理员",
+  "updatedAt": "2026-08-15",
+  "blocks": [
+    {
+      "id": "444ca9",
+      "type": "paragraph",
+      "text": "按「账号与证明 → 选课与课程 → 研究与升学 → 奖学金与减免」整理。"
+    },
+    {
+      "id": "cc1cac",
+      "text": "账号与各类证明",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "id": "3b7366",
+      "type": "paragraph",
+      "text": "SSO-KID 激活不能使用学校邮箱以外的邮箱。成绩证明书、在读证明、新干线学割证明书等通过九大官网 certificate 页申请；大学院生相关证明走 ku-cert。"
+    },
+    {
+      "id": "5ed19b",
+      "type": "links",
+      "items": [
+        {
+          "text": "九大 certificate（成绩/在读/学割等）",
+          "url": "https://www.kyushu-u.ac.jp/ja/education/procedure/certificate/"
+        },
+        {
+          "text": "大学院生证明（ku-cert）",
+          "url": "https://ku-cert.kyushu-u.ac.jp/cert/z/c_menu.html/_/g"
+        },
+        {
+          "text": "选课系统（JTC）",
+          "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
+        },
+        {
+          "text": "学校邮箱（Outlook，用学校账号登录）",
+          "url": "https://outlook.office.com/mail/"
+        },
+        {
+          "text": "SSO 密码/账号（passchg）",
+          "url": "https://ci.iii.kyushu-u.ac.jp/m/"
+        }
+      ]
+    },
+    {
+      "id": "c8db3c",
+      "type": "paragraph",
+      "text": "部分设施（如博多站前外部设施）需预约方可进入；非 QBS 学生也可进入，但说明会等场合可能不便发言。停车位通过 car-entry 系统申请。"
+    },
+    {
+      "id": "ad0d60",
+      "type": "links",
+      "items": [
+        {
+          "text": "博多外部设施 guide",
+          "url": "https://www.kyushu-u.ac.jp/ja/university/facility/external/hakata/guide/"
+        },
+        {
+          "text": "学校停车位申请",
+          "url": "https://car-entry.cargate.kyushu-u.ac.jp/reg_apply/"
+        },
+        {
+          "text": "乐天 pointcard 办理",
+          "url": "https://pointcard.rakuten.co.jp/"
+        }
+      ]
+    },
+    {
+      "id": "c8e67d",
+      "type": "heading",
+      "level": 2,
+      "text": "选课与课程"
+    },
+    {
+      "id": "e254fb",
+      "type": "paragraph",
+      "text": "选课一般在新学期第一~二周开始（约 4/8~4/10，以学校通知为准）。JTW 为独立课程体系，符合资格者学校单独邮件通知。"
+    },
+    {
+      "id": "b1a9b5",
+      "type": "paragraph",
+      "text": "教科书通常在第一堂课才公布书目，需提前考虑购买方式，也可向学长学姐收二手。博士生可参加国际留学生中心（ISC）的日语课程，详见 ISC 页面。"
+    },
+    {
+      "id": "9ce243",
+      "items": [
+        {
+          "text": "ISC 日语课程",
+          "url": "https://isc.kyushu-u.ac.jp/center/international/japaneselang/"
+        }
+      ],
+      "type": "links"
+    },
+    {
+      "id": "f9e37c",
+      "type": "heading",
+      "level": 2,
+      "text": "研究与升学"
+    },
+    {
+      "id": "5b832c",
+      "type": "subheading",
+      "text": "直考九大是否需要先联系教授"
+    },
+    {
+      "id": "acc4f9",
+      "type": "paragraph",
+      "text": "需要。必须先联系教授、确认对方愿意接收，再参加考试。 这关系到教授是否愿意招收外国人、研究室是否有名额——即便考试合格，若无名额也可能无法入学。本科绩点并非唯一因素，主要看教授判断。部分情报学专攻不需要内诺，但仍建议提前联系确认。"
+    },
+    {
+      "id": "6be666",
+      "text": "指导教授临近退休",
+      "type": "subheading"
+    },
+    {
+      "id": "406f13",
+      "type": "paragraph",
+      "text": "若有读博打算、担心教授退休导致延毕或换导师，可提前侧面了解教授情况。通常临近退休的教授会为学生安排好后续指导。最直接的方式是与教授当面沟通顾虑。"
+    },
+    {
+      "id": "3668c3",
+      "type": "subheading",
+      "text": "Research Student（研究生）"
+    },
+    {
+      "id": "93d2c1",
+      "type": "paragraph",
+      "text": "体验很大程度取决于教授风格：有的全程英语指导、要求严格；有的较自由、靠自主学习。在实验室的时长属研究室内部规定，按时到岗为基本要求，具体可问教授或学长学姐。"
+    },
+    {
+      "id": "eedeaa",
+      "type": "notice",
+      "text": "备考参考：各专业情况不同，可先报名考一次以了解题型与要求，再据此准备。"
+    },
+    {
+      "id": "14676e",
+      "level": 2,
+      "text": "奖学金与减免",
+      "type": "heading"
+    },
+    {
+      "id": "35d880",
+      "type": "subheading",
+      "text": "RA（Research Assistant）"
+    },
+    {
+      "id": "fbd83d",
+      "type": "paragraph",
+      "text": "九大 RA 全校统一标准，据反馈数学科约 44,000 円/月（经验值，各部局/年度可能不同）。RA 需有合适研究课题方可申请，并非人人可得，竞争较激烈。网络上的收入晒图不代表普遍水平，可作参考。"
+    },
+    {
+      "id": "853a53",
+      "type": "subheading",
+      "text": "私费留学生奖学金"
+    },
+    {
+      "id": "b6950e",
+      "type": "paragraph",
+      "text": "自费留学生可申请的奖学金，以国际留学生中心（ISC）的「私费留学生奖学金公示板」为最权威来源，持续更新当前募集项目。募集期通常较短，建议定期查看并尽快确认申请条件与截止日期。"
+    },
+    {
+      "id": "066616",
+      "items": [
+        {
+          "text": "ISC 私费留学生奖学金公示板（最新年度）",
+          "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2026&lang=jp"
+        }
+      ],
+      "type": "links"
+    },
+    {
+      "id": "742187",
+      "type": "subheading",
+      "text": "学费减免"
+    },
+    {
+      "id": "c3f0b4",
+      "type": "paragraph",
+      "text": "一般通过 campusweb 登录申请（操作见【在留手续·campus 登录申请】），开放时间以学校通知为准。"
+    },
+    {
+      "id": "e248db",
+      "type": "heading",
+      "level": 2,
+      "text": "日本語コース（JTCs）"
+    },
+    {
+      "id": "7fbb45",
+      "type": "paragraph",
+      "text": "九州大学留学生中心开设日语课程（Japanese Training Courses），需在指定期间内在线注册并参加分班考试（プレースメントテスト），错过注册无法补报。"
+    },
+    {
+      "id": "66a59f",
+      "type": "list",
+      "items": [
+        {
+          "text": "注册期间通常为开学后第一周（如 4 月 13~18 日）"
+        },
+        {
+          "text": "面向学部生、大学院生、非正課生"
+        },
+        {
+          "text": "咨询：intlr-isc@jimu.kyushu-u.ac.jp / 092-802-2228"
+        }
+      ]
+    },
+    {
+      "id": "32f280",
+      "type": "links",
+      "items": [
+        {
+          "text": "JTCs 注册页面",
+          "url": "https://isc.kyushu-u.ac.jp/center/jtcs/"
+        }
+      ]
+    },
+    {
+      "id": "6aab6e",
+      "text": "另有集中日本語コース（Intensive Japanese Courses），秋季学期面向全体留学生开放（需满足日语能力、指导教师许可等条件）。",
+      "type": "paragraph"
+    },
+    {
+      "id": "333750",
+      "type": "heading",
+      "level": 2,
+      "text": "健康診断与学内窗口"
+    },
+    {
+      "id": "048da7",
+      "type": "subheading",
+      "level": 2,
+      "text": "健康診断"
+    },
+    {
+      "id": "9bf76b",
+      "text": "每年 4 月和 10 月有定期健康診断（通常在ビッグさんど 2 階）。受診后可免费发行健康診断書。日程冲突时可改期。",
+      "type": "paragraph"
+    },
+    {
+      "id": "c29b18",
+      "type": "subheading",
+      "text": "相談窓口一览"
+    },
+    {
+      "id": "b15cf0",
+      "type": "paragraph",
+      "text": "健康支援センター（カウンセリング）：ビッグさんど 2 階，心理・健康相谈 092-802-5881"
+    },
+    {
+      "id": "516428",
+      "type": "paragraph",
+      "text": "留学生相談室（ISC）：イースト1号館 B540，履修・住居・病気・育儿等，不便向导师谈的内容"
+    },
+    {
+      "id": "2ae235",
+      "type": "paragraph",
+      "text": "キャンパスヘルスサポートルーム：イースト1号館2階 E-B-202，对人关系・生活合理配慮等"
+    },
+    {
+      "id": "a5d419",
+      "type": "paragraph",
+      "text": "マルチリンガル交流スペース（EZぷらっと）：イースト1号館2階 E-C-202，留学支援・语学学习・书籍DVD借阅"
+    },
+    {
+      "id": "1b05a4",
+      "type": "paragraph",
+      "text": "教務課：イースト1号館 C108，履修登录・证明书・学籍"
+    },
+    {
+      "id": "c5a6e6",
+      "type": "paragraph",
+      "text": "学生課：イースト1号館 C108，定期学割・学生证再发行・各种申请"
+    },
+    {
+      "id": "c96936",
+      "type": "paragraph",
+      "text": "サポートセンター：イースト1号館 C108，签证・医院介绍・住居・日语教室等"
+    },
+    {
+      "id": "9e1128",
+      "type": "subheading",
+      "text": "部局别问い合わせ先"
+    },
+    {
+      "id": "7b2c1e",
+      "type": "list",
+      "items": [
+        {
+          "text": "人文・地球社会担当：jbkkyomu1lt@jimu.kyushu-u.ac.jp"
+        },
+        {
+          "text": "人環・教育担当：jbkkyomu1ed@jimu.kyushu-u.ac.jp"
+        },
+        {
+          "text": "法学担当：jbkkyomu2la@jimu.kyushu-u.ac.jp"
+        },
+        {
+          "text": "経済担当：jbkkyomu2ec@jimu.kyushu-u.ac.jp"
+        },
+        {
+          "text": "学生係：jbggakusei@jimu.kyushu-u.ac.jp"
+        }
+      ]
+    },
+    {
+      "id": "f40f04",
+      "type": "heading",
+      "text": "学年历：先确认自己看的是哪一份"
+    },
+    {
+      "id": "f8719f",
+      "type": "fee_table",
+      "headers": [
+        "学期",
+        "2026 年度"
+      ],
+      "rows": [
+        [
+          "春学期",
+          "04-08 ～ 06-09"
+        ],
+        [
+          "夏学期",
+          "06-10 ～ 08-07"
+        ],
+        [
+          "秋学期",
+          "10-01 ～ 12-06"
+        ],
+        [
+          "冬学期",
+          "12-07 ～ 02-15"
+        ],
+        [
+          "春休",
+          "04-01 ～ 04-07"
+        ],
+        [
+          "夏休",
+          "08-08 ～ 09-30"
+        ],
+        [
+          "冬休",
+          "12-26 ～ 01-04"
+        ]
+      ]
+    },
+    {
+      "id": "92c5cc",
+      "type": "paragraph",
+      "text": "入学式 04-03（秋季 10-02）· 学位记授与 03-25（秋季 09-25）· 九大祭 10-30 ～ 11-02。"
+    },
+    {
+      "id": "828e4c",
+      "type": "warning",
+      "text": "**这是全校统一的标准日程，各学府 / 学部可能不同** —— 官方页面自己就标注了这一点。安排回国机票、考试或实习之前，务必去自己学部的网站再确认一次，不要拿工学部的日程去安排别的学部的事。"
+    },
+    {
+      "id": "acd972",
+      "type": "links",
+      "items": [
+        {
+          "text": "九州大学 · 学事日程（全校）",
+          "url": "https://www.kyushu-u.ac.jp/ja/faculty/schedule/"
+        }
+      ]
+    },
+    {
+      "id": "1240ad",
+      "type": "heading",
+      "text": "证明书怎么开"
+    },
+    {
+      "id": "7d38ec",
+      "type": "paragraph",
+      "text": "在学证明、成绩证明、卒業/修了見込証明等，都从学校的证明书发行入口办理。校内的自动发行机也能出一部分，学割证就是其中之一（见上方相关说明）。"
+    },
+    {
+      "id": "d2ae99",
+      "type": "links",
+      "items": [
+        {
+          "text": "九州大学 · 各类证明书发行",
+          "url": "https://www.kyushu-u.ac.jp/ja/education/procedure/certificate/"
+        },
+        {
+          "text": "ISC · 留学生日常生活指南",
+          "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/page-019"
+        }
+      ]
+    }
+  ]
+}

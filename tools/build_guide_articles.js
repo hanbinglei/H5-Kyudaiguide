@@ -1,148 +1,106 @@
 #!/usr/bin/env node
 /**
- * build_guide_articles.js — 从 Kyudaiguide 云端迁移备份生成 h5 的 data-articles.js
+ * build_guide_articles.js — 从 content/ 构建 guide/js/data-articles.js
  *
- * 内容源（只读，不修改 Kyudaiguide）：
- *   Kyudaiguide/backup/2026-08-14/  —— 2026-08 内容大迁移的九批产物 + 云端快照
- *   · 每批目录只含该批动过的文章；某篇的「最终版」= 按批次顺序最后一次动它的产物
- *   · 批次顺序（见 HANDOFF_2026-08-15_content-migration.md）：
- *     A restructured → B enriched → C readable → D integrated → E dorms
- *     → F integrated2 → G shuttle → H transport2 → I batch3 → J batchJ
- *   · category / summary / isPinned 等元数据来自云端快照 articles.json
+ * content/ 是内容的**唯一真源**，就在本仓库里 —— 任何人 clone 之后都能改、能重建。
+ * （此前这里读的是 Kyudaiguide 小程序的 backup 目录：不在本仓库、且被对方 gitignore，
+ *   等于内容处于「只读且不可再生」状态，一条 URL 写错都改不动。旧版留在
+ *   build_guide_articles.js.old 备查。）
  *
- * 收录：12 篇主指南（cat 1–12）+ guide-antifraud（cat 13，置顶反诈）
- * 剔除：guide-ito（云端已隐藏）、hot-*（热题，h5 无此功能）、用户生成文档
+ * 校验（任何一条不过就不产出，避免坏内容进入站点）：
+ *   · 每个区块必须有唯一 id，且 type 在渲染器支持集内
+ *   · fee_table 每行列数须与表头一致
+ *   · 分类 1–12 恰好各一篇；置顶篇至多一篇
+ *   · 交叉引用 见【篇名】 必须能解析到真实文章
  *
- * 断言：块数逐篇核对（与迁移交接文档一致，entry 以 batchJ 为准=74）；
- *       block 类型必须都在渲染器支持集内；分类 1–12 恰好各一篇。
- *
- * 用法：node tools/build_guide_articles.js
+ * 用法: node tools/build_guide_articles.js
  */
 'use strict';
 const fs = require('fs');
 const path = require('path');
 
-const SRC = 'D:/微信小程序/Kyudaiguide/backup/2026-08-14';
-const OUT = path.join(__dirname, '..', 'guide', 'js', 'data-articles.js');
+const ROOT = path.join(__dirname, '..');
+const SRC = path.join(ROOT, 'content');
+const OUT = path.join(ROOT, 'guide', 'js', 'data-articles.js');
 
-// 各篇最终版所在批目录 + 期望块数（迁移交接文档 §一，entry 已被 batchJ 更新到 74）
-const FINAL = {
-  'guide-entry':     { dir: 'batchJ',      blocks: 74 },
-  'guide-residence': { dir: 'integrated2', blocks: 64 },
-  'guide-housing':   { dir: 'integrated2', blocks: 49 },
-  'guide-bank':      { dir: 'batch3',      blocks: 29 },
-  'guide-phone':     { dir: 'batch3',      blocks: 24 },
-  'guide-academic':  { dir: 'batch3',      blocks: 52 },
-  'guide-parttime':  { dir: 'readable',    blocks: 9  },
-  'guide-medical':   { dir: 'readable',    blocks: 23 },
-  'guide-transport': { dir: 'transport2',  blocks: 66 },
-  'guide-life':      { dir: 'integrated2', blocks: 46 },
-  'guide-shopping':  { dir: 'integrated2', blocks: 39 },
-  'guide-emergency': { dir: 'integrated2', blocks: 28 },
-};
+// 渲染器 render.js 支持的区块类型 —— 加新类型要先改渲染器
+const TYPES = new Set(['paragraph', 'heading', 'subheading', 'list', 'links', 'notice',
+  'warning', 'steps', 'fee_table', 'checklist', 'collapse', 'quote']);
 
-// h5 渲染器（guide/js/render.js）支持的 block 类型
-const SUPPORTED = new Set([
-  'paragraph', 'heading', 'subheading', 'list', 'links', 'notice',
-  'warning', 'quote', 'community', 'steps', 'fee_table', 'checklist', 'collapse',
-]);
+const errors = [];
+const ids = new Set();
 
-// ── MongoDB 扩展 JSON 归一化（$numberDouble / $numberInt / $date → 原生值）──
-function normalize(v) {
-  if (Array.isArray(v)) return v.map(normalize);
-  if (v && typeof v === 'object') {
-    const keys = Object.keys(v);
-    if (keys.length === 1) {
-      if (keys[0] === '$numberDouble' || keys[0] === '$numberInt' || keys[0] === '$numberLong') return Number(v[keys[0]]);
-      if (keys[0] === '$date') {
-        const inner = v.$date;
-        const ms = typeof inner === 'object' ? Number(inner.$numberLong) : Number(new Date(inner));
-        return new Date(ms).toISOString().slice(0, 10);
-      }
+function checkBlocks(blocks, aid, trail) {
+  blocks.forEach((b, i) => {
+    const at = `${aid}${trail}[${i}]`;
+    if (!b.id) errors.push(`${at}: 缺 id`);
+    else if (ids.has(aid + '/' + b.id)) errors.push(`${at}: id 重复 ${b.id}`);
+    else ids.add(aid + '/' + b.id);
+    if (!TYPES.has(b.type)) errors.push(`${at}: 未知区块类型 "${b.type}"（渲染器不支持）`);
+    if (b.type === 'fee_table') {
+      const n = (b.headers || []).length;
+      if (!n) errors.push(`${at}: fee_table 缺表头`);
+      (b.rows || []).forEach((r, ri) => {
+        if (r.length !== n) errors.push(`${at}: fee_table 第 ${ri} 行 ${r.length} 列，表头 ${n} 列`);
+      });
     }
-    const o = {};
-    for (const k of keys) o[k] = normalize(v[k]);
-    return o;
-  }
-  return v;
-}
-
-function collectTypes(blocks, bag) {
-  for (const b of blocks || []) {
-    bag.add(b.type);
-    if (b.type === 'collapse') collectTypes(b.blocks, bag);
-  }
+    if (b.type === 'collapse') checkBlocks(b.blocks || [], aid, `${trail}[${i}].blocks`);
+  });
 }
 
 function main() {
-  // 元数据快照
-  const snap = normalize(JSON.parse(fs.readFileSync(path.join(SRC, 'articles.json'), 'utf8')));
-  const metaById = {};
-  for (const a of snap) metaById[a._id] = a;
+  const index = JSON.parse(fs.readFileSync(path.join(SRC, 'index.json'), 'utf8'));
+  const arts = index.articles.map(e => {
+    const f = path.join(SRC, path.basename(e.file));
+    if (!fs.existsSync(f)) { errors.push(`index.json 登记了 ${e.file}，但文件不存在`); return null; }
+    return JSON.parse(fs.readFileSync(f, 'utf8'));
+  }).filter(Boolean);
 
-  const out = [];
-  const catSeen = {};
+  arts.forEach(a => checkBlocks(a.blocks || [], a._id, ''));
 
-  // 12 篇主指南：blocks 取最终批，元数据取快照
-  for (const [id, spec] of Object.entries(FINAL)) {
-    const raw = JSON.parse(fs.readFileSync(path.join(SRC, spec.dir, id + '.json'), 'utf8'));
-    const doc = normalize(Array.isArray(raw) ? raw[0] : raw);
-    const meta = metaById[id];
-    if (!meta) throw new Error(`快照缺少元数据: ${id}`);
-    const blocks = doc.blocks || [];
-    if (blocks.length !== spec.blocks) {
-      throw new Error(`${id} 块数不符: 期望 ${spec.blocks}, 实际 ${blocks.length}（${spec.dir}）`);
-    }
-    const types = new Set(); collectTypes(blocks, types);
-    for (const t of types) if (!SUPPORTED.has(t)) throw new Error(`${id} 含渲染器不支持的类型: ${t}`);
-    const cat = String(meta.category);
-    if (catSeen[cat]) throw new Error(`分类 ${cat} 出现两篇: ${catSeen[cat]} / ${id}`);
-    catSeen[cat] = id;
-    out.push({
-      _id: id,
-      title: doc.title || meta.title,
-      category: cat,
-      summary: meta.summary || '',
-      tags: meta.tags || [],
-      author: '管理员',
-      updatedAt: '2026-08-15',   // 内容大迁移完成日（entry 的 batchJ 同期）
-      blocks,
-    });
-  }
+  // 分类覆盖
+  const byCat = {};
+  arts.forEach(a => { (byCat[a.category] = byCat[a.category] || []).push(a._id); });
   for (let c = 1; c <= 12; c++) {
-    if (!catSeen[String(c)]) throw new Error(`分类 ${c} 缺文章`);
+    const n = (byCat[String(c)] || []).length;
+    if (n !== 1) errors.push(`分类 ${c} 有 ${n} 篇（应恰好 1 篇）：${(byCat[String(c)] || []).join(',') || '无'}`);
   }
+  const pinned = arts.filter(a => a.isPinned);
+  if (pinned.length > 1) errors.push(`置顶文章 ${pinned.length} 篇（至多 1 篇）`);
 
-  // 置顶反诈（cat 13，无批次动过 → 直接取快照全文）
-  const anti = metaById['guide-antifraud'];
-  if (!anti || !Array.isArray(anti.blocks) || !anti.blocks.length) throw new Error('快照缺 guide-antifraud 正文');
-  const antiTypes = new Set(); collectTypes(anti.blocks, antiTypes);
-  for (const t of antiTypes) if (!SUPPORTED.has(t)) throw new Error(`guide-antifraud 不支持类型: ${t}`);
-  out.push({
-    _id: 'guide-antifraud',
-    title: anti.title,
-    category: '13',
-    summary: anti.summary || '',
-    tags: anti.tags || [],
-    isPinned: true,
-    author: '管理员',
-    updatedAt: '2026-08-15',
-    blocks: anti.blocks,
+  // 交叉引用可解析性
+  const titles = arts.map(a => a.title);
+  const refRe = /(?:见|参照|See|참조)\s*【([^】]+)】/g;
+  arts.forEach(a => {
+    const acc = [];
+    const walk = b => {
+      if (typeof b.text === 'string') acc.push(b.text);
+      (b.items || []).forEach(it => ['text', 'title', 'desc'].forEach(k => { if (typeof it[k] === 'string') acc.push(it[k]); }));
+      (b.blocks || []).forEach(walk);
+    };
+    (a.blocks || []).forEach(walk);
+    acc.join('\n').replace(refRe, (_, name) => {
+      const key = String(name).split('·')[0].trim();
+      if (!titles.some(t => t.includes(key) || key.includes(t)))
+        errors.push(`${a._id}: 交叉引用「${key}」找不到对应文章`);
+      return '';
+    });
   });
 
-  // 按分类排序（1–12 + 13）
-  out.sort((a, b) => Number(a.category) - Number(b.category));
+  if (errors.length) {
+    console.error(`✗ ${errors.length} 处问题，未产出：`);
+    errors.forEach(e => console.error('  ' + e));
+    process.exit(1);
+  }
 
-  const total = out.reduce((s, a) => s + a.blocks.length, 0);
-  const header = `// data-articles.js — 12 篇主指南（cat 1–12）+ 置顶反诈（cat 13）
-// 由 tools/build_guide_articles.js 生成，勿手改。
-// 源：Kyudaiguide 2026-08 内容大迁移产物（backup/2026-08-14，九批+batchJ 最终态）
-// 共 ${out.length} 篇 · ${total} 块 · 生成于 ${new Date().toISOString().slice(0, 10)}
-`;
-  const body = 'window.ARTICLES = ' + JSON.stringify(out, null, 1) + ';\n';
-  fs.writeFileSync(OUT, header + body, 'utf8');
-  console.log(`OK: ${out.length} 篇 / ${total} 块 → ${OUT}`);
-  out.forEach(a => console.log(`  cat${a.category.padStart(2)} ${a._id.padEnd(16)} ${a.blocks.length} 块  ${a.title}`));
+  const total = arts.reduce((s, a) => s + (a.blocks || []).length, 0);
+  const head = `// data-articles.js — 12 篇主指南（cat 1–12）+ 置顶反诈（cat 13）
+// 由 tools/build_guide_articles.js 从 content/ 生成，勿手改。
+// **要改内容请改 content/<article>.json**，然后重跑构建。
+// 共 ${arts.length} 篇 · ${total} 块 · 生成于 ${new Date().toISOString().slice(0, 10)}
+(function(){
+window.ARTICLES = `;
+  fs.writeFileSync(OUT, head + JSON.stringify(arts, null, 1) + ';\n})();\n', 'utf8');
+  console.log(`✓ ${arts.length} 篇 / ${total} 块 → guide/js/data-articles.js`);
 }
-
 main();

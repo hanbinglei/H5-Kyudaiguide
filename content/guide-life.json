@@ -1,0 +1,353 @@
+{
+  "_id": "guide-life",
+  "category": "10",
+  "title": "生活贴士",
+  "summary": "福冈天气与台风、垃圾分类与指定袋、市LINE账号、社团与EZぷらっと、宿舍报修、Coffee Hour、食堂图书馆与校园活动。",
+  "tags": [
+    "生活贴士",
+    "垃圾分类",
+    "宿舍"
+  ],
+  "author": "管理员",
+  "updatedAt": "2026-08-15",
+  "blocks": [
+    {
+      "id": "c6f3dd",
+      "level": 2,
+      "text": "福冈天气",
+      "type": "heading"
+    },
+    {
+      "id": "564f6c",
+      "type": "paragraph",
+      "text": "福冈夏季炎热，需注意防暑，出门带水、善用空调与风扇。夏秋为台风季，注意学校与气象部门的预警通知。"
+    },
+    {
+      "id": "81acda",
+      "type": "heading",
+      "level": 2,
+      "text": "垃圾分类"
+    },
+    {
+      "id": "aeecc8",
+      "type": "paragraph",
+      "text": "福冈市家庭垃圾分为三类定期收集：燃えるごみ（可燃）、燃えないごみ（不可燃）、空きびん・ペットボトル（空瓶/PET 瓶）（另有粗大垃圾需单独预约）。"
+    },
+    {
+      "id": "0efd50",
+      "type": "paragraph",
+      "text": "须使用指定袋（便利店、超市有售，按种类区分、袋上印字不同）。可燃垃圾每周 2 次、其余每月 1 次收集；福冈市多为夜间收集，一般在收集日前一天日落后至 24 点之间投放。"
+    },
+    {
+      "id": "48309f",
+      "type": "paragraph",
+      "text": "福冈市官网有中文垃圾分类查询系统，输入物品名即可查分类："
+    },
+    {
+      "id": "caad01",
+      "type": "links",
+      "items": [
+        {
+          "text": "福冈市垃圾分类查询（中文）",
+          "url": "https://kateigomi-bunbetsu.city.fukuoka.lg.jp/cn/items"
+        }
+      ]
+    },
+    {
+      "id": "509375",
+      "text": "粗大垃圾（家具、家电等）需电话预约收集，收费。",
+      "type": "paragraph"
+    },
+    {
+      "id": "52ee2d",
+      "text": "福冈市 LINE 官方账号",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "id": "3f8bd7",
+      "type": "paragraph",
+      "text": "福冈市官方 LINE（@fukuokacity）可接收防災、垃圾收集日、育儿、防犯、活动等信息推送，也可通过 LINE 预约疫苗、查询垃圾分类等。可关注并按需设置分类。"
+    },
+    {
+      "id": "2defd6",
+      "type": "heading",
+      "level": 2,
+      "text": "サークル・部活動"
+    },
+    {
+      "id": "958a05",
+      "type": "paragraph",
+      "text": "加入社团（サークル）是认识日本同学、融入校园的途径之一。九大社团涵盖体育、文化等各类。"
+    },
+    {
+      "id": "aff452",
+      "type": "paragraph",
+      "text": "· （日语）"
+    },
+    {
+      "id": "0bb9f5",
+      "type": "links",
+      "items": [
+        {
+          "text": "九州大学課外活動（社团一览）",
+          "url": "https://www.kyushu-u.ac.jp/ja/education/extracurricular/"
+        }
+      ]
+    },
+    {
+      "id": "a71552",
+      "type": "paragraph",
+      "text": "· 留学生可关注 KUFSA（九州大学留学生会）和 KUIFA（九州大学国際親善会），两者常举办各类活动"
+    },
+    {
+      "id": "a7df77",
+      "text": "マルチリンガル交流スペース（EZぷらっと）",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "id": "cadf66",
+      "type": "paragraph",
+      "text": "イースト1号館 2 階设有多语言学习空间 EZ ぷらっと，免费向所有学生开放，提供语学学习支援（书籍、DVD、在线教材），也可进行留学咨询、参加相关活动。"
+    },
+    {
+      "id": "123b43",
+      "type": "heading",
+      "level": 2,
+      "text": "宿舍报修（漏水/发霉）"
+    },
+    {
+      "id": "d7dc2a",
+      "type": "paragraph",
+      "text": "流程：拍照 → 报宿管 → 提供房间号。老生可代为转达，宿管再联系你。福冈潮湿、霉菌常见，应急可先贴胶带隔离。"
+    },
+    {
+      "id": "b46d7c",
+      "text": "Coffee Hour",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "id": "4f9189",
+      "type": "paragraph",
+      "text": "Coffee Hour 是各宿舍每周定期举办的聚会，参加者来自不同国家与文化背景，是认识新朋友的机会。"
+    },
+    {
+      "id": "3b5a1b",
+      "text": "校园生活：食堂·图书馆·活动",
+      "type": "heading",
+      "level": 2
+    },
+    {
+      "id": "7a6ada",
+      "type": "paragraph",
+      "text": "食堂菜单每日变化，营业时间及周日是否开门见生協网站；图书馆开馆信息见官网，考试期间可能延长开馆。"
+    },
+    {
+      "id": "dca705",
+      "type": "links",
+      "items": [
+        {
+          "url": "https://www.lib.kyushu-u.ac.jp/ja",
+          "text": "图书馆开馆信息"
+        },
+        {
+          "text": "生协食堂（营业/周日）",
+          "url": "https://www.coop.kyushu-u.ac.jp/shokudoubu.html"
+        },
+        {
+          "text": "生协食堂月度菜单",
+          "url": "https://www.coop.kyushu-u.ac.jp/shokudou/month_menu.html"
+        }
+      ]
+    },
+    {
+      "id": "2b45db",
+      "type": "subheading",
+      "text": "校园/城市活动"
+    },
+    {
+      "id": "ba080f",
+      "type": "links",
+      "items": [
+        {
+          "text": "九大祭（校园活动一览）",
+          "url": "https://kyudaisai.jp/"
+        },
+        {
+          "text": "博多どんたく（福冈市大型祭典）",
+          "url": "https://www.dontaku.fukunet.or.jp/"
+        }
+      ]
+    },
+    {
+      "id": "222467",
+      "type": "heading",
+      "text": "生协：校内怎么付钱"
+    },
+    {
+      "id": "0120b0",
+      "type": "paragraph",
+      "text": "九州大学生活協同組合（生协）运营着校内大部分食堂和商店，也做房屋中介、保险等业务。它不是学校的官方机构，而是独立的合作社 —— 所以要用它的服务，得先加入。"
+    },
+    {
+      "id": "a22a49",
+      "type": "paragraph",
+      "text": "加入手续比较繁琐，建议直接去生协的线下店铺办理。加入之后可以用生协 App 支付，有两种方式。"
+    },
+    {
+      "id": "a728d5",
+      "type": "fee_table",
+      "headers": [
+        "方式",
+        "怎么用",
+        "返利",
+        "能买什么"
+      ],
+      "rows": [
+        [
+          "生協電子マネー",
+          "随充随用",
+          "1% 积分",
+          "任何商品"
+        ],
+        [
+          "ミールプリペ",
+          "一次性大额充值",
+          "约 2%～5%，按档位递增",
+          "仅限食堂与商店的食品"
+        ]
+      ]
+    },
+    {
+      "id": "faabed",
+      "type": "warning",
+      "text": "ミールプリペ 的返利档位在 2026 年调整过，低档位的比例明显下降 —— 充得少反而不划算。充值前先看官方最新的档位表再决定金额，不要照着旧攻略里的数字算。⬜待核对：现行各档充值额与返利额 @ https://www.coop.kyushu-u.ac.jp/e-money/index.html"
+    },
+    {
+      "id": "216ba0",
+      "type": "heading",
+      "text": "食堂：哪几家、能刷什么"
+    },
+    {
+      "id": "b871d7",
+      "type": "list",
+      "items": [
+        {
+          "text": "生协食堂：营业时间、日替与月度菜单都在生协网站上，是校内的主力"
+        },
+        {
+          "text": "ビッグリーフ 的 GARDEN KITCHEN（W1 理学部门口）：不属生协运营，可刷 IC 卡以及支付宝、微信；每日菜单只在其社交账号发布"
+        },
+        {
+          "text": "QASIS 与 ビッグどら 食堂里各有一个印度料理窗口，其中 QASIS 那家支持微信支付"
+        }
+      ]
+    },
+    {
+      "id": "f308d3",
+      "type": "links",
+      "items": [
+        {
+          "text": "九大生协 · 食堂部案内",
+          "url": "https://www.coop.kyushu-u.ac.jp/shokudoubu.html"
+        }
+      ]
+    },
+    {
+      "id": "281f66",
+      "type": "heading",
+      "text": "你住在哪个市：两套办事流程"
+    },
+    {
+      "id": "42f05c",
+      "type": "paragraph",
+      "text": "丝岛半岛被福冈市西区与丝岛市一分为二。学校本身在福冈市西区，除 SETTLE International 之外的宿舍也都在西区。但周边住宅区跨了两市，而这直接决定你去哪里办事。"
+    },
+    {
+      "id": "39e635",
+      "type": "fee_table",
+      "headers": [
+        "住在哪",
+        "去哪个役所",
+        "最近车站"
+      ],
+      "rows": [
+        [
+          "福冈市西区",
+          "福岡市役所西部出張所",
+          "九大学研都市站"
+        ],
+        [
+          "丝岛市（如高田、SETTLE 一带）",
+          "糸島市役所",
+          "JR 筑前前原站"
+        ]
+      ]
+    },
+    {
+      "id": "26be59",
+      "type": "warning",
+      "text": "**两市的垃圾袋不通用。** 买之前先确认自己属于哪一边，买错了扔不出去。"
+    },
+    {
+      "id": "5ce69e",
+      "type": "heading",
+      "text": "天气：多风，冬天不算冷"
+    },
+    {
+      "id": "445f0d",
+      "type": "paragraph",
+      "text": "福冈同时带有日本海侧与太平洋侧气候的特征。冬天正对西北方来的冷空气，风大但气温基本在 0 度以上，降水偏少 —— 因为福冈与朝鲜半岛之间的海面太窄，攒不起足够水汽，所以很少像北陆那样大雪，却常有强风，最强时阵风可达八级。"
+    },
+    {
+      "id": "cc62d7",
+      "type": "paragraph",
+      "text": "六七月是梅雨季，之后被副热带高压控制，闷热而晴朗少雨，但积攒的能量容易触发强对流。秋天也有一段秋雨期，但不如梅雨典型。春秋相对舒适，秋天通常是一年里最好的季节。"
+    },
+    {
+      "id": "0aeb5b",
+      "type": "list",
+      "items": [
+        {
+          "text": "看预报与风力、雷达图：windy（有手机 App）"
+        },
+        {
+          "text": "看实况与长期预报：日本气象厅"
+        },
+        {
+          "text": "实时数据：tenki.jp"
+        },
+        {
+          "text": "台风季查路径预报：Tropical Tidbits（不过台风很少正面经过福冈）"
+        }
+      ]
+    },
+    {
+      "id": "48c15c",
+      "type": "notice",
+      "text": "这一带雨云移动很快，出门前扫一眼雷达图比看小时预报更准。"
+    },
+    {
+      "id": "20bca1",
+      "type": "heading",
+      "text": "哪里有邮筒"
+    },
+    {
+      "id": "9add58",
+      "type": "links",
+      "items": [
+        {
+          "text": "日本邮筒地图（postmap）",
+          "url": "https://www.postmap.org/map"
+        }
+      ]
+    },
+    {
+      "id": "df5369",
+      "type": "notice",
+      "text": "本篇部分内容整理自《新伊都国風土記》（作者 Hato_Tsubame、CantonSimon），经作者授权收录。文中的价格、班次与流程均会随时间变动，重要事项请以各官方网站为准。"
+    }
+  ]
+}
