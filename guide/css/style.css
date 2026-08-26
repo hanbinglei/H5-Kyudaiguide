@@ -270,3 +270,132 @@ button{font:inherit}
 
 /* 正文里直接写出的 URL（notice/warning 里的官方页面地址） */
 .inline-url{color:#1677ff;word-break:break-all;border-bottom:1px solid #bcd8ff}
+
+/* ══════════════════ 动效系统 ══════════════════
+   原则：这是查东西的工具，不是展示页 —— 动效要快、要有信息量，不能挡路。
+   · 时长压在 120–240ms；只动 transform / opacity（GPU 合成，低端手机不掉帧）
+   · 每个可点的东西都要有按下反馈：手指按下去没反应，用户会以为没点中而重复点
+   · 全部动效在 prefers-reduced-motion 下关闭（文件末尾统一处理）
+   ────────────────────────────────────────── */
+:root{
+  --dur-press:110ms;   /* 按压 */
+  --dur-enter:180ms;   /* 面板 / 元素入场 */
+  --dur-sheet:240ms;   /* 弹层 */
+  --ease:cubic-bezier(.2,.8,.3,1);
+  --ease-out:cubic-bezier(.16,1,.3,1);
+}
+
+/* ── 1. 统一按压反馈 ── */
+/* 有面积的可点元素：轻微缩小。缩放中心默认居中，视觉上像被按进去 */
+.cat-card,.card-lite,.fac-row,.link-card,.back-mini,.mtoday,.expand,
+.marrow,.mtitle,.row,.wd,.bar,.sheet-close,.search-clear,.btn-text,.toc-tab{
+  transition:transform var(--dur-press) var(--ease),
+             background-color var(--dur-press) var(--ease),
+             border-color var(--dur-press) var(--ease),
+             box-shadow var(--dur-press) var(--ease),
+             opacity var(--dur-press) var(--ease);
+  -webkit-tap-highlight-color:transparent;  /* 关掉安卓默认蓝块，用自己的反馈 */
+}
+.card-lite:active,.link-card:active{transform:scale(.985)}
+.back-mini:active,.mtoday:active,.expand:active,.sheet-close:active,
+.search-clear:active,.marrow:active{transform:scale(.92)}
+.row:active,.wd:active{background:#f5f5f7}
+.bar:active{opacity:.75}
+.btn-text:active{opacity:.55}
+.mtitle:active{opacity:.6}
+.link-card:active{background:#e3f8ea;border-color:#a5d8b4}
+.sheet-close:active{background:#e8e8e8}
+.search-clear:active{background:#ddd}
+
+/* 行内元素（电话 / 交叉引用）不做缩放 —— 行内元素缩放会把整行文字挤动，
+   看起来像排版抖动。改用底色闪一下 */
+.tel,.ref{transition:background-color var(--dur-press) var(--ease),
+                     border-color var(--dur-press) var(--ease)}
+.tel:active{background:#cfe2ff;border-color:#8ebbff}
+.ref:active{background:#d6f5e5}
+
+/* 桌面悬停：只给指针设备，触屏上 :hover 会「粘住」 */
+@media(hover:hover) and (pointer:fine){
+  .cat-card:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(26,26,46,.12)}
+  .card-lite:hover{border-color:#e0c2ca;box-shadow:0 4px 14px rgba(123,45,62,.06)}
+  .link-card:hover{background:#e8faee;border-color:#a5d8b4}
+  .row:hover,.wd:hover{background:#fafafa}
+  .toc-tab:hover{background:#f2f2f4}
+  .tel:hover{background:#d6e6ff}
+  .marrow:hover,.mtoday:hover,.expand:hover,.back-mini:hover{background:#f7f7f8}
+}
+
+/* ── 2. 底部 tab：滑动指示条 ── */
+/* 5 个 tab 各占 20%，指示条按 --tab-i（0–4）平移。
+   JS 只需改一个 CSS 变量，位置动画由浏览器合成，不触发重排 */
+/* 指示条挂在每个 tab 自己身上，用 scaleX(0)↔scaleX(1) 过渡：
+   激活的 tab 下方横线从中间展开，其余收起。纯 CSS，不需要 JS 参与。
+   （另一种做法是整条在底栏上滑动、用 --tab-i 算 translateX。两者都可行，
+     这里选 scaleX 是因为不必让 JS 和 CSS 共同维护一个索引变量。）
+   注意 .tabbar 原本是 position:fixed —— 不要在这里写 position:relative 覆盖它，
+   否则整个底栏定位会垮掉（fixed 本身就是绝对定位的包含块，无需 relative）。 */
+.tab{position:relative}
+.tab::after{
+  content:'';position:absolute;top:0;left:22%;right:22%;height:2px;
+  background:var(--brand);border-radius:0 0 2px 2px;
+  transform:scaleX(0);transform-origin:center;
+  transition:transform var(--dur-enter) var(--ease);
+}
+.tab.on::after{transform:scaleX(1)}
+.tab{transition:color var(--dur-press) var(--ease),
+                transform var(--dur-press) var(--ease)}
+.tab.on{color:var(--brand);font-weight:700}
+.tab:active{transform:scale(.9)}
+
+/* ── 3. 面板切换：淡入 + 轻微上浮 ── */
+/* 纯淡入缺少方向感；上浮 6px 让「换了一屏」这件事被看见，又不至于晃眼 */
+.pane{animation:paneIn var(--dur-enter) var(--ease-out)}
+@keyframes paneIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+/* 文章是「钻进去」的详情页，位移给大一点，形成层级感 */
+.pane-article{animation:articleIn 220ms var(--ease-out)}
+@keyframes articleIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+
+/* ── 4. 弹层（村历详情）：背景淡入 + 面板上滑 ── */
+/* 原本是直接 display 切换，弹出很突兀，也看不出它是从底部来的 */
+.sheet{animation:maskIn var(--dur-sheet) var(--ease)}
+.sheet>div{animation:sheetIn var(--dur-sheet) var(--ease-out)}
+@keyframes maskIn{from{opacity:0}to{opacity:1}}
+@keyframes sheetIn{from{transform:translateY(28px);opacity:.6}to{transform:none;opacity:1}}
+/* 关闭时反向播放，由 app.js 加 .closing 类触发 */
+.mask.closing .sheet{animation:maskOut 180ms var(--ease) forwards}
+.mask.closing .sheet>div{animation:sheetOut 180ms var(--ease) forwards}
+@keyframes maskOut{to{opacity:0}}
+@keyframes sheetOut{to{transform:translateY(28px);opacity:0}}
+
+/* ── 5. Toast ── */
+#_toast{
+  transition:opacity 160ms var(--ease),transform 160ms var(--ease-out);
+  opacity:0;transform:translateX(-50%) translateY(8px);pointer-events:none;
+}
+#_toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* ── 6. 键盘焦点 ── */
+/* 此前完全没有焦点样式：只用键盘的人（含读屏用户）看不出焦点在哪。
+   用 :focus-visible 而非 :focus，鼠标点击不会留下焦点框 */
+a:focus-visible,button:focus-visible,select:focus-visible,
+input:focus-visible,summary:focus-visible,.wd:focus-visible,.bar:focus-visible{
+  outline:2px solid var(--brand);outline-offset:2px;border-radius:6px;
+}
+
+/* ── 7. 折叠块箭头 ── */
+details>summary{transition:color var(--dur-press) var(--ease)}
+details[open]>summary{color:var(--brand)}
+
+/* ── 8. 减弱动画：一次性全关 ── */
+/* 前庭功能敏感的用户在系统里开了「减少动态效果」，这里必须完全服从 ——
+   不是减速，是关掉。按压反馈保留（那是必要的操作确认，不是装饰） */
+@media(prefers-reduced-motion:reduce){
+  .pane,.pane-article,.sheet,.sheet>div,
+  .mask.closing .sheet,.mask.closing .sheet>div{animation:none !important}
+  .tab::after{transition:none}
+  *,*::before,*::after{
+    animation-duration:.01ms !important;animation-iteration-count:1 !important;
+    transition-duration:.01ms !important;scroll-behavior:auto !important;
+  }
+}

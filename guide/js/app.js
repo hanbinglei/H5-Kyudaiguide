@@ -46,6 +46,7 @@ function mountMap(){
 }
 function setTab(tab){
   if(tab==='map')mountMap();
+  // 底部指示条完全由 CSS 的 .tab.on::after 处理，这里只管切 .on
   document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('on',b.dataset.tab===tab));
   document.querySelectorAll('.pane').forEach(p=>{
     if(p.id==='pane-article')return;
@@ -227,7 +228,10 @@ function showArticle(id){
       a.addEventListener('click',async e=>{
         e.preventDefault();
         const tel=a.dataset.tel||a.textContent.replace(/[^0-9-]/g,'');
-        try{await navigator.clipboard.writeText(tel);toast(t('copied')+tel)}catch(_){}
+        const ok=await copyText(tel);
+        // 复制失败也必须给反馈：把号码本身弹出来，用户至少能看着抄或长按选中。
+        // 静默失败是最糟的 —— 用户会以为点了没反应而反复点。
+        toast(ok?t('copied')+tel:tel);
       });
     });
   }
@@ -240,11 +244,35 @@ function showArticle(id){
   window.scrollTo(0,0);
 }
 
+/** 复制文本，返回是否成功。
+    clipboard API 在无焦点、非安全上下文、权限被拒时都会抛错，
+    所以退回到老的 execCommand 再试一次；两者都不行就如实返回 false。 */
+async function copyText(str){
+  try{ await navigator.clipboard.writeText(str); return true; }catch(_){}
+  try{
+    const ta=document.createElement('textarea');
+    ta.value=str; ta.setAttribute('readonly','');
+    ta.style.cssText='position:fixed;top:0;left:-9999px;opacity:0';
+    document.body.appendChild(ta); ta.select();
+    const ok=document.execCommand&&document.execCommand('copy');
+    ta.remove(); return !!ok;
+  }catch(_){ return false; }
+}
+
 function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
 function toast(msg){
   let el=document.getElementById('_toast');
-  if(!el){el=document.createElement('div');el.id='_toast';el.style.cssText='position:fixed;left:50%;bottom:84px;transform:translateX(-50%);background:rgba(0,0,0,.78);color:#fff;font-size:13px;padding:8px 14px;border-radius:999px;z-index:99;max-width:80vw;text-align:center';document.body.appendChild(el)}
-  el.textContent=msg;el.style.display='block';clearTimeout(el._tm);el._tm=setTimeout(()=>el.style.display='none',1800);
+  if(!el){
+    el=document.createElement('div');el.id='_toast';
+    // role=status + aria-live：读屏软件会念出「已复制」这类反馈，否则视障用户完全不知道发生了什么
+    el.setAttribute('role','status');el.setAttribute('aria-live','polite');
+    el.style.cssText='position:fixed;left:50%;bottom:84px;background:rgba(0,0,0,.82);color:#fff;font-size:13px;padding:9px 16px;border-radius:999px;z-index:99;max-width:80vw;text-align:center';
+    document.body.appendChild(el);
+  }
+  el.textContent=msg;
+  // 先摘掉 class 并强制重排，保证连着触发两次也能重新播入场动画
+  el.classList.remove('show');void el.offsetWidth;el.classList.add('show');
+  clearTimeout(el._tm);el._tm=setTimeout(()=>el.classList.remove('show'),1800);
 }
 
 // ── search（正文 + 各语言标题/摘要一起进干草堆） ──
@@ -383,7 +411,20 @@ function openDetail(id){
   $('detailBody').innerHTML=`<div style="font-size:16px;font-weight:800">${esc(n.name)}${it.star?'<span class="star">※</span>':''}</div>${n.sub?`<div style="font-size:13px;color:#777;margin-top:2px">${esc(n.sub)}</div>`:''}<div style="margin-top:8px;display:flex;gap:8px;align-items:center;flex-wrap:wrap"><span class="tg tg-${esc(it.type)}">${esc(typeLabel(it.type))}</span><span style="font-size:12px;color:#666">${it.date?esc(U.fmtRange(it))+' · '+esc(wd):esc(t('pending'))}</span></div>${it.place?`<div style="margin-top:8px;font-size:13px">${esc(t('place'))}：${esc(it.place.zh)}（${esc(it.place.ja)}）</div>`:''}${it.desc?`<div style="margin-top:12px;font-size:14px;line-height:1.7;white-space:pre-wrap">${esc(it.desc)}</div>`:''}${it.note?`<div style="margin-top:10px;background:#fff7e6;border:1px solid #ffe7ba;border-radius:8px;padding:8px 10px;font-size:13px;color:#7a4d00">${esc(it.note)}</div>`:''}${src?`<div style="margin-top:10px;font-size:12px;color:#888">${esc(t('source'))}：${src.url?`<a href="${esc(src.url)}" target="_blank" rel="noopener">${esc(src.name)}</a>`:esc(src.name)}</div>`:''}`;
   $('detailMask').style.display='';
 }
-function closeDetail(){$('detailMask').style.display='none'}
+function closeDetail(){
+  const m=$('detailMask');
+  if(m.style.display==='none')return;
+  // 加 .closing 触发退场动画，播完再真正隐藏。用 animationend 而非固定定时器，
+  // 这样在「减少动态效果」下（动画被压到 0.01ms）会立刻收尾，不会空等
+  m.classList.add('closing');
+  const done=()=>{m.style.display='none';m.classList.remove('closing')};
+  const sheet=m.querySelector('.sheet');
+  if(!sheet)return done();
+  let fired=false;
+  const on=()=>{if(fired)return;fired=true;sheet.removeEventListener('animationend',on);done()};
+  sheet.addEventListener('animationend',on);
+  setTimeout(on,400);   // 动画事件没来（被打断等）时的兜底
+}
 
 // ── 院系官网 ──
 const CAMPUS_LABEL={
