@@ -1,0 +1,139 @@
+{
+  "_note": "可核查断言台账。把「哪条说法、出自哪个官方页面、什么时候生效、谁在什么时候真的去核过」记下来，让「还没核实的部分」和「核过但可能已过期的部分」都能被查询和告警。方法与状态标记沿用 Kyudaiguide 团队 2026-08-14 的事实核查表。",
+  "_why": "写指南最容易犯的错不是抄错数字，而是抄了一个曾经正确的数字。把「看起来核过了」和「真的核过了」混在一起，比完全没核更危险 —— 因为没人会再去查一遍。",
+  "_levels": {
+    "verified": "✅ 已确认：有人读到了官方页面上的这个数字",
+    "ambiguous": "⚠️ 有歧义：拿到了数字，但存在未排除的口径差异，用之前要再走一步",
+    "unverified": "❌ 未核：只登记了应当去查的官方源，本身尚未核实"
+  },
+  "_fields": {
+    "block": "content/<article>.json 里的区块 id —— 断言指向的具体位置",
+    "effective": "该事实的生效日（法规/改点日），非核实日",
+    "verified": "最后一次人工核实的日期。null 表示从未核实",
+    "recheck": "复核周期，ISO 8601 duration。超期由 check_claims.js 告警"
+  },
+
+  "claims": [
+    {
+      "id": "taxi-fare-fukuoka",
+      "article": "guide-transport", "block": "adf1b4",
+      "claim": "福冈地区出租车运价：普通车起步 1.1km/600 円，之后 287m/100 円；大型 720 円、特大 780 円",
+      "sourceName": "福岡市タクシー協会 運賃表",
+      "source": "https://www.taxi-fukcty.or.jp/charge/",
+      "effective": "2026-07-01", "verified": "2026-08-14",
+      "level": "verified", "recheck": "P1Y",
+      "note": "网上流传的「1,064m/670 円」是上一版，已作废 —— 见同篇 f7c689 的提醒块"
+    },
+    {
+      "id": "departure-tax",
+      "article": "guide-residence", "block": "a61a13",
+      "claim": "国際観光旅客税（出国税）自 2026-07-01 出国起由 1,000 円上调至 3,000 円",
+      "sourceName": "国税庁 / 各媒体报道",
+      "source": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6601.htm",
+      "effective": "2026-07-01", "verified": "2026-08-14",
+      "level": "verified", "recheck": "P1Y",
+      "note": "经过措施单列为 departure-tax-transition"
+    },
+    {
+      "id": "departure-tax-transition",
+      "article": "guide-residence", "block": "f0dbae",
+      "claim": "2026-06-30 前签订运送合同（已出票）的，即使 7/1 后出国仍按 1,000 円",
+      "sourceName": "国税庁 / 各媒体报道",
+      "source": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6601.htm",
+      "effective": "2026-07-01", "verified": "2026-08-14",
+      "level": "verified", "recheck": "P1Y",
+      "note": "常见二手整理只写涨价、漏掉这条经过措施"
+    },
+    {
+      "id": "moped-new-standard",
+      "article": "guide-transport", "block": "55a01a",
+      "claim": "新基准原付排量放宽至 125cc 以下但出力限 4.0kW；法律待遇不变，仍按原付一种（30km/h、二段階右折、禁止载人）",
+      "sourceName": "日本自動車工業会 · 原付一種の新区分",
+      "source": "https://www.jama.or.jp/operation/motorcycle/cat1_scooter/",
+      "effective": "2025-04-01", "verified": "2026-08-14",
+      "level": "verified", "recheck": "P1Y",
+      "note": "常见误解是「125cc 了所以能跑 60、能载人」——全错"
+    },
+
+    {
+      "id": "min-wage-fukuoka",
+      "article": "guide-parttime", "block": "77b055",
+      "claim": "福冈县最低时给 1,057 円/小时",
+      "sourceName": "福岡労働局 最低賃金",
+      "source": "https://jsite.mhlw.go.jp/fukuoka-roudoukyoku/",
+      "effective": "2025-11-16", "verified": null,
+      "level": "unverified", "recheck": "P1Y",
+      "note": "最低工资每年 10 月前后改定 —— 属于高频衰减项，务必每年复核"
+    },
+    {
+      "id": "pension-monthly",
+      "article": "guide-residence", "block": "cf19f3",
+      "claim": "国民年金保险费 令和7年度（2025）每月 17,510 円",
+      "sourceName": "日本年金機構",
+      "source": "https://www.nenkin.go.jp/service/kokunen/hokenryo/20150401-02.html",
+      "effective": "2025-04-01", "verified": null,
+      "level": "unverified", "recheck": "P1Y",
+      "note": "年金保险费每年度改定，且正文已写「令和7年度」——跨年度即过期"
+    },
+    {
+      "id": "work-hours-cap",
+      "article": "guide-parttime", "block": "9071cc",
+      "claim": "资格外活动许可下学期中每周 28 小时上限；长假期间每日 8 小时/每周 40 小时",
+      "sourceName": "出入国在留管理庁",
+      "source": "https://www.moj.go.jp/isa/",
+      "effective": null, "verified": null,
+      "level": "unverified", "recheck": "P2Y",
+      "note": "属长期稳定的法定上限，衰减慢，但仍应有据可依"
+    },
+    {
+      "id": "gakkensai-premium",
+      "article": "guide-medical", "block": "dd53eb",
+      "claim": "学研災保费：学部生 1,000 円/年、医歯薬 1,020 円、大学院 450–1,000 円；学研賠 A/C/L 各 340/500/1,640 円",
+      "sourceName": "九州大学 学生保険",
+      "source": "https://www.kyushu-u.ac.jp/ja/education/life/insurance",
+      "effective": null, "verified": null,
+      "level": "unverified", "recheck": "P1Y",
+      "note": "按年度案内变动"
+    },
+    {
+      "id": "showa-bus-fare",
+      "article": "guide-transport", "block": "54f112",
+      "claim": "昭和巴士九州大学线单程 330 円（糸岛线 200 円）；西铁急行 670 円起",
+      "sourceName": "昭和自動車",
+      "source": "https://www.showa-bus.jp/",
+      "effective": null, "verified": null,
+      "level": "unverified", "recheck": "P1Y",
+      "note": "巴士改点通常在春季"
+    },
+    {
+      "id": "commuter-pass",
+      "article": "guide-transport", "block": "f61466",
+      "claim": "昭和巴士九大线通学定期 1 个月 10,000 円 / 3 个月 28,000 円；糸岛线 7,200 / 20,520 円",
+      "sourceName": "昭和自動車 定期券",
+      "source": "https://www.showa-bus.jp/category/pass/",
+      "effective": null, "verified": null,
+      "level": "unverified", "recheck": "P1Y",
+      "note": "与同篇 ⬜待核对（糸岛线是否均一价、18 小时 pass 适用范围）相关，宜一并核"
+    },
+    {
+      "id": "moped-license-fee",
+      "article": "guide-transport", "block": "de3307",
+      "claim": "原付免许：试验手数料 1,600 円 + 交付料 2,350 円（仅用 My Number Card 时 1,550 円）",
+      "sourceName": "福岡県警察 原付免許",
+      "source": "https://www.police.pref.fukuoka.jp/kotsu/unshi/026_2.html",
+      "effective": null, "verified": null,
+      "level": "unverified", "recheck": "P1Y",
+      "note": null
+    },
+    {
+      "id": "ito-campus-coupon",
+      "article": "guide-transport", "block": "9acd34",
+      "claim": "西鉄バス 6 小时 / 24 小时 free pass 的价格与免费区域范围",
+      "sourceName": "西日本鉄道 / my route",
+      "source": "https://www.nishitetsu.jp/bus/",
+      "effective": null, "verified": null,
+      "level": "ambiguous", "recheck": "P6M",
+      "note": "官方把价格印在图片里；检索到的数字券价格与流传的纸券价格口径不一致，尚未排除「纸券 vs 数字券」两套价。正文已用 ⬜待核对 明示"
+    }
+  ]
+}

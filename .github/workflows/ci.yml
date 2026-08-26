@@ -1,0 +1,42 @@
+# 内容校验 —— 每次 push / PR 都跑。
+#
+# 目的：让不熟悉命令行的人（老师、同学）也能安全地改内容 ——
+# 在 GitHub 网页上编辑 content/*.json → 提 PR → 这里自动把关 → 你合并即可。
+# 任何一项不过，PR 上会直接显示红叉和具体原因。
+name: 内容校验
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+
+      - name: 结构校验 + 重新构建
+        run: node tools/build_guide_articles.js
+
+      - name: 确认产物与 content/ 一致（改了内容却忘了重跑构建，会在这里被拦下）
+        run: |
+          if ! git diff --quiet -- guide/js/data-articles.js; then
+            echo "::error::guide/js/data-articles.js 与 content/ 不一致。"
+            echo "改完 content/ 后请在本地运行： node tools/build_guide_articles.js"
+            echo "并把产出的 guide/js/data-articles.js 一起提交。"
+            git diff --stat -- guide/js/data-articles.js
+            exit 1
+          fi
+          echo "✓ 产物与内容源一致"
+
+      - name: 译本校验（悬空 ID / 条目数 / URL / 电话）
+        run: node tools/check_body_i18n.js
+
+      - name: 断言台账体检（超期 / 未核实 / 未登记的可核查面）
+        # 只在台账指不到内容时失败；「未核实」「超期」是提醒，不拦发布 ——
+        # 它们要的是有人去查，不是让 CI 长期变红后被无视。
+        run: node tools/check_claims.js

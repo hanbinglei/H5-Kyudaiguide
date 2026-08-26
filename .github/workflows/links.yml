@@ -1,0 +1,59 @@
+# 外链可达性 —— 每周一自动跑，发现失效链接就开 issue。
+#
+# 指南里 80 多条外链全部指向官方页面。链接腐烂（改版、迁移、下线）是内容失真里
+# 最常见的一类，且完全可以自动发现 —— 与其等学生点到死链，不如让机器每周替你查一遍。
+name: 外链核查
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'   # 每周一 09:00 JST
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+
+      - name: 检查外链
+        id: check
+        run: |
+          set +e
+          node tools/check_links.js > result.txt 2>&1
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+          cat result.txt
+        continue-on-error: true
+
+      - name: 有失效链接则开 issue
+        if: steps.check.outputs.code != '0'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = '本周外链核查发现失效链接：\n\n```\n'
+              + fs.readFileSync('result.txt','utf8').slice(0, 60000)
+              + '\n```\n\n修正方式：改 `content/<article>.json` 里的对应 URL，'
+              + '再跑 `node tools/build_guide_articles.js`。'
+              + '若该链接在译本里也出现，记得同步改 `guide/js/articles-body-i18n.js`。';
+            const title = `外链核查：发现失效链接（${new Date().toISOString().slice(0,10)}）`;
+            const existing = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo,
+              state: 'open', labels: 'link-rot',
+            });
+            if (existing.data.length) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: existing.data[0].number, body,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner, repo: context.repo.repo,
+                title, body, labels: ['link-rot'],
+              });
+            }
