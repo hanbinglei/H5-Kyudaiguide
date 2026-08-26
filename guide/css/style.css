@@ -60,7 +60,11 @@ button{font:inherit}
 .toc-tab{flex:0 0 auto;font-size:12px;border:1px solid var(--line);border-radius:999px;padding:5px 10px;color:#444;background:#fff;cursor:pointer;white-space:nowrap;transition:background .12s,color .12s}
 .toc-tab:active{background:#f0f0f0}
 .toc-tab.on{background:var(--brand);color:#fff;border-color:var(--brand)}
-.article-body{padding:8px 16px 12px;word-break:break-word;overflow-wrap:break-word}
+/* 阅读宽度上限：不加的话，平板横屏（1024）每行 56 个汉字、桌面更长，
+   远超中日韩舒适阅读的 30–45 字。用 em 而非 px，字号放大时同步放宽。
+   超宽的表格仍在自身的 .table-wrap 里横向滚动，与手机上的行为一致。 */
+.article-body{padding:8px 16px 12px;word-break:break-word;overflow-wrap:break-word;
+  max-width:44em;margin-left:auto;margin-right:auto}
 .article-body p{margin:10px 0;color:#333;font-size:15px;line-height:1.85}
 .article-body h2{font-size:17px;font-weight:800;color:#1a1a2e;margin:22px 0 10px;position:relative;padding-left:10px}
 .article-body h2::before{content:"";position:absolute;left:0;top:6px;bottom:6px;width:4px;background:var(--accent);border-radius:4px}
@@ -150,7 +154,7 @@ button{font:inherit}
 /* ── map ── */
 .map-tip{font-size:11px;color:var(--muted2);text-align:center;padding:6px 0}
 #pane-map{padding:0;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#fff}
-#mapFrame{width:100%;height:min(72vh,640px);border:none;display:block;background:#f8f6f2}
+#mapFrame{width:100%;height:min(72vh,640px);height:min(72dvh,640px);border:none;display:block;background:#f8f6f2}
 
 /* ── history ── */
 .history-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
@@ -171,7 +175,7 @@ button{font:inherit}
   .cat-cell{width:25%;padding:6px}
   .cat-icon{font-size:26px}
   .cat-name{font-size:11px}
-  #mapFrame{height:min(68vh,560px)}
+  #mapFrame{height:min(68vh,560px);height:min(68dvh,560px)}
   .article-body{padding:8px 12px}
 }
 
@@ -180,7 +184,7 @@ button{font:inherit}
   #app{max-width:720px}
   .cat-cell{width:25%}
   .cat-icon{font-size:30px}
-  #mapFrame{height:min(72vh,600px)}
+  #mapFrame{height:min(72vh,600px);height:min(72dvh,600px)}
 }
 
 /* 平板横屏 / 小桌面 768~959px */
@@ -192,7 +196,7 @@ button{font:inherit}
   .cat-icon{font-size:32px}
   .cat-name{font-size:13px}
   .brand{font-size:20px}
-  #mapFrame{height:min(76vh,640px)}
+  #mapFrame{height:min(76vh,640px);height:min(76dvh,640px)}
   .article-header h1{font-size:22px}
   .article-body p{font-size:16px}
   .toc-tab{font-size:13px;padding:6px 14px}
@@ -210,7 +214,7 @@ button{font:inherit}
   .cat-icon{font-size:36px}
   .cat-name{font-size:14px}
   .cat-card{padding:20px 8px}
-  #mapFrame{height:min(80vh,680px)}
+  #mapFrame{height:min(80vh,680px);height:min(80dvh,680px)}
   .article-body{padding:12px 24px 16px}
   .article-header{padding:20px 24px 12px}
   .article-header h1{font-size:24px}
@@ -228,12 +232,18 @@ button{font:inherit}
   .cat-icon{font-size:40px}
 }
 
-/* 触摸设备加大目标 */
+/* 触摸设备加大点击目标。此前底部 tab 在平板竖屏只有 38px，
+   低于 Apple HIG 的 44pt / Material 的 48dp 下限 —— 手指容易点偏。
+   用 min-height 而非堆 padding，字号变化时不会又掉回去。 */
 @media(pointer:coarse){
   .cat-card{padding:18px 6px}
-  .toc-tab{padding:8px 14px}
-  .tab{padding:12px 0}
-  .back-mini{padding:8px 18px}
+  .toc-tab{padding:8px 14px;min-height:36px;display:inline-flex;align-items:center}
+  .tab{padding:12px 0;min-height:48px}
+  .back-mini{padding:8px 18px;min-height:40px}
+  .back{min-height:48px}
+  .tel,.ref{min-height:32px;padding-top:2px;padding-bottom:2px}
+  .link-card{min-height:48px}
+  .fac-row{min-height:48px}
 }
 
 /* 减弱动画 */

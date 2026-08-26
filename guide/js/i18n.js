@@ -123,20 +123,38 @@ const UI = {
   },
 };
 const LANGS = ['zh','ja','en','ko'];
+/** 把一个 BCP 47 语言标签映射到本站支持的 4 语之一，映射不上返回 null。
+    只看主语言子标签：zh-CN / zh-TW / zh-Hant 都算中文，en-GB / en-SG 都算英文。
+    简繁不分是有意的 —— 正文是简体，但繁体读者读简体远好过被丢去英文。 */
+function matchLang(tag){
+  const b=String(tag||'').toLowerCase();
+  if(b.startsWith('zh')) return 'zh';
+  if(b.startsWith('ja')) return 'ja';
+  if(b.startsWith('ko')) return 'ko';
+  if(b.startsWith('en')) return 'en';
+  return null;
+}
+
+/** 决定初始语言。优先级：
+      ① 用户自己选过的（localStorage，跨指南与地图共用）
+      ② 浏览器/系统的语言偏好列表，按用户设定的顺序取第一个能对上的
+      ③ 都对不上 → 英文
+    ③ 用英文而不是中文，是因为面向的是全校各国新生：正文虽以中文写成，
+    但一个越南语或印尼语系统的学生，看英文远比看中文有用。
+    地图支持 7 语（含 hi/es/fr），若用户在地图选过那些，这里也会走到 ③。
+
+    注意：检测结果不写回 localStorage —— 只有用户亲自在下拉里选过才算偏好。
+    这样系统语言变了，站点会跟着变；而一旦手动选过，就永远尊重手动选择。 */
 function getLang(){
-  // 地图支持 7 语（含 hi/es/fr），指南目前只有 4 语。用户在地图里选了印地语，
-  // localStorage 存下的就是 'hi' —— 这里若直接回落中文，等于把印地语用户丢进中文界面。
-  // 存过偏好但本站不支持该语言时一律回落英文：对非中文母语者，英文是可读性最高的兜底。
   let stored=null;
   try{ stored=localStorage.getItem('kyudai-lang'); }catch(e){}
   if(stored && UI[stored]) return stored;
-  try{ const b=(navigator.language||'').toLowerCase();
-    if(b.startsWith('zh')) return 'zh';
-    if(b.startsWith('ja')) return 'ja';
-    if(b.startsWith('ko')) return 'ko';
-    if(b.startsWith('en')) return 'en';
+  try{
+    const prefs=(navigator.languages&&navigator.languages.length)
+      ? navigator.languages : [navigator.language];
+    for(const tag of prefs){ const m=matchLang(tag); if(m) return m; }
   }catch(e){}
-  return stored ? 'en' : 'zh';
+  return 'en';
 }
 let lang = getLang();
 function setLang(v){ if(!UI[v]) v='zh'; lang=v; try{ localStorage.setItem('kyudai-lang',v); }catch(e){}
