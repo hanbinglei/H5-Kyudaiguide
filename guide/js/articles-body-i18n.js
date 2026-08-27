@@ -1446,7 +1446,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "銀行へ行く前に：印鑑・オリエンテーション・営業時間"
    },
    "930ced": {
-    "text": "銀行の口座開設には必ず印鑑が必要です（シャチハタ不可）。来日前に個人の印鑑を必ず用意してください。ないと窓口で口座を開設できません。"
+    "text": "銀行の口座開設には必ず印鑑が必要です（シャチハタ不可）。来日前に個人の印鑑を必ず用意してください。ないと窓口で口座を開設できません。参照【入国準備】"
    },
    "9d3912": {
     "text": "銀行オリエンテーション（口座開設説明会）は留学手続きの中でも重要なもののひとつです。来日前に申込済みかどうか確認してください。通常の入学オリエンテーションとは別の行事で、それぞれ予約が必要です。大学の回を逃すと、その後は基本的に自分で銀行の窓口へ行くことになり、かなり時間がかかります。"
@@ -1531,7 +1531,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "77b3a2": {
-    "text": "後で海外から送金を受け取る必要がある場合、銀行はマイナンバーの提示を求めます。マイナンバーカードがまだ手元にないときは、マイナンバーが記載された住民票で代用できます。"
+    "text": "後で海外から送金を受け取る必要がある場合、銀行はマイナンバーの提示を求めます。マイナンバーカードがまだ手元にないときは、マイナンバーが記載された住民票で代用できます。参照【在留手続き】"
    },
    "35e7b3": {
     "text": "大学の一括開設会：福岡銀行のみ"
@@ -1554,7 +1554,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Before You Go: seal, orientation, opening hours"
    },
    "930ced": {
-    "text": "Opening a bank account always requires a personal seal (a pre-inked シャチハタ stamp is not accepted). Be sure to prepare one before coming to Japan — without it the counter cannot open your account."
+    "text": "Opening a bank account always requires a personal seal (a pre-inked シャチハタ stamp is not accepted). Be sure to prepare one before coming to Japan — without it the counter cannot open your account.See【Arrival & Entry】"
    },
    "9d3912": {
     "text": "The bank orientation (account-opening briefing) is one of the more important steps in your arrival paperwork; check before you come whether you have signed up. It is a separate event from the general enrolment orientation and needs its own booking. If you miss the university session, you will usually have to go to a bank counter yourself afterwards, which takes considerably longer."
@@ -1639,7 +1639,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "77b3a2": {
-    "text": "If you later need to receive money from abroad, the bank will ask for your My Number. If you do not yet have your My Number card, a residence certificate (住民票) showing your My Number can be used instead."
+    "text": "If you later need to receive money from abroad, the bank will ask for your My Number. If you do not yet have your My Number card, a residence certificate (住民票) showing your My Number can be used instead.See【Residence Procedures】"
    },
    "35e7b3": {
     "text": "The University’s Group Session: Fukuoka Bank only"
@@ -1662,7 +1662,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "은행에 가기 전: 도장·오리엔테이션·영업시간"
    },
    "930ced": {
-    "text": "은행 계좌 개설에는 반드시 도장이 필요합니다(샤치하타 불가). 입국 전에 개인 도장을 꼭 준비하세요. 없으면 창구에서 계좌를 개설할 수 없습니다."
+    "text": "은행 계좌 개설에는 반드시 도장이 필요합니다(샤치하타 불가). 입국 전에 개인 도장을 꼭 준비하세요. 없으면 창구에서 계좌를 개설할 수 없습니다.참조【입국 준비】"
    },
    "9d3912": {
     "text": "은행 오리엔테이션(계좌 개설 설명회)은 유학 수속 중에서도 중요한 편에 속합니다. 입국 전에 신청했는지 확인하세요. 일반 입학 오리엔테이션과는 별개의 행사로 각각 예약해야 합니다. 학교가 마련한 회차를 놓치면 이후에는 대개 직접 은행 창구에 가야 하며 시간이 상당히 걸립니다."
@@ -1747,7 +1747,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "77b3a2": {
-    "text": "이후 해외에서 송금을 받아야 한다면 은행이 마이넘버 제시를 요구합니다. 마이넘버카드가 아직 없다면 마이넘버가 기재된 주민표(住民票)로 대신할 수 있습니다."
+    "text": "이후 해외에서 송금을 받아야 한다면 은행이 마이넘버 제시를 요구합니다. 마이넘버카드가 아직 없다면 마이넘버가 기재된 주민표(住民票)로 대신할 수 있습니다.참조【체류 수속】"
    },
    "35e7b3": {
     "text": "학교의 일괄 개설회: 후쿠오카은행만"
@@ -2408,7 +2408,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "印鑑（はんこ）"
    },
    "7a40b0": {
-    "text": "日本の生活では印鑑が必要な場面が多くあります。「ドン・キホーテ」のセルフ彫刻機で作れます（およそ 500 円から）。漢字、ひらがな、カタカナ、アルファベットのいずれでも彫れます。注意：シャチハタ（インク内蔵式）は銀行の口座開設には使えないので、普通の材質の印鑑を用意してください。"
+    "text": "日本の生活では印鑑が必要な場面が多くあります。「ドン・キホーテ」のセルフ彫刻機で作れます（およそ 500 円から）。漢字、ひらがな、カタカナ、アルファベットのいずれでも彫れます。注意：シャチハタ（インク内蔵式）は銀行の口座開設には使えないので、普通の材質の印鑑を用意してください。参照【銀行・送金】"
    },
    "65cb2d": {
     "text": "渡日前の連絡（Supporter）"
@@ -2657,7 +2657,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "到着後の数日の手続き順序"
    },
    "da2b75": {
-    "text": "落ち着いてからの手続きは次の順に進めます：① SIM カード → ② 銀行口座 → ③ 国民健康保険 → ④ 自転車と生活必需品 → ⑤ キャンパスに慣れる。"
+    "text": "落ち着いてからの手続きは次の順に進めます：① SIM カード → ② 銀行口座 → ③ 国民健康保険 → ④ 自転車と生活必需品 → ⑤ キャンパスに慣れる。参照【携帯・ネット】参照【銀行・送金】参照【医療・保険】"
    },
    "4547cd": {
     "text": "このうち**住所登録がほとんどの手続きの前提**です —— まず在留カードを提出して住所を登録し、翌日に受け取ってから、SIM カードと銀行口座に進みます。またオリエンテーションへの参加も忘れずに。指導教員か Supporter が事前に知らせてくれます。"
@@ -2796,7 +2796,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Personal seal (hanko)"
    },
    "7a40b0": {
-    "text": "A seal is needed in many situations in Japan. You can have one cut at the self-service machines in Don Quijote (from around 500 yen), in kanji, hiragana, katakana, or the Latin alphabet. Note: a シャチハタ (pre-inked) stamp cannot be used to open a bank account, so buy an ordinary one."
+    "text": "A seal is needed in many situations in Japan. You can have one cut at the self-service machines in Don Quijote (from around 500 yen), in kanji, hiragana, katakana, or the Latin alphabet. Note: a シャチハタ (pre-inked) stamp cannot be used to open a bank account, so buy an ordinary one.See【Banking & Remittance】"
    },
    "65cb2d": {
     "text": "Contact Before Departure (your Supporter)"
@@ -3045,7 +3045,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "The Order of Things in Your First Days"
    },
    "da2b75": {
-    "text": "Once you have settled in, work through the procedures in this order: ① SIM card → ② bank account → ③ National Health Insurance → ④ a bicycle and daily necessities → ⑤ getting to know the campus."
+    "text": "Once you have settled in, work through the procedures in this order: ① SIM card → ② bank account → ③ National Health Insurance → ④ a bicycle and daily necessities → ⑤ getting to know the campus.See【Mobile & Internet】See【Banking & Remittance】See【Medical & Insurance】"
    },
    "4547cd": {
     "text": "Of these, **address registration is the prerequisite for most of the rest** — submit your residence card to register your address, collect it the next day, and only then arrange a SIM and a bank account. Also remember to attend the various orientations; your supervisor or Supporter will remind you in advance."
@@ -3184,7 +3184,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "도장(はんこ)"
    },
    "7a40b0": {
-    "text": "일본 생활에서는 도장이 필요한 곳이 많습니다. 「돈키호테」의 셀프 각인 기계에서 만들 수 있고(약 500엔부터) 한자·히라가나·가타카나·알파벳 모두 새길 수 있습니다. 주의: 샤치하타(잉크 내장식)는 은행 계좌 개설에 쓸 수 없으니 일반 재질의 도장을 준비하세요."
+    "text": "일본 생활에서는 도장이 필요한 곳이 많습니다. 「돈키호테」의 셀프 각인 기계에서 만들 수 있고(약 500엔부터) 한자·히라가나·가타카나·알파벳 모두 새길 수 있습니다. 주의: 샤치하타(잉크 내장식)는 은행 계좌 개설에 쓸 수 없으니 일반 재질의 도장을 준비하세요.참조【은행·송금】"
    },
    "65cb2d": {
     "text": "입국 전 연락(Supporter)"
@@ -3433,7 +3433,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "도착 후 며칠간의 처리 순서"
    },
    "da2b75": {
-    "text": "자리를 잡은 뒤의 수속은 다음 순서로 진행합니다: ① SIM 카드 → ② 은행 계좌 → ③ 국민건강보험 → ④ 자전거와 생필품 → ⑤ 캠퍼스 익히기."
+    "text": "자리를 잡은 뒤의 수속은 다음 순서로 진행합니다: ① SIM 카드 → ② 은행 계좌 → ③ 국민건강보험 → ④ 자전거와 생필품 → ⑤ 캠퍼스 익히기.참조【휴대폰·인터넷】참조【은행·송금】참조【의료·보험】"
    },
    "4547cd": {
     "text": "이 가운데 **주소 등록이 대부분 수속의 전제 조건**입니다 —— 먼저 재류카드를 제출해 주소를 등록하고 다음 날 찾은 뒤에 SIM 카드와 은행 계좌를 진행하세요. 또한 각종 오리엔테이션 참석도 잊지 마세요. 지도교수나 Supporter가 미리 알려줍니다."
@@ -5817,7 +5817,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "資格外活動許可と労働時間の上限"
    },
    "f0b619": {
-    "text": "留学ビザで日本でアルバイトをするには、まず「資格外活動許可」を取得しなければなりません。この許可は入国時に空港で申請することも、後から地方出入国在留管理局で手続きすることもできます。許可を得ずに働くのは違法で、ビザに影響する可能性があります。"
+    "text": "留学ビザで日本でアルバイトをするには、まず「資格外活動許可」を取得しなければなりません。この許可は入国時に空港で申請することも、後から地方出入国在留管理局で手続きすることもできます。許可を得ずに働くのは違法で、ビザに影響する可能性があります。参照【在留手続き】"
    },
    "9071cc": {
     "text": "学期中は週 28 時間まで。長期休暇中（春休み・夏休み・冬休み）は 1 日 8 時間、週 40 時間までです。超過が違法と認定されると在留期間の更新に影響しますので、厳守してください。"
@@ -5872,7 +5872,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Work Permission and the Hours Cap"
    },
    "f0b619": {
-    "text": "To work part-time in Japan on a student visa you must first obtain “Permission to Engage in Activity Other Than That Permitted” (資格外活動許可). You can apply for it at the airport on arrival, or later at a regional immigration bureau. Working without it is illegal and can affect your visa."
+    "text": "To work part-time in Japan on a student visa you must first obtain “Permission to Engage in Activity Other Than That Permitted” (資格外活動許可). You can apply for it at the airport on arrival, or later at a regional immigration bureau. Working without it is illegal and can affect your visa.See【Residence Procedures】"
    },
    "9071cc": {
     "text": "During term: up to 28 hours per week. During long vacations (spring, summer, winter): up to 8 hours per day and 40 hours per week. If overwork is judged illegal it will affect your visa renewal, so keep strictly within the limits."
@@ -5927,7 +5927,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "자격외활동허가와 근로시간 상한"
    },
    "f0b619": {
-    "text": "유학 비자로 일본에서 아르바이트를 하려면 먼저 「자격외활동허가」를 받아야 합니다. 이 허가는 입국 시 공항에서 신청할 수도 있고, 이후 지방 출입국재류관리국에서 처리할 수도 있습니다. 허가 없이 일하는 것은 불법이며 비자에 영향을 줄 수 있습니다."
+    "text": "유학 비자로 일본에서 아르바이트를 하려면 먼저 「자격외활동허가」를 받아야 합니다. 이 허가는 입국 시 공항에서 신청할 수도 있고, 이후 지방 출입국재류관리국에서 처리할 수도 있습니다. 허가 없이 일하는 것은 불법이며 비자에 영향을 줄 수 있습니다.참조【체류 수속】"
    },
    "9071cc": {
     "text": "학기 중에는 주 28시간까지, 장기 방학(봄·여름·겨울) 중에는 1일 8시간, 주 40시간까지입니다. 초과 근무가 불법으로 인정되면 비자 갱신에 영향을 주므로 반드시 지키세요."
@@ -6466,7 +6466,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "国民健康保険（医療保険）"
    },
    "8f34d4": {
-    "text": "国民健康保険は医療保険で、加入すると診療の自己負担は 30% になります。留学生は加入が必要です。住民登録の手続きと一緒に申請できます。"
+    "text": "国民健康保険は医療保険で、加入すると診療の自己負担は 30% になります。留学生は加入が必要です。住民登録の手続きと一緒に申請できます。参照【医療・保険】"
    },
    "ca823a": {
     "text": "国民年金"
@@ -6785,7 +6785,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "National Health Insurance"
    },
    "8f34d4": {
-    "text": "National Health Insurance is medical insurance; once enrolled you pay only 30% of treatment costs yourself, and international students are required to join. You can apply for it at the same time as your resident registration."
+    "text": "National Health Insurance is medical insurance; once enrolled you pay only 30% of treatment costs yourself, and international students are required to join. You can apply for it at the same time as your resident registration.See【Medical & Insurance】"
    },
    "ca823a": {
     "text": "National Pension"
@@ -7104,7 +7104,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "국민건강보험(의료보험)"
    },
    "8f34d4": {
-    "text": "국민건강보험은 의료보험으로, 가입하면 진료비 본인 부담이 30%가 되며 유학생은 가입해야 합니다. 주민등록을 할 때 함께 신청할 수 있습니다."
+    "text": "국민건강보험은 의료보험으로, 가입하면 진료비 본인 부담이 30%가 되며 유학생은 가입해야 합니다. 주민등록을 할 때 함께 신청할 수 있습니다.참조【의료·보험】"
    },
    "ca823a": {
     "text": "국민연금"
@@ -8117,7 +8117,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "自転車を買う"
    },
    "fc7dbb": {
-    "text": "新車は一般に 17,000 円以上、福岡の中古相場は 11,000 円ほどです（経験値）。中古はメルカリのほか、学生間の譲渡情報にも注意しておきましょう。購入時には防犯登録（600 円）が必要で、防犯登録カードは大切に保管してください（抹消のときに使います）。"
+    "text": "新車は一般に 17,000 円以上、福岡の中古相場は 11,000 円ほどです（経験値）。中古はメルカリのほか、学生間の譲渡情報にも注意しておきましょう。購入時には防犯登録（600 円）が必要で、防犯登録カードは大切に保管してください（抹消のときに使います）。参照【買い物】"
    },
    "255bf5": {
     "text": "自転車の処分・譲渡"
@@ -8582,7 +8582,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Buying a bicycle"
    },
    "fc7dbb": {
-    "text": "A new bike generally costs 17,000 yen or more; the second-hand market in Fukuoka runs around 11,000 yen (an experience-based figure). For second-hand, try Mercari or watch for bikes being passed on between students. When you buy, anti-theft registration (600 yen) is required — keep the registration card safe, as you will need it to deregister."
+    "text": "A new bike generally costs 17,000 yen or more; the second-hand market in Fukuoka runs around 11,000 yen (an experience-based figure). For second-hand, try Mercari or watch for bikes being passed on between students. When you buy, anti-theft registration (600 yen) is required — keep the registration card safe, as you will need it to deregister.See【Shopping】"
    },
    "255bf5": {
     "text": "Disposing of or passing on a bicycle"
@@ -9047,7 +9047,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "자전거 구입"
    },
    "fc7dbb": {
-    "text": "새 자전거는 보통 17,000엔 이상이고, 후쿠오카의 중고 시세는 11,000엔 정도입니다(경험값). 중고는 메루카리를 이용하거나 학생들 사이의 양도 정보를 눈여겨보세요. 구입할 때는 방범등록(600엔)을 해야 하며, 방범등록 카드는 잘 보관하세요(말소할 때 필요합니다)."
+    "text": "새 자전거는 보통 17,000엔 이상이고, 후쿠오카의 중고 시세는 11,000엔 정도입니다(경험값). 중고는 메루카리를 이용하거나 학생들 사이의 양도 정보를 눈여겨보세요. 구입할 때는 방범등록(600엔)을 해야 하며, 방범등록 카드는 잘 보관하세요(말소할 때 필요합니다).참조【쇼핑】"
    },
    "255bf5": {
     "text": "자전거 처분·양도"
