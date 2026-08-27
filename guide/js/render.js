@@ -31,7 +31,9 @@ function renderSegments(segs){
     // 桌面端没有拨号能力，由 app.js 拦下改为复制到剪贴板。
     if(s.type==='tel')return`<a class="tel" href="tel:${esc(s.number.replace(/-/g,''))}" data-tel="${esc(s.number)}">📞 ${esc(s.number)}</a>`;
     if(s.type==='url')return`<a class="inline-url" href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.url)}</a>`;
-    if(s.type==='ref'){const see=window.GuideI18N?window.GuideI18N.t('seeRef'):'见';return`<button class="ref" data-guide="${esc(s.guide)}" data-label="${esc(s.label)}">${esc(see)}【${esc(s.label)}】›</button>`;}
+    // ›单独成 span：它是装饰，不是名字的一部分 —— 分开才能把它调淡，
+    // 而 aria-label 里也不该念出来。
+    if(s.type==='ref'){const see=window.GuideI18N?window.GuideI18N.t('seeRef'):'见';const name=`${see}【${s.label}】`;return`<button class="ref" data-guide="${esc(s.guide)}" data-label="${esc(s.label)}" aria-label="${esc(name)}">${esc(name)}<span class="ref-go" aria-hidden="true">›</span></button>`;}
     return esc(s.content||'');
   }).join('');
 }

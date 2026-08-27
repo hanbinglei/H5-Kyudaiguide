@@ -77,7 +77,18 @@ button{font:inherit}
 .link-card .txt{font-size:13px;color:#1a1a2e;word-break:break-all}
 .link-card .go{flex:0 0 auto;font-size:12px;color:var(--accent);border:1px solid var(--accent);background:#fff;border-radius:999px;padding:4px 10px}
 .tel{display:inline-block;color:#1677ff;background:#e6f0ff;border:1px solid #bcd8ff;border-radius:6px;padding:0 6px;margin:0 2px;font-size:13px;line-height:1.6;cursor:pointer}
-.ref{color:#07835a;border-bottom:1px solid #a8e6c4;cursor:pointer}
+/* 交叉引用「见【X】›」。它是 <button>，不重置的话浏览器会给一整套默认外观
+   （灰底 + 2px outset 边框 + 直角），夹在正文里像一个表单控件 —— 而它其实是
+   一句话里的一个链接。
+   底色用 brand 的低透明度而不是写死的色值：同一个按钮会出现在白底正文、
+   黄底 notice、粉底 warning 和列表项里，任何一个不透明色都会在其中一种上打架。
+   蓝色留给 .tel（打电话），酒红留给跳转，两种行内动作一眼能分开。 */
+.ref{-webkit-appearance:none;appearance:none;display:inline-flex;align-items:center;gap:.15em;
+     vertical-align:baseline;border:0;border-radius:999px;background:rgba(123,45,62,.08);
+     color:var(--brand);font:inherit;font-weight:600;line-height:1.45;
+     padding:.08em .5em;margin:0 .12em;cursor:pointer;
+     white-space:nowrap}  /* 「见【交通】›」被折行拆开就读不出它是一个整体 */
+.ref-go{font-weight:700;opacity:.5}
 .bold{font-weight:700;color:#1a1a1a}
 .ar-list{margin:10px 0;display:grid;gap:6px}
 .ar-list-item{display:flex;gap:8px;align-items:flex-start}
@@ -241,7 +252,11 @@ button{font:inherit}
   .tab{padding:12px 0;min-height:48px}
   .back-mini{padding:8px 18px;min-height:40px}
   .back{min-height:48px}
-  .tel,.ref{min-height:32px;padding-top:2px;padding-bottom:2px}
+  .tel{min-height:32px;padding-top:2px;padding-bottom:2px}
+  /* .ref 不撑高：它嵌在句子中间，硬撑到 32px 会把那一行的行距顶开，
+     一段里有三个就是三道豁口。改成用伪元素只扩热区、不占版面。 */
+  .ref{position:relative}
+  .ref::before{content:'';position:absolute;inset:-7px -2px}
   .link-card{min-height:48px}
   .fac-row{min-height:48px}
 }
@@ -312,7 +327,7 @@ button{font:inherit}
 .tel,.ref{transition:background-color var(--dur-press) var(--ease),
                      border-color var(--dur-press) var(--ease)}
 .tel:active{background:#cfe2ff;border-color:#8ebbff}
-.ref:active{background:#d6f5e5}
+.ref:active{background:rgba(123,45,62,.2)}
 
 /* 桌面悬停：只给指针设备，触屏上 :hover 会「粘住」 */
 @media(hover:hover) and (pointer:fine){
@@ -322,6 +337,8 @@ button{font:inherit}
   .row:hover,.wd:hover{background:#fafafa}
   .toc-tab:hover{background:#f2f2f4}
   .tel:hover{background:#d6e6ff}
+  .ref:hover{background:rgba(123,45,62,.14)}
+  .ref:hover .ref-go{opacity:.8}
   .marrow:hover,.mtoday:hover,.expand:hover,.back-mini:hover{background:#f7f7f8}
 }
 
