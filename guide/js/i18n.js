@@ -41,6 +41,16 @@ const UI = {
     // 官网
     facHead:'院系官网', facSub:'跳转各学部 / 大学院学府官方网站', facUg:'学部（本科）', facGrad:'大学院 学府',
     facSrc:'数据来源：九州大学官网 学部・大学院一览（2026-08-24 抓取）',
+    // 新手引导
+    tour:{ open:'新手引导', skip:'跳过', prev:'上一步', next:'下一步', done:'开始使用',
+      steps:{
+        welcome:{t:'欢迎使用九大伊都留学指南', d:'新生落地要办的十几件事、伊都校区的地图和校历，都在这里。花 30 秒看一下怎么用。'},
+        search:{t:'不知道点哪里，就直接搜', d:'标题和正文一起搜。试试「在留卡」「垃圾」「巴士」「奖学金」。'},
+        pinned:{t:'先看这两篇', d:'《落地后 30 天》把所有手续按时间线排好，哪件挡着哪件一目了然；《反诈必读》是刚落地那几个月最要紧的。'},
+        cats:{t:'12 个场景分类', d:'按你当下要办的那件事进去：入境、在留、租房、银行、手机、打工、医疗、交通……'},
+        tabs:{t:'底部五个板块', d:'地图能搜教室、找巴士和校内接驳；村历是校历与活动；官网直达各学部；历史是你看过的。'},
+        lang:{t:'四种语言 · 断网也能看', d:'中日英韩随时切换。加到主屏幕后离线可读 —— 区役所排队、地下室没信号时照样打得开。'}
+      } },
   },
   ja:{
     self:'日本語', brandSub:'九大伊都・留学生ガイド H5', searchPh:'タイトル / 本文で検索',
@@ -67,6 +77,16 @@ const UI = {
     place:'場所', source:'出典', locale:'ja-JP',
     facHead:'学部・学府 公式サイト', facSub:'各学部・大学院学府の公式サイトへ', facUg:'学部', facGrad:'大学院 学府',
     facSrc:'出典：九州大学 学部・大学院一覧（2026-08-24 取得）',
+    // チュートリアル
+    tour:{ open:'使い方ガイド', skip:'スキップ', prev:'戻る', next:'次へ', done:'使ってみる',
+      steps:{
+        welcome:{t:'九大伊都・留学生ガイドへようこそ', d:'着いてから必要な十数件の手続き、伊都キャンパスの地図と学年暦がここにまとまっています。30 秒だけ使い方を見ていってください。'},
+        search:{t:'迷ったらまず検索', d:'タイトルと本文をまとめて検索します。「在留カード」「ゴミ」「バス」「奨学金」などで試してみてください。'},
+        pinned:{t:'まずはこの 2 本', d:'『着いてからの 30 日』は手続きを時系列に並べ、何が何を止めるかが一目でわかります。『詐欺防止ガイド』は着いて数か月がいちばん狙われやすい時期の話です。'},
+        cats:{t:'12 のカテゴリ', d:'いま必要な用事から入ってください：入国、在留、住まい、銀行、携帯、アルバイト、医療、交通……'},
+        tabs:{t:'下の 5 つのタブ', d:'地図では教室・バス・学内シャトルを探せます。村暦は学年暦とイベント、公式サイトは各学部へ直接、履歴は読んだ記事です。'},
+        lang:{t:'4 言語 · オフラインでも読めます', d:'日本語・中国語・英語・韓国語をいつでも切り替え。ホーム画面に追加すればオフラインでも開けます —— 区役所の待ち時間や地下でも大丈夫。'}
+      } },
   },
   en:{
     self:'English', brandSub:'Kyushu U Ito — Guide H5', searchPh:'Search titles / text',
@@ -94,6 +114,16 @@ const UI = {
     place:'Place', source:'Source', locale:'en-US',
     facHead:'Faculty Websites', facSub:'Official sites of each school & graduate school', facUg:'Undergraduate', facGrad:'Graduate Schools',
     facSrc:'Source: Kyushu University faculty index (fetched 2026-08-24)',
+    // Onboarding
+    tour:{ open:'How to use', skip:'Skip', prev:'Back', next:'Next', done:'Get started',
+      steps:{
+        welcome:{t:'Welcome to the Kyudai Ito student guide', d:'The dozen-odd procedures you face after landing, plus the Ito campus map and academic calendar, all in one place. Take 30 seconds to see how it works.'},
+        search:{t:'Not sure where to look? Just search', d:'Titles and body text are searched together. Try “residence card”, “garbage”, “bus” or “scholarship”.'},
+        pinned:{t:'Start with these two', d:'“Your First 30 Days” puts every procedure on one timeline and shows what blocks what. The anti-fraud guide covers the months right after arrival, when people are most often targeted.'},
+        cats:{t:'Twelve situations', d:'Go in by whatever you need to do right now: arrival, residence, housing, banking, mobile, part-time work, medical, transport…'},
+        tabs:{t:'Five tabs at the bottom', d:'The map finds classrooms, buses and the campus shuttle. Cunli is the academic calendar and events. Official links you straight to each school. History is what you have read.'},
+        lang:{t:'Four languages · works offline', d:'Switch between Chinese, Japanese, English and Korean anytime. Add it to your home screen and it opens without a connection — handy while queuing at the ward office or in a basement with no signal.'}
+      } },
   },
   ko:{
     self:'한국어', brandSub:'큐슈대 이토 · 가이드 H5', searchPh:'제목 / 본문 검색',
@@ -120,6 +150,16 @@ const UI = {
     place:'장소', source:'출처', locale:'ko-KR',
     facHead:'학부·대학원 공식 사이트', facSub:'각 학부·대학원 공식 사이트로 이동', facUg:'학부', facGrad:'대학원',
     facSrc:'출처: 규슈대 학부·대학원 목록 (2026-08-24 수집)',
+    // 사용 안내
+    tour:{ open:'사용법 안내', skip:'건너뛰기', prev:'이전', next:'다음', done:'시작하기',
+      steps:{
+        welcome:{t:'규슈대 이토 유학생 가이드입니다', d:'도착 후 처리해야 할 십수 가지 수속, 이토 캠퍼스 지도와 학사 일정이 모두 여기 있습니다. 30초만 사용법을 보고 가세요.'},
+        search:{t:'어디를 눌러야 할지 모르겠으면 검색', d:'제목과 본문을 함께 검색합니다. 「재류카드」「쓰레기」「버스」「장학금」으로 시도해 보세요.'},
+        pinned:{t:'먼저 이 두 편', d:'『도착 후 30일』은 모든 수속을 시간순으로 늘어놓아 무엇이 무엇을 막는지 한눈에 보입니다. 『사기 방지 가이드』는 갓 도착한 몇 달이 가장 표적이 되기 쉬운 시기라는 이야기입니다.'},
+        cats:{t:'12개 상황별 분류', d:'지금 해야 하는 일부터 들어가세요: 입국, 체류, 주거, 은행, 휴대폰, 아르바이트, 의료, 교통……'},
+        tabs:{t:'아래 다섯 개 탭', d:'지도에서는 강의실·버스·교내 셔틀을 찾을 수 있습니다. 촌력은 학사 일정과 행사, 공식 사이트는 각 학부로 바로, 이력은 읽은 글입니다.'},
+        lang:{t:'4개 언어 · 오프라인에서도', d:'중국어·일본어·영어·한국어를 언제든 전환. 홈 화면에 추가하면 오프라인에서도 열립니다 —— 구청 대기 중이나 신호 없는 지하에서도 괜찮습니다.'}
+      } },
   },
 };
 const LANGS = ['zh','ja','en','ko'];

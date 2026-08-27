@@ -416,3 +416,48 @@ details[open]>summary{color:var(--brand)}
     transition-duration:.01ms !important;scroll-behavior:auto !important;
   }
 }
+
+/* ── 新手引导 ──────────────────────────────────────────────
+   蒙层不是一整块半透明背景，而是【光圈自己往外投一圈超大阴影】：
+   一个元素就同时完成「压暗全屏」和「抠出一个洞」，不依赖 clip-path，
+   洞的圆角还能跟着元素走。z-index 60 —— 在 .mask(20) 之上、toast(99) 之下。 */
+#tour{position:fixed;inset:0;z-index:60;animation:tourIn var(--dur-enter) var(--ease-out) both}
+#tour.closing{animation:tourOut var(--dur-press) var(--ease) both}
+@keyframes tourIn{from{opacity:0}to{opacity:1}}
+@keyframes tourOut{from{opacity:1}to{opacity:0}}
+.tour-spot{position:fixed;border-radius:12px;box-shadow:0 0 0 9999px rgba(15,10,12,.62),
+           0 0 0 2px rgba(255,255,255,.9) inset;pointer-events:none;
+           transition:left var(--dur-sheet) var(--ease),top var(--dur-sheet) var(--ease),
+                      width var(--dur-sheet) var(--ease),height var(--dur-sheet) var(--ease)}
+.tour-card{position:fixed;width:min(320px,calc(100vw - 24px));background:var(--card);
+           border-radius:14px;padding:14px 15px 12px;box-shadow:0 12px 32px rgba(0,0,0,.24);
+           transition:left var(--dur-sheet) var(--ease),top var(--dur-sheet) var(--ease)}
+.tour-t{font-size:15px;font-weight:800;color:#1a1a2e;line-height:1.4}
+.tour-d{font-size:13px;color:#555;line-height:1.65;margin-top:7px}
+.tour-bar{display:flex;align-items:center;gap:8px;margin-top:12px}
+.tour-step{font-size:12px;color:var(--muted2);flex:1;font-variant-numeric:tabular-nums}
+.tour-bar button{border:0;border-radius:999px;font-size:13px;padding:7px 14px;cursor:pointer;
+                 min-height:34px;transition:background-color var(--dur-press) var(--ease),
+                                            transform var(--dur-press) var(--ease)}
+.tour-skip{background:none;color:var(--muted2);padding:7px 8px}
+.tour-prev{background:#f2f2f4;color:#444}
+.tour-next{background:var(--brand);color:#fff;font-weight:700}
+.tour-bar button:active{transform:scale(.96)}
+.tour-skip:active{background:#f2f2f4}
+.tour-prev:active{background:#e6e6ea}
+.tour-next:active{background:var(--brand-2)}
+@media(hover:hover) and (pointer:fine){
+  .tour-skip:hover{background:#f2f2f4}
+  .tour-prev:hover{background:#e6e6ea}
+  .tour-next:hover{background:var(--brand-2)}
+}
+/* 顶栏的「?」：引导跳过之后还能自己叫回来。
+   不给出口的话，手滑点了跳过的人就再也见不到它了。 */
+.tour-open{border:1px solid var(--line);background:#fff;border-radius:999px;width:28px;height:28px;
+           flex-shrink:0;color:#666;font-size:13px;font-weight:700;cursor:pointer;line-height:1}
+.tour-open:active{background:#f2f2f4}
+@media(hover:hover) and (pointer:fine){.tour-open:hover{background:#f7f7f8;color:var(--brand)}}
+@media(prefers-reduced-motion:reduce){
+  #tour,#tour.closing{animation:none}
+  .tour-spot,.tour-card{transition:none}
+}
