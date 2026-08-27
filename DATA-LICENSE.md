@@ -8,6 +8,7 @@ fork 或再分发时请分别遵守下列条款。
 | 建筑轮廓 / 步行路网 / 设施点 | OpenStreetMap | **ODbL 1.0**：使用须署名「© OpenStreetMap contributors」，对衍生数据库同等开放 |
 | `h5-mvp/data/*`（osm-buildings / route-graph / facilities / basemap 等）| 基于 OSM 的衍生 | 含 OSM 衍生数据，**受 ODbL 约束** |
 | 巴士时刻表 `bus-*.json` | 昭和バス（NaviTime 承载） | 事实性信息；须注明来源与抓取日（`fetched`），改点以官网为准 |
+| 校内接驳 `aimo-*.json` | aimo 循環便官方時刻表（R8.4 时点）+ OSM `network=aimo` 站点 | 时刻为事实性信息，以 app 为准；站点坐标为 OSM 衍生，**受 ODbL 约束** |
 | 法定祝日 `jp-holidays.json` | 内阁府「国民の祝日」 | 公开数据 |
 | 办公室 `offices.json` + 草案 | 九大各官网人工整理 | 事实性信息，每条带出处 / 置信度 |
 | 建筑三语标注 `annotations-claude.json` / 教室 `classrooms.json` | 官方講義室页 + 人工标注 | 名称为事实信息；专有名词未机器翻译 |

@@ -47,8 +47,10 @@
     <!-- 地图：主页 -->
     <section id="pane-map" class="pane pane-map" style="display:none">
       <!-- src 延迟到用户点「地图」tab 才注入：地图数据约 500KB，
-           而默认进来的人是要看指南的，不该先替他下载地图。见 app.js mountMap() -->
-      <iframe id="mapFrame" title="校园地图" data-src="../h5-mvp/app.html" loading="lazy"></iframe>
+           而默认进来的人是要看指南的，不该先替他下载地图。见 app.js mountMap()
+           ?v= 必须带上：app.html 会把它透传给 data/*.json（见其中的 DATA_V），
+           不带的话改了数据也换不掉老用户缓存里的那份，而 HTML 却已经是新的。 -->
+      <iframe id="mapFrame" title="校园地图" data-src="../h5-mvp/app.html?v=20260834" loading="lazy"></iframe>
       <div class="map-tip" id="mapTip">地图由 Kyudaimap 提供 · 支持搜索与定位</div>
     </section>
 

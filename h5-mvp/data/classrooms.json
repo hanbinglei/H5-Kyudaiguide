@@ -1,1854 +1,513 @@
-[
- {
-  "code": "1209",
-  "building": 165694547,
-  "floor": "2",
-  "name_ja": "センター1号館 1209",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター1号館1209"
-  ],
-  "seats": 30,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "1210",
-  "building": 165694547,
-  "floor": "2",
-  "name_ja": "センター1号館 1210",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター1号館1210"
-  ],
-  "seats": 30,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "1303",
-  "building": 165694547,
-  "floor": "3",
-  "name_ja": "センター1号館 1303",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター1号館1303"
-  ],
-  "seats": 80,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "1304",
-  "building": 165694547,
-  "floor": "3",
-  "name_ja": "センター1号館 1304",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター1号館1304"
-  ],
-  "seats": 28,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "1305",
-  "building": 165694547,
-  "floor": "3",
-  "name_ja": "センター1号館 1305",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター1号館1305"
-  ],
-  "seats": 40,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "1306",
-  "building": 165694547,
-  "floor": "3",
-  "name_ja": "センター1号館 1306",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター1号館1306"
-  ],
-  "seats": 40,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "1401",
-  "building": 165694547,
-  "floor": "4",
-  "name_ja": "センター1号館 1401",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター1号館1401"
-  ],
-  "seats": 58,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "1402",
-  "building": 165694547,
-  "floor": "4",
-  "name_ja": "センター1号館 1402",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター1号館1402"
-  ],
-  "seats": 80,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "1403",
-  "building": 165694547,
-  "floor": "4",
-  "name_ja": "センター1号館 1403",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター1号館1403"
-  ],
-  "seats": 80,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "1404",
-  "building": 165694547,
-  "floor": "4",
-  "name_ja": "センター1号館 1404",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター1号館1404"
-  ],
-  "seats": 34,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "1405",
-  "building": 165694547,
-  "floor": "4",
-  "name_ja": "センター1号館 1405",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター1号館1405"
-  ],
-  "seats": 40,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "1406",
-  "building": 165694547,
-  "floor": "4",
-  "name_ja": "センター1号館 1406",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター1号館1406"
-  ],
-  "seats": 40,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "1407",
-  "building": 165694547,
-  "floor": "4",
-  "name_ja": "センター1号館 1407",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター1号館1407"
-  ],
-  "seats": 40,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "1408",
-  "building": 165694547,
-  "floor": "4",
-  "name_ja": "センター1号館 1408",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター1号館1408"
-  ],
-  "seats": 40,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "1607",
-  "building": 165694547,
-  "floor": "6",
-  "name_ja": "センター1号館 1607",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター1号館1607"
-  ],
-  "seats": 30,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "1608",
-  "building": 165694547,
-  "floor": "6",
-  "name_ja": "センター1号館 1608",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター1号館1608"
-  ],
-  "seats": 30,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2103",
-  "building": 165694554,
-  "floor": "1",
-  "name_ja": "センター2号館 2103",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2103"
-  ],
-  "seats": 63,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2104",
-  "building": 165694554,
-  "floor": "1",
-  "name_ja": "センター2号館 2104",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2104"
-  ],
-  "seats": 63,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2105",
-  "building": 165694554,
-  "floor": "1",
-  "name_ja": "センター2号館 2105",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2105"
-  ],
-  "seats": 63,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2106",
-  "building": 165694554,
-  "floor": "1",
-  "name_ja": "センター2号館 2106",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2106"
-  ],
-  "seats": 63,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2107",
-  "building": 165694554,
-  "floor": "1",
-  "name_ja": "センター2号館 2107",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2107"
-  ],
-  "seats": 60,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2108",
-  "building": 165694554,
-  "floor": "1",
-  "name_ja": "センター2号館 2108",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2108"
-  ],
-  "seats": 60,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2201",
-  "building": 165694554,
-  "floor": "2",
-  "name_ja": "センター2号館 2201",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2201"
-  ],
-  "seats": 63,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2202",
-  "building": 165694554,
-  "floor": "2",
-  "name_ja": "センター2号館 2202",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2202"
-  ],
-  "seats": 63,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2203",
-  "building": 165694554,
-  "floor": "2",
-  "name_ja": "センター2号館 2203",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2203"
-  ],
-  "seats": 63,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2204",
-  "building": 165694554,
-  "floor": "2",
-  "name_ja": "センター2号館 2204",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2204"
-  ],
-  "seats": 63,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2205",
-  "building": 165694554,
-  "floor": "2",
-  "name_ja": "センター2号館 2205",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2205"
-  ],
-  "seats": 40,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2206",
-  "building": 165694554,
-  "floor": "2",
-  "name_ja": "センター2号館 2206",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2206"
-  ],
-  "seats": 40,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2207",
-  "building": 165694554,
-  "floor": "2",
-  "name_ja": "センター2号館 2207",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2207"
-  ],
-  "seats": 63,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2208",
-  "building": 165694554,
-  "floor": "2",
-  "name_ja": "センター2号館 2208",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2208"
-  ],
-  "seats": 63,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2209",
-  "building": 165694554,
-  "floor": "2",
-  "name_ja": "センター2号館 2209",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2209"
-  ],
-  "seats": 63,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2210",
-  "building": 165694554,
-  "floor": "2",
-  "name_ja": "センター2号館 2210",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2210"
-  ],
-  "seats": 63,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2211",
-  "building": 165694554,
-  "floor": "2",
-  "name_ja": "センター2号館 2211",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2211"
-  ],
-  "seats": 63,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2212",
-  "building": 165694554,
-  "floor": "2",
-  "name_ja": "センター2号館 2212",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2212"
-  ],
-  "seats": 63,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2213",
-  "building": 165694554,
-  "floor": "2",
-  "name_ja": "センター2号館 2213",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2213"
-  ],
-  "seats": 40,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2214",
-  "building": 165694554,
-  "floor": "2",
-  "name_ja": "センター2号館 2214",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2214"
-  ],
-  "seats": 40,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2215",
-  "building": 165694554,
-  "floor": "2",
-  "name_ja": "センター2号館 2215",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2215"
-  ],
-  "seats": 63,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2216",
-  "building": 165694554,
-  "floor": "2",
-  "name_ja": "センター2号館 2216",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2216"
-  ],
-  "seats": 63,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2301",
-  "building": 165694554,
-  "floor": "3",
-  "name_ja": "センター2号館 2301",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2301"
-  ],
-  "seats": 40,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2302",
-  "building": 165694554,
-  "floor": "3",
-  "name_ja": "センター2号館 2302",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2302"
-  ],
-  "seats": 40,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2303",
-  "building": 165694554,
-  "floor": "3",
-  "name_ja": "センター2号館 2303",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2303"
-  ],
-  "seats": 127,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2304",
-  "building": 165694554,
-  "floor": "3",
-  "name_ja": "センター2号館 2304",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2304"
-  ],
-  "seats": 127,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2305",
-  "building": 165694554,
-  "floor": "3",
-  "name_ja": "センター2号館 2305",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2305"
-  ],
-  "seats": 127,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2306",
-  "building": 165694554,
-  "floor": "3",
-  "name_ja": "センター2号館 2306",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2306"
-  ],
-  "seats": 127,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2308",
-  "building": 165694554,
-  "floor": "3",
-  "name_ja": "センター2号館 2308",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2308"
-  ],
-  "seats": 127,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2309",
-  "building": 165694554,
-  "floor": "3",
-  "name_ja": "センター2号館 2309",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2309"
-  ],
-  "seats": 40,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2310",
-  "building": 165694554,
-  "floor": "3",
-  "name_ja": "センター2号館 2310",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2310"
-  ],
-  "seats": 40,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2401",
-  "building": 165694554,
-  "floor": "4",
-  "name_ja": "センター2号館 2401",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2401"
-  ],
-  "seats": 40,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2402",
-  "building": 165694554,
-  "floor": "4",
-  "name_ja": "センター2号館 2402",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2402"
-  ],
-  "seats": 40,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2403",
-  "building": 165694554,
-  "floor": "4",
-  "name_ja": "センター2号館 2403",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2403"
-  ],
-  "seats": 150,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2404",
-  "building": 165694554,
-  "floor": "4",
-  "name_ja": "センター2号館 2404",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2404"
-  ],
-  "seats": 150,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2406",
-  "building": 165694554,
-  "floor": "4",
-  "name_ja": "センター2号館 2406",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2406"
-  ],
-  "seats": 150,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2407",
-  "building": 165694554,
-  "floor": "4",
-  "name_ja": "センター2号館 2407",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2407"
-  ],
-  "seats": 150,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2408",
-  "building": 165694554,
-  "floor": "4",
-  "name_ja": "センター2号館 2408",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2408"
-  ],
-  "seats": 40,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "2409",
-  "building": 165694554,
-  "floor": "4",
-  "name_ja": "センター2号館 2409",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "センター2号館2409"
-  ],
-  "seats": 36,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "A-101",
-  "building": 770575334,
-  "floor": "1",
-  "name_ja": "演習室A-101",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "演習室A-101",
-   "A101"
-  ],
-  "seats": 30,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "A-102",
-  "building": 770575334,
-  "floor": "1",
-  "name_ja": "演習室A-102",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "演習室A-102",
-   "A102"
-  ],
-  "seats": 30,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "A-103",
-  "building": 770575334,
-  "floor": "1",
-  "name_ja": "演習室A-103",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "演習室A-103",
-   "A103"
-  ],
-  "seats": 30,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "A-104",
-  "building": 770575334,
-  "floor": "1",
-  "name_ja": "演習室A-104",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "演習室A-104",
-   "A104"
-  ],
-  "seats": 30,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "A-105",
-  "building": 770575334,
-  "floor": "1",
-  "name_ja": "演習室A-105",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "演習室A-105",
-   "A105"
-  ],
-  "seats": 60,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "A-117",
-  "building": 770575334,
-  "floor": "1",
-  "name_ja": "演習室A-117",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "演習室A-117",
-   "A117"
-  ],
-  "seats": 140,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "A-118",
-  "building": 770575334,
-  "floor": "1",
-  "name_ja": "演習室A-118",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "演習室A-118",
-   "A118"
-  ],
-  "seats": 98,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "B-101",
-  "building": 770575334,
-  "floor": "1",
-  "name_ja": "演習室B-101",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "演習室B-101",
-   "B101"
-  ],
-  "seats": 98,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "B-102",
-  "building": 770575334,
-  "floor": "1",
-  "name_ja": "演習室B-102",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "演習室B-102",
-   "B102"
-  ],
-  "seats": 45,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "B-103",
-  "building": 770575334,
-  "floor": "1",
-  "name_ja": "演習室B-103",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "演習室B-103",
-   "B103"
-  ],
-  "seats": 30,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "B-104",
-  "building": 770575334,
-  "floor": "1",
-  "name_ja": "演習室B-104",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "演習室B-104",
-   "B104"
-  ],
-  "seats": 30,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "B-105",
-  "building": 770575334,
-  "floor": "1",
-  "name_ja": "演習室B-105",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "演習室B-105",
-   "B105"
-  ],
-  "seats": 30,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "B-106",
-  "building": 770575334,
-  "floor": "1",
-  "name_ja": "演習室B-106",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "演習室B-106",
-   "B106"
-  ],
-  "seats": 22,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "B-112",
-  "building": 770575334,
-  "floor": "1",
-  "name_ja": "演習室B-112",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "演習室B-112",
-   "B112"
-  ],
-  "seats": 200,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "B-207",
-  "building": 770575334,
-  "floor": "2",
-  "name_ja": "演習室B-207",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "演習室B-207",
-   "B207"
-  ],
-  "seats": 12,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "B-208",
-  "building": 770575334,
-  "floor": "2",
-  "name_ja": "演習室B-208",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "演習室B-208",
-   "B208"
-  ],
-  "seats": 32,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "B-217",
-  "building": 770575334,
-  "floor": "2",
-  "name_ja": "演習室B-217",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "演習室B-217",
-   "B217"
-  ],
-  "seats": 12,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "B-218",
-  "building": 770575334,
-  "floor": "2",
-  "name_ja": "演習室B-218",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "演習室B-218",
-   "B218"
-  ],
-  "seats": 12,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "B-219",
-  "building": 770575334,
-  "floor": "2",
-  "name_ja": "演習室B-219",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "演習室B-219",
-   "B219"
-  ],
-  "seats": 12,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "B-220",
-  "building": 770575334,
-  "floor": "2",
-  "name_ja": "演習室B-220",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "演習室B-220",
-   "B220"
-  ],
-  "seats": 12,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "B-221",
-  "building": 770575334,
-  "floor": "2",
-  "name_ja": "演習室B-221",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "演習室B-221",
-   "B221"
-  ],
-  "seats": 12,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "C-210",
-  "building": 770575334,
-  "floor": "2",
-  "name_ja": "演習室C-210",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "演習室C-210",
-   "C210"
-  ],
-  "seats": 12,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "C-211",
-  "building": 770575334,
-  "floor": "2",
-  "name_ja": "演習室C-211",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "演習室C-211",
-   "C211"
-  ],
-  "seats": 12,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "C-212",
-  "building": 770575334,
-  "floor": "2",
-  "name_ja": "演習室C-212",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "演習室C-212",
-   "C212"
-  ],
-  "seats": 30,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "プレゼンスペース（イースト1号館）",
-  "building": 770575334,
-  "floor": "1",
-  "name_ja": "イースト1号館 プレゼンスペース",
-  "name_zh": "演示空间",
-  "name_en": "Presentation Space",
-  "aliases": [
-   "プレゼンスペース"
-  ],
-  "seats": null,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "D-103",
-  "building": 770575335,
-  "floor": "1",
-  "name_ja": "講義室D-103",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "講義室D-103",
-   "D103"
-  ],
-  "seats": 350,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "D-105",
-  "building": 770575335,
-  "floor": "1",
-  "name_ja": "講義室D-105",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "講義室D-105",
-   "D105"
-  ],
-  "seats": 250,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "D-106",
-  "building": 770575335,
-  "floor": "1",
-  "name_ja": "講義室D-106",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "講義室D-106",
-   "D106"
-  ],
-  "seats": 50,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "D-107",
-  "building": 770575335,
-  "floor": "1",
-  "name_ja": "講義室D-107",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "講義室D-107",
-   "D107"
-  ],
-  "seats": 50,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "D-108",
-  "building": 770575335,
-  "floor": "1",
-  "name_ja": "講義室D-108",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "講義室D-108",
-   "D108"
-  ],
-  "seats": 24,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "D-109",
-  "building": 770575335,
-  "floor": "1",
-  "name_ja": "講義室D-109",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "講義室D-109",
-   "D109"
-  ],
-  "seats": 24,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "D-110",
-  "building": 770575335,
-  "floor": "1",
-  "name_ja": "講義室D-110",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "講義室D-110",
-   "D110"
-  ],
-  "seats": 12,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "D-111",
-  "building": 770575335,
-  "floor": "1",
-  "name_ja": "講義室D-111",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "講義室D-111",
-   "D111"
-  ],
-  "seats": 12,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "D-112",
-  "building": 770575335,
-  "floor": "1",
-  "name_ja": "講義室D-112",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "講義室D-112",
-   "D112"
-  ],
-  "seats": 12,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "E-101",
-  "building": 770575335,
-  "floor": "1",
-  "name_ja": "講義室E-101",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "講義室E-101",
-   "E101"
-  ],
-  "seats": 30,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "E-102",
-  "building": 770575335,
-  "floor": "1",
-  "name_ja": "講義室E-102",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "講義室E-102",
-   "E102"
-  ],
-  "seats": 30,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "E-103",
-  "building": 770575335,
-  "floor": "1",
-  "name_ja": "講義室E-103",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "講義室E-103",
-   "E103"
-  ],
-  "seats": 30,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "E-104",
-  "building": 770575335,
-  "floor": "1",
-  "name_ja": "講義室E-104",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "講義室E-104",
-   "E104"
-  ],
-  "seats": 30,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "E-105",
-  "building": 770575335,
-  "floor": "1",
-  "name_ja": "講義室E-105",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "講義室E-105",
-   "E105"
-  ],
-  "seats": 70,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "E-109",
-  "building": 770575335,
-  "floor": "1",
-  "name_ja": "講義室E-109",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "講義室E-109",
-   "E109"
-  ],
-  "seats": 140,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "E-110",
-  "building": 770575335,
-  "floor": "1",
-  "name_ja": "講義室E-110",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "講義室E-110",
-   "E110"
-  ],
-  "seats": 100,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "E-112",
-  "building": 770575335,
-  "floor": "1",
-  "name_ja": "講義室E-112",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "講義室E-112",
-   "E112"
-  ],
-  "seats": 100,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "プレゼンスペース（イースト2号館）",
-  "building": 770575335,
-  "floor": "1",
-  "name_ja": "イースト2号館 プレゼンスペース",
-  "name_zh": "演示空间",
-  "name_en": "Presentation Space",
-  "aliases": [
-   "プレゼンスペース"
-  ],
-  "seats": null,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "大講義室Ⅰ",
-  "building": 770575332,
-  "floor": "1",
-  "name_ja": "大講義室Ⅰ",
-  "name_zh": "大讲义室Ⅰ（铃与未来厅Ⅰ）",
-  "name_en": "Lecture Room I (Suzuyo Mirai Hall I)",
-  "aliases": [
-   "鈴与未来ホールⅠ",
-   "Suzuyo Mirai Hall"
-  ],
-  "seats": 500,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "大講義室Ⅱ",
-  "building": 770575333,
-  "floor": "1",
-  "name_ja": "大講義室Ⅱ",
-  "name_zh": "大讲义室Ⅱ（铃与未来厅Ⅱ）",
-  "name_en": "Lecture Room II (Suzuyo Mirai Hall II)",
-  "aliases": [
-   "鈴与未来ホールⅡ",
-   "Suzuyo Mirai Hall"
-  ],
-  "seats": 500,
-  "source": "https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"
- },
- {
-  "code": "工学部第1講義室",
-  "building": 167423392,
-  "floor": "2",
-  "name_ja": "工学部第1講義室",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "工学部第1",
-   "第1講義室"
-  ],
-  "seats": null,
-  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
- },
- {
-  "code": "工学部第2講義室",
-  "building": 167423392,
-  "floor": "2",
-  "name_ja": "工学部第2講義室",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "工学部第2",
-   "第2講義室"
-  ],
-  "seats": null,
-  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
- },
- {
-  "code": "工学部第3講義室",
-  "building": 167423392,
-  "floor": "3",
-  "name_ja": "工学部第3講義室",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "工学部第3",
-   "第3講義室"
-  ],
-  "seats": null,
-  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
- },
- {
-  "code": "工学部第4講義室",
-  "building": 167423392,
-  "floor": "3",
-  "name_ja": "工学部第4講義室",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "工学部第4",
-   "第4講義室"
-  ],
-  "seats": null,
-  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
- },
- {
-  "code": "工学部第5講義室",
-  "building": 10019151273,
-  "floor": "1",
-  "name_ja": "工学部第5講義室",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "工学部第5",
-   "第5講義室",
-   "総合学習プラザ"
-  ],
-  "seats": null,
-  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
- },
- {
-  "code": "工学部第6講義室",
-  "building": 10019151273,
-  "floor": "1",
-  "name_ja": "工学部第6講義室",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "工学部第6",
-   "第6講義室",
-   "総合学習プラザ"
-  ],
-  "seats": null,
-  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
- },
- {
-  "code": "工学部第7講義室",
-  "building": 10019151273,
-  "floor": "1",
-  "name_ja": "工学部第7講義室",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "工学部第7",
-   "第7講義室",
-   "総合学習プラザ"
-  ],
-  "seats": null,
-  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
- },
- {
-  "code": "工学部第8講義室",
-  "building": 10019151273,
-  "floor": "1",
-  "name_ja": "工学部第8講義室",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "工学部第8",
-   "第8講義室",
-   "総合学習プラザ"
-  ],
-  "seats": null,
-  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
- },
- {
-  "code": "工学部第9講義室",
-  "building": 10019151273,
-  "floor": "1",
-  "name_ja": "工学部第9講義室",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "工学部第9",
-   "第9講義室",
-   "総合学習プラザ"
-  ],
-  "seats": null,
-  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
- },
- {
-  "code": "工学部第10講義室",
-  "building": 10019151273,
-  "floor": "1",
-  "name_ja": "工学部第10講義室",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "工学部第10",
-   "第10講義室",
-   "総合学習プラザ"
-  ],
-  "seats": null,
-  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
- },
- {
-  "code": "工学部第11講義室",
-  "building": 10019151273,
-  "floor": "1",
-  "name_ja": "工学部第11講義室",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "工学部第11",
-   "第11講義室",
-   "総合学習プラザ"
-  ],
-  "seats": null,
-  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
- },
- {
-  "code": "工学部第12講義室",
-  "building": 10019151273,
-  "floor": "2",
-  "name_ja": "工学部第12講義室",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "工学部第12",
-   "第12講義室",
-   "総合学習プラザ"
-  ],
-  "seats": null,
-  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
- },
- {
-  "code": "工学部第13講義室",
-  "building": 10019151273,
-  "floor": "2",
-  "name_ja": "工学部第13講義室",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "工学部第13",
-   "第13講義室",
-   "総合学習プラザ"
-  ],
-  "seats": null,
-  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
- },
- {
-  "code": "工学部第14講義室",
-  "building": 10019151273,
-  "floor": "2",
-  "name_ja": "工学部第14講義室",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "工学部第14",
-   "第14講義室",
-   "総合学習プラザ"
-  ],
-  "seats": null,
-  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
- },
- {
-  "code": "工学部第15講義室",
-  "building": 10019151273,
-  "floor": "2",
-  "name_ja": "工学部第15講義室",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "工学部第15",
-   "第15講義室",
-   "総合学習プラザ"
-  ],
-  "seats": null,
-  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
- },
- {
-  "code": "工学部第16講義室",
-  "building": 10019151273,
-  "floor": "2",
-  "name_ja": "工学部第16講義室",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "工学部第16",
-   "第16講義室",
-   "総合学習プラザ"
-  ],
-  "seats": null,
-  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
- },
- {
-  "code": "工学部大講義室",
-  "building": 10019151273,
-  "floor": "2",
-  "name_ja": "工学部大講義室",
-  "name_zh": "工学部大讲义室",
-  "name_en": "Engineering Large Lecture Room",
-  "aliases": [
-   "大講義室（工学部）",
-   "総合学習プラザ大講義室"
-  ],
-  "seats": null,
-  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
- },
- {
-  "code": "工学部中講義室",
-  "building": 10019151272,
-  "floor": "2",
-  "name_ja": "工学部中講義室",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "中講義室"
-  ],
-  "seats": null,
-  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
- },
- {
-  "code": "311講義室",
-  "building": 10019151272,
-  "floor": "3",
-  "name_ja": "311講義室（機械1）",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "311",
-   "機械1"
-  ],
-  "seats": null,
-  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
- },
- {
-  "code": "312講義室",
-  "building": 10019151272,
-  "floor": "3",
-  "name_ja": "312講義室（機械2）",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "312",
-   "機械2"
-  ],
-  "seats": null,
-  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
- },
- {
-  "code": "313講義室",
-  "building": 10019151272,
-  "floor": "3",
-  "name_ja": "313講義室（機械3）",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "313",
-   "機械3"
-  ],
-  "seats": null,
-  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
- },
- {
-  "code": "製図室302",
-  "building": 10019151272,
-  "floor": "3",
-  "name_ja": "製図室302",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "302"
-  ],
-  "seats": null,
-  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
- },
- {
-  "code": "製図室303",
-  "building": 10019151272,
-  "floor": "3",
-  "name_ja": "製図室303",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "303"
-  ],
-  "seats": null,
-  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
- },
- {
-  "code": "製図室304",
-  "building": 10019151272,
-  "floor": "3",
-  "name_ja": "製図室304",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "304"
-  ],
-  "seats": null,
-  "source": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"
- },
- {
-  "code": "C-501",
-  "building": 10012235450,
-  "floor": "5",
-  "name_ja": "C-501／大講義室",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "C501",
-   "大講義室"
-  ],
-  "seats": null,
-  "source": "https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"
- },
- {
-  "code": "C-502",
-  "building": 10012235450,
-  "floor": "5",
-  "name_ja": "C-502",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "C502"
-  ],
-  "seats": null,
-  "source": "https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"
- },
- {
-  "code": "C-503",
-  "building": 10012235450,
-  "floor": "5",
-  "name_ja": "C-503／小講義室",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "C503",
-   "小講義室"
-  ],
-  "seats": null,
-  "source": "https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"
- },
- {
-  "code": "C-504",
-  "building": 10012235450,
-  "floor": "5",
-  "name_ja": "C-504／小講義室",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "C504",
-   "小講義室"
-  ],
-  "seats": null,
-  "source": "https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"
- },
- {
-  "code": "C-512",
-  "building": 10012235450,
-  "floor": "5",
-  "name_ja": "C-512／中講義室",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "C512",
-   "中講義室"
-  ],
-  "seats": null,
-  "source": "https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"
- },
- {
-  "code": "C-513",
-  "building": 10012235450,
-  "floor": "5",
-  "name_ja": "C-513／中講義室",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "C513",
-   "中講義室"
-  ],
-  "seats": null,
-  "source": "https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"
- },
- {
-  "code": "C-514",
-  "building": 10012235450,
-  "floor": "5",
-  "name_ja": "C-514",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "C514"
-  ],
-  "seats": null,
-  "source": "https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"
- },
- {
-  "code": "C-515",
-  "building": 10012235450,
-  "floor": "5",
-  "name_ja": "C-515",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "C515"
-  ],
-  "seats": null,
-  "source": "https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"
- },
- {
-  "code": "C-408",
-  "building": 10012235450,
-  "floor": "4",
-  "name_ja": "C-408／大会議室",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "C408",
-   "大会議室"
-  ],
-  "seats": null,
-  "source": "https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"
- },
- {
-  "code": "C-409",
-  "building": 10012235450,
-  "floor": "4",
-  "name_ja": "C-409／小会議室",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "C409",
-   "小会議室"
-  ],
-  "seats": null,
-  "source": "https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"
- },
- {
-  "code": "D-413",
-  "building": 10012235450,
-  "floor": "4",
-  "name_ja": "D-413／IMIオーディトリアム",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "D413",
-   "IMIオーディトリアム"
-  ],
-  "seats": null,
-  "source": "https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"
- },
- {
-  "code": "D-414",
-  "building": 10012235450,
-  "floor": "4",
-  "name_ja": "D-414／IMIコンファレンスルーム",
-  "name_zh": "",
-  "name_en": "",
-  "aliases": [
-   "D414",
-   "IMIコンファレンスルーム"
-  ],
-  "seats": null,
-  "source": "https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"
- }
-]
+[{"code":"1209","building":165694547,"floor":"2","name_ja":"センター1号館 1209","name_zh":"","name_en":"","aliases":["センター1号館1209"],"seats":30,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"1210","building":165694547,"floor":"2","name_ja":"センター1号館 1210","name_zh":"","name_en":"","aliases":["センター1号館1210"],"seats":30,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"1303","building":165694547,"floor":"3","name_ja":"センター1号館 1303","name_zh":"","name_en":"","aliases":["センター1号館1303"],"seats":80,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"1304","building":165694547,"floor":"3","name_ja":"センター1号館 1304","name_zh":"","name_en":"","aliases":["センター1号館1304"],"seats":28,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"1305","building":165694547,"floor":"3","name_ja":"センター1号館 1305","name_zh":"","name_en":"","aliases":["センター1号館1305"],"seats":40,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"1306","building":165694547,"floor":"3","name_ja":"センター1号館 1306","name_zh":"","name_en":"","aliases":["センター1号館1306"],"seats":40,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"1401","building":165694547,"floor":"4","name_ja":"センター1号館 1401","name_zh":"","name_en":"","aliases":["センター1号館1401"],"seats":58,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"1402","building":165694547,"floor":"4","name_ja":"センター1号館 1402","name_zh":"","name_en":"","aliases":["センター1号館1402"],"seats":80,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"1403","building":165694547,"floor":"4","name_ja":"センター1号館 1403","name_zh":"","name_en":"","aliases":["センター1号館1403"],"seats":80,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"1404","building":165694547,"floor":"4","name_ja":"センター1号館 1404","name_zh":"","name_en":"","aliases":["センター1号館1404"],"seats":34,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"1405","building":165694547,"floor":"4","name_ja":"センター1号館 1405","name_zh":"","name_en":"","aliases":["センター1号館1405"],"seats":40,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"1406","building":165694547,"floor":"4","name_ja":"センター1号館 1406","name_zh":"","name_en":"","aliases":["センター1号館1406"],"seats":40,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"1407","building":165694547,"floor":"4","name_ja":"センター1号館 1407","name_zh":"","name_en":"","aliases":["センター1号館1407"],"seats":40,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"1408","building":165694547,"floor":"4","name_ja":"センター1号館 1408","name_zh":"","name_en":"","aliases":["センター1号館1408"],"seats":40,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"1607","building":165694547,"floor":"6","name_ja":"センター1号館 1607","name_zh":"","name_en":"","aliases":["センター1号館1607"],"seats":30,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"1608","building":165694547,"floor":"6","name_ja":"センター1号館 1608","name_zh":"","name_en":"","aliases":["センター1号館1608"],"seats":30,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2103","building":165694554,"floor":"1","name_ja":"センター2号館 2103","name_zh":"","name_en":"","aliases":["センター2号館2103"],"seats":63,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2104","building":165694554,"floor":"1","name_ja":"センター2号館 2104","name_zh":"","name_en":"","aliases":["センター2号館2104"],"seats":63,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2105","building":165694554,"floor":"1","name_ja":"センター2号館 2105","name_zh":"","name_en":"","aliases":["センター2号館2105"],"seats":63,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2106","building":165694554,"floor":"1","name_ja":"センター2号館 2106","name_zh":"","name_en":"","aliases":["センター2号館2106"],"seats":63,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2107","building":165694554,"floor":"1","name_ja":"センター2号館 2107","name_zh":"","name_en":"","aliases":["センター2号館2107"],"seats":60,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2108","building":165694554,"floor":"1","name_ja":"センター2号館 2108","name_zh":"","name_en":"","aliases":["センター2号館2108"],"seats":60,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2201","building":165694554,"floor":"2","name_ja":"センター2号館 2201","name_zh":"","name_en":"","aliases":["センター2号館2201"],"seats":63,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2202","building":165694554,"floor":"2","name_ja":"センター2号館 2202","name_zh":"","name_en":"","aliases":["センター2号館2202"],"seats":63,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2203","building":165694554,"floor":"2","name_ja":"センター2号館 2203","name_zh":"","name_en":"","aliases":["センター2号館2203"],"seats":63,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2204","building":165694554,"floor":"2","name_ja":"センター2号館 2204","name_zh":"","name_en":"","aliases":["センター2号館2204"],"seats":63,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2205","building":165694554,"floor":"2","name_ja":"センター2号館 2205","name_zh":"","name_en":"","aliases":["センター2号館2205"],"seats":40,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2206","building":165694554,"floor":"2","name_ja":"センター2号館 2206","name_zh":"","name_en":"","aliases":["センター2号館2206"],"seats":40,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2207","building":165694554,"floor":"2","name_ja":"センター2号館 2207","name_zh":"","name_en":"","aliases":["センター2号館2207"],"seats":63,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2208","building":165694554,"floor":"2","name_ja":"センター2号館 2208","name_zh":"","name_en":"","aliases":["センター2号館2208"],"seats":63,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2209","building":165694554,"floor":"2","name_ja":"センター2号館 2209","name_zh":"","name_en":"","aliases":["センター2号館2209"],"seats":63,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2210","building":165694554,"floor":"2","name_ja":"センター2号館 2210","name_zh":"","name_en":"","aliases":["センター2号館2210"],"seats":63,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2211","building":165694554,"floor":"2","name_ja":"センター2号館 2211","name_zh":"","name_en":"","aliases":["センター2号館2211"],"seats":63,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2212","building":165694554,"floor":"2","name_ja":"センター2号館 2212","name_zh":"","name_en":"","aliases":["センター2号館2212"],"seats":63,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2213","building":165694554,"floor":"2","name_ja":"センター2号館 2213","name_zh":"","name_en":"","aliases":["センター2号館2213"],"seats":40,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2214","building":165694554,"floor":"2","name_ja":"センター2号館 2214","name_zh":"","name_en":"","aliases":["センター2号館2214"],"seats":40,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2215","building":165694554,"floor":"2","name_ja":"センター2号館 2215","name_zh":"","name_en":"","aliases":["センター2号館2215"],"seats":63,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2216","building":165694554,"floor":"2","name_ja":"センター2号館 2216","name_zh":"","name_en":"","aliases":["センター2号館2216"],"seats":63,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2301","building":165694554,"floor":"3","name_ja":"センター2号館 2301","name_zh":"","name_en":"","aliases":["センター2号館2301"],"seats":40,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2302","building":165694554,"floor":"3","name_ja":"センター2号館 2302","name_zh":"","name_en":"","aliases":["センター2号館2302"],"seats":40,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2303","building":165694554,"floor":"3","name_ja":"センター2号館 2303","name_zh":"","name_en":"","aliases":["センター2号館2303"],"seats":127,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2304","building":165694554,"floor":"3","name_ja":"センター2号館 2304","name_zh":"","name_en":"","aliases":["センター2号館2304"],"seats":127,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2305","building":165694554,"floor":"3","name_ja":"センター2号館 2305","name_zh":"","name_en":"","aliases":["センター2号館2305"],"seats":127,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2306","building":165694554,"floor":"3","name_ja":"センター2号館 2306","name_zh":"","name_en":"","aliases":["センター2号館2306"],"seats":127,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2308","building":165694554,"floor":"3","name_ja":"センター2号館 2308","name_zh":"","name_en":"","aliases":["センター2号館2308"],"seats":127,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2309","building":165694554,"floor":"3","name_ja":"センター2号館 2309","name_zh":"","name_en":"","aliases":["センター2号館2309"],"seats":40,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2310","building":165694554,"floor":"3","name_ja":"センター2号館 2310","name_zh":"","name_en":"","aliases":["センター2号館2310"],"seats":40,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2401","building":165694554,"floor":"4","name_ja":"センター2号館 2401","name_zh":"","name_en":"","aliases":["センター2号館2401"],"seats":40,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2402","building":165694554,"floor":"4","name_ja":"センター2号館 2402","name_zh":"","name_en":"","aliases":["センター2号館2402"],"seats":40,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2403","building":165694554,"floor":"4","name_ja":"センター2号館 2403","name_zh":"","name_en":"","aliases":["センター2号館2403"],"seats":150,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2404","building":165694554,"floor":"4","name_ja":"センター2号館 2404","name_zh":"","name_en":"","aliases":["センター2号館2404"],"seats":150,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2406","building":165694554,"floor":"4","name_ja":"センター2号館 2406","name_zh":"","name_en":"","aliases":["センター2号館2406"],"seats":150,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2407","building":165694554,"floor":"4","name_ja":"センター2号館 2407","name_zh":"","name_en":"","aliases":["センター2号館2407"],"seats":150,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2408","building":165694554,"floor":"4","name_ja":"センター2号館 2408","name_zh":"","name_en":"","aliases":["センター2号館2408"],"seats":40,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"2409","building":165694554,"floor":"4","name_ja":"センター2号館 2409","name_zh":"","name_en":"","aliases":["センター2号館2409"],"seats":36,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"A-101","building":770575334,"floor":"1","name_ja":"演習室A-101","name_zh":"","name_en":"","aliases":["演習室A-101","A101"],"seats":30,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"A-102","building":770575334,"floor":"1","name_ja":"演習室A-102","name_zh":"","name_en":"","aliases":["演習室A-102","A102"],"seats":30,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"A-103","building":770575334,"floor":"1","name_ja":"演習室A-103","name_zh":"","name_en":"","aliases":["演習室A-103","A103"],"seats":30,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"A-104","building":770575334,"floor":"1","name_ja":"演習室A-104","name_zh":"","name_en":"","aliases":["演習室A-104","A104"],"seats":30,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"A-105","building":770575334,"floor":"1","name_ja":"演習室A-105","name_zh":"","name_en":"","aliases":["演習室A-105","A105"],"seats":60,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"A-117","building":770575334,"floor":"1","name_ja":"演習室A-117","name_zh":"","name_en":"","aliases":["演習室A-117","A117"],"seats":140,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"A-118","building":770575334,"floor":"1","name_ja":"演習室A-118","name_zh":"","name_en":"","aliases":["演習室A-118","A118"],"seats":98,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"B-101","building":770575334,"floor":"1","name_ja":"演習室B-101","name_zh":"","name_en":"","aliases":["演習室B-101","B101"],"seats":98,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"B-102","building":770575334,"floor":"1","name_ja":"演習室B-102","name_zh":"","name_en":"","aliases":["演習室B-102","B102"],"seats":45,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"B-103","building":770575334,"floor":"1","name_ja":"演習室B-103","name_zh":"","name_en":"","aliases":["演習室B-103","B103"],"seats":30,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"B-104","building":770575334,"floor":"1","name_ja":"演習室B-104","name_zh":"","name_en":"","aliases":["演習室B-104","B104"],"seats":30,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"B-105","building":770575334,"floor":"1","name_ja":"演習室B-105","name_zh":"","name_en":"","aliases":["演習室B-105","B105"],"seats":30,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"B-106","building":770575334,"floor":"1","name_ja":"演習室B-106","name_zh":"","name_en":"","aliases":["演習室B-106","B106"],"seats":22,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"B-112","building":770575334,"floor":"1","name_ja":"演習室B-112","name_zh":"","name_en":"","aliases":["演習室B-112","B112"],"seats":200,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"B-207","building":770575334,"floor":"2","name_ja":"演習室B-207","name_zh":"","name_en":"","aliases":["演習室B-207","B207"],"seats":12,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"B-208","building":770575334,"floor":"2","name_ja":"演習室B-208","name_zh":"","name_en":"","aliases":["演習室B-208","B208"],"seats":32,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"B-217","building":770575334,"floor":"2","name_ja":"演習室B-217","name_zh":"","name_en":"","aliases":["演習室B-217","B217"],"seats":12,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"B-218","building":770575334,"floor":"2","name_ja":"演習室B-218","name_zh":"","name_en":"","aliases":["演習室B-218","B218"],"seats":12,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"B-219","building":770575334,"floor":"2","name_ja":"演習室B-219","name_zh":"","name_en":"","aliases":["演習室B-219","B219"],"seats":12,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"B-220","building":770575334,"floor":"2","name_ja":"演習室B-220","name_zh":"","name_en":"","aliases":["演習室B-220","B220"],"seats":12,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"B-221","building":770575334,"floor":"2","name_ja":"演習室B-221","name_zh":"","name_en":"","aliases":["演習室B-221","B221"],"seats":12,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"C-210","building":770575334,"floor":"2","name_ja":"演習室C-210","name_zh":"","name_en":"","aliases":["演習室C-210","C210"],"seats":12,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"C-211","building":770575334,"floor":"2","name_ja":"演習室C-211","name_zh":"","name_en":"","aliases":["演習室C-211","C211"],"seats":12,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"C-212","building":770575334,"floor":"2","name_ja":"演習室C-212","name_zh":"","name_en":"","aliases":["演習室C-212","C212"],"seats":30,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"プレゼンスペース（イースト1号館）","building":770575334,"floor":"1","name_ja":"イースト1号館 プレゼンスペース","name_zh":"演示空间","name_en":"Presentation Space","aliases":["プレゼンスペース"],"seats":null,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"D-103","building":770575335,"floor":"1","name_ja":"講義室D-103","name_zh":"","name_en":"","aliases":["講義室D-103","D103"],"seats":350,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"D-105","building":770575335,"floor":"1","name_ja":"講義室D-105","name_zh":"","name_en":"","aliases":["講義室D-105","D105"],"seats":250,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"D-106","building":770575335,"floor":"1","name_ja":"講義室D-106","name_zh":"","name_en":"","aliases":["講義室D-106","D106"],"seats":50,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"D-107","building":770575335,"floor":"1","name_ja":"講義室D-107","name_zh":"","name_en":"","aliases":["講義室D-107","D107"],"seats":50,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"D-108","building":770575335,"floor":"1","name_ja":"講義室D-108","name_zh":"","name_en":"","aliases":["講義室D-108","D108"],"seats":24,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"D-109","building":770575335,"floor":"1","name_ja":"講義室D-109","name_zh":"","name_en":"","aliases":["講義室D-109","D109"],"seats":24,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"D-110","building":770575335,"floor":"1","name_ja":"講義室D-110","name_zh":"","name_en":"","aliases":["講義室D-110","D110"],"seats":12,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"D-111","building":770575335,"floor":"1","name_ja":"講義室D-111","name_zh":"","name_en":"","aliases":["講義室D-111","D111"],"seats":12,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"D-112","building":770575335,"floor":"1","name_ja":"講義室D-112","name_zh":"","name_en":"","aliases":["講義室D-112","D112"],"seats":12,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"E-101","building":770575335,"floor":"1","name_ja":"講義室E-101","name_zh":"","name_en":"","aliases":["講義室E-101","E101"],"seats":30,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"E-102","building":770575335,"floor":"1","name_ja":"講義室E-102","name_zh":"","name_en":"","aliases":["講義室E-102","E102"],"seats":30,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"E-103","building":770575335,"floor":"1","name_ja":"講義室E-103","name_zh":"","name_en":"","aliases":["講義室E-103","E103"],"seats":30,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"E-104","building":770575335,"floor":"1","name_ja":"講義室E-104","name_zh":"","name_en":"","aliases":["講義室E-104","E104"],"seats":30,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"E-105","building":770575335,"floor":"1","name_ja":"講義室E-105","name_zh":"","name_en":"","aliases":["講義室E-105","E105"],"seats":70,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"E-109","building":770575335,"floor":"1","name_ja":"講義室E-109","name_zh":"","name_en":"","aliases":["講義室E-109","E109"],"seats":140,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"E-110","building":770575335,"floor":"1","name_ja":"講義室E-110","name_zh":"","name_en":"","aliases":["講義室E-110","E110"],"seats":100,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"E-112","building":770575335,"floor":"1","name_ja":"講義室E-112","name_zh":"","name_en":"","aliases":["講義室E-112","E112"],"seats":100,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"プレゼンスペース（イースト2号館）","building":770575335,"floor":"1","name_ja":"イースト2号館 プレゼンスペース","name_zh":"演示空间","name_en":"Presentation Space","aliases":["プレゼンスペース"],"seats":null,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"大講義室Ⅰ","building":770575332,"floor":"1","name_ja":"大講義室Ⅰ","name_zh":"大讲义室Ⅰ（铃与未来厅Ⅰ）","name_en":"Lecture Room I (Suzuyo Mirai Hall I)","aliases":["鈴与未来ホールⅠ","Suzuyo Mirai Hall"],"seats":500,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"大講義室Ⅱ","building":770575333,"floor":"1","name_ja":"大講義室Ⅱ","name_zh":"大讲义室Ⅱ（铃与未来厅Ⅱ）","name_en":"Lecture Room II (Suzuyo Mirai Hall II)","aliases":["鈴与未来ホールⅡ","Suzuyo Mirai Hall"],"seats":500,"source":"https://www.kyushu-u.ac.jp/ja/university/facility/use/kougishitsu/"},
+{"code":"工学部第1講義室","building":167423392,"floor":"2","name_ja":"工学部第1講義室","name_zh":"","name_en":"","aliases":["工学部第1","第1講義室"],"seats":null,"source":"https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"},
+{"code":"工学部第2講義室","building":167423392,"floor":"2","name_ja":"工学部第2講義室","name_zh":"","name_en":"","aliases":["工学部第2","第2講義室"],"seats":null,"source":"https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"},
+{"code":"工学部第3講義室","building":167423392,"floor":"3","name_ja":"工学部第3講義室","name_zh":"","name_en":"","aliases":["工学部第3","第3講義室"],"seats":null,"source":"https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"},
+{"code":"工学部第4講義室","building":167423392,"floor":"3","name_ja":"工学部第4講義室","name_zh":"","name_en":"","aliases":["工学部第4","第4講義室"],"seats":null,"source":"https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"},
+{"code":"工学部第5講義室","building":10019151273,"floor":"1","name_ja":"工学部第5講義室","name_zh":"","name_en":"","aliases":["工学部第5","第5講義室","総合学習プラザ"],"seats":null,"source":"https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"},
+{"code":"工学部第6講義室","building":10019151273,"floor":"1","name_ja":"工学部第6講義室","name_zh":"","name_en":"","aliases":["工学部第6","第6講義室","総合学習プラザ"],"seats":null,"source":"https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"},
+{"code":"工学部第7講義室","building":10019151273,"floor":"1","name_ja":"工学部第7講義室","name_zh":"","name_en":"","aliases":["工学部第7","第7講義室","総合学習プラザ"],"seats":null,"source":"https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"},
+{"code":"工学部第8講義室","building":10019151273,"floor":"1","name_ja":"工学部第8講義室","name_zh":"","name_en":"","aliases":["工学部第8","第8講義室","総合学習プラザ"],"seats":null,"source":"https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"},
+{"code":"工学部第9講義室","building":10019151273,"floor":"1","name_ja":"工学部第9講義室","name_zh":"","name_en":"","aliases":["工学部第9","第9講義室","総合学習プラザ"],"seats":null,"source":"https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"},
+{"code":"工学部第10講義室","building":10019151273,"floor":"1","name_ja":"工学部第10講義室","name_zh":"","name_en":"","aliases":["工学部第10","第10講義室","総合学習プラザ"],"seats":null,"source":"https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"},
+{"code":"工学部第11講義室","building":10019151273,"floor":"1","name_ja":"工学部第11講義室","name_zh":"","name_en":"","aliases":["工学部第11","第11講義室","総合学習プラザ"],"seats":null,"source":"https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"},
+{"code":"工学部第12講義室","building":10019151273,"floor":"2","name_ja":"工学部第12講義室","name_zh":"","name_en":"","aliases":["工学部第12","第12講義室","総合学習プラザ"],"seats":null,"source":"https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"},
+{"code":"工学部第13講義室","building":10019151273,"floor":"2","name_ja":"工学部第13講義室","name_zh":"","name_en":"","aliases":["工学部第13","第13講義室","総合学習プラザ"],"seats":null,"source":"https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"},
+{"code":"工学部第14講義室","building":10019151273,"floor":"2","name_ja":"工学部第14講義室","name_zh":"","name_en":"","aliases":["工学部第14","第14講義室","総合学習プラザ"],"seats":null,"source":"https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"},
+{"code":"工学部第15講義室","building":10019151273,"floor":"2","name_ja":"工学部第15講義室","name_zh":"","name_en":"","aliases":["工学部第15","第15講義室","総合学習プラザ"],"seats":null,"source":"https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"},
+{"code":"工学部第16講義室","building":10019151273,"floor":"2","name_ja":"工学部第16講義室","name_zh":"","name_en":"","aliases":["工学部第16","第16講義室","総合学習プラザ"],"seats":null,"source":"https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"},
+{"code":"工学部大講義室","building":10019151273,"floor":"2","name_ja":"工学部大講義室","name_zh":"工学部大讲义室","name_en":"Engineering Large Lecture Room","aliases":["大講義室（工学部）","総合学習プラザ大講義室"],"seats":null,"source":"https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"},
+{"code":"工学部中講義室","building":10019151272,"floor":"2","name_ja":"工学部中講義室","name_zh":"","name_en":"","aliases":["中講義室"],"seats":null,"source":"https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"},
+{"code":"311講義室","building":10019151272,"floor":"3","name_ja":"311講義室（機械1）","name_zh":"","name_en":"","aliases":["311","機械1"],"seats":null,"source":"https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"},
+{"code":"312講義室","building":10019151272,"floor":"3","name_ja":"312講義室（機械2）","name_zh":"","name_en":"","aliases":["312","機械2"],"seats":null,"source":"https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"},
+{"code":"313講義室","building":10019151272,"floor":"3","name_ja":"313講義室（機械3）","name_zh":"","name_en":"","aliases":["313","機械3"],"seats":null,"source":"https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"},
+{"code":"製図室302","building":10019151272,"floor":"3","name_ja":"製図室302","name_zh":"","name_en":"","aliases":["302"],"seats":null,"source":"https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"},
+{"code":"製図室303","building":10019151272,"floor":"3","name_ja":"製図室303","name_zh":"","name_en":"","aliases":["303"],"seats":null,"source":"https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"},
+{"code":"製図室304","building":10019151272,"floor":"3","name_ja":"製図室304","name_zh":"","name_en":"","aliases":["304"],"seats":null,"source":"https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2023/10/Lecture_room.pdf"},
+{"code":"C-501","building":10012235450,"floor":"5","name_ja":"C-501／大講義室","name_zh":"","name_en":"","aliases":["C501","大講義室"],"seats":null,"source":"https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"},
+{"code":"C-502","building":10012235450,"floor":"5","name_ja":"C-502","name_zh":"","name_en":"","aliases":["C502"],"seats":null,"source":"https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"},
+{"code":"C-503","building":10012235450,"floor":"5","name_ja":"C-503／小講義室","name_zh":"","name_en":"","aliases":["C503","小講義室"],"seats":null,"source":"https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"},
+{"code":"C-504","building":10012235450,"floor":"5","name_ja":"C-504／小講義室","name_zh":"","name_en":"","aliases":["C504","小講義室"],"seats":null,"source":"https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"},
+{"code":"C-512","building":10012235450,"floor":"5","name_ja":"C-512／中講義室","name_zh":"","name_en":"","aliases":["C512","中講義室"],"seats":null,"source":"https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"},
+{"code":"C-513","building":10012235450,"floor":"5","name_ja":"C-513／中講義室","name_zh":"","name_en":"","aliases":["C513","中講義室"],"seats":null,"source":"https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"},
+{"code":"C-514","building":10012235450,"floor":"5","name_ja":"C-514","name_zh":"","name_en":"","aliases":["C514"],"seats":null,"source":"https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"},
+{"code":"C-515","building":10012235450,"floor":"5","name_ja":"C-515","name_zh":"","name_en":"","aliases":["C515"],"seats":null,"source":"https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"},
+{"code":"C-408","building":10012235450,"floor":"4","name_ja":"C-408／大会議室","name_zh":"","name_en":"","aliases":["C408","大会議室"],"seats":null,"source":"https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"},
+{"code":"C-409","building":10012235450,"floor":"4","name_ja":"C-409／小会議室","name_zh":"","name_en":"","aliases":["C409","小会議室"],"seats":null,"source":"https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"},
+{"code":"D-413","building":10012235450,"floor":"4","name_ja":"D-413／IMIオーディトリアム","name_zh":"","name_en":"","aliases":["D413","IMIオーディトリアム"],"seats":null,"source":"https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"},
+{"code":"D-414","building":10012235450,"floor":"4","name_ja":"D-414／IMIコンファレンスルーム","name_zh":"","name_en":"","aliases":["D414","IMIコンファレンスルーム"],"seats":null,"source":"https://www.imi.kyushu-u.ac.jp/sites/sgw2020/wp-content/themes/sgw2020/doc/kyushu-room.pdf"},
+{"code":"第1講義室","building":617112195,"floor":"1","name_ja":"椎木講堂 第1講義室","name_zh":"","name_en":"","aliases":["椎木講堂第1講義室"],"seats":null,"source":"https://shiiki-hall.kyushu-u.ac.jp/facility/"},
+{"code":"第2講義室","building":617112195,"floor":"1","name_ja":"椎木講堂 第2講義室","name_zh":"","name_en":"","aliases":["椎木講堂第2講義室"],"seats":null,"source":"https://shiiki-hall.kyushu-u.ac.jp/facility/"},
+{"code":"第3講義室","building":617112195,"floor":"2","name_ja":"椎木講堂 第3講義室","name_zh":"","name_en":"","aliases":["椎木講堂第3講義室"],"seats":null,"source":"https://shiiki-hall.kyushu-u.ac.jp/facility/"},
+{"code":"第4講義室","building":617112195,"floor":"2","name_ja":"椎木講堂 第4講義室","name_zh":"","name_en":"","aliases":["椎木講堂第4講義室"],"seats":null,"source":"https://shiiki-hall.kyushu-u.ac.jp/facility/"},
+{"code":"第5講義室","building":617112195,"floor":"2","name_ja":"椎木講堂 第5講義室","name_zh":"","name_en":"","aliases":["椎木講堂第5講義室"],"seats":null,"source":"https://shiiki-hall.kyushu-u.ac.jp/facility/"},
+{"code":"C-108","building":770575334,"floor":"1","name_ja":"イースト1号館 C-108","name_zh":"","name_en":"","aliases":["イースト1号館C-108"],"seats":null,"source":"https://www3.lit.kyushu-u.ac.jp/doc/access/04_annaizu-20250530.pdf"},
+{"code":"A-212","building":770575334,"floor":"2","name_ja":"イースト1号館 A-212","name_zh":"","name_en":"","aliases":["イースト1号館A-212"],"seats":null,"source":"https://www3.lit.kyushu-u.ac.jp/doc/access/04_annaizu-20250530.pdf"},
+{"code":"C-202","building":770575334,"floor":"2","name_ja":"イースト1号館 C-202","name_zh":"","name_en":"","aliases":["イースト1号館C-202"],"seats":null,"source":"https://www3.lit.kyushu-u.ac.jp/doc/access/04_annaizu-20250530.pdf"},
+{"code":"C-204","building":770575334,"floor":"2","name_ja":"イースト1号館 C-204","name_zh":"","name_en":"","aliases":["イースト1号館C-204"],"seats":null,"source":"https://www3.lit.kyushu-u.ac.jp/doc/access/04_annaizu-20250530.pdf"},
+{"code":"C-205","building":770575334,"floor":"2","name_ja":"イースト1号館 C-205","name_zh":"","name_en":"","aliases":["イースト1号館C-205"],"seats":null,"source":"https://www3.lit.kyushu-u.ac.jp/doc/access/04_annaizu-20250530.pdf"},
+{"code":"C-206","building":770575334,"floor":"2","name_ja":"イースト1号館 C-206","name_zh":"","name_en":"","aliases":["イースト1号館C-206"],"seats":null,"source":"https://www3.lit.kyushu-u.ac.jp/doc/access/04_annaizu-20250530.pdf"},
+{"code":"218","building":10012235222,"floor":"2","name_ja":"ウエスト5号館 218","name_zh":"","name_en":"","aliases":["ウエスト5号館218"],"seats":null,"source":"https://www.kotobuki-seating.co.jp/projects/list/detail.html?pdid1=00952"},
+{"code":"220","building":10012235222,"floor":"2","name_ja":"ウエスト5号館 220","name_zh":"","name_en":"","aliases":["ウエスト5号館220"],"seats":null,"source":"https://www.kotobuki-seating.co.jp/projects/list/detail.html?pdid1=00952"},
+{"code":"222","building":10012235222,"floor":"2","name_ja":"ウエスト5号館 222","name_zh":"","name_en":"","aliases":["ウエスト5号館222"],"seats":null,"source":"https://www.kotobuki-seating.co.jp/projects/list/detail.html?pdid1=00952"},
+{"code":"223","building":10012235222,"floor":"2","name_ja":"ウエスト5号館 223","name_zh":"","name_en":"","aliases":["ウエスト5号館223"],"seats":null,"source":"https://www.kotobuki-seating.co.jp/projects/list/detail.html?pdid1=00952"},
+{"code":"224","building":10012235222,"floor":"2","name_ja":"ウエスト5号館 224","name_zh":"","name_en":"","aliases":["ウエスト5号館224"],"seats":null,"source":"https://www.kotobuki-seating.co.jp/projects/list/detail.html?pdid1=00952"},
+{"code":"225","building":10012235222,"floor":"2","name_ja":"ウエスト5号館 225","name_zh":"","name_en":"","aliases":["ウエスト5号館225"],"seats":null,"source":"https://www.kotobuki-seating.co.jp/projects/list/detail.html?pdid1=00952"},
+{"code":"226","building":10012235222,"floor":"2","name_ja":"ウエスト5号館 226","name_zh":"","name_en":"","aliases":["ウエスト5号館226"],"seats":null,"source":"https://www.kotobuki-seating.co.jp/projects/list/detail.html?pdid1=00952"},
+{"code":"227","building":10012235222,"floor":"2","name_ja":"ウエスト5号館 227","name_zh":"","name_en":"","aliases":["ウエスト5号館227"],"seats":null,"source":"https://www.kotobuki-seating.co.jp/projects/list/detail.html?pdid1=00952"},
+{"code":"228","building":10012235222,"floor":"2","name_ja":"ウエスト5号館 228","name_zh":"","name_en":"","aliases":["ウエスト5号館228"],"seats":null,"source":"https://www.kotobuki-seating.co.jp/projects/list/detail.html?pdid1=00952"},
+{"code":"229","building":10012235222,"floor":"2","name_ja":"ウエスト5号館 229","name_zh":"","name_en":"","aliases":["ウエスト5号館229"],"seats":null,"source":"https://www.kotobuki-seating.co.jp/projects/list/detail.html?pdid1=00952"},
+{"code":"230","building":10012235222,"floor":"2","name_ja":"ウエスト5号館 230","name_zh":"","name_en":"","aliases":["ウエスト5号館230"],"seats":null,"source":"https://www.kotobuki-seating.co.jp/projects/list/detail.html?pdid1=00952"},
+{"code":"327","building":10012235222,"floor":"3","name_ja":"ウエスト5号館 327","name_zh":"","name_en":"","aliases":["ウエスト5号館327"],"seats":null,"source":"https://www.kotobuki-seating.co.jp/projects/list/detail.html?pdid1=00952"},
+{"code":"328","building":10012235222,"floor":"3","name_ja":"ウエスト5号館 328","name_zh":"","name_en":"","aliases":["ウエスト5号館328"],"seats":null,"source":"https://www.kotobuki-seating.co.jp/projects/list/detail.html?pdid1=00952"},
+{"code":"329","building":10012235222,"floor":"3","name_ja":"ウエスト5号館 329","name_zh":"","name_en":"","aliases":["ウエスト5号館329"],"seats":null,"source":"https://www.kotobuki-seating.co.jp/projects/list/detail.html?pdid1=00952"},
+{"code":"330","building":10012235222,"floor":"3","name_ja":"ウエスト5号館 330","name_zh":"","name_en":"","aliases":["ウエスト5号館330"],"seats":null,"source":"https://www.kotobuki-seating.co.jp/projects/list/detail.html?pdid1=00952"},
+{"code":"W1-B-210","building":10012235450,"floor":"2","name_ja":"ウエスト1号館 W1-B-210","name_zh":"","name_en":"","aliases":["ウエスト1号館W1-B-210"],"seats":null,"source":"https://sgw2018.imi.kyushu-u.ac.jp/img/schedule/kyushu-room.pdf"},
+{"code":"W1-B-211","building":10012235450,"floor":"2","name_ja":"ウエスト1号館 W1-B-211","name_zh":"","name_en":"","aliases":["ウエスト1号館W1-B-211"],"seats":null,"source":"https://sgw2018.imi.kyushu-u.ac.jp/img/schedule/kyushu-room.pdf"},
+{"code":"W1-B-212","building":10012235450,"floor":"2","name_ja":"ウエスト1号館 W1-B-212","name_zh":"","name_en":"","aliases":["ウエスト1号館W1-B-212"],"seats":null,"source":"https://sgw2018.imi.kyushu-u.ac.jp/img/schedule/kyushu-room.pdf"},
+{"code":"W1-C-201","building":10012235450,"floor":"2","name_ja":"ウエスト1号館 W1-C-201","name_zh":"","name_en":"","aliases":["ウエスト1号館W1-C-201"],"seats":null,"source":"https://sgw2018.imi.kyushu-u.ac.jp/img/schedule/kyushu-room.pdf"},
+{"code":"W1-D-207","building":10012235450,"floor":"2","name_ja":"ウエスト1号館 W1-D-207","name_zh":"","name_en":"","aliases":["ウエスト1号館W1-D-207"],"seats":null,"source":"https://sgw2018.imi.kyushu-u.ac.jp/img/schedule/kyushu-room.pdf"},
+{"code":"W1-D-208","building":10012235450,"floor":"2","name_ja":"ウエスト1号館 W1-D-208","name_zh":"","name_en":"","aliases":["ウエスト1号館W1-D-208"],"seats":null,"source":"https://sgw2018.imi.kyushu-u.ac.jp/img/schedule/kyushu-room.pdf"},
+{"code":"W1-D-209","building":10012235450,"floor":"2","name_ja":"ウエスト1号館 W1-D-209","name_zh":"","name_en":"","aliases":["ウエスト1号館W1-D-209"],"seats":null,"source":"https://sgw2018.imi.kyushu-u.ac.jp/img/schedule/kyushu-room.pdf"},
+{"code":"W1-B-313","building":10012235450,"floor":"3","name_ja":"ウエスト1号館 W1-B-313","name_zh":"","name_en":"","aliases":["ウエスト1号館W1-B-313"],"seats":null,"source":"https://sgw2018.imi.kyushu-u.ac.jp/img/schedule/kyushu-room.pdf"},
+{"code":"W1-B-314","building":10012235450,"floor":"3","name_ja":"ウエスト1号館 W1-B-314","name_zh":"","name_en":"","aliases":["ウエスト1号館W1-B-314"],"seats":null,"source":"https://sgw2018.imi.kyushu-u.ac.jp/img/schedule/kyushu-room.pdf"},
+{"code":"W1-B-315","building":10012235450,"floor":"3","name_ja":"ウエスト1号館 W1-B-315","name_zh":"","name_en":"","aliases":["ウエスト1号館W1-B-315"],"seats":null,"source":"https://sgw2018.imi.kyushu-u.ac.jp/img/schedule/kyushu-room.pdf"},
+{"code":"W1-D-315","building":10012235450,"floor":"3","name_ja":"ウエスト1号館 W1-D-315","name_zh":"","name_en":"","aliases":["ウエスト1号館W1-D-315"],"seats":null,"source":"https://sgw2018.imi.kyushu-u.ac.jp/img/schedule/kyushu-room.pdf"},
+{"code":"W1-B-405","building":10012235450,"floor":"4","name_ja":"ウエスト1号館 W1-B-405","name_zh":"","name_en":"","aliases":["ウエスト1号館W1-B-405"],"seats":null,"source":"https://sgw2018.imi.kyushu-u.ac.jp/img/schedule/kyushu-room.pdf"},
+{"code":"D-504","building":10012235450,"floor":"5","name_ja":"ウエスト1号館 D-504","name_zh":"","name_en":"","aliases":["ウエスト1号館D-504"],"seats":null,"source":"https://sgw2018.imi.kyushu-u.ac.jp/img/schedule/kyushu-room.pdf"},
+{"code":"C-516","building":10012235450,"floor":"6","name_ja":"ウエスト1号館 C-516","name_zh":"","name_en":"","aliases":["ウエスト1号館C-516"],"seats":null,"source":"https://sgw2018.imi.kyushu-u.ac.jp/img/schedule/kyushu-room.pdf"},
+{"code":"C-615","building":10012235450,"floor":"6","name_ja":"ウエスト1号館 C-615","name_zh":"","name_en":"","aliases":["ウエスト1号館C-615"],"seats":null,"source":"https://sgw2018.imi.kyushu-u.ac.jp/img/schedule/kyushu-room.pdf"},
+{"code":"C-616","building":10012235450,"floor":"6","name_ja":"ウエスト1号館 C-616","name_zh":"","name_en":"","aliases":["ウエスト1号館C-616"],"seats":null,"source":"https://sgw2018.imi.kyushu-u.ac.jp/img/schedule/kyushu-room.pdf"},
+{"code":"D-520","building":10012235450,"floor":"6","name_ja":"ウエスト1号館 D-520","name_zh":"","name_en":"","aliases":["ウエスト1号館D-520"],"seats":null,"source":"https://sgw2018.imi.kyushu-u.ac.jp/img/schedule/kyushu-room.pdf"},
+{"code":"W1-B-601","building":10012235450,"floor":"6","name_ja":"ウエスト1号館 W1-B-601","name_zh":"","name_en":"","aliases":["ウエスト1号館W1-B-601"],"seats":null,"source":"https://sgw2018.imi.kyushu-u.ac.jp/img/schedule/kyushu-room.pdf"},
+{"code":"W1-B-616","building":10012235450,"floor":"6","name_ja":"ウエスト1号館 W1-B-616","name_zh":"","name_en":"","aliases":["ウエスト1号館W1-B-616"],"seats":null,"source":"https://sgw2018.imi.kyushu-u.ac.jp/img/schedule/kyushu-room.pdf"},
+{"code":"209","building":10019151271,"floor":"","name_ja":"ウエスト2号館 209","name_zh":"","name_en":"","aliases":["ウエスト2号館209"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"210","building":10019151271,"floor":"","name_ja":"ウエスト2号館 210","name_zh":"","name_en":"","aliases":["ウエスト2号館210"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"301","building":10019151271,"floor":"3","name_ja":"ウエスト2号館 301","name_zh":"","name_en":"","aliases":["ウエスト2号館301"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"302","building":10019151271,"floor":"3","name_ja":"ウエスト2号館 302","name_zh":"","name_en":"","aliases":["ウエスト2号館302"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"303","building":10019151271,"floor":"3","name_ja":"ウエスト2号館 303","name_zh":"","name_en":"","aliases":["ウエスト2号館303"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"304","building":10019151271,"floor":"3","name_ja":"ウエスト2号館 304","name_zh":"","name_en":"","aliases":["ウエスト2号館304"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"305","building":10019151271,"floor":"3","name_ja":"ウエスト2号館 305","name_zh":"","name_en":"","aliases":["ウエスト2号館305"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"306","building":10019151271,"floor":"3","name_ja":"ウエスト2号館 306","name_zh":"","name_en":"","aliases":["ウエスト2号館306"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"307","building":10019151271,"floor":"3","name_ja":"ウエスト2号館 307","name_zh":"","name_en":"","aliases":["ウエスト2号館307"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"308","building":10019151271,"floor":"3","name_ja":"ウエスト2号館 308","name_zh":"","name_en":"","aliases":["ウエスト2号館308"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"310","building":10019151271,"floor":"3","name_ja":"ウエスト2号館 310","name_zh":"","name_en":"","aliases":["ウエスト2号館310"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"311","building":10019151271,"floor":"3","name_ja":"ウエスト2号館 311","name_zh":"","name_en":"","aliases":["ウエスト2号館311"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"312","building":10019151271,"floor":"3","name_ja":"ウエスト2号館 312","name_zh":"","name_en":"","aliases":["ウエスト2号館312"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"314","building":10019151271,"floor":"3","name_ja":"ウエスト2号館 314","name_zh":"","name_en":"","aliases":["ウエスト2号館314"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"315","building":10019151271,"floor":"3","name_ja":"ウエスト2号館 315","name_zh":"","name_en":"","aliases":["ウエスト2号館315"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"316","building":10019151271,"floor":"3","name_ja":"ウエスト2号館 316","name_zh":"","name_en":"","aliases":["ウエスト2号館316"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"317","building":10019151271,"floor":"3","name_ja":"ウエスト2号館 317","name_zh":"","name_en":"","aliases":["ウエスト2号館317"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"318","building":10019151271,"floor":"3","name_ja":"ウエスト2号館 318","name_zh":"","name_en":"","aliases":["ウエスト2号館318"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"319","building":10019151271,"floor":"3","name_ja":"ウエスト2号館 319","name_zh":"","name_en":"","aliases":["ウエスト2号館319"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"320","building":10019151271,"floor":"3","name_ja":"ウエスト2号館 320","name_zh":"","name_en":"","aliases":["ウエスト2号館320"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"321","building":10019151271,"floor":"3","name_ja":"ウエスト2号館 321","name_zh":"","name_en":"","aliases":["ウエスト2号館321"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"322","building":10019151271,"floor":"3","name_ja":"ウエスト2号館 322","name_zh":"","name_en":"","aliases":["ウエスト2号館322"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"323","building":10019151271,"floor":"3","name_ja":"ウエスト2号館 323","name_zh":"","name_en":"","aliases":["ウエスト2号館323"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"324","building":10019151271,"floor":"3","name_ja":"ウエスト2号館 324","name_zh":"","name_en":"","aliases":["ウエスト2号館324"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"325","building":10019151271,"floor":"3","name_ja":"ウエスト2号館 325","name_zh":"","name_en":"","aliases":["ウエスト2号館325"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"326","building":10019151271,"floor":"3","name_ja":"ウエスト2号館 326","name_zh":"","name_en":"","aliases":["ウエスト2号館326"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"327","building":10019151271,"floor":"3","name_ja":"ウエスト2号館 327","name_zh":"","name_en":"","aliases":["ウエスト2号館327"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"328","building":10019151271,"floor":"3","name_ja":"ウエスト2号館 328","name_zh":"","name_en":"","aliases":["ウエスト2号館328"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"501","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 501","name_zh":"","name_en":"","aliases":["ウエスト2号館501"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"502","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 502","name_zh":"","name_en":"","aliases":["ウエスト2号館502"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"503","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 503","name_zh":"","name_en":"","aliases":["ウエスト2号館503"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"504","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 504","name_zh":"","name_en":"","aliases":["ウエスト2号館504"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"505","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 505","name_zh":"","name_en":"","aliases":["ウエスト2号館505"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"506","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 506","name_zh":"","name_en":"","aliases":["ウエスト2号館506"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"507","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 507","name_zh":"","name_en":"","aliases":["ウエスト2号館507"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"508","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 508","name_zh":"","name_en":"","aliases":["ウエスト2号館508"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"509","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 509","name_zh":"","name_en":"","aliases":["ウエスト2号館509"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"510","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 510","name_zh":"","name_en":"","aliases":["ウエスト2号館510"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"511","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 511","name_zh":"","name_en":"","aliases":["ウエスト2号館511"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"512","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 512","name_zh":"","name_en":"","aliases":["ウエスト2号館512"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"513","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 513","name_zh":"","name_en":"","aliases":["ウエスト2号館513"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"514","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 514","name_zh":"","name_en":"","aliases":["ウエスト2号館514"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"515","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 515","name_zh":"","name_en":"","aliases":["ウエスト2号館515"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"516","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 516","name_zh":"","name_en":"","aliases":["ウエスト2号館516"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"517","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 517","name_zh":"","name_en":"","aliases":["ウエスト2号館517"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"518","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 518","name_zh":"","name_en":"","aliases":["ウエスト2号館518"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"519","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 519","name_zh":"","name_en":"","aliases":["ウエスト2号館519"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"520","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 520","name_zh":"","name_en":"","aliases":["ウエスト2号館520"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"521","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 521","name_zh":"","name_en":"","aliases":["ウエスト2号館521"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"522","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 522","name_zh":"","name_en":"","aliases":["ウエスト2号館522"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"523","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 523","name_zh":"","name_en":"","aliases":["ウエスト2号館523"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"524","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 524","name_zh":"","name_en":"","aliases":["ウエスト2号館524"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"525","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 525","name_zh":"","name_en":"","aliases":["ウエスト2号館525"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"526","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 526","name_zh":"","name_en":"","aliases":["ウエスト2号館526"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"527","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 527","name_zh":"","name_en":"","aliases":["ウエスト2号館527"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"528","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 528","name_zh":"","name_en":"","aliases":["ウエスト2号館528"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"530","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 530","name_zh":"","name_en":"","aliases":["ウエスト2号館530"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"531","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 531","name_zh":"","name_en":"","aliases":["ウエスト2号館531"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"532","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 532","name_zh":"","name_en":"","aliases":["ウエスト2号館532"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"533","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 533","name_zh":"","name_en":"","aliases":["ウエスト2号館533"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"534","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 534","name_zh":"","name_en":"","aliases":["ウエスト2号館534"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"535","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 535","name_zh":"","name_en":"","aliases":["ウエスト2号館535"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"536","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 536","name_zh":"","name_en":"","aliases":["ウエスト2号館536"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"537","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 537","name_zh":"","name_en":"","aliases":["ウエスト2号館537"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"538","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 538","name_zh":"","name_en":"","aliases":["ウエスト2号館538"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"539","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 539","name_zh":"","name_en":"","aliases":["ウエスト2号館539"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"540","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 540","name_zh":"","name_en":"","aliases":["ウエスト2号館540"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"541","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 541","name_zh":"","name_en":"","aliases":["ウエスト2号館541"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"542","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 542","name_zh":"","name_en":"","aliases":["ウエスト2号館542"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"543","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 543","name_zh":"","name_en":"","aliases":["ウエスト2号館543"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"544","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 544","name_zh":"","name_en":"","aliases":["ウエスト2号館544"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"545","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 545","name_zh":"","name_en":"","aliases":["ウエスト2号館545"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"546","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 546","name_zh":"","name_en":"","aliases":["ウエスト2号館546"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"547","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 547","name_zh":"","name_en":"","aliases":["ウエスト2号館547"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"548","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 548","name_zh":"","name_en":"","aliases":["ウエスト2号館548"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"549","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 549","name_zh":"","name_en":"","aliases":["ウエスト2号館549"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"550","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 550","name_zh":"","name_en":"","aliases":["ウエスト2号館550"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"551","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 551","name_zh":"","name_en":"","aliases":["ウエスト2号館551"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"552","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 552","name_zh":"","name_en":"","aliases":["ウエスト2号館552"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"553","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 553","name_zh":"","name_en":"","aliases":["ウエスト2号館553"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"554","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 554","name_zh":"","name_en":"","aliases":["ウエスト2号館554"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"555","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 555","name_zh":"","name_en":"","aliases":["ウエスト2号館555"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"556","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 556","name_zh":"","name_en":"","aliases":["ウエスト2号館556"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"557","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 557","name_zh":"","name_en":"","aliases":["ウエスト2号館557"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"558","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 558","name_zh":"","name_en":"","aliases":["ウエスト2号館558"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"559","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 559","name_zh":"","name_en":"","aliases":["ウエスト2号館559"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"560","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 560","name_zh":"","name_en":"","aliases":["ウエスト2号館560"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"561","building":10019151271,"floor":"5","name_ja":"ウエスト2号館 561","name_zh":"","name_en":"","aliases":["ウエスト2号館561"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"601","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 601","name_zh":"","name_en":"","aliases":["ウエスト2号館601"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"602","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 602","name_zh":"","name_en":"","aliases":["ウエスト2号館602"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"603","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 603","name_zh":"","name_en":"","aliases":["ウエスト2号館603"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"604-1","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 604-1","name_zh":"","name_en":"","aliases":["ウエスト2号館604-1"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"604-2","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 604-2","name_zh":"","name_en":"","aliases":["ウエスト2号館604-2"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"605","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 605","name_zh":"","name_en":"","aliases":["ウエスト2号館605"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"606","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 606","name_zh":"","name_en":"","aliases":["ウエスト2号館606"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"607","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 607","name_zh":"","name_en":"","aliases":["ウエスト2号館607"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"609","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 609","name_zh":"","name_en":"","aliases":["ウエスト2号館609"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"610","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 610","name_zh":"","name_en":"","aliases":["ウエスト2号館610"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"611-1","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 611-1","name_zh":"","name_en":"","aliases":["ウエスト2号館611-1"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"611-2","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 611-2","name_zh":"","name_en":"","aliases":["ウエスト2号館611-2"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"612","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 612","name_zh":"","name_en":"","aliases":["ウエスト2号館612"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"613-1","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 613-1","name_zh":"","name_en":"","aliases":["ウエスト2号館613-1"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"613-2","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 613-2","name_zh":"","name_en":"","aliases":["ウエスト2号館613-2"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"613-3","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 613-3","name_zh":"","name_en":"","aliases":["ウエスト2号館613-3"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"614-1","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 614-1","name_zh":"","name_en":"","aliases":["ウエスト2号館614-1"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"614-2","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 614-2","name_zh":"","name_en":"","aliases":["ウエスト2号館614-2"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"614-3","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 614-3","name_zh":"","name_en":"","aliases":["ウエスト2号館614-3"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"614-4","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 614-4","name_zh":"","name_en":"","aliases":["ウエスト2号館614-4"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"615","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 615","name_zh":"","name_en":"","aliases":["ウエスト2号館615"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"616","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 616","name_zh":"","name_en":"","aliases":["ウエスト2号館616"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"617-1","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 617-1","name_zh":"","name_en":"","aliases":["ウエスト2号館617-1"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"617-2","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 617-2","name_zh":"","name_en":"","aliases":["ウエスト2号館617-2"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"617-3","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 617-3","name_zh":"","name_en":"","aliases":["ウエスト2号館617-3"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"618","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 618","name_zh":"","name_en":"","aliases":["ウエスト2号館618"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"619","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 619","name_zh":"","name_en":"","aliases":["ウエスト2号館619"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"620","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 620","name_zh":"","name_en":"","aliases":["ウエスト2号館620"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"621","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 621","name_zh":"","name_en":"","aliases":["ウエスト2号館621"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"623","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 623","name_zh":"","name_en":"","aliases":["ウエスト2号館623"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"624","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 624","name_zh":"","name_en":"","aliases":["ウエスト2号館624"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"625","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 625","name_zh":"","name_en":"","aliases":["ウエスト2号館625"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"626","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 626","name_zh":"","name_en":"","aliases":["ウエスト2号館626"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"630","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 630","name_zh":"","name_en":"","aliases":["ウエスト2号館630"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"631","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 631","name_zh":"","name_en":"","aliases":["ウエスト2号館631"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"632","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 632","name_zh":"","name_en":"","aliases":["ウエスト2号館632"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"633","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 633","name_zh":"","name_en":"","aliases":["ウエスト2号館633"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"634","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 634","name_zh":"","name_en":"","aliases":["ウエスト2号館634"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"635","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 635","name_zh":"","name_en":"","aliases":["ウエスト2号館635"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"636","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 636","name_zh":"","name_en":"","aliases":["ウエスト2号館636"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"640","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 640","name_zh":"","name_en":"","aliases":["ウエスト2号館640"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"641","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 641","name_zh":"","name_en":"","aliases":["ウエスト2号館641"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"643","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 643","name_zh":"","name_en":"","aliases":["ウエスト2号館643"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"644","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 644","name_zh":"","name_en":"","aliases":["ウエスト2号館644"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"645","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 645","name_zh":"","name_en":"","aliases":["ウエスト2号館645"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"646","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 646","name_zh":"","name_en":"","aliases":["ウエスト2号館646"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"650","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 650","name_zh":"","name_en":"","aliases":["ウエスト2号館650"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"651","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 651","name_zh":"","name_en":"","aliases":["ウエスト2号館651"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"652","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 652","name_zh":"","name_en":"","aliases":["ウエスト2号館652"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"653","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 653","name_zh":"","name_en":"","aliases":["ウエスト2号館653"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"655","building":10019151271,"floor":"6","name_ja":"ウエスト2号館 655","name_zh":"","name_en":"","aliases":["ウエスト2号館655"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"701","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 701","name_zh":"","name_en":"","aliases":["ウエスト2号館701"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"702","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 702","name_zh":"","name_en":"","aliases":["ウエスト2号館702"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"703","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 703","name_zh":"","name_en":"","aliases":["ウエスト2号館703"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"704","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 704","name_zh":"","name_en":"","aliases":["ウエスト2号館704"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"705","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 705","name_zh":"","name_en":"","aliases":["ウエスト2号館705"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"706","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 706","name_zh":"","name_en":"","aliases":["ウエスト2号館706"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"707-2","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 707-2","name_zh":"","name_en":"","aliases":["ウエスト2号館707-2"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"708","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 708","name_zh":"","name_en":"","aliases":["ウエスト2号館708"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"709","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 709","name_zh":"","name_en":"","aliases":["ウエスト2号館709"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"710","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 710","name_zh":"","name_en":"","aliases":["ウエスト2号館710"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"711","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 711","name_zh":"","name_en":"","aliases":["ウエスト2号館711"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"712","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 712","name_zh":"","name_en":"","aliases":["ウエスト2号館712"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"713","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 713","name_zh":"","name_en":"","aliases":["ウエスト2号館713"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"714","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 714","name_zh":"","name_en":"","aliases":["ウエスト2号館714"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"715","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 715","name_zh":"","name_en":"","aliases":["ウエスト2号館715"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"716","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 716","name_zh":"","name_en":"","aliases":["ウエスト2号館716"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"717","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 717","name_zh":"","name_en":"","aliases":["ウエスト2号館717"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"718","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 718","name_zh":"","name_en":"","aliases":["ウエスト2号館718"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"719","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 719","name_zh":"","name_en":"","aliases":["ウエスト2号館719"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"720","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 720","name_zh":"","name_en":"","aliases":["ウエスト2号館720"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"721","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 721","name_zh":"","name_en":"","aliases":["ウエスト2号館721"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"722","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 722","name_zh":"","name_en":"","aliases":["ウエスト2号館722"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"723","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 723","name_zh":"","name_en":"","aliases":["ウエスト2号館723"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"724","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 724","name_zh":"","name_en":"","aliases":["ウエスト2号館724"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"725","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 725","name_zh":"","name_en":"","aliases":["ウエスト2号館725"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"726","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 726","name_zh":"","name_en":"","aliases":["ウエスト2号館726"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"727","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 727","name_zh":"","name_en":"","aliases":["ウエスト2号館727"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"728","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 728","name_zh":"","name_en":"","aliases":["ウエスト2号館728"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"729","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 729","name_zh":"","name_en":"","aliases":["ウエスト2号館729"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"730","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 730","name_zh":"","name_en":"","aliases":["ウエスト2号館730"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"731","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 731","name_zh":"","name_en":"","aliases":["ウエスト2号館731"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"732","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 732","name_zh":"","name_en":"","aliases":["ウエスト2号館732"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"733","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 733","name_zh":"","name_en":"","aliases":["ウエスト2号館733"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"734","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 734","name_zh":"","name_en":"","aliases":["ウエスト2号館734"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"735","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 735","name_zh":"","name_en":"","aliases":["ウエスト2号館735"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"736","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 736","name_zh":"","name_en":"","aliases":["ウエスト2号館736"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"737","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 737","name_zh":"","name_en":"","aliases":["ウエスト2号館737"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"738","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 738","name_zh":"","name_en":"","aliases":["ウエスト2号館738"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"739","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 739","name_zh":"","name_en":"","aliases":["ウエスト2号館739"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"742","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 742","name_zh":"","name_en":"","aliases":["ウエスト2号館742"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"743","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 743","name_zh":"","name_en":"","aliases":["ウエスト2号館743"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"744","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 744","name_zh":"","name_en":"","aliases":["ウエスト2号館744"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"745","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 745","name_zh":"","name_en":"","aliases":["ウエスト2号館745"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"746","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 746","name_zh":"","name_en":"","aliases":["ウエスト2号館746"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"747","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 747","name_zh":"","name_en":"","aliases":["ウエスト2号館747"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"748","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 748","name_zh":"","name_en":"","aliases":["ウエスト2号館748"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"749","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 749","name_zh":"","name_en":"","aliases":["ウエスト2号館749"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"750","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 750","name_zh":"","name_en":"","aliases":["ウエスト2号館750"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"751","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 751","name_zh":"","name_en":"","aliases":["ウエスト2号館751"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"752","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 752","name_zh":"","name_en":"","aliases":["ウエスト2号館752"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"753","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 753","name_zh":"","name_en":"","aliases":["ウエスト2号館753"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"754","building":10019151271,"floor":"7","name_ja":"ウエスト2号館 754","name_zh":"","name_en":"","aliases":["ウエスト2号館754"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"816","building":10019151271,"floor":"8","name_ja":"ウエスト2号館 816","name_zh":"","name_en":"","aliases":["ウエスト2号館816"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"819","building":10019151271,"floor":"8","name_ja":"ウエスト2号館 819","name_zh":"","name_en":"","aliases":["ウエスト2号館819"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"1104","building":10019151271,"floor":"11","name_ja":"ウエスト2号館 1104","name_zh":"","name_en":"","aliases":["ウエスト2号館1104"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west2.html"},
+{"code":"110","building":10019151272,"floor":"","name_ja":"ウエスト4号館 110","name_zh":"","name_en":"","aliases":["ウエスト4号館110"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"200","building":10019151272,"floor":"2","name_ja":"ウエスト4号館 200","name_zh":"","name_en":"","aliases":["ウエスト4号館200"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"201-2","building":10019151272,"floor":"2","name_ja":"ウエスト4号館 201-2","name_zh":"","name_en":"","aliases":["ウエスト4号館201-2"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"201-3","building":10019151272,"floor":"2","name_ja":"ウエスト4号館 201-3","name_zh":"","name_en":"","aliases":["ウエスト4号館201-3"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"202","building":10019151272,"floor":"2","name_ja":"ウエスト4号館 202","name_zh":"","name_en":"","aliases":["ウエスト4号館202"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"203-1","building":10019151272,"floor":"2","name_ja":"ウエスト4号館 203-1","name_zh":"","name_en":"","aliases":["ウエスト4号館203-1"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"301","building":10019151272,"floor":"3","name_ja":"ウエスト4号館 301","name_zh":"","name_en":"","aliases":["ウエスト4号館301"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"305","building":10019151272,"floor":"3","name_ja":"ウエスト4号館 305","name_zh":"","name_en":"","aliases":["ウエスト4号館305"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"306-2","building":10019151272,"floor":"3","name_ja":"ウエスト4号館 306-2","name_zh":"","name_en":"","aliases":["ウエスト4号館306-2"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"307","building":10019151272,"floor":"3","name_ja":"ウエスト4号館 307","name_zh":"","name_en":"","aliases":["ウエスト4号館307"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"308","building":10019151272,"floor":"3","name_ja":"ウエスト4号館 308","name_zh":"","name_en":"","aliases":["ウエスト4号館308"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"309","building":10019151272,"floor":"3","name_ja":"ウエスト4号館 309","name_zh":"","name_en":"","aliases":["ウエスト4号館309"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"310","building":10019151272,"floor":"3","name_ja":"ウエスト4号館 310","name_zh":"","name_en":"","aliases":["ウエスト4号館310"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"314","building":10019151272,"floor":"3","name_ja":"ウエスト4号館 314","name_zh":"","name_en":"","aliases":["ウエスト4号館314"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"315","building":10019151272,"floor":"3","name_ja":"ウエスト4号館 315","name_zh":"","name_en":"","aliases":["ウエスト4号館315"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"316","building":10019151272,"floor":"3","name_ja":"ウエスト4号館 316","name_zh":"","name_en":"","aliases":["ウエスト4号館316"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"317","building":10019151272,"floor":"3","name_ja":"ウエスト4号館 317","name_zh":"","name_en":"","aliases":["ウエスト4号館317"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"318","building":10019151272,"floor":"3","name_ja":"ウエスト4号館 318","name_zh":"","name_en":"","aliases":["ウエスト4号館318"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"501","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 501","name_zh":"","name_en":"","aliases":["ウエスト4号館501"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"502","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 502","name_zh":"","name_en":"","aliases":["ウエスト4号館502"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"503","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 503","name_zh":"","name_en":"","aliases":["ウエスト4号館503"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"504","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 504","name_zh":"","name_en":"","aliases":["ウエスト4号館504"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"505","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 505","name_zh":"","name_en":"","aliases":["ウエスト4号館505"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"506","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 506","name_zh":"","name_en":"","aliases":["ウエスト4号館506"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"507","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 507","name_zh":"","name_en":"","aliases":["ウエスト4号館507"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"508","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 508","name_zh":"","name_en":"","aliases":["ウエスト4号館508"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"509","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 509","name_zh":"","name_en":"","aliases":["ウエスト4号館509"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"510","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 510","name_zh":"","name_en":"","aliases":["ウエスト4号館510"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"511","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 511","name_zh":"","name_en":"","aliases":["ウエスト4号館511"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"512","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 512","name_zh":"","name_en":"","aliases":["ウエスト4号館512"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"513","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 513","name_zh":"","name_en":"","aliases":["ウエスト4号館513"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"514","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 514","name_zh":"","name_en":"","aliases":["ウエスト4号館514"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"515","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 515","name_zh":"","name_en":"","aliases":["ウエスト4号館515"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"516","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 516","name_zh":"","name_en":"","aliases":["ウエスト4号館516"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"517","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 517","name_zh":"","name_en":"","aliases":["ウエスト4号館517"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"518","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 518","name_zh":"","name_en":"","aliases":["ウエスト4号館518"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"519","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 519","name_zh":"","name_en":"","aliases":["ウエスト4号館519"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"520","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 520","name_zh":"","name_en":"","aliases":["ウエスト4号館520"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"523","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 523","name_zh":"","name_en":"","aliases":["ウエスト4号館523"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"524","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 524","name_zh":"","name_en":"","aliases":["ウエスト4号館524"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"526","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 526","name_zh":"","name_en":"","aliases":["ウエスト4号館526"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"527","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 527","name_zh":"","name_en":"","aliases":["ウエスト4号館527"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"528","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 528","name_zh":"","name_en":"","aliases":["ウエスト4号館528"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"529","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 529","name_zh":"","name_en":"","aliases":["ウエスト4号館529"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"530","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 530","name_zh":"","name_en":"","aliases":["ウエスト4号館530"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"531","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 531","name_zh":"","name_en":"","aliases":["ウエスト4号館531"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"532","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 532","name_zh":"","name_en":"","aliases":["ウエスト4号館532"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"533","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 533","name_zh":"","name_en":"","aliases":["ウエスト4号館533"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"534","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 534","name_zh":"","name_en":"","aliases":["ウエスト4号館534"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"535","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 535","name_zh":"","name_en":"","aliases":["ウエスト4号館535"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"536","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 536","name_zh":"","name_en":"","aliases":["ウエスト4号館536"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"539","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 539","name_zh":"","name_en":"","aliases":["ウエスト4号館539"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"540","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 540","name_zh":"","name_en":"","aliases":["ウエスト4号館540"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"541","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 541","name_zh":"","name_en":"","aliases":["ウエスト4号館541"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"542","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 542","name_zh":"","name_en":"","aliases":["ウエスト4号館542"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"543","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 543","name_zh":"","name_en":"","aliases":["ウエスト4号館543"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"544","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 544","name_zh":"","name_en":"","aliases":["ウエスト4号館544"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"545","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 545","name_zh":"","name_en":"","aliases":["ウエスト4号館545"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"546","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 546","name_zh":"","name_en":"","aliases":["ウエスト4号館546"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"547","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 547","name_zh":"","name_en":"","aliases":["ウエスト4号館547"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"548","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 548","name_zh":"","name_en":"","aliases":["ウエスト4号館548"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"549","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 549","name_zh":"","name_en":"","aliases":["ウエスト4号館549"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"550","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 550","name_zh":"","name_en":"","aliases":["ウエスト4号館550"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"551","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 551","name_zh":"","name_en":"","aliases":["ウエスト4号館551"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"552","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 552","name_zh":"","name_en":"","aliases":["ウエスト4号館552"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"553","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 553","name_zh":"","name_en":"","aliases":["ウエスト4号館553"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"554","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 554","name_zh":"","name_en":"","aliases":["ウエスト4号館554"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"555","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 555","name_zh":"","name_en":"","aliases":["ウエスト4号館555"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"556","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 556","name_zh":"","name_en":"","aliases":["ウエスト4号館556"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"557","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 557","name_zh":"","name_en":"","aliases":["ウエスト4号館557"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"558","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 558","name_zh":"","name_en":"","aliases":["ウエスト4号館558"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"559","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 559","name_zh":"","name_en":"","aliases":["ウエスト4号館559"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"560","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 560","name_zh":"","name_en":"","aliases":["ウエスト4号館560"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"561","building":10019151272,"floor":"5","name_ja":"ウエスト4号館 561","name_zh":"","name_en":"","aliases":["ウエスト4号館561"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"801","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 801","name_zh":"","name_en":"","aliases":["ウエスト4号館801"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"802","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 802","name_zh":"","name_en":"","aliases":["ウエスト4号館802"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"803","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 803","name_zh":"","name_en":"","aliases":["ウエスト4号館803"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"804","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 804","name_zh":"","name_en":"","aliases":["ウエスト4号館804"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"805","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 805","name_zh":"","name_en":"","aliases":["ウエスト4号館805"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"806","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 806","name_zh":"","name_en":"","aliases":["ウエスト4号館806"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"807","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 807","name_zh":"","name_en":"","aliases":["ウエスト4号館807"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"808","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 808","name_zh":"","name_en":"","aliases":["ウエスト4号館808"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"809","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 809","name_zh":"","name_en":"","aliases":["ウエスト4号館809"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"810","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 810","name_zh":"","name_en":"","aliases":["ウエスト4号館810"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"811","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 811","name_zh":"","name_en":"","aliases":["ウエスト4号館811"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"812","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 812","name_zh":"","name_en":"","aliases":["ウエスト4号館812"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"813","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 813","name_zh":"","name_en":"","aliases":["ウエスト4号館813"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"814","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 814","name_zh":"","name_en":"","aliases":["ウエスト4号館814"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"815","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 815","name_zh":"","name_en":"","aliases":["ウエスト4号館815"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"816","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 816","name_zh":"","name_en":"","aliases":["ウエスト4号館816"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"817","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 817","name_zh":"","name_en":"","aliases":["ウエスト4号館817"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"818","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 818","name_zh":"","name_en":"","aliases":["ウエスト4号館818"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"819","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 819","name_zh":"","name_en":"","aliases":["ウエスト4号館819"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"820","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 820","name_zh":"","name_en":"","aliases":["ウエスト4号館820"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"821","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 821","name_zh":"","name_en":"","aliases":["ウエスト4号館821"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"822","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 822","name_zh":"","name_en":"","aliases":["ウエスト4号館822"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"823","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 823","name_zh":"","name_en":"","aliases":["ウエスト4号館823"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"824","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 824","name_zh":"","name_en":"","aliases":["ウエスト4号館824"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"825","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 825","name_zh":"","name_en":"","aliases":["ウエスト4号館825"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"826","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 826","name_zh":"","name_en":"","aliases":["ウエスト4号館826"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"827","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 827","name_zh":"","name_en":"","aliases":["ウエスト4号館827"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"830","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 830","name_zh":"","name_en":"","aliases":["ウエスト4号館830"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"831","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 831","name_zh":"","name_en":"","aliases":["ウエスト4号館831"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"832","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 832","name_zh":"","name_en":"","aliases":["ウエスト4号館832"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"833","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 833","name_zh":"","name_en":"","aliases":["ウエスト4号館833"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"834","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 834","name_zh":"","name_en":"","aliases":["ウエスト4号館834"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"835","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 835","name_zh":"","name_en":"","aliases":["ウエスト4号館835"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"836","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 836","name_zh":"","name_en":"","aliases":["ウエスト4号館836"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"837","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 837","name_zh":"","name_en":"","aliases":["ウエスト4号館837"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"838","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 838","name_zh":"","name_en":"","aliases":["ウエスト4号館838"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"839","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 839","name_zh":"","name_en":"","aliases":["ウエスト4号館839"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"840","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 840","name_zh":"","name_en":"","aliases":["ウエスト4号館840"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"841","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 841","name_zh":"","name_en":"","aliases":["ウエスト4号館841"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"842","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 842","name_zh":"","name_en":"","aliases":["ウエスト4号館842"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"843","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 843","name_zh":"","name_en":"","aliases":["ウエスト4号館843"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"844","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 844","name_zh":"","name_en":"","aliases":["ウエスト4号館844"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"845","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 845","name_zh":"","name_en":"","aliases":["ウエスト4号館845"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"846","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 846","name_zh":"","name_en":"","aliases":["ウエスト4号館846"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"847","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 847","name_zh":"","name_en":"","aliases":["ウエスト4号館847"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"848","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 848","name_zh":"","name_en":"","aliases":["ウエスト4号館848"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"849","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 849","name_zh":"","name_en":"","aliases":["ウエスト4号館849"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"850","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 850","name_zh":"","name_en":"","aliases":["ウエスト4号館850"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"851","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 851","name_zh":"","name_en":"","aliases":["ウエスト4号館851"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"852","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 852","name_zh":"","name_en":"","aliases":["ウエスト4号館852"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"853","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 853","name_zh":"","name_en":"","aliases":["ウエスト4号館853"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"854","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 854","name_zh":"","name_en":"","aliases":["ウエスト4号館854"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"855","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 855","name_zh":"","name_en":"","aliases":["ウエスト4号館855"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"856","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 856","name_zh":"","name_en":"","aliases":["ウエスト4号館856"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"857","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 857","name_zh":"","name_en":"","aliases":["ウエスト4号館857"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"858","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 858","name_zh":"","name_en":"","aliases":["ウエスト4号館858"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"859","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 859","name_zh":"","name_en":"","aliases":["ウエスト4号館859"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"860","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 860","name_zh":"","name_en":"","aliases":["ウエスト4号館860"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"861","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 861","name_zh":"","name_en":"","aliases":["ウエスト4号館861"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"862","building":10019151272,"floor":"8","name_ja":"ウエスト4号館 862","name_zh":"","name_en":"","aliases":["ウエスト4号館862"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/west34.html"},
+{"code":"AMS講義室1","building":10019151273,"floor":"2","name_ja":"総合学習プラザ AMS講義室1","name_zh":"","name_en":"","aliases":["総合学習プラザAMS講義室1"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/spra.html"},
+{"code":"AMS講義室2","building":10019151273,"floor":"2","name_ja":"総合学習プラザ AMS講義室2","name_zh":"","name_en":"","aliases":["総合学習プラザAMS講義室2"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/spra.html"},
+{"code":"AMS講義室3","building":10019151273,"floor":"2","name_ja":"総合学習プラザ AMS講義室3","name_zh":"","name_en":"","aliases":["総合学習プラザAMS講義室3"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/spra.html"},
+{"code":"AMS講義室4","building":10019151273,"floor":"2","name_ja":"総合学習プラザ AMS講義室4","name_zh":"","name_en":"","aliases":["総合学習プラザAMS講義室4"],"seats":null,"source":"https://campus.kyushu-u.ac.jp/showcase/photo/west/spra.html"}]

@@ -1,0 +1,68 @@
+{
+ "source": "aimo（オンデマンド交通システム）循環便",
+ "built": "2026-08-27",
+ "note": "循環便只在授业期间的平日运行；时刻可能按利用情况调整，以 app 为准。",
+ "service": {
+  "terms": [
+   {
+    "from": "2026-04-08",
+    "to": "2026-08-07",
+    "label": "前期"
+   },
+   {
+    "from": "2026-10-01",
+    "to": "2027-02-15",
+    "label": "後期"
+   }
+  ],
+  "closed": [
+   {
+    "from": "2026-12-28",
+    "to": "2027-01-04",
+    "label": "年末年始"
+   }
+  ],
+  "weekdaysOnly": true,
+  "note": "土日祝日停运；时刻可能按利用情况调整，以 app 为准。"
+ },
+ "lines": [
+  {
+   "id": "aimo-west",
+   "kind": "aimo",
+   "name_ja": "aimo 循環便（ウエスト方面）",
+   "name_zh": "aimo 循環便（往西）",
+   "name_en": "aimo Shuttle (Westbound)",
+   "toward": "west",
+   "fare": 0,
+   "booking": "SWAT Move",
+   "departures": [
+    "08:00",
+    "08:20",
+    "09:50",
+    "10:10",
+    "12:00",
+    "12:20",
+    "21:00",
+    "21:40"
+   ]
+  },
+  {
+   "id": "aimo-east",
+   "kind": "aimo",
+   "name_ja": "aimo 循環便（イースト方面）",
+   "name_zh": "aimo 循環便（往东）",
+   "name_en": "aimo Shuttle (Eastbound)",
+   "toward": "east",
+   "fare": 0,
+   "booking": "SWAT Move",
+   "departures": [
+    "15:00",
+    "17:20",
+    "17:40",
+    "19:00",
+    "20:40",
+    "21:20"
+   ]
+  }
+ ]
+}

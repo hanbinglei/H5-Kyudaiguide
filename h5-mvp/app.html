@@ -109,7 +109,9 @@
      实测同屏 7 辆时最后一辆偏 90px，而且缩放/平移会改变视野内的车辆集合，
      于是一动全体跳位，看着就是「车飘出道路」（2026-08-17 用户反馈）。
      内部的 .bus-ring / .bus-dot 用不着它 —— absolute 本身就是包含块。 */
-  .bus-marker { transition: transform 1s linear; }
+  /* opacity 也走过渡：退场淡出是每秒一步算出来的，不补间就是一格一格地跳。
+     （.bus-frozen 会把它一起关掉 —— 地图平移那一瞬间不淡出，看不出来。） */
+  .bus-marker { transition: transform 1s linear, opacity 1s linear; }
   /* ⚠️ 缩放/平移期间必须把过渡关掉。
      Leaflet 用 transform 给 marker 定位，而我们又把 transform 做成了动画属性——
      于是【地图重定位】和【车沿路前进】用的是同一个通道，浏览器分不出来，
@@ -117,6 +119,41 @@
      旧位置慢慢滑，看起来就是车脱离道路乱飘（2026-08-17 用户报的就是这个）。
      实测缩放两级后偏差 238px。 */
   .bus-frozen .bus-marker, .bus-frozen .bus-ring { transition: none !important; }
+  /* aimo（校内接驳）用同一套过渡与冻结规则 —— 它和昭和バス走的是同一个渲染循环。 */
+  .aimo-marker { transition: transform 1s linear, opacity 1s linear; }
+  .bus-frozen .aimo-marker, .bus-frozen .aimo-ring { transition: none !important; }
+  /* aimo 的徽章刻意和昭和バス【形状不同】，不是只换个颜色：
+     圆 vs 圆角方、白底描边 vs 实心 —— 这两组差别在灰度下也分得开，
+     而单靠色相的区分对色弱用户等于没有。
+     绿色取 #2E7D5B（深青绿）而不是 aimo 车身那种亮绿：
+     项目里 #07C160 已经是【动作色】（确认/提交），巴士图标用它会被读成"可以点"。 */
+  .aimo-dot {
+    position: absolute; left: 2px; top: 2px;
+    width: 26px; height: 26px; border-radius: 8px;
+    background: #2E7D5B; border: 2px solid #fff;
+    box-shadow: 0 1px 5px rgba(0,0,0,.35);
+    font-size: 13px; line-height: 22px; text-align: center;
+    box-sizing: border-box;
+  }
+  .aimo-ring {
+    position: absolute; left: 0; top: 0; width: 30px; height: 30px;
+    transition: transform .6s linear; pointer-events: none;
+  }
+  .aimo-ring > i {
+    position: absolute; left: 50%; top: -9px; margin-left: -7px;
+    width: 0; height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 11px solid #2E7D5B;
+    filter: drop-shadow(0 1px 0 #fff) drop-shadow(0 -1px 0 #fff)
+            drop-shadow(1px 0 0 #fff) drop-shadow(-1px 0 0 #fff);
+  }
+  /* aimo 停靠点。比车小一圈、方形、无箭头 —— 站是固定点，车是会动的。 */
+  .aimo-stop {
+    width: 12px; height: 12px; border-radius: 4px;
+    background: #fff; border: 2.5px solid #2E7D5B;
+    box-shadow: 0 1px 3px rgba(0,0,0,.3); box-sizing: border-box;
+  }
   /* 圆底章：和站牌 🚏 在视觉上彻底分开 —— 站是地图上的固定点，车是会动的东西，
      给它一个「载具徽章」的形态，扫一眼就知道哪个是哪个。 */
   .bus-dot {
@@ -185,6 +222,20 @@
     margin-left: 10px; border: none; background: #f3f3f3; border-radius: 6px;
     padding: 4px 10px; cursor: pointer; font-size: 12px;
   }
+
+  /* 我的位置。实心圆点 + 白环 + 外圈精度范围 —— 与所有其他 marker
+     （🚏站牌 / 🚌车 / 🚐aimo / 📍路线端点）在形状上都不一样，
+     一眼能认出「这个是我」。 */
+  .me-dot {
+    width: 16px; height: 16px; border-radius: 50%;
+    background: #1E88E5; border: 3px solid #fff;
+    box-shadow: 0 0 0 1px rgba(30,136,229,.5), 0 2px 6px rgba(0,0,0,.35);
+  }
+  /* 定位按钮在「取位置中」时转一圈，让人知道它在工作 ——
+     室内定位可能要好几秒，没有反馈的话会被当成点了没反应。 */
+  @keyframes me-spin { to { transform: rotate(360deg); } }
+  #ctrl button.locating { animation: me-spin 1s linear infinite; }
+  #ctrl button.on { background: #1E88E5; color: #fff; }
 
   /* ===== 右下角控制 ===== */
   #ctrl { position: fixed; right: 12px; bottom: 24px; z-index: 1100; display: flex; flex-direction: column; gap: 8px; }
@@ -274,6 +325,12 @@
 <div id="hover-label"></div>
 <div id="routebar"></div>
 
+<!-- 右下角控制簇。#ctrl 的样式一直在（是删掉旧控件时留下的），
+     元素这次才补上 —— 定位按钮正好接手这个位置。 -->
+<div id="ctrl">
+  <button id="btn-locate" type="button" aria-label="locate">📍</button>
+</div>
+
 
 <script>
 /**
@@ -357,6 +414,9 @@ map.fitBounds(CAMPUS_BOUNDS);
 const I18N = {
   zh: {
     self: '中文',
+    locate:'定位我的位置', locating:'正在定位…', meHere:'我在这里', fromHere:'从我这里出发',
+    locDenied:'定位被拒绝。可在微信的位置权限里打开后重试。', locFail:'没能取到位置，室内或信号弱时常见',
+    locOff:'这个浏览器不支持定位', locFar:(km)=>`你现在离伊都校区约 ${km} km，先到校区附近再用定位`, accuracy:'精度',
     search: '搜索建筑 / 设施 / 教室…',
     from: '从这里出发', to: '导航到这里',
     route: (d, t) => `步行约 <b>${t} 分钟</b>（${d} m）`,
@@ -371,6 +431,9 @@ const I18N = {
   },
   ja: {
     self: '日本語',
+    locate:'現在地', locating:'測位中…', meHere:'現在地', fromHere:'ここから出発',
+    locDenied:'位置情報が拒否されました。WeChat の位置情報権限をご確認ください。', locFail:'位置を取得できませんでした（屋内や電波が弱い場所では起きやすい）',
+    locOff:'このブラウザは位置情報に対応していません', locFar:(km)=>`伊都キャンパスから約 ${km} km 離れています`, accuracy:'精度',
     search: '建物・施設・教室を検索…',
     from: 'ここから出発', to: 'ここへ行く',
     route: (d, t) => `徒歩約 <b>${t} 分</b>（${d} m）`,
@@ -385,6 +448,9 @@ const I18N = {
   },
   en: {
     self: 'English',
+    locate:'My location', locating:'Locating…', meHere:'You are here', fromHere:'Start from here',
+    locDenied:'Location denied. Enable it in WeChat’s location permissions and retry.', locFail:'Could not get your location — common indoors or with weak signal',
+    locOff:'This browser does not support location', locFar:(km)=>`You are about ${km} km from Ito Campus`, accuracy:'accuracy',
     search: 'Search buildings / facilities / rooms…',
     from: 'Start here', to: 'Go here',
     route: (d, t) => `~<b>${t} min</b> walk (${d} m)`,
@@ -399,6 +465,9 @@ const I18N = {
   },
   ko: {
     self: '한국어',
+    locate:'내 위치', locating:'위치 확인 중…', meHere:'현재 위치', fromHere:'여기서 출발',
+    locDenied:'위치 권한이 거부되었습니다. WeChat 위치 권한을 확인해 주세요.', locFail:'위치를 가져오지 못했습니다 (실내나 신호가 약할 때 흔함)',
+    locOff:'이 브라우저는 위치를 지원하지 않습니다', locFar:(km)=>`이토 캠퍼스에서 약 ${km} km 떨어져 있습니다`, accuracy:'정확도',
     search: '건물 / 시설 / 강의실 검색…',
     from: '여기서 출발', to: '여기로 이동',
     route: (d, t) => `도보 약 <b>${t} 분</b> (${d} m)`,
@@ -413,6 +482,9 @@ const I18N = {
   },
   hi: {
     self: 'हिन्दी',
+    locate:'मेरा स्थान', locating:'स्थान पता कर रहे हैं…', meHere:'आप यहाँ हैं', fromHere:'यहाँ से शुरू करें',
+    locDenied:'स्थान अनुमति अस्वीकृत। WeChat की स्थान अनुमति जाँचें।', locFail:'स्थान नहीं मिला — घर के अंदर या कमज़ोर सिग्नल में आम',
+    locOff:'यह ब्राउज़र स्थान का समर्थन नहीं करता', locFar:(km)=>`आप इटो कैंपस से लगभग ${km} km दूर हैं`, accuracy:'सटीकता',
     search: 'भवन / सुविधाएं / कक्ष खोजें…',
     from: 'यहाँ से चलें', to: 'यहाँ जाएं',
     route: (d, t) => `पैदल लगभग <b>${t} मिनट</b> (${d} मी)`,
@@ -427,6 +499,9 @@ const I18N = {
   },
   es: {
     self: 'Español',
+    locate:'Mi ubicación', locating:'Localizando…', meHere:'Estás aquí', fromHere:'Salir desde aquí',
+    locDenied:'Ubicación denegada. Actívala en los permisos de WeChat y reinténtalo.', locFail:'No se pudo obtener tu ubicación (frecuente en interiores o con señal débil)',
+    locOff:'Este navegador no admite la ubicación', locFar:(km)=>`Estás a unos ${km} km del campus de Ito`, accuracy:'precisión',
     search: 'Buscar edificios / servicios / aulas…',
     from: 'Salir de aquí', to: 'Ir aquí',
     route: (d, t) => `~<b>${t} min</b> a pie (${d} m)`,
@@ -441,6 +516,9 @@ const I18N = {
   },
   fr: {
     self: 'Français',
+    locate:'Ma position', locating:'Localisation…', meHere:'Vous êtes ici', fromHere:'Partir d’ici',
+    locDenied:'Position refusée. Activez-la dans les autorisations WeChat puis réessayez.', locFail:'Impossible d’obtenir votre position (fréquent en intérieur ou avec un signal faible)',
+    locOff:'Ce navigateur ne gère pas la localisation', locFar:(km)=>`Vous êtes à environ ${km} km du campus d’Ito`, accuracy:'précision',
     search: 'Rechercher bâtiments / services / salles…',
     from: 'Partir d\'ici', to: 'Aller ici',
     route: (d, t) => `~<b>${t} min</b> à pied (${d} m)`,
@@ -615,6 +693,21 @@ const WHERE_RE = /在哪里|在哪儿|在哪|哪里有|哪有|去哪|怎么去|�
 const $ = id => document.getElementById(id);
 const hoverLabel = $('hover-label');
 
+/* 小程序侧兜底：万一 web-view 里 navigator.geolocation 不可用，
+   小程序可以自己 wx.getLocation 之后把坐标拼进 URL（?mylat=&mylon=）。
+   这条路现在不走，但接口先留着 —— 真机验下来不通时，那边改一行就能接上。 */
+function locateFromUrl() {
+  try {
+    const q = new URLSearchParams(location.search);
+    const lat = parseFloat(q.get('mylat')), lon = parseFloat(q.get('mylon'));
+    if (!isFinite(lat) || !isFinite(lon)) return false;
+    if (meDistanceKm(lon, lat) > 5) return false;
+    drawMe(lon, lat, parseFloat(q.get('myacc')) || 0);
+    locBtn('ok');
+    return true;
+  } catch (e) { return false; }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
 Promise.all([
   loadData('osm-buildings'),
@@ -631,7 +724,10 @@ Promise.all([
   loadData('bus-schedule').catch(() => null),
   loadData('bus-routes').catch(() => null),
   loadData('jp-holidays').catch(() => null),
-]).then(([geo, ann, poi, g, rooms, fac, boundary, basemap, off, bsch, brt, bhol]) => {
+  // aimo（校内接驳）。取不到就整块功能消失，地图其余部分不受影响。
+  loadData('aimo-routes').catch(() => null),
+  loadData('aimo-schedule').catch(() => null),
+]).then(([geo, ann, poi, g, rooms, fac, boundary, basemap, off, bsch, brt, bhol, arts, asch]) => {
   offices = (off && off.offices) || [];
   elsewhere = (off && off.elsewhere) || [];
   buildings = geo.features;
@@ -642,6 +738,14 @@ Promise.all([
   facilities = fac;
   if (boundary) { campusBoundary = boundary.features[0]; renderBoundary(); fitCampusView(); }
   markOffCampus();
+  /* 定位按钮。挂在数据加载完之后 —— locateMe 会 setView，
+     而地图的初始视野是 fitCampusView 定的，早于它会被覆盖掉。 */
+  {
+    const b = document.getElementById('btn-locate');
+    if (b) b.onclick = () => locateMe();
+    if (!navigator.geolocation && b) b.title = T('locOff');
+    locateFromUrl();
+  }
   if (graph) buildGraphIndex();
   /* 数据到齐，撤掉加载层。放在渲染之前调用、靠 CSS 过渡淡出 ——
      等渲染完再撤的话，撤除本身会和首帧渲染抢同一帧，反而看得到一顿。 */
@@ -653,6 +757,7 @@ Promise.all([
   })();
 
   renderBasemap(basemap);
+  aimoInit(arts, asch);
   busInit(bsch, brt, bhol);
   renderBuildings();
   renderPois();
@@ -1201,6 +1306,7 @@ const BUS_I18N = {
         thisPole:'你在这根牌', otherPole:'在对面那根', bound:'开往',
         est:'按时刻表推算 · 非实时定位', depart:'発', updated:'时刻表更新于',
         obon:'お盆期间（8/13–15）按日祝班次运行',
+        aimoFree:'校内接驳 · 免费 · 需用 app 预约', aimoDropOnly:'终点站，只下不上', aimoOff:'今日不运行 · 仅学期内平日运行（土日祝停运）',
         day:{weekday:'平日',saturday:'周六',holiday:'周日·节假日'} },
   ja: { toward:'駅 → 九大 方向', arrive:'着', next:'次の便', inMin:(n)=>`あと ${n} 分`,
         soon:'まもなく', none:'本日の運行は終了', noData:'この停留所の時刻表は未収録',
@@ -1209,6 +1315,7 @@ const BUS_I18N = {
         thisPole:'このポール', otherPole:'向かい側', bound:'行き先',
         est:'時刻表からの推定 · リアルタイムではありません', depart:'発', updated:'時刻表取得日',
         obon:'お盆期間（8/13〜15）は日祝ダイヤ',
+        aimoFree:'学内シャトル · 無料 · アプリ予約制', aimoDropOnly:'終点、降車のみ', aimoOff:'本日運休 · 学期中の平日のみ運行（土日祝運休）',
         day:{weekday:'平日',saturday:'土曜',holiday:'日祝'} },
   en: { toward:'Station → Campus', arrive:'arr.', next:'Next', inMin:(n)=>`in ${n} min`,
         soon:'arriving', none:'No more buses today', noData:'No timetable for this stop',
@@ -1217,6 +1324,7 @@ const BUS_I18N = {
         thisPole:'this pole', otherPole:'opposite pole', bound:'bound for',
         est:'Estimated from timetable · not live GPS', depart:'dep.', updated:'Timetable fetched',
         obon:'Obon (Aug 13–15): Sun/Holiday timetable',
+        aimoFree:'Campus shuttle · Free · App booking required', aimoDropOnly:'Terminus, drop-off only', aimoOff:'Not running today · weekdays during term only',
         day:{weekday:'Weekday',saturday:'Saturday',holiday:'Sun/Holiday'} },
   ko: { toward:'역 → 캠퍼스 방향', arrive:'도착', next:'다음 차', inMin:(n)=>`${n}분 후`,
         soon:'곧 도착', none:'오늘 운행 종료', noData:'이 정류장의 시간표는 미수록',
@@ -1225,6 +1333,7 @@ const BUS_I18N = {
         thisPole:'이 표지판', otherPole:'건너편', bound:'행선지',
         est:'시간표 기반 추정 · 실시간 위치 아님', depart:'출발', updated:'시간표 수집일',
         obon:'오봉 기간(8/13~15)은 일·공휴일 시간표',
+        aimoFree:'교내 셔틀 · 무료 · 앱 예약 필요', aimoDropOnly:'종점, 하차만 가능', aimoOff:'오늘 운행 없음 · 학기 중 평일만 운행',
         day:{weekday:'평일',saturday:'토요일',holiday:'일요일·공휴일'} },
   hi: { toward:'स्टेशन → कैंपस', arrive:'आगमन', next:'अगली बस', inMin:(n)=>`${n} मिनट में`,
         soon:'आ रही है', none:'आज और बसें नहीं', noData:'इस स्टॉप का समय उपलब्ध नहीं',
@@ -1233,6 +1342,7 @@ const BUS_I18N = {
         thisPole:'यही खंभा', otherPole:'सामने वाला', bound:'की ओर',
         est:'समय-सारणी से अनुमानित · लाइव जीपीएस नहीं', depart:'प्रस्थान', updated:'समय-सारणी दिनांक',
         obon:'ओबोन (13–15 अग.): रविवार/अवकाश समय-सारणी',
+        aimoFree:'कैंपस शटल · निःशुल्क · ऐप बुकिंग आवश्यक', aimoDropOnly:'अंतिम स्टॉप, केवल उतरना', aimoOff:'आज सेवा नहीं · केवल सत्र के कार्यदिवसों में',
         day:{weekday:'कार्यदिवस',saturday:'शनिवार',holiday:'रविवार/अवकाश'} },
   es: { toward:'Estación → Campus', arrive:'llegada', next:'Próximo', inMin:(n)=>`en ${n} min`,
         soon:'llegando', none:'No hay más buses hoy', noData:'Sin horario para esta parada',
@@ -1241,6 +1351,7 @@ const BUS_I18N = {
         thisPole:'este poste', otherPole:'poste de enfrente', bound:'con destino a',
         est:'Estimado del horario · no es GPS en vivo', depart:'salida', updated:'Horario obtenido',
         obon:'Obon (13–15 ago.): horario de domingo/festivo',
+        aimoFree:'Lanzadera del campus · Gratis · Reserva por app', aimoDropOnly:'Terminal, solo bajada', aimoOff:'Hoy no circula · solo días lectivos entre semana',
         day:{weekday:'Laborable',saturday:'Sábado',holiday:'Dom./Festivo'} },
   fr: { toward:'Gare → Campus', arrive:'arrivée', next:'Prochain', inMin:(n)=>`dans ${n} min`,
         soon:'à l’approche', none:'Plus de bus aujourd’hui', noData:'Pas d’horaire pour cet arrêt',
@@ -1249,6 +1360,7 @@ const BUS_I18N = {
         thisPole:'ce poteau', otherPole:'poteau d’en face', bound:'à destination de',
         est:'Estimé d’après l’horaire · pas de GPS en direct', depart:'départ', updated:'Horaire relevé le',
         obon:'Obon (13–15 août) : horaire dim./férié',
+        aimoFree:'Navette du campus · Gratuit · Réservation via l’app', aimoDropOnly:'Terminus, descente uniquement', aimoOff:'Pas de service aujourd’hui · en semaine pendant le semestre',
         day:{weekday:'Semaine',saturday:'Samedi',holiday:'Dim./Férié'} },
 };
 const TB = (k) => (BUS_I18N[lang] && BUS_I18N[lang][k] !== undefined) ? BUS_I18N[lang][k] : BUS_I18N.en[k];
@@ -1297,6 +1409,25 @@ function busDayType(t) {
   return t.wd === 0 ? 'holiday' : (t.wd === 6 ? 'saturday' : 'weekday');
 }
 
+/* aimo 的数据挂载。必须在 busInit 之前调用 —— busInit 里会立刻 busRender()，
+   而那一帧就要读 aimoRoutes 了。
+   ⚠️ _cum（折线累计长度）一定要预算：alongPath 靠它按距离取点，
+   不算的话 busInterpolate 会退回两站直线，车就穿楼了。 */
+function aimoInit(rts, sch) {
+  if (!rts || !rts.routes || !sch) return;
+  aimoRoutes = rts; aimoSchedule = sch;
+  for (const rid in rts.routes)
+    for (const st of rts.routes[rid].stops) {
+      if (!Array.isArray(st.path) || st.path.length < 2) continue;
+      const cum = [0];
+      for (let i = 0; i < st.path.length - 1; i++) {
+        const p = st.path[i], q = st.path[i + 1];
+        cum.push(cum[i] + Math.hypot((q[0] - p[0]) * MLON, (q[1] - p[1]) * MLAT));
+      }
+      st._cum = cum;
+    }
+}
+
 function busInit(sch, rts, hol) {
   if (!sch || !rts || !rts.routes) return;   // 数据缺一不可，缺了就整体不启用
   busSchedule = sch; busRoutes = rts;
@@ -1311,16 +1442,18 @@ function busInit(sch, rts, hol) {
       // 折线的累计长度预算一次，之后每帧只做查表。
       // 放在这里而不是每帧算：8 辆车 × 每秒一帧 × 每次遍历十几个折点，
       // 白白烧手机电，而这个结果是恒定的。
-      if (Array.isArray(s.path) && s.path.length > 1) {
+      const cumOf = (pts) => {
         const cum = [0];
-        for (let i = 0; i < s.path.length - 1; i++) {
-          const p = s.path[i], q = s.path[i + 1];
+        for (let i = 0; i < pts.length - 1; i++) {
+          const p = pts[i], q = pts[i + 1];
           cum.push(cum[i] + Math.hypot((q[0] - p[0]) * MLON, (q[1] - p[1]) * MLAT));
         }
-        s._cum = cum;
-      }
+        return cum;
+      };
+      if (Array.isArray(s.path) && s.path.length > 1) s._cum = cumOf(s.path);
     }
   if (BUS_ANIM) {
+    aimoDrawStatic();
     busRender();
     busTimer = setInterval(busRender, BUS_TICK_MS);
     /* 视野一动就冻住过渡，动完再解冻。
@@ -1339,6 +1472,7 @@ function busInit(sch, rts, hol) {
     const busFreeze = () => map.getContainer().classList.add('bus-frozen');
     const busThaw = () => {
       const c = map.getContainer();
+      aimoDrawStatic();
       busRender();                                    // 先按新视野把车摆好
       busMarkers.forEach(m => m.update());            // 逼 Leaflet 落实新像素位
       void c.offsetWidth;                             // ② 强制回流
@@ -1366,13 +1500,33 @@ function alongPath(pts, cum, k) {
   return [lat, lon];
 }
 
+/* 这条线最后一个有坐标的站（缓存在数组上，每帧每辆车都要问一次）。
+   车就开到它为止 —— 再往后的站没坐标，画不出来。 */
+function busLastFixed(stops) {
+  if (stops._lastFixed !== undefined) return stops._lastFixed;
+  let last = null;
+  for (const s of stops) if (s.lat != null) last = s;
+  stops._lastFixed = last;
+  return last;
+}
+
 /** 某线某班在 t 分钟时的位置；不在校内有坐标的区间上则返回 null（不画）。 */
 function busInterpolate(stops, t) {
+  /* ⚠️ 这里【故意不读】stops[].exitPath。
+     2026-08-20 试过给末站补一段"开到地图边界"的路径，方向算错了 180°，
+     糸島線的车朝着与前原相反的方向开出去，而且那份坏数据已经上过一次线。
+     撤下的完整原因见 scripts/build_bus_exits.js 的头注。
+
+     不读它，而不是只清掉数据 —— 静态托管上的旧 bus-routes.json 可能还带着
+     exitPath（缓存、或者只传了 HTML 没传数据）。只要这里不看这个字段，
+     线上残留什么都不会再让车开错方向。想重做这个特性，得先解决那两个根因。 */
+
   for (let i = 0; i < stops.length - 1; i++) {
     const a = stops[i], b = stops[i + 1];
     if (t < a.offset || t > b.offset) continue;
     if (a.lat == null && b.lat == null) return null;          // 校外段：车还没进地图
     if (a.lat == null) return t >= b.offset ? [b.lat, b.lon] : null;
+    // 下一站没坐标 = 车开出了有数据的范围，到本站为止
     if (b.lat == null) return t <= a.offset ? [a.lat, a.lon] : null;
     const span = b.offset - a.offset;
     // ⚠️ 相邻两站 offset 可能相同 —— 抓取时分钟取整所致，三条线的
@@ -1385,6 +1539,141 @@ function busInterpolate(stops, t) {
     return [a.lat + (b.lat - a.lat) * k, a.lon + (b.lon - a.lon) * k];
   }
   return null;
+}
+
+/* ══════════════════ aimo（校内接驳循環便） ══════════════════
+   与昭和バス共用 busInterpolate / busHeading / alongPath —— 站的数据形状是一样的
+   （name/offset/lat/lon/path），所以算法一行都不用改。
+   aimo 自己需要的只有三件昭和バス没有的事：
+     ① 运行期：只在学期内的平日跑，假期与年末年始整段停；
+     ② 发车表是平铺的 HH:MM 列表，没有平日/周六/日祝三张表；
+     ③ 图标与线型要能一眼分出来（它免费、只在校内、且必须预约）。 */
+let aimoRoutes = null, aimoSchedule = null;
+let aimoLayer = null, aimoLineLayer = null;
+const aimoMarkers = new Map();
+
+/* 今天跑不跑。四道闸依次过：学期段内 → 不是年末年始 → 平日 → 不是祝日。
+   ⚠️ 祝日复用 busHolidaySet（jp-holidays.json）。那份表有末尾日期，
+   过了表尾就无从判断 —— 那时宁可【不画】也不要画一辆可能不存在的车：
+   校内接驳停运时图上还有车，比没有车更糟。 */
+function aimoInService(t) {
+  if (!aimoSchedule || !aimoSchedule.service) return false;
+  const sv = aimoSchedule.service, iso = t.iso;
+  const inAny = (arr) => (arr || []).some(r => iso >= r.from && iso <= r.to);
+  if (!inAny(sv.terms)) return false;
+  if (inAny(sv.closed)) return false;
+  if (sv.weekdaysOnly && (t.wd === 0 || t.wd === 6)) return false;
+  if (busIsObon(iso)) return false;
+  if (busHolidaySet) {
+    if (busHolidaySet.has(iso)) return false;
+    // 祝日表已经过期到管不到今天：判不出来就不画
+    if (busHolidayLast && iso > busHolidayLast) return false;
+  }
+  return true;
+}
+
+/** 'HH:MM' → 当天分钟数 */
+function aimoMin(hhmm) {
+  const m = /^(\d{1,2}):(\d{2})$/.exec(String(hhmm || ''));
+  return m ? Number(m[1]) * 60 + Number(m[2]) : null;
+}
+
+function aimoLineOf(id) {
+  return ((aimoSchedule && aimoSchedule.lines) || []).find(l => l.id === id) || null;
+}
+
+/** 当前在途的 aimo 班次。形状与 busPositions 的输出一致，好让 busRender 一并处理。 */
+function aimoPositions() {
+  const t = tokyoNow(), out = [];
+  if (!aimoRoutes || !aimoSchedule || !aimoInService(t)) return out;
+  for (const rid in aimoRoutes.routes) {
+    const rt = aimoRoutes.routes[rid], line = aimoLineOf(rid);
+    if (!line || !rt.stops.length) continue;
+    const tEnd = busEndOf(rt);
+    for (const hhmm of (line.departures || [])) {
+      const dep = aimoMin(hhmm);
+      if (dep == null) continue;
+      const el = t.min - dep;
+      if (el < 0 || el > tEnd) continue;
+      const p = busInterpolate(rt.stops, el);
+      if (!p) continue;
+      const left = tEnd - el;
+      const fade = left >= BUS_FADE_MIN ? 1 : Math.max(0, left / BUS_FADE_MIN);
+      if (fade <= 0) continue;
+      out.push({ line, dep, lat: p[0], lon: p[1], fade,
+                 heading: busHeading(rt.stops, el) });
+    }
+  }
+  return out;
+}
+
+/* 路线与站点【常驻】，只有车受运行期闸门管。
+   第一版把整个静态层也锁在 aimoInService 后面，理由是「停运期间画着站点
+   会让人以为随时能坐」—— 但代价在 2026-08-27 被用户亲自撞上了：
+   暑假看地图的人（恰恰是 9 月下旬落地的新生）根本不知道 aimo 存在。
+   「会不会误导」由弹窗解决：停运日点开站点，明说「今日不运行」；
+   虚线本身也编码着「不是随时都有」。车维持只在运行期画 ——
+   那条底线不变：图上有一辆不存在的车，比没有车更糟。 */
+function aimoDrawStatic() {
+  if (!aimoRoutes || !aimoSchedule) return;
+  if (aimoLineLayer) return;                       // already drawn
+  aimoLineLayer = L.layerGroup().addTo(map);
+  const seen = new Set();
+  for (const rid in aimoRoutes.routes) {
+    const rt = aimoRoutes.routes[rid];
+    /* 虚线而不是实线：编码的是「不是随时都有」—— 只在学期内的平日跑，而且要预约。
+       两个方向的线几乎重叠，所以只画一次（第二次遇到同一段就跳过）。 */
+    const pts = [];
+    for (let i = 0; i < rt.stops.length - 1; i++) {
+      const a = rt.stops[i];
+      if (Array.isArray(a.path) && a.path.length > 1) {
+        a.path.forEach(p => pts.push([p[1], p[0]]));
+      } else {
+        pts.push([a.lat, a.lon]);
+      }
+    }
+    const last = rt.stops[rt.stops.length - 1];
+    pts.push([last.lat, last.lon]);
+    L.polyline(pts, { color: '#2E7D5B', weight: 3, opacity: .55,
+                      dashArray: '7 6', interactive: false }).addTo(aimoLineLayer);
+
+    for (const st of rt.stops) {
+      if (seen.has(st.name)) continue;
+      seen.add(st.name);
+      L.marker([st.lat, st.lon], { keyboard: false, zIndexOffset: 300, icon: L.divIcon({
+        className: '', iconSize: [12, 12], iconAnchor: [6, 6],
+        html: '<div class="aimo-stop"></div>' })
+      }).addTo(aimoLineLayer).on('click', e => L.popup().setLatLng(e.latlng)
+        .setContent(aimoStopPopup(st)).openOn(map));
+    }
+  }
+}
+
+function aimoStopPopup(st) {
+  const t = tokyoNow();
+  /* 站点常驻之后，「今天到底跑不跑」全靠这里交代。
+     停运日不列发车时刻 —— 列了等于说今天有车。 */
+  if (!aimoInService(t)) {
+    return '<div style="min-width:170px"><b>' + busEsc(st.name) + '</b>'
+      + '<div style="font-size:11px;color:#666;margin-top:2px">' + TB('aimoFree') + '</div>'
+      + '<div style="margin-top:6px;color:#a33">' + TB('aimoOff') + '</div></div>';
+  }
+  const rows = [];
+  for (const rid in aimoRoutes.routes) {
+    const rt = aimoRoutes.routes[rid], line = aimoLineOf(rid);
+    const idx = rt.stops.findIndex(x => x.name === st.name);
+    if (idx < 0 || !line) continue;
+    const off = rt.stops[idx].offset;
+    const next = (line.departures || [])
+      .map(h => aimoMin(h) + off).filter(m => m >= t.min).slice(0, 3);
+    rows.push('<div style="margin-top:6px"><b>' + busEsc(busLineName(line)) + '</b><br>'
+      + (rt.stops[idx].dropOnly
+          ? '<span style="color:#a33">' + TB('aimoDropOnly') + '</span>'
+          : (next.length ? next.map(busHHMM).join(' / ') : TB('none'))) + '</div>');
+  }
+  return '<div style="min-width:170px"><b>' + busEsc(st.name) + '</b>'
+    + '<div style="font-size:11px;color:#666;margin-top:2px">' + TB('aimoFree') + '</div>'
+    + rows.join('') + '</div>';
 }
 
 function busLineOf(id) {
@@ -1543,20 +1832,45 @@ function busHeading(stops, t) {
   return ((rev ? deg + 180 : deg) + 360) % 360;
 }
 
+/* 这趟车在发车后第几分钟【彻底离开地图】= 最后一个有坐标的站的 offset。
+   校外的站在 bus-routes.json 里一律 lat=null（时刻表有站名有时刻，没去要坐标），
+   所以动画只能画到这里为止；再往后由淡出交代（见 BUS_FADE_MIN）。
+   算一次缓存在 rt 上：每秒一帧、十条线，没必要每帧重算一个恒定值。 */
+function busEndOf(rt) {
+  if (rt._tEnd != null) return rt._tEnd;
+  const last = busLastFixed(rt.stops);
+  rt._tEnd = last == null ? 0 : last.offset;
+  return rt._tEnd;
+}
+
+/* 退场前淡出多久（分钟）。20 秒 —— 按 20km/h 约 110 米。
+   再短看不出是淡出（还是像"啪"地消失），再长车就一路半透明地开。
+   两种收场都用它：到终点站是这样，开出边界也是这样，
+   「车不见了」这件事应该长得一样。 */
+const BUS_FADE_MIN = 20 / 60;
+
 /** 当前在途的班次位置 */
 function busPositions() {
   const t = tokyoNow(), out = [];
   for (const rid in busRoutes.routes) {
     const rt = busRoutes.routes[rid], line = busLineOf(rid);
     if (!line || !rt.stops.length) continue;
-    const total = rt.stops[rt.stops.length - 1].offset;
+    /* ⚠️ 上限用 tEnd 而不是终点站的 offset。k-town 的终点是博多站（63 分），
+       但最后一个有坐标的站在第 8 分钟 —— 拿 63 分当上限，等于让一辆早就画不出来的
+       车在池子里挂 55 分钟，每帧都要算一次位置再被丢掉。 */
+    const tEnd = busEndOf(rt);
     for (const fr of busFrames()) {
       for (const dep0 of busDepartures(line, fr.dayType)) {
         const dep = dep0 + fr.shift;          // 今天时间轴上的発車时刻
         const el = t.min - dep;
-        if (el < 0 || el > total) continue;
+        if (el < 0 || el > tEnd) continue;
         const p = busInterpolate(rt.stops, el);
-        if (p) out.push({ line, dep, lat: p[0], lon: p[1], heading: busHeading(rt.stops, el) });
+        if (!p) continue;
+        const left = tEnd - el;
+        const fade = left >= BUS_FADE_MIN ? 1 : Math.max(0, left / BUS_FADE_MIN);
+        if (fade <= 0) continue;          // 已完全淡出，不挂透明 marker
+        out.push({ line, dep, lat: p[0], lon: p[1], fade,
+                   heading: busHeading(rt.stops, el) });
       }
     }
   }
@@ -1573,11 +1887,12 @@ const busMarkers = new Map();
    ⚠️ 转的是外圈那个环，不是整个徽章 —— 整体旋转的话 🚌 会跟着转成倒的。
    heading 为 null（停站、零区间、位移过小）时【保持上一次的角度】，
    不要归零：归零会让箭头在车停下的瞬间"啪"地弹回正北。 */
-function busAim(m, heading) {
+function busAim(m, heading, ringSel) {
   if (heading == null) return;
   const el = m.getElement();
   if (!el) return;
-  const ring = el.querySelector('.bus-ring');
+  // 昭和バス 与 aimo 的环类名不同，但转向逻辑一模一样，所以把选择器作为参数传进来
+  const ring = el.querySelector(ringSel || '.bus-ring');
   if (!ring) return;
   /* 角度要【连续累加】，不能直接写 busHeading 给的 0–360 原值。
      CSS 的 rotate 是按数值线性插值的：355deg → 5deg 会倒着转 350 度，
@@ -1611,6 +1926,17 @@ function busAim(m, heading) {
   ring.style.transform = 'rotate(' + next.toFixed(1) + 'deg)';
 }
 
+/* 退场淡出。只在最后那 20 秒里动 —— 平时一律写 1，
+   免得 marker 被复用给下一班车时还留着上一班的半透明。 */
+function busFade(m, fade) {
+  const el = m.getElement();
+  if (!el) return;
+  const v = fade == null ? 1 : fade;
+  if (m._fade === v) return;              // 没变就别碰 style，省一次样式重算
+  m._fade = v;
+  el.style.opacity = v >= 1 ? '' : String(v.toFixed(2));
+}
+
 function busRender() {
   if (!BUS_ANIM || !busRoutes) return;
   // 用地图实际的 minZoom 兜底：闸门永远不会高于用户能达到的最小缩放
@@ -1620,10 +1946,14 @@ function busRender() {
      画在画面之外既看不见也白耗每秒一次的 setLatLng。
      稍微放宽一点边界（pad），免得车在屏幕边缘反复进出、一闪一闪。 */
   const view = map.getBounds().pad(0.25);
-  const list = map.getZoom() >= gate
-    ? busPositions().filter(b => view.contains([b.lat, b.lon])) : [];
+  const okZoom = map.getZoom() >= gate;
+  const list = okZoom ? busPositions().filter(b => view.contains([b.lat, b.lon])) : [];
+  /* aimo 走同一个 tick、同一个视野闸门、同一套冻结逻辑 ——
+     另起一个 setInterval 的话，两组车会在不同的帧上跳，看着就是两套系统。 */
+  const aList = okZoom ? aimoPositions().filter(b => view.contains([b.lat, b.lon])) : [];
 
   if (!busLayer) busLayer = L.layerGroup().addTo(map);
+  if (!aimoLayer) aimoLayer = L.layerGroup().addTo(map);
   const alive = new Set();
 
   for (const b of list) {
@@ -1633,6 +1963,7 @@ function busRender() {
     if (m) {
       m.setLatLng([b.lat, b.lon]);
       busAim(m, b.heading);
+      busFade(m, b.fade);
     } else {
       m = L.marker([b.lat, b.lon], { keyboard: false, zIndexOffset: 500, icon: L.divIcon({
         className: 'bus-marker', iconSize: [30, 30], iconAnchor: [15, 15],
@@ -1645,6 +1976,7 @@ function busRender() {
       m.addTo(busLayer);
       busMarkers.set(id, m);
       busAim(m, b.heading);
+      busFade(m, b.fade);
       // 新出现的车不做过渡：它是从校外刚进图的，补间会让它从上一辆车的位置滑过来
       const el = m.getElement();
       if (el) { el.style.transition = 'none'; requestAnimationFrame(() => {
@@ -1655,7 +1987,42 @@ function busRender() {
   for (const [id, m] of busMarkers) {
     if (!alive.has(id)) { busLayer.removeLayer(m); busMarkers.delete(id); }
   }
-  busNote(list.length > 0);
+
+  /* aimo 的车。复用 busAim / busFade —— 那两个函数只认 .bus-ring / opacity，
+     所以 aimo 的环也叫 .aimo-ring 时会拿不到元素。这里各留各的选择器，
+     用第三个参数把环的类名传进去。 */
+  const aAlive = new Set();
+  for (const b of aList) {
+    const id = b.line.id + '@' + b.dep;
+    aAlive.add(id);
+    let m = aimoMarkers.get(id);
+    if (m) {
+      m.setLatLng([b.lat, b.lon]);
+      busAim(m, b.heading, '.aimo-ring');
+      busFade(m, b.fade);
+    } else {
+      m = L.marker([b.lat, b.lon], { keyboard: false, zIndexOffset: 480, icon: L.divIcon({
+        className: 'aimo-marker', iconSize: [30, 30], iconAnchor: [15, 15],
+        html: '<div class="aimo-ring"><i></i></div><div class="aimo-dot">🚐</div>' }) });
+      m.on('click', e => L.popup().setLatLng(e.latlng).setContent(
+        `<div class="popup-name">🚐 ${busEsc(busLineName(b.line))}</div>
+         <div class="popup-sub">${busHHMM(b.dep)} ${busEsc(TB('depart'))} · ${busEsc(TB('aimoFree'))}</div>
+         <div style="font-size:10px;color:#999;margin-top:4px">${busEsc(TB('est'))}</div>`
+      ).openOn(map));
+      m.addTo(aimoLayer);
+      aimoMarkers.set(id, m);
+      busAim(m, b.heading, '.aimo-ring');
+      busFade(m, b.fade);
+      const el = m.getElement();
+      if (el) { el.style.transition = 'none'; requestAnimationFrame(() => {
+        if (m.getElement()) m.getElement().style.transition = ''; }); }
+    }
+  }
+  for (const [id, m] of aimoMarkers) {
+    if (!aAlive.has(id)) { aimoLayer.removeLayer(m); aimoMarkers.delete(id); }
+  }
+
+  busNote(list.length > 0 || aList.length > 0);
 }
 
 /** 有车在屏幕上时的角标。plan-bus.md §2.4：这条是必须的，
@@ -1938,6 +2305,112 @@ function astar(start, goal) {
 }
 
 let routeLine = null, routeMarks = [];
+/* ══════════════════ 定位 ══════════════════
+   ⚠️ 坐标系：伊都在日本，navigator.geolocation 返回 WGS-84，底图是 OSM
+   也是 WGS-84 —— 不需要 GCJ-02 纠偏。（在中国境内两者差几百米，
+   那是另一码事，这张图不涉及。别看到「定位」两个字就顺手加纠偏。）
+
+   ⚠️ 取不到位置不是异常分支，是常态之一：用户拒权、在室内、web-view 不给权限。
+   所以每一条失败路径都要有话说 —— 留一个点了没反应的按钮是最糟的结果。 */
+let myPos = null, myMark = null, myRing = null, myWatch = null;
+const CAMPUS_CENTER = [130.2185, 33.5955];   // 大致中心，只用来判断「离得太远」
+
+function meDistanceKm(lon, lat) {
+  const dx = (lon - CAMPUS_CENTER[0]) * MLON, dy = (lat - CAMPUS_CENTER[1]) * MLAT;
+  return Math.hypot(dx, dy) / 1000;
+}
+
+function drawMe(lon, lat, acc) {
+  myPos = [lon, lat];
+  if (myMark) map.removeLayer(myMark);
+  if (myRing) map.removeLayer(myRing);
+  /* 精度圈画在点下面。不画的话，5m 和 80m 的定位在屏幕上长得一模一样，
+     而后者根本不该用来判断「我在哪栋楼」。 */
+  if (acc && acc > 12) {
+    myRing = L.circle([lat, lon], {
+      radius: acc, color: '#1E88E5', weight: 1, opacity: .5,
+      fillColor: '#1E88E5', fillOpacity: .10, interactive: false
+    }).addTo(map);
+  }
+  myMark = L.marker([lat, lon], {
+    keyboard: false, zIndexOffset: 900,
+    icon: L.divIcon({ className: '', html: '<div class="me-dot"></div>',
+                      iconSize: [16, 16], iconAnchor: [8, 8] })
+  }).addTo(map);
+  myMark.on('click', () => {
+    L.popup().setLatLng([lat, lon]).setContent(
+      '<div class="popup-name">' + T('meHere') + '</div>'
+      + (acc ? '<div class="popup-sub">' + T('accuracy') + ' ±' + Math.round(acc) + ' m</div>' : '')
+      + '<div class="popup-btns"><button class="primary" onclick="routeFromMe()">'
+      + T('fromHere') + '</button></div>'
+    ).openOn(map);
+  });
+}
+
+/** 把「我」设为路线起点。建筑弹窗里的「导航到这里」设终点，两边凑齐就出路线。 */
+function routeFromMe() {
+  if (!myPos) { locateMe(true); return; }
+  map.closePopup();
+  setRoute('from', myPos[0], myPos[1]);
+}
+
+function locBtn(state) {
+  const b = document.getElementById('btn-locate');
+  if (!b) return;
+  b.classList.toggle('locating', state === 'busy');
+  b.classList.toggle('on', state === 'ok');
+}
+
+/** 提示条复用 routebar —— 再造一个浮层只会多一处要维护的定位与安全区。 */
+function locSay(html, ms) {
+  const bar = $('routebar');
+  bar.style.display = 'block';
+  bar.innerHTML = html;
+  if (ms) setTimeout(() => {
+    // 期间如果画出了路线，就别把人家的信息条抢掉
+    if (!routeLine && bar.innerHTML === html) bar.style.display = 'none';
+  }, ms);
+}
+
+function locateMe(fromPopup) {
+  if (!navigator.geolocation) { locSay(T('locOff'), 4000); return; }
+  locBtn('busy');
+  locSay(T('locating'));
+  navigator.geolocation.getCurrentPosition(function (p) {
+    const lon = p.coords.longitude, lat = p.coords.latitude, acc = p.coords.accuracy;
+    const km = meDistanceKm(lon, lat);
+    /* 离校区太远时不画。画了的话，地图会缩到把福冈市全装进来，
+       校园变成一个点 —— 而用户只是想看看自己在校内哪儿。 */
+    if (km > 5) {
+      locBtn('');
+      locSay(T('locFar')(km.toFixed(0)), 5000);
+      return;
+    }
+    locBtn('ok');
+    drawMe(lon, lat, acc);
+    /* 带动画地飞过去（真机上更好看：能看出自己是从哪儿过来的）。
+       ⚠️ 但要兜一手：Leaflet 的缩放动画走 requestAnimationFrame，
+       而 web-view 被系统节流时 rAF 可能一直不触发 —— 那样视野原地不动，
+       用户看到的是「点了定位，什么都没发生」，而标记其实画在屏幕外。
+       所以过 400ms 复查一次，没动就硬切过去。 */
+    const wantZoom = Math.max(map.getZoom(), 17);
+    map.setView([lat, lon], wantZoom);
+    setTimeout(() => {
+      if (map.getZoom() !== wantZoom || !map.getBounds().contains([lat, lon])) {
+        map.setView([lat, lon], wantZoom, { animate: false });
+      }
+    }, 400);
+    locSay('<b>' + T('meHere') + '</b>'
+      + (acc ? ' <span style="color:#888">±' + Math.round(acc) + ' m</span>' : '')
+      + '<button onclick="routeFromMe()">' + T('fromHere') + '</button>', 6000);
+    if (fromPopup === true) routeFromMe();
+  }, function (err) {
+    locBtn('');
+    // 1 = PERMISSION_DENIED。这一类要单独说，因为解决办法完全不同。
+    locSay(err && err.code === 1 ? T('locDenied') : T('locFail'), 5000);
+  }, { enableHighAccuracy: true, timeout: 12000, maximumAge: 30000 });
+}
+
 let routeFrom = null, routeTo = null;   // [lon, lat]
 function setRoute(which, lon, lat) {
   const ACK = 'kyudai_route_disclaimer_ack';
