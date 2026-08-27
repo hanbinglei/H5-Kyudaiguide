@@ -97,7 +97,12 @@ function main() {
   const head = `// data-articles.js — 12 篇主指南（cat 1–12）+ 置顶反诈（cat 13）
 // 由 tools/build_guide_articles.js 从 content/ 生成，勿手改。
 // **要改内容请改 content/<article>.json**，然后重跑构建。
-// 共 ${arts.length} 篇 · ${total} 块 · 生成于 ${new Date().toISOString().slice(0, 10)}
+// 共 ${arts.length} 篇 · ${total} 块
+//
+// ⚠️ 这里不写生成日期。CI 的做法是「重跑构建 → git diff 必须为空」，
+//    用来抓「改了 content/ 却忘了重跑」。而日期戳会让产物每天都不一样，
+//    于是提交日之后的任何一次 push 都会红 —— 红的原因还跟内容毫无关系。
+//    产物必须是输入的纯函数。想知道什么时候生成的，看 git log。
 (function(){
 window.ARTICLES = `;
   fs.writeFileSync(OUT, head + JSON.stringify(arts, null, 1) + ';\n})();\n', 'utf8');
