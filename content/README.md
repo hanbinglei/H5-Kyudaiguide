@@ -28,7 +28,12 @@
 | `guide-life.json` | 生活贴士 |
 | `guide-shopping.json` | 购物 |
 | `guide-emergency.json` | 应急联系 |
-| `guide-antifraud.json` | 反诈必读（置顶）|
+| `guide-antifraud.json` | 反诈必读（首页必读卡）|
+| `guide-firstmonth.json` | 落地后 30 天：手续总表（首页必读卡）|
+
+> 最后两篇不占 12 个分类的格子，而是排在首页顶上的**必读卡**。
+> 谁在前谁在后由文件里的 `"pinOrder"` 决定（数字小的在前），**不看修改时间** ——
+> 按修改时间排的话，去改一个错别字就会把首页第一张卡换掉。
 
 ## 二、几条必须守的规矩
 

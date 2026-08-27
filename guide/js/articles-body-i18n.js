@@ -9495,6 +9495,782 @@ window.ARTICLES_BODY_I18N = {
     "text": "이 글의 일부 주제 선정은 《신 이토 풍토기》(저자 Hato_Tsubame, CantonSimon)의 정리를 참고했습니다. 본문의 모든 수치와 절차는 각 공식 사이트에서 다시 확인한 것으로, 해당 글과 차이가 있을 경우 공식을 우선하세요."
    }
   }
+ },
+ "guide-firstmonth": {
+  "ja": {
+   "125163": {
+    "text": "出発前：日本では手に入れにくい 3 つ"
+   },
+   "762418": {
+    "headers": [
+     "項目",
+     "期限",
+     "過ぎるとどうなるか"
+    ],
+    "rows": [
+     [
+      "COE",
+      "交付から 3 か月以内に入国",
+      "失効し、申請しなおし"
+     ],
+     [
+      "引っ越し（同一市区内も含む）",
+      "14 日以内に新住所の区役所へ届出",
+      "——"
+     ],
+     [
+      "在留カードの更新",
+      "在留期間の満了 3 か月前から可能",
+      "過ぎればその時点で不法残留"
+     ],
+     [
+      "脱退一時金",
+      "出国後 2 年以内に提出",
+      "期限を過ぎると申請できない"
+     ]
+    ]
+   },
+   "7dd5df": {
+    "text": "着いてから最初の 1 か月でやることは十数件あり、それらには順番があります —— いくつかは別のものを先に終えないと手をつけられません。この記事はそれを 1 本の線に並べたものです。**これは索引であって、代わりではありません**：必要書類・場所・金額は各カテゴリの本文が優先します。"
+   },
+   "06893a": {
+    "items": [
+     {
+      "text": "印鑑（はんこ）—— 一般的な素材のもの。シャチハタは不可"
+     },
+     {
+      "text": "COE の原本と、メールで届いた PDF のバックアップ"
+     },
+     {
+      "text": "着いてすぐ使える一時的なモバイル通信手段"
+     }
+    ]
+   },
+   "2c7db0": {
+    "text": "銀行の口座開設には**必ず**一般的な素材の印鑑が必要で、シャチハタ（インク内蔵式）は一切受け付けられません。印鑑がないと口座が開けず、家賃・学費・奨学金はすべて銀行口座を通します。出国前に間に合わない場合、日本のドン・キホーテに自動彫刻機があり、500 円ほどから作れます。参照【入国準備】"
+   },
+   "4c0436": {
+    "text": "COE の有効期間は **3 か月**で、その間にビザ申請と入国を終える必要があります。理工系の機微分野（AI・宇宙・原子力関連）は追加審査で期間が延びることがあります。どうしても始業に間に合わないときは、早めに教務の担当と寮の担当に連絡して延期を相談してください。参照【入国準備】"
+   },
+   "9da430": {
+    "text": "一時的な通信手段は 1 週間ほどのつなぎです —— 着いてからの地図・連絡・手続きにはネットが要りますが、日本の SIM は住所登録が済んでからでないとスムーズに契約できません。参照【携帯・ネット】"
+   },
+   "7404c3": {
+    "text": "到着当日：空港でできる 2 つのこと"
+   },
+   "eba78f": {
+    "items": [
+     {
+      "title": "在留カードを受け取る",
+      "desc": "福岡空港は交付指定空港なので、入国審査後にその場で交付されます。この時点で住所欄は空欄で、あとで区役所に登録します。"
+     },
+     {
+      "title": "資格外活動許可を申請する",
+      "desc": "アルバイトをするつもりなら、ここで一緒に済ませます —— 入国時に空港で申請でき、逃すと入管局へもう一度行くことになります。"
+     }
+    ]
+   },
+   "6bb153": {
+    "text": "資格外活動許可を得ずにアルバイトをするのは違法で、ビザに影響することがあります。学期中は週 **28 時間**まで、長期休暇中は 1 日 8 時間・週 40 時間までです。参照【アルバイト】"
+   },
+   "6d60e7": {
+    "text": "**交付指定空港以外**（那覇・鹿児島・静岡などの地方空港）から入国した場合、空港では「在留カード後日交付」の記載のみで、在留カードは住民登録が済んでから 1~2 週間後に登録した住所へ郵送されます —— その間、在留カードが要る手続きはすべて進められません。福岡から入国すればこの問題は起きません。参照【入国準備】"
+   },
+   "0dcd62": {
+    "text": "入国審査から出るまで通常 20~30 分、同じ時間帯の到着便が多いともっとかかります。シャトルバスに乗る予定なら時間に余裕を見てください。大学のシャトルバスは福岡空港の国際線／国内線ターミナルから乗車、**先着順・予約不要**で、日程と時刻は学期ごとに変わるため学校からの通知が優先です。参照【入国準備】"
+   },
+   "ca70c6": {
+    "text": "最初の 1 週間：住所登録がすべてのスイッチ"
+   },
+   "aea806": {
+    "text": "銀行・携帯・保険・年金 —— **その後の手続きはほぼすべて、在留カードの裏面に住所が記載されていることを前提にしています**。だから最初に置いてあり、しかも 1~2 日かかります：在留カードはその場で預け、翌日に受け取ります。"
+   },
+   "eb553f": {
+    "items": [
+     {
+      "title": "住所登録（住民登録）",
+      "desc": "自分でさいとぴあへ行くか、大学の代行に任せます。"
+     },
+     {
+      "title": "在留カードを受け取る",
+      "desc": "裏面に住所が記載されたら、各学府の学務にもう一度届け出ます。"
+     },
+     {
+      "title": "SIM カードを契約する"
+     },
+     {
+      "title": "銀行口座を開く"
+     },
+     {
+      "title": "国民健康保険 + 国民年金",
+      "desc": "住民登録と同時に済ませられます。"
+     }
+    ]
+   },
+   "7a8ea2": {
+    "text": "さいとぴあ（西部出張所）は JR「九大学研都市」駅から徒歩約 1 分、受付は **平日 8:45~17:15**、土日祝は休みです。市民係と保険年金係の窓口があり、通常 **1~1.5 時間で住民登録・年金・健康保険をまとめて済ませられます**。職員は英語でも対応できます。参照【在留手続き】"
+   },
+   "ae2598": {
+    "text": "大学の代行は住民登録のみで、その間およそ 3 営業日、在留カードは大学が預かります。年金と健康保険は結局自分で行くことになります。どちらの方法でも構いません —— 代行を選んだあとで残りを自分で足しにいっても問題ありません。参照【在留手続き】"
+   },
+   "563ad8": {
+    "text": "銀行のオリエンテーションは**独立したイベント**で、入学オリエンテーションとは別に予約します。来日前に申し込めているか確認してください。逃した場合は自分で窓口へ行くことになり、時間がかかります。なお日本の銀行の窓口業務は通常 **10:00~15:00** で、15:00 以降は ATM 以外何もできません。参照【銀行・送金】"
+   },
+   "41022a": {
+    "text": "何が何を止めるか：手続きの依存関係"
+   },
+   "5adfc3": {
+    "headers": [
+     "やること",
+     "先に必要なもの",
+     "場所"
+    ],
+    "rows": [
+     [
+      "住所登録",
+      "在留カード",
+      "さいとぴあ / 区役所"
+     ],
+     [
+      "SIM カード",
+      "住所が記載された在留カード",
+      "オンラインまたは店舗"
+     ],
+     [
+      "銀行口座開設",
+      "在留カード（裏面に住所）・パスポート・印鑑・学生証",
+      "銀行窓口 / 大学のオリエンテーション"
+     ],
+     [
+      "国民健康保険",
+      "住民登録",
+      "区役所（住所登録と同時に可）"
+     ],
+     [
+      "学生納付特例",
+      "学生証",
+      "区役所の年金窓口"
+     ],
+     [
+      "マイナンバーカード",
+      "住民登録",
+      "区役所"
+     ],
+     [
+      "海外から送金を受ける",
+      "マイナンバー",
+      "銀行"
+     ],
+     [
+      "アルバイト",
+      "資格外活動許可",
+      "空港 または 入管局"
+     ]
+    ]
+   },
+   "96276e": {
+    "text": "口座開設時にまだ本人の電話番号がない場合、電話番号欄にはサポーターやサポートセンターの番号を書いておき、番号を取得してから変更に行けば大丈夫です。開設時には初回入金用の現金も少し持っていきます。参照【銀行・送金】"
+   },
+   "dcdc27": {
+    "text": "最初の 1 か月：いちばん抜けやすい 3 つ"
+   },
+   "0aad31": {
+    "items": [
+     {
+      "text": "学生証を受け取ったら区役所へ戻り、年金を「所得が基準以下による免除」から「学生納付特例」に切り替える"
+     },
+     {
+      "text": "マイナンバーカードを申請する（銀行・送金・保険であとから必要になります）"
+     },
+     {
+      "text": "4 月／10 月の定期健康診断を受ける（通常はビッグさんど 2 階）"
+     }
+    ]
+   },
+   "1b0c01": {
+    "text": "年金のこの一手は**毎年必ず忘れる人がいます**。流れは：住民登録 → まず区役所で「所得が基準以下による免除」→ 学生証を受け取る → **もう一度区役所へ行って**学生納付特例に切り替える。切り替えを忘れると、あとで年金の請求書が届きます。学生証は当日交付ではなく、発行にかかる日数は学府によって違います。参照【在留手続き】"
+   },
+   "ae843e": {
+    "text": "ESP（留学生緊急支援サービス）は九大の留学生が加入するもので、年会費はおよそ 1,650 円。受診時の三者間電話通訳、医療機関の紹介、緊急時の家族への連絡などが受けられます。これは**保険ではなく**、国民健康保険とは別のもので、両方とも必要です。参照【医療・保険】"
+   },
+   "bca906": {
+    "text": "カレンダーに入れておく期限"
+   },
+   "b9105b": {
+    "text": "在留期間を過ぎて更新していない状態は「不法残留」で、結果は段階的です。刑事上は **3 年以下の懲役または 300 万円以下の罰金**。あわせて上陸拒否期間がつき、自ら出頭して出国した場合は 1 年、強制退去になった場合は 5 年、繰り返した場合は 10 年です。参照【在留手続き】"
+   },
+   "973bb1": {
+    "text": "落ち着いてから"
+   },
+   "16e6d0": {
+    "text": "寮にはベッド・机と椅子・本棚・冷蔵庫・エアコンが備え付けられています。**用意されていない**のは調理器具・電気ケトル・食器・タオル・洗面用具で、トイレットペーパーは 1 ロールのみ。布団はレンタルできますが質はいまひとつという声が多く、肌に触れる寝具（掛けカバー・枕カバー）は持参をおすすめします。寮を出たあとも使えます。参照【入国準備】"
+   },
+   "38bab8": {
+    "text": "伊都キャンパスの日常は自転車が中心です：JR 九大学研都市駅から大学まで徒歩でおよそ 45~50 分、自転車なら 20~30 分。自転車を買ったら**防犯登録（600 円）**をして、登録カードは保管しておいてください —— 廃棄・譲渡のときに必要です。参照【交通】"
+   },
+   "3897a8": {
+    "text": "福岡市のゴミは 3 種類に分かれ、定期収集です。**指定袋を使う必要があります**（コンビニやスーパーで購入でき、種類ごとに袋の印字が違います）。燃えるゴミは週 2 回、そのほかは月 1 回。夜間収集が中心で、通常は収集日の前日の日没後から 24 時までの間に出します。市の公式サイトには品目名で分別を調べられる検索システムがあります。参照【生活のコツ】"
+   },
+   "36cd13": {
+    "text": "大学アカウントの落とし穴が 2 つ：SSO-KID の有効化には**大学のメールアドレス以外は使えません**。学内 Wi-Fi のアカウントは SSOKID@Kitnet で、パスワードは SSO-KID を有効化したときに設定したものです。参照【在留手続き】"
+   },
+   "082061": {
+    "text": "何かあったときにかける番号"
+   },
+   "b01952": {
+    "items": [
+     {
+      "num": "1",
+      "text": "犯罪・事故で警察が必要なとき —— 110"
+     },
+     {
+      "num": "2",
+      "text": "火災、または救急車が必要なとき —— 119"
+     },
+     {
+      "num": "3",
+      "text": "急な体調不良で、救急車を呼ぶべきか判断できないとき —— #7119（短縮番号がつながらなければ 092-471-0099）"
+     },
+     {
+      "num": "4",
+      "text": "受診時に言葉が通じないとき —— 092-286-9595（24 時間 365 日、約 19 言語、通話通訳は無料）"
+     },
+     {
+      "num": "5",
+      "text": "領事の支援が必要なとき —— ご自身の国の在外公館へ。福岡に総領事館があるのは 韓国 092-771-0461、中国 092-713-1121、アメリカ 092-751-9331、ベトナム 092-263-7668、タイ 092-739-9088 です"
+     },
+     {
+      "num": "6",
+      "text": "生活で困ったとき・母語で相談したいとき —— 0120-66-1799（福岡市外国人総合相談支援センター、平日 8:45~18:00、多言語対応）"
+     }
+    ]
+   },
+   "9b980b": {
+    "text": "番号の一覧と在外公館の情報は参照【緊急連絡先】"
+   },
+   "644b54": {
+    "text": "もう 1 本、先に読んでほしい記事"
+   },
+   "918ebe": {
+    "text": "着いたばかりの数か月は狙われやすい時期です —— 格安の両替、大使館や警察を名乗る電話、「まず送金を」という様々な名目。参照【詐欺防止ガイド（新入生必読）】"
+   }
+  },
+  "en": {
+   "125163": {
+    "text": "Before you leave: three things that are hard to replace in Japan"
+   },
+   "762418": {
+    "headers": [
+     "Item",
+     "Deadline",
+     "What happens if you miss it"
+    ],
+    "rows": [
+     [
+      "COE",
+      "Enter Japan within 3 months of issue",
+      "It expires and must be applied for again"
+     ],
+     [
+      "Moving (including within the same city)",
+      "Report to the ward office of your new address within 14 days",
+      "——"
+     ],
+     [
+      "Residence card renewal",
+      "From 3 months before your period of stay expires",
+      "Past the date you are illegally overstaying"
+     ],
+     [
+      "Lump-sum withdrawal payment",
+      "Submit within 2 years of leaving Japan",
+      "After that you cannot claim it"
+     ]
+    ]
+   },
+   "7dd5df": {
+    "text": "There are more than a dozen things to do in your first month, and they come in an order — several cannot be started until something else is done. This article puts them on one line. **It is an index, not a replacement**: for documents, addresses and amounts, the category articles take precedence."
+   },
+   "06893a": {
+    "items": [
+     {
+      "text": "A seal (hanko) — ordinary material; self-inking シャチハタ is not accepted"
+     },
+     {
+      "text": "Your original COE, plus a backup of the PDF you received by email"
+     },
+     {
+      "text": "A temporary data SIM or pocket Wi-Fi you can use the moment you land"
+     }
+    ]
+   },
+   "2c7db0": {
+    "text": "Opening a bank account **requires** a seal of ordinary material; self-inking シャチハタ seals are never accepted. Without one you cannot open an account, and rent, tuition and scholarships all go through a bank account. If you cannot have one made before you leave, Don Quijote stores in Japan have self-service engraving machines from about ¥500. See【Arrival & Entry】"
+   },
+   "4c0436": {
+    "text": "A COE is valid for **3 months**, and the visa application and your entry must both be completed within that window. Sensitive science and engineering fields (AI, space, nuclear) may face extra screening and longer processing. If you truly cannot make the start of term, contact your academic affairs office and the dormitory early to arrange a delay. See【Arrival & Entry】"
+   },
+   "9da430": {
+    "text": "The temporary connection is only a bridge for about a week — you need the internet for maps, contacting people and paperwork the moment you arrive, but a Japanese SIM is hard to sign up for until your address is registered. See【Mobile & Internet】"
+   },
+   "7404c3": {
+    "text": "Arrival day: two things you can do at the airport"
+   },
+   "eba78f": {
+    "items": [
+     {
+      "title": "Receive your residence card",
+      "desc": "Fukuoka Airport is a designated issuing airport, so the card is handed to you on the spot after immigration. The address field is blank at this point; you register it later at the ward office."
+     },
+     {
+      "title": "Apply for permission to work",
+      "desc": "If you plan to work part-time, do it here — you can apply at the airport on entry, and missing it means a separate trip to the immigration bureau."
+     }
+    ]
+   },
+   "6bb153": {
+    "text": "Working without permission to engage in activity outside your status is illegal and can affect your visa. During term the limit is **28 hours** a week; during long vacations it is 8 hours a day and 40 hours a week. See【Part-time Work】"
+   },
+   "6d60e7": {
+    "text": "If you enter through an airport that is **not a designated issuing airport** (Naha, Kagoshima, Shizuoka and other regional airports), you only get a note saying the card will be issued later; the residence card is mailed to your registered address 1–2 weeks after your resident registration is complete — and during that gap every procedure that needs the card is blocked. Entering via Fukuoka avoids this. See【Arrival & Entry】"
+   },
+   "0dcd62": {
+    "text": "Clearing immigration usually takes 20–30 minutes, longer when many flights land at once, so leave margin if you are catching the shuttle. The university shuttle departs from the international and domestic terminals at Fukuoka Airport, **first come first served, no reservation**; dates and times change every term, so the school’s own notice takes precedence. See【Arrival & Entry】"
+   },
+   "ca70c6": {
+    "text": "Week one: registering your address is the switch for everything else"
+   },
+   "aea806": {
+    "text": "Bank, phone, insurance, pension — **almost every later procedure assumes your address is already printed on the back of your residence card**. That is why it comes first, and why it takes a day or two: you hand the card in and collect it the next day."
+   },
+   "eb553f": {
+    "items": [
+     {
+      "title": "Register your address (住民登録)",
+      "desc": "Go to さいとぴあ yourself, or let the university handle it for you."
+     },
+     {
+      "title": "Collect your residence card",
+      "desc": "Once the address is printed on the back, report it again to your own graduate school office."
+     },
+     {
+      "title": "Get a SIM card"
+     },
+     {
+      "title": "Open a bank account"
+     },
+     {
+      "title": "National Health Insurance + National Pension",
+      "desc": "These can be done at the same visit as your address registration."
+     }
+    ]
+   },
+   "7a8ea2": {
+    "text": "さいとぴあ (the western branch office) is about a minute on foot from JR Kyudai-gakkentoshi Station, open **weekdays 8:45–17:15** and closed on weekends and holidays. It has both a residents desk and an insurance-and-pension desk, and you can usually **finish resident registration, pension and health insurance together in 1–1.5 hours**. Staff can help in English. See【Residence Procedures】"
+   },
+   "ae2598": {
+    "text": "The university only handles the resident registration itself, holding your residence card for about three working days; pension and health insurance you still do yourself. Either route is fine — choosing the university route and then doing the rest yourself afterwards is perfectly normal. See【Residence Procedures】"
+   },
+   "563ad8": {
+    "text": "The bank orientation is a **separate event**, booked separately from the enrolment orientation — check before you come that you actually have a place. If you miss it you generally have to go to a branch yourself, which takes longer. Note that Japanese bank counters normally operate **10:00–15:00**; after 15:00 nothing but the ATM is available. See【Banking & Remittance】"
+   },
+   "41022a": {
+    "text": "What blocks what: the dependency table"
+   },
+   "5adfc3": {
+    "headers": [
+     "What you want to do",
+     "What must exist first",
+     "Where"
+    ],
+    "rows": [
+     [
+      "Register your address",
+      "Residence card",
+      "さいとぴあ / ward office"
+     ],
+     [
+      "Get a SIM card",
+      "Residence card with address registered",
+      "Online or in store"
+     ],
+     [
+      "Open a bank account",
+      "Residence card (address on back), passport, seal, student ID",
+      "Bank counter / university orientation"
+     ],
+     [
+      "National Health Insurance",
+      "Resident registration",
+      "Ward office (can be same visit)"
+     ],
+     [
+      "Student pension exception",
+      "Student ID",
+      "Pension desk at the ward office"
+     ],
+     [
+      "My Number card",
+      "Resident registration",
+      "Ward office"
+     ],
+     [
+      "Receive money from abroad",
+      "My Number",
+      "Bank"
+     ],
+     [
+      "Work part-time",
+      "Permission to work",
+      "Airport or immigration bureau"
+     ]
+    ]
+   },
+   "96276e": {
+    "text": "If you do not have your own phone number yet when you open the account, you can put your supporter’s or the support centre’s number in the phone field and change it once you have your own. Bring a little cash as well, for the initial deposit. See【Banking & Remittance】"
+   },
+   "dcdc27": {
+    "text": "The first month: the three most commonly missed"
+   },
+   "0aad31": {
+    "items": [
+     {
+      "text": "Once you have your student ID, go back to the ward office and switch your pension from the low-income exemption to the student payment exception"
+     },
+     {
+      "text": "Apply for a My Number card (banking, remittance and insurance all need it later)"
+     },
+     {
+      "text": "Take the April / October health check (usually on the 2nd floor of Big Sando)"
+     }
+    ]
+   },
+   "1b0c01": {
+    "text": "This pension step is **the one people forget every single year**. The full sequence is: resident registration → apply at the ward office for the low-income exemption → receive your student ID → **go back to the ward office** and switch to the student payment exception. Forget the switch and pension bills start arriving. Note that student IDs are not issued the same day, and how long they take differs by graduate school. See【Residence Procedures】"
+   },
+   "ae843e": {
+    "text": "ESP (Emergency Support for International Students) is something Kyushu University international students join, at roughly ¥1,650 a year. It provides three-way phone interpretation when you see a doctor, referrals to medical institutions, and contact with your family in an emergency. It is **not insurance** — it is separate from National Health Insurance, and you need both. See【Medical & Insurance】"
+   },
+   "bca906": {
+    "text": "Deadlines worth putting in your calendar"
+   },
+   "b9105b": {
+    "text": "Letting your period of stay lapse without renewing is “illegal overstay”, and the consequences are tiered. Criminally it can mean **up to 3 years’ imprisonment or a fine of up to ¥3,000,000**. It also carries a bar on re-entry: one year if you come forward and leave voluntarily, five years if you are deported, and ten years for a repeat offence. See【Residence Procedures】"
+   },
+   "973bb1": {
+    "text": "Once you have settled in"
+   },
+   "16e6d0": {
+    "text": "The dormitory comes with a bed, desk and chair, bookshelf, fridge and air conditioning. What is **not provided**: cookware, kettle, tableware, towels and toiletries, and only one roll of toilet paper. Bedding can be rented but people generally find the quality mediocre, so bringing your own covers (duvet cover, pillowcase) is worth it — and they still work after you move out. See【Arrival & Entry】"
+   },
+   "38bab8": {
+    "text": "Day-to-day life on the Ito campus runs on bicycles: about 45–50 minutes on foot from JR Kyudai-gakkentoshi Station to the university, 20–30 minutes by bike. When you buy one, register it against theft (**bicycle crime-prevention registration, ¥600**) and keep the registration card — you need it when you dispose of or transfer the bike. See【Transport】"
+   },
+   "3897a8": {
+    "text": "Fukuoka City sorts household waste into three types on a fixed collection schedule, and **you must use the designated bags** (sold at convenience stores and supermarkets, with different printing for each type). Burnable waste is collected twice a week, the rest once a month. Collection is mostly at night: put your bags out between sunset the day before and midnight. The city website has a search where you enter an item name to find its category. See【Life Tips】"
+   },
+   "36cd13": {
+    "text": "Two traps with the university account: activating your SSO-KID **cannot be done with any address other than your university email**. The campus Wi-Fi username is SSOKID@Kitnet, and the password is the one you set when you activated the SSO-KID. See【Residence Procedures】"
+   },
+   "082061": {
+    "text": "Which number to call when something happens"
+   },
+   "b01952": {
+    "items": [
+     {
+      "num": "1",
+      "text": "A crime or an accident, you need the police — 110"
+     },
+     {
+      "num": "2",
+      "text": "A fire, or you need an ambulance — 119"
+     },
+     {
+      "num": "3",
+      "text": "Sudden illness and you are not sure whether to call an ambulance — #7119 (if the short number does not connect, dial 092-471-0099)"
+     },
+     {
+      "num": "4",
+      "text": "You cannot make yourself understood at the doctor — 092-286-9595 (24/7, about 19 languages, phone interpreting is free)"
+     },
+     {
+      "num": "5",
+      "text": "You need consular help — contact your own country’s mission. Those with a consulate-general in Fukuoka: Korea 092-771-0461, China 092-713-1121, the United States 092-751-9331, Vietnam 092-263-7668, Thailand 092-739-9088"
+     },
+     {
+      "num": "6",
+      "text": "Everyday trouble, or you want to ask in your own language — 0120-66-1799 (Fukuoka City International Support Center, weekdays 8:45–18:00, multilingual)"
+     }
+    ]
+   },
+   "9b980b": {
+    "text": "For the full list of numbers and consulate information, See【Emergency Contacts】"
+   },
+   "644b54": {
+    "text": "One more article to read first"
+   },
+   "918ebe": {
+    "text": "The first few months after you arrive are when people are most likely to be targeted — cheap currency exchange, calls claiming to be from an embassy or the police, and any number of “transfer the money first” stories. See【Anti-Fraud Guide (Must-Read)】"
+   }
+  },
+  "ko": {
+   "125163": {
+    "text": "출발 전: 일본에서는 구하기 어려운 세 가지"
+   },
+   "762418": {
+    "headers": [
+     "항목",
+     "기한",
+     "넘기면 어떻게 되는가"
+    ],
+    "rows": [
+     [
+      "COE",
+      "교부 후 3개월 이내 입국",
+      "실효되어 다시 신청해야 함"
+     ],
+     [
+      "이사(같은 시구 내 포함)",
+      "14일 이내에 새 주소 구청에 신고",
+      "——"
+     ],
+     [
+      "재류카드 갱신",
+      "체류 기간 만료 3개월 전부터 가능",
+      "넘기면 그 시점부터 불법 잔류"
+     ],
+     [
+      "탈퇴일시금",
+      "출국 후 2년 이내 제출",
+      "기한이 지나면 신청 불가"
+     ]
+    ]
+   },
+   "7dd5df": {
+    "text": "도착 후 첫 한 달에 해야 할 일은 십수 가지이고, 그 사이에는 순서가 있습니다 —— 몇 가지는 다른 것을 먼저 끝내야 손을 댈 수 있습니다. 이 글은 그것을 한 줄로 늘어놓은 것입니다. **이것은 색인이지 대체물이 아닙니다**: 필요 서류·장소·금액은 각 분류 본문이 우선입니다."
+   },
+   "06893a": {
+    "items": [
+     {
+      "text": "도장(はんこ) —— 일반 재질의 것. 샤치하타는 불가"
+     },
+     {
+      "text": "COE 원본과, 메일로 받은 PDF 백업"
+     },
+     {
+      "text": "도착 즉시 쓸 수 있는 임시 모바일 통신 수단"
+     }
+    ]
+   },
+   "2c7db0": {
+    "text": "은행 계좌 개설에는 **반드시** 일반 재질의 도장이 필요하며, 샤치하타(잉크 내장식)는 일절 받지 않습니다. 도장이 없으면 계좌를 열 수 없고, 월세·학비·장학금은 모두 은행 계좌를 거칩니다. 출국 전에 만들지 못했다면 일본의 돈키호테에 자동 조각기가 있어 약 500엔부터 만들 수 있습니다. 참조【입국 준비】"
+   },
+   "4c0436": {
+    "text": "COE의 유효기간은 **3개월**이며, 그 안에 비자 신청과 입국을 마쳐야 합니다. 이공계 민감 분야(AI·우주·원자력 관련)는 추가 심사로 기간이 길어질 수 있습니다. 도저히 개강에 맞출 수 없을 때는 일찍 교무 담당과 기숙사 쪽에 연락해 연기를 상의하세요. 참조【입국 준비】"
+   },
+   "9da430": {
+    "text": "임시 통신 수단은 일주일 정도의 징검다리입니다 —— 도착 후 지도·연락·수속에 인터넷이 필요하지만, 일본 SIM은 주소 등록이 끝나야 순조롭게 계약할 수 있습니다. 참조【휴대폰·인터넷】"
+   },
+   "7404c3": {
+    "text": "도착 당일: 공항에서 할 수 있는 두 가지"
+   },
+   "eba78f": {
+    "items": [
+     {
+      "title": "재류카드 수령",
+      "desc": "후쿠오카 공항은 교부 지정 공항이라 입국 심사 후 그 자리에서 교부됩니다. 이 시점에는 주소란이 비어 있고, 나중에 구청에서 등록합니다."
+     },
+     {
+      "title": "자격외활동허가 신청",
+      "desc": "아르바이트를 할 생각이라면 여기서 함께 처리하세요 —— 입국 시 공항에서 신청할 수 있고, 놓치면 입국관리국에 한 번 더 가야 합니다."
+     }
+    ]
+   },
+   "6bb153": {
+    "text": "자격외활동허가 없이 아르바이트를 하는 것은 위법이며 비자에 영향을 줄 수 있습니다. 학기 중에는 주 **28시간**까지, 장기 방학 중에는 하루 8시간·주 40시간까지입니다. 참조【아르바이트】"
+   },
+   "6d60e7": {
+    "text": "**교부 지정 공항이 아닌 곳**(나하·가고시마·시즈오카 등 지방 공항)으로 입국하면 공항에서는 「재류카드 추후 교부」 기재만 받고, 재류카드는 주민등록이 끝난 뒤 1~2주 후에 등록한 주소로 우송됩니다 —— 그동안 재류카드가 필요한 수속은 전부 진행할 수 없습니다. 후쿠오카로 입국하면 이 문제는 없습니다. 참조【입국 준비】"
+   },
+   "0dcd62": {
+    "text": "입국 심사를 빠져나오기까지 보통 20~30분, 같은 시간대 도착 편이 많으면 더 걸립니다. 셔틀버스를 탈 예정이라면 시간을 넉넉히 잡으세요. 대학 셔틀버스는 후쿠오카 공항 국제선／국내선 터미널에서 승차하며 **선착순·예약 불필요**이고, 날짜와 시각은 학기마다 바뀌므로 학교 공지가 우선입니다. 참조【입국 준비】"
+   },
+   "ca70c6": {
+    "text": "첫 주: 주소 등록이 모든 것의 스위치"
+   },
+   "aea806": {
+    "text": "은행·휴대폰·보험·연금 —— **이후 수속은 거의 전부 재류카드 뒷면에 주소가 기재되어 있는 것을 전제로 합니다**. 그래서 맨 앞에 있고, 하루에서 이틀이 걸립니다: 재류카드를 그 자리에서 맡기고 다음 날 찾아옵니다."
+   },
+   "eb553f": {
+    "items": [
+     {
+      "title": "주소 등록(주민등록)",
+      "desc": "직접 사이토피아에 가거나, 대학의 대행에 맡깁니다."
+     },
+     {
+      "title": "재류카드 수령",
+      "desc": "뒷면에 주소가 기재되면 각 학부 학무과에 한 번 더 신고합니다."
+     },
+     {
+      "title": "SIM 카드 계약"
+     },
+     {
+      "title": "은행 계좌 개설"
+     },
+     {
+      "title": "국민건강보험 + 국민연금",
+      "desc": "주민등록과 동시에 처리할 수 있습니다."
+     }
+    ]
+   },
+   "7a8ea2": {
+    "text": "사이토피아(서부출장소)는 JR 「규슈대 학연도시」역에서 도보 약 1분, 접수는 **평일 8:45~17:15**이며 주말·공휴일은 휴무입니다. 시민계와 보험연금계 창구가 있어 보통 **1~1.5시간이면 주민등록·연금·건강보험을 한 번에 끝낼 수 있습니다**. 직원은 영어로도 대응할 수 있습니다. 참조【체류 수속】"
+   },
+   "ae2598": {
+    "text": "대학 대행은 주민등록만 해 주며, 그동안 약 3영업일간 재류카드를 대학이 보관합니다. 연금과 건강보험은 결국 직접 가야 합니다. 어느 쪽이든 괜찮습니다 —— 대행을 택한 뒤에 나머지를 직접 하러 가도 문제없습니다. 참조【체류 수속】"
+   },
+   "563ad8": {
+    "text": "은행 오리엔테이션은 **별개의 행사**로, 입학 오리엔테이션과 따로 예약합니다. 일본에 오기 전에 신청이 되어 있는지 확인하세요. 놓치면 보통 직접 창구에 가야 하고 시간이 더 걸립니다. 또한 일본 은행 창구 업무는 보통 **10:00~15:00**이며, 15:00 이후에는 ATM 외에는 아무것도 할 수 없습니다. 참조【은행·송금】"
+   },
+   "41022a": {
+    "text": "무엇이 무엇을 막는가: 수속 의존 관계"
+   },
+   "5adfc3": {
+    "headers": [
+     "할 일",
+     "먼저 있어야 하는 것",
+     "장소"
+    ],
+    "rows": [
+     [
+      "주소 등록",
+      "재류카드",
+      "사이토피아 / 구청"
+     ],
+     [
+      "SIM 카드",
+      "주소가 등록된 재류카드",
+      "온라인 또는 매장"
+     ],
+     [
+      "은행 계좌 개설",
+      "재류카드(뒷면에 주소)·여권·도장·학생증",
+      "은행 창구 / 대학 오리엔테이션"
+     ],
+     [
+      "국민건강보험",
+      "주민등록",
+      "구청(주소 등록과 동시 가능)"
+     ],
+     [
+      "학생납부특례",
+      "학생증",
+      "구청 연금 창구"
+     ],
+     [
+      "마이넘버 카드",
+      "주민등록",
+      "구청"
+     ],
+     [
+      "해외에서 송금 받기",
+      "마이넘버",
+      "은행"
+     ],
+     [
+      "아르바이트",
+      "자격외활동허가",
+      "공항 또는 입국관리국"
+     ]
+    ]
+   },
+   "96276e": {
+    "text": "계좌 개설 시 아직 본인 전화번호가 없다면 전화번호란에 서포터나 서포트센터 번호를 적어 두고, 번호를 받은 뒤에 변경하러 가면 됩니다. 개설 시에는 최초 입금용 현금도 조금 가져갑니다. 참조【은행·송금】"
+   },
+   "dcdc27": {
+    "text": "첫 한 달: 가장 빠뜨리기 쉬운 세 가지"
+   },
+   "0aad31": {
+    "items": [
+     {
+      "text": "학생증을 받으면 구청으로 돌아가 연금을 「소득 기준 이하 면제」에서 「학생납부특례」로 전환"
+     },
+     {
+      "text": "마이넘버 카드 신청(은행·송금·보험에서 나중에 필요합니다)"
+     },
+     {
+      "text": "4월／10월 정기 건강진단 받기(보통 빅산도 2층)"
+     }
+    ]
+   },
+   "1b0c01": {
+    "text": "연금의 이 단계는 **매년 반드시 잊는 사람이 나옵니다**. 흐름은: 주민등록 → 먼저 구청에서 「소득 기준 이하 면제」 → 학생증 수령 → **구청에 한 번 더 가서** 학생납부특례로 전환. 전환을 잊으면 나중에 연금 고지서가 옵니다. 학생증은 당일 교부가 아니며, 발급 기간은 학부마다 다릅니다. 참조【체류 수속】"
+   },
+   "ae843e": {
+    "text": "ESP(유학생 긴급지원 서비스)는 규슈대 유학생이 가입하는 것으로, 연회비는 약 1,650엔입니다. 진료 시 삼자 통화 통역, 의료기관 소개, 긴급 시 가족 연락 등을 받을 수 있습니다. 이것은 **보험이 아니며**, 국민건강보험과는 별개로 둘 다 필요합니다. 참조【의료·보험】"
+   },
+   "bca906": {
+    "text": "달력에 넣어 둘 기한"
+   },
+   "b9105b": {
+    "text": "체류 기간이 지나도록 갱신하지 않은 상태는 「불법 잔류」이며, 결과는 단계적입니다. 형사상으로는 **3년 이하의 징역 또는 300만엔 이하의 벌금**. 여기에 상륙 거부 기간이 따라붙어, 자진 출두해 출국하면 1년, 강제 퇴거되면 5년, 반복하면 10년입니다. 참조【체류 수속】"
+   },
+   "973bb1": {
+    "text": "자리를 잡은 뒤에"
+   },
+   "16e6d0": {
+    "text": "기숙사에는 침대·책상과 의자·책장·냉장고·에어컨이 갖춰져 있습니다. **제공되지 않는** 것은 조리 기구·전기 주전자·식기·수건·세면도구이며, 화장지는 1롤만 있습니다. 이불은 대여할 수 있지만 품질이 그저 그렇다는 반응이 많아, 피부에 닿는 침구(이불 커버·베개 커버)는 가져오길 권합니다. 기숙사를 나온 뒤에도 계속 쓸 수 있습니다. 참조【입국 준비】"
+   },
+   "38bab8": {
+    "text": "이토 캠퍼스의 일상은 자전거가 중심입니다: JR 규슈대 학연도시역에서 대학까지 도보로 약 45~50분, 자전거로는 20~30분. 자전거를 사면 **방범 등록(600엔)**을 하고 등록 카드는 보관해 두세요 —— 폐기·양도할 때 필요합니다. 참조【교통】"
+   },
+   "3897a8": {
+    "text": "후쿠오카시의 쓰레기는 세 종류로 나뉘어 정기 수거됩니다. **지정 봉투를 사용해야 합니다**(편의점과 슈퍼에서 판매하며 종류별로 봉투의 인쇄가 다릅니다). 타는 쓰레기는 주 2회, 나머지는 월 1회. 야간 수거가 중심이라, 보통 수거일 전날 해가 진 뒤부터 24시 사이에 내놓습니다. 시 공식 사이트에는 품목명을 입력해 분류를 찾는 검색 시스템이 있습니다. 참조【생활의 요령】"
+   },
+   "36cd13": {
+    "text": "대학 계정의 함정이 두 가지: SSO-KID 활성화에는 **대학 메일 이외의 주소는 쓸 수 없습니다**. 교내 Wi-Fi 계정은 SSOKID@Kitnet이고, 비밀번호는 SSO-KID를 활성화할 때 설정한 그것입니다. 참조【체류 수속】"
+   },
+   "082061": {
+    "text": "무슨 일이 생겼을 때 걸 번호"
+   },
+   "b01952": {
+    "items": [
+     {
+      "num": "1",
+      "text": "범죄·사고로 경찰이 필요할 때 —— 110"
+     },
+     {
+      "num": "2",
+      "text": "화재, 또는 구급차가 필요할 때 —— 119"
+     },
+     {
+      "num": "3",
+      "text": "갑작스러운 몸 상태 악화로 구급차를 불러야 할지 판단이 서지 않을 때 —— #7119(단축번호가 안 되면 092-471-0099)"
+     },
+     {
+      "num": "4",
+      "text": "진료 시 말이 통하지 않을 때 —— 092-286-9595(24시간 365일, 약 19개 언어, 통화 통역 무료)"
+     },
+     {
+      "num": "5",
+      "text": "영사 조력이 필요할 때 —— 주후쿠오카 대한민국 총영사관 092-771-0461(야간·휴일 긴급 080-8588-2806)"
+     },
+     {
+      "num": "6",
+      "text": "생활에서 곤란할 때·모국어로 상담하고 싶을 때 —— 0120-66-1799(후쿠오카시 외국인 종합상담지원센터, 평일 8:45~18:00, 다국어 대응)"
+     }
+    ]
+   },
+   "9b980b": {
+    "text": "번호 전체 목록과 재외공관 정보는 참조【긴급 연락처】"
+   },
+   "644b54": {
+    "text": "먼저 읽어 두면 좋은 글이 하나 더"
+   },
+   "918ebe": {
+    "text": "막 도착한 첫 몇 달은 표적이 되기 쉬운 시기입니다 —— 싼 환전, 대사관이나 경찰을 사칭하는 전화, 「먼저 송금부터」라는 온갖 명목. 참조【사기 방지 가이드(필독)】"
+   }
+  }
  }
 };
 })();

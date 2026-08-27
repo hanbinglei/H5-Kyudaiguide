@@ -94,5 +94,12 @@ window.ARTICLES_I18N = {
     en:'Common scams targeting international students (embassy impersonation / currency-exchange fraud / virtual kidnapping), core prevention principles, a daily checklist, and what to do if scammed. Read this first.',
     ko:'유학생을 노리는 흔한 사기(대사관 사칭/환전 사기/가상 납치 등), 예방 기본 원칙, 일일 체크리스트, 피해 후 대응과 상담처. 신입생 필독.' },
 },
+'guide-firstmonth': {
+  title:{ ja:'着いてからの 30 日：手続き一覧', en:'Your First 30 Days: procedures in order', ko:'도착 후 30일: 수속 총정리' },
+  summary:{
+    ja:'12 のカテゴリに散らばった入国後の手続きを、時系列に並べ直しました。いつやるか、これをやる前に何を終えている必要があるか、逃すと取り返しがつきにくいのはどれか。各節の最後に詳しい記事へのリンクがあります。',
+    en:'The post-arrival procedures scattered across 12 categories, laid out on a single timeline: when to do each one, what has to be finished before it, and which ones are painful to fix if you miss them. Each section links back to the detailed article.',
+    ko:'12개 분류에 흩어져 있는 입국 후 수속을 시간순으로 다시 늘어놓았습니다. 언제 하는지, 이걸 하기 전에 무엇을 끝내야 하는지, 놓치면 되돌리기 어려운 것은 무엇인지. 각 절 끝에 자세한 글로 가는 링크가 있습니다.' },
+},
 };
 })();

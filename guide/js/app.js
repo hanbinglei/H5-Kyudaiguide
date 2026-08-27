@@ -13,7 +13,10 @@ const t=k=>I18N.t(k);
 // ── 分类 → 文章（迁移后每分类恰有一篇 guide-<slug>；cat13 反诈走置顶位） ──
 const CAT_ART={};
 CATS.forEach(c=>{CAT_ART[c.id]=ARTICLES.find(a=>String(a.category)===c.id)||null});
-const PINNED=ARTICLES.find(a=>a.isPinned)||null;
+// 必读（置顶）可以有多篇。pinOrder 小的在前 —— 顺序必须是有人做过的决定，
+// 按 updatedAt 排的话，去改一个错别字就会把首页第一张卡换掉。
+// build_guide_articles.js 会卡住「isPinned 却没写 pinOrder」和「pinOrder 撞车」。
+const PINNED=ARTICLES.filter(a=>a.isPinned).sort((a,b)=>(a.pinOrder||0)-(b.pinOrder||0));
 
 // ── history（localStorage） ──
 const HKEY='kg_history',HMAX=20;
@@ -101,11 +104,15 @@ function applyI18N(){
 // ── 12 宫格（+ 置顶反诈卡） ──
 function renderGrid(){
   applyI18N();
-  const pin=$('pinnedCard');
-  if(PINNED){
-    pin.style.display='';
-    pin.innerHTML=`<span class="tag hot">${esc(t('pinnedTag'))}</span><div class="t">${esc(I18N.articleField(PINNED,'title'))}</div><div class="sum">${esc(I18N.articleField(PINNED,'summary'))}</div>`;
-    pin.onclick=()=>navigate('article/'+encodeURIComponent(PINNED._id));
+  const pin=$('pinnedCards');
+  if(PINNED.length){
+    pin.style.display='grid';
+    pin.style.gap='10px';
+    pin.innerHTML=PINNED.map(a=>
+      `<div class="card-lite" data-id="${esc(a._id)}"><span class="tag hot">${esc(t('pinnedTag'))}</span><div class="t">${esc(I18N.articleField(a,'title'))}</div><div class="sum">${esc(I18N.articleField(a,'summary'))}</div></div>`
+    ).join('');
+    pin.querySelectorAll('.card-lite').forEach(c=>
+      c.addEventListener('click',()=>navigate('article/'+encodeURIComponent(c.dataset.id))));
   }else pin.style.display='none';
   const grid=$('catGrid');
   grid.style.display='';
@@ -292,7 +299,7 @@ function initSearch(){
   clear.addEventListener('click',()=>{inp.value='';uc();renderGrid();inp.focus()});
 }
 function showSearchResults(list,q){
-  $('pinnedCard').style.display='none';
+  $('pinnedCards').style.display='none';
   $('catGridWrap').style.display='none';
   $('catListWrap').style.display='';
   $('catListHead').textContent=t('searchLabel')+' — '+q;

@@ -78,6 +78,12 @@
       "category": "13",
       "blocks": 37,
       "file": "content/guide-antifraud.json"
+    },
+    {
+      "_id": "guide-firstmonth",
+      "category": "13",
+      "blocks": 37,
+      "file": "content/guide-firstmonth.json"
     }
   ]
 }

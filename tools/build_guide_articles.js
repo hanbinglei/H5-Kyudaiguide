@@ -65,8 +65,19 @@ function main() {
     const n = (byCat[String(c)] || []).length;
     if (n !== 1) errors.push(`分类 ${c} 有 ${n} 篇（应恰好 1 篇）：${(byCat[String(c)] || []).join(',') || '无'}`);
   }
+  /* 置顶（必读）可以多于一篇，但顺序必须是有人做过的决定 ——
+     所以每篇都要有 pinOrder 且互不相同。缺了或撞了就只能按数组顺序或
+     updatedAt 排，那等于「谁最后被编辑谁排第一」：去改一个错别字就会
+     把首页第一张卡换掉，而没有任何人决定过这件事。 */
   const pinned = arts.filter(a => a.isPinned);
-  if (pinned.length > 1) errors.push(`置顶文章 ${pinned.length} 篇（至多 1 篇）`);
+  const seenOrder = new Map();
+  pinned.forEach(a => {
+    if (typeof a.pinOrder !== 'number')
+      errors.push(`${a._id}: isPinned 为真但没写 pinOrder（小的排在前面）`);
+    else if (seenOrder.has(a.pinOrder))
+      errors.push(`${a._id} 与 ${seenOrder.get(a.pinOrder)} 的 pinOrder 都是 ${a.pinOrder}，分不出先后`);
+    else seenOrder.set(a.pinOrder, a._id);
+  });
 
   // 交叉引用可解析性
   const titles = arts.map(a => a.title);

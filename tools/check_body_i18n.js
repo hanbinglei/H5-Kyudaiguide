@@ -28,6 +28,9 @@ const CONTACT_LOCALIZED = {
   'guide-medical': ['ja', 'en', 'ko'],
   'guide-antifraud': ['ja', 'en', 'ko'],
   'guide-life': ['ja', 'en', 'ko'],
+  // 「出事时打哪个电话」那一条：中文写的是中国的领保热线，ja/en 改为
+  // 「联系本国在外机构」并列出在福冈的总领事馆，ko 换成韩国总领事馆
+  'guide-firstmonth': ['ja', 'en', 'ko'],
 };
 
 function loadWin(file, name) {

@@ -62,7 +62,10 @@
           <div class="section-title" id="guideHead">指南 · 12 场景</div>
           <div class="section-sub" id="guideSub">选一个场景直接查看指南</div>
         </div>
-        <div id="pinnedCard" class="card-lite" style="display:none;margin-bottom:10px"></div>
+        <!-- 必读卡，可以不止一张。先后由 content 里的 pinOrder 决定（小的在前），
+             不按 updatedAt —— 那等于「谁最后被编辑谁排第一」，改个错别字就会
+             把首页第一张卡换掉。校验见 tools/build_guide_articles.js -->
+        <div id="pinnedCards" style="display:none;margin-bottom:10px"></div>
         <div id="catGrid" class="cat-grid"></div>
       </div>
       <!-- 列表视图（搜索结果 / 空分类提示） -->

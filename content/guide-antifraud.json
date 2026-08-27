@@ -15,6 +15,7 @@
   "author": "管理员",
   "updatedAt": "2026-08-15",
   "isPinned": true,
+  "pinOrder": 10,
   "blocks": [
     {
       "id": "52ec55",
