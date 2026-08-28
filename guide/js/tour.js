@@ -49,8 +49,11 @@ function switchTab(name) {
   if (btn && !btn.classList.contains('on')) btn.click();
 }
 
-// ── 收尾。可以被重复调用，多调几次也不出事 ──
-function end() {
+/* 收尾。可以被重复调用，多调几次也不出事。
+   keep=true 表示【不是人主动结束的】—— 量不到视口、别处脚本炸了这一类。
+   那种情况不该记成「他看过了」：页面在后台标签页里打开一次，就再也不放引导，
+   而他其实一眼都没见到。 */
+function end(keep) {
   alive = false;
   try { document.removeEventListener('keydown', onKey, true); } catch (e) {}
   try { window.removeEventListener('resize', reflow); } catch (e) {}
@@ -74,10 +77,10 @@ function end() {
     setTimeout(kill, 400);
   }
   root = spot = card = target = null;
-  markSeen();
+  if (!keep) markSeen();
 }
 
-function onCrash() { if (alive) end(); }
+function onCrash() { if (alive) end(true); }   // 别处的脚本炸了，不该算在他头上
 
 function onKey(e) {
   if (!alive) return;
@@ -112,7 +115,7 @@ function place() {
      人只看到一块黑。等一等再试；一直量不到（页面根本没在渲染）就直接收工：
      宁可不讲这一课，也不能拿一个空蒙层挡住整个界面。 */
   if (vw < 1 || vh < 1) {
-    if (++waited > 12) { end(); return; }
+    if (++waited > 12) { end(true); return; }   // 环境问题，不记成看过
     setTimeout(reflow, 150);
     return;
   }

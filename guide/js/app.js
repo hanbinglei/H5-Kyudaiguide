@@ -64,7 +64,12 @@ function initLang(){
   const sel=$('langSwitch');
   if(!sel||!I18N)return;
   sel.innerHTML=I18N.LANGS.map(k=>`<option value="${k}"${k===I18N.getLang()?' selected':''}>${(I18N.UI[k]||{}).self||k}</option>`).join('');
-  sel.addEventListener('change',()=>{I18N.setLang(sel.value);applyI18N();onHashChange()});
+  sel.addEventListener('change',()=>{
+    I18N.setLang(sel.value);applyI18N();HAY.clear();
+    // 先按现有内容渲染（中文兜底），译文包到了再重排一次 —— 切语言不等下载
+    onHashChange();
+    ensureBodyI18N(()=>onHashChange());
+  });
 }
 function applyI18N(){
   $('brandSub').textContent=t('brandSub');
@@ -152,6 +157,39 @@ function resolveRef(name){
     const tr=I[a._id]&&I[a._id].title;
     return tr&&Object.values(tr).some(v=>v&&(v.includes(n)||n.includes(v)));
   })||null;
+}
+
+/* ── 正文译文包按需加载 ──────────────────────────────────────
+   articles-body-i18n.js 是全站最大的一个文件（gzip 约 165KB，占首屏六成），
+   而【中文读者一个字节都用不上】—— trMap() 在 lang==='zh' 时直接返回 null。
+   原来它挂在 index.html 里同步加载，等于让占多数的中文读者替另外三种语言
+   付流量和解析时间，还挡在首屏渲染前面。
+
+   现在：中文不加载；非中文在启动时并行拉。拉到之前正文照常显示中文，
+   到了再重排一次。拉失败（离线且还没进过缓存）就一直是中文 ——
+   少了译文不该连正文都看不成。 */
+const BUILD=(function(){
+  try{const m=String(document.currentScript&&document.currentScript.src||'').match(/[?&]v=([^&]+)/);return m?m[1]:''}
+  catch(e){return ''}
+})();
+let trState='idle';                 // idle | loading | ready | failed
+const trWaiters=[];
+function ensureBodyI18N(cb){
+  if(I18N.getLang()==='zh'||window.ARTICLES_BODY_I18N||trState==='failed'){cb&&cb();return}
+  if(cb)trWaiters.push(cb);
+  if(trState==='loading')return;
+  trState='loading';
+  const flush=ok=>{
+    trState=ok?'ready':'failed';
+    HAY.clear();                    // 译文到位后搜索索引要重建，否则搜不到译文正文
+    trWaiters.splice(0).forEach(f=>{try{f()}catch(e){}});
+  };
+  const s=document.createElement('script');
+  s.src='js/articles-body-i18n.js'+(BUILD?'?v='+encodeURIComponent(BUILD):'');
+  s.async=true;
+  s.onload=()=>flush(true);
+  s.onerror=()=>flush(false);
+  document.head.appendChild(s);
 }
 
 /** 当前语言的译文表（按区块 ID 索引）。整篇没有译文时返回 null。 */
@@ -283,10 +321,44 @@ function toast(msg){
 }
 
 // ── search（正文 + 各语言标题/摘要一起进干草堆） ──
+/* 搜索索引。
+   ⚠️ 原来只取 b.text，于是住在 list 条目、fee_table 表格里的内容整篇搜不到 ——
+   实测「脱退一时金」「092-286-9595」都是 0 结果，而这两条恰恰最该被搜到：
+   一个过期就真的拿不回钱，一个是就医语言不通时打的号。现在逐字段摊平。
+   译文正文只在译文包已经到位时并入（见 ensureBodyI18N）—— 没到位就先只索引中文，
+   到位后 HAY.clear() 会让它自然重建，不必为此阻塞搜索。
+   缓存的理由：这东西原本每敲一个字都要为 14 篇重建一次约 2.5 万字的字符串。 */
+const HAY=new Map();
 function searchHay(a){
+  const lang=I18N.getLang();
+  const key=a._id+'@'+lang+(window.ARTICLES_BODY_I18N?'+tr':'');
+  const cached=HAY.get(key);
+  if(cached!==undefined)return cached;
+
+  const acc=[a.title||'',a.summary||'',(a.tags||[]).join(' ')];
   const i=window.ARTICLES_I18N&&window.ARTICLES_I18N[a._id];
-  const tr=i?[...Object.values(i.title||{}),...Object.values(i.summary||{})].join(' '):'';
-  return [a.title||'',a.summary||'',(a.tags||[]).join(' '),tr,(a.blocks||[]).map(b=>b.text||'').join(' ')].join(' ').toLowerCase();
+  if(i){acc.push(...Object.values(i.title||{}),...Object.values(i.summary||{}))}
+  const walk=b=>{
+    if(b.text)acc.push(b.text);
+    (b.items||[]).forEach(it=>['text','title','desc'].forEach(k=>{if(it[k])acc.push(it[k])}));
+    (b.headers||[]).forEach(h=>acc.push(h));
+    (b.rows||[]).forEach(r=>acc.push(r.join(' ')));
+    (b.blocks||[]).forEach(walk);
+  };
+  (a.blocks||[]).forEach(walk);
+  // 当前语言的正文译文：不并进来的话，读日文的人搜日文正文永远是 0 条
+  const tm=trMap(a);
+  if(tm)for(const id in tm){
+    const v=tm[id];
+    if(v&&v.text)acc.push(v.text);
+    (v&&v.items||[]).forEach(it=>['text','title','desc'].forEach(k=>{if(it[k])acc.push(it[k])}));
+    (v&&v.headers||[]).forEach(h=>acc.push(h));
+    (v&&v.rows||[]).forEach(r=>acc.push(r.join(' ')));
+  }
+
+  const s=acc.join(' ').toLowerCase();
+  HAY.set(key,s);
+  return s;
 }
 function initSearch(){
   const inp=$('searchInput'),clear=$('searchClear');if(!inp)return;
@@ -319,10 +391,19 @@ const LANE_STEP=22,LANE_STEP_X=28,BAR_INSET=3;
 function typeLabel(ty){const m=t('typeLabels');return m[ty]||ty}
 function todayStr(){const d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')}
 /** 条目名的语言选择：zh 界面 zh 主 + ja 副；其余界面 ja（官方名）主 + zh 副 */
+/* 村历条目名：主名用当前语言，副名保留日文原名。
+   日文不能丢 —— 官网通知、学務システム、掲示板上印的都是日文，
+   只给译名的话，用户拿着译名去官网对不上。
+   ⚠️ 原来非中文一律「日文为主 + 中文为副」，于是英文和韩文界面下满屏是
+   日文加中文 —— 两种文字读者都不认得，正是「切了语言还在显示别的语言」。 */
 function nameOf(it){
-  const zh=it.zh||it.title||'';const ja=it.title&&it.title!==zh?it.title:'';
-  if(I18N.getLang()==='zh')return{name:zh,sub:ja};
-  return{name:ja||zh,sub:ja?zh:''};
+  const lang=I18N.getLang();
+  const zh=it.zh||it.title||'';
+  const ja=it.title||'';
+  if(lang==='zh')return{name:zh,sub:ja&&ja!==zh?ja:''};
+  if(lang==='ja')return{name:ja||zh,sub:''};
+  const loc=I18N.cunliName(ja,lang);          // en / ko 译名表，见 i18n.js
+  return loc?{name:loc,sub:ja}:{name:ja||zh,sub:''};
 }
 function initCunli(){
   const td=todayStr(),y=+td.slice(0,4),m=+td.slice(5,7);
@@ -440,7 +521,10 @@ const CAMPUS_LABEL={
   en:{ito:'Ito',hosp:'Hospital',ohashi:'Ohashi',chikushi:'Chikushi'},
   ko:{ito:'이토',hosp:'병원',ohashi:'오하시',chikushi:'지쿠시'},
 };
-function facName(f){const l=I18N.getLang();return f[l]||f.ja||f.zh}
+/* 学部/学府名。数据只有 ja / zh / en —— 没有 ko。
+   原来缺名时退回日文，于是韩文界面下 33 个学部全是日文名。
+   改为优先退英文：韩语读者读得懂英文校名，读不懂「システム生命科学府」。 */
+function facName(f){const l=I18N.getLang();return f[l]||f.en||f.ja||f.zh}
 function facRows(list){
   const cm=CAMPUS_LABEL[I18N.getLang()]||CAMPUS_LABEL.zh;
   return list.map(f=>{
@@ -474,6 +558,8 @@ function renderHistory(){
 // ── init ──
 function init(){
   initLang();applyI18N();initSearch();renderGrid();initCunli();renderHistory();
+  // 非中文时并行取正文译文包；不 await —— 首屏不该等它
+  ensureBodyI18N(()=>{ if(currentHash().startsWith('article/'))onHashChange(); });
   document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>navigate(b.dataset.tab)));
   $('btnBack').addEventListener('click',()=>renderGrid());
   $('btnClearHistory').addEventListener('click',()=>{hClear();renderHistory();toast(t('cleared'))});

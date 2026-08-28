@@ -2,13 +2,18 @@
  *
  * 为什么值得做：这份指南自己就在教「机场先换零钱」「落地先办 SIM 卡」——
  * 也就是说，最需要翻开它的时刻，恰恰是学生还没有日本网络的时候。
- * 首屏 224KB 全部预缓存，装一次之后断网、飞行模式、机场无 wifi 都能读。
+ * 首屏那一批全部预缓存，装一次之后断网、飞行模式、机场无 wifi 都能读。
+ *
+ * ⚠️ 正文译文包 articles-body-i18n.js【不在 CORE 里】：它单独占 gzip 约 165KB，
+ * 而中文读者根本不会加载它。放进 CORE 等于让每个人在首次访问时都下这一份。
+ * 它由下面的 stale-while-revalidate 分支在【真正被请求到】的那一次顺手缓存，
+ * 所以非中文读者装过一次之后同样离线可读。
  *
  * 作用域说明：本 SW 注册在 /guide/ 下，作用域也就止于 /guide/。
  * 地图在 ../h5-mvp/（约 500KB 数据）不在作用域内，不会被它缓存 —— 这是有意的：
  * 指南是随身要看的，地图是到了校园才用的，没必要为后者占掉学生的存储和流量。
  */
-const VERSION = 'kg-20260836';
+const VERSION = 'kg-20260838';
 const CORE = [
   './',
   './index.html',
@@ -18,7 +23,6 @@ const CORE = [
   './js/data-faculties.js',
   './js/data-articles.js',
   './js/articles-i18n.js',
-  './js/articles-body-i18n.js',
   './js/data-cunli.js',
   './js/cunli-utils.js',
   './js/i18n.js',

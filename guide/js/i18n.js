@@ -203,6 +203,66 @@ function setLang(v){ if(!UI[v]) v='zh'; lang=v; try{ localStorage.setItem('kyuda
   // 未挂载（还没点过地图 tab）时 src 为空，此时重设会把 iframe 指向当前页 —— 必须跳过。
   try{ const f=document.getElementById('mapFrame'); if(f&&f.src){ f.src=f.src; } }catch(e){}
 }
+/* ── 村历条目名的 en / ko ──────────────────────────────────────
+   data-cunli.js 是从生成器产出的移植件，只带 ja（title）与 zh，没有 en/ko。
+   不补的话，英文和韩文界面下整张校历显示的是日文名 + 中文副名 ——
+   对读英文或韩文的人来说，屏幕上两种文字他都不认得。
+   放在这里而不是塞回 data-cunli.js：那份是生成物的忠实移植，
+   往里加生成器不产出的字段会造成两边漂移。按【日文原名】索引。
+   祝日的英文名用内閣府的官方译法。 */
+const CUNLI_NAMES = {
+  '元日':{en:"New Year's Day",ko:'신정'},
+  '成人の日':{en:'Coming of Age Day',ko:'성인의 날'},
+  '建国記念の日':{en:'National Foundation Day',ko:'건국기념일'},
+  '天皇誕生日':{en:"The Emperor's Birthday",ko:'천황 탄생일'},
+  '春分の日':{en:'Vernal Equinox Day',ko:'춘분의 날'},
+  '昭和の日':{en:'Showa Day',ko:'쇼와의 날'},
+  '憲法記念日':{en:'Constitution Memorial Day',ko:'헌법기념일'},
+  'みどりの日':{en:'Greenery Day',ko:'녹색의 날'},
+  'こどもの日':{en:"Children's Day",ko:'어린이날'},
+  '振替休日':{en:'Substitute Holiday',ko:'대체 공휴일'},
+  '海の日':{en:'Marine Day',ko:'바다의 날'},
+  '山の日':{en:'Mountain Day',ko:'산의 날'},
+  '敬老の日':{en:'Respect for the Aged Day',ko:'경로의 날'},
+  '国民の休日':{en:"Citizens' Holiday",ko:'국민의 휴일'},
+  '秋分の日':{en:'Autumnal Equinox Day',ko:'추분의 날'},
+  'スポーツの日':{en:'Sports Day',ko:'스포츠의 날'},
+  '文化の日':{en:'Culture Day',ko:'문화의 날'},
+  '勤労感謝の日':{en:'Labor Thanksgiving Day',ko:'근로감사의 날'},
+  '前期開始':{en:'First semester begins',ko:'1학기 시작'},
+  '前期終了':{en:'First semester ends',ko:'1학기 종료'},
+  '後期開始':{en:'Second semester begins',ko:'2학기 시작'},
+  '後期終了':{en:'Second semester ends',ko:'2학기 종료'},
+  '春学期開始':{en:'Spring quarter begins',ko:'봄학기 시작'},
+  '春学期終了':{en:'Spring quarter ends',ko:'봄학기 종료'},
+  '夏学期開始':{en:'Summer quarter begins',ko:'여름학기 시작'},
+  '夏学期終了':{en:'Summer quarter ends',ko:'여름학기 종료'},
+  '秋学期開始':{en:'Autumn quarter begins',ko:'가을학기 시작'},
+  '秋学期終了':{en:'Autumn quarter ends',ko:'가을학기 종료'},
+  '冬学期開始':{en:'Winter quarter begins',ko:'겨울학기 시작'},
+  '冬学期終了':{en:'Winter quarter ends',ko:'겨울학기 종료'},
+  '春季休業':{en:'Spring break',ko:'봄방학'},
+  '夏季休業':{en:'Summer break',ko:'여름방학'},
+  '冬季休業':{en:'Winter break',ko:'겨울방학'},
+  '春季入学式':{en:'Spring entrance ceremony',ko:'봄 입학식'},
+  '秋季入学式':{en:'Autumn entrance ceremony',ko:'가을 입학식'},
+  '春季学位記授与式':{en:'Spring degree conferment ceremony',ko:'봄 학위수여식'},
+  '秋季学位記授与式':{en:'Autumn degree conferment ceremony',ko:'가을 학위수여식'},
+  '本学記念日':{en:'University Foundation Day',ko:'개교기념일'},
+  '学生定期健康診断':{en:'Annual student health check',ko:'학생 정기 건강검진'},
+  '新入生オリエンテーション':{en:'New student orientation',ko:'신입생 오리엔테이션'},
+  '九大祭・芸工際':{en:'Kyudai Festival / Geiko Festival',ko:'규슈대 축제·게이코 축제'},
+  '大学入学共通テスト':{en:'Common Test for University Admissions',ko:'대학입학 공통테스트'},
+  '一般選抜（前期日程）':{en:'General entrance exam (first round)',ko:'일반선발(전기 일정)'},
+  '一般選抜（後期日程）':{en:'General entrance exam (second round)',ko:'일반선발(후기 일정)'},
+  '履修登録期間（後期）':{en:'Course registration (second semester)',ko:'수강신청 기간(2학기)'},
+};
+/** 村历条目名：按日文原名查当前语言的译名，查不到返回空串（调用方自己决定退回什么）。 */
+function cunliName(jaTitle, lang){
+  const e = CUNLI_NAMES[String(jaTitle||'')];
+  return (e && e[lang || getLangNow()]) || '';
+}
+
 /** 同步 <html lang>。不同步的话浏览器始终认为整站是中文：Chrome 会对着英文正文
     弹「翻译此页」，CJK 字体按中文规则回退，读屏软件也用错语言朗读。 */
 function applyDocLang(){
@@ -229,5 +289,6 @@ function articleField(art, field){
   return art[field]||'';
 }
 applyDocLang();
-window.GuideI18N={ LANGS, UI, CAT_I18N, getLang:()=>lang, setLang, t, catName, articleField, applyDocLang, _s(v){lang=v;applyDocLang();} };
+function getLangNow(){return lang}
+window.GuideI18N={ LANGS, UI, CAT_I18N, CUNLI_NAMES, cunliName, getLang:()=>lang, setLang, t, catName, articleField, applyDocLang, _s(v){lang=v;applyDocLang();} };
 })();
