@@ -25,7 +25,7 @@ const OUT = path.join(ROOT, 'guide', 'js', 'data-articles.js');
 
 // 渲染器 render.js 支持的区块类型 —— 加新类型要先改渲染器
 const TYPES = new Set(['paragraph', 'heading', 'subheading', 'list', 'links', 'notice',
-  'warning', 'steps', 'fee_table', 'checklist', 'collapse', 'quote']);
+  'warning', 'steps', 'fee_table', 'checklist', 'collapse', 'quote', 'bus_live']);
 
 const errors = [];
 const ids = new Set();
@@ -45,6 +45,25 @@ function checkBlocks(blocks, aid, trail) {
       });
     }
     if (b.type === 'collapse') checkBlocks(b.blocks || [], aid, `${trail}[${i}].blocks`);
+    // bus_live —— 生活支援巴士实时模块：运行日列表 + 每个方向下的站点时刻
+    if (b.type === 'bus_live') {
+      const days = b.days || [];
+      if (!days.length) errors.push(`${at}: bus_live 缺运行日 days`);
+      days.forEach((d, di) => {
+        if (!Array.isArray(d) || d.length !== 2 || typeof d[0] !== 'number' || typeof d[1] !== 'number')
+          errors.push(`${at}: bus_live days[${di}] 应为 [月, 日] 数字数组`);
+      });
+      const HM = /^([01]?\d|2[0-3]):[0-5]\d$/;
+      (b.stops || []).forEach((dir, di) => {
+        if (!dir.id) errors.push(`${at}: bus_live stops[${di}] 缺方向 id`);
+        (dir.times || []).forEach((st, si) => {
+          if (!st.stop) errors.push(`${at}: bus_live stops[${di}].times[${si}] 缺站名 key`);
+          (st.t || []).forEach((tm, ti) => {
+            if (!HM.test(tm)) errors.push(`${at}: bus_live stops[${di}].times[${si}].t[${ti}] 时刻格式应为 HH:MM（${tm}）`);
+          });
+        });
+      });
+    }
   });
 }
 

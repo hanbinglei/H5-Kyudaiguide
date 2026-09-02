@@ -461,3 +461,20 @@ details[open]>summary{color:var(--brand)}
   #tour,#tour.closing{animation:none}
   .tour-spot,.tour-card{transition:none}
 }
+
+/* ── 生活支援巴士实时模块（bus_live）──────────────────────────────
+   表格复用 .table 基座；倒计时紧急(<15min)标红，非运行日置灰。 */
+.bus-live{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px;margin:10px 0}
+.bus-live-meta{display:flex;align-items:center;gap:8px;font-size:13px;color:#555;margin-bottom:8px;font-weight:600}
+.bus-live-dot{width:9px;height:9px;border-radius:50%;background:#bbb;display:inline-block;flex-shrink:0}
+.bus-live-dot.on{background:#2e9e5b;box-shadow:0 0 0 3px rgba(46,158,91,.18)}
+.bus-live-table{margin:0}
+.bus-live-table th{white-space:nowrap}
+.bus-live-cell{white-space:nowrap;text-align:left}
+.bus-live-time{font-weight:700;color:var(--brand)}
+.bus-live-diff{color:#777;font-size:12px;margin-left:6px}
+.bus-live-diff.urgent{color:#c0392b;font-weight:700}
+.bus-live-cell.muted{color:#aaa}
+.bus-live-stop{font-weight:600}
+.bus-live-note{font-size:12px;color:#888;margin-top:8px}
+.bus-live-loading{color:#999;font-size:13px;padding:8px}

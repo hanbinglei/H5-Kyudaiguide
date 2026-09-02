@@ -181,6 +181,45 @@
       "level": "unverified",
       "recheck": "P1Y",
       "note": "原链接指向九大『TOEIC対策プログラム』页，该项目令和7年度已结束、页面下线（2026-08 外链核查发现 404）。已改指生协官网并如实调整标签为『语言考试等校内报名信息』。生协站当前无 TOEIC 常设页（仅见 TOEFL ITP 公告），『比个人报名便宜』这一说法尚未在现行页面上核实。"
+    },
+    {
+      "id": "newcomer-airport-shuttle-2026",
+      "article": "guide-newcomer",
+      "block": "5a6b7c",
+      "claim": "2026 秋免费机场穿梭巴士：9/24・25 两日，福冈机场国际线/国内线各每日 4 班（9:00/11:30/15:00/18:00 起），直达九大学研都市站・ドミトリー1-3・伊都协奏馆・セトルインターナショナル",
+      "sourceName": "九州大学国际部留学课 NotePM 门户 + 官方海报 PDF",
+      "source": "https://notepm.jp/sharing/b3f07b44-9571-40e8-bab3-fb4ecdf7ed16",
+      "effective": "2026-09-24",
+      "verified": "2026-09-02",
+      "level": "verified",
+      "recheck": "P3M",
+      "note": "2026 秋入学生专享，2026-10 结束后应移除或改为汇总归档条目"
+    },
+    {
+      "id": "newcomer-shopping-bus-2026",
+      "article": "guide-newcomer",
+      "block": "b0c1d2",
+      "claim": "2026 秋免费生活支援巴士：运行日 9/24・25・29・30・10/1，伊都协奏馆/ドミトリー1-3/セトルインターナショナル ⇄ 九大学研都市站，去程整点±30 分钟起每小时一班，回程 12:30 起",
+      "sourceName": "九州大学国际部留学课 NotePM 门户 + 官方海报 PDF（Fall2026 Free shopping shuttle bus）",
+      "source": "https://notepm.jp/sharing/984374df-604b-4c37-86a3-5d596a253d7d",
+      "effective": "2026-09-24",
+      "verified": "2026-09-02",
+      "level": "verified",
+      "recheck": "P3M",
+      "note": "实时模块时刻表来源；2026-10 结束后需更新为下一学期"
+    },
+    {
+      "id": "newcomer-esp-fee-2026",
+      "article": "guide-newcomer",
+      "block": "3b4c5d",
+      "claim": "ESP 外国人留学生等紧急安心计划会费：1年 1,650円、2年 3,300円、3年 4,950円、4年 6,600円；加入期限 2026-10-30(金)",
+      "sourceName": "九州大学国际部留学课 NotePM 门户（ESP 页面）+ ESP 官网 PDF",
+      "source": "https://notepm.jp/sharing/907ae8e7-4cfe-4c79-bcdd-b88a8edf630e",
+      "effective": "2026-10-01",
+      "verified": "2026-09-02",
+      "level": "verified",
+      "recheck": "P6M",
+      "note": "MEXT 奖学金生需另行开设ゆうちょ账户，见同篇 4c5d6e"
     }
   ]
 }

@@ -101,5 +101,12 @@ window.ARTICLES_I18N = {
     en:'The post-arrival procedures scattered across 12 categories, laid out on a single timeline: when to do each one, what has to be finished before it, and which ones are painful to fix if you miss them. Each section links back to the detailed article.',
     ko:'12개 분류에 흩어져 있는 입국 후 수속을 시간순으로 다시 늘어놓았습니다. 언제 하는지, 이걸 하기 전에 무엇을 끝내야 하는지, 놓치면 되돌리기 어려운 것은 무엇인지. 각 절 끝에 자세한 글로 가는 링크가 있습니다.' },
 },
+'guide-newcomer': {
+  title:{ ja:'2026秋 新入生スペシャル：留学課サポート総覧', en:'2026 Fall Newcomer Special: Student Exchange Division support', ko:'2026 가을 신입생 특집: 유학과 지원 총람' },
+  summary:{
+    ja:'九州大学留学課（国際部）が 2026 年秋の新入留学生向けに用意したサポート情報のまとめ：無料空港シャトルバス／生活支援バス（リアルタイム次便つき）、行政手続き・銀行ガイダンス、オリエンテーション、銀行口座開設会、ESP 緊急安心プラン、問い合わせ・相談窓口。公式 NotePM ポータルが原本。',
+    en:'A summary of all support provided by the Kyushu U Student Exchange Division for 2026 fall newcomers: free airport shuttle / shopping shuttle (with live next-bus), administrative & banking guidance, orientation, bank account event, ESP emergency plan, and contacts. Based on the official NotePM portal.',
+    ko:'규슈대 유학과(국제부)가 2026년 가을 신입 유학생에게 준비한 지원 정보 총정리: 무료 공항 셔틀버스/생활지원버스(실시간 다음 차량 포함), 행정절차·은행 가이던스, 오리엔테이션, 은행 계좌 개설회, ESP 긴급 안심 플랜, 문의·상담 창구. 공식 NotePM 포털이 원본.' },
+},
 };
 })();

@@ -281,12 +281,16 @@ function showArticle(id){
     });
   }
   body.querySelectorAll('.ref').forEach(btn=>{
-    btn.addEventListener('click',()=>{
-      const hit=resolveRef(btn.dataset.guide||'');
-      if(hit)navigate('article/'+encodeURIComponent(hit._id));
+      btn.addEventListener('click',()=>{
+        const hit=resolveRef(btn.dataset.guide||'');
+        if(hit)navigate('article/'+encodeURIComponent(hit._id));
+      });
     });
-  });
-  window.scrollTo(0,0);
+    // 生活支援巴士实时模块（bus_live block）
+    if(window.GuideBusLive){
+      body.querySelectorAll('.bus-live').forEach(el=>window.GuideBusLive.init(el));
+    }
+    window.scrollTo(0,0);
 }
 
 /** 复制文本，返回是否成功。

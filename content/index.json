@@ -74,16 +74,22 @@
       "file": "content/guide-emergency.json"
     },
     {
-      "_id": "guide-antifraud",
-      "category": "13",
-      "blocks": 37,
-      "file": "content/guide-antifraud.json"
-    },
-    {
-      "_id": "guide-firstmonth",
-      "category": "13",
-      "blocks": 37,
-      "file": "content/guide-firstmonth.json"
-    }
+          "_id": "guide-antifraud",
+          "category": "13",
+          "blocks": 37,
+          "file": "content/guide-antifraud.json"
+        },
+        {
+          "_id": "guide-newcomer",
+          "category": "13",
+          "blocks": 42,
+          "file": "content/guide-newcomer.json"
+        },
+        {
+          "_id": "guide-firstmonth",
+          "category": "13",
+          "blocks": 37,
+          "file": "content/guide-firstmonth.json"
+        }
   ]
 }

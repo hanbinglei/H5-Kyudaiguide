@@ -41,7 +41,13 @@ const UI = {
     // 官网
     facHead:'院系官网', facSub:'跳转各学部 / 大学院学府官方网站', facUg:'学部（本科）', facGrad:'大学院 学府',
     facSrc:'数据来源：九州大学官网 学部・大学院一览（2026-08-24 抓取）',
-    // 新手引导
+        // 生活支援巴士（bus_live）
+        busStop:'站点', busDirToStation:'往车站', busDirFromStation:'往宿舍',
+        busRunning:'今日运行中', busNotRunning:'今日不运行', busRunDays:'运行日',
+        busLastBusGone:'今日末班已过', busNoData:'无数据',
+        busNote:'每 30 秒自动更新 · 时刻以官方海报 PDF 为准',
+        bus_stop_kyousoukan:'伊都协奏馆', bus_stop_dorm:'ドミトリー 1-3', bus_stop_settle:'セトルインターナショナル', bus_stop_gakkentoshi:'九大学研都市站',
+        // 新手引导
     tour:{ open:'新手引导', skip:'跳过', prev:'上一步', next:'下一步', done:'开始使用',
       steps:{
         welcome:{t:'欢迎使用九大伊都留学指南', d:'新生落地要办的十几件事、伊都校区的地图和校历，都在这里。花 30 秒看一下怎么用。'},
@@ -77,7 +83,13 @@ const UI = {
     place:'場所', source:'出典', locale:'ja-JP',
     facHead:'学部・学府 公式サイト', facSub:'各学部・大学院学府の公式サイトへ', facUg:'学部', facGrad:'大学院 学府',
     facSrc:'出典：九州大学 学部・大学院一覧（2026-08-24 取得）',
-    // チュートリアル
+        // 生活支援バス（bus_live）
+        busStop:'停留所', busDirToStation:'駅方面', busDirFromStation:'寮方面',
+        busRunning:'本日運行中', busNotRunning:'本日運行なし', busRunDays:'運行日',
+        busLastBusGone:'本日の最終便は出発済み', busNoData:'データなし',
+        busNote:'30 秒ごとに自動更新 · 時刻は公式ポスター PDF に基づく',
+        bus_stop_kyousoukan:'伊都協奏館', bus_stop_dorm:'ドミトリー 1-3', bus_stop_settle:'セトルインターナショナル', bus_stop_gakkentoshi:'九大学研都市駅',
+        // チュートリアル
     tour:{ open:'使い方ガイド', skip:'スキップ', prev:'戻る', next:'次へ', done:'使ってみる',
       steps:{
         welcome:{t:'九大伊都・留学生ガイドへようこそ', d:'着いてから必要な十数件の手続き、伊都キャンパスの地図と学年暦がここにまとまっています。30 秒だけ使い方を見ていってください。'},
@@ -114,7 +126,13 @@ const UI = {
     place:'Place', source:'Source', locale:'en-US',
     facHead:'Faculty Websites', facSub:'Official sites of each school & graduate school', facUg:'Undergraduate', facGrad:'Graduate Schools',
     facSrc:'Source: Kyushu University faculty index (fetched 2026-08-24)',
-    // Onboarding
+        // Shopping shuttle (bus_live)
+        busStop:'Stop', busDirToStation:'To Station', busDirFromStation:'To Dorms',
+        busRunning:'Running today', busNotRunning:'Not running today', busRunDays:'Operating days',
+        busLastBusGone:'Last bus has left', busNoData:'No data',
+        busNote:'Auto-updates every 30s · Times from official poster PDF',
+        bus_stop_kyousoukan:'Ito Harmony House', bus_stop_dorm:'Dormitory 1-3', bus_stop_settle:'SETTLE International', bus_stop_gakkentoshi:'Kyudai Gakkentoshi Stn.',
+        // Onboarding
     tour:{ open:'How to use', skip:'Skip', prev:'Back', next:'Next', done:'Get started',
       steps:{
         welcome:{t:'Welcome to the Kyudai Ito student guide', d:'The dozen-odd procedures you face after landing, plus the Ito campus map and academic calendar, all in one place. Take 30 seconds to see how it works.'},
@@ -150,7 +168,13 @@ const UI = {
     place:'장소', source:'출처', locale:'ko-KR',
     facHead:'학부·대학원 공식 사이트', facSub:'각 학부·대학원 공식 사이트로 이동', facUg:'학부', facGrad:'대학원',
     facSrc:'출처: 규슈대 학부·대학원 목록 (2026-08-24 수집)',
-    // 사용 안내
+        // 생활지원버스 (bus_live)
+        busStop:'정류장', busDirToStation:'역 방면', busDirFromStation:'기숙사 방면',
+        busRunning:'오늘 운행 중', busNotRunning:'오늘 운행 없음', busRunDays:'운행일',
+        busLastBusGone:'오늘 막차 출발함', busNoData:'데이터 없음',
+        busNote:'30초마다 자동 갱신 · 시각은 공식 포스터 PDF 기준',
+        bus_stop_kyousoukan:'이토 협주관', bus_stop_dorm:'도미토리 1-3', bus_stop_settle:'세틀 인터내셔널', bus_stop_gakkentoshi:'큐다이 가켄토시역',
+        // 사용 안내
     tour:{ open:'사용법 안내', skip:'건너뛰기', prev:'이전', next:'다음', done:'시작하기',
       steps:{
         welcome:{t:'규슈대 이토 유학생 가이드입니다', d:'도착 후 처리해야 할 십수 가지 수속, 이토 캠퍼스 지도와 학사 일정이 모두 여기 있습니다. 30초만 사용법을 보고 가세요.'},
