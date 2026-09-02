@@ -252,7 +252,7 @@ function monthGrid(year, month) {
 
  */
 
-function monthSegments(items, year, month) {
+function monthSegments(items, year, month, maxLanesOverride) {
 
   const grid = monthGrid(year, month);
 
@@ -354,19 +354,23 @@ function monthSegments(items, year, month) {
 
     let more = 0;
 
+        // 展开模式（maxLanesOverride=0）不限行：全部渲染。否则用 MAX_LANES。
+            // ⚠️ 不能用 `maxLanesOverride ? … : …`——0 是 falsy，会把展开模式退化成 3 行。
+            //    也不能直接拿 0 进 for 循环——`l < 0` 一次都不执行，所有条带全会掉进 more。
+            //    0 在这里显式翻译成「无限」。
+            const laneLimit = maxLanesOverride === 0 ? Infinity : (maxLanesOverride || MAX_LANES);
 
+        here.forEach(sg => {
 
-    here.forEach(sg => {
+          let lane = -1;
 
-      let lane = -1;
+          for (let l = 0; l < laneLimit; l++) {
 
-      for (let l = 0; l < MAX_LANES; l++) {
+            if (lanes[l] === undefined || lanes[l] < sg.col) { lane = l; break; }
 
-        if (lanes[l] === undefined || lanes[l] < sg.col) { lane = l; break; }
+          }
 
-      }
-
-      if (lane < 0) { more++; return; }
+          if (lane < 0) { more++; return; }
 
       lanes[lane] = sg.col + sg.span - 1;
 

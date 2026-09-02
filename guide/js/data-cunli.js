@@ -6,20 +6,26 @@
 // 生成器：scripts/gen_cunli_data.js（改数据请改那里，再重新生成）
 // 生成于：2026-08-19
 //
+// ⚠️ 本仓库（H5-Kyudaiguide）为独立副本：scripts/ 不在本仓库内，
+//    2026-09-02 起新增的留学課（ryugakuka）条目（c63–c69）直接在此文件维护。
+//    若小程序侧 gen_cunli_data.js 重新生成，需把这里的增量条目合回去。
+//
 // 来源：
 //   祝日   内閣府 https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv
 //   学年暦 九州大学 https://www.kyushu-u.ac.jp/ja/faculty/schedule/（誊写日 2026-08-19）
+//   留学課 NotePM 门户 https://notepm.jp/sharing/fb0e6579-ad42-4aaa-90fb-9bcff4e253e3（誊写日 2026-09-02）
 //
 // 打包进主包做离线兜底：云端挂了这个 tab 也不会空。
 // 体积约 10.3 KB —— 主包 2 MB 的预算里可以忽略。
 
 const CUNLI_DATA = {
-  version: "2026-08-19",
+  version: "2026-09-02",
   range: { from: "2026-01-01", to: "2027-12-31" },
   sources: {
-    cao: { name: '内閣府', url: "https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv" },
-    kyudai: { name: '九州大学 学年暦', url: "https://www.kyushu-u.ac.jp/ja/faculty/schedule/" }
-  },
+      cao: { name: '内閣府', url: "https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv" },
+      kyudai: { name: '九州大学 学年暦', url: "https://www.kyushu-u.ac.jp/ja/faculty/schedule/" },
+      ryugakuka: { name: '留学課 NotePM 门户', url: "https://notepm.jp/sharing/fb0e6579-ad42-4aaa-90fb-9bcff4e253e3" }
+    },
   // 场所出处：九大官网「大学施設の利用 → 椎木講堂」
   venueSource: "https://www.kyushu-u.ac.jp/ja/university/facility/shiiki/",
   // ※ 官网原注，界面上带 star 的条目要显示这句
@@ -89,7 +95,14 @@ const CUNLI_DATA = {
     {"id":"c59","title":"スポーツの日","zh":"体育节","date":"2027-10-11","end":"","type":"holiday","star":false,"src":"cao"},
     {"id":"c60","title":"文化の日","zh":"文化日","date":"2027-11-03","end":"","type":"holiday","star":false,"src":"cao"},
     {"id":"c61","title":"勤労感謝の日","zh":"勤劳感谢日","date":"2027-11-23","end":"","type":"holiday","star":false,"src":"cao"},
-    {"id":"c62","title":"履修登録期間（後期）","zh":"选课登记期（后期）","date":"","end":"","type":"admin","star":false,"src":"pending","note":"九大官网学年暦未公示，需查学務システム / 各学府通知"}
-  ]
-};
+    {"id":"c62","title":"履修登録期間（後期）","zh":"选课登记期（后期）","date":"","end":"","type":"admin","star":false,"src":"pending","note":"九大官网学年暦未公示，需查学務システム / 各学府通知"},
+        {"id":"c63","title":"新入留学生サポート（空港シャトルバス）","zh":"免费机场穿梭巴士","date":"2026-09-24","end":"2026-09-25","type":"event","star":false,"src":"ryugakuka","note":"留学課：福冈机场 → 九大学研都市站/各寮，先到先得无需预约。见【新入生特辑】","link":"https://notepm.jp/sharing/b3f07b44-9571-40e8-bab3-fb4ecdf7ed16"},
+        {"id":"c64","title":"新入留学生サポート（生活支援バス）","zh":"免费生活支援巴士","date":"2026-09-24","end":"2026-10-01","type":"event","star":false,"src":"ryugakuka","note":"留学課：运行日 9/24-25・29-30・10/1，宿舍 ⇄ 九大学研都市站，实时班次见【新入生特辑】","link":"https://notepm.jp/sharing/984374df-604b-4c37-86a3-5d596a253d7d"},
+        {"id":"c65","title":"行政手続き・銀行ガイダンス","zh":"行政手续・银行指导","date":"2026-09-24","end":"2026-10-06","type":"event","star":false,"src":"ryugakuka","note":"留学課：面向寮入居者，第1次+第2次两回参加必须，事前申込必要。见【新入生特辑】","link":"https://notepm.jp/sharing/f1354503-7548-4b44-ad87-daa18d400075"},
+        {"id":"c66","title":"新入留学生オリエンテーション","zh":"新入留学生入学指导","date":"2026-09-28","end":"","type":"event","star":false,"src":"ryugakuka","place":{"id":"617112195","ja":"椎木講堂","zh":"椎木讲堂（大学本部）"},"note":"12:50-15:10 参加必须；同日 SIM販売会・図書館ツアー・入管相談会・ウェルカムパーティ。见【新入生特辑】","link":"https://notepm.jp/sharing/f354d82c-a09a-4bc8-afc6-a1e0bea2b521"},
+        {"id":"c67","title":"新入留学生キャンパスツアー","zh":"新入生校园参观","date":"2026-09-29","end":"2026-09-30","type":"event","star":false,"src":"ryugakuka","note":"留学課/Q-Mate：各日 10:30-12:00・15:00-16:30 东/西两场，要申込。见【新入生特辑】","link":"https://notepm.jp/sharing/8ae99f42-70ec-42f4-9fd4-afde9f857c49"},
+        {"id":"c68","title":"福岡銀行口座開設会","zh":"福冈银行开户会","date":"2026-10-06","end":"2026-10-08","type":"event","star":false,"src":"ryugakuka","note":"留学課：住所登録済み新入生対象，事前申込必要，当场发卡。见【新入生特辑】","link":"https://notepm.jp/sharing/60d704cb-f873-46d5-8352-8f566d5abcf3"},
+        {"id":"c69","title":"ESP 加入期限","zh":"ESP 紧急安心计划加入截止","date":"2026-10-30","end":"","type":"admin","star":false,"src":"ryugakuka","note":"留学生全員加入必須；OSSMA App 申请，到日本后办理。见【新入生特辑】","link":"https://notepm.jp/sharing/907ae8e7-4cfe-4c79-bcdd-b88a8edf630e"}
+      ]
+    };
 if(typeof window!=='undefined') window.CUNLI_DATA=CUNLI_DATA;

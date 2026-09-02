@@ -459,7 +459,7 @@ function renderCunli(){
   const year=cuState.year,month=cuState.month,today=cuState.today,expanded=cuState.expanded;
   const barItems=window._cu_barItems||[],byId=window._cu_byId||{},holSet=window._cu_holSet||{},items=window._cu_items||[];
   const step=expanded?LANE_STEP_X:LANE_STEP;
-  const res=U.monthSegments(barItems,year,month);
+  const res=U.monthSegments(barItems,year,month,expanded?0:undefined);
   const min=(CUNLI.range.from||'2026-01-01').slice(0,7),max=(CUNLI.range.to||'2027-12-31').slice(0,7);
   const key=year+'-'+String(month).padStart(2,'0');
   $('mTitleBtn').textContent=t('monthTitle')(year,month);
