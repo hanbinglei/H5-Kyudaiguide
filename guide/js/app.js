@@ -583,13 +583,49 @@ function init(){
   // 非中文时并行取正文译文包；不 await —— 首屏不该等它
   ensureBodyI18N(()=>{ if(currentHash().startsWith('article/'))onHashChange(); });
   document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>navigate(b.dataset.tab)));
-    // 悬浮窗关闭：返回/✕/点击遮罩都回指南首页（hash 离开 article/ 时 setTab 隐藏 pane-article 并解锁滚动）
-    $('btnBack').addEventListener('click',()=>navigate('guide'));
-    const closeArticle=()=>navigate('guide');
-    const ca=$('btnCloseArticle'); if(ca)ca.addEventListener('click',closeArticle);
-    const pa=$('pane-article');
-    if(pa)pa.addEventListener('click',e=>{ if(e.target===pa)closeArticle(); });
-    $('btnClearHistory').addEventListener('click',()=>{hClear();renderHistory();toast(t('cleared'))});
+  // 悬浮窗关闭：返回/✕/点击遮罩都回指南首页（hash 离开 article/ 时 setTab 隐藏 pane-article 并解锁滚动）
+  $('btnBack').addEventListener('click',()=>navigate('guide'));
+  const closeArticle=()=>navigate('guide');
+  const ca=$('btnCloseArticle'); if(ca)ca.addEventListener('click',closeArticle);
+  const pa=$('pane-article');
+  if(pa)pa.addEventListener('click',e=>{ if(e.target===pa)closeArticle(); });
+
+  /* ── 电脑端 / 非触屏可用性（2026-09-02）
+     触屏可以随手划，桌面端只有滚轮、滚动条、键盘。
+     这三样没有一样可用的话，桌面用户会以为页面坏了。 */
+
+  // ① 滚轮落在遮罩（卡片外黑色区）时，转发给卡片滚动：
+  //    桌面用户习惯鼠标在哪都滚；遮罩区域 body 是 overflow:hidden，
+  //    事件无处可去 = 用户看到的「滑不动」。整卡滚动 + 遮罩转发双保险。
+  if(pa){
+      pa.addEventListener('wheel',(e)=>{
+        const card=pa.querySelector('.sheet-card');
+        if(!card)return;
+        // 鼠标已在卡片内 → 浏览器原生滚动，别抢；只有落在遮罩上才转发
+        if(card.contains(e.target))return;
+        e.preventDefault();
+        card.scrollTop += e.deltaY;
+      },false);
+    }
+  // ② TOC 横滚条：桌面滚轮只有垂直轴，把 deltaY 转成 scrollLeft，
+  //    否则那一串分类标签在桌面端永远滑不到最右边。
+  const tocBox=$('toc');
+  if(tocBox){
+    tocBox.addEventListener('wheel',(e)=>{
+      if(e.deltaY!==0 && tocBox.scrollWidth>tocBox.clientWidth+4){
+        e.preventDefault();
+        tocBox.scrollLeft += e.deltaY;
+      }
+    },false);
+  }
+  // ③ Esc 关闭悬浮窗（键盘用户；触屏无 Esc 自然不影响）
+  document.addEventListener('keydown',(e)=>{
+    if(e.key==='Escape' && currentHash().startsWith('article/')){
+      closeArticle();
+    }
+  });
+
+  $('btnClearHistory').addEventListener('click',()=>{hClear();renderHistory();toast(t('cleared'))});
   window.addEventListener('hashchange',onHashChange);
   onHashChange();
 }

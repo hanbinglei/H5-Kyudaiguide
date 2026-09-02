@@ -496,3 +496,30 @@ details[open]>summary{color:var(--brand)}
 .bus-live-stop{font-weight:600}
 .bus-live-note{font-size:12px;color:#888;margin-top:8px}
 .bus-live-loading{color:#999;font-size:13px;padding:8px}
+
+/* ── 电脑端 / 非触屏体验（2026-09-02）─────────────────────────────
+   触屏可以随手划，桌面端没有那个自由度：滚轮、滚动条、键盘是它的手指。
+   以下全部为 pointer:coarse 之外补充，不干扰触屏布局。 */
+
+/* 1. 滚动条常显可拖：悬浮窗整卡 + TOC 横滚条，桌面宽度 6px、圆角、不致小 */
+.sheet-card::-webkit-scrollbar{width:6px;height:6px}
+.sheet-card::-webkit-scrollbar-thumb{background:rgba(0,0,0,.22);border-radius:3px}
+.sheet-card::-webkit-scrollbar-thumb:hover{background:rgba(0,0,0,.38)}
+.sheet-card::-webkit-scrollbar-track{background:transparent}
+.toc::-webkit-scrollbar{height:4px}
+.toc::-webkit-scrollbar-thumb{background:rgba(0,0,0,.15);border-radius:2px}
+.toc::-webkit-scrollbar-track{background:transparent}
+
+/* 2. TOC 横滚条在桌面端常显，让人知道能滑 */
+@media(hover:hover) and (pointer:fine){
+  .toc{scrollbar-width:thin;scrollbar-color:rgba(0,0,0,.18) transparent}
+}
+
+/* 3. 悬浮窗头部按钮 hover 反馈（触屏 :active 已有，桌面补 hover） */
+@media(hover:hover) and (pointer:fine){
+  .sheet-card-head .back:hover{background:#f5f5f5}
+  .sheet-card-head .sheet-close:hover{background:#e8e8e8}
+  .toc-tab:hover{background:#f0f0f0;border-color:#d8b8c0}
+  .link-card:hover{background:#e8faee;border-color:#a5d8b4}
+  .card-lite:hover{border-color:#e0c2ca;box-shadow:0 4px 14px rgba(123,45,62,.06)}
+}
