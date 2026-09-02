@@ -65,11 +65,21 @@ function initLang(){
   if(!sel||!I18N)return;
   sel.innerHTML=I18N.LANGS.map(k=>`<option value="${k}"${k===I18N.getLang()?' selected':''}>${(I18N.UI[k]||{}).self||k}</option>`).join('');
   sel.addEventListener('change',()=>{
-    I18N.setLang(sel.value);applyI18N();HAY.clear();
-    // 先按现有内容渲染（中文兜底），译文包到了再重排一次 —— 切语言不等下载
-    onHashChange();
-    ensureBodyI18N(()=>onHashChange());
-  });
+      I18N.setLang(sel.value);applyI18N();HAY.clear();
+      // 记住滚动位置：正文重建后 restore，切换语言不该把人踢回页首
+      const scY=window.scrollY||document.documentElement.scrollTop||0;
+      // 先按现有内容渲染（中文兜底），译文包到了再重排一次 —— 切语言不等下载
+      onHashChange();
+      restoreScroll(scY);
+      ensureBodyI18N(()=>{onHashChange();restoreScroll(scY)});
+    });
+}
+/** 恢复滚动位置。requestAnimationFrame 里做：正文重建后布局可能还没完成，
+    直接设 scrollTop 会被浏览器的后续布局吞掉；等一帧再设才稳。
+    showArticle 结尾会 scrollTo(0,0)，这里用 rAF 在它之后覆盖。 */
+function restoreScroll(y){
+  if(typeof y!=='number'||y<=0)return;
+  requestAnimationFrame(()=>{ try{ window.scrollTo(0,y); }catch(e){} });
 }
 function applyI18N(){
   $('brandSub').textContent=t('brandSub');
