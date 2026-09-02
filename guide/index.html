@@ -87,6 +87,7 @@
           <button class="mtitle" id="mTitleBtn"></button>
           <button class="marrow" id="btnNext" aria-label="下一月">›</button>
           <button class="mtoday" id="btnToday" style="display:none">今天</button>
+          <button class="mtoday" id="btnExportIcs" style="display:none" title="导出日历"></button>
         </div>
         <div class="wkhead" id="wkhead"></div>
         <div id="wgrid" class="wgrid"></div>
@@ -178,10 +179,11 @@
      而中文读者一个字节都用不上。改由 app.js 的 ensureBodyI18N() 在非中文时按需并行拉。 -->
 <script src="js/data-cunli.js?v=20260904"></script>
 <script src="js/cunli-utils.js?v=20260906"></script>
-<script src="js/i18n.js?v=20260902"></script>
+<script src="js/cunli-export.js?v=20260910"></script>
+<script src="js/i18n.js?v=20260910"></script>
 <script src="js/render.js?v=20260902"></script>
 <script src="js/bus-live.js?v=20260902"></script>
-<script src="js/app.js?v=20260904"></script>
+<script src="js/app.js?v=20260911"></script>
 <script src="js/tour.js?v=20260902"></script>
 </body>
 </html>

@@ -112,6 +112,8 @@ function applyI18N(){
   $('legendWrap').innerHTML=[['rest','c-rest'],['admin','c-admin'],['term','c-term'],['misc','c-misc']]
     .map(([k,c])=>`<span class="lg"><i class="lg-c ${c}"></i>${esc(lg[k])}</span>`).join('');
   $('btnToday').textContent=t('today');
+  const bIcs=$('btnExportIcs');
+  if(bIcs){bIcs.textContent=t('exportIcs');bIcs.setAttribute('title',t('exportIcsTitle'));}
   $('monthTap').textContent=t('tapDetail');
   // 官网
   $('facultyHead').textContent=t('facHead');
@@ -440,9 +442,30 @@ function initCunli(){
   $('btnToday').addEventListener('click',()=>{cuState.year=y;cuState.month=m;cuState.selDate='';renderCunli()});
   $('btnExpand').addEventListener('click',()=>{cuState.expanded=!cuState.expanded;renderCunli()});
   $('detailMask').addEventListener('click',e=>{if(e.target.id==='detailMask')closeDetail()});
-  $('btnCloseDetail').addEventListener('click',closeDetail);
-  renderCunli();
-}
+    $('btnCloseDetail').addEventListener('click',closeDetail);
+    // 导出 .ics 校历：用当前语言的标题，Blob 下载
+    const btnIcs=$('btnExportIcs');
+    if(btnIcs&&window.CunliExport){
+      btnIcs.style.display='';
+      btnIcs.addEventListener('click',()=>{
+        try{
+          const mapped=(CUNLI.items||[]).map(it=>({
+            id:it.id, title:nameOf(it).name, date:it.date, end:it.end,
+            note:it.note, place:it.place
+          }));
+          const ics=window.CunliExport.buildIcs(mapped);
+          const blob=new Blob([ics],{type:'text/calendar;charset=utf-8'});
+          const url=URL.createObjectURL(blob);
+          const a=document.createElement('a');
+          a.href=url; a.download='kyudai-calendar.ics';
+          document.body.appendChild(a); a.click(); a.remove();
+          setTimeout(()=>URL.revokeObjectURL(url),1000);
+          toast(t('exported'));
+        }catch(e){ console.error('[ics]',e); }
+      });
+    }
+    renderCunli();
+  }
 function slideMonth(dir){
   let y=cuState.year,m=cuState.month+(dir==='l'?-1:1);
   if(m<1){y--;m=12}if(m>12){y++;m=1}
