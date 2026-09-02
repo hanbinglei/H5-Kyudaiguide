@@ -55,19 +55,18 @@ button{font:inherit}
   display:flex;align-items:flex-end;justify-content:center;padding:0;
   border:none;border-radius:0;overflow:hidden}
 .sheet-card{background:#fff;border-radius:16px 16px 0 0;max-width:720px;width:100%;
-  max-height:88vh;display:flex;flex-direction:column;overflow:hidden;
+  max-height:88vh;overflow-y:auto;-webkit-overflow-scrolling:touch;
   box-shadow:0 -8px 32px rgba(0,0,0,.18)}
 .sheet-card-head{display:flex;align-items:center;justify-content:space-between;
-  border-bottom:1px solid var(--line);background:#fff;flex-shrink:0;
+  border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:4;
   padding:4px 10px 4px 4px}
 .sheet-card-head .back{border:none;background:transparent;text-align:left;
   padding:10px 12px;font-size:14px;color:#444;cursor:pointer;border-radius:8px}
 .sheet-card-head .back:active{background:#fafafa}
 .sheet-card-head .sheet-close{position:static;margin:0;background:#f5f5f5;
   border-radius:50%;width:28px;height:28px;border:none;cursor:pointer;flex-shrink:0}
-/* 卡片内部只有 articleBody 区滚动；头、TOC 固定，正文长也不怕 */
-.sheet-card .article-body{overflow-y:auto;flex:1 1 auto;min-height:0}
-.sheet-card .toc{position:sticky;top:0}
+/* 整个卡片滚动；头部吸顶、TOC 吸在头部下方，正文与「全文完」正常滚动 */
+.sheet-card .toc{position:sticky;top:45px;z-index:3}
 body.modal-open{overflow:hidden}
 .article-header{padding:16px 16px 8px}
 .article-header h1{font-size:19px;line-height:1.35;color:#1a1a2e}

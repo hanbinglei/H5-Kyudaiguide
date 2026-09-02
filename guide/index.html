@@ -27,7 +27,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Kyudai Guide">
 
-<link rel="stylesheet" href="css/style.css?v=20260838">
+<link rel="stylesheet" href="css/style.css?v=20260902">
 </head>
 <body>
 <div id="app">
@@ -52,7 +52,7 @@
            而默认进来的人是要看指南的，不该先替他下载地图。见 app.js mountMap()
            ?v= 必须带上：app.html 会把它透传给 data/*.json（见其中的 DATA_V），
            不带的话改了数据也换不掉老用户缓存里的那份，而 HTML 却已经是新的。 -->
-      <iframe id="mapFrame" title="校园地图" data-src="../h5-mvp/app.html?v=20260838" loading="lazy"></iframe>
+      <iframe id="mapFrame" title="校园地图" data-src="../h5-mvp/app.html?v=20260902" loading="lazy"></iframe>
       <div class="map-tip" id="mapTip">地图由 Kyudaimap 提供 · 支持搜索与定位</div>
     </section>
 
@@ -170,18 +170,18 @@
   </div>
 </div>
 
-<script src="js/data-categories.js?v=20260838"></script>
-<script src="js/data-faculties.js?v=20260838"></script>
-<script src="js/data-articles.js?v=20260838"></script>
-<script src="js/articles-i18n.js?v=20260838"></script>
+<script src="js/data-categories.js?v=20260902"></script>
+<script src="js/data-faculties.js?v=20260902"></script>
+<script src="js/data-articles.js?v=20260902"></script>
+<script src="js/articles-i18n.js?v=20260902"></script>
 <!-- articles-body-i18n.js 不在这里加载：它是全站最大的一个文件（gzip 约 165KB），
      而中文读者一个字节都用不上。改由 app.js 的 ensureBodyI18N() 在非中文时按需并行拉。 -->
-<script src="js/data-cunli.js?v=20260838"></script>
-<script src="js/cunli-utils.js?v=20260838"></script>
-<script src="js/i18n.js?v=20260838"></script>
-<script src="js/render.js?v=20260838"></script>
-<script src="js/bus-live.js?v=20260838"></script>
-<script src="js/app.js?v=20260838"></script>
-<script src="js/tour.js?v=20260838"></script>
+<script src="js/data-cunli.js?v=20260902"></script>
+<script src="js/cunli-utils.js?v=20260902"></script>
+<script src="js/i18n.js?v=20260902"></script>
+<script src="js/render.js?v=20260902"></script>
+<script src="js/bus-live.js?v=20260902"></script>
+<script src="js/app.js?v=20260902"></script>
+<script src="js/tour.js?v=20260902"></script>
 </body>
 </html>
