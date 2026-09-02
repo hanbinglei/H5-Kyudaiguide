@@ -48,10 +48,27 @@ button{font:inherit}
 .empty{text-align:center;color:var(--muted2);padding:36px 12px;font-size:14px;line-height:1.7}
 .empty-sub{font-size:13px}
 
-/* ── article ── */
-.pane-article{background:#fff;border-radius:14px;border:1px solid var(--line);overflow:hidden;padding:0}
-.back{border:none;background:#fff;border-bottom:1px solid var(--line);width:100%;text-align:left;padding:10px 14px;font-size:14px;color:#444;cursor:pointer;position:sticky;top:0;z-index:3}
-.back:active{background:#fafafa}
+/* ── article（悬浮窗：遮罩 + 底部卡片） ──
+   打开文章时 pane-article 撑满视口作为遮罩，白色内容在 .sheet-card 里从底部升起，
+   与村历详情弹层同一套设计语言；背景仍可见但不可交互。 */
+.pane-article{position:fixed;inset:0;z-index:20;background:rgba(0,0,0,.36);
+  display:flex;align-items:flex-end;justify-content:center;padding:0;
+  border:none;border-radius:0;overflow:hidden}
+.sheet-card{background:#fff;border-radius:16px 16px 0 0;max-width:720px;width:100%;
+  max-height:88vh;display:flex;flex-direction:column;overflow:hidden;
+  box-shadow:0 -8px 32px rgba(0,0,0,.18)}
+.sheet-card-head{display:flex;align-items:center;justify-content:space-between;
+  border-bottom:1px solid var(--line);background:#fff;flex-shrink:0;
+  padding:4px 10px 4px 4px}
+.sheet-card-head .back{border:none;background:transparent;text-align:left;
+  padding:10px 12px;font-size:14px;color:#444;cursor:pointer;border-radius:8px}
+.sheet-card-head .back:active{background:#fafafa}
+.sheet-card-head .sheet-close{position:static;margin:0;background:#f5f5f5;
+  border-radius:50%;width:28px;height:28px;border:none;cursor:pointer;flex-shrink:0}
+/* 卡片内部只有 articleBody 区滚动；头、TOC 固定，正文长也不怕 */
+.sheet-card .article-body{overflow-y:auto;flex:1 1 auto;min-height:0}
+.sheet-card .toc{position:sticky;top:0}
+body.modal-open{overflow:hidden}
 .article-header{padding:16px 16px 8px}
 .article-header h1{font-size:19px;line-height:1.35;color:#1a1a2e}
 .article-header .meta{font-size:12px;color:var(--muted2);margin-top:6px}
@@ -250,9 +267,9 @@ button{font:inherit}
   .cat-card{padding:18px 6px}
   .toc-tab{padding:8px 14px;min-height:36px;display:inline-flex;align-items:center}
   .tab{padding:12px 0;min-height:48px}
-  .back-mini{padding:8px 18px;min-height:40px}
-  .back{min-height:48px}
-  .tel{min-height:32px;padding-top:2px;padding-bottom:2px}
+    .back-mini{padding:8px 18px;min-height:40px}
+    .sheet-card-head .back{min-height:44px}
+    .tel{min-height:32px;padding-top:2px;padding-bottom:2px}
   /* .ref 不撑高：它嵌在句子中间，硬撑到 32px 会把那一行的行距顶开，
      一段里有三个就是三道豁口。改成用伪元素只扩热区、不占版面。 */
   .ref{position:relative}
@@ -370,7 +387,9 @@ button{font:inherit}
 @keyframes paneIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
 
 /* 文章是「钻进去」的详情页，位移给大一点，形成层级感 */
-.pane-article{animation:articleIn 220ms var(--ease-out)}
+/* 悬浮窗文章：遮罩淡入 + 卡片上滑（与村历弹层同一套动效语言） */
+.pane-article{animation:maskIn var(--dur-sheet) var(--ease)}
+.sheet-card{animation:sheetIn var(--dur-sheet) var(--ease-out)}
 @keyframes articleIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
 
 /* ── 4. 弹层（村历详情）：背景淡入 + 面板上滑 ── */

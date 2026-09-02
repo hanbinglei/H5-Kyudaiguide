@@ -32,7 +32,12 @@ function currentHash(){return location.hash.replace(/^#/,'')||'guide'}
 function navigate(h){if(location.hash!=='#'+h)location.hash='#'+h;else onHashChange()}
 function onHashChange(){
   const raw=currentHash();
-  if(raw.startsWith('article/')){showArticle(decodeURIComponent(raw.slice(8)));setTab('guide');return}
+  if(raw.startsWith('article/')){
+    document.body.classList.add('modal-open');
+    showArticle(decodeURIComponent(raw.slice(8)));setTab('guide');return;
+  }
+  // 离开文章详情：解除背景滚动锁定（showArticle 里加的 modal-open）
+  document.body.classList.remove('modal-open');
   if(raw.startsWith('category/')){showCategory(decodeURIComponent(raw.slice(9)));setTab('guide');return}
   const tab=raw.split('?')[0].split('/')[0]||'guide';
   setTab(tab);
@@ -297,11 +302,14 @@ function showArticle(id){
       });
     });
     // 生活支援巴士实时模块（bus_live block）
-    if(window.GuideBusLive){
-      body.querySelectorAll('.bus-live').forEach(el=>window.GuideBusLive.init(el));
+        if(window.GuideBusLive){
+          body.querySelectorAll('.bus-live').forEach(el=>window.GuideBusLive.init(el));
+        }
+        // 悬浮窗打开：锁定背景滚动（body.modal-open 由 CSS 处理 overflow:hidden），
+        // 关闭按钮/遮罩点击由 onHashChange 离开 article 时解除。
+        document.body.classList.add('modal-open');
+        window.scrollTo(0,0);
     }
-    window.scrollTo(0,0);
-}
 
 /** 复制文本，返回是否成功。
     clipboard API 在无焦点、非安全上下文、权限被拒时都会抛错，
@@ -575,8 +583,13 @@ function init(){
   // 非中文时并行取正文译文包；不 await —— 首屏不该等它
   ensureBodyI18N(()=>{ if(currentHash().startsWith('article/'))onHashChange(); });
   document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>navigate(b.dataset.tab)));
-  $('btnBack').addEventListener('click',()=>renderGrid());
-  $('btnClearHistory').addEventListener('click',()=>{hClear();renderHistory();toast(t('cleared'))});
+    // 悬浮窗关闭：返回/✕/点击遮罩都回指南首页（hash 离开 article/ 时 setTab 隐藏 pane-article 并解锁滚动）
+    $('btnBack').addEventListener('click',()=>navigate('guide'));
+    const closeArticle=()=>navigate('guide');
+    const ca=$('btnCloseArticle'); if(ca)ca.addEventListener('click',closeArticle);
+    const pa=$('pane-article');
+    if(pa)pa.addEventListener('click',e=>{ if(e.target===pa)closeArticle(); });
+    $('btnClearHistory').addEventListener('click',()=>{hClear();renderHistory();toast(t('cleared'))});
   window.addEventListener('hashchange',onHashChange);
   onHashChange();
 }

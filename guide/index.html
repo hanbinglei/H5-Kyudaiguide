@@ -139,14 +139,19 @@
       <div id="historyEmpty" class="empty"><span id="noHistory">还没有浏览记录</span><br><span class="empty-sub" id="noHistorySub">打开一篇指南后会在这里显示</span></div>
     </section>
 
-    <!-- 文章详情 -->
-    <section id="pane-article" class="pane pane-article" style="display:none">
-      <button class="back" id="btnBack">‹ 返回</button>
-      <div id="articleHeader" class="article-header"></div>
-      <nav id="toc" class="toc" style="display:none"></nav>
-      <div id="articleBody" class="article-body"></div>
-      <div class="article-end" id="articleEnd">— 全文完 —</div>
-    </section>
+    <!-- 文章详情（悬浮窗：遮罩 + 底部卡片，复用村历 sheet 的设计语言） -->
+        <section id="pane-article" class="pane pane-article" style="display:none" aria-label="文章详情">
+          <div class="sheet-card">
+            <div class="sheet-card-head">
+                      <button class="back" id="btnBack">‹ 全部品类</button>
+                      <button class="sheet-close" id="btnCloseArticle" aria-label="关闭">✕</button>
+                    </div>
+            <div id="articleHeader" class="article-header"></div>
+            <nav id="toc" class="toc" style="display:none"></nav>
+            <div id="articleBody" class="article-body"></div>
+            <div class="article-end" id="articleEnd">— 全文完 —</div>
+          </div>
+        </section>
   </main>
 
   <nav class="tabbar" aria-label="主导航">
