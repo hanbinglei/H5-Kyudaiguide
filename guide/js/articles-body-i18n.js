@@ -10296,9 +10296,20 @@ window.ARTICLES_BODY_I18N = {
   },
   "8d9e0f": { "text": "② 無料生活支援バス（寮 ⇄ 九大学研都市駅）" },
   "9e0f1a": { "text": "運行区間：伊都協奏館 / ドミトリー1-3 / セトルインターナショナル ⇄ 九大学研都市駅（学研都市エリアにはイオンモール、さいとぴあなど買い物・公共施設が集中）。運行日：9月24日・25日・29日・30日、10月1日。新入留学生とそのサポーターが利用可能、先着順。下表は次の便の到着時刻をリアルタイムで表示します。" },
-  "0f1a2b": { "text": "座席には限りがあり、先着順です。ドミトリー2・3 にお住まいの方はドミトリー1 からご乗車ください。運行時刻・停車位置は公式ポスター PDF をご確認ください。" },
-  "1a2b3c": { "text": "③ 行政手続き・銀行ガイダンス（寮入居者必読）" },
-  "2b3c4d": { "text": "海外から渡日し学生寮に入居する新入留学生向けに、留学課が住所登録や国民健康保険などの行政手続きを代行し、国民年金・マイナンバーカード・銀行口座開設（ゆうちょ / 福岡銀行 / 西日本シティ銀行）について説明します。**第1回と第2回の両方に参加が必須**です。会場：日本ジョナサン・KS・チョイ文化館（キャンパスマップ No.79）。持ち物：パスポート・在留カード・黒色ボールペン。" },
+  "0f1a2b": { "text": "座席には限りがあり、先着順です。ドミトリー2・3 にお住まいの方はドミトリー1 からご乗車ください。運行時刻・停車位置は公式ポスター PDF をご確認ください。" }, "w1a2b3": { "text": "③ キャンパスWi-Fi（kitenet）" },
+  "w2b3c4": { "text": "渡日直後でネット環境が整っていない新入留学生のために、留学課が**一時利用のWi-FiログインID・パスワード**を用意（9月下旬、入国支援システム登録メールに送付予定）。九大キャンパス内に多数のアクセスポイントがあります。" },
+  "w3c4d5": { "text": "一時ログイン情報の利用可能期間：**2026年9月24日(木)～10月9日(金)**。10月9日以降はこのID・パスワードは使えません。以降も大学Wi-Fi（kitenet）を使うには、ご自身の**SSO-KID**で設定が必要です。" },
+  "w4d5e6": { "items": [
+    {"title": "自分のSSO-KIDを確認", "desc": "正課生は**学生証の裏面**。学生証がない場合は所属学部・学府の学生係に問い合わせ（登録コードも併せて確認）。"},
+    {"title": "必要なものを準備", "desc": "登録コードと、**@s.kyushu-u.ac.jp以外のメールアドレス**。"},
+    {"title": "SSO-KIDを有効化", "desc": "以下のリンクから有効化：https://web.sso.kyushu-u.ac.jp/idpw/activation.html"},
+    {"title": "kitenetの初期設定を完了", "desc": "公式ガイドあり（iOS / Android / その他OS）。"}
+              ]
+              },
+              "w5e6f7": { "items": [{"text": "SSO-KID有効化ページ", "url": "https://web.sso.kyushu-u.ac.jp/idpw/activation.html"}, {"text": "キャンパスWi-Fi公式ページ", "url": "https://notepm.jp/sharing/751f751c-dbec-4cf0-a5b9-0e3a396b467d"}] },
+
+  "1a2b3c": { "text": "④ 行政手続き・銀行ガイダンス（寮入居者必読）" },
+  "2b3c4d": { "text": "海外から渡日し学生寮に入居する新入留学生向けに、留学課が住所登録や国民健康保険などの行政手続きを代行し、国民年金・マイナンバーカード・銀行口座開設（ゆうちょ / 福岡銀行 / 西日本シティ銀行）について説明します。**第1回と第2回の両方に参加が必須**です。会場：日本ジョナサン・KS・チョイ文化館（キャンパスマップ No.79）。持ち物：パスポート・在留カード・黒色ボールペン。参加日程は**入国支援システム（Pre-Arrival Assistance）**で予約します（入寮手続き完了後にフォームが表示されます）。**リマインドメールは送信されません**。第1回は**入寮当日以降**の日時のみ選択可能です。参加日までに**パスポートの顔写真ページと入国許可スタンプページ**の写真を留学課メールへ送信してください（顔写真ページを入国支援システムにアップロード済みの場合は、入国許可スタンプページのみ提出）。日程が合わず参加できない場合は、Q-Mate作成の多言語動画でご自身で手続きを行ってください。" },
   "3c4d5e": { "text": "伊都協奏館 / ドミトリー1-3 入居者・日程（A〜G組）" },
   "c0d1e2": {
     "headers": ["組", "第1回ガイダンス", "第2回ガイダンス"],
@@ -10311,36 +10322,36 @@ window.ARTICLES_BODY_I18N = {
     "rows": [["A", "9/28(月) 11:00-11:30", "9/30(水) 15:00-16:00"], ["B", "9/29(火) 11:00-11:30", "10/1(木) 15:00-16:00"], ["C", "9/30(水) 11:00-11:30", "10/2(金) 15:00-16:00"]]
   },
   "f0a3b4": { "text": "会場は同じ（文化館 No.79）。バス約13分（九大ビッグオレンジ前下車）、徒歩約35分。" },
-  "5e6f0a": { "text": "④ 新入留学生オリエンテーション（9月28日）" },
-  "6f0a1b": { "text": "9月28日(月) 12:50〜15:10、伊都キャンパス椎木講堂。西警察署、福岡出入国在留管理局、福岡市消防局が講演します。**新入留学生は参加必須**（他のオリエンテーション・ガイダンスと日程が重なる場合を除く）。事前登録が必要です（登録フォームは公式ポータルを参照）。" },
+  "5e6f0a": { "text": "⑤ 新入留学生オリエンテーション（9月28日）" },
+  "6f0a1b": { "text": "9月28日(月) 12:50〜15:10、伊都キャンパス椎木講堂。西警察署、福岡出入国在留管理局、福岡市消防局が講演します。**新入留学生は参加必須**（他のオリエンテーション・ガイダンスと日程が重なる場合を除く）。事前登録が必要です：**申込フォーム** https://forms.cloud.microsoft/r/nCDDWic1U5" },
   "a3b4c5": {
     "headers": ["時間", "内容"],
     "rows": [["12:50", "開会の言葉"], ["12:55", "「Q-Mate」紹介"], ["13:05", "福岡での新生活に役立つ情報"], ["13:10", "「KUFSA」（留学生会）紹介"], ["13:20", "学内カウンセリングサービス"], ["13:25", "在留資格制度（入国在留管理局）"], ["13:35", "休憩15分"], ["13:50", "安全と防犯（西警察署）"], ["14:30", "火災・救急・防災（消防局）"], ["14:55", "図書館からのお知らせ"], ["15:00", "閉会の言葉"]]
   },
-  "b4c5d6": { "text": "同日開催：**SIMカード販売会**（外国籍でも契約しやすい事業者が参加）、**図書館ツアー**（中央図書館）、**入管相談会**（在留資格について質問可）、**ウェルカムパーティー**（17:00-18:00 @ BIG SKY、新入留学生限定）。病院・筑紫・大橋・福岡市国際会館・井尻から椎木講堂へ無料シャトルバスあり（行き 10:40-10:50 頃、帰り 18:20 頃出発）。先着順、帰りは行きで配布の乗車券が必要。" },
+  "b4c5d6": { "text": "同日開催：**SIMカード販売会**（会場：椎木講堂ガレリア。**2つのセッションのいずれかに参加**：①10:30〜12:30 オリエンテーション前、②15:10〜17:00 終了後。公式は午前セッションを推奨、午後は混雑の可能性。**事前登録必須**、プラン・料金・登録方法は公式ポスター参照）、**図書館ツアー**（中央図書館）、**入管相談会**（在留資格について質問可）、**ウェルカムパーティー**（17:00-18:00 @ BIG SKY、新入留学生限定）。病院・筑紫・大橋キャンパス、福岡市国際会館・井尻から椎木講堂へ無料シャトルバスあり（行き 10:40-10:50 頃、帰り 18:20 頃出発）。先着順、帰りは行きで配布の乗車券が必要。**集合場所は各キャンパスの指定位置（公式PDF参照）で、国際交流会館ではありません。**" },
   "5f0a6b": { "text": "⑤ 新入留学生キャンパスツアー（9月29・30日）" },
   "6a7b8c": {
     "headers": ["日付", "時間", "テーマ"],
     "rows": [["9/29(火)", "10:30-12:00", "イーストゾーン（文系）"], ["9/29(火)", "15:00-16:30", "ウエストゾーン（理系）"], ["9/30(水)", "10:30-12:00", "ウエストゾーン（理系）"], ["9/30(水)", "15:00-16:30", "イーストゾーン（文系）"]]
   },
   "7b8c9d": { "text": "集合：センター6号館。各回 20 名・約90分・徒歩で移動します。歩きやすい靴で、飲み物は各自ご用意ください。言語は英語中心（日本語も可）。文系・理系を問わずどちらのゾーンも選べます。ツアー中は写真を撮り、SNS に投稿することがあります。気になる方は Q-Mate へお知らせください。Q-Mate 主催。申込フォームは公式ポータル参照。" },
-  "8c9d0e": { "text": "⑥ 福岡銀行口座開設会（10月6・7・8日）" },
-  "9d0e1f": { "text": "福岡銀行は伊都キャンパス内にも ATM がある福岡県の主要銀行の一つ。開設会に参加すると**その場で口座番号とキャッシュカードを受け取れ**、支店に行く必要がありません。奨学金の受取口座や家賃の口座振替にもすぐに利用できます。福岡銀行と九大スタッフが英語・日本語でサポートします。" },
+  "8c9d0e": { "text": "⑦ 福岡銀行口座開設会（10月6・7・8日）" },
+  "9d0e1f": { "text": "福岡銀行は伊都キャンパス内にも ATM がある福岡県の主要銀行の一つ。開設会に参加すると**その場で口座番号とキャッシュカードを受け取れ**、支店に行く必要がありません。奨学金の受取口座や家賃の口座振替にもすぐに利用できます。福岡銀行と九大スタッフが英語・日本語でサポートします。**会場：日本ジョナサン・KS・チョイ文化館（キャンパスマップ No.79）**。第1回〜第3回のいずれか1つに参加（自分の時間割と要確認）。" },
   "0e1f2a": {
-    "items": [{"num": "1", "text": "条件①：在留カードの住所登録が完了していること。条件②：在留期間が3か月以上残っていること。"}, {"num": "2", "text": "事前申込が必要（申込方法は公式ポータル参照）。"}, {"num": "3", "text": "MEXT 奨学生も参加できますが、奨学金の受取には**別途ゆうちょ銀行の口座**が必要です。"}]
+    "items": [{"num": "1", "text": "条件①：在留カードの住所登録が完了していること。条件②：在留期間が3か月以上残っていること（残り3か月未満、または更新申請中の方は参加不可。銀行支店でご自身で手続きが必要）。"}, {"num": "2", "text": "申込：**入国支援システム（Pre-Arrival Assistance）にログイン →「スケジュール情報の入力」→ 福岡銀行口座開設会申込みフォームに記入し、在留カードの画像をアップロード**。申込フォームは申込期間中のみ表示されます。"}, {"num": "3", "text": "**留学課からの確認メールを受信して初めて申込完了**。メールが届かない方は参加できません。原則キャンセル不可。参加できなくなった場合は公式キャンセルフォームから申請。"}, {"num": "4", "text": "印鑑：**シャチハタ印鑑は使用不可**。朱肉（Red Ink Pad）を使うタイプの印鑑を用意。また日本で利用可能な電話番号が必要（9/28のSIMカード販売会で用意可）。"}, {"num": "5", "text": "アメリカ国籍の方は Social Security Number(SSN)（9桁の数字）を事前に確認。"}, {"num": "6", "text": "MEXT 奨学生も参加できますが、奨学金の受取には**別途ゆうちょ銀行の口座**が必要です。"}]
   },
-  "1f2a3b": { "text": "⑦ ESP 外国人留学生等緊急安心プラン" },
+  "1f2a3b": { "text": "⑧ ESP 外国人留学生等緊急安心プラン" },
   "2a3b4c": { "text": "「留学」の在留資格を持つ九州大学の全留学生は**加入必須**。24時間・365日・中英日3言語のメディカルアシスタンスを提供：医療機関紹介、受診時の電話通訳（医師の許可が必要）、緊急時に母国の家族への連絡や交通の手配など。**注意：ESP は保険ではありません**。医療費は補てんされず、入院・治療・検査の費用は各自負担（国民健康保険または自費）。" },
   "3b4c5d": {
     "headers": ["在学年数", "費用", "該当"],
     "rows": [["1年", "1,650円", "非正規生、研究生など"], ["2年", "3,300円", "修士課程"], ["3年", "4,950円", "博士後期課程"], ["4年", "6,600円", "学部"]]
   },
   "4c5d6e": {
-    "items": [{"num": "1", "text": "加入期限：**2026年10月30日(金)**。"}, {"num": "2", "text": "申込：OSSMA アプリからオンライン申請。日本の携帯番号が必要なため、**来日後の申込**を推奨。"}, {"num": "3", "text": "支払：クレジットカード / コンビニ（オンライン登録時に選択、別途手数料あり）。"}]
+    "items": [{"num": "1", "text": "加入期限：**2026年10月30日(金)**。"}, {"num": "2", "text": "申込：公式アプリからオンライン申請。日本の携帯番号が必要なため、**来日後の申込**を推奨。⚠️ 情報源により OSSMA と NEXUS の表記ゆれあり（2026年版公式パンフは NEXUS、旧アプリはダウンロードしない）。最新のパンフ・留学課の案内に従ってください。"}, {"num": "3", "text": "支払：クレジットカード / コンビニ（オンライン登録時に選択、別途手数料あり）。"}]
   },
-  "5d6e7f": { "text": "⑧ 問い合わせ・相談窓口" },
+  "5d6e7f": { "text": "⑨ 問い合わせ・相談窓口" },
   "6e7f8a": {
-    "items": [{"num": "1", "text": "来日前の相談：留学課 imm.s@jimu.kyushu-u.ac.jp（履修・授業については所属予定の学部・学府へ直接）。"}, {"num": "2", "text": "来日後の相談：LINE 公式アカウント「Consultation Desk」（Q-Mate が対応。住まい・市区役所手続き・銀行など）。"}, {"num": "3", "text": "Q-Mate Instagram：@_qmate；公式サイト https://studentassistantqu.wixsite.com/q-mate/about"}]
+    "items": [{"num": "1", "text": "来日前の相談：留学課 imm.s@jimu.kyushu-u.ac.jp（履修・授業については所属予定の学部・学府へ直接）。"}, {"num": "2", "text": "来日後の相談：LINE 公式アカウント「Consultation Desk」（Q-Mate が対応。住まい・市区役所手続き・銀行など）。"}, {"num": "3", "text": "Q-Mate Instagram：@_qmate；公式サイト https://studentassistantqu.wixsite.com/q-mate/about"}, {"num": "4", "text": "Q-Mate LINE 公式アカウント：https://lin.ee/EiQqccP （相談・質問の入口）"}]
   },
   "7e8f9a": {
     "items": [{"text": "公式 NotePM ポータル（日本語）", "url": "https://notepm.jp/sharing/fb0e6579-ad42-4aaa-90fb-9bcff4e253e3"}, {"text": "公式 NotePM ポータル（English）", "url": "https://notepm.jp/sharing/da6d736d-f9e1-44db-ba5e-580d2f1413b2"}, {"text": "Q-Mate Instagram", "url": "https://www.instagram.com/_qmate/"}]
@@ -10370,8 +10381,19 @@ window.ARTICLES_BODY_I18N = {
   },
   "8d9e0f": { "text": "② Free shopping shuttle (dorms ⇄ Kyudai Gakkentoshi Stn.)" },
   "9e0f1a": { "text": "Route: Ito Harmony House / Dormitory 1-3 / SETTLE International ⇄ Kyudai Gakkentoshi Station (the Gakken-toshi area has AEON Mall, Saitopia and other shopping & public facilities). Operating days: Sep 24, 25, 29, 30 and Oct 1. For new international students and their supporters; first come, first served. The table below shows the next bus arrival in real time." },
-  "0f1a2b": { "text": "Seats are limited and first come, first served. Residents of Dormitory 2 & 3 should board at Dormitory 1. Check the official poster PDF for exact times and stop locations." },
-  "1a2b3c": { "text": "③ Administrative & banking guidance (for dorm residents)" },
+  "0f1a2b": { "text": "Seats are limited and first come, first served. Residents of Dormitory 2 & 3 should board at Dormitory 1. Check the official poster PDF for exact times and stop locations." }, "w1a2b3": { "text": "③ Campus Wi-Fi (kitenet)" },
+  "w2b3c4": { "text": "For newcomers whose internet is not set up yet, the division provides **temporary Wi-Fi login ID & password** (sent in late September to the email registered in the arrival support system). There are many access points across Kyushu University campuses." },
+  "w3c4d5": { "text": "Temporary login valid：**Sep 24 (Thu) – Oct 9 (Fri), 2026**. After Oct 9 these credentials no longer work. To keep using campus Wi-Fi (kitenet), set up your own **SSO-KID**." },
+  "w4d5e6": { "items": [
+    {"title": "Find your SSO-KID", "desc": "Regular students: check the **back of your student ID card**. If you don&#39;t have one yet, ask your faculty/graduate school office (and ask for your registration code)."},
+    {"title": "Prepare materials", "desc": "Registration code + an email **other than @s.kyushu-u.ac.jp**."},
+    {"title": "Activate your SSO-KID", "desc": "Activate here: https://web.sso.kyushu-u.ac.jp/idpw/activation.html"},
+    {"title": "Complete kitenet initial setup", "desc": "Official guides available (iOS / Android / other OS)."}
+          ]
+          },
+          "w5e6f7": { "items": [{"text": "SSO-KID activation page", "url": "https://web.sso.kyushu-u.ac.jp/idpw/activation.html"}, {"text": "Official campus Wi-Fi page", "url": "https://notepm.jp/sharing/751f751c-dbec-4cf0-a5b9-0e3a396b467d"}] },
+
+  "1a2b3c": { "text": "④ Administrative & banking guidance (for dorm residents)" },
   "2b3c4d": { "text": "For new international students arriving from overseas and moving into dorms, the division handles address registration and National Health Insurance on your behalf, and explains National Pension, My Number card, and opening a bank account (Japan Post / Fukuoka Bank / Nishi-Nippon City Bank). **You must attend both the 1st and 2nd sessions.** Venue: Japanese Jonathan K.S. Choi Culture Hall (campus map No. 79). Bring: passport, residence card, black ballpoint pen." },
   "3c4d5e": { "text": "Ito Harmony House / Dormitory 1-3 residents · schedule (Groups A–G)" },
   "c0d1e2": {
@@ -10385,36 +10407,36 @@ window.ARTICLES_BODY_I18N = {
     "rows": [["A", "9/28 (Mon) 11:00-11:30", "9/30 (Wed) 15:00-16:00"], ["B", "9/29 (Tue) 11:00-11:30", "10/1 (Thu) 15:00-16:00"], ["C", "9/30 (Wed) 11:00-11:30", "10/2 (Fri) 15:00-16:00"]]
   },
   "f0a3b4": { "text": "Same venue (Culture Hall No. 79). About 13 min by bus (get off at Kyudai Big Orange) or 35 min on foot." },
-  "5e6f0a": { "text": "④ New International Student Orientation (Sep 28)" },
-  "6f0a1b": { "text": "Sep 28 (Mon) 12:50–15:10 at Shiiki Hall, Ito Campus. Guest speakers from Nishi Police Station, Fukuoka Regional Immigration Services Bureau and Fukuoka City Fire Bureau. **Attendance is mandatory** for new international students (unless it overlaps with another orientation/guidance). Prior registration is required (see the official portal)." },
+  "5e6f0a": { "text": "⑤ New International Student Orientation (Sep 28)" },
+  "6f0a1b": { "text": "Sep 28 (Mon) 12:50–15:10 at Shiiki Hall, Ito Campus. Guest speakers from Nishi Police Station, Fukuoka Regional Immigration Services Bureau and Fukuoka City Fire Bureau. **Attendance is mandatory** for new international students (unless it overlaps with another orientation/guidance). Prior registration required: **application form** https://forms.cloud.microsoft/r/nCDDWic1U5" },
   "a3b4c5": {
     "headers": ["Time", "Program"],
     "rows": [["12:50", "Opening remarks"], ["12:55", "Intro to Q-Mate"], ["13:05", "Tips for new life in Fukuoka"], ["13:10", "Intro to KUFSA (intl. student association)"], ["13:20", "On-campus counseling services"], ["13:25", "Status-of-residence system (immigration bureau)"], ["13:35", "15-min break"], ["13:50", "Safety & crime prevention (Nishi Police)"], ["14:30", "Fire, first aid, disaster prevention (Fire Bureau)"], ["14:55", "Library notice"], ["15:00", "Closing remarks"]]
   },
-  "b4c5d6": { "text": "Same-day events: **SIM card sale** (carriers easy for foreign nationals to sign up with), **library tour** (Central Library), **immigration consultation** (ask about your status), **welcome party** (17:00–18:00 @ BIG SKY, new students only). Free shuttles from Hospital / Chikushi / Ohashi / Fukuoka City Intl. Center / Ijiri (outbound ~10:40–10:50, return ~18:20). First come; the return trip requires the ticket given on the outbound bus." },
+  "b4c5d6": { "text": "Same-day events: **SIM card sale** (Venue: Shiiki Hall Galleria. **Attend one of two sessions**: ①10:30–12:30 before the orientation, ②15:10–17:00 after it ends. The morning session is recommended; the afternoon may be crowded. **Prior registration required** — plans, prices and registration method are on the official poster), **library tour** (Central Library), **immigration consultation** (ask about your status), **welcome party** (17:00–18:00 @ BIG SKY, new students only). Free shuttles from Hospital / Chikushi / Ohashi campuses, Fukuoka City Intl. Center / Ijiri (outbound ~10:40–10:50, return ~18:20). First come; the return trip requires the ticket given on the outbound bus. **Shuttle pickup is at each campus&#39;s designated spot (see official PDF) — not at the international exchange halls.**" },
   "5f0a6b": { "text": "⑤ New student campus tour (Sep 29–30)" },
   "6a7b8c": {
     "headers": ["Date", "Time", "Area"],
     "rows": [["9/29 (Tue)", "10:30-12:00", "East Zone (humanities)"], ["9/29 (Tue)", "15:00-16:30", "West Zone (science)"], ["9/30 (Wed)", "10:30-12:00", "West Zone (science)"], ["9/30 (Wed)", "15:00-16:30", "East Zone (humanities)"]]
   },
   "7b8c9d": { "text": "Meet at Center Building 6. 20 people per tour, ~90 min, all on foot — wear comfortable shoes and bring water. Language mainly English (Japanese OK). You may pick either zone regardless of your major. Photos may be taken and posted to SNS; tell Q-Mate if you are uncomfortable. Organized by Q-Mate. Sign-up form on the official portal." },
-  "8c9d0e": { "text": "⑥ Fukuoka Bank account-opening event (Oct 6–8)" },
-  "9d0e1f": { "text": "Fukuoka Bank is one of the Fukuoka prefecture&#39;s major banks and has an ATM on Ito Campus. At this event you can **receive your account number and cash card on the spot** — no branch visit needed — ready for scholarship deposits and rent auto-debit right away. Fukuoka Bank and Kyushu U staff support in English and Japanese." },
+  "8c9d0e": { "text": "⑦ Fukuoka Bank account-opening event (Oct 6–8)" },
+  "9d0e1f": { "text": "Fukuoka Bank is one of the Fukuoka prefecture&#39;s major banks and has an ATM on Ito Campus. At this event you can **receive your account number and cash card on the spot** — no branch visit needed — ready for scholarship deposits and rent auto-debit right away. Fukuoka Bank and Kyushu U staff support in English and Japanese. **Venue: Japanese Jonathan K.S. Choi Culture Hall (campus map No. 79)**. Attend one of Sessions 1–3 (check your class timetable)." },
   "0e1f2a": {
-    "items": [{"num": "1", "text": "Eligibility ①: address registered on your residence card. ②: at least 3 months left on your period of stay."}, {"num": "2", "text": "Advance registration is required (see the official portal)."}, {"num": "3", "text": "MEXT scholarship students may join, but receiving the scholarship requires a **separate Japan Post Bank account**."}]
-  },
-  "1f2a3b": { "text": "⑦ ESP Emergency Secure Plan for international students" },
+      "items": [{"num": "1", "text": "Eligibility ①: address registered on your residence card. ②: at least 3 months left on your period of stay (under 3 months or renewal pending = cannot attend; you must handle it at a bank branch yourself)."}, {"num": "2", "text": "Registration: **log in to the entry support system (Pre-Arrival Assistance) → click “Enter schedule information” → fill in the Fukuoka Bank account opening form and upload a photo of your residence card**. The form is only shown during the registration period."}, {"num": "3", "text": "**Your registration is complete only after you receive a confirmation email from the division.** No email = cannot attend. Cancellation is not possible in principle; use the official cancellation form if you cannot make it."}, {"num": "4", "text": "Hanko seal: **stamp pads (shachihata) cannot be used** — bring a traditional seal that uses a red ink pad. You also need a phone number usable in Japan (the Sep 28 SIM sales event can provide one)."}, {"num": "5", "text": "US citizens: confirm your Social Security Number (9 digits) beforehand."}, {"num": "6", "text": "MEXT scholarship students may join, but receiving the scholarship requires a **separate Japan Post Bank account**."}]
+    },
+  "1f2a3b": { "text": "⑧ ESP Emergency Secure Plan for international students" },
   "2a3b4c": { "text": "**Mandatory** for all Kyushu U students with a “Student” status of residence. Provides 24/7 trilingual (Chinese/English/Japanese) medical assistance: hospital referrals, phone interpretation during visits (doctor&#39;s permission required), contacting your family and arranging transport in emergencies. **ESP is not insurance** — it does not cover medical costs; you pay for hospitalization, treatment and tests (via National Health Insurance or out of pocket)." },
   "3b4c5d": {
     "headers": ["Enrollment", "Fee", "Typical"],
     "rows": [["1 year", "¥1,650", "Non-degree, research students"], ["2 years", "¥3,300", "Master’s"], ["3 years", "¥4,950", "Doctoral"], ["4 years", "¥6,600", "Undergraduate"]]
   },
   "4c5d6e": {
-    "items": [{"num": "1", "text": "Enrollment deadline: **Fri, Oct 30, 2026**. ①"}, {"num": "2", "text": "Apply online via the OSSMA app. A Japanese phone number is required, so **applying after arrival** is recommended."}, {"num": "3", "text": "Payment: credit card / convenience store (choose at online registration; a separate fee applies)."}]
+    "items": [{"num": "1", "text": "Enrollment deadline: **Fri, Oct 30, 2026**."}, {"num": "2", "text": "Apply online via the official app. A Japanese phone number is required, so **applying after arrival** is recommended. ⚠️ Sources conflict: the web page says OSSMA, but the 2026 official pamphlet says NEXUS (do not download the old app). Follow the latest pamphlet / division guidance."}, {"num": "3", "text": "Payment: credit card / convenience store (choose at online registration; a separate fee applies)."}]
   },
-  "5d6e7f": { "text": "⑧ Contacts & consultation" },
+  "5d6e7f": { "text": "⑨ Contacts & consultation" },
   "6e7f8a": {
-    "items": [{"num": "1", "text": "Before arrival: Student Exchange Division imm.s@jimu.kyushu-u.ac.jp (for courses, contact your faculty/graduate school directly)."}, {"num": "2", "text": "After arrival: LINE official account “Consultation Desk” (answered by Q-Mate; topics: housing, ward-office procedures, banking)."}, {"num": "3", "text": "Q-Mate Instagram: @_qmate; website https://studentassistantqu.wixsite.com/q-mate/about"}]
+    "items": [{"num": "1", "text": "Before arrival: Student Exchange Division imm.s@jimu.kyushu-u.ac.jp (for courses, contact your faculty/graduate school directly)."}, {"num": "2", "text": "After arrival: LINE official account “Consultation Desk” (answered by Q-Mate; topics: housing, ward-office procedures, banking)."}, {"num": "3", "text": "Q-Mate Instagram: @_qmate; website https://studentassistantqu.wixsite.com/q-mate/about"}, {"num": "4", "text": "Q-Mate LINE official account: https://lin.ee/EiQqccP (contact/consultation entry point)"}]
   },
   "7e8f9a": {
     "items": [{"text": "Official NotePM portal (JA)", "url": "https://notepm.jp/sharing/fb0e6579-ad42-4aaa-90fb-9bcff4e253e3"}, {"text": "Official NotePM portal (EN)", "url": "https://notepm.jp/sharing/da6d736d-f9e1-44db-ba5e-580d2f1413b2"}, {"text": "Q-Mate Instagram", "url": "https://www.instagram.com/_qmate/"}]
@@ -10444,8 +10466,19 @@ window.ARTICLES_BODY_I18N = {
   },
   "8d9e0f": { "text": "② 무료 생활지원버스(기숙사 ⇄ 큐다이 가켄토시역)" },
   "9e0f1a": { "text": "운행 구간: 이토 협주관 / 도미토리 1-3 / 세틀 인터내셔널 ⇄ 큐다이 가켄토시역(가켄토시 지역에는 이온몰, 사이토피아 등 쇼핑·공공시설이 밀집). 운행일: 9월 24일·25일·29일·30일, 10월 1일. 신입 유학생과 서포터 이용 가능, 선착순. 아래 표는 다음 차량 도착 시각을 실시간으로 표시합니다." },
-  "0f1a2b": { "text": "좌석이 제한되어 있고 선착순입니다. 도미토리 2·3 거주자는 도미토리 1에서 승차하세요. 운행 시각·정차 위치는 공식 포스터 PDF를 확인하세요." },
-  "1a2b3c": { "text": "③ 행정절차·은행 가이던스(기숙사 입주자 필독)" },
+  "0f1a2b": { "text": "좌석이 제한되어 있고 선착순입니다. 도미토리 2·3 거주자는 도미토리 1에서 승차하세요. 운행 시각·정차 위치는 공식 포스터 PDF를 확인하세요." }, "w1a2b3": { "text": "③ 캠퍼스 Wi-Fi (kitenet)" },
+  "w2b3c4": { "text": "입국 직후 인터넷 환경이 갖춰지지 않은 신입 유학생을 위해 유학과가 **임시 Wi-Fi 로그인 ID·비밀번호**를 준비(9월 하순, 입국지원시스템 등록 이메일로 발송 예정). 규슈대 캠퍼스 곳곳에 액세스 포인트가 많습니다." },
+  "w3c4d5": { "text": "임시 로그인 사용 가능 기간: **2026년 9월 24일(목)~10월 9일(금)**. 10월 9일 이후에는 이 ID·비밀번호를 사용할 수 없습니다. 이후에도 학교 Wi-Fi(kitenet)를 쓰려면 본인의 **SSO-KID**로 설정해야 합니다." },
+  "w4d5e6": { "items": [
+    {"title": "본인의 SSO-KID 확인", "desc": "정규생은 **학생증 뒷면**. 학생증이 없으면 소속 학부·대학원 사무실에 문의(등록 코드도 함께 확인)."},
+    {"title": "준비물", "desc": "등록 코드와 **@s.kyushu-u.ac.jp 외 이메일**."},
+    {"title": "SSO-KID 활성화", "desc": "아래 링크에서 활성화: https://web.sso.kyushu-u.ac.jp/idpw/activation.html"},
+    {"title": "kitenet 초기 설정 완료", "desc": "공식 가이드 제공(iOS / Android / 기타 OS)."}
+          ]
+          },
+          "w5e6f7": { "items": [{"text": "SSO-KID 활성화 페이지", "url": "https://web.sso.kyushu-u.ac.jp/idpw/activation.html"}, {"text": "캠퍼스 Wi-Fi 공식 페이지", "url": "https://notepm.jp/sharing/751f751c-dbec-4cf0-a5b9-0e3a396b467d"}] },
+
+  "1a2b3c": { "text": "④ 행정절차·은행 가이던스(기숙사 입주자 필독)" },
   "2b3c4d": { "text": "해외에서 입국해 기숙사에 입주하는 신입 유학생을 대상으로, 유학과가 주소 등록과 국민건강보험 등 행정절차를 대행하고, 국민연금·마이넘버 카드·은행 계좌 개설(유초 / 후쿠오카은행 / 니시닛폰시티은행)을 설명합니다. **1차와 2차 모두 참가 필수**입니다. 장소: 일본 조나단 K.S. 최 문화관(캠퍼스 지도 No.79). 준비물: 여권·재류카드·검정 볼펜." },
   "3c4d5e": { "text": "이토 협주관 / 도미토리 1-3 입주자 · 일정(A~G조)" },
   "c0d1e2": {
@@ -10459,36 +10492,36 @@ window.ARTICLES_BODY_I18N = {
     "rows": [["A", "9/28(월) 11:00-11:30", "9/30(수) 15:00-16:00"], ["B", "9/29(화) 11:00-11:30", "10/1(목) 15:00-16:00"], ["C", "9/30(수) 11:00-11:30", "10/2(금) 15:00-16:00"]]
   },
   "f0a3b4": { "text": "장소는 동일(문화관 No.79). 버스 약 13분(큐다이 빅오렌지 앞 하차), 도보 약 35분." },
-  "5e6f0a": { "text": "④ 신입 유학생 오리엔테이션(9월 28일)" },
-  "6f0a1b": { "text": "9월 28일(월) 12:50~15:10, 이토 캠퍼스 시이키 강당. 니시 경찰서, 후쿠오카 출입국재류관리국, 후쿠오카시 소방국이 강연합니다. **신입 유학생 필참**(다른 오리엔테이션·가이던스와 일정이 겹치는 경우 제외). 사전 등록 필요(등록 폼은 공식 포털 참조)." },
+  "5e6f0a": { "text": "⑤ 신입 유학생 오리엔테이션(9월 28일)" },
+  "6f0a1b": { "text": "9월 28일(월) 12:50~15:10, 이토 캠퍼스 시이키 강당. 니시 경찰서, 후쿠오카 출입국재류관리국, 후쿠오카시 소방국이 강연합니다. **신입 유학생 필참**(다른 오리엔테이션·가이던스와 일정이 겹치는 경우 제외). 사전 등록 필요: **신청 폼** https://forms.cloud.microsoft/r/nCDDWic1U5" },
   "a3b4c5": {
     "headers": ["시간", "내용"],
     "rows": [["12:50", "개회사"], ["12:55", "「Q-Mate」소개"], ["13:05", "후쿠오카 새 생활 유용 정보"], ["13:10", "「KUFSA」(유학생회) 소개"], ["13:20", "교내 심리상담 서비스"], ["13:25", "체류자격 제도(출입국재류관리국)"], ["13:35", "휴식 15분"], ["13:50", "안전과 방범(니시 경찰서)"], ["14:30", "화재·응급·방재(소방국)"], ["14:55", "도서관 안내"], ["15:00", "폐회사"]]
   },
-  "b4c5d6": { "text": "당일 동시 개최: **SIM 카드 판매회**(외국인도 가입하기 쉬운 통신사 참가), **도서관 투어**(중앙도서관), **출입국 상담회**(체류자격 질문 가능), **웰컴 파티**(17:00-18:00 @ BIG SKY, 신입 유학생 한정). 병원·지쿠시·오하시·후쿠오카시 국제회관·이지리에서 시이키 강당까지 무료 셔틀 운행(가는 편 10:40-10:50경, 오는 편 18:20경 출발). 선착순, 귀가 시 가는 편에서 받은 승차권 필요." },
+  "b4c5d6": { "text": "당일 동시 개최: **SIM 카드 판매회**(장소: 시이키 강당 갤러리아. **세션 2개 중 하나 참가**: ①10:30~12:30 오리엔테이션 전, ②15:10~17:00 종료 후. 공식 안내는 오전 세션 추천, 오후는 혼잡 가능. **사전 등록 필수**, 요금제·가격·등록 방법은 공식 포스터 참조), **도서관 투어**(중앙도서관), **출입국 상담회**(체류자격 질문 가능), **웰컴 파티**(17:00-18:00 @ BIG SKY, 신입 유학생 한정). 병원·지쿠시·오하시 캠퍼스, 후쿠오카시 국제회관·이지리에서 시이키 강당까지 무료 셔틀 운행(가는 편 10:40-10:50경, 오는 편 18:20경 출발). 선착순, 귀가 시 가는 편에서 받은 승차권 필요. **승차 장소는 각 캠퍼스 지정 위치(공식 PDF 참조)로, 국제교류회관이 아닙니다.**" },
   "5f0a6b": { "text": "⑤ 신입 유학생 캠퍼스 투어(9월 29·30일)" },
   "6a7b8c": {
     "headers": ["날짜", "시간", "테마"],
     "rows": [["9/29(화)", "10:30-12:00", "이스트 존(문과)"], ["9/29(화)", "15:00-16:30", "웨스트 존(이과)"], ["9/30(수)", "10:30-12:00", "웨스트 존(이과)"], ["9/30(수)", "15:00-16:30", "이스트 존(문과)"]]
   },
   "7b8c9d": { "text": "집합: 센터 6호관. 회당 20명·약 90분·도보 이동 — 편한 신발을 신고 음료는 각자 준비하세요. 언어는 영어 중심(일본어도 가능). 문과·이과 구분 없이 어느 존이든 선택 가능. 투어 중 사진을 찍어 SNS에 게시할 수 있습니다. 불편하면 Q-Mate에 알려주세요. Q-Mate 주최. 신청 폼은 공식 포털 참조." },
-  "8c9d0e": { "text": "⑥ 후쿠오카은행 계좌 개설회(10월 6·7·8일)" },
-  "9d0e1f": { "text": "후쿠오카은행은 이토 캠퍼스 안에도 ATM이 있는 후쿠오카 현의 주요 은행 중 하나. 개설회에 참가하면 **그 자리에서 계좌번호와 캐시카드를 받을 수** 있고, 지점에 갈 필요가 없습니다. 장학금 수령 계좌나 월세 자동이체에도 바로 사용할 수 있습니다. 후쿠오카은행과 규슈대 직원이 영어·일본어로 지원합니다." },
+  "8c9d0e": { "text": "⑦ 후쿠오카은행 계좌 개설회(10월 6·7·8일)" },
+  "9d0e1f": { "text": "후쿠오카은행은 이토 캠퍼스 안에도 ATM이 있는 후쿠오카 현의 주요 은행 중 하나. 개설회에 참가하면 **그 자리에서 계좌번호와 캐시카드를 받을 수** 있고, 지점에 갈 필요가 없습니다. 장학금 수령 계좌나 월세 자동이체에도 바로 사용할 수 있습니다. 후쿠오카은행과 규슈대 직원이 영어·일본어로 지원합니다. **장소: 일본 조나단 K.S. 초이 문화관(캠퍼스 맵 No.79)**. 1~3회 중 하나 참가(자신의 시간표 확인)." },
   "0e1f2a": {
-    "items": [{"num": "1", "text": "조건 ①: 재류카드 주소 등록 완료. 조건 ②: 체류기간 3개월 이상 남아 있을 것."}, {"num": "2", "text": "사전 신청 필요(신청 방법은 공식 포털 참조)."}, {"num": "3", "text": "MEXT 장학생도 참가할 수 있지만, 장학금 수령에는 **별도 유초은행 계좌**가 필요합니다."}]
+    "items": [{"num": "1", "text": "조건 ①: 재류카드 주소 등록 완료. 조건 ②: 체류기간 3개월 이상 남아 있을 것(3개월 미만 또는 갱신 신청 중은 참가 불가. 은행 지점에서 직접 처리 필요)."}, {"num": "2", "text": "신청: **입국지원시스템(Pre-Arrival Assistance) 로그인 → 「일정 정보 입력」 → 후쿠오카은행 계좌 개설회 신청서 작성 + 재류카드 사진 업로드**. 신청서는 신청 기간에만 표시됩니다."}, {"num": "3", "text": "**유학과 확인 메일 수신 후에야 신청 완료**. 메일이 없으면 참가할 수 없습니다. 원칙적으로 취소 불가. 참가가 어려워지면 공식 취소 폼으로 신청."}, {"num": "4", "text": "도장: **샤치하타(스탬프 패드) 도장 사용 불가**. 붉은 인주(Red Ink Pad)를 쓰는 전통 도장 준비. 일본에서 사용 가능한 전화번호도 필요(9/28 SIM 판매회에서 준비 가능)."}, {"num": "5", "text": "미국 국적자는 Social Security Number(SSN)(9자리)를 사전에 확인."}, {"num": "6", "text": "MEXT 장학생도 참가할 수 있지만, 장학금 수령에는 **별도 유초은행 계좌**가 필요합니다."}]
   },
-  "1f2a3b": { "text": "⑦ ESP 외국인 유학생 긴급 안심 플랜" },
+  "1f2a3b": { "text": "⑧ ESP 외국인 유학생 긴급 안심 플랜" },
   "2a3b4c": { "text": "「유학」 체류자격을 가진 규슈대 전 유학생 **필수 가입**. 24시간·365일·중영일 3개국어 메디컬 어시스턴스 제공: 의료기관 소개, 진료 시 전화 통역(의사 허가 필요), 긴급 시 모국 가족 연락과 교통 수배 등. **주의: ESP는 보험이 아닙니다**. 의료비는 보상되지 않으며 입원·치료·검사 비용은 각자 부담(국민건강보험 또는 자비)." },
   "3b4c5d": {
     "headers": ["재학 연수", "비용", "해당"],
     "rows": [["1년", "1,650엔", "비정규생, 연구생 등"], ["2년", "3,300엔", "석사 과정"], ["3년", "4,950엔", "박사 후기 과정"], ["4년", "6,600엔", "학부"]]
   },
   "4c5d6e": {
-    "items": [{"num": "1", "text": "가입 기한: **2026년 10월 30일(금)**."}, {"num": "2", "text": "신청: OSSMA 앱에서 온라인 신청. 일본 휴대폰 번호가 필요하므로 **입국 후 신청**을 권장."}, {"num": "3", "text": "결제: 신용카드 / 편의점(온라인 등록 시 선택, 별도 수수료 발생)."}]
+    "items": [{"num": "1", "text": "가입 기한: **2026년 10월 30일(금)**."}, {"num": "2", "text": "신청: 공식 앱에서 온라인 신청. 일본 휴대폰 번호가 필요하므로 **입국 후 신청**을 권장. ⚠️ 출처 불일치: 웹페이지는 OSSMA, 2026 공식 팜플렛은 NEXUS(구 앱 다운로드 금지). 최신 팜플렛/유학과 안내를 따르세요."}, {"num": "3", "text": "결제: 신용카드 / 편의점(온라인 등록 시 선택, 별도 수수료 발생)."}]
   },
-  "5d6e7f": { "text": "⑧ 문의·상담 창구" },
+  "5d6e7f": { "text": "⑨ 문의·상담 창구" },
   "6e7f8a": {
-    "items": [{"num": "1", "text": "입국 전 문의: 유학과 imm.s@jimu.kyushu-u.ac.jp(수강·수업은 소속 예정 학부·대학원에 직접)."}, {"num": "2", "text": "입국 후 문의: LINE 공식 계정 「Consultation Desk」(Q-Mate가 응답. 주거·구청 절차·은행 등)."}, {"num": "3", "text": "Q-Mate Instagram: @_qmate; 공식 사이트 https://studentassistantqu.wixsite.com/q-mate/about"}]
+    "items": [{"num": "1", "text": "입국 전 문의: 유학과 imm.s@jimu.kyushu-u.ac.jp(수강·수업은 소속 예정 학부·대학원에 직접)."}, {"num": "2", "text": "입국 후 문의: LINE 공식 계정 「Consultation Desk」(Q-Mate가 응답. 주거·구청 절차·은행 등)."}, {"num": "3", "text": "Q-Mate Instagram: @_qmate; 공식 사이트 https://studentassistantqu.wixsite.com/q-mate/about"}, {"num": "4", "text": "Q-Mate LINE 공식 계정: https://lin.ee/EiQqccP (문의·질문 입구)"}]
   },
   "7e8f9a": {
     "items": [{"text": "공식 NotePM 포털(일본어)", "url": "https://notepm.jp/sharing/fb0e6579-ad42-4aaa-90fb-9bcff4e253e3"}, {"text": "공식 NotePM 포털(영어)", "url": "https://notepm.jp/sharing/da6d736d-f9e1-44db-ba5e-580d2f1413b2"}, {"text": "Q-Mate Instagram", "url": "https://www.instagram.com/_qmate/"}]
