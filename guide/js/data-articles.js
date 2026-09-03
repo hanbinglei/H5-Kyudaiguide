@@ -4508,7 +4508,7 @@ window.ARTICLES = [
  },
  {
   "_id": "guide-newcomer",
-  "category": "13",
+  "category": "14",
   "title": "2026秋 新入生特辑：留学课支持总览",
   "summary": "九州大学留学课（国际部）面向 2026 秋季新入留学生的全部支持信息汇总：机场/生活巴士时刻表（含实时下一班）、校园 Wi-Fi（kitenet/SSO-KID）、行政手续・银行指导、オリエンテーション、银行开户会、ESP 紧急安心计划、联系与咨询渠道。以官方 NotePM 门户为准。",
   "tags": [
@@ -4895,7 +4895,7 @@ window.ARTICLES = [
    {
     "id": "1a2b3c",
     "type": "heading",
-    "text": "④ 行政手续・银行指导（民泊者必读）"
+    "text": "④ 行政手续・银行指导（宿舍入住者必读）"
    },
    {
     "id": "2b3c4d",
