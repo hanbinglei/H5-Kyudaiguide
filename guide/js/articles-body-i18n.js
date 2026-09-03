@@ -10296,7 +10296,28 @@ window.ARTICLES_BODY_I18N = {
   },
   "8d9e0f": { "text": "② 無料生活支援バス（寮 ⇄ 九大学研都市駅）" },
   "9e0f1a": { "text": "運行区間：伊都協奏館 / ドミトリー1-3 / セトルインターナショナル ⇄ 九大学研都市駅（学研都市エリアにはイオンモール、さいとぴあなど買い物・公共施設が集中）。運行日：9月24日・25日・29日・30日、10月1日。新入留学生とそのサポーターが利用可能、先着順。下表は次の便の到着時刻をリアルタイムで表示します。" },
-  "0f1a2b": { "text": "座席には限りがあり、先着順です。ドミトリー2・3 にお住まいの方はドミトリー1 からご乗車ください。運行時刻・停車位置は公式ポスター PDF をご確認ください。" }, "w1a2b3": { "text": "③ キャンパスWi-Fi（kitenet）" },
+  "0f1a2b": { "text": "座席には限りがあり、先着順です。ドミトリー2・3 にお住まいの方はドミトリー1 からご乗車ください。運行時刻・停車位置は公式ポスター PDF をご確認ください。" },  "m1h2i3": { "text": "⑨ お役立ち情報・医療健康リソース" },
+  "m2i3j4": { "text": "留学課「お役立ち情報」ページには福岡生活の役立つリソースがまとまっています。**医療は新入留学生が最も困りやすいテーマ**：伊都キャンパス内には**伊都診療所**がありますが、土日は利用できません。校外受診は**外国語対応可能な医療機関リスト**（2026年5月版、対応言語レベル A流暢 / B日常会話 / C片言）を参考にしてください。" },
+  "m3j4k5": { "items": [
+    {"num": "1", "text": "**学内：伊都診療所**（センター6号館1F、内科+精神科。月〜金 10:00-12:30 / 14:00-16:30。英語対応 B。https://itoclinic.kyushu-u.ac.jp/）"},
+    {"num": "2", "text": "**西福岡病院**（西区生の松原、総合病院。外国語 A 20言語。紹介・予約制、紹介状なしは別途 7,700円。0570-09-1331）"},
+    {"num": "3", "text": "**福岡記念病院**（早良区西新、総合病院。外国語 A。092-821-4731、http://kinen.jp）"},
+    {"num": "4", "text": "受診前に**予約が必要かどうか**を必ず確認。伊都診療所は土日休みのため校外受診も検討してください。"}
+  ] },
+  "m4k5l6": { "title": "公式医療機関リスト（外国語対応可能）", "items": [
+    {"text": "伊都キャンパス医療機関表 (PDF)", "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E4%BC%8A%E9%83%BD%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-1.pdf"},
+    {"text": "病院キャンパス医療機関表 (PDF)", "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%97%85%E9%99%A2%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-2.pdf"},
+    {"text": "大橋キャンパス医療機関表 (PDF)", "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E5%A4%A7%E6%A9%8B%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"},
+    {"text": "筑紫キャンパス医療機関表 (PDF)", "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%AD%91%E7%B4%AB%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"}
+  ] },
+  "m5l6m7": { "items": [
+    {"num": "1", "text": "**個人使用の医薬品の日本持込**：海外からの医薬品持込には制限があります。厚生労働省：https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/kojinyunyu/topics/tp010401-1.html"},
+    {"num": "2", "text": "**ワクチンで防げる感染症予防**（渡航前に予防接種歴を確認）：https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/visitor.html"},
+    {"num": "3", "text": "**2026 CLUB & CIRCLE GUIDE**（学内サークル、日本語版 PDF）：https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-CLUB-CIRCLE-GUIDE.pdf"},
+    {"num": "4", "text": "**2026 International Clubs Guide**（国際系団体、英語版 PDF）：https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-INTL-CLUB-AND-CIRCLE%E3%80%80%E8%8B%B1%E8%AA%9E.pdf"},
+    {"num": "5", "text": "**Global Gateways**（九州大学国際部の留学生向け情報サイト、定期的にチェック）：https://www.isc.kyushu-u.ac.jp/intlweb/"}
+  ] },
+"w1a2b3": { "text": "③ キャンパスWi-Fi（kitenet）" },
   "w2b3c4": { "text": "渡日直後でネット環境が整っていない新入留学生のために、留学課が**一時利用のWi-FiログインID・パスワード**を用意（9月下旬、入国支援システム登録メールに送付予定）。九大キャンパス内に多数のアクセスポイントがあります。" },
   "w3c4d5": { "text": "一時ログイン情報の利用可能期間：**2026年9月24日(木)～10月9日(金)**。10月9日以降はこのID・パスワードは使えません。以降も大学Wi-Fi（kitenet）を使うには、ご自身の**SSO-KID**で設定が必要です。" },
   "w4d5e6": { "items": [
@@ -10349,7 +10370,7 @@ window.ARTICLES_BODY_I18N = {
   "4c5d6e": {
     "items": [{"num": "1", "text": "加入期限：**2026年10月30日(金)**。"}, {"num": "2", "text": "申込：公式アプリからオンライン申請。日本の携帯番号が必要なため、**来日後の申込**を推奨。⚠️ 情報源により OSSMA と NEXUS の表記ゆれあり（2026年版公式パンフは NEXUS、旧アプリはダウンロードしない）。最新のパンフ・留学課の案内に従ってください。"}, {"num": "3", "text": "支払：クレジットカード / コンビニ（オンライン登録時に選択、別途手数料あり）。"}]
   },
-  "5d6e7f": { "text": "⑨ 問い合わせ・相談窓口" },
+  "5d6e7f": { "text": "⑩ 問い合わせ・相談窓口" },
   "6e7f8a": {
     "items": [{"num": "1", "text": "来日前の相談：留学課 imm.s@jimu.kyushu-u.ac.jp（履修・授業については所属予定の学部・学府へ直接）。"}, {"num": "2", "text": "来日後の相談：LINE 公式アカウント「Consultation Desk」（Q-Mate が対応。住まい・市区役所手続き・銀行など）。"}, {"num": "3", "text": "Q-Mate Instagram：@_qmate；公式サイト https://studentassistantqu.wixsite.com/q-mate/about"}, {"num": "4", "text": "Q-Mate LINE 公式アカウント：https://lin.ee/EiQqccP （相談・質問の入口）"}]
   },
@@ -10381,7 +10402,28 @@ window.ARTICLES_BODY_I18N = {
   },
   "8d9e0f": { "text": "② Free shopping shuttle (dorms ⇄ Kyudai Gakkentoshi Stn.)" },
   "9e0f1a": { "text": "Route: Ito Harmony House / Dormitory 1-3 / SETTLE International ⇄ Kyudai Gakkentoshi Station (the Gakken-toshi area has AEON Mall, Saitopia and other shopping & public facilities). Operating days: Sep 24, 25, 29, 30 and Oct 1. For new international students and their supporters; first come, first served. The table below shows the next bus arrival in real time." },
-  "0f1a2b": { "text": "Seats are limited and first come, first served. Residents of Dormitory 2 & 3 should board at Dormitory 1. Check the official poster PDF for exact times and stop locations." }, "w1a2b3": { "text": "③ Campus Wi-Fi (kitenet)" },
+  "0f1a2b": { "text": "Seats are limited and first come, first served. Residents of Dormitory 2 & 3 should board at Dormitory 1. Check the official poster PDF for exact times and stop locations." },  "m1h2i3": { "text": "⑨ Useful info & medical resources" },
+  "m2i3j4": { "text": "The division&#39;s “Useful Information” page gathers resources for life in Fukuoka. **Healthcare is the issue newcomers struggle with most**: Ito Campus has an **Ito Clinic**, but it is closed on weekends. For off-campus care, refer to the **list of medical institutions with foreign-language support** (May 2026 edition; language levels A fluent / B conversational / C basic)." },
+  "m3j4k5": { "items": [
+    {"num": "1", "text": "**On campus: Ito Clinic** (Center Bldg 6, 1F; internal medicine + psychiatry. Mon–Fri 10:00–12:30 / 14:00–16:30. English level B. https://itoclinic.kyushu-u.ac.jp/)"},
+    {"num": "2", "text": "**Nishi-Fukuoka Hospital** (Nishi Ward, Ikuno-Matsubara; general hospital. Foreign languages level A, 20 languages. Referral/appointment required; without referral letter add ¥7,700. 0570-09-1331)"},
+    {"num": "3", "text": "**Fukuoka Memorial Hospital** (Sawara Ward, Nishijin; general hospital. Foreign languages level A. 092-821-4731, http://kinen.jp)"},
+    {"num": "4", "text": "Always check **whether an appointment is required** before visiting. Ito Clinic is closed on weekends, so also consider off-campus hospitals."}
+  ] },
+  "m4k5l6": { "title": "Official hospital list (foreign-language support)", "items": [
+    {"text": "Ito Campus hospitals (PDF)", "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E4%BC%8A%E9%83%BD%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-1.pdf"},
+    {"text": "Hospital Campus hospitals (PDF)", "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%97%85%E9%99%A2%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-2.pdf"},
+    {"text": "Ohashi Campus hospitals (PDF)", "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E5%A4%A7%E6%A9%8B%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"},
+    {"text": "Chikushi Campus hospitals (PDF)", "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%AD%91%E7%B4%AB%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"}
+  ] },
+  "m5l6m7": { "items": [
+    {"num": "1", "text": "**Bringing personal medication into Japan**: restrictions apply to medicines brought from overseas. MHLW: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/kojinyunyu/topics/tp010401-1.html"},
+    {"num": "2", "text": "**Vaccine-preventable diseases** (check your vaccination history before travel): https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/visitor.html"},
+    {"num": "3", "text": "**2026 CLUB & CIRCLE GUIDE** (campus circles, Japanese PDF): https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-CLUB-CIRCLE-GUIDE.pdf"},
+    {"num": "4", "text": "**2026 International Clubs Guide** (international groups, English PDF): https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-INTL-CLUB-AND-CIRCLE%E3%80%80%E8%8B%B1%E8%AA%9E.pdf"},
+    {"num": "5", "text": "**Global Gateways** (Kyushu U intl. division info site — check regularly): https://www.isc.kyushu-u.ac.jp/intlweb/"}
+  ] },
+"w1a2b3": { "text": "③ Campus Wi-Fi (kitenet)" },
   "w2b3c4": { "text": "For newcomers whose internet is not set up yet, the division provides **temporary Wi-Fi login ID & password** (sent in late September to the email registered in the arrival support system). There are many access points across Kyushu University campuses." },
   "w3c4d5": { "text": "Temporary login valid：**Sep 24 (Thu) – Oct 9 (Fri), 2026**. After Oct 9 these credentials no longer work. To keep using campus Wi-Fi (kitenet), set up your own **SSO-KID**." },
   "w4d5e6": { "items": [
@@ -10434,7 +10476,7 @@ window.ARTICLES_BODY_I18N = {
   "4c5d6e": {
     "items": [{"num": "1", "text": "Enrollment deadline: **Fri, Oct 30, 2026**."}, {"num": "2", "text": "Apply online via the official app. A Japanese phone number is required, so **applying after arrival** is recommended. ⚠️ Sources conflict: the web page says OSSMA, but the 2026 official pamphlet says NEXUS (do not download the old app). Follow the latest pamphlet / division guidance."}, {"num": "3", "text": "Payment: credit card / convenience store (choose at online registration; a separate fee applies)."}]
   },
-  "5d6e7f": { "text": "⑨ Contacts & consultation" },
+  "5d6e7f": { "text": "⑩ Contacts & consultation" },
   "6e7f8a": {
     "items": [{"num": "1", "text": "Before arrival: Student Exchange Division imm.s@jimu.kyushu-u.ac.jp (for courses, contact your faculty/graduate school directly)."}, {"num": "2", "text": "After arrival: LINE official account “Consultation Desk” (answered by Q-Mate; topics: housing, ward-office procedures, banking)."}, {"num": "3", "text": "Q-Mate Instagram: @_qmate; website https://studentassistantqu.wixsite.com/q-mate/about"}, {"num": "4", "text": "Q-Mate LINE official account: https://lin.ee/EiQqccP (contact/consultation entry point)"}]
   },
@@ -10466,7 +10508,28 @@ window.ARTICLES_BODY_I18N = {
   },
   "8d9e0f": { "text": "② 무료 생활지원버스(기숙사 ⇄ 큐다이 가켄토시역)" },
   "9e0f1a": { "text": "운행 구간: 이토 협주관 / 도미토리 1-3 / 세틀 인터내셔널 ⇄ 큐다이 가켄토시역(가켄토시 지역에는 이온몰, 사이토피아 등 쇼핑·공공시설이 밀집). 운행일: 9월 24일·25일·29일·30일, 10월 1일. 신입 유학생과 서포터 이용 가능, 선착순. 아래 표는 다음 차량 도착 시각을 실시간으로 표시합니다." },
-  "0f1a2b": { "text": "좌석이 제한되어 있고 선착순입니다. 도미토리 2·3 거주자는 도미토리 1에서 승차하세요. 운행 시각·정차 위치는 공식 포스터 PDF를 확인하세요." }, "w1a2b3": { "text": "③ 캠퍼스 Wi-Fi (kitenet)" },
+  "0f1a2b": { "text": "좌석이 제한되어 있고 선착순입니다. 도미토리 2·3 거주자는 도미토리 1에서 승차하세요. 운행 시각·정차 위치는 공식 포스터 PDF를 확인하세요." },  "m1h2i3": { "text": "⑨ 유용한 정보·의료 건강 리소스" },
+  "m2i3j4": { "text": "유학과 「유용한 정보」 페이지에는 후쿠오카 생활에 도움 되는 리소스가 정리되어 있습니다. **의료는 신입 유학생이 가장 어려워하는 주제**: 이토 캠퍼스 안에는 **이토 진료소**가 있지만 주말에는 이용할 수 없습니다. 교외 진료는 **외국어 대응 가능 의료기관 목록**(2026년 5월판, 대응 언어 등급 A 유창 / B 일상회화 / C 간단한 말)을 참고하세요." },
+  "m3j4k5": { "items": [
+    {"num": "1", "text": "**캠퍼스 내: 이토 진료소**(센터 6호관 1F, 내과+정신과. 월~금 10:00-12:30 / 14:00-16:30. 영어 대응 B. https://itoclinic.kyushu-u.ac.jp/)"},
+    {"num": "2", "text": "**니시후쿠오카병원**(니시구 이쿠노마츠바라, 종합병원. 외국어 A 20개 언어. 소개·예약제, 소개장 없으면 별도 7,700엔. 0570-09-1331)"},
+    {"num": "3", "text": "**후쿠오카기념병원**(사와라구 니시진, 종합병원. 외국어 A. 092-821-4731, http://kinen.jp)"},
+    {"num": "4", "text": "진료 전에 **예약이 필요한지** 반드시 확인. 이토 진료소는 주말 휴무이므로 교외 병원도 고려하세요."}
+  ] },
+  "m4k5l6": { "title": "공식 의료기관 목록(외국어 대응 가능)", "items": [
+    {"text": "이토 캠퍼스 의료기관표 (PDF)", "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E4%BC%8A%E9%83%BD%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-1.pdf"},
+    {"text": "병원 캠퍼스 의료기관표 (PDF)", "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%97%85%E9%99%A2%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-2.pdf"},
+    {"text": "오하시 캠퍼스 의료기관표 (PDF)", "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E5%A4%A7%E6%A9%8B%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"},
+    {"text": "치쿠시 캠퍼스 의료기관표 (PDF)", "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%AD%91%E7%B4%AB%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"}
+  ] },
+  "m5l6m7": { "items": [
+    {"num": "1", "text": "**개인용 의약품 일본 반입**: 해외 의약품 반입에는 제한이 있습니다. 후생노동성: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/kojinyunyu/topics/tp010401-1.html"},
+    {"num": "2", "text": "**백신으로 예방 가능한 감염병**(출국 전 예방접종 이력 확인): https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/visitor.html"},
+    {"num": "3", "text": "**2026 CLUB & CIRCLE GUIDE**(교내 동아리, 일본어판 PDF): https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-CLUB-CIRCLE-GUIDE.pdf"},
+    {"num": "4", "text": "**2026 International Clubs Guide**(국제계 단체, 영어판 PDF): https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-INTL-CLUB-AND-CIRCLE%E3%80%80%E8%8B%B1%E8%AA%9E.pdf"},
+    {"num": "5", "text": "**Global Gateways**(규슈대 국제부 유학생 정보 사이트, 정기 확인): https://www.isc.kyushu-u.ac.jp/intlweb/"}
+  ] },
+"w1a2b3": { "text": "③ 캠퍼스 Wi-Fi (kitenet)" },
   "w2b3c4": { "text": "입국 직후 인터넷 환경이 갖춰지지 않은 신입 유학생을 위해 유학과가 **임시 Wi-Fi 로그인 ID·비밀번호**를 준비(9월 하순, 입국지원시스템 등록 이메일로 발송 예정). 규슈대 캠퍼스 곳곳에 액세스 포인트가 많습니다." },
   "w3c4d5": { "text": "임시 로그인 사용 가능 기간: **2026년 9월 24일(목)~10월 9일(금)**. 10월 9일 이후에는 이 ID·비밀번호를 사용할 수 없습니다. 이후에도 학교 Wi-Fi(kitenet)를 쓰려면 본인의 **SSO-KID**로 설정해야 합니다." },
   "w4d5e6": { "items": [
@@ -10519,7 +10582,7 @@ window.ARTICLES_BODY_I18N = {
   "4c5d6e": {
     "items": [{"num": "1", "text": "가입 기한: **2026년 10월 30일(금)**."}, {"num": "2", "text": "신청: 공식 앱에서 온라인 신청. 일본 휴대폰 번호가 필요하므로 **입국 후 신청**을 권장. ⚠️ 출처 불일치: 웹페이지는 OSSMA, 2026 공식 팜플렛은 NEXUS(구 앱 다운로드 금지). 최신 팜플렛/유학과 안내를 따르세요."}, {"num": "3", "text": "결제: 신용카드 / 편의점(온라인 등록 시 선택, 별도 수수료 발생)."}]
   },
-  "5d6e7f": { "text": "⑨ 문의·상담 창구" },
+  "5d6e7f": { "text": "⑩ 문의·상담 창구" },
   "6e7f8a": {
     "items": [{"num": "1", "text": "입국 전 문의: 유학과 imm.s@jimu.kyushu-u.ac.jp(수강·수업은 소속 예정 학부·대학원에 직접)."}, {"num": "2", "text": "입국 후 문의: LINE 공식 계정 「Consultation Desk」(Q-Mate가 응답. 주거·구청 절차·은행 등)."}, {"num": "3", "text": "Q-Mate Instagram: @_qmate; 공식 사이트 https://studentassistantqu.wixsite.com/q-mate/about"}, {"num": "4", "text": "Q-Mate LINE 공식 계정: https://lin.ee/EiQqccP (문의·질문 입구)"}]
   },

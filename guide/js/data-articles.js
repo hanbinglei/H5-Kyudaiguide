@@ -1,7 +1,7 @@
 // data-articles.js — 12 篇主指南（cat 1–12）+ 置顶反诈（cat 13）
 // 由 tools/build_guide_articles.js 从 content/ 生成，勿手改。
 // **要改内容请改 content/<article>.json**，然后重跑构建。
-// 共 15 篇 · 617 块
+// 共 15 篇 · 622 块
 //
 // ⚠️ 这里不写生成日期。CI 的做法是「重跑构建 → git diff 必须为空」，
 //    用来抓「改了 content/ 却忘了重跑」。而日期戳会让产物每天都不一样，
@@ -4523,7 +4523,7 @@ window.ARTICLES = [
    "ESP"
   ],
   "author": "管理员",
-  "updatedAt": "2026-09-02",
+  "updatedAt": "2026-09-03",
   "isPinned": true,
   "pinOrder": 5,
   "blocks": [
@@ -5208,9 +5208,90 @@ window.ARTICLES = [
     ]
    },
    {
+    "id": "m1h2i3",
+    "type": "heading",
+    "text": "⑨ 实用信息・医疗健康资源"
+   },
+   {
+    "id": "m2i3j4",
+    "type": "paragraph",
+    "text": "留学课「お役立ち情報」页面整理了福冈生活的实用资源。**就医是新生最常遇到的问题**：伊都校区内设有**伊都诊所**，但周末不营业，校外就医需参考**外语可对应医疗机构表**（2026年5月版，含对应语言等级 A 流利 / B 日常 / C 片言）。"
+   },
+   {
+    "id": "m3j4k5",
+    "type": "list",
+    "items": [
+     {
+      "num": "1",
+      "text": "**校内：伊都诊所**（センター６号馆1F，内科 + 精神科。周一至五 10:00-12:30 / 14:00-16:30。英语对应 B 级。https://itoclinic.kyushu-u.ac.jp/）"
+     },
+     {
+      "num": "2",
+      "text": "**西福冈医院**（西区生之松原，综合。外语 A 级 20 种语言。介绍信・预约制，无介绍信需另付 7,700円。0570-09-1331）"
+     },
+     {
+      "num": "3",
+      "text": "**福冈纪念医院**（早良区西新，综合。外语 A 级。092-821-4731，http://kinen.jp）"
+     },
+     {
+      "num": "4",
+      "text": "跨境就医前请确认：**是否需要预约**；伊都诊所周末不营业需另找校外医院。"
+     }
+    ]
+   },
+   {
+    "id": "m4k5l6",
+    "type": "links",
+    "title": "官方医疗机构表（外语可对应）",
+    "items": [
+     {
+      "text": "伊都校区医疗机构表 (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E4%BC%8A%E9%83%BD%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-1.pdf"
+     },
+     {
+      "text": "病院校区医疗机构表 (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%97%85%E9%99%A2%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-2.pdf"
+     },
+     {
+      "text": "大桥校区医疗机构表 (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E5%A4%A7%E6%A9%8B%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"
+     },
+     {
+      "text": "筑紫校区医疗机构表 (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%AD%91%E7%B4%AB%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"
+     }
+    ]
+   },
+   {
+    "id": "m5l6m7",
+    "type": "list",
+    "items": [
+     {
+      "num": "1",
+      "text": "**个人使用药品携入日本**：海外携入医药品有限制，厚生劳动省说明：https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/kojinyunyu/topics/tp010401-1.html"
+     },
+     {
+      "num": "2",
+      "text": "**疫苗预防的传染病信息**（渡航前确认接种史）：https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/visitor.html"
+     },
+     {
+      "num": "3",
+      "text": "**2026 CLUB & CIRCLE GUIDE**（校内社团，日文版 PDF）：https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-CLUB-CIRCLE-GUIDE.pdf"
+     },
+     {
+      "num": "4",
+      "text": "**2026 International Clubs Guide**（国际社团，英文版 PDF）：https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-INTL-CLUB-AND-CIRCLE%E3%80%80%E8%8B%B1%E8%AA%9E.pdf"
+     },
+     {
+      "num": "5",
+      "text": "**Global Gateways**（九州大学国际部留学生信息网，定期查看）：https://www.isc.kyushu-u.ac.jp/intlweb/"
+     }
+    ]
+   },
+   {
     "id": "5d6e7f",
     "type": "heading",
-    "text": "⑨ 联系方式与咨询"
+    "text": "⑩ 联系方式与咨询"
    },
    {
     "id": "6e7f8a",
