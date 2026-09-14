@@ -10272,1058 +10272,1743 @@ window.ARTICLES_BODY_I18N = {
    }
   }
  },
-"guide-newcomer": {
- "ja": {
-  "9c1a2e": { "text": "この記事は、九州大学国際部・留学課が **2026 年秋の新入留学生**向けに公開している公式サポート情報をまとめたものです。原本：留学課 NotePM ポータル「新入留学生サポートポータル（伊都キャンパス）」（2026-08-20 公開）。対象・日程は公式の定めに従ってください。" },
-  "1b2c3d": { "text": "日程一覧" },
-  "a4b5c6": {
-    "headers": ["日付", "スケジュール", "対象", "備考"],
-    "rows": [["9月24日・25日", "無料空港シャトルバス", "全ての新入留学生", "先着順、予約不要"], ["9月24日・25日・29日・30日・10月1日", "無料生活支援バス", "新入留学生とそのサポーター", "先着順、予約不要"], ["9月24日～10月上旬", "行政手続き・銀行ガイダンス", "学生寮に入居する海外からの新入留学生", "⚠️ 事前申込必須"], ["9月28日", "新入留学生オリエンテーション + SIM販売会・図書館ツアー・入管相談会・ウェルカムパーティ", "全ての新入留学生（他キャンパス含む）", "⚠️ 新入留学生は参加必須"], ["9月29日・30日", "新入留学生キャンパスツアー", "全ての新入留学生", "要申込、各回20名"], ["10月6日・7日・8日", "福岡銀行口座開設会", "住所登録が完了した新入留学生", "⚠️ 事前申込必須"]]
-  },
-  "2d3e4f": { "text": "各学生寮の入寮可能時間は、募集要項（留学生用宿舎申請）の第 6 ページ以降をご確認ください。" },
-  "3e4f5a": { "text": "① 無料空港シャトルバス（福岡空港 → 伊都の各寮）" },
-  "4f5a6b": { "text": "2026年9月24日・25日の2日間、留学課が福岡空港から九大学研都市駅 / ドミトリー1-3 / 伊都協奏館 / セトルインターナショナルまで無料シャトルバスを運行します。**原則として新入留学生本人のみ**利用できます。先着順・事前予約不要、満員で乗れない場合があります。**出発15分前**までに集合してください。" },
-  "5a6b7c": {
-    "headers": ["出発（福岡空港）", "第1便", "第2便", "第3便", "第4便"],
-    "rows": [["国際線ターミナル", "9:00", "11:30", "15:00", "18:00"], ["国内線ターミナル", "9:25", "11:55", "15:25", "18:25"]]
-  },
-  "6b7c8d": {
-    "headers": ["到着", "第1便", "第2便", "第3便", "第4便"],
-    "rows": [["九大学研都市駅", "9:55", "12:35", "16:05", "19:05"], ["セトルインターナショナル", "10:25", "12:55", "16:25", "（停車なし）"], ["ドミトリー1～3", "10:45", "13:15", "16:45", "19:30"], ["伊都協奏館", "11:00", "13:30", "17:00", "19:50"]]
-  },
-  "7c8d9e": {
-    "items": [{"num": "1", "text": "毎日第4便はセトルインターナショナルに停車しません。"}, {"num": "2", "text": "集合場所：福岡空港 国際線・国内線ターミナル。出発の1時間前から、「Kyushu University」のプラカードを持った留学課スタッフが到着口近くの受付で待機しています。"}, {"num": "3", "text": "出発・到着時間は交通状況により前後します。"}, {"num": "4", "text": "病院・筑紫・大橋キャンパスの新入留学生は**本バスを利用できません**。"}]
-  },
-  "8d9e0f": { "text": "② 無料生活支援バス（寮 ⇄ 九大学研都市駅）" },
-  "9e0f1a": { "text": "運行区間：伊都協奏館 / ドミトリー1-3 / セトルインターナショナル ⇄ 九大学研都市駅（学研都市エリアにはイオンモール、さいとぴあなど買い物・公共施設が集中）。運行日：9月24日・25日・29日・30日、10月1日。新入留学生とそのサポーターが利用可能、先着順。下表は次の便の到着時刻をリアルタイムで表示します。" },
-  "0f1a2b": { "text": "座席には限りがあり、先着順です。ドミトリー2・3 にお住まいの方はドミトリー1 からご乗車ください。運行時刻・停車位置は公式ポスター PDF をご確認ください。" },  "m1h2i3": { "text": "⑨ お役立ち情報・医療健康リソース" },
-  "m2i3j4": { "text": "留学課「お役立ち情報」ページには福岡生活の役立つリソースがまとまっています。**医療は新入留学生が最も困りやすいテーマ**：伊都キャンパス内には**伊都診療所**がありますが、土日は利用できません。校外受診は**外国語対応可能な医療機関リスト**（2026年5月版、対応言語レベル A流暢 / B日常会話 / C片言）を参考にしてください。" },
-  "m3j4k5": { "items": [
-    {"num": "1", "text": "**学内：伊都診療所**（センター6号館1F、内科+精神科。月〜金 10:00-12:30 / 14:00-16:30。英語対応 B。https://itoclinic.kyushu-u.ac.jp/）"},
-    {"num": "2", "text": "**西福岡病院**（西区生の松原、総合病院。外国語 A 20言語。紹介・予約制、紹介状なしは別途 7,700円。0570-09-1331）"},
-    {"num": "3", "text": "**福岡記念病院**（早良区西新、総合病院。外国語 A。092-821-4731、http://kinen.jp）"},
-    {"num": "4", "text": "受診前に**予約が必要かどうか**を必ず確認。伊都診療所は土日休みのため校外受診も検討してください。"}
-  ] },
-  "m4k5l6": { "title": "公式医療機関リスト（外国語対応可能）", "items": [
-    {"text": "伊都キャンパス医療機関表 (PDF)", "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E4%BC%8A%E9%83%BD%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-1.pdf"},
-    {"text": "病院キャンパス医療機関表 (PDF)", "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%97%85%E9%99%A2%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-2.pdf"},
-    {"text": "大橋キャンパス医療機関表 (PDF)", "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E5%A4%A7%E6%A9%8B%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"},
-    {"text": "筑紫キャンパス医療機関表 (PDF)", "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%AD%91%E7%B4%AB%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"}
-  ] },
-  "m5l6m7": { "items": [
-    {"num": "1", "text": "**個人使用の医薬品の日本持込**：海外からの医薬品持込には制限があります。厚生労働省：https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/kojinyunyu/topics/tp010401-1.html"},
-    {"num": "2", "text": "**ワクチンで防げる感染症予防**（渡航前に予防接種歴を確認）：https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/visitor.html"},
-    {"num": "3", "text": "**2026 CLUB & CIRCLE GUIDE**（学内サークル、日本語版 PDF）：https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-CLUB-CIRCLE-GUIDE.pdf"},
-    {"num": "4", "text": "**2026 International Clubs Guide**（国際系団体、英語版 PDF）：https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-INTL-CLUB-AND-CIRCLE%E3%80%80%E8%8B%B1%E8%AA%9E.pdf"},
-    {"num": "5", "text": "**Global Gateways**（九州大学国際部の留学生向け情報サイト、定期的にチェック）：https://www.isc.kyushu-u.ac.jp/intlweb/"}
-  ] },
-"w1a2b3": { "text": "③ キャンパスWi-Fi（kitenet）" },
-  "w2b3c4": { "text": "渡日直後でネット環境が整っていない新入留学生のために、留学課が**一時利用のWi-FiログインID・パスワード**を用意（9月下旬、入国支援システム登録メールに送付予定）。九大キャンパス内に多数のアクセスポイントがあります。" },
-  "w3c4d5": { "text": "一時ログイン情報の利用可能期間：**2026年9月24日(木)～10月9日(金)**。10月9日以降はこのID・パスワードは使えません。以降も大学Wi-Fi（kitenet）を使うには、ご自身の**SSO-KID**で設定が必要です。" },
-  "w4d5e6": { "items": [
-    {"title": "自分のSSO-KIDを確認", "desc": "正課生は**学生証の裏面**。学生証がない場合は所属学部・学府の学生係に問い合わせ（登録コードも併せて確認）。"},
-    {"title": "必要なものを準備", "desc": "登録コードと、**@s.kyushu-u.ac.jp以外のメールアドレス**。"},
-    {"title": "SSO-KIDを有効化", "desc": "以下のリンクから有効化：https://web.sso.kyushu-u.ac.jp/idpw/activation.html"},
-    {"title": "kitenetの初期設定を完了", "desc": "公式ガイドあり（iOS / Android / その他OS）。"}
-              ]
-              },
-              "w5e6f7": { "items": [{"text": "SSO-KID有効化ページ", "url": "https://web.sso.kyushu-u.ac.jp/idpw/activation.html"}, {"text": "キャンパスWi-Fi公式ページ", "url": "https://notepm.jp/sharing/751f751c-dbec-4cf0-a5b9-0e3a396b467d"}] },
-
-  "1a2b3c": { "text": "④ 行政手続き・銀行ガイダンス（寮入居者必読）" },
-  "2b3c4d": { "text": "海外から渡日し学生寮に入居する新入留学生向けに、留学課が住所登録や国民健康保険などの行政手続きを代行し、国民年金・マイナンバーカード・銀行口座開設（ゆうちょ / 福岡銀行 / 西日本シティ銀行）について説明します。**第1回と第2回の両方に参加が必須**です。会場：日本ジョナサン・KS・チョイ文化館（キャンパスマップ No.79）。持ち物：パスポート・在留カード・黒色ボールペン。参加日程は**入国支援システム（Pre-Arrival Assistance）**で予約します（入寮手続き完了後にフォームが表示されます）。**リマインドメールは送信されません**。第1回は**入寮当日以降**の日時のみ選択可能です。参加日までに**パスポートの顔写真ページと入国許可スタンプページ**の写真を留学課メールへ送信してください（顔写真ページを入国支援システムにアップロード済みの場合は、入国許可スタンプページのみ提出）。日程が合わず参加できない場合は、Q-Mate作成の多言語動画でご自身で手続きを行ってください。" },
-  "3c4d5e": { "text": "伊都協奏館 / ドミトリー1-3 入居者・日程（A〜G組）" },
-  "c0d1e2": {
-    "headers": ["組", "第1回ガイダンス", "第2回ガイダンス"],
-    "rows": [["A", "9/24(木) 15:00-15:30", "9/29(火) 13:00-14:00"], ["B", "9/25(金) 13:00-13:30", "9/29(火) 13:00-14:00"], ["C", "9/28(月) 10:00-10:30", "9/30(水) 13:00-14:00"], ["D", "9/29(火) 10:00-10:30", "10/1(木) 13:00-14:00"], ["E", "9/30(水) 10:00-10:30", "10/2(金) 13:00-14:00"], ["F", "10/1(木) 10:00-10:30", "10/5(月) 12:30-13:30"], ["G", "10/2(金) 10:00-10:30", "10/6(火) 12:00-13:00"]]
-  },
-  "d1e2f0": { "text": "協奏館から徒歩約18分、ドミトリーから徒歩約5〜7分。定員に限りがあるため希望日時を選べない場合があります。留学課が住所登録を代行する場合、特定在留カード（マイナンバーカードと在留カードの一体化カード；新規渡日の住所登録時は無料、**義務ではない**）の申請を同時にすることはできません。" },
-  "4d5e6f": { "text": "セトルインターナショナル 入居者・日程（A〜C組）" },
-  "e2f0a3": {
-    "headers": ["組", "第1回ガイダンス", "第2回ガイダンス"],
-    "rows": [["A", "9/28(月) 11:00-11:30", "9/30(水) 15:00-16:00"], ["B", "9/29(火) 11:00-11:30", "10/1(木) 15:00-16:00"], ["C", "9/30(水) 11:00-11:30", "10/2(金) 15:00-16:00"]]
-  },
-  "f0a3b4": { "text": "会場は同じ（文化館 No.79）。バス約13分（九大ビッグオレンジ前下車）、徒歩約35分。" },
-  "5e6f0a": { "text": "⑤ 新入留学生オリエンテーション（9月28日）" },
-  "6f0a1b": { "text": "9月28日(月) 12:50〜15:10、伊都キャンパス椎木講堂。西警察署、福岡出入国在留管理局、福岡市消防局が講演します。**新入留学生は参加必須**（他のオリエンテーション・ガイダンスと日程が重なる場合を除く）。事前登録が必要です：**申込フォーム** https://forms.cloud.microsoft/r/nCDDWic1U5" },
-  "a3b4c5": {
-    "headers": ["時間", "内容"],
-    "rows": [["12:50", "開会の言葉"], ["12:55", "「Q-Mate」紹介"], ["13:05", "福岡での新生活に役立つ情報"], ["13:10", "「KUFSA」（留学生会）紹介"], ["13:20", "学内カウンセリングサービス"], ["13:25", "在留資格制度（入国在留管理局）"], ["13:35", "休憩15分"], ["13:50", "安全と防犯（西警察署）"], ["14:30", "火災・救急・防災（消防局）"], ["14:55", "図書館からのお知らせ"], ["15:00", "閉会の言葉"]]
-  },
-  "b4c5d6": { "text": "同日開催：**SIMカード販売会**（会場：椎木講堂ガレリア。**2つのセッションのいずれかに参加**：①10:30〜12:30 オリエンテーション前、②15:10〜17:00 終了後。公式は午前セッションを推奨、午後は混雑の可能性。**事前登録必須**、プラン・料金・登録方法は公式ポスター参照）、**図書館ツアー**（中央図書館）、**入管相談会**（在留資格について質問可）、**ウェルカムパーティー**（17:00-18:00 @ BIG SKY、新入留学生限定）。病院・筑紫・大橋キャンパス、福岡市国際会館・井尻から椎木講堂へ無料シャトルバスあり（行き 10:40-10:50 頃、帰り 18:20 頃出発）。先着順、帰りは行きで配布の乗車券が必要。**集合場所は各キャンパスの指定位置（公式PDF参照）で、国際交流会館ではありません。**" },
-  "5f0a6b": { "text": "⑤ 新入留学生キャンパスツアー（9月29・30日）" },
-  "6a7b8c": {
-    "headers": ["日付", "時間", "テーマ"],
-    "rows": [["9/29(火)", "10:30-12:00", "イーストゾーン（文系）"], ["9/29(火)", "15:00-16:30", "ウエストゾーン（理系）"], ["9/30(水)", "10:30-12:00", "ウエストゾーン（理系）"], ["9/30(水)", "15:00-16:30", "イーストゾーン（文系）"]]
-  },
-  "7b8c9d": { "text": "集合：センター6号館。各回 20 名・約90分・徒歩で移動します。歩きやすい靴で、飲み物は各自ご用意ください。言語は英語中心（日本語も可）。文系・理系を問わずどちらのゾーンも選べます。ツアー中は写真を撮り、SNS に投稿することがあります。気になる方は Q-Mate へお知らせください。Q-Mate 主催。申込フォームは公式ポータル参照。" },
-  "8c9d0e": { "text": "⑦ 福岡銀行口座開設会（10月6・7・8日）" },
-  "9d0e1f": { "text": "福岡銀行は伊都キャンパス内にも ATM がある福岡県の主要銀行の一つ。開設会に参加すると**その場で口座番号とキャッシュカードを受け取れ**、支店に行く必要がありません。奨学金の受取口座や家賃の口座振替にもすぐに利用できます。福岡銀行と九大スタッフが英語・日本語でサポートします。**会場：日本ジョナサン・KS・チョイ文化館（キャンパスマップ No.79）**。第1回〜第3回のいずれか1つに参加（自分の時間割と要確認）。" },
-  "0e1f2a": {
-    "items": [{"num": "1", "text": "条件①：在留カードの住所登録が完了していること。条件②：在留期間が3か月以上残っていること（残り3か月未満、または更新申請中の方は参加不可。銀行支店でご自身で手続きが必要）。"}, {"num": "2", "text": "申込：**入国支援システム（Pre-Arrival Assistance）にログイン →「スケジュール情報の入力」→ 福岡銀行口座開設会申込みフォームに記入し、在留カードの画像をアップロード**。申込フォームは申込期間中のみ表示されます。"}, {"num": "3", "text": "**留学課からの確認メールを受信して初めて申込完了**。メールが届かない方は参加できません。原則キャンセル不可。参加できなくなった場合は公式キャンセルフォームから申請。"}, {"num": "4", "text": "印鑑：**シャチハタ印鑑は使用不可**。朱肉（Red Ink Pad）を使うタイプの印鑑を用意。また日本で利用可能な電話番号が必要（9/28のSIMカード販売会で用意可）。"}, {"num": "5", "text": "アメリカ国籍の方は Social Security Number(SSN)（9桁の数字）を事前に確認。"}, {"num": "6", "text": "MEXT 奨学生も参加できますが、奨学金の受取には**別途ゆうちょ銀行の口座**が必要です。"}]
-  },
-  "1f2a3b": { "text": "⑧ ESP 外国人留学生等緊急安心プラン" },
-  "2a3b4c": { "text": "「留学」の在留資格を持つ九州大学の全留学生は**加入必須**。24時間・365日・中英日3言語のメディカルアシスタンスを提供：医療機関紹介、受診時の電話通訳（医師の許可が必要）、緊急時に母国の家族への連絡や交通の手配など。**注意：ESP は保険ではありません**。医療費は補てんされず、入院・治療・検査の費用は各自負担（国民健康保険または自費）。" },
-  "3b4c5d": {
-    "headers": ["在学年数", "費用", "該当"],
-    "rows": [["1年", "1,650円", "非正規生、研究生など"], ["2年", "3,300円", "修士課程"], ["3年", "4,950円", "博士後期課程"], ["4年", "6,600円", "学部"]]
-  },
-  "4c5d6e": {
-    "items": [{"num": "1", "text": "加入期限：**2026年10月30日(金)**。"}, {"num": "2", "text": "申込：公式アプリからオンライン申請。日本の携帯番号が必要なため、**来日後の申込**を推奨。⚠️ 情報源により OSSMA と NEXUS の表記ゆれあり（2026年版公式パンフは NEXUS、旧アプリはダウンロードしない）。最新のパンフ・留学課の案内に従ってください。"}, {"num": "3", "text": "支払：クレジットカード / コンビニ（オンライン登録時に選択、別途手数料あり）。"}]
-  },
-  "5d6e7f": { "text": "⑩ 問い合わせ・相談窓口" },
-  "6e7f8a": {
-    "items": [{"num": "1", "text": "来日前の相談：留学課 imm.s@jimu.kyushu-u.ac.jp（履修・授業については所属予定の学部・学府へ直接）。"}, {"num": "2", "text": "来日後の相談：LINE 公式アカウント「Consultation Desk」（Q-Mate が対応。住まい・市区役所手続き・銀行など）。"}, {"num": "3", "text": "Q-Mate Instagram：@_qmate；公式サイト https://studentassistantqu.wixsite.com/q-mate/about"}, {"num": "4", "text": "Q-Mate LINE 公式アカウント：https://lin.ee/EiQqccP （相談・質問の入口）"}]
-  },
-  "7e8f9a": {
-    "items": [{"text": "公式 NotePM ポータル（日本語）", "url": "https://notepm.jp/sharing/fb0e6579-ad42-4aaa-90fb-9bcff4e253e3"}, {"text": "公式 NotePM ポータル（English）", "url": "https://notepm.jp/sharing/da6d736d-f9e1-44db-ba5e-580d2f1413b2"}, {"text": "Q-Mate Instagram", "url": "https://www.instagram.com/_qmate/"}]
-  },
-  "8f9a0b": { "text": "**原本**：留学課 NotePM「新入留学生サポートポータル（伊都キャンパス）」2026-08-20 公開（各サブページ・公式 PDF 時刻表を含む）。最新情報は公式発表をご確認ください。" }
- },
- "en": {
-  "9c1a2e": { "text": "This article collects all official support provided by the Kyushu University Student Exchange Division for **2026 fall newcomers**. Source: the division&#39;s NotePM portal “New International Student Support Portal (Ito Campus)”, published 2026-08-20. Follow official eligibility and dates." },
-  "1b2c3d": { "text": "Schedule Overview" },
-  "a4b5c6": {
-    "headers": ["Date", "Schedule", "Eligible", "Notes"],
-    "rows": [["Sep 24–25", "Free airport shuttle", "All new intl. students", "First come, no reservation"], ["Sep 24, 25, 29, 30, Oct 1", "Free shopping shuttle", "New intl. students & supporters", "First come, no reservation"], ["Sep 24 – early Oct", "Administrative & banking guidance", "New intl. students from overseas living in dorms", "⚠️ advance registration required"], ["Sep 28", "New Student Orientation + SIM sale, library tour, immigration consultation, welcome party", "All new intl. students (incl. other campuses)", "⚠️ mandatory for new students"], ["Sep 29–30", "New student campus tour", "All new intl. students", "Registration needed, 20/group"], ["Oct 6–8", "Fukuoka Bank account event", "New intl. students with registered address", "⚠️ advance registration required"]]
-  },
-  "2d3e4f": { "text": "Check dormitory move-in times from page 6 onward of the application guidelines (dormitory application for international students)." },
-  "3e4f5a": { "text": "① Free airport shuttle (Fukuoka Airport → Ito dorms)" },
-  "4f5a6b": { "text": "On Sep 24 & 25, 2026 the division runs a free shuttle from Fukuoka Airport to Kyudai Gakkentoshi Station / Dormitory 1-3 / Ito Harmony House / SETTLE International. **In principle for new international students only.** First come, first served; no reservation needed, but the bus can fill up. Assemble **at least 15 minutes before departure**." },
-  "5a6b7c": {
-    "headers": ["Departure (Fukuoka Airport)", "Bus 1", "Bus 2", "Bus 3", "Bus 4"],
-    "rows": [["International terminal", "9:00", "11:30", "15:00", "18:00"], ["Domestic terminal", "9:25", "11:55", "15:25", "18:25"]]
-  },
-  "6b7c8d": {
-    "headers": ["Arrival", "Bus 1", "Bus 2", "Bus 3", "Bus 4"],
-    "rows": [["Kyudai Gakkentoshi Stn.", "9:55", "12:35", "16:05", "19:05"], ["SETTLE International", "10:25", "12:55", "16:25", "(no stop)"], ["Dormitory 1-3", "10:45", "13:15", "16:45", "19:30"], ["Ito Harmony House", "11:00", "13:30", "17:00", "19:50"]]
-  },
-  "7c8d9e": {
-    "items": [{"num": "1", "text": "Bus 4 does not stop at SETTLE International each day."}, {"num": "2", "text": "Meeting point: Fukuoka Airport International / Domestic terminal. Staff holding a “Kyushu University” sign wait at the reception near arrivals from 1 hour before departure."}, {"num": "3", "text": "Departure and arrival times may shift due to traffic."}, {"num": "4", "text": "New students of the Hospital / Chikushi / Ohashi campuses **cannot use this shuttle**."}]
-  },
-  "8d9e0f": { "text": "② Free shopping shuttle (dorms ⇄ Kyudai Gakkentoshi Stn.)" },
-  "9e0f1a": { "text": "Route: Ito Harmony House / Dormitory 1-3 / SETTLE International ⇄ Kyudai Gakkentoshi Station (the Gakken-toshi area has AEON Mall, Saitopia and other shopping & public facilities). Operating days: Sep 24, 25, 29, 30 and Oct 1. For new international students and their supporters; first come, first served. The table below shows the next bus arrival in real time." },
-  "0f1a2b": { "text": "Seats are limited and first come, first served. Residents of Dormitory 2 & 3 should board at Dormitory 1. Check the official poster PDF for exact times and stop locations." },  "m1h2i3": { "text": "⑨ Useful info & medical resources" },
-  "m2i3j4": { "text": "The division&#39;s “Useful Information” page gathers resources for life in Fukuoka. **Healthcare is the issue newcomers struggle with most**: Ito Campus has an **Ito Clinic**, but it is closed on weekends. For off-campus care, refer to the **list of medical institutions with foreign-language support** (May 2026 edition; language levels A fluent / B conversational / C basic)." },
-  "m3j4k5": { "items": [
-    {"num": "1", "text": "**On campus: Ito Clinic** (Center Bldg 6, 1F; internal medicine + psychiatry. Mon–Fri 10:00–12:30 / 14:00–16:30. English level B. https://itoclinic.kyushu-u.ac.jp/)"},
-    {"num": "2", "text": "**Nishi-Fukuoka Hospital** (Nishi Ward, Ikuno-Matsubara; general hospital. Foreign languages level A, 20 languages. Referral/appointment required; without referral letter add ¥7,700. 0570-09-1331)"},
-    {"num": "3", "text": "**Fukuoka Memorial Hospital** (Sawara Ward, Nishijin; general hospital. Foreign languages level A. 092-821-4731, http://kinen.jp)"},
-    {"num": "4", "text": "Always check **whether an appointment is required** before visiting. Ito Clinic is closed on weekends, so also consider off-campus hospitals."}
-  ] },
-  "m4k5l6": { "title": "Official hospital list (foreign-language support)", "items": [
-    {"text": "Ito Campus hospitals (PDF)", "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E4%BC%8A%E9%83%BD%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-1.pdf"},
-    {"text": "Hospital Campus hospitals (PDF)", "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%97%85%E9%99%A2%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-2.pdf"},
-    {"text": "Ohashi Campus hospitals (PDF)", "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E5%A4%A7%E6%A9%8B%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"},
-    {"text": "Chikushi Campus hospitals (PDF)", "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%AD%91%E7%B4%AB%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"}
-  ] },
-  "m5l6m7": { "items": [
-    {"num": "1", "text": "**Bringing personal medication into Japan**: restrictions apply to medicines brought from overseas. MHLW: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/kojinyunyu/topics/tp010401-1.html"},
-    {"num": "2", "text": "**Vaccine-preventable diseases** (check your vaccination history before travel): https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/visitor.html"},
-    {"num": "3", "text": "**2026 CLUB & CIRCLE GUIDE** (campus circles, Japanese PDF): https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-CLUB-CIRCLE-GUIDE.pdf"},
-    {"num": "4", "text": "**2026 International Clubs Guide** (international groups, English PDF): https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-INTL-CLUB-AND-CIRCLE%E3%80%80%E8%8B%B1%E8%AA%9E.pdf"},
-    {"num": "5", "text": "**Global Gateways** (Kyushu U intl. division info site — check regularly): https://www.isc.kyushu-u.ac.jp/intlweb/"}
-  ] },
-"w1a2b3": { "text": "③ Campus Wi-Fi (kitenet)" },
-  "w2b3c4": { "text": "For newcomers whose internet is not set up yet, the division provides **temporary Wi-Fi login ID & password** (sent in late September to the email registered in the arrival support system). There are many access points across Kyushu University campuses." },
-  "w3c4d5": { "text": "Temporary login valid：**Sep 24 (Thu) – Oct 9 (Fri), 2026**. After Oct 9 these credentials no longer work. To keep using campus Wi-Fi (kitenet), set up your own **SSO-KID**." },
-  "w4d5e6": { "items": [
-    {"title": "Find your SSO-KID", "desc": "Regular students: check the **back of your student ID card**. If you don&#39;t have one yet, ask your faculty/graduate school office (and ask for your registration code)."},
-    {"title": "Prepare materials", "desc": "Registration code + an email **other than @s.kyushu-u.ac.jp**."},
-    {"title": "Activate your SSO-KID", "desc": "Activate here: https://web.sso.kyushu-u.ac.jp/idpw/activation.html"},
-    {"title": "Complete kitenet initial setup", "desc": "Official guides available (iOS / Android / other OS)."}
-          ]
-          },
-          "w5e6f7": { "items": [{"text": "SSO-KID activation page", "url": "https://web.sso.kyushu-u.ac.jp/idpw/activation.html"}, {"text": "Official campus Wi-Fi page", "url": "https://notepm.jp/sharing/751f751c-dbec-4cf0-a5b9-0e3a396b467d"}] },
-
-  "1a2b3c": { "text": "④ Administrative & banking guidance (for dorm residents)" },
-  "2b3c4d": { "text": "For new international students arriving from overseas and moving into dorms, the division handles address registration and National Health Insurance on your behalf, and explains National Pension, My Number card, and opening a bank account (Japan Post / Fukuoka Bank / Nishi-Nippon City Bank). **You must attend both the 1st and 2nd sessions.** Venue: Japanese Jonathan K.S. Choi Culture Hall (campus map No. 79). Bring: passport, residence card, black ballpoint pen." },
-  "3c4d5e": { "text": "Ito Harmony House / Dormitory 1-3 residents · schedule (Groups A–G)" },
-  "c0d1e2": {
-    "headers": ["Group", "1st session", "2nd session"],
-    "rows": [["A", "9/24 (Thu) 15:00-15:30", "9/29 (Tue) 13:00-14:00"], ["B", "9/25 (Fri) 13:00-13:30", "9/29 (Tue) 13:00-14:00"], ["C", "9/28 (Mon) 10:00-10:30", "9/30 (Wed) 13:00-14:00"], ["D", "9/29 (Tue) 10:00-10:30", "10/1 (Thu) 13:00-14:00"], ["E", "9/30 (Wed) 10:00-10:30", "10/2 (Fri) 13:00-14:00"], ["F", "10/1 (Thu) 10:00-10:30", "10/5 (Mon) 12:30-13:30"], ["G", "10/2 (Fri) 10:00-10:30", "10/6 (Tue) 12:00-13:00"]]
-  },
-  "d1e2f0": { "text": "About 18 min on foot from Harmony House, 5–7 min from the dorms. Capacity is limited, so you may not get your preferred slot. If the division registers your address on your behalf, you cannot simultaneously apply for the Specified Residence Card (a combined My Number + residence card; free at first address registration, **not mandatory**)." },
-  "4d5e6f": { "text": "SETTLE International residents · schedule (Groups A–C)" },
-  "e2f0a3": {
-    "headers": ["Group", "1st session", "2nd session"],
-    "rows": [["A", "9/28 (Mon) 11:00-11:30", "9/30 (Wed) 15:00-16:00"], ["B", "9/29 (Tue) 11:00-11:30", "10/1 (Thu) 15:00-16:00"], ["C", "9/30 (Wed) 11:00-11:30", "10/2 (Fri) 15:00-16:00"]]
-  },
-  "f0a3b4": { "text": "Same venue (Culture Hall No. 79). About 13 min by bus (get off at Kyudai Big Orange) or 35 min on foot." },
-  "5e6f0a": { "text": "⑤ New International Student Orientation (Sep 28)" },
-  "6f0a1b": { "text": "Sep 28 (Mon) 12:50–15:10 at Shiiki Hall, Ito Campus. Guest speakers from Nishi Police Station, Fukuoka Regional Immigration Services Bureau and Fukuoka City Fire Bureau. **Attendance is mandatory** for new international students (unless it overlaps with another orientation/guidance). Prior registration required: **application form** https://forms.cloud.microsoft/r/nCDDWic1U5" },
-  "a3b4c5": {
-    "headers": ["Time", "Program"],
-    "rows": [["12:50", "Opening remarks"], ["12:55", "Intro to Q-Mate"], ["13:05", "Tips for new life in Fukuoka"], ["13:10", "Intro to KUFSA (intl. student association)"], ["13:20", "On-campus counseling services"], ["13:25", "Status-of-residence system (immigration bureau)"], ["13:35", "15-min break"], ["13:50", "Safety & crime prevention (Nishi Police)"], ["14:30", "Fire, first aid, disaster prevention (Fire Bureau)"], ["14:55", "Library notice"], ["15:00", "Closing remarks"]]
-  },
-  "b4c5d6": { "text": "Same-day events: **SIM card sale** (Venue: Shiiki Hall Galleria. **Attend one of two sessions**: ①10:30–12:30 before the orientation, ②15:10–17:00 after it ends. The morning session is recommended; the afternoon may be crowded. **Prior registration required** — plans, prices and registration method are on the official poster), **library tour** (Central Library), **immigration consultation** (ask about your status), **welcome party** (17:00–18:00 @ BIG SKY, new students only). Free shuttles from Hospital / Chikushi / Ohashi campuses, Fukuoka City Intl. Center / Ijiri (outbound ~10:40–10:50, return ~18:20). First come; the return trip requires the ticket given on the outbound bus. **Shuttle pickup is at each campus&#39;s designated spot (see official PDF) — not at the international exchange halls.**" },
-  "5f0a6b": { "text": "⑤ New student campus tour (Sep 29–30)" },
-  "6a7b8c": {
-    "headers": ["Date", "Time", "Area"],
-    "rows": [["9/29 (Tue)", "10:30-12:00", "East Zone (humanities)"], ["9/29 (Tue)", "15:00-16:30", "West Zone (science)"], ["9/30 (Wed)", "10:30-12:00", "West Zone (science)"], ["9/30 (Wed)", "15:00-16:30", "East Zone (humanities)"]]
-  },
-  "7b8c9d": { "text": "Meet at Center Building 6. 20 people per tour, ~90 min, all on foot — wear comfortable shoes and bring water. Language mainly English (Japanese OK). You may pick either zone regardless of your major. Photos may be taken and posted to SNS; tell Q-Mate if you are uncomfortable. Organized by Q-Mate. Sign-up form on the official portal." },
-  "8c9d0e": { "text": "⑦ Fukuoka Bank account-opening event (Oct 6–8)" },
-  "9d0e1f": { "text": "Fukuoka Bank is one of the Fukuoka prefecture&#39;s major banks and has an ATM on Ito Campus. At this event you can **receive your account number and cash card on the spot** — no branch visit needed — ready for scholarship deposits and rent auto-debit right away. Fukuoka Bank and Kyushu U staff support in English and Japanese. **Venue: Japanese Jonathan K.S. Choi Culture Hall (campus map No. 79)**. Attend one of Sessions 1–3 (check your class timetable)." },
-  "0e1f2a": {
-      "items": [{"num": "1", "text": "Eligibility ①: address registered on your residence card. ②: at least 3 months left on your period of stay (under 3 months or renewal pending = cannot attend; you must handle it at a bank branch yourself)."}, {"num": "2", "text": "Registration: **log in to the entry support system (Pre-Arrival Assistance) → click “Enter schedule information” → fill in the Fukuoka Bank account opening form and upload a photo of your residence card**. The form is only shown during the registration period."}, {"num": "3", "text": "**Your registration is complete only after you receive a confirmation email from the division.** No email = cannot attend. Cancellation is not possible in principle; use the official cancellation form if you cannot make it."}, {"num": "4", "text": "Hanko seal: **stamp pads (shachihata) cannot be used** — bring a traditional seal that uses a red ink pad. You also need a phone number usable in Japan (the Sep 28 SIM sales event can provide one)."}, {"num": "5", "text": "US citizens: confirm your Social Security Number (9 digits) beforehand."}, {"num": "6", "text": "MEXT scholarship students may join, but receiving the scholarship requires a **separate Japan Post Bank account**."}]
-    },
-  "1f2a3b": { "text": "⑧ ESP Emergency Secure Plan for international students" },
-  "2a3b4c": { "text": "**Mandatory** for all Kyushu U students with a “Student” status of residence. Provides 24/7 trilingual (Chinese/English/Japanese) medical assistance: hospital referrals, phone interpretation during visits (doctor&#39;s permission required), contacting your family and arranging transport in emergencies. **ESP is not insurance** — it does not cover medical costs; you pay for hospitalization, treatment and tests (via National Health Insurance or out of pocket)." },
-  "3b4c5d": {
-    "headers": ["Enrollment", "Fee", "Typical"],
-    "rows": [["1 year", "¥1,650", "Non-degree, research students"], ["2 years", "¥3,300", "Master’s"], ["3 years", "¥4,950", "Doctoral"], ["4 years", "¥6,600", "Undergraduate"]]
-  },
-  "4c5d6e": {
-    "items": [{"num": "1", "text": "Enrollment deadline: **Fri, Oct 30, 2026**."}, {"num": "2", "text": "Apply online via the official app. A Japanese phone number is required, so **applying after arrival** is recommended. ⚠️ Sources conflict: the web page says OSSMA, but the 2026 official pamphlet says NEXUS (do not download the old app). Follow the latest pamphlet / division guidance."}, {"num": "3", "text": "Payment: credit card / convenience store (choose at online registration; a separate fee applies)."}]
-  },
-  "5d6e7f": { "text": "⑩ Contacts & consultation" },
-  "6e7f8a": {
-    "items": [{"num": "1", "text": "Before arrival: Student Exchange Division imm.s@jimu.kyushu-u.ac.jp (for courses, contact your faculty/graduate school directly)."}, {"num": "2", "text": "After arrival: LINE official account “Consultation Desk” (answered by Q-Mate; topics: housing, ward-office procedures, banking)."}, {"num": "3", "text": "Q-Mate Instagram: @_qmate; website https://studentassistantqu.wixsite.com/q-mate/about"}, {"num": "4", "text": "Q-Mate LINE official account: https://lin.ee/EiQqccP (contact/consultation entry point)"}]
-  },
-  "7e8f9a": {
-    "items": [{"text": "Official NotePM portal (JA)", "url": "https://notepm.jp/sharing/fb0e6579-ad42-4aaa-90fb-9bcff4e253e3"}, {"text": "Official NotePM portal (EN)", "url": "https://notepm.jp/sharing/da6d736d-f9e1-44db-ba5e-580d2f1413b2"}, {"text": "Q-Mate Instagram", "url": "https://www.instagram.com/_qmate/"}]
-  },
-  "8f9a0b": { "text": "**Source**: Student Exchange Division NotePM “New International Student Support Portal (Ito Campus)”, published 2026-08-20 (including sub-pages and official PDF timetables). Check official announcements for the latest information." }
- },
- "ko": {
-  "9c1a2e": { "text": "이 글은 규슈대 국제부·유학과가 **2026년 가을 신입 유학생**에게 공개한 공식 지원 정보를 정리한 것입니다. 원본: 유학과 NotePM 포털 「신입 유학생 서포트 포털(이토 캠퍼스)」(2026-08-20 공개). 대상·일정은 공식 기준을 따르세요." },
-  "1b2c3d": { "text": "일정 총람" },
-  "a4b5c6": {
-    "headers": ["날짜", "일정", "대상", "비고"],
-    "rows": [["9월 24일·25일", "무료 공항 셔틀버스", "전체 신입 유학생", "선착순, 예약 불필요"], ["9월 24일·25일·29일·30일·10월 1일", "무료 생활지원버스", "신입 유학생과 서포터", "선착순, 예약 불필요"], ["9월 24일~10월 상순", "행정절차·은행 가이던스", "기숙사 입주 해외 신입 유학생", "⚠️ 사전 신청 필수"], ["9월 28일", "신입 유학생 오리엔테이션 + SIM 판매·도서관 투어·출입국 상담·웰컴 파티", "전체 신입 유학생(타 캠퍼스 포함)", "⚠️ 신입 유학생 필참"], ["9월 29일·30일", "신입 유학생 캠퍼스 투어", "전체 신입 유학생", "신청 필요, 회당 20명"], ["10월 6일·7일·8일", "후쿠오카은행 계좌 개설회", "주소 등록 완료한 신입 유학생", "⚠️ 사전 신청 필수"]]
-  },
-  "2d3e4f": { "text": "기숙사 입사 가능 시간은 모집요강(유학생용 숙사 신청) 6페이지 이후를 확인하세요." },
-  "3e4f5a": { "text": "① 무료 공항 셔틀버스(후쿠오카 공항 → 이토 기숙사)" },
-  "4f5a6b": { "text": "2026년 9월 24일·25일 이틀간 유학과가 후쿠오카 공항에서 큐다이 가켄토시역 / 도미토리 1-3 / 이토 협주관 / 세틀 인터내셔널까지 무료 셔틀버스를 운행합니다. **원칙적으로 신입 유학생 본인만** 이용할 수 있습니다. 선착순·사전예약 불필요, 만석이면 탑승하지 못할 수 있습니다. **출발 15분 전**까지 집합하세요." },
-  "5a6b7c": {
-    "headers": ["출발(후쿠오카 공항)", "1편", "2편", "3편", "4편"],
-    "rows": [["국제선 터미널", "9:00", "11:30", "15:00", "18:00"], ["국내선 터미널", "9:25", "11:55", "15:25", "18:25"]]
-  },
-  "6b7c8d": {
-    "headers": ["도착", "1편", "2편", "3편", "4편"],
-    "rows": [["큐다이 가켄토시역", "9:55", "12:35", "16:05", "19:05"], ["세틀 인터내셔널", "10:25", "12:55", "16:25", "(정차 없음)"], ["도미토리 1-3", "10:45", "13:15", "16:45", "19:30"], ["이토 협주관", "11:00", "13:30", "17:00", "19:50"]]
-  },
-  "7c8d9e": {
-    "items": [{"num": "1", "text": "매일 4편은 세틀 인터내셔널에 정차하지 않습니다."}, {"num": "2", "text": "집합 장소: 후쿠오카 공항 국제선·국내선 터미널. 출발 1시간 전부터 「Kyushu University」 플래카드를 든 유학과 직원이 도착구 근처 접수처에서 대기합니다."}, {"num": "3", "text": "출발·도착 시간은 교통 상황에 따라 달라질 수 있습니다."}, {"num": "4", "text": "병원·지쿠시·오하시 캠퍼스 신입 유학생은 **이 버스를 이용할 수 없습니다**."}]
-  },
-  "8d9e0f": { "text": "② 무료 생활지원버스(기숙사 ⇄ 큐다이 가켄토시역)" },
-  "9e0f1a": { "text": "운행 구간: 이토 협주관 / 도미토리 1-3 / 세틀 인터내셔널 ⇄ 큐다이 가켄토시역(가켄토시 지역에는 이온몰, 사이토피아 등 쇼핑·공공시설이 밀집). 운행일: 9월 24일·25일·29일·30일, 10월 1일. 신입 유학생과 서포터 이용 가능, 선착순. 아래 표는 다음 차량 도착 시각을 실시간으로 표시합니다." },
-  "0f1a2b": { "text": "좌석이 제한되어 있고 선착순입니다. 도미토리 2·3 거주자는 도미토리 1에서 승차하세요. 운행 시각·정차 위치는 공식 포스터 PDF를 확인하세요." },  "m1h2i3": { "text": "⑨ 유용한 정보·의료 건강 리소스" },
-  "m2i3j4": { "text": "유학과 「유용한 정보」 페이지에는 후쿠오카 생활에 도움 되는 리소스가 정리되어 있습니다. **의료는 신입 유학생이 가장 어려워하는 주제**: 이토 캠퍼스 안에는 **이토 진료소**가 있지만 주말에는 이용할 수 없습니다. 교외 진료는 **외국어 대응 가능 의료기관 목록**(2026년 5월판, 대응 언어 등급 A 유창 / B 일상회화 / C 간단한 말)을 참고하세요." },
-  "m3j4k5": { "items": [
-    {"num": "1", "text": "**캠퍼스 내: 이토 진료소**(센터 6호관 1F, 내과+정신과. 월~금 10:00-12:30 / 14:00-16:30. 영어 대응 B. https://itoclinic.kyushu-u.ac.jp/)"},
-    {"num": "2", "text": "**니시후쿠오카병원**(니시구 이쿠노마츠바라, 종합병원. 외국어 A 20개 언어. 소개·예약제, 소개장 없으면 별도 7,700엔. 0570-09-1331)"},
-    {"num": "3", "text": "**후쿠오카기념병원**(사와라구 니시진, 종합병원. 외국어 A. 092-821-4731, http://kinen.jp)"},
-    {"num": "4", "text": "진료 전에 **예약이 필요한지** 반드시 확인. 이토 진료소는 주말 휴무이므로 교외 병원도 고려하세요."}
-  ] },
-  "m4k5l6": { "title": "공식 의료기관 목록(외국어 대응 가능)", "items": [
-    {"text": "이토 캠퍼스 의료기관표 (PDF)", "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E4%BC%8A%E9%83%BD%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-1.pdf"},
-    {"text": "병원 캠퍼스 의료기관표 (PDF)", "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%97%85%E9%99%A2%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-2.pdf"},
-    {"text": "오하시 캠퍼스 의료기관표 (PDF)", "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E5%A4%A7%E6%A9%8B%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"},
-    {"text": "치쿠시 캠퍼스 의료기관표 (PDF)", "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%AD%91%E7%B4%AB%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"}
-  ] },
-  "m5l6m7": { "items": [
-    {"num": "1", "text": "**개인용 의약품 일본 반입**: 해외 의약품 반입에는 제한이 있습니다. 후생노동성: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/kojinyunyu/topics/tp010401-1.html"},
-    {"num": "2", "text": "**백신으로 예방 가능한 감염병**(출국 전 예방접종 이력 확인): https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/visitor.html"},
-    {"num": "3", "text": "**2026 CLUB & CIRCLE GUIDE**(교내 동아리, 일본어판 PDF): https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-CLUB-CIRCLE-GUIDE.pdf"},
-    {"num": "4", "text": "**2026 International Clubs Guide**(국제계 단체, 영어판 PDF): https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-INTL-CLUB-AND-CIRCLE%E3%80%80%E8%8B%B1%E8%AA%9E.pdf"},
-    {"num": "5", "text": "**Global Gateways**(규슈대 국제부 유학생 정보 사이트, 정기 확인): https://www.isc.kyushu-u.ac.jp/intlweb/"}
-  ] },
-"w1a2b3": { "text": "③ 캠퍼스 Wi-Fi (kitenet)" },
-  "w2b3c4": { "text": "입국 직후 인터넷 환경이 갖춰지지 않은 신입 유학생을 위해 유학과가 **임시 Wi-Fi 로그인 ID·비밀번호**를 준비(9월 하순, 입국지원시스템 등록 이메일로 발송 예정). 규슈대 캠퍼스 곳곳에 액세스 포인트가 많습니다." },
-  "w3c4d5": { "text": "임시 로그인 사용 가능 기간: **2026년 9월 24일(목)~10월 9일(금)**. 10월 9일 이후에는 이 ID·비밀번호를 사용할 수 없습니다. 이후에도 학교 Wi-Fi(kitenet)를 쓰려면 본인의 **SSO-KID**로 설정해야 합니다." },
-  "w4d5e6": { "items": [
-    {"title": "본인의 SSO-KID 확인", "desc": "정규생은 **학생증 뒷면**. 학생증이 없으면 소속 학부·대학원 사무실에 문의(등록 코드도 함께 확인)."},
-    {"title": "준비물", "desc": "등록 코드와 **@s.kyushu-u.ac.jp 외 이메일**."},
-    {"title": "SSO-KID 활성화", "desc": "아래 링크에서 활성화: https://web.sso.kyushu-u.ac.jp/idpw/activation.html"},
-    {"title": "kitenet 초기 설정 완료", "desc": "공식 가이드 제공(iOS / Android / 기타 OS)."}
-          ]
-          },
-          "w5e6f7": { "items": [{"text": "SSO-KID 활성화 페이지", "url": "https://web.sso.kyushu-u.ac.jp/idpw/activation.html"}, {"text": "캠퍼스 Wi-Fi 공식 페이지", "url": "https://notepm.jp/sharing/751f751c-dbec-4cf0-a5b9-0e3a396b467d"}] },
-
-  "1a2b3c": { "text": "④ 행정절차·은행 가이던스(기숙사 입주자 필독)" },
-  "2b3c4d": { "text": "해외에서 입국해 기숙사에 입주하는 신입 유학생을 대상으로, 유학과가 주소 등록과 국민건강보험 등 행정절차를 대행하고, 국민연금·마이넘버 카드·은행 계좌 개설(유초 / 후쿠오카은행 / 니시닛폰시티은행)을 설명합니다. **1차와 2차 모두 참가 필수**입니다. 장소: 일본 조나단 K.S. 최 문화관(캠퍼스 지도 No.79). 준비물: 여권·재류카드·검정 볼펜." },
-  "3c4d5e": { "text": "이토 협주관 / 도미토리 1-3 입주자 · 일정(A~G조)" },
-  "c0d1e2": {
-    "headers": ["조", "1차 가이던스", "2차 가이던스"],
-    "rows": [["A", "9/24(목) 15:00-15:30", "9/29(화) 13:00-14:00"], ["B", "9/25(금) 13:00-13:30", "9/29(화) 13:00-14:00"], ["C", "9/28(월) 10:00-10:30", "9/30(수) 13:00-14:00"], ["D", "9/29(화) 10:00-10:30", "10/1(목) 13:00-14:00"], ["E", "9/30(수) 10:00-10:30", "10/2(금) 13:00-14:00"], ["F", "10/1(목) 10:00-10:30", "10/5(월) 12:30-13:30"], ["G", "10/2(금) 10:00-10:30", "10/6(화) 12:00-13:00"]]
-  },
-  "d1e2f0": { "text": "협주관에서 도보 약 18분, 도미토리에서 도보 약 5~7분. 정원이 제한되어 있어 희망 일시를 고를 수 없을 수 있습니다. 유학과가 주소 등록을 대행하는 경우 특정 재류카드(마이넘버 카드와 재류카드 일체형 카드; 신규 입국 주소 등록 시 무료, **의무 아님**) 신청을 동시에 할 수 없습니다." },
-  "4d5e6f": { "text": "세틀 인터내셔널 입주자 · 일정(A~C조)" },
-  "e2f0a3": {
-    "headers": ["조", "1차 가이던스", "2차 가이던스"],
-    "rows": [["A", "9/28(월) 11:00-11:30", "9/30(수) 15:00-16:00"], ["B", "9/29(화) 11:00-11:30", "10/1(목) 15:00-16:00"], ["C", "9/30(수) 11:00-11:30", "10/2(금) 15:00-16:00"]]
-  },
-  "f0a3b4": { "text": "장소는 동일(문화관 No.79). 버스 약 13분(큐다이 빅오렌지 앞 하차), 도보 약 35분." },
-  "5e6f0a": { "text": "⑤ 신입 유학생 오리엔테이션(9월 28일)" },
-  "6f0a1b": { "text": "9월 28일(월) 12:50~15:10, 이토 캠퍼스 시이키 강당. 니시 경찰서, 후쿠오카 출입국재류관리국, 후쿠오카시 소방국이 강연합니다. **신입 유학생 필참**(다른 오리엔테이션·가이던스와 일정이 겹치는 경우 제외). 사전 등록 필요: **신청 폼** https://forms.cloud.microsoft/r/nCDDWic1U5" },
-  "a3b4c5": {
-    "headers": ["시간", "내용"],
-    "rows": [["12:50", "개회사"], ["12:55", "「Q-Mate」소개"], ["13:05", "후쿠오카 새 생활 유용 정보"], ["13:10", "「KUFSA」(유학생회) 소개"], ["13:20", "교내 심리상담 서비스"], ["13:25", "체류자격 제도(출입국재류관리국)"], ["13:35", "휴식 15분"], ["13:50", "안전과 방범(니시 경찰서)"], ["14:30", "화재·응급·방재(소방국)"], ["14:55", "도서관 안내"], ["15:00", "폐회사"]]
-  },
-  "b4c5d6": { "text": "당일 동시 개최: **SIM 카드 판매회**(장소: 시이키 강당 갤러리아. **세션 2개 중 하나 참가**: ①10:30~12:30 오리엔테이션 전, ②15:10~17:00 종료 후. 공식 안내는 오전 세션 추천, 오후는 혼잡 가능. **사전 등록 필수**, 요금제·가격·등록 방법은 공식 포스터 참조), **도서관 투어**(중앙도서관), **출입국 상담회**(체류자격 질문 가능), **웰컴 파티**(17:00-18:00 @ BIG SKY, 신입 유학생 한정). 병원·지쿠시·오하시 캠퍼스, 후쿠오카시 국제회관·이지리에서 시이키 강당까지 무료 셔틀 운행(가는 편 10:40-10:50경, 오는 편 18:20경 출발). 선착순, 귀가 시 가는 편에서 받은 승차권 필요. **승차 장소는 각 캠퍼스 지정 위치(공식 PDF 참조)로, 국제교류회관이 아닙니다.**" },
-  "5f0a6b": { "text": "⑤ 신입 유학생 캠퍼스 투어(9월 29·30일)" },
-  "6a7b8c": {
-    "headers": ["날짜", "시간", "테마"],
-    "rows": [["9/29(화)", "10:30-12:00", "이스트 존(문과)"], ["9/29(화)", "15:00-16:30", "웨스트 존(이과)"], ["9/30(수)", "10:30-12:00", "웨스트 존(이과)"], ["9/30(수)", "15:00-16:30", "이스트 존(문과)"]]
-  },
-  "7b8c9d": { "text": "집합: 센터 6호관. 회당 20명·약 90분·도보 이동 — 편한 신발을 신고 음료는 각자 준비하세요. 언어는 영어 중심(일본어도 가능). 문과·이과 구분 없이 어느 존이든 선택 가능. 투어 중 사진을 찍어 SNS에 게시할 수 있습니다. 불편하면 Q-Mate에 알려주세요. Q-Mate 주최. 신청 폼은 공식 포털 참조." },
-  "8c9d0e": { "text": "⑦ 후쿠오카은행 계좌 개설회(10월 6·7·8일)" },
-  "9d0e1f": { "text": "후쿠오카은행은 이토 캠퍼스 안에도 ATM이 있는 후쿠오카 현의 주요 은행 중 하나. 개설회에 참가하면 **그 자리에서 계좌번호와 캐시카드를 받을 수** 있고, 지점에 갈 필요가 없습니다. 장학금 수령 계좌나 월세 자동이체에도 바로 사용할 수 있습니다. 후쿠오카은행과 규슈대 직원이 영어·일본어로 지원합니다. **장소: 일본 조나단 K.S. 초이 문화관(캠퍼스 맵 No.79)**. 1~3회 중 하나 참가(자신의 시간표 확인)." },
-  "0e1f2a": {
-    "items": [{"num": "1", "text": "조건 ①: 재류카드 주소 등록 완료. 조건 ②: 체류기간 3개월 이상 남아 있을 것(3개월 미만 또는 갱신 신청 중은 참가 불가. 은행 지점에서 직접 처리 필요)."}, {"num": "2", "text": "신청: **입국지원시스템(Pre-Arrival Assistance) 로그인 → 「일정 정보 입력」 → 후쿠오카은행 계좌 개설회 신청서 작성 + 재류카드 사진 업로드**. 신청서는 신청 기간에만 표시됩니다."}, {"num": "3", "text": "**유학과 확인 메일 수신 후에야 신청 완료**. 메일이 없으면 참가할 수 없습니다. 원칙적으로 취소 불가. 참가가 어려워지면 공식 취소 폼으로 신청."}, {"num": "4", "text": "도장: **샤치하타(스탬프 패드) 도장 사용 불가**. 붉은 인주(Red Ink Pad)를 쓰는 전통 도장 준비. 일본에서 사용 가능한 전화번호도 필요(9/28 SIM 판매회에서 준비 가능)."}, {"num": "5", "text": "미국 국적자는 Social Security Number(SSN)(9자리)를 사전에 확인."}, {"num": "6", "text": "MEXT 장학생도 참가할 수 있지만, 장학금 수령에는 **별도 유초은행 계좌**가 필요합니다."}]
-  },
-  "1f2a3b": { "text": "⑧ ESP 외국인 유학생 긴급 안심 플랜" },
-  "2a3b4c": { "text": "「유학」 체류자격을 가진 규슈대 전 유학생 **필수 가입**. 24시간·365일·중영일 3개국어 메디컬 어시스턴스 제공: 의료기관 소개, 진료 시 전화 통역(의사 허가 필요), 긴급 시 모국 가족 연락과 교통 수배 등. **주의: ESP는 보험이 아닙니다**. 의료비는 보상되지 않으며 입원·치료·검사 비용은 각자 부담(국민건강보험 또는 자비)." },
-  "3b4c5d": {
-    "headers": ["재학 연수", "비용", "해당"],
-    "rows": [["1년", "1,650엔", "비정규생, 연구생 등"], ["2년", "3,300엔", "석사 과정"], ["3년", "4,950엔", "박사 후기 과정"], ["4년", "6,600엔", "학부"]]
-  },
-  "4c5d6e": {
-    "items": [{"num": "1", "text": "가입 기한: **2026년 10월 30일(금)**."}, {"num": "2", "text": "신청: 공식 앱에서 온라인 신청. 일본 휴대폰 번호가 필요하므로 **입국 후 신청**을 권장. ⚠️ 출처 불일치: 웹페이지는 OSSMA, 2026 공식 팜플렛은 NEXUS(구 앱 다운로드 금지). 최신 팜플렛/유학과 안내를 따르세요."}, {"num": "3", "text": "결제: 신용카드 / 편의점(온라인 등록 시 선택, 별도 수수료 발생)."}]
-  },
-  "5d6e7f": { "text": "⑩ 문의·상담 창구" },
-  "6e7f8a": {
-    "items": [{"num": "1", "text": "입국 전 문의: 유학과 imm.s@jimu.kyushu-u.ac.jp(수강·수업은 소속 예정 학부·대학원에 직접)."}, {"num": "2", "text": "입국 후 문의: LINE 공식 계정 「Consultation Desk」(Q-Mate가 응답. 주거·구청 절차·은행 등)."}, {"num": "3", "text": "Q-Mate Instagram: @_qmate; 공식 사이트 https://studentassistantqu.wixsite.com/q-mate/about"}, {"num": "4", "text": "Q-Mate LINE 공식 계정: https://lin.ee/EiQqccP (문의·질문 입구)"}]
-  },
-  "7e8f9a": {
-    "items": [{"text": "공식 NotePM 포털(일본어)", "url": "https://notepm.jp/sharing/fb0e6579-ad42-4aaa-90fb-9bcff4e253e3"}, {"text": "공식 NotePM 포털(영어)", "url": "https://notepm.jp/sharing/da6d736d-f9e1-44db-ba5e-580d2f1413b2"}, {"text": "Q-Mate Instagram", "url": "https://www.instagram.com/_qmate/"}]
-  },
-  "8f9a0b": { "text": "**원본**: 유학과 NotePM 「신입 유학생 서포트 포털(이토 캠퍼스)」 2026-08-20 공개(각 하위 페이지·공식 PDF 시간표 포함). 최신 정보는 공식 발표를 확인하세요." }
- }
-},
- "guide-scholarship": {
+ "guide-newcomer": {
   "ja": {
-   "ec6ef2": {
-    "text": "このページは九州大学の**私費外国人留学生**が応募できる奨学金をまとめたものです。2 つの応募ルート、自分で読み切る必要がある募集要項、現在募集中の一覧、年度ごとの全件一覧、そして**国費外国人留学生**制度を扱います。主に**在籍中**の学生向けですが、新入生は先にルールだけ把握しておくとよいでしょう。"
+   "9c1a2e": {
+    "text": "この記事は、九州大学国際部・留学課が **2026 年秋の新入留学生**向けに公開している公式サポート情報をまとめたものです。原本：留学課 NotePM ポータル「新入留学生サポートポータル（伊都キャンパス）」（2026-08-20 公開）。対象・日程は公式の定めに従ってください。"
    },
-   "c82561": {
-    "text": "**一覧データの出典**：Global Gateways「奨学金一覧」（国際部留学課）、2026-09-14 取得。この一覧は毎年更新され、募集期間が 1〜2 週間しかないものもあります —— **必ず公式ページで当年度の原文を確認してください**。本ページは案内と整理のみです。"
+   "1b2c3d": {
+    "text": "日程一覧"
    },
-   "346b81": {
-    "text": "応募前に必ず理解しておく 5 つのこと"
+   "a4b5c6": {
+    "headers": [
+     "日付",
+     "スケジュール",
+     "対象",
+     "備考"
+    ],
+    "rows": [
+     [
+      "9月24日・25日",
+      "無料空港シャトルバス",
+      "全ての新入留学生",
+      "先着順、予約不要"
+     ],
+     [
+      "9月24日・25日・29日・30日・10月1日",
+      "無料生活支援バス",
+      "新入留学生とそのサポーター",
+      "先着順、予約不要"
+     ],
+     [
+      "9月24日～10月上旬",
+      "行政手続き・銀行ガイダンス",
+      "学生寮に入居する海外からの新入留学生",
+      "⚠️ 事前申込必須"
+     ],
+     [
+      "9月28日",
+      "新入留学生オリエンテーション + SIM販売会・図書館ツアー・入管相談会・ウェルカムパーティ",
+      "全ての新入留学生（他キャンパス含む）",
+      "⚠️ 新入留学生は参加必須"
+     ],
+     [
+      "9月29日・30日",
+      "新入留学生キャンパスツアー",
+      "全ての新入留学生",
+      "要申込、各回20名"
+     ],
+     [
+      "10月6日・7日・8日",
+      "福岡銀行口座開設会",
+      "住所登録が完了した新入留学生",
+      "⚠️ 事前申込必須"
+     ]
+    ]
    },
-   "377fd5": {
+   "2d3e4f": {
+    "text": "各学生寮の入寮可能時間は、募集要項（留学生用宿舎申請）の第 6 ページ以降をご確認ください。"
+   },
+   "3e4f5a": {
+    "text": "① 無料空港シャトルバス（福岡空港 → 伊都の各寮）"
+   },
+   "4f5a6b": {
+    "text": "2026年9月24日・25日の2日間、留学課が福岡空港から九大学研都市駅 / ドミトリー1-3 / 伊都協奏館 / セトルインターナショナルまで無料シャトルバスを運行します。**原則として新入留学生本人のみ**利用できます。先着順・事前予約不要、満員で乗れない場合があります。**出発15分前**までに集合してください。"
+   },
+   "5a6b7c": {
+    "headers": [
+     "出発（福岡空港）",
+     "第1便",
+     "第2便",
+     "第3便",
+     "第4便"
+    ],
+    "rows": [
+     [
+      "国際線ターミナル",
+      "9:00",
+      "11:30",
+      "15:00",
+      "18:00"
+     ],
+     [
+      "国内線ターミナル",
+      "9:25",
+      "11:55",
+      "15:25",
+      "18:25"
+     ]
+    ]
+   },
+   "6b7c8d": {
+    "headers": [
+     "到着",
+     "第1便",
+     "第2便",
+     "第3便",
+     "第4便"
+    ],
+    "rows": [
+     [
+      "九大学研都市駅",
+      "9:55",
+      "12:35",
+      "16:05",
+      "19:05"
+     ],
+     [
+      "セトルインターナショナル",
+      "10:25",
+      "12:55",
+      "16:25",
+      "（停車なし）"
+     ],
+     [
+      "ドミトリー1～3",
+      "10:45",
+      "13:15",
+      "16:45",
+      "19:30"
+     ],
+     [
+      "伊都協奏館",
+      "11:00",
+      "13:30",
+      "17:00",
+      "19:50"
+     ]
+    ]
+   },
+   "7c8d9e": {
     "items": [
      {
-      "text": "**募集要項は自分で読む**。理解せずに応募して採用取消になった例が実際にあります。"
+      "num": "1",
+      "text": "毎日第4便はセトルインターナショナルに停車しません。"
      },
      {
-      "text": "**併給の制限**：複数の奨学金の同時受給は原則禁止か、合計額に上限があります。ここは必ず確認を。"
+      "num": "2",
+      "text": "集合場所：福岡空港 国際線・国内線ターミナル。出発の1時間前から、「Kyushu University」のプラカードを持った留学課スタッフが到着口近くの受付で待機しています。"
      },
      {
-      "text": "**在留資格**は多くが「留学」。 「家族滞在」「永住者」等では応募できない奨学金があります。"
+      "num": "3",
+      "text": "出発・到着時間は交通状況により前後します。"
      },
      {
-      "text": "**日本語能力**は事実上の関門：日本語での自筆書類（小論文含む）や日本語面接を求める財団が多く、募集要項が日本語のみのことも。"
-     },
-     {
-      "text": "多くは**既に九州大学に在籍している者**が対象。入学前に応募できるものは少数です。"
-     },
-     {
-      "text": "**競争率は非常に高い**。応募＝採用ではないため、複数併願しつつ学業成績を優先しましょう。"
+      "num": "4",
+      "text": "病院・筑紫・大橋キャンパスの新入留学生は**本バスを利用できません**。"
      }
     ]
    },
-   "1d665b": {
-    "text": "国際部留学課は **Scholarship Guidebook**（申請書の書き方・面接の要点）も用意しています。下のリンク参照。"
+   "8d9e0f": {
+    "text": "② 無料生活支援バス（寮 ⇄ 九大学研都市駅）"
    },
-   "490b28": {
-    "text": "2 つの応募ルート"
+   "9e0f1a": {
+    "text": "運行区間：伊都協奏館 / ドミトリー1-3 / セトルインターナショナル ⇄ 九大学研都市駅（学研都市エリアにはイオンモール、さいとぴあなど買い物・公共施設が集中）。運行日：9月24日・25日・29日・30日、10月1日。新入留学生とそのサポーターが利用可能、先着順。下表は次の便の到着時刻をリアルタイムで表示します。"
    },
-   "ade284": {
-    "headers": [
-     "路径",
-     "流程",
-     "要注意"
-    ],
-    "rows": [
-     [
-      "大学推薦（学内选考）",
-      "先过校内选考 → 学校向财团推荐 → 财团最终审查",
-      "校内选考就会落选；即被推荐也可能最终不采用"
-     ],
-     [
-      "直接応募",
-      "不经过学校，自行向财团申请",
-      "需自己盯官网与截止日；材料要求更杂"
-     ]
-    ]
+   "0f1a2b": {
+    "text": "座席には限りがあり、先着順です。ドミトリー2・3 にお住まいの方はドミトリー1 からご乗車ください。運行時刻・停車位置は公式ポスター PDF をご確認ください。"
    },
-   "7bc3ca": {
-    "text": "**学内選考の提出窓口は国際部留学課留学生係**（`intlr-pscholar@jimu.kyushu-u.ac.jp`）。**直接応募**は本人が財団とやり取りします。文部科学省外国人留学生学習奨励費は**所属学部・学府の学務係**が窓口で、この 2 つは別ルートです。"
+   "m1h2i3": {
+    "text": "⑨ お役立ち情報・医療健康リソース"
    },
-   "6f207f": {
-    "text": "いま応募できるもの（9 件）"
+   "m2i3j4": {
+    "text": "留学課「お役立ち情報」ページには福岡生活の役立つリソースがまとまっています。**医療は新入留学生が最も困りやすいテーマ**：伊都キャンパス内には**伊都診療所**がありますが、土日は利用できません。校外受診は**外国語対応可能な医療機関リスト**（2026年5月版、対応言語レベル A流暢 / B日常会話 / C片言）を参考にしてください。"
    },
-   "13207e": {
-    "text": "下表は**締切順**で、公式一覧で「募集中」とされているものだけを載せています。金額・条件は公式原文の要約です —— 必要書類は下の公式一覧で確認してください。"
-   },
-   "8c303e": {
-    "headers": [
-     "奨学金",
-     "支給額",
-     "対象",
-     "応募締切"
-    ],
-    "rows": [
-     [
-      "CWAJ(ｶﾚｯｼﾞ･ｳｨﾒﾝｽﾞ･ｱｿｼｴｰｼｮﾝ･ｵﾌﾞ･ｼﾞｬﾊﾟﾝ) 外国人留学生…",
-      "年間200万円",
-      "博士課程の女子学生",
-      "2026年7月中旬 〜 10月5日（月）22:00 JST"
-     ],
-     [
-      "INPEX教育交流財団奨学金（インドネシア）",
-      "月額奨学金：160,000円、学費（検定料、入学金、授業料を含む）、旅費、渡航手当、日本語…",
-      "2027年度にSTEM分野（理学、工学、農学、医学、薬学、建築学などを含む）の修士（博士前…",
-      "2026年8月1日（土）〜10月31日（土）"
-     ],
-     [
-      "INPEX教育交流財団奨学金（オーストラリア）",
-      "月額奨学金：160,000円、学費（検定料、入学金、授業料を含む）、旅費、渡航手当、日本語…",
-      "2027年度に修士（博士前期）課程への進学を希望する私費外国人学生",
-      "2026年8月1日（土）〜10月31日（土）"
-     ],
-     [
-      "INPEX教育交流財団奨学金（UAE）",
-      "月額奨学金：160,000円、学費（検定料、入学金、授業料を含む）、旅費、渡航手当、日本語…",
-      "2027年度に修士（博士前期）課程への進学を希望する私費外国人学生",
-      "2026年8月1日（土）〜10月31日（土）"
-     ],
-     [
-      "日本台湾交流協会日本奨学金（直接応募）",
-      "月額14万4千円（修士）、14万5千円（博士）および授業料等",
-      "修士、博士",
-      "2026年8月3日(月)〜2026年10月23日(金)"
-     ],
-     [
-      "福岡よかトピア国際交流財団 (ふえき あきら留学生育英奨学金 )",
-      "年額50万円",
-      "学部（研究生は不可）",
-      "2026年9月10日（木）〜9月24日（木）17時"
-     ],
-     [
-      "本庄国際奨学財団（春採用）(直接応募)",
-      "月額23万円(最短就業年限までが1〜2年)、月額21万円(最短就業年限までが3年)、月額1…",
-      "修士、博士",
-      "2026年9月1日（火）〜 2026年10月31日（土）"
-     ],
-     [
-      "平和中島財団奨学金",
-      "学部生 ：月額17万円(学部) 大学院生：月額20万円(大学院)",
-      "学部、修士、博士 ※応募時に既に本学に在籍している者、かつ2027年4月に正規課程に在籍予…",
-      "2026年9月3日（木）〜9月25日(金）17時"
-     ],
-     [
-      "イノアック国際教育振興財団奨学金 （直接応募）",
-      "月額5万円",
-      "学部、大学院（研究生は不可） ※2027年9月卒業予定の者は不可。",
-      "〜2026年10月9日（金）13時"
-     ]
-    ]
-   },
-   "ce1b1e": {
-    "text": "全件一覧（年度別）"
-   },
-   "ed92ef": {
-    "text": "「年度」は奨学金の適用年度で、応募年ではありません。**2027 年度**は多くが 2026 年秋に応募し、2027 年 4 月から支給開始です。「終了」の項目も残してあります —— 「この財団はだいたいいつ募集するか」の判断に使えます。"
-   },
-   "f18522": {
-    "title": "2027 年度・全 10 件"
-   },
-   "eb6a10": {
-    "headers": [
-     "奨学金",
-     "支給額",
-     "対象",
-     "応募締切"
-    ],
-    "rows": [
-     [
-      "平和中島財団奨学金",
-      "学部生 ：月額17万円(学部) 大学院生：月額20万円(大学院)",
-      "学部、修士、博士 ※応募時に既に本学に在籍している者、かつ2027年4月に正規課程に在籍予…",
-      "2026年9月3日（木）〜9月25日(金）17時"
-     ],
-     [
-      "イノアック国際教育振興財団奨学金 （直接応募）",
-      "月額5万円",
-      "学部、大学院（研究生は不可） ※2027年9月卒業予定の者は不可。",
-      "〜2026年10月9日（金）13時"
-     ],
-     [
-      "本庄国際奨学財団（春採用）(直接応募)",
-      "月額23万円(最短就業年限までが1〜2年)、月額21万円(最短就業年限までが3年)、月額1…",
-      "修士、博士",
-      "2026年9月1日（火）〜 2026年10月31日（土）"
-     ],
-     [
-      "日本台湾交流協会日本奨学金（直接応募）",
-      "月額14万4千円（修士）、14万5千円（博士）および授業料等",
-      "修士、博士",
-      "2026年8月3日(月)〜2026年10月23日(金)"
-     ],
-     [
-      "CWAJ(ｶﾚｯｼﾞ･ｳｨﾒﾝｽﾞ･ｱｿｼｴｰｼｮﾝ･ｵﾌﾞ･ｼﾞｬﾊﾟﾝ) 外国人留学生…",
-      "年間200万円",
-      "博士課程の女子学生",
-      "2026年7月中旬 〜 10月5日（月）22:00 JST"
-     ],
-     [
-      "INPEX教育交流財団奨学金（インドネシア）",
-      "月額奨学金：160,000円、学費（検定料、入学金、授業料を含む）、旅費、渡航手当、日本語…",
-      "2027年度にSTEM分野（理学、工学、農学、医学、薬学、建築学などを含む）の修士（博士前…",
-      "2026年8月1日（土）〜10月31日（土）"
-     ],
-     [
-      "INPEX教育交流財団奨学金（オーストラリア）",
-      "月額奨学金：160,000円、学費（検定料、入学金、授業料を含む）、旅費、渡航手当、日本語…",
-      "2027年度に修士（博士前期）課程への進学を希望する私費外国人学生",
-      "2026年8月1日（土）〜10月31日（土）"
-     ],
-     [
-      "INPEX教育交流財団奨学金（UAE）",
-      "月額奨学金：160,000円、学費（検定料、入学金、授業料を含む）、旅費、渡航手当、日本語…",
-      "2027年度に修士（博士前期）課程への進学を希望する私費外国人学生",
-      "2026年8月1日（土）〜10月31日（土）"
-     ],
-     [
-      "ロータリー米山記念奨学会奨学金",
-      "学部：月額10万円 修士・博士：月額14万円",
-      "学部3・4年生（医・歯学部・薬[臨床薬学]は5・6年生）、修士、博士2・3年生（医学系・歯…",
-      "2026年9月1日（火）〜9月7日（月）17時"
-     ],
-     [
-      "KDDI財団外国人留学生助成",
-      "月額10万円",
-      "大学院生（修士、博士）※2027年4月1日現在 35歳以下である者 ・法律、政治、経済、社…",
-      "2026年6月29日（月）〜7月14日（火）17時"
-     ]
-    ]
-   },
-   "8557ac": {
-    "title": "2026 年度・全 67 件"
-   },
-   "6241ce": {
-    "headers": [
-     "奨学金",
-     "支給額",
-     "対象",
-     "応募締切"
-    ],
-    "rows": [
-     [
-      "福岡よかトピア国際交流財団 (ふえき あきら留学生育英奨学金 )",
-      "年額50万円",
-      "学部（研究生は不可）",
-      "2026年9月10日（木）〜9月24日（木）17時"
-     ],
-     [
-      "リックス・安井留学支援基金に係る外国人留学生支援奨学金",
-      "月額８万円",
-      "本学の外国人留学生のうち、次の全てに該当する者 ・本学の学府の正規学生かつ標準修業年限内の…",
-      "2026年8月31日（月）〜9月10日（木）"
-     ],
-     [
-      "本庄国際奨学財団（春採用）(直接応募)",
-      "月額23万円(最短就業年限までが1〜2年)、月額21万円(最短就業年限までが3年)、月額1…",
-      "修士、博士",
-      "2025年9月1日（月）〜 2025年10月31日（金）"
-     ],
-     [
-      "井内財団（秋募集）",
-      "月額3万円 ただし、ダブルディグリープログラムの学生は月額4万円",
-      "学部生：27歳未満、大学院生：35歳未満 〔医学・歯学・臨床薬学を除く〕※2025年10月…",
-      "2026年6月30日（火）〜7月8日（水）17時"
-     ],
-     [
-      "ENEOS Xplora 留学生奨学金（パプアニューギニア）",
-      "月額奨学金：80,000円、一時金：200,000円",
-      "2026年度秋学期より修士（博士前期）課程に在籍する私費外国人留学生",
-      "学内申請期限：2026年8月7日（金）"
-     ],
-     [
-      "ENEOS Xplora 留学生奨学金（インドネシア）",
-      "月額奨学金：80,000円、一時金：200,000円",
-      "2026年度秋学期より修士（博士前期）課程に在籍する私費外国人留学生",
-      "学内申請期限：2026年8月7日（金）"
-     ],
-     [
-      "JEES・石橋財団奨学金（後期）",
-      "月額15万円",
-      "修士・博士・研究生（専攻：美術史）※2026年10月入学者（新規渡日者のみ）",
-      "2026年6月24日（水）〜7月31日（金）17時"
-     ],
-     [
-      "佐藤陽国際奨学財団（秋募集）(新入生)",
-      "月額18万円（学部）、月額20万円（大学院） ＋授業料補助金＋学会出席補助金(大学院)",
-      "・学部生：2026年10月あるいは2027年4月に本学に編入が決定している者 ・大学院生：…",
-      "2026年6月16日（火）〜7月10日（金）17時"
-     ],
-     [
-      "佐藤陽国際奨学財団（秋募集）(在籍生)",
-      "月額18万円（学部）、月額20万円（大学院） ＋授業料補助金＋学会出席補助金(大学院)",
-      "学部生(応募時に2年生以上)・大学院生 ※いずれも正規生。詳細を必ず募集要項で確認してくだ…",
-      "2026年6月16日（火）〜7月10日（金）17時"
-     ],
-     [
-      "小林財団（一般奨学金）",
-      "学部生：月額15万円、大学院生：月額18万円",
-      "2026年4月に入学した学部生、修士、博士 （編入学生が不可）※2026年4月時点。",
-      "2026年5月20日（水）〜6月3日（水）17時"
-     ],
-     [
-      "JEES日本語修学支援奨学金",
-      "月額5万円",
-      "・学部、修士、博士 ※2026年4月時点本学に在籍 ・2025年7月(第1回)又は12月(…",
-      "2026年5月19日（火）〜5月21日（木）12時"
-     ],
-     [
-      "日揮・実吉奨学会",
-      "年額40万円",
-      "・理系学部および研究科（詳細は募集要項別紙に参照）に正規生として在学している留学生（202…",
-      "2026年5月12日（火）〜5月18日（月）17時"
-     ],
-     [
-      "JEES留学生奨学金（修学）",
-      "月額5万円",
-      "学部2年生以上、修士、博士",
-      "2026年4月28日（火）〜5月6日（水）17時"
-     ],
-     [
-      "JEES留学生奨学金（少数受入国）",
-      "月額５万円",
-      "学部生、修士、博士 ※交換留学生含む。 （ア）令和8年4月に在籍する者。 （イ）令和8年度…",
-      "2026年4月28日（火）〜5月6日（水）17時"
-     ],
-     [
-      "関西・大阪21世紀協会",
-      "月額10万円",
-      "日本文化を研究するために来日し、修士課程に正規学生として在籍する者 漢字圏以外、欧米の学生…",
-      "2026年4月23日〜2026年5月1日 17:00"
-     ],
-     [
-      "福岡アジア留学生里親奨学金(春募集)",
-      "月額２万円",
-      "研究生・学部生・修士・博士",
-      "2026年4月21日(火)〜2026年5月1日(金) 17時"
-     ],
-     [
-      "福岡よかトピア国際交流財団 (クラフティア留学生育英奨学金)",
-      "年額30万円",
-      "学部、修士、博士",
-      "2026年4月16日（木）〜4月23日（木）17時"
-     ],
-     [
-      "サカタアグリ財団（農学関連）",
-      "月額10万円",
-      "学部2年生以上、修士、博士 ※2026年4月時点。",
-      "2026年4月13日〜2026年4月22日"
-     ],
-     [
-      "福岡よかトピア国際交流財団 (留学生民間大使育英奨学金)",
-      "年額50万円",
-      "修士、博士(2026年9月修了者は除く) 専攻分野が次のいずれかであること。 (1)IT・…",
-      "2026年3月31日（火）〜4月14日（火）17時"
-     ],
-     [
-      "福岡よかトピア国際交流財団 (市川留学生育英奨学金 )",
-      "年額40万円",
-      "学部、修士、博士",
-      "2026年3月31日（火）〜4月14日（金）17時"
-     ],
-     [
-      "ウシオ財団（中国人留学生特別枠）",
-      "月額12万円",
-      "令和8年4月1日現在、中国国籍を有し、工学府、理学府、総合理工学府、システム情報科学府、数…",
-      "2026年3月23日（月）〜4月22日（水）（当日大富必着）"
-     ],
-     [
-      "朝鮮奨学会奨学金",
-      "学部生：月額2.5万円 修士課程・専門職課程：月額4万円 博士課程：月額7万円",
-      "学部、修士、専門職、博士",
-      "2026年4月9日〜4月14日 17:00 学内選考結果発表は2026年4月16日頃です。…"
-     ],
-     [
-      "ウシオ財団",
-      "月額12万円",
-      "・私費留学生（中国籍留学生を除く） ・令和8年4月1日現在、工学府、理学府、総合理工学府、…",
-      "2026年4月7日〜4月16日17時"
-     ],
-     [
-      "似鳥国際奨学財団(上期)（直接応募)",
-      "月額6〜8万円",
-      "学部、修士 ※2026年4月1日時点 年齢制限あり、私費留学生",
-      "2026年1月20日（火） 〜 2026年4月20日（月）"
-     ],
-     [
-      "戸部真紀財団",
-      "大学院学生 月額7万円（年額84万円） 学部学生 月額6万円（年額72万円）",
-      "財団HPにご確認ください",
-      "Web提出 ：2026年5月8日（金） 郵 送 ：2026年5月12日（火）財団必着"
-     ],
-     [
-      "福岡市国際財団奨学金",
-      "年額60万円",
-      "学部、修士",
-      "2026年4月3日（金）〜4月16日（木）17時"
-     ],
-     [
-      "味の素奨学会在日留学生向け奨学金",
-      "月額15万円",
-      "修士、博士 （専攻： 食・栄養・保健分野）",
-      "2026年4月2日（木）〜5月11日（月）17時 留学課必着"
-     ],
-     [
-      "福岡よかトピア国際交流財団 (Harvest留学生育英奨学金 )",
-      "年額50万円",
-      "修士、博士",
-      "2026年3月31日（火）〜4月10日（金）17時"
-     ],
-     [
-      "イオンスカラシップ",
-      "月額10万円 年間の授業料",
-      "学部1,2,3年生、修士1年生 ※2026年4月時点。",
-      "2026年3月13日（金）〜3月24日（火）17時"
-     ],
-     [
-      "椎木正和記念アジア留学生奨学基金",
-      "月額5万円",
-      "修士、博士 ※2026年9月卒業の者は不可。",
-      "2026年3月13日（金）〜4月1日（水）17時"
-     ],
-     [
-      "三菱UFJ信託奨学財団奨学金",
-      "大学院生：月額13.5万円",
-      "修士1年生、博士1年生：法、経済、システム生命科学、統合新領域、理、工、システム情報科学、…",
-      "2026年3月13日（金）〜4月16日（木）17時"
-     ],
-     [
-      "渕上育英会奨学金",
-      "月額5万円",
-      "学部：3年生以上、修士、博士(2026年4月時点)",
-      "2026年3月10日（火）〜3月19日（木）17時"
-     ],
-     [
-      "リックス・安井留学支援基金に係る外国人留学生支援奨学金",
-      "月額８万円",
-      "本学の外国人留学生のうち、次の全てに該当する者 ・本学の学府の正規学生かつ標準修業年限内の…",
-      "2026年3月6日（金）〜3月19日（木）"
-     ],
-     [
-      "大塚敏美育英奨学財団（直接応募）",
-      "年額200万円、150万円または100万円",
-      "医学・歯学・薬学・生物学・栄養学・体育学・工学・経営学など、人の健康に深く関連する分野を専…",
-      "１．新規申請者（当財団から奨学金の給付を受けたことのない者） Web提出：2026年3月5…"
-     ],
-     [
-      "翁林国際交流基金",
-      "月額5万円〜12万円",
-      "学部生 2026年4月1日現在で学部3年次生以上に在籍する人 大学院生 2026年4月1日…",
-      "2026年4月15日締切"
-     ],
-     [
-      "SGH財団(特定)",
-      "月額18万円",
-      "博士後期課程2年生、4年制博士課程3年生、又は、一貫制博士課程4年生 ※春期入学者のみ対象…",
-      "2026年2月13日〜2026年2月25日 17:00"
-     ],
-     [
-      "SGH財団(一般)",
-      "月額12万円",
-      "・2026年4月1日現在で学部2年生(6年制学部は4年生)に進学し27歳未満の者(ただし春…",
-      "2026年2月13日〜2026年2月25日 17:00"
-     ],
-     [
-      "吉本章治奨学会奨学金",
-      "月額5万円",
-      "学部生、研究生、修士、博士",
-      "2026年2月13日（金）〜3月13日（金）17時"
-     ],
-     [
-      "安田奨学財団（スポーツ枠）",
-      "月額10万円",
-      "・2026年4月入学の学部1年生（新入生） ・2026年3月時点で、学部1〜3年生",
-      "2026年2月12日（木）〜3月12日（木）17時"
-     ],
-     [
-      "興南アジア国際奨学財団奨学金",
-      "月額7万円",
-      "学部生(最終学年者のみ）／ 修士・博士（最終学年者を優先）※2026年9月卒修了の者は応募…",
-      "2025年2月6日（金）〜2月19日（木）17時"
-     ],
-     [
-      "旭硝子財団",
-      "月額15万円、海外研究活動支援奨学金 上限20万円 （1回／年、奨学金支給期間内のみ）",
-      "修士1年、博士1年 ※2026年4月時点。(医歯薬系を除く)",
-      "2026年2月6日（金）〜4月1日（水）17時"
-     ],
-     [
-      "JEES・石橋財団奨学金（前期）",
-      "月額15万円",
-      "修士・博士・研究生（専攻：美術史）※2026年度入学者（新規渡日者のみ）",
-      "2026年1月28日（水）〜2月25日（水）17時"
-     ],
-     [
-      "竜の子財団（学部生）",
-      "月額5万円",
-      "学部生",
-      "2026年1月16日〜1月23日17時"
-     ],
-     [
-      "安田奨学財団",
-      "月額10万円",
-      "法学部・経済学部の新2年生（2026年4月時点）",
-      "2025年12月08日（月）〜12月23日（火）17時"
-     ],
-     [
-      "かめのり財団",
-      "￥200,000/月額",
-      "2026年4月に修士（博士前期）課程入学するまたは入学予定するの人文科学および社会科学分野…",
-      "2025年12月22日〜2026年1月5日 17:00"
-     ],
-     [
-      "橋谷奨学会",
-      "月額11万円",
-      "学部生・研究生・修士・博士",
-      "2026年1月5日 2026年1月7日頃に学内選考結果発表"
-     ],
-     [
-      "東京海上各務記念財団（ASEAN奨学生）",
-      "修士課程月額1８万円/博士課程月額２０万円",
-      "修士、博士",
-      "2025年12月11日(木)〜2026年1月9日(金) 17時"
-     ],
-     [
-      "佐藤陽国際奨学財団（春募集）",
-      "月額18万円（学部）、月額20万円（大学院） ＋授業料補助金＋学会出席補助金(大学院)",
-      "学部生(日本の高等専門学校又は専門学校からの編入生)・大学院生(修士課程又は博士課程に進学…",
-      "〜 12月9日(火)15:00"
-     ],
-     [
-      "DAIHATSU JAGAM奨学金",
-      "月額10万円",
-      "学部2、3、4年生、修士1、2年生 ※2026年4月時点",
-      "12月26日（金）17時（日本標準時間）"
-     ],
-     [
-      "共立国際交流奨学財団",
-      "月額11万円／月額7万円(奨学金の種類による)",
-      "学部・修士・博士（奨学金の種類による）",
-      "2025年11月25日（火）〜12月15日（月）17時"
-     ],
-     [
-      "みずほ国際交流奨学財団",
-      "月額12万円",
-      "学部、修士、博士で専攻分野が理工系列である者(ただし医歯薬学系除く) ※同課程相当の研究に…",
-      "2026年4月20日（金）"
-     ],
-     [
-      "岩谷国際留学生奨学助成 ※個人応募",
-      "月額15万円",
-      "修士、博士 ※専攻：自然科学系および関連する学際分野(ただし、医学、薬学は除く)",
-      "2025年12月1日（月）〜 20日（土）"
-     ],
-     [
-      "トラスト未来フォーラム外国人留学生向け奨学金",
-      "月額15万円",
-      "法学（民法・商法・信託法及びそれに近接する法学）を専攻する者で、2026年4月1日現在で大…",
-      "学内締切 〜2026年1月16日（金）"
-     ],
-     [
-      "川嶋章司記念スカラ−シップ基金",
-      "月額12万円 (年間144万円）",
-      "学部3・4年生、修士、博士 ※2026年4月時点 (専攻:人文・社会・自然諸科学分野)",
-      "2025年10月9日（木）〜10月28日（火）17時"
-     ],
-     [
-      "田坂育英基金",
-      "月額5万円",
-      "学部生、修士、博士 ※2026年9月卒業の者は応募不可。",
-      "2025年10月15日（水）〜11月5日（水）17時"
-     ],
-     [
-      "坪井一郎・仁子学生支援プログラム",
-      "大学生：50〜100万円 大学院生：60〜120万円",
-      "a)難民とその子など、本人/親が難民またはそれに準する背景により来日した方 b)原則として…",
-      "2025年11月15日（土）"
-     ],
-     [
-      "千本財団 （直接応募）",
-      "月額12万円",
-      "学部1、2、3年生、学部4年生で2026年4月に修士課程進学見込者、修士課程1年生(応募時…",
-      "2025年10月6日（月）〜 2025年12月8日（月）"
-     ],
-     [
-      "イノアック国際教育振興財団奨学金 （直接応募）",
-      "月額5万円",
-      "学部、大学院（研究生は不可） ※2026年9月卒業予定の者は不可。",
-      "〜2025年10月13日(月)13時"
-     ],
-     [
-      "大塚敏美育英奨学財団（大学推薦）",
-      "年額100万円、150万円または200万円",
-      "・医歯薬学系専攻の博士、博士課程進学希望の修士2年（2026年4月時点） ・経営系専攻の博…",
-      "2025年10月1日(水)〜10月20日(月)17時"
-     ],
-     [
-      "伊藤国際教育交流財団奨学金（直接応募）",
-      "月額20万円",
-      "修士（2025年10月または2026年4月入学予定者）",
-      "2025年10月1日（水）〜2025年10月31日（金）"
-     ],
-     [
-      "公益推進協会（2026年度 ライト工業みらい奨学基金（ベトナム人留学生用））(直接応募)",
-      "年額84万円",
-      "修士1年(新入生) ※応募時に学部4年生で、2026年4月の進学先の分野が理工系であること。",
-      "2025年8月20日(水)〜2025年10月23日(木)"
-     ],
-     [
-      "平和中島財団奨学金",
-      "学部生 ：月額12万円(学部) 大学院生：月額15万円(大学院)",
-      "学部、修士、博士 ※応募時に既に本学に在籍している者、かつ2025年4月に正規課程に在籍予…",
-      "2025年9月1日（月）〜9月25日(木）17時"
-     ],
-     [
-      "ロータリー米山記念奨学会奨学金",
-      "学部：月額10万円 修士・博士：月額14万円",
-      "学部3・4年生（医・歯学部・薬[臨床薬学]は5・6年生）、修士、博士2・3年生（医学系・歯…",
-      "2025年8月6日（水）〜9月2日（火）17時"
-     ],
-     [
-      "朴龍九育英会",
-      "月額7万円",
-      "日本の大学院に在学または入学予定で、2026年4月1日以降も在籍している外国人留学生（研究…",
-      "2025年8月20日（水）〜9月10日（水）17時"
-     ],
-     [
-      "日本台湾交流協会日本奨学金（直接応募）",
-      "月額14万4千円（修士）、14万5千円（博士）および授業料等",
-      "修士、博士",
-      "2025年8月1日(金)〜2025年10月24日(金)"
-     ],
-     [
-      "CWAJ(ｶﾚｯｼﾞ･ｳｨﾒﾝｽﾞ･ｱｿｼｴｰｼｮﾝ･ｵﾌﾞ･ｼﾞｬﾊﾟﾝ) 外国人留学生…",
-      "年間200万円",
-      "博士課程の女子学生",
-      "2025年7月1日〜2025年10月6日"
-     ],
-     [
-      "KDDI財団外国人留学生助成",
-      "月額10万円",
-      "大学院生（修士、博士）※2026年4月1日現在 35歳以下である者 ・法律、政治、経済、社…",
-      "2025年6月11日（水）〜7月2日（水）17時"
-     ]
-    ]
-   },
-   "77230e": {
-    "text": "国費外国人留学生（政府奨学金）"
-   },
-   "c6c27f": {
-    "text": "文部科学省が設けた、**研究者の育成と国と国の懸け橋となる人材**を目的とする制度です。九大は 4 種別で受け入れています：研究留学生（大学院）、学部留学生、日本語・文化研修生、そして Young Leaders' Program（YLP）。**授業料は大学負担、往復の渡航費も支給されます。**"
-   },
-   "b59cea": {
-    "headers": [
-     "类别",
-     "月額（含地域加算）",
-     "支給期間"
-    ],
-    "rows": [
-     [
-      "研究留学生・修士／専門職",
-      "147,000 円",
-      "至该课程结业（标准修业年限内）"
-     ],
-     [
-      "研究留学生・博士",
-      "148,000 円",
-      "同上"
-     ],
-     [
-      "研究留学生・研究生（非正规生）",
-      "146,000 円",
-      "含日语教育在内 2 年以内"
-     ],
-     [
-      "学部留学生",
-      "120,000 円",
-      "大学推薦：至课程结业／大使館推薦：含 1 年日语教育共 5 年（医歯薬 7 年）"
-     ],
-     [
-      "日本語・文化研修生",
-      "120,000 円",
-      "1 学年"
-     ]
-    ]
-   },
-   "d8544b": {
-    "text": "2 つの応募スケジュール"
-   },
-   "7ba84b": {
+   "m3j4k5": {
     "items": [
      {
-      "text": "**大学推薦**：募集期間は学府ごとに異なる（自分の学府の学務係へ）→ 翌年 2 月 学内選考・推薦 → 6 月 選考・採用 → 10 月 渡日"
+      "num": "1",
+      "text": "**学内：伊都診療所**（センター6号館1F、内科+精神科。月〜金 10:00-12:30 / 14:00-16:30。英語対応 B。https://itoclinic.kyushu-u.ac.jp/）"
      },
      {
-      "text": "**大使館推薦**：2〜3 月 在外公館で募集 → 5〜7 月 一次選考（書類・筆記・面接）→ 8 月までに受入内諾書 → 10 月〜翌年 2 月 二次選考 → 4 月または 10 月 渡日"
+      "num": "2",
+      "text": "**西福岡病院**（西区生の松原、総合病院。外国語 A 20言語。紹介・予約制、紹介状なしは別途 7,700円。0570-09-1331）"
+     },
+     {
+      "num": "3",
+      "text": "**福岡記念病院**（早良区西新、総合病院。外国語 A。092-821-4731、http://kinen.jp）"
+     },
+     {
+      "num": "4",
+      "text": "受診前に**予約が必要かどうか**を必ず確認。伊都診療所は土日休みのため校外受診も検討してください。"
      }
     ]
    },
-   "46d46a": {
-    "text": "**進学（上位学位へ）しても自動継続にはなりません**。指導教員の推薦を得て文部科学省へ**支給期間延長**を申請し、可否は文科省の選考で決まります —— 早めに指導教員と相談してください。"
+   "m4k5l6": {
+    "title": "公式医療機関リスト（外国語対応可能）",
+    "items": [
+     {
+      "text": "伊都キャンパス医療機関表 (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E4%BC%8A%E9%83%BD%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-1.pdf"
+     },
+     {
+      "text": "病院キャンパス医療機関表 (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%97%85%E9%99%A2%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-2.pdf"
+     },
+     {
+      "text": "大橋キャンパス医療機関表 (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E5%A4%A7%E6%A9%8B%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"
+     },
+     {
+      "text": "筑紫キャンパス医療機関表 (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%AD%91%E7%B4%AB%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"
+     }
+    ]
    },
-   "f43b61": {
-    "text": "私費対象：文部科学省外国人留学生学習奨励費"
+   "m5l6m7": {
+    "items": [
+     {
+      "num": "1",
+      "text": "**個人使用の医薬品の日本持込**：海外からの医薬品持込には制限があります。厚生労働省：https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/kojinyunyu/topics/tp010401-1.html"
+     },
+     {
+      "num": "2",
+      "text": "**ワクチンで防げる感染症予防**（渡航前に予防接種歴を確認）：https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/visitor.html"
+     },
+     {
+      "num": "3",
+      "text": "**2026 CLUB & CIRCLE GUIDE**（学内サークル、日本語版 PDF）：https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-CLUB-CIRCLE-GUIDE.pdf"
+     },
+     {
+      "num": "4",
+      "text": "**2026 International Clubs Guide**（国際系団体、英語版 PDF）：https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-INTL-CLUB-AND-CIRCLE%E3%80%80%E8%8B%B1%E8%AA%9E.pdf"
+     },
+     {
+      "num": "5",
+      "text": "**Global Gateways**（九州大学国際部の留学生向け情報サイト、定期的にチェック）：https://www.isc.kyushu-u.ac.jp/intlweb/"
+     }
+    ]
    },
-   "d52461": {
+   "w1a2b3": {
+    "text": "③ キャンパスWi-Fi（kitenet）"
+   },
+   "w2b3c4": {
+    "text": "渡日直後でネット環境が整っていない新入留学生のために、留学課が**一時利用のWi-FiログインID・パスワード**を用意（9月下旬、入国支援システム登録メールに送付予定）。九大キャンパス内に多数のアクセスポイントがあります。"
+   },
+   "w3c4d5": {
+    "text": "一時ログイン情報の利用可能期間：**2026年9月24日(木)～10月9日(金)**。10月9日以降はこのID・パスワードは使えません。以降も大学Wi-Fi（kitenet）を使うには、ご自身の**SSO-KID**で設定が必要です。"
+   },
+   "w4d5e6": {
+    "items": [
+     {
+      "title": "自分のSSO-KIDを確認",
+      "desc": "正課生は**学生証の裏面**。学生証がない場合は所属学部・学府の学生係に問い合わせ（登録コードも併せて確認）。"
+     },
+     {
+      "title": "必要なものを準備",
+      "desc": "登録コードと、**@s.kyushu-u.ac.jp以外のメールアドレス**。"
+     },
+     {
+      "title": "SSO-KIDを有効化",
+      "desc": "以下のリンクから有効化：https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
+     },
+     {
+      "title": "kitenetの初期設定を完了",
+      "desc": "公式ガイドあり（iOS / Android / その他OS）。"
+     }
+    ]
+   },
+   "w5e6f7": {
+    "items": [
+     {
+      "text": "SSO-KID有効化ページ",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
+     },
+     {
+      "text": "キャンパスWi-Fi公式ページ",
+      "url": "https://notepm.jp/sharing/751f751c-dbec-4cf0-a5b9-0e3a396b467d"
+     }
+    ]
+   },
+   "1a2b3c": {
+    "text": "④ 行政手続き・銀行ガイダンス（寮入居者必読）"
+   },
+   "2b3c4d": {
+    "text": "海外から渡日し学生寮に入居する新入留学生向けに、留学課が住所登録や国民健康保険などの行政手続きを代行し、国民年金・マイナンバーカード・銀行口座開設（ゆうちょ / 福岡銀行 / 西日本シティ銀行）について説明します。**第1回と第2回の両方に参加が必須**です。会場：日本ジョナサン・KS・チョイ文化館（キャンパスマップ No.79）。持ち物：パスポート・在留カード・黒色ボールペン。参加日程は**入国支援システム（Pre-Arrival Assistance）**で予約します（入寮手続き完了後にフォームが表示されます）。**リマインドメールは送信されません**。第1回は**入寮当日以降**の日時のみ選択可能です。参加日までに**パスポートの顔写真ページと入国許可スタンプページ**の写真を留学課メールへ送信してください（顔写真ページを入国支援システムにアップロード済みの場合は、入国許可スタンプページのみ提出）。日程が合わず参加できない場合は、Q-Mate作成の多言語動画でご自身で手続きを行ってください。"
+   },
+   "3c4d5e": {
+    "text": "伊都協奏館 / ドミトリー1-3 入居者・日程（A〜G組）"
+   },
+   "c0d1e2": {
     "headers": [
-     "项目",
+     "組",
+     "第1回ガイダンス",
+     "第2回ガイダンス"
+    ],
+    "rows": [
+     [
+      "A",
+      "9/24(木) 15:00-15:30",
+      "9/29(火) 13:00-14:00"
+     ],
+     [
+      "B",
+      "9/25(金) 13:00-13:30",
+      "9/29(火) 13:00-14:00"
+     ],
+     [
+      "C",
+      "9/28(月) 10:00-10:30",
+      "9/30(水) 13:00-14:00"
+     ],
+     [
+      "D",
+      "9/29(火) 10:00-10:30",
+      "10/1(木) 13:00-14:00"
+     ],
+     [
+      "E",
+      "9/30(水) 10:00-10:30",
+      "10/2(金) 13:00-14:00"
+     ],
+     [
+      "F",
+      "10/1(木) 10:00-10:30",
+      "10/5(月) 12:30-13:30"
+     ],
+     [
+      "G",
+      "10/2(金) 10:00-10:30",
+      "10/6(火) 12:00-13:00"
+     ]
+    ]
+   },
+   "d1e2f0": {
+    "text": "協奏館から徒歩約18分、ドミトリーから徒歩約5〜7分。定員に限りがあるため希望日時を選べない場合があります。留学課が住所登録を代行する場合、特定在留カード（マイナンバーカードと在留カードの一体化カード；新規渡日の住所登録時は無料、**義務ではない**）の申請を同時にすることはできません。"
+   },
+   "4d5e6f": {
+    "text": "セトルインターナショナル 入居者・日程（A〜C組）"
+   },
+   "e2f0a3": {
+    "headers": [
+     "組",
+     "第1回ガイダンス",
+     "第2回ガイダンス"
+    ],
+    "rows": [
+     [
+      "A",
+      "9/28(月) 11:00-11:30",
+      "9/30(水) 15:00-16:00"
+     ],
+     [
+      "B",
+      "9/29(火) 11:00-11:30",
+      "10/1(木) 15:00-16:00"
+     ],
+     [
+      "C",
+      "9/30(水) 11:00-11:30",
+      "10/2(金) 15:00-16:00"
+     ]
+    ]
+   },
+   "f0a3b4": {
+    "text": "会場は同じ（文化館 No.79）。バス約13分（九大ビッグオレンジ前下車）、徒歩約35分。"
+   },
+   "5e6f0a": {
+    "text": "⑤ 新入留学生オリエンテーション（9月28日）"
+   },
+   "6f0a1b": {
+    "text": "9月28日(月) 12:50〜15:10、伊都キャンパス椎木講堂。西警察署、福岡出入国在留管理局、福岡市消防局が講演します。**新入留学生は参加必須**（他のオリエンテーション・ガイダンスと日程が重なる場合を除く）。事前登録が必要です：**申込フォーム** https://forms.cloud.microsoft/r/nCDDWic1U5"
+   },
+   "a3b4c5": {
+    "headers": [
+     "時間",
      "内容"
     ],
     "rows": [
      [
-      "对象",
-      "学部生：仅正规生 ／ 大学院生：研究生或正规生"
+      "12:50",
+      "開会の言葉"
      ],
      [
-      "月額",
-      "48,000 円"
+      "12:55",
+      "「Q-Mate」紹介"
      ],
      [
-      "支給期間",
-      "1 年 或 6 个月"
+      "13:05",
+      "福岡での新生活に役立つ情報"
      ],
      [
-      "募集时期",
-      "原则上一年两次（春・秋），也有不募集的时候"
+      "13:10",
+      "「KUFSA」（留学生会）紹介"
      ],
      [
-      "窗口",
-      "所属学部・大学院的**学務係**（不是留学課）"
+      "13:20",
+      "学内カウンセリングサービス"
+     ],
+     [
+      "13:25",
+      "在留資格制度（入国在留管理局）"
+     ],
+     [
+      "13:35",
+      "休憩15分"
+     ],
+     [
+      "13:50",
+      "安全と防犯（西警察署）"
+     ],
+     [
+      "14:30",
+      "火災・救急・防災（消防局）"
+     ],
+     [
+      "14:55",
+      "図書館からのお知らせ"
+     ],
+     [
+      "15:00",
+      "閉会の言葉"
      ]
     ]
    },
-   "2e3f20": {
-    "text": "これは**私費**留学生向けの奨学金で、上の国費制度とは別物です。手続きも学生係経由 —— 名前は似ていますが経路がまったく違います。"
+   "b4c5d6": {
+    "text": "同日開催：**SIMカード販売会**（会場：椎木講堂ガレリア。**2つのセッションのいずれかに参加**：①10:30〜12:30 オリエンテーション前、②15:10〜17:00 終了後。公式は午前セッションを推奨、午後は混雑の可能性。**事前登録必須**、プラン・料金・登録方法は公式ポスター参照）、**図書館ツアー**（中央図書館）、**入管相談会**（在留資格について質問可）、**ウェルカムパーティー**（17:00-18:00 @ BIG SKY、新入留学生限定）。病院・筑紫・大橋キャンパス、福岡市国際会館・井尻から椎木講堂へ無料シャトルバスあり（行き 10:40-10:50 頃、帰り 18:20 頃出発）。先着順、帰りは行きで配布の乗車券が必要。**集合場所は各キャンパスの指定位置（公式PDF参照）で、国際交流会館ではありません。**"
    },
-   "b9a858": {
-    "text": "公式入口と相談窓口"
+   "5f0a6b": {
+    "text": "⑤ 新入留学生キャンパスツアー（9月29・30日）"
    },
-   "ae7750": {
+   "6a7b8c": {
+    "headers": [
+     "日付",
+     "時間",
+     "テーマ"
+    ],
+    "rows": [
+     [
+      "9/29(火)",
+      "10:30-12:00",
+      "イーストゾーン（文系）"
+     ],
+     [
+      "9/29(火)",
+      "15:00-16:30",
+      "ウエストゾーン（理系）"
+     ],
+     [
+      "9/30(水)",
+      "10:30-12:00",
+      "ウエストゾーン（理系）"
+     ],
+     [
+      "9/30(水)",
+      "15:00-16:30",
+      "イーストゾーン（文系）"
+     ]
+    ]
+   },
+   "7b8c9d": {
+    "text": "集合：センター6号館。各回 20 名・約90分・徒歩で移動します。歩きやすい靴で、飲み物は各自ご用意ください。言語は英語中心（日本語も可）。文系・理系を問わずどちらのゾーンも選べます。ツアー中は写真を撮り、SNS に投稿することがあります。気になる方は Q-Mate へお知らせください。Q-Mate 主催。申込フォームは公式ポータル参照。"
+   },
+   "8c9d0e": {
+    "text": "⑦ 福岡銀行口座開設会（10月6・7・8日）"
+   },
+   "9d0e1f": {
+    "text": "福岡銀行は伊都キャンパス内にも ATM がある福岡県の主要銀行の一つ。開設会に参加すると**その場で口座番号とキャッシュカードを受け取れ**、支店に行く必要がありません。奨学金の受取口座や家賃の口座振替にもすぐに利用できます。福岡銀行と九大スタッフが英語・日本語でサポートします。**会場：日本ジョナサン・KS・チョイ文化館（キャンパスマップ No.79）**。第1回〜第3回のいずれか1つに参加（自分の時間割と要確認）。"
+   },
+   "0e1f2a": {
     "items": [
      {
-      "text": "奨学金一覧（2027 年度・日本語）",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2027&lang="
+      "num": "1",
+      "text": "条件①：在留カードの住所登録が完了していること。条件②：在留期間が3か月以上残っていること（残り3か月未満、または更新申請中の方は参加不可。銀行支店でご自身で手続きが必要）。"
      },
      {
-      "text": "奨学金一覧（2026 年度・日本語）",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2026&lang="
+      "num": "2",
+      "text": "申込：**入国支援システム（Pre-Arrival Assistance）にログイン →「スケジュール情報の入力」→ 福岡銀行口座開設会申込みフォームに記入し、在留カードの画像をアップロード**。申込フォームは申込期間中のみ表示されます。"
      },
      {
-      "text": "Scholarship list (2027 / English)",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2027&lang=en"
+      "num": "3",
+      "text": "**留学課からの確認メールを受信して初めて申込完了**。メールが届かない方は参加できません。原則キャンセル不可。参加できなくなった場合は公式キャンセルフォームから申請。"
      },
+     {
+      "num": "4",
+      "text": "印鑑：**シャチハタ印鑑は使用不可**。朱肉（Red Ink Pad）を使うタイプの印鑑を用意。また日本で利用可能な電話番号が必要（9/28のSIMカード販売会で用意可）。"
+     },
+     {
+      "num": "5",
+      "text": "アメリカ国籍の方は Social Security Number(SSN)（9桁の数字）を事前に確認。"
+     },
+     {
+      "num": "6",
+      "text": "MEXT 奨学生も参加できますが、奨学金の受取には**別途ゆうちょ銀行の口座**が必要です。"
+     }
+    ]
+   },
+   "1f2a3b": {
+    "text": "⑧ ESP 外国人留学生等緊急安心プラン"
+   },
+   "2a3b4c": {
+    "text": "「留学」の在留資格を持つ九州大学の全留学生は**加入必須**。24時間・365日・中英日3言語のメディカルアシスタンスを提供：医療機関紹介、受診時の電話通訳（医師の許可が必要）、緊急時に母国の家族への連絡や交通の手配など。**注意：ESP は保険ではありません**。医療費は補てんされず、入院・治療・検査の費用は各自負担（国民健康保険または自費）。"
+   },
+   "3b4c5d": {
+    "headers": [
+     "在学年数",
+     "費用",
+     "該当"
+    ],
+    "rows": [
+     [
+      "1年",
+      "1,650円",
+      "非正規生、研究生など"
+     ],
+     [
+      "2年",
+      "3,300円",
+      "修士課程"
+     ],
+     [
+      "3年",
+      "4,950円",
+      "博士後期課程"
+     ],
+     [
+      "4年",
+      "6,600円",
+      "学部"
+     ]
+    ]
+   },
+   "4c5d6e": {
+    "items": [
+     {
+      "num": "1",
+      "text": "加入期限：**2026年10月30日(金)**。"
+     },
+     {
+      "num": "2",
+      "text": "申込：公式アプリからオンライン申請。日本の携帯番号が必要なため、**来日後の申込**を推奨。⚠️ 情報源により OSSMA と NEXUS の表記ゆれあり（2026年版公式パンフは NEXUS、旧アプリはダウンロードしない）。最新のパンフ・留学課の案内に従ってください。"
+     },
+     {
+      "num": "3",
+      "text": "支払：クレジットカード / コンビニ（オンライン登録時に選択、別途手数料あり）。"
+     }
+    ]
+   },
+   "5d6e7f": {
+    "text": "⑩ 問い合わせ・相談窓口"
+   },
+   "6e7f8a": {
+    "items": [
+     {
+      "num": "1",
+      "text": "来日前の相談：留学課 imm.s@jimu.kyushu-u.ac.jp（履修・授業については所属予定の学部・学府へ直接）。"
+     },
+     {
+      "num": "2",
+      "text": "来日後の相談：LINE 公式アカウント「Consultation Desk」（Q-Mate が対応。住まい・市区役所手続き・銀行など）。"
+     },
+     {
+      "num": "3",
+      "text": "Q-Mate Instagram：@_qmate；公式サイト https://studentassistantqu.wixsite.com/q-mate/about"
+     },
+     {
+      "num": "4",
+      "text": "Q-Mate LINE 公式アカウント：https://lin.ee/EiQqccP （相談・質問の入口）"
+     }
+    ]
+   },
+   "7e8f9a": {
+    "items": [
+     {
+      "text": "公式 NotePM ポータル（日本語）",
+      "url": "https://notepm.jp/sharing/fb0e6579-ad42-4aaa-90fb-9bcff4e253e3"
+     },
+     {
+      "text": "公式 NotePM ポータル（English）",
+      "url": "https://notepm.jp/sharing/da6d736d-f9e1-44db-ba5e-580d2f1413b2"
+     },
+     {
+      "text": "Q-Mate Instagram",
+      "url": "https://www.instagram.com/_qmate/"
+     }
+    ]
+   },
+   "8f9a0b": {
+    "text": "**原本**：留学課 NotePM「新入留学生サポートポータル（伊都キャンパス）」2026-08-20 公開（各サブページ・公式 PDF 時刻表を含む）。最新情報は公式発表をご確認ください。"
+   }
+  },
+  "en": {
+   "9c1a2e": {
+    "text": "This article collects all official support provided by the Kyushu University Student Exchange Division for **2026 fall newcomers**. Source: the division&#39;s NotePM portal “New International Student Support Portal (Ito Campus)”, published 2026-08-20. Follow official eligibility and dates."
+   },
+   "1b2c3d": {
+    "text": "Schedule Overview"
+   },
+   "a4b5c6": {
+    "headers": [
+     "Date",
+     "Schedule",
+     "Eligible",
+     "Notes"
+    ],
+    "rows": [
+     [
+      "Sep 24–25",
+      "Free airport shuttle",
+      "All new intl. students",
+      "First come, no reservation"
+     ],
+     [
+      "Sep 24, 25, 29, 30, Oct 1",
+      "Free shopping shuttle",
+      "New intl. students & supporters",
+      "First come, no reservation"
+     ],
+     [
+      "Sep 24 – early Oct",
+      "Administrative & banking guidance",
+      "New intl. students from overseas living in dorms",
+      "⚠️ advance registration required"
+     ],
+     [
+      "Sep 28",
+      "New Student Orientation + SIM sale, library tour, immigration consultation, welcome party",
+      "All new intl. students (incl. other campuses)",
+      "⚠️ mandatory for new students"
+     ],
+     [
+      "Sep 29–30",
+      "New student campus tour",
+      "All new intl. students",
+      "Registration needed, 20/group"
+     ],
+     [
+      "Oct 6–8",
+      "Fukuoka Bank account event",
+      "New intl. students with registered address",
+      "⚠️ advance registration required"
+     ]
+    ]
+   },
+   "2d3e4f": {
+    "text": "Check dormitory move-in times from page 6 onward of the application guidelines (dormitory application for international students)."
+   },
+   "3e4f5a": {
+    "text": "① Free airport shuttle (Fukuoka Airport → Ito dorms)"
+   },
+   "4f5a6b": {
+    "text": "On Sep 24 & 25, 2026 the division runs a free shuttle from Fukuoka Airport to Kyudai Gakkentoshi Station / Dormitory 1-3 / Ito Harmony House / SETTLE International. **In principle for new international students only.** First come, first served; no reservation needed, but the bus can fill up. Assemble **at least 15 minutes before departure**."
+   },
+   "5a6b7c": {
+    "headers": [
+     "Departure (Fukuoka Airport)",
+     "Bus 1",
+     "Bus 2",
+     "Bus 3",
+     "Bus 4"
+    ],
+    "rows": [
+     [
+      "International terminal",
+      "9:00",
+      "11:30",
+      "15:00",
+      "18:00"
+     ],
+     [
+      "Domestic terminal",
+      "9:25",
+      "11:55",
+      "15:25",
+      "18:25"
+     ]
+    ]
+   },
+   "6b7c8d": {
+    "headers": [
+     "Arrival",
+     "Bus 1",
+     "Bus 2",
+     "Bus 3",
+     "Bus 4"
+    ],
+    "rows": [
+     [
+      "Kyudai Gakkentoshi Stn.",
+      "9:55",
+      "12:35",
+      "16:05",
+      "19:05"
+     ],
+     [
+      "SETTLE International",
+      "10:25",
+      "12:55",
+      "16:25",
+      "(no stop)"
+     ],
+     [
+      "Dormitory 1-3",
+      "10:45",
+      "13:15",
+      "16:45",
+      "19:30"
+     ],
+     [
+      "Ito Harmony House",
+      "11:00",
+      "13:30",
+      "17:00",
+      "19:50"
+     ]
+    ]
+   },
+   "7c8d9e": {
+    "items": [
+     {
+      "num": "1",
+      "text": "Bus 4 does not stop at SETTLE International each day."
+     },
+     {
+      "num": "2",
+      "text": "Meeting point: Fukuoka Airport International / Domestic terminal. Staff holding a “Kyushu University” sign wait at the reception near arrivals from 1 hour before departure."
+     },
+     {
+      "num": "3",
+      "text": "Departure and arrival times may shift due to traffic."
+     },
+     {
+      "num": "4",
+      "text": "New students of the Hospital / Chikushi / Ohashi campuses **cannot use this shuttle**."
+     }
+    ]
+   },
+   "8d9e0f": {
+    "text": "② Free shopping shuttle (dorms ⇄ Kyudai Gakkentoshi Stn.)"
+   },
+   "9e0f1a": {
+    "text": "Route: Ito Harmony House / Dormitory 1-3 / SETTLE International ⇄ Kyudai Gakkentoshi Station (the Gakken-toshi area has AEON Mall, Saitopia and other shopping & public facilities). Operating days: Sep 24, 25, 29, 30 and Oct 1. For new international students and their supporters; first come, first served. The table below shows the next bus arrival in real time."
+   },
+   "0f1a2b": {
+    "text": "Seats are limited and first come, first served. Residents of Dormitory 2 & 3 should board at Dormitory 1. Check the official poster PDF for exact times and stop locations."
+   },
+   "m1h2i3": {
+    "text": "⑨ Useful info & medical resources"
+   },
+   "m2i3j4": {
+    "text": "The division&#39;s “Useful Information” page gathers resources for life in Fukuoka. **Healthcare is the issue newcomers struggle with most**: Ito Campus has an **Ito Clinic**, but it is closed on weekends. For off-campus care, refer to the **list of medical institutions with foreign-language support** (May 2026 edition; language levels A fluent / B conversational / C basic)."
+   },
+   "m3j4k5": {
+    "items": [
+     {
+      "num": "1",
+      "text": "**On campus: Ito Clinic** (Center Bldg 6, 1F; internal medicine + psychiatry. Mon–Fri 10:00–12:30 / 14:00–16:30. English level B. https://itoclinic.kyushu-u.ac.jp/)"
+     },
+     {
+      "num": "2",
+      "text": "**Nishi-Fukuoka Hospital** (Nishi Ward, Ikuno-Matsubara; general hospital. Foreign languages level A, 20 languages. Referral/appointment required; without referral letter add ¥7,700. 0570-09-1331)"
+     },
+     {
+      "num": "3",
+      "text": "**Fukuoka Memorial Hospital** (Sawara Ward, Nishijin; general hospital. Foreign languages level A. 092-821-4731, http://kinen.jp)"
+     },
+     {
+      "num": "4",
+      "text": "Always check **whether an appointment is required** before visiting. Ito Clinic is closed on weekends, so also consider off-campus hospitals."
+     }
+    ]
+   },
+   "m4k5l6": {
+    "title": "Official hospital list (foreign-language support)",
+    "items": [
+     {
+      "text": "Ito Campus hospitals (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E4%BC%8A%E9%83%BD%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-1.pdf"
+     },
+     {
+      "text": "Hospital Campus hospitals (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%97%85%E9%99%A2%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-2.pdf"
+     },
+     {
+      "text": "Ohashi Campus hospitals (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E5%A4%A7%E6%A9%8B%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"
+     },
+     {
+      "text": "Chikushi Campus hospitals (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%AD%91%E7%B4%AB%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"
+     }
+    ]
+   },
+   "m5l6m7": {
+    "items": [
+     {
+      "num": "1",
+      "text": "**Bringing personal medication into Japan**: restrictions apply to medicines brought from overseas. MHLW: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/kojinyunyu/topics/tp010401-1.html"
+     },
+     {
+      "num": "2",
+      "text": "**Vaccine-preventable diseases** (check your vaccination history before travel): https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/visitor.html"
+     },
+     {
+      "num": "3",
+      "text": "**2026 CLUB & CIRCLE GUIDE** (campus circles, Japanese PDF): https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-CLUB-CIRCLE-GUIDE.pdf"
+     },
+     {
+      "num": "4",
+      "text": "**2026 International Clubs Guide** (international groups, English PDF): https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-INTL-CLUB-AND-CIRCLE%E3%80%80%E8%8B%B1%E8%AA%9E.pdf"
+     },
+     {
+      "num": "5",
+      "text": "**Global Gateways** (Kyushu U intl. division info site — check regularly): https://www.isc.kyushu-u.ac.jp/intlweb/"
+     }
+    ]
+   },
+   "w1a2b3": {
+    "text": "③ Campus Wi-Fi (kitenet)"
+   },
+   "w2b3c4": {
+    "text": "For newcomers whose internet is not set up yet, the division provides **temporary Wi-Fi login ID & password** (sent in late September to the email registered in the arrival support system). There are many access points across Kyushu University campuses."
+   },
+   "w3c4d5": {
+    "text": "Temporary login valid：**Sep 24 (Thu) – Oct 9 (Fri), 2026**. After Oct 9 these credentials no longer work. To keep using campus Wi-Fi (kitenet), set up your own **SSO-KID**."
+   },
+   "w4d5e6": {
+    "items": [
+     {
+      "title": "Find your SSO-KID",
+      "desc": "Regular students: check the **back of your student ID card**. If you don&#39;t have one yet, ask your faculty/graduate school office (and ask for your registration code)."
+     },
+     {
+      "title": "Prepare materials",
+      "desc": "Registration code + an email **other than @s.kyushu-u.ac.jp**."
+     },
+     {
+      "title": "Activate your SSO-KID",
+      "desc": "Activate here: https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
+     },
+     {
+      "title": "Complete kitenet initial setup",
+      "desc": "Official guides available (iOS / Android / other OS)."
+     }
+    ]
+   },
+   "w5e6f7": {
+    "items": [
+     {
+      "text": "SSO-KID activation page",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
+     },
+     {
+      "text": "Official campus Wi-Fi page",
+      "url": "https://notepm.jp/sharing/751f751c-dbec-4cf0-a5b9-0e3a396b467d"
+     }
+    ]
+   },
+   "1a2b3c": {
+    "text": "④ Administrative & banking guidance (for dorm residents)"
+   },
+   "2b3c4d": {
+    "text": "For new international students arriving from overseas and moving into dorms, the division handles address registration and National Health Insurance on your behalf, and explains National Pension, My Number card, and opening a bank account (Japan Post / Fukuoka Bank / Nishi-Nippon City Bank). **You must attend both the 1st and 2nd sessions.** Venue: Japanese Jonathan K.S. Choi Culture Hall (campus map No. 79). Bring: passport, residence card, black ballpoint pen."
+   },
+   "3c4d5e": {
+    "text": "Ito Harmony House / Dormitory 1-3 residents · schedule (Groups A–G)"
+   },
+   "c0d1e2": {
+    "headers": [
+     "Group",
+     "1st session",
+     "2nd session"
+    ],
+    "rows": [
+     [
+      "A",
+      "9/24 (Thu) 15:00-15:30",
+      "9/29 (Tue) 13:00-14:00"
+     ],
+     [
+      "B",
+      "9/25 (Fri) 13:00-13:30",
+      "9/29 (Tue) 13:00-14:00"
+     ],
+     [
+      "C",
+      "9/28 (Mon) 10:00-10:30",
+      "9/30 (Wed) 13:00-14:00"
+     ],
+     [
+      "D",
+      "9/29 (Tue) 10:00-10:30",
+      "10/1 (Thu) 13:00-14:00"
+     ],
+     [
+      "E",
+      "9/30 (Wed) 10:00-10:30",
+      "10/2 (Fri) 13:00-14:00"
+     ],
+     [
+      "F",
+      "10/1 (Thu) 10:00-10:30",
+      "10/5 (Mon) 12:30-13:30"
+     ],
+     [
+      "G",
+      "10/2 (Fri) 10:00-10:30",
+      "10/6 (Tue) 12:00-13:00"
+     ]
+    ]
+   },
+   "d1e2f0": {
+    "text": "About 18 min on foot from Harmony House, 5–7 min from the dorms. Capacity is limited, so you may not get your preferred slot. If the division registers your address on your behalf, you cannot simultaneously apply for the Specified Residence Card (a combined My Number + residence card; free at first address registration, **not mandatory**)."
+   },
+   "4d5e6f": {
+    "text": "SETTLE International residents · schedule (Groups A–C)"
+   },
+   "e2f0a3": {
+    "headers": [
+     "Group",
+     "1st session",
+     "2nd session"
+    ],
+    "rows": [
+     [
+      "A",
+      "9/28 (Mon) 11:00-11:30",
+      "9/30 (Wed) 15:00-16:00"
+     ],
+     [
+      "B",
+      "9/29 (Tue) 11:00-11:30",
+      "10/1 (Thu) 15:00-16:00"
+     ],
+     [
+      "C",
+      "9/30 (Wed) 11:00-11:30",
+      "10/2 (Fri) 15:00-16:00"
+     ]
+    ]
+   },
+   "f0a3b4": {
+    "text": "Same venue (Culture Hall No. 79). About 13 min by bus (get off at Kyudai Big Orange) or 35 min on foot."
+   },
+   "5e6f0a": {
+    "text": "⑤ New International Student Orientation (Sep 28)"
+   },
+   "6f0a1b": {
+    "text": "Sep 28 (Mon) 12:50–15:10 at Shiiki Hall, Ito Campus. Guest speakers from Nishi Police Station, Fukuoka Regional Immigration Services Bureau and Fukuoka City Fire Bureau. **Attendance is mandatory** for new international students (unless it overlaps with another orientation/guidance). Prior registration required: **application form** https://forms.cloud.microsoft/r/nCDDWic1U5"
+   },
+   "a3b4c5": {
+    "headers": [
+     "Time",
+     "Program"
+    ],
+    "rows": [
+     [
+      "12:50",
+      "Opening remarks"
+     ],
+     [
+      "12:55",
+      "Intro to Q-Mate"
+     ],
+     [
+      "13:05",
+      "Tips for new life in Fukuoka"
+     ],
+     [
+      "13:10",
+      "Intro to KUFSA (intl. student association)"
+     ],
+     [
+      "13:20",
+      "On-campus counseling services"
+     ],
+     [
+      "13:25",
+      "Status-of-residence system (immigration bureau)"
+     ],
+     [
+      "13:35",
+      "15-min break"
+     ],
+     [
+      "13:50",
+      "Safety & crime prevention (Nishi Police)"
+     ],
+     [
+      "14:30",
+      "Fire, first aid, disaster prevention (Fire Bureau)"
+     ],
+     [
+      "14:55",
+      "Library notice"
+     ],
+     [
+      "15:00",
+      "Closing remarks"
+     ]
+    ]
+   },
+   "b4c5d6": {
+    "text": "Same-day events: **SIM card sale** (Venue: Shiiki Hall Galleria. **Attend one of two sessions**: ①10:30–12:30 before the orientation, ②15:10–17:00 after it ends. The morning session is recommended; the afternoon may be crowded. **Prior registration required** — plans, prices and registration method are on the official poster), **library tour** (Central Library), **immigration consultation** (ask about your status), **welcome party** (17:00–18:00 @ BIG SKY, new students only). Free shuttles from Hospital / Chikushi / Ohashi campuses, Fukuoka City Intl. Center / Ijiri (outbound ~10:40–10:50, return ~18:20). First come; the return trip requires the ticket given on the outbound bus. **Shuttle pickup is at each campus&#39;s designated spot (see official PDF) — not at the international exchange halls.**"
+   },
+   "5f0a6b": {
+    "text": "⑤ New student campus tour (Sep 29–30)"
+   },
+   "6a7b8c": {
+    "headers": [
+     "Date",
+     "Time",
+     "Area"
+    ],
+    "rows": [
+     [
+      "9/29 (Tue)",
+      "10:30-12:00",
+      "East Zone (humanities)"
+     ],
+     [
+      "9/29 (Tue)",
+      "15:00-16:30",
+      "West Zone (science)"
+     ],
+     [
+      "9/30 (Wed)",
+      "10:30-12:00",
+      "West Zone (science)"
+     ],
+     [
+      "9/30 (Wed)",
+      "15:00-16:30",
+      "East Zone (humanities)"
+     ]
+    ]
+   },
+   "7b8c9d": {
+    "text": "Meet at Center Building 6. 20 people per tour, ~90 min, all on foot — wear comfortable shoes and bring water. Language mainly English (Japanese OK). You may pick either zone regardless of your major. Photos may be taken and posted to SNS; tell Q-Mate if you are uncomfortable. Organized by Q-Mate. Sign-up form on the official portal."
+   },
+   "8c9d0e": {
+    "text": "⑦ Fukuoka Bank account-opening event (Oct 6–8)"
+   },
+   "9d0e1f": {
+    "text": "Fukuoka Bank is one of the Fukuoka prefecture&#39;s major banks and has an ATM on Ito Campus. At this event you can **receive your account number and cash card on the spot** — no branch visit needed — ready for scholarship deposits and rent auto-debit right away. Fukuoka Bank and Kyushu U staff support in English and Japanese. **Venue: Japanese Jonathan K.S. Choi Culture Hall (campus map No. 79)**. Attend one of Sessions 1–3 (check your class timetable)."
+   },
+   "0e1f2a": {
+    "items": [
+     {
+      "num": "1",
+      "text": "Eligibility ①: address registered on your residence card. ②: at least 3 months left on your period of stay (under 3 months or renewal pending = cannot attend; you must handle it at a bank branch yourself)."
+     },
+     {
+      "num": "2",
+      "text": "Registration: **log in to the entry support system (Pre-Arrival Assistance) → click “Enter schedule information” → fill in the Fukuoka Bank account opening form and upload a photo of your residence card**. The form is only shown during the registration period."
+     },
+     {
+      "num": "3",
+      "text": "**Your registration is complete only after you receive a confirmation email from the division.** No email = cannot attend. Cancellation is not possible in principle; use the official cancellation form if you cannot make it."
+     },
+     {
+      "num": "4",
+      "text": "Hanko seal: **stamp pads (shachihata) cannot be used** — bring a traditional seal that uses a red ink pad. You also need a phone number usable in Japan (the Sep 28 SIM sales event can provide one)."
+     },
+     {
+      "num": "5",
+      "text": "US citizens: confirm your Social Security Number (9 digits) beforehand."
+     },
+     {
+      "num": "6",
+      "text": "MEXT scholarship students may join, but receiving the scholarship requires a **separate Japan Post Bank account**."
+     }
+    ]
+   },
+   "1f2a3b": {
+    "text": "⑧ ESP Emergency Secure Plan for international students"
+   },
+   "2a3b4c": {
+    "text": "**Mandatory** for all Kyushu U students with a “Student” status of residence. Provides 24/7 trilingual (Chinese/English/Japanese) medical assistance: hospital referrals, phone interpretation during visits (doctor&#39;s permission required), contacting your family and arranging transport in emergencies. **ESP is not insurance** — it does not cover medical costs; you pay for hospitalization, treatment and tests (via National Health Insurance or out of pocket)."
+   },
+   "3b4c5d": {
+    "headers": [
+     "Enrollment",
+     "Fee",
+     "Typical"
+    ],
+    "rows": [
+     [
+      "1 year",
+      "¥1,650",
+      "Non-degree, research students"
+     ],
+     [
+      "2 years",
+      "¥3,300",
+      "Master’s"
+     ],
+     [
+      "3 years",
+      "¥4,950",
+      "Doctoral"
+     ],
+     [
+      "4 years",
+      "¥6,600",
+      "Undergraduate"
+     ]
+    ]
+   },
+   "4c5d6e": {
+    "items": [
+     {
+      "num": "1",
+      "text": "Enrollment deadline: **Fri, Oct 30, 2026**."
+     },
+     {
+      "num": "2",
+      "text": "Apply online via the official app. A Japanese phone number is required, so **applying after arrival** is recommended. ⚠️ Sources conflict: the web page says OSSMA, but the 2026 official pamphlet says NEXUS (do not download the old app). Follow the latest pamphlet / division guidance."
+     },
+     {
+      "num": "3",
+      "text": "Payment: credit card / convenience store (choose at online registration; a separate fee applies)."
+     }
+    ]
+   },
+   "5d6e7f": {
+    "text": "⑩ Contacts & consultation"
+   },
+   "6e7f8a": {
+    "items": [
+     {
+      "num": "1",
+      "text": "Before arrival: Student Exchange Division imm.s@jimu.kyushu-u.ac.jp (for courses, contact your faculty/graduate school directly)."
+     },
+     {
+      "num": "2",
+      "text": "After arrival: LINE official account “Consultation Desk” (answered by Q-Mate; topics: housing, ward-office procedures, banking)."
+     },
+     {
+      "num": "3",
+      "text": "Q-Mate Instagram: @_qmate; website https://studentassistantqu.wixsite.com/q-mate/about"
+     },
+     {
+      "num": "4",
+      "text": "Q-Mate LINE official account: https://lin.ee/EiQqccP (contact/consultation entry point)"
+     }
+    ]
+   },
+   "7e8f9a": {
+    "items": [
+     {
+      "text": "Official NotePM portal (JA)",
+      "url": "https://notepm.jp/sharing/fb0e6579-ad42-4aaa-90fb-9bcff4e253e3"
+     },
+     {
+      "text": "Official NotePM portal (EN)",
+      "url": "https://notepm.jp/sharing/da6d736d-f9e1-44db-ba5e-580d2f1413b2"
+     },
+     {
+      "text": "Q-Mate Instagram",
+      "url": "https://www.instagram.com/_qmate/"
+     }
+    ]
+   },
+   "8f9a0b": {
+    "text": "**Source**: Student Exchange Division NotePM “New International Student Support Portal (Ito Campus)”, published 2026-08-20 (including sub-pages and official PDF timetables). Check official announcements for the latest information."
+   }
+  },
+  "ko": {
+   "9c1a2e": {
+    "text": "이 글은 규슈대 국제부·유학과가 **2026년 가을 신입 유학생**에게 공개한 공식 지원 정보를 정리한 것입니다. 원본: 유학과 NotePM 포털 「신입 유학생 서포트 포털(이토 캠퍼스)」(2026-08-20 공개). 대상·일정은 공식 기준을 따르세요."
+   },
+   "1b2c3d": {
+    "text": "일정 총람"
+   },
+   "a4b5c6": {
+    "headers": [
+     "날짜",
+     "일정",
+     "대상",
+     "비고"
+    ],
+    "rows": [
+     [
+      "9월 24일·25일",
+      "무료 공항 셔틀버스",
+      "전체 신입 유학생",
+      "선착순, 예약 불필요"
+     ],
+     [
+      "9월 24일·25일·29일·30일·10월 1일",
+      "무료 생활지원버스",
+      "신입 유학생과 서포터",
+      "선착순, 예약 불필요"
+     ],
+     [
+      "9월 24일~10월 상순",
+      "행정절차·은행 가이던스",
+      "기숙사 입주 해외 신입 유학생",
+      "⚠️ 사전 신청 필수"
+     ],
+     [
+      "9월 28일",
+      "신입 유학생 오리엔테이션 + SIM 판매·도서관 투어·출입국 상담·웰컴 파티",
+      "전체 신입 유학생(타 캠퍼스 포함)",
+      "⚠️ 신입 유학생 필참"
+     ],
+     [
+      "9월 29일·30일",
+      "신입 유학생 캠퍼스 투어",
+      "전체 신입 유학생",
+      "신청 필요, 회당 20명"
+     ],
+     [
+      "10월 6일·7일·8일",
+      "후쿠오카은행 계좌 개설회",
+      "주소 등록 완료한 신입 유학생",
+      "⚠️ 사전 신청 필수"
+     ]
+    ]
+   },
+   "2d3e4f": {
+    "text": "기숙사 입사 가능 시간은 모집요강(유학생용 숙사 신청) 6페이지 이후를 확인하세요."
+   },
+   "3e4f5a": {
+    "text": "① 무료 공항 셔틀버스(후쿠오카 공항 → 이토 기숙사)"
+   },
+   "4f5a6b": {
+    "text": "2026년 9월 24일·25일 이틀간 유학과가 후쿠오카 공항에서 큐다이 가켄토시역 / 도미토리 1-3 / 이토 협주관 / 세틀 인터내셔널까지 무료 셔틀버스를 운행합니다. **원칙적으로 신입 유학생 본인만** 이용할 수 있습니다. 선착순·사전예약 불필요, 만석이면 탑승하지 못할 수 있습니다. **출발 15분 전**까지 집합하세요."
+   },
+   "5a6b7c": {
+    "headers": [
+     "출발(후쿠오카 공항)",
+     "1편",
+     "2편",
+     "3편",
+     "4편"
+    ],
+    "rows": [
+     [
+      "국제선 터미널",
+      "9:00",
+      "11:30",
+      "15:00",
+      "18:00"
+     ],
+     [
+      "국내선 터미널",
+      "9:25",
+      "11:55",
+      "15:25",
+      "18:25"
+     ]
+    ]
+   },
+   "6b7c8d": {
+    "headers": [
+     "도착",
+     "1편",
+     "2편",
+     "3편",
+     "4편"
+    ],
+    "rows": [
+     [
+      "큐다이 가켄토시역",
+      "9:55",
+      "12:35",
+      "16:05",
+      "19:05"
+     ],
+     [
+      "세틀 인터내셔널",
+      "10:25",
+      "12:55",
+      "16:25",
+      "(정차 없음)"
+     ],
+     [
+      "도미토리 1-3",
+      "10:45",
+      "13:15",
+      "16:45",
+      "19:30"
+     ],
+     [
+      "이토 협주관",
+      "11:00",
+      "13:30",
+      "17:00",
+      "19:50"
+     ]
+    ]
+   },
+   "7c8d9e": {
+    "items": [
+     {
+      "num": "1",
+      "text": "매일 4편은 세틀 인터내셔널에 정차하지 않습니다."
+     },
+     {
+      "num": "2",
+      "text": "집합 장소: 후쿠오카 공항 국제선·국내선 터미널. 출발 1시간 전부터 「Kyushu University」 플래카드를 든 유학과 직원이 도착구 근처 접수처에서 대기합니다."
+     },
+     {
+      "num": "3",
+      "text": "출발·도착 시간은 교통 상황에 따라 달라질 수 있습니다."
+     },
+     {
+      "num": "4",
+      "text": "병원·지쿠시·오하시 캠퍼스 신입 유학생은 **이 버스를 이용할 수 없습니다**."
+     }
+    ]
+   },
+   "8d9e0f": {
+    "text": "② 무료 생활지원버스(기숙사 ⇄ 큐다이 가켄토시역)"
+   },
+   "9e0f1a": {
+    "text": "운행 구간: 이토 협주관 / 도미토리 1-3 / 세틀 인터내셔널 ⇄ 큐다이 가켄토시역(가켄토시 지역에는 이온몰, 사이토피아 등 쇼핑·공공시설이 밀집). 운행일: 9월 24일·25일·29일·30일, 10월 1일. 신입 유학생과 서포터 이용 가능, 선착순. 아래 표는 다음 차량 도착 시각을 실시간으로 표시합니다."
+   },
+   "0f1a2b": {
+    "text": "좌석이 제한되어 있고 선착순입니다. 도미토리 2·3 거주자는 도미토리 1에서 승차하세요. 운행 시각·정차 위치는 공식 포스터 PDF를 확인하세요."
+   },
+   "m1h2i3": {
+    "text": "⑨ 유용한 정보·의료 건강 리소스"
+   },
+   "m2i3j4": {
+    "text": "유학과 「유용한 정보」 페이지에는 후쿠오카 생활에 도움 되는 리소스가 정리되어 있습니다. **의료는 신입 유학생이 가장 어려워하는 주제**: 이토 캠퍼스 안에는 **이토 진료소**가 있지만 주말에는 이용할 수 없습니다. 교외 진료는 **외국어 대응 가능 의료기관 목록**(2026년 5월판, 대응 언어 등급 A 유창 / B 일상회화 / C 간단한 말)을 참고하세요."
+   },
+   "m3j4k5": {
+    "items": [
+     {
+      "num": "1",
+      "text": "**캠퍼스 내: 이토 진료소**(센터 6호관 1F, 내과+정신과. 월~금 10:00-12:30 / 14:00-16:30. 영어 대응 B. https://itoclinic.kyushu-u.ac.jp/)"
+     },
+     {
+      "num": "2",
+      "text": "**니시후쿠오카병원**(니시구 이쿠노마츠바라, 종합병원. 외국어 A 20개 언어. 소개·예약제, 소개장 없으면 별도 7,700엔. 0570-09-1331)"
+     },
+     {
+      "num": "3",
+      "text": "**후쿠오카기념병원**(사와라구 니시진, 종합병원. 외국어 A. 092-821-4731, http://kinen.jp)"
+     },
+     {
+      "num": "4",
+      "text": "진료 전에 **예약이 필요한지** 반드시 확인. 이토 진료소는 주말 휴무이므로 교외 병원도 고려하세요."
+     }
+    ]
+   },
+   "m4k5l6": {
+    "title": "공식 의료기관 목록(외국어 대응 가능)",
+    "items": [
+     {
+      "text": "이토 캠퍼스 의료기관표 (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E4%BC%8A%E9%83%BD%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-1.pdf"
+     },
+     {
+      "text": "병원 캠퍼스 의료기관표 (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%97%85%E9%99%A2%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-2.pdf"
+     },
+     {
+      "text": "오하시 캠퍼스 의료기관표 (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E5%A4%A7%E6%A9%8B%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"
+     },
+     {
+      "text": "치쿠시 캠퍼스 의료기관표 (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%AD%91%E7%B4%AB%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"
+     }
+    ]
+   },
+   "m5l6m7": {
+    "items": [
+     {
+      "num": "1",
+      "text": "**개인용 의약품 일본 반입**: 해외 의약품 반입에는 제한이 있습니다. 후생노동성: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/kojinyunyu/topics/tp010401-1.html"
+     },
+     {
+      "num": "2",
+      "text": "**백신으로 예방 가능한 감염병**(출국 전 예방접종 이력 확인): https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/visitor.html"
+     },
+     {
+      "num": "3",
+      "text": "**2026 CLUB & CIRCLE GUIDE**(교내 동아리, 일본어판 PDF): https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-CLUB-CIRCLE-GUIDE.pdf"
+     },
+     {
+      "num": "4",
+      "text": "**2026 International Clubs Guide**(국제계 단체, 영어판 PDF): https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-INTL-CLUB-AND-CIRCLE%E3%80%80%E8%8B%B1%E8%AA%9E.pdf"
+     },
+     {
+      "num": "5",
+      "text": "**Global Gateways**(규슈대 국제부 유학생 정보 사이트, 정기 확인): https://www.isc.kyushu-u.ac.jp/intlweb/"
+     }
+    ]
+   },
+   "w1a2b3": {
+    "text": "③ 캠퍼스 Wi-Fi (kitenet)"
+   },
+   "w2b3c4": {
+    "text": "입국 직후 인터넷 환경이 갖춰지지 않은 신입 유학생을 위해 유학과가 **임시 Wi-Fi 로그인 ID·비밀번호**를 준비(9월 하순, 입국지원시스템 등록 이메일로 발송 예정). 규슈대 캠퍼스 곳곳에 액세스 포인트가 많습니다."
+   },
+   "w3c4d5": {
+    "text": "임시 로그인 사용 가능 기간: **2026년 9월 24일(목)~10월 9일(금)**. 10월 9일 이후에는 이 ID·비밀번호를 사용할 수 없습니다. 이후에도 학교 Wi-Fi(kitenet)를 쓰려면 본인의 **SSO-KID**로 설정해야 합니다."
+   },
+   "w4d5e6": {
+    "items": [
+     {
+      "title": "본인의 SSO-KID 확인",
+      "desc": "정규생은 **학생증 뒷면**. 학생증이 없으면 소속 학부·대학원 사무실에 문의(등록 코드도 함께 확인)."
+     },
+     {
+      "title": "준비물",
+      "desc": "등록 코드와 **@s.kyushu-u.ac.jp 외 이메일**."
+     },
+     {
+      "title": "SSO-KID 활성화",
+      "desc": "아래 링크에서 활성화: https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
+     },
+     {
+      "title": "kitenet 초기 설정 완료",
+      "desc": "공식 가이드 제공(iOS / Android / 기타 OS)."
+     }
+    ]
+   },
+   "w5e6f7": {
+    "items": [
+     {
+      "text": "SSO-KID 활성화 페이지",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
+     },
+     {
+      "text": "캠퍼스 Wi-Fi 공식 페이지",
+      "url": "https://notepm.jp/sharing/751f751c-dbec-4cf0-a5b9-0e3a396b467d"
+     }
+    ]
+   },
+   "1a2b3c": {
+    "text": "④ 행정절차·은행 가이던스(기숙사 입주자 필독)"
+   },
+   "2b3c4d": {
+    "text": "해외에서 입국해 기숙사에 입주하는 신입 유학생을 대상으로, 유학과가 주소 등록과 국민건강보험 등 행정절차를 대행하고, 국민연금·마이넘버 카드·은행 계좌 개설(유초 / 후쿠오카은행 / 니시닛폰시티은행)을 설명합니다. **1차와 2차 모두 참가 필수**입니다. 장소: 일본 조나단 K.S. 최 문화관(캠퍼스 지도 No.79). 준비물: 여권·재류카드·검정 볼펜."
+   },
+   "3c4d5e": {
+    "text": "이토 협주관 / 도미토리 1-3 입주자 · 일정(A~G조)"
+   },
+   "c0d1e2": {
+    "headers": [
+     "조",
+     "1차 가이던스",
+     "2차 가이던스"
+    ],
+    "rows": [
+     [
+      "A",
+      "9/24(목) 15:00-15:30",
+      "9/29(화) 13:00-14:00"
+     ],
+     [
+      "B",
+      "9/25(금) 13:00-13:30",
+      "9/29(화) 13:00-14:00"
+     ],
+     [
+      "C",
+      "9/28(월) 10:00-10:30",
+      "9/30(수) 13:00-14:00"
+     ],
+     [
+      "D",
+      "9/29(화) 10:00-10:30",
+      "10/1(목) 13:00-14:00"
+     ],
+     [
+      "E",
+      "9/30(수) 10:00-10:30",
+      "10/2(금) 13:00-14:00"
+     ],
+     [
+      "F",
+      "10/1(목) 10:00-10:30",
+      "10/5(월) 12:30-13:30"
+     ],
+     [
+      "G",
+      "10/2(금) 10:00-10:30",
+      "10/6(화) 12:00-13:00"
+     ]
+    ]
+   },
+   "d1e2f0": {
+    "text": "협주관에서 도보 약 18분, 도미토리에서 도보 약 5~7분. 정원이 제한되어 있어 희망 일시를 고를 수 없을 수 있습니다. 유학과가 주소 등록을 대행하는 경우 특정 재류카드(마이넘버 카드와 재류카드 일체형 카드; 신규 입국 주소 등록 시 무료, **의무 아님**) 신청을 동시에 할 수 없습니다."
+   },
+   "4d5e6f": {
+    "text": "세틀 인터내셔널 입주자 · 일정(A~C조)"
+   },
+   "e2f0a3": {
+    "headers": [
+     "조",
+     "1차 가이던스",
+     "2차 가이던스"
+    ],
+    "rows": [
+     [
+      "A",
+      "9/28(월) 11:00-11:30",
+      "9/30(수) 15:00-16:00"
+     ],
+     [
+      "B",
+      "9/29(화) 11:00-11:30",
+      "10/1(목) 15:00-16:00"
+     ],
+     [
+      "C",
+      "9/30(수) 11:00-11:30",
+      "10/2(금) 15:00-16:00"
+     ]
+    ]
+   },
+   "f0a3b4": {
+    "text": "장소는 동일(문화관 No.79). 버스 약 13분(큐다이 빅오렌지 앞 하차), 도보 약 35분."
+   },
+   "5e6f0a": {
+    "text": "⑤ 신입 유학생 오리엔테이션(9월 28일)"
+   },
+   "6f0a1b": {
+    "text": "9월 28일(월) 12:50~15:10, 이토 캠퍼스 시이키 강당. 니시 경찰서, 후쿠오카 출입국재류관리국, 후쿠오카시 소방국이 강연합니다. **신입 유학생 필참**(다른 오리엔테이션·가이던스와 일정이 겹치는 경우 제외). 사전 등록 필요: **신청 폼** https://forms.cloud.microsoft/r/nCDDWic1U5"
+   },
+   "a3b4c5": {
+    "headers": [
+     "시간",
+     "내용"
+    ],
+    "rows": [
+     [
+      "12:50",
+      "개회사"
+     ],
+     [
+      "12:55",
+      "「Q-Mate」소개"
+     ],
+     [
+      "13:05",
+      "후쿠오카 새 생활 유용 정보"
+     ],
+     [
+      "13:10",
+      "「KUFSA」(유학생회) 소개"
+     ],
+     [
+      "13:20",
+      "교내 심리상담 서비스"
+     ],
+     [
+      "13:25",
+      "체류자격 제도(출입국재류관리국)"
+     ],
+     [
+      "13:35",
+      "휴식 15분"
+     ],
+     [
+      "13:50",
+      "안전과 방범(니시 경찰서)"
+     ],
+     [
+      "14:30",
+      "화재·응급·방재(소방국)"
+     ],
+     [
+      "14:55",
+      "도서관 안내"
+     ],
+     [
+      "15:00",
+      "폐회사"
+     ]
+    ]
+   },
+   "b4c5d6": {
+    "text": "당일 동시 개최: **SIM 카드 판매회**(장소: 시이키 강당 갤러리아. **세션 2개 중 하나 참가**: ①10:30~12:30 오리엔테이션 전, ②15:10~17:00 종료 후. 공식 안내는 오전 세션 추천, 오후는 혼잡 가능. **사전 등록 필수**, 요금제·가격·등록 방법은 공식 포스터 참조), **도서관 투어**(중앙도서관), **출입국 상담회**(체류자격 질문 가능), **웰컴 파티**(17:00-18:00 @ BIG SKY, 신입 유학생 한정). 병원·지쿠시·오하시 캠퍼스, 후쿠오카시 국제회관·이지리에서 시이키 강당까지 무료 셔틀 운행(가는 편 10:40-10:50경, 오는 편 18:20경 출발). 선착순, 귀가 시 가는 편에서 받은 승차권 필요. **승차 장소는 각 캠퍼스 지정 위치(공식 PDF 참조)로, 국제교류회관이 아닙니다.**"
+   },
+   "5f0a6b": {
+    "text": "⑤ 신입 유학생 캠퍼스 투어(9월 29·30일)"
+   },
+   "6a7b8c": {
+    "headers": [
+     "날짜",
+     "시간",
+     "테마"
+    ],
+    "rows": [
+     [
+      "9/29(화)",
+      "10:30-12:00",
+      "이스트 존(문과)"
+     ],
+     [
+      "9/29(화)",
+      "15:00-16:30",
+      "웨스트 존(이과)"
+     ],
+     [
+      "9/30(수)",
+      "10:30-12:00",
+      "웨스트 존(이과)"
+     ],
+     [
+      "9/30(수)",
+      "15:00-16:30",
+      "이스트 존(문과)"
+     ]
+    ]
+   },
+   "7b8c9d": {
+    "text": "집합: 센터 6호관. 회당 20명·약 90분·도보 이동 — 편한 신발을 신고 음료는 각자 준비하세요. 언어는 영어 중심(일본어도 가능). 문과·이과 구분 없이 어느 존이든 선택 가능. 투어 중 사진을 찍어 SNS에 게시할 수 있습니다. 불편하면 Q-Mate에 알려주세요. Q-Mate 주최. 신청 폼은 공식 포털 참조."
+   },
+   "8c9d0e": {
+    "text": "⑦ 후쿠오카은행 계좌 개설회(10월 6·7·8일)"
+   },
+   "9d0e1f": {
+    "text": "후쿠오카은행은 이토 캠퍼스 안에도 ATM이 있는 후쿠오카 현의 주요 은행 중 하나. 개설회에 참가하면 **그 자리에서 계좌번호와 캐시카드를 받을 수** 있고, 지점에 갈 필요가 없습니다. 장학금 수령 계좌나 월세 자동이체에도 바로 사용할 수 있습니다. 후쿠오카은행과 규슈대 직원이 영어·일본어로 지원합니다. **장소: 일본 조나단 K.S. 초이 문화관(캠퍼스 맵 No.79)**. 1~3회 중 하나 참가(자신의 시간표 확인)."
+   },
+   "0e1f2a": {
+    "items": [
+     {
+      "num": "1",
+      "text": "조건 ①: 재류카드 주소 등록 완료. 조건 ②: 체류기간 3개월 이상 남아 있을 것(3개월 미만 또는 갱신 신청 중은 참가 불가. 은행 지점에서 직접 처리 필요)."
+     },
+     {
+      "num": "2",
+      "text": "신청: **입국지원시스템(Pre-Arrival Assistance) 로그인 → 「일정 정보 입력」 → 후쿠오카은행 계좌 개설회 신청서 작성 + 재류카드 사진 업로드**. 신청서는 신청 기간에만 표시됩니다."
+     },
+     {
+      "num": "3",
+      "text": "**유학과 확인 메일 수신 후에야 신청 완료**. 메일이 없으면 참가할 수 없습니다. 원칙적으로 취소 불가. 참가가 어려워지면 공식 취소 폼으로 신청."
+     },
+     {
+      "num": "4",
+      "text": "도장: **샤치하타(스탬프 패드) 도장 사용 불가**. 붉은 인주(Red Ink Pad)를 쓰는 전통 도장 준비. 일본에서 사용 가능한 전화번호도 필요(9/28 SIM 판매회에서 준비 가능)."
+     },
+     {
+      "num": "5",
+      "text": "미국 국적자는 Social Security Number(SSN)(9자리)를 사전에 확인."
+     },
+     {
+      "num": "6",
+      "text": "MEXT 장학생도 참가할 수 있지만, 장학금 수령에는 **별도 유초은행 계좌**가 필요합니다."
+     }
+    ]
+   },
+   "1f2a3b": {
+    "text": "⑧ ESP 외국인 유학생 긴급 안심 플랜"
+   },
+   "2a3b4c": {
+    "text": "「유학」 체류자격을 가진 규슈대 전 유학생 **필수 가입**. 24시간·365일·중영일 3개국어 메디컬 어시스턴스 제공: 의료기관 소개, 진료 시 전화 통역(의사 허가 필요), 긴급 시 모국 가족 연락과 교통 수배 등. **주의: ESP는 보험이 아닙니다**. 의료비는 보상되지 않으며 입원·치료·검사 비용은 각자 부담(국민건강보험 또는 자비)."
+   },
+   "3b4c5d": {
+    "headers": [
+     "재학 연수",
+     "비용",
+     "해당"
+    ],
+    "rows": [
+     [
+      "1년",
+      "1,650엔",
+      "비정규생, 연구생 등"
+     ],
+     [
+      "2년",
+      "3,300엔",
+      "석사 과정"
+     ],
+     [
+      "3년",
+      "4,950엔",
+      "박사 후기 과정"
+     ],
+     [
+      "4년",
+      "6,600엔",
+      "학부"
+     ]
+    ]
+   },
+   "4c5d6e": {
+    "items": [
+     {
+      "num": "1",
+      "text": "가입 기한: **2026년 10월 30일(금)**."
+     },
+     {
+      "num": "2",
+      "text": "신청: 공식 앱에서 온라인 신청. 일본 휴대폰 번호가 필요하므로 **입국 후 신청**을 권장. ⚠️ 출처 불일치: 웹페이지는 OSSMA, 2026 공식 팜플렛은 NEXUS(구 앱 다운로드 금지). 최신 팜플렛/유학과 안내를 따르세요."
+     },
+     {
+      "num": "3",
+      "text": "결제: 신용카드 / 편의점(온라인 등록 시 선택, 별도 수수료 발생)."
+     }
+    ]
+   },
+   "5d6e7f": {
+    "text": "⑩ 문의·상담 창구"
+   },
+   "6e7f8a": {
+    "items": [
+     {
+      "num": "1",
+      "text": "입국 전 문의: 유학과 imm.s@jimu.kyushu-u.ac.jp(수강·수업은 소속 예정 학부·대학원에 직접)."
+     },
+     {
+      "num": "2",
+      "text": "입국 후 문의: LINE 공식 계정 「Consultation Desk」(Q-Mate가 응답. 주거·구청 절차·은행 등)."
+     },
+     {
+      "num": "3",
+      "text": "Q-Mate Instagram: @_qmate; 공식 사이트 https://studentassistantqu.wixsite.com/q-mate/about"
+     },
+     {
+      "num": "4",
+      "text": "Q-Mate LINE 공식 계정: https://lin.ee/EiQqccP (문의·질문 입구)"
+     }
+    ]
+   },
+   "7e8f9a": {
+    "items": [
+     {
+      "text": "공식 NotePM 포털(일본어)",
+      "url": "https://notepm.jp/sharing/fb0e6579-ad42-4aaa-90fb-9bcff4e253e3"
+     },
+     {
+      "text": "공식 NotePM 포털(영어)",
+      "url": "https://notepm.jp/sharing/da6d736d-f9e1-44db-ba5e-580d2f1413b2"
+     },
+     {
+      "text": "Q-Mate Instagram",
+      "url": "https://www.instagram.com/_qmate/"
+     }
+    ]
+   },
+   "8f9a0b": {
+    "text": "**원본**: 유학과 NotePM 「신입 유학생 서포트 포털(이토 캠퍼스)」 2026-08-20 공개(각 하위 페이지·공식 PDF 시간표 포함). 최신 정보는 공식 발표를 확인하세요."
+   }
+  }
+ },
+ "guide-scholarship": {
+  "ja": {
+   "768171": {
+    "items": [
      {
       "text": "私費留学生のための奨学金（制度の概要）",
       "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/page-012"
@@ -11337,765 +12022,228 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2024/08/The-scholarship-application-process-1.pdf"
      },
      {
-      "text": "学内選考の手続きと必要書類",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2024/09/On-campus-selection.pdf"
-     },
-     {
       "text": "奨学金 Q&A 集",
       "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2024/09/QA-List_JPN_202405.pdf"
      },
      {
       "text": "国費外国人留学生（制度説明）",
       "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/government-expense"
-     },
-     {
-      "text": "国費：支給期間延長の申請",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2021/03/2ffc084a7bc89c0ce517807396d55ecf.pdf"
-     },
-     {
-      "text": "JASSO 学習奨励費（留学生受入れ促進プログラム）",
-      "url": "https://www.jasso.go.jp/ryugaku/scholarship_j/shoreihi/index.html"
      }
     ]
    },
-   "a95dcb": {
-    "text": "**このページの内容を翌年度の予定として流用しないでください。** 名称・金額・締切は毎年変わりますし、公式一覧も当年度しか載せていません。新年度になったら Global Gateways の奨学金一覧で必ず確認し直してください。"
+   "13edbe": {
+    "text": "このページで分かることは 2 つ：**いま何に出せるか**、**どう出すか**。九大の私費奨学金はほぼ「在籍中 ＋ 日本語ができる」が条件で、大学推薦と直接応募の 2 ルートあります。いま応募できるのは下の 7 件です。"
    },
-   "a6bbc9": {
-    "text": "相談窓口：**国際部留学課 留学生係（私費留学生向け奨学金）** `intlr-pscholar@jimu.kyushu-u.ac.jp`。学習奨励費は**所属学部・学府の学務係**へ。"
-   }
-  },
-  "en": {
-   "ec6ef2": {
-    "text": "This page covers the scholarships available to **privately financed international students** at Kyushu University: the two application routes, the guidelines you must read yourself, what is open right now, the full list by year, and the **Japanese Government (MEXT) scholarship** system. It is aimed mainly at **students already enrolled** - newcomers can read it to learn the rules first."
+   "25d902": {
+    "text": "**出典**：Global Gateways「奨学金一覧」（国際部留学課）、2026-09-14 取得。財団ごとに毎年募集し直し、金額も締切も変わります —— **応募前に下の公式一覧で原文を確認してください**。"
    },
-   "c82561": {
-    "text": "**Source of the list**: Global Gateways “Scholarship Information” (International Student Exchange Division), captured 2026-09-14. The list is updated yearly and some calls run for only one or two weeks - **always confirm the current wording on the official page**. This page is navigation and digest only."
+   "3fe9fc": {
+    "text": "いま応募できるもの（7 件）"
    },
-   "346b81": {
-    "text": "Five things to understand before you apply"
-   },
-   "377fd5": {
-    "items": [
-     {
-      "text": "**Read the guidelines yourself.** Students really do lose awards for applying without understanding them."
-     },
-     {
-      "text": "**Double-dipping rules**: receiving several scholarships at once is normally banned, or capped in total amount. Check every case."
-     },
-     {
-      "text": "**Residence status** is usually “Student”. Holders of “Dependent” or “Permanent Resident” cannot apply for some scholarships."
-     },
-     {
-      "text": "**Japanese ability** is a de facto gate: many foundations require handwritten Japanese documents (including a short essay) and interviews in Japanese, and guidelines are often Japanese-only."
-     },
-     {
-      "text": "Most schemes target **students already enrolled** at Kyushu University. Very few accept applications before enrolment."
-     },
-     {
-      "text": "**Competition is fierce.** Applying does not mean being selected - apply to several while keeping your grades up."
-     }
-    ]
-   },
-   "1d665b": {
-    "text": "The division also publishes a **Scholarship Guidebook** (how to write applications, interview tips) - see the links below."
-   },
-   "490b28": {
-    "text": "The two application routes"
-   },
-   "ade284": {
+   "552ef2": {
     "headers": [
-     "路径",
-     "流程",
-     "要注意"
+     "奨学金",
+     "金額",
+     "締切"
     ],
     "rows": [
      [
-      "大学推薦（学内选考）",
-      "先过校内选考 → 学校向财团推荐 → 财团最终审查",
-      "校内选考就会落选；即被推荐也可能最终不采用"
+      "CWAJ 外国人留学生大学院女子奨…",
+      "年 200万円",
+      "10/5"
+     ],
+     [
+      "INPEX教育交流…（3 个国别版）",
+      "月 160,000円",
+      "10/31"
+     ],
+     [
+      "日本台湾交流協会日本奨学金",
+      "月 14万4千円",
+      "10/23"
+     ],
+     [
+      "福岡よかトピア国際交流財団",
+      "年 50万円",
+      "9/24 17:00"
+     ],
+     [
+      "本庄国際奨学財団",
+      "月 23万円",
+      "10/31"
+     ],
+     [
+      "平和中島財団奨学金",
+      "学部生：月 17万円",
+      "9/25 17:00"
+     ],
+     [
+      "イノアック国際教育振興財団奨学金",
+      "月 5万円",
+      "10/9 13:00"
+     ]
+    ]
+   },
+   "0e1654": {
+    "text": "以下は公式ファイルを直接入手できます —— **まず募集要項を読んでから出すか決めましょう**。"
+   },
+   "075ce4": {
+    "items": [
+     {
+      "text": "INPEX教育交流…（3 个国别版） — 募集要項（PDF）・インドネシア",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/view-attach-file.php?sc_id=1199&img_type=1&img_for=1&mime_type=application/pdf"
+     },
+     {
+      "text": "INPEX教育交流…（3 个国别版） — 募集要項（PDF）・オーストラリア",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/view-attach-file.php?sc_id=1200&img_type=1&img_for=1&mime_type=application/pdf"
+     },
+     {
+      "text": "INPEX教育交流…（3 个国别版） — 募集要項（PDF）・UAE",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/view-attach-file.php?sc_id=1201&img_type=1&img_for=1&mime_type=application/pdf"
+     },
+     {
+      "text": "福岡よかトピア国際交流財団 — 募集要項（PDF）",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/view-attach-file.php?sc_id=1212&img_type=1&img_for=1&mime_type=application/pdf"
+     },
+     {
+      "text": "平和中島財団奨学金 — 募集要項（PDF）・2027 年度版",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/view-attach-file.php?sc_id=1210&img_type=1&img_for=1&mime_type=application/pdf"
+     },
+     {
+      "text": "平和中島財団奨学金 — 募集要項（PDF）・2026 年度版",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/view-attach-file.php?sc_id=1140&img_type=1&img_for=1&mime_type=application/pdf"
+     }
+    ]
+   },
+   "620a45": {
+    "text": "それ以外は公式一覧から入ってください（毎年更新・終了分も掲載）："
+   },
+   "d123df": {
+    "items": [
+     {
+      "text": "奨学金一覧（公式・当年度）",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2027&lang="
+     },
+     {
+      "text": "奨学金一覧（公式・前年度、終了分を含む）",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2026&lang="
+     },
+     {
+      "text": "Scholarship list (English)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2027&lang=en"
+     }
+    ]
+   },
+   "c482ce": {
+    "text": "応募前に必ず理解する 5 つのこと"
+   },
+   "9145cf": {
+    "items": [
+     {
+      "text": "**募集要項は自分で読む**：理解せず応募して取消になった例があります。"
+     },
+     {
+      "text": "**併給に上限**：二重受給は原則不可。上限ありも要確認。"
+     },
+     {
+      "text": "**日本語は事実上の関門**：自筆書類や日本語面接を求める財団が多い。"
+     },
+     {
+      "text": "**多くは在籍者のみ**：入学前に出せるものはごく少数。"
+     },
+     {
+      "text": "**競争は激しい**：応募 ≠ 採用。複数併願を。"
+     }
+    ]
+   },
+   "7efb8a": {
+    "text": "2 つの応募ルート"
+   },
+   "2461df": {
+    "headers": [
+     "ルート",
+     "誰が提出",
+     "リスク"
+    ],
+    "rows": [
+     [
+      "大学推薦（学内選考）",
+      "まず留学課へ。通過後に大学が推薦",
+      "学内で先に落ちる"
      ],
      [
       "直接応募",
-      "不经过学校，自行向财团申请",
-      "需自己盯官网与截止日；材料要求更杂"
+      "自分で財団へ出す",
+      "公式サイトと締切を自分で追う"
      ]
     ]
    },
-   "7bc3ca": {
-    "text": "**On-campus selection documents go to the International Student Exchange Division** (`intlr-pscholar@jimu.kyushu-u.ac.jp`). **Direct applications** are handled by you with the foundation. The MEXT Study Incentive Grant goes through **your faculty/graduate school office** - different track entirely."
+   "887b6a": {
+    "text": "**学内選考**は国際部留学課留学生係 `intlr-pscholar@jimu.kyushu-u.ac.jp`。学習奨励費（私費対象・月 48,000 円）は**所属学部／学府の学務係**で、別ルートです。"
    },
-   "6f207f": {
-    "text": "Open for application now (9)"
+   "8aa843": {
+    "text": "国費外国人留学生（政府奨学金）"
    },
-   "13207e": {
-    "text": "Sorted by **deadline**; only entries marked as open in the official list. Amounts and eligibility are digests of the official Japanese text - see the official list below for the document checklist."
-   },
-   "8c303e": {
-    "headers": [
-     "Scholarship",
-     "Amount",
-     "Eligibility",
-     "Deadline"
-    ],
-    "rows": [
-     [
-      "CWAJ(ｶﾚｯｼﾞ･ｳｨﾒﾝｽﾞ･ｱｿｼｴｰｼｮﾝ･ｵﾌﾞ･ｼﾞｬﾊﾟﾝ) 外国人留学生…",
-      "年間200万円",
-      "博士課程の女子学生",
-      "2026年7月中旬 〜 10月5日（月）22:00 JST"
-     ],
-     [
-      "INPEX教育交流財団奨学金（インドネシア）",
-      "月額奨学金：160,000円、学費（検定料、入学金、授業料を含む）、旅費、渡航手当、日本語…",
-      "2027年度にSTEM分野（理学、工学、農学、医学、薬学、建築学などを含む）の修士（博士前…",
-      "2026年8月1日（土）〜10月31日（土）"
-     ],
-     [
-      "INPEX教育交流財団奨学金（オーストラリア）",
-      "月額奨学金：160,000円、学費（検定料、入学金、授業料を含む）、旅費、渡航手当、日本語…",
-      "2027年度に修士（博士前期）課程への進学を希望する私費外国人学生",
-      "2026年8月1日（土）〜10月31日（土）"
-     ],
-     [
-      "INPEX教育交流財団奨学金（UAE）",
-      "月額奨学金：160,000円、学費（検定料、入学金、授業料を含む）、旅費、渡航手当、日本語…",
-      "2027年度に修士（博士前期）課程への進学を希望する私費外国人学生",
-      "2026年8月1日（土）〜10月31日（土）"
-     ],
-     [
-      "日本台湾交流協会日本奨学金（直接応募）",
-      "月額14万4千円（修士）、14万5千円（博士）および授業料等",
-      "修士、博士",
-      "2026年8月3日(月)〜2026年10月23日(金)"
-     ],
-     [
-      "福岡よかトピア国際交流財団 (ふえき あきら留学生育英奨学金 )",
-      "年額50万円",
-      "学部（研究生は不可）",
-      "2026年9月10日（木）〜9月24日（木）17時"
-     ],
-     [
-      "本庄国際奨学財団（春採用）(直接応募)",
-      "月額23万円(最短就業年限までが1〜2年)、月額21万円(最短就業年限までが3年)、月額1…",
-      "修士、博士",
-      "2026年9月1日（火）〜 2026年10月31日（土）"
-     ],
-     [
-      "平和中島財団奨学金",
-      "学部生 ：月額17万円(学部) 大学院生：月額20万円(大学院)",
-      "学部、修士、博士 ※応募時に既に本学に在籍している者、かつ2027年4月に正規課程に在籍予…",
-      "2026年9月3日（木）〜9月25日(金）17時"
-     ],
-     [
-      "イノアック国際教育振興財団奨学金 （直接応募）",
-      "月額5万円",
-      "学部、大学院（研究生は不可） ※2027年9月卒業予定の者は不可。",
-      "〜2026年10月9日（金）13時"
-     ]
-    ]
-   },
-   "ce1b1e": {
-    "text": "Full list by year"
-   },
-   "ed92ef": {
-    "text": "“Year” is the award year, not the application year: **2027** awards are mostly applied for in autumn 2026 and paid from April 2027. Closed entries are kept so you can tell when each foundation usually opens."
-   },
-   "f18522": {
-    "title": "FY2027 - all 10"
-   },
-   "eb6a10": {
-    "headers": [
-     "Scholarship",
-     "Amount",
-     "Eligibility",
-     "Deadline"
-    ],
-    "rows": [
-     [
-      "平和中島財団奨学金",
-      "学部生 ：月額17万円(学部) 大学院生：月額20万円(大学院)",
-      "学部、修士、博士 ※応募時に既に本学に在籍している者、かつ2027年4月に正規課程に在籍予…",
-      "2026年9月3日（木）〜9月25日(金）17時"
-     ],
-     [
-      "イノアック国際教育振興財団奨学金 （直接応募）",
-      "月額5万円",
-      "学部、大学院（研究生は不可） ※2027年9月卒業予定の者は不可。",
-      "〜2026年10月9日（金）13時"
-     ],
-     [
-      "本庄国際奨学財団（春採用）(直接応募)",
-      "月額23万円(最短就業年限までが1〜2年)、月額21万円(最短就業年限までが3年)、月額1…",
-      "修士、博士",
-      "2026年9月1日（火）〜 2026年10月31日（土）"
-     ],
-     [
-      "日本台湾交流協会日本奨学金（直接応募）",
-      "月額14万4千円（修士）、14万5千円（博士）および授業料等",
-      "修士、博士",
-      "2026年8月3日(月)〜2026年10月23日(金)"
-     ],
-     [
-      "CWAJ(ｶﾚｯｼﾞ･ｳｨﾒﾝｽﾞ･ｱｿｼｴｰｼｮﾝ･ｵﾌﾞ･ｼﾞｬﾊﾟﾝ) 外国人留学生…",
-      "年間200万円",
-      "博士課程の女子学生",
-      "2026年7月中旬 〜 10月5日（月）22:00 JST"
-     ],
-     [
-      "INPEX教育交流財団奨学金（インドネシア）",
-      "月額奨学金：160,000円、学費（検定料、入学金、授業料を含む）、旅費、渡航手当、日本語…",
-      "2027年度にSTEM分野（理学、工学、農学、医学、薬学、建築学などを含む）の修士（博士前…",
-      "2026年8月1日（土）〜10月31日（土）"
-     ],
-     [
-      "INPEX教育交流財団奨学金（オーストラリア）",
-      "月額奨学金：160,000円、学費（検定料、入学金、授業料を含む）、旅費、渡航手当、日本語…",
-      "2027年度に修士（博士前期）課程への進学を希望する私費外国人学生",
-      "2026年8月1日（土）〜10月31日（土）"
-     ],
-     [
-      "INPEX教育交流財団奨学金（UAE）",
-      "月額奨学金：160,000円、学費（検定料、入学金、授業料を含む）、旅費、渡航手当、日本語…",
-      "2027年度に修士（博士前期）課程への進学を希望する私費外国人学生",
-      "2026年8月1日（土）〜10月31日（土）"
-     ],
-     [
-      "ロータリー米山記念奨学会奨学金",
-      "学部：月額10万円 修士・博士：月額14万円",
-      "学部3・4年生（医・歯学部・薬[臨床薬学]は5・6年生）、修士、博士2・3年生（医学系・歯…",
-      "2026年9月1日（火）〜9月7日（月）17時"
-     ],
-     [
-      "KDDI財団外国人留学生助成",
-      "月額10万円",
-      "大学院生（修士、博士）※2027年4月1日現在 35歳以下である者 ・法律、政治、経済、社…",
-      "2026年6月29日（月）〜7月14日（火）17時"
-     ]
-    ]
-   },
-   "8557ac": {
-    "title": "FY2026 - all 67"
-   },
-   "6241ce": {
-    "headers": [
-     "Scholarship",
-     "Amount",
-     "Eligibility",
-     "Deadline"
-    ],
-    "rows": [
-     [
-      "福岡よかトピア国際交流財団 (ふえき あきら留学生育英奨学金 )",
-      "年額50万円",
-      "学部（研究生は不可）",
-      "2026年9月10日（木）〜9月24日（木）17時"
-     ],
-     [
-      "リックス・安井留学支援基金に係る外国人留学生支援奨学金",
-      "月額８万円",
-      "本学の外国人留学生のうち、次の全てに該当する者 ・本学の学府の正規学生かつ標準修業年限内の…",
-      "2026年8月31日（月）〜9月10日（木）"
-     ],
-     [
-      "本庄国際奨学財団（春採用）(直接応募)",
-      "月額23万円(最短就業年限までが1〜2年)、月額21万円(最短就業年限までが3年)、月額1…",
-      "修士、博士",
-      "2025年9月1日（月）〜 2025年10月31日（金）"
-     ],
-     [
-      "井内財団（秋募集）",
-      "月額3万円 ただし、ダブルディグリープログラムの学生は月額4万円",
-      "学部生：27歳未満、大学院生：35歳未満 〔医学・歯学・臨床薬学を除く〕※2025年10月…",
-      "2026年6月30日（火）〜7月8日（水）17時"
-     ],
-     [
-      "ENEOS Xplora 留学生奨学金（パプアニューギニア）",
-      "月額奨学金：80,000円、一時金：200,000円",
-      "2026年度秋学期より修士（博士前期）課程に在籍する私費外国人留学生",
-      "学内申請期限：2026年8月7日（金）"
-     ],
-     [
-      "ENEOS Xplora 留学生奨学金（インドネシア）",
-      "月額奨学金：80,000円、一時金：200,000円",
-      "2026年度秋学期より修士（博士前期）課程に在籍する私費外国人留学生",
-      "学内申請期限：2026年8月7日（金）"
-     ],
-     [
-      "JEES・石橋財団奨学金（後期）",
-      "月額15万円",
-      "修士・博士・研究生（専攻：美術史）※2026年10月入学者（新規渡日者のみ）",
-      "2026年6月24日（水）〜7月31日（金）17時"
-     ],
-     [
-      "佐藤陽国際奨学財団（秋募集）(新入生)",
-      "月額18万円（学部）、月額20万円（大学院） ＋授業料補助金＋学会出席補助金(大学院)",
-      "・学部生：2026年10月あるいは2027年4月に本学に編入が決定している者 ・大学院生：…",
-      "2026年6月16日（火）〜7月10日（金）17時"
-     ],
-     [
-      "佐藤陽国際奨学財団（秋募集）(在籍生)",
-      "月額18万円（学部）、月額20万円（大学院） ＋授業料補助金＋学会出席補助金(大学院)",
-      "学部生(応募時に2年生以上)・大学院生 ※いずれも正規生。詳細を必ず募集要項で確認してくだ…",
-      "2026年6月16日（火）〜7月10日（金）17時"
-     ],
-     [
-      "小林財団（一般奨学金）",
-      "学部生：月額15万円、大学院生：月額18万円",
-      "2026年4月に入学した学部生、修士、博士 （編入学生が不可）※2026年4月時点。",
-      "2026年5月20日（水）〜6月3日（水）17時"
-     ],
-     [
-      "JEES日本語修学支援奨学金",
-      "月額5万円",
-      "・学部、修士、博士 ※2026年4月時点本学に在籍 ・2025年7月(第1回)又は12月(…",
-      "2026年5月19日（火）〜5月21日（木）12時"
-     ],
-     [
-      "日揮・実吉奨学会",
-      "年額40万円",
-      "・理系学部および研究科（詳細は募集要項別紙に参照）に正規生として在学している留学生（202…",
-      "2026年5月12日（火）〜5月18日（月）17時"
-     ],
-     [
-      "JEES留学生奨学金（修学）",
-      "月額5万円",
-      "学部2年生以上、修士、博士",
-      "2026年4月28日（火）〜5月6日（水）17時"
-     ],
-     [
-      "JEES留学生奨学金（少数受入国）",
-      "月額５万円",
-      "学部生、修士、博士 ※交換留学生含む。 （ア）令和8年4月に在籍する者。 （イ）令和8年度…",
-      "2026年4月28日（火）〜5月6日（水）17時"
-     ],
-     [
-      "関西・大阪21世紀協会",
-      "月額10万円",
-      "日本文化を研究するために来日し、修士課程に正規学生として在籍する者 漢字圏以外、欧米の学生…",
-      "2026年4月23日〜2026年5月1日 17:00"
-     ],
-     [
-      "福岡アジア留学生里親奨学金(春募集)",
-      "月額２万円",
-      "研究生・学部生・修士・博士",
-      "2026年4月21日(火)〜2026年5月1日(金) 17時"
-     ],
-     [
-      "福岡よかトピア国際交流財団 (クラフティア留学生育英奨学金)",
-      "年額30万円",
-      "学部、修士、博士",
-      "2026年4月16日（木）〜4月23日（木）17時"
-     ],
-     [
-      "サカタアグリ財団（農学関連）",
-      "月額10万円",
-      "学部2年生以上、修士、博士 ※2026年4月時点。",
-      "2026年4月13日〜2026年4月22日"
-     ],
-     [
-      "福岡よかトピア国際交流財団 (留学生民間大使育英奨学金)",
-      "年額50万円",
-      "修士、博士(2026年9月修了者は除く) 専攻分野が次のいずれかであること。 (1)IT・…",
-      "2026年3月31日（火）〜4月14日（火）17時"
-     ],
-     [
-      "福岡よかトピア国際交流財団 (市川留学生育英奨学金 )",
-      "年額40万円",
-      "学部、修士、博士",
-      "2026年3月31日（火）〜4月14日（金）17時"
-     ],
-     [
-      "ウシオ財団（中国人留学生特別枠）",
-      "月額12万円",
-      "令和8年4月1日現在、中国国籍を有し、工学府、理学府、総合理工学府、システム情報科学府、数…",
-      "2026年3月23日（月）〜4月22日（水）（当日大富必着）"
-     ],
-     [
-      "朝鮮奨学会奨学金",
-      "学部生：月額2.5万円 修士課程・専門職課程：月額4万円 博士課程：月額7万円",
-      "学部、修士、専門職、博士",
-      "2026年4月9日〜4月14日 17:00 学内選考結果発表は2026年4月16日頃です。…"
-     ],
-     [
-      "ウシオ財団",
-      "月額12万円",
-      "・私費留学生（中国籍留学生を除く） ・令和8年4月1日現在、工学府、理学府、総合理工学府、…",
-      "2026年4月7日〜4月16日17時"
-     ],
-     [
-      "似鳥国際奨学財団(上期)（直接応募)",
-      "月額6〜8万円",
-      "学部、修士 ※2026年4月1日時点 年齢制限あり、私費留学生",
-      "2026年1月20日（火） 〜 2026年4月20日（月）"
-     ],
-     [
-      "戸部真紀財団",
-      "大学院学生 月額7万円（年額84万円） 学部学生 月額6万円（年額72万円）",
-      "財団HPにご確認ください",
-      "Web提出 ：2026年5月8日（金） 郵 送 ：2026年5月12日（火）財団必着"
-     ],
-     [
-      "福岡市国際財団奨学金",
-      "年額60万円",
-      "学部、修士",
-      "2026年4月3日（金）〜4月16日（木）17時"
-     ],
-     [
-      "味の素奨学会在日留学生向け奨学金",
-      "月額15万円",
-      "修士、博士 （専攻： 食・栄養・保健分野）",
-      "2026年4月2日（木）〜5月11日（月）17時 留学課必着"
-     ],
-     [
-      "福岡よかトピア国際交流財団 (Harvest留学生育英奨学金 )",
-      "年額50万円",
-      "修士、博士",
-      "2026年3月31日（火）〜4月10日（金）17時"
-     ],
-     [
-      "イオンスカラシップ",
-      "月額10万円 年間の授業料",
-      "学部1,2,3年生、修士1年生 ※2026年4月時点。",
-      "2026年3月13日（金）〜3月24日（火）17時"
-     ],
-     [
-      "椎木正和記念アジア留学生奨学基金",
-      "月額5万円",
-      "修士、博士 ※2026年9月卒業の者は不可。",
-      "2026年3月13日（金）〜4月1日（水）17時"
-     ],
-     [
-      "三菱UFJ信託奨学財団奨学金",
-      "大学院生：月額13.5万円",
-      "修士1年生、博士1年生：法、経済、システム生命科学、統合新領域、理、工、システム情報科学、…",
-      "2026年3月13日（金）〜4月16日（木）17時"
-     ],
-     [
-      "渕上育英会奨学金",
-      "月額5万円",
-      "学部：3年生以上、修士、博士(2026年4月時点)",
-      "2026年3月10日（火）〜3月19日（木）17時"
-     ],
-     [
-      "リックス・安井留学支援基金に係る外国人留学生支援奨学金",
-      "月額８万円",
-      "本学の外国人留学生のうち、次の全てに該当する者 ・本学の学府の正規学生かつ標準修業年限内の…",
-      "2026年3月6日（金）〜3月19日（木）"
-     ],
-     [
-      "大塚敏美育英奨学財団（直接応募）",
-      "年額200万円、150万円または100万円",
-      "医学・歯学・薬学・生物学・栄養学・体育学・工学・経営学など、人の健康に深く関連する分野を専…",
-      "１．新規申請者（当財団から奨学金の給付を受けたことのない者） Web提出：2026年3月5…"
-     ],
-     [
-      "翁林国際交流基金",
-      "月額5万円〜12万円",
-      "学部生 2026年4月1日現在で学部3年次生以上に在籍する人 大学院生 2026年4月1日…",
-      "2026年4月15日締切"
-     ],
-     [
-      "SGH財団(特定)",
-      "月額18万円",
-      "博士後期課程2年生、4年制博士課程3年生、又は、一貫制博士課程4年生 ※春期入学者のみ対象…",
-      "2026年2月13日〜2026年2月25日 17:00"
-     ],
-     [
-      "SGH財団(一般)",
-      "月額12万円",
-      "・2026年4月1日現在で学部2年生(6年制学部は4年生)に進学し27歳未満の者(ただし春…",
-      "2026年2月13日〜2026年2月25日 17:00"
-     ],
-     [
-      "吉本章治奨学会奨学金",
-      "月額5万円",
-      "学部生、研究生、修士、博士",
-      "2026年2月13日（金）〜3月13日（金）17時"
-     ],
-     [
-      "安田奨学財団（スポーツ枠）",
-      "月額10万円",
-      "・2026年4月入学の学部1年生（新入生） ・2026年3月時点で、学部1〜3年生",
-      "2026年2月12日（木）〜3月12日（木）17時"
-     ],
-     [
-      "興南アジア国際奨学財団奨学金",
-      "月額7万円",
-      "学部生(最終学年者のみ）／ 修士・博士（最終学年者を優先）※2026年9月卒修了の者は応募…",
-      "2025年2月6日（金）〜2月19日（木）17時"
-     ],
-     [
-      "旭硝子財団",
-      "月額15万円、海外研究活動支援奨学金 上限20万円 （1回／年、奨学金支給期間内のみ）",
-      "修士1年、博士1年 ※2026年4月時点。(医歯薬系を除く)",
-      "2026年2月6日（金）〜4月1日（水）17時"
-     ],
-     [
-      "JEES・石橋財団奨学金（前期）",
-      "月額15万円",
-      "修士・博士・研究生（専攻：美術史）※2026年度入学者（新規渡日者のみ）",
-      "2026年1月28日（水）〜2月25日（水）17時"
-     ],
-     [
-      "竜の子財団（学部生）",
-      "月額5万円",
-      "学部生",
-      "2026年1月16日〜1月23日17時"
-     ],
-     [
-      "安田奨学財団",
-      "月額10万円",
-      "法学部・経済学部の新2年生（2026年4月時点）",
-      "2025年12月08日（月）〜12月23日（火）17時"
-     ],
-     [
-      "かめのり財団",
-      "￥200,000/月額",
-      "2026年4月に修士（博士前期）課程入学するまたは入学予定するの人文科学および社会科学分野…",
-      "2025年12月22日〜2026年1月5日 17:00"
-     ],
-     [
-      "橋谷奨学会",
-      "月額11万円",
-      "学部生・研究生・修士・博士",
-      "2026年1月5日 2026年1月7日頃に学内選考結果発表"
-     ],
-     [
-      "東京海上各務記念財団（ASEAN奨学生）",
-      "修士課程月額1８万円/博士課程月額２０万円",
-      "修士、博士",
-      "2025年12月11日(木)〜2026年1月9日(金) 17時"
-     ],
-     [
-      "佐藤陽国際奨学財団（春募集）",
-      "月額18万円（学部）、月額20万円（大学院） ＋授業料補助金＋学会出席補助金(大学院)",
-      "学部生(日本の高等専門学校又は専門学校からの編入生)・大学院生(修士課程又は博士課程に進学…",
-      "〜 12月9日(火)15:00"
-     ],
-     [
-      "DAIHATSU JAGAM奨学金",
-      "月額10万円",
-      "学部2、3、4年生、修士1、2年生 ※2026年4月時点",
-      "12月26日（金）17時（日本標準時間）"
-     ],
-     [
-      "共立国際交流奨学財団",
-      "月額11万円／月額7万円(奨学金の種類による)",
-      "学部・修士・博士（奨学金の種類による）",
-      "2025年11月25日（火）〜12月15日（月）17時"
-     ],
-     [
-      "みずほ国際交流奨学財団",
-      "月額12万円",
-      "学部、修士、博士で専攻分野が理工系列である者(ただし医歯薬学系除く) ※同課程相当の研究に…",
-      "2026年4月20日（金）"
-     ],
-     [
-      "岩谷国際留学生奨学助成 ※個人応募",
-      "月額15万円",
-      "修士、博士 ※専攻：自然科学系および関連する学際分野(ただし、医学、薬学は除く)",
-      "2025年12月1日（月）〜 20日（土）"
-     ],
-     [
-      "トラスト未来フォーラム外国人留学生向け奨学金",
-      "月額15万円",
-      "法学（民法・商法・信託法及びそれに近接する法学）を専攻する者で、2026年4月1日現在で大…",
-      "学内締切 〜2026年1月16日（金）"
-     ],
-     [
-      "川嶋章司記念スカラ−シップ基金",
-      "月額12万円 (年間144万円）",
-      "学部3・4年生、修士、博士 ※2026年4月時点 (専攻:人文・社会・自然諸科学分野)",
-      "2025年10月9日（木）〜10月28日（火）17時"
-     ],
-     [
-      "田坂育英基金",
-      "月額5万円",
-      "学部生、修士、博士 ※2026年9月卒業の者は応募不可。",
-      "2025年10月15日（水）〜11月5日（水）17時"
-     ],
-     [
-      "坪井一郎・仁子学生支援プログラム",
-      "大学生：50〜100万円 大学院生：60〜120万円",
-      "a)難民とその子など、本人/親が難民またはそれに準する背景により来日した方 b)原則として…",
-      "2025年11月15日（土）"
-     ],
-     [
-      "千本財団 （直接応募）",
-      "月額12万円",
-      "学部1、2、3年生、学部4年生で2026年4月に修士課程進学見込者、修士課程1年生(応募時…",
-      "2025年10月6日（月）〜 2025年12月8日（月）"
-     ],
-     [
-      "イノアック国際教育振興財団奨学金 （直接応募）",
-      "月額5万円",
-      "学部、大学院（研究生は不可） ※2026年9月卒業予定の者は不可。",
-      "〜2025年10月13日(月)13時"
-     ],
-     [
-      "大塚敏美育英奨学財団（大学推薦）",
-      "年額100万円、150万円または200万円",
-      "・医歯薬学系専攻の博士、博士課程進学希望の修士2年（2026年4月時点） ・経営系専攻の博…",
-      "2025年10月1日(水)〜10月20日(月)17時"
-     ],
-     [
-      "伊藤国際教育交流財団奨学金（直接応募）",
-      "月額20万円",
-      "修士（2025年10月または2026年4月入学予定者）",
-      "2025年10月1日（水）〜2025年10月31日（金）"
-     ],
-     [
-      "公益推進協会（2026年度 ライト工業みらい奨学基金（ベトナム人留学生用））(直接応募)",
-      "年額84万円",
-      "修士1年(新入生) ※応募時に学部4年生で、2026年4月の進学先の分野が理工系であること。",
-      "2025年8月20日(水)〜2025年10月23日(木)"
-     ],
-     [
-      "平和中島財団奨学金",
-      "学部生 ：月額12万円(学部) 大学院生：月額15万円(大学院)",
-      "学部、修士、博士 ※応募時に既に本学に在籍している者、かつ2025年4月に正規課程に在籍予…",
-      "2025年9月1日（月）〜9月25日(木）17時"
-     ],
-     [
-      "ロータリー米山記念奨学会奨学金",
-      "学部：月額10万円 修士・博士：月額14万円",
-      "学部3・4年生（医・歯学部・薬[臨床薬学]は5・6年生）、修士、博士2・3年生（医学系・歯…",
-      "2025年8月6日（水）〜9月2日（火）17時"
-     ],
-     [
-      "朴龍九育英会",
-      "月額7万円",
-      "日本の大学院に在学または入学予定で、2026年4月1日以降も在籍している外国人留学生（研究…",
-      "2025年8月20日（水）〜9月10日（水）17時"
-     ],
-     [
-      "日本台湾交流協会日本奨学金（直接応募）",
-      "月額14万4千円（修士）、14万5千円（博士）および授業料等",
-      "修士、博士",
-      "2025年8月1日(金)〜2025年10月24日(金)"
-     ],
-     [
-      "CWAJ(ｶﾚｯｼﾞ･ｳｨﾒﾝｽﾞ･ｱｿｼｴｰｼｮﾝ･ｵﾌﾞ･ｼﾞｬﾊﾟﾝ) 外国人留学生…",
-      "年間200万円",
-      "博士課程の女子学生",
-      "2025年7月1日〜2025年10月6日"
-     ],
-     [
-      "KDDI財団外国人留学生助成",
-      "月額10万円",
-      "大学院生（修士、博士）※2026年4月1日現在 35歳以下である者 ・法律、政治、経済、社…",
-      "2025年6月11日（水）〜7月2日（水）17時"
-     ]
-    ]
-   },
-   "77230e": {
-    "text": "Japanese Government (MEXT) scholarship"
-   },
-   "c6c27f": {
-    "text": "A system created by MEXT to **train researchers and build bridges between countries**. Kyushu U. hosts four categories: Research Students (graduate level), Undergraduate Students, Japanese Studies Students, and the Young Leaders' Program (YLP). **Tuition is covered by the university, plus return airfare.**"
-   },
-   "b59cea": {
-    "headers": [
-     "类别",
-     "月額（含地域加算）",
-     "支給期間"
-    ],
-    "rows": [
-     [
-      "研究留学生・修士／専門職",
-      "147,000 円",
-      "至该课程结业（标准修业年限内）"
-     ],
-     [
-      "研究留学生・博士",
-      "148,000 円",
-      "同上"
-     ],
-     [
-      "研究留学生・研究生（非正规生）",
-      "146,000 円",
-      "含日语教育在内 2 年以内"
-     ],
-     [
-      "学部留学生",
-      "120,000 円",
-      "大学推薦：至课程结业／大使館推薦：含 1 年日语教育共 5 年（医歯薬 7 年）"
-     ],
-     [
-      "日本語・文化研修生",
-      "120,000 円",
-      "1 学年"
-     ]
-    ]
-   },
-   "d8544b": {
-    "text": "Two application timelines"
+   "303df2": {
+    "text": "文部科学省の制度。**授業料は大学負担、往復渡航費も支給。** 月額は区分ごとに：修士 147,000 円 ／ 博士 148,000 円 ／ 研究生 146,000 円 ／ 学部 120,000 円。"
    },
    "7ba84b": {
     "items": [
      {
-      "text": "**University nomination**: call period set by each graduate school (ask your school office) -> Feb: on-campus selection/nomination -> Jun: selection & award -> Oct: arrival"
+      "text": "**大学推薦**：募集期は学府ごと → 2 月学内選考 → 6 月採用"
      },
      {
-      "text": "**Embassy nomination**: Feb-Mar call at overseas missions -> May-Jul first screening (documents, written test, interview) -> by Aug obtain acceptance letter -> Oct-Feb second screening -> arrival in Apr or Oct"
+      "text": "**大使館推薦**：2〜3 月募集 → 5〜7 月一次選考 → 翌年渡日"
      }
     ]
    },
-   "46d46a": {
-    "text": "**Advancing to a higher degree does not continue the award automatically.** Your supervisor must support an application to MEXT to **extend the payment period**, and MEXT decides. Discuss it early."
+   "546b06": {
+    "text": "**進学しても自動継続しません**：指導教員の推薦＋文科省への支給期間延長申請が必要で、可否は文科省の選考。"
    },
-   "f43b61": {
-    "text": "For privately financed students: MEXT Study Incentive Grant"
+   "55d28a": {
+    "text": "私費対象：学習奨励費"
    },
    "d52461": {
     "headers": [
-     "项目",
+     "項目",
      "内容"
     ],
     "rows": [
-     [
-      "对象",
-      "学部生：仅正规生 ／ 大学院生：研究生或正规生"
-     ],
      [
       "月額",
       "48,000 円"
      ],
      [
-      "支給期間",
-      "1 年 或 6 个月"
+      "期間",
+      "1 年 または 6 か月"
      ],
      [
-      "募集时期",
-      "原则上一年两次（春・秋），也有不募集的时候"
+      "募集",
+      "原則 年 2 回（春・秋）"
      ],
      [
-      "窗口",
-      "所属学部・大学院的**学務係**（不是留学課）"
+      "対象",
+      "学部正規生 ／ 大学院生・研究生"
+     ],
+     [
+      "窓口",
+      "所属学部の学務係"
      ]
     ]
    },
-   "2e3f20": {
-    "text": "This one is for **privately financed** students and is separate from the MEXT government scholarship above. It also goes through the student affairs office - similar name, totally different route."
+   "2d2248": {
+    "text": "公式入口"
    },
-   "b9a858": {
-    "text": "Official pages and enquiries"
+   "1ea4c3": {
+    "text": "**このページを来年度の予定として使わないでください。** 名称・金額・締切は毎年変わり、公式一覧も当年度分しか載りません。"
    },
-   "ae7750": {
+   "0b08bd": {
+    "text": "相談：国際部留学課 留学生係 `intlr-pscholar@jimu.kyushu-u.ac.jp`（私費奨学金）；学習奨励費は**所属学部・学府の学務係**へ。"
+   }
+  },
+  "en": {
+   "768171": {
     "items": [
-     {
-      "text": "Scholarship list (FY2027, Japanese)",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2027&lang="
-     },
-     {
-      "text": "Scholarship list (FY2026, Japanese)",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2026&lang="
-     },
-     {
-      "text": "Scholarship list (FY2027, English)",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2027&lang=en"
-     },
      {
       "text": "Scholarships for privately financed students (overview)",
       "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/page-012"
@@ -12109,765 +12257,228 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2024/08/The-scholarship-application-process-1.pdf"
      },
      {
-      "text": "On-campus selection: procedure and required documents",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2024/09/On-campus-selection.pdf"
-     },
-     {
       "text": "Scholarship Q&A",
       "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2024/09/QA-List_JPN_202405.pdf"
      },
      {
       "text": "MEXT government scholarship (explanation)",
       "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/government-expense"
-     },
-     {
-      "text": "MEXT: application to extend the payment period",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2021/03/2ffc084a7bc89c0ce517807396d55ecf.pdf"
-     },
-     {
-      "text": "JASSO Study Incentive Grant",
-      "url": "https://www.jasso.go.jp/ryugaku/scholarship_j/shoreihi/index.html"
      }
     ]
    },
-   "a95dcb": {
-    "text": "**Do not reuse this page as next year's schedule.** Names, amounts and deadlines change every year, and the official list only covers the current year. Check the Global Gateways list again each year."
+   "13edbe": {
+    "text": "Two things this page answers: **what you can apply for now**, and **how to apply**. Kyushu U. privately financed scholarships almost always require you to be enrolled and able to work in Japanese, and there are two routes: university nomination and direct application. Below are the 7 currently open."
    },
-   "a6bbc9": {
-    "text": "Enquiries: **International Student Exchange Division - scholarship desk** `intlr-pscholar@jimu.kyushu-u.ac.jp`. For the Study Incentive Grant, contact **your faculty / graduate school student affairs office**."
-   }
-  },
-  "ko": {
-   "ec6ef2": {
-    "text": "이 페이지는 규슈대학교 **사비 유학생**이 신청할 수 있는 장학금을 정리한 것입니다. 두 가지 신청 경로, 직접 읽어야 하는 모집요항, 현재 모집 중 목록, 연도별 전체 목록, 그리고 **국비 유학생** 제도를 다룹니다. 주로 **재학 중**인 학생 대상이며, 신입생은 규칙만 먼저 파악해 두면 됩니다."
+   "25d902": {
+    "text": "**Source**: Global Gateways “Scholarship Information” (International Student Exchange Division), captured 2026-09-14. Foundations re-open every year and both amounts and deadlines change - **check the official list below before you apply**."
    },
-   "c82561": {
-    "text": "**목록 데이터 출처**: Global Gateways「奨学金一覧」(국제부 유학과), 2026-09-14 수집. 이 목록은 매년 갱신되며 모집 기간이 1~2주뿐인 것도 있습니다 - **반드시 공식 페이지에서 해당 연도 원문을 확인하세요**. 이 페이지는 안내와 정리일 뿐입니다."
+   "3fe9fc": {
+    "text": "Open for application now (7)"
    },
-   "346b81": {
-    "text": "신청 전 반드시 이해해야 할 5가지"
+   "552ef2": {
+    "headers": [
+     "Scholarship",
+     "Amount",
+     "Deadline"
+    ],
+    "rows": [
+     [
+      "CWAJ 外国人留学生大学院女子奨…",
+      "年 200万円",
+      "10/5"
+     ],
+     [
+      "INPEX教育交流…（3 个国别版）",
+      "月 160,000円",
+      "10/31"
+     ],
+     [
+      "日本台湾交流協会日本奨学金",
+      "月 14万4千円",
+      "10/23"
+     ],
+     [
+      "福岡よかトピア国際交流財団",
+      "年 50万円",
+      "9/24 17:00"
+     ],
+     [
+      "本庄国際奨学財団",
+      "月 23万円",
+      "10/31"
+     ],
+     [
+      "平和中島財団奨学金",
+      "学部生：月 17万円",
+      "9/25 17:00"
+     ],
+     [
+      "イノアック国際教育振興財団奨学金",
+      "月 5万円",
+      "10/9 13:00"
+     ]
+    ]
    },
-   "377fd5": {
+   "0e1654": {
+    "text": "For these you can get the official documents directly - **read the guidelines first, then decide whether to apply**."
+   },
+   "075ce4": {
     "items": [
      {
-      "text": "**모집요항은 직접 읽습니다.** 이해하지 않고 신청해 선정이 취소된 사례가 실제로 있습니다."
+      "text": "INPEX教育交流…（3 个国别版） — Guidelines (PDF)・インドネシア",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/view-attach-file.php?sc_id=1199&img_type=1&img_for=1&mime_type=application/pdf"
      },
      {
-      "text": "**중복 수급 제한**: 여러 장학금 동시 수급은 원칙적으로 금지되거나 합계액에 상한이 있습니다."
+      "text": "INPEX教育交流…（3 个国别版） — Guidelines (PDF)・オーストラリア",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/view-attach-file.php?sc_id=1200&img_type=1&img_for=1&mime_type=application/pdf"
      },
      {
-      "text": "**재류자격**은 대부분 「유학」. 「가족체재」「영주자」 등은 신청할 수 없는 장학금이 있습니다."
+      "text": "INPEX教育交流…（3 个国别版） — Guidelines (PDF)・UAE",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/view-attach-file.php?sc_id=1201&img_type=1&img_for=1&mime_type=application/pdf"
      },
      {
-      "text": "**일본어 능력**이 사실상 관문입니다: 일본어 자필 서류(소논문 포함)와 일본어 면접을 요구하는 재단이 많고, 모집요항이 일본어만인 경우도 있습니다."
+      "text": "福岡よかトピア国際交流財団 — Guidelines (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/view-attach-file.php?sc_id=1212&img_type=1&img_for=1&mime_type=application/pdf"
      },
      {
-      "text": "대부분 **이미 규슈대학교에 재학 중인 사람**이 대상입니다. 입학 전에 신청할 수 있는 것은 소수입니다."
+      "text": "平和中島財団奨学金 — Guidelines (PDF)・2027 年度版",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/view-attach-file.php?sc_id=1210&img_type=1&img_for=1&mime_type=application/pdf"
      },
      {
-      "text": "**경쟁률이 매우 높습니다.** 신청했다고 선정되는 것이 아니므로 여러 곳에 지원하면서 학업 성적을 우선하세요."
+      "text": "平和中島財団奨学金 — Guidelines (PDF)・2026 年度版",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/view-attach-file.php?sc_id=1140&img_type=1&img_for=1&mime_type=application/pdf"
      }
     ]
    },
-   "1d665b": {
-    "text": "국제부 유학과는 **Scholarship Guidebook**(신청서 작성법·면접 요령)도 제공합니다. 아래 링크 참조."
+   "620a45": {
+    "text": "For everything else, go through the official list (updated yearly, closed calls included):"
    },
-   "490b28": {
-    "text": "두 가지 신청 경로"
+   "d123df": {
+    "items": [
+     {
+      "text": "Scholarship list (official, current year)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2027&lang="
+     },
+     {
+      "text": "Scholarship list (official, previous year incl. closed)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2026&lang="
+     },
+     {
+      "text": "Scholarship list (English)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2027&lang=en"
+     }
+    ]
    },
-   "ade284": {
+   "c482ce": {
+    "text": "Five things to understand before applying"
+   },
+   "9145cf": {
+    "items": [
+     {
+      "text": "**Read the guidelines yourself**: people really do lose awards for not understanding them."
+     },
+     {
+      "text": "**Double-dipping is capped**: normally you cannot hold two, and caps need checking."
+     },
+     {
+      "text": "**Japanese is a de facto gate**: many foundations want handwritten Japanese and interviews."
+     },
+     {
+      "text": "**Most require enrolment**: very few accept applications before you enrol."
+     },
+     {
+      "text": "**Competition is fierce**: applying ≠ being selected. Apply to several."
+     }
+    ]
+   },
+   "7efb8a": {
+    "text": "The two application routes"
+   },
+   "2461df": {
     "headers": [
-     "路径",
-     "流程",
-     "要注意"
+     "Route",
+     "Who submits",
+     "Main risk"
     ],
     "rows": [
      [
-      "大学推薦（学内选考）",
-      "先过校内选考 → 学校向财团推荐 → 财团最终审查",
-      "校内选考就会落选；即被推荐也可能最终不采用"
+      "University nomination",
+      "First to the exchange division; the university then nominates",
+      "You can fail on campus first"
      ],
      [
-      "直接応募",
-      "不经过学校，自行向财团申请",
-      "需自己盯官网与截止日；材料要求更杂"
+      "Direct application",
+      "You submit to the foundation yourself",
+      "You track the site and deadline alone"
      ]
     ]
    },
-   "7bc3ca": {
-    "text": "**교내 선고 서류 제출 창구는 국제부 유학과 유학생계**(`intlr-pscholar@jimu.kyushu-u.ac.jp`). **직접 응모**는 본인이 재단과 진행합니다. 문부과학성 외국인 유학생 학습장려비는 **소속 학부·학부(대학원) 사무실**이 창구로, 완전히 다른 경로입니다."
+   "887b6a": {
+    "text": "**On-campus selection** goes to the International Student Exchange Division `intlr-pscholar@jimu.kyushu-u.ac.jp`. The Study Incentive Grant (privately financed, 48,000 JPY/month) goes through **your faculty/graduate school office** - a different track."
    },
-   "6f207f": {
-    "text": "지금 신청할 수 있는 것(9건)"
+   "8aa843": {
+    "text": "Japanese Government (MEXT) scholarship"
    },
-   "13207e": {
-    "text": "**마감일 순**으로 정렬했고, 공식 목록에서 모집 중으로 표시된 항목만 실었습니다. 금액·조건은 공식 일본어 원문의 요약입니다 - 필요 서류는 아래 공식 목록에서 확인하세요."
-   },
-   "8c303e": {
-    "headers": [
-     "장학금",
-     "금액",
-     "대상",
-     "마감"
-    ],
-    "rows": [
-     [
-      "CWAJ(ｶﾚｯｼﾞ･ｳｨﾒﾝｽﾞ･ｱｿｼｴｰｼｮﾝ･ｵﾌﾞ･ｼﾞｬﾊﾟﾝ) 外国人留学生…",
-      "年間200万円",
-      "博士課程の女子学生",
-      "2026年7月中旬 〜 10月5日（月）22:00 JST"
-     ],
-     [
-      "INPEX教育交流財団奨学金（インドネシア）",
-      "月額奨学金：160,000円、学費（検定料、入学金、授業料を含む）、旅費、渡航手当、日本語…",
-      "2027年度にSTEM分野（理学、工学、農学、医学、薬学、建築学などを含む）の修士（博士前…",
-      "2026年8月1日（土）〜10月31日（土）"
-     ],
-     [
-      "INPEX教育交流財団奨学金（オーストラリア）",
-      "月額奨学金：160,000円、学費（検定料、入学金、授業料を含む）、旅費、渡航手当、日本語…",
-      "2027年度に修士（博士前期）課程への進学を希望する私費外国人学生",
-      "2026年8月1日（土）〜10月31日（土）"
-     ],
-     [
-      "INPEX教育交流財団奨学金（UAE）",
-      "月額奨学金：160,000円、学費（検定料、入学金、授業料を含む）、旅費、渡航手当、日本語…",
-      "2027年度に修士（博士前期）課程への進学を希望する私費外国人学生",
-      "2026年8月1日（土）〜10月31日（土）"
-     ],
-     [
-      "日本台湾交流協会日本奨学金（直接応募）",
-      "月額14万4千円（修士）、14万5千円（博士）および授業料等",
-      "修士、博士",
-      "2026年8月3日(月)〜2026年10月23日(金)"
-     ],
-     [
-      "福岡よかトピア国際交流財団 (ふえき あきら留学生育英奨学金 )",
-      "年額50万円",
-      "学部（研究生は不可）",
-      "2026年9月10日（木）〜9月24日（木）17時"
-     ],
-     [
-      "本庄国際奨学財団（春採用）(直接応募)",
-      "月額23万円(最短就業年限までが1〜2年)、月額21万円(最短就業年限までが3年)、月額1…",
-      "修士、博士",
-      "2026年9月1日（火）〜 2026年10月31日（土）"
-     ],
-     [
-      "平和中島財団奨学金",
-      "学部生 ：月額17万円(学部) 大学院生：月額20万円(大学院)",
-      "学部、修士、博士 ※応募時に既に本学に在籍している者、かつ2027年4月に正規課程に在籍予…",
-      "2026年9月3日（木）〜9月25日(金）17時"
-     ],
-     [
-      "イノアック国際教育振興財団奨学金 （直接応募）",
-      "月額5万円",
-      "学部、大学院（研究生は不可） ※2027年9月卒業予定の者は不可。",
-      "〜2026年10月9日（金）13時"
-     ]
-    ]
-   },
-   "ce1b1e": {
-    "text": "전체 목록(연도별)"
-   },
-   "ed92ef": {
-    "text": "「연도」는 장학금 적용 연도이며 응모 연도가 아닙니다. **2027년도**는 대부분 2026년 가을에 응모하고 2027년 4월부터 지급됩니다. 「종료」 항목도 남겨 두었습니다 - 그 재단이 보통 언제 모집하는지 판단하는 데 쓰입니다."
-   },
-   "f18522": {
-    "title": "2027년도·전 10건"
-   },
-   "eb6a10": {
-    "headers": [
-     "장학금",
-     "금액",
-     "대상",
-     "마감"
-    ],
-    "rows": [
-     [
-      "平和中島財団奨学金",
-      "学部生 ：月額17万円(学部) 大学院生：月額20万円(大学院)",
-      "学部、修士、博士 ※応募時に既に本学に在籍している者、かつ2027年4月に正規課程に在籍予…",
-      "2026年9月3日（木）〜9月25日(金）17時"
-     ],
-     [
-      "イノアック国際教育振興財団奨学金 （直接応募）",
-      "月額5万円",
-      "学部、大学院（研究生は不可） ※2027年9月卒業予定の者は不可。",
-      "〜2026年10月9日（金）13時"
-     ],
-     [
-      "本庄国際奨学財団（春採用）(直接応募)",
-      "月額23万円(最短就業年限までが1〜2年)、月額21万円(最短就業年限までが3年)、月額1…",
-      "修士、博士",
-      "2026年9月1日（火）〜 2026年10月31日（土）"
-     ],
-     [
-      "日本台湾交流協会日本奨学金（直接応募）",
-      "月額14万4千円（修士）、14万5千円（博士）および授業料等",
-      "修士、博士",
-      "2026年8月3日(月)〜2026年10月23日(金)"
-     ],
-     [
-      "CWAJ(ｶﾚｯｼﾞ･ｳｨﾒﾝｽﾞ･ｱｿｼｴｰｼｮﾝ･ｵﾌﾞ･ｼﾞｬﾊﾟﾝ) 外国人留学生…",
-      "年間200万円",
-      "博士課程の女子学生",
-      "2026年7月中旬 〜 10月5日（月）22:00 JST"
-     ],
-     [
-      "INPEX教育交流財団奨学金（インドネシア）",
-      "月額奨学金：160,000円、学費（検定料、入学金、授業料を含む）、旅費、渡航手当、日本語…",
-      "2027年度にSTEM分野（理学、工学、農学、医学、薬学、建築学などを含む）の修士（博士前…",
-      "2026年8月1日（土）〜10月31日（土）"
-     ],
-     [
-      "INPEX教育交流財団奨学金（オーストラリア）",
-      "月額奨学金：160,000円、学費（検定料、入学金、授業料を含む）、旅費、渡航手当、日本語…",
-      "2027年度に修士（博士前期）課程への進学を希望する私費外国人学生",
-      "2026年8月1日（土）〜10月31日（土）"
-     ],
-     [
-      "INPEX教育交流財団奨学金（UAE）",
-      "月額奨学金：160,000円、学費（検定料、入学金、授業料を含む）、旅費、渡航手当、日本語…",
-      "2027年度に修士（博士前期）課程への進学を希望する私費外国人学生",
-      "2026年8月1日（土）〜10月31日（土）"
-     ],
-     [
-      "ロータリー米山記念奨学会奨学金",
-      "学部：月額10万円 修士・博士：月額14万円",
-      "学部3・4年生（医・歯学部・薬[臨床薬学]は5・6年生）、修士、博士2・3年生（医学系・歯…",
-      "2026年9月1日（火）〜9月7日（月）17時"
-     ],
-     [
-      "KDDI財団外国人留学生助成",
-      "月額10万円",
-      "大学院生（修士、博士）※2027年4月1日現在 35歳以下である者 ・法律、政治、経済、社…",
-      "2026年6月29日（月）〜7月14日（火）17時"
-     ]
-    ]
-   },
-   "8557ac": {
-    "title": "2026년도·전 67건"
-   },
-   "6241ce": {
-    "headers": [
-     "장학금",
-     "금액",
-     "대상",
-     "마감"
-    ],
-    "rows": [
-     [
-      "福岡よかトピア国際交流財団 (ふえき あきら留学生育英奨学金 )",
-      "年額50万円",
-      "学部（研究生は不可）",
-      "2026年9月10日（木）〜9月24日（木）17時"
-     ],
-     [
-      "リックス・安井留学支援基金に係る外国人留学生支援奨学金",
-      "月額８万円",
-      "本学の外国人留学生のうち、次の全てに該当する者 ・本学の学府の正規学生かつ標準修業年限内の…",
-      "2026年8月31日（月）〜9月10日（木）"
-     ],
-     [
-      "本庄国際奨学財団（春採用）(直接応募)",
-      "月額23万円(最短就業年限までが1〜2年)、月額21万円(最短就業年限までが3年)、月額1…",
-      "修士、博士",
-      "2025年9月1日（月）〜 2025年10月31日（金）"
-     ],
-     [
-      "井内財団（秋募集）",
-      "月額3万円 ただし、ダブルディグリープログラムの学生は月額4万円",
-      "学部生：27歳未満、大学院生：35歳未満 〔医学・歯学・臨床薬学を除く〕※2025年10月…",
-      "2026年6月30日（火）〜7月8日（水）17時"
-     ],
-     [
-      "ENEOS Xplora 留学生奨学金（パプアニューギニア）",
-      "月額奨学金：80,000円、一時金：200,000円",
-      "2026年度秋学期より修士（博士前期）課程に在籍する私費外国人留学生",
-      "学内申請期限：2026年8月7日（金）"
-     ],
-     [
-      "ENEOS Xplora 留学生奨学金（インドネシア）",
-      "月額奨学金：80,000円、一時金：200,000円",
-      "2026年度秋学期より修士（博士前期）課程に在籍する私費外国人留学生",
-      "学内申請期限：2026年8月7日（金）"
-     ],
-     [
-      "JEES・石橋財団奨学金（後期）",
-      "月額15万円",
-      "修士・博士・研究生（専攻：美術史）※2026年10月入学者（新規渡日者のみ）",
-      "2026年6月24日（水）〜7月31日（金）17時"
-     ],
-     [
-      "佐藤陽国際奨学財団（秋募集）(新入生)",
-      "月額18万円（学部）、月額20万円（大学院） ＋授業料補助金＋学会出席補助金(大学院)",
-      "・学部生：2026年10月あるいは2027年4月に本学に編入が決定している者 ・大学院生：…",
-      "2026年6月16日（火）〜7月10日（金）17時"
-     ],
-     [
-      "佐藤陽国際奨学財団（秋募集）(在籍生)",
-      "月額18万円（学部）、月額20万円（大学院） ＋授業料補助金＋学会出席補助金(大学院)",
-      "学部生(応募時に2年生以上)・大学院生 ※いずれも正規生。詳細を必ず募集要項で確認してくだ…",
-      "2026年6月16日（火）〜7月10日（金）17時"
-     ],
-     [
-      "小林財団（一般奨学金）",
-      "学部生：月額15万円、大学院生：月額18万円",
-      "2026年4月に入学した学部生、修士、博士 （編入学生が不可）※2026年4月時点。",
-      "2026年5月20日（水）〜6月3日（水）17時"
-     ],
-     [
-      "JEES日本語修学支援奨学金",
-      "月額5万円",
-      "・学部、修士、博士 ※2026年4月時点本学に在籍 ・2025年7月(第1回)又は12月(…",
-      "2026年5月19日（火）〜5月21日（木）12時"
-     ],
-     [
-      "日揮・実吉奨学会",
-      "年額40万円",
-      "・理系学部および研究科（詳細は募集要項別紙に参照）に正規生として在学している留学生（202…",
-      "2026年5月12日（火）〜5月18日（月）17時"
-     ],
-     [
-      "JEES留学生奨学金（修学）",
-      "月額5万円",
-      "学部2年生以上、修士、博士",
-      "2026年4月28日（火）〜5月6日（水）17時"
-     ],
-     [
-      "JEES留学生奨学金（少数受入国）",
-      "月額５万円",
-      "学部生、修士、博士 ※交換留学生含む。 （ア）令和8年4月に在籍する者。 （イ）令和8年度…",
-      "2026年4月28日（火）〜5月6日（水）17時"
-     ],
-     [
-      "関西・大阪21世紀協会",
-      "月額10万円",
-      "日本文化を研究するために来日し、修士課程に正規学生として在籍する者 漢字圏以外、欧米の学生…",
-      "2026年4月23日〜2026年5月1日 17:00"
-     ],
-     [
-      "福岡アジア留学生里親奨学金(春募集)",
-      "月額２万円",
-      "研究生・学部生・修士・博士",
-      "2026年4月21日(火)〜2026年5月1日(金) 17時"
-     ],
-     [
-      "福岡よかトピア国際交流財団 (クラフティア留学生育英奨学金)",
-      "年額30万円",
-      "学部、修士、博士",
-      "2026年4月16日（木）〜4月23日（木）17時"
-     ],
-     [
-      "サカタアグリ財団（農学関連）",
-      "月額10万円",
-      "学部2年生以上、修士、博士 ※2026年4月時点。",
-      "2026年4月13日〜2026年4月22日"
-     ],
-     [
-      "福岡よかトピア国際交流財団 (留学生民間大使育英奨学金)",
-      "年額50万円",
-      "修士、博士(2026年9月修了者は除く) 専攻分野が次のいずれかであること。 (1)IT・…",
-      "2026年3月31日（火）〜4月14日（火）17時"
-     ],
-     [
-      "福岡よかトピア国際交流財団 (市川留学生育英奨学金 )",
-      "年額40万円",
-      "学部、修士、博士",
-      "2026年3月31日（火）〜4月14日（金）17時"
-     ],
-     [
-      "ウシオ財団（中国人留学生特別枠）",
-      "月額12万円",
-      "令和8年4月1日現在、中国国籍を有し、工学府、理学府、総合理工学府、システム情報科学府、数…",
-      "2026年3月23日（月）〜4月22日（水）（当日大富必着）"
-     ],
-     [
-      "朝鮮奨学会奨学金",
-      "学部生：月額2.5万円 修士課程・専門職課程：月額4万円 博士課程：月額7万円",
-      "学部、修士、専門職、博士",
-      "2026年4月9日〜4月14日 17:00 学内選考結果発表は2026年4月16日頃です。…"
-     ],
-     [
-      "ウシオ財団",
-      "月額12万円",
-      "・私費留学生（中国籍留学生を除く） ・令和8年4月1日現在、工学府、理学府、総合理工学府、…",
-      "2026年4月7日〜4月16日17時"
-     ],
-     [
-      "似鳥国際奨学財団(上期)（直接応募)",
-      "月額6〜8万円",
-      "学部、修士 ※2026年4月1日時点 年齢制限あり、私費留学生",
-      "2026年1月20日（火） 〜 2026年4月20日（月）"
-     ],
-     [
-      "戸部真紀財団",
-      "大学院学生 月額7万円（年額84万円） 学部学生 月額6万円（年額72万円）",
-      "財団HPにご確認ください",
-      "Web提出 ：2026年5月8日（金） 郵 送 ：2026年5月12日（火）財団必着"
-     ],
-     [
-      "福岡市国際財団奨学金",
-      "年額60万円",
-      "学部、修士",
-      "2026年4月3日（金）〜4月16日（木）17時"
-     ],
-     [
-      "味の素奨学会在日留学生向け奨学金",
-      "月額15万円",
-      "修士、博士 （専攻： 食・栄養・保健分野）",
-      "2026年4月2日（木）〜5月11日（月）17時 留学課必着"
-     ],
-     [
-      "福岡よかトピア国際交流財団 (Harvest留学生育英奨学金 )",
-      "年額50万円",
-      "修士、博士",
-      "2026年3月31日（火）〜4月10日（金）17時"
-     ],
-     [
-      "イオンスカラシップ",
-      "月額10万円 年間の授業料",
-      "学部1,2,3年生、修士1年生 ※2026年4月時点。",
-      "2026年3月13日（金）〜3月24日（火）17時"
-     ],
-     [
-      "椎木正和記念アジア留学生奨学基金",
-      "月額5万円",
-      "修士、博士 ※2026年9月卒業の者は不可。",
-      "2026年3月13日（金）〜4月1日（水）17時"
-     ],
-     [
-      "三菱UFJ信託奨学財団奨学金",
-      "大学院生：月額13.5万円",
-      "修士1年生、博士1年生：法、経済、システム生命科学、統合新領域、理、工、システム情報科学、…",
-      "2026年3月13日（金）〜4月16日（木）17時"
-     ],
-     [
-      "渕上育英会奨学金",
-      "月額5万円",
-      "学部：3年生以上、修士、博士(2026年4月時点)",
-      "2026年3月10日（火）〜3月19日（木）17時"
-     ],
-     [
-      "リックス・安井留学支援基金に係る外国人留学生支援奨学金",
-      "月額８万円",
-      "本学の外国人留学生のうち、次の全てに該当する者 ・本学の学府の正規学生かつ標準修業年限内の…",
-      "2026年3月6日（金）〜3月19日（木）"
-     ],
-     [
-      "大塚敏美育英奨学財団（直接応募）",
-      "年額200万円、150万円または100万円",
-      "医学・歯学・薬学・生物学・栄養学・体育学・工学・経営学など、人の健康に深く関連する分野を専…",
-      "１．新規申請者（当財団から奨学金の給付を受けたことのない者） Web提出：2026年3月5…"
-     ],
-     [
-      "翁林国際交流基金",
-      "月額5万円〜12万円",
-      "学部生 2026年4月1日現在で学部3年次生以上に在籍する人 大学院生 2026年4月1日…",
-      "2026年4月15日締切"
-     ],
-     [
-      "SGH財団(特定)",
-      "月額18万円",
-      "博士後期課程2年生、4年制博士課程3年生、又は、一貫制博士課程4年生 ※春期入学者のみ対象…",
-      "2026年2月13日〜2026年2月25日 17:00"
-     ],
-     [
-      "SGH財団(一般)",
-      "月額12万円",
-      "・2026年4月1日現在で学部2年生(6年制学部は4年生)に進学し27歳未満の者(ただし春…",
-      "2026年2月13日〜2026年2月25日 17:00"
-     ],
-     [
-      "吉本章治奨学会奨学金",
-      "月額5万円",
-      "学部生、研究生、修士、博士",
-      "2026年2月13日（金）〜3月13日（金）17時"
-     ],
-     [
-      "安田奨学財団（スポーツ枠）",
-      "月額10万円",
-      "・2026年4月入学の学部1年生（新入生） ・2026年3月時点で、学部1〜3年生",
-      "2026年2月12日（木）〜3月12日（木）17時"
-     ],
-     [
-      "興南アジア国際奨学財団奨学金",
-      "月額7万円",
-      "学部生(最終学年者のみ）／ 修士・博士（最終学年者を優先）※2026年9月卒修了の者は応募…",
-      "2025年2月6日（金）〜2月19日（木）17時"
-     ],
-     [
-      "旭硝子財団",
-      "月額15万円、海外研究活動支援奨学金 上限20万円 （1回／年、奨学金支給期間内のみ）",
-      "修士1年、博士1年 ※2026年4月時点。(医歯薬系を除く)",
-      "2026年2月6日（金）〜4月1日（水）17時"
-     ],
-     [
-      "JEES・石橋財団奨学金（前期）",
-      "月額15万円",
-      "修士・博士・研究生（専攻：美術史）※2026年度入学者（新規渡日者のみ）",
-      "2026年1月28日（水）〜2月25日（水）17時"
-     ],
-     [
-      "竜の子財団（学部生）",
-      "月額5万円",
-      "学部生",
-      "2026年1月16日〜1月23日17時"
-     ],
-     [
-      "安田奨学財団",
-      "月額10万円",
-      "法学部・経済学部の新2年生（2026年4月時点）",
-      "2025年12月08日（月）〜12月23日（火）17時"
-     ],
-     [
-      "かめのり財団",
-      "￥200,000/月額",
-      "2026年4月に修士（博士前期）課程入学するまたは入学予定するの人文科学および社会科学分野…",
-      "2025年12月22日〜2026年1月5日 17:00"
-     ],
-     [
-      "橋谷奨学会",
-      "月額11万円",
-      "学部生・研究生・修士・博士",
-      "2026年1月5日 2026年1月7日頃に学内選考結果発表"
-     ],
-     [
-      "東京海上各務記念財団（ASEAN奨学生）",
-      "修士課程月額1８万円/博士課程月額２０万円",
-      "修士、博士",
-      "2025年12月11日(木)〜2026年1月9日(金) 17時"
-     ],
-     [
-      "佐藤陽国際奨学財団（春募集）",
-      "月額18万円（学部）、月額20万円（大学院） ＋授業料補助金＋学会出席補助金(大学院)",
-      "学部生(日本の高等専門学校又は専門学校からの編入生)・大学院生(修士課程又は博士課程に進学…",
-      "〜 12月9日(火)15:00"
-     ],
-     [
-      "DAIHATSU JAGAM奨学金",
-      "月額10万円",
-      "学部2、3、4年生、修士1、2年生 ※2026年4月時点",
-      "12月26日（金）17時（日本標準時間）"
-     ],
-     [
-      "共立国際交流奨学財団",
-      "月額11万円／月額7万円(奨学金の種類による)",
-      "学部・修士・博士（奨学金の種類による）",
-      "2025年11月25日（火）〜12月15日（月）17時"
-     ],
-     [
-      "みずほ国際交流奨学財団",
-      "月額12万円",
-      "学部、修士、博士で専攻分野が理工系列である者(ただし医歯薬学系除く) ※同課程相当の研究に…",
-      "2026年4月20日（金）"
-     ],
-     [
-      "岩谷国際留学生奨学助成 ※個人応募",
-      "月額15万円",
-      "修士、博士 ※専攻：自然科学系および関連する学際分野(ただし、医学、薬学は除く)",
-      "2025年12月1日（月）〜 20日（土）"
-     ],
-     [
-      "トラスト未来フォーラム外国人留学生向け奨学金",
-      "月額15万円",
-      "法学（民法・商法・信託法及びそれに近接する法学）を専攻する者で、2026年4月1日現在で大…",
-      "学内締切 〜2026年1月16日（金）"
-     ],
-     [
-      "川嶋章司記念スカラ−シップ基金",
-      "月額12万円 (年間144万円）",
-      "学部3・4年生、修士、博士 ※2026年4月時点 (専攻:人文・社会・自然諸科学分野)",
-      "2025年10月9日（木）〜10月28日（火）17時"
-     ],
-     [
-      "田坂育英基金",
-      "月額5万円",
-      "学部生、修士、博士 ※2026年9月卒業の者は応募不可。",
-      "2025年10月15日（水）〜11月5日（水）17時"
-     ],
-     [
-      "坪井一郎・仁子学生支援プログラム",
-      "大学生：50〜100万円 大学院生：60〜120万円",
-      "a)難民とその子など、本人/親が難民またはそれに準する背景により来日した方 b)原則として…",
-      "2025年11月15日（土）"
-     ],
-     [
-      "千本財団 （直接応募）",
-      "月額12万円",
-      "学部1、2、3年生、学部4年生で2026年4月に修士課程進学見込者、修士課程1年生(応募時…",
-      "2025年10月6日（月）〜 2025年12月8日（月）"
-     ],
-     [
-      "イノアック国際教育振興財団奨学金 （直接応募）",
-      "月額5万円",
-      "学部、大学院（研究生は不可） ※2026年9月卒業予定の者は不可。",
-      "〜2025年10月13日(月)13時"
-     ],
-     [
-      "大塚敏美育英奨学財団（大学推薦）",
-      "年額100万円、150万円または200万円",
-      "・医歯薬学系専攻の博士、博士課程進学希望の修士2年（2026年4月時点） ・経営系専攻の博…",
-      "2025年10月1日(水)〜10月20日(月)17時"
-     ],
-     [
-      "伊藤国際教育交流財団奨学金（直接応募）",
-      "月額20万円",
-      "修士（2025年10月または2026年4月入学予定者）",
-      "2025年10月1日（水）〜2025年10月31日（金）"
-     ],
-     [
-      "公益推進協会（2026年度 ライト工業みらい奨学基金（ベトナム人留学生用））(直接応募)",
-      "年額84万円",
-      "修士1年(新入生) ※応募時に学部4年生で、2026年4月の進学先の分野が理工系であること。",
-      "2025年8月20日(水)〜2025年10月23日(木)"
-     ],
-     [
-      "平和中島財団奨学金",
-      "学部生 ：月額12万円(学部) 大学院生：月額15万円(大学院)",
-      "学部、修士、博士 ※応募時に既に本学に在籍している者、かつ2025年4月に正規課程に在籍予…",
-      "2025年9月1日（月）〜9月25日(木）17時"
-     ],
-     [
-      "ロータリー米山記念奨学会奨学金",
-      "学部：月額10万円 修士・博士：月額14万円",
-      "学部3・4年生（医・歯学部・薬[臨床薬学]は5・6年生）、修士、博士2・3年生（医学系・歯…",
-      "2025年8月6日（水）〜9月2日（火）17時"
-     ],
-     [
-      "朴龍九育英会",
-      "月額7万円",
-      "日本の大学院に在学または入学予定で、2026年4月1日以降も在籍している外国人留学生（研究…",
-      "2025年8月20日（水）〜9月10日（水）17時"
-     ],
-     [
-      "日本台湾交流協会日本奨学金（直接応募）",
-      "月額14万4千円（修士）、14万5千円（博士）および授業料等",
-      "修士、博士",
-      "2025年8月1日(金)〜2025年10月24日(金)"
-     ],
-     [
-      "CWAJ(ｶﾚｯｼﾞ･ｳｨﾒﾝｽﾞ･ｱｿｼｴｰｼｮﾝ･ｵﾌﾞ･ｼﾞｬﾊﾟﾝ) 外国人留学生…",
-      "年間200万円",
-      "博士課程の女子学生",
-      "2025年7月1日〜2025年10月6日"
-     ],
-     [
-      "KDDI財団外国人留学生助成",
-      "月額10万円",
-      "大学院生（修士、博士）※2026年4月1日現在 35歳以下である者 ・法律、政治、経済、社…",
-      "2025年6月11日（水）〜7月2日（水）17時"
-     ]
-    ]
-   },
-   "77230e": {
-    "text": "국비 외국인 유학생(정부 장학금)"
-   },
-   "c6c27f": {
-    "text": "문부과학성이 만든, **연구자 양성과 국가 간 가교 인재**를 목적으로 한 제도입니다. 규슈대는 4개 구분으로 받습니다: 연구유학생(대학원), 학부유학생, 일본어·문화연수생, 그리고 Young Leaders' Program(YLP). **수업료는 대학 부담, 왕복 항공권도 지급됩니다.**"
-   },
-   "b59cea": {
-    "headers": [
-     "类别",
-     "月額（含地域加算）",
-     "支給期間"
-    ],
-    "rows": [
-     [
-      "研究留学生・修士／専門職",
-      "147,000 円",
-      "至该课程结业（标准修业年限内）"
-     ],
-     [
-      "研究留学生・博士",
-      "148,000 円",
-      "同上"
-     ],
-     [
-      "研究留学生・研究生（非正规生）",
-      "146,000 円",
-      "含日语教育在内 2 年以内"
-     ],
-     [
-      "学部留学生",
-      "120,000 円",
-      "大学推薦：至课程结业／大使館推薦：含 1 年日语教育共 5 年（医歯薬 7 年）"
-     ],
-     [
-      "日本語・文化研修生",
-      "120,000 円",
-      "1 学年"
-     ]
-    ]
-   },
-   "d8544b": {
-    "text": "두 가지 신청 일정"
+   "303df2": {
+    "text": "A MEXT system. **Tuition is covered by the university and return airfare is paid.** Monthly stipend by category: Master's 147,000 / Doctorate 148,000 / Research student 146,000 / Undergraduate 120,000 JPY."
    },
    "7ba84b": {
     "items": [
      {
-      "text": "**대학 추천**: 모집 기간은 학부(대학원)별로 다름(소속 사무실에 문의) → 다음 해 2월 교내 선고·추천 → 6월 선고·채용 → 10월 도일"
+      "text": "**University nomination**: call period set by each school → Feb on-campus selection → Jun award"
      },
      {
-      "text": "**대사관 추천**: 2~3월 재외공관 모집 → 5~7월 1차 선고(서류·필기·면접) → 8월까지 수입내낙서 → 10월~다음 해 2월 2차 선고 → 4월 또는 10월 도일"
+      "text": "**Embassy nomination**: Feb-Mar call → May-Jul first screening → arrival the following year"
      }
     ]
    },
-   "46d46a": {
-    "text": "**상위 학위로 진학해도 자동 연장되지 않습니다.** 지도교원의 추천을 받아 문부과학성에 **지급 기간 연장**을 신청하고, 가부는 문부과학성 선고로 결정됩니다 - 일찍 상담하세요."
+   "546b06": {
+    "text": "**Advancing to a higher degree does not continue it automatically**: you need your supervisor's support and a MEXT application to extend the period; MEXT decides."
    },
-   "f43b61": {
-    "text": "사비 대상: 문부과학성 외국인 유학생 학습장려비"
+   "55d28a": {
+    "text": "For privately financed students: Study Incentive Grant"
    },
    "d52461": {
     "headers": [
-     "项目",
-     "内容"
+     "Item",
+     "Details"
     ],
     "rows": [
      [
-      "对象",
-      "学部生：仅正规生 ／ 大学院生：研究生或正规生"
+      "Monthly",
+      "48,000 JPY"
      ],
      [
-      "月額",
-      "48,000 円"
+      "Duration",
+      "1 year or 6 months"
      ],
      [
-      "支給期間",
-      "1 年 或 6 个月"
+      "Call period",
+      "Normally twice a year (spring/autumn)"
      ],
      [
-      "募集时期",
-      "原则上一年两次（春・秋），也有不募集的时候"
+      "Eligibility",
+      "Undergraduate regular / graduate, research students"
      ],
      [
-      "窗口",
-      "所属学部・大学院的**学務係**（不是留学課）"
+      "Counter",
+      "Student affairs office of your faculty"
      ]
     ]
    },
-   "2e3f20": {
-    "text": "이것은 **사비** 유학생용 장학금으로 위의 국비 제도와 다릅니다. 절차도 사무실 경유 - 이름은 비슷하지만 경로가 완전히 다릅니다."
+   "2d2248": {
+    "text": "Official pages"
    },
-   "b9a858": {
-    "text": "공식 입구와 상담 창구"
+   "1ea4c3": {
+    "text": "**Do not use this page as next year's plan.** Names, amounts and deadlines change every year, and the official list covers only the current year."
    },
-   "ae7750": {
+   "0b08bd": {
+    "text": "Enquiries: International Student Exchange Division `intlr-pscholar@jimu.kyushu-u.ac.jp` (private scholarships); for the Study Incentive Grant, **your faculty / graduate school office**."
+   }
+  },
+  "ko": {
+   "768171": {
     "items": [
-     {
-      "text": "장학금 목록(2027년도·일본어)",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2027&lang="
-     },
-     {
-      "text": "장학금 목록(2026년도·일본어)",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2026&lang="
-     },
-     {
-      "text": "Scholarship list (2027 / English)",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2027&lang=en"
-     },
      {
       "text": "사비 유학생을 위한 장학금(제도 개요)",
       "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/page-012"
@@ -12881,32 +12492,223 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2024/08/The-scholarship-application-process-1.pdf"
      },
      {
-      "text": "교내 선고 절차와 필요 서류",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2024/09/On-campus-selection.pdf"
-     },
-     {
       "text": "장학금 Q&A",
       "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2024/09/QA-List_JPN_202405.pdf"
      },
      {
       "text": "국비 외국인 유학생(제도 설명)",
       "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/government-expense"
-     },
-     {
-      "text": "국비: 지급 기간 연장 신청",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2021/03/2ffc084a7bc89c0ce517807396d55ecf.pdf"
-     },
-     {
-      "text": "JASSO 학습장려비",
-      "url": "https://www.jasso.go.jp/ryugaku/scholarship_j/shoreihi/index.html"
      }
     ]
    },
-   "a95dcb": {
-    "text": "**이 페이지 내용을 다음 연도 일정으로 그대로 쓰지 마세요.** 이름·금액·마감일은 매년 바뀌고, 공식 목록도 해당 연도만 싣습니다. 새 연도가 되면 Global Gateways 목록에서 다시 확인하세요."
+   "13edbe": {
+    "text": "이 페이지가 답하는 두 가지: **지금 무엇에 지원할 수 있는가**, **어떻게 지원하는가**. 규슈대 사비 장학금은 대부분 재학 중 + 일본어 가능이 조건이며, 대학 추천과 직접 응모 두 경로가 있습니다. 지금 지원 가능한 것은 아래 7건입니다."
    },
-   "a6bbc9": {
-    "text": "상담 창구: **국제부 유학과 유학생계(사비 유학생 장학금)** `intlr-pscholar@jimu.kyushu-u.ac.jp`. 학습장려비는 **소속 학부·대학원 사무실**로."
+   "25d902": {
+    "text": "**출처**: Global Gateways「奨学金一覧」(국제부 유학과), 2026-09-14 수집. 재단마다 매년 다시 모집하고 금액과 마감일도 바뀝니다 - **지원 전에 아래 공식 목록에서 원문을 확인하세요**."
+   },
+   "3fe9fc": {
+    "text": "지금 지원할 수 있는 것(7건)"
+   },
+   "552ef2": {
+    "headers": [
+     "장학금",
+     "금액",
+     "마감"
+    ],
+    "rows": [
+     [
+      "CWAJ 外国人留学生大学院女子奨…",
+      "年 200万円",
+      "10/5"
+     ],
+     [
+      "INPEX教育交流…（3 个国别版）",
+      "月 160,000円",
+      "10/31"
+     ],
+     [
+      "日本台湾交流協会日本奨学金",
+      "月 14万4千円",
+      "10/23"
+     ],
+     [
+      "福岡よかトピア国際交流財団",
+      "年 50万円",
+      "9/24 17:00"
+     ],
+     [
+      "本庄国際奨学財団",
+      "月 23万円",
+      "10/31"
+     ],
+     [
+      "平和中島財団奨学金",
+      "学部生：月 17万円",
+      "9/25 17:00"
+     ],
+     [
+      "イノアック国際教育振興財団奨学金",
+      "月 5万円",
+      "10/9 13:00"
+     ]
+    ]
+   },
+   "0e1654": {
+    "text": "아래 항목은 공식 파일을 바로 받을 수 있습니다 - **먼저 모집요강을 읽고 지원 여부를 정하세요**."
+   },
+   "075ce4": {
+    "items": [
+     {
+      "text": "INPEX教育交流…（3 个国别版） — 모집요강 (PDF)・インドネシア",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/view-attach-file.php?sc_id=1199&img_type=1&img_for=1&mime_type=application/pdf"
+     },
+     {
+      "text": "INPEX教育交流…（3 个国别版） — 모집요강 (PDF)・オーストラリア",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/view-attach-file.php?sc_id=1200&img_type=1&img_for=1&mime_type=application/pdf"
+     },
+     {
+      "text": "INPEX教育交流…（3 个国别版） — 모집요강 (PDF)・UAE",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/view-attach-file.php?sc_id=1201&img_type=1&img_for=1&mime_type=application/pdf"
+     },
+     {
+      "text": "福岡よかトピア国際交流財団 — 모집요강 (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/view-attach-file.php?sc_id=1212&img_type=1&img_for=1&mime_type=application/pdf"
+     },
+     {
+      "text": "平和中島財団奨学金 — 모집요강 (PDF)・2027 年度版",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/view-attach-file.php?sc_id=1210&img_type=1&img_for=1&mime_type=application/pdf"
+     },
+     {
+      "text": "平和中島財団奨学金 — 모집요강 (PDF)・2026 年度版",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/view-attach-file.php?sc_id=1140&img_type=1&img_for=1&mime_type=application/pdf"
+     }
+    ]
+   },
+   "620a45": {
+    "text": "그 외에는 공식 목록에서 들어가세요(매년 갱신, 종료분 포함):"
+   },
+   "d123df": {
+    "items": [
+     {
+      "text": "장학금 목록(공식·당해연도)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2027&lang="
+     },
+     {
+      "text": "장학금 목록(공식·전년도, 종료분 포함)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2026&lang="
+     },
+     {
+      "text": "Scholarship list (English)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2027&lang=en"
+     }
+    ]
+   },
+   "c482ce": {
+    "text": "지원 전 반드시 이해할 5가지"
+   },
+   "9145cf": {
+    "items": [
+     {
+      "text": "**모집요강은 직접 읽기**: 이해 없이 지원해 취소된 사례가 있습니다."
+     },
+     {
+      "text": "**중복 수급 상한**: 원칙적으로 두 곳 동시 수급 불가. 상한도 확인."
+     },
+     {
+      "text": "**일본어가 사실상 관문**: 자필 서류와 일본어 면접을 요구하는 재단이 많습니다."
+     },
+     {
+      "text": "**대부분 재학생만**: 입학 전 지원 가능한 것은 극소수."
+     },
+     {
+      "text": "**경쟁이 치열**: 지원 ≠ 채용. 여러 곳에 지원하세요."
+     }
+    ]
+   },
+   "7efb8a": {
+    "text": "두 가지 지원 경로"
+   },
+   "2461df": {
+    "headers": [
+     "경로",
+     "제출처",
+     "탈락 위험"
+    ],
+    "rows": [
+     [
+      "대학 추천(교내 선고)",
+      "먼저 유학과로. 통과 후 대학이 추천",
+      "교내에서 먼저 탈락"
+     ],
+     [
+      "직접 응모",
+      "본인이 재단에 제출",
+      "공식 사이트와 마감을 스스로 관리"
+     ]
+    ]
+   },
+   "887b6a": {
+    "text": "**교내 선고**는 국제부 유학과 유학생계 `intlr-pscholar@jimu.kyushu-u.ac.jp`. 학습장려비(사비 대상·월 48,000엔)는 **소속 학부/대학원 사무실**로, 별도 경로입니다."
+   },
+   "8aa843": {
+    "text": "국비 외국인 유학생(정부 장학금)"
+   },
+   "303df2": {
+    "text": "문부과학성 제도. **수업료는 대학 부담, 왕복 항공료도 지급.** 월액은 구분별로: 석사 147,000엔 ／ 박사 148,000엔 ／ 연구생 146,000엔 ／ 학부 120,000엔."
+   },
+   "7ba84b": {
+    "items": [
+     {
+      "text": "**대학 추천**: 모집 기간은 학부별 → 2월 교내 선고 → 6월 채용"
+     },
+     {
+      "text": "**대사관 추천**: 2~3월 모집 → 5~7월 1차 선고 → 다음 해 도일"
+     }
+    ]
+   },
+   "546b06": {
+    "text": "**진학해도 자동 연장되지 않습니다**: 지도교원 추천 + 문부과학성 지급 기간 연장 신청이 필요하고, 가부는 문부과학성이 결정합니다."
+   },
+   "55d28a": {
+    "text": "사비 대상: 학습장려비"
+   },
+   "d52461": {
+    "headers": [
+     "항목",
+     "내용"
+    ],
+    "rows": [
+     [
+      "월액",
+      "48,000엔"
+     ],
+     [
+      "기간",
+      "1년 또는 6개월"
+     ],
+     [
+      "모집",
+      "원칙 연 2회(봄·가을)"
+     ],
+     [
+      "대상",
+      "학부 정규생 ／ 대학원생·연구생"
+     ],
+     [
+      "창구",
+      "소속 학부 사무실"
+     ]
+    ]
+   },
+   "2d2248": {
+    "text": "공식 입구"
+   },
+   "1ea4c3": {
+    "text": "**이 페이지를 내년 일정으로 쓰지 마세요.** 이름·금액·마감일은 매년 바뀌고 공식 목록도 당해연도만 싣습니다."
+   },
+   "0b08bd": {
+    "text": "상담: 국제부 유학과 유학생계 `intlr-pscholar@jimu.kyushu-u.ac.jp`(사비 장학금); 학습장려비는 **소속 학부·대학원 사무실**로."
    }
   }
  }
