@@ -39,12 +39,17 @@ window.ARTICLES_I18N = {
     ko:'입국 전 임시 데이터 SIM(CMlink/여행 SIM), SIM 선택(povo/ahamo/Y!mobile/UQ mobile/라쿠텐), 온라인 신청과 다국어 지원, eSIM, 교내 WiFi(SSOKID@Kitnet)와 eduroam, 해지·번호이동 링크.' },
 },
 'guide-academic': {
-  title:{ ja:'学業・奨学金', en:'Study & Scholarships', ko:'학업·장학금' },
-  summary:{
-    ja:'学校アカウントと各種証明書、履修と授業、直接受験/研究生からの進学、RA と私費留学生奨学金、JTCs 日本語コース、健康診断と学内相談窓口。',
-    en:'School accounts & certificates, course registration, direct-exam / research-student admission, RA positions & scholarships for self-funded students, JTCs Japanese courses, health checkup and on-campus counseling.',
-    ko:'학교 계정과 각종 증명서, 수강 신청, 직접 수험/연구생 진학, RA와 사비 유학생 장학금, JTCs 일본어 과정, 건강검진과 교내 상담 창구.' },
-},
+  "title": {
+   "ja": "学業・奨学金",
+   "en": "Study & Scholarships",
+   "ko": "학업·장학금"
+  },
+  "summary": {
+   "ja": "学校アカウントと各種証明書、履修と授業、直接受験/研究生からの進学、RA と私費留学生奨学金、JTCs 日本語コース、健康診断と学内相談窓口、学外の日本語教室（ボランティア 6 か所）。",
+   "en": "School accounts & certificates, course registration, direct-exam / research-student admission, RA positions & scholarships for self-funded students, JTCs Japanese courses, health checkup and on-campus counseling, and six community Japanese classes.",
+   "ko": "학교 계정과 각종 증명서, 수강 신청, 직접 수험/연구생 진학, RA와 사비 유학생 장학금, JTCs 일본어 과정, 건강검진과 교내 상담 창구, 교외 일본어 교실 6곳."
+  }
+ },
 'guide-parttime': {
   title:{ ja:'アルバイト', en:'Part-time Work', ko:'아르바이트' },
   summary:{

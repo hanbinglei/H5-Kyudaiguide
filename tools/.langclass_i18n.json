@@ -1,0 +1,248 @@
+{
+ "ja": {
+  "c9398a": {
+   "text": "学外の日本語教室（6 か所）"
+  },
+  "714c74": {
+   "text": "九大自身の日本語コースは**無料**（上のリンク参照）。学外にも**ボランティア教室**が 6 か所あり、料金は無料〜1 回 100 円。日常会話を練習したい、地域の人と知り合いたい人には校内の授業より向いています。多くは事前のメール連絡が必要です。"
+  },
+  "f627ad": {
+   "headers": [
+    "教室",
+    "場所",
+    "時間",
+    "料金"
+   ],
+   "rows": [
+    [
+     "伊都インターナショナルサークル",
+     "伊都キャンパス West4",
+     "木 17:30〜20:00",
+     "入会金 500 円"
+    ],
+    [
+     "日本語ひろば いとしま",
+     "糸島市人権センター",
+     "要問い合わせ",
+     "1 回 100 円"
+    ],
+    [
+     "元岡国際交流ひろば",
+     "元岡公民館",
+     "水 18:30〜20:00",
+     "無料"
+    ],
+    [
+     "Global Friendship",
+     "福岡市国際会館 4F",
+     "要問い合わせ",
+     "1 回 100 円"
+    ],
+    [
+     "かすが・にほんごひろば",
+     "クローバープラザ 3F",
+     "要問い合わせ",
+     "月 600 円"
+    ],
+    [
+     "香椎浜 よるとも会",
+     "香椎浜小学校",
+     "要問い合わせ",
+     "無料"
+    ]
+   ]
+  },
+  "0d6cf9": {
+   "items": [
+    {
+     "text": "伊都インターナショナルサークル 090-8764-9588",
+     "url": "mailto:hatae_iic@yahoo.co.jp"
+    },
+    {
+     "text": "日本語ひろば いとしま 092-322-5095",
+     "url": "mailto:nihongoitoshima@gmail.com"
+    },
+    {
+     "text": "元岡国際交流ひろば— メールで問い合わせ",
+     "url": "mailto:motookahiroba@gmail.com"
+    },
+    {
+     "text": "Global Friendship 090-5727-9925",
+     "url": "mailto:globalfriendshipnihongo@gmail.com"
+    },
+    {
+     "text": "かすが・にほんごひろば 080-6441-0763",
+     "url": "mailto:fk.kasuga.nihongo@gmail.com"
+    },
+    {
+     "text": "香椎浜 よるとも会 090-5921-7798",
+     "url": "mailto:tomoikifukuoka@gmail.com"
+    }
+   ]
+  }
+ },
+ "en": {
+  "c9398a": {
+   "text": "Community Japanese classes (6)"
+  },
+  "714c74": {
+   "text": "Kyushu U.'s own Japanese courses are **free** (link above). Off campus there are **six volunteer-run classes**, from free to 100 JPY per session - better than campus classes if you want everyday conversation and local contacts. Most require an email in advance."
+  },
+  "f627ad": {
+   "headers": [
+    "Class",
+    "Location",
+    "Time",
+    "Fee"
+   ],
+   "rows": [
+    [
+     "Ito International Circle",
+     "Ito Campus West 4",
+     "Thu 17:30-20:00",
+     "500 JPY joining fee"
+    ],
+    [
+     "Nihongo Hiroba Itoshima",
+     "Itoshima Human Rights Center",
+     "Ask them",
+     "100 JPY / session"
+    ],
+    [
+     "Motooka Kokusai Hiroba",
+     "Motooka Community Hall",
+     "Wed 18:30-20:00",
+     "Free"
+    ],
+    [
+     "Global Friendship",
+     "Fukuoka Intl. Hall 4F",
+     "Ask them",
+     "100 JPY / session"
+    ],
+    [
+     "Kasuga Nihongo Hiroba",
+     "Clover Plaza 3F",
+     "Ask them",
+     "600 JPY / month"
+    ],
+    [
+     "Kashihama Yorutomo-kai",
+     "Kashihama Elementary",
+     "Ask them",
+     "Free"
+    ]
+   ]
+  },
+  "0d6cf9": {
+   "items": [
+    {
+     "text": "Ito International Circle 090-8764-9588",
+     "url": "mailto:hatae_iic@yahoo.co.jp"
+    },
+    {
+     "text": "Nihongo Hiroba Itoshima 092-322-5095",
+     "url": "mailto:nihongoitoshima@gmail.com"
+    },
+    {
+     "text": "Motooka Kokusai Hiroba- email enquiry",
+     "url": "mailto:motookahiroba@gmail.com"
+    },
+    {
+     "text": "Global Friendship 090-5727-9925",
+     "url": "mailto:globalfriendshipnihongo@gmail.com"
+    },
+    {
+     "text": "Kasuga Nihongo Hiroba 080-6441-0763",
+     "url": "mailto:fk.kasuga.nihongo@gmail.com"
+    },
+    {
+     "text": "Kashihama Yorutomo-kai 090-5921-7798",
+     "url": "mailto:tomoikifukuoka@gmail.com"
+    }
+   ]
+  }
+ },
+ "ko": {
+  "c9398a": {
+   "text": "교외 일본어 교실(6곳)"
+  },
+  "714c74": {
+   "text": "규슈대 자체 일본어 강좌는 **무료**입니다(위 링크). 교외에도 **자원봉사 교실**이 6곳 있고 비용은 무료~1회 100엔. 일상 회화를 연습하고 지역 주민과 알고 지내고 싶다면 교내 수업보다 낫습니다. 대부분 사전 메일 연락이 필요합니다."
+  },
+  "f627ad": {
+   "headers": [
+    "교실",
+    "장소",
+    "시간",
+    "요금"
+   ],
+   "rows": [
+    [
+     "이토 인터내셔널 서클",
+     "이토 캠퍼스 West4",
+     "목 17:30~20:00",
+     "입회금 500엔"
+    ],
+    [
+     "니혼고 히로바 이토시마",
+     "이토시마시 인권센터",
+     "문의 필요",
+     "1회 100엔"
+    ],
+    [
+     "모토오카 국제교류 히로바",
+     "모토오카 공민관",
+     "수 18:30~20:00",
+     "무료"
+    ],
+    [
+     "Global Friendship",
+     "후쿠오카시 국제회관 4F",
+     "문의 필요",
+     "1회 100엔"
+    ],
+    [
+     "카스가 니혼고 히로바",
+     "클로버 플라자 3F",
+     "문의 필요",
+     "월 600엔"
+    ],
+    [
+     "카시하마 요루토모회",
+     "카시하마 초등학교",
+     "문의 필요",
+     "무료"
+    ]
+   ]
+  },
+  "0d6cf9": {
+   "items": [
+    {
+     "text": "이토 인터내셔널 서클 090-8764-9588",
+     "url": "mailto:hatae_iic@yahoo.co.jp"
+    },
+    {
+     "text": "니혼고 히로바 이토시마 092-322-5095",
+     "url": "mailto:nihongoitoshima@gmail.com"
+    },
+    {
+     "text": "모토오카 국제교류 히로바- 메일 문의",
+     "url": "mailto:motookahiroba@gmail.com"
+    },
+    {
+     "text": "Global Friendship 090-5727-9925",
+     "url": "mailto:globalfriendshipnihongo@gmail.com"
+    },
+    {
+     "text": "카스가 니혼고 히로바 080-6441-0763",
+     "url": "mailto:fk.kasuga.nihongo@gmail.com"
+    },
+    {
+     "text": "카시하마 요루토모회 090-5921-7798",
+     "url": "mailto:tomoikifukuoka@gmail.com"
+    }
+   ]
+  }
+ }
+}

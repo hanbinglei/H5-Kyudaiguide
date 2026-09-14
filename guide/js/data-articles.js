@@ -1,7 +1,7 @@
 // data-articles.js — 12 篇主指南（cat 1–12）+ 置顶反诈（cat 13）
 // 由 tools/build_guide_articles.js 从 content/ 生成，勿手改。
 // **要改内容请改 content/<article>.json**，然后重跑构建。
-// 共 16 篇 · 645 块
+// 共 16 篇 · 649 块
 //
 // ⚠️ 这里不写生成日期。CI 的做法是「重跑构建 → git diff 必须为空」，
 //    用来抓「改了 content/ 却忘了重跑」。而日期戳会让产物每天都不一样，
@@ -1890,7 +1890,7 @@ window.ARTICLES = [
   "_id": "guide-academic",
   "category": "6",
   "title": "学业·奖学金",
-  "summary": "学校账号与各类证明、选课与课程、直考/研究升学、RA与私费留学生奖学金、JTCs日语课程、健康诊断与学内相谈窗口。",
+  "summary": "学校账号与各类证明、选课与课程、直考/研究升学、RA与私费留学生奖学金、JTCs 日语课程与学外 6 家志愿者日语教室、健康诊断与学内相谈窗口。",
   "tags": [
    "学业",
    "选课",
@@ -2117,6 +2117,94 @@ window.ARTICLES = [
     "id": "6aab6e",
     "text": "另有集中日本語コース（Intensive Japanese Courses），秋季学期面向全体留学生开放（需满足日语能力、指导教师许可等条件）。",
     "type": "paragraph"
+   },
+   {
+    "id": "c9398a",
+    "type": "subheading",
+    "text": "学外の日本語教室（6 家）"
+   },
+   {
+    "id": "714c74",
+    "type": "paragraph",
+    "text": "九大自己的日语课**免费**（见上方链接）。校外另有 6 家志愿者教室，费用从免费到 100 円/次，想练日常会话、结识本地人的话比校内课更合适。多数需要事前邮件联系。"
+   },
+   {
+    "id": "f627ad",
+    "type": "fee_table",
+    "headers": [
+     "教室",
+     "地点",
+     "时间",
+     "费用"
+    ],
+    "rows": [
+     [
+      "伊都インターナショナルサークル",
+      "伊都校区 West4",
+      "木 17:30〜20:00",
+      "入会金 500 円"
+     ],
+     [
+      "日本語ひろば いとしま",
+      "糸島市人権センター",
+      "要问询",
+      "1 次 100 円"
+     ],
+     [
+      "元岡国際交流ひろば",
+      "元岡公民館",
+      "水 18:30〜20:00",
+      "免费"
+     ],
+     [
+      "Global Friendship",
+      "福岡市国際会館 4F",
+      "要问询",
+      "1 次 100 円"
+     ],
+     [
+      "かすが・にほんごひろば",
+      "クローバープラザ 3F",
+      "要问询",
+      "月 600 円"
+     ],
+     [
+      "香椎浜 よるとも会",
+      "香椎浜小学校",
+      "要问询",
+      "免费"
+     ]
+    ]
+   },
+   {
+    "id": "0d6cf9",
+    "type": "links",
+    "items": [
+     {
+      "text": "伊都インターナショナルサークル 090-8764-9588",
+      "url": "mailto:hatae_iic@yahoo.co.jp"
+     },
+     {
+      "text": "日本語ひろば いとしま 092-322-5095",
+      "url": "mailto:nihongoitoshima@gmail.com"
+     },
+     {
+      "text": "元岡国際交流ひろば — 邮件咨询",
+      "url": "mailto:motookahiroba@gmail.com"
+     },
+     {
+      "text": "Global Friendship 090-5727-9925",
+      "url": "mailto:globalfriendshipnihongo@gmail.com"
+     },
+     {
+      "text": "かすが・にほんごひろば 080-6441-0763",
+      "url": "mailto:fk.kasuga.nihongo@gmail.com"
+     },
+     {
+      "text": "香椎浜 よるとも会 090-5921-7798",
+      "url": "mailto:tomoikifukuoka@gmail.com"
+     }
+    ]
    },
    {
     "id": "333750",

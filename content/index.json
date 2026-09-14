@@ -34,7 +34,7 @@
     {
       "_id": "guide-academic",
       "category": "6",
-      "blocks": 52,
+      "blocks": 56,
       "file": "content/guide-academic.json"
     },
     {
@@ -74,28 +74,28 @@
       "file": "content/guide-emergency.json"
     },
     {
-          "_id": "guide-antifraud",
-          "category": "13",
-          "blocks": 37,
-          "file": "content/guide-antifraud.json"
-        },
-        {
-          "_id": "guide-newcomer",
-          "category": "14",
-          "blocks": 42,
-          "file": "content/guide-newcomer.json"
-        },
-        {
-          "_id": "guide-firstmonth",
-          "category": "14",
-          "blocks": 37,
-          "file": "content/guide-firstmonth.json"
-        },
-        {
-          "_id": "guide-scholarship",
-          "category": "15",
-          "blocks": 28,
-          "file": "content/guide-scholarship.json"
-        }
+      "_id": "guide-antifraud",
+      "category": "13",
+      "blocks": 37,
+      "file": "content/guide-antifraud.json"
+    },
+    {
+      "_id": "guide-newcomer",
+      "category": "14",
+      "blocks": 42,
+      "file": "content/guide-newcomer.json"
+    },
+    {
+      "_id": "guide-firstmonth",
+      "category": "14",
+      "blocks": 37,
+      "file": "content/guide-firstmonth.json"
+    },
+    {
+      "_id": "guide-scholarship",
+      "category": "15",
+      "blocks": 28,
+      "file": "content/guide-scholarship.json"
+    }
   ]
 }
