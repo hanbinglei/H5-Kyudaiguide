@@ -320,23 +320,6 @@ function showArticle(id,wantHeading,wantSec){
     toc.querySelector('.toc-tab')?.classList.add('on');
   }else{toc.style.display='none';toc.innerHTML=''}
 
-  /* 深链到小节：按**标题文本**定位，不按序号 —— 序号在正文增删后会整体错位，
-     和小程序那个「点目录跳到错位置」的缺陷同源。找不到就退到包含匹配，
-     再找不到就停在文章开头（打开的是正确的那篇，只是没滚到节）。 */
-  if(wantSec){
-    // 按区块 ID 定位（语言无关）→ 新生专区的时间线用这条
-    const el=body.querySelector(`h2[data-blk="${wantSec}"]`);
-    if(el) el.scrollIntoView({behavior:'smooth',block:'start'});
-  }else if(wantHeading){
-    let idx=headings.indexOf(wantHeading);
-    if(idx<0) idx=headings.findIndex(h=>h&&(h.includes(wantHeading)||wantHeading.includes(h)));
-    const el=idx>=0?document.getElementById('sec-'+idx):null;
-    if(el){
-      el.scrollIntoView({behavior:'smooth',block:'start'});
-      toc.querySelectorAll('.toc-tab').forEach((x,i)=>x.classList.toggle('on',i===idx));
-    }
-  }
-
   // 电话 / 互引
   // 电话本身是 <a href="tel:">：手机上交给系统（会先弹确认框，不会误拨）。
   // 桌面浏览器拨不了号，这里拦下改为复制 —— 用能不能悬停/精确指点来区分，比 UA 嗅探可靠。
@@ -367,6 +350,28 @@ function showArticle(id,wantHeading,wantSec){
         // 关闭按钮/遮罩点击由 onHashChange 离开 article 时解除。
         document.body.classList.add('modal-open');
         window.scrollTo(0,0);
+
+        /* 深链到小节。⚠️ 必须放在 window.scrollTo(0,0) **之后**并延后一拍 ——
+           放在前面会被那次 scrollTo 冲掉（实测目标小节停在视口下方 970px）。
+           定位按**区块 ID**（语言无关），退路是按标题文本；
+           不用「第 N 节」的序号 —— 正文增删后序号会整体错位，
+           和小程序那个「点目录跳到错位置」的缺陷同源。 */
+        if(wantSec||wantHeading){
+          setTimeout(()=>{
+            let target=null,idx=-1;
+            if(wantSec){
+              target=body.querySelector('h2[data-blk="'+wantSec+'"]');
+            }else{
+              idx=headings.indexOf(wantHeading);
+              if(idx<0) idx=headings.findIndex(h=>h&&(h.includes(wantHeading)||wantHeading.includes(h)));
+              if(idx>=0) target=document.getElementById('sec-'+idx);
+            }
+            if(target){
+              target.scrollIntoView({behavior:'auto',block:'start'});
+              if(idx>=0) toc.querySelectorAll('.toc-tab').forEach((x,i2)=>x.classList.toggle('on',i2===idx));
+            }
+          },80);
+        }
     }
 
 /** 复制文本，返回是否成功。
