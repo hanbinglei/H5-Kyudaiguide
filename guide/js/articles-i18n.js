@@ -126,6 +126,18 @@ window.ARTICLES_I18N = {
    "ko": "지금 지원 가능한 7건(금액·마감 목록, 모집요강 다운로드 포함), 두 가지 지원 경로, 일본어와 중복 수급 장벽, 국비 외국인 유학생 4개 구분 월액, 사비 학습장려비 48,000엔/월.",
    "zh": "现在能申请的 7 件（金额・截止一览，含可下载的募集要項）、两条应募路径、日语与併給门槛、国費外国人留学生 4 类别月額、私費学習奨励費 48,000 円/月。"
   }
+ },
+"guide-career": {
+  "title": {
+   "ja": "就職・インターン（外国人留学生）",
+   "en": "Careers & Internships (international students)",
+   "ko": "취업·인턴십(외국인 유학생)"
+  },
+  "summary": {
+   "ja": "日本就活のルール（新卒一括採用・4 月入社・ポテンシャル採用）、年 1 回のスケジュール、3 つの関門（ES・SPI・面接）の難所、内定後の在留資格変更と報告義務、キャリア支援室の窓口と 12/2 企業研究フェア。",
+   "en": "How Japanese hiring works (mass new-grad hiring, April entry, potential-based selection), the once-a-year calendar, what the three gates (entry sheet, SPI, interviews) actually test, the residence-status change and reporting duty after an offer, the career office counter, and the 2 Dec company fair.",
+   "ko": "일본 취업 규칙(신졸 일괄 채용·4월 입사·포텐셜 채용), 1년에 한 번인 일정, 세 관문(ES·SPI·면접)의 난관, 내정 후 재류자격 변경과 보고 의무, 커리어지원실 창구와 12/2 기업 연구 페어."
+  }
  }
 };
 })();

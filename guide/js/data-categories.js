@@ -16,5 +16,6 @@ const CATEGORIES = [
   // ↓ H5 侧扩展（小程序 data/categories.js 里没有；重生成时注意别覆盖）
   { id: '13', name: '反诈安全', icon: '🛡️' },
   { id: '15', name: '奖学金', icon: '💰' },
+  { id: '16', name: '就职·实习', icon: '🧑‍💼' },
 ];
 if(typeof window!=='undefined') window.CATEGORIES=CATEGORIES;

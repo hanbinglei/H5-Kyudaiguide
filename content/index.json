@@ -96,6 +96,12 @@
       "category": "15",
       "blocks": 28,
       "file": "content/guide-scholarship.json"
+    },
+    {
+      "_id": "guide-career",
+      "category": "16",
+      "blocks": 19,
+      "file": "content/guide-career.json"
     }
   ]
 }
