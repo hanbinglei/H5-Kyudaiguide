@@ -3143,10 +3143,10 @@ window.ARTICLES_BODY_I18N = {
    "161806": {
     "items": [
      {
-      "text": "九州大学指定寮：大学が民間のアパートと契約しており、保証人不要で入居できます。詳細は留学課にお問い合わせください"
+      "text": "九州大学指定寮：大学が民間アパートと契約しており、保証人なしで入居できます。詳細は留学課に問い合わせてください"
      },
      {
-      "text": "公営住宅（市営/県営）：家賃が安いですが募集期間が限られており、九大住宅保証制度への加入が必要です"
+      "text": "公営住宅（市営/県営）：家賃が低めですが募集期間が限られており、九大住宅保証制度への加入が必要です"
      },
      {
       "text": "九大生協管理アパート：生協の店舗（伊都皎皎舎）または公式サイトで確認できます"
@@ -3155,35 +3155,35 @@ window.ARTICLES_BODY_I18N = {
       "text": "福岡国際交流会館：多言語対応で、外国人向けです"
      },
      {
-      "text": "シェアハウス/ゲストハウス：糸島地区には古民家シェアハウスがあります（糸结、ことのはなど）"
+      "text": "シェアハウス/ゲストハウス：糸島エリアには古民家シェアハウスがあります（糸結、ことのはなど）"
      }
     ]
    },
    "807523": {
     "items": [
      {
-      "title": "「入国支援システム」からオンライン申請",
-      "desc": "留学生はこのルートを利用し、来日前に手続きを完了させます。複数の寮に同時に申請し、希望順位を記入できます。"
+      "title": "「入国支援システム」でオンライン申請",
+      "desc": "留学生はこのルートを利用します。来日までに手続きを完了させる必要があります。複数の寮を同時に申請し、希望順位を記入できます。"
      },
      {
       "title": "締切までに提出",
-      "desc": "2026 年 10 月期を例にとると、締切は同年 7 月 31 日 17:00（日本時間）です。"
+      "desc": "2026 年 10 月期を例にすると、締切は同年 7 月 31 日 17:00（日本時間）です。"
      },
      {
-      "title": "結果の通知を待つ",
-      "desc": "10 月期の結果は、8 月末ごろにメールで本人と指導教員に通知されます。"
+      "title": "結果通知を待つ",
+      "desc": "10 月期の結果は、8 月末頃に本人と指導教員へメールで通知されます。"
      },
      {
       "title": "フライト情報を事前登録",
-      "desc": "入寮日の少なくとも 7 営業日前までにシステムでフライト情報を入力します。入力しないと期日どおりに入寮できません。"
+      "desc": "入寮日の7営業日前までに、システムでフライト情報を登録してください。登録がないと期日どおりに入居できません。"
      }
     ]
    },
    "910043": {
-    "text": "交通：糸島系統の九大線はすべて通り、九大線系統にも 2A 線が 1 本通っています。利用できるバス停は、国際村前・伊都の湯どころ入口・泊北口の 3 つです。国際村前が最も近く、2A 線はすべて停車しますが、糸島系統は一部の路線だけが通ります。国際村前を通らない糸島線はすべて伊都の湯どころ入口に停車し、学校方面へはここで降りる方が近く、道路を渡る必要もありません。泊北口には上記の路線すべてが停車します。"
+    "text": "交通：糸島系統の九大線はすべて通り、九大線系統にも 2A 線が1本通っています。利用できるバス停は国際村前、伊都の湯どころ入口、泊北口の3つです。国際村前が最寄りで、2A 線はすべて停車しますが、糸島系統は一部の路線のみ通過します。国際村前を通らない糸島線はすべて伊都の湯どころ入口に停車し、学校方面へはここで降りる方が近く、横断歩道も渡らずに済みます。泊北口は上記の路線すべてが停車します。"
    },
    "67f6a8": {
-    "text": "キャンパス内の寮と市街地での賃貸は二つの選択肢であり、**まず寮を検討することをおすすめします**。費用が安く、手続きも簡単で、保証人も不要です。本記事では、選び方、初期費用、契約上の注意点を説明します。"
+    "text": "校内寮と市街地での賃貸は2つの選択肢です。**まずは寮を検討することをおすすめします** ―― 費用が安く、手続きが簡単で、保証人も不要です。本記事では選び方、初期費用、契約上の注意点について説明します。"
    },
    "c8bea3": {
     "text": "建物と設備"
@@ -3195,67 +3195,67 @@ window.ARTICLES_BODY_I18N = {
     "text": "費用と募集期間"
    },
    "59e679": {
-    "text": "キャンパス内の寮：4 か所の比較"
+    "text": "校内寮：4つの寮の比較"
    },
    "ec0d25": {
-    "text": "多くの留学生は、1 年目はまずキャンパス内の寮に住み、生活が落ち着いてから自分で部屋を借りることを検討します。伊都キャンパスにはドミトリー1/2/3（D1/D2/D3）と伊都協奏館の 4 か所に申請できます。いずれも留学生と日本人学生が一緒に暮らす混住型です。もう一か所、SETTLE International は民間のアパートですが、九州大学が留学生用の寮として指定しており、同じ申請手続きで入居できます。詳細は本ページ後半の専用の節を参照してください。"
+    "text": "多くの留学生は1年目はまず校内寮に住み、生活が落ち着いてから賃貸を検討します。伊都キャンパスには応募できる寮が4つあります：ドミトリー1/2/3（D1/D2/D3）と伊都協奏館で、いずれも留学生と日本人学生の混住です。もう一つ、SETTLE International は民間アパートですが、九州大学が留学生寮に指定しており、同じ申込方法で応募できます。詳細は本ページ後半の専用セクションを参照してください。"
    },
    "bdce7d": {
     "headers": [
      "寮",
-     "部屋タイプ",
+     "間取り",
      "月額費用",
-     "キャンパスまでの距離"
+     "教室棟まで"
     ],
     "rows": [
      [
       "ドミトリー1",
       "単間 13 ㎡（254 室）",
-      "23,000 円 + 光熱費",
+      "23,000 円＋光熱費",
       "徒歩約 5 分"
      ],
      [
       "ドミトリー2",
-      "単間 17㎡／夫婦 43㎡",
-      "30,000 円 + 光熱費",
+      "単間 17 ㎡／夫婦室 43 ㎡",
+      "30,000 円＋光熱費",
       "徒歩約 5 分"
      ],
      [
       "ドミトリー3",
-      "4 人ユニット共有",
+      "4 人ユニットシェア",
       "23,500 円 全込み",
       "徒歩約 5 分"
      ],
      [
       "伊都協奏館",
-      "単間 17㎡／夫婦 43㎡",
-      "21,000 円 + 光熱費",
+      "単間 17 ㎡／夫婦室 43 ㎡",
+      "21,000 円＋光熱費",
       "徒歩約 15 分"
      ]
     ]
    },
    "ca3d1f": {
-    "text": "部屋タイプと室数：ドミトリー1・2 には、それぞれ単間 17 ㎡ と夫婦室 43 ㎡があります。ドミトリー2 は単間 242 室・夫婦室 20 室、ドミトリー1 は単間 549 室・夫婦室 15 室です。伊都協奏館の D3 は 4 人ユニットの共有です（個室 7 ㎡ + 共用 28 ㎡）。"
+    "text": "間取りと室数：ドミトリー1・2 にはそれぞれ単間 17 ㎡ と夫婦室 43 ㎡ があります。ドミトリー2 は単間 242 室・夫婦室 20 室、ドミトリー1 は単間 549 室・夫婦室 15 室です。伊都協奏館 D3 は 4 人ユニットシェア（個室 7 ㎡＋共用 28 ㎡）です。"
    },
    "612bb9": {
-    "text": "月額費用 = 寄宿料 + 共益費 4,500 円です。D3 の 23,500 円には光熱水費とネット料金が含まれており、唯一の「全込み」の寮です。残りの 3 か所は、電気・水道・ガスを実費で別途支払い、ネットは指定事業者と自分で契約する必要があります（約 2,000～3,500 円／月）。4 か所とも敷金 30,000 円が別途必要で、退去時に返還されます。"
+    "text": "月額費用＝寄宿料＋共益費 4,500 円です。D3 の 23,500 円には光熱水費とネット料金が含まれており、唯一の「全込み」プランです。残りの3か所は電気・ガス・水道が実費精算で、ネットは自分で指定事業者と契約する必要があります（月 2,000～3,500 円程度）。4か所とも入居時に敷金 30,000 円がかかり、退去時に返還されます。"
    },
    "a35e71": {
-    "text": "**住み続けられるわけではありません。** 寮は学期ごとに再募集され、1 回の入居期間は約半年です（例：2026 年 10 月期は入居日から 2027 年 3 月 15 日まで）。毎年 4 月期と 10 月期の年 2 回募集があり、期間終了時には規定に従って再申請するか退去する必要があります。長期間の滞在を考えている場合は、この点も考慮に入れておいてください。"
+    "text": "**ずっと住み続けられるわけではありません。** 寮は学期ごとに再募集され、1回の入居期間は約半年です（例：2026 年 10 月期は入居日から 2027 年 3 月 15 日まで）。年に 4 月期と 10 月期の2回募集があり、期間が終わると規定に従って再申請するか退去する必要があります。長く住む予定の方は、この点を考慮に入れてください。"
    },
    "e96b54": {
     "items": [
      {
-      "text": "4 か所とも食堂はなく（公式に明記されています）、自炊するかキャンパス内の食堂を利用する必要があります"
+      "text": "4つの寮とも食堂はありません（公式に明記されています）。自炊するか、キャンパス内の食堂を利用してください"
      },
      {
-      "text": "留学生は寝具をレンタルする必要があります：7,480 円／半年、または 14,960 円／年"
+      "text": "留学生は寝具のレンタルが必須です：半年 7,480 円、または年 14,960 円"
      },
      {
-      "text": "夫婦室は留学生のみ申請でき、D2 と伊都協奏館にのみ設置されています"
+      "text": "夫婦室は留学生のみ申請でき、設置されているのは D2 と伊都協奏館のみです"
      },
      {
-      "text": "D3 は 4 人ユニットの共有です：留学生 2 人 + 日本人学生 2 人。申請には交流の動機を記入する必要があります"
+      "text": "D3 は 4 人ユニットシェア：留学生 2 名＋日本人学生 2 名。申請時には交流の動機を記入する必要があります"
      }
     ]
    },
@@ -3266,7 +3266,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "D3 は第一志望のみ記入でき、井尻寮との併願はできません。部屋が割り当てられた後は、原則として変更できません。"
    },
    "f7acdc": {
-    "text": "**研究生（研究生 / リサーチスチューデント）と交換留学生が入居できるかどうかは、公式には明記されていません。** 日本人向けの募集では研究生・聴講生などの非正課生が明確に除外されていますが、留学生向けの募集要項には「新たに来学・来日予定の留学生」とだけ書かれており、この 2 つの身分は明記されていません。判断に迷った場合は、直接問い合わせてください：国際部留学課受入支援係 imm.s@jimu.kyushu-u.ac.jp"
+    "text": "**研究生（研究生 / リサーチスチューデント）と交換留学生が入居できるかについて、公式には明確な記載がありません。** 日本人向けのルートでは研究生・聴講生などの非正課生が明確に除外されています。留学生向けのルートの募集要項には「新たに来学・来日予定の留学生」とだけ書かれており、この2つの身分は個別に記載されていません。不明な場合は直接問い合わせてください：国際部留学課受入支援係 imm.s@jimu.kyushu-u.ac.jp"
    },
    "7ffe11": {
     "items": [
@@ -3275,7 +3275,7 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://www.kyushu-u.ac.jp/ja/education/life/dormitory/"
      },
      {
-      "text": "九州大学・寮情報サイト",
+      "text": "九州大学・宿舎情報ステーション",
       "url": "https://dormitory.student.kyushu-u.ac.jp/"
      },
      {
@@ -3289,49 +3289,49 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "ce90ee": {
-    "text": "福岡での賃貸：3 つのエリア比較"
+    "text": "福岡の賃貸：3つのエリアの比較"
    },
    "c9a766": {
     "text": "学研（九大学研都市駅周辺）"
    },
    "60cdc9": {
-    "text": "3 つのエリアの中で最も範囲が広く、バスの始発駅があるため、すべての路線が利用でき、通学に最も便利です。その分、同じ条件の家賃は周船寺の約 1.1~1.2 倍です。"
+    "text": "3つのエリアの中で最も範囲が広く、バス始発駅があるため、すべての路線に乗れて、通学に最も便利です。その分、同じ条件の家賃は周船寺の 1.1～1.2 倍程度です。"
    },
    "095a6e": {
     "text": "周船寺（Susenji）"
    },
    "fe6c53": {
-    "text": "距離・家賃・生活の便利さのバランスが取れています。一部の建物は古く、木造建築は遮音性が普通程度です。交通は主に周船寺線に依存しており、バスの路線は学研ほど充実していません。"
+    "text": "距離・家賃・生活の便利さのバランスが良いエリアです。一部の建物は古めで、木造の建物は防音が普通レベルです。交通は主に周船寺線に依存しており、バスの本数は学研ほど多くありません。"
    },
    "298caa": {
-    "text": "キャンパス至近"
+    "text": "キャンパスすぐ隣"
    },
    "374ae9": {
-    "text": "建物は通常比較的新しく、非木造が多く、一部は基本的な家電付きです。欠点は周辺の店が少ないことで、日常の買い物は主にコンビニに依存し、生活の利便性は低めです。"
+    "text": "建物は比較的新しく、非木造が多く、一部は基本的な家電付きです。欠点は周辺に店が少なく、日常の買い物は主にコンビニ頼みになるため、生活の利便性が低いことです。"
    },
    "02657e": {
-    "text": "経験談：ある学生は 2022 年から学研に住んでいますが、大家が当初ほぼ 2 倍への値上げを検討したところ、交渉の結果 53,000 円/月に維持されました。家賃には交渉の余地があり、更新時にはこちらから相談するとよいでしょう。"
+    "text": "経験談：2022 年から学研に住んでいる学生の例では、大家が当初家賃を約2倍に値上げしようとしたところ、交渉の結果 53,000 円/月に据え置かれました。家賃には交渉の余地があるため、更新時に積極的に相談してみましょう。"
    },
    "1bb6a1": {
     "text": "初期費用"
    },
    "fa402b": {
-    "text": "賃貸の初期費用は一般的に家賃の 4~5 倍で、ハウスクリーニング代・鍵交換代・管理費などが含まれます（経験上の目安であり、実際は契約によります）。審査には約 1 か月かかるため、7 月の入居を予定している場合は、5 月から部屋探しを始めることをおすすめします。"
+    "text": "賃貸の初期費用は通常、家賃の 4～5 倍程度かかります。クリーニング代、鍵交換代、管理費などが含まれます（あくまで経験上の目安で、実際は契約内容によります）。審査には約1か月かかるため、7 月に入居予定なら 5 月頃から物件探しを始めることをおすすめします。"
    },
    "c505d6": {
-    "text": "電気・ガス・水道料金"
+    "text": "光熱費（電気・ガス・水道）"
    },
    "495d0f": {
-    "text": "夏にエアコンを使用すると、電気代・ガス代・水道代を合わせて毎月約 20,000 円になります（経験値であり、使用状況によって異なります）。"
+    "text": "夏にエアコンを使うと、電気代・ガス代・水道代を合わせて月約 20,000 円になります（経験値で、使用状況によって異なります）。"
    },
    "cb74b3": {
-    "text": "郵便物の転送"
+    "text": "郵便転送"
    },
    "994e7b": {
-    "text": "引っ越し後の郵便局での転送手続きについては、【在留手続・郵便物の転送】を参照してください。ここでは繰り返しません。"
+    "text": "引っ越し後の郵便局での転送手続きについては【在留手続・郵便転送】を参照してください。ここでは重複して説明しません。"
    },
    "c541f6": {
-    "text": "周辺の便利なリンク"
+    "text": "周辺の便利リンク"
    },
    "11a7ad": {
     "items": [
@@ -3352,7 +3352,7 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://maps.app.goo.gl/WMofqf67itQLxT1B9"
      },
      {
-      "text": "周船寺・郵便ポスト",
+      "text": "周船寺・ポスト",
       "url": "https://maps.app.goo.gl/v1yiCxUtXgySeABSA?g_st=ic"
      },
      {
@@ -3360,39 +3360,39 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://www.city.fukuoka.lg.jp/kankyo/jigyokeigomi/kaishujoho.html#web"
      },
      {
-      "text": "学校の健康センター・相談",
+      "text": "学校健康センター・相談",
       "url": "https://consult.kyushu-u.ac.jp/project/"
      }
     ]
    },
    "2e80af": {
-    "text": "その他の賃貸チャネル"
+    "text": "その他の賃貸の探し方"
    },
    "4919b5": {
-    "text": "伊都キャンパス周辺は賃貸物件が限られているため、複数のチャネルを並行して探すことをおすすめします："
+    "text": "伊都キャンパス周辺は賃貸物件が限られているため、複数のルートを並行して探すことをおすすめします："
    },
    "83dd45": {
-    "text": "注意：特別聴講学生・研究生などの非正課生は賃貸契約が制限される可能性があります。事前にサポートセンターへ相談することをおすすめします。"
+    "text": "注意：特別聴講学生、研究生などの非正課生は賃貸契約に制限がある場合があります。事前にサポートセンターへ相談することをおすすめします。"
    },
    "69b4a1": {
-    "text": "さらに外側の 2 エリア：高田、富士見・泉"
+    "text": "さらに外側の2エリア：高田、富士見・泉"
    },
    "a7c359": {
     "headers": [
-     "エリア（位置を含む）",
+     "エリア（所在地含む）",
      "家賃",
      "生活",
      "通学"
     ],
     "rows": [
      [
-      "高田（糸島市、周船寺—波多江の間）",
+      "高田（糸島市、周船寺―波多江の間）",
       "福岡市西区より安い",
-      "買い物・食事は問題なし",
+      "買い物や食事に問題なし",
       "九大線の本数はやや少なめ、車があればより速い"
      ],
      [
-      "富士見・泉（周船寺と学校の中間、静かな住宅街）",
+      "富士見・泉（周船寺と学校の間、静かな住宅街）",
       "周船寺中心部よりやや安い",
       "北に行くほど少なくなり、南か東へ移動する必要がある",
       "周船寺または学園通り経由で、比較的便利"
@@ -3400,18 +3400,18 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "d28f07": {
-    "text": "市をまたぐ場合は注意が必要です：高田は糸島市に属するため、手続きは筑前前原駅近くの糸島市役所へ行きます。福岡市西区に住む場合は、九大学研都市駅近くの福岡市役所西部出張所へ行きます。両市のゴミ袋も共通ではないため、買う前に自分がどちらの市に属するかを確認してください。"
+    "text": "市をまたぐ場合は注意：高田は糸島市に属するため、手続きは筑前前原駅近くの糸島市役所で行います。福岡市西区に住む場合は、九大学研都市駅近くの福岡市役所西部出張所です。ゴミ袋も両市で共通ではないため、購入前に自分がどちらに属するか確認してください。"
    },
    "3dede6": {
     "text": "SETTLE International：他の寮との違い"
    },
    "6eed67": {
-    "text": "SETTLE は実際には外部向けに営業している商業アパートで、入居者の約半数は日本人学生のため、価格は最も高く、条件も最も良いです。運営方法が異なるため、他の寮や伊都協奏館での経験は通常そのまま当てはまりません。また糸島市に位置するため、各種手続きも福岡市西区に住む人とは異なります。"
+    "text": "SETTLE は実際には一般向けに運営されている商業アパートで、住民の約半数は日本人学生のため、価格は最も高く、条件も最も良いです。運営形態が異なるため、他の寮や伊都協奏館での経験は通常そのまま当てはまりません。また、糸島市に位置するため、各種手続きの流れも福岡市西区に住む人とは異なります。"
    },
    "55a19c": {
     "headers": [
      "項目",
-     "金額（九大申請ルート）"
+     "金額（九大申込ルート）"
     ],
     "rows": [
      [
@@ -3441,41 +3441,41 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "97975c": {
-    "text": "初期費用の内訳：132,100 円 = 敷金 30,000 + カードキー 16,500 + クリーニング 58,300 + 諸経費 27,300。月額費用にはネット料金が含まれており（無料）、ルーターは自前で用意する必要があります。"
+    "text": "初期費用の内訳：132,100 円 ＝ 敷金 30,000 ＋ カードキー 16,500 ＋ クリーニング 58,300 ＋ 諸経費 27,300。月額費用にはネット料金（無料）が含まれますが、ルーターは自分で用意する必要があります。"
    },
    "482c1e": {
-    "text": "**2 つの料金体系があります。間違えないように注意してください。** 上の表は九大の申請ルートで入居する場合の価格です。運営会社に直接申し込む場合は別体系で（家賃が別途かかり、礼金と 1 年契約があり、食事代は月ごとに別途徴収されます）。両方とも公式に存在するため、申請前に自分がどちらのルートで進むのかを確認してください。"
+    "text": "**2つの料金体系があります。間違えないように注意してください。** 上の表は九大の申込ルートで入居する場合の料金です。運営会社に直接借りる場合は別の体系になります（家賃が別途かかり、礼金と1年契約があり、食事代は月ごとに別途支払います）。両者は公式に併存しているため、申請前に自分がどちらのルートかを必ず確認してください。"
    },
    "ee03f5": {
-    "text": "公式情報の補足：部屋タイプは 1R で約 18.48～21.69 ㎡（2 タイプから選択不可）、食堂（食事代は別途）と 6 階の学習室（10:00–20:00）があります。入居期間は他の寮より約半年長くなっています。価格と設備は公式の最新案内を確認してください。"
+    "text": "公式情報の補足：間取りは 1R 約 18.48～21.69 ㎡（2タイプあり、指定不可）。食堂（食事代別途）と、6 階の学習室（10:00–20:00）があります。入居期間は他の寮より約半年長いです。料金と設備は公式の最新案内をご確認ください。"
    },
    "adf452": {
     "items": [
      {
-      "text": "位置：キャンパス南西、南門の外、農学部の近く。南門から学校へは長い坂を登る必要があります"
+      "text": "場所：キャンパス南西、南門の外で農学部の近く。南門から学校へは長い坂を上ります"
      },
      {
-      "text": "向き：北向きは日当たりが悪く、道路の騒音があります。南向きは夏に日差しが強く、蚊や虫が多いです"
+      "text": "向き：北向きは日当たりが悪く道路の騒音あり。南向きは夏が暑く、虫が多い"
      },
      {
       "text": "設備：建物は新しく、最上階に自習室と乾燥機、1 階に食堂があります"
      },
      {
-      "text": "周辺：スーパーはありません（交差点のコンビニのみ）。スーパー銭湯と数軒のレストランがあります"
+      "text": "周辺：スーパーはありません（角にコンビニがあるのみ）。銭湯と数軒のレストランあり"
      }
     ]
    },
    "8d272b": {
-    "text": "経験談：食堂付きは日本の学生アパートではよくある設備で、九大のような不便な立地では確かに価値があります。ただし、住んだ人の話によると、味も価格も特筆するほどではないとのことです。寮として入居する場合は商業アパートのような高額な初期費用はかからないため、低コストで一度試してみる価値があります。"
+    "text": "経験談：食堂付きは日本の学生アパートではよくある設備で、九大のような不便な場所では確かに価値があります。ただし、住んだ人の話では、味も価格も特筆するほどではありません。寮として入居する場合は商業アパートほどの高額な初期費用はかからないため、低コストで試せる機会ととらえることができます。"
    },
    "9c8146": {
-    "text": "バスの本数は少なく、徒歩圏内にはほとんど生活施設がありません。いつでも外出するには自分の交通手段が必要です。また SETTLE から学校まではすべて坂道で（南へ向かう国道沿いまでは平らですが）、普通の自転車ではかなりきついです。電動アシスト自転車は高価で、坂道もそれほど楽になりません。自転車で坂を登ることに自信がない場合は、原付の検討を直接おすすめします —— 【交通・原付 / 免許】を参照してください。"
+    "text": "バスの本数は少なく、徒歩圏内に生活施設はほぼありません。いつでも気軽に出かけられるようにするには、自分の移動手段が必要です。また、SETTLE から学校までは坂ばかりです（南へ下って国道沿いまでは平らですが）。普通の自転車ではかなりきつく、電動アシスト自転車は高いうえ、坂道もそれほど楽になりません。自転車で坂を上る自信がなければ、原付を検討するのがおすすめです ――【交通・原付 / 免許】を参照してください。"
    },
    "63c7c3": {
     "text": "不動産会社の選び方"
    },
    "be819d": {
-    "text": "インターネットで気に入った物件を見つけても、実際の物件はたいていどちらかの不動産会社が扱っています。写真だけでは当てにならないため、できるだけ実際に内見しましょう。迷った物件はグループで聞いてみると、現在住んでいる人や住んだことのある人に出会える可能性が高いです。"
+    "text": "ネットで見つけた気になる物件も、実際の物件情報はほとんどがどこかの不動産会社に握られています。写真だけでは当てにならないため、できるだけ現地で内見しましょう。迷う物件があればグループで聞いてみると、現在住んでいる人や過去に住んだ人が見つかる可能性が高いです。"
    },
    "89ee7b": {
     "headers": [
@@ -3485,15 +3485,15 @@ window.ARTICLES_BODY_I18N = {
     "rows": [
      [
       "九大生協",
-      "大学の機関ではないが、一部の物件は手数料無料"
+      "大学の機関ではなく、一部の物件は仲介手数料無料"
      ],
      [
-      "マイナビ学生の窓口",
-      "全国チェーンで、仲介手数料は家賃半月分"
+      "エイブル",
+      "全国チェーン、仲介手数料は家賃半月分"
      ],
      [
       "三好不動産",
-      "福岡ローカルの実力派"
+      "福岡ローカルで実力が強い"
      ],
      [
       "アパマンショップ",
@@ -3505,21 +3505,21 @@ window.ARTICLES_BODY_I18N = {
      ],
      [
       "日本ハウス",
-      "一部の自社管理物件は手数料不要"
+      "自社管理物件は手数料を取らない場合あり"
      ],
      [
-      "姪浜不動産",
-      "学校近くに物件があり、店舗は姪浜"
+      "ホームメイト",
+      "学校の近くに物件あり、店舗は姪浜"
      ]
     ]
    },
    "4e0936": {
-    "text": "経験談：以上は住んだことのある人の印象であり、各社の制度は変わることがあるため、契約前には実際の見積もりを確認してください。生協発行の九大向け賃貸情報誌はぜひ一度目を通す価値があり、価格とエリアの大まかなイメージをつかめます。"
+    "text": "経験談：上記は実際に住んだ人の印象です。各社の制度は変わるため、契約前には実際の見積もりを確認してください。生協の九大賃貸ガイド誌は一読の価値があり、価格とエリアのイメージを掴むことができます。"
    },
    "81a0f5": {
     "items": [
      {
-      "text": "LIFULL HOME'S（地図モードでの物件探しが便利）",
+      "text": "LIFULL HOME'S（地図モードで物件探しが便利）",
       "url": "https://www.homes.co.jp/chintai/"
      },
      {
@@ -3533,21 +3533,404 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "3218b7": {
-    "text": "本記事の一部は『新伊都国風土記』（著者：Hato_Tsubame、CantonSimon）から整理したもので、著者の許可を得て掲載しています。記事内の価格・バスの本数・手続きは時間とともに変わります。重要な事項は各公式サイトで確認してください。"
+    "text": "本記事の一部は『新伊都国風土記』（作者：Hato_Tsubame、CantonSimon）をもとに、作者の許可を得て収録したものです。文中の料金・バスの本数・手続きは時間とともに変わるため、重要な事項は各公式サイトをご確認ください。"
    }
   },
   "en": {
+   "161806": {
+    "items": [
+     {
+      "text": "Kyushu University designated dormitories: the university contracts with private apartment operators, and move-in is possible without a guarantor; ask the International Student Section for details"
+     },
+     {
+      "text": "Public housing (city-operated / prefecture-operated): lower rents but limited application periods, and enrollment in the Kyushu University Housing Guarantee System is required"
+     },
+     {
+      "text": "Apartments managed by the Kyushu University co-op (九大生協): listed at the co-op store (伊都皎皎舎) or on its website"
+     },
+     {
+      "text": "福岡国際交流会館 (Fukuoka International Exchange Center): multilingual support, aimed at foreign residents"
+     },
+     {
+      "text": "Share houses / guest houses: the Itoshima area has share houses in renovated old homes (e.g., 糸結, ことのは, etc.)"
+     }
+    ]
+   },
+   "807523": {
+    "items": [
+     {
+      "title": "Apply online through the Pre-Arrival Support System",
+      "desc": "International students use this channel and must complete the procedure before arriving in Japan. Multiple dormitories can be applied for at once, in order of preference."
+     },
+     {
+      "title": "Submit before the deadline",
+      "desc": "For the October 2026 term, for example, the deadline is 17:00 on July 31 of that year (Japan time)."
+     },
+     {
+      "title": "Wait for the result notification",
+      "desc": "For the October term, notification is sent by email around the end of August to the applicant and the supervising faculty member."
+     },
+     {
+      "title": "Register flight details in advance",
+      "desc": "Flight information must be entered in the system at least 7 business days before the move-in date; otherwise, move-in may not be possible on time."
+     }
+    ]
+   },
+   "910043": {
+    "text": "Transport: all 九大 (Kyudai) line buses of the Itoshima system pass through here, and one route, 2A, of the Kyudai line system also passes through. Three stops are available: 国際村前, 伊都の湯どころ入口 and 泊北口. 国際村前 is the closest and is served by all 2A buses, but only some Itoshima-system routes run through it; Itoshima-system routes that do not pass 国際村前 all stop at 伊都の湯どころ入口, where alighting toward the campus is closer and there is no need to cross the road; 泊北口 is served by all of the routes above."
+   },
    "67f6a8": {
-    "text": "Dormitories and private rentals are two different routes. **Consider the dorms first** - lower cost, simpler paperwork, no guarantor. This page covers how to choose, upfront costs and contract points to check."
+    "text": "On-campus dormitories and city apartments are two separate paths, and **dormitories are recommended first** - they are cheaper, the procedures are simpler, and no guarantor is needed. This article explains how to choose, the initial costs, and points to note when signing a contract."
    },
    "c8bea3": {
-    "text": "Rooms and facilities"
+    "text": "Rooms and Facilities"
    },
    "6c71d4": {
-    "text": "Access and location"
+    "text": "Transport and Location"
    },
    "ef875c": {
-    "text": "Costs and application periods"
+    "text": "Fees and Recruitment Periods"
+   },
+   "59e679": {
+    "text": "On-Campus Dormitories: Comparison of the Four Options"
+   },
+   "ec0d25": {
+    "text": "Most international students spend their first year in an on-campus dormitory and consider renting privately after settling in. The Ito Campus offers four options: ドミトリー1/2/3 (D1/D2/D3) and 伊都協奏館, all of which house international and Japanese students together. One further option, SETTLE International, is a private apartment building designated by Kyushu University as an international student dormitory and is handled under the same application process; see the dedicated section later on this page."
+   },
+   "bdce7d": {
+    "headers": [
+     "Dormitory",
+     "Unit type",
+     "Monthly fee",
+     "To lecture buildings"
+    ],
+    "rows": [
+     [
+      "ドミトリー1",
+      "Single room 13 ㎡ (254 rooms)",
+      "23,000 yen + utilities",
+      "About 5 min on foot"
+     ],
+     [
+      "ドミトリー2",
+      "Single 17 ㎡ / couple 43 ㎡",
+      "30,000 yen + utilities",
+      "About 5 min on foot"
+     ],
+     [
+      "ドミトリー3",
+      "4-person shared unit",
+      "23,500 yen all-inclusive",
+      "About 5 min on foot"
+     ],
+     [
+      "伊都協奏館",
+      "Single 17 ㎡ / couple 43 ㎡",
+      "21,000 yen + utilities",
+      "About 15 min on foot"
+     ]
+    ]
+   },
+   "ca3d1f": {
+    "text": "Room types and numbers: ドミトリー1 and ドミトリー2 each offer singles of 17 ㎡ and couple units of 43 ㎡; ドミトリー2 has 242 singles and 20 couple units, while ドミトリー1 has 549 singles and 15 couple units. The 4-person shared units in 伊都協奏館 D3 consist of a 7 ㎡ private room plus 28 ㎡ of shared space."
+   },
+   "612bb9": {
+    "text": "Monthly fee = lodging fee (寄宿料) + common-area fee (共益費) of 4,500 円. The 23,500 円 for D3 already includes electricity, gas, water and internet, making it the only \"all-inclusive\" option; for the other three, utilities are billed by actual usage, and the internet requires a separate contract with a designated carrier (about 2,000-3,500 円/month). All four charge a deposit of 30,000 円, refundable when moving out."
+   },
+   "a35e71": {
+    "text": "**Not a place to stay indefinitely.** Dormitories are re-opened for applications every semester, roughly half a year at a time (e.g., the October 2026 term runs from the move-in date to March 15, 2027). Applications open once for the April term and once for the October term each year, and at the end of each term residents must re-apply or move out as prescribed. This should be factored into any long-term plans."
+   },
+   "e96b54": {
+    "items": [
+     {
+      "text": "None of the four has a cafeteria (as explicitly stated officially); residents must cook for themselves or eat at campus cafeterias"
+     },
+     {
+      "text": "International students must rent bedding: 7,480 yen per half year, or 14,960 yen per year"
+     },
+     {
+      "text": "Couple units can be applied for only by international students, and only ドミトリー2 and 伊都協奏館 have them"
+     },
+     {
+      "text": "D3 consists of 4-person shared units: 2 international students + 2 Japanese students; the application must state the motivation for exchange"
+     }
+    ]
+   },
+   "0785ee": {
+    "text": "Applying for Dormitories"
+   },
+   "f917d8": {
+    "text": "D3 can be listed only as the first choice, and cannot be applied for together with 井尻寮. In principle, once a room is assigned, changes are not permitted."
+   },
+   "f7acdc": {
+    "text": "**Whether research students (研究生 / リサーチスチューデント) and exchange students can move in is not clearly stated by the university.** The Japanese path explicitly excludes non-degree students such as research students and auditing students; for the international path, the application guidelines only state \"新たに来学・来日予定の留学生\" (international students newly scheduled to enroll and arrive) and do not list these two categories separately. When in doubt, ask directly: 国際部留学課受入支援係 imm.s@jimu.kyushu-u.ac.jp"
+   },
+   "7ffe11": {
+    "items": [
+     {
+      "text": "Kyushu University - Student Dormitories",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/life/dormitory/"
+     },
+     {
+      "text": "Kyushu University - Dormitory Information Site",
+      "url": "https://dormitory.student.kyushu-u.ac.jp/"
+     },
+     {
+      "text": "ISC - International Student Dormitory Details",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/housing/dormitory"
+     },
+     {
+      "text": "Pre-Arrival Support System (application portal)",
+      "url": "https://supportcenter.jimu.kyushu-u.ac.jp/student/"
+     }
+    ]
+   },
+   "ce90ee": {
+    "text": "Renting in Fukuoka: Comparison of Three Areas"
+   },
+   "c9a766": {
+    "text": "学研 (near Kyudai-Gakkentoshi Station)"
+   },
+   "60cdc9": {
+    "text": "The largest of the three areas, and the departure point of the bus service, so all routes can be taken from here and the commute is the most convenient. Correspondingly, rent for comparable conditions is about 1.1-1.2 times that of 周船寺 (Susenji)."
+   },
+   "095a6e": {
+    "text": "周船寺 (Susenji)"
+   },
+   "fe6c53": {
+    "text": "A fairly balanced option in terms of distance, rent and everyday convenience. Some buildings are older, and wooden construction offers average sound insulation. Transport relies mainly on the 周船寺 (Susenji) line, whose bus routes are less numerous than those of 学研."
+   },
+   "298caa": {
+    "text": "Right Beside the Campus"
+   },
+   "374ae9": {
+    "text": "Buildings here are usually newer and mostly non-wooden, and some are furnished with basic appliances. The drawback is that there are few shops nearby; daily shopping depends mainly on convenience stores, and everyday convenience is lower."
+   },
+   "02657e": {
+    "text": "Experience note: a student has been living in 学研 since 2022; the landlord originally planned to nearly double the rent, but after negotiation it remained at 53,000 円/month. Rents leave room for negotiation, and proactive communication at renewal is recommended."
+   },
+   "1bb6a1": {
+    "text": "Initial Costs"
+   },
+   "fa402b": {
+    "text": "Initial costs for renting are generally 4-5 times the monthly rent, including cleaning, key replacement, management fees and the like (an empirical range; the actual contract prevails). The screening process takes about one month, so to move in by July, house hunting should begin as early as May."
+   },
+   "c505d6": {
+    "text": "Utility Fees (Electricity, Gas, Water)"
+   },
+   "495d0f": {
+    "text": "In summer with air conditioning running, electricity, gas and water together come to about 20,000 円 per month (an empirical figure that varies with usage habits)."
+   },
+   "cb74b3": {
+    "text": "Mail Forwarding"
+   },
+   "994e7b": {
+    "text": "How to arrange mail forwarding at the post office after moving is covered in [Residence Procedures - Post Office Mail Address Transfer]; it is not repeated here."
+   },
+   "c541f6": {
+    "text": "Useful Links"
+   },
+   "11a7ad": {
+    "items": [
+     {
+      "text": "Rent market (HOME'S)",
+      "url": "https://www.homes.co.jp/"
+     },
+     {
+      "text": "SUUMO Student Edition (around Kyushu University Ito Campus)",
+      "url": "https://gakusei.suumo.jp/gakko/kyushu/10015000_004/"
+     },
+     {
+      "text": "九大前不動産",
+      "url": "https://www.kyudaimae.co.jp/"
+     },
+     {
+      "text": "周船寺 - Cardboard Box Disposal Point",
+      "url": "https://maps.app.goo.gl/WMofqf67itQLxT1B9"
+     },
+     {
+      "text": "周船寺 - Postbox",
+      "url": "https://maps.app.goo.gl/v1yiCxUtXgySeABSA?g_st=ic"
+     },
+     {
+      "text": "Cardboard Box Recycling (Fukuoka City)",
+      "url": "https://www.city.fukuoka.lg.jp/kankyo/jigyokeigomi/kaishujoho.html#web"
+     },
+     {
+      "text": "University Health Center - Counseling",
+      "url": "https://consult.kyushu-u.ac.jp/project/"
+     }
+    ]
+   },
+   "2e80af": {
+    "text": "More Housing Channels"
+   },
+   "4919b5": {
+    "text": "Rental listings around the Ito Campus are limited; using several channels in parallel is recommended:"
+   },
+   "83dd45": {
+    "text": "Note: non-degree students such as special auditing students and research students may face restrictions when renting; consulting the サポートセンター (Support Center) in advance is recommended."
+   },
+   "69b4a1": {
+    "text": "Two More Areas Farther Out: 高田, 富士见·泉"
+   },
+   "a7c359": {
+    "headers": [
+     "Area (with location)",
+     "Rent",
+     "Daily life",
+     "Commute"
+    ],
+    "rows": [
+     [
+      "高田 (Itoshima City, between 周船寺 and 波多江)",
+      "Cheaper than Nishi-ku, Fukuoka City",
+      "Adequate shopping and dining options",
+      "The 九大 (Kyudai) line runs somewhat less often; a car makes travel faster"
+     ],
+     [
+      "Fujimi-Izumi (富士見・泉) (between 周船寺 and the campus, a quiet residential area)",
+      "Slightly cheaper than central 周船寺",
+      "Options thin out toward the north; heading south or east is needed",
+      "Via 周船寺 or 学園通, fairly convenient"
+     ]
+    ]
+   },
+   "d28f07": {
+    "text": "Note the municipal boundary: 高田 belongs to Itoshima City, so administrative errands go to the 糸島市役所 (Itoshima City Hall) near 筑前前原 (Chikuzen-Maebaru) Station; residents of Nishi-ku, Fukuoka City use the 福岡市役所西部出張所 (Fukuoka City Hall Western Branch Office) near Kyudai-Gakkentoshi Station. The designated garbage bags also differ between the two, so confirm which side applies before buying."
+   },
+   "3dede6": {
+    "text": "SETTLE International: Differences from the Other Dormitories"
+   },
+   "6eed67": {
+    "text": "SETTLE is in fact a commercially operated apartment building open to the general public, and about half of its residents are Japanese students; it is therefore the most expensive and the best equipped. Because of this different mode of operation, experience from the other dormitories and 伊都協奏館 usually does not carry over; and since it is located in Itoshima City, administrative procedures also differ from those for residents of Nishi-ku, Fukuoka City."
+   },
+   "55a19c": {
+    "headers": [
+     "Item",
+     "Amount (Kyushu University application channel)"
+    ],
+    "rows": [
+     [
+      "Lodging fee (寄宿料)",
+      "41,000 yen/month"
+     ],
+     [
+      "Management fee",
+      "5,000 yen/month"
+     ],
+     [
+      "24-hour support / fire insurance / bank transfer (口座振替)",
+      "Total 2,120 yen/month"
+     ],
+     [
+      "Fixed water charge (定額水道)",
+      "2,200 yen/month"
+     ],
+     [
+      "Monthly total",
+      "About 50,320 yen + utilities"
+     ],
+     [
+      "One-time at move-in",
+      "132,100 yen"
+     ]
+    ]
+   },
+   "97975c": {
+    "text": "Initial cost breakdown: 132,100 円 = deposit 30,000 + card key 16,500 + cleaning 58,300 + miscellaneous fees 27,300. The monthly fee includes internet access (free), but a router must be provided by the resident."
+   },
+   "482c1e": {
+    "text": "**Two price systems - do not mix them up.** The table above shows the prices for moving in through the Kyushu University application channel; renting directly from the operator is a different system (rent charged separately, with key money, a one-year contract, and meal fees billed separately each month). Both exist officially, so confirm which path applies before applying."
+   },
+   "ee03f5": {
+    "text": "Official information supplement: the unit type is 1R of about 18.48-21.69 ㎡ (two layouts, which cannot be chosen); a dining hall is provided (meals billed separately), and there is a study room on the 6th floor (10:00-20:00). The period of residence is about half a year longer than at the other dormitories. Prices and facilities are subject to the latest official information."
+   },
+   "adf452": {
+    "items": [
+     {
+      "text": "Location: southwest of the campus, outside the South Gate, near the Faculty of Agriculture; the route from the South Gate to the campus involves a long uphill climb"
+     },
+     {
+      "text": "Orientation: north-facing units have poor daylight and road noise; south-facing units are hot in summer and have more insects"
+     },
+     {
+      "text": "Facilities: the building is new; the top floor has a study room and dryers, and the first floor has a cafeteria"
+     },
+     {
+      "text": "Surroundings: no supermarket (only a convenience store at the corner); there is a public bath and a few restaurants"
+     }
+    ]
+   },
+   "8d272b": {
+    "text": "Experience note: an attached cafeteria is a common feature in Japanese student apartment complexes and does add value in a location as remote as Kyushu University, but according to former residents the food and prices are nothing special. Moving in as a dormitory means avoiding the high initial costs charged for commercial apartments, so it can serve as a low-cost trial."
+   },
+   "9c8146": {
+    "text": "Bus frequency is sparse, and there is almost no daily-life infrastructure within walking distance; getting out at any time requires one's own transport. The route from SETTLE to the campus is all uphill (flat only southward along the national highway), which is hard work on an ordinary bicycle; e-bikes are expensive and not much easier on slopes. If cycling uphill is a concern, consider a 原付 (motorized scooter) instead - see [Transport - 原付 / Driver's License]."
+   },
+   "63c7c3": {
+    "text": "Key Points for Choosing an Agency"
+   },
+   "be819d": {
+    "text": "A listing found online is usually held by some specific agency in practice. Photos alone are unreliable, so units should be viewed in person whenever possible; for uncertain listings, asking in a group chat will likely reach someone currently living there or who has lived there."
+   },
+   "89ee7b": {
+    "headers": [
+     "Agency",
+     "Features"
+    ],
+    "rows": [
+     [
+      "九大生協",
+      "Not a university body; some listings have no agency fee"
+     ],
+     [
+      "エイブル",
+      "Nationwide chain; agency fee is half a month's rent"
+     ],
+     [
+      "三好不動産",
+      "Strong local presence in Fukuoka"
+     ],
+     [
+      "アパマンショップ",
+      "Located right below AEON; on the way to the supermarket"
+     ],
+     [
+      "九大前不動産",
+      "The manager of SETTLE"
+     ],
+     [
+      "日本ハウス",
+      "No fee on some self-managed listings"
+     ],
+     [
+      "ホームメイト",
+      "Has units near the campus; office in 姪浜 (Meinohama)"
+     ]
+    ]
+   },
+   "4e0936": {
+    "text": "Experience note: the above reflects the impressions of former residents; individual policies change, so rely on actual quotes before signing. The co-op's (生協) Kyushu University rental magazine is worth a first look, as it gives a rough sense of prices and areas."
+   },
+   "81a0f5": {
+    "items": [
+     {
+      "text": "LIFULL HOME'S (map view is convenient for searching)",
+      "url": "https://www.homes.co.jp/chintai/"
+     },
+     {
+      "text": "SUUMO Kyushu",
+      "url": "https://suumo.jp/kyushu/"
+     },
+     {
+      "text": "九大生協 - Housing Search (住まいさがし)",
+      "url": "https://coop.kyushu-u.ac.jp/wp/"
+     }
+    ]
+   },
+   "3218b7": {
+    "text": "Parts of this article are compiled from《新伊都国風土記》(authors: Hato_Tsubame and CantonSimon), included with the authors' permission. Prices, schedules and procedures in the text change over time; for important matters, refer to the respective official websites."
    }
   },
   "ko": {
@@ -5666,26 +6049,489 @@ window.ARTICLES_BODY_I18N = {
    }
   },
   "en": {
+   "397485": {
+    "text": "Bicycles: buying, riding, and disposal"
+   },
+   "402355": {
+    "text": "Two scenarios, two options: ① Tenjin/Hakata only → Option 1 (coupon tickets, 994円 for the round trip); ② two or more city destinations with time to spare → Option 2 (transfer at Meinohama + subway one-day pass)."
+   },
+   "565847": {
+    "text": "How to use: after enabling the ticket in the app as instructed, show it to the driver before alighting and simply get off."
+   },
    "d182c2": {
-    "text": "Dorm to campus, trips to Tenjin and Hakata, buying a bicycle, obtaining a licence - **settle your daily route first**, then choose the ticket option. Fares, commuter passes, discount tickets and money-saving options compared side by side."
+    "text": "From the dormitory to campus, to Tenjin and Hakata, buying a bicycle, getting a driver's license — **decide on the daily route first**, then choose the ticket plan. This article compares fares, commuter passes, discount tickets, and money-saving options side by side."
    },
    "695d78": {
     "text": "Other tickets and discounts"
    },
    "00a067": {
-    "text": "Details of the two plans"
+    "text": "Details of the two options"
    },
    "032cc4": {
-    "text": "Conclusion and practical tips"
+    "text": "Conclusions and practical tips"
    },
    "5803fa": {
     "text": "Related links"
    },
    "0e3977": {
-    "text": "Nishitetsu bus discounts"
+    "text": "Nishitetsu Bus discounts"
    },
    "d2037e": {
-    "text": "Test procedure and reception hours"
+    "text": "Exam procedure and application hours"
+   },
+   "1b9a7f": {
+    "text": "On the Ito Campus, bicycles are a common means of transport. From JR Kyudai-Gakkentoshi Station, walking to the campus takes about 45–50 minutes, cycling about 20–30, and a motorcycle or car about 10–15. Buses also run (about 15–20 minutes) but less frequently."
+   },
+   "29a476": {
+    "text": "Buying a bicycle"
+   },
+   "fc7dbb": {
+    "text": "A new bicycle generally costs 17,000円 or more; the secondhand price in Fukuoka is around 11,000円 (typical figure). Secondhand bicycles can be found on Mercari or through student transfer postings. When buying, **anti-theft registration (600円)** is required, and the anti-theft registration card must be kept (needed for cancellation later). See 【购物】"
+   },
+   "255bf5": {
+    "text": "Disposing of or transferring a bicycle"
+   },
+   "1dfdbd": {
+    "items": [
+     {
+      "text": "Unwanted bicycles can be sold to a secondhand shop or transferred to a friend"
+     },
+     {
+      "text": "The anti-theft registration must be cancelled: bring the customer copy of the anti-theft registration card received at purchase plus identification to the police station"
+     },
+     {
+      "text": "リサイクルマート糸島 (Recycle Mart Itoshima) offers English support"
+     }
+    ]
+   },
+   "ccfc54": {
+    "text": "Shared bicycles / rental"
+   },
+   "08e40e": {
+    "text": "Shared bicycle and shared e-scooter parking points are available on campus; locations and availability can be checked on the campus map or in the relevant app. The university also offers rental bicycles; ask at the Co-op (生協)."
+   },
+   "9ce8b1": {
+    "text": "Taking the bus: boarding, alighting, and city fares"
+   },
+   "96d0f3": {
+    "text": "Most buses in Japan are boarded from the rear (middle) door and alighted from the front door (beside the driver)."
+   },
+   "c35290": {
+    "text": "Boarding and alighting basically require tapping an IC card (except on flat-fare routes). When paying cash, take a 整理券 (numbered boarding ticket) from the ticket dispenser by the door at boarding — it proves the boarding stop — and insert it into the fare box together with the fare when alighting."
+   },
+   "aed18c": {
+    "text": "A change machine is on board, but it can only change 1,000円 bills into 500円 coins; prepare small change in advance."
+   },
+   "5d3027": {
+    "text": "Standard buses within Fukuoka City"
+   },
+   "f264f5": {
+    "text": "On Nishitetsu Bus central-city sections (Hakata Station, Tenjin, Yakuin-ekimae, etc.) the flat fare is 150円; the starting fare on ordinary sections is 210円 (after the January 2024 fare revision). Fukuoka's buses and subway all accept IC cards (SUGOCA, nimoca, Hayakaken, etc.)."
+   },
+   "60da92": {
+    "text": "Getting to campus: routes, my route, and commuter passes"
+   },
+   "de2248": {
+    "text": "The following three bus services run to the Kyushu University Ito Campus:"
+   },
+   "54f112": {
+    "headers": [
+     "Route",
+     "Operator",
+     "Main section",
+     "One-way fare"
+    ],
+    "rows": [
+     [
+      "Kyushu University Line (main)",
+      "Shōwa Bus",
+      "Kyudai-Gakkentoshi Station ↔ Ito Campus",
+      "330 yen"
+     ],
+     [
+      "Kyushu University Line (Itoshima)",
+      "Shōwa Bus",
+      "Maebaru · Susenji Shogakko-mae ↔ Ito",
+      "200 yen"
+     ],
+     [
+      "Express / direct services",
+      "Nishitetsu Bus",
+      "Hakata Station-mae · Tenjin ↔ Ito Campus",
+      "670 yen～"
+     ]
+    ]
+   },
+   "3f31f6": {
+    "text": "All bus stops from Kyudai-Gakkentoshi Station to the campus (East Zone, Orange Hall, the Faculty of Engineering, the Faculty of Agriculture, etc.) are a **flat 330円**. The flat-fare zone within the campus is 160円. Gakkentoshi Station → Ito office costs 390円, and the Tomari-kitaguchi (泊北口) / Kokusaimura-mae (国際村前) direction 410円."
+   },
+   "9a0cda": {
+    "text": "If scanning the aimo QR code with Google causes problems, use the aimo Japanese page instead: https://aimo-kyushu-u.zendesk.com/hc/ja"
+   },
+   "d0f4c1": {
+    "text": "Recommended: the my route app"
+   },
+   "790a29": {
+    "text": "The my route app can be downloaded (on iOS, the store region must be switched to an overseas one). The app covers the Shōwa Bus Kyushu University Line (excluding Itoshima City routes) and sells a 550円 / 18-hour unlimited-ride ticket (乗り放題チケット), payable by credit card or PayPay — one of the recommended options for the daily commute to campus."
+   },
+   "96fc42": {
+    "text": "Student commuter passes"
+   },
+   "f61466": {
+    "headers": [
+     "Route",
+     "Section",
+     "1 month",
+     "3 months"
+    ],
+    "rows": [
+     [
+      "Shōwa Bus Kyushu University Line",
+      "Kyudai-Gakkentoshi Station ↔ Ito Campus",
+      "10,000 yen",
+      "28,000 yen"
+     ],
+     [
+      "Shōwa Bus Kyushu University Line (Itoshima)",
+      "Maebaru · Susenji ↔ Ito Campus",
+      "7,200 yen",
+      "20,520 yen"
+     ],
+     [
+      "JR Chikuhi Line + subway",
+      "Kyudai-Gakkentoshi → Tenjin",
+      "about 11,680 yen",
+      ""
+     ],
+     [
+      "Nishitetsu Bus",
+      "Varies by section",
+      "",
+      ""
+     ]
+    ]
+   },
+   "3dd9c3": {
+    "items": [
+     {
+      "text": "Shōwa Bus Kyushu University Line: smartphone-based commuter pass, for Kyushu University students only"
+     },
+     {
+      "text": "Shōwa Bus Kyushu University Line (Itoshima): valid in paper and smartphone form"
+     },
+     {
+      "text": "JR Chikuhi Line + subway: check with NAVITIME"
+     },
+     {
+      "text": "Nishitetsu Bus: follow the official Nishitetsu website"
+     }
+    ]
+   },
+   "967aaa": {
+    "text": "On campus there is also the free reservation-based shuttle aimo, covering 37 stops; reserve by smartphone and board at the designated stop. Besides the on-demand service, a loop service with fixed schedules and routes, also requiring reservation, operates on weekdays during term time from 08:00–22:00."
+   },
+   "6ca9ff": {
+    "text": "aimo is not a flag-down shuttle but a reservation-based one. When demand is high, waiting can take ten-plus minutes or longer, so do not rely on it when time is tight."
+   },
+   "060e79": {
+    "text": "Discount tickets at a glance"
+   },
+   "459d9a": {
+    "text": "The following is based on the latest official information:"
+   },
+   "76448a": {
+    "items": [
+     {
+      "text": "Subway one-day pass: 640 yen, unlimited rides that day on all subway lines (Airport Line, Hakozaki Line, Nanakuma Line)"
+     },
+     {
+      "text": "Contactless payment (タッチ決済): credit cards can be tapped directly at all 36 stations of the 3 subway lines"
+     },
+     {
+      "text": "No further charge once 640 yen is reached in a day (320 yen for persons with disabilities and children)"
+     }
+    ]
+   },
+   "84fe39": {
+    "text": "The contactless daily cap is aggregated only for the same card number and the same medium. Tapping a physical card in the morning and the same card through a phone wallet in the afternoon counts each separately, and the cap does not apply — to enjoy the ceiling, use a single method all day. Also, the subway section ends at Meinohama; the first leg from Kyudai runs on the JR Chikuhi Line and is not counted toward this cap."
+   },
+   "28e638": {
+    "items": [
+     {
+      "text": "Ito Campus coupon tickets: 6,730 yen / 10 tickets (valid 3 months), available at the Kyushu University Co-op"
+     },
+     {
+      "text": "Ecoluka Card / Wide Ecoluka Card: Nishitetsu Bus monthly passes, price varies by zone"
+     },
+     {
+      "text": "Student commuter passes: JR, Nishitetsu, and the subway each offer student-discount passes; applicable once the student ID card is issued"
+     }
+    ]
+   },
+   "bf8325": {
+    "text": "Coupon ticket coverage: subway stations ↔ JR Kyudai-Gakkentoshi Station ↔ Shōwa Bus within the Kyudai campus. Each ticket 673円."
+   },
+   "50ea66": {
+    "text": "Note: non-regular students such as special auditors and research students **cannot purchase** the Ecoluka Card or student commuter passes."
+   },
+   "56c5db": {
+    "items": [
+     {
+      "text": "Subway one-day pass",
+      "url": "https://subway.city.fukuoka.lg.jp/fare/card/oneday.php"
+     },
+     {
+      "text": "Ito Campus coupon tickets (Shōwa Bus)",
+      "url": "https://showa-bus.jp/tickets/pass_itocampus/"
+     },
+     {
+      "text": "Ito Campus coupon tickets (subway)",
+      "url": "https://subway.city.fukuoka.lg.jp/fare/card/itocampus.php"
+     },
+     {
+      "text": "Ecoluka Card (Nishitetsu)",
+      "url": "https://www.nishitetsu.jp/bus/ecole/"
+     }
+    ]
+   },
+   "5824ef": {
+    "text": "· 連絡ミニ回数券 (connecting mini coupon tickets): books of 6, priced 2,610 / 2,820 / 2,980 / 3,360円 depending on the boarding station, sold at JR Kyushu stations. The covered sections differ from the Ito Campus coupon tickets, so before buying, check whether the section normally used is included."
+   },
+   "9acd34": {
+    "text": "· Nishitetsu Bus 6-hour / 24-hour free pass: unlimited rides on Nishitetsu Bus within the free area during the valid period; purchase in the my route app. A one-way ride from Kyudai to Tenjin on the K line already costs about 710円, so it is generally worthwhile when making several rides within the city on the same day."
+   },
+   "a010db": {
+    "text": "For the price and free area of the Nishitetsu free pass, the official price is printed inside an image, and the figures circulating elsewhere are inconsistent. Confirm in the my route app before purchasing. **Whether the free area covers the Kyudai section matters more than the price in deciding whether it is worth buying.**"
+   },
+   "c1a2f8": {
+    "text": "Tenjin and Hakata: two money-saving options"
+   },
+   "70e66b": {
+    "text": "The busiest districts in Fukuoka City are Tenjin and Hakata, but a direct ride from campus to either costs up to 570円 one way. The reason is that the Kyudai-Gakkentoshi and Susenji area belongs to the JR Chikuhi Line, which connects directly with the Fukuoka City Subway; a single trip pays the JR company and the Fukuoka City subway company separately, which drives the fare up."
+   },
+   "842f3d": {
+    "text": "In Option 2, Meinohama is the origin station of the Fukuoka City Subway Hakozaki and Airport Lines, with dense train frequency, so the transfer costs little time."
+   },
+   "13e40f": {
+    "text": "Applicable: activities that day are only in the Tenjin/Hakata area. One ticket per leg (2 in total) currently costs 994円 (about 497円 each), 73円 per ticket cheaper than riding directly. Tickets are sold in sets of 6, valid for 1 month and void after expiry; purchase according to the outing plan."
+   },
+   "4e6275": {
+    "items": [
+     {
+      "text": "After entering the station, find the ticket-vending machine area beside 「みどりの窓口」(Midori-no-madoguchi)"
+     },
+     {
+      "text": "On the touch screen, tap the「オトクチケット」button"
+     },
+     {
+      "text": "Select the departure station (Susenji or Kyudai-Gakkentoshi) and the number of tickets (buy 6 at once; 2 used this time)"
+     },
+     {
+      "text": "Pay by cash or IC card and collect the tickets"
+     },
+     {
+      "text": "Pass through the automatic gate with the ticket and board; at Tenjin/Hakata, insert the ticket into the gate to exit"
+     }
+    ]
+   },
+   "092ecf": {
+    "text": "Applicable: two or more city destinations that day with no tight schedule. The core is to ride JR only to Meinohama (the origin station of the Fukuoka City Subway), get off, and switch to a subway one-day pass for the day. Meinohama is the origin of the Hakozaki and Airport Lines, with much denser service than Kyudai-Gakkentoshi Station, so the transfer adds little time."
+   },
+   "2c1ea4": {
+    "text": "Total cost: 270×2 + 640 = 1,180円; for only one destination it is not worthwhile (the direct ride at 570×2 = 1,140円 is cheaper)."
+   },
+   "3f3ee3": {
+    "items": [
+     {
+      "text": "At Susenji or Kyudai-Gakkentoshi Station, buy a ticket to Meinohama (270 yen one way)"
+     },
+     {
+      "text": "Alight at Meinohama Station, exit the gate, and enter the Meinohama concourse"
+     },
+     {
+      "text": "At the Meinohama ticket machines, buy a Fukuoka City Subway one-day pass (640 yen)"
+     },
+     {
+      "text": "Ride anywhere on the Fukuoka City Subway with the one-day pass; it can be used repeatedly, exiting and re-entering the gate on the same day"
+     },
+     {
+      "text": "On the return, pay the difference for Meinohama → Kyudai-Gakkentoshi at the fare-adjustment machine before exiting the gate (about 300 yen)"
+     },
+     {
+      "text": "*The one-day pass remains valid for the day after exiting the gate and can be kept for the next visit to Fukuoka City*"
+     }
+    ]
+   },
+   "032240": {
+    "headers": [
+     "Method",
+     "Round-trip cost"
+    ],
+    "rows": [
+     [
+      "Direct round trip to Hakata",
+      "570×2 = 1,140 yen"
+     ],
+     [
+      "Meinohama round trip + subway one-day pass",
+      "Total 1,180 yen"
+     ]
+    ]
+   },
+   "2a2b4d": {
+    "text": "Conclusion: for a single destination, buying the direct ticket is cheaper (1,140円); for two or more destinations in a day, the Meinohama transfer + subway one-day pass is more economical."
+   },
+   "1fac9d": {
+    "text": "Tip: if unfamiliar with the ticket machines or fare adjustment at the gates, station staff of the subway/JR (in uniform with name badges) can be asked, in simple Chinese or English, to assist with ticket purchase, exiting, and fare adjustment."
+   },
+   "ec7b4d": {
+    "text": "Mopeds / driver's licenses"
+   },
+   "50dcb4": {
+    "text": "License conversion, moped (原付) exams, etc. can be handled through the following links; for the moped license, a driving school is not required — after booking an appointment the test can be taken directly. Details follow the Fukuoka Prefectural Police."
+   },
+   "b31729": {
+    "items": [
+     {
+      "text": "Fukuoka Prefectural Police · moped license",
+      "url": "https://www.police.pref.fukuoka.jp/kotsu/unshi/gentukihenkou_2.html"
+     },
+     {
+      "text": "Practice site (near Susenji)",
+      "url": "https://maps.app.goo.gl/mR8r3vYoqpNxiBVM6?g_st=ic"
+     },
+     {
+      "text": "E-scooter safety",
+      "url": "https://www.keishicho.metro.tokyo.lg.jp/kotsu/jikoboshi/electric_mobility/electric_kickboard.html"
+     }
+    ]
+   },
+   "1f9df3": {
+    "text": "Experience on license-conversion trips: first go to Hakata, transfer at Hakata Station to the JR Fukuhoku-Yutaka Line for Iizuka, then walk the remaining distance."
+   },
+   "6135a0": {
+    "text": "2025 rule change: the new-standard moped"
+   },
+   "187f72": {
+    "text": "With tighter emission regulations, Class-1 mopeds (原付一種) under 50cc ceased production on 2025-10-31, replaced by the \"new-standard moped\" (新基準原付): displacement is relaxed to 125cc or less, while maximum output is limited to 4.0 kW or less. The framework took effect on 2025-04-01, and the new emission regulations apply from 2025-11-01."
+   },
+   "55a01a": {
+    "text": "Displacement is larger, but **the legal treatment is unchanged**; it is still treated as a Class-1 moped: statutory maximum speed 30 km/h, two-stage right turn required when turning right at intersections on roads with three or more lanes, and carrying passengers is prohibited. Claims that \"125cc means it can run 60 and carry a passenger\" are all wrong."
+   },
+   "2553ff": {
+    "text": "The exam: written only, with a required lecture first"
+   },
+   "22a10d": {
+    "text": "The moped license has no practical exam, only a 30-minute written test, with question papers available in four languages: Japanese, English, Chinese, and Vietnamese. What really blocks applicants is not the exam but completing the「原付講習」lecture first — without it, no license is issued that day even if the written test is passed."
+   },
+   "de3307": {
+    "headers": [
+     "Item",
+     "Fee"
+    ],
+    "rows": [
+     [
+      "Examination fee",
+      "1,600 yen"
+     ],
+     [
+      "License issuance fee",
+      "2,350 yen"
+     ],
+     [
+      "Total (minimum)",
+      "3,950 yen"
+     ]
+    ]
+   },
+   "2b03e1": {
+    "text": "※ When applying online with a My Number Card, the above fees are reduced to 1,550 円."
+   },
+   "f264aa": {
+    "text": "Applications are accepted only on weekday mornings from 08:30–09:00 (excluding holidays and 12/29–01/03); there are 4 testing centers in Fukuoka Prefecture. Missing the window means returning another day, so allow enough travel time from Ito."
+   },
+   "e03f4f": {
+    "items": [
+     {
+      "text": "Registration: moped plates are issued by the municipal / ward office of residence (not a vehicle office); the counters in Nishi Ward and Itoshima City differ"
+     },
+     {
+      "text": "Compulsory Automobile Liability Insurance (自賠責保険) is mandatory; riding without insurance is illegal"
+     }
+    ]
+   },
+   "3ef442": {
+    "items": [
+     {
+      "text": "Fukuoka Prefectural Police · moped license (原付免許)",
+      "url": "https://www.police.pref.fukuoka.jp/kotsu/unshi/026_2.html"
+     },
+     {
+      "text": "Fukuoka Prefectural Police · moped lecture (原付講習)",
+      "url": "https://www.police.pref.fukuoka.jp/kotsu/unshi/gentukihenkou_2.html"
+     },
+     {
+      "text": "Japan Automobile Manufacturers Association · new classification of Class-1 mopeds",
+      "url": "https://www.jama.or.jp/operation/motorcycle/cat1_scooter/"
+     }
+    ]
+   },
+   "9e60e9": {
+    "text": "Taxis: fares and hailing"
+   },
+   "4dff94": {
+    "text": "Taxis are used when the last train is missed at night or bulky luggage is carried. The current fare scale of the Fukuoka area took effect on 2026-07-01."
+   },
+   "adf1b4": {
+    "headers": [
+     "Vehicle type",
+     "Flag-down (within 1.1 km)",
+     "Thereafter, per 100 yen"
+    ],
+    "rows": [
+     [
+      "Standard",
+      "600 yen",
+      "287 m"
+     ],
+     [
+      "Large",
+      "720 yen",
+      "176 m"
+     ],
+     [
+      "Extra-large",
+      "780 yen",
+      "148 m"
+     ]
+    ]
+   },
+   "094238": {
+    "items": [
+     {
+      "text": "Late-night surcharge: 22:00 to 05:00 the next morning, fare plus 20%"
+     },
+     {
+      "text": "Dispatch fees (hailing a taxi to the door) are set by each company and are not uniform"
+     },
+     {
+      "text": "JR station exits generally have taxis waiting; in remote areas, call by phone or through an app"
+     }
+    ]
+   },
+   "f7c689": {
+    "text": "The figures circulating online \"670円 for the first 1,064 m, then 80円 per 268 m\" are the previous fare scale, void since 2026-07-01. Guides carrying these numbers were mostly written before that date; treat their other content with the same caution."
+   },
+   "9b2747": {
+    "items": [
+     {
+      "text": "Fukuoka City Taxi Association · fare table",
+      "url": "https://www.taxi-fukcty.or.jp/charge/"
+     }
+    ]
+   },
+   "e612d1": {
+    "text": "Part of this article's topic selection references the compilation《新伊都国風土記》(a work by Hato_Tsubame and CantonSimon). All figures and procedures in this article are taken from official websites and re-verified; where they differ from that work, the official sources prevail."
    }
   },
   "ko": {
