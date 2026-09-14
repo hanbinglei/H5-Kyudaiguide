@@ -12,1087 +12,1369 @@
 (function(){
 window.ARTICLES_BODY_I18N = {
  "guide-academic": {
-  "ja": {
-   "333750": {
-    "text": "健康診断と学内の窓口"
-   },
-   "516428": {
-    "text": "留学生相談室（ISC）：イースト1号館 B540。履修、住居、病気、育児など、指導教員には話しにくいことも"
-   },
-   "742187": {
-    "text": "授業料免除"
-   },
-   "444ca9": {
-    "text": "「アカウントと証明書 → 履修と授業 → 研究と進学 → 奨学金と免除」の順にまとめています。"
-   },
-   "cc1cac": {
-    "text": "アカウントと各種証明書"
-   },
-   "3b7366": {
-    "text": "SSO-KID の有効化には大学のメールアドレス以外は使えません。成績証明書、在学証明書、新幹線の学割証などは九大公式サイトの certificate ページから申請します。大学院生向けの証明書は ku-cert を使います。"
-   },
-   "5ed19b": {
-    "items": [
-     {
-      "text": "九大 certificate（成績・在学・学割など）",
-      "url": "https://www.kyushu-u.ac.jp/ja/education/procedure/certificate/"
-     },
-     {
-      "text": "大学院生の証明書（ku-cert）",
-      "url": "https://ku-cert.kyushu-u.ac.jp/cert/z/c_menu.html/_/g"
-     },
-     {
-      "text": "履修システム（JTC）",
-      "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
-     },
-     {
-      "text": "大学のメール（Outlook、大学アカウントでログイン）",
-      "url": "https://outlook.office.com/mail/"
-     },
-     {
-      "text": "SSO のパスワード・アカウント（passchg）",
-      "url": "https://ci.iii.kyushu-u.ac.jp/m/"
-     }
-    ]
-   },
-   "c8db3c": {
-    "text": "一部の施設（博多駅前のサテライト施設など）は予約しないと入れません。QBS の学生でなくても入れますが、説明会などの場面では発言しにくいことがあります。駐車場は car-entry システムから申請します。"
-   },
-   "ad0d60": {
-    "items": [
-     {
-      "text": "博多サテライト施設のガイド",
-      "url": "https://www.kyushu-u.ac.jp/ja/university/facility/external/hakata/guide/"
-     },
-     {
-      "text": "学内駐車場の申請",
-      "url": "https://car-entry.cargate.kyushu-u.ac.jp/reg_apply/"
-     },
-     {
-      "text": "楽天ポイントカードの申込",
-      "url": "https://pointcard.rakuten.co.jp/"
-     }
-    ]
-   },
-   "c8e67d": {
-    "text": "履修と授業"
-   },
-   "e254fb": {
-    "text": "履修登録は通常、新学期の第 1～2 週に始まります（4/8～4/10 ごろ。大学からの通知が優先）。JTW は独立した課程体系で、資格のある学生には大学から個別にメールで案内があります。"
-   },
-   "b1a9b5": {
-    "text": "教科書は最初の授業で初めて指定されるのが普通なので、買い方を先に考えておく必要があります。先輩から中古を譲ってもらう手もあります。博士課程の学生は国際教育交流センター（ISC）の日本語コースを受講できます。詳細は ISC のページへ。"
-   },
-   "9ce243": {
-    "items": [
-     {
-      "text": "ISC の日本語コース",
-      "url": "https://isc.kyushu-u.ac.jp/center/international/japaneselang/"
-     }
-    ]
-   },
-   "f9e37c": {
-    "text": "研究と進学"
-   },
-   "5b832c": {
-    "text": "九大を直接受験する場合、先に教授へ連絡が必要か"
-   },
-   "acc4f9": {
-    "text": "必要です。まず教授に連絡し、受け入れの意思を確認してから受験してください。 これは教授が外国人学生を受け入れるかどうか、研究室に枠があるかどうかに関わります —— 試験に合格しても、枠がなければ入学できないことがあります。学部の GPA だけで決まるわけではなく、主に教授の判断によります。情報系の一部の専攻では内諾が不要ですが、それでも事前に連絡して確認することをおすすめします。"
-   },
-   "6be666": {
-    "text": "指導教員が定年退職に近い場合"
-   },
-   "406f13": {
-    "text": "博士課程に進む予定で、教授の退職により修了が延びたり指導教員が変わったりすることが心配なら、事前にそれとなく状況を確認しておくとよいでしょう。通常、退職が近い教授は学生のその後の指導を手配してくれます。いちばん確実なのは、教授と直接会って懸念を伝えることです。"
-   },
-   "3668c3": {
-    "text": "研究生（リサーチスチューデント）"
-   },
-   "93d2c1": {
-    "text": "経験は教授のスタイルに大きく左右されます。全て英語で指導し要求も厳しい先生もいれば、比較的自由で自主学習に任せる先生もいます。研究室にいる時間は研究室ごとの決まりで、時間どおりに来ることが基本的な要件です。詳しくは教授か先輩に聞いてください。"
-   },
-   "eedeaa": {
-    "text": "受験の参考：専攻ごとに事情が違います。まず一度受験してみて出題の傾向と要求を把握し、それを踏まえて準備するのもひとつの方法です。"
-   },
-   "14676e": {
-    "text": "奨学金と免除"
-   },
-   "35d880": {
-    "text": "RA（リサーチアシスタント）"
-   },
-   "fbd83d": {
-    "text": "九大の RA は全学で基準が統一されており、数学系ではおよそ 44,000 円/月との声があります（経験値で、部局や年度によって異なる場合があります）。RA は適切な研究課題があって初めて申請でき、誰でも得られるものではなく競争もそれなりにあります。ネット上の収入のスクリーンショットは一般的な水準を表すものではないので、参考程度に。"
-   },
-   "853a53": {
-    "text": "私費留学生向けの奨学金"
-   },
-   "b6950e": {
-    "text": "私費留学生が申請できる奨学金は、国際教育交流センター（ISC）の「私費留学生奨学金掲示板」が最も信頼できる情報源で、現在募集中の制度が随時更新されます。募集期間は短いことが多いので、定期的に確認し、条件と締切を早めに押さえてください。"
-   },
-   "066616": {
-    "items": [
-     {
-      "text": "ISC 私費留学生奨学金掲示板（最新年度）",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2026&lang=jp"
-     }
-    ]
-   },
-   "c3f0b4": {
-    "text": "通常は campusweb にログインして申請します（操作は 参照【在留手続き·campus のログイン申請】）。受付期間は大学からの通知が優先します。"
-   },
-   "e248db": {
-    "text": "日本語コース（JTCs）"
-   },
-   "7fbb45": {
-    "text": "九州大学の留学生センターは日本語コース（Japanese Training Courses）を開講しています。指定期間内にオンラインで登録し、プレースメントテストを受ける必要があります。登録期間を逃すと後から申し込むことはできません。"
-   },
-   "66a59f": {
-    "items": [
-     {
-      "text": "登録期間は通常、学期が始まった最初の週（例：4 月 13～18 日）"
-     },
-     {
-      "text": "対象は学部生、大学院生、非正課生"
-     },
-     {
-      "text": "問い合わせ：intlr-isc@jimu.kyushu-u.ac.jp / 092-802-2228"
-     }
-    ]
-   },
-   "32f280": {
-    "items": [
-     {
-      "text": "JTCs の登録ページ",
-      "url": "https://isc.kyushu-u.ac.jp/center/jtcs/"
-     }
-    ]
-   },
-   "6aab6e": {
-    "text": "このほか集中日本語コース（Intensive Japanese Courses）があり、秋学期は全留学生に開かれています（日本語能力や指導教員の許可などの条件を満たす必要があります）。"
-   },
-   "048da7": {
-    "text": "健康診断"
-   },
-   "9bf76b": {
-    "text": "毎年 4 月と 10 月に定期健康診断があります（通常はビッグさんど 2 階）。受診後は健康診断書を無料で発行できます。日程が合わない場合は変更できます。"
-   },
-   "c29b18": {
-    "text": "相談窓口の一覧"
-   },
-   "b15cf0": {
-    "text": "健康支援センター（カウンセリング）：ビッグさんど 2 階。心理・健康の相談 092-802-5881"
-   },
-   "2ae235": {
-    "text": "キャンパスヘルスサポートルーム：イースト1号館2階 E-B-202。対人関係、生活上の合理的配慮など"
-   },
-   "a5d419": {
-    "text": "マルチリンガル交流スペース（EZぷらっと）：イースト1号館2階 E-C-202。留学支援、語学学習、書籍・DVD の貸出"
-   },
-   "1b05a4": {
-    "text": "教務課：イースト1号館 C108。履修登録、証明書、学籍"
-   },
-   "c5a6e6": {
-    "text": "学生課：イースト1号館 C108。通学定期の学割、学生証の再発行、各種申請"
-   },
-   "c96936": {
-    "text": "サポートセンター：イースト1号館 C108。ビザ、病院の紹介、住居、日本語教室など"
-   },
-   "9e1128": {
-    "text": "部局別の問い合わせ先"
-   },
-   "7b2c1e": {
-    "items": [
-     {
-      "text": "人文・地球社会担当：jbkkyomu1lt@jimu.kyushu-u.ac.jp"
-     },
-     {
-      "text": "人環・教育担当：jbkkyomu1ed@jimu.kyushu-u.ac.jp"
-     },
-     {
-      "text": "法学担当：jbkkyomu2la@jimu.kyushu-u.ac.jp"
-     },
-     {
-      "text": "経済担当：jbkkyomu2ec@jimu.kyushu-u.ac.jp"
-     },
-     {
-      "text": "学生係：jbggakusei@jimu.kyushu-u.ac.jp"
-     }
-    ]
-   },
-   "f40f04": {
-    "text": "学年暦：まず自分が見ているのがどれかを確認"
-   },
-   "f8719f": {
-    "headers": [
-     "学期",
-     "2026 年度"
-    ],
-    "rows": [
-     [
-      "春学期",
-      "04-08 ～ 06-09"
-     ],
-     [
-      "夏学期",
-      "06-10 ～ 08-07"
-     ],
-     [
-      "秋学期",
-      "10-01 ～ 12-06"
-     ],
-     [
-      "冬学期",
-      "12-07 ～ 02-15"
-     ],
-     [
-      "春休み",
-      "04-01 ～ 04-07"
-     ],
-     [
-      "夏休み",
-      "08-08 ～ 09-30"
-     ],
-     [
-      "冬休み",
-      "12-26 ～ 01-04"
-     ]
-    ]
-   },
-   "92c5cc": {
-    "text": "入学式 04-03（秋季 10-02）· 学位記授与 03-25（秋季 09-25）· 九大祭 10-30 ～ 11-02。"
-   },
-   "828e4c": {
-    "text": "**これは全学共通の標準日程で、学府・学部ごとに異なる場合があります** —— 公式ページ自体がそう注記しています。帰国の航空券、試験、インターンを決める前に、必ず自分の学部のサイトでもう一度確認してください。工学部の日程で別の学部の予定を立てないように。"
-   },
-   "acd972": {
-    "items": [
-     {
-      "text": "九州大学・学事日程（全学）",
-      "url": "https://www.kyushu-u.ac.jp/ja/faculty/schedule/"
-     }
-    ]
-   },
-   "1240ad": {
-    "text": "証明書の発行方法"
-   },
-   "7d38ec": {
-    "text": "在学証明書、成績証明書、卒業／修了見込証明書などは、いずれも大学の証明書発行の窓口から手続きします。学内の自動発行機で出せるものもあり、学割証はそのひとつです（上の関連する説明を参照）。"
-   },
-   "d2ae99": {
-    "items": [
-     {
-      "text": "九州大学・各種証明書の発行",
-      "url": "https://www.kyushu-u.ac.jp/ja/education/procedure/certificate/"
-     },
-     {
-      "text": "ISC・留学生の日常生活ガイド",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/page-019"
-     }
-    ]
-   },
-   "c9398a": {
-    "text": "学外の日本語教室（6 か所）"
-   },
-   "714c74": {
-    "text": "九大自身の日本語コースは**無料**（上のリンク参照）。学外にも**ボランティア教室**が 6 か所あり、料金は無料〜1 回 100 円。日常会話を練習したい、地域の人と知り合いたい人には校内の授業より向いています。多くは事前のメール連絡が必要です。"
-   },
-   "f627ad": {
-    "headers": [
-     "教室",
-     "場所",
-     "時間",
-     "料金"
-    ],
-    "rows": [
-     [
-      "伊都インターナショナルサークル",
-      "伊都キャンパス West4",
-      "木 17:30〜20:00",
-      "入会金 500 円"
-     ],
-     [
-      "日本語ひろば いとしま",
-      "糸島市人権センター",
-      "要問い合わせ",
-      "1 回 100 円"
-     ],
-     [
-      "元岡国際交流ひろば",
-      "元岡公民館",
-      "水 18:30〜20:00",
-      "無料"
-     ],
-     [
-      "Global Friendship",
-      "福岡市国際会館 4F",
-      "要問い合わせ",
-      "1 回 100 円"
-     ],
-     [
-      "かすが・にほんごひろば",
-      "クローバープラザ 3F",
-      "要問い合わせ",
-      "月 600 円"
-     ],
-     [
-      "香椎浜 よるとも会",
-      "香椎浜小学校",
-      "要問い合わせ",
-      "無料"
-     ]
-    ]
-   },
-   "0d6cf9": {
-    "items": [
-     {
-      "text": "伊都インターナショナルサークル 090-8764-9588",
-      "url": "mailto:hatae_iic@yahoo.co.jp"
-     },
-     {
-      "text": "日本語ひろば いとしま 092-322-5095",
-      "url": "mailto:nihongoitoshima@gmail.com"
-     },
-     {
-      "text": "元岡国際交流ひろば— メールで問い合わせ",
-      "url": "mailto:motookahiroba@gmail.com"
-     },
-     {
-      "text": "Global Friendship 090-5727-9925",
-      "url": "mailto:globalfriendshipnihongo@gmail.com"
-     },
-     {
-      "text": "かすが・にほんごひろば 080-6441-0763",
-      "url": "mailto:fk.kasuga.nihongo@gmail.com"
-     },
-     {
-      "text": "香椎浜 よるとも会 090-5921-7798",
-      "url": "mailto:tomoikifukuoka@gmail.com"
-     }
-    ]
-   }
+ "ja": {
+  "333750": {
+   "text": "健康診断と学内の窓口"
   },
-  "en": {
-   "333750": {
-    "text": "Health Checkups and On-Campus Desks"
-   },
-   "516428": {
-    "text": "International Student Consultation Room (ISC): イースト1号館 (East Zone Bldg 1) B540. Course registration, housing, illness, childcare — including things awkward to raise with your supervisor"
-   },
-   "742187": {
-    "text": "Tuition fee waivers"
-   },
-   "444ca9": {
-    "text": "Organised as: accounts and certificates → course registration → research and admission → scholarships and fee waivers."
-   },
-   "cc1cac": {
-    "text": "Accounts and Certificates"
-   },
-   "3b7366": {
-    "text": "Activating your SSO-KID requires a university email address; no other address will work. Transcripts, enrolment certificates, and Shinkansen student-discount certificates are requested from the certificate page on the university website; graduate students use ku-cert for their certificates."
-   },
-   "5ed19b": {
-    "items": [
-     {
-      "text": "Kyudai certificates (transcript / enrolment / student discount)",
-      "url": "https://www.kyushu-u.ac.jp/ja/education/procedure/certificate/"
-     },
-     {
-      "text": "Graduate student certificates (ku-cert)",
-      "url": "https://ku-cert.kyushu-u.ac.jp/cert/z/c_menu.html/_/g"
-     },
-     {
-      "text": "Course registration system (JTC)",
-      "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
-     },
-     {
-      "text": "University email (Outlook — sign in with your university account)",
-      "url": "https://outlook.office.com/mail/"
-     },
-     {
-      "text": "SSO password / account (passchg)",
-      "url": "https://ci.iii.kyushu-u.ac.jp/m/"
-     }
-    ]
-   },
-   "c8db3c": {
-    "text": "Some facilities, such as the satellite premises in front of Hakata Station, require a booking to enter. Students outside QBS may enter too, though at briefings and similar events it can be awkward to speak up. Parking spaces are applied for through the car-entry system."
-   },
-   "ad0d60": {
-    "items": [
-     {
-      "text": "Hakata satellite facility guide",
-      "url": "https://www.kyushu-u.ac.jp/ja/university/facility/external/hakata/guide/"
-     },
-     {
-      "text": "Campus parking application",
-      "url": "https://car-entry.cargate.kyushu-u.ac.jp/reg_apply/"
-     },
-     {
-      "text": "Rakuten Point Card application",
-      "url": "https://pointcard.rakuten.co.jp/"
-     }
-    ]
-   },
-   "c8e67d": {
-    "text": "Course Registration"
-   },
-   "e254fb": {
-    "text": "Registration usually opens in the first or second week of a new term (around 8–10 April; the university’s announcement governs). JTW runs on its own course structure, and eligible students are notified by separate email."
-   },
-   "b1a9b5": {
-    "text": "Textbooks are typically only announced in the first class, so think about how you will buy them in advance; picking up second-hand copies from senior students is another route. Doctoral students may take Japanese courses at the International Student Center (ISC) — see the ISC page."
-   },
-   "9ce243": {
-    "items": [
-     {
-      "text": "ISC Japanese courses",
-      "url": "https://isc.kyushu-u.ac.jp/center/international/japaneselang/"
-     }
-    ]
-   },
-   "f9e37c": {
-    "text": "Research and Admission"
-   },
-   "5b832c": {
-    "text": "Do you need to contact a professor before sitting the entrance exam?"
-   },
-   "acc4f9": {
-    "text": "Yes. You must contact a professor and confirm they are willing to take you before sitting the exam. This bears on whether the professor accepts international students and whether the lab has a place — even if you pass the exam, without a place you may not be able to enrol. Undergraduate GPA is not the only factor; it comes down largely to the professor’s judgement. A few informatics programs do not require prior consent, but contacting them in advance is still advisable."
-   },
-   "6be666": {
-    "text": "If your supervisor is nearing retirement"
-   },
-   "406f13": {
-    "text": "If you plan to pursue a doctorate and worry that a supervisor’s retirement might delay your graduation or force a change of supervisor, it is worth quietly finding out where things stand beforehand. Professors close to retirement usually arrange onward supervision for their students. The most direct approach is to raise your concerns with the professor face to face."
-   },
-   "3668c3": {
-    "text": "Research students"
-   },
-   "93d2c1": {
-    "text": "The experience depends heavily on the professor’s style: some supervise entirely in English and demand a lot; others are more hands-off and leave you to study independently. How long you are expected to be in the lab is set within each lab, and turning up on time is a basic expectation. Ask your professor or senior students for specifics."
-   },
-   "eedeaa": {
-    "text": "On preparing: circumstances differ by program. One approach is to sit the exam once to learn the question types and expectations, then prepare accordingly."
-   },
-   "14676e": {
-    "text": "Scholarships and Fee Waivers"
-   },
-   "35d880": {
-    "text": "RA (Research Assistant)"
-   },
-   "fbd83d": {
-    "text": "Kyudai applies a university-wide standard for RA positions; in mathematics, students report around ¥44,000 a month (an experience-based figure that may differ by department and year). An RA position requires a suitable research topic and is not available to everyone — competition is real. Income screenshots circulating online do not represent the typical level; treat them as anecdote."
-   },
-   "853a53": {
-    "text": "Scholarships for self-funded international students"
-   },
-   "b6950e": {
-    "text": "For scholarships open to self-funded international students, the most authoritative source is the International Student Center’s (ISC) scholarship noticeboard, which is updated as programs open. Application windows are often short, so check regularly and pin down the conditions and deadline early."
-   },
-   "066616": {
-    "items": [
-     {
-      "text": "ISC scholarship noticeboard for self-funded students (current year)",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2026&lang=jp"
-     }
-    ]
-   },
-   "c3f0b4": {
-    "text": "Generally applied for by logging into campusweb (for how, See【Residence Procedures·campusweb login application】). The application window follows the university’s announcement."
-   },
-   "e248db": {
-    "text": "Japanese Courses (JTCs)"
-   },
-   "7fbb45": {
-    "text": "The Kyushu University international student center runs Japanese Training Courses. You must register online within the designated period and take a placement test; if you miss registration, you cannot apply later."
-   },
-   "66a59f": {
-    "items": [
-     {
-      "text": "Registration is usually in the first week after term begins (for example 13–18 April)"
-     },
-     {
-      "text": "Open to undergraduates, graduate students, and non-degree students"
-     },
-     {
-      "text": "Enquiries: intlr-isc@jimu.kyushu-u.ac.jp / 092-802-2228"
-     }
-    ]
-   },
-   "32f280": {
-    "items": [
-     {
-      "text": "JTCs registration page",
-      "url": "https://isc.kyushu-u.ac.jp/center/jtcs/"
-     }
-    ]
-   },
-   "6aab6e": {
-    "text": "There are also Intensive Japanese Courses, open to all international students in the autumn term (subject to conditions such as Japanese proficiency and your supervisor’s permission)."
-   },
-   "048da7": {
-    "text": "Health checkup"
-   },
-   "9bf76b": {
-    "text": "Regular health checkups are held each April and October (usually on the 2nd floor of ビッグさんど / Big Sand). Afterwards you can have a health certificate issued free of charge. If the date clashes with something, you can reschedule."
-   },
-   "c29b18": {
-    "text": "Consultation desks"
-   },
-   "b15cf0": {
-    "text": "Health Support Center (counselling): ビッグさんど 2F. Psychological and health consultations 092-802-5881"
-   },
-   "2ae235": {
-    "text": "Campus Health Support Room: イースト1号館 2F, E-B-202. Interpersonal matters, reasonable accommodations for daily life"
-   },
-   "a5d419": {
-    "text": "Multilingual Exchange Space (EZ ぷらっと): イースト1号館 2F, E-C-202. Study-abroad support, language learning, book and DVD lending"
-   },
-   "1b05a4": {
-    "text": "Academic Affairs Section: イースト1号館 C108. Course registration, certificates, student records"
-   },
-   "c5a6e6": {
-    "text": "Student Affairs Section: イースト1号館 C108. Commuter-pass student discounts, replacement student ID, various applications"
-   },
-   "c96936": {
-    "text": "Support Center: イースト1号館 C108. Visas, hospital referrals, housing, Japanese classes, and more"
-   },
-   "9e1128": {
-    "text": "Contacts by department"
-   },
-   "7b2c1e": {
-    "items": [
-     {
-      "text": "Humanities / Integrated Sciences for Global Society: jbkkyomu1lt@jimu.kyushu-u.ac.jp"
-     },
-     {
-      "text": "Human-Environment Studies / Education: jbkkyomu1ed@jimu.kyushu-u.ac.jp"
-     },
-     {
-      "text": "Law: jbkkyomu2la@jimu.kyushu-u.ac.jp"
-     },
-     {
-      "text": "Economics: jbkkyomu2ec@jimu.kyushu-u.ac.jp"
-     },
-     {
-      "text": "Student affairs: jbggakusei@jimu.kyushu-u.ac.jp"
-     }
-    ]
-   },
-   "f40f04": {
-    "text": "Academic Calendar: check which one you are looking at"
-   },
-   "f8719f": {
-    "headers": [
-     "Term",
-     "2026 academic year"
-    ],
-    "rows": [
-     [
-      "Spring term",
-      "04-08 – 06-09"
-     ],
-     [
-      "Summer term",
-      "06-10 – 08-07"
-     ],
-     [
-      "Autumn term",
-      "10-01 – 12-06"
-     ],
-     [
-      "Winter term",
-      "12-07 – 02-15"
-     ],
-     [
-      "Spring break",
-      "04-01 – 04-07"
-     ],
-     [
-      "Summer break",
-      "08-08 – 09-30"
-     ],
-     [
-      "Winter break",
-      "12-26 – 01-04"
-     ]
-    ]
-   },
-   "92c5cc": {
-    "text": "Entrance ceremony 04-03 (autumn 10-02) · Degree conferment 03-25 (autumn 09-25) · Kyudaisai 10-30 – 11-02."
-   },
-   "828e4c": {
-    "text": "**This is the university-wide standard schedule, and individual graduate schools and faculties may differ** — the official page says as much itself. Before booking flights home, exams, or an internship, check your own faculty’s website again. Do not plan around the Engineering faculty’s dates if you are in another faculty."
-   },
-   "acd972": {
-    "items": [
-     {
-      "text": "Kyushu University · academic calendar (university-wide)",
-      "url": "https://www.kyushu-u.ac.jp/ja/faculty/schedule/"
-     }
-    ]
-   },
-   "1240ad": {
-    "text": "How to Obtain Certificates"
-   },
-   "7d38ec": {
-    "text": "Enrolment certificates, transcripts, and expected-graduation certificates are all requested through the university’s certificate issuing portal. Some can be printed from the machines on campus, the student-discount certificate among them (see the related note above)."
-   },
-   "d2ae99": {
-    "items": [
-     {
-      "text": "Kyushu University · issuing certificates",
-      "url": "https://www.kyushu-u.ac.jp/ja/education/procedure/certificate/"
-     },
-     {
-      "text": "ISC · daily life guide for international students",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/page-019"
-     }
-    ]
-   },
-   "c9398a": {
-    "text": "Community Japanese classes (6)"
-   },
-   "714c74": {
-    "text": "Kyushu U.'s own Japanese courses are **free** (link above). Off campus there are **six volunteer-run classes**, from free to 100 JPY per session - better than campus classes if you want everyday conversation and local contacts. Most require an email in advance."
-   },
-   "f627ad": {
-    "headers": [
-     "Class",
-     "Location",
-     "Time",
-     "Fee"
-    ],
-    "rows": [
-     [
-      "Ito International Circle",
-      "Ito Campus West 4",
-      "Thu 17:30-20:00",
-      "500 JPY joining fee"
-     ],
-     [
-      "Nihongo Hiroba Itoshima",
-      "Itoshima Human Rights Center",
-      "Ask them",
-      "100 JPY / session"
-     ],
-     [
-      "Motooka Kokusai Hiroba",
-      "Motooka Community Hall",
-      "Wed 18:30-20:00",
-      "Free"
-     ],
-     [
-      "Global Friendship",
-      "Fukuoka Intl. Hall 4F",
-      "Ask them",
-      "100 JPY / session"
-     ],
-     [
-      "Kasuga Nihongo Hiroba",
-      "Clover Plaza 3F",
-      "Ask them",
-      "600 JPY / month"
-     ],
-     [
-      "Kashihama Yorutomo-kai",
-      "Kashihama Elementary",
-      "Ask them",
-      "Free"
-     ]
-    ]
-   },
-   "0d6cf9": {
-    "items": [
-     {
-      "text": "Ito International Circle 090-8764-9588",
-      "url": "mailto:hatae_iic@yahoo.co.jp"
-     },
-     {
-      "text": "Nihongo Hiroba Itoshima 092-322-5095",
-      "url": "mailto:nihongoitoshima@gmail.com"
-     },
-     {
-      "text": "Motooka Kokusai Hiroba- email enquiry",
-      "url": "mailto:motookahiroba@gmail.com"
-     },
-     {
-      "text": "Global Friendship 090-5727-9925",
-      "url": "mailto:globalfriendshipnihongo@gmail.com"
-     },
-     {
-      "text": "Kasuga Nihongo Hiroba 080-6441-0763",
-      "url": "mailto:fk.kasuga.nihongo@gmail.com"
-     },
-     {
-      "text": "Kashihama Yorutomo-kai 090-5921-7798",
-      "url": "mailto:tomoikifukuoka@gmail.com"
-     }
-    ]
-   }
+  "742187": {
+   "text": "授業料免除"
   },
-  "ko": {
-   "333750": {
-    "text": "건강검진과 교내 창구"
-   },
-   "516428": {
-    "text": "유학생 상담실(ISC): イースト1号館 B540. 수강, 주거, 질병, 육아 등 지도교수에게 말하기 어려운 내용도"
-   },
-   "742187": {
-    "text": "수업료 감면"
-   },
-   "444ca9": {
-    "text": "「계정과 증명서 → 수강신청과 수업 → 연구와 진학 → 장학금과 감면」 순으로 정리했습니다."
-   },
-   "cc1cac": {
-    "text": "계정과 각종 증명서"
-   },
-   "3b7366": {
-    "text": "SSO-KID 활성화에는 학교 메일 주소 외에는 사용할 수 없습니다. 성적증명서, 재학증명서, 신칸센 학할증명서 등은 규슈대 공식 사이트의 certificate 페이지에서 신청합니다. 대학원생 관련 증명서는 ku-cert를 이용합니다."
-   },
-   "5ed19b": {
-    "items": [
-     {
-      "text": "규슈대 certificate(성적/재학/학할 등)",
-      "url": "https://www.kyushu-u.ac.jp/ja/education/procedure/certificate/"
-     },
-     {
-      "text": "대학원생 증명서(ku-cert)",
-      "url": "https://ku-cert.kyushu-u.ac.jp/cert/z/c_menu.html/_/g"
-     },
-     {
-      "text": "수강신청 시스템(JTC)",
-      "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
-     },
-     {
-      "text": "학교 메일(Outlook, 학교 계정으로 로그인)",
-      "url": "https://outlook.office.com/mail/"
-     },
-     {
-      "text": "SSO 비밀번호/계정(passchg)",
-      "url": "https://ci.iii.kyushu-u.ac.jp/m/"
-     }
-    ]
-   },
-   "c8db3c": {
-    "text": "일부 시설(하카타역 앞 외부 시설 등)은 예약해야 들어갈 수 있습니다. QBS 학생이 아니어도 들어갈 수 있지만, 설명회 같은 자리에서는 발언하기 어려울 수 있습니다. 주차 자리는 car-entry 시스템으로 신청합니다."
-   },
-   "ad0d60": {
-    "items": [
-     {
-      "text": "하카타 외부 시설 가이드",
-      "url": "https://www.kyushu-u.ac.jp/ja/university/facility/external/hakata/guide/"
-     },
-     {
-      "text": "학교 주차 자리 신청",
-      "url": "https://car-entry.cargate.kyushu-u.ac.jp/reg_apply/"
-     },
-     {
-      "text": "라쿠텐 포인트카드 신청",
-      "url": "https://pointcard.rakuten.co.jp/"
-     }
-    ]
-   },
-   "c8e67d": {
-    "text": "수강신청과 수업"
-   },
-   "e254fb": {
-    "text": "수강신청은 보통 새 학기 첫째~둘째 주에 시작합니다(4/8~4/10경, 학교 공지가 우선). JTW는 독립된 교육과정 체계로, 자격이 되는 학생에게는 학교가 개별 메일로 안내합니다."
-   },
-   "b1a9b5": {
-    "text": "교재는 보통 첫 수업에서야 지정되므로 구입 방법을 미리 생각해 두어야 하며, 선배에게 중고로 받는 방법도 있습니다. 박사과정 학생은 국제유학생센터(ISC)의 일본어 과정을 들을 수 있습니다. 자세한 내용은 ISC 페이지를 참고하세요."
-   },
-   "9ce243": {
-    "items": [
-     {
-      "text": "ISC 일본어 과정",
-      "url": "https://isc.kyushu-u.ac.jp/center/international/japaneselang/"
-     }
-    ]
-   },
-   "f9e37c": {
-    "text": "연구와 진학"
-   },
-   "5b832c": {
-    "text": "규슈대 직접 수험 시 교수에게 먼저 연락해야 하나"
-   },
-   "acc4f9": {
-    "text": "필요합니다. 먼저 교수에게 연락해 받아줄 의사를 확인한 뒤 시험을 치러야 합니다. 이는 교수가 외국인 학생을 받을지, 연구실에 자리가 있는지와 직결됩니다 —— 시험에 합격해도 자리가 없으면 입학하지 못할 수 있습니다. 학부 학점만으로 결정되는 것이 아니라 주로 교수의 판단에 달려 있습니다. 정보계 일부 전공은 내락이 필요 없지만, 그래도 미리 연락해 확인하기를 권합니다."
-   },
-   "6be666": {
-    "text": "지도교수가 정년에 가까울 때"
-   },
-   "406f13": {
-    "text": "박사과정을 생각하고 있고 교수의 퇴직으로 졸업이 늦어지거나 지도교수가 바뀔까 걱정된다면, 미리 상황을 넌지시 알아보는 것이 좋습니다. 보통 퇴직이 가까운 교수는 학생의 이후 지도를 마련해 둡니다. 가장 확실한 방법은 교수와 직접 만나 우려를 이야기하는 것입니다."
-   },
-   "3668c3": {
-    "text": "연구생(리서치 스튜던트)"
-   },
-   "93d2c1": {
-    "text": "경험은 교수의 스타일에 크게 좌우됩니다. 전부 영어로 지도하고 요구가 엄격한 분도 있고, 비교적 자유롭게 자율 학습에 맡기는 분도 있습니다. 연구실에 머무는 시간은 연구실 내부 규정이며, 정해진 시간에 나오는 것이 기본적인 요구입니다. 구체적인 사항은 교수나 선배에게 물어보세요."
-   },
-   "eedeaa": {
-    "text": "수험 참고: 전공마다 사정이 다릅니다. 먼저 한 번 응시해 출제 유형과 요구 수준을 파악한 뒤 그에 맞춰 준비하는 방법도 있습니다."
-   },
-   "14676e": {
-    "text": "장학금과 감면"
-   },
-   "35d880": {
-    "text": "RA(리서치 어시스턴트)"
-   },
-   "fbd83d": {
-    "text": "규슈대의 RA는 전교 기준이 통일되어 있으며, 수학계는 월 약 44,000엔이라는 이야기가 있습니다(경험값으로 부서·연도에 따라 다를 수 있습니다). RA는 적절한 연구 과제가 있어야 신청할 수 있고 누구나 받을 수 있는 것은 아니며 경쟁도 있는 편입니다. 인터넷의 수입 인증 사진은 일반적인 수준을 대변하지 않으니 참고만 하세요."
-   },
-   "853a53": {
-    "text": "사비 유학생 장학금"
-   },
-   "b6950e": {
-    "text": "사비 유학생이 신청할 수 있는 장학금은 국제유학생센터(ISC)의 「사비 유학생 장학금 게시판」이 가장 신뢰할 수 있는 출처로, 현재 모집 중인 사업이 계속 갱신됩니다. 모집 기간이 짧은 경우가 많으니 정기적으로 확인하고 조건과 마감일을 일찍 확정하세요."
-   },
-   "066616": {
-    "items": [
-     {
-      "text": "ISC 사비 유학생 장학금 게시판(최신 연도)",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2026&lang=jp"
-     }
-    ]
-   },
-   "c3f0b4": {
-    "text": "보통 campusweb에 로그인해 신청합니다(방법은 참조【체류 수속·campus 로그인 신청】). 신청 기간은 학교 공지가 우선합니다."
-   },
-   "e248db": {
-    "text": "일본어 과정(JTCs)"
-   },
-   "7fbb45": {
-    "text": "규슈대학 유학생센터는 일본어 과정(Japanese Training Courses)을 개설합니다. 지정 기간에 온라인으로 등록하고 반 배치 시험(플레이스먼트 테스트)을 봐야 하며, 등록 기간을 놓치면 추가 신청은 불가능합니다."
-   },
-   "66a59f": {
-    "items": [
-     {
-      "text": "등록 기간은 보통 개강 후 첫째 주(예: 4월 13~18일)"
-     },
-     {
-      "text": "대상은 학부생, 대학원생, 비정규 과정 학생"
-     },
-     {
-      "text": "문의: intlr-isc@jimu.kyushu-u.ac.jp / 092-802-2228"
-     }
-    ]
-   },
-   "32f280": {
-    "items": [
-     {
-      "text": "JTCs 등록 페이지",
-      "url": "https://isc.kyushu-u.ac.jp/center/jtcs/"
-     }
-    ]
-   },
-   "6aab6e": {
-    "text": "이 밖에 집중 일본어 과정(Intensive Japanese Courses)이 있으며, 가을학기에는 전체 유학생에게 개방됩니다(일본어 능력, 지도교원 허가 등의 조건을 충족해야 합니다)."
-   },
-   "048da7": {
-    "text": "건강검진"
-   },
-   "9bf76b": {
-    "text": "매년 4월과 10월에 정기 건강검진이 있습니다(보통 ビッグさんど 2층). 검진 후에는 건강진단서를 무료로 발급받을 수 있습니다. 일정이 겹치면 변경할 수 있습니다."
-   },
-   "c29b18": {
-    "text": "상담 창구 일람"
-   },
-   "b15cf0": {
-    "text": "건강지원센터(카운슬링): ビッグさんど 2층. 심리·건강 상담 092-802-5881"
-   },
-   "2ae235": {
-    "text": "캠퍼스 헬스 서포트룸: イースト1号館 2층 E-B-202. 대인관계, 생활상의 합리적 배려 등"
-   },
-   "a5d419": {
-    "text": "다국어 교류 공간(EZ ぷらっと): イースト1号館 2층 E-C-202. 유학 지원, 어학 학습, 도서·DVD 대출"
-   },
-   "1b05a4": {
-    "text": "교무과: イースト1号館 C108. 수강 등록, 증명서, 학적"
-   },
-   "c5a6e6": {
-    "text": "학생과: イースト1号館 C108. 통학 정기 학할, 학생증 재발급, 각종 신청"
-   },
-   "c96936": {
-    "text": "서포트센터: イースト1号館 C108. 비자, 병원 소개, 주거, 일본어 교실 등"
-   },
-   "9e1128": {
-    "text": "부서별 문의처"
-   },
-   "7b2c1e": {
-    "items": [
-     {
-      "text": "인문·지구사회 담당: jbkkyomu1lt@jimu.kyushu-u.ac.jp"
-     },
-     {
-      "text": "인간환경·교육 담당: jbkkyomu1ed@jimu.kyushu-u.ac.jp"
-     },
-     {
-      "text": "법학 담당: jbkkyomu2la@jimu.kyushu-u.ac.jp"
-     },
-     {
-      "text": "경제 담당: jbkkyomu2ec@jimu.kyushu-u.ac.jp"
-     },
-     {
-      "text": "학생계: jbggakusei@jimu.kyushu-u.ac.jp"
-     }
-    ]
-   },
-   "f40f04": {
-    "text": "학사일정: 내가 보는 것이 어느 것인지부터 확인"
-   },
-   "f8719f": {
-    "headers": [
-     "학기",
-     "2026년도"
+  "444ca9": {
+   "text": "「アカウントと証明書 → 履修と授業 → 研究と進学 → 奨学金と免除」の順にまとめています。"
+  },
+  "cc1cac": {
+   "text": "アカウントと各種証明書"
+  },
+  "3b7366": {
+   "text": "SSO-KID の有効化には大学のメールアドレス以外は使えません。成績証明書、在学証明書、新幹線の学割証などは九大公式サイトの certificate ページから申請します。大学院生向けの証明書は ku-cert を使います。"
+  },
+  "5ed19b": {
+   "items": [
+    {
+     "text": "九大 certificate（成績・在学・学割など）",
+     "url": "https://www.kyushu-u.ac.jp/ja/education/procedure/certificate/"
+    },
+    {
+     "text": "大学院生の証明書（ku-cert）",
+     "url": "https://ku-cert.kyushu-u.ac.jp/cert/z/c_menu.html/_/g"
+    },
+    {
+     "text": "履修システム（JTC）",
+     "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
+    },
+    {
+     "text": "大学のメール（Outlook、大学アカウントでログイン）",
+     "url": "https://outlook.office.com/mail/"
+    },
+    {
+     "text": "SSO のパスワード・アカウント（passchg）",
+     "url": "https://ci.iii.kyushu-u.ac.jp/m/"
+    }
+   ]
+  },
+  "c8db3c": {
+   "text": "一部の施設（博多駅前のサテライト施設など）は予約しないと入れません。QBS の学生でなくても入れますが、説明会などの場面では発言しにくいことがあります。駐車場は car-entry システムから申請します。"
+  },
+  "ad0d60": {
+   "items": [
+    {
+     "text": "博多サテライト施設のガイド",
+     "url": "https://www.kyushu-u.ac.jp/ja/university/facility/external/hakata/guide/"
+    },
+    {
+     "text": "学内駐車場の申請",
+     "url": "https://car-entry.cargate.kyushu-u.ac.jp/reg_apply/"
+    },
+    {
+     "text": "楽天ポイントカードの申込",
+     "url": "https://pointcard.rakuten.co.jp/"
+    }
+   ]
+  },
+  "c8e67d": {
+   "text": "履修と授業"
+  },
+  "e254fb": {
+   "text": "履修登録は通常、新学期の第 1～2 週に始まります（4/8～4/10 ごろ。大学からの通知が優先）。JTW は独立した課程体系で、資格のある学生には大学から個別にメールで案内があります。"
+  },
+  "b1a9b5": {
+   "text": "教科書は最初の授業で初めて指定されるのが普通なので、買い方を先に考えておく必要があります。先輩から中古を譲ってもらう手もあります。博士課程の学生は国際教育交流センター（ISC）の日本語コースを受講できます。詳細は ISC のページへ。"
+  },
+  "9ce243": {
+   "items": [
+    {
+     "text": "ISC の日本語コース",
+     "url": "https://isc.kyushu-u.ac.jp/center/international/japaneselang/"
+    }
+   ]
+  },
+  "f9e37c": {
+   "text": "研究と進学"
+  },
+  "5b832c": {
+   "text": "九大を直接受験する場合、先に教授へ連絡が必要か"
+  },
+  "acc4f9": {
+   "text": "必要です。まず教授に連絡し、受け入れの意思を確認してから受験してください。 これは教授が外国人学生を受け入れるかどうか、研究室に枠があるかどうかに関わります —— 試験に合格しても、枠がなければ入学できないことがあります。学部の GPA だけで決まるわけではなく、主に教授の判断によります。情報系の一部の専攻では内諾が不要ですが、それでも事前に連絡して確認することをおすすめします。"
+  },
+  "6be666": {
+   "text": "指導教員が定年退職に近い場合"
+  },
+  "406f13": {
+   "text": "博士課程に進む予定で、教授の退職により修了が延びたり指導教員が変わったりすることが心配なら、事前にそれとなく状況を確認しておくとよいでしょう。通常、退職が近い教授は学生のその後の指導を手配してくれます。いちばん確実なのは、教授と直接会って懸念を伝えることです。"
+  },
+  "3668c3": {
+   "text": "研究生（リサーチスチューデント）"
+  },
+  "93d2c1": {
+   "text": "経験は教授のスタイルに大きく左右されます。全て英語で指導し要求も厳しい先生もいれば、比較的自由で自主学習に任せる先生もいます。研究室にいる時間は研究室ごとの決まりで、時間どおりに来ることが基本的な要件です。詳しくは教授か先輩に聞いてください。"
+  },
+  "eedeaa": {
+   "text": "受験の参考：専攻ごとに事情が違います。まず一度受験してみて出題の傾向と要求を把握し、それを踏まえて準備するのもひとつの方法です。"
+  },
+  "14676e": {
+   "text": "奨学金と免除"
+  },
+  "35d880": {
+   "text": "RA（リサーチアシスタント）"
+  },
+  "fbd83d": {
+   "text": "九大の RA は全学で基準が統一されており、数学系ではおよそ 44,000 円/月との声があります（経験値で、部局や年度によって異なる場合があります）。RA は適切な研究課題があって初めて申請でき、誰でも得られるものではなく競争もそれなりにあります。ネット上の収入のスクリーンショットは一般的な水準を表すものではないので、参考程度に。"
+  },
+  "853a53": {
+   "text": "私費留学生向けの奨学金"
+  },
+  "b6950e": {
+   "text": "私費留学生が申請できる奨学金は、国際教育交流センター（ISC）の「私費留学生奨学金掲示板」が最も信頼できる情報源で、現在募集中の制度が随時更新されます。募集期間は短いことが多いので、定期的に確認し、条件と締切を早めに押さえてください。"
+  },
+  "066616": {
+   "items": [
+    {
+     "text": "ISC 私費留学生奨学金掲示板（最新年度）",
+     "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2026&lang=jp"
+    }
+   ]
+  },
+  "c3f0b4": {
+   "text": "通常は campusweb にログインして申請します（操作は 参照【在留手続き·campus のログイン申請】）。受付期間は大学からの通知が優先します。"
+  },
+  "e248db": {
+   "text": "日本語コース（JTCs）"
+  },
+  "7fbb45": {
+   "text": "九州大学の留学生センターは日本語コース（Japanese Training Courses）を開講しています。指定期間内にオンラインで登録し、プレースメントテストを受ける必要があります。登録期間を逃すと後から申し込むことはできません。"
+  },
+  "66a59f": {
+   "items": [
+    {
+     "text": "登録期間は通常、学期が始まった最初の週（例：4 月 13～18 日）"
+    },
+    {
+     "text": "対象は学部生、大学院生、非正課生"
+    },
+    {
+     "text": "問い合わせ：intlr-isc@jimu.kyushu-u.ac.jp / 092-802-2228"
+    }
+   ]
+  },
+  "32f280": {
+   "items": [
+    {
+     "text": "JTCs の登録ページ",
+     "url": "https://isc.kyushu-u.ac.jp/center/jtcs/"
+    }
+   ]
+  },
+  "6aab6e": {
+   "text": "このほか集中日本語コース（Intensive Japanese Courses）があり、秋学期は全留学生に開かれています（日本語能力や指導教員の許可などの条件を満たす必要があります）。"
+  },
+  "048da7": {
+   "text": "健康診断"
+  },
+  "9bf76b": {
+   "text": "毎年 4 月と 10 月に定期健康診断があります（通常はビッグさんど 2 階）。受診後は健康診断書を無料で発行できます。日程が合わない場合は変更できます。"
+  },
+  "c29b18": {
+   "text": "相談窓口の一覧"
+  },
+  "9e1128": {
+   "text": "部局別の問い合わせ先"
+  },
+  "7b2c1e": {
+   "items": [
+    {
+     "text": "人文・地球社会担当：jbkkyomu1lt@jimu.kyushu-u.ac.jp"
+    },
+    {
+     "text": "人環・教育担当：jbkkyomu1ed@jimu.kyushu-u.ac.jp"
+    },
+    {
+     "text": "法学担当：jbkkyomu2la@jimu.kyushu-u.ac.jp"
+    },
+    {
+     "text": "経済担当：jbkkyomu2ec@jimu.kyushu-u.ac.jp"
+    },
+    {
+     "text": "学生係：jbggakusei@jimu.kyushu-u.ac.jp"
+    }
+   ]
+  },
+  "f40f04": {
+   "text": "学年暦：まず自分が見ているのがどれかを確認"
+  },
+  "f8719f": {
+   "headers": [
+    "学期",
+    "2026 年度"
+   ],
+   "rows": [
+    [
+     "春学期",
+     "04-08 ～ 06-09"
     ],
-    "rows": [
-     [
-      "봄학기",
-      "04-08 ~ 06-09"
-     ],
-     [
-      "여름학기",
-      "06-10 ~ 08-07"
-     ],
-     [
-      "가을학기",
-      "10-01 ~ 12-06"
-     ],
-     [
-      "겨울학기",
-      "12-07 ~ 02-15"
-     ],
-     [
-      "봄방학",
-      "04-01 ~ 04-07"
-     ],
-     [
-      "여름방학",
-      "08-08 ~ 09-30"
-     ],
-     [
-      "겨울방학",
-      "12-26 ~ 01-04"
-     ]
-    ]
-   },
-   "92c5cc": {
-    "text": "입학식 04-03(가을 10-02) · 학위기 수여 03-25(가을 09-25) · 규다이사이 10-30 ~ 11-02."
-   },
-   "828e4c": {
-    "text": "**이것은 전교 공통 표준 일정이며 학부·대학원마다 다를 수 있습니다** —— 공식 페이지 자체가 그렇게 명시하고 있습니다. 귀국 항공권, 시험, 인턴을 정하기 전에 반드시 자기 학부 사이트에서 다시 확인하세요. 공학부 일정으로 다른 학부의 일을 계획하지 마세요."
-   },
-   "acd972": {
-    "items": [
-     {
-      "text": "규슈대학 · 학사일정(전교)",
-      "url": "https://www.kyushu-u.ac.jp/ja/faculty/schedule/"
-     }
-    ]
-   },
-   "1240ad": {
-    "text": "증명서 발급 방법"
-   },
-   "7d38ec": {
-    "text": "재학증명서, 성적증명서, 졸업/수료예정증명서 등은 모두 학교의 증명서 발급 창구에서 처리합니다. 교내 자동발급기로 뽑을 수 있는 것도 있으며 학할증이 그중 하나입니다(위의 관련 설명 참조)."
-   },
-   "d2ae99": {
-    "items": [
-     {
-      "text": "규슈대학 · 각종 증명서 발급",
-      "url": "https://www.kyushu-u.ac.jp/ja/education/procedure/certificate/"
-     },
-     {
-      "text": "ISC · 유학생 일상생활 가이드",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/page-019"
-     }
-    ]
-   },
-   "c9398a": {
-    "text": "교외 일본어 교실(6곳)"
-   },
-   "714c74": {
-    "text": "규슈대 자체 일본어 강좌는 **무료**입니다(위 링크). 교외에도 **자원봉사 교실**이 6곳 있고 비용은 무료~1회 100엔. 일상 회화를 연습하고 지역 주민과 알고 지내고 싶다면 교내 수업보다 낫습니다. 대부분 사전 메일 연락이 필요합니다."
-   },
-   "f627ad": {
-    "headers": [
-     "교실",
-     "장소",
-     "시간",
-     "요금"
+    [
+     "夏学期",
+     "06-10 ～ 08-07"
     ],
-    "rows": [
-     [
-      "이토 인터내셔널 서클",
-      "이토 캠퍼스 West4",
-      "목 17:30~20:00",
-      "입회금 500엔"
-     ],
-     [
-      "니혼고 히로바 이토시마",
-      "이토시마시 인권센터",
-      "문의 필요",
-      "1회 100엔"
-     ],
-     [
-      "모토오카 국제교류 히로바",
-      "모토오카 공민관",
-      "수 18:30~20:00",
-      "무료"
-     ],
-     [
-      "Global Friendship",
-      "후쿠오카시 국제회관 4F",
-      "문의 필요",
-      "1회 100엔"
-     ],
-     [
-      "카스가 니혼고 히로바",
-      "클로버 플라자 3F",
-      "문의 필요",
-      "월 600엔"
-     ],
-     [
-      "카시하마 요루토모회",
-      "카시하마 초등학교",
-      "문의 필요",
-      "무료"
-     ]
+    [
+     "秋学期",
+     "10-01 ～ 12-06"
+    ],
+    [
+     "冬学期",
+     "12-07 ～ 02-15"
+    ],
+    [
+     "春休み",
+     "04-01 ～ 04-07"
+    ],
+    [
+     "夏休み",
+     "08-08 ～ 09-30"
+    ],
+    [
+     "冬休み",
+     "12-26 ～ 01-04"
     ]
-   },
-   "0d6cf9": {
-    "items": [
-     {
-      "text": "이토 인터내셔널 서클 090-8764-9588",
-      "url": "mailto:hatae_iic@yahoo.co.jp"
-     },
-     {
-      "text": "니혼고 히로바 이토시마 092-322-5095",
-      "url": "mailto:nihongoitoshima@gmail.com"
-     },
-     {
-      "text": "모토오카 국제교류 히로바- 메일 문의",
-      "url": "mailto:motookahiroba@gmail.com"
-     },
-     {
-      "text": "Global Friendship 090-5727-9925",
-      "url": "mailto:globalfriendshipnihongo@gmail.com"
-     },
-     {
-      "text": "카스가 니혼고 히로바 080-6441-0763",
-      "url": "mailto:fk.kasuga.nihongo@gmail.com"
-     },
-     {
-      "text": "카시하마 요루토모회 090-5921-7798",
-      "url": "mailto:tomoikifukuoka@gmail.com"
-     }
+   ]
+  },
+  "92c5cc": {
+   "text": "入学式 04-03（秋季 10-02）· 学位記授与 03-25（秋季 09-25）· 九大祭 10-30 ～ 11-02。"
+  },
+  "828e4c": {
+   "text": "**これは全学共通の標準日程で、学府・学部ごとに異なる場合があります** —— 公式ページ自体がそう注記しています。帰国の航空券、試験、インターンを決める前に、必ず自分の学部のサイトでもう一度確認してください。工学部の日程で別の学部の予定を立てないように。"
+  },
+  "acd972": {
+   "items": [
+    {
+     "text": "九州大学・学事日程（全学）",
+     "url": "https://www.kyushu-u.ac.jp/ja/faculty/schedule/"
+    }
+   ]
+  },
+  "1240ad": {
+   "text": "証明書の発行方法"
+  },
+  "7d38ec": {
+   "text": "在学証明書・成績証明書・卒業（修了）見込証明書などは、大学の証明書発行窓口で申請します。一部は**学内の自動発券機**でも取得できます（下記参照）。"
+  },
+  "d2ae99": {
+   "items": [
+    {
+     "text": "九州大学・各種証明書の発行",
+     "url": "https://www.kyushu-u.ac.jp/ja/education/procedure/certificate/"
+    },
+    {
+     "text": "ISC・留学生の日常生活ガイド",
+     "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/page-019"
+    }
+   ]
+  },
+  "c9398a": {
+   "text": "学外の日本語教室（6 か所）"
+  },
+  "714c74": {
+   "text": "九大自身の日本語コースは**無料**（上のリンク参照）。学外にも**ボランティア教室**が 6 か所あり、料金は無料〜1 回 100 円。日常会話を練習したい、地域の人と知り合いたい人には校内の授業より向いています。多くは事前のメール連絡が必要です。"
+  },
+  "f627ad": {
+   "headers": [
+    "教室",
+    "場所",
+    "時間",
+    "料金"
+   ],
+   "rows": [
+    [
+     "伊都インターナショナルサークル",
+     "伊都キャンパス West4",
+     "木 17:30〜20:00",
+     "入会金 500 円"
+    ],
+    [
+     "日本語ひろば いとしま",
+     "糸島市人権センター",
+     "要問い合わせ",
+     "1 回 100 円"
+    ],
+    [
+     "元岡国際交流ひろば",
+     "元岡公民館",
+     "水 18:30〜20:00",
+     "無料"
+    ],
+    [
+     "Global Friendship",
+     "福岡市国際会館 4F",
+     "要問い合わせ",
+     "1 回 100 円"
+    ],
+    [
+     "かすが・にほんごひろば",
+     "クローバープラザ 3F",
+     "要問い合わせ",
+     "月 600 円"
+    ],
+    [
+     "香椎浜 よるとも会",
+     "香椎浜小学校",
+     "要問い合わせ",
+     "無料"
     ]
-   }
+   ]
+  },
+  "0d6cf9": {
+   "items": [
+    {
+     "text": "伊都インターナショナルサークル 090-8764-9588",
+     "url": "mailto:hatae_iic@yahoo.co.jp"
+    },
+    {
+     "text": "日本語ひろば いとしま 092-322-5095",
+     "url": "mailto:nihongoitoshima@gmail.com"
+    },
+    {
+     "text": "元岡国際交流ひろば— メールで問い合わせ",
+     "url": "mailto:motookahiroba@gmail.com"
+    },
+    {
+     "text": "Global Friendship 090-5727-9925",
+     "url": "mailto:globalfriendshipnihongo@gmail.com"
+    },
+    {
+     "text": "かすが・にほんごひろば 080-6441-0763",
+     "url": "mailto:fk.kasuga.nihongo@gmail.com"
+    },
+    {
+     "text": "香椎浜 よるとも会 090-5921-7798",
+     "url": "mailto:tomoikifukuoka@gmail.com"
+    }
+   ]
+  },
+  "8d720b": {
+   "text": "自動発券機（8:30〜17:15）"
+  },
+  "7ddd0f": {
+   "text": "在学証明書・通学証明書・学割証・健康診断証明書をセルフで発行できます。**並ばずに済みます**。注意：**利用できるのは正規課程の学生のみ** —— 研究生・交換留学生は所属窓口へ。"
+  },
+  "9dc610": {
+   "headers": [
+    "キャンパス",
+    "場所"
+   ],
+   "rows": [
+    [
+     "伊都",
+     "センター1号館 2F"
+    ],
+    [
+     "伊都",
+     "イースト1号館C棟 1F"
+    ],
+    [
+     "伊都",
+     "ウエスト1号館A棟 3F"
+    ],
+    [
+     "伊都",
+     "ウエスト4号館 2F"
+    ],
+    [
+     "伊都",
+     "ウエスト5号館東 3F"
+    ],
+    [
+     "筑紫",
+     "ビスタホール売店入口"
+    ],
+    [
+     "大橋",
+     "芸術工学部管理棟 1F"
+    ],
+    [
+     "病院",
+     "基礎研究棟A棟 1F"
+    ]
+   ]
+  },
+  "1a0232": {
+   "text": "**健康診断を受けていないと健康診断証明書は発行できません。** 奨学金の申請や就職活動で必要になります。必ず受けてください。"
+  },
+  "0c0390": {
+   "text": "証明書の受け取り：正規課程の学生は**自動発券機**、研究生・交換留学生は各キャンパスの**キャンパスライフ・健康支援センター**で申請（無料）。"
+  },
+  "b41e84": {
+   "text": "ハラスメント対策推進室：ハラスメント（セクシュアル・アカデミック・パワー）の相談・申告窓口。"
+  },
+  "e6e7d1": {
+   "items": [
+    {
+     "text": "健康支援センターパンフレット（中国語版）",
+     "url": "https://chc.kyushu-u.ac.jp/@@supportx//wp-content/uploads/2026/05/brochure_chinese_2026.pdf"
+    },
+    {
+     "text": "同（英語版）",
+     "url": "https://chc.kyushu-u.ac.jp/@@supportx//wp-content/uploads/2026/05/brochure_english_2026.pdf"
+    },
+    {
+     "text": "同（日本語版）",
+     "url": "https://chc.kyushu-u.ac.jp/@@supportx//wp-content/uploads/2026/05/brochure_japanese_2026.pdf"
+    },
+    {
+     "text": "学生定期健康診断（公式）",
+     "url": "https://chc.kyushu-u.ac.jp/student/health_check/"
+    }
+   ]
+  },
+  "4d947b": {
+   "text": "九大は**英語による授業を多く開講**しています。2026 年度に交換留学生が聴講できる科目のリストは別途公開されています。日本語の授業を避けたい人は先に確認を。"
+  },
+  "d13843": {
+   "items": [
+    {
+     "text": "英語による授業の科目リスト（日本語ページ）",
+     "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/english"
+    },
+    {
+     "text": "Courses Conducted in English（英語ページ）",
+     "url": "https://www.isc.kyushu-u.ac.jp/intlweb/en/student/english"
+    }
+   ]
+  },
+  "ac541e": {
+   "items": [
+    {
+     "text": "健康支援センター（カウンセリング）：ビッグさんど 2 階。心理・健康の相談 092-802-5881"
+    },
+    {
+     "text": "留学生相談室（ISC）：イースト1号館 B540。履修、住居、病気、育児など、指導教員には話しにくいことも"
+    },
+    {
+     "text": "キャンパスヘルスサポートルーム：イースト1号館2階 E-B-202。対人関係、生活上の合理的配慮など"
+    },
+    {
+     "text": "マルチリンガル交流スペース（EZぷらっと）：イースト1号館2階 E-C-202。留学支援、語学学習、書籍・DVD の貸出"
+    },
+    {
+     "text": "教務課：イースト1号館 C108。履修登録、証明書、学籍"
+    },
+    {
+     "text": "学生課：イースト1号館 C108。通学定期の学割、学生証の再発行、各種申請"
+    },
+    {
+     "text": "サポートセンター：イースト1号館 C108。ビザ、病院の紹介、住居、日本語教室など"
+    }
+   ]
   }
  },
+ "en": {
+  "333750": {
+   "text": "Health Checkups and On-Campus Desks"
+  },
+  "742187": {
+   "text": "Tuition fee waivers"
+  },
+  "444ca9": {
+   "text": "Organised as: accounts and certificates → course registration → research and admission → scholarships and fee waivers."
+  },
+  "cc1cac": {
+   "text": "Accounts and Certificates"
+  },
+  "3b7366": {
+   "text": "Activating your SSO-KID requires a university email address; no other address will work. Transcripts, enrolment certificates, and Shinkansen student-discount certificates are requested from the certificate page on the university website; graduate students use ku-cert for their certificates."
+  },
+  "5ed19b": {
+   "items": [
+    {
+     "text": "Kyudai certificates (transcript / enrolment / student discount)",
+     "url": "https://www.kyushu-u.ac.jp/ja/education/procedure/certificate/"
+    },
+    {
+     "text": "Graduate student certificates (ku-cert)",
+     "url": "https://ku-cert.kyushu-u.ac.jp/cert/z/c_menu.html/_/g"
+    },
+    {
+     "text": "Course registration system (JTC)",
+     "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
+    },
+    {
+     "text": "University email (Outlook — sign in with your university account)",
+     "url": "https://outlook.office.com/mail/"
+    },
+    {
+     "text": "SSO password / account (passchg)",
+     "url": "https://ci.iii.kyushu-u.ac.jp/m/"
+    }
+   ]
+  },
+  "c8db3c": {
+   "text": "Some facilities, such as the satellite premises in front of Hakata Station, require a booking to enter. Students outside QBS may enter too, though at briefings and similar events it can be awkward to speak up. Parking spaces are applied for through the car-entry system."
+  },
+  "ad0d60": {
+   "items": [
+    {
+     "text": "Hakata satellite facility guide",
+     "url": "https://www.kyushu-u.ac.jp/ja/university/facility/external/hakata/guide/"
+    },
+    {
+     "text": "Campus parking application",
+     "url": "https://car-entry.cargate.kyushu-u.ac.jp/reg_apply/"
+    },
+    {
+     "text": "Rakuten Point Card application",
+     "url": "https://pointcard.rakuten.co.jp/"
+    }
+   ]
+  },
+  "c8e67d": {
+   "text": "Course Registration"
+  },
+  "e254fb": {
+   "text": "Registration usually opens in the first or second week of a new term (around 8–10 April; the university’s announcement governs). JTW runs on its own course structure, and eligible students are notified by separate email."
+  },
+  "b1a9b5": {
+   "text": "Textbooks are typically only announced in the first class, so think about how you will buy them in advance; picking up second-hand copies from senior students is another route. Doctoral students may take Japanese courses at the International Student Center (ISC) — see the ISC page."
+  },
+  "9ce243": {
+   "items": [
+    {
+     "text": "ISC Japanese courses",
+     "url": "https://isc.kyushu-u.ac.jp/center/international/japaneselang/"
+    }
+   ]
+  },
+  "f9e37c": {
+   "text": "Research and Admission"
+  },
+  "5b832c": {
+   "text": "Do you need to contact a professor before sitting the entrance exam?"
+  },
+  "acc4f9": {
+   "text": "Yes. You must contact a professor and confirm they are willing to take you before sitting the exam. This bears on whether the professor accepts international students and whether the lab has a place — even if you pass the exam, without a place you may not be able to enrol. Undergraduate GPA is not the only factor; it comes down largely to the professor’s judgement. A few informatics programs do not require prior consent, but contacting them in advance is still advisable."
+  },
+  "6be666": {
+   "text": "If your supervisor is nearing retirement"
+  },
+  "406f13": {
+   "text": "If you plan to pursue a doctorate and worry that a supervisor’s retirement might delay your graduation or force a change of supervisor, it is worth quietly finding out where things stand beforehand. Professors close to retirement usually arrange onward supervision for their students. The most direct approach is to raise your concerns with the professor face to face."
+  },
+  "3668c3": {
+   "text": "Research students"
+  },
+  "93d2c1": {
+   "text": "The experience depends heavily on the professor’s style: some supervise entirely in English and demand a lot; others are more hands-off and leave you to study independently. How long you are expected to be in the lab is set within each lab, and turning up on time is a basic expectation. Ask your professor or senior students for specifics."
+  },
+  "eedeaa": {
+   "text": "On preparing: circumstances differ by program. One approach is to sit the exam once to learn the question types and expectations, then prepare accordingly."
+  },
+  "14676e": {
+   "text": "Scholarships and Fee Waivers"
+  },
+  "35d880": {
+   "text": "RA (Research Assistant)"
+  },
+  "fbd83d": {
+   "text": "Kyudai applies a university-wide standard for RA positions; in mathematics, students report around ¥44,000 a month (an experience-based figure that may differ by department and year). An RA position requires a suitable research topic and is not available to everyone — competition is real. Income screenshots circulating online do not represent the typical level; treat them as anecdote."
+  },
+  "853a53": {
+   "text": "Scholarships for self-funded international students"
+  },
+  "b6950e": {
+   "text": "For scholarships open to self-funded international students, the most authoritative source is the International Student Center’s (ISC) scholarship noticeboard, which is updated as programs open. Application windows are often short, so check regularly and pin down the conditions and deadline early."
+  },
+  "066616": {
+   "items": [
+    {
+     "text": "ISC scholarship noticeboard for self-funded students (current year)",
+     "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2026&lang=jp"
+    }
+   ]
+  },
+  "c3f0b4": {
+   "text": "Generally applied for by logging into campusweb (for how, See【Residence Procedures·campusweb login application】). The application window follows the university’s announcement."
+  },
+  "e248db": {
+   "text": "Japanese Courses (JTCs)"
+  },
+  "7fbb45": {
+   "text": "The Kyushu University international student center runs Japanese Training Courses. You must register online within the designated period and take a placement test; if you miss registration, you cannot apply later."
+  },
+  "66a59f": {
+   "items": [
+    {
+     "text": "Registration is usually in the first week after term begins (for example 13–18 April)"
+    },
+    {
+     "text": "Open to undergraduates, graduate students, and non-degree students"
+    },
+    {
+     "text": "Enquiries: intlr-isc@jimu.kyushu-u.ac.jp / 092-802-2228"
+    }
+   ]
+  },
+  "32f280": {
+   "items": [
+    {
+     "text": "JTCs registration page",
+     "url": "https://isc.kyushu-u.ac.jp/center/jtcs/"
+    }
+   ]
+  },
+  "6aab6e": {
+   "text": "There are also Intensive Japanese Courses, open to all international students in the autumn term (subject to conditions such as Japanese proficiency and your supervisor’s permission)."
+  },
+  "048da7": {
+   "text": "Health checkup"
+  },
+  "9bf76b": {
+   "text": "Regular health checkups are held each April and October (usually on the 2nd floor of ビッグさんど / Big Sand). Afterwards you can have a health certificate issued free of charge. If the date clashes with something, you can reschedule."
+  },
+  "c29b18": {
+   "text": "Consultation desks"
+  },
+  "9e1128": {
+   "text": "Contacts by department"
+  },
+  "7b2c1e": {
+   "items": [
+    {
+     "text": "Humanities / Integrated Sciences for Global Society: jbkkyomu1lt@jimu.kyushu-u.ac.jp"
+    },
+    {
+     "text": "Human-Environment Studies / Education: jbkkyomu1ed@jimu.kyushu-u.ac.jp"
+    },
+    {
+     "text": "Law: jbkkyomu2la@jimu.kyushu-u.ac.jp"
+    },
+    {
+     "text": "Economics: jbkkyomu2ec@jimu.kyushu-u.ac.jp"
+    },
+    {
+     "text": "Student affairs: jbggakusei@jimu.kyushu-u.ac.jp"
+    }
+   ]
+  },
+  "f40f04": {
+   "text": "Academic Calendar: check which one you are looking at"
+  },
+  "f8719f": {
+   "headers": [
+    "Term",
+    "2026 academic year"
+   ],
+   "rows": [
+    [
+     "Spring term",
+     "04-08 – 06-09"
+    ],
+    [
+     "Summer term",
+     "06-10 – 08-07"
+    ],
+    [
+     "Autumn term",
+     "10-01 – 12-06"
+    ],
+    [
+     "Winter term",
+     "12-07 – 02-15"
+    ],
+    [
+     "Spring break",
+     "04-01 – 04-07"
+    ],
+    [
+     "Summer break",
+     "08-08 – 09-30"
+    ],
+    [
+     "Winter break",
+     "12-26 – 01-04"
+    ]
+   ]
+  },
+  "92c5cc": {
+   "text": "Entrance ceremony 04-03 (autumn 10-02) · Degree conferment 03-25 (autumn 09-25) · Kyudaisai 10-30 – 11-02."
+  },
+  "828e4c": {
+   "text": "**This is the university-wide standard schedule, and individual graduate schools and faculties may differ** — the official page says as much itself. Before booking flights home, exams, or an internship, check your own faculty’s website again. Do not plan around the Engineering faculty’s dates if you are in another faculty."
+  },
+  "acd972": {
+   "items": [
+    {
+     "text": "Kyushu University · academic calendar (university-wide)",
+     "url": "https://www.kyushu-u.ac.jp/ja/faculty/schedule/"
+    }
+   ]
+  },
+  "1240ad": {
+   "text": "How to Obtain Certificates"
+  },
+  "7d38ec": {
+   "text": "Certificates of enrolment, transcripts and expected-graduation certificates are issued through the university's certificate desk. Some are also available from the **self-service machines** on campus (see below)."
+  },
+  "d2ae99": {
+   "items": [
+    {
+     "text": "Kyushu University · issuing certificates",
+     "url": "https://www.kyushu-u.ac.jp/ja/education/procedure/certificate/"
+    },
+    {
+     "text": "ISC · daily life guide for international students",
+     "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/page-019"
+    }
+   ]
+  },
+  "c9398a": {
+   "text": "Community Japanese classes (6)"
+  },
+  "714c74": {
+   "text": "Kyushu U.'s own Japanese courses are **free** (link above). Off campus there are **six volunteer-run classes**, from free to 100 JPY per session - better than campus classes if you want everyday conversation and local contacts. Most require an email in advance."
+  },
+  "f627ad": {
+   "headers": [
+    "Class",
+    "Location",
+    "Time",
+    "Fee"
+   ],
+   "rows": [
+    [
+     "Ito International Circle",
+     "Ito Campus West 4",
+     "Thu 17:30-20:00",
+     "500 JPY joining fee"
+    ],
+    [
+     "Nihongo Hiroba Itoshima",
+     "Itoshima Human Rights Center",
+     "Ask them",
+     "100 JPY / session"
+    ],
+    [
+     "Motooka Kokusai Hiroba",
+     "Motooka Community Hall",
+     "Wed 18:30-20:00",
+     "Free"
+    ],
+    [
+     "Global Friendship",
+     "Fukuoka Intl. Hall 4F",
+     "Ask them",
+     "100 JPY / session"
+    ],
+    [
+     "Kasuga Nihongo Hiroba",
+     "Clover Plaza 3F",
+     "Ask them",
+     "600 JPY / month"
+    ],
+    [
+     "Kashihama Yorutomo-kai",
+     "Kashihama Elementary",
+     "Ask them",
+     "Free"
+    ]
+   ]
+  },
+  "0d6cf9": {
+   "items": [
+    {
+     "text": "Ito International Circle 090-8764-9588",
+     "url": "mailto:hatae_iic@yahoo.co.jp"
+    },
+    {
+     "text": "Nihongo Hiroba Itoshima 092-322-5095",
+     "url": "mailto:nihongoitoshima@gmail.com"
+    },
+    {
+     "text": "Motooka Kokusai Hiroba- email enquiry",
+     "url": "mailto:motookahiroba@gmail.com"
+    },
+    {
+     "text": "Global Friendship 090-5727-9925",
+     "url": "mailto:globalfriendshipnihongo@gmail.com"
+    },
+    {
+     "text": "Kasuga Nihongo Hiroba 080-6441-0763",
+     "url": "mailto:fk.kasuga.nihongo@gmail.com"
+    },
+    {
+     "text": "Kashihama Yorutomo-kai 090-5921-7798",
+     "url": "mailto:tomoikifukuoka@gmail.com"
+    }
+   ]
+  },
+  "8d720b": {
+   "text": "Self-service certificate machines (8:30-17:15)"
+  },
+  "7ddd0f": {
+   "text": "Enrolment certificates, commuter certificates, student discounts and health-check certificates print straight from the machine - **no queue**. Note: **regular-course students only** - research and exchange students go to their faculty counter."
+  },
+  "9dc610": {
+   "headers": [
+    "Campus",
+    "Location"
+   ],
+   "rows": [
+    [
+     "Ito",
+     "Center Bldg 1, 2F"
+    ],
+    [
+     "Ito",
+     "East Bldg 1C, 1F"
+    ],
+    [
+     "Ito",
+     "West Bldg 1A, 3F"
+    ],
+    [
+     "Ito",
+     "West Bldg 4, 2F"
+    ],
+    [
+     "Ito",
+     "West Bldg 5 East, 3F"
+    ],
+    [
+     "Chikushi",
+     "Vista Hall shop entrance"
+    ],
+    [
+     "Ohashi",
+     "Design Bldg admin, 1F"
+    ],
+    [
+     "Hospital",
+     "Basic Research A, 1F"
+    ]
+   ]
+  },
+  "1a0232": {
+   "text": "**No health check, no health certificate.** Scholarship applications and job hunting both require it - make sure you attend."
+  },
+  "0c0390": {
+   "text": "Collecting the certificate: regular students use the **self-service machine**; research and exchange students apply at the **Campus Life & Health Support Centre** on each campus (free)."
+  },
+  "b41e84": {
+   "text": "Harassment Prevention Office: the contact point for consultation and reports on harassment (sexual, academic, power)."
+  },
+  "e6e7d1": {
+   "items": [
+    {
+     "text": "Health Support Centre brochure (Chinese)",
+     "url": "https://chc.kyushu-u.ac.jp/@@supportx//wp-content/uploads/2026/05/brochure_chinese_2026.pdf"
+    },
+    {
+     "text": "Same (English)",
+     "url": "https://chc.kyushu-u.ac.jp/@@supportx//wp-content/uploads/2026/05/brochure_english_2026.pdf"
+    },
+    {
+     "text": "Same (Japanese)",
+     "url": "https://chc.kyushu-u.ac.jp/@@supportx//wp-content/uploads/2026/05/brochure_japanese_2026.pdf"
+    },
+    {
+     "text": "Annual student health check (official)",
+     "url": "https://chc.kyushu-u.ac.jp/student/health_check/"
+    }
+   ]
+  },
+  "4d947b": {
+   "text": "Kyushu U. teaches **many courses in English**. A separate list covers the 2026 courses open to exchange students - check it first if you want to avoid Japanese-taught classes."
+  },
+  "d13843": {
+   "items": [
+    {
+     "text": "Courses in English (Japanese page)",
+     "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/english"
+    },
+    {
+     "text": "Courses Conducted in English (English page)",
+     "url": "https://www.isc.kyushu-u.ac.jp/intlweb/en/student/english"
+    }
+   ]
+  },
+  "ac541e": {
+   "items": [
+    {
+     "text": "Health Support Center (counselling): ビッグさんど 2F. Psychological and health consultations 092-802-5881"
+    },
+    {
+     "text": "International Student Consultation Room (ISC): イースト1号館 (East Zone Bldg 1) B540. Course registration, housing, illness, childcare — including things awkward to raise with your supervisor"
+    },
+    {
+     "text": "Campus Health Support Room: イースト1号館 2F, E-B-202. Interpersonal matters, reasonable accommodations for daily life"
+    },
+    {
+     "text": "Multilingual Exchange Space (EZ ぷらっと): イースト1号館 2F, E-C-202. Study-abroad support, language learning, book and DVD lending"
+    },
+    {
+     "text": "Academic Affairs Section: イースト1号館 C108. Course registration, certificates, student records"
+    },
+    {
+     "text": "Student Affairs Section: イースト1号館 C108. Commuter-pass student discounts, replacement student ID, various applications"
+    },
+    {
+     "text": "Support Center: イースト1号館 C108. Visas, hospital referrals, housing, Japanese classes, and more"
+    }
+   ]
+  }
+ },
+ "ko": {
+  "333750": {
+   "text": "건강검진과 교내 창구"
+  },
+  "742187": {
+   "text": "수업료 감면"
+  },
+  "444ca9": {
+   "text": "「계정과 증명서 → 수강신청과 수업 → 연구와 진학 → 장학금과 감면」 순으로 정리했습니다."
+  },
+  "cc1cac": {
+   "text": "계정과 각종 증명서"
+  },
+  "3b7366": {
+   "text": "SSO-KID 활성화에는 학교 메일 주소 외에는 사용할 수 없습니다. 성적증명서, 재학증명서, 신칸센 학할증명서 등은 규슈대 공식 사이트의 certificate 페이지에서 신청합니다. 대학원생 관련 증명서는 ku-cert를 이용합니다."
+  },
+  "5ed19b": {
+   "items": [
+    {
+     "text": "규슈대 certificate(성적/재학/학할 등)",
+     "url": "https://www.kyushu-u.ac.jp/ja/education/procedure/certificate/"
+    },
+    {
+     "text": "대학원생 증명서(ku-cert)",
+     "url": "https://ku-cert.kyushu-u.ac.jp/cert/z/c_menu.html/_/g"
+    },
+    {
+     "text": "수강신청 시스템(JTC)",
+     "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
+    },
+    {
+     "text": "학교 메일(Outlook, 학교 계정으로 로그인)",
+     "url": "https://outlook.office.com/mail/"
+    },
+    {
+     "text": "SSO 비밀번호/계정(passchg)",
+     "url": "https://ci.iii.kyushu-u.ac.jp/m/"
+    }
+   ]
+  },
+  "c8db3c": {
+   "text": "일부 시설(하카타역 앞 외부 시설 등)은 예약해야 들어갈 수 있습니다. QBS 학생이 아니어도 들어갈 수 있지만, 설명회 같은 자리에서는 발언하기 어려울 수 있습니다. 주차 자리는 car-entry 시스템으로 신청합니다."
+  },
+  "ad0d60": {
+   "items": [
+    {
+     "text": "하카타 외부 시설 가이드",
+     "url": "https://www.kyushu-u.ac.jp/ja/university/facility/external/hakata/guide/"
+    },
+    {
+     "text": "학교 주차 자리 신청",
+     "url": "https://car-entry.cargate.kyushu-u.ac.jp/reg_apply/"
+    },
+    {
+     "text": "라쿠텐 포인트카드 신청",
+     "url": "https://pointcard.rakuten.co.jp/"
+    }
+   ]
+  },
+  "c8e67d": {
+   "text": "수강신청과 수업"
+  },
+  "e254fb": {
+   "text": "수강신청은 보통 새 학기 첫째~둘째 주에 시작합니다(4/8~4/10경, 학교 공지가 우선). JTW는 독립된 교육과정 체계로, 자격이 되는 학생에게는 학교가 개별 메일로 안내합니다."
+  },
+  "b1a9b5": {
+   "text": "교재는 보통 첫 수업에서야 지정되므로 구입 방법을 미리 생각해 두어야 하며, 선배에게 중고로 받는 방법도 있습니다. 박사과정 학생은 국제유학생센터(ISC)의 일본어 과정을 들을 수 있습니다. 자세한 내용은 ISC 페이지를 참고하세요."
+  },
+  "9ce243": {
+   "items": [
+    {
+     "text": "ISC 일본어 과정",
+     "url": "https://isc.kyushu-u.ac.jp/center/international/japaneselang/"
+    }
+   ]
+  },
+  "f9e37c": {
+   "text": "연구와 진학"
+  },
+  "5b832c": {
+   "text": "규슈대 직접 수험 시 교수에게 먼저 연락해야 하나"
+  },
+  "acc4f9": {
+   "text": "필요합니다. 먼저 교수에게 연락해 받아줄 의사를 확인한 뒤 시험을 치러야 합니다. 이는 교수가 외국인 학생을 받을지, 연구실에 자리가 있는지와 직결됩니다 —— 시험에 합격해도 자리가 없으면 입학하지 못할 수 있습니다. 학부 학점만으로 결정되는 것이 아니라 주로 교수의 판단에 달려 있습니다. 정보계 일부 전공은 내락이 필요 없지만, 그래도 미리 연락해 확인하기를 권합니다."
+  },
+  "6be666": {
+   "text": "지도교수가 정년에 가까울 때"
+  },
+  "406f13": {
+   "text": "박사과정을 생각하고 있고 교수의 퇴직으로 졸업이 늦어지거나 지도교수가 바뀔까 걱정된다면, 미리 상황을 넌지시 알아보는 것이 좋습니다. 보통 퇴직이 가까운 교수는 학생의 이후 지도를 마련해 둡니다. 가장 확실한 방법은 교수와 직접 만나 우려를 이야기하는 것입니다."
+  },
+  "3668c3": {
+   "text": "연구생(리서치 스튜던트)"
+  },
+  "93d2c1": {
+   "text": "경험은 교수의 스타일에 크게 좌우됩니다. 전부 영어로 지도하고 요구가 엄격한 분도 있고, 비교적 자유롭게 자율 학습에 맡기는 분도 있습니다. 연구실에 머무는 시간은 연구실 내부 규정이며, 정해진 시간에 나오는 것이 기본적인 요구입니다. 구체적인 사항은 교수나 선배에게 물어보세요."
+  },
+  "eedeaa": {
+   "text": "수험 참고: 전공마다 사정이 다릅니다. 먼저 한 번 응시해 출제 유형과 요구 수준을 파악한 뒤 그에 맞춰 준비하는 방법도 있습니다."
+  },
+  "14676e": {
+   "text": "장학금과 감면"
+  },
+  "35d880": {
+   "text": "RA(리서치 어시스턴트)"
+  },
+  "fbd83d": {
+   "text": "규슈대의 RA는 전교 기준이 통일되어 있으며, 수학계는 월 약 44,000엔이라는 이야기가 있습니다(경험값으로 부서·연도에 따라 다를 수 있습니다). RA는 적절한 연구 과제가 있어야 신청할 수 있고 누구나 받을 수 있는 것은 아니며 경쟁도 있는 편입니다. 인터넷의 수입 인증 사진은 일반적인 수준을 대변하지 않으니 참고만 하세요."
+  },
+  "853a53": {
+   "text": "사비 유학생 장학금"
+  },
+  "b6950e": {
+   "text": "사비 유학생이 신청할 수 있는 장학금은 국제유학생센터(ISC)의 「사비 유학생 장학금 게시판」이 가장 신뢰할 수 있는 출처로, 현재 모집 중인 사업이 계속 갱신됩니다. 모집 기간이 짧은 경우가 많으니 정기적으로 확인하고 조건과 마감일을 일찍 확정하세요."
+  },
+  "066616": {
+   "items": [
+    {
+     "text": "ISC 사비 유학생 장학금 게시판(최신 연도)",
+     "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2026&lang=jp"
+    }
+   ]
+  },
+  "c3f0b4": {
+   "text": "보통 campusweb에 로그인해 신청합니다(방법은 참조【체류 수속·campus 로그인 신청】). 신청 기간은 학교 공지가 우선합니다."
+  },
+  "e248db": {
+   "text": "일본어 과정(JTCs)"
+  },
+  "7fbb45": {
+   "text": "규슈대학 유학생센터는 일본어 과정(Japanese Training Courses)을 개설합니다. 지정 기간에 온라인으로 등록하고 반 배치 시험(플레이스먼트 테스트)을 봐야 하며, 등록 기간을 놓치면 추가 신청은 불가능합니다."
+  },
+  "66a59f": {
+   "items": [
+    {
+     "text": "등록 기간은 보통 개강 후 첫째 주(예: 4월 13~18일)"
+    },
+    {
+     "text": "대상은 학부생, 대학원생, 비정규 과정 학생"
+    },
+    {
+     "text": "문의: intlr-isc@jimu.kyushu-u.ac.jp / 092-802-2228"
+    }
+   ]
+  },
+  "32f280": {
+   "items": [
+    {
+     "text": "JTCs 등록 페이지",
+     "url": "https://isc.kyushu-u.ac.jp/center/jtcs/"
+    }
+   ]
+  },
+  "6aab6e": {
+   "text": "이 밖에 집중 일본어 과정(Intensive Japanese Courses)이 있으며, 가을학기에는 전체 유학생에게 개방됩니다(일본어 능력, 지도교원 허가 등의 조건을 충족해야 합니다)."
+  },
+  "048da7": {
+   "text": "건강검진"
+  },
+  "9bf76b": {
+   "text": "매년 4월과 10월에 정기 건강검진이 있습니다(보통 ビッグさんど 2층). 검진 후에는 건강진단서를 무료로 발급받을 수 있습니다. 일정이 겹치면 변경할 수 있습니다."
+  },
+  "c29b18": {
+   "text": "상담 창구 일람"
+  },
+  "9e1128": {
+   "text": "부서별 문의처"
+  },
+  "7b2c1e": {
+   "items": [
+    {
+     "text": "인문·지구사회 담당: jbkkyomu1lt@jimu.kyushu-u.ac.jp"
+    },
+    {
+     "text": "인간환경·교육 담당: jbkkyomu1ed@jimu.kyushu-u.ac.jp"
+    },
+    {
+     "text": "법학 담당: jbkkyomu2la@jimu.kyushu-u.ac.jp"
+    },
+    {
+     "text": "경제 담당: jbkkyomu2ec@jimu.kyushu-u.ac.jp"
+    },
+    {
+     "text": "학생계: jbggakusei@jimu.kyushu-u.ac.jp"
+    }
+   ]
+  },
+  "f40f04": {
+   "text": "학사일정: 내가 보는 것이 어느 것인지부터 확인"
+  },
+  "f8719f": {
+   "headers": [
+    "학기",
+    "2026년도"
+   ],
+   "rows": [
+    [
+     "봄학기",
+     "04-08 ~ 06-09"
+    ],
+    [
+     "여름학기",
+     "06-10 ~ 08-07"
+    ],
+    [
+     "가을학기",
+     "10-01 ~ 12-06"
+    ],
+    [
+     "겨울학기",
+     "12-07 ~ 02-15"
+    ],
+    [
+     "봄방학",
+     "04-01 ~ 04-07"
+    ],
+    [
+     "여름방학",
+     "08-08 ~ 09-30"
+    ],
+    [
+     "겨울방학",
+     "12-26 ~ 01-04"
+    ]
+   ]
+  },
+  "92c5cc": {
+   "text": "입학식 04-03(가을 10-02) · 학위기 수여 03-25(가을 09-25) · 규다이사이 10-30 ~ 11-02."
+  },
+  "828e4c": {
+   "text": "**이것은 전교 공통 표준 일정이며 학부·대학원마다 다를 수 있습니다** —— 공식 페이지 자체가 그렇게 명시하고 있습니다. 귀국 항공권, 시험, 인턴을 정하기 전에 반드시 자기 학부 사이트에서 다시 확인하세요. 공학부 일정으로 다른 학부의 일을 계획하지 마세요."
+  },
+  "acd972": {
+   "items": [
+    {
+     "text": "규슈대학 · 학사일정(전교)",
+     "url": "https://www.kyushu-u.ac.jp/ja/faculty/schedule/"
+    }
+   ]
+  },
+  "1240ad": {
+   "text": "증명서 발급 방법"
+  },
+  "7d38ec": {
+   "text": "재학증명서·성적증명서·졸업(수료)예정증명서 등은 대학 증명서 발급 창구에서 신청합니다. 일부는 **교내 자동 발권기**에서도 발급됩니다(아래 참조)."
+  },
+  "d2ae99": {
+   "items": [
+    {
+     "text": "규슈대학 · 각종 증명서 발급",
+     "url": "https://www.kyushu-u.ac.jp/ja/education/procedure/certificate/"
+    },
+    {
+     "text": "ISC · 유학생 일상생활 가이드",
+     "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/page-019"
+    }
+   ]
+  },
+  "c9398a": {
+   "text": "교외 일본어 교실(6곳)"
+  },
+  "714c74": {
+   "text": "규슈대 자체 일본어 강좌는 **무료**입니다(위 링크). 교외에도 **자원봉사 교실**이 6곳 있고 비용은 무료~1회 100엔. 일상 회화를 연습하고 지역 주민과 알고 지내고 싶다면 교내 수업보다 낫습니다. 대부분 사전 메일 연락이 필요합니다."
+  },
+  "f627ad": {
+   "headers": [
+    "교실",
+    "장소",
+    "시간",
+    "요금"
+   ],
+   "rows": [
+    [
+     "이토 인터내셔널 서클",
+     "이토 캠퍼스 West4",
+     "목 17:30~20:00",
+     "입회금 500엔"
+    ],
+    [
+     "니혼고 히로바 이토시마",
+     "이토시마시 인권센터",
+     "문의 필요",
+     "1회 100엔"
+    ],
+    [
+     "모토오카 국제교류 히로바",
+     "모토오카 공민관",
+     "수 18:30~20:00",
+     "무료"
+    ],
+    [
+     "Global Friendship",
+     "후쿠오카시 국제회관 4F",
+     "문의 필요",
+     "1회 100엔"
+    ],
+    [
+     "카스가 니혼고 히로바",
+     "클로버 플라자 3F",
+     "문의 필요",
+     "월 600엔"
+    ],
+    [
+     "카시하마 요루토모회",
+     "카시하마 초등학교",
+     "문의 필요",
+     "무료"
+    ]
+   ]
+  },
+  "0d6cf9": {
+   "items": [
+    {
+     "text": "이토 인터내셔널 서클 090-8764-9588",
+     "url": "mailto:hatae_iic@yahoo.co.jp"
+    },
+    {
+     "text": "니혼고 히로바 이토시마 092-322-5095",
+     "url": "mailto:nihongoitoshima@gmail.com"
+    },
+    {
+     "text": "모토오카 국제교류 히로바- 메일 문의",
+     "url": "mailto:motookahiroba@gmail.com"
+    },
+    {
+     "text": "Global Friendship 090-5727-9925",
+     "url": "mailto:globalfriendshipnihongo@gmail.com"
+    },
+    {
+     "text": "카스가 니혼고 히로바 080-6441-0763",
+     "url": "mailto:fk.kasuga.nihongo@gmail.com"
+    },
+    {
+     "text": "카시하마 요루토모회 090-5921-7798",
+     "url": "mailto:tomoikifukuoka@gmail.com"
+    }
+   ]
+  },
+  "8d720b": {
+   "text": "자동 발권기(8:30~17:15)"
+  },
+  "7ddd0f": {
+   "text": "재학증명서·통학증명서·학할증·건강진단증명서를 셀프로 발급할 수 있습니다. **줄 서지 않아도 됩니다**. 주의: **정규 과정 학생만 이용 가능** —— 연구생·교환유학생은 소속 창구로."
+  },
+  "9dc610": {
+   "headers": [
+    "캠퍼스",
+    "위치"
+   ],
+   "rows": [
+    [
+     "이토",
+     "센터1호관 2F"
+    ],
+    [
+     "이토",
+     "이스트1호관 C동 1F"
+    ],
+    [
+     "이토",
+     "웨스트1호관 A동 3F"
+    ],
+    [
+     "이토",
+     "웨스트4호관 2F"
+    ],
+    [
+     "이토",
+     "웨스트5호관 동관 3F"
+    ],
+    [
+     "치쿠시",
+     "비스타홀 매점 입구"
+    ],
+    [
+     "오하시",
+     "예술공학부 관리동 1F"
+    ],
+    [
+     "병원",
+     "기초연구동 A동 1F"
+    ]
+   ]
+  },
+  "1a0232": {
+   "text": "**건강진단을 받지 않으면 건강진단증명서를 발급받을 수 없습니다.** 장학금 신청과 취업활동에 필요합니다. 반드시 받으세요."
+  },
+  "0c0390": {
+   "text": "증명서 수령: 정규 과정 학생은 **자동 발권기**, 연구생·교환유학생은 각 캠퍼스 **캠퍼스라이프·건강지원센터**에서 신청(무료)."
+  },
+  "b41e84": {
+   "text": "괴롭힘 대책 추진실: 괴롭힘(성희롱·학술·권력) 상담 및 신고 창구."
+  },
+  "e6e7d1": {
+   "items": [
+    {
+     "text": "건강지원센터 안내(중국어판)",
+     "url": "https://chc.kyushu-u.ac.jp/@@supportx//wp-content/uploads/2026/05/brochure_chinese_2026.pdf"
+    },
+    {
+     "text": "동일(영어판)",
+     "url": "https://chc.kyushu-u.ac.jp/@@supportx//wp-content/uploads/2026/05/brochure_english_2026.pdf"
+    },
+    {
+     "text": "동일(일본어판)",
+     "url": "https://chc.kyushu-u.ac.jp/@@supportx//wp-content/uploads/2026/05/brochure_japanese_2026.pdf"
+    },
+    {
+     "text": "학생 정기 건강진단(공식)",
+     "url": "https://chc.kyushu-u.ac.jp/student/health_check/"
+    }
+   ]
+  },
+  "4d947b": {
+   "text": "규슈대는 **영어 수업을 많이 개설**하고 있습니다. 2026년도 교환유학생이 청강 가능한 과목 목록이 별도로 공개되어 있습니다. 일본어 수업을 피하고 싶다면 먼저 확인하세요."
+  },
+  "d13843": {
+   "items": [
+    {
+     "text": "영어 수업 과목 목록(일본어 페이지)",
+     "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/english"
+    },
+    {
+     "text": "Courses Conducted in English(영어 페이지)",
+     "url": "https://www.isc.kyushu-u.ac.jp/intlweb/en/student/english"
+    }
+   ]
+  },
+  "ac541e": {
+   "items": [
+    {
+     "text": "건강지원센터(카운슬링): ビッグさんど 2층. 심리·건강 상담 092-802-5881"
+    },
+    {
+     "text": "유학생 상담실(ISC): イースト1号館 B540. 수강, 주거, 질병, 육아 등 지도교수에게 말하기 어려운 내용도"
+    },
+    {
+     "text": "캠퍼스 헬스 서포트룸: イースト1号館 2층 E-B-202. 대인관계, 생활상의 합리적 배려 등"
+    },
+    {
+     "text": "다국어 교류 공간(EZ ぷらっと): イースト1号館 2층 E-C-202. 유학 지원, 어학 학습, 도서·DVD 대출"
+    },
+    {
+     "text": "교무과: イースト1号館 C108. 수강 등록, 증명서, 학적"
+    },
+    {
+     "text": "학생과: イースト1号館 C108. 통학 정기 학할, 학생증 재발급, 각종 신청"
+    },
+    {
+     "text": "서포트센터: イースト1号館 C108. 비자, 병원 소개, 주거, 일본어 교실 등"
+    }
+   ]
+  }
+ }
+},
  "guide-antifraud": {
   "ja": {
    "52ec55": {

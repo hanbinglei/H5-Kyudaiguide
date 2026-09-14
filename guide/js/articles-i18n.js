@@ -45,9 +45,9 @@ window.ARTICLES_I18N = {
    "ko": "학업·장학금"
   },
   "summary": {
-   "ja": "学校アカウントと各種証明書、履修と授業、直接受験/研究生からの進学、RA と私費留学生奨学金、JTCs 日本語コース、健康診断と学内相談窓口、学外の日本語教室（ボランティア 6 か所）。",
-   "en": "School accounts & certificates, course registration, direct-exam / research-student admission, RA positions & scholarships for self-funded students, JTCs Japanese courses, health checkup and on-campus counseling, and six community Japanese classes.",
-   "ko": "학교 계정과 각종 증명서, 수강 신청, 직접 수험/연구생 진학, RA와 사비 유학생 장학금, JTCs 일본어 과정, 건강검진과 교내 상담 창구, 교외 일본어 교실 6곳."
+   "ja": "学校アカウントと各種証明書、履修と授業、直接受験/研究生からの進学、RA と私費留学生奨学金、英語による授業、JTCs 日本語コース、健康診断と学内相談窓口、学外の日本語教室（ボランティア 6 か所）。",
+   "en": "School accounts & certificates, course registration, direct-exam / research-student admission, RA positions & scholarships for self-funded students, English-taught courses, JTCs Japanese courses, health checkup and on-campus counseling, and six community Japanese classes.",
+   "ko": "학교 계정과 각종 증명서, 수강 신청, 직접 수험/연구생 진학, RA와 사비 유학생 장학금, 영어 수업, JTCs 일본어 과정, 건강검진과 교내 상담 창구, 교외 일본어 교실 6곳."
   }
  },
 'guide-parttime': {

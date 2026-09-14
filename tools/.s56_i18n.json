@@ -1,0 +1,287 @@
+{
+ "ja": {
+  "7d38ec": {
+   "text": "在学証明書・成績証明書・卒業（修了）見込証明書などは、大学の証明書発行窓口で申請します。一部は**学内の自動発券機**でも取得できます（下記参照）。"
+  },
+  "8d720b": {
+   "text": "自動発券機（8:30〜17:15）"
+  },
+  "7ddd0f": {
+   "text": "在学証明書・通学証明書・学割証・健康診断証明書をセルフで発行できます。**並ばずに済みます**。注意：**利用できるのは正規課程の学生のみ** —— 研究生・交換留学生は所属窓口へ。"
+  },
+  "9dc610": {
+   "headers": [
+    "キャンパス",
+    "場所"
+   ],
+   "rows": [
+    [
+     "伊都",
+     "センター1号館 2F"
+    ],
+    [
+     "伊都",
+     "イースト1号館C棟 1F"
+    ],
+    [
+     "伊都",
+     "ウエスト1号館A棟 3F"
+    ],
+    [
+     "伊都",
+     "ウエスト4号館 2F"
+    ],
+    [
+     "伊都",
+     "ウエスト5号館東 3F"
+    ],
+    [
+     "筑紫",
+     "ビスタホール売店入口"
+    ],
+    [
+     "大橋",
+     "芸術工学部管理棟 1F"
+    ],
+    [
+     "病院",
+     "基礎研究棟A棟 1F"
+    ]
+   ]
+  },
+  "1a0232": {
+   "text": "**健康診断を受けていないと健康診断証明書は発行できません。** 奨学金の申請や就職活動で必要になります。必ず受けてください。"
+  },
+  "0c0390": {
+   "text": "証明書の受け取り：正規課程の学生は**自動発券機**、研究生・交換留学生は各キャンパスの**キャンパスライフ・健康支援センター**で申請（無料）。"
+  },
+  "b41e84": {
+   "text": "ハラスメント対策推進室：ハラスメント（セクシュアル・アカデミック・パワー）の相談・申告窓口。"
+  },
+  "e6e7d1": {
+   "items": [
+    {
+     "text": "健康支援センターパンフレット（中国語版）",
+     "url": "https://chc.kyushu-u.ac.jp/@@supportx//wp-content/uploads/2026/05/brochure_chinese_2026.pdf"
+    },
+    {
+     "text": "同（英語版）",
+     "url": "https://chc.kyushu-u.ac.jp/@@supportx//wp-content/uploads/2026/05/brochure_english_2026.pdf"
+    },
+    {
+     "text": "同（日本語版）",
+     "url": "https://chc.kyushu-u.ac.jp/@@supportx//wp-content/uploads/2026/05/brochure_japanese_2026.pdf"
+    },
+    {
+     "text": "学生定期健康診断（公式）",
+     "url": "https://chc.kyushu-u.ac.jp/student/health_check/"
+    }
+   ]
+  },
+  "4d947b": {
+   "text": "九大は**英語による授業を多く開講**しています。2026 年度に交換留学生が聴講できる科目のリストは別途公開されています。日本語の授業を避けたい人は先に確認を。"
+  },
+  "d13843": {
+   "items": [
+    {
+     "text": "英語による授業の科目リスト（日本語ページ）",
+     "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/english"
+    },
+    {
+     "text": "Courses Conducted in English（英語ページ）",
+     "url": "https://www.isc.kyushu-u.ac.jp/intlweb/en/student/english"
+    }
+   ]
+  }
+ },
+ "en": {
+  "7d38ec": {
+   "text": "Certificates of enrolment, transcripts and expected-graduation certificates are issued through the university's certificate desk. Some are also available from the **self-service machines** on campus (see below)."
+  },
+  "8d720b": {
+   "text": "Self-service certificate machines (8:30-17:15)"
+  },
+  "7ddd0f": {
+   "text": "Enrolment certificates, commuter certificates, student discounts and health-check certificates print straight from the machine - **no queue**. Note: **regular-course students only** - research and exchange students go to their faculty counter."
+  },
+  "9dc610": {
+   "headers": [
+    "Campus",
+    "Location"
+   ],
+   "rows": [
+    [
+     "Ito",
+     "Center Bldg 1, 2F"
+    ],
+    [
+     "Ito",
+     "East Bldg 1C, 1F"
+    ],
+    [
+     "Ito",
+     "West Bldg 1A, 3F"
+    ],
+    [
+     "Ito",
+     "West Bldg 4, 2F"
+    ],
+    [
+     "Ito",
+     "West Bldg 5 East, 3F"
+    ],
+    [
+     "Chikushi",
+     "Vista Hall shop entrance"
+    ],
+    [
+     "Ohashi",
+     "Design Bldg admin, 1F"
+    ],
+    [
+     "Hospital",
+     "Basic Research A, 1F"
+    ]
+   ]
+  },
+  "1a0232": {
+   "text": "**No health check, no health certificate.** Scholarship applications and job hunting both require it - make sure you attend."
+  },
+  "0c0390": {
+   "text": "Collecting the certificate: regular students use the **self-service machine**; research and exchange students apply at the **Campus Life & Health Support Centre** on each campus (free)."
+  },
+  "b41e84": {
+   "text": "Harassment Prevention Office: the contact point for consultation and reports on harassment (sexual, academic, power)."
+  },
+  "e6e7d1": {
+   "items": [
+    {
+     "text": "Health Support Centre brochure (Chinese)",
+     "url": "https://chc.kyushu-u.ac.jp/@@supportx//wp-content/uploads/2026/05/brochure_chinese_2026.pdf"
+    },
+    {
+     "text": "Same (English)",
+     "url": "https://chc.kyushu-u.ac.jp/@@supportx//wp-content/uploads/2026/05/brochure_english_2026.pdf"
+    },
+    {
+     "text": "Same (Japanese)",
+     "url": "https://chc.kyushu-u.ac.jp/@@supportx//wp-content/uploads/2026/05/brochure_japanese_2026.pdf"
+    },
+    {
+     "text": "Annual student health check (official)",
+     "url": "https://chc.kyushu-u.ac.jp/student/health_check/"
+    }
+   ]
+  },
+  "4d947b": {
+   "text": "Kyushu U. teaches **many courses in English**. A separate list covers the 2026 courses open to exchange students - check it first if you want to avoid Japanese-taught classes."
+  },
+  "d13843": {
+   "items": [
+    {
+     "text": "Courses in English (Japanese page)",
+     "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/english"
+    },
+    {
+     "text": "Courses Conducted in English (English page)",
+     "url": "https://www.isc.kyushu-u.ac.jp/intlweb/en/student/english"
+    }
+   ]
+  }
+ },
+ "ko": {
+  "7d38ec": {
+   "text": "재학증명서·성적증명서·졸업(수료)예정증명서 등은 대학 증명서 발급 창구에서 신청합니다. 일부는 **교내 자동 발권기**에서도 발급됩니다(아래 참조)."
+  },
+  "8d720b": {
+   "text": "자동 발권기(8:30~17:15)"
+  },
+  "7ddd0f": {
+   "text": "재학증명서·통학증명서·학할증·건강진단증명서를 셀프로 발급할 수 있습니다. **줄 서지 않아도 됩니다**. 주의: **정규 과정 학생만 이용 가능** —— 연구생·교환유학생은 소속 창구로."
+  },
+  "9dc610": {
+   "headers": [
+    "캠퍼스",
+    "위치"
+   ],
+   "rows": [
+    [
+     "이토",
+     "센터1호관 2F"
+    ],
+    [
+     "이토",
+     "이스트1호관 C동 1F"
+    ],
+    [
+     "이토",
+     "웨스트1호관 A동 3F"
+    ],
+    [
+     "이토",
+     "웨스트4호관 2F"
+    ],
+    [
+     "이토",
+     "웨스트5호관 동관 3F"
+    ],
+    [
+     "치쿠시",
+     "비스타홀 매점 입구"
+    ],
+    [
+     "오하시",
+     "예술공학부 관리동 1F"
+    ],
+    [
+     "병원",
+     "기초연구동 A동 1F"
+    ]
+   ]
+  },
+  "1a0232": {
+   "text": "**건강진단을 받지 않으면 건강진단증명서를 발급받을 수 없습니다.** 장학금 신청과 취업활동에 필요합니다. 반드시 받으세요."
+  },
+  "0c0390": {
+   "text": "증명서 수령: 정규 과정 학생은 **자동 발권기**, 연구생·교환유학생은 각 캠퍼스 **캠퍼스라이프·건강지원센터**에서 신청(무료)."
+  },
+  "b41e84": {
+   "text": "괴롭힘 대책 추진실: 괴롭힘(성희롱·학술·권력) 상담 및 신고 창구."
+  },
+  "e6e7d1": {
+   "items": [
+    {
+     "text": "건강지원센터 안내(중국어판)",
+     "url": "https://chc.kyushu-u.ac.jp/@@supportx//wp-content/uploads/2026/05/brochure_chinese_2026.pdf"
+    },
+    {
+     "text": "동일(영어판)",
+     "url": "https://chc.kyushu-u.ac.jp/@@supportx//wp-content/uploads/2026/05/brochure_english_2026.pdf"
+    },
+    {
+     "text": "동일(일본어판)",
+     "url": "https://chc.kyushu-u.ac.jp/@@supportx//wp-content/uploads/2026/05/brochure_japanese_2026.pdf"
+    },
+    {
+     "text": "학생 정기 건강진단(공식)",
+     "url": "https://chc.kyushu-u.ac.jp/student/health_check/"
+    }
+   ]
+  },
+  "4d947b": {
+   "text": "규슈대는 **영어 수업을 많이 개설**하고 있습니다. 2026년도 교환유학생이 청강 가능한 과목 목록이 별도로 공개되어 있습니다. 일본어 수업을 피하고 싶다면 먼저 확인하세요."
+  },
+  "d13843": {
+   "items": [
+    {
+     "text": "영어 수업 과목 목록(일본어 페이지)",
+     "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/english"
+    },
+    {
+     "text": "Courses Conducted in English(영어 페이지)",
+     "url": "https://www.isc.kyushu-u.ac.jp/intlweb/en/student/english"
+    }
+   ]
+  }
+ }
+}
