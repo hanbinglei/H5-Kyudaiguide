@@ -377,7 +377,12 @@ function showArticle(id,wantHeading,wantSec){
             if(!target||!sc) return;
             const want=target.getBoundingClientRect().top-sc.getBoundingClientRect().top+sc.scrollTop-10;
             sc.scrollTop=Math.max(0,want);
-            const off=Math.abs(target.getBoundingClientRect().top-sc.getBoundingClientRect().top-10);
+            let off=Math.abs(target.getBoundingClientRect().top-sc.getBoundingClientRect().top-10);
+            if(off>24){
+              // 兜底：直接赋 scrollTop 没生效时再走 scrollIntoView（两者行为视浏览器而定）
+              target.scrollIntoView({block:'start'});
+              off=Math.abs(target.getBoundingClientRect().top-sc.getBoundingClientRect().top-10);
+            }
             if(off>24 && tries++<5){ setTimeout(jump,140); return; }
             if(idx>=0) toc.querySelectorAll('.toc-tab').forEach((x,i2)=>x.classList.toggle('on',i2===idx));
           };
