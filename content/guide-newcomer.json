@@ -64,7 +64,7 @@
         ],
         [
           "9月28日",
-          "新入留学生オリエンテーション + SIM贩卖会・图书馆参观・入管咨询会・欢迎会",
+          "オリエン + 并行 4 项",
           "所有新入留学生（含其他校区）",
           "⚠️ 新入留学生参加必须"
         ],
@@ -170,20 +170,22 @@
       "type": "list",
       "items": [
         {
-          "num": "1",
-          "text": "每天第4便不在セトルインターナショナル停靠。"
+          "text": "每天第4便不在セトルインターナショナル停靠。",
+          "num": "1"
         },
         {
-          "num": "2",
-          "text": "集合地点：福冈机场国际线/国内线航站楼。出发时间前1小时起，持「Kyushu University」举牌的留学课工作人员会在到达口附近受付处等候指引。"
+          "text": "集合：福冈机场国际线 / 国内线航站楼"
         },
         {
-          "num": "3",
-          "text": "出发・到达时间可能因交通状况前后浮动。"
+          "text": "出发前 1 小时起，持「Kyushu University」牌者在到达口引导"
         },
         {
-          "num": "4",
-          "text": "病院・筑紫・大桥校区的新入留学生**无法**使用本巴士。"
+          "text": "出发・到达时间可能因交通状况前后浮动。",
+          "num": "3"
+        },
+        {
+          "text": "病院・筑紫・大桥校区的新入留学生**无法**使用本巴士。",
+          "num": "4"
         }
       ]
     },
@@ -527,7 +529,7 @@
         ],
         [
           "13:10",
-          "「KUFSA」（留学生会）介绍"
+          "KUFSA（留学生会）"
         ],
         [
           "13:20",
@@ -535,7 +537,7 @@
         ],
         [
           "13:25",
-          "在留资格制度（出入国在留管理局）"
+          "在留资格制度（入管局）"
         ],
         [
           "13:35",
@@ -620,28 +622,22 @@
       "type": "list",
       "items": [
         {
-          "num": "1",
-          "text": "条件①：在留卡住所登记已完成；条件②：在留期间剩余3个月以上（期限不足3个月、或更新申请中者不可参加，需自行前往银行支店办理）。"
+          "text": "条件①：在留卡住所登记已完成"
         },
         {
-          "num": "2",
-          "text": "报名：登录**入国支援系统（Pre-Arrival Assistance）→「スケジュール情報の入力」→ 填写福冈银行开户会表单并上传在留卡照片**。报名表仅在报名期内显示。"
+          "text": "条件②：在留期间剩余 3 个月以上（不足者需自行前往银行支店办理）"
         },
         {
-          "num": "3",
-          "text": "**收到留学课确认邮件才算报名成功**；未收到邮件者无法参加。原则上不可取消，如无法参加需通过官方取消表单申请。"
+          "text": "报名：入国支援系统 → 填写开户会表单 + 上传在留卡照片（表单仅报名期内显示）"
         },
         {
-          "num": "4",
-          "text": "印章：**不可使用シャチハタ（自带墨水印章）**，须准备使用朱肉（红色印泥）的传统印章；同时需准备日本可用的电话号码（可参加 9/28 SIM 卡贩卖会获取）。"
+          "text": "收到留学课确认邮件才算报名成功；未收到者无法参加，原则上不可取消"
         },
         {
-          "num": "5",
-          "text": "美国国籍参加者需事先确认 Social Security Number(SSN)。"
+          "text": "印章：不可用シャチハタ，须用朱肉的传统印章；另需日本可用的电话号码"
         },
         {
-          "num": "6",
-          "text": "MEXT 奖学金获得者也可参加，但奖学金到账需**另外开设ゆうちょ银行**账户。"
+          "text": "美国国籍者需事先确认 SSN（Social Security Number）"
         }
       ]
     },
@@ -691,16 +687,18 @@
       "type": "list",
       "items": [
         {
-          "num": "1",
-          "text": "加入截至：**2026年10月30日(金)**。"
+          "text": "加入截至：**2026年10月30日(金)**。",
+          "num": "1"
         },
         {
-          "num": "2",
-          "text": "申请：经官方 App 在线申请；需要日本手机号，**建议抵日后**再申请。⚠️ 来源冲突：官方网页写 OSSMA App，但2026版官方手册显示为 NEXUS（勿下载旧应用），以最新手册/留学课指引为准。"
+          "text": "申请：经官方 App 在线申请，需日本手机号，建议抵日后办理"
         },
         {
-          "num": "3",
-          "text": "支付：信用卡 / 便利店（在线登记时选择，另付手续费）。"
+          "text": "App 名称官方资料记载不一致（OSSMA / NEXUS），以最新手册为准"
+        },
+        {
+          "text": "支付：信用卡 / 便利店（在线登记时选择，另付手续费）。",
+          "num": "3"
         }
       ]
     },
@@ -716,23 +714,53 @@
     },
     {
       "id": "m3j4k5",
-      "type": "list",
-      "items": [
+      "type": "fee_table",
+      "headers": [
+        "医院",
+        "位置",
+        "科目",
+        "语言対応"
+      ],
+      "rows": [
+        [
+          "伊都诊所（校内）",
+          "センター6号館 1F",
+          "内科・精神科",
+          "英语 B 级"
+        ],
+        [
+          "西福冈医院",
+          "西区生之松原",
+          "综合",
+          "A 级・20 种语言"
+        ],
+        [
+          "福冈纪念医院",
+          "早良区西新",
+          "综合",
+          "A 级"
+        ]
+      ]
+    },
+    {
+      "id": "45ba0c",
+      "type": "notice",
+      "text": "就诊时间与联系方式：伊都诊所工作日 10:00-12:30 / 14:00-16:30；西福冈医院 0570-09-1331（介绍信・预约制，无介绍信另付 7,700 円）；福冈纪念医院 092-821-4731。 跨境就医前请确认：是否需要预约；伊都诊所周末不营业，需另找校外医院。"
+    },
+    {
+      "id": "d966c7",
+      "type": "links",
+      "kind": "web",
+      "links": [
         {
-          "num": "1",
-          "text": "**校内：伊都诊所**（センター６号馆1F，内科 + 精神科。周一至五 10:00-12:30 / 14:00-16:30。英语对应 B 级。https://itoclinic.kyushu-u.ac.jp/）"
+          "label": "伊都诊所",
+          "desc": "校内诊所官网",
+          "url": "https://itoclinic.kyushu-u.ac.jp/"
         },
         {
-          "num": "2",
-          "text": "**西福冈医院**（西区生之松原，综合。外语 A 级 20 种语言。介绍信・预约制，无介绍信需另付 7,700円。0570-09-1331）"
-        },
-        {
-          "num": "3",
-          "text": "**福冈纪念医院**（早良区西新，综合。外语 A 级。092-821-4731，http://kinen.jp）"
-        },
-        {
-          "num": "4",
-          "text": "跨境就医前请确认：**是否需要预约**；伊都诊所周末不营业需另找校外医院。"
+          "label": "福冈纪念医院",
+          "desc": "官网",
+          "url": "http://kinen.jp"
         }
       ]
     },
@@ -760,28 +788,61 @@
       ]
     },
     {
+      "id": "2cbef1",
+      "type": "subheading",
+      "text": "实用资源与链接"
+    },
+    {
       "id": "m5l6m7",
       "type": "list",
       "items": [
         {
-          "num": "1",
-          "text": "**个人使用药品携入日本**：海外携入医药品有限制，厚生劳动省说明：https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/kojinyunyu/topics/tp010401-1.html"
+          "text": "个人使用药品携入日本"
         },
         {
-          "num": "2",
-          "text": "**疫苗预防的传染病信息**（渡航前确认接种史）：https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/visitor.html"
+          "text": "疫苗预防的传染病信息"
         },
         {
-          "num": "3",
-          "text": "**2026 CLUB & CIRCLE GUIDE**（校内社团，日文版 PDF）：https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-CLUB-CIRCLE-GUIDE.pdf"
+          "text": "2026 CLUB & CIRCLE GUIDE"
         },
         {
-          "num": "4",
-          "text": "**2026 International Clubs Guide**（国际社团，英文版 PDF）：https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-INTL-CLUB-AND-CIRCLE%E3%80%80%E8%8B%B1%E8%AA%9E.pdf"
+          "text": "2026 International Clubs Guide"
         },
         {
-          "num": "5",
-          "text": "**Global Gateways**（九州大学国际部留学生信息网，定期查看）：https://www.isc.kyushu-u.ac.jp/intlweb/"
+          "text": "Global Gateways"
+        }
+      ],
+      "kind": "linkref"
+    },
+    {
+      "id": "8b5893",
+      "type": "links",
+      "kind": "web",
+      "links": [
+        {
+          "label": "个人使用药品携入日本",
+          "desc": "厚生劳动省：海外携入医药品的限制说明",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/kojinyunyu/topics/tp010401-1.html"
+        },
+        {
+          "label": "疫苗预防的传染病信息",
+          "desc": "渡航前确认接种史",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/visitor.html"
+        },
+        {
+          "label": "2026 CLUB & CIRCLE GUIDE",
+          "desc": "校内社团・日文版 PDF",
+          "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-CLUB-CIRCLE-GUIDE.pdf"
+        },
+        {
+          "label": "2026 International Clubs Guide",
+          "desc": "国际社团・英文版 PDF",
+          "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-INTL-CLUB-AND-CIRCLE%E3%80%80%E8%8B%B1%E8%AA%9E.pdf"
+        },
+        {
+          "label": "Global Gateways",
+          "desc": "国际部留学生信息网，建议定期查看",
+          "url": "https://www.isc.kyushu-u.ac.jp/intlweb/"
         }
       ]
     },
@@ -795,20 +856,33 @@
       "type": "list",
       "items": [
         {
-          "num": "1",
-          "text": "抵日前咨询：留学课 imm.s@jimu.kyushu-u.ac.jp（履修・授课问题请直接联系所属学部・学府）。"
+          "text": "抵日前咨询：留学课 imm.s@jimu.kyushu-u.ac.jp"
         },
         {
-          "num": "2",
-          "text": "抵日后的日常咨询：LINE 官方账号「Consultation Desk」（Q-Mate 答复；内容：住居・市区役所手续・银行等）。"
+          "text": "日常咨询：LINE「Consultation Desk」（Q-Mate 答复）"
         },
         {
-          "num": "3",
-          "text": "Q-Mate Instagram：@_qmate；官网 https://studentassistantqu.wixsite.com/q-mate/about"
+          "text": "Q-Mate Instagram：@_qmate"
         },
         {
-          "num": "4",
-          "text": "Q-Mate LINE 官方账号：https://lin.ee/EiQqccP （联系・答疑入口）"
+          "text": "Q-Mate 官网：答疑与生活信息汇总"
+        }
+      ]
+    },
+    {
+      "id": "0e969c",
+      "type": "links",
+      "kind": "web",
+      "links": [
+        {
+          "label": "抵日后的日常咨询",
+          "desc": "LINE 官方账号",
+          "url": "https://lin.ee/EiQqccP"
+        },
+        {
+          "label": "Q-Mate 官网",
+          "desc": "官网",
+          "url": "https://studentassistantqu.wixsite.com/q-mate/about"
         }
       ]
     },

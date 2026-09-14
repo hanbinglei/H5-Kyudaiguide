@@ -35,6 +35,13 @@ def flat(blocks, out=None):
 
 def chars(s):
     return len(str(s or ""))
+def is_datetime(cell):
+    """纯日期/时刻单元格不受字数限制：其长度由格式决定，缩短必然丢信息。
+    例：9/24(木) 15:00-15:30、2026-12-02、9:00~17:15。"""
+    t = re.sub(r"[0-9０-９/:：\-〜~～\.\s月火水木金土日曜()（）]", "", str(cell or ""))
+    return t == "" and bool(str(cell or "").strip())
+
+
 
 
 def audit(path):
@@ -68,8 +75,8 @@ def audit(path):
         over = []
         for ri, row in enumerate(b.get("rows") or []):
             for ci, cell in enumerate(row):
-                if ci == 0:
-                    continue              # 第 1 列是专有名词（奖学金名/路径名），另有较宽上限
+                if ci == 0 or is_datetime(cell):
+                    continue              # 第 1 列是专有名词（另有较宽上限）；纯日期/时刻单元格不受字数限制
                 if chars(cell) > LIM["cell_chars"]:
                     over.append((chars(cell), ri, ci, str(cell)))
         if over:
