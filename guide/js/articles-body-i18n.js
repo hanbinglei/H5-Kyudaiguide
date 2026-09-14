@@ -443,16 +443,16 @@ window.ARTICLES_BODY_I18N = {
    "ac541e": {
     "items": [
      {
-      "text": "健康支援センター（カウンセリング）：ビッグさんど 2 階。心理・健康の相談 092-802-5881"
+      "text": "健康支援センター：ビッグさんど 2 階，心理・健康相谈：ビッグさんど 2 階。心理・健康の相談"
      },
      {
-      "text": "留学生相談室（ISC）：イースト1号館 B540。履修、住居、病気、育児など、指導教員には話しにくいことも"
+      "text": "留学生相談室（ISC）：B540，履修・住居・疾病・育儿，不便向导师谈的事：イースト1号館 B540。履修、住居、病気、育児など、指導教員には話しにくいことも"
      },
      {
-      "text": "キャンパスヘルスサポートルーム：イースト1号館2階 E-B-202。対人関係、生活上の合理的配慮など"
+      "text": "キャンパスヘルスサポートルーム：E-B-202，对人关系・生活配慮：イースト1号館2階 E-B-202。対人関係、生活上の合理的配慮など"
      },
      {
-      "text": "マルチリンガル交流スペース（EZぷらっと）：イースト1号館2階 E-C-202。留学支援、語学学習、書籍・DVD の貸出"
+      "text": "マルチリンガル交流スペース（EZぷらっと）：E-C-202，留学支援・语学・借阅（EZぷらっと）：イースト1号館2階 E-C-202。留学支援、語学学習、書籍・DVD の貸出"
      },
      {
       "text": "教務課：イースト1号館 C108。履修登録、証明書、学籍"
@@ -897,7 +897,7 @@ window.ARTICLES_BODY_I18N = {
    "ac541e": {
     "items": [
      {
-      "text": "Health Support Center (counselling): ビッグさんど 2F. Psychological and health consultations 092-802-5881"
+      "text": "Health Support Center (counselling): ビッグさんど 2F. Psychological and health consultations"
      },
      {
       "text": "International Student Consultation Room (ISC): イースト1号館 (East Zone Bldg 1) B540. Course registration, housing, illness, childcare — including things awkward to raise with your supervisor"
@@ -1351,7 +1351,7 @@ window.ARTICLES_BODY_I18N = {
    "ac541e": {
     "items": [
      {
-      "text": "건강지원센터(카운슬링): ビッグさんど 2층. 심리·건강 상담 092-802-5881"
+      "text": "건강지원센터(카운슬링): ビッグさんど 2층. 심리·건강 상담"
      },
      {
       "text": "유학생 상담실(ISC): イースト1号館 B540. 수강, 주거, 질병, 육아 등 지도교수에게 말하기 어려운 내용도"
@@ -1432,7 +1432,7 @@ window.ARTICLES_BODY_I18N = {
       "text": "119——火災のとき、または救急搬送（救急車）が必要なとき"
      },
      {
-      "text": "#7119——急な病気で救急車を呼ぶべきか迷うときの救急電話相談（福岡県、24時間）。短縮番号がつながらない場合は 092-471-0099"
+      "text": "#7119 —— 突发急病、不确定是否需叫救护车时的救急相谈（福冈县 24 小时）——急な病気で救急車を呼ぶべきか迷うときの救急電話相談（福岡県、24時間）。短縮番号がつながらない場合は 092-471-0099"
      },
      {
       "text": "#8000（子ども）——子どもの夜間の急な病気の相談。短縮番号がつながらない場合は 092-731-4119"
@@ -1562,7 +1562,7 @@ window.ARTICLES_BODY_I18N = {
    "d1f94f": {
     "items": [
      {
-      "text": "洪水：瑞梅寺川、雷山川などは脊振山地を源としており、大雨のときに氾濫する可能性があります。キャンパスは標高が高くリスクは小さめですが、国道 202 号沿いに住む場合は、賃貸契約時に渡される防災事項をよく読んでください"
+      "text": "洪水：瑞梅寺川、雷山川等强降水时可能泛滥；学校地势较高，风险较小、雷山川などは脊振山地を源としており、大雨のときに氾濫する可能性があります。キャンパスは標高が高くリスクは小さめですが、国道 202 号沿いに住む場合は、賃貸契約時に渡される防災事項をよく読んでください"
      },
      {
       "text": "水不足：2025–2026 年の冬、福岡全域が深刻な水不足となり、一部のダムは貯水率がほぼ底をつき、糸島地区では一時減圧給水が行われました"
@@ -1613,7 +1613,7 @@ window.ARTICLES_BODY_I18N = {
       "text": "119 — fire, or you need an ambulance"
      },
      {
-      "text": "#7119 — emergency phone consultation when you fall ill suddenly and are unsure whether to call an ambulance (Fukuoka Prefecture, 24 hours). If the short number will not connect, dial 092-471-0099"
+      "text": "#7119 —— 突发急病、不确定是否需叫救护车时的救急相谈（福冈县 24 小时） — emergency phone consultation when you fall ill suddenly and are unsure whether to call an ambulance (Fukuoka Prefecture, 24 hours). If the short number will not connect, dial 092-471-0099"
      },
      {
       "text": "#8000 (children) — nighttime consultation for a child’s sudden illness. If the short number will not connect, dial 092-731-4119"
@@ -1794,7 +1794,7 @@ window.ARTICLES_BODY_I18N = {
       "text": "119 — 화재, 또는 응급 이송(구급차)이 필요할 때"
      },
      {
-      "text": "#7119 — 갑자기 아파서 구급차를 불러야 할지 판단이 서지 않을 때의 응급 전화 상담(후쿠오카현, 24시간). 단축번호가 연결되지 않으면 092-471-0099"
+      "text": "#7119 —— 突发急病、不确定是否需叫救护车时的救急相谈（福冈县 24 小时） — 갑자기 아파서 구급차를 불러야 할지 판단이 서지 않을 때의 응급 전화 상담(후쿠오카현, 24시간). 단축번호가 연결되지 않으면 092-471-0099"
      },
      {
       "text": "#8000(어린이) — 아이의 야간 응급 질환 상담. 단축번호가 연결되지 않으면 092-731-4119"
@@ -2223,7 +2223,7 @@ window.ARTICLES_BODY_I18N = {
     "rows": [
      [
       "D1 / D2 / D3",
-      "センターゾーン入口 / ビッグオレンジ / 中央図書館",
+      "センターゾーン入口等 3 处",
       "多め"
      ],
      [
@@ -3606,7 +3606,7 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "num": "3",
-      "text": "急な体調不良で、救急車を呼ぶべきか判断できないとき —— #7119（短縮番号がつながらなければ 092-471-0099）"
+      "text": "急な体調不良で、救急車を呼ぶべきか判断できないとき —— #7119 —— 突发急病、不确定是否需叫救护车时的救急相谈（福冈县 24 小时）（短縮番号がつながらなければ 092-471-0099）"
      },
      {
       "num": "4",
@@ -3864,7 +3864,7 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "num": "3",
-      "text": "Sudden illness and you are not sure whether to call an ambulance — #7119 (if the short number does not connect, dial 092-471-0099)"
+      "text": "Sudden illness and you are not sure whether to call an ambulance — #7119 —— 突发急病、不确定是否需叫救护车时的救急相谈（福冈县 24 小时） (if the short number does not connect, dial 092-471-0099)"
      },
      {
       "num": "4",
@@ -4122,7 +4122,7 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "num": "3",
-      "text": "갑작스러운 몸 상태 악화로 구급차를 불러야 할지 판단이 서지 않을 때 —— #7119(단축번호가 안 되면 092-471-0099)"
+      "text": "갑작스러운 몸 상태 악화로 구급차를 불러야 할지 판단이 서지 않을 때 —— #7119 —— 突发急病、不确定是否需叫救护车时的救急相谈（福冈县 24 小时）(단축번호가 안 되면 092-471-0099)"
      },
      {
       "num": "4",

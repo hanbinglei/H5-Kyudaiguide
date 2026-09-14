@@ -35,6 +35,20 @@ def flat(blocks, out=None):
 
 def chars(s):
     return len(str(s or ""))
+def eff_len(text):
+    """可见长度：排除 URL / 邮箱 / 电话号码。
+
+    这类串是不可缩短的单一 token —— 读者需要完整字符，
+    它们占字数并不代表信息密度高（例：「咨询：xxx@kyushu-u.ac.jp / 092-802-2228」）。
+    """
+    t = str(text or "")
+    t = re.sub(r"https?://\S+", "", t)
+    t = re.sub(r"[\w.+-]+@[\w.-]+\.\w+", "", t)
+    t = re.sub(r"\+?\d[\d\-()]{7,}\d", "", t)
+    t = re.sub(r"#\d{3,4}", "", t)
+    return len(re.sub(r"\s+", "", t))
+
+
 def is_datetime(cell):
     """纯日期/时刻单元格不受字数限制：其长度由格式决定，缩短必然丢信息。
     例：9/24(木) 15:00-15:30、2026-12-02、9:00~17:15。"""
@@ -77,8 +91,8 @@ def audit(path):
             for ci, cell in enumerate(row):
                 if ci == 0 or is_datetime(cell):
                     continue              # 第 1 列是专有名词（另有较宽上限）；纯日期/时刻单元格不受字数限制
-                if chars(cell) > LIM["cell_chars"]:
-                    over.append((chars(cell), ri, ci, str(cell)))
+                if eff_len(cell) > LIM["cell_chars"]:
+                    over.append((eff_len(cell), ri, ci, str(cell)))
         if over:
             over.sort(reverse=True)
             worst = over[0]
@@ -95,10 +109,12 @@ def audit(path):
 
     # 4) 列表单项
     for b in flatb:
-        over = [(chars(it.get("text") if isinstance(it, dict) else it),
-                 str(it.get("text") if isinstance(it, dict) else it))
-                for it in (b.get("items") or [])]
-        over = [o for o in over if o[0] > LIM["list_item_chars"]]
+        over = []
+        for it in (b.get("items") or []):
+            t = str(it.get("text") if isinstance(it, dict) else it)
+            e = eff_len(t)
+            if e > LIM["list_item_chars"]:
+                over.append((e, t))
         if over:
             over.sort(reverse=True)
             v.append(("🟡", f"列表 {b['id']}: {len(over)} 项 > {LIM['list_item_chars']} 字"
