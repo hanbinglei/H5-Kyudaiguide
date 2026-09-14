@@ -152,7 +152,8 @@
   /** 收集「可展示的原文片段」（未归一化），用于结果卡片的命中上下文 */
   function collectSnips(blocks, lang, out) {
     const put = txt => {
-      const t = String(txt == null ? '' : txt).replace(/\s+/g, ' ').trim();
+      // 去掉 markdown 标记：片段是纯文本展示，留着 ** 会在结果卡里原样出现
+      const t = String(txt == null ? '' : txt).replace(/\*\*/g, '').replace(/\s+/g, ' ').trim();
       if (t.length >= 6) out.push({ lang, t: t.slice(0, 96), n: norm(t) });
     };
     const walk = b => {
@@ -206,7 +207,7 @@
         for (const id in m) {
           const v = m[id]; if (!v) continue;
           const put = txt => {
-            const t = String(txt == null ? '' : txt).replace(/\s+/g, ' ').trim();
+            const t = String(txt == null ? '' : txt).replace(/\*\*/g, '').replace(/\s+/g, ' ').trim();
             if (t.length >= 6) f._snips.push({ lang: l, t: t.slice(0, 96), n: norm(t) });
           };
           if (v.text) put(v.text);
