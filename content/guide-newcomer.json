@@ -751,7 +751,7 @@
       "id": "d966c7",
       "type": "links",
       "kind": "web",
-      "links": [
+      "items": [
         {
           "label": "伊都诊所",
           "desc": "校内诊所官网",
@@ -818,7 +818,7 @@
       "id": "8b5893",
       "type": "links",
       "kind": "web",
-      "links": [
+      "items": [
         {
           "label": "个人使用药品携入日本",
           "desc": "厚生劳动省：海外携入医药品的限制说明",
@@ -873,7 +873,7 @@
       "id": "0e969c",
       "type": "links",
       "kind": "web",
-      "links": [
+      "items": [
         {
           "label": "抵日后的日常咨询",
           "desc": "LINE 官方账号",

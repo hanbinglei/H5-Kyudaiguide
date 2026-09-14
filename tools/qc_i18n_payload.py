@@ -89,13 +89,21 @@ def main():
             for s, t in zip(ts, tt):
                 # ① 数字
                 sn, tn = sorted(NUM.findall(norm_for_nums(s))), sorted(NUM.findall(norm_for_nums(t)))
-                if sn != tn:
-                    issues["数字不一致"].append("%s/%s：源 %s ≠ 译 %s  ←「%s」" % (L, bid, sn, tn, s[:34]))
+                # 只查「源文的数字是否在译文中消失」——译文多加数字是正常的：
+                # 日文习惯把「一日乗車券」写成「1日乗車券」，韩文把「／年」写成「／1년」，
+                # 都是正确的本地化，不是错误。
+                lost = [x for x in sn if x not in tn]
+                if lost:
+                    issues["数字不一致"].append("%s/%s：源文数字 %s 在译文中缺失（译 %s）←「%s」"
+                                                 % (L, bid, lost, tn, s[:34]))
                 # ② 中文泄漏（en/ko 出现简体专用字；ja 只查明显非日语的字形差异不判）
                 if L in ("en", "ko"):
                     bad = sorted(set(HAN.findall(t)) & simplified)
                     if bad:
                         issues["中文泄漏"].append("%s/%s：%s ←「%s」" % (L, bid, "".join(bad), t[:44]))
+                # ③b 占位符顶替：源文有内容，译文却写成 — / – / -
+                if re.fullmatch(r"[\s—–—－\-ー~〜]+", t or "") and not re.fullmatch(r"[\s—–—－\-ー~〜]+", s or "") and s.strip():
+                    issues["未翻译"].append("%s/%s：源文「%s」被译文用占位符「%s」顶替" % (L, bid, s[:30], t.strip()))
                 # ③ 未翻译
                 # 纯日本专有名词（无中文特有字形）保留原文属正确做法，不报
                 KANA_OK = bool(re.search(r"[\u3040-\u30ff]", s)) and not re.search(

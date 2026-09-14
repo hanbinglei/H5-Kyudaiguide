@@ -102,8 +102,21 @@ def walk_localize(bs, lang):
         if b.get("blocks"): walk_localize(b["blocks"])
 
 
+PLACEHOLDER = re.compile(r"^[\s—–—－\-ー~〜]+$")
+
+
 def is_blank(x):
-    return x is None or (isinstance(x, str) and not x.strip())
+    """空值判定。除了真正的空串，也把「占位破折号」视为空 ——
+    提取器跳过的单元格（纯数字/日期）译者不知道该填什么，会写 `—`；
+    若不视为空，归一化就不会回填，数据就静默丢了（实测日文表的距离就是这么丢的）。
+    注意：只有当**源值本身不是破折号**时才回填，所以「不适用 = —」的正当取值不受影响。
+    """
+    if x is None:
+        return True
+    if not isinstance(x, str):
+        return False
+    t = x.strip()
+    return t == "" or bool(PLACEHOLDER.match(t))
 
 
 def main():

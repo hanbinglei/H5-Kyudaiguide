@@ -56,9 +56,13 @@ const check = { window: {} };
 new vm.Script(fs.readFileSync(TARGET, 'utf8')).runInNewContext(check);
 const got = check.window.ARTICLES_BODY_I18N[articleId];
 // 增量合并后条目数只会变多，所以验证的是「payload 里的块是否都在」而不是总数相等
-const ok = got && ['ja', 'en', 'ko'].every(l =>
-  got[l] && Object.keys(payload[l]).every(k => got[l][k] !== undefined));
+// 只验证 payload 里**实际提供了**的语言 —— 译文可分批交付（先 ja+ko、再 en），
+// 早先这里写死三种语言齐全，分批交付时会因 payload.en 不存在而崩（文件已写入但退出码 1）
+const LANGS = ['ja', 'en', 'ko'].filter(l => payload[l] && typeof payload[l] === 'object');
+const ok = got && LANGS.length > 0 &&
+  LANGS.every(l => got[l] && Object.keys(payload[l]).every(k => got[l][k] !== undefined));
 const total = l => (got && got[l] ? Object.keys(got[l]).length : 0);
-console.log(`merged ${articleId}${MERGE ? ' (merge)' : ''}: payload ja=${Object.keys(payload.ja).length} en=${Object.keys(payload.en).length} ko=${Object.keys(payload.ko).length}`
+const cnt = l => (payload[l] ? Object.keys(payload[l]).length : 0);
+console.log(`merged ${articleId}${MERGE ? ' (merge)' : ''}: payload ja=${cnt('ja')} en=${cnt('en')} ko=${cnt('ko')}`
   + ` | 合并后该篇 ja=${total('ja')} en=${total('en')} ko=${total('ko')} | 回读验证=${ok ? 'OK' : '失败'}`);
 process.exit(ok ? 0 : 1);
