@@ -70,7 +70,7 @@ function initLang(){
   if(!sel||!I18N)return;
   sel.innerHTML=I18N.LANGS.map(k=>`<option value="${k}"${k===I18N.getLang()?' selected':''}>${(I18N.UI[k]||{}).self||k}</option>`).join('');
   sel.addEventListener('change',()=>{
-      I18N.setLang(sel.value);applyI18N();HAY.clear();
+      I18N.setLang(sel.value);applyI18N();searchRebuild();
       // 记住滚动位置：正文重建后 restore，切换语言不该把人踢回页首
       const scY=window.scrollY||document.documentElement.scrollTop||0;
       // 先按现有内容渲染（中文兜底），译文包到了再重排一次 —— 切语言不等下载
@@ -198,7 +198,7 @@ function ensureBodyI18N(cb){
   trState='loading';
   const flush=ok=>{
     trState=ok?'ready':'failed';
-    HAY.clear();                    // 译文到位后搜索索引要重建，否则搜不到译文正文
+    searchRebuild();                    // 译文到位后搜索索引要重建，否则搜不到译文正文
     trWaiters.splice(0).forEach(f=>{try{f()}catch(e){}});
   };
   const s=document.createElement('script');
@@ -344,68 +344,80 @@ function toast(msg){
   clearTimeout(el._tm);el._tm=setTimeout(()=>el.classList.remove('show'),1800);
 }
 
-// ── search（正文 + 各语言标题/摘要一起进干草堆） ──
-/* 搜索索引。
-   ⚠️ 原来只取 b.text，于是住在 list 条目、fee_table 表格里的内容整篇搜不到 ——
-   实测「脱退一时金」「092-286-9595」都是 0 结果，而这两条恰恰最该被搜到：
-   一个过期就真的拿不回钱，一个是就医语言不通时打的号。现在逐字段摊平。
-   译文正文只在译文包已经到位时并入（见 ensureBodyI18N）—— 没到位就先只索引中文，
-   到位后 HAY.clear() 会让它自然重建，不必为此阻塞搜索。
-   缓存的理由：这东西原本每敲一个字都要为 14 篇重建一次约 2.5 万字的字符串。 */
-const HAY=new Map();
-function searchHay(a){
-  const lang=I18N.getLang();
-  const key=a._id+'@'+lang+(window.ARTICLES_BODY_I18N?'+tr':'');
-  const cached=HAY.get(key);
-  if(cached!==undefined)return cached;
-
-  const acc=[a.title||'',a.summary||'',(a.tags||[]).join(' ')];
-  const i=window.ARTICLES_I18N&&window.ARTICLES_I18N[a._id];
-  if(i){acc.push(...Object.values(i.title||{}),...Object.values(i.summary||{}))}
-  const walk=b=>{
-    if(b.text)acc.push(b.text);
-    (b.items||[]).forEach(it=>['text','title','desc'].forEach(k=>{if(it[k])acc.push(it[k])}));
-    (b.headers||[]).forEach(h=>acc.push(h));
-    (b.rows||[]).forEach(r=>acc.push(r.join(' ')));
-    (b.blocks||[]).forEach(walk);
-  };
-  (a.blocks||[]).forEach(walk);
-  // 当前语言的正文译文：不并进来的话，读日文的人搜日文正文永远是 0 条
-  const tm=trMap(a);
-  if(tm)for(const id in tm){
-    const v=tm[id];
-    if(v&&v.text)acc.push(v.text);
-    (v&&v.items||[]).forEach(it=>['text','title','desc'].forEach(k=>{if(it[k])acc.push(it[k])}));
-    (v&&v.headers||[]).forEach(h=>acc.push(h));
-    (v&&v.rows||[]).forEach(r=>acc.push(r.join(' ')));
+// ── search（索引与排序在 guide/js/search.js） ──
+/* 旧实现是 `haystack.includes(整串查询)`：实测 recall@1 只有 29%，
+   「银行 开户」「手机 套餐」这类多词查询恒为 0 结果，搜「手机」时手机那篇只排第 4
+   （前面是入境/在留/银行 —— 正文里顺带提过手机而已）。
+   基准：node tools/bench_search.js（35 条真实查询的 recall@1/@3）—— 改搜索前先跑它。
+   这里只负责接界面：渲染成「标题(高亮) + 命中上下文 + 分类」。
+   译文包到位后 searchRebuild() 重建索引，否则读日文的人搜日文正文搜不到。 */
+const SUGGEST=['手机','银行','打工','医院','垃圾分类','地震'];
+let runSearch=()=>{};
+function searchReady(){return !!(window.GuideSearch&&ARTICLES.length)}
+function searchRebuild(){
+  if(searchReady())GuideSearch.build(ARTICLES,{nav:window.ARTICLES_I18N||{},body:window.ARTICLES_BODY_I18N||{},langs:['zh','ja','en','ko']});
+}
+/** 关键词高亮：在原文上逐字扫，避开正则转义问题与 <mark> 套娃 */
+function hl(text,q){
+  const s=String(text==null?'':text);
+  const terms=String(q||'').trim().split(/\s+/).filter(Boolean).map(x=>x.toLowerCase()).sort((a,b)=>b.length-a.length);
+  if(!terms.length)return esc(s);
+  const low=s.toLowerCase();let out='',i=0;
+  while(i<s.length){
+    let hit=null;
+    for(const term of terms)if(low.startsWith(term,i)){hit=term;break}
+    if(hit){out+='<mark>'+esc(s.slice(i,i+hit.length))+'</mark>';i+=hit.length}
+    else{out+=esc(s[i]);i++}
   }
-
-  const s=acc.join(' ').toLowerCase();
-  HAY.set(key,s);
-  return s;
+  return out;
 }
 function initSearch(){
   const inp=$('searchInput'),clear=$('searchClear');if(!inp)return;
   function uc(){clear.classList.toggle('show',!!inp.value)}
-  inp.addEventListener('input',()=>{
+  function run(){
     const q=inp.value.trim();uc();
-    if(q){showSearchResults(ARTICLES.filter(a=>searchHay(a).includes(q.toLowerCase())),q)}
-    else renderGrid();
-  });
+    if(!q){renderGrid();return}
+    let list;
+    if(searchReady()){
+      list=GuideSearch.query(q,{lang:I18N.getLang(),limit:40})
+        .map(h=>({a:ARTICLES.find(x=>x._id===h.id),snip:h.snip}))
+        .filter(x=>x.a);
+    }else{                       // search.js 未加载时的兜底，至少别把整页搞崩
+      const n=q.toLowerCase();
+      list=ARTICLES.filter(a=>((a.title||'')+(a.summary||'')).toLowerCase().includes(n)).map(a=>({a,snip:''}));
+    }
+    showSearchResults(list,q);
+  }
+  runSearch=run;
+  let tm=0;
+  inp.addEventListener('input',()=>{uc();clearTimeout(tm);tm=setTimeout(run,140)});   // 防抖：别每敲一个字就重排一次
   clear.addEventListener('click',()=>{inp.value='';uc();renderGrid();inp.focus()});
 }
 function showSearchResults(list,q){
   $('pinnedCards').style.display='none';
   $('catGridWrap').style.display='none';
   $('catListWrap').style.display='';
-  $('catListHead').textContent=t('searchLabel')+' — '+q;
+  $('catListHead').textContent=t('searchLabel')+' — '+q+(list.length?' · '+t('searchCount').replace('%n%',list.length):'');
   $('catBack').textContent=t('backGrid');
   $('catBack').onclick=()=>{$('searchInput').value='';renderGrid()};
-  if(!list.length){$('catListArticles').innerHTML=`<div class="empty">${esc(t('noResults'))}</div>`;return}
-  $('catListArticles').innerHTML=list.map(a=>
-    `<article class="card-lite" data-id="${esc(a._id)}"><div class="t">${esc(I18N.articleField(a,'title'))}</div><div class="meta"><span class="tag">${esc(I18N.catName(a.category))}</span></div></article>`
-  ).join('');
-  $('catListArticles').querySelectorAll('.card-lite').forEach(el=>el.addEventListener('click',()=>navigate('article/'+encodeURIComponent(el.dataset.id))));
+  const box=$('catListArticles');
+  if(!list.length){              // 零结果不能只说「没有」——给可点的关键词，别让用户空手走
+    box.innerHTML='<div class="empty">'+esc(t('noResults'))+'</div>'
+      +'<div class="sug"><div class="sug-t">'+esc(t('searchHint'))+'</div><div class="sug-k">'
+      +SUGGEST.map(k=>'<button class="sug-b" data-q="'+esc(k)+'">'+esc(k)+'</button>').join('')
+      +'</div></div>';
+    box.querySelectorAll('.sug-b').forEach(b=>b.addEventListener('click',()=>{
+      $('searchInput').value=b.dataset.q;runSearch();$('searchInput').focus();
+    }));
+    return;
+  }
+  box.innerHTML=list.map(({a,snip})=>
+    '<article class="card-lite" data-id="'+esc(a._id)+'">'
+    +'<div class="t">'+hl(I18N.articleField(a,'title'),q)+'</div>'
+    +(snip?'<div class="sn">'+esc(snip)+'</div>':'')
+    +'<div class="meta"><span class="tag">'+esc(I18N.catName(a.category))+'</span></div>'
+    +'</article>').join('');
+  box.querySelectorAll('.card-lite').forEach(el=>el.addEventListener('click',()=>navigate('article/'+encodeURIComponent(el.dataset.id))));
 }
 
 // ── 村历 ──
@@ -602,7 +614,7 @@ function renderHistory(){
 
 // ── init ──
 function init(){
-  initLang();applyI18N();initSearch();renderGrid();initCunli();renderHistory();
+  initLang();applyI18N();searchRebuild();initSearch();renderGrid();initCunli();renderHistory();
   // 非中文时并行取正文译文包；不 await —— 首屏不该等它
   ensureBodyI18N(()=>{ if(currentHash().startsWith('article/'))onHashChange(); });
   document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>navigate(b.dataset.tab)));

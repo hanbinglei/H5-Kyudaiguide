@@ -523,3 +523,14 @@ details[open]>summary{color:var(--brand)}
   .link-card:hover{background:#e8faee;border-color:#a5d8b4}
   .card-lite:hover{border-color:#e0c2ca;box-shadow:0 4px 14px rgba(123,45,62,.06)}
 }
+
+/* ── 搜索结果（guide/js/search.js）：命中上下文 + 关键词高亮 + 零结果建议词 ── */
+.card-lite .sn{font-size:12.5px;color:var(--muted);margin-top:6px;line-height:1.6;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+mark{background:rgba(123,45,62,.10);color:inherit;border-radius:3px;padding:0 2px;font-weight:700}
+.sug{margin-top:2px;padding:0 4px}
+.sug-t{font-size:12.5px;color:var(--muted2);margin-bottom:10px}
+.sug-k{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.sug-b{border:1px solid var(--line);background:#fff;color:var(--brand);border-radius:999px;
+  padding:7px 14px;font-size:13px;cursor:pointer;transition:border-color .12s}
+.sug-b:active{border-color:#e8cbd2}
