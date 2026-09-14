@@ -187,15 +187,25 @@ function renderGrid(){
     return `<div class="cat-cell"><button class="cat-card${empty?' cat-empty':''}" data-cat="${c.id}"><div class="cat-icon">${c.icon}</div><div class="cat-name">${esc(I18N.catName(c.id))}</div></button></div>`;
   }).join('');
   grid.querySelectorAll('.cat-card').forEach(btn=>btn.addEventListener('click',()=>showCategory(btn.dataset.cat)));
-  $('catListWrap').style.display='none';
-  $('catGridWrap').style.display='';
+  guideView('grid');
+}
+
+/* 指南页有两个视图：宫格（含新生专区 + 置顶卡）与列表（搜索结果 / 空分类提示）。
+   三个区块必须一起管 —— 曾经漏掉 #nzWrap，于是搜索时新生专区仍占满整屏，
+   把搜索结果顶到屏幕下方，看起来像「搜索没反应」（2026-09-15 用户反馈）。
+   置顶卡不在这里恢复：它的 display 是 grid（不是 block），由 renderGrid() 自己设。 */
+function guideView(v){
+  const set=(id,show)=>{const e=$(id);if(e)e.style.display=show?'':'none'};
+  set('nzWrap', v==='grid');
+  set('catGridWrap', v==='grid');
+  set('catListWrap', v==='list');
+  if(v!=='grid')set('pinnedCards',false);
 }
 
 function showCategory(catId){
   const art=CAT_ART[catId];
   if(!art){
-    $('catGridWrap').style.display='none';
-    $('catListWrap').style.display='';
+    guideView('list');
     $('catListHead').textContent=I18N.catName(catId);
     $('catBack').textContent=t('backGrid');
     $('catBack').onclick=()=>{renderGrid()};
@@ -476,9 +486,9 @@ function initSearch(){
   clear.addEventListener('click',()=>{inp.value='';uc();renderGrid();inp.focus()});
 }
 function showSearchResults(list,q){
-  $('pinnedCards').style.display='none';
-  $('catGridWrap').style.display='none';
-  $('catListWrap').style.display='';
+  guideView('list');
+  // 结果必须落在第一屏：页面可能停在新生专区中段，不滚回顶部就等于看不到结果
+  try{window.scrollTo(0,0)}catch(e){}
   $('catListHead').textContent=t('searchLabel')+' — '+q+(list.length?' · '+t('searchCount').replace('%n%',list.length):'');
   $('catBack').textContent=t('backGrid');
   $('catBack').onclick=()=>{$('searchInput').value='';renderGrid()};
