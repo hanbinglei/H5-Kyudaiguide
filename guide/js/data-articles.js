@@ -1,7 +1,7 @@
 // data-articles.js — 12 篇主指南（cat 1–12）+ 置顶反诈（cat 13）
 // 由 tools/build_guide_articles.js 从 content/ 生成，勿手改。
 // **要改内容请改 content/<article>.json**，然后重跑构建。
-// 共 17 篇 · 671 块
+// 共 17 篇 · 682 块
 //
 // ⚠️ 这里不写生成日期。CI 的做法是「重跑构建 → git diff 必须为空」，
 //    用来抓「改了 content/ 却忘了重跑」。而日期戳会让产物每天都不一样，
@@ -578,6 +578,11 @@ window.ARTICLES = [
   "updatedAt": "2026-08-15",
   "blocks": [
    {
+    "id": "8988f9",
+    "type": "paragraph",
+    "text": "住所登录是所有手续的开关 —— **没它开不了银行账户、办不了手机**。这篇先分清「区役所 vs 入管局」，再走住所登录、在留更新、My Number、健康保险。"
+   },
+   {
     "id": "cc395e",
     "type": "heading",
     "text": "先分清：区役所 vs 入管局"
@@ -1047,6 +1052,11 @@ window.ARTICLES = [
   "author": "管理员",
   "updatedAt": "2026-08-15",
   "blocks": [
+   {
+    "id": "67f6a8",
+    "type": "paragraph",
+    "text": "校内宿舍和市区租房是两条路，**先看宿舍** —— 便宜、手续简单、不用保证人。这篇讲怎么选、初期要花多少、合同里该看什么。"
+   },
    {
     "id": "59e679",
     "type": "heading",
@@ -1547,6 +1557,11 @@ window.ARTICLES = [
   "updatedAt": "2026-08-15",
   "blocks": [
    {
+    "id": "a43466",
+    "type": "paragraph",
+    "text": "开户、交房租学费、办信用卡、汇款回国 —— 这篇按你实际会遇到的顺序讲。**先读「去银行前」那节**，印章和营业时间是最常栽的两点。"
+   },
+   {
     "id": "9fb1a4",
     "type": "heading",
     "text": "去银行前：印章·orientation·营业时间"
@@ -1725,6 +1740,11 @@ window.ARTICLES = [
   "author": "管理员",
   "updatedAt": "2026-08-15",
   "blocks": [
+   {
+    "id": "a3ea1a",
+    "type": "paragraph",
+    "text": "到日本第一件事是能上网。**先买临时上网卡过渡**，落地后再选正式套餐 —— 这篇比较三大运营商与格安 SIM，以及解约要注意什么。"
+   },
    {
     "id": "72f94d",
     "type": "heading",
@@ -2492,6 +2512,11 @@ window.ARTICLES = [
   "updatedAt": "2026-08-15",
   "blocks": [
    {
+    "id": "1947e3",
+    "type": "paragraph",
+    "text": "打工要先过两道手续：**资格外活动许可**（没有它不能打工）和税・年金。这篇讲能打多久、怎么找、被拖欠工资怎么办。"
+   },
+   {
     "id": "5e12c4",
     "level": 2,
     "text": "资格外活动许可与工时上限",
@@ -2580,6 +2605,11 @@ window.ARTICLES = [
   "author": "管理员",
   "updatedAt": "2026-08-15",
   "blocks": [
+   {
+    "id": "50e4ae",
+    "type": "paragraph",
+    "text": "在日本看病**先确认三件事**：有没有国民健康保险、去哪家医院、能不能用中文。这篇把保险、学研災、ESP 与中文医疗热线串成一条线。"
+   },
    {
     "id": "a955e0",
     "type": "heading",
@@ -2800,6 +2830,11 @@ window.ARTICLES = [
   "author": "管理员",
   "updatedAt": "2026-08-15",
   "blocks": [
+   {
+    "id": "d182c2",
+    "type": "paragraph",
+    "text": "从宿舍到学校、去天神博多、买自行车、考驾照 —— **先算清自己每天走哪条线**，再决定买什么票。这篇把票价、定期券、折扣券与省钱方案摆在一起比较。"
+   },
    {
     "id": "397485",
     "type": "heading",
@@ -3436,6 +3471,11 @@ window.ARTICLES = [
   "updatedAt": "2026-08-15",
   "blocks": [
    {
+    "id": "9d0f73",
+    "type": "paragraph",
+    "text": "垃圾分类、天气、邮筒、食堂、生协 —— 这些没人专门教你，但每天都要用。按需要挑着看就行。"
+   },
+   {
     "id": "c6f3dd",
     "level": 2,
     "text": "福冈天气",
@@ -3788,6 +3828,11 @@ window.ARTICLES = [
   "author": "管理员",
   "updatedAt": "2026-08-15",
   "blocks": [
+   {
+    "id": "01aac7",
+    "type": "paragraph",
+    "text": "日常购物去哪、怎么省钱、**哪些坑要避**（二手平台、代购、分期合约）。按需要挑着看。"
+   },
    {
     "id": "3082ec",
     "type": "heading",
@@ -4423,6 +4468,11 @@ window.ARTICLES = [
   "pinOrder": 10,
   "blocks": [
    {
+    "id": "aa3847",
+    "type": "paragraph",
+    "text": "这篇只做一件事：让你遇到可疑情况时**知道该怎么办**。先记两条 —— 不转账、不透露个人信息；出事立刻打文末第一个电话。"
+   },
+   {
     "id": "52ec55",
     "type": "notice",
     "text": "⚠️ 留学新手请务必先读完本篇：诈骗团伙套路精密，高学历人群也可能中招。牢记“遇事不慌、坚决不信、要钱不给”，可避开绝大多数骗局。"
@@ -4715,6 +4765,11 @@ window.ARTICLES = [
   "isPinned": true,
   "pinOrder": 5,
   "blocks": [
+   {
+    "id": "83b134",
+    "type": "paragraph",
+    "text": "2026 年秋入学者的全部支持信息：机场接驳、宿舍入住、Wi-Fi、行政手续、オリエンテーション、银行开户会、ESP。**先看日程总览**，再按需要展开。"
+   },
    {
     "id": "9c1a2e",
     "type": "notice",

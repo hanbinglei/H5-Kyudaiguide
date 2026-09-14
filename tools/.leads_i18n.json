@@ -1,0 +1,123 @@
+{
+ "guide-antifraud": {
+  "ja": {
+   "text": "このページの目的は 1 つ：怪しいと思ったときに**どう動くか**が分かること。まず 2 つだけ覚えてください —— 送金しない、個人情報を渡さない。困ったら末尾の最初の電話へ。"
+  },
+  "en": {
+   "text": "This page does one thing: make sure you **know what to do** when something looks suspicious. Remember two rules first - never transfer money, never hand over personal details; if it happens, call the first number at the end."
+  },
+  "ko": {
+   "text": "이 페이지의 목적은 하나입니다: 수상하다고 느낄 때 **어떻게 해야 하는지** 아는 것. 우선 두 가지만 기억하세요 —— 송금하지 않기, 개인정보 넘기지 않기. 문제가 생기면 마지막의 첫 번째 전화번호로."
+  }
+ },
+ "guide-bank": {
+  "ja": {
+   "text": "口座開設・家賃や学費の支払い・クレジットカード・海外送金 —— 実際に遭遇する順に並べました。**まず「銀行に行く前に」を読んで**ください。印鑑と営業時間が最もよく引っかかる 2 点です。"
+  },
+  "en": {
+   "text": "Opening an account, paying rent and tuition, credit cards, sending money home - in the order you will actually meet them. **Read \"Before you go to the bank\" first**: the seal and the opening hours are the two most common traps."
+  },
+  "ko": {
+   "text": "계좌 개설, 월세·학비 납부, 신용카드, 해외 송금 —— 실제로 마주치는 순서대로 정리했습니다. **먼저 「은행에 가기 전에」를 읽으세요.** 도장과 영업시간이 가장 자주 걸리는 두 가지입니다."
+  }
+ },
+ "guide-housing": {
+  "ja": {
+   "text": "学内寮と民間賃貸は別ルートです。**まず寮を検討してください** —— 安く、手続きが簡単で、保証人も不要。このページでは選び方、初期費用、契約で確認すべき点を扱います。"
+  },
+  "en": {
+   "text": "Dormitories and private rentals are two different routes - **check the dorms first**: cheaper, simpler paperwork, no guarantor. This page covers how to choose, upfront costs, and what to check in the contract."
+  },
+  "ko": {
+   "text": "교내 기숙사와 민간 임대는 다른 경로입니다. **먼저 기숙사를 보세요** —— 저렴하고 절차가 간단하며 보증인도 불필요. 이 페이지는 선택 방법, 초기 비용, 계약서에서 확인할 점을 다룹니다."
+  }
+ },
+ "guide-life": {
+  "ja": {
+   "text": "ゴミ分別・天気・ポスト・食堂・生協 —— 誰も教えてくれませんが毎日使うものです。必要なところだけ拾い読みしてください。"
+  },
+  "en": {
+   "text": "Waste sorting, weather, post boxes, canteens, the co-op - nobody teaches these, but you use them daily. Pick the sections you need."
+  },
+  "ko": {
+   "text": "쓰레기 분리배출, 날씨, 우체통, 식당, 생협 —— 아무도 가르쳐주지 않지만 매일 쓰는 것들입니다. 필요한 부분만 골라 보세요."
+  }
+ },
+ "guide-medical": {
+  "ja": {
+   "text": "日本で受診する前に**3 つ確認**してください：国民健康保険に入っているか、どの病院に行くか、中国語が通じるか。保険・学研災・ESP・多言語医療相談を一本につなげたページです。"
+  },
+  "en": {
+   "text": "Before seeing a doctor in Japan, **confirm three things**: are you covered by national health insurance, which hospital to go to, and whether Chinese is supported. This page links insurance, Gakkensai, ESP and the multilingual medical hotline."
+  },
+  "ko": {
+   "text": "일본에서 진료를 받기 전 **세 가지를 확인**하세요: 국민건강보험 가입 여부, 어느 병원에 갈지, 중국어가 통하는지. 보험·학켄사이·ESP·다국어 의료 상담을 한 줄로 연결했습니다."
+  }
+ },
+ "guide-newcomer": {
+  "ja": {
+   "text": "2026 年秋入学者向けの支援情報をまとめました：空港シャトル、寮の入居、Wi-Fi、行政手続き、オリエンテーション、口座開設会、ESP。**まず日程総覧**を見て、必要な項目を開いてください。"
+  },
+  "en": {
+   "text": "Everything for autumn 2026 entrants: airport shuttle, dormitory check-in, Wi-Fi, administrative procedures, orientation, the bank account session, ESP. **Start with the schedule overview**, then open what you need."
+  },
+  "ko": {
+   "text": "2026년 가을 입학자 지원 정보 총정리: 공항 셔틀, 기숙사 입주, Wi-Fi, 행정 수속, 오리엔테이션, 계좌 개설회, ESP. **먼저 일정 개요**를 보고 필요한 항목을 펼치세요."
+  }
+ },
+ "guide-parttime": {
+  "ja": {
+   "text": "アルバイトには 2 つの手続きが必要です：**資格外活動許可**（これがないと働けません）と税・年金。働ける時間、探し方、賃金未払い時の対処を扱います。"
+  },
+  "en": {
+   "text": "Part-time work needs two steps first: the **permission to engage in activity other than that permitted** (without it you cannot work) and tax/pension. This page covers hour limits, how to find work, and unpaid wages."
+  },
+  "ko": {
+   "text": "아르바이트에는 두 가지 수속이 필요합니다: **자격외활동 허가**(없으면 일할 수 없음)와 세금·연금. 근무 시간 한도, 구하는 방법, 임금 체불 대처를 다룹니다."
+  }
+ },
+ "guide-phone": {
+  "ja": {
+   "text": "来日して最初に必要なのは通信です。**まず一時的な SIM でつなぎ**、落ち着いてから本契約を —— 大手 3 社と格安 SIM の違い、解約時の注意を扱います。"
+  },
+  "en": {
+   "text": "The first thing you need in Japan is connectivity. **Get a temporary SIM first**, then choose a proper plan once you have settled - this page compares the big three with budget SIMs and covers cancellation."
+  },
+  "ko": {
+   "text": "일본에서 가장 먼저 필요한 것은 통신입니다. **임시 SIM으로 연결한 뒤** 안정되면 정식 요금제를 —— 대형 3사와 알뜰 SIM의 차이, 해지 시 주의점을 다룹니다."
+  }
+ },
+ "guide-residence": {
+  "ja": {
+   "text": "住居登録がすべての起点です —— **これがないと口座も携帯も作れません**。まず「区役所 vs 入管局」を切り分け、住居登録・在留更新・マイナンバー・健康保険と進みます。"
+  },
+  "en": {
+   "text": "Registering your address unlocks everything else - **without it you cannot open a bank account or get a phone**. This page first separates ward office from immigration, then walks through address registration, visa renewal, My Number and health insurance."
+  },
+  "ko": {
+   "text": "주소 등록이 모든 수속의 시작입니다 —— **없으면 계좌도 휴대폰도 만들 수 없습니다**. 먼저 「구청 vs 출입국」을 구분하고, 주소 등록·재류 갱신·마이넘버·건강보험 순으로 진행합니다."
+  }
+ },
+ "guide-shopping": {
+  "ja": {
+   "text": "日々の買い物はどこで、どう節約するか、**どんな罠を避けるか**（フリマ、代行購入、分割契約）。必要なところだけ読んでください。"
+  },
+  "en": {
+   "text": "Where to shop day to day, how to save, and **which traps to avoid** (marketplace apps, proxy buying, instalment contracts). Read the parts you need."
+  },
+  "ko": {
+   "text": "일상 쇼핑은 어디서, 어떻게 아끼는지, **어떤 함정을 피할지**(중고 플랫폼, 대행 구매, 할부 계약). 필요한 부분만 보세요."
+  }
+ },
+ "guide-transport": {
+  "ja": {
+   "text": "寮から大学へ、天神・博多へ、自転車、免許 —— **まず毎日の経路を決めてから**切符を選んでください。運賃・定期券・割引きっぷ・節約案を並べて比較しています。"
+  },
+  "en": {
+   "text": "Dorm to campus, trips to Tenjin and Hakata, bicycles, driving licences - **work out your daily route first**, then decide which ticket to buy. Fares, commuter passes, discount tickets and money-saving options compared side by side."
+  },
+  "ko": {
+   "text": "기숙사에서 학교까지, 덴진·하카타, 자전거, 면허 —— **먼저 매일 다닐 경로를 정하고** 표를 고르세요. 운임·정기권·할인권·절약안을 나란히 비교했습니다."
+  }
+ }
+}

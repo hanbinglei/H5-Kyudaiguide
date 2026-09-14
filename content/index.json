@@ -10,61 +10,61 @@
     {
       "_id": "guide-residence",
       "category": "2",
-      "blocks": 64,
+      "blocks": 65,
       "file": "content/guide-residence.json"
     },
     {
       "_id": "guide-housing",
       "category": "3",
-      "blocks": 49,
+      "blocks": 50,
       "file": "content/guide-housing.json"
     },
     {
       "_id": "guide-bank",
       "category": "4",
-      "blocks": 29,
+      "blocks": 30,
       "file": "content/guide-bank.json"
     },
     {
       "_id": "guide-phone",
       "category": "5",
-      "blocks": 24,
+      "blocks": 25,
       "file": "content/guide-phone.json"
     },
     {
       "_id": "guide-academic",
       "category": "6",
-      "blocks": 65,
+      "blocks": 59,
       "file": "content/guide-academic.json"
     },
     {
       "_id": "guide-parttime",
       "category": "7",
-      "blocks": 9,
+      "blocks": 10,
       "file": "content/guide-parttime.json"
     },
     {
       "_id": "guide-medical",
       "category": "8",
-      "blocks": 23,
+      "blocks": 24,
       "file": "content/guide-medical.json"
     },
     {
       "_id": "guide-transport",
       "category": "9",
-      "blocks": 66,
+      "blocks": 67,
       "file": "content/guide-transport.json"
     },
     {
       "_id": "guide-life",
       "category": "10",
-      "blocks": 46,
+      "blocks": 47,
       "file": "content/guide-life.json"
     },
     {
       "_id": "guide-shopping",
       "category": "11",
-      "blocks": 39,
+      "blocks": 40,
       "file": "content/guide-shopping.json"
     },
     {
@@ -76,13 +76,13 @@
     {
       "_id": "guide-antifraud",
       "category": "13",
-      "blocks": 37,
+      "blocks": 38,
       "file": "content/guide-antifraud.json"
     },
     {
       "_id": "guide-newcomer",
       "category": "14",
-      "blocks": 42,
+      "blocks": 46,
       "file": "content/guide-newcomer.json"
     },
     {
@@ -94,7 +94,7 @@
     {
       "_id": "guide-scholarship",
       "category": "15",
-      "blocks": 28,
+      "blocks": 23,
       "file": "content/guide-scholarship.json"
     },
     {

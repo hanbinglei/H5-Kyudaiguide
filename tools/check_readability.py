@@ -59,15 +59,19 @@ def audit(path):
             v.append(("🔴", f"表 {b['id']}: {r} 行 > {LIM['table_rows']}（信息墙，应折叠或改为链接）"))
         if c > LIM["table_cols"]:
             v.append(("🟡", f"表 {b['id']}: {c} 列 > {LIM['table_cols']}（手机上会挤成一团）"))
-        mx = mxcell = ""
-        for row in b.get("rows") or []:
+        over = []
+        for ri, row in enumerate(b.get("rows") or []):
             for ci, cell in enumerate(row):
                 if ci == 0:
                     continue              # 第 1 列是专有名词（奖学金名/路径名），另有较宽上限
-                if chars(cell) > chars(mxcell):
-                    mxcell = cell
-        if chars(mxcell) > LIM["cell_chars"]:
-            v.append(("🟡", f"表 {b['id']}: 最长单元格 {chars(mxcell)} 字 > {LIM['cell_chars']} → 「{str(mxcell)[:34]}…」"))
+                if chars(cell) > LIM["cell_chars"]:
+                    over.append((chars(cell), ri, ci, str(cell)))
+        if over:
+            over.sort(reverse=True)
+            worst = over[0]
+            v.append(("🟡", f"表 {b['id']}: {len(over)} 个单元格 > {LIM['cell_chars']} 字"
+                            f"（最长 {worst[0]} 字，第 {worst[1]+1} 行第 {worst[2]+1} 列）"
+                            f" → 「{worst[3][:30]}…」"))
 
     # 3) 加粗密度
     for b in flatb:
@@ -78,11 +82,14 @@ def audit(path):
 
     # 4) 列表单项
     for b in flatb:
-        for it in (b.get("items") or []):
-            t = it.get("text") if isinstance(it, dict) else it
-            if chars(t) > LIM["list_item_chars"]:
-                v.append(("🟡", f"列表 {b['id']}: 单项 {chars(t)} 字 > {LIM['list_item_chars']} →「{str(t)[:30]}…」"))
-                break
+        over = [(chars(it.get("text") if isinstance(it, dict) else it),
+                 str(it.get("text") if isinstance(it, dict) else it))
+                for it in (b.get("items") or [])]
+        over = [o for o in over if o[0] > LIM["list_item_chars"]]
+        if over:
+            over.sort(reverse=True)
+            v.append(("🟡", f"列表 {b['id']}: {len(over)} 项 > {LIM['list_item_chars']} 字"
+                            f"（最长 {over[0][0]} 字）→「{over[0][1][:28]}…」"))
 
     # 5) 每个 heading 下的元素数
     cnt = 0
