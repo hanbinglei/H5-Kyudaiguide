@@ -579,6 +579,10 @@ mark{background:rgba(123,45,62,.10);color:inherit;border-radius:3px;padding:0 2p
 /* 实测：语言选择器 77×24、帮助按钮 28×28、关闭按钮 28×28 —— 均低于
    Apple HIG 44pt / Material 48dp 的下限，手指容易点偏。 */
 .sheet-close{width:32px;height:32px;display:inline-flex;align-items:center;justify-content:center}
+/* 基准值：鼠标用户也点得到（原先 24px / 28px 偏小），
+   触摸设备在 pointer:coarse 里再放大到 40px。 */
+.lang-switch{min-height:32px;padding:6px 10px}
+.tour-open{width:34px;height:34px;min-height:34px}
 @media(pointer:coarse){
   .lang-switch{min-height:40px;padding:8px 12px;font-size:13px}
   .tour-open{width:40px;height:40px;min-height:40px}
