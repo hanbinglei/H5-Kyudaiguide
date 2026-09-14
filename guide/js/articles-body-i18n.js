@@ -1383,12 +1383,394 @@ window.ARTICLES_BODY_I18N = {
   },
   "en": {
    "aa3847": {
-    "text": "Purpose of this page: knowing how to respond when something looks suspicious. Two rules first - do not transfer money, do not disclose personal information. If it happens, call the first number at the end."
+    "text": "Purpose of this article: to know how to respond when encountering a suspicious situation. Two primary rules - never transfer money, never disclose personal information; after an incident, immediately call the first number at the end of this article."
+   },
+   "52ec55": {
+    "text": "⚠️ New students should read this article in full first: fraud rings use sophisticated methods, and even highly educated people can be caught. Keeping in mind the principle \"stay calm, never believe, give no money when asked\" can avoid the vast majority of scams."
+   },
+   "094ae5": {
+    "text": "I. Common Types of Fraud"
+   },
+   "011c4f": {
+    "text": "1. Impersonating Embassies/Consulates or Police and Judicial Authorities (most frequent)"
+   },
+   "049994": {
+    "text": "Modus operandi: callers claim to be from the Chinese Embassy/Consulate, stating that important documents remain uncollected, that the passport is abnormal, or that an investigation is underway; the call is transferred to a \"domestic Public Security Bureau/Procuratorate\" claiming the victim is suspected of money laundering; victims are told to download encrypted apps such as Signal/Webex/Skype for a \"remote video interrogation\"; forged police IDs and official documents are displayed; victims are asked to pay \"bail\" or \"release-pending guarantee deposits,\" with threats of \"deportation/extradition if the victim does not cooperate.\""
+   },
+   "a49a0e": {
+    "text": "Recognition points: (1) Chinese embassies/consulates abroad never notify anyone by phone of involvement in a case; (2) domestic police and judicial authorities never handle cases across borders by phone/WeChat/QQ; (3) they never ask for transfers or downloads of communication apps; (4) caller numbers can be disguised with number spoofing, so a display of \"police\" is not trustworthy either."
+   },
+   "a1f761": {
+    "text": "2. Currency Exchange Fraud (common among international students)"
+   },
+   "72ad22": {
+    "text": "Modus operandi: WeChat group posts advertise \"low-rate exchange\" or \"urgently need yen\"; forged transfer screenshots are shown to demand payment first; the \"ABC scam\" - scammer A poses as selling RMB and scammer B as selling yen, luring the victim to transfer money to both before disappearing; the \"middleman\" role is used to defraud both sides."
+   },
+   "edaa9e": {
+    "text": "Recognition points: exchange currency only through official bank channels; treat any exchange offer from strangers in WeChat groups as suspicious; never pay first and receive later; exchange offers with \"especially good rates\" are almost always scams."
+   },
+   "3a818c": {
+    "text": "3. Impersonating the University/Professors"
+   },
+   "adabc1": {
+    "text": "Modus operandi: emails impersonating the university demand payment of \"tuition/registration fees\"; people impersonating professors ask others to buy gift cards or transfer money on their behalf; professor email addresses are spoofed through exploited vulnerabilities."
+   },
+   "b41808": {
+    "text": "Recognition points: the university never asks by email or phone for bank passwords or an immediate transfer; when a professor suddenly asks for a purchase, confirm in person or by phone with the professor directly; verify that the sender's email address is truly on the university domain."
+   },
+   "d246ca": {
+    "text": "4. SMS/Link Phishing"
+   },
+   "e1d74f": {
+    "text": "Modus operandi: text messages about \"rental deposits,\" \"ETC expiry,\" \"parcel held\" and similar include links that demand payment; senders impersonate couriers, the post office, or power companies."
+   },
+   "ffd258": {
+    "text": "Recognition points: any message that demands payment via a link is fraud; legitimate payment methods in Japan are convenience store payment, bank transfer (furikomi, 振込), and automatic account deduction; when unsure, call the official number first and do not click links."
+   },
+   "8eed64": {
+    "text": "5. Virtual Kidnapping"
+   },
+   "b25888": {
+    "text": "Modus operandi: scammers first isolate the international student from outside contact, then contact the family at home claiming the student has been kidnapped and demanding ransom, exploiting the information gap to extort money."
+   },
+   "a3c952": {
+    "text": "Recognition points: upon a call that \"the child has been kidnapped,\" immediately contact the Chinese embassy/consulate abroad to verify; any demand to \"not contact family\" is fraud."
+   },
+   "9f1d78": {
+    "text": "6. Click Farming/Part-Time Job Fraud"
+   },
+   "aa1237": {
+    "text": "Modus operandi: WhatsApp/WeChat groups recruit people into \"part-time job groups\" promising high pay and easy work; victims are asked to front the cost of goods or purchase products; small early payouts build trust, then a large sum is taken and the scammers disappear."
+   },
+   "2cd15e": {
+    "text": "Recognition points: any part-time job that asks for money first is a scam; the residence card (在留カード) lists the scope of permitted activities outside one's status, and ultra-high-paying \"jobs\" are not legitimate to begin with; leave unfamiliar WhatsApp groups immediately and report them."
+   },
+   "55891a": {
+    "text": "7. Convenience Store Gift Card Fraud"
+   },
+   "041a81": {
+    "text": "Modus operandi: callers impersonating police, embassies, or technicians claim the need to \"verify an account\" or \"lift a freeze,\" instructing victims to buy large-denomination gift cards at convenience stores (Vプリカ/Apple Gift Card, etc.) and disclose the card number and password."
+   },
+   "1449d2": {
+    "text": "Recognition points: no legitimate organization asks anyone to buy gift cards for verification or payment; convenience store staff sometimes warn customers, but cannot always stop the fraud."
+   },
+   "8eecc1": {
+    "text": "8. Door-to-Door Sales/Switching Power Companies"
+   },
+   "584b05": {
+    "text": "Modus operandi: people posing as power or internet company staff visit homes claiming that \"switching companies is cheaper,\" to obtain personal information or sign victims up for expensive plans."
+   },
+   "ccc44b": {
+    "text": "Recognition points: door-to-door offers are often not a real bargain; do not sign on the spot; say \"I don't need it\" and close the door; legitimate companies do not visit uninvited."
+   },
+   "3743ca": {
+    "text": "II. Core Anti-Fraud Principles"
+   },
+   "daa01e": {
+    "items": [
+     {
+      "title": "Stay calm, never believe, give no money when asked",
+      "desc": ""
+     },
+     {
+      "title": "Any call claiming to be from police or judicial authorities or an embassy that demands a transfer: hang up immediately",
+      "desc": ""
+     },
+     {
+      "title": "Any request to \"keep it confidential\" or \"not tell family/friends\" is certainly fraud",
+      "desc": ""
+     },
+     {
+      "title": "When unsure, verify by phone: call the consular protection number published on the embassy's official website, not the number the caller provides",
+      "desc": ""
+     }
+    ]
+   },
+   "0252c5": {
+    "text": "Daily prevention: do not answer unfamiliar calls actively, and hang up immediately if the call is recorded; if the caller claims to be from an embassy or the police, hang up and search the official website for the number to call back; do not reply to or privately message exchange offers in WeChat groups; do not click links in text messages; being asked to buy gift cards is 100% fraud - end the conversation immediately; email transfer requests from the university/professors should be confirmed in person or by phone; for door-to-door sales, do not open the door, or say \"not needed\" and close it."
+   },
+   "2f22d1": {
+    "text": "III. Daily Prevention Quick Reference"
+   },
+   "02de93": {
+    "headers": [
+     "Situation",
+     "Action"
+    ],
+    "rows": [
+     [
+      "Receiving an unfamiliar call",
+      "Do not answer; hang up immediately if recorded"
+     ],
+     [
+      "Caller claims to be from an embassy/police",
+      "Hang up, search the official website for the number, and call back to confirm"
+     ],
+     [
+      "A stranger adding on WeChat/WhatsApp",
+      "Refuse, or confirm the identity first"
+     ],
+     [
+      "Exchange offers in WeChat groups",
+      "Do not reply, do not message privately, ignore entirely"
+     ],
+     [
+      "Receiving a text message with a link",
+      "Do not click! Verify the sender first"
+     ],
+     [
+      "Someone asks to buy gift cards",
+      "100% fraud; end the conversation immediately"
+     ],
+     [
+      "University/professor email demands a transfer",
+      "Confirm in person or by phone"
+     ],
+     [
+      "Door-to-door sales",
+      "Do not open the door, or say \"I don't need it\" and close it"
+     ]
+    ]
+   },
+   "717d03": {
+    "text": "IV. Emergency Response After Being Defrauded (in order of priority)"
+   },
+   "c06ba5": {
+    "items": [
+     {
+      "title": "Contact the bank immediately",
+      "desc": "Contact the bank that opened the receiving account and request a stop payment and account freeze - funds can be withdrawn within minutes of transfer, so the sooner the better"
+     },
+     {
+      "title": "Report to the local police",
+      "desc": "In Japan, call 110; keep chat logs, transfer records, and the other party's information as evidence"
+     },
+     {
+      "title": "Contact family at home to report",
+      "desc": "Ask family to call 110 in China and request transfer to the anti-telecom and online fraud center, or call the public security organ of the registered domicile directly"
+     },
+     {
+      "title": "Contact the Chinese embassy/consulate abroad",
+      "desc": "Look up the consular protection number on the official website; the Ministry of Foreign Affairs Global Consular Protection and Services Emergency Hotline (24 hours) is listed in the \"Emergency Contacts\" section"
+     },
+     {
+      "title": "Post a warning",
+      "desc": "Share the experience in WeChat groups to prevent more people from being defrauded"
+     }
+    ]
+   },
+   "6d59ab": {
+    "text": "💡 Being defrauded is not the victim's fault - fraud rings are professionally trained, and victims include highly educated people. The chance of recovering the money is small, but reporting still has value (cases can be linked and the ring tracked down); do not stay silent out of shame - the experience may help others avoid the same trap."
+   },
+   "3e86de": {
+    "text": "V. Key Points for Recognizing Fraud"
+   },
+   "0125e2": {
+    "text": "Drawn from real cases and group chat experience: directly ask about the origin of the caller's accent (a marked accent from a certain region is often fraud); respond in the local dialect or Japanese, and the caller often hangs up immediately; ask which police station the caller belongs to, then search online for the publicly listed number and call back to verify; fraudsters are eager to close the deal and tend to lose composure when pressed for details. The most critical point is protecting banking information - keep card numbers and passwords safe."
+   },
+   "40510e": {
+    "items": [
+     {
+      "text": "Consulate-General of the People's Republic of China in Fukuoka (中国驻福冈总领事馆)",
+      "url": "https://fukuoka.china-consulate.gov.cn/"
+     }
+    ]
    }
   },
   "ko": {
    "aa3847": {
-    "text": "이 페이지의 목적: 수상할 때의 대응을 아는 것. 우선 두 가지 —— 송금하지 않기, 개인정보 알려주지 않기. 피해를 입으면 마지막의 첫 전화번호로 연락하세요."
+    "text": "이 문서의 목적은 수상한 상황에서 어떻게 대처해야 하는지 알려 주는 것입니다. 가장 중요한 두 가지 — 송금하지 않기, 개인정보를 알려 주지 않기. 사건 발생 후에는 문서 끝의 첫 번째 전화번호로 즉시 전화합니다."
+   },
+   "52ec55": {
+    "text": "⚠️ 유학을 처음 시작하는 분은 반드시 이 글을 먼저 읽어 주십시오. 사기 조직의 수법은 정교해서 고학력자도 당할 수 있습니다. \"당황하지 말고, 끝까지 믿지 말고, 돈을 요구하면 주지 않는다\"를 명심하면 대부분의 사기를 피할 수 있습니다."
+   },
+   "094ae5": {
+    "text": "1. 주요 사기 유형"
+   },
+   "011c4f": {
+    "text": "1. 대사관·영사관/공안·검찰·법원 사칭 (가장 빈번)"
+   },
+   "049994": {
+    "text": "수법: 전화로 \"중국 대사관/영사관\"을 사칭하며 중요한 서류를 찾아가지 않았다, 여권에 이상이 있다, 사건 조사에 연루되었다고 말하고, \"중국 내 공안/검찰\"로 연결해 돈세탁 혐의가 있다고 주장합니다. Signal/Webex/Skype 등 암호화 앱 설치를 요구하며 \"원격 화상 심문\"을 진행하고, 위조된 경찰 신분증과 공문을 보여 줍니다. \"보석금\", \"보석 보증금\"을 납부하라고 요구하며 \"협조하지 않으면 추방/인도된다\"고 협박합니다."
+   },
+   "a49a0e": {
+    "text": "구별 포인트: ①주재 대사관·영사관은 전화로 사건 연루를 통보하지 않습니다. ②중국 내 공안·검찰·법원은 전화/위챗/QQ로 국경을 넘는 수사를 하지 않습니다. ③절대 송금이나 통신 앱 다운로드를 요구하지 않습니다. ④발신 번호는 번호 변조기로 위장할 수 있으므로 \"공안\"으로 표시되어도 믿을 수 없습니다."
+   },
+   "a1f761": {
+    "text": "2. 환전 사기 (유학생에게 빈번)"
+   },
+   "72ad22": {
+    "text": "수법: 위챗 단체 대화방에 \"저렴한 환전\", \"엔화 급구\" 글을 올리고, 위조된 송금 스크린샷을 보여 주며 먼저 돈을 송금하라고 요구합니다. \"ABC 사기\" — 사기꾼 A는 위안화, B는 엔화를 내보내는 척하며 양쪽에 동시에 송금하게 유도한 뒤 사라집니다. \"중개인\"을 자처하며 양쪽을 상대로 사기를 칩니다."
+   },
+   "edaa9e": {
+    "text": "구별 포인트: 환전은 은행의 정식 채널로만 합니다. 위챗 단체 대화방에서 모르는 사람이 올린 환전 정보는 모두 의심스러운 것으로 간주합니다. 절대 먼저 돈을 보내지 않습니다. \"환율이 특히 좋은\" 환전은 거의 대부분 사기입니다."
+   },
+   "3a818c": {
+    "text": "3. 학교/교수 사칭"
+   },
+   "adabc1": {
+    "text": "수법: 학교를 사칭해 \"학비/등록비\"를 내라고 이메일을 보내고, 교수를 사칭해 기프트 카드 대신 구매나 대신 송금을 요구하며, 취약점을 이용해 교수의 이메일 주소를 도용합니다."
+   },
+   "b41808": {
+    "text": "구별 포인트: 학교는 이메일이나 전화로 은행 비밀번호를 요구하거나 즉시 송금을 요구하지 않습니다. 교수가 갑자기 대신 구매를 부탁하면 → 직접 만나거나 전화로 교수 본인에게 확인합니다. 발신자 이메일 주소가 실제로 학교 도메인인지 확인합니다."
+   },
+   "d246ca": {
+    "text": "4. 문자/링크 피싱"
+   },
+   "e1d74f": {
+    "text": "수법: \"집 임대 보증금\", \"ETC 만료\", \"택배 보관\" 등 문자에 링크를 첨부해 돈을 내게 합니다. 택배/우체국/전력 회사를 사칭해 링크를 보내기도 합니다."
+   },
+   "ffd258": {
+    "text": "구별 포인트: 링크를 보내며 결제를 요구하는 것은 모두 사기입니다. 일본의 정식 결제 방식은 편의점 결제, 은행 송금(振込), 계좌 자동이체입니다. 확실하지 않으면 먼저 공식 전화로 확인하고 링크를 클릭하지 마십시오."
+   },
+   "8eed64": {
+    "text": "5. 가상 납치"
+   },
+   "b25888": {
+    "text": "수법: 사기꾼이 먼저 유학생을 통제해 외부와 격리시킨 뒤, 본국 가족에게 연락해 납치당했다며 몸값을 요구합니다. 정보의 차이를 이용한 갈취 수법입니다."
+   },
+   "a3c952": {
+    "text": "구별 포인트: \"아이가 납치당했다\"는 연락을 받으면 → 즉시 주재 대사관·영사관에 연락해 확인합니다. \"가족에게 연락하지 말라\"고 요구하는 것은 모두 사기입니다."
+   },
+   "9f1d78": {
+    "text": "6. 리뷰 조작/아르바이트 사기"
+   },
+   "aa1237": {
+    "text": "수법: WhatsApp/위챗으로 \"아르바이트 모임\"에 초대해 고액에 간단하다고 합니다. 먼저 상품 대금을 대신 내거나 상품을 구매하라고 요구하고, 초기에는 소액을 돌려주다가 → 큰 금액을 받은 뒤 잠적합니다."
+   },
+   "2cd15e": {
+    "text": "구별 포인트: 먼저 돈을 내게 하는 아르바이트는 모두 사기입니다. 체류카드(在留カード)에는 자격 외 활동 허용 범위가 표시되어 있으며, 지나치게 고액인 \"아르바이트\"는 원래 불법입니다. 낯선 WhatsApp 모임은 바로 나가고 신고하십시오."
+   },
+   "55891a": {
+    "text": "7. 편의점 기프트 카드 사기"
+   },
+   "041a81": {
+    "text": "수법: 경찰/대사관/기술자를 사칭해 \"계좌 검증\", \"동결 해제\"를 이유로 편의점에서 고액 기프트 카드(Vプリカ/Apple Gift Card 등)를 구매하고 카드 번호와 비밀번호를 알려 달라고 요구합니다."
+   },
+   "1449d2": {
+    "text": "구별 포인트: 어떤 정식 기관도 기프트 카드 구매로 검증하거나 결제하도록 요구하지 않습니다. 편의점 직원이 때때로 경고하기도 하지만 매번 막을 수는 없습니다."
+   },
+   "8eecc1": {
+    "text": "8. 방문 판매/전력 회사 변경"
+   },
+   "584b05": {
+    "text": "수법: 전력/인터넷 회사 직원을 사칭해 방문하여 \"회사를 바꾸면 더 저렴하다\"며 개인정보를 빼내거나 고액 요금제에 가입시키려 합니다."
+   },
+   "ccc44b": {
+    "text": "구별 포인트: 방문 판매는 본질적으로 득이 없을 수 있습니다. 자리에서 바로 계약하지 말고 \"필요 없습니다\"라고 말한 뒤 문을 닫으십시오. 진짜 회사는 불쑥 찾아오지 않습니다."
+   },
+   "3743ca": {
+    "text": "2. 사기 예방 핵심 원칙"
+   },
+   "daa01e": {
+    "items": [
+     {
+      "title": "당황하지 말고, 끝까지 믿지 말며, 돈을 요구하면 주지 않는다",
+      "desc": ""
+     },
+     {
+      "title": "공안·검찰·법원/대사관을 사칭하는 전화에서 송금을 요구하면 → 즉시 끊는다",
+      "desc": ""
+     },
+     {
+      "title": "\"비밀을 지켜라\", \"가족/친구에게 알리지 말라\"고 요구하는 것은 → 반드시 사기입니다",
+      "desc": ""
+     },
+     {
+      "title": "확실하지 않으면 전화로 확인합니다. 대사관 공식 홈페이지에 공개된 영사 보호 전화번호로 걸고, 상대방이 알려 준 번호로는 걸지 않습니다",
+      "desc": ""
+     }
+    ]
+   },
+   "0252c5": {
+    "text": "일상 예방: 낯선 전화는 먼저 받지 않거나 녹음이 나오면 즉시 끊습니다. 상대가 대사관/공안을 사칭하면 → 끊은 뒤 공식 홈페이지에서 전화번호를 찾아 다시 걸어 확인합니다. 위챗 단체 대화방의 환전 정보에는 답장하지 않고 개인 대화도 하지 않습니다. 링크가 포함된 문자는 클릭하지 않습니다. 누군가 기프트 카드 구매를 요구하면 → 100% 사기이므로 즉시 대화를 끝냅니다. 학교/교수 이메일이 송금을 요구하면 → 직접 만나거나 전화로 확인합니다. 방문 판매는 문을 열지 않거나 \"필요 없습니다\"라고 말한 뒤 닫습니다."
+   },
+   "2f22d1": {
+    "text": "3. 일상 예방 요약"
+   },
+   "02de93": {
+    "headers": [
+     "상황",
+     "대처 방법"
+    ],
+    "rows": [
+     [
+      "낯선 전화를 받았을 때",
+      "먼저 받지 않고, 녹음이 나오면 즉시 끊는다"
+     ],
+     [
+      "상대가 대사관/공안을 사칭할 때",
+      "끊은 뒤 공식 홈페이지 번호를 찾아 다시 걸어 확인한다"
+     ],
+     [
+      "모르는 사람이 위챗/WhatsApp 친구 신청",
+      "거절하거나 먼저 신분을 확인한다"
+     ],
+     [
+      "위챗 단체 대화방의 환전 정보",
+      "답장·개인 대화 없이 그냥 무시한다"
+     ],
+     [
+      "링크가 포함된 문자 수신",
+      "클릭하지 않는다! 먼저 발신자를 확인한다"
+     ],
+     [
+      "누군가 기프트 카드 구매를 요구",
+      "100% 사기, 즉시 대화를 끝낸다"
+     ],
+     [
+      "학교/교수 이메일이 송금을 요구",
+      "직접 만나거나 전화로 확인한다"
+     ],
+     [
+      "방문 판매",
+      "문을 열지 않거나 \"필요 없습니다\"라고 말한 뒤 닫는다"
+     ]
+    ]
+   },
+   "717d03": {
+    "text": "4. 사기를 당한 후 대응 (우선순위 순)"
+   },
+   "c06ba5": {
+    "items": [
+     {
+      "title": "즉시 은행에 연락한다",
+      "desc": "송금 계좌의 개설 은행에 연락해 지급 정지와 계좌 동결을 요청합니다. 자금은 이체된 뒤 몇 분 안에 인출될 수 있으므로 빠를수록 좋습니다"
+     },
+     {
+      "title": "현지 경찰에 신고한다",
+      "desc": "일본에서는 110으로 전화하고, 채팅 기록·송금 기록·상대방 정보를 증거로 보관합니다"
+     },
+     {
+      "title": "본국 가족에게 연락해 신고한다",
+      "desc": "가족에게 중국 국내 110으로 전화해 전기통신 네트워크 사기 신고 센터로 연결하거나, 직접 호적 소재지 공안 기관에 전화하도록 합니다"
+     },
+     {
+      "title": "주재 중국 대사관·영사관에 연락한다",
+      "desc": "공식 홈페이지에서 영사 보호 전화번호를 확인합니다. 외교부 글로벌 영사 보호·서비스 긴급 콜센터(24시간)는 \"긴급 연락처\" 항목을 참조합니다"
+     },
+     {
+      "title": "알림을 공유한다",
+      "desc": "위챗 단체 대화방에 경험을 공유해 더 많은 사람이 사기를 당하지 않게 합니다"
+     }
+    ]
+   },
+   "6d59ab": {
+    "text": "💡 사기를 당한 것은 당신의 잘못이 아닙니다. 사기 조직은 전문적인 훈련을 받았으며 피해자에는 고학력자도 포함됩니다. 돈을 되찾을 가능성은 작지만 신고에는 여전히 가치가 있습니다(사건 병합 수사, 조직 추적이 가능합니다). 부끄러움 때문에 침묵하지 마십시오. 당신의 경험이 다른 사람을 사기에서 지켜 줄 수 있습니다."
+   },
+   "3e86de": {
+    "text": "5. 사기 식별 요점"
+   },
+   "0125e2": {
+    "text": "실제 사례와 단체 대화방의 경험에 따르면: 억양의 출신지를 직접 물어보면(특정 지역의 억양이 뚜렷하면 대부분 사기), 현지 사투리나 일본어로 응답하면 상대가 곧바로 끊는 경우가 많습니다. 상대가 소속된 경찰서를 물어본 뒤 스스로 인터넷에서 공개 전화번호를 찾아 다시 걸어 확인합니다. 사기꾼은 빨리 성사시키려 하므로 세부 내용을 추궁하면 당황하는 경우가 많습니다. 가장 중요한 것은 은행 정보 보호입니다. 카드 번호와 비밀번호를 안전하게 보관하십시오."
+   },
+   "40510e": {
+    "items": [
+     {
+      "text": "중국 주 후쿠오카 총영사관",
+      "url": "https://fukuoka.china-consulate.gov.cn/"
+     }
+    ]
    }
   }
  },
@@ -5307,13 +5689,321 @@ window.ARTICLES_BODY_I18N = {
  },
  "guide-medical": {
   "ja": {
+   "543059": {
+    "text": "学校健康センター"
+   },
    "50e4ae": {
-    "text": "日本で受診する前に 3 点を確認してください：国民健康保険に加入しているか、どの病院に行くか、中国語が通じるか。保険・学研災・ESP・中国語医療相談を一本につないだページです。"
+    "text": "日本で診療を受ける前に確認すべきことは3つあります。国民健康保険に加入しているか、どの病院に行くか、中国語に対応しているかです。本記事では、保険・学研災・ESP・中国語対応の医療相談窓口を1つの流れとしてまとめています。"
+   },
+   "a955e0": {
+    "text": "国民健康保険"
+   },
+   "6d0c07": {
+    "text": "来日後、できるだけ早く国民健康保険に加入してください（手続きの順番は【入国準備・到着後の手続きの順番】を参照してください）。加入すると、診療費の自己負担は30%になります。"
+   },
+   "40a340": {
+    "text": "学研災 / 学研賠（原則全員加入）"
+   },
+   "1de97f": {
+    "text": "学研災（学生教育研究災害傷害保険）は、九州大学が原則として全学生に加入を求めている傷害保険で、保険料は在学年数分をまとめて支払います。国民健康保険との役割分担は、国保が診療の医療費を負担し、学研災は「ケガによる損害」そのものを補償するというものです。"
+   },
+   "dd53eb": {
+    "headers": [
+     "対象",
+     "1年保険料"
+    ],
+    "rows": [
+     [
+      "学部生（一般）",
+      "1,000 円"
+     ],
+     [
+      "医・歯・薬学部",
+      "1,020 円"
+     ],
+     [
+      "大学院各課程",
+      "450〜1,000 円"
+     ],
+     [
+      "学研賠 A 課程（一般）",
+      "340 円"
+     ],
+     [
+      "学研賠 C 課程（医療系）",
+      "500 円"
+     ],
+     [
+      "学研賠 L 課程（法科）",
+      "1,640 円"
+     ]
+    ]
+   },
+   "5c9577": {
+    "items": [
+     {
+      "text": "補償対象：正課、学校が認めた課外活動、学校行事、在学中、および通学途中"
+     },
+     {
+      "text": "給付例：入院 4,000 円／日（最長 180 日）、治療 3,000 ～ 30,000 円"
+     },
+     {
+      "text": "学研賠（賠償責任保険付き）の賠償限度額は 1 事故 1 億円"
+     }
+    ]
+   },
+   "c636c2": {
+    "text": "学研災【疾病は対象外】―― 病気で診療を受ける場合は国民健康保険を利用します。この保険に頼らないでください。また、学研賠は学研災への加入が前提で、単独では加入できません。"
+   },
+   "07daed": {
+    "items": [
+     {
+      "text": "九州大学・学生保険（学研災 / 学研賠）",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/life/insurance"
+     }
+    ]
+   },
+   "ec29c8": {
+    "text": "ESP（留学生緊急支援サービス）"
+   },
+   "c05384": {
+    "text": "ESP（Emergency Secure Plan）は、九州大学の留学生が加入する緊急支援サービス（保険ではありません）です。主な内容は以下のとおりです："
+   },
+   "ebdd5e": {
+    "items": [
+     {
+      "text": "診療時の三者間通話通訳（日本語・英語・中国語など）"
+     },
+     {
+      "text": "適切な医療機関の紹介"
+     },
+     {
+      "text": "緊急時の母国家族への連絡"
+     }
+    ]
+   },
+   "77eb90": {
+    "text": "**年会費 約1,650 円**（通学傷害保険の特約を含みます。金額は当年度の案内に準じます）。オンラインで登録後、クレジットカードまたはコンビニで支払います。申請の流れは Coop / ISC からのメール案内に従ってください。"
+   },
+   "f5cfed": {
+    "items": [
+     {
+      "text": "ESP・学研災等の保険紹介（九州大学）",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/life/insurance/"
+     },
+     {
+      "text": "Global Gateway・留学生情報",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student"
+     }
+    ]
+   },
+   "4a1f02": {
+    "text": "多言語医療相談ホットライン"
+   },
+   "2880fb": {
+    "text": "福岡県「ふくおか国際医療サポートセンター」（旧・福岡アジア医療サポートセンター）では、多言語の電話通訳を24時間365日、通訳料無料で提供しています："
+   },
+   "e120a6": {
+    "items": [
+     {
+      "text": "092-286-9595（約19言語：英語・中国語・韓国語・タイ語・ベトナム語・インドネシア語など）"
+     },
+     {
+      "text": "「ふくおか医療情報ネット」から言語別に医療機関を検索することもできます"
+     }
+    ]
+   },
+   "a14f90": {
+    "items": [
+     {
+      "text": "福岡アジア医療サポートセンター",
+      "url": "https://asian-msc.jp/"
+     }
+    ]
+   },
+   "bb0130": {
+    "items": [
+     {
+      "text": "健康センター相談",
+      "url": "https://consult.kyushu-u.ac.jp/project/"
+     }
+    ]
+   },
+   "1c9357": {
+    "text": "福岡市外国人医療・生活支援"
+   },
+   "eea36a": {
+    "text": "福岡市には外国人総合相談窓口があります。診療で言葉の壁に直面した場合は、まず電話で相談してください："
+   },
+   "bbd53a": {
+    "text": "・福岡市外国人総合相談支援センター：0120-66-1799（無料）/ 092-262-1799、受付 平日 8:45~18:00、多言語対応"
+   },
+   "6fa2b0": {
+    "items": [
+     {
+      "text": "福岡市多言語ポータル（簡体字中国語）",
+      "url": "https://www.city.fukuoka.lg.jp/chinese/"
+     }
+    ]
    }
   },
   "en": {
+   "543059": {
+    "text": "University Health Center"
+   },
    "50e4ae": {
-    "text": "Before seeing a doctor in Japan, confirm three things: whether you are covered by national health insurance, which hospital to visit, and whether Chinese is supported. This page links insurance, Gakkensai, ESP and the Chinese-language medical hotline."
+    "text": "Before visiting a doctor in Japan, three things should be confirmed: whether enrolled in 国民健康保険 (national health insurance), which hospital to visit, and whether Chinese is supported. This article brings together the insurance, 学研災, ESP, and the Chinese-language medical consultation hotline in one place."
+   },
+   "a955e0": {
+    "text": "国民健康保険 (National Health Insurance)"
+   },
+   "6d0c07": {
+    "text": "Enroll in 国民健康保険 (national health insurance) promptly after arrival (procedure order: see【入境准备·落地后的办理顺序】). After enrollment, the patient's personal share of medical costs is 30%."
+   },
+   "40a340": {
+    "text": "学研災 / 学研賠 (All Students Join in Principle)"
+   },
+   "1de97f": {
+    "text": "学研災 (学生教育研究災害傷害保険) is the accident insurance that Kyushu University in principle requires all students to join, with the premium paid in a single lump sum covering the years of enrollment. Its division of roles with 国民健康保険 (national health insurance): 国保 covers the medical costs of treatment, while 学研災 covers the injury itself — the loss caused by an accident."
+   },
+   "dd53eb": {
+    "headers": [
+     "Category",
+     "1-Year Premium"
+    ],
+    "rows": [
+     [
+      "Undergraduate (general)",
+      "1,000 yen"
+     ],
+     [
+      "Medicine, Dentistry, and Pharmaceutical Sciences",
+      "1,020 yen"
+     ],
+     [
+      "Graduate school programs",
+      "450〜1,000 yen"
+     ],
+     [
+      "学研賠 Course A (general)",
+      "340 yen"
+     ],
+     [
+      "学研賠 Course C (medical)",
+      "500 yen"
+     ],
+     [
+      "学研賠 Course L (law)",
+      "1,640 yen"
+     ]
+    ]
+   },
+   "5c9577": {
+    "items": [
+     {
+      "text": "Coverage: regular classes, school-approved extracurricular activities, school events, periods on campus, and commuting to and from school"
+     },
+     {
+      "text": "Benefit examples: hospitalization 4,000 yen/day (up to 180 days), treatment 3,000 ～ 30,000 yen"
+     },
+     {
+      "text": "学研賠 (supplementary liability insurance) compensation limit: 1 億円 per accident"
+     }
+    ]
+   },
+   "c636c2": {
+    "text": "学研災【does not cover illness】— treatment for illness falls under 国民健康保険 (national health insurance); this insurance should not be relied on for illness. In addition, 学研賠 requires prior enrollment in 学研災; the two cannot be purchased separately."
+   },
+   "07daed": {
+    "items": [
+     {
+      "text": "Kyushu University · Student Insurance (学研災 / 学研賠)",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/life/insurance"
+     }
+    ]
+   },
+   "ec29c8": {
+    "text": "ESP (International Student Emergency Support Service)"
+   },
+   "c05384": {
+    "text": "ESP (Emergency Secure Plan) is an emergency support service (not insurance) that Kyushu University international students must join. It mainly provides:"
+   },
+   "ebdd5e": {
+    "items": [
+     {
+      "text": "Three-way telephone interpretation during medical visits (Japanese, English, Chinese, etc.)"
+     },
+     {
+      "text": "Introductions to appropriate medical institutions"
+     },
+     {
+      "text": "Contacting family in the home country in emergencies"
+     }
+    ]
+   },
+   "77eb90": {
+    "text": "**Annual fee: approx. 1,650 円** (includes the commuting accident insurance rider; the amount follows the current year's announcement). Register online and pay by credit card or at a convenience store; the application procedure follows the Coop / ISC email instructions."
+   },
+   "f5cfed": {
+    "items": [
+     {
+      "text": "ESP, 学研災 and Other Insurance (Kyushu University)",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/life/insurance/"
+     },
+     {
+      "text": "Global Gateway · International Student Information",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student"
+     }
+    ]
+   },
+   "4a1f02": {
+    "text": "Multilingual Medical Consultation Hotline"
+   },
+   "2880fb": {
+    "text": "Fukuoka Prefecture's ふくおか国際医療サポートセンター (Fukuoka International Medical Support Center; formerly 福岡アジア医療サポートセンター) provides multilingual telephone interpretation, available 24 hours a day, 365 days a year, with interpretation free of charge:"
+   },
+   "e120a6": {
+    "items": [
+     {
+      "text": "092-286-9595 (approx. 19 languages: English, Chinese, Korean, Thai, Vietnamese, Indonesian, etc.)"
+     },
+     {
+      "text": "Medical institutions can also be searched by language via ふくおか医療情報ネット (Fukuoka Medical Information Net)"
+     }
+    ]
+   },
+   "a14f90": {
+    "items": [
+     {
+      "text": "福岡アジア医療サポートセンター",
+      "url": "https://asian-msc.jp/"
+     }
+    ]
+   },
+   "bb0130": {
+    "items": [
+     {
+      "text": "Health Center Consultation",
+      "url": "https://consult.kyushu-u.ac.jp/project/"
+     }
+    ]
+   },
+   "1c9357": {
+    "text": "Fukuoka City Medical and Life Support for Foreign Residents"
+   },
+   "eea36a": {
+    "text": "Fukuoka City operates a comprehensive consultation service for foreign residents. Those who encounter language barriers at a medical visit can call for help first:"
+   },
+   "bbd53a": {
+    "text": "· Fukuoka City Foreign Residents Comprehensive Consultation Support Center: 0120-66-1799 (toll-free) / 092-262-1799, available weekdays 8:45~18:00, multilingual"
+   },
+   "6fa2b0": {
+    "items": [
+     {
+      "text": "Fukuoka City Multilingual Portal (Simplified Chinese)",
+      "url": "https://www.city.fukuoka.lg.jp/chinese/"
+     }
+    ]
    }
   },
   "ko": {
