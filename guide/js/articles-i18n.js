@@ -109,17 +109,17 @@ window.ARTICLES_I18N = {
     ko:'규슈대 유학과(국제부)가 2026년 가을 신입 유학생에게 준비한 지원 정보 총정리: 무료 공항 셔틀버스/생활지원버스(실시간 다음 차량 포함), 행정절차·은행 가이던스, 오리엔테이션, 은행 계좌 개설회, ESP 긴급 안심 플랜, 문의·상담 창구. 공식 NotePM 포털이 원본.' },
 },
 "guide-scholarship": {
-  "ja": {
-   "title": "奨学金（私費・国費）",
-   "summary": "いま応募できる 7 件（金額・締切の一覧、募集要項のダウンロード付き）、2 つの応募ルート、日本語と併給の壁、国費外国人留学生 4 区分の月額、私費の学習奨励費 48,000 円/月。"
+  "title": {
+   "ja": "奨学金（私費・国費）",
+   "en": "Scholarships (private & government)",
+   "ko": "장학금(사비·국비)",
+   "zh": "奖学金（私費・国費）"
   },
-  "en": {
-   "title": "Scholarships (private & government)",
-   "summary": "The 7 currently open calls (amounts and deadlines, with downloadable guidelines), the two application routes, the Japanese-language and double-dipping gates, the four MEXT categories and stipends, and the 48,000 JPY/month Study Incentive Grant for privately financed students."
-  },
-  "ko": {
-   "title": "장학금(사비·국비)",
-   "summary": "지금 지원 가능한 7건(금액·마감 목록, 모집요강 다운로드 포함), 두 가지 지원 경로, 일본어와 중복 수급 장벽, 국비 외국인 유학생 4개 구분 월액, 사비 학습장려비 48,000엔/월."
+  "summary": {
+   "ja": "いま応募できる 7 件（金額・締切の一覧、募集要項のダウンロード付き）、2 つの応募ルート、日本語と併給の壁、国費外国人留学生 4 区分の月額、私費の学習奨励費 48,000 円/月。",
+   "en": "The 7 currently open calls (amounts and deadlines, with downloadable guidelines), the two application routes, the Japanese-language and double-dipping gates, the four MEXT categories and stipends, and the 48,000 JPY/month Study Incentive Grant for privately financed students.",
+   "ko": "지금 지원 가능한 7건(금액·마감 목록, 모집요강 다운로드 포함), 두 가지 지원 경로, 일본어와 중복 수급 장벽, 국비 외국인 유학생 4개 구분 월액, 사비 학습장려비 48,000엔/월.",
+   "zh": "现在能申请的 7 件（金额・截止一览，含可下载的募集要項）、两条应募路径、日语与併給门槛、国費外国人留学生 4 类别月額、私費学習奨励費 48,000 円/月。"
   }
  }
 };

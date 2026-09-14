@@ -176,9 +176,13 @@
       const f = {};
       const nv = nav[a._id] || {};
       const tAcc = [], sAcc = [];
+      // ⚠️ articles-i18n.js 的实际是**扁平式** nav[id].title[lang]。
+      // 这里两种都读：结构一旦写成别的样子，标题会静默丢失（搜不到、也不报错）。
+      const navField = (field, l) =>
+        (nv[field] && nv[field][l]) || (nv[l] && nv[l][field]) || '';
       for (const l of langs) {
-        const t = norm((nv.title || {})[l] || (l === 'zh' ? a.title : ''));
-        const s = norm((nv.summary || {})[l] || (l === 'zh' ? a.summary : ''));
+        const t = norm(navField('title', l) || (l === 'zh' ? a.title : ''));
+        const s = norm(navField('summary', l) || (l === 'zh' ? a.summary : ''));
         if (t) { f['t_' + l] = t; tAcc.push(t); }
         if (s) { f['s_' + l] = s; sAcc.push(s); }
       }
@@ -260,9 +264,14 @@
     const tf = tOwn + ' ' + (entry.f.t_all || '');      // 含别语言标题 → 韩文查询也能吃到标题加成
     if (m.literal.some(t => hits(tf, t) > 0)) sc += 30;
     else if (m.alias.some(a => hits(tf, a.hit) > 0)) sc += 18;
-    // 标题**以**查询词开头 = 更强的定位信号（「奖学金（私費・国費）」优于「学业·奖学金」）
-    if (m.literal.some(t => tOwn.startsWith(t))) sc += 12;
+    // 标题**以**查询词开头 = 更强的定位信号（「奖学金（私費・国費）」优于「学业·奖学金」）。
+    // 比的是**所有语言**的标题：中国读者搜「奨学金」时，日文标题同样是权威定位信号。
+    const startsAny = t => LANGS.some(l => (entry.f['t_' + l] || '').startsWith(t));
+    if (m.literal.some(startsAny)) sc += 18;
     if (m.literal.some(t => hits(entry.f.tags, t) > 0)) sc += 12;
+    // 第 1 个 tag 是这篇的**主话题** —— 命中它比命中靠后的 tag 更有意义
+    const firstTag = (entry.f.tags || '').split(' ')[0] || '';
+    if (firstTag && m.literal.some(t => firstTag.includes(t))) sc += 12;
     else if (m.alias.some(a => hits(entry.f.tags, a.hit) > 0)) sc += 7;
     if (m.literal.some(t => hits(entry.f.head, t) > 0)) sc += 6;
 
