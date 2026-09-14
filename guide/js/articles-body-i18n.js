@@ -4311,17 +4311,1859 @@ window.ARTICLES_BODY_I18N = {
  "guide-newcomer": {
   "ja": {
    "83b134": {
-    "text": "2026 年秋入学者向けの支援情報をまとめました：空港シャトル、寮の入居、Wi-Fi、行政手続き、オリエンテーション、口座開設会、ESP。**まず日程総覧をご覧ください**。以降は必要な項目を開いてください。"
+    "text": "2026年秋入学者向けの支援情報をすべてまとめています：空港送迎、寮への入居、Wi-Fi、行政手続、オリエンテーション、銀行口座開設会、ESP。**まず日程一覧をご確認ください**、その後必要に応じてご覧ください。"
+   },
+   "9c1a2e": {
+    "text": "本記事は、九州大学国際部留学課が**2026年秋季の新入留学生**向けに提供する公式支援情報をまとめたものです。原文の出典：留学課 NotePM ポータル「新入留学生サポートポータル（伊都キャンパス）」、公開日 2026-08-20。各行事の対象・日程は公式に限定されていますので、必ず本記事の記載に沿ってご確認ください。"
+   },
+   "1b2c3d": {
+    "text": "日程一覧"
+   },
+   "a4b5c6": {
+    "headers": [
+     "日付",
+     "行事",
+     "対象",
+     "備考"
+    ],
+    "rows": [
+     [
+      "9月24日・25日",
+      "無料空港シャトルバス",
+      "すべての新入留学生",
+      "先着順、予約不要"
+     ],
+     [
+      "9月24日・25日・29日・30日・10月1日",
+      "無料生活支援バス",
+      "新入留学生および支援者",
+      "先着順、予約不要"
+     ],
+     [
+      "9月24日～10月上旬",
+      "行政手続・銀行ガイダンス",
+      "学生寮に入居する海外からの新入生",
+      "⚠️ 事前申込必須"
+     ],
+     [
+      "9月28日",
+      "オリエン＋並行4項目",
+      "すべての新入留学生（他キャンパス含む）",
+      "⚠️ 新入留学生は参加必須"
+     ],
+     [
+      "9月29日・30日",
+      "新入留学生キャンパスツアー",
+      "すべての新入留学生",
+      "申込制、各回20名"
+     ],
+     [
+      "10月6日・7日・8日",
+      "福岡銀行口座開設会",
+      "住所登録を完了した新入生",
+      "⚠️ 事前申込必須"
+     ]
+    ]
+   },
+   "2d3e4f": {
+    "text": "各学生寮の入寮可能時間は、募集要項（留学生用宿舎申請）の6ページ以降を基準とします。"
+   },
+   "3e4f5a": {
+    "text": "① 無料空港シャトルバス（福岡空港 → 伊都各寮）"
+   },
+   "4f5a6b": {
+    "text": "2026年9月24日・25日の2日間、留学課は福岡空港から無料シャトルバスを運行します（九大学研都市駅 / ドミトリー1-3 / 伊都協奏館 / セトルインターナショナルまで直行）。**原則として新入留学生本人のみ**乗車できます。先着順・予約不要ですが、満員の場合は乗車できないことがあります。集合場所には**少なくとも15分前**にお越しください。"
+   },
+   "5a6b7c": {
+    "headers": [
+     "出発（福岡空港）",
+     "第1便",
+     "第2便",
+     "第3便",
+     "第4便"
+    ],
+    "rows": [
+     [
+      "国際線ターミナル",
+      "9:00",
+      "11:30",
+      "15:00",
+      "18:00"
+     ],
+     [
+      "国内線ターミナル",
+      "9:25",
+      "11:55",
+      "15:25",
+      "18:25"
+     ]
+    ]
+   },
+   "6b7c8d": {
+    "headers": [
+     "到着",
+     "第1便",
+     "第2便",
+     "第3便",
+     "第4便"
+    ],
+    "rows": [
+     [
+      "九大学研都市駅",
+      "9:55",
+      "12:35",
+      "16:05",
+      "19:05"
+     ],
+     [
+      "セトルインターナショナル",
+      "10:25",
+      "12:55",
+      "16:25",
+      "（停車しません）"
+     ],
+     [
+      "ドミトリー1～3",
+      "10:45",
+      "13:15",
+      "16:45",
+      "19:30"
+     ],
+     [
+      "伊都協奏館",
+      "11:00",
+      "13:30",
+      "17:00",
+      "19:50"
+     ]
+    ]
+   },
+   "7c8d9e": {
+    "items": [
+     {
+      "text": "毎日、第4便はセトルインターナショナルに停車しません。"
+     },
+     {
+      "text": "集合：福岡空港 国際線 / 国内線ターミナル"
+     },
+     {
+      "text": "出発1時間前から、「Kyushu University」のボードを持った係員が到着口で案内します"
+     },
+     {
+      "text": "出発・到着時刻は交通状況により前後することがあります。"
+     },
+     {
+      "text": "病院・筑紫・大橋キャンパスの新入留学生は本バスを**利用できません**。"
+     }
+    ]
+   },
+   "8d9e0f": {
+    "text": "② 無料生活支援バス（寮 ⇄ 九大学研都市駅）"
+   },
+   "9e0f1a": {
+    "text": "運行区間：伊都協奏館 / ドミトリー1-3 / セトルインターナショナル ⇄ 九大学研都市駅（学研都市周辺には AEON Mall、さいとぴあ などの買い物・公共施設があります）。運行日：9月24日・25日・29日・30日、10月1日。新入留学生とその支援者が乗車でき、先着順です。下表は次便の到着時刻を表示します。"
+   },
+   "0f1a2b": {
+    "text": "バスの座席には限りがあり、先着順です。ドミトリー2・3 の入居者はドミトリー1 から乗車してください。運行時刻・停車位置は公式ポスターの PDF を基準とします。"
+   },
+   "w1a2b3": {
+    "text": "③ キャンパス Wi-Fi（キャンパスWi-Fi / kitenet）"
+   },
+   "w2b3c4": {
+    "text": "来日後にネット環境が整っていない新入留学生に対し、留学課は**臨時の Wi-Fi ログイン ID・パスワード**を提供します（9月下旬に入国支援システムに登録したメールアドレスへ送付）。九州大学キャンパス内には複数の無線アクセスポイントがあります。"
+   },
+   "w3c4d5": {
+    "text": "臨時ログイン情報の有効期間：**2026年9月24日(木)～10月9日(金)**。10月9日以降は利用できませんので、ご自身の **SSO-KID** で kitenet（九大生用キャンパス Wi-Fi）を設定してください。"
+   },
+   "w4d5e6": {
+    "items": [
+     {
+      "title": "ご自身の SSO-KID の確認",
+      "desc": "正規生は**学生証の裏面**に記載されています。学生証をお持ちでない方は、所属学部・学府の学生係にお問い合わせください（登録コードも併せてご確認ください）。"
+     },
+     {
+      "title": "必要書類の準備",
+      "desc": "登録コード ＋ @s.kyushu-u.ac.jp 以外のメールアドレス。"
+     },
+     {
+      "title": "SSO-KID の有効化",
+      "desc": "公式サイトで有効化します：https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
+     },
+     {
+      "title": "kitenet の初期設定の完了",
+      "desc": "公式サイトで iOS / Android / その他OS の設定ガイドが提供されています。"
+     }
+    ]
+   },
+   "w5e6f7": {
+    "items": [
+     {
+      "text": "SSO-KID 有効化ページ",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
+     },
+     {
+      "text": "キャンパス Wi-Fi 公式ページ",
+      "url": "https://notepm.jp/sharing/751f751c-dbec-4cf0-a5b9-0e3a396b467d"
+     }
+    ]
+   },
+   "1a2b3c": {
+    "text": "④ 行政手続・銀行ガイダンス（寮入居者は必読）"
+   },
+   "2b3c4d": {
+    "text": "海外から入国し学生寮に入居する新入留学生を対象に、留学課が住所登録・国民健康保険などの行政手続を代行し、国民年金、マイナンバーカード、銀行口座開設（ゆうちょ / 福岡銀行 / 西日本シティ銀行）について説明します。**第1回と第2回の両方のガイダンスに参加必須です**。会場：日本ジョナサン・KS・チョイ文化館（キャンパスマップ No.79）。持ち物：パスポート・在留カード・黒のボールペン。入国支援システム（Pre-Arrival Assistance）で参加日を予約してください（宿舎入居手続の完了後にフォームが表示されます）。**リマインダーメールはありません**ので、ご自身で予約日を控え、ステータスページで確認してください。第1回ガイダンスの日付は入居当日より前にすることはできません。参加当日までに、パスポートの顔写真ページと入国許可スタンプページの写真を留学課のメールアドレスへ送付してください（顔写真ページを入国支援システムにアップロード済みの場合は、入国許可スタンプページのみで結構です）。日程が合わず参加できない場合は、Q-Mate が作成した多言語の解説動画を参考にご自身で手続を行ってください。"
+   },
+   "c0d1e2": {
+    "headers": [
+     "グループ",
+     "第1回ガイダンス",
+     "第2回ガイダンス"
+    ],
+    "rows": [
+     [
+      "A",
+      "9/24(木) 15:00-15:30",
+      "9/29(火) 13:00-14:00"
+     ],
+     [
+      "B",
+      "9/25(金) 13:00-13:30",
+      "9/29(火) 13:00-14:00"
+     ],
+     [
+      "C",
+      "9/28(月) 10:00-10:30",
+      "9/30(水) 13:00-14:00"
+     ],
+     [
+      "D",
+      "9/29(火) 10:00-10:30",
+      "10/1(木) 13:00-14:00"
+     ],
+     [
+      "E",
+      "9/30(水) 10:00-10:30",
+      "10/2(金) 13:00-14:00"
+     ],
+     [
+      "F",
+      "10/1(木) 10:00-10:30",
+      "10/5(月) 12:30-13:30"
+     ],
+     [
+      "G",
+      "10/2(金) 10:00-10:30",
+      "10/6(火) 12:00-13:00"
+     ]
+    ]
+   },
+   "d1e2f0": {
+    "text": "協奏館から徒歩約18分、ドミトリーから徒歩約5-7分です。人数に限りがあるため、希望する日付を選べない場合があります。住所登録を留学課が代行する場合、特定在留カード（マイナンバーカードと在留カードが一体となったカード。新規入国の住所登録時は無料、**義務ではありません**）を同時に申請することはできません。"
+   },
+   "e2f0a3": {
+    "headers": [
+     "グループ",
+     "第1回ガイダンス",
+     "第2回ガイダンス"
+    ],
+    "rows": [
+     [
+      "A",
+      "9/28(月) 11:00-11:30",
+      "9/30(水) 15:00-16:00"
+     ],
+     [
+      "B",
+      "9/29(火) 11:00-11:30",
+      "10/1(木) 15:00-16:00"
+     ],
+     [
+      "C",
+      "9/30(水) 11:00-11:30",
+      "10/2(金) 15:00-16:00"
+     ]
+    ]
+   },
+   "f0a3b4": {
+    "text": "会場は同一です（文化館 No.79）。バスで約13分（九大ビッグオレンジ前下車）、徒歩で約35分です。"
+   },
+   "5e6f0a": {
+    "text": "⑤ 新入留学生オリエンテーション（9月28日）"
+   },
+   "6f0a1b": {
+    "text": "9月28日(月) 12:50-15:10、伊都キャンパス椎木講堂。西警察署、福岡出入国在留管理局、福岡市消防局が登壇します。**新入留学生は参加必須**です（他のガイダンスと日程が重なる場合を除く）。事前登録が必要です：**参加申込フォーム** https://forms.cloud.microsoft/r/nCDDWic1U5"
+   },
+   "a3b4c5": {
+    "headers": [
+     "時間",
+     "内容"
+    ],
+    "rows": [
+     [
+      "12:50",
+      "開会挨拶"
+     ],
+     [
+      "12:55",
+      "「Q-Mate」紹介"
+     ],
+     [
+      "13:05",
+      "福岡での新生活に役立つ情報"
+     ],
+     [
+      "13:10",
+      "KUFSA（留学生会）"
+     ],
+     [
+      "13:20",
+      "学内カウンセリングサービスの紹介"
+     ],
+     [
+      "13:25",
+      "在留資格制度（入管）"
+     ],
+     [
+      "13:35",
+      "休憩15分"
+     ],
+     [
+      "13:50",
+      "安全・防犯（西警察署）"
+     ],
+     [
+      "14:30",
+      "火災・救急・防災（消防局）"
+     ],
+     [
+      "14:55",
+      "図書館からのお知らせ"
+     ],
+     [
+      "15:00",
+      "閉会挨拶"
+     ]
+    ]
+   },
+   "b4c5d6": {
+    "text": "同日には他に4つの行事があります：SIMカード販売会（会場：椎木講堂 Galleria。2回のうちいずれか1回：①10:30-12:30 オリエン開始前、②15:10-17:00 終了後。公式は午前の回を推奨しており、午後は混雑する可能性があります。**事前登録必須**で、プラン・料金・登録方法は公式ポスターをご覧ください）、図書館見学（中央図書館）、入管相談会（在留資格を会場で相談できます）、ウェルカムパーティー（17:00-18:00 @ BIG SKY、新入留学生限定）。病院・筑紫・大橋キャンパスおよび福岡市国際会館・井尻からは椎木講堂までの無料送迎バスがあります（往路は約10:40-10:50発、復路は約18:20発）。先着順で、復路は往路で配布された乗車券の提示が必要です。**送迎バスの集合場所は各キャンパスの指定場所（公式PDF参照）であり、国際交流会館ではありません。**"
+   },
+   "5f0a6b": {
+    "text": "⑥ 新入留学生キャンパスツアー（9月29・30日）"
+   },
+   "6a7b8c": {
+    "headers": [
+     "日付",
+     "時間",
+     "テーマエリア"
+    ],
+    "rows": [
+     [
+      "9/29(火)",
+      "10:30-12:00",
+      "イーストゾーン（文科）"
+     ],
+     [
+      "9/29(火)",
+      "15:00-16:30",
+      "ウエストゾーン（理科）"
+     ],
+     [
+      "9/30(水)",
+      "10:30-12:00",
+      "ウエストゾーン（理科）"
+     ],
+     [
+      "9/30(水)",
+      "15:00-16:30",
+      "イーストゾーン（文科）"
+     ]
+    ]
+   },
+   "7b8c9d": {
+    "text": "集合：センター6号館。各回20名・約90分・全行程徒歩のため、歩きやすい靴と飲み物をご用意ください。言語は主に英語です（日本語も可）。他エリアへの申込も可能です（文科系の学生が理科系の回を選ぶこともできます）。行事中は写真撮影を行い、SNS に掲載する場合があります。希望されない場合は事前に Q-Mate へお知らせください。主催は Q-Mate で、申込フォームは公式ポータルにあります。"
+   },
+   "8c9d0e": {
+    "text": "⑦ 福岡銀行口座開設会（10月6・7・8日）"
+   },
+   "9d0e1f": {
+    "text": "福岡銀行は伊都キャンパス内に ATM があり、福岡県の主要銀行の一つです。口座開設会に参加すると**その場で口座番号とキャッシュカードを受け取れ**、支店へ行く必要がなく、奨学金の受取や家賃の口座振替にそのまま利用できます。福岡銀行と九大のスタッフが英語・日本語で対応します。**会場：日本Jonathan KS Choi文化館（キャンパスマップ No.79）**、第1～3回のうちいずれか1回を選んでください（ご自身の授業時間を避けてください）。"
+   },
+   "0e1f2a": {
+    "items": [
+     {
+      "text": "条件①：在留カードの住所登録が完了していること"
+     },
+     {
+      "text": "条件②：在留期間が3か月以上残っていること（不足する場合はご自身で銀行支店へお越しください）"
+     },
+     {
+      "text": "申込：入国支援システム → 口座開設会のフォームに入力 ＋ 在留カードの写真をアップロード（フォームは申込期間中のみ表示されます）"
+     },
+     {
+      "text": "留学課からの確認メールを受け取って初めて申込完了となります。未受信の場合は参加できません。原則としてキャンセルはできません"
+     },
+     {
+      "text": "印鑑：シャチハタは不可で、朱肉を使う従来型の印鑑が必要です。また、日本で使用できる電話番号が必要です"
+     },
+     {
+      "text": "米国籍の方は SSN（Social Security Number）を事前にご確認ください"
+     }
+    ]
+   },
+   "1f2a3b": {
+    "text": "⑧ ESP 外国人留学生等緊急安心プラン"
+   },
+   "2a3b4c": {
+    "text": "「留学」の在留資格を持つ九州大学の全留学生が対象で、**加入必須**です。24時間・365日・中国語・英語・日本語の3か国語による医療支援を提供します：病院の紹介、受診時の電話通訳（医師の許可が必要）、緊急時の母国の家族への連絡や交通の手配など。**注意：ESP は医療保険ではありません**ので、医療費は補償されません。入院・治療・検査の費用は自己負担か国民健康保険の適用となります。"
+   },
+   "3b4c5d": {
+    "headers": [
+     "在学年数",
+     "費用",
+     "対象"
+    ],
+    "rows": [
+     [
+      "1年",
+      "1,650円",
+      "非正規生、研究生など"
+     ],
+     [
+      "2年",
+      "3,300円",
+      "修士課程"
+     ],
+     [
+      "3年",
+      "4,950円",
+      "博士後期課程"
+     ],
+     [
+      "4年",
+      "6,600円",
+      "学部"
+     ]
+    ]
+   },
+   "4c5d6e": {
+    "items": [
+     {
+      "text": "加入期限：**2026年10月30日(金)**。"
+     },
+     {
+      "text": "申込：公式アプリからオンラインで申請します。日本の携帯電話番号が必要なため、来日後の手続をおすすめします"
+     },
+     {
+      "text": "アプリ名は公式資料によって記載が異なります（OSSMA / NEXUS）。最新の手引きを基準としてください"
+     },
+     {
+      "text": "支払い：クレジットカード / コンビニ（オンライン登録時に選択、別途手数料がかかります）。"
+     }
+    ]
+   },
+   "m1h2i3": {
+    "text": "⑨ お役立ち情報・医療健康リソース"
+   },
+   "m2i3j4": {
+    "text": "留学課の「お役立ち情報」ページには、福岡での生活に役立つ情報がまとめられています。**受診は新入生が最もよく直面する問題**です：伊都キャンパス内には伊都診療所がありますが、土日は開業していません。学外で受診する場合は**外国語対応の医療機関一覧**（2026年5月版、対応言語レベル A 堪能 / B 日常会話 / C 片言を含む）を参照してください。"
+   },
+   "m3j4k5": {
+    "headers": [
+     "医療機関",
+     "場所",
+     "診療科",
+     "言語対応"
+    ],
+    "rows": [
+     [
+      "伊都診療所（学内）",
+      "センター6号館 1F",
+      "内科・精神科",
+      "英語 B 級"
+     ],
+     [
+      "西福岡病院",
+      "西区生の松原",
+      "総合",
+      "A 級・20 言語"
+     ],
+     [
+      "福岡記念病院",
+      "早良区西新",
+      "総合",
+      "A 級"
+     ]
+    ]
+   },
+   "45ba0c": {
+    "text": "診療時間と連絡先：伊都診療所は平日 10:00-12:30 / 14:00-16:30。西福岡病院 0570-09-1331（紹介状・予約制で、紹介状がない場合は別途 7,700 円）。福岡記念病院 092-821-4731。学外で受診する前にご確認ください：予約が必要かどうか。伊都診療所は土日が休診のため、学外の医療機関を探す必要があります。"
+   },
+   "d966c7": {
+    "items": [
+     {
+      "text": "伊都診療所",
+      "url": "https://itoclinic.kyushu-u.ac.jp/"
+     },
+     {
+      "text": "福岡記念病院",
+      "url": "http://kinen.jp"
+     }
+    ]
+   },
+   "m4k5l6": {
+    "items": [
+     {
+      "text": "伊都キャンパス医療機関一覧 (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E4%BC%8A%E9%83%BD%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-1.pdf"
+     },
+     {
+      "text": "病院キャンパス医療機関一覧 (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%97%85%E9%99%A2%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-2.pdf"
+     },
+     {
+      "text": "大橋キャンパス医療機関一覧 (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E5%A4%A7%E6%A9%8B%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"
+     },
+     {
+      "text": "筑紫キャンパス医療機関一覧 (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%AD%91%E7%B4%AB%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"
+     }
+    ]
+   },
+   "2cbef1": {
+    "text": "お役立ちリソースとリンク"
+   },
+   "m5l6m7": {
+    "items": [
+     {
+      "text": "個人使用の医薬品の日本への持込み"
+     },
+     {
+      "text": "ワクチンで予防できる感染症情報"
+     },
+     {
+      "text": "2026 CLUB & CIRCLE GUIDE"
+     },
+     {
+      "text": "2026 International Clubs Guide"
+     },
+     {
+      "text": "Global Gateways"
+     }
+    ]
+   },
+   "8b5893": {
+    "items": [
+     {
+      "text": "個人使用の医薬品の日本への持込み",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/kojinyunyu/topics/tp010401-1.html"
+     },
+     {
+      "text": "ワクチンで予防できる感染症情報",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/visitor.html"
+     },
+     {
+      "text": "2026 CLUB & CIRCLE GUIDE",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-CLUB-CIRCLE-GUIDE.pdf"
+     },
+     {
+      "text": "2026 International Clubs Guide",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-INTL-CLUB-AND-CIRCLE%E3%80%80%E8%8B%B1%E8%AA%9E.pdf"
+     },
+     {
+      "text": "Global Gateways",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/"
+     }
+    ]
+   },
+   "5d6e7f": {
+    "text": "⑩ 連絡先と相談窓口"
+   },
+   "6e7f8a": {
+    "items": [
+     {
+      "text": "来日前の相談：留学課 imm.s@jimu.kyushu-u.ac.jp"
+     },
+     {
+      "text": "日常の相談：LINE「Consultation Desk」（Q-Mate が回答）"
+     },
+     {
+      "text": "Q-Mate Instagram：@_qmate"
+     },
+     {
+      "text": "Q-Mate 公式サイト：Q&A と生活情報のまとめ"
+     }
+    ]
+   },
+   "0e969c": {
+    "items": [
+     {
+      "text": "来日後の日常相談",
+      "url": "https://lin.ee/EiQqccP"
+     },
+     {
+      "text": "Q-Mate 公式サイト",
+      "url": "https://studentassistantqu.wixsite.com/q-mate/about"
+     }
+    ]
+   },
+   "7e8f9a": {
+    "items": [
+     {
+      "text": "公式 NotePM ポータル（日本語）",
+      "url": "https://notepm.jp/sharing/fb0e6579-ad42-4aaa-90fb-9bcff4e253e3"
+     },
+     {
+      "text": "公式 NotePM ポータル（英語）",
+      "url": "https://notepm.jp/sharing/da6d736d-f9e1-44db-ba5e-580d2f1413b2"
+     },
+     {
+      "text": null,
+      "url": "https://www.instagram.com/_qmate/"
+     }
+    ]
+   },
+   "8f9a0b": {
+    "text": "**原文の出典**：留学課 NotePM「新入留学生サポートポータル（伊都キャンパス）」2026-08-20（各子ページおよび公式 PDF の時刻表を含む）。情報は公式の最新発表を基準とします。"
    }
   },
   "en": {
    "83b134": {
-    "text": "All support information for autumn 2026 entrants: airport shuttle, dormitory check-in, Wi-Fi, administrative procedures, orientation, the bank account session, ESP. **Start with the schedule overview**, then open what you need."
+    "text": "Complete support information for autumn 2026 entrants: airport shuttle, dormitory check-in, Wi-Fi, administrative procedures, オリエンテーション, bank account opening session, ESP. **Reviewing the schedule overview first is recommended**, then expanding each section as needed."
+   },
+   "9c1a2e": {
+    "text": "This article compiles all official support information provided by Kyushu University 国際部留学課 for **new international students entering in autumn 2026**. Source: the division's NotePM portal 「新入留学生サポートポータル（伊都キャンパス）」, published 2026-08-20. Eligibility and dates for each activity are officially restricted; confirmation against the notes in this article is required."
+   },
+   "1b2c3d": {
+    "text": "Schedule Overview"
+   },
+   "a4b5c6": {
+    "headers": [
+     "Date",
+     "Activity",
+     "Eligible Participants",
+     "Notes"
+    ],
+    "rows": [
+     [
+      "Sep 24・25",
+      "Free airport shuttle bus",
+      "All new international students",
+      "First come, first served; no reservation required"
+     ],
+     [
+      "Sep 24・25・29・30・Oct 1",
+      "Free daily-life support bus",
+      "New international students and their supporters",
+      "First come, first served; no reservation required"
+     ],
+     [
+      "September 24 – early October",
+      "Administrative procedures and bank guidance",
+      "New students from overseas moving into student dormitories",
+      "⚠️ Advance registration required"
+     ],
+     [
+      "Sep 28",
+      "オリエン + 4 concurrent sessions",
+      "All new international students (including other campuses)",
+      "⚠️ Attendance required for new international students"
+     ],
+     [
+      "Sep 29・30",
+      "Campus tour for new international students",
+      "All new international students",
+      "Registration required; 20 persons per session"
+     ],
+     [
+      "Oct 6・7・8",
+      "福岡銀行 account opening session",
+      "New students who have completed residence registration",
+      "⚠️ Advance registration required"
+     ]
+    ]
+   },
+   "2d3e4f": {
+    "text": "Available move-in times for each student dormitory are as stated in 募集要項（留学生用宿舎申請）from page 6 onward."
+   },
+   "3e4f5a": {
+    "text": "① Free Airport Shuttle Bus (福岡空港 → 伊都各宿舍)"
+   },
+   "4f5a6b": {
+    "text": "On the two days of September 24 and 25, 2026, 留学課 operates a free shuttle bus from 福岡空港 directly to 九大学研都市駅 / ドミトリー1-3 / 伊都協奏館 / セトルインターナショナル. **In principle, use is limited to new international students themselves.** Seating is allocated first come, first served with no reservation required, and boarding may not be possible once the bus is full. Arrival at the meeting point **at least 15 minutes in advance** is required."
+   },
+   "5a6b7c": {
+    "headers": [
+     "Departure (福岡空港)",
+     "Bus 1",
+     "Bus 2",
+     "Bus 3",
+     "Bus 4"
+    ],
+    "rows": [
+     [
+      "International Terminal",
+      "9:00",
+      "11:30",
+      "15:00",
+      "18:00"
+     ],
+     [
+      "Domestic Terminal",
+      "9:25",
+      "11:55",
+      "15:25",
+      "18:25"
+     ]
+    ]
+   },
+   "6b7c8d": {
+    "headers": [
+     "Arrival",
+     "Bus 1",
+     "Bus 2",
+     "Bus 3",
+     "Bus 4"
+    ],
+    "rows": [
+     [
+      "九大学研都市駅",
+      "9:55",
+      "12:35",
+      "16:05",
+      "19:05"
+     ],
+     [
+      "セトルインターナショナル",
+      "10:25",
+      "12:55",
+      "16:25",
+      "(no stop)"
+     ],
+     [
+      "ドミトリー1～3",
+      "10:45",
+      "13:15",
+      "16:45",
+      "19:30"
+     ],
+     [
+      "伊都協奏館",
+      "11:00",
+      "13:30",
+      "17:00",
+      "19:50"
+     ]
+    ]
+   },
+   "7c8d9e": {
+    "items": [
+     {
+      "text": "The 4th bus each day does not stop at セトルインターナショナル."
+     },
+     {
+      "text": "Meeting point: 福岡空港 international / domestic terminals"
+     },
+     {
+      "text": "From 1 hour before departure, staff holding a 「Kyushu University」 sign provide guidance at the arrival gates."
+     },
+     {
+      "text": "Departure and arrival times may shift slightly depending on traffic conditions."
+     },
+     {
+      "text": "New international students of 病院・筑紫・大橋 campuses **cannot** use this bus."
+     }
+    ]
+   },
+   "8d9e0f": {
+    "text": "② Free Daily-Life Support Bus (dormitories ⇄ 九大学研都市駅)"
+   },
+   "9e0f1a": {
+    "text": "Route: 伊都協奏館 / ドミトリー1-3 / セトルインターナショナル ⇄ 九大学研都市駅 (the 学研都市 area has AEON Mall, さいとぴあ and other shopping and public facilities). Operating days: September 24, 25, 29 and 30, and October 1. New international students and their supporters may ride; first come, first served. The table below shows the next arrival time in real time."
+   },
+   "0f1a2b": {
+    "text": "Seats on the bus are limited and allocated first come, first served; residents of ドミトリー2・3 board at ドミトリー1. Operating times and stop locations follow the official poster PDF."
+   },
+   "w1a2b3": {
+    "text": "③ Campus Wi-Fi (キャンパスWi-Fi / kitenet)"
+   },
+   "w2b3c4": {
+    "text": "For new international students whose network environment is not yet ready after arrival in Japan, 留学課 provides a **temporary Wi-Fi login ID and password** (sent in late September to the email address registered in the 入国支援システム). Wireless access points are available at many locations on Kyushu University campuses."
+   },
+   "w3c4d5": {
+    "text": "Validity of the temporary login credentials: **September 24, 2026 (Thu) – October 9, 2026 (Fri)**. The credentials can no longer be used after October 9; kitenet (Kyushu University student campus Wi-Fi) must be set up with the student's own **SSO-KID**."
+   },
+   "w4d5e6": {
+    "items": [
+     {
+      "title": "Confirm the SSO-KID",
+      "desc": "For degree students it appears on the **back of the student ID card**. Students without an ID card should consult the 学生係 of their faculty or graduate school (asking for the registration code at the same time)."
+     },
+     {
+      "title": "Prepare the required items",
+      "desc": "Registration code + an email address other than @s.kyushu-u.ac.jp."
+     },
+     {
+      "title": "Activate the SSO-KID",
+      "desc": "Activate on the official website: https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
+     },
+     {
+      "title": "Complete the initial kitenet setup",
+      "desc": "Official setup guides are provided for iOS / Android / other OS."
+     }
+    ]
+   },
+   "w5e6f7": {
+    "items": [
+     {
+      "text": "SSO-KID activation page",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
+     },
+     {
+      "text": "Campus Wi-Fi official page",
+      "url": "https://notepm.jp/sharing/751f751c-dbec-4cf0-a5b9-0e3a396b467d"
+     }
+    ]
+   },
+   "1a2b3c": {
+    "text": "④ Administrative Procedures and Banking Guidance (essential for dormitory residents)"
+   },
+   "2b3c4d": {
+    "text": "For new international students arriving from overseas and moving into student dormitories, 留学課 handles administrative procedures such as residence registration and 国民健康保険 on their behalf, and explains 国民年金, マイナンバーカード and bank account opening (ゆうちょ / 福岡銀行 / 西日本シティ銀行). **Attendance at both the 1st and 2nd guidance sessions is required.** Venue: 日本ジョナサン・KS・チョイ文化館 (campus map No.79). Items to bring: passport, 在留カード, black ballpoint pen. The attendance date must be reserved in the 入国支援システム (Pre-Arrival Assistance) (the form appears only after dormitory move-in procedures are completed); **no reminder email is sent**, so the reserved date must be noted and confirmed on the status page. The date of the 1st guidance session may not be earlier than the day of move-in. Before the day of attendance, photographs of the passport photo page and the landing permission stamp page must be sent to the 留学課 email address (if the photo page has already been uploaded to the 入国支援システム, submitting only the landing permission stamp page is sufficient). Those unable to attend due to schedule conflicts may complete the procedures independently using the multilingual instructional videos produced by Q-Mate."
+   },
+   "c0d1e2": {
+    "headers": [
+     "Group",
+     "1st guidance",
+     "2nd guidance"
+    ],
+    "rows": [
+     [
+      "A",
+      "9/24(Thu) 15:00-15:30",
+      "9/29(Tue) 13:00-14:00"
+     ],
+     [
+      "B",
+      "9/25(Fri) 13:00-13:30",
+      "9/29(Tue) 13:00-14:00"
+     ],
+     [
+      "C",
+      "9/28(Mon) 10:00-10:30",
+      "9/30(Wed) 13:00-14:00"
+     ],
+     [
+      "D",
+      "9/29(Tue) 10:00-10:30",
+      "10/1(Thu) 13:00-14:00"
+     ],
+     [
+      "E",
+      "9/30(Wed) 10:00-10:30",
+      "10/2(Fri) 13:00-14:00"
+     ],
+     [
+      "F",
+      "10/1(Thu) 10:00-10:30",
+      "10/5(Mon) 12:30-13:30"
+     ],
+     [
+      "G",
+      "10/2(Fri) 10:00-10:30",
+      "10/6(Tue) 12:00-13:00"
+     ]
+    ]
+   },
+   "d1e2f0": {
+    "text": "About 18 minutes on foot from 協奏館, and about 5-7 minutes on foot from ドミトリー. Capacity is limited, and the desired date may not be selectable. When residence registration is carried out by 留学課 on the student's behalf, the 特定在留カード (a card integrating the マイナンバーカード and the 在留カード; free of charge at residence registration on new entry, **not mandatory**) cannot be applied for at the same time."
+   },
+   "e2f0a3": {
+    "headers": [
+     "Group",
+     "1st guidance",
+     "2nd guidance"
+    ],
+    "rows": [
+     [
+      "A",
+      "9/28(Mon) 11:00-11:30",
+      "9/30(Wed) 15:00-16:00"
+     ],
+     [
+      "B",
+      "9/29(Tue) 11:00-11:30",
+      "10/1(Thu) 15:00-16:00"
+     ],
+     [
+      "C",
+      "9/30(Wed) 11:00-11:30",
+      "10/2(Fri) 15:00-16:00"
+     ]
+    ]
+   },
+   "f0a3b4": {
+    "text": "Same venue (文化館 No.79). About 13 minutes by bus (alighting at 九大ビッグオレンジ前), about 35 minutes on foot."
+   },
+   "5e6f0a": {
+    "text": "⑤ Orientation for New International Students (September 28)"
+   },
+   "6f0a1b": {
+    "text": "September 28 (Mon) 12:50-15:10, 椎木講堂, 伊都キャンパス. Lectures by 西警察署, 福岡出入国在留管理局 and 福岡市消防局. **Attendance is required for new international students** (except when it conflicts with other guidance sessions). Advance registration required: **registration form** https://forms.cloud.microsoft/r/nCDDWic1U5"
+   },
+   "a3b4c5": {
+    "headers": [
+     "Time",
+     "Programme"
+    ],
+    "rows": [
+     [
+      "12:50",
+      "Opening remarks"
+     ],
+     [
+      "12:55",
+      "Introduction to 「Q-Mate」"
+     ],
+     [
+      "13:05",
+      "Practical information for a new life in Fukuoka"
+     ],
+     [
+      "13:10",
+      "KUFSA (international student association)"
+     ],
+     [
+      "13:20",
+      "Introduction to on-campus counseling services"
+     ],
+     [
+      "13:25",
+      "Status of residence system (入管)"
+     ],
+     [
+      "13:35",
+      "15-minute break"
+     ],
+     [
+      "13:50",
+      "Safety and crime prevention (西警察署)"
+     ],
+     [
+      "14:30",
+      "Fire, emergency medical care and disaster preparedness (消防局)"
+     ],
+     [
+      "14:55",
+      "Library announcements"
+     ],
+     [
+      "15:00",
+      "Closing remarks"
+     ]
+    ]
+   },
+   "b4c5d6": {
+    "text": "Four other activities are held on the same day: a SIM card sales event (venue: 椎木講堂 Galleria; choose either of two sessions: ①10:30-12:30 before the orientation begins, ②15:10-17:00 after it ends; the official site recommends the morning session, as the afternoon may be crowded; **advance registration required**; plans, prices and registration method are given in the official poster), a library tour (中央図書館), an immigration consultation session (on-site consultation on status of residence), and a welcome party (17:00-18:00 @ BIG SKY, limited to new international students). Free shuttle buses run between 椎木講堂 and 病院・筑紫・大橋 campuses and 福岡市国際会館・井尻 (outward trip departing around 10:40-10:50, return trip departing around 18:20), first come, first served; the return trip requires presentation of the ticket issued on the outward trip. **The shuttle bus meeting points are the designated locations of each campus (see the official PDF) and are not 国際交流会館.**"
+   },
+   "5f0a6b": {
+    "text": "⑥ Campus Tour for New International Students (September 29 and 30)"
+   },
+   "6a7b8c": {
+    "headers": [
+     "Date",
+     "Time",
+     "Themed area"
+    ],
+    "rows": [
+     [
+      "9/29(Tue)",
+      "10:30-12:00",
+      "イーストゾーン (humanities)"
+     ],
+     [
+      "9/29(Tue)",
+      "15:00-16:30",
+      "ウエストゾーン (sciences)"
+     ],
+     [
+      "9/30(Wed)",
+      "10:30-12:00",
+      "ウエストゾーン (sciences)"
+     ],
+     [
+      "9/30(Wed)",
+      "15:00-16:30",
+      "イーストゾーン (humanities)"
+     ]
+    ]
+   },
+   "7b8c9d": {
+    "text": "Meeting point: センター6号館. Each session is limited to 20 persons, lasts about 90 minutes and involves walking throughout; participants are advised to wear shoes suitable for walking and to bring drinking water. The main language is English (Japanese also available). Registration across areas is possible (humanities students may also select a sciences session). Photographs are taken during the event and may be posted on SNS; those who object should inform Q-Mate in advance. Organized by Q-Mate; the registration form is on the official portal."
+   },
+   "8c9d0e": {
+    "text": "⑦ 福岡銀行 Account Opening Session (October 6, 7 and 8)"
+   },
+   "9d0e1f": {
+    "text": "福岡銀行 has an ATM on 伊都キャンパス and is one of the main banks of Fukuoka Prefecture. Participation in the session allows an account number and cash card to be **obtained on the spot**, without visiting a branch, and the account can be used directly for receiving scholarships and for rent 口座振替. 福岡銀行 and Kyushu University staff provide support in English and Japanese. **Venue: 日本ジョナサン・KS・チョイ文化館 (campus map No.79)**; choose one of the 1st to 3rd sessions (avoiding one's own class times)."
+   },
+   "0e1f2a": {
+    "items": [
+     {
+      "text": "Condition ①: residence registration on the 在留カード has been completed"
+     },
+     {
+      "text": "Condition ②: 3 months or more remaining in the period of stay (those with less must apply at a bank branch themselves)"
+     },
+     {
+      "text": "Registration: 入国支援システム → complete the session form + upload a photo of the 在留カード (the form is displayed only during the registration period)"
+     },
+     {
+      "text": "Registration is complete only upon receipt of a confirmation email from 留学課; those who do not receive one cannot attend, and cancellation is not possible in principle"
+     },
+     {
+      "text": "Seal: a シャチハタ is not accepted; a traditional seal using 朱肉 is required. A telephone number usable in Japan is also required."
+     },
+     {
+      "text": "Persons of US nationality must confirm their SSN (Social Security Number) in advance"
+     }
+    ]
+   },
+   "1f2a3b": {
+    "text": "⑧ ESP — Emergency Support Program for International Students"
+   },
+   "2a3b4c": {
+    "text": "For all Kyushu University international students holding 「留学」 status of residence, **enrollment is mandatory**. It provides 24-hour, 365-day medical assistance in Chinese, English and Japanese: hospital referrals, telephone interpretation during medical visits (with the doctor's permission), contacting family in the home country in emergencies, and arranging transport. **Note: ESP is not medical insurance** and does not reimburse medical expenses; hospitalization, treatment and examination costs must still be paid personally or covered by 国民健康保険."
+   },
+   "3b4c5d": {
+    "headers": [
+     "Years of study",
+     "Fee",
+     "Applicable to"
+    ],
+    "rows": [
+     [
+      "1",
+      "1,650 yen",
+      "Non-regular students, research students, etc."
+     ],
+     [
+      "2",
+      "3,300 yen",
+      "Master's course"
+     ],
+     [
+      "3",
+      "4,950 yen",
+      "Doctoral course"
+     ],
+     [
+      "4",
+      "6,600 yen",
+      "Undergraduate"
+     ]
+    ]
+   },
+   "4c5d6e": {
+    "items": [
+     {
+      "text": "Enrollment deadline: **October 30, 2026 (Fri)**."
+     },
+     {
+      "text": "Application: online via the official app; a Japanese mobile phone number is required, and application after arrival in Japan is recommended"
+     },
+     {
+      "text": "The app name differs among official documents (OSSMA / NEXUS); the latest handbook takes precedence"
+     },
+     {
+      "text": "Payment: credit card / convenience store (selected during online registration; an additional handling fee applies)."
+     }
+    ]
+   },
+   "m1h2i3": {
+    "text": "⑨ Practical Information and Health Resources"
+   },
+   "m2i3j4": {
+    "text": "The 留学課 「お役立ち情報」 page compiles useful resources for life in Fukuoka. **Seeking medical care is the issue new students encounter most often**: 伊都診療所 is located on 伊都キャンパス but is closed on weekends, and off-campus care requires reference to the **list of medical institutions providing foreign-language support** (May 2026 edition, including language-support levels A fluent / B daily conversation / C basic phrases)."
+   },
+   "m3j4k5": {
+    "headers": [
+     "Hospital",
+     "Location",
+     "Department",
+     "Language support"
+    ],
+    "rows": [
+     [
+      "伊都診療所 (on campus)",
+      "センター6号館 1F",
+      "Internal medicine / psychiatry",
+      "English level B"
+     ],
+     [
+      "西福岡病院",
+      "西区生の松原",
+      "General",
+      "Level A, 20 languages"
+     ],
+     [
+      "福岡記念病院",
+      "早良区西新",
+      "General",
+      "Level A"
+     ]
+    ]
+   },
+   "45ba0c": {
+    "text": "Consultation hours and contact details: 伊都診療所 on weekdays 10:00-12:30 / 14:00-16:30; 西福岡病院 0570-09-1331 (referral letter and reservation required; without a referral letter an additional 7,700円 is charged); 福岡記念病院 092-821-4731. Before seeking care outside the campus, confirm whether a reservation is required; 伊都診療所 is closed on weekends, so an off-campus hospital must be found."
+   },
+   "d966c7": {
+    "items": [
+     {
+      "text": "伊都診療所",
+      "url": "https://itoclinic.kyushu-u.ac.jp/"
+     },
+     {
+      "text": "福岡記念病院",
+      "url": "http://kinen.jp"
+     }
+    ]
+   },
+   "m4k5l6": {
+    "items": [
+     {
+      "text": "List of medical institutions for 伊都キャンパス (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E4%BC%8A%E9%83%BD%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-1.pdf"
+     },
+     {
+      "text": "List of medical institutions for 病院キャンパス (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%97%85%E9%99%A2%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-2.pdf"
+     },
+     {
+      "text": "List of medical institutions for 大橋キャンパス (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E5%A4%A7%E6%A9%8B%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"
+     },
+     {
+      "text": "List of medical institutions for 筑紫キャンパス (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%AD%91%E7%B4%AB%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"
+     }
+    ]
+   },
+   "2cbef1": {
+    "text": "Useful Resources and Links"
+   },
+   "m5l6m7": {
+    "items": [
+     {
+      "text": "Bringing personal medications into Japan"
+     },
+     {
+      "text": "Information on vaccine-preventable infectious diseases"
+     },
+     {
+      "text": "2026 CLUB & CIRCLE GUIDE"
+     },
+     {
+      "text": "2026 International Clubs Guide"
+     },
+     {
+      "text": "Global Gateways"
+     }
+    ]
+   },
+   "8b5893": {
+    "items": [
+     {
+      "text": "Bringing personal medications into Japan",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/kojinyunyu/topics/tp010401-1.html"
+     },
+     {
+      "text": "Information on vaccine-preventable infectious diseases",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/visitor.html"
+     },
+     {
+      "text": "2026 CLUB & CIRCLE GUIDE",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-CLUB-CIRCLE-GUIDE.pdf"
+     },
+     {
+      "text": "2026 International Clubs Guide",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-INTL-CLUB-AND-CIRCLE%E3%80%80%E8%8B%B1%E8%AA%9E.pdf"
+     },
+     {
+      "text": "Global Gateways",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/"
+     }
+    ]
+   },
+   "5d6e7f": {
+    "text": "⑩ Contact Information and Consultation"
+   },
+   "6e7f8a": {
+    "items": [
+     {
+      "text": "Consultation before arrival in Japan: 留学課 imm.s@jimu.kyushu-u.ac.jp"
+     },
+     {
+      "text": "Daily consultation: LINE 「Consultation Desk」 (answered by Q-Mate)"
+     },
+     {
+      "text": "Q-Mate Instagram: @_qmate"
+     },
+     {
+      "text": "Q-Mate official website: compilation of FAQ and life information"
+     }
+    ]
+   },
+   "0e969c": {
+    "items": [
+     {
+      "text": "Daily consultation after arrival in Japan",
+      "url": "https://lin.ee/EiQqccP"
+     },
+     {
+      "text": "Q-Mate official website",
+      "url": "https://studentassistantqu.wixsite.com/q-mate/about"
+     }
+    ]
+   },
+   "7e8f9a": {
+    "items": [
+     {
+      "text": "Official NotePM portal (Japanese)",
+      "url": "https://notepm.jp/sharing/fb0e6579-ad42-4aaa-90fb-9bcff4e253e3"
+     },
+     {
+      "text": "Official NotePM portal (English)",
+      "url": "https://notepm.jp/sharing/da6d736d-f9e1-44db-ba5e-580d2f1413b2"
+     },
+     {
+      "text": "",
+      "url": "https://www.instagram.com/_qmate/"
+     }
+    ]
+   },
+   "8f9a0b": {
+    "text": "**Source**: 留学課 NotePM 「新入留学生サポートポータル（伊都キャンパス）」2026-08-20 (including sub-pages and official PDF timetables). The latest official publication takes precedence."
    }
   },
   "ko": {
    "83b134": {
-    "text": "2026년 가을 입학자 지원 정보를 정리했습니다: 공항 셔틀, 기숙사 입주, Wi-Fi, 행정 수속, 오리엔테이션, 계좌 개설회, ESP. **먼저 일정 개요를 확인하세요.** 이후 필요한 항목을 펼치세요."
+    "text": "2026년 가을 입학생을 위한 모든 지원 정보: 공항 셔틀버스, 기숙사 입사, Wi-Fi, 행정 수속, オリエンテーション, 은행 계좌 개설회, ESP. **먼저 일정 개요를 확인한 뒤** 필요한 항목을 펼쳐 보시기 바랍니다."
+   },
+   "9c1a2e": {
+    "text": "이 글은 九州大学 国際部留学課가 **2026년 가을 신입 유학생**을 대상으로 제공하는 모든 공식 지원 정보를 정리한 것입니다. 원문 출처: 留学課 NotePM 포털 「新入留学生サポートポータル（伊都キャンパス）」, 게시일 2026-08-20. 각 행사의 대상과 날짜는 모두 공식적으로 한정되어 있으므로, 반드시 이 글에 표시된 내용을 기준으로 확인하시기 바랍니다."
+   },
+   "1b2c3d": {
+    "text": "일정 개요"
+   },
+   "a4b5c6": {
+    "headers": [
+     "날짜",
+     "행사",
+     "대상",
+     "비고"
+    ],
+    "rows": [
+     [
+      "9월 24일・25일",
+      "무료 공항 셔틀버스",
+      "모든 신입 유학생",
+      "선착순, 예약 불필요"
+     ],
+     [
+      "9월 24일・25일・29일・30일・10월 1일",
+      "무료 생활 지원 버스",
+      "신입 유학생 및 지원자",
+      "선착순, 예약 불필요"
+     ],
+     [
+      "9월 24일～10月상순",
+      "행정 수속・은행 안내",
+      "기숙사에 입사하는 해외 신입생",
+      "⚠️ 사전 신청 필수"
+     ],
+     [
+      "9월 28일",
+      "オリエン + 병행 4건",
+      "모든 신입 유학생 (기타 캠퍼스 포함)",
+      "⚠️ 신입 유학생 참가 필수"
+     ],
+     [
+      "9월 29일・30일",
+      "신입 유학생 캠퍼스 투어",
+      "모든 신입 유학생",
+      "신청 필요, 회당 20명"
+     ],
+     [
+      "10월 6일・7일・8일",
+      "福岡銀行 계좌 개설회",
+      "주소 등록을 마친 신입생",
+      "⚠️ 사전 신청 필수"
+     ]
+    ]
+   },
+   "2d3e4f": {
+    "text": "각 학생 기숙사의 입사 가능 시기는 募集要項（留学生用宿舎申請）6페이지 이후를 기준으로 합니다."
+   },
+   "3e4f5a": {
+    "text": "① 무료 공항 셔틀버스（福岡空港 → 伊都 각 기숙사）"
+   },
+   "4f5a6b": {
+    "text": "2026年9月24日・25日 이틀간, 留学課는 福岡空港에서 무료 셔틀버스를 운행하여 九大学研都市駅 / ドミトリー1-3 / 伊都協奏館 / セトルインターナショナル까지 운행합니다. **원칙적으로 신입 유학생 본인만** 탑승할 수 있습니다. 선착순・예약 불필요이며, 만석이면 탑승하지 못할 수 있습니다. 집결 장소에 **최소 15분 전**까지 도착하시기 바랍니다."
+   },
+   "5a6b7c": {
+    "headers": [
+     "출발 (福岡空港)",
+     "1편",
+     "2편",
+     "3편",
+     "4편"
+    ],
+    "rows": [
+     [
+      "国際線ターミナル",
+      "9:00",
+      "11:30",
+      "15:00",
+      "18:00"
+     ],
+     [
+      "国内線ターミナル",
+      "9:25",
+      "11:55",
+      "15:25",
+      "18:25"
+     ]
+    ]
+   },
+   "6b7c8d": {
+    "headers": [
+     "도착",
+     "1편",
+     "2편",
+     "3편",
+     "4편"
+    ],
+    "rows": [
+     [
+      "九大学研都市駅",
+      "9:55",
+      "12:35",
+      "16:05",
+      "19:05"
+     ],
+     [
+      "セトルインターナショナル",
+      "10:25",
+      "12:55",
+      "16:25",
+      "(정차하지 않음)"
+     ],
+     [
+      "ドミトリー1～3",
+      "10:45",
+      "13:15",
+      "16:45",
+      "19:30"
+     ],
+     [
+      "伊都協奏館",
+      "11:00",
+      "13:30",
+      "17:00",
+      "19:50"
+     ]
+    ]
+   },
+   "7c8d9e": {
+    "items": [
+     {
+      "text": "매일 4편은 セトルインターナショナル에 정차하지 않습니다."
+     },
+     {
+      "text": "집결: 福岡空港 국제선 / 국내선 터미널"
+     },
+     {
+      "text": "출발 1시간 전부터 「Kyushu University」 팻말을 든 담당자가 도착구에서 안내합니다."
+     },
+     {
+      "text": "출발・도착 시간은 교통 상황에 따라 앞뒤로 변동될 수 있습니다."
+     },
+     {
+      "text": "病院・筑紫・大橋 캠퍼스의 신입 유학생은 이 버스를 **이용할 수 없습니다**."
+     }
+    ]
+   },
+   "8d9e0f": {
+    "text": "② 무료 생활 지원 버스（기숙사 ⇄ 九大学研都市駅）"
+   },
+   "9e0f1a": {
+    "text": "운행 구간: 伊都協奏館 / ドミトリー1-3 / セトルインターナショナル ⇄ 九大学研都市駅（学研都市 일대에는 AEON Mall, さいとぴあ 등 쇼핑・공공 시설이 있습니다）. 운행일: 9月24日・25日・29日・30日、10月1日. 신입 유학생과 그 지원자가 탑승할 수 있으며, 선착순입니다. 아래 표는 다음 버스의 도착 시간을 실시간으로 표시합니다."
+   },
+   "0f1a2b": {
+    "text": "버스 좌석은 한정되어 있고 선착순입니다. ドミトリー2・3 거주자는 ドミトリー1에서 탑승하시기 바랍니다. 운행 시각과 정차 위치는 공식 포스터 PDF를 기준으로 합니다."
+   },
+   "w1a2b3": {
+    "text": "③ 캠퍼스 Wi-Fi（キャンパスWi-Fi / kitenet）"
+   },
+   "w2b3c4": {
+    "text": "일본 입국 후 네트워크 환경이 갖추어지지 않은 신입 유학생을 위해 留学課가 **임시 Wi-Fi 로그인 ID・비밀번호**를 제공합니다（9월 하순에 입국 지원 시스템에 등록된 메일 주소로 발송）. 九州大学 캠퍼스 내에는 무선 액세스 포인트가 여러 곳 있습니다."
+   },
+   "w3c4d5": {
+    "text": "임시 로그인 정보 유효 기간: **2026年9月24日(木)～10月9日(金)**. 10月9日 이후에는 사용할 수 없으며, 본인의 **SSO-KID**로 kitenet（九大生 캠퍼스 Wi-Fi）을 설정해야 합니다."
+   },
+   "w4d5e6": {
+    "items": [
+     {
+      "title": "자신의 SSO-KID 확인",
+      "desc": "정규 과정생은 **학생증 뒷면**에 기재되어 있습니다. 학생증이 없는 경우 소속 学部・学府의 学生課에 문의하시기 바랍니다 (등록 코드도 함께 문의) ."
+     },
+     {
+      "title": "서류 준비",
+      "desc": "등록 코드 + @s.kyushu-u.ac.jp 이외의 메일 주소."
+     },
+     {
+      "title": "SSO-KID 활성화",
+      "desc": "공식 사이트에서 활성화: https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
+     },
+     {
+      "title": "kitenet 초기 설정 완료",
+      "desc": "공식 사이트에서 iOS / Android / 기타 OS 설정 가이드를 제공합니다."
+     }
+    ]
+   },
+   "w5e6f7": {
+    "items": [
+     {
+      "text": "SSO-KID 활성화 페이지",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
+     },
+     {
+      "text": "캠퍼스 Wi-Fi 공식 페이지",
+      "url": "https://notepm.jp/sharing/751f751c-dbec-4cf0-a5b9-0e3a396b467d"
+     }
+    ]
+   },
+   "1a2b3c": {
+    "text": "④ 행정 수속・은행 안내（기숙사 입사자 필독）"
+   },
+   "2b3c4d": {
+    "text": "해외에서 입국하여 학생 기숙사에 입사하는 신입 유학생을 대상으로, 留学課가 주소 등록, 국민건강보험 등 행정 수속을 대행하고 국민연금, マイナンバーカード, 은행 계좌 개설（ゆうちょ / 福岡銀行 / 西日本シティ銀行）을 설명합니다. **제1회와 제2회 두 차례 안내에 반드시 참가해야 합니다**. 회장: 日本ジョナサン・KS・チョイ文化館（캠퍼스 지도 No.79）. 지참: 여권・재류카드・검은색 볼펜. 입국 지원 시스템（Pre-Arrival Assistance）에서 참가 날짜를 예약해야 합니다（기숙사 입주 수속 완료 후에야 양식이 표시됨）. **알림 메일은 발송되지 않으므로** 예약 날짜를 스스로 기억하고 상태 페이지에서 확인하시기 바랍니다. 제1회 안내 날짜는 입주 당일보다 앞설 수 없습니다. 참가 당일 전까지 여권 사진면과 입국 허가 스탬프면 사진을 留学課 메일로 발송해야 합니다（사진면을 입국 지원 시스템에 이미 업로드한 경우 입국 허가 스탬프면만 제출）. 일정이 맞지 않아 참가할 수 없는 경우, Q-Mate가 제작한 다국어 안내 영상을 참고하여 직접 수속할 수 있습니다."
+   },
+   "c0d1e2": {
+    "headers": [
+     "그룹",
+     "제1회 안내",
+     "제2회 안내"
+    ],
+    "rows": [
+     [
+      "A",
+      "9/24(목) 15:00-15:30",
+      "9/29(화) 13:00-14:00"
+     ],
+     [
+      "B",
+      "9/25(금) 13:00-13:30",
+      "9/29(화) 13:00-14:00"
+     ],
+     [
+      "C",
+      "9/28(월) 10:00-10:30",
+      "9/30(수) 13:00-14:00"
+     ],
+     [
+      "D",
+      "9/29(화) 10:00-10:30",
+      "10/1(목) 13:00-14:00"
+     ],
+     [
+      "E",
+      "9/30(수) 10:00-10:30",
+      "10/2(금) 13:00-14:00"
+     ],
+     [
+      "F",
+      "10/1(목) 10:00-10:30",
+      "10/5(월) 12:30-13:30"
+     ],
+     [
+      "G",
+      "10/2(금) 10:00-10:30",
+      "10/6(화) 12:00-13:00"
+     ]
+    ]
+   },
+   "d1e2f0": {
+    "text": "協奏館에서 도보 약 18분, ドミトリー에서 도보 약 5-7분. 인원이 한정되어 희망하는 날짜를 선택하지 못할 수 있습니다. 주소 등록을 留学課가 대행하는 경우, 특정재류카드（マイナンバーカード와 재류카드가 일체화된 카드; 신규 입국 시 주소 등록 시 무료, **의무 아님**）를 함께 신청할 수 없습니다."
+   },
+   "e2f0a3": {
+    "headers": [
+     "그룹",
+     "제1회 안내",
+     "제2회 안내"
+    ],
+    "rows": [
+     [
+      "A",
+      "9/28(월) 11:00-11:30",
+      "9/30(수) 15:00-16:00"
+     ],
+     [
+      "B",
+      "9/29(화) 11:00-11:30",
+      "10/1(목) 15:00-16:00"
+     ],
+     [
+      "C",
+      "9/30(수) 11:00-11:30",
+      "10/2(금) 15:00-16:00"
+     ]
+    ]
+   },
+   "f0a3b4": {
+    "text": "회장은 동일합니다（文化館 No.79）. 버스로 약 13분（九大ビッグオレンジ前 하차）, 도보 약 35분."
+   },
+   "5e6f0a": {
+    "text": "⑤ 신입 유학생 オリエンテーション（9月28日）"
+   },
+   "6f0a1b": {
+    "text": "9月28日(月) 12:50-15:10, 伊都 캠퍼스 椎木講堂. 西警察署, 福岡出入国在留管理局, 福岡市消防局가 참석하여 강연합니다. **신입 유학생 참가 필수**（다른 안내 일정과 겹치는 경우 제외）. 사전 등록 필요: **신청 양식** https://forms.cloud.microsoft/r/nCDDWic1U5"
+   },
+   "a3b4c5": {
+    "headers": [
+     "시간",
+     "순서"
+    ],
+    "rows": [
+     [
+      "12:50",
+      "개회사"
+     ],
+     [
+      "12:55",
+      "「Q-Mate」 소개"
+     ],
+     [
+      "13:05",
+      "후쿠오카 신생활 실용 정보"
+     ],
+     [
+      "13:10",
+      "KUFSA (유학생회)"
+     ],
+     [
+      "13:20",
+      "교내 심리상담 서비스 소개"
+     ],
+     [
+      "13:25",
+      "재류자격 제도 (입국관리국)"
+     ],
+     [
+      "13:35",
+      "휴식 15분"
+     ],
+     [
+      "13:50",
+      "안전과 방범 (西警察署)"
+     ],
+     [
+      "14:30",
+      "화재・응급・방재 (消防局)"
+     ],
+     [
+      "14:55",
+      "도서관 안내"
+     ],
+     [
+      "15:00",
+      "폐회사"
+     ]
+    ]
+   },
+   "b4c5d6": {
+    "text": "같은 날 4개의 행사가 더 있습니다: SIM 카드 판매회（회장: 椎木講堂 Galleria. 두 회차 중 하나를 선택: ①10:30-12:30 オリエン 시작 전, ②15:10-17:00 종료 후; 공식 사이트는 오전 회차를 권장하며, 오후는 혼잡할 수 있습니다. **사전 등록 필수**, 요금제・가격・등록 방법은 공식 포스터 참조）, 도서관 견학（中央図書館）, 입국관리 상담회（재류자격 현장 상담 가능）, 환영회（17:00-18:00 @ BIG SKY, 신입 유학생 한정）. 病院・筑紫・大橋 캠퍼스 및 福岡市国際会館・井尻에서는 椎木講堂까지 무료 셔틀버스가 왕복 운행됩니다（가편 약 10:40-10:50 출발, 복귀 약 18:20 출발）. 선착순이며, 복귀 시에는 가는 편에 받은 승차권을 제시해야 합니다. **셔틀버스 집결 장소는 각 캠퍼스 지정 위치이며（자세한 내용은 공식 PDF 참조）, 国際交流会館이 아닙니다.**"
+   },
+   "5f0a6b": {
+    "text": "⑥ 신입 유학생 캠퍼스 견학（9月29・30日）"
+   },
+   "6a7b8c": {
+    "headers": [
+     "날짜",
+     "시간",
+     "주제 구역"
+    ],
+    "rows": [
+     [
+      "9/29(화)",
+      "10:30-12:00",
+      "イーストゾーン (문과)"
+     ],
+     [
+      "9/29(화)",
+      "15:00-16:30",
+      "ウエストゾーン (이과)"
+     ],
+     [
+      "9/30(수)",
+      "10:30-12:00",
+      "ウエストゾーン (이과)"
+     ],
+     [
+      "9/30(수)",
+      "15:00-16:30",
+      "イーストゾーン (문과)"
+     ]
+    ]
+   },
+   "7b8c9d": {
+    "text": "집결: センター6号館. 회당 20명, 약 90분, 전 구간 도보 이동이므로 걷기 편한 신발을 신고 물을 지참하시기 바랍니다. 언어는 영어 중심입니다（일본어도 가능）. 구역을 넘어 신청할 수 있습니다（문과 학생도 이과 구역 선택 가능）. 행사 중 사진을 촬영하여 SNS에 게재할 수 있으므로, 원하지 않는 경우 Q-Mate에 미리 알려 주시기 바랍니다. Q-Mate 주최이며, 신청 양식은 공식 포털에 있습니다."
+   },
+   "8c9d0e": {
+    "text": "⑦ 福岡銀行 계좌 개설회（10月6・7・8日）"
+   },
+   "9d0e1f": {
+    "text": "福岡銀行은 伊都 캠퍼스 내에 ATM을 두고 있으며, 福岡県의 주요 은행 중 하나입니다. 계좌 개설회에 참가하면 **현장에서 계좌번호와 캐시카드를 받을 수 있어** 지점에 갈 필요가 없고, 장학금 수령과 월세 자동이체에 바로 사용할 수 있습니다. 福岡銀行과 九大 직원이 영어・일본어로 지원합니다. **회장: 日本Jonathan KS Choi文化館（캠퍼스 지도 No.79）**, 제1～3회 중 한 회차를 선택（자신의 수업 시간은 피해야 함）."
+   },
+   "0e1f2a": {
+    "items": [
+     {
+      "text": "조건①: 재류카드 주소 등록 완료"
+     },
+     {
+      "text": "조건②: 재류 기간이 3개월 이상 남아 있을 것 (부족한 경우 직접 은행 지점에서 수속해야 함)"
+     },
+     {
+      "text": "신청: 입국 지원 시스템 → 계좌 개설회 양식 작성 + 재류카드 사진 업로드 (양식은 신청 기간에만 표시됨)"
+     },
+     {
+      "text": "留学課의 확인 메일을 받아야 신청이 완료되며, 받지 못한 경우 참가할 수 없고 원칙적으로 취소할 수 없습니다."
+     },
+     {
+      "text": "인감: シャチハタ는 사용할 수 없고 朱肉를 사용하는 전통 인감이 필요하며, 일본에서 사용 가능한 전화번호도 필요합니다."
+     },
+     {
+      "text": "미국 국적자는 사전에 SSN (Social Security Number) 을 확인해야 합니다."
+     }
+    ]
+   },
+   "1f2a3b": {
+    "text": "⑧ ESP 외국인 유학생 등 긴급 안심 플랜"
+   },
+   "2a3b4c": {
+    "text": "「留学」 재류자격을 가진 九州大学의 모든 유학생을 대상으로 하며, **가입이 필수**입니다. 24시간・365일・중영일 3개 언어 의료 지원을 제공합니다: 병원 소개, 진료 시 전화 통역（의사 허가 필요）, 긴급 시 모국 가족 연락과 교통편 마련 등. **주의: ESP는 의료보험이 아니며** 의료비를 지급하지 않습니다. 입원・치료・검사 비용은 본인이 부담하거나 국민건강보험으로 처리해야 합니다."
+   },
+   "3b4c5d": {
+    "headers": [
+     "재학 연수",
+     "비용",
+     "해당"
+    ],
+    "rows": [
+     [
+      "1년",
+      "1,650엔",
+      "비정규생・연구생 등"
+     ],
+     [
+      "2년",
+      "3,300엔",
+      "석사 과정"
+     ],
+     [
+      "3년",
+      "4,950엔",
+      "박사 후기 과정"
+     ],
+     [
+      "4년",
+      "6,600엔",
+      "학부"
+     ]
+    ]
+   },
+   "4c5d6e": {
+    "items": [
+     {
+      "text": "가입 마감: **2026年10월 30일(금)**."
+     },
+     {
+      "text": "신청: 공식 App에서 온라인 신청, 일본 휴대전화 번호 필요, 입국 후 신청을 권장합니다."
+     },
+     {
+      "text": "App 이름은 공식 자료마다 기재가 다르며 (OSSMA / NEXUS) , 최신 매뉴얼을 기준으로 합니다."
+     },
+     {
+      "text": "결제: 신용카드 / 편의점 (온라인 등록 시 선택, 수수료 별도) ."
+     }
+    ]
+   },
+   "m1h2i3": {
+    "text": "⑨ 실용 정보・의료 건강 리소스"
+   },
+   "m2i3j4": {
+    "text": "留学課 「お役立ち情報」 페이지에는 후쿠오카 생활에 유용한 자료가 정리되어 있습니다. **진료는 신입생이 가장 자주 겪는 문제입니다**: 伊都 캠퍼스 내에 伊都診療所가 있지만 주말에는 운영하지 않으며, 교외 진료 시에는 **외국어 대응 의료기관 표**（2026年5月版, 대응 언어 등급 A 유창 / B 일상 / C 단편적）를 참고해야 합니다."
+   },
+   "m3j4k5": {
+    "headers": [
+     "병원",
+     "위치",
+     "진료과",
+     "언어 대응"
+    ],
+    "rows": [
+     [
+      "伊都診療所 (교내)",
+      "センター6号館 1F",
+      "내과・정신과",
+      "영어 B급"
+     ],
+     [
+      "西福岡病院",
+      "西区生の松原",
+      "종합",
+      "A급・20개 언어"
+     ],
+     [
+      "福岡記念病院",
+      "早良区西新",
+      "종합",
+      "A급"
+     ]
+    ]
+   },
+   "45ba0c": {
+    "text": "진료 시간과 연락처: 伊都診療所 평일 10:00-12:30 / 14:00-16:30; 西福岡病院 0570-09-1331（소개장・예약제, 소개장이 없으면 7,700円 별도）; 福岡記念病院 092-821-4731. 교외 진료 전에 확인할 사항: 예약이 필요한지 여부; 伊都診療所는 주말에 운영하지 않으므로 다른 교외 병원을 찾아야 합니다."
+   },
+   "d966c7": {
+    "items": [
+     {
+      "text": "伊都診療所",
+      "url": "https://itoclinic.kyushu-u.ac.jp/"
+     },
+     {
+      "text": "福岡記念病院",
+      "url": "http://kinen.jp"
+     }
+    ]
+   },
+   "m4k5l6": {
+    "items": [
+     {
+      "text": "伊都 캠퍼스 의료기관 표 (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E4%BC%8A%E9%83%BD%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-1.pdf"
+     },
+     {
+      "text": "病院 캠퍼스 의료기관 표 (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%97%85%E9%99%A2%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-2.pdf"
+     },
+     {
+      "text": "大橋 캠퍼스 의료기관 표 (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E5%A4%A7%E6%A9%8B%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"
+     },
+     {
+      "text": "筑紫 캠퍼스 의료기관 표 (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%AD%91%E7%B4%AB%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"
+     }
+    ]
+   },
+   "2cbef1": {
+    "text": "실용 자료와 링크"
+   },
+   "m5l6m7": {
+    "items": [
+     {
+      "text": "개인용 의약품 일본 반입"
+     },
+     {
+      "text": "백신으로 예방하는 감염병 정보"
+     },
+     {
+      "text": "2026 CLUB & CIRCLE GUIDE"
+     },
+     {
+      "text": "2026 International Clubs Guide"
+     },
+     {
+      "text": "Global Gateways"
+     }
+    ]
+   },
+   "8b5893": {
+    "items": [
+     {
+      "text": "개인용 의약품 일본 반입",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/kojinyunyu/topics/tp010401-1.html"
+     },
+     {
+      "text": "백신으로 예방하는 감염병 정보",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/visitor.html"
+     },
+     {
+      "text": "2026 CLUB & CIRCLE GUIDE",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-CLUB-CIRCLE-GUIDE.pdf"
+     },
+     {
+      "text": "2026 International Clubs Guide",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-INTL-CLUB-AND-CIRCLE%E3%80%80%E8%8B%B1%E8%AA%9E.pdf"
+     },
+     {
+      "text": "Global Gateways",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/"
+     }
+    ]
+   },
+   "5d6e7f": {
+    "text": "⑩ 연락처와 상담"
+   },
+   "6e7f8a": {
+    "items": [
+     {
+      "text": "입국 전 상담: 留学課 imm.s@jimu.kyushu-u.ac.jp"
+     },
+     {
+      "text": "일상 상담: LINE 「Consultation Desk」 (Q-Mate 답변)"
+     },
+     {
+      "text": "Q-Mate Instagram: @_qmate"
+     },
+     {
+      "text": "Q-Mate 공식 사이트: 질의응답과 생활 정보 정리"
+     }
+    ]
+   },
+   "0e969c": {
+    "items": [
+     {
+      "text": "입국 후 일상 상담",
+      "url": "https://lin.ee/EiQqccP"
+     },
+     {
+      "text": "Q-Mate 공식 사이트",
+      "url": "https://studentassistantqu.wixsite.com/q-mate/about"
+     }
+    ]
+   },
+   "7e8f9a": {
+    "items": [
+     {
+      "text": "공식 NotePM 포털 (일본어)",
+      "url": "https://notepm.jp/sharing/fb0e6579-ad42-4aaa-90fb-9bcff4e253e3"
+     },
+     {
+      "text": "공식 NotePM 포털 (영어)",
+      "url": "https://notepm.jp/sharing/da6d736d-f9e1-44db-ba5e-580d2f1413b2"
+     },
+     {
+      "text": "",
+      "url": "https://www.instagram.com/_qmate/"
+     }
+    ]
+   },
+   "8f9a0b": {
+    "text": "**원문 출처**: 留学課 NotePM「新入留学生サポートポータル（伊都キャンパス）」2026-08-20（각 하위 페이지와 공식 PDF 시간표 포함）. 정보는 공식 최신 발표를 기준으로 합니다."
    }
   }
  },
