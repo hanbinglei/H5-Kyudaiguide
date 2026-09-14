@@ -1394,18 +1394,270 @@ window.ARTICLES_BODY_I18N = {
  },
  "guide-bank": {
   "ja": {
+   "637370": {
+    "text": "自分で福岡銀行の店舗で口座を開設する場合も、同様に**事前の予約が必須**です。予約なしの直接来店は受け付けていません。"
+   },
+   "908368": {
+    "text": "各銀行の特徴"
+   },
    "a43466": {
-    "text": "口座開設・家賃や学費の支払い・クレジットカード・海外送金 —— 実際の手続き順に構成しています。**まず「銀行に行く前に」をお読みください**。印鑑と営業時間が最も多いつまずきです。"
+    "text": "口座開設、家賃・学費の納付、クレジットカードの申込み、海外への送金——実際の手続きの順番に沿って構成しています。**まず「銀行に行く前に」の節をお読みになることをおすすめします**。印鑑と営業時間が最もよくある2つの問題です。"
+   },
+   "9fb1a4": {
+    "text": "銀行に行く前に：印鑑・オリエンテーション・営業時間"
+   },
+   "930ced": {
+    "text": "銀行口座の開設には必ず印鑑が必要です（**シャチハタは不可**）。来日前に必ず個人印鑑をご用意ください。印鑑がなければ窓口で口座を開設することができません。【入境准备】参照"
+   },
+   "9d3912": {
+    "text": "銀行オリエンテーション（口座開設説明会）は留学手続きの中でも重要な一環です。来日前に申し込みが完了しているかご確認ください。通常の入学オリエンテーションとは別のイベントであり、それぞれ別に予約する必要があります。学校の回を逃した場合、その後は通常、自分で銀行の窓口で手続きするしかなく、時間がかかります。"
+   },
+   "a34b68": {
+    "text": "銀行の営業時間"
+   },
+   "f68cb8": {
+    "text": "日本の銀行の窓口営業時間は通常**午前10:00から午後15:00まで**です。15:00以降はATM以外の窓口・カウンターでの業務は一切行えません。口座開設や送金の手続きは必ず営業時間内にお越しください。"
+   },
+   "49d42a": {
+    "text": "支払い：家賃・学費"
+   },
+   "9639d1": {
+    "text": "交換留学生やJTWプログラムの学生は、通常、家賃を銀行振込でのみ支払うことができ、現金での支払いは受け付けられません。口座開設後はキャッシュカード（現金カード）が発行され、ATMで入金や振込ができます。モバイルバンキングアプリは不要です。"
+   },
+   "52174c": {
+    "text": "注意：海外発行の銀行カードは日本の家賃の支払いに直接使用できません。ATMは通常午後5時以降利用できなくなるため、振込は営業時間内に済ませてください。"
+   },
+   "4e10c7": {
+    "text": "授業料の口座振替"
+   },
+   "340c3a": {
+    "text": "口座振替（自動引き落とし）を申し込んだのに、なかなか引き落とされない場合は、通常は学校の事務処理に時間がかかっているだけなので、しばらく待てば問題ありません。"
+   },
+   "beb008": {
+    "text": "クレジットカードの申請"
+   },
+   "9e4ae1": {
+    "text": "日本のクレジットカードの発行基準は母国とは異なります。来日直後で信用情報がない状態で一般的なクレジットカードを申し込むと、審査に落ちやすい傾向があります。一方、PayPayカードは外国人にとって比較的利用しやすく、スマホアプリから申し込めて敷居も低いため、最初の1枚として検討できます。"
+   },
+   "13aee8": {
+    "text": "なお、クレジットカードの申込みは全体的に複雑で、多くのカードは日本での居住期間が6か月以上あり、在留期間にも十分な残りがあることが審査通過の条件です。また、学生の場合は承認される限度額が通常それほど高くなく、日常の少額決済やクレジットヒストリーの積み上げに利用するのが主な目的となります。"
+   },
+   "299ec9": {
+    "text": "ゆうちょ銀行（郵便局の銀行）"
+   },
+   "7f6376": {
+    "text": "開設のハードルが最も低く、通常は在留カードと学生証があれば口座を開設できます。在留期間が6か月未満でも開設可能です（一部機能に制限あり）。全国に店舗があり、ATM手数料も比較的安価です。国費奨学金を受給している方は、学校が一括開催する口座開設会で口座を開設する必要があり、自分で郵便局へ行って手続きすることはできません。JASSOの学習奨励費もゆうちょ口座での受取りが指定されています。"
+   },
+   "d6d8e4": {
+    "text": "注意：来日から6か月未満の間、海外からゆうちょ口座への入金には比較的高い手数料がかかります（約7,500円/回）。高額な海外送金の予定がある場合は、事前に計画を立て、複数の方法を比較することをおすすめします。"
+   },
+   "6f4401": {
+    "text": "福岡銀行"
+   },
+   "767f70": {
+    "text": "福岡県内で主流の銀行です。口座開設には印鑑（シャチハタ不可）、在留カード、パスポートが必要です。窓口サービスは現在主に日本語での対応となっており、一部の支店では短期滞在の留学生の口座開設に慎重な場合があるため、事前に電話で確認することをおすすめします。"
+   },
+   "e9546f": {
+    "text": "学校のオリエンテーションを逃してしまった場合や、来日後に自分で先に口座を開設したい場合は、福岡銀行の公式サイトで予約が必要です。少なくとも1〜2週間前までに手続きすることをおすすめします。学校のオリエンテーションで一括開設した口座の場合、その場で渡されるのは通常キャッシュカードのみです。通帳が必要な場合は、別途自分で銀行の窓口で手続きする必要があります。"
+   },
+   "c93498": {
+    "text": "西日本シティ銀行（西福岡銀行）"
+   },
+   "7e1a3e": {
+    "text": "口座開設には印鑑と在留カードが必要です。申込書に記入する住所（漢字）は本人が記入しなければならず、代筆はできません。手続き前に自分の住所の書き方を確認しておいてください。西日本シティ銀行（西福岡銀行）は通常、予約なしで当日直接来店できます。ただし、手続きはすべて**日本語での対応が必要**です。日本語に不安がある場合は、日本語が話せる人の同伴が必要です。"
+   },
+   "b65e5c": {
+    "text": "口座開設の必要書類一覧"
+   },
+   "77b3a2": {
+    "text": "後日、海外からの送金を受け取る場合、銀行からマイナンバーの提示を求められます。マイナンバーカードをまだ取得していない場合は、マイナンバーが記載された住民票の写しで代替できます。【在留手续】参照"
+   },
+   "35e7b3": {
+    "text": "学校の一括口座開設会：対象は福岡銀行のみ"
+   },
+   "66223f": {
+    "text": "学校は新入生が到着した後に「福岡銀行口座開設会」を開催し、その場で一括して口座開設の手続きを行います。自分で予約や問い合わせをする手間が省けます。ただし、対象は福岡銀行のみです。ゆうちょや西日本シティの口座を開設したい場合は、自分で店舗に行く必要があります。"
+   },
+   "9958c0": {
+    "text": "**事前の申し込みが必要**です。入国支援システム（Pre-Arrival System）から予約してください。同じ回では通常、行政手続きの案内も行われるため、まとめて済ませるのが最も効率的です。定員や開催回数は学校からの案内に従ってください。"
    }
   },
   "en": {
+   "637370": {
+    "text": "When opening an account at a 福岡銀行 branch independently, **an appointment is also required first**; walk-ins are not accepted."
+   },
+   "908368": {
+    "text": "Features of Major Banks"
+   },
    "a43466": {
-    "text": "Opening an account, paying rent and tuition, credit cards, sending money home - arranged in the order you will actually handle them. **Read \"Before you go to the bank\" first**: the seal and the opening hours are the two most common stumbling blocks."
+    "text": "Opening an account, paying rent and tuition, applying for a credit card, and remitting money home are arranged in the actual order of the procedures. **Reading the \"Before Going to the Bank\" section first is recommended**, as the seal (hanko) and business hours are the two most common issues."
+   },
+   "9fb1a4": {
+    "text": "Before Going to the Bank: Hanko Seal, Orientation, and Business Hours"
+   },
+   "930ced": {
+    "text": "Opening a bank account always requires a personal seal (hanko); **shachihata stamps are not acceptable**. Prepare a personal seal before arriving in Japan, or an account cannot be opened at the counter. See 【入境准备】"
+   },
+   "9d3912": {
+    "text": "The bank orientation (account opening information session) is an important step in the study-abroad procedures; check whether registration has been completed before arriving in Japan. It is a different event from the regular entrance orientation and requires a separate reservation. If the session hosted by the university is missed, the account must usually be opened in person at a bank counter, which takes considerable time."
+   },
+   "a34b68": {
+    "text": "Bank Business Hours"
+   },
+   "f68cb8": {
+    "text": "Counter service at Japanese banks is generally available from **10:00 to 15:00**. After 15:00, no window or counter services are provided except ATMs; account opening, remittance, and other procedures must be completed during business hours."
+   },
+   "49d42a": {
+    "text": "Paying Money: Rent and Tuition"
+   },
+   "9639d1": {
+    "text": "Exchange and JTW program students can usually pay rent only by bank transfer, as cash is not accepted. Once the account is opened, a cash card is issued, which can be used to deposit money and make transfers at an ATM; no mobile banking app is required."
+   },
+   "52174c": {
+    "text": "Note: bank cards issued overseas cannot be used directly to pay Japanese rent. ATMs generally close after 5 p.m., so transfers should be completed during working hours."
+   },
+   "4e10c7": {
+    "text": "Direct Debit for Tuition (口座振替)"
+   },
+   "340c3a": {
+    "text": "If automatic withdrawal (口座振替) has been applied for but the charge is slow to appear, the delay is usually caused by the university's administrative processing; simply wait."
+   },
+   "beb008": {
+    "text": "Credit Card Application"
+   },
+   "9e4ae1": {
+    "text": "The criteria for issuing credit cards in Japan differ from those overseas; applying for a traditional credit card shortly after arrival with no credit history is likely to be rejected. By comparison, the PayPay Card is friendlier to foreigners; it can be applied for in the mobile app with a lower threshold and may be considered as a first credit card."
+   },
+   "13aee8": {
+    "text": "Note: credit card applications are generally complicated, and most cards require residence in Japan for more than 6 months with sufficient remaining period of stay to pass screening; limits approved for students are usually low, suiting everyday small purchases and credit history building."
+   },
+   "299ec9": {
+    "text": "ゆうちょ銀行 (Japan Post Bank)"
+   },
+   "7f6376": {
+    "text": "It has the lowest opening threshold: an account can usually be opened with a residence card and student ID, even with less than 6 months of residence status (some functions are restricted). Branches are found nationwide and ATM fees are low. Recipients of the government (MEXT) scholarship must open their accounts on-site at the 口座開設会 (account opening session) organized by the university and cannot apply at a post office on their own; the JASSO Learning Encouragement Scholarship is also designated to be received in a ゆうちょ account."
+   },
+   "d6d8e4": {
+    "text": "Note: while in Japan for less than 6 months, receiving remittances from overseas into a ゆうちょ account incurs high fees (about 7500 yen per transfer). For large overseas remittances, plan ahead and compare options."
+   },
+   "6f4401": {
+    "text": "福岡銀行 (Fukuoka Bank)"
+   },
+   "767f70": {
+    "text": "The main local bank in Fukuoka. Opening an account requires a seal (hanko; shachihata stamps not acceptable), residence card, and passport. Counter service is currently provided mainly in Japanese, and some branches may be cautious about opening accounts for short-term international students; calling ahead to confirm is recommended."
+   },
+   "e9546f": {
+    "text": "If the university's orientation is missed, or an account is wanted earlier after arrival, an appointment must be made on the Fukuoka Bank website, ideally at least 1-2 weeks in advance. Accounts opened through the university's orientation usually only come with a cash card at the session; for a passbook (通帳), a separate visit to a bank branch is required."
+   },
+   "c93498": {
+    "text": "西日本シティ銀行 (Nishi-Nippon City Bank)"
+   },
+   "7e1a3e": {
+    "text": "Opening an account requires a seal (hanko) and residence card. The address (in kanji) on the application form must be written by the applicant in person and cannot be written by proxy; confirm how to write the address before applying. At 西日本シティ銀行 (Nishi-Nippon City Bank), walk-ins are usually accepted on the same day without an appointment; however, the entire procedure **must be conducted in Japanese**, and if not proficient in Japanese, an accompanying person who speaks Japanese is required."
+   },
+   "b65e5c": {
+    "text": "Checklist of Documents for Opening an Account"
+   },
+   "77b3a2": {
+    "text": "To receive remittances from overseas later, the bank requires the My Number (マイナンバー). If the My Number card has not been issued yet, a certificate of residence (住民票) with the My Number recorded on it can be submitted instead. See 【在留手续】"
+   },
+   "35e7b3": {
+    "text": "The University's Group Account Opening Session: Only 福岡銀行"
+   },
+   "66223f": {
+    "text": "After new students arrive, the university holds a \"福岡銀行口座開設会\" (Fukuoka Bank account opening session) where accounts are opened collectively on-site, saving the trouble of making an appointment and arranging communication individually. However, it covers only 福岡銀行; to open an account at ゆうちょ銀行 or 西日本シティ銀行, students must visit a branch on their own."
+   },
+   "9958c0": {
+    "text": "**Advance registration is required**, via the 入国支援システム (Pre-Arrival System). The same session usually also includes guidance on administrative procedures, so completing both at once saves the most time. Availability and sessions are subject to the university's notices."
    }
   },
   "ko": {
+   "637370": {
+    "text": "직접 福岡銀行 지점에서 계좌를 개설하는 경우에도 마찬가지로 **사전 예약이 반드시 필요**하며, 예약 없이 방문하면 안 됩니다."
+   },
+   "908368": {
+    "text": "은행별 특징"
+   },
    "a43466": {
-    "text": "계좌 개설, 월세·학비 납부, 신용카드, 해외 송금 —— 실제 수속 순서대로 구성했습니다. **먼저 「은행에 가기 전에」를 읽어 주세요.** 도장과 영업시간이 가장 흔한 걸림돌입니다."
+    "text": "계좌 개설, 집세·학비 납부, 신용카드 발급, 본국 송금까지 실제로 진행하는 순서에 맞춰 구성했습니다. **「은행 방문 전」 항목을 먼저 읽어 보시기를 권합니다.** 인감과 영업 시간이 가장 자주 겪는 두 가지 문제입니다."
+   },
+   "9fb1a4": {
+    "text": "은행 방문 전: 인감·orientation·영업 시간"
+   },
+   "930ced": {
+    "text": "은행 계좌 개설에는 반드시 인감이 필요합니다(**シャチハタ 불가**). 일본 도착 전에 개인 인감을 반드시 준비해야 하며, 준비하지 않으면 창구에서 계좌를 개설할 수 없습니다. 【입국 준비】 참조"
+   },
+   "9d3912": {
+    "text": "은행 orientation(계좌 개설 설명회)은 유학 수속에서 비교적 중요한 과정입니다. 일본 도착 전에 신청했는지 확인하시기 바랍니다. 일반 입학 orientation과는 다른 행사이므로 각각 따로 예약해야 합니다. 학교 일정을 놓치면 이후에는 보통 직접 은행 창구에서 처리해야 하므로 시간이 많이 걸립니다."
+   },
+   "a34b68": {
+    "text": "은행 영업 시간"
+   },
+   "f68cb8": {
+    "text": "일본 은행의 창구 영업 시간은 보통 **오전 10:00부터 오후 15:00까지**입니다. 15:00 이후에는 ATM을 제외한 모든 창구 업무가 종료되므로, 계좌 개설이나 송금 등은 반드시 영업 시간 내에 방문하시기 바랍니다."
+   },
+   "49d42a": {
+    "text": "납부: 집세·학비"
+   },
+   "9639d1": {
+    "text": "교환학생과 JTW 프로그램 학생은 보통 은행 송금으로만 집세를 납부할 수 있으며 현금은 받지 않습니다. 계좌가 개설되면 cash card(현금 카드)를 받을 수 있으며, ATM에서 입금·송금이 가능해 모바일 뱅킹 앱을 사용할 필요가 없습니다."
+   },
+   "52174c": {
+    "text": "주의: 해외에서 발급된 은행 카드는 일본 집세 납부에 직접 사용할 수 없습니다. ATM은 보통 오후 5시 이후에 닫히므로 송금은 업무 시간 내에 완료하시기 바랍니다."
+   },
+   "4e10c7": {
+    "text": "授業料 자동이체(口座振替)"
+   },
+   "340c3a": {
+    "text": "계좌 자동이체(口座振替)를 신청했는데도 좀처럼 출금되지 않는다면, 대개 학교 행정 처리 속도가 느린 것이 원인이므로 기다리면 됩니다."
+   },
+   "beb008": {
+    "text": "신용카드 신청"
+   },
+   "9e4ae1": {
+    "text": "일본 신용카드 발급 기준은 본국과 다릅니다. 도착 직후 신용 기록이 없으면 일반 신용카드 신청이 거절되기 쉽습니다. 반면 PayPay 카드는 외국인에게 비교적 친절하며, 모바일 앱에서 신청할 수 있고 문턱이 낮아 첫 번째 신용카드로 고려할 만합니다."
+   },
+   "13aee8": {
+    "text": "참고로, 신용카드 신청 절차는 전반적으로 복잡합니다. 대부분의 카드는 일본 거주 기간이 6개월 이상이고 재류 기간이 충분히 남아 있어야 심사를 통과할 수 있습니다. 학생 신분으로 승인되는 한도는 보통 낮으며, 주로 일상적인 소액 결제와 신용 기록 쌓기에 사용됩니다."
+   },
+   "299ec9": {
+    "text": "ゆうちょ銀行(우체국 은행)"
+   },
+   "7f6376": {
+    "text": "개설 문턱이 가장 낮아, 보통 재류카드와 학생증만 있으면 계좌를 개설할 수 있으며 재류 기간이 6개월 미만이어도 개설이 가능합니다(일부 기능 제한). 점포가 전국에 있고 ATM 수수료가 낮습니다. 국비 장학금 수혜자는 학교가 주최하는 口座開設会 현장에서 계좌를 개설해야 하며, 직접 우체국에서 처리할 수 없습니다. JASSO 학습 장려비도 ゆうちょ 계좌로 받도록 지정되어 있습니다."
+   },
+   "d6d8e4": {
+    "text": "주의: 일본 도착 후 6개월 미만인 기간에는 해외에서 ゆうちょ 계좌로 송금하면 수수료가 높게 부과됩니다(약 7500엔/회). 대규모 해외 송금이 필요하다면 미리 계획하고 여러 방법을 비교하시기 바랍니다."
+   },
+   "6f4401": {
+    "text": "福岡銀行(후쿠오카 은행)"
+   },
+   "767f70": {
+    "text": "후쿠오카 지역의 대표 은행입니다. 계좌 개설에는 인감(シャチハタ 불가), 재류카드, 여권이 필요합니다. 창구 서비스는 현재 대부분 일본어로 이루어지며, 일부 지점은 단기 체류 유학생의 계좌 개설을 신중하게 여길 수 있으므로 먼저 전화로 확인하시기 바랍니다."
+   },
+   "e9546f": {
+    "text": "학교 orientation을 놓쳤거나 일본 도착 후 직접 계좌를 미리 개설하려면 福岡銀行 공식 사이트에서 예약해야 하며, 최소 1-2주 전에 신청하시기 바랍니다. 학교 orientation을 통해 일괄 개설한 계좌는 현장에서 보통 은행 카드(cash card)만 교부됩니다. 통장(通帳)이 필요하면 직접 은행 지점에 방문하여 별도로 신청해야 합니다."
+   },
+   "c93498": {
+    "text": "西日本シティ銀行(서일본 시티 은행)"
+   },
+   "7e1a3e": {
+    "text": "계좌 개설에는 인감과 재류카드가 필요합니다. 신청서의 주소(한자)는 본인이 직접 작성해야 하며 대필할 수 없으므로, 신청 전에 본인 주소의 한자 표기를 확인하시기 바랍니다. 西日本シティ銀行(서일본 시티 은행)은 보통 예약 없이 당일 방문할 수 있습니다. 단, 모든 절차는 **반드시 일본어로 진행**되어야 하며, 일본어가 능숙하지 않다면 일본어가 가능한 사람의 동행이 필요합니다."
+   },
+   "b65e5c": {
+    "text": "계좌 개설 서류 목록"
+   },
+   "77b3a2": {
+    "text": "이후 해외에서 송금을 받아야 한다면 은행에서 マイナンバー 제출을 요구합니다. 아직 マイナンバーカード를 받지 못한 경우, マイナンバー가 기재된 주민표(住民票)를 대신 제출할 수 있습니다. 【재류 절차】 참조"
+   },
+   "35e7b3": {
+    "text": "학교 일괄 개설회: 福岡銀行만 해당"
+   },
+   "66223f": {
+    "text": "학교는 신입생 도착 후 「福岡銀行口座開設会」를 한 번 개최하며, 현장에서 일괄적으로 계좌를 개설해 주므로 직접 예약하고 상담해야 하는 번거로움이 없습니다. 다만 대상은 福岡銀行 한 곳뿐이며, ゆうちょ나 西日本シティ 계좌를 개설하려면 직접 지점에 가야 합니다."
+   },
+   "9958c0": {
+    "text": "**사전 신청이 필요**하며, 入国支援システム(Pre-Arrival System)을 통해 예약합니다. 같은 행사에는 보통 행정 수속 안내도 포함되어 있어 두 가지를 한 번에 처리하는 것이 가장 효율적입니다. 신청 인원과 일정은 학교 안내에 따릅니다."
    }
   }
  },
