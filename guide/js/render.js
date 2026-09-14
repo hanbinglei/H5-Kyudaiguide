@@ -110,7 +110,9 @@ function renderBlocks(blocks,translatedHeadings){
 
 function blockToHTML(b){
   if(!b)return'';
-  if(b.type==='subheading')return`<h3>${esc(b.text)}</h3>`;
+  // subheading 也给 data-blk：校验器（check_newcomer_zone）把 heading/subheading 都当成
+  // 可深链目标，只给 h2 加就会「校验绿、实际点不到」
+  if(b.type==='subheading')return`<h3 data-blk="${esc(b.id||'')}">${esc(b.text)}</h3>`;
   if(b.type==='paragraph')return`<p>${renderSegments(b.segments||splitPhone(b.text||''))}</p>`;
   if(b.type==='quote')return`<div class="quote">${renderSegments(b.segments||splitPhone(b.text||''))}</div>`;
   if(b.type==='notice')return`<div class="notice">📝 ${renderSegments(b.segments||splitPhone(b.text||''))}</div>`;

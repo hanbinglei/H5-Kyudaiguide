@@ -367,7 +367,7 @@ function showArticle(id,wantHeading,wantSec){
           const jump=()=>{
             let target=null,idx=-1;
             if(wantSec){
-              target=body.querySelector('h2[data-blk="'+wantSec+'"]');
+              target=body.querySelector('[data-blk="'+wantSec+'"]');   // h2/h3 都认
             }else{
               idx=headings.indexOf(wantHeading);
               if(idx<0) idx=headings.findIndex(h=>h&&(h.includes(wantHeading)||wantHeading.includes(h)));
