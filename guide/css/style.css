@@ -547,3 +547,101 @@ mark{background:rgba(123,45,62,.10);color:inherit;border-radius:3px;padding:0 2p
 .nz-text{flex:1;min-width:0}
 .nz-go{color:var(--muted2);font-size:15px;flex:0 0 auto}
 .nz-item:active .nz-text{color:var(--brand)}
+
+
+/* ══════════════════════════════════════════════════════════════
+   UI 优化层（2026-09）
+   在不动既有断点体系的前提下追加。四块：
+     ① 排版基准：CJK 正文字号/行距、标点换行、标题平衡换行
+     ② 触摸目标：补齐低于 44px 下限的控件
+     ③ 新生专区：≥768px 改三列（原先 1044px 宽单列，短标签也占满整行）
+     ④ 桌面文章：≥1024px 由「底部浮层」改为阅读页 + 侧栏目录
+   ══════════════════════════════════════════════════════════════ */
+
+/* ① 排版基准 ---------------------------------------------------- */
+/* CJK 正文 16px 起（原先手机 15px）。中文 15px 在 390px 屏上偏小，
+   而本站读者要长时间读手续说明，字号不足会明显增加疲劳。 */
+.article-body p{font-size:16px;line-height:1.9}
+/* 标题与段落的换行策略：标题避免最后一行只剩一两个字；正文避免寡行 */
+.article-body h2,.article-body h3,.section-title,
+.article-header h1,.card-lite .t,.cat-name{text-wrap:balance}
+.article-body p,.article-body li,.card-lite .sum,.notice,.warning{text-wrap:pretty}
+/* 11px 的标签在手机上已接近可读下限，提到 12px */
+.tag{font-size:12px}
+@media(max-width:479px){
+  .cat-name{font-size:12px}
+  .cat-icon{font-size:28px}
+}
+/* 行内元素（电话、交叉引用）不参与断行破坏，避免句中突兀换行 */
+.tel,.ref{white-space:nowrap}
+
+/* ② 触摸目标 ---------------------------------------------------- */
+/* 实测：语言选择器 77×24、帮助按钮 28×28、关闭按钮 28×28 —— 均低于
+   Apple HIG 44pt / Material 48dp 的下限，手指容易点偏。 */
+.sheet-close{width:32px;height:32px;display:inline-flex;align-items:center;justify-content:center}
+@media(pointer:coarse){
+  .lang-switch{min-height:40px;padding:8px 12px;font-size:13px}
+  .tour-open{width:40px;height:40px;min-height:40px}
+  .sheet-close{width:40px;height:40px}
+  .nz-item{min-height:44px;padding:11px 0}
+  .toc-tab{min-height:40px}
+}
+
+/* ③ 新生专区三列（≥768px）--------------------------------------- */
+/* 原先三阶段纵向堆叠，每行一条占满 1044px —— 短标签（「护照」）也拉成横条。
+   改为一阶段一列，横向并列后可一眼看完来日前 / 落地 3 天 / 30 天内。 */
+@media(min-width:768px){
+  #nzStages{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;align-items:start}
+  .nz-stage{margin-bottom:0}
+  .nz-item{padding:10px 0}
+}
+
+/* 目录右缘淡出：手机上是横向滚动条，最后一项会被右边缘裁掉半个字，
+   看似布局错误。加 24px 渐隐既提示「可横向滑动」，也让裁切显得是有意的。 */
+.toc{-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 24px),transparent);
+     mask-image:linear-gradient(90deg,#000 calc(100% - 24px),transparent)}
+
+/* ④ 桌面文章 = 阅读页（≥1024px）--------------------------------- */
+/* 原先沿用手机模式：720px 宽、88vh 高的底部浮层，背后压一层遮罩。
+   桌面阅读长文时这是三重浪费 —— 横向空间、纵向空间、以及被遮住的页面。
+   改为整页阅读 + 右侧粘性目录：正文居中便于扫读，目录常驻可随时跳节。 */
+@media(min-width:1024px){
+  .pane-article{background:#fff;display:block;padding:0;overflow-y:auto}
+  .sheet-card{max-width:none;width:100%;max-height:none;height:auto;min-height:100%;
+    border-radius:0;box-shadow:none;background:#fff;
+    display:grid;grid-template-columns:minmax(0,1fr) 272px;
+    grid-template-areas:
+      "head head"
+      "aheader toc"
+      "abody toc"
+      "aend toc";
+    align-content:start}
+  .sheet-card-head{grid-area:head;position:sticky;top:0;background:#fff;
+    border-bottom:1px solid var(--line);padding:6px 20px 6px 12px}
+  .article-header{grid-area:aheader;padding:24px 8px 6px;max-width:44em;
+    margin-left:auto;margin-right:auto;width:100%}
+  .article-body{grid-area:abody;max-width:44em;width:100%;
+    margin-left:auto;margin-right:auto;padding:8px 8px 16px}
+  .article-end{grid-area:aend;max-width:44em;margin:0 auto;width:100%;padding:8px 8px 56px}
+  /* 目录：改为竖向常驻列表（横排时在宽屏上只能放下 3~4 个标签） */
+  .toc{grid-area:toc;position:sticky;top:52px;align-self:start;
+    display:flex;flex-direction:column;gap:4px;
+    border-bottom:none;border-left:1px solid var(--line);
+    padding:20px 12px 32px;height:calc(100vh - 45px);overflow-y:auto;
+    -webkit-mask-image:none;mask-image:none}
+  .toc-tab{flex:0 0 auto;width:100%;text-align:left;white-space:normal;
+    border:none;border-radius:8px;padding:8px 10px;font-size:13px;line-height:1.5;
+    background:transparent;color:#444}
+  .toc-tab:hover{background:#f5f5f7}
+  .toc-tab.on{background:var(--brand);color:#fff}
+  /* 长文阅读：正文行距再放宽一点，段间距同步放大，屏幕大了不该更挤 */
+  .article-body p{font-size:16.5px;line-height:1.95;margin:14px 0}
+  .article-body h2{font-size:19px;margin:30px 0 12px}
+  .article-body h3{font-size:16px;margin:22px 0 10px}
+  .article-header h1{font-size:26px;line-height:1.3}
+}
+/* 更宽的桌面：正文与目录都再多给一点空间 */
+@media(min-width:1440px){
+  .sheet-card{grid-template-columns:minmax(0,1fr) 300px}
+  .article-body,.article-header,.article-end{max-width:46em}
+}
