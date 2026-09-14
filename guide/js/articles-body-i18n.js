@@ -3411,36 +3411,987 @@ window.ARTICLES_BODY_I18N = {
  },
  "guide-residence": {
   "ja": {
+   "123756": {
+    "headers": [
+     "離れる期間",
+     "必要な手続き"
+    ],
+    "rows": [
+     [
+      "1年以内",
+      "「みなし再入国許可」を利用すればよい"
+     ],
+     [
+      "1年を超える",
+      "事前に入管局で再入国許可を申請"
+     ]
+    ]
+   },
+   "333844": {
+    "items": [
+     {
+      "text": "学生証を受け取る前に住民登録を完了しておく必要があります。"
+     },
+     {
+      "text": "学生証の交付には学部によって時間がかかり、当日には受け取れません。"
+     },
+     {
+      "text": "学生証を受け取ったら、必ずもう一度区役所で切り替え手続きを行ってください。"
+     }
+    ]
+   },
+   "569204": {
+    "text": "帰国の前に必要な手続き"
+   },
+   "745564": {
+    "text": "区役所／市役所（地方行政）：日常生活の手続きを担当します。住民登録、国民健康保険、国民年金、マイナンバーなど"
+   },
+   "824008": {
+    "text": "在留に関する手続きの多くは窓口またはオンラインで行えますが、期限や手続きの順序があります。まずは2つの機関の違いを確認しましょう。"
+   },
    "8988f9": {
-    "text": "住居登録はすべての手続きの起点です —— **未完了では口座開設も携帯契約もできません**。まず区役所と入管局を切り分け、住居登録・在留更新・マイナンバー・健康保険の順に説明します。"
+    "text": "住所の届出はすべての手続きの起点です —— **未完了のままでは銀行口座の開設や携帯電話の契約ができません**。本記事では、まず区役所と入管局の役割分担を整理し、そのうえで住所の届出、在留資格の更新、マイナンバー、健康保険について順に説明します。"
    },
    "6114a5": {
-    "text": "越境に使う証明書類とリスク"
+    "text": "通過時の書類とリスク"
    },
    "26200b": {
-    "text": "離境税の払い戻し"
+    "text": "離境税の還付"
+   },
+   "cc395e": {
+    "text": "区役所と入管局の役割分担"
+   },
+   "37a783": {
+    "text": "区役所 vs 入管局"
+   },
+   "a14519": {
+    "text": "出入国在留管理庁（入管局）（国の行政機関）：ビザ・在留資格を担当します。在留カードの更新・変更、再入国許可、資格外活動許可など"
+   },
+   "5f159d": {
+    "text": "覚え方のポイント：区役所は生活、入管局はビザ（在留資格）を担当します。"
+   },
+   "1b1c2c": {
+    "text": "在留カードへの住居地の記載"
+   },
+   "da7df6": {
+    "text": "住所の届出は、来日後最初に行い、かつ最も重要な手続きです。銀行、携帯電話、保険など、その後のほぼすべての手続きは、住所の届出が完了してからでないと進められません。方法は次の2つです。"
+   },
+   "72da73": {
+    "text": "自分で手続きする場合：九大学研都市駅そばの「さいとぴあ（西部出張所）」へ（JR「九大学研都市」駅から徒歩約1分。受付時間：平日 8:45〜17:15、土日祝は休み）。"
+   },
+   "b9e577": {
+    "text": "窓口には市民係と保険年金係があり、通常 1〜1.5 時間で住民登録・年金・健康保険の手続きをまとめて完了できます。職員は経験豊富で、英語での対応も可能です。"
+   },
+   "e1582c": {
+    "text": "学校による代理手続き：学校が在留カードを約3営業日預かり、住民登録のみを代理で行います。年金と健康保険は自分で別途手続きする必要があります。足を運ぶ必要がないのがメリットです。"
+   },
+   "e5831f": {
+    "text": "どちらの方法でも構いません。学校の代理手続きを選んだ場合でも、後から自分で区役所へ行って残りの手続きを行っても問題ありません。届出完了後、在留カードは各自の学務課に提出して再登録してもらう必要があります。"
+   },
+   "fff1b2": {
+    "text": "引っ越し後の住所変更"
+   },
+   "3eed49": {
+    "text": "引っ越し後（同じ市区町村内への引っ越しを含む）は、**14日以内**に新しい住所の区役所で転入届を行い、在留カードの裏面に住所を更新してもらう必要があります。持ち物：在留カード、パスポート、引っ越し前の住民票（ある場合）。市区町村をまたぐ引っ越しは、先に元の住所の区役所で転出届を出し、その後新しい住所地で転入届を提出します。"
+   },
+   "ec20eb": {
+    "text": "郵便物の転送（郵便転送）"
+   },
+   "258c3a": {
+    "text": "引っ越し後、郵便物の転送はインターネットで申し込めます。有効期間は約3か月です。AからBへ、さらにCへと引っ越す場合は、A→B、次にB→Cの順で手続きします。その間にA宛に届いた郵便物は、自動的にCへ転送されます。"
+   },
+   "ac86c0": {
+    "text": "在留カードの更新"
+   },
+   "29561b": {
+    "text": "在留期間の**満了3か月前**から更新を申請できます。場所：福岡出入国在留管理局（地下鉄赤坂駅の近く）。必要書類は一般的に、在留カード、パスポート、在学証明書、申請書（公式サイトからダウンロード可）、所得証明などです。"
+   },
+   "f9cb98": {
+    "text": "期限を過ぎて更新しないと「不法残留」となり、その結果は重大で段階に応じて異なります。刑事上は**3年以下の懲役または300万円以下の罰金**に処せられることがあります。さらに上陸拒否（再入国禁止）を伴います——自主的に出頭して出国した場合は1年、強制送還の場合は5年、再犯の場合は10年です。必ず満了前に手続きしてください。"
+   },
+   "0086fd": {
+    "items": [
+     {
+      "text": "出入国在留管理庁（入管庁）",
+      "url": "http://www.moj.go.jp/isa/index.html"
+     }
+    ]
+   },
+   "9dec43": {
+    "text": "特定在留カード（2026年の新制度）"
+   },
+   "702ad6": {
+    "text": "2026年6月14日から、在留カードとマイナンバーカードの一体化が始まり、2つの機能を1枚で兼ね備えた特定在留カードが発行されます。現在の在留カードも有効期間中はそのまま使え、切り替えは任意です。期限切れによる更新の際に、必要であれば新しいカードを併せて申請できます。"
+   },
+   "092dbb": {
+    "text": "campus ログイン申請（campusweb）"
+   },
+   "8977fb": {
+    "items": [
+     {
+      "text": "九大 campusweb",
+      "url": "https://ku-portal.kyushu-u.ac.jp/campusweb/top.do"
+     }
+    ]
+   },
+   "1dda60": {
+    "text": "農学部などの授業料免除申請も通常 campusweb から行います（公開されているか不明な場合は、先に上のページを開いてみてください）。"
+   },
+   "9c6062": {
+    "text": "SSO-KID のログインとアクティベーション"
+   },
+   "d66ea0": {
+    "text": "学校の統一アカウント（SSO-KID）のログイン／アクティベーションがうまくいかない場合は、以下の入口を参考にしてください。注意：SSO-KID のアクティベーションには**大学のメールアドレス以外は使用できません**。"
+   },
+   "7d1d01": {
+    "items": [
+     {
+      "text": "SSO-KID 学生ログイン",
+      "url": "https://web.sso.kyushu-u.ac.jp/ssokid/students.html"
+     },
+     {
+      "text": "SSO パスワード アクティベーション",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
+     }
+    ]
+   },
+   "67b663": {
+    "text": "マイナンバー（個人番号）"
+   },
+   "e63790": {
+    "text": "住民登録後、個人番号のお知らせが簡易書留で届きます。できるだけ早く区役所でマイナンバーカード（写真付きのICカード）を申請することをおすすめします。銀行口座の開設、海外送金の受取、保険の手続きなどで必要になります。海外からの送金を受け取る際、銀行からマイナンバーの提示を求められることがあり、マイナンバーが記載された住民票を提出すれば対応できます。"
+   },
+   "0b4d10": {
+    "text": "国民健康保険（医療保険）"
+   },
+   "8f34d4": {
+    "text": "国民健康保険は医療保険で、加入すると医療費の自己負担は3割になります。留学生は加入が義務です。住民登録の手続きと同時に申請できます。【医療・保険】参照"
+   },
+   "ca823a": {
+    "text": "国民年金（老齢年金）"
+   },
+   "cf19f3": {
+    "text": "年金は老齢に備える保険で、日本に住む20歳以上の人は加入義務があります。令和7年度（2025）の保険料は**月額 17,510円**です。留学生は通常、実際の納付は不要で、次の2つの方法で免除を受けられます。"
+   },
+   "637f64": {
+    "text": "① 所得が基準以下の免除：来日直後で収入がない場合に申請できます。区役所が初回手続き時に案内するつなぎの制度です。"
+   },
+   "ca081f": {
+    "text": "② 学生納付特例：留学生に最も適した長期的な制度で、在学期間中は保険料の納付が猶予され、卒業後に収入ができてから追納します。申請には学生証が必要で、前年の所得が一定の基準（約128万円に扶養控除を加算。公式情報に準拠）以下であることが条件です。"
+   },
+   "c8342b": {
+    "text": "重要な流れとよくある質問"
+   },
+   "4f17e5": {
+    "text": "住民登録 → 区役所で初回の「所得が基準以下の免除」を申請 → 学務課で学生証を受け取る → もう一度区役所へ行き、免除を①から②の学生納付特例へ切り替える"
+   },
+   "90bede": {
+    "text": "毎年、切り替えを忘れた学生が後から年金の納付書を受け取ってしまうことがあります。注意点："
+   },
+   "e7cf1e": {
+    "text": "申請場所：住民登録をした区役所の年金窓口、または西福岡年金事務所。"
+   },
+   "8a0854": {
+    "items": [
+     {
+      "text": "日本年金機構・学生納付特例",
+      "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20150514.html"
+     }
+    ]
+   },
+   "5960c7": {
+    "text": "日本を離れる前に済ませておくこと："
+   },
+   "067610": {
+    "items": [
+     {
+      "text": "住所の抹消——区役所で転出届を提出"
+     },
+     {
+      "text": "国民健康保険：保険証の返還と保険料の完納。6か月以上納めていれば脱退一時金を申請できます"
+     },
+     {
+      "text": "国民年金——特例申請をしている場合は、今後の手続きを確認"
+     },
+     {
+      "text": "税金——住民税・所得税の清算を確認。出国後に納付通知が届く可能性があるため、日本に残る友人に納付を依頼"
+     },
+     {
+      "text": "銀行口座——解約するかどうかを決定"
+     },
+     {
+      "text": "携帯電話——解約またはMNP転出"
+     },
+     {
+      "text": "寮・アパート——契約に従って退去手続き"
+     },
+     {
+      "text": "大学の手続き——成績・卒業証明書、図書館の返却、生協の脱退など"
+     }
+    ]
+   },
+   "23d79c": {
+    "text": "未納の費用は個人の信用に影響するだけでなく、保証人や指導教員にまで及ぶことがあります。"
+   },
+   "497bc4": {
+    "text": "国際観光旅客税（出国税）"
+   },
+   "a61a13": {
+    "text": "日本から飛行機や船で出国する際、国際観光旅客税が課されます。通称「出国税」で、通常は航空券の料金に含まれています。税額は2026-07-01の出国分から、1回につき1,000円から3,000円に引き上げられます。"
+   },
+   "f0dbae": {
+    "text": "覚えておきたい経過措置があります：2026-06-30までに締結された運送契約（つまり発券済みの航空券）は、実際の出国日が7月1日以降でも、引き上げ前の1,000円が適用されます。夏休みに帰国する予定なら、早めに発券するほど確実に差額を節約できます。"
+   },
+   "6432da": {
+    "text": "確認方法：航空券の料金明細や領収書に「国際観光旅客税」の項目があるか、税項目に JPY 3,000 の記載があるかを確認します。日本へ入国する便には課されないため、この税は「出国」方向にのみ表示されます。"
+   },
+   "f21cc4": {
+    "text": "一時的に日本を離れる場合（帰国／学会参加）"
+   },
+   "b36386": {
+    "text": "永住帰国とは異なり、一時的な出国には独自の手続きがあります。原則として、まず指導教授の内諾を得て（まだ指導教員が決まっていない場合は学生委員長に相談）、その後学校へ海外渡航届を提出します。学部・学府によって様式が異なる場合があるため、内諾を得るときに併せて確認してください。"
+   },
+   "e00cbb": {
+    "items": [
+     {
+      "title": "出国時に出入国申告書を受け取る",
+      "desc": "日本の出国手続きの際に受け取り、記入します。"
+     },
+     {
+      "title": "正しい項目にチェック",
+      "desc": "出国予定期間は「1年以内」にチェックし、その下の「一時出国、再入国予定」にチェックします。"
+     },
+     {
+      "title": "印の確認",
+      "desc": "係官が申告書をパスポートに綴じ、裏面に「みなし再入国許可」の印を押します。"
+     }
+    ]
+   },
+   "ba4f4e": {
+    "text": "**在留カードの期限が1年未満の場合は、在留カードの期限が基準になります**。「1年」が基準ではありません。ここを間違えると、帰国時に日本へ入れなくなる可能性があります。"
+   },
+   "f188b5": {
+    "text": "交通の注意：地下鉄福岡空港駅から直接つながっているのは**国内線**ターミナルです。帰国や他国への渡航は**国際線**ターミナルからで、無料の連絡バスへの乗り換えが必要です。"
+   },
+   "5a78fd": {
+    "text": "香港経由の往復：書類と税金の還付"
+   },
+   "6e4653": {
+    "text": "香港と福岡の間には複数の航空会社が直行便を運航しており、うち2社はLCC（格安航空会社）のため、華南出身の学生の多くが香港経由を選びます。ただし、通過に使う書類のルールは想像以上に複雑で、間違えると悪い記録が残ります。"
+   },
+   "d598ce": {
+    "headers": [
+     "ケース",
+     "中国本土のパスポートが使えるか",
+     "ポイント"
+    ],
+    "rows": [
+     [
+      "空港の制限区域内での乗り継ぎのみ",
+      "出入国に該当しない",
+      "下記の条件は考慮不要"
+     ],
+     [
+      "A地 ⇄ 香港（7日以内）⇄ B地",
+      "可能",
+      "A・Bは同一地域不可。続行便の航空券が必要"
+     ],
+     [
+      "日本 → 香港 → そのまま日本へ戻る",
+      "不可",
+      "事前に「香港入境許可証」の取得が必要"
+     ],
+     [
+      "香港に7日を超えて滞在",
+      "不可",
+      "上記と同様、事前の取得が必要"
+     ],
+     [
+      "中国本土と香港の往復のみ",
+      "不可",
+      "港澳通行証の使用が必須"
+     ]
+    ]
+   },
+   "49f1ab": {
+    "text": "間違った書類で中国本土から香港に入ると、係官がパスポートに DT（Delete Travel）の記録を残すことがあり、その後の香港への入国や他国のビザ申請に影響します。この点は油断せず、正しい書類を使いましょう。"
+   },
+   "51009c": {
+    "text": "「香港入境許可証」は中国の在日大使館・領事館で申請できます。1回の滞在は最長14日間で、3か月1回、3か月2回、1年数次、2年数次などの種類があります。福岡の領事館は地下鉄唐人町駅の近くにあります。"
+   },
+   "b3abdf": {
+    "text": "還付について：香港を出発するすべての便には、通常、香港が徴収する航空旅客離境税（Air Passenger Departure Tax）が含まれています。条件を満たせば払い戻しを申請でき、期限は出発後28日以内です。具体的な条件と手順は、本記事の「国際観光旅客税（出国税）」の項目の下にある説明を参照するか、香港政府の公式返金ガイドをご確認ください。"
+   },
+   "2cbead": {
+    "items": [
+     {
+      "text": "香港航空旅客離境税の還付（公式）",
+      "url": "https://www.apdtrefund.hk/tc/"
+     },
+     {
+      "text": "中国在日大使館・海外から香港へ行く際のガイド",
+      "url": "https://jp.china-embassy.gov.cn/lsfw_0/zjfw_138408/zhjfw28/LSZJZGGA/202405/t20240507_11300545.htm"
+     }
+    ]
+   },
+   "526eaa": {
+    "text": "本記事の一部は『新伊都国風土記』（著者：Hato_Tsubame、CantonSimon）をもとに、著者の許可を得て収録しています。記事中の料金・時刻・手続きは時期により変わるため、重要事項は各公式サイトでご確認ください。"
    }
   },
   "en": {
+   "123756": {
+    "headers": [
+     "Length of absence",
+     "What to do"
+    ],
+    "rows": [
+     [
+      "Within 1 year",
+      "Only a みなし再入国許可 (deemed re-entry permit) is needed"
+     ],
+     [
+      "More than 1 year",
+      "Apply to the immigration bureau for a 再入国許可 (re-entry permit) in advance"
+     ]
+    ]
+   },
+   "333844": {
+    "items": [
+     {
+      "text": "Resident registration must be completed before the student ID card is issued;"
+     },
+     {
+      "text": "The production time of the student ID card varies by faculty, and it is not available on the same day;"
+     },
+     {
+      "text": "After receiving the student ID card, the 区役所 (ward office) must be visited once more to complete the switch."
+     }
+    ]
+   },
+   "569204": {
+    "text": "Procedures before returning home"
+   },
+   "745564": {
+    "text": "区役所/市役所（ward office / city office, local administration）: daily-life procedures, 住民登録（resident registration）, 国民健康保険（National Health Insurance）, 国民年金（National Pension）, マイナンバー（My Number）"
+   },
+   "824008": {
+    "text": "Residence-related procedures can mostly be completed at a counter or online, but each has deadlines and a prescribed order. First, the two agencies should be distinguished:"
+   },
    "8988f9": {
-    "text": "Address registration is the starting point for every other procedure - **without it you cannot open a bank account or get a phone**. This page first separates the ward office from immigration, then walks through address registration, visa renewal, My Number and health insurance."
+    "text": "Residence registration is the starting point of all procedures: **without it, bank accounts cannot be opened and mobile phones cannot be set up**. This article first distinguishes the 区役所（ward office）from the immigration bureau, then explains residence registration, residence-period renewal, My Number and health insurance in order."
    },
    "6114a5": {
-    "text": "Cross-border documents and risks"
+    "text": "Transit documents and risks"
    },
    "26200b": {
     "text": "Departure tax refund"
+   },
+   "cc395e": {
+    "text": "Division of duties: the 区役所（ward office）and the immigration bureau"
+   },
+   "37a783": {
+    "text": "区役所（ward office）vs immigration bureau"
+   },
+   "a14519": {
+    "text": "出入国在留管理庁（入管局）（the Immigration Services Agency, national administration）: visas and status of residence; renewal and change of the 在留カード（residence card）, 再入国許可（re-entry permit）, 資格外活動許可（permission to engage in activities other than those permitted by the status of residence）"
+   },
+   "5f159d": {
+    "text": "In short: the 区役所（ward office）handles daily life, the immigration bureau handles visas."
+   },
+   "1b1c2c": {
+    "text": "Registering an address on the 在留カード（residence card）"
+   },
+   "da7df6": {
+    "text": "Residence registration is the first and most critical step after arrival: almost all subsequent procedures, including banking, mobile phones and insurance, require it to be completed first. Two options are available:"
+   },
+   "72da73": {
+    "text": "Self-service: go to さいとぴあ（西部出張所）（Saitopia, the west branch office）next to Kyudai Gakkentoshi Station (about 1 minute on foot from JR「九大学研都市」station; counter hours: weekdays 8:45-17:15, closed on weekends and holidays)."
+   },
+   "b9e577": {
+    "text": "The counter has 市民係（residents' affairs desk）and 保険年金係（insurance and pension desk）; residence registration, pension and health insurance can usually be completed together in about 1-1.5 hours. The staff are experienced and can respond in English."
+   },
+   "e1582c": {
+    "text": "School proxy: the school keeps the 在留カード（residence card）for about 3 business days and handles 住民登録（resident registration）only; pension and health insurance must still be arranged separately. The advantage is that no visit to the office is required."
+   },
+   "e5831f": {
+    "text": "Either option may be chosen; even if the school proxy option is selected, the remaining procedures can still be completed later in person at the 区役所（ward office）. After registration is complete, the 在留カード（residence card）must be submitted to the respective 学務課（student affairs office）and registered once more."
+   },
+   "fff1b2": {
+    "text": "Changing the address after moving"
+   },
+   "3eed49": {
+    "text": "After moving (including within the same municipality), a move-in notification must be filed at the 区役所（ward office）of the new address **within 14 days**, and the address on the back of the 在留カード（residence card）must be updated. Required items: 在留カード（residence card）, passport, and the previous 住民票（certificate of residence）（if available）. When moving across municipalities, a 転出届（notice of moving out）must first be filed at the former ward office, followed by a 転入届（notice of moving in）at the new one."
+   },
+   "ec20eb": {
+    "text": "Postal mail forwarding"
+   },
+   "258c3a": {
+    "text": "Mail forwarding can be arranged online after moving and remains valid for about 3 months. When moving from A to B and then to C, A→B can be arranged first and then B→C; mail sent to A during the period is automatically forwarded on to C."
+   },
+   "ac86c0": {
+    "text": "Renewing the 在留カード（residence card）"
+   },
+   "29561b": {
+    "text": "An application for renewal can be filed **up to 3 months before** the expiry of the period of stay. Location: 福岡出入国在留管理局（Fukuoka Regional Immigration Services Bureau）（near Akasaka Station on the subway）. Materials generally required: 在留カード（residence card）, passport, 在学証明書（certificate of enrollment）, 申請書（application form）（downloadable from the official website）, 収入証明（proof of income）, etc."
+   },
+   "f9cb98": {
+    "text": "Failing to renew in time constitutes 不法残留（overstaying）, with serious, graduated consequences: criminally, **imprisonment of up to 3 years or a fine of up to 300 万円**; 上陸拒否（denial of landing, i.e. prohibition of re-entry）also applies - 1 year for those who depart voluntarily after turning themselves in, 5 years for those forcibly deported, and 10 years for repeat offenders. The renewal must be completed before expiration."
+   },
+   "0086fd": {
+    "items": [
+     {
+      "text": "出入国在留管理庁 (Immigration Services Agency)",
+      "url": "http://www.moj.go.jp/isa/index.html"
+     }
+    ]
+   },
+   "9dec43": {
+    "text": "The 特定在留カード（Specified Residence Card）（new policy from 2026）"
+   },
+   "702ad6": {
+    "text": "From June 14, 2026, the 在留カード（residence card）and マイナンバーカード（My Number Card）will be integrated into a single 特定在留カード（Specified Residence Card）that combines both functions. Existing residence cards remain valid until their expiry; switching is voluntary. When renewing at expiration, the new card can be applied for together if needed."
+   },
+   "092dbb": {
+    "text": "Applying for campus login (campusweb)"
+   },
+   "8977fb": {
+    "items": [
+     {
+      "text": "Kyushu University campusweb",
+      "url": "https://ku-portal.kyushu-u.ac.jp/campusweb/top.do"
+     }
+    ]
+   },
+   "1dda60": {
+    "text": "Applications such as tuition exemption for the Faculty of Agriculture are also generally submitted via campusweb (if unsure whether it is open, the page above can be opened first as a test)."
+   },
+   "9c6062": {
+    "text": "SSO-KID login and activation"
+   },
+   "d66ea0": {
+    "text": "If the university unified account (SSO-KID) cannot be logged into or activated, the entry points below can be used. Note: for SSO-KID activation, **an email address other than the school email address cannot be used**."
+   },
+   "7d1d01": {
+    "items": [
+     {
+      "text": "SSO-KID student login",
+      "url": "https://web.sso.kyushu-u.ac.jp/ssokid/students.html"
+     },
+     {
+      "text": "SSO password activation",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
+     }
+    ]
+   },
+   "67b663": {
+    "text": "マイナンバー（My Number）"
+   },
+   "e63790": {
+    "text": "After resident registration, a notice of the individual number is sent to the address by registered mail. Applying for the マイナンバーカード（My Number Card, a plastic card with a photo）at the 区役所（ward office）as soon as possible is recommended, as it is needed later for opening bank accounts, receiving overseas remittances, enrolling in insurance, etc. When receiving remittances from abroad, the bank requests the マイナンバー（My Number）; a 住民票（certificate of residence）bearing the number can be submitted."
+   },
+   "0b4d10": {
+    "text": "国民健康保険（National Health Insurance）"
+   },
+   "8f34d4": {
+    "text": "国民健康保険（National Health Insurance）is medical insurance; once enrolled, the individual bears only 30% of medical costs. International students must enroll. It can be applied for together with 住民登録（resident registration）. See【医疗·保险】"
+   },
+   "ca823a": {
+    "text": "国民年金（National Pension）"
+   },
+   "cf19f3": {
+    "text": "年金（pension）is retirement insurance; all persons aged 20 or over residing in Japan are obliged to enroll. The premium for fiscal year 令和 7（2025）is **17,510 円 per month**. International students generally do not actually pay; the premium can be reduced or exempted in two ways:"
+   },
+   "637f64": {
+    "text": "① Income-below-threshold exemption: it can be applied for upon arrival when no income exists yet, and is a transitional option offered by the 区役所（ward office）at the initial enrollment."
+   },
+   "ca081f": {
+    "text": "② 学生納付特例（student contribution special exception）: the long-term option best suited to international students - premiums are deferred while enrolled and paid later once income is earned. The application requires the student ID card, and the previous year's income must be below the specified threshold (approximately 128 万円 plus dependent deductions; the official figures take precedence)."
+   },
+   "c8342b": {
+    "text": "Key procedures and common questions"
+   },
+   "4f17e5": {
+    "text": "住民登録（resident registration）→ apply for the income-below-threshold exemption at the 区役所（ward office）on the first visit → collect the student ID card from the 学務課（student affairs office）→ return to the 区役所（ward office）to switch the exemption from ① to ② 学生納付特例（student contribution special exception）"
+   },
+   "90bede": {
+    "text": "Every year some students forget to make this switch and later receive pension bills. Note:"
+   },
+   "e7cf1e": {
+    "text": "Application location: the pension counter of the 区役所（ward office）where resident registration was filed, or 西福岡年金事務所（Nishi-Fukuoka Pension Office）."
+   },
+   "8a0854": {
+    "items": [
+     {
+      "text": "Japan Pension Service - 学生納付特例 (student contribution special exception)",
+      "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20150514.html"
+     }
+    ]
+   },
+   "5960c7": {
+    "text": "Before leaving Japan, the following must be arranged:"
+   },
+   "067610": {
+    "items": [
+     {
+      "text": "Cancel the registered address - file a 転出届 (notice of moving out) at the 区役所 (ward office)"
+     },
+     {
+      "text": "国民健康保険 (National Health Insurance) : return the insurance certificate and settle all premiums; if premiums were paid for 6 months or more, a 脱退一時金 (lump-sum withdrawal payment) can be claimed"
+     },
+     {
+      "text": "国民年金 (National Pension) : if a special exception was applied for, confirm the follow-up procedure"
+     },
+     {
+      "text": "Taxes: confirm that 住民税 (residence tax) and income tax are settled; a notice of additional payment may arrive after departure, in which case a friend in Japan must be asked to pay on one's behalf"
+     },
+     {
+      "text": "Bank accounts: decide whether to close them"
+     },
+     {
+      "text": "Mobile phone: cancel the contract or transfer the number via MNP"
+     },
+     {
+      "text": "Dormitory/apartment: complete the move-out procedure according to the contract"
+     },
+     {
+      "text": "University procedures: transcripts/graduation certificates, returning library books, 生協 (co-op) withdrawal, etc."
+     }
+    ]
+   },
+   "23d79c": {
+    "text": "Unsettled fees can affect one's personal credit and may also implicate the guarantor or the supervising professor."
+   },
+   "497bc4": {
+    "text": "国際観光旅客税（International Tourist Tax, the departure tax）"
+   },
+   "a61a13": {
+    "text": "Air and sea passengers departing Japan are subject to the 国際観光旅客税（International Tourist Tax）, commonly known as the 「出国税（departure tax）」; it is generally included in the ticket price. From departures on and after 2026-07-01, the amount is raised from 1,000 円 to 3,000 円 per departure."
+   },
+   "f0dbae": {
+    "text": "One transitional measure is worth remembering: for transport contracts concluded on or before 2026-06-30 (i.e. tickets already issued), the pre-adjustment rate of 1,000 円 still applies even if the actual departure date falls after July 1. For those planning to return home during the summer, issuing the ticket earlier means a real saving."
+   },
+   "6432da": {
+    "text": "How to confirm: check the fare breakdown or receipt for an item named 「国際観光旅客税」, or for \"JPY 3,000\" among the taxes. Flights arriving in Japan are not subject to this tax, so it appears only in the outbound direction."
+   },
+   "f21cc4": {
+    "text": "Temporarily leaving Japan (returning home / attending academic conferences)"
+   },
+   "b36386": {
+    "text": "Unlike a permanent return home, temporary departure follows its own procedure. In principle, informal approval (内諾) from the supervising professor must first be obtained (students without an assigned supervisor should apply to the 学生委員長（chair of the student committee）), and then an 海外渡航届（overseas travel notification）is submitted to the university. The form format may differ by faculty or graduate school, so this should be asked about when obtaining approval."
+   },
+   "e00cbb": {
+    "items": [
+     {
+      "title": "Obtain the departure/entry declaration card at departure",
+      "desc": "Request and complete the form during the departure procedures in Japan."
+     },
+     {
+      "title": "Select the correct options",
+      "desc": "For the scheduled period of absence, tick 「1 年以内」(within one year), and below, tick the option for temporary departure with scheduled re-entry (「一時出国・再入国予定」)."
+     },
+     {
+      "title": "Confirm the stamp",
+      "desc": "The declaration form is attached to the passport, and the 「みなし再入国許可」stamp is applied on the back."
+     }
+    ]
+   },
+   "ba4f4e": {
+    "text": "**If the 在留カード（residence card）expires in less than one year, the expiry date of the card prevails** over the 「1 年」rule. A miscalculation on this point can result in being refused entry upon return."
+   },
+   "f188b5": {
+    "text": "Transportation reminder: the subway stop at Fukuoka Airport Station connects directly to the **domestic** terminal. Departures home or to other countries use the **international** terminal, which requires taking the free shuttle."
+   },
+   "5a78fd": {
+    "text": "Transit via Hong Kong: documents and tax refund"
+   },
+   "6e4653": {
+    "text": "Several airlines operate direct flights between Hong Kong and Fukuoka, two of them low-cost carriers, so many students from South China choose to transit via Hong Kong. However, the rules on which documents to use for transit are more complex than expected, and a misstep leaves a negative record."
+   },
+   "d598ce": {
+    "headers": [
+     "Case",
+     "Mainland China passport usable?",
+     "Notes"
+    ],
+    "rows": [
+     [
+      "Transit within the airport restricted area only",
+      "No entry/exit involved",
+      "The requirements below do not apply"
+     ],
+     [
+      "Place A ⇄ Hong Kong (within 7 days) ⇄ Place B",
+      "Yes",
+      "A and B must not be in the same region; an onward ticket is required"
+     ],
+     [
+      "Japan → Hong Kong → directly back to Japan",
+      "No",
+      "「香港進入許可」(Hong Kong entry permit) must be obtained in advance"
+     ],
+     [
+      "Staying in Hong Kong for more than 7 days",
+      "No",
+      "Same as above, must be arranged in advance"
+     ],
+     [
+      "Traveling between the mainland and Hong Kong only",
+      "No",
+      "The 港澳通行證 (Mainland Travel Permit for Hong Kong and Macao) must be used"
+     ]
+    ]
+   },
+   "49f1ab": {
+    "text": "If the wrong document is used to enter Hong Kong from the mainland, customs will record a DT (Delete Travel) entry in the passport, which affects future entry into Hong Kong and visa applications to other countries. No chances should be taken on this point."
+   },
+   "51009c": {
+    "text": "The 「香港進入許可」(Hong Kong entry permit) is issued by Chinese embassies/consulates in Japan, allowing a maximum stay of 14 days per visit; options include single entry within 3 months, double entry within 3 months, multiple entries within 1 year, and multiple entries within 2 years. The consulate in Fukuoka is near Tojinmachi Station on the subway."
+   },
+   "b3abdf": {
+    "text": "Tax refund: flights departing from Hong Kong generally include the Air Passenger Departure Tax levied by Hong Kong. A refund can be claimed within 28 days after departure when the conditions are met. For the specific conditions and steps, see the explanation below the 「国際観光旅客税（出国税）」section of this article, or consult the official refund guide of the Hong Kong government directly."
+   },
+   "2cbead": {
+    "items": [
+     {
+      "text": "Hong Kong Air Passenger Departure Tax refund (official)",
+      "url": "https://www.apdtrefund.hk/tc/"
+     },
+     {
+      "text": "Embassy of China in Japan - guide to visiting Hong Kong from abroad",
+      "url": "https://jp.china-embassy.gov.cn/lsfw_0/zjfw_138408/zhjfw28/LSZJZGGA/202405/t20240507_11300545.htm"
+     }
+    ]
+   },
+   "526eaa": {
+    "text": "Part of this article is compiled from 《新伊都国風土記》(by Hato_Tsubame and CantonSimon), included with the authors' permission. Prices, schedules and procedures in this article change over time; for important matters, the official websites take precedence."
    }
   },
   "ko": {
+   "123756": {
+    "headers": [
+     "출국 기간",
+     "처리할 사항"
+    ],
+    "rows": [
+     [
+      "1년 이내",
+      "「みなし再入国許可(의제재입국허가)」로 충분합니다"
+     ],
+     [
+      "1년 초과",
+      "미리 入管局(입관국)에 再入国許可(재입국허가)를 신청합니다"
+     ]
+    ]
+   },
+   "333844": {
+    "items": [
+     {
+      "text": "학생증 수령 전에 먼저 주민 등록을 완료해야 합니다;"
+     },
+     {
+      "text": "학생증 제작에는 학부(学部)에 따라 시간이 걸려 당일 수령이 불가능합니다;"
+     },
+     {
+      "text": "학생증을 받은 뒤 반드시 区役所(구청)에 한 번 더 가서 전환 절차를 처리하십시오."
+     }
+    ]
+   },
+   "569204": {
+    "text": "귀국 전에 해야 할 수속"
+   },
+   "745564": {
+    "text": "区役所(구청)/市役所(시청)(지방 행정): 일상생활 수속, 住民登録(주민등록), 国民健康保険(국민건강보험), 国民年金(국민연금), マイナンバー(마이넘버)"
+   },
+   "824008": {
+    "text": "재류 관련 수속은 대부분 창구나 온라인으로 처리할 수 있지만, 기한이 있고 순서도 있습니다. 먼저 두 기관을 구분하십시오:"
+   },
    "8988f9": {
-    "text": "주소 등록은 모든 수속의 출발점입니다 —— **완료하지 않으면 계좌 개설도 휴대폰 개통도 불가능합니다**. 먼저 구청과 출입국을 구분하고, 주소 등록·재류 갱신·마이넘버·건강보험 순으로 설명합니다."
+    "text": "주소 등록은 모든 수속의 출발점입니다. **미완료 시 은행 계좌 개설과 휴대폰 개통이 불가능합니다**. 본문에서는 우선 区役所(구청)와 入管局(입관국)의 역할을 구분한 뒤, 주소 등록, 재류 갱신, マイナンバー(마이넘버), 건강보험 순으로 설명합니다."
    },
    "6114a5": {
-    "text": "통과 증명서와 리스크"
+    "text": "경유 증명 서류와 리스크"
    },
    "26200b": {
     "text": "출국세 환급"
+   },
+   "cc395e": {
+    "text": "区役所(구청)와 入管局(입관국)의 역할 분담"
+   },
+   "37a783": {
+    "text": "区役所(구청) vs 入管局(입관국)"
+   },
+   "a14519": {
+    "text": "出入国在留管理庁(출입국재류관리청)(入管局(입관국))(국가 행정): 비자·재류 자격, 在留カード(재류카드) 갱신·변경, 再入国許可(재입국허가), 資格外活動許可(자격외활동허가)"
+   },
+   "5f159d": {
+    "text": "요약: 区役所(구청)는 생활을, 入管局(입관국)는 비자를 담당합니다."
+   },
+   "1b1c2c": {
+    "text": "在留カード(재류카드) 주소 등록"
+   },
+   "da7df6": {
+    "text": "주소 등록은 도착 후 가장 먼저, 그리고 가장 중요하게 처리해야 하는 단계입니다. 은행, 휴대폰, 보험 등 거의 모든 후속 수속은 주소 등록을 마쳐야 진행할 수 있습니다. 두 가지 방법이 있습니다:"
+   },
+   "72da73": {
+    "text": "직접 처리: 九大学研都市(큐다이가쿠켄토시)역 옆의 さいとぴあ(사이토피아)(西部出張所(서부출장소))를 방문합니다(JR「九大学研都市」역에서 도보 약 1분; 접수 시간: 평일 8:45~17:15, 주말 및 공휴일 휴무)."
+   },
+   "b9e577": {
+    "text": "창구에는 市民係(시민계), 保険年金係(보험연금계)가 있으며, 일반적으로 1~1.5시간이면 주민 등록, 연금, 건강보험을 한 번에 처리할 수 있습니다. 직원들은 경험이 풍부하며 영어로도 대응할 수 있습니다."
+   },
+   "e1582c": {
+    "text": "학교 대행: 학교가 在留カード(재류카드)를 약 3영업일간 보관하며, 주민 등록만 대행해 줍니다. 연금과 건강보험은 직접 별도로 처리해야 합니다. 장점은 직접 나가지 않아도 된다는 점입니다."
+   },
+   "e5831f": {
+    "text": "두 방법 중에서 선택할 수 있습니다. 학교 대행을 선택했더라도 이후 区役所(구청)에 직접 가서 나머지 수속을 추가로 처리해도 문제없습니다. 등록을 마친 뒤에는 在留カード(재류카드)를 각자 소속 학무과(学務課)에 제출해 한 번 더 등록해야 합니다."
+   },
+   "fff1b2": {
+    "text": "이사 후 주소 변경"
+   },
+   "3eed49": {
+    "text": "이사 후(같은 市区町村(시구정촌) 내 이사 포함) **14일 이내**에 새 주소지의 区役所(구청)에서 전입 신고를 하고, 在留カード(재류카드) 뒷면의 주소를 갱신해야 합니다. 지참물: 在留カード(재류카드), 여권, 이사 전 住民票(주민표)(있는 경우). 시구(市区)를 넘는 이사는 먼저 종전 주소지 区役所(구청)에서 転出届(전출신고)를 낸 뒤, 새 주소지에서 転入届(전입신고)를 해야 합니다."
+   },
+   "ec20eb": {
+    "text": "우편물 전송(郵便転送)"
+   },
+   "258c3a": {
+    "text": "이사 후 인터넷으로 우편물 전송(郵便転送)을 신청할 수 있으며, 유효기간은 약 3개월입니다. A에서 B로, 다시 C로 이사하는 경우 A→B, 이어서 B→C를 신청하면 됩니다. 그 사이에 A로 배달된 우편물은 자동으로 연속 전송되어 C까지 도착합니다."
+   },
+   "ac86c0": {
+    "text": "在留カード(재류카드) 갱신"
+   },
+   "29561b": {
+    "text": "在留 기간 **만료 3개월 전**부터 갱신을 신청할 수 있습니다. 장소: 福岡出入国在留管理局(후쿠오카출입국재류관리국)(지하철 아카사카(赤坂)역 부근). 필요 서류는 일반적으로 在留カード(재류카드), 여권, 在学証明書(재학증명서), 申請書(신청서)(공식 사이트에서 다운로드 가능), 收入証明(소득증명) 등입니다."
+   },
+   "f9cb98": {
+    "text": "기한 내에 갱신하지 않으면 「不法残留(불법잔류)」가 되며, 결과가 심각하고 단계별로 다릅니다: 형사상 **3년 이하의 징역 또는 300万円(300만엔) 이하의 벌금**이 부과될 수 있으며, 上陸拒否(상륙거부)(재입국 금지)가 수반됩니다. 자진 출국자는 1년, 강제 송환된 사람은 5년, 상습범은 10년입니다. 반드시 만료 전에 처리하십시오."
+   },
+   "0086fd": {
+    "items": [
+     {
+      "text": "出入国在留管理庁(출입국재류관리청)",
+      "url": "http://www.moj.go.jp/isa/index.html"
+     }
+    ]
+   },
+   "9dec43": {
+    "text": "特定在留カード(특정재류카드)(2026년 신제도)"
+   },
+   "702ad6": {
+    "text": "2026년 6월 14일부터 在留カード(재류카드)와 マイナンバーカード(마이넘버카드)가 통합되어, 두 기능을 모두 갖춘 特定在留カード(특정재류카드)가 발급됩니다. 기존 在留カード(재류카드)는 유효기간 내에는 계속 정상적으로 사용할 수 있으며, 전환은 자유입니다. 만료 시 갱신할 때 필요하다면 새 카드를 함께 신청할 수 있습니다."
+   },
+   "092dbb": {
+    "text": "campus 로그인 신청(campusweb)"
+   },
+   "8977fb": {
+    "items": [
+     {
+      "text": "九大 campusweb",
+      "url": "https://ku-portal.kyushu-u.ac.jp/campusweb/top.do"
+     }
+    ]
+   },
+   "1dda60": {
+    "text": "농학부(農学部) 등 학비 감면 신청도 일반적으로 campusweb으로 진행합니다(개방 여부가 확실하지 않으면 위 페이지를 먼저 열어 확인해 볼 수 있습니다)."
+   },
+   "9c6062": {
+    "text": "SSO-KID 로그인과 활성화"
+   },
+   "d66ea0": {
+    "text": "학교 통합 계정(SSO-KID)의 로그인/활성화가 계속되지 않을 때에는 아래 진입 경로를 참고하십시오. 주의: SSO-KID 활성화는 **학교 메일 이외의 이메일을 사용할 수 없습니다**."
+   },
+   "7d1d01": {
+    "items": [
+     {
+      "text": "SSO-KID 학생 로그인",
+      "url": "https://web.sso.kyushu-u.ac.jp/ssokid/students.html"
+     },
+     {
+      "text": "SSO 비밀번호 활성화",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
+     }
+    ]
+   },
+   "67b663": {
+    "text": "マイナンバー(마이넘버)(개인번호)"
+   },
+   "e63790": {
+    "text": "주민 등록 후 개인번호 통지서가 등기우편으로 주소지에 도착합니다. 가능한 한 빨리 区役所(구청)에서 マイナンバーカード(마이넘버카드)(사진이 붙은 플라스틱 카드)를 신청할 것을 권장합니다. 이후 은행 계좌 개설, 해외 송금 수령, 보험 가입 등에 모두 사용됩니다. 해외에서 송금을 받을 때 은행은 マイナンバー(마이넘버) 제시를 요구하므로, マイナンバー(마이넘버)가 기재된 住民票(주민표)를 제출하면 됩니다."
+   },
+   "0b4d10": {
+    "text": "国民健康保険(국민건강보험)(의료보험)"
+   },
+   "8f34d4": {
+    "text": "国民健康保険(국민건강보험)은 의료보험으로, 가입하면 진료 시 본인 부담이 30%뿐이며 유학생은 가입이 의무입니다. 주민 등록을 할 때 함께 신청할 수 있습니다. 【의료·보험】 참조"
+   },
+   "ca823a": {
+    "text": "国民年金(국민연금)(연금보험)"
+   },
+   "cf19f3": {
+    "text": "연금은 노후 보장을 위한 보험으로, 일본에 거주하는 20세 이상은 모두 가입 의무가 있으며, 令和7年度(레이와7년도)(2025)의 보험료는 **매월 17,510円(17,510엔)**입니다. 유학생은 일반적으로 실제 납부가 필요 없으며, 다음 두 가지 방법으로 감면받을 수 있습니다:"
+   },
+   "637f64": {
+    "text": "① 소득 기준 미달 면제: 일본에 막 도착해 소득이 없을 때 신청할 수 있으며, 区役所(구청)가 최초 처리 시 제공하는 과도기 방안입니다."
+   },
+   "ca081f": {
+    "text": "② 学生納付特例(학생납부특례): 유학생에게 가장 적합한 장기 방안으로, 재학 중에는 보험료 납부가 유예되고 졸업 후 소득이 생기면 추가 납부합니다. 신청에는 학생증이 필요하며, 전년도 소득이 기준선 이하(약 128万円(128만엔)에 부양 공제를 더한 금액, 공식 기준에 따름)여야 합니다."
+   },
+   "c8342b": {
+    "text": "핵심 절차와 자주 묻는 질문"
+   },
+   "4f17e5": {
+    "text": "주민 등록 → 최초로 区役所(구청)에서 「소득 기준 미달 면제」 처리 → 학무과(学務課)에서 학생증 수령 → 다시 区役所(구청)에 가서 면제를 ①에서 ② 学生納付特例(학생납부특례)로 전환"
+   },
+   "90bede": {
+    "text": "매년 전환을 잊어버려 이후 연금 고지서를 받게 되는 학생들이 있습니다. 주의:"
+   },
+   "e7cf1e": {
+    "text": "신청 장소: 주민 등록을 한 区役所(구청)의 연금 창구, 또는 西福岡年金事務所(니시후쿠오카네넨지무쇼)."
+   },
+   "8a0854": {
+    "items": [
+     {
+      "text": "日本年金機構(일본연금기구)·学生納付特例(학생납부특례)",
+      "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20150514.html"
+     }
+    ]
+   },
+   "5960c7": {
+    "text": "일본을 떠나기 전에 처리해야 할 사항:"
+   },
+   "067610": {
+    "items": [
+     {
+      "text": "주소 말소: 区役所(구청)에서 転出届(전출신고) 처리"
+     },
+     {
+      "text": "国民健康保険(국민건강보험): 보험증 반납과 보험료 정산; 6개월 이상 납부 시 脱退一時金(탈퇴일시금) 신청 가능"
+     },
+     {
+      "text": "国民年金(국민연금): 특례 신청을 한 경우 후속 처리 확인"
+     },
+     {
+      "text": "세금: 住民税(주민세)와 소득세의 정산 확인; 출국 후 추가 납부 고지가 올 수 있어 일본에 있는 지인에게 대납을 위임해야 합니다"
+     },
+     {
+      "text": "은행 계좌: 해지 여부 결정"
+     },
+     {
+      "text": "휴대폰: 해지 또는 MNP 전환"
+     },
+     {
+      "text": "기숙사/아파트: 계약에 따라 퇴거(退去) 처리"
+     },
+     {
+      "text": "대학 수속: 성적/졸업 증명서, 도서관 도서 반납, 生協(생협) 탈퇴 등"
+     }
+    ]
+   },
+   "23d79c": {
+    "text": "정산하지 않은 비용은 개인 신용에 영향을 줄 수 있으며, 보증인/지도교수에게까지 영향을 미칠 수 있습니다."
+   },
+   "497bc4": {
+    "text": "国際観光旅客税(국제관광여객세)(출국세)"
+   },
+   "a61a13": {
+    "text": "일본에서 비행기나 배로 출국할 때 国際観光旅客税(국제관광여객세), 통칭 「出国税(출국세)」가 부과되며, 일반적으로 항공권 가격에 포함되어 있습니다. 세액은 2026-07-01 이후 출국분부터 1회당 1,000円(1,000엔)에서 3,000円(3,000엔)으로 인상됩니다."
+   },
+   "f0dbae": {
+    "text": "기억해 둘 만한 경과 조치가 있습니다: 2026-06-30 이전에 체결된 운송 계약(즉 이미 발권된 항공권)은 실제 출국일이 7월 1일 이후라도 조정 전의 1,000円(1,000엔)으로 계산됩니다. 여름방학 귀국을 계획하고 있다면 일찍 발권하는 것이 실질적인 차액입니다."
+   },
+   "6432da": {
+    "text": "확인 방법: 항공권 가격 내역이나 영수증에 「国際観光旅客税(국제관광여객세)」 항목이 있는지, 또는 세금 항목에 JPY 3,000 표기가 있는지 확인합니다. 일본에 입국하는 항공편에는 이 세금이 부과되지 않으므로, 「출(出)」 방향에서만 나타납니다."
+   },
+   "f21cc4": {
+    "text": "일시적 일본 출국(귀국 / 학회 참가)"
+   },
+   "b36386": {
+    "text": "영구 귀국과 달리 일시 출국에는 별도의 절차가 있습니다. 원칙적으로 먼저 지도교수의 内諾(내락)을 받고(아직 배속된 지도교수가 없으면 학생위원장에게 신청), 학교에 海外渡航届(해외도항신고서)를 제출합니다. 学部(학부)/学府(대학원)마다 서식이 다를 수 있으므로 内諾(내락)을 받을 때 함께 확인하십시오."
+   },
+   "e00cbb": {
+    "items": [
+     {
+      "title": "출국 시 출입국 신고서 수령",
+      "desc": "일본 출국 수속 시 신고서를 받아 작성합니다."
+     },
+     {
+      "title": "올바른 옵션 선택",
+      "desc": "출국 예정 기간은 「1년 이내」를, 아래는 「임시 출국, 재입국 예정」을 선택합니다."
+     },
+     {
+      "title": "도장 확인",
+      "desc": "세관이 신고서를 여권에 부착하고 뒷면에 「みなし再入国許可(의제재입국허가)」 도장을 찍습니다."
+     }
+    ]
+   },
+   "ba4f4e": {
+    "text": "**在留カード(재류카드)의 유효기간이 1년이 안 되어 만료되는 경우에는 在留カード(재류카드)의 기한을 기준으로 합니다**, 「1년」을 기준으로 하지 않습니다. 이 부분을 잘못 계산하면 돌아올 때 입국하지 못할 수 있습니다."
+   },
+   "f188b5": {
+    "text": "교통 안내: 지하철 후쿠오카공항(福岡空港)역과 직접 연결되는 곳은 **국내선** 터미널입니다. 귀국하거나 다른 나라로 갈 때는 **국제선** 터미널로 가야 하며, 무료 셔틀버스로 환승해야 합니다."
+   },
+   "5a78fd": {
+    "text": "홍콩 경유 왕복: 증명 서류와 세금 환급"
+   },
+   "6e4653": {
+    "text": "홍콩과 후쿠오카 사이에는 여러 항공사의 직항편이 있으며, 그중 두 곳은 저비용 항공사(LCC)라서 중국 남부(華南) 출신의 많은 학생이 홍콩을 경유합니다. 다만 어떤 증명 서류로 경유하느냐에 따른 규칙이 생각보다 복잡하며, 잘못하면 불량 기록이 남을 수 있습니다."
+   },
+   "d598ce": {
+    "headers": [
+     "상황",
+     "중국 본토 여권 사용 가능 여부",
+     "핵심"
+    ],
+    "rows": [
+     [
+      "공항 통제구역 내에서만 환승",
+      "출입국 절차 없음",
+      "아래 요건을 무시해도 됩니다"
+     ],
+     [
+      "A지 ⇄ 홍콩(7일 이내) ⇄ B지",
+      "가능",
+      "A·B는 같은 지역일 수 없으며, 이어지는 항공권(계속 여정)이 필요합니다"
+     ],
+     [
+      "일본 → 홍콩 → 일본으로 직접 복귀",
+      "불가",
+      "「香港進入許可(홍콩 입국 허가)」를 미리 신청해야 합니다"
+     ],
+     [
+      "홍콩 체류 7일 초과",
+      "불가",
+      "위와 동일, 사전에 신청해야 합니다"
+     ],
+     [
+      "본토에서 단순히 홍콩 왕복",
+      "불가",
+      "반드시 港澳通行證(홍콩·마카오 통행증)을 사용해야 합니다"
+     ]
+    ]
+   },
+   "49f1ab": {
+    "text": "잘못된 증명 서류로 본토에서 홍콩에 들어가면 세관이 여권에 DT(Delete Travel) 기록을 남기며, 이후 홍콩 입국과 다른 국가의 비자 신청에 영향을 미칩니다. 이 부분은 요행을 바라지 마십시오."
+   },
+   "51009c": {
+    "text": "「香港進入許可(홍콩 입국 허가)」는 주일 중국 대사관/영사관에서 신청할 수 있으며, 1회 최대 체류 14일, 3개월 1회, 3개월 2회, 1년 다회, 2년 다회의 종류가 있습니다. 후쿠오카의 영사관은 지하철 토진마치(唐人町)역 근처에 있습니다."
+   },
+   "b3abdf": {
+    "text": "환급: 홍콩에서 출발하는 모든 항공편에는 일반적으로 홍콩이 부과하는 항공 여객 출국세가 포함되어 있습니다. 조건에 해당하면 환급을 신청할 수 있으며, 기한은 출발 후 28일 이내입니다. 구체적인 조건과 절차는 본편 「国際観光旅客税(국제관광여객세)(출국세)」 항목 아래의 설명을 참조하거나, 홍콩 공식의 환급 안내를 직접 확인하십시오."
+   },
+   "2cbead": {
+    "items": [
+     {
+      "text": "홍콩 항공 여객 출국세 환급(공식)",
+      "url": "https://www.apdtrefund.hk/tc/"
+     },
+     {
+      "text": "주일 중국 대사관 · 해외에서 홍콩으로 가는 안내",
+      "url": "https://jp.china-embassy.gov.cn/lsfw_0/zjfw_138408/zhjfw28/LSZJZGGA/202405/t20240507_11300545.htm"
+     }
+    ]
+   },
+   "526eaa": {
+    "text": "본편의 일부 내용은 《新伊都国風土記(신이토국풍토기)》(저자 Hato_Tsubame, CantonSimon)에서 정리한 것으로, 저자의 허가를 받아 수록되었습니다. 본문의 가격, 운행 횟수와 절차는 시간이 지나면 변할 수 있으므로, 중요한 사항은 각 공식 사이트를 기준으로 하십시오."
    }
   }
  },
