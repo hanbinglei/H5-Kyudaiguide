@@ -3148,6 +3148,9 @@ window.ARTICLES_BODY_I18N = {
    },
    "6c71d4": {
     "text": "交通と立地"
+   },
+   "ef875c": {
+    "text": "費用と募集時期"
    }
   },
   "en": {
@@ -3159,6 +3162,9 @@ window.ARTICLES_BODY_I18N = {
    },
    "6c71d4": {
     "text": "Access and location"
+   },
+   "ef875c": {
+    "text": "Costs and application periods"
    }
   },
   "ko": {
@@ -3170,6 +3176,9 @@ window.ARTICLES_BODY_I18N = {
    },
    "6c71d4": {
     "text": "교통과 입지"
+   },
+   "ef875c": {
+    "text": "비용과 모집 시기"
    }
   }
  },
