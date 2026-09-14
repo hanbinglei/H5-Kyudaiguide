@@ -3321,6 +3321,9 @@ window.ARTICLES_BODY_I18N = {
    },
    "0e3977": {
     "text": "西鉄バスの割引"
+   },
+   "d2037e": {
+    "text": "試験の流れと受付時間"
    }
   },
   "en": {
@@ -3341,6 +3344,9 @@ window.ARTICLES_BODY_I18N = {
    },
    "0e3977": {
     "text": "Nishitetsu bus discounts"
+   },
+   "d2037e": {
+    "text": "Test procedure and reception hours"
    }
   },
   "ko": {
@@ -3361,6 +3367,9 @@ window.ARTICLES_BODY_I18N = {
    },
    "0e3977": {
     "text": "니시테츠 버스 할인"
+   },
+   "d2037e": {
+    "text": "시험 절차와 접수 시간"
    }
   }
  },
