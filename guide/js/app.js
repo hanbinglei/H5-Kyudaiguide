@@ -357,9 +357,12 @@ function showArticle(id,wantHeading,wantSec){
            不用「第 N 节」的序号 —— 正文增删后序号会整体错位，
            和小程序那个「点目录跳到错位置」的缺陷同源。 */
         if(wantSec||wantHeading){
-          /* 弹层有入场动画（--dur-sheet:240ms）。在动画跑完前滚动容器还不可滚，
-             一次 scrollIntoView 会被夹回 0（实测 targetTop 停在 528px、scrollTop=0）。
-             所以：滚一次 → 量一下有没有到位 → 没到位就再试，最多 4 次。 */
+          /* 定位到小节。
+             ⚠️ 不用 scrollIntoView：弹层有入场动画，动画期间滚动容器还没就绪，
+                实测 scrollIntoView 会被静默忽略（目标停在视口下方 5000px、scrollTop=0，
+                而同一次手动调用却有效）——行为不可预期。
+             改为**直接给滚动容器赋 scrollTop**：目标相对容器的偏移自己算，
+             赋完再量一次，没到位就重试（动画/布局落定后再补一次）。 */
           let tries=0;
           const jump=()=>{
             let target=null,idx=-1;
@@ -370,12 +373,12 @@ function showArticle(id,wantHeading,wantSec){
               if(idx<0) idx=headings.findIndex(h=>h&&(h.includes(wantHeading)||wantHeading.includes(h)));
               if(idx>=0) target=document.getElementById('sec-'+idx);
             }
-            if(!target) return;
-            target.scrollIntoView({behavior:'auto',block:'start'});
-            const sc=document.querySelector('.sheet-card');
-            const base=sc?sc.getBoundingClientRect().top:0;
-            const off=Math.abs(target.getBoundingClientRect().top-base);
-            if(off>60 && tries++<4){ setTimeout(jump,150); return; }
+            const sc=body.closest('.sheet-card')||document.querySelector('.sheet-card');
+            if(!target||!sc) return;
+            const want=target.getBoundingClientRect().top-sc.getBoundingClientRect().top+sc.scrollTop-10;
+            sc.scrollTop=Math.max(0,want);
+            const off=Math.abs(target.getBoundingClientRect().top-sc.getBoundingClientRect().top-10);
+            if(off>24 && tries++<5){ setTimeout(jump,140); return; }
             if(idx>=0) toc.querySelectorAll('.toc-tab').forEach((x,i2)=>x.classList.toggle('on',i2===idx));
           };
           setTimeout(jump,60);
