@@ -4333,18 +4333,723 @@ window.ARTICLES_BODY_I18N = {
  },
  "guide-life": {
   "ja": {
+   "222467": {
+    "text": "生協：構内での支払い方法"
+   },
+   "509375": {
+    "text": "粗大ゴミ（家具・家電など）は電話で予約して収集してもらう必要があり、有料です。"
+   },
    "9d0f73": {
-    "text": "ゴミ分別・天気・ポスト・食堂・生協 —— これらは専門の講義があるわけではありませんが、日常で頻繁に使うものです。必要な項目をご参照ください。"
+    "text": "ゴミの分別・天気・郵便ポスト・食堂・生協——これらの内容は専門の授業で教わることはありませんが、日常的に頻繁に使うものです。必要なときにご覧ください。"
+   },
+   "c6f3dd": {
+    "text": "福岡の天気"
+   },
+   "564f6c": {
+    "text": "福岡の夏は暑く、熱中症対策が必要です。外出時は水を持参し、エアコンや扇風機を活用してください。夏から秋の台風シーズンは、大学や気象庁の注意報・警報に注意してください。"
+   },
+   "81acda": {
+    "text": "ゴミの分別"
+   },
+   "aeecc8": {
+    "text": "福岡市の家庭ゴミは、燃えるごみ（可燃）、燃えないごみ（不燃）、空きびん（空瓶）・ペットボトル（PET 瓶）の3種類に分別して定期収集されます（粗大ゴミは別途予約が必要です）。"
+   },
+   "0efd50": {
+    "text": "**指定ゴミ袋の使用が必須です**（コンビニやスーパーで販売されており、種類ごとに袋の印字が異なります）。燃えるごみは週2回、それ以外は月1回の収集です。福岡市は夜間収集が多く、一般的に収集日前日の日没後から24時までの間に出します。"
+   },
+   "48309f": {
+    "text": "福岡市公式サイトには中国語版のゴミ分別検索システムがあり、品目名を入力すると分別区分を調べられます："
+   },
+   "caad01": {
+    "items": [
+     {
+      "text": "福岡市ゴミ分別検索（中国語）",
+      "url": "https://kateigomi-bunbetsu.city.fukuoka.lg.jp/cn/items"
+     }
+    ]
+   },
+   "52ee2d": {
+    "text": "福岡市 LINE 公式アカウント"
+   },
+   "3f8bd7": {
+    "text": "福岡市公式 LINE（@fukuokacity）では、防災・ゴミ収集日・子育て・防犯・イベントなどの情報配信を受けられるほか、ワクチン接種の予約やゴミ分別の検索なども LINE から行えます。フォローして必要なカテゴリを設定してください。"
+   },
+   "2defd6": {
+    "text": "サークル・部活動"
+   },
+   "958a05": {
+    "text": "サークルに参加することは、日本人の学生と知り合い、キャンパスに馴染むきっかけの一つです。九大には体育系・文化系などさまざまなサークルがあります。"
+   },
+   "aff452": {
+    "text": "・（日本語）"
+   },
+   "0bb9f5": {
+    "items": [
+     {
+      "text": "九州大学課外活動（サークル一覧）",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/extracurricular/"
+     }
+    ]
+   },
+   "a71552": {
+    "text": "・留学生は KUFSA（九州大学留学生会）と KUIFA（九州大学国際親善会）に注目してみてください。どちらもさまざまなイベントを開催しています"
+   },
+   "a7df77": {
+    "text": "マルチリンガル交流スペース（EZぷらっと）"
+   },
+   "cadf66": {
+    "text": "イースト1号館 2 階には多言語学習スペース EZ ぷらっとがあり、全学生に無料で開放されています。語学学習の支援（書籍・DVD・オンライン教材）を提供しているほか、留学相談や関連イベントへの参加もできます。"
+   },
+   "123b43": {
+    "text": "寮の修理依頼（水漏れ・カビ）"
+   },
+   "d7dc2a": {
+    "text": "手順：写真を撮る → 寮の管理人に報告する → 部屋番号を伝える。在校生を通して伝えてもらうこともでき、管理人から本人に連絡があります。福岡は湿気が多くカビが発生しやすいため、応急処置としてテープを貼って隔離しておくとよいでしょう。"
+   },
+   "4f9189": {
+    "text": "Coffee Hour は各寮で毎週定期的に開催される集まりで、さまざまな国や文化背景を持つ参加者が集まります。新しい友達を作る機会です。"
+   },
+   "3b5a1b": {
+    "text": "キャンパスライフ：食堂・図書館・イベント"
+   },
+   "7a6ada": {
+    "text": "食堂のメニューは日替わりで、営業時間や日曜日の営業の有無は生協のウェブサイトで確認できます。図書館の開館情報は公式サイトで確認でき、試験期間中は開館時間が延長されることがあります。"
+   },
+   "dca705": {
+    "items": [
+     {
+      "text": "図書館の開館情報",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja"
+     },
+     {
+      "text": "生協食堂（営業時間・日曜営業）",
+      "url": "https://www.coop.kyushu-u.ac.jp/shokudoubu.html"
+     },
+     {
+      "text": "生協食堂の月間メニュー",
+      "url": "https://www.coop.kyushu-u.ac.jp/shokudou/month_menu.html"
+     }
+    ]
+   },
+   "2b45db": {
+    "text": "キャンパス・まちのイベント"
+   },
+   "ba080f": {
+    "items": [
+     {
+      "text": "九大祭（キャンパスイベント一覧）",
+      "url": "https://kyudaisai.jp/"
+     },
+     {
+      "text": "博多どんたく（福岡市の大規模な祭り）",
+      "url": "https://www.dontaku.fukunet.or.jp/"
+     }
+    ]
+   },
+   "0120b0": {
+    "text": "九州大学生活協同組合（生協）は構内のほとんどの食堂や売店を運営しており、不動産仲介や保険などの業務も行っています。大学の公式機関ではなく、独立した協同組合です——サービスを利用するにはまず加入する必要があります。"
+   },
+   "a22a49": {
+    "text": "加入手続きはやや煩雑なので、生協の実店舗で直接手続きすることをおすすめします。加入後は生協アプリでの支払いが利用でき、方法は2種類あります。"
+   },
+   "a728d5": {
+    "headers": [
+     "方式",
+     "使い方",
+     "還元",
+     "購入できるもの"
+    ],
+    "rows": [
+     [
+      "生協電子マネー",
+      "都度チャージして使う",
+      "1% ポイント",
+      "全商品"
+     ],
+     [
+      "ミールプリペ",
+      "まとめて高額チャージ",
+      "約 2%～5%、チャージ額に応じて増加",
+      "食堂・売店の食品のみ"
+     ]
+    ]
+   },
+   "faabed": {
+    "text": "ミールプリペ の還元率は2026年に改定され、低額帯の割合が大きく下がりました——少額チャージだとかえって割高です。チャージ前に公式サイトの最新の還元率表を確認して金額を決めてください。以前の攻略記事の数字はそのまま使わないでください。現在の各ランクのチャージ額と還元額は公式サイトをご覧ください：https://www.coop.kyushu-u.ac.jp/e-money/index.html"
+   },
+   "216ba0": {
+    "text": "食堂：分布と支払い方法"
+   },
+   "b871d7": {
+    "items": [
+     {
+      "text": "生協食堂：営業時間・日替わりメニュー・月間メニューはすべて生協のウェブサイトで確認できます。構内の主力です"
+     },
+     {
+      "text": "GARDEN KITCHEN（W1 理学部入口）：生協ではなく、ICカードと支付宝（Alipay）が使えます"
+     },
+     {
+      "text": "QASIS と ビッグどら の食堂にはそれぞれインド料理の窓口があり、QASIS の窓口は微信支付（WeChat Pay）に対応しています"
+     }
+    ]
+   },
+   "f308d3": {
+    "items": [
+     {
+      "text": "九大生協・食堂部案内",
+      "url": "https://www.coop.kyushu-u.ac.jp/shokudoubu.html"
+     }
+    ]
+   },
+   "281f66": {
+    "text": "居住地で決まる手続きの流れ"
+   },
+   "42f05c": {
+    "text": "糸島半島は福岡市西区と糸島市に分かれています。大学自体は福岡市西区にあり、SETTLE International 以外の寮もすべて西区にあります。ただし周辺の住宅街は2つの市にまたがっており、これが手続きに行く役所を左右します。"
+   },
+   "39e635": {
+    "headers": [
+     "住む場所",
+     "行く役所",
+     "最寄り駅"
+    ],
+    "rows": [
+     [
+      "福岡市西区",
+      "福岡市役所西部出張所",
+      "九大学研都市駅"
+     ],
+     [
+      "糸島市（高田や SETTLE 周辺など）",
+      "糸島市役所",
+      "JR 筑前前原駅"
+     ]
+    ]
+   },
+   "26be59": {
+    "text": "**両市のゴミ袋は互換性がありません。** 購入前に自分がどちらの地域に住んでいるか確認してください。間違えて買うとゴミを出せなくなります。"
+   },
+   "5ce69e": {
+    "text": "天気：風が強く、冬は穏やか"
+   },
+   "445f0d": {
+    "text": "福岡は日本海側と太平洋側の両方の気候の特徴を持っています。冬は北西からの寒気を正面から受け、風は強いものの気温はおおむね0度以上で、降水は少なめです——福岡と朝鮮半島の間の海面が狭く、十分な水蒸気が蓄積しないため、北陸のような大雪はめったにありませんが、強風は頻繁で、最も強い時は最大瞬間風速が風力8に達することがあります。"
+   },
+   "cc62d7": {
+    "text": "6月から7月は梅雨で、その後は太平洋高気圧（副熱帯高気圧）に覆われ、蒸し暑く晴れが続き雨は少ないですが、蓄積されたエネルギーが強い対流を引き起こしやすくなります。秋にも秋雨の時期がありますが、梅雨ほど典型的ではありません。春と秋は比較的快適で、秋は通常1年で最も過ごしやすい季節です。"
+   },
+   "0aeb5b": {
+    "items": [
+     {
+      "text": "予報・風力・レーダー図を見る：windy（スマホアプリあり）"
+     },
+     {
+      "text": "実況と長期予報を見る：気象庁"
+     },
+     {
+      "text": "リアルタイムデータ：tenki.jp"
+     },
+     {
+      "text": "台風シーズンの進路予報：Tropical Tidbits（ただし台風が福岡を直撃することは稀です）"
+     }
+    ]
+   },
+   "48c15c": {
+    "text": "この地域は雨雲の動きが速いため、出かける前にレーダー図をひと目確認する方が、時間ごとの予報を見るよりも正確です。"
+   },
+   "20bca1": {
+    "text": "郵便ポストの場所"
+   },
+   "9add58": {
+    "items": [
+     {
+      "text": "日本の郵便ポストマップ（postmap）",
+      "url": "https://www.postmap.org/map"
+     }
+    ]
+   },
+   "df5369": {
+    "text": "本ページの一部の内容は『新伊都国風土記』（著者：Hato_Tsubame、CantonSimon）を整理したもので、著者の許可を得て掲載しています。文中の価格・運行情報・手続きは時期によって変わります。重要な事項は各公式サイトでご確認ください。"
    }
   },
   "en": {
+   "222467": {
+    "text": "Co-op (生協): Payment Methods on Campus"
+   },
+   "509375": {
+    "text": "Bulk waste (furniture, home appliances, etc.) is collected by telephone reservation, and the service is subject to a fee."
+   },
    "9d0f73": {
-    "text": "Waste sorting, weather, post boxes, canteens, the co-op - none of these is taught in a class, but all are used daily. Read the sections you need."
+    "text": "Waste sorting, weather, post boxes, cafeterias, and the Co-op (生協) — none of these are covered in any dedicated course, yet they are used constantly in daily life. Consult the relevant section as needed."
+   },
+   "c6f3dd": {
+    "text": "Fukuoka Weather"
+   },
+   "564f6c": {
+    "text": "Summers in Fukuoka are hot, so heatstroke prevention is important: carry water when going out and make good use of air conditioning and fans. Summer and autumn are the typhoon season — pay attention to warning notices from the university and the meteorological authorities."
+   },
+   "81acda": {
+    "text": "Waste Sorting"
+   },
+   "aeecc8": {
+    "text": "Household waste in Fukuoka City is collected on a regular schedule in three categories: 燃えるごみ (burnable), 燃えないごみ (non-burnable), and 空きびん・ペットボトル (empty bottles / PET bottles). Bulk waste requires a separate reservation."
+   },
+   "0efd50": {
+    "text": "**Designated garbage bags are required** (available at convenience stores and supermarkets; the bags differ by waste category, with different printing on each). Burnable waste is collected twice a week and the rest once a month; in Fukuoka City collection mostly takes place at night, so bags are generally put out between sunset and 24:00 on the day before collection."
+   },
+   "48309f": {
+    "text": "The Fukuoka City website has a waste-sorting lookup in Chinese: enter the name of an item to check its category."
+   },
+   "caad01": {
+    "items": [
+     {
+      "text": "Fukuoka City waste sorting lookup (Chinese)",
+      "url": "https://kateigomi-bunbetsu.city.fukuoka.lg.jp/cn/items"
+     }
+    ]
+   },
+   "52ee2d": {
+    "text": "Fukuoka City Official LINE Account"
+   },
+   "3f8bd7": {
+    "text": "The official Fukuoka City LINE account (@fukuokacity) sends push notifications on disaster prevention, waste collection days, childcare, crime prevention, and events. It also allows LINE-based vaccine reservations and waste-sorting lookup. Follow the account and set the categories as needed."
+   },
+   "2defd6": {
+    "text": "Clubs and Student Activities"
+   },
+   "958a05": {
+    "text": "Joining a club (サークル) is one way to get to know Japanese students and become part of campus life. Kyushu University (九大) has clubs across sports, culture, and other fields."
+   },
+   "aff452": {
+    "text": "· (Japanese)"
+   },
+   "0bb9f5": {
+    "items": [
+     {
+      "text": "Kyushu University extracurricular activities (club list)",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/extracurricular/"
+     }
+    ]
+   },
+   "a71552": {
+    "text": "· International students may follow KUFSA (九州大学留学生会) and KUIFA (九州大学国際親善会); both regularly organize various events"
+   },
+   "a7df77": {
+    "text": "Multilingual Exchange Space (EZぷらっと)"
+   },
+   "cadf66": {
+    "text": "The multilingual learning space EZ ぷらっと on the 2nd floor of East Building 1 (イースト1号館) is open free of charge to all students. It provides language-learning support (books, DVDs, online materials), and also offers study-abroad consultation and related events."
+   },
+   "123b43": {
+    "text": "Dormitory Repairs (Leaks / Mold)"
+   },
+   "d7dc2a": {
+    "text": "Procedure: take a photo → notify the dormitory manager → provide the room number. A current resident can relay the report on behalf of the student; the manager then contacts the student directly. Fukuoka is humid and mold is common; as an emergency measure, tape can be applied first to isolate the affected area."
+   },
+   "4f9189": {
+    "text": "Coffee Hour is a gathering held weekly at each dormitory, with participants from different countries and cultural backgrounds — an opportunity to make new friends."
+   },
+   "3b5a1b": {
+    "text": "Campus Life: Cafeterias, Library, and Events"
+   },
+   "7a6ada": {
+    "text": "Cafeteria menus change daily; operating hours and whether they are open on Sundays are posted on the Co-op (生協) website. Library opening hours are listed on the official website and may be extended during examination periods."
+   },
+   "dca705": {
+    "items": [
+     {
+      "text": "Library opening hours",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja"
+     },
+     {
+      "text": "Co-op cafeteria (hours / Sundays)",
+      "url": "https://www.coop.kyushu-u.ac.jp/shokudoubu.html"
+     },
+     {
+      "text": "Co-op cafeteria monthly menu",
+      "url": "https://www.coop.kyushu-u.ac.jp/shokudou/month_menu.html"
+     }
+    ]
+   },
+   "2b45db": {
+    "text": "Campus / City Events"
+   },
+   "ba080f": {
+    "items": [
+     {
+      "text": "九大祭 (campus events list)",
+      "url": "https://kyudaisai.jp/"
+     },
+     {
+      "text": "Hakata Dontaku (博多どんたく), a major festival in Fukuoka City",
+      "url": "https://www.dontaku.fukunet.or.jp/"
+     }
+    ]
+   },
+   "0120b0": {
+    "text": "The Kyushu University Co-op (九州大学生活協同組合, abbreviated 生協) operates most of the cafeterias and shops on campus and also offers housing agency and insurance services. It is not an official university body but an independent cooperative — membership is therefore required to use its services."
+   },
+   "a22a49": {
+    "text": "The enrollment procedure is somewhat complicated; going directly to a physical Co-op (生協) store is recommended. After joining, payment can be made with the Co-op App, in two ways."
+   },
+   "a728d5": {
+    "headers": [
+     "Method",
+     "How to use",
+     "Reward",
+     "What can be purchased"
+    ],
+    "rows": [
+     [
+      "Co-op e-money (生協電子マネー)",
+      "Top up and use on demand",
+      "1% points",
+      "Any items"
+     ],
+     [
+      "Meal Prepaid (ミールプリペ)",
+      "One-time large top-up",
+      "Approx. 2-5%, increasing by tier",
+      "Food items at cafeterias and shops only"
+     ]
+    ]
+   },
+   "faabed": {
+    "text": "Meal Prepaid (ミールプリペ) reward tiers were revised in 2026, and the rates for the lower tiers dropped considerably — small top-ups are no longer worthwhile. Before topping up, check the latest official tier table and decide the amount accordingly; do not reuse figures from older guides. Current top-up amounts and rewards for each tier are listed on the official website: https://www.coop.kyushu-u.ac.jp/e-money/index.html"
+   },
+   "216ba0": {
+    "text": "Cafeterias: Locations and Payment Methods"
+   },
+   "b871d7": {
+    "items": [
+     {
+      "text": "Co-op (生協) cafeterias: operating hours, daily menus, and monthly menus are all on the Co-op website; they are the mainstay of campus dining"
+     },
+     {
+      "text": "GARDEN KITCHEN (near the entrance of Building W1, Faculty of Sciences): not run by the Co-op; IC cards and Alipay accepted"
+     },
+     {
+      "text": "Both the QASIS and ビッグどら cafeterias have an Indian food counter; the one at QASIS accepts WeChat Pay"
+     }
+    ]
+   },
+   "f308d3": {
+    "items": [
+     {
+      "text": "Kyushu University Co-op cafeteria guide",
+      "url": "https://www.coop.kyushu-u.ac.jp/shokudoubu.html"
+     }
+    ]
+   },
+   "281f66": {
+    "text": "Administrative Procedures by Residential Area"
+   },
+   "42f05c": {
+    "text": "The Itoshima Peninsula is split between Nishi Ward, Fukuoka City and Itoshima City. The university itself is in Nishi Ward, and all dormitories except SETTLE International are in Nishi Ward as well. The surrounding residential areas, however, span both cities, and this directly determines where one goes for administrative procedures."
+   },
+   "39e635": {
+    "headers": [
+     "Residential area",
+     "Office to visit",
+     "Nearest station"
+    ],
+    "rows": [
+     [
+      "Nishi Ward, Fukuoka City (福岡市西区)",
+      "福岡市役所西部出張所 (Fukuoka City Nishi Branch Office)",
+      "Kyudai Gakken Toshi Station (九大学研都市駅)"
+     ],
+     [
+      "Itoshima City (e.g., around Takada and SETTLE)",
+      "糸島市役所 (Itoshima City Hall)",
+      "JR Chikuzen-Maebaru Station (筑前前原駅)"
+     ]
+    ]
+   },
+   "26be59": {
+    "text": "**The garbage bags of the two cities are not interchangeable.** Before buying, confirm which municipality the residence belongs to — the wrong bags cannot be put out."
+   },
+   "5ce69e": {
+    "text": "Weather: Windy, with Mild Winters"
+   },
+   "445f0d": {
+    "text": "Fukuoka's climate combines features of both the Sea of Japan side and the Pacific Ocean side. In winter it directly faces cold air coming from the northwest: windy, yet temperatures mostly stay above 0 °C, with relatively little precipitation. Because the sea between Fukuoka and the Korean Peninsula is too narrow to accumulate enough moisture, heavy snow like that in the Hokuriku (北陸) region is rare — instead, strong winds are common, and gusts can reach Force 8 at their strongest."
+   },
+   "cc62d7": {
+    "text": "June and July are the rainy season (梅雨), after which the region comes under the subtropical high: muggy, sunny, and dry, though the accumulated energy readily triggers severe convection. Autumn also has a rainy spell, but less pronounced than the rainy season. Spring and autumn are comparatively comfortable, and autumn is usually the best season of the year."
+   },
+   "0aeb5b": {
+    "items": [
+     {
+      "text": "Forecasts, wind, and radar maps: windy (mobile app available)"
+     },
+     {
+      "text": "Current conditions and long-range forecasts: Japan Meteorological Agency (気象庁)"
+     },
+     {
+      "text": "Real-time data: tenki.jp"
+     },
+     {
+      "text": "Typhoon track forecasts during the typhoon season: Tropical Tidbits (though typhoons rarely pass directly over Fukuoka)"
+     }
+    ]
+   },
+   "48c15c": {
+    "text": "Rain clouds in this area move quickly; a quick look at the radar map before going out is more reliable than the hourly forecast."
+   },
+   "20bca1": {
+    "text": "Post Box Locations"
+   },
+   "9add58": {
+    "items": [
+     {
+      "text": "Japan post box map (PostMap)",
+      "url": "https://www.postmap.org/map"
+     }
+    ]
+   },
+   "df5369": {
+    "text": "Parts of this article are compiled from 《新伊都国風土記》 (authors: Hato_Tsubame, CantonSimon), included with the authors' permission. Prices, schedules, and procedures in this article change over time; for important matters, refer to the official websites."
    }
   },
   "ko": {
+   "222467": {
+    "text": "생협: 캠퍼스 내 결제 수단"
+   },
+   "509375": {
+    "text": "대형 폐기물(가구, 가전 등)은 전화로 예약하여 수거하며, 유료입니다."
+   },
    "9d0f73": {
-    "text": "쓰레기 분리배출, 날씨, 우체통, 식당, 생협 —— 별도의 강의가 있는 것은 아니지만 일상에서 자주 쓰입니다. 필요한 항목을 참고하세요."
+    "text": "쓰레기 분리수거, 날씨, 우체통, 식당, 생협 - 이런 내용은 별도의 강의로 배우지 않지만 일상에서 자주 필요합니다. 필요할 때 찾아보시기 바랍니다."
+   },
+   "c6f3dd": {
+    "text": "후쿠오카 날씨"
+   },
+   "564f6c": {
+    "text": "후쿠오카는 여름이 매우 더우므로 폭염 대비가 필요하며, 외출할 때는 물을 챙기고 에어컨과 선풍기를 적절히 활용해야 합니다. 여름과 가을은 태풍 시즌이므로 학교와 기상 당국의 경보 공지를 확인하시기 바랍니다."
+   },
+   "81acda": {
+    "text": "쓰레기 분리수거"
+   },
+   "aeecc8": {
+    "text": "후쿠오카시의 가정용 쓰레기는 3종류로 나누어 정기 수거됩니다: 燃えるごみ(가연 쓰레기), 燃えないごみ(불연 쓰레기), 空きびん・ペットボトル(빈 병·PET병)(그 외 대형 폐기물은 별도 예약 필요)."
+   },
+   "0efd50": {
+    "text": "**지정 봉투를 사용해야 합니다**(편의점과 슈퍼마켓에서 판매하며, 종류에 따라 봉투 표기가 다릅니다). 가연 쓰레기는 주 2회, 그 외 쓰레기는 월 1회 수거됩니다. 후쿠오카시는 야간 수거가 많으며, 보통 수거일 전날 해가 진 뒤부터 24시 사이에 내놓습니다."
+   },
+   "48309f": {
+    "text": "후쿠오카시 공식 웹사이트에는 중국어 쓰레기 분류 조회 시스템이 있어, 물품명을 입력하면 분류를 확인할 수 있습니다:"
+   },
+   "caad01": {
+    "items": [
+     {
+      "text": "후쿠오카시 쓰레기 분류 조회(중국어)",
+      "url": "https://kateigomi-bunbetsu.city.fukuoka.lg.jp/cn/items"
+     }
+    ]
+   },
+   "52ee2d": {
+    "text": "후쿠오카시 LINE 공식 계정"
+   },
+   "3f8bd7": {
+    "text": "후쿠오카시 공식 LINE(@fukuokacity)에서는 방재, 쓰레기 수거일, 육아, 방범, 행사 등의 정보를 알림으로 받을 수 있으며, LINE으로 예방접종 예약이나 쓰레기 분류 조회 등도 가능합니다. 친구 추가 후 필요에 따라 카테고리를 설정하시기 바랍니다."
+   },
+   "2defd6": {
+    "text": "동아리·부활동"
+   },
+   "958a05": {
+    "text": "동아리(サークル)에 가입하는 것은 일본인 학생을 사귀고 캠퍼스 생활에 적응하는 좋은 방법 중 하나입니다. 규슈대학에는 스포츠, 문화 등 다양한 동아리가 있습니다."
+   },
+   "aff452": {
+    "text": "· (일본어)"
+   },
+   "0bb9f5": {
+    "items": [
+     {
+      "text": "九州大学課外活動(동아리 일람)",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/extracurricular/"
+     }
+    ]
+   },
+   "a71552": {
+    "text": "· 유학생은 KUFSA(규슈대학 유학생회)와 KUIFA(규슈대학 국제친선회)를 주목하시기 바랍니다. 두 단체는 각종 행사를 자주 개최합니다"
+   },
+   "a7df77": {
+    "text": "マルチリンガル交流スペース(EZぷらっと)"
+   },
+   "cadf66": {
+    "text": "イースト1号館 2층에는 다언어 학습 공간 EZぷらっと가 있으며, 모든 학생에게 무료로 개방되어 있습니다. 어학 학습 지원(서적, DVD, 온라인 교재)을 제공하며, 유학 상담과 관련 행사 참여도 가능합니다."
+   },
+   "123b43": {
+    "text": "기숙사 수리 신청(누수/곰팡이)"
+   },
+   "d7dc2a": {
+    "text": "절차: 사진 촬영 → 기숙사 관리인에게 신고 → 호실 번호 제공. 재학생이 대신 전달할 수도 있으며, 관리인이 이후 본인에게 연락합니다. 후쿠오카는 습기가 많아 곰팡이가 흔하므로, 긴급 시에는 먼저 테이프로 봉합해 두시기 바랍니다."
+   },
+   "4f9189": {
+    "text": "Coffee Hour는 각 기숙사에서 매주 정기적으로 열리는 모임으로, 다양한 국가와 문화 배경의 참가자가 모여 새로운 친구를 사귈 수 있는 기회입니다."
+   },
+   "3b5a1b": {
+    "text": "캠퍼스 생활: 식당·도서관·행사"
+   },
+   "7a6ada": {
+    "text": "식당 메뉴는 매일 바뀌며, 영업시간과 일요일 영업 여부는 생협 웹사이트를 확인하시기 바랍니다. 도서관 개관 정보는 공식 웹사이트를 확인하되, 시험 기간에는 개관 시간이 연장될 수 있습니다."
+   },
+   "dca705": {
+    "items": [
+     {
+      "text": "도서관 개관 정보",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja"
+     },
+     {
+      "text": "생협 식당(영업/일요일)",
+      "url": "https://www.coop.kyushu-u.ac.jp/shokudoubu.html"
+     },
+     {
+      "text": "생협 식당 월간 메뉴",
+      "url": "https://www.coop.kyushu-u.ac.jp/shokudou/month_menu.html"
+     }
+    ]
+   },
+   "2b45db": {
+    "text": "캠퍼스/도시 행사"
+   },
+   "ba080f": {
+    "items": [
+     {
+      "text": "九大祭(캠퍼스 행사 일람)",
+      "url": "https://kyudaisai.jp/"
+     },
+     {
+      "text": "博多どんたく(후쿠오카시 대규모 축제)",
+      "url": "https://www.dontaku.fukunet.or.jp/"
+     }
+    ]
+   },
+   "0120b0": {
+    "text": "九州大学生活協同組合(생협)은 캠퍼스 내 대부분의 식당과 매장을 운영하며, 부동산 중개와 보험 등의 업무도 담당합니다. 학교의 공식 기관이 아닌 독립된 협동조합이므로, 서비스를 이용하려면 먼저 가입해야 합니다."
+   },
+   "a22a49": {
+    "text": "가입 절차가 다소 번거로우므로 생협의 오프라인 매장에서 직접 가입하는 것을 권장합니다. 가입 후에는 생협 앱으로 결제할 수 있으며, 결제 방식은 두 가지입니다."
+   },
+   "a728d5": {
+    "headers": [
+     "방식",
+     "이용 방법",
+     "적립",
+     "구매 가능 품목"
+    ],
+    "rows": [
+     [
+      "生協電子マネー",
+      "충전할 때마다 바로 사용",
+      "1% 적립",
+      "모든 상품"
+     ],
+     [
+      "ミールプリペ",
+      "한 번에 큰 금액 충전",
+      "약 2%~5%, 구간에 따라 증가",
+      "식당 및 매장의 식품에만 한정"
+     ]
+    ]
+   },
+   "faabed": {
+    "text": "ミールプリペ의 적립 구간은 2026년에 개정되어, 낮은 구간의 적립률이 크게 낮아졌습니다. 적게 충전하면 오히려 손해입니다. 충전 전에 공식 웹사이트의 최신 구간표를 확인하여 금액을 결정하시기 바라며, 예전 가이드의 숫자는 사용하지 마십시오. 현재 각 구간의 충전액과 적립액은 공식 웹사이트를 참조하세요: https://www.coop.kyushu-u.ac.jp/e-money/index.html"
+   },
+   "216ba0": {
+    "text": "식당: 위치와 결제 수단"
+   },
+   "b871d7": {
+    "items": [
+     {
+      "text": "생협 식당: 영업시간, 일별 메뉴와 월간 메뉴가 모두 생협 웹사이트에 있으며, 캠퍼스 내 주력 식당입니다"
+     },
+     {
+      "text": "GARDEN KITCHEN(W1 이학부 앞): 생협 소속이 아니며, IC 카드와 알리페이 사용 가능"
+     },
+     {
+      "text": "QASIS와 ビッグどら 식당에는 각각 인도 요리 창구가 있으며, QASIS의 창구는 위챗페이를 지원합니다"
+     }
+    ]
+   },
+   "f308d3": {
+    "items": [
+     {
+      "text": "九大生協 · 食堂部案内",
+      "url": "https://www.coop.kyushu-u.ac.jp/shokudoubu.html"
+     }
+    ]
+   },
+   "281f66": {
+    "text": "거주지에 따라 달라지는 행정 절차"
+   },
+   "42f05c": {
+    "text": "이토시마 반도는 후쿠오카시 니시구와 이토시마시로 나뉘어 있습니다. 학교 자체는 후쿠오카시 니시구에 있으며, SETTLE International을 제외한 기숙사도 모두 니시구에 있습니다. 그런데 주변 주택가는 두 도시에 걸쳐 있어, 이것이 행정 절차를 어디에서 처리할지 직접 결정합니다."
+   },
+   "39e635": {
+    "headers": [
+     "거주지",
+     "가야 할 관청",
+     "가장 가까운 역"
+    ],
+    "rows": [
+     [
+      "후쿠오카시 니시구",
+      "福岡市役所西部出張所",
+      "九大学研都市駅"
+     ],
+     [
+      "이토시마시(다카타, SETTLE 일대)",
+      "糸島市役所",
+      "JR 筑前前原駅"
+     ]
+    ]
+   },
+   "26be59": {
+    "text": "**두 도시의 쓰레기 봉투는 서로 호환되지 않습니다.** 구매 전에 자신이 어느 쪽에 속하는지 확인하시기 바랍니다. 잘못 사면 쓰레기를 버릴 수 없습니다."
+   },
+   "5ce69e": {
+    "text": "날씨: 바람이 많고 겨울은 온화함"
+   },
+   "445f0d": {
+    "text": "후쿠오카는 일본해 쪽과 태평양 쪽 기후의 특징을 동시에 지닙니다. 겨울에는 북서쪽에서 불어오는 찬 공기를 정면으로 맞아 바람이 강하지만 기온은 대체로 0도 이상이며 강수량은 적습니다. 후쿠오카와 한반도 사이의 바다 폭이 좁아 수증기가 충분히 쌓이지 못하기 때문에, 호쿠리쿠처럼 폭설이 내리는 경우는 드물지만 강풍은 잦고 최대 순간 풍속이 8급에 달할 때도 있습니다."
+   },
+   "cc62d7": {
+    "text": "6~7월은 장마철이며, 이후 아열대 고기압의 영향을 받아 무덥고 맑은 날이 이어지며 비는 적지만, 쌓인 에너지가 강한 대류를 일으키기 쉽습니다. 가을에도 장마와 비슷한 가을비 시기가 있지만 장마만큼 전형적이지는 않습니다. 봄과 가을은 비교적 쾌적하며, 가을은 보통 1년 중 가장 좋은 계절입니다."
+   },
+   "0aeb5b": {
+    "items": [
+     {
+      "text": "예보·풍력·레이더 관측: windy(모바일 앱 있음)"
+     },
+     {
+      "text": "실황과 장기 예보: 일본 기상청"
+     },
+     {
+      "text": "실시간 데이터: tenki.jp"
+     },
+     {
+      "text": "태풍 시즌 경로 예보: Tropical Tidbits(다만 태풍이 후쿠오카에 정면으로 통과하는 경우는 드묾)"
+     }
+    ]
+   },
+   "48c15c": {
+    "text": "이 일대는 비구름의 이동이 매우 빠르므로, 외출 전에 레이더 관측을 확인하는 것이 시간별 예보보다 정확합니다."
+   },
+   "20bca1": {
+    "text": "우체통 위치"
+   },
+   "9add58": {
+    "items": [
+     {
+      "text": "일본 우체통 지도(postmap)",
+      "url": "https://www.postmap.org/map"
+     }
+    ]
+   },
+   "df5369": {
+    "text": "이 글의 일부 내용은 《新伊都国風土記》(저자 Hato_Tsubame, CantonSimon)에서 정리한 것으로, 저자의 허가를 받아 수록되었습니다. 본문의 가격, 운행 횟수와 절차는 시간이 지나면서 변할 수 있으므로, 중요한 사항은 각 공식 웹사이트를 기준으로 확인하시기 바랍니다."
    }
   }
  },
@@ -5547,17 +6252,830 @@ window.ARTICLES_BODY_I18N = {
  "guide-shopping": {
   "ja": {
    "01aac7": {
-    "text": "日々の買い物先、節約の方法、**避けるべき罠**（フリマ、代行購入、分割契約）。必要な項目をご参照ください。"
+    "text": "日々の買い物場所、節約術、**避けるべき落とし穴**（中古プラットフォーム、転売代行、分割払い契約）をまとめています。必要なときに該当箇所をご覧ください。"
+   },
+   "3082ec": {
+    "text": "概要：商業エリアの分布"
+   },
+   "8e23fa": {
+    "text": "伊都キャンパスは福岡市西区元岡にあり、周辺はキャンパスと住宅地が中心です。最寄りの商業エリアは九大学研都市駅周辺で、西は糸島市（筑前前原）、東は姪浜・室見方面まで、キャンパスを中心におおむね7km圏内に広がっています。日常の買い物は駅周辺のスーパーとドラッグストアが中心で、まとめ買いにはディスカウントストアや総合スーパーが便利です。"
+   },
+   "d5299c": {
+    "text": "日用品は九大学研都市周辺でほぼ揃います。家具や生活必需品はニトリ（Nitori）が利用できます。最寄りの店舗は福岡西店（地下鉄橋本駅付近）で、伊都キャンパスからは離れており徒歩圏内ではないため、車などでの移動が必要です。"
+   },
+   "3dc2d0": {
+    "text": "以下は「距離／種類」ごとに整理しています。各店舗の住所・営業時間・7km圏内かどうかは、実際に地図で検索してご確認ください。店舗は変わることがあります。"
+   },
+   "aacc3a": {
+    "text": "スーパー：MaxValu・西鉄ストア"
+   },
+   "edac1a": {
+    "items": [
+     {
+      "text": "マックスバリュ（MaxValu）：イオン系スーパー。周船寺西店は24時間営業"
+     },
+     {
+      "text": "にしてつストア（西鉄ストア、周船寺店）：西鉄系スーパー。生鮮・総菜・福岡の名産品が充実"
+     }
+    ]
+   },
+   "18b42b": {
+    "text": "ドラッグストア：医薬品・日用品"
+   },
+   "b4d3ba": {
+    "items": [
+     {
+      "text": "ドラッグイレブン：九州地盤のドラッグチェーン（医薬品・化粧品・日用品）"
+     },
+     {
+      "text": "サンドラッグ／ダイレックス：ドラッグ＆ディスカウント店。日用品が比較的安い"
+     }
+    ]
+   },
+   "c24ac4": {
+    "text": "ディスカウント店：トライアル・業務スーパー"
+   },
+   "d29eba": {
+    "items": [
+     {
+      "text": "トライアル（Trial）：ディスカウントスーパー。食品・日用品の価格が安く、一部店舗は24時間営業"
+     },
+     {
+      "text": "業務スーパー（Gyomu Super、伊都店）：冷凍食品や業務用が中心。まとめ買いに便利"
+     }
+    ]
+   },
+   "84d22e": {
+    "text": "大型総合店：イオン・サニー"
+   },
+   "92e039": {
+    "items": [
+     {
+      "text": "イオン（AEON、福岡伊都店）：総合スーパー。衣料・日用品・生鮮・総菜が揃う"
+     },
+     {
+      "text": "サニー／マルキョウ：福岡地場のスーパー。生鮮が安く、特売も多い"
+     }
+    ]
+   },
+   "6e9f25": {
+    "text": "コンビニと周辺の商業エリア"
+   },
+   "a76085": {
+    "text": "ローソン／セブンイレブン／ファミリーマート：駅やキャンパス近くにあります。飲料・軽食・日用品・ATM・コピーなど急な用事に便利ですが、価格はやや高めです。"
+   },
+   "40861e": {
+    "text": "姪浜・室見方面（東側）にはスーパーやドラッグストア、商業施設が多く、地下鉄・バスで行けます。糸島市・筑前前原（西側）には地元のスーパーや商店街があり、ついでに立ち寄るのもおすすめです。"
+   },
+   "9da2b2": {
+    "text": "中古ショップと節約のポイント"
+   },
+   "30eccf": {
+    "items": [
+     {
+      "text": "信頼できる中古自転車店",
+      "url": "https://maps.app.goo.gl/PqRLz6KtPdcAPvnW7"
+     },
+     {
+      "text": "西区の24時間段ボール回収スポット",
+      "url": "https://maps.app.goo.gl/KKvgjEHL8grTamZk8?g_st=ic"
+     },
+     {
+      "text": "九大生協（語学試験などの学内申込情報）",
+      "url": "https://www.coop.kyushu-u.ac.jp/"
+     }
+    ]
+   },
+   "962a01": {
+    "text": "ポイント"
+   },
+   "1ff8de": {
+    "items": [
+     {
+      "text": "コピー用紙などはナフコ（Nafco）、ドンキホーテ、ダイレックスで買うと安い"
+     },
+     {
+      "text": "協奏館に住んでいる人は移動販売車「いと丸くん」で生鮮食品を買える"
+     }
+    ]
+   },
+   "1420ca": {
+    "items": [
+     {
+      "text": "九州大学 生活ガイド／パンフレット（リビングガイド含む）",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/life/pamphlet/"
+     },
+     {
+      "text": "Global Gateway（在留・住居・生活情報）",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student"
+     }
+    ]
+   },
+   "8328f6": {
+    "text": "家具・家電：ホームセンター"
+   },
+   "666b25": {
+    "text": "日用品・家具・家電・自転車が一か所で揃い、食品も一部取り扱っています。百円ショップほど安くはありませんが、品揃えが豊富なのが強みです。多くのホームセンターはオンラインショップや在庫確認に対応しているので、出かける前に価格と在庫をネットで確認すれば、無駄足を防げます。"
+   },
+   "3496a2": {
+    "headers": [
+     "店舗名",
+     "キャンパスからの距離",
+     "備考"
+    ],
+    "rows": [
+     [
+      "ホームプラザナフコ 元岡店",
+      "最寄り",
+      "オンラインショップ利用可"
+     ],
+     [
+      "ホームセンターグッデイ 伊都店",
+      "近い",
+      "比較的新しい"
+     ],
+     [
+      "ミスターマックス 糸島店",
+      "中程度",
+      "日用品・家具が安く、在庫をオンラインで確認できる"
+     ],
+     [
+      "スーパービバホーム 志摩店",
+      "遠い",
+      "売場が広く、SETTLE に近い"
+     ],
+     [
+      "コメリパワー 周船寺店",
+      "遠い",
+      "店舗が大きく、品揃えが豊富"
+     ]
+    ]
+   },
+   "adfb20": {
+    "text": "百円ショップ：在庫を確認してから行く"
+   },
+   "28bbb8": {
+    "text": "ホームセンターで1,000円するものが、ここでは100円で済むこともあります。その分、品質はやや劣ります。到着直後に日用品を揃える際の費用対効果は抜群です。Seria は全品100円の純粋な百円ショップ。ダイソー は200～1,000円の商品もあり、高価格帯のものは品質が少し良くなります。"
+   },
+   "dc40bc": {
+    "text": "店舗によって品揃えが違うことが多く、品切れもよくあります。ダイソー の公式アプリで店舗ごとの在庫を確認できるので、行く前に調べれば無駄足を防げます。"
+   },
+   "69029b": {
+    "text": "リサイクルショップ：本・家具・家電・衣類"
+   },
+   "8db039": {
+    "text": "価格は特別安いわけではありませんが、基本的なクリーニングが施され一定の保証があるため、短期滞在で新品を買いたくない場合に適しています。"
+   },
+   "af7aff": {
+    "items": [
+     {
+      "text": "BOOKOFF PLUS 福岡糸島店：本とアニメ・ゲーム関連グッズが中心"
+     },
+     {
+      "text": "セカンドストリート 糸島店：比較的新しく、品揃えが豊富。価格はやや高め"
+     },
+     {
+      "text": "リサイクルマート 糸島店：飾り気はないが、値段は比較的安い"
+     },
+     {
+      "text": "トレジャーファクトリー（周船寺）：セカンドストリートに近いが、品数はやや少なめ"
+     }
+    ]
+   },
+   "52dfde": {
+    "text": "自転車：伊都での必需品"
+   },
+   "adb267": {
+    "text": "伊都で自転車がないと本当に不便ですし、日本の自転車も安くありません。大学は高台にあり坂道は避けられないので、最低でも変速機付きのモデルを選びましょう。予算に余裕があれば電動アシストも検討できます。複数の店を比較してから決めることをおすすめします。"
+   },
+   "97941b": {
+    "headers": [
+     "店舗名",
+     "キャンパスからの距離",
+     "体験者の声"
+    ],
+    "rows": [
+     [
+      "ルミエール 今宿店",
+      "中程度（Kラインで行ける）",
+      "変速機付きは2万円以内。電動アシストなし"
+     ],
+     [
+      "Cycle Shop Palette 九大前店",
+      "最寄り",
+      "比較的安い車種があり、支付宝（Alipay）が使える"
+     ],
+     [
+      "サイクルベースあさひ 伊都店／糸島店",
+      "中程度",
+      "大手チェーンで安心、車種も豊富。価格はやや高め"
+     ],
+     [
+      "イオンバイク 福岡伊都店",
+      "近い",
+      "イオンの中にあり便利。価格はやや高め"
+     ],
+     [
+      "ミスターマックス 糸島店",
+      "中程度",
+      "比較的安い電動アシスト車がある"
+     ]
+    ]
+   },
+   "b5f388": {
+    "text": "体験者の声：上記の評価は実際に訪れた人の意見です。価格や在庫は変わるため、店舗での実物をご確認ください。中古自転車は、グループ内で卒業生が譲り渡すケースもあります。店頭より安いことが多いですが、防犯登録の名義変更手続きを忘れずに。"
+   },
+   "a2836a": {
+    "text": "イオンの学内受け取りロッカー：寮生に最も便利"
+   },
+   "3dfc41": {
+    "text": "2025年10月から、学内の中央食堂前にイオンオンラインスーパーの受け取りロッカーが設置されました。このロッカーへの配送は送料無料で、取り扱い品目は九大学研都市のイオンスーパーとほぼ同じです。実際、商品はその店舗から発送されます。学内に住んでいるなら、これが最も手間のかからない買い物方法でしょう。"
+   },
+   "ac5dc4": {
+    "items": [
+     {
+      "title": "アカウント登録",
+      "desc": "iAEONアカウントを持っていればそのまま使えます。"
+     },
+     {
+      "title": "店舗を選んで注文",
+      "desc": "イオン福岡伊都店を選択します。最低注文金額が設定されています。"
+     },
+     {
+      "title": "カートで受け取りを選択",
+      "desc": "「受取り時間」で「店舗などでお受取」を選び、選択可能な時間帯を確認します。"
+     },
+     {
+      "title": "受け取りロッカーを指定",
+      "desc": "次の画面で「受取場所」から学内のロッカーを選び、受け取り時間に注意します。"
+     }
+    ]
+   },
+   "3238c2": {
+    "text": "体験者の声：オンラインショップの価格は実店舗とほぼ同じです（もともと安くはありません）。生鮮・総菜は種類が少なめですが、野菜・果物は充実しており、日用品はイオン2階の商品までカバーしています。自宅配送を選ぶと別途送料がかかり、配送可能かどうかは郵便番号の入力で確認できます。"
+   },
+   "4fc028": {
+    "items": [
+     {
+      "text": "イオン九州 オンラインスーパー",
+      "url": "https://kyushu.netsuper.aeon.com/0000018990"
+     }
+    ]
+   },
+   "a847a0": {
+    "text": "本記事の一部は『新伊都国風土記』（著者：Hato_Tsubame、CantonSimon）を基に、著者の許可を得て収録しています。価格・運行・手続きは時期によって変わるため、重要な情報は各公式サイトでご確認ください。"
    }
   },
   "en": {
    "01aac7": {
-    "text": "Where to shop day to day, how to save, and **the traps to avoid** (marketplace apps, proxy buying, instalment contracts). Read the sections you need."
+    "text": "Everyday shopping locations, ways to save money, and **pitfalls to avoid** (secondhand platforms, proxy purchasing, installment contracts). Browse as needed."
+   },
+   "3082ec": {
+    "text": "Overview: Commercial Area Distribution"
+   },
+   "8e23fa": {
+    "text": "Ito Campus is located in Motooka, Nishi Ward, Fukuoka City, surrounded mainly by the campus and residential areas; the nearest commercial areas are around Kyudai Gakkentoshi Station. Itoshima City (Chikuzen-Maebaru) lies to the west and the Meinohama/Muromi area to the east, all roughly within about 7 km of the campus. Daily shopping centers on supermarkets and drugstores around the station; for bulk stock-ups, discount stores and general supermarkets are the choice."
+   },
+   "d5299c": {
+    "text": "Daily necessities are mostly available in the Gakken area. For furniture and household essentials, Nitori (ニトリ) is an option - note that the nearest store is the Fukuoka-Nishi store (near Hashimoto Station on the subway), which is far from Ito Campus and beyond walking distance; transportation is required."
+   },
+   "3dc2d0": {
+    "text": "The entries below are organized by distance/type; for branch addresses, business hours, and whether a store falls within 7 km, rely on actual map searches, as branches may change."
+   },
+   "aacc3a": {
+    "text": "Supermarkets: MaxValu, Nishitetsu Store (西鉄ストア)"
+   },
+   "edac1a": {
+    "items": [
+     {
+      "text": "MaxValu (マックスバリュ): an AEON-affiliated supermarket; Sefuranishi store open 24 hours"
+     },
+     {
+      "text": "Nishitetsu Store (にしてつストア, Sefuru store): a Nishitetsu-affiliated supermarket offering fresh produce, prepared foods, and Fukuoka specialties"
+     }
+    ]
+   },
+   "18b42b": {
+    "text": "Drugstores: Medicine and Toiletries"
+   },
+   "b4d3ba": {
+    "items": [
+     {
+      "text": "Drug Eleven (ドラッグイレブン): a Kyushu-based drugstore chain (pharmaceuticals, cosmetics, daily necessities)"
+     },
+     {
+      "text": "Sundrug / Direx (サンドラッグ / ダイレックス): drugstores and discount stores with inexpensive daily necessities"
+     }
+    ]
+   },
+   "c24ac4": {
+    "text": "Discount Stores: Trial and Gyomu Super"
+   },
+   "d29eba": {
+    "items": [
+     {
+      "text": "Trial (トライアル): a discount supermarket with low food and daily-necessity prices; some stores open 24 hours"
+     },
+     {
+      "text": "Gyomu Super (業務スーパー, Ito store): focused on frozen foods and wholesale items; suitable for stocking up"
+     }
+    ]
+   },
+   "84d22e": {
+    "text": "General Merchandise: AEON and Sunny"
+   },
+   "92e039": {
+    "items": [
+     {
+      "text": "AEON (イオン, Fukuoka-Ito store): a general merchandise store offering clothing, home goods, fresh produce, and prepared foods"
+     },
+     {
+      "text": "Sunny / Marukyo (サニー / マルキョウ): Fukuoka-based supermarkets with inexpensive fresh produce and frequent specials"
+     }
+    ]
+   },
+   "6e9f25": {
+    "text": "Convenience Stores and Surrounding Areas"
+   },
+   "a76085": {
+    "text": "Lawson / Seven-Eleven / FamilyMart (ローソン / セブンイレブン / ファミリーマート): located around the station and campus; convenient for drinks, light meals, daily necessities, ATMs, and copying in a pinch, though prices run higher."
+   },
+   "40861e": {
+    "text": "The Meinohama/Muromi area (to the east) offers more supermarkets, drugstores, and commercial facilities, reachable by subway or bus; Chikuzen-Maebaru in Itoshima City (to the west) has local supermarkets and a shopping street worth browsing along the way."
+   },
+   "9da2b2": {
+    "text": "Secondhand Shops and Money-Saving Tips"
+   },
+   "30eccf": {
+    "items": [
+     {
+      "text": "Reliable secondhand bicycle shop",
+      "url": "https://maps.app.goo.gl/PqRLz6KtPdcAPvnW7"
+     },
+     {
+      "text": "Nishi Ward 24-hour cardboard recycling point",
+      "url": "https://maps.app.goo.gl/KKvgjEHL8grTamZk8?g_st=ic"
+     },
+     {
+      "text": "Kyushu University Co-op (九大生協): on-campus registration info such as language exams",
+      "url": "https://www.coop.kyushu-u.ac.jp/"
+     }
+    ]
+   },
+   "962a01": {
+    "text": "Key Points"
+   },
+   "1ff8de": {
+    "items": [
+     {
+      "text": "Items such as copy paper are cheaper at Nafco (ナフコ), Don Quijote (ドンキホーテ), and Direx (ダイレックス)"
+     },
+     {
+      "text": "Residents of Kyosai-kan (協奏館) can buy fresh produce from the mobile sales vehicle \"Ito-maru-kun\" (移動販売車「いと丸くん」)"
+     }
+    ]
+   },
+   "1420ca": {
+    "items": [
+     {
+      "text": "Kyushu University life guide/brochure (includes Living Guide)",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/life/pamphlet/"
+     },
+     {
+      "text": "Global Gateway (residence status, housing, and daily life information)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student"
+     }
+    ]
+   },
+   "8328f6": {
+    "text": "Furniture and Appliances: Home Centers"
+   },
+   "666b25": {
+    "text": "Daily necessities, furniture, appliances, and bicycles can all be purchased in one place, along with some food items. Prices are not as low as at 100-yen shops, but these stores win on selection. Most home centers offer well-developed online stores and inventory lookup; checking prices and availability online before going out can save a trip."
+   },
+   "3496a2": {
+    "headers": [
+     "Store",
+     "Distance from campus",
+     "Notes"
+    ],
+    "rows": [
+     [
+      "Home Plaza Nafco Motooka (ホームプラザナフコ 元岡店)",
+      "Closest",
+      "Online store available"
+     ],
+     [
+      "Good Day Home Center Ito (ホームセンターグッデイ 伊都店)",
+      "Near",
+      "Relatively new"
+     ],
+     [
+      "MrMax Itoshima (ミスターマックス 糸島店)",
+      "Medium",
+      "Inexpensive daily necessities and furniture; online inventory lookup available"
+     ],
+     [
+      "Super Viva Home Shima (スーパービバホーム 志摩店)",
+      "Far",
+      "Large store; near SETTLE"
+     ],
+     [
+      "Komeri Power Sefuru (コメリパワー 周船寺店)",
+      "Far",
+      "Very large; wide selection"
+     ]
+    ]
+   },
+   "adfb20": {
+    "text": "100-Yen Shops: Check Stock Before Going"
+   },
+   "28bbb8": {
+    "text": "An item costing 1,000 yen at a home center may cost only 100 yen here, with quality to match. These shops offer the best value right after arrival when picking up odds and ends. Seria is a pure 100-yen shop carrying only 100 yen items; Daiso (ダイソー) carries items from 200 to 1,000 yen, with pricier ones being somewhat better quality."
+   },
+   "dc40bc": {
+    "text": "Stock varies between stores and is often out of stock. The official Daiso app provides per-store inventory; checking before going is better than a wasted trip."
+   },
+   "69029b": {
+    "text": "Secondhand Shops: Books, Furniture, Appliances, Clothing"
+   },
+   "8db039": {
+    "text": "Prices are not especially low, but items come cleaned with some assurance, making these shops suitable when living short-term and not wanting to buy new."
+   },
+   "af7aff": {
+    "items": [
+     {
+      "text": "Bookoff PLUS Fukuoka-Itoshima (BOOKOFF PLUS 福岡糸島店): mainly books and anime/manga merchandise"
+     },
+     {
+      "text": "Second Street Itoshima (セカンドストリート 糸島店): relatively new, wide selection, slightly higher prices"
+     },
+     {
+      "text": "Recycle Mart Itoshima (リサイクルマート 糸島店): more basic, items relatively inexpensive"
+     },
+     {
+      "text": "Treasure Factory Sefuru (トレジャーファクトリー, 周船寺): similar to Second Street, smaller stock"
+     }
+    ]
+   },
+   "52dfde": {
+    "text": "Bicycles: Essential in Ito"
+   },
+   "adb267": {
+    "text": "Life in Ito without a bicycle is genuinely difficult, and bicycles in Japan are not cheap either. The campus sits on high ground and hills are unavoidable, so a geared model is the minimum; with budget to spare, an electrically assisted bike is worth considering. Comparing several shops before deciding is recommended."
+   },
+   "97941b": {
+    "headers": [
+     "Store",
+     "Distance from campus",
+     "Experience notes"
+    ],
+    "rows": [
+     [
+      "Lumiere Imajuku (ルミエール 今宿店)",
+      "Medium (K line rides)",
+      "Geared bikes under 20,000 yen; no electric assist"
+     ],
+     [
+      "Cycle Shop Palette Kyudai-mae (Cycle Shop Palette 九大前店)",
+      "Closest",
+      "Some inexpensive bikes; Alipay accepted"
+     ],
+     [
+      "Cycle Base Asahi Ito/Itoshima (サイクルベースあさひ 伊都店 / 糸島店)",
+      "Medium",
+      "Large chain; well organized, many bikes, slightly higher prices"
+     ],
+     [
+      "AEON Bike Fukuoka-Ito (イオンバイク 福岡伊都店)",
+      "Near",
+      "Convenient inside AEON; slightly higher prices"
+     ],
+     [
+      "MrMax Itoshima (ミスターマックス 糸島店)",
+      "Medium",
+      "Inexpensive electric-assist bikes available"
+     ]
+    ]
+   },
+   "b5f388": {
+    "text": "Experience notes: the evaluations above come from people who actually visited; prices and stock change, so the in-store situation prevails. For used bikes, also watch group chats for graduating students selling theirs - usually cheaper than stores, but remember to complete the transfer procedure for the anti-theft registration."
+   },
+   "a2836a": {
+    "text": "AEON On-Campus Pickup Lockers: Most Convenient for Dorm Residents"
+   },
+   "3dfc41": {
+    "text": "Since October 2025, a pickup locker for the AEON online supermarket has been available at the entrance of the Central Cafeteria on campus. Deliveries to this locker are free of delivery charges, and the selection covers essentially the full range of the AEON supermarket in the Gakken area - the goods in fact ship from that store. For on-campus residents, this is probably the least effort way to shop."
+   },
+   "ac5dc4": {
+    "items": [
+     {
+      "title": "Create an account",
+      "desc": "An existing iAEON account works as well."
+     },
+     {
+      "title": "Select the store and place an order",
+      "desc": "Choose AEON Fukuoka-Ito; a minimum order amount applies."
+     },
+     {
+      "title": "Choose pickup in the cart",
+      "desc": "Under 受取り時間 (receiving time), select \"店舗などでお受取\" (receive at store, etc.) and note the available time slots."
+     },
+     {
+      "title": "Specify the pickup locker",
+      "desc": "After proceeding, select the on-campus locker under 受取場所 (receiving location) and note the pickup time."
+     }
+    ]
+   },
+   "3238c2": {
+    "text": "Experience notes: online store prices are essentially the same as in physical stores (not inexpensive to begin with). Fresh and prepared foods are limited, vegetables and fruit are fairly complete, and daily necessities cover items up to the second floor of AEON. Home delivery incurs an extra fee; availability is confirmed by entering the postal code."
+   },
+   "4fc028": {
+    "items": [
+     {
+      "text": "AEON Kyushu online supermarket",
+      "url": "https://kyushu.netsuper.aeon.com/0000018990"
+     }
+    ]
+   },
+   "a847a0": {
+    "text": "Part of this article is compiled from \"New Itokoku Fudoki\" (新伊都国風土記, authors Hato_Tsubame and CantonSimon), included with the authors' permission. Prices, schedules, and procedures in the text change over time; for important matters, refer to the official websites."
    }
   },
   "ko": {
    "01aac7": {
-    "text": "일상 쇼핑 장소, 절약 방법, **피해야 할 함정**(중고 플랫폼, 대행 구매, 할부 계약). 필요한 항목을 참고하세요."
+    "text": "일상적인 쇼핑 장소, 돈을 아끼는 방법과 **피해야 할 함정**(중고 플랫폼, 대행 구매, 할부 계약)을 정리했습니다. 필요할 때 참고하시기 바랍니다."
+   },
+   "3082ec": {
+    "text": "개요: 상권 분포"
+   },
+   "8e23fa": {
+    "text": "이토 캠퍼스는 후쿠오카시 니시구 모토오카에 있으며, 주변은 캠퍼스와 주택가가 대부분입니다. 가장 가까운 상권은 큐다이가쿠겐코시역 일대이고, 서쪽으로는 이토시마시(치쿠젠마에바루), 동쪽으로는 메이노하마·무로미 일대까지 캠퍼스를 중심으로 약 7km 반경 안에 있습니다. 일상적인 장보기는 역 주변 슈퍼마켓과 드럭스토어가 중심이며, 대량 구매는 디스카운트 스토어와 종합 슈퍼마켓을 이용할 수 있습니다."
+   },
+   "d5299c": {
+    "text": "일용품은 가쿠겐 일대에서 대부분 구할 수 있습니다. 가구와 생활 필수품은 Nitori(ニトリ)에서 구할 수 있는데, 가장 가까운 매장은 후쿠오카 서부점(지하철 하시모토역 부근)으로 이토 캠퍼스에서 멀리 떨어져 있어 도보로 갈 수 없으므로 차량을 이용해야 합니다."
+   },
+   "3dc2d0": {
+    "text": "아래는 「거리/유형」별로 정리한 것입니다. 구체적인 지점 주소, 영업시간, 7km 이내 여부는 지도에서 직접 검색한 결과를 기준으로 하시기 바랍니다. 지점은 변경될 수 있습니다."
+   },
+   "aacc3a": {
+    "text": "슈퍼마켓: MaxValu·西鉄ストア"
+   },
+   "edac1a": {
+    "items": [
+     {
+      "text": "マックスバリュ(MaxValu): AEON 계열 슈퍼마켓. 周船寺西店은 24시간 영업합니다."
+     },
+     {
+      "text": "にしてつストア(西鉄ストア, 周船寺店): 니시테츠 계열 슈퍼마켓. 신선식품, 조리식품, 후쿠오카 특산물을 취급합니다."
+     }
+    ]
+   },
+   "18b42b": {
+    "text": "드럭스토어: 의약품·세면용품"
+   },
+   "b4d3ba": {
+    "items": [
+     {
+      "text": "ドラッグイレブン: 큐슈 지역 드럭스토어 체인(의약품·화장품·일용품)."
+     },
+     {
+      "text": "サンドラッグ / ダイレックス: 드럭스토어 겸 디스카운트 스토어로, 일용품이 비교적 저렴합니다."
+     }
+    ]
+   },
+   "c24ac4": {
+    "text": "디스카운트 스토어: Trial·業務スーパー"
+   },
+   "d29eba": {
+    "items": [
+     {
+      "text": "トライアル(Trial): 디스카운트 슈퍼마켓. 식품·일용품 가격이 낮고 일부 매장은 24시간 영업합니다."
+     },
+     {
+      "text": "業務スーパー(Gyomu Super, 伊都店): 냉동식품과 대량 판매가 중심으로, 대량 구매에 적합합니다."
+     }
+    ]
+   },
+   "84d22e": {
+    "text": "대형 종합: AEON·Sunny"
+   },
+   "92e039": {
+    "items": [
+     {
+      "text": "イオン(AEON, 福岡伊都店): 종합 슈퍼마켓. 의류, 생활용품, 신선식품, 조리식품이 다양합니다."
+     },
+     {
+      "text": "サニー / マルキョウ: 후쿠오카 지역 슈퍼마켓. 신선식품이 저렴하고 특가가 자주 있습니다."
+     }
+    ]
+   },
+   "6e9f25": {
+    "text": "편의점과 주변 상권"
+   },
+   "a76085": {
+    "text": "ローソン / セブンイレブン / ファミリーマート: 역과 캠퍼스 주변에 있습니다. 음료, 간단한 식사, 일용품, ATM, 복사 등 비상 상황에 편리하지만 가격은 다소 높습니다."
+   },
+   "40861e": {
+    "text": "메이노하마·무로미 일대(동쪽)에는 슈퍼마켓, 드럭스토어, 상업 시설이 더 많으며 지하철이나 버스로 갈 수 있습니다. 이토시마시 치쿠젠마에바루(서쪽)에는 지역 슈퍼마켓과 상점가가 있어 들러 보기 좋습니다."
+   },
+   "9da2b2": {
+    "text": "중고 매장과 돈을 아끼는 요점"
+   },
+   "30eccf": {
+    "items": [
+     {
+      "text": "믿을 수 있는 중고 자전거 매장",
+      "url": "https://maps.app.goo.gl/PqRLz6KtPdcAPvnW7"
+     },
+     {
+      "text": "니시구 24시간 골판지 회수 장소",
+      "url": "https://maps.app.goo.gl/KKvgjEHL8grTamZk8?g_st=ic"
+     },
+     {
+      "text": "九大生協(언어 시험 등 교내 접수 정보)",
+      "url": "https://www.coop.kyushu-u.ac.jp/"
+     }
+    ]
+   },
+   "962a01": {
+    "text": "요점"
+   },
+   "1ff8de": {
+    "items": [
+     {
+      "text": "복사용지 등은 ナフコ(Nafco), ドンキホーテ, ダイレックス에서 사는 것이 저렴합니다."
+     },
+     {
+      "text": "協奏館에 사는 경우 이동판매차 「いと丸くん」으로 신선식품을 살 수 있습니다."
+     }
+    ]
+   },
+   "1420ca": {
+    "items": [
+     {
+      "text": "큐슈대학 생활 가이드/팸플릿(리빙 가이드 포함)",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/life/pamphlet/"
+     },
+     {
+      "text": "Global Gateway(체류·주거·생활 정보)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student"
+     }
+    ]
+   },
+   "8328f6": {
+    "text": "가구·가전: 홈센터"
+   },
+   "666b25": {
+    "text": "일용품, 가구, 가전, 자전거를 한곳에서 모두 구할 수 있고 식품도 일부 취급합니다. 가격은 100엔 숍만큼 저렴하지는 않지만, 물건이 다양하다는 장점이 있습니다. 대부분의 홈센터는 온라인 쇼핑몰과 재고 조회가 갖춰져 있어, 출발 전에 온라인으로 가격과 재고를 확인하면 방문 한 번으로 끝낼 수 있습니다."
+   },
+   "3496a2": {
+    "headers": [
+     "매장명",
+     "캠퍼스와의 거리",
+     "비고"
+    ],
+    "rows": [
+     [
+      "ホームプラザナフコ 元岡店",
+      "가장 가까움",
+      "온라인 쇼핑몰 이용 가능"
+     ],
+     [
+      "ホームセンターグッデイ 伊都店",
+      "가까움",
+      "비교적 신규"
+     ],
+     [
+      "ミスターマックス 糸島店",
+      "중간",
+      "일용품·가구가 저렴, 온라인 재고 조회 가능"
+     ],
+     [
+      "スーパービバホーム 志摩店",
+      "멀음",
+      "매장이 크고 SETTLE과 가까움"
+     ],
+     [
+      "コメリパワー 周船寺店",
+      "멀음",
+      "매우 크고 품목이 다양함"
+     ]
+    ]
+   },
+   "adfb20": {
+    "text": "100엔 숍: 재고 확인 후 방문"
+   },
+   "28bbb8": {
+    "text": "홈센터에서 1,000엔에 파는 물건도 이곳에서는 100엔에 해결할 수 있지만, 품질은 그만큼 낮습니다. 막 도착해 잡동사니를 마련할 때 가성비가 가장 좋습니다. Seria는 순수 100엔 숍으로 전 품목이 100엔이며, ダイソー에는 200~1,000엔 상품도 있어 비싼 것은 품질이 조금 더 좋습니다."
+   },
+   "dc40bc": {
+    "text": "매장마다 취급 품목이 자주 다르고 품절도 잦습니다. ダイソー 공식 앱에서 특정 매장의 재고를 확인할 수 있으니, 방문 전에 확인하면 헛걸음하지 않습니다."
+   },
+   "69029b": {
+    "text": "중고 매장: 책, 가구, 가전, 의류"
+   },
+   "8db039": {
+    "text": "가격이 특별히 저렴한 편은 아니지만, 기본적인 세척이 되어 있고 일정한 보증이 있어 단기 거주 중 새것을 사고 싶지 않은 경우에 적합합니다."
+   },
+   "af7aff": {
+    "items": [
+     {
+      "text": "BOOKOFF PLUS 福岡糸島店: 책과 서브컬처 굿즈가 중심"
+     },
+     {
+      "text": "セカンドストリート 糸島店: 비교적 새롭고 종류가 많지만 가격은 다소 높음"
+     },
+     {
+      "text": "リサイクルマート 糸島店: 소박하지만 물건이 상대적으로 저렴함"
+     },
+     {
+      "text": "トレジャーファクトリー(周船寺): 세컨드 스트리트와 비슷하지만 물량이 적음"
+     }
+    ]
+   },
+   "52dfde": {
+    "text": "자전거: 이토에서의 필수품"
+   },
+   "adb267": {
+    "text": "이토에서 자전거가 없으면 정말 불편하며, 일본의 자전거도 저렴하지 않습니다. 학교가 고지대에 있어 언덕길을 피할 수 없으므로 최소한 변속 기능이 있는 모델을 선택해야 하고, 예산이 충분하면 전동 보조 자전거를 고려할 수 있습니다. 여러 매장을 둘러본 후 결정하시기 바랍니다."
+   },
+   "97941b": {
+    "headers": [
+     "매장명",
+     "캠퍼스와의 거리",
+     "경험 참고"
+    ],
+    "rows": [
+     [
+      "ルミエール 今宿店",
+      "중간(K선 이용 가능)",
+      "변속 자전거 2만엔 이내, 전동 보조 없음"
+     ],
+     [
+      "Cycle Shop Palette 九大前店",
+      "가장 가까움",
+      "저렴한 차량 있음, 알리페이 결제 가능"
+     ],
+     [
+      "サイクルベースあさひ 伊都店 / 糸島店",
+      "중간",
+      "대형 체인으로 규모가 있고 차량이 많지만 가격은 다소 높음"
+     ],
+     [
+      "イオンバイク 福岡伊都店",
+      "가까움",
+      "이온 매장 안에 있어 편리하지만 가격은 다소 높음"
+     ],
+     [
+      "ミスターマックス 糸島店",
+      "중간",
+      "저렴한 전동 보조 자전거 취급"
+     ]
+    ]
+   },
+   "b5f388": {
+    "text": "경험 참고: 위 평가는 실제로 방문한 사람들의 의견이며, 가격과 재고는 변할 수 있으므로 매장 실물을 기준으로 하시기 바랍니다. 중고 자전거는 커뮤니티에서 선배들의 졸업 양도 물품을 살펴보는 것도 좋습니다. 보통 매장보다 저렴하지만, 도난 방지 등록의 명의 이전 절차를 꼭 해야 합니다."
+   },
+   "a2836a": {
+    "text": "이온 캠퍼스 내 픽업함: 기숙사 거주자에게 가장 편리"
+   },
+   "3dfc41": {
+    "text": "2025년 10월부터 캠퍼스 내 중앙식당 입구에 이온 온라인 슈퍼마켓의 픽업함이 설치되었습니다. 이 픽업함으로 배송하면 배송료가 무료이며, 취급 품목은 가쿠겐 이온 슈퍼마켓의 전 품목을 거의 모두 포함합니다. 실제로 상품도 그 매장에서 출고됩니다. 캠퍼스 내에 살고 있다면 가장 수고가 적은 장보기 방법일 것입니다."
+   },
+   "ac5dc4": {
+    "items": [
+     {
+      "title": "계정 등록",
+      "desc": "이미 iAEON 계정이 있으면 그대로 사용할 수 있습니다."
+     },
+     {
+      "title": "매장 선택 후 주문",
+      "desc": "イオン福岡伊都店을 선택합니다. 최소 주문 금액이 있습니다."
+     },
+     {
+      "title": "장바구니에서 픽업 선택",
+      "desc": "受取り時間(수령 시간)에서 「店舗などでお受取」를 선택하고, 선택 가능한 시간대를 확인합니다."
+     },
+     {
+      "title": "픽업함 지정",
+      "desc": "다음 단계로 넘어가면 受取場所(수령 장소)에서 캠퍼스 내 픽업함을 선택하고 수령 시간을 확인합니다."
+     }
+    ]
+   },
+   "3238c2": {
+    "text": "경험 참고: 온라인 쇼핑몰 가격은 오프라인 매장과 대체로 같습니다(그 자체가 저렴한 편은 아닙니다). 신선식품과 조리식품은 종류가 적고, 채소·과일은 비교적 다양하며, 일용품은 이온 2층의 상품까지 포함합니다. 집 배송을 선택하면 배송비가 별도로 부과되며, 배송 가능 여부는 우편번호 입력으로 확인할 수 있습니다."
+   },
+   "4fc028": {
+    "items": [
+     {
+      "text": "イオン九州 온라인 슈퍼마켓",
+      "url": "https://kyushu.netsuper.aeon.com/0000018990"
+     }
+    ]
+   },
+   "a847a0": {
+    "text": "이 글의 일부 내용은 『新伊都国風土記』(저자 Hato_Tsubame, CantonSimon)를 정리한 것으로, 저자의 허락을 받아 수록했습니다. 글 속의 가격, 운행 시간, 절차는 시간이 지나면 변할 수 있으므로 중요한 사항은 각 공식 홈페이지를 기준으로 하시기 바랍니다."
    }
   }
  },
