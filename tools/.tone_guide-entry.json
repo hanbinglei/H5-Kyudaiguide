@@ -1,0 +1,35 @@
+{
+ "ja": {
+  "c04837": {
+   "text": "空港から伊都へ：シャトルバスの確認"
+  },
+  "a03965": {
+   "text": "出発前：小銭の準備"
+  },
+  "f7cdf3": {
+   "text": "寮到着：当日は何時でも入居可"
+  }
+ },
+ "en": {
+  "c04837": {
+   "text": "Airport to Ito: checking the shuttle"
+  },
+  "a03965": {
+   "text": "Before departure: prepare coins"
+  },
+  "f7cdf3": {
+   "text": "Arriving at the dorm: check in any time that day"
+  }
+ },
+ "ko": {
+  "c04837": {
+   "text": "공항에서 이토: 셔틀버스 확인"
+  },
+  "a03965": {
+   "text": "출발 전: 소액 동전 준비"
+  },
+  "f7cdf3": {
+   "text": "기숙사 도착: 당일 아무 때나 입주 가능"
+  }
+ }
+}

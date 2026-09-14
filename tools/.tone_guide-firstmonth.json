@@ -1,0 +1,80 @@
+{
+ "ja": {
+  "125163": {
+   "text": "出発前：日本で入手しにくい 3 点"
+  },
+  "7404c3": {
+   "text": "到着当日：空港でできる 2 件"
+  },
+  "ca70c6": {
+   "text": "1 週目：住居登録（他の手続きの前提）"
+  },
+  "41022a": {
+   "text": "手続きの依存関係"
+  },
+  "dcdc27": {
+   "text": "1 か月目：漏れやすい 3 項目"
+  },
+  "973bb1": {
+   "text": "落ち着いてからの予定"
+  },
+  "082061": {
+   "text": "緊急時の連絡先"
+  },
+  "644b54": {
+   "text": "あわせてお読みください"
+  }
+ },
+ "en": {
+  "125163": {
+   "text": "Before departure: three items hard to obtain in Japan"
+  },
+  "7404c3": {
+   "text": "Arrival day: two things to do at the airport"
+  },
+  "ca70c6": {
+   "text": "Week one: address registration (prerequisite for other procedures)"
+  },
+  "41022a": {
+   "text": "Procedure dependencies"
+  },
+  "dcdc27": {
+   "text": "First month: the three most-missed items"
+  },
+  "973bb1": {
+   "text": "After you have settled in"
+  },
+  "082061": {
+   "text": "Emergency contacts"
+  },
+  "644b54": {
+   "text": "Related reading"
+  }
+ },
+ "ko": {
+  "125163": {
+   "text": "출국 전: 일본에서 구하기 어려운 3가지"
+  },
+  "7404c3": {
+   "text": "도착 당일: 공항에서 처리할 2가지"
+  },
+  "ca70c6": {
+   "text": "1주차: 주소 등록(다른 수속의 전제)"
+  },
+  "41022a": {
+   "text": "수속 의존 관계"
+  },
+  "dcdc27": {
+   "text": "첫 달: 가장 빠뜨리기 쉬운 3가지"
+  },
+  "973bb1": {
+   "text": "안정된 이후의 일정"
+  },
+  "082061": {
+   "text": "긴급 연락처"
+  },
+  "644b54": {
+   "text": "함께 읽을 자료"
+  }
+ }
+}

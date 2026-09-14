@@ -12,34 +12,34 @@ window.NEWCOMER_ZONE = {
   "stages": [
     {
       "id": "before", "icon": "✈️",
-      "label": { "zh": "来日前", "ja": "来日前", "en": "Before you fly", "ko": "출국 전" },
+      "label": { "zh": "来日前", "ja": "来日前", "en": "Before departure", "ko": "출국 전" },
       "items": [
         { "ref": "guide-firstmonth", "sec": "125163",
-          "text": { "zh": "三样东西到了日本很难补", "ja": "日本で揃えにくい 3 点", "en": "Three things hard to get later", "ko": "일본에서 구하기 어려운 3가지" } },
+          "text": { "zh": "到日本后难以补办的 3 类物品", "ja": "日本で入手しにくい 3 点", "en": "Three items hard to obtain in Japan", "ko": "일본에서 구하기 어려운 3가지" } },
         { "ref": "guide-entry", "sec": "92d7fe",
-          "text": { "zh": "行李·被褥·印章", "ja": "荷物・寝具・印鑑", "en": "Luggage, bedding, seal", "ko": "짐·침구·도장" } },
+          "text": { "zh": "行李・被褥・印章", "ja": "荷物・寝具・印鑑", "en": "Luggage, bedding and seal", "ko": "짐・침구・도장" } },
         { "ref": "guide-housing", "sec": "0785ee",
-          "text": { "zh": "宿舍怎么申请", "ja": "寮の申請方法", "en": "How to apply for dorms", "ko": "기숙사 신청 방법" } },
+          "text": { "zh": "宿舍申请方式", "ja": "寮の申請方法", "en": "Dormitory application", "ko": "기숙사 신청 방법" } },
         { "ref": "guide-phone", "sec": "72f94d",
-          "text": { "zh": "先买临时上网卡", "ja": "まず一時的な SIM を", "en": "Get a temporary SIM first", "ko": "임시 SIM 먼저" } },
+          "text": { "zh": "抵日前准备临时上网卡", "ja": "来日前に一時 SIM を準備", "en": "Arrange a temporary SIM before arrival", "ko": "출국 전 임시 SIM 준비" } },
         { "ref": "guide-entry", "sec": "9bc5f2",
-          "text": { "zh": "入境与在留卡", "ja": "入国と在留カード", "en": "Arrival and residence card", "ko": "입국과 재류카드" } }
+          "text": { "zh": "入境与在留卡", "ja": "入国と在留カード", "en": "Entry and residence card", "ko": "입국과 재류카드" } }
       ]
     },
     {
       "id": "arrival", "icon": "🛬",
-      "label": { "zh": "落地头 3 天", "ja": "到着後 3 日", "en": "First 3 days", "ko": "도착 후 3일" },
+      "label": { "zh": "抵达后 3 天内", "ja": "到着後 3 日以内", "en": "First 3 days after arrival", "ko": "도착 후 3일 이내" },
       "items": [
         { "ref": "guide-entry", "sec": "8e952c",
-          "text": { "zh": "办理的先后顺序", "ja": "手続きの順番", "en": "Order of procedures", "ko": "수속 순서" } },
+          "text": { "zh": "手续办理顺序", "ja": "手続きの順序", "en": "Order of procedures", "ko": "수속 순서" } },
         { "ref": "guide-newcomer", "sec": "3e4f5a",
-          "text": { "zh": "机场穿梭巴士", "ja": "空港シャトルバス", "en": "Airport shuttle bus", "ko": "공항 셔틀버스" } },
+          "text": { "zh": "机场接驳巴士", "ja": "空港シャトルバス", "en": "Airport shuttle", "ko": "공항 셔틀버스" } },
         { "ref": "guide-firstmonth", "sec": "ca70c6",
-          "text": { "zh": "住址登记（一切的前提）", "ja": "住居登録（すべての前提）", "en": "Address registration (the key step)", "ko": "주소 등록(모든 것의 전제)" } },
+          "text": { "zh": "住址登记（其他手续的前提）", "ja": "住居登録（他の手続きの前提）", "en": "Address registration (prerequisite for others)", "ko": "주소 등록(다른 수속의 전제)" } },
         { "ref": "guide-bank", "sec": "9fb1a4",
-          "text": { "zh": "银行开户要带的", "ja": "口座開設の持ち物", "en": "What to bring to the bank", "ko": "은행 개설 준비물" } },
+          "text": { "zh": "银行开户所需材料", "ja": "口座開設の必要書類", "en": "Documents needed to open an account", "ko": "계좌 개설 필요 서류" } },
         { "ref": "guide-phone", "sec": "57ee3f",
-          "text": { "zh": "选 SIM 卡", "ja": "SIM を選ぶ", "en": "Choosing a SIM", "ko": "SIM 선택" } }
+          "text": { "zh": "SIM 卡选择", "ja": "SIM の選び方", "en": "Choosing a SIM", "ko": "SIM 선택 방법" } }
       ]
     },
     {
@@ -47,15 +47,15 @@ window.NEWCOMER_ZONE = {
       "label": { "zh": "30 天内", "ja": "30 日以内", "en": "Within 30 days", "ko": "30일 이내" },
       "items": [
         { "ref": "guide-firstmonth", "sec": "41022a",
-          "text": { "zh": "手续依赖表：谁挡着谁", "ja": "手続きの依存関係", "en": "What blocks what", "ko": "무엇이 무엇을 막는가" } },
+          "text": { "zh": "手续依赖关系", "ja": "手続きの依存関係", "en": "Procedure dependencies", "ko": "수속 의존 관계" } },
         { "ref": "guide-firstmonth", "sec": "dcdc27",
-          "text": { "zh": "最容易漏掉的三件", "ja": "最も漏れやすい 3 件", "en": "Three most-missed items", "ko": "가장 빠뜨리기 쉬운 3가지" } },
+          "text": { "zh": "最易遗漏的 3 项", "ja": "漏れやすい 3 項目", "en": "Three most-missed items", "ko": "가장 빠뜨리기 쉬운 3가지" } },
         { "ref": "guide-medical", "sec": "a955e0",
           "text": { "zh": "国民健康保险", "ja": "国民健康保険", "en": "National health insurance", "ko": "국민건강보험" } },
         { "ref": "guide-transport", "sec": "397485",
-          "text": { "zh": "自行车：买·骑·处分", "ja": "自転車：買う・乗る・捨てる", "en": "Bicycles: buy, ride, dispose", "ko": "자전거: 구입·이용·처분" } },
+          "text": { "zh": "自行车：购买・骑行・废弃", "ja": "自転車：購入・利用・廃棄", "en": "Bicycle: buy, ride, dispose", "ko": "자전거: 구입・이용・폐기" } },
         { "ref": "guide-antifraud", "sec": "3743ca",
-          "text": { "zh": "防骗核心原则", "ja": "詐欺対策の原則", "en": "Core anti-fraud rules", "ko": "사기 방지 원칙" } }
+          "text": { "zh": "防骗核心原则", "ja": "詐欺対策の基本原則", "en": "Core anti-fraud rules", "ko": "사기 방지 기본 원칙" } }
       ]
     }
   ]

@@ -1,0 +1,17 @@
+{
+ "ja": {
+  "8988f9": {
+   "text": "住居登録はすべての手続きの起点です —— **未完了では口座開設も携帯契約もできません**。まず区役所と入管局を切り分け、住居登録・在留更新・マイナンバー・健康保険の順に説明します。"
+  }
+ },
+ "en": {
+  "8988f9": {
+   "text": "Address registration is the starting point for every other procedure - **without it you cannot open a bank account or get a phone**. This page first separates the ward office from immigration, then walks through address registration, visa renewal, My Number and health insurance."
+  }
+ },
+ "ko": {
+  "8988f9": {
+   "text": "주소 등록은 모든 수속의 출발점입니다 —— **완료하지 않으면 계좌 개설도 휴대폰 개통도 불가능합니다**. 먼저 구청과 출입국을 구분하고, 주소 등록·재류 갱신·마이넘버·건강보험 순으로 설명합니다."
+  }
+ }
+}
