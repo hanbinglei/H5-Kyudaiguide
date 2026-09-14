@@ -6535,18 +6535,342 @@ window.ARTICLES_BODY_I18N = {
  },
  "guide-phone": {
   "ja": {
+   "939835": {
+    "text": "契約前に必要な2つの前提条件"
+   },
    "a3ea1a": {
-    "text": "来日後はまず通信の確保が必要です。**まず一時的な SIM を用意してつなぎ**、落ち着いてから本契約を —— 大手 3 社と格安 SIM を比較し、解約時の注意点を説明します。"
+    "text": "来日後にまず解決すべきなのが通信の問題です。**まずは一時的なデータSIMを用意しておくことをおすすめします**。到着後に正式なプランを選びましょう。本記事では大手3キャリアと格安SIMを比較し、解約時の注意点も説明します。"
+   },
+   "72f94d": {
+    "text": "来日前：一時的なデータSIM（おすすめ）"
+   },
+   "69d3e3": {
+    "text": "来日前に短期利用できるデータSIMを1枚用意しておくことをおすすめします（約1週間で十分ですが、念のため有効期限が長いものを選んでも構いません）。到着後は地図・連絡・各種手続きに使えて、移行期間を余裕をもって過ごせます。"
+   },
+   "58e988": {
+    "text": "中国移動の CMlink を選ぶか、ECサイトで旅行用データSIM（トラベルSIM）を購入すれば十分です。手続きが簡単で、購入後すぐに使えます。"
+   },
+   "17c7e7": {
+    "text": "一時的なSIMカードは到着直後のつなぎとしてのみ使用してください。長期間日本で生活する場合は、早めに日本の格安SIMを契約してください（詳しくは下記「SIMカードの選び方」参照）。"
+   },
+   "57ee3f": {
+    "text": "SIMカードの選び方"
+   },
+   "a65f78": {
+    "text": "日本の大手3キャリア（docomo / au / SoftBank）の本家プランは月額が総じて高いため、学生には大手キャリアのサブブランドがおすすめです。例えば SoftBank 系の Y!mobile、au 系の UQ mobile は料金が安く、通信も比較的安定しています。また、楽天モバイル（Rakuten）は料金が安いことから、留学生にも多く利用されています。"
+   },
+   "930aa8": {
+    "text": "月間データ量で選ぶなら、povo、ahamo などの格安SIMがコストパフォーマンスに優れています。povo は必要な分だけデータを購入でき、ahamo はデータ容量が多く5Gにも対応しています。これまでの経験では、povo と ahamo は伊都周辺での利用感が良く、楽天モバイルと SoftBank は伊都キャンパス周辺の電波状況が良くありません。"
+   },
+   "95aeea": {
+    "text": "留学生向けの GTN、Sakura などのSIMは、これまでの経験では価格が高めで通信品質の評判も良くないため、契約前に比較検討することをおすすめします。また、Jio、Mobal などを調べてみるのも良いでしょう。"
+   },
+   "b88191": {
+    "text": "オンライン申し込みと多言語サポート"
+   },
+   "1238cc": {
+    "text": "オンライン申し込みに対応し、クレジットカード不要の格安SIM（例：IIJmio、LINEMO など）を優先して選びましょう。通常はオンラインで申し込みから開通まで完了できます。"
+   },
+   "bb18de": {
+    "text": "補足：旧「LINE MOBILE」は2021年に新規受付を終了し、2023年にサービスを終了しました。後継は SoftBank 系の LINEMO です。現在は LINEMO をお申し込みください。"
+   },
+   "a79fe6": {
+    "text": "電話での相談が必要な場合は、以下の主要キャリアが多言語のカスタマーサポートを提供しています："
+   },
+   "7cc68f": {
+    "items": [
+     {
+      "text": "docomo：0120-005-250（英語・中国語・ポルトガル語・スペイン語）、受付時間：平日 9:00~20:00"
+     },
+     {
+      "text": "au：0120-959-472（英語・韓国語・中国語・ポルトガル語）"
+     },
+     {
+      "text": "SoftBank：0800-919-0157、つながったら 8→9→9 の順に押して英語窓口へ。英語の受付時間は 10:00~19:00"
+     }
+    ]
+   },
+   "d3cc3b": {
+    "text": "eSIM は**機種が非対応の場合は正常に利用できないことがあります**。初めて契約する場合は、まず物理SIMを選ぶか、念のため物理SIMをもう1枚用意しておくことをおすすめします。"
+   },
+   "a747f8": {
+    "text": "キャンパスネットワーク"
+   },
+   "7bdf67": {
+    "text": "学校アカウントを取得すれば、学内WiFiに接続できます。eduroam は大学間をまたいで利用できるWiFiサービスで、別途登録が必要です。"
+   },
+   "72a8d0": {
+    "text": "学内WiFiのログインIDは自分の SSOKID@Kitnet、パスワードは SSOKID を有効化したときに設定したパスワードです（Campusmate と同じ）。"
+   },
+   "0fb853": {
+    "items": [
+     {
+      "text": "九大キャンパスネットワーク（KiteNet）接続マニュアル",
+      "url": "https://www.nc.kyushu-u.ac.jp/en/kitenet-en/#manual"
+     },
+     {
+      "text": "eduroam 登録",
+      "url": "https://www.nc.kyushu-u.ac.jp/net/eduroam/"
+     }
+    ]
+   },
+   "93c21c": {
+    "text": "解約 / 番号移行"
+   },
+   "5b8387": {
+    "items": [
+     {
+      "text": "povo で LINE の年齢認証ができない場合の対処法",
+      "url": "https://archive.iii.kyushu-u.ac.jp/public/chZBQvKJXFG-062U_y4xquQ7cH_2rixMydT2JqEsYaBK"
+     },
+     {
+      "text": "SoftBank の番号解約手続き",
+      "url": "https://www.softbank.jp/support/faq/view/10062"
+     },
+     {
+      "text": "au から povo への乗り換え手続き",
+      "url": "https://povo.jp/procedure/au/"
+     }
+    ]
+   },
+   "3604eb": {
+    "items": [
+     {
+      "text": "住所の登録が済んでいること（在留カードの裏面に住所が記載されていること）"
+     },
+     {
+      "text": "支払いに使えるクレジットカード、または開設済みの日本の銀行口座があること"
+     }
+    ]
+   },
+   "7e41fb": {
+    "text": "この2つの条件があるため、SIM契約は到着初日にできるものではありません。一般的な順序は、住所登録 → SIM契約・口座開設 → その他の手続き です。さらに口座開設には電話番号が必要なため、どうしても行き詰まった場合は、まず Supporter やサポートセンターの番号で口座を開設し、自分の番号を取得してから変更するとよいでしょう。"
    }
   },
   "en": {
+   "939835": {
+    "text": "Two Prerequisites Before Signing Up"
+   },
    "a3ea1a": {
-    "text": "Connectivity is the first thing to arrange in Japan. **Prepare a temporary SIM as a stopgap**, then choose a proper plan once settled - this page compares the big three with budget SIMs and covers cancellation."
+    "text": "Communication is the first thing to arrange after arriving in Japan. **Prepare a temporary data SIM for the transition** and choose a regular plan after landing. This article compares the three major carriers and budget SIMs (格安 SIM), and explains what to note when cancelling a contract."
+   },
+   "72f94d": {
+    "text": "Before Arrival: Temporary Data SIM (Recommended)"
+   },
+   "69d3e3": {
+    "text": "A short-term data SIM prepared before coming to Japan (about one week is enough; a longer validity may be chosen for safety) makes the transition smoother, covering navigation, contact and paperwork right after landing."
+   },
+   "58e988": {
+    "text": "CMlink of China Mobile or a travel data SIM bought from an online marketplace both work; application is simple and the SIM is usable immediately."
+   },
+   "17c7e7": {
+    "text": "The temporary SIM is only for the transition after landing; those staying in Japan long-term should sign up for a local budget SIM (格安 SIM) as soon as possible (see SIM selection below)."
+   },
+   "57ee3f": {
+    "text": "SIM Card Selection"
+   },
+   "a65f78": {
+    "text": "The monthly fees of the three major carriers' own-brand plans (docomo / au / SoftBank) are generally high. Sub-brands of the major carriers are more recommended for students: for example, Y!mobile under SoftBank and UQ mobile under au offer lower rates with relatively stable networks. Rakuten Mobile (Rakuten) is also popular among international students because of its low rates."
+   },
+   "930aa8": {
+    "text": "For monthly data volume, budget SIMs such as povo and ahamo offer good value: povo sells data packs on demand, while ahamo includes more data and supports 5G. Based on past experience, povo and ahamo perform well around Ito, while Rakuten Mobile and SoftBank have average signals around the Ito campus."
+   },
+   "95aeea": {
+    "text": "International-student-oriented SIMs such as GTN and Sakura are reported to be overpriced with poor signal reviews, so compare options before signing up. Jio, Mobal and others are also worth checking."
+   },
+   "b88191": {
+    "text": "Online Application and Multilingual Support"
+   },
+   "1238cc": {
+    "text": "Budget SIMs that support online application and do not require a credit card (such as IIJmio and LINEMO) are preferable; application and activation can usually be completed online."
+   },
+   "bb18de": {
+    "text": "Note: the former LINE MOBILE stopped accepting new contracts in 2021 and ended service in 2023. Its successor is LINEMO of the SoftBank group, so make sure to get LINEMO."
+   },
+   "a79fe6": {
+    "text": "For phone inquiries, the following major carriers provide multilingual support:"
+   },
+   "7cc68f": {
+    "items": [
+     {
+      "text": "docomo: 0120-005-250 (English, Chinese, Portuguese, Spanish), available on weekdays 9:00~20:00"
+     },
+     {
+      "text": "au: 0120-959-472 (English, Korean, Chinese, Portuguese)"
+     },
+     {
+      "text": "SoftBank: 0800-919-0157; press 8→9→9 after connecting for English, available 10:00~19:00"
+     }
+    ]
+   },
+   "d3cc3b": {
+    "text": "eSIM **may not work properly due to device incompatibility**; for the first contract, a physical SIM is the first choice, or carry an extra physical card as a backup."
+   },
+   "a747f8": {
+    "text": "Campus Network"
+   },
+   "7bdf67": {
+    "text": "The campus WiFi can be connected once the university account is obtained; eduroam, a WiFi service shared among universities, requires separate registration."
+   },
+   "72a8d0": {
+    "text": "The login ID for campus WiFi is the student's SSOKID@Kitnet, and the password is the one set when activating SSOKID (same as Campusmate)."
+   },
+   "0fb853": {
+    "items": [
+     {
+      "text": "Kyushu University Campus Network (KiteNet) Connection Guide",
+      "url": "https://www.nc.kyushu-u.ac.jp/en/kitenet-en/#manual"
+     },
+     {
+      "text": "eduroam Registration",
+      "url": "https://www.nc.kyushu-u.ac.jp/net/eduroam/"
+     }
+    ]
+   },
+   "93c21c": {
+    "text": "Cancellation / Porting"
+   },
+   "5b8387": {
+    "items": [
+     {
+      "text": "Handling povo LINE Age Verification Failure",
+      "url": "https://archive.iii.kyushu-u.ac.jp/public/chZBQvKJXFG-062U_y4xquQ7cH_2rixMydT2JqEsYaBK"
+     },
+     {
+      "text": "SoftBank Number Cancellation Procedure",
+      "url": "https://www.softbank.jp/support/faq/view/10062"
+     },
+     {
+      "text": "Transferring from au to povo",
+      "url": "https://povo.jp/procedure/au/"
+     }
+    ]
+   },
+   "3604eb": {
+    "items": [
+     {
+      "text": "Residence registration completed — the address must be on the back of the residence card"
+     },
+     {
+      "text": "A credit card available for payment, or a Japanese bank account already opened"
+     }
+    ]
+   },
+   "7e41fb": {
+    "text": "These two conditions mean that signing up for a SIM cannot be done on the first day after arrival. The usual order is: residence registration → SIM contract / bank account opening → other procedures. Opening an account itself requires a phone number, so when these requirements block each other, an account can be opened using the number of a Supporter or the Support Center (サポートセンター) first, then changed to one's own number later."
    }
   },
   "ko": {
+   "939835": {
+    "text": "가입 전 두 가지 전제 조건"
+   },
    "a3ea1a": {
-    "text": "일본에서 가장 먼저 해결할 것은 통신입니다. **임시 SIM을 준비해 연결한 뒤** 안정되면 정식 요금제를 —— 대형 3사와 알뜰 SIM을 비교하고 해지 시 유의점을 설명합니다."
+    "text": "일본에 도착한 후 가장 먼저 해결해야 할 문제가 통신입니다. **우선 임시 인터넷 카드로 전환하는 것을 권장하며**, 도착 후 정식 요금제를 선택하세요. 본문은 3대 통신사와 저가 SIM(格安SIM)을 비교하고, 해지 시 주의사항을 설명합니다."
+   },
+   "72f94d": {
+    "text": "입국 전: 임시 인터넷 카드(추천)"
+   },
+   "69d3e3": {
+    "text": "일본에 오기 전에 단기로 사용할 수 있는 인터넷 카드를 미리 준비할 것을 권장합니다(약 1주일이면 충분하며, 안심을 위해 더 긴 유효기간을 신청해도 됩니다). 도착 후 내비게이션, 연락, 각종 수속에 사용할 수 있어 여유 있게 전환할 수 있습니다."
+   },
+   "58e988": {
+    "text": "중국 이동통신사의 CMlink를 선택하거나, 전자상거래 플랫폼에서 여행용 데이터 카드(여행 SIM)를 구매하면 됩니다. 가입이 간단하고 구매 즉시 사용할 수 있습니다."
+   },
+   "17c7e7": {
+    "text": "임시 카드는 도착 직후의 전환용으로만 사용하세요. 일본에서 장기 거주할 경우 빠른 시일 내에 일본 현지의 저가 SIM(格安SIM)을 가입하기 바랍니다(아래 'SIM 카드 선택' 참조)."
+   },
+   "57ee3f": {
+    "text": "SIM 카드 선택"
+   },
+   "a65f78": {
+    "text": "일본 3대 통신사(docomo / au / SoftBank)의 본 브랜드 월 요금은 대체로 비쌉니다. 학생이라면 대형 통신사의 서브 브랜드를 추천합니다. 예를 들어 SoftBank 계열의 Y!mobile, au 계열의 UQ mobile은 요금이 더 저렴하고 네트워크도 상대적으로 안정적입니다. 또한 라쿠텐 모바일(Rakuten)은 요금이 저렴해 유학생 사이에서도 많이 선택하는 통신사입니다."
+   },
+   "930aa8": {
+    "text": "월 데이터 용량 기준으로 고르면 povo, ahamo 등 저가 SIM(格安SIM)의 가성비가 높습니다. povo는 필요에 따라 데이터 팩을 구매하고, ahamo는 데이터 용량이 많고 5G를 지원합니다. 기존 경험에 따르면 이토(伊都) 주변에서는 povo, ahamo의 체감이 좋았고, 라쿠텐 모바일과 SoftBank는 신호가 보통 수준이었습니다."
+   },
+   "95aeea": {
+    "text": "유학생 대상 GTN, Sakura 등의 SIM은 기존 경험상 가격이 높고 신호 평가가 나쁜 편이므로, 가입 전에 먼저 비교할 것을 권장합니다. 그 외에 Jio, Mobal 등도 알아볼 수 있습니다."
+   },
+   "b88191": {
+    "text": "온라인 신청과 다국어 고객센터"
+   },
+   "1238cc": {
+    "text": "온라인 신청을 지원하고 신용카드가 필요 없는 저가 SIM(格安SIM)(예: IIJmio, LINEMO 등)을 우선 선택하세요. 보통 온라인으로 신청과 개통까지 마칠 수 있습니다."
+   },
+   "bb18de": {
+    "text": "설명: 기존 「LINE MOBILE」은 2021년에 신규 가입을 중단했고 2023년에 서비스가 종료되었습니다. 후속 서비스는 SoftBank 계열의 LINEMO이므로, 지금은 LINEMO로 가입하시기 바랍니다."
+   },
+   "a79fe6": {
+    "text": "전화 상담이 필요하다면, 다음 주요 통신사에서 다국어 고객센터를 제공합니다:"
+   },
+   "7cc68f": {
+    "items": [
+     {
+      "text": "docomo: 0120-005-250(영어·중국어·포르투갈어·스페인어), 접수 시간 평일 9:00~20:00"
+     },
+     {
+      "text": "au: 0120-959-472(영어·한국어·중국어·포르투갈어)"
+     },
+     {
+      "text": "SoftBank: 0800-919-0157, 연결 후 8→9→9를 누르면 영어로 전환됩니다. 영어 접수 시간 10:00~19:00"
+     }
+    ]
+   },
+   "d3cc3b": {
+    "text": "eSIM은 **기기 모델과 호환되지 않아 정상적으로 사용하지 못할 수 있습니다**. 처음 가입할 때는 실물 SIM을 우선 선택하고, 만약에 대비해 실물 카드를 하나 더 준비할 것을 권장합니다."
+   },
+   "a747f8": {
+    "text": "교내 네트워크"
+   },
+   "7bdf67": {
+    "text": "학교 계정을 받으면 교내 WiFi에 연결할 수 있습니다. eduroam은 대학 간 연동 WiFi 서비스로, 별도로 등록이 필요합니다."
+   },
+   "72a8d0": {
+    "text": "교내 WiFi의 로그인 계정은 본인의 SSOKID@Kitnet이며, 비밀번호는 SSOKID 활성화 시 설정한 비밀번호입니다(Campusmate와 동일)."
+   },
+   "0fb853": {
+    "items": [
+     {
+      "text": "큐슈대학 캠퍼스 네트워크(KiteNet) 연결 매뉴얼",
+      "url": "https://www.nc.kyushu-u.ac.jp/en/kitenet-en/#manual"
+     },
+     {
+      "text": "eduroam 등록",
+      "url": "https://www.nc.kyushu-u.ac.jp/net/eduroam/"
+     }
+    ]
+   },
+   "93c21c": {
+    "text": "해지 / 번호 이동"
+   },
+   "5b8387": {
+    "items": [
+     {
+      "text": "povo에서 LINE 연령 인증이 되지 않을 때의 대처",
+      "url": "https://archive.iii.kyushu-u.ac.jp/public/chZBQvKJXFG-062U_y4xquQ7cH_2rixMydT2JqEsYaBK"
+     },
+     {
+      "text": "SoftBank 번호 해지 절차",
+      "url": "https://www.softbank.jp/support/faq/view/10062"
+     },
+     {
+      "text": "au에서 povo로 번호 이동 신청",
+      "url": "https://povo.jp/procedure/au/"
+     }
+    ]
+   },
+   "3604eb": {
+    "items": [
+     {
+      "text": "주소 등록 완료 - 재류카드 뒷면에 주소가 있어야 합니다"
+     },
+     {
+      "text": "결제에 사용할 수 있는 신용카드, 또는 개설해 둔 일본 은행 계좌가 있어야 합니다"
+     }
+    ]
+   },
+   "7e41fb": {
+    "text": "이 두 가지 때문에 SIM 가입은 입국 첫날에 끝낼 수 있는 일이 아닙니다. 일반적인 순서는 주소 등록 → SIM 가입 / 계좌 개설 → 기타 수속입니다. 그런데 계좌 개설 자체에도 전화번호가 필요하므로, 정말로 서로 막힐 경우 Supporter 또는 서포트센터(サポートセンター)의 번호로 먼저 계좌를 개설하고, 자신의 번호를 받은 뒤 변경하시면 됩니다."
    }
   }
  },
