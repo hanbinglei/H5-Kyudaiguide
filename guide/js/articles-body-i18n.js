@@ -3209,19 +3209,19 @@ window.ARTICLES_BODY_I18N = {
     ],
     "rows": [
      [
-      "ドミトリー1",
+      "D1",
       "単間 13 ㎡（254 室）",
       "23,000 円＋光熱費",
       "徒歩約 5 分"
      ],
      [
-      "ドミトリー2",
+      "D2",
       "単間 17 ㎡／夫婦室 43 ㎡",
       "30,000 円＋光熱費",
       "徒歩約 5 分"
      ],
      [
-      "ドミトリー3",
+      "D3",
       "4 人ユニットシェア",
       "23,500 円 全込み",
       "徒歩約 5 分"
@@ -3606,19 +3606,19 @@ window.ARTICLES_BODY_I18N = {
     ],
     "rows": [
      [
-      "ドミトリー1",
+      "D1",
       "Single room 13 ㎡ (254 rooms)",
       "23,000 yen + utilities",
       "About 5 min on foot"
      ],
      [
-      "ドミトリー2",
+      "D2",
       "Single 17 ㎡ / couple 43 ㎡",
       "30,000 yen + utilities",
       "About 5 min on foot"
      ],
      [
-      "ドミトリー3",
+      "D3",
       "4-person shared unit",
       "23,500 yen all-inclusive",
       "About 5 min on foot"
@@ -3789,7 +3789,7 @@ window.ARTICLES_BODY_I18N = {
       "The 九大 (Kyudai) line runs somewhat less often; a car makes travel faster"
      ],
      [
-      "Fujimi-Izumi (富士見・泉) (between 周船寺 and the campus, a quiet residential area)",
+      "富士见·泉 (between 周船寺 and the campus, a quiet residential area)",
       "Slightly cheaper than central 周船寺",
       "Options thin out toward the north; heading south or east is needed",
       "Via 周船寺 or 学園通, fairly convenient"
@@ -3824,7 +3824,7 @@ window.ARTICLES_BODY_I18N = {
       "Total 2,120 yen/month"
      ],
      [
-      "Fixed water charge (定額水道)",
+      "Fixed water charge (定额水道)",
       "2,200 yen/month"
      ],
      [
@@ -4003,19 +4003,19 @@ window.ARTICLES_BODY_I18N = {
     ],
     "rows": [
      [
-      "ドミトリー1",
+      "D1",
       "싱글 13㎡(254실)",
       "23,000엔 + 수도·전기",
       "도보 약 5분"
      ],
      [
-      "ドミトリー2",
+      "D2",
       "싱글 17㎡/부부 43㎡",
       "30,000엔 + 수도·전기",
       "도보 약 5분"
      ],
      [
-      "ドミトリー3",
+      "D3",
       "4인 유닛 공용",
       "23,500엔 전액 포함",
       "도보 약 5분"
@@ -4282,7 +4282,7 @@ window.ARTICLES_BODY_I18N = {
       "학교 기관이 아니며 일부 물건은 수수료 면제"
      ],
      [
-      "アパマンショップ",
+      "エイブル",
       "전국 체인, 중개 수수료는 월세 반개월분"
      ],
      [
@@ -4290,7 +4290,7 @@ window.ARTICLES_BODY_I18N = {
       "후쿠오카 지역에서 비교적 강세"
      ],
      [
-      "エイブル",
+      "アパマンショップ",
       "이온(AEON) 건물 1층에 있어 마트 갈 때 들르기 편함"
      ],
      [
@@ -4302,7 +4302,7 @@ window.ARTICLES_BODY_I18N = {
       "자가 관리 물건 중 일부는 수수료를 받지 않음"
      ],
      [
-      "ミニミニ",
+      "ホームメイト",
       "학교 근처에 물건이 있으며 매장은 姪浜에 있음"
      ]
     ]
@@ -4707,7 +4707,7 @@ window.ARTICLES_BODY_I18N = {
       "Any items"
      ],
      [
-      "Meal Prepaid (ミールプリペ)",
+      "ミールプリペ",
       "One-time large top-up",
       "Approx. 2-5%, increasing by tier",
       "Food items at cafeterias and shops only"
@@ -5841,7 +5841,7 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "title": "Select the correct options",
-      "desc": "For the scheduled period of absence, tick 「1 年以内」(within one year), and below, tick the option for temporary departure with scheduled re-entry (「一時出国・再入国予定」)."
+      "desc": "For the scheduled period of absence, tick 「1 年以内」(within one year), and below, tick 「临时出国, 预定再入国」(temporary departure with scheduled re-entry)."
      },
      {
       "title": "Confirm the stamp",
@@ -7719,13 +7719,13 @@ window.ARTICLES_BODY_I18N = {
       "JR Chikuhi Line + subway",
       "Kyudai-Gakkentoshi → Tenjin",
       "about 11,680 yen",
-      ""
+      "—"
      ],
      [
       "Nishitetsu Bus",
       "Varies by section",
-      "",
-      ""
+      "—",
+      "—"
      ]
     ]
    },
@@ -8205,13 +8205,13 @@ window.ARTICLES_BODY_I18N = {
       "JR筑肥線＋지하철",
       "学研都市 → 天神",
       "약 11,680엔",
-      ""
+      "—"
      ],
      [
       "西鉄バス",
       "구간에 따라 다름",
-      "",
-      ""
+      "—",
+      "—"
      ]
     ]
    },
@@ -9810,11 +9810,13 @@ window.ARTICLES_BODY_I18N = {
     "items": [
      {
       "text": "伊都診療所",
-      "url": "https://itoclinic.kyushu-u.ac.jp/"
+      "url": "https://itoclinic.kyushu-u.ac.jp/",
+      "desc": "校内诊所官网"
      },
      {
       "text": "福岡記念病院",
-      "url": "http://kinen.jp"
+      "url": "http://kinen.jp",
+      "desc": "官网"
      }
     ]
    },
@@ -9864,23 +9866,28 @@ window.ARTICLES_BODY_I18N = {
     "items": [
      {
       "text": "個人使用の医薬品の日本への持込み",
-      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/kojinyunyu/topics/tp010401-1.html"
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/kojinyunyu/topics/tp010401-1.html",
+      "desc": "厚生劳动省：海外携入医药品的限制说明"
      },
      {
       "text": "ワクチンで予防できる感染症情報",
-      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/visitor.html"
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/visitor.html",
+      "desc": "渡航前确认接种史"
      },
      {
       "text": "2026 CLUB & CIRCLE GUIDE",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-CLUB-CIRCLE-GUIDE.pdf"
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-CLUB-CIRCLE-GUIDE.pdf",
+      "desc": "校内社团・日文版 PDF"
      },
      {
       "text": "2026 International Clubs Guide",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-INTL-CLUB-AND-CIRCLE%E3%80%80%E8%8B%B1%E8%AA%9E.pdf"
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-INTL-CLUB-AND-CIRCLE%E3%80%80%E8%8B%B1%E8%AA%9E.pdf",
+      "desc": "国际社团・英文版 PDF"
      },
      {
       "text": "Global Gateways",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/"
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/",
+      "desc": "国际部留学生信息网，建议定期查看"
      }
     ]
    },
@@ -9907,11 +9914,13 @@ window.ARTICLES_BODY_I18N = {
     "items": [
      {
       "text": "来日後の日常相談",
-      "url": "https://lin.ee/EiQqccP"
+      "url": "https://lin.ee/EiQqccP",
+      "desc": "LINE 官方账号"
      },
      {
       "text": "Q-Mate 公式サイト",
-      "url": "https://studentassistantqu.wixsite.com/q-mate/about"
+      "url": "https://studentassistantqu.wixsite.com/q-mate/about",
+      "desc": "官网"
      }
     ]
    },
@@ -9926,7 +9935,7 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://notepm.jp/sharing/da6d736d-f9e1-44db-ba5e-580d2f1413b2"
      },
      {
-      "text": null,
+      "text": "Q-Mate Instagram",
       "url": "https://www.instagram.com/_qmate/"
      }
     ]
@@ -9954,13 +9963,13 @@ window.ARTICLES_BODY_I18N = {
     ],
     "rows": [
      [
-      "Sep 24・25",
+      "9月24日・25日",
       "Free airport shuttle bus",
       "All new international students",
       "First come, first served; no reservation required"
      ],
      [
-      "Sep 24・25・29・30・Oct 1",
+      "9月24日・25日・29日・30日・10月1日",
       "Free daily-life support bus",
       "New international students and their supporters",
       "First come, first served; no reservation required"
@@ -9972,19 +9981,19 @@ window.ARTICLES_BODY_I18N = {
       "⚠️ Advance registration required"
      ],
      [
-      "Sep 28",
+      "9月28日",
       "オリエン + 4 concurrent sessions",
       "All new international students (including other campuses)",
       "⚠️ Attendance required for new international students"
      ],
      [
-      "Sep 29・30",
+      "9月29日・30日",
       "Campus tour for new international students",
       "All new international students",
       "Registration required; 20 persons per session"
      ],
      [
-      "Oct 6・7・8",
+      "10月6日・7日・8日",
       "福岡銀行 account opening session",
       "New students who have completed residence registration",
       "⚠️ Advance registration required"
@@ -10148,38 +10157,38 @@ window.ARTICLES_BODY_I18N = {
     "rows": [
      [
       "A",
-      "9/24(Thu) 15:00-15:30",
-      "9/29(Tue) 13:00-14:00"
+      "9/24(木) 15:00-15:30",
+      "9/29(火) 13:00-14:00"
      ],
      [
       "B",
-      "9/25(Fri) 13:00-13:30",
-      "9/29(Tue) 13:00-14:00"
+      "9/25(金) 13:00-13:30",
+      "9/29(火) 13:00-14:00"
      ],
      [
       "C",
-      "9/28(Mon) 10:00-10:30",
-      "9/30(Wed) 13:00-14:00"
+      "9/28(月) 10:00-10:30",
+      "9/30(水) 13:00-14:00"
      ],
      [
       "D",
-      "9/29(Tue) 10:00-10:30",
-      "10/1(Thu) 13:00-14:00"
+      "9/29(火) 10:00-10:30",
+      "10/1(木) 13:00-14:00"
      ],
      [
       "E",
-      "9/30(Wed) 10:00-10:30",
-      "10/2(Fri) 13:00-14:00"
+      "9/30(水) 10:00-10:30",
+      "10/2(金) 13:00-14:00"
      ],
      [
       "F",
-      "10/1(Thu) 10:00-10:30",
-      "10/5(Mon) 12:30-13:30"
+      "10/1(木) 10:00-10:30",
+      "10/5(月) 12:30-13:30"
      ],
      [
       "G",
-      "10/2(Fri) 10:00-10:30",
-      "10/6(Tue) 12:00-13:00"
+      "10/2(金) 10:00-10:30",
+      "10/6(火) 12:00-13:00"
      ]
     ]
    },
@@ -10195,18 +10204,18 @@ window.ARTICLES_BODY_I18N = {
     "rows": [
      [
       "A",
-      "9/28(Mon) 11:00-11:30",
-      "9/30(Wed) 15:00-16:00"
+      "9/28(月) 11:00-11:30",
+      "9/30(水) 15:00-16:00"
      ],
      [
       "B",
-      "9/29(Tue) 11:00-11:30",
-      "10/1(Thu) 15:00-16:00"
+      "9/29(火) 11:00-11:30",
+      "10/1(木) 15:00-16:00"
      ],
      [
       "C",
-      "9/30(Wed) 11:00-11:30",
-      "10/2(Fri) 15:00-16:00"
+      "9/30(水) 11:00-11:30",
+      "10/2(金) 15:00-16:00"
      ]
     ]
    },
@@ -10285,22 +10294,22 @@ window.ARTICLES_BODY_I18N = {
     ],
     "rows": [
      [
-      "9/29(Tue)",
+      "9/29(火)",
       "10:30-12:00",
       "イーストゾーン (humanities)"
      ],
      [
-      "9/29(Tue)",
+      "9/29(火)",
       "15:00-16:30",
       "ウエストゾーン (sciences)"
      ],
      [
-      "9/30(Wed)",
+      "9/30(水)",
       "10:30-12:00",
       "ウエストゾーン (sciences)"
      ],
      [
-      "9/30(Wed)",
+      "9/30(水)",
       "15:00-16:30",
       "イーストゾーン (humanities)"
      ]
@@ -10351,22 +10360,22 @@ window.ARTICLES_BODY_I18N = {
     ],
     "rows": [
      [
-      "1",
+      "1 ",
       "1,650 yen",
       "Non-regular students, research students, etc."
      ],
      [
-      "2",
+      "2 ",
       "3,300 yen",
       "Master's course"
      ],
      [
-      "3",
+      "3 ",
       "4,950 yen",
       "Doctoral course"
      ],
      [
-      "4",
+      "4 ",
       "6,600 yen",
       "Undergraduate"
      ]
@@ -10429,11 +10438,13 @@ window.ARTICLES_BODY_I18N = {
     "items": [
      {
       "text": "伊都診療所",
-      "url": "https://itoclinic.kyushu-u.ac.jp/"
+      "url": "https://itoclinic.kyushu-u.ac.jp/",
+      "desc": "校内诊所官网"
      },
      {
       "text": "福岡記念病院",
-      "url": "http://kinen.jp"
+      "url": "http://kinen.jp",
+      "desc": "官网"
      }
     ]
    },
@@ -10483,23 +10494,28 @@ window.ARTICLES_BODY_I18N = {
     "items": [
      {
       "text": "Bringing personal medications into Japan",
-      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/kojinyunyu/topics/tp010401-1.html"
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/kojinyunyu/topics/tp010401-1.html",
+      "desc": "厚生劳动省：海外携入医药品的限制说明"
      },
      {
       "text": "Information on vaccine-preventable infectious diseases",
-      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/visitor.html"
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/visitor.html",
+      "desc": "渡航前确认接种史"
      },
      {
       "text": "2026 CLUB & CIRCLE GUIDE",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-CLUB-CIRCLE-GUIDE.pdf"
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-CLUB-CIRCLE-GUIDE.pdf",
+      "desc": "校内社团・日文版 PDF"
      },
      {
       "text": "2026 International Clubs Guide",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-INTL-CLUB-AND-CIRCLE%E3%80%80%E8%8B%B1%E8%AA%9E.pdf"
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-INTL-CLUB-AND-CIRCLE%E3%80%80%E8%8B%B1%E8%AA%9E.pdf",
+      "desc": "国际社团・英文版 PDF"
      },
      {
       "text": "Global Gateways",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/"
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/",
+      "desc": "国际部留学生信息网，建议定期查看"
      }
     ]
    },
@@ -10515,7 +10531,7 @@ window.ARTICLES_BODY_I18N = {
       "text": "Daily consultation: LINE 「Consultation Desk」 (answered by Q-Mate)"
      },
      {
-      "text": "Q-Mate Instagram: @_qmate"
+      "text": "Q-Mate Instagram：@_qmate"
      },
      {
       "text": "Q-Mate official website: compilation of FAQ and life information"
@@ -10526,11 +10542,13 @@ window.ARTICLES_BODY_I18N = {
     "items": [
      {
       "text": "Daily consultation after arrival in Japan",
-      "url": "https://lin.ee/EiQqccP"
+      "url": "https://lin.ee/EiQqccP",
+      "desc": "LINE 官方账号"
      },
      {
       "text": "Q-Mate official website",
-      "url": "https://studentassistantqu.wixsite.com/q-mate/about"
+      "url": "https://studentassistantqu.wixsite.com/q-mate/about",
+      "desc": "官网"
      }
     ]
    },
@@ -10545,7 +10563,7 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://notepm.jp/sharing/da6d736d-f9e1-44db-ba5e-580d2f1413b2"
      },
      {
-      "text": "",
+      "text": "Q-Mate Instagram",
       "url": "https://www.instagram.com/_qmate/"
      }
     ]
@@ -10573,13 +10591,13 @@ window.ARTICLES_BODY_I18N = {
     ],
     "rows": [
      [
-      "9월 24일・25일",
+      "9月24日・25日",
       "무료 공항 셔틀버스",
       "모든 신입 유학생",
       "선착순, 예약 불필요"
      ],
      [
-      "9월 24일・25일・29일・30일・10월 1일",
+      "9月24日・25日・29日・30日・10月1日",
       "무료 생활 지원 버스",
       "신입 유학생 및 지원자",
       "선착순, 예약 불필요"
@@ -10591,19 +10609,19 @@ window.ARTICLES_BODY_I18N = {
       "⚠️ 사전 신청 필수"
      ],
      [
-      "9월 28일",
+      "9月28日",
       "オリエン + 병행 4건",
       "모든 신입 유학생 (기타 캠퍼스 포함)",
       "⚠️ 신입 유학생 참가 필수"
      ],
      [
-      "9월 29일・30일",
+      "9月29日・30日",
       "신입 유학생 캠퍼스 투어",
       "모든 신입 유학생",
       "신청 필요, 회당 20명"
      ],
      [
-      "10월 6일・7일・8일",
+      "10月6日・7日・8日",
       "福岡銀行 계좌 개설회",
       "주소 등록을 마친 신입생",
       "⚠️ 사전 신청 필수"
@@ -10767,38 +10785,38 @@ window.ARTICLES_BODY_I18N = {
     "rows": [
      [
       "A",
-      "9/24(목) 15:00-15:30",
-      "9/29(화) 13:00-14:00"
+      "9/24(木) 15:00-15:30",
+      "9/29(火) 13:00-14:00"
      ],
      [
       "B",
-      "9/25(금) 13:00-13:30",
-      "9/29(화) 13:00-14:00"
+      "9/25(金) 13:00-13:30",
+      "9/29(火) 13:00-14:00"
      ],
      [
       "C",
-      "9/28(월) 10:00-10:30",
-      "9/30(수) 13:00-14:00"
+      "9/28(月) 10:00-10:30",
+      "9/30(水) 13:00-14:00"
      ],
      [
       "D",
-      "9/29(화) 10:00-10:30",
-      "10/1(목) 13:00-14:00"
+      "9/29(火) 10:00-10:30",
+      "10/1(木) 13:00-14:00"
      ],
      [
       "E",
-      "9/30(수) 10:00-10:30",
-      "10/2(금) 13:00-14:00"
+      "9/30(水) 10:00-10:30",
+      "10/2(金) 13:00-14:00"
      ],
      [
       "F",
-      "10/1(목) 10:00-10:30",
-      "10/5(월) 12:30-13:30"
+      "10/1(木) 10:00-10:30",
+      "10/5(月) 12:30-13:30"
      ],
      [
       "G",
-      "10/2(금) 10:00-10:30",
-      "10/6(화) 12:00-13:00"
+      "10/2(金) 10:00-10:30",
+      "10/6(火) 12:00-13:00"
      ]
     ]
    },
@@ -10814,18 +10832,18 @@ window.ARTICLES_BODY_I18N = {
     "rows": [
      [
       "A",
-      "9/28(월) 11:00-11:30",
-      "9/30(수) 15:00-16:00"
+      "9/28(月) 11:00-11:30",
+      "9/30(水) 15:00-16:00"
      ],
      [
       "B",
-      "9/29(화) 11:00-11:30",
-      "10/1(목) 15:00-16:00"
+      "9/29(火) 11:00-11:30",
+      "10/1(木) 15:00-16:00"
      ],
      [
       "C",
-      "9/30(수) 11:00-11:30",
-      "10/2(금) 15:00-16:00"
+      "9/30(水) 11:00-11:30",
+      "10/2(金) 15:00-16:00"
      ]
     ]
    },
@@ -10904,22 +10922,22 @@ window.ARTICLES_BODY_I18N = {
     ],
     "rows": [
      [
-      "9/29(화)",
+      "9/29(火)",
       "10:30-12:00",
       "イーストゾーン (문과)"
      ],
      [
-      "9/29(화)",
+      "9/29(火)",
       "15:00-16:30",
       "ウエストゾーン (이과)"
      ],
      [
-      "9/30(수)",
+      "9/30(水)",
       "10:30-12:00",
       "ウエストゾーン (이과)"
      ],
      [
-      "9/30(수)",
+      "9/30(水)",
       "15:00-16:30",
       "イーストゾーン (문과)"
      ]
@@ -11048,11 +11066,13 @@ window.ARTICLES_BODY_I18N = {
     "items": [
      {
       "text": "伊都診療所",
-      "url": "https://itoclinic.kyushu-u.ac.jp/"
+      "url": "https://itoclinic.kyushu-u.ac.jp/",
+      "desc": "校内诊所官网"
      },
      {
       "text": "福岡記念病院",
-      "url": "http://kinen.jp"
+      "url": "http://kinen.jp",
+      "desc": "官网"
      }
     ]
    },
@@ -11102,23 +11122,28 @@ window.ARTICLES_BODY_I18N = {
     "items": [
      {
       "text": "개인용 의약품 일본 반입",
-      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/kojinyunyu/topics/tp010401-1.html"
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/kojinyunyu/topics/tp010401-1.html",
+      "desc": "厚生劳动省：海外携入医药品的限制说明"
      },
      {
       "text": "백신으로 예방하는 감염병 정보",
-      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/visitor.html"
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/visitor.html",
+      "desc": "渡航前确认接种史"
      },
      {
       "text": "2026 CLUB & CIRCLE GUIDE",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-CLUB-CIRCLE-GUIDE.pdf"
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-CLUB-CIRCLE-GUIDE.pdf",
+      "desc": "校内社团・日文版 PDF"
      },
      {
       "text": "2026 International Clubs Guide",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-INTL-CLUB-AND-CIRCLE%E3%80%80%E8%8B%B1%E8%AA%9E.pdf"
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-INTL-CLUB-AND-CIRCLE%E3%80%80%E8%8B%B1%E8%AA%9E.pdf",
+      "desc": "国际社团・英文版 PDF"
      },
      {
       "text": "Global Gateways",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/"
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/",
+      "desc": "国际部留学生信息网，建议定期查看"
      }
     ]
    },
@@ -11134,7 +11159,7 @@ window.ARTICLES_BODY_I18N = {
       "text": "일상 상담: LINE 「Consultation Desk」 (Q-Mate 답변)"
      },
      {
-      "text": "Q-Mate Instagram: @_qmate"
+      "text": "Q-Mate Instagram：@_qmate"
      },
      {
       "text": "Q-Mate 공식 사이트: 질의응답과 생활 정보 정리"
@@ -11145,11 +11170,13 @@ window.ARTICLES_BODY_I18N = {
     "items": [
      {
       "text": "입국 후 일상 상담",
-      "url": "https://lin.ee/EiQqccP"
+      "url": "https://lin.ee/EiQqccP",
+      "desc": "LINE 官方账号"
      },
      {
       "text": "Q-Mate 공식 사이트",
-      "url": "https://studentassistantqu.wixsite.com/q-mate/about"
+      "url": "https://studentassistantqu.wixsite.com/q-mate/about",
+      "desc": "官网"
      }
     ]
    },
@@ -11164,7 +11191,7 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://notepm.jp/sharing/da6d736d-f9e1-44db-ba5e-580d2f1413b2"
      },
      {
-      "text": "",
+      "text": "Q-Mate Instagram",
       "url": "https://www.instagram.com/_qmate/"
      }
     ]

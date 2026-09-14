@@ -105,6 +105,70 @@ def walk_localize(bs, lang):
 PLACEHOLDER = re.compile(r"^[\s—–—－\-ー~〜]+$")
 
 
+def force_source(S, sb, tb):
+    """把「提取器跳过」的单元强制改回源文值。
+
+    判断依据与 extract_i18n_units.needs_translation 一致 —— 凡是不需要翻译的位置
+    （纯日期/数字/URL/纯假名专名），译文里出现的任何不同内容都视为译者的猜测，一律覆盖。
+    返回覆盖处数。
+    """
+    n = 0
+    try:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location(
+            "ex", os.path.join(ROOT, "tools", "extract_i18n_units.py"))
+        ex = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(ex)
+        need = ex.needs_translation
+    except Exception:
+        return 0
+
+    def force(s_val, t_val):
+        """源不需要翻译 → 强制用源值"""
+        nonlocal n
+        if t_val is None:
+            return s_val
+        if not need(s_val) and str(s_val).strip() != str(t_val).strip():
+            n += 1
+            return s_val
+        return t_val
+
+    st = sb.get("type")
+    if st in ("heading", "subheading", "paragraph", "notice", "warning"):
+        tb["text"] = force(sb.get("text") or "", tb.get("text"))
+    for i, si in enumerate(sb.get("items") or []):
+        if not isinstance(si, dict): continue
+        ti = (tb.get("items") or [None])[i] if i < len(tb.get("items") or []) else None
+        if not isinstance(ti, dict): continue
+        for k in ("text", "title", "desc"):
+            if k in si:
+                ti[k] = force(si.get(k) or "", ti.get(k))
+    for i, sh in enumerate(sb.get("headers") or []):
+        th = (tb.get("headers") or [])
+        if i < len(th) and not need(sh):
+            if str(sh).strip() != str(th[i]).strip():
+                th[i] = sh; n += 1
+    for ri, srow in enumerate(sb.get("rows") or []):
+        trows = tb.get("rows") or []
+        if ri >= len(trows): continue
+        for ci, sc in enumerate(srow):
+            if ci >= len(trows[ri]): continue
+            trows[ri][ci] = force(sc, trows[ri][ci])
+    # 链接标签
+    sitems = sb.get("links") or sb.get("items") or []
+    titems = tb.get("items") or tb.get("links") or []
+    for i, si in enumerate(sitems):
+        if i >= len(titems) or not isinstance(si, dict): continue
+        ti = titems[i]
+        if not isinstance(ti, dict): continue
+        lbl = si.get("label") or si.get("text") or ""
+        if lbl and not need(lbl):
+            cur = ti.get("text") if ti.get("text") is not None else ti.get("label")
+            if str(lbl).strip() != str(cur or "").strip():
+                ti["text"] = lbl; n += 1
+    return n
+
+
 def is_blank(x):
     """空值判定。除了真正的空串，也把「占位破折号」视为空 ——
     提取器跳过的单元格（纯数字/日期）译者不知道该填什么，会写 `—`；
@@ -182,6 +246,21 @@ def main():
     for L, blocks in pay.items():
         for tb in blocks.values():
             if isinstance(tb, dict): walk_localize([tb], L)
+
+    # ⑤ 强制回填「提取器跳过」的单元 —— 这些位置译者没被要求翻译，
+    #    若它自行猜填就会变成错误数据。实测：韩语把中介名 エイブル / アパマンショップ
+    #    写反、并把 ホームメイト 写成凭空的「ミニミニ」，描述与名字完全对不上。
+    #    这类位置一律以源文为准（空值回填只能挡住空白，挡不住「看起来合理的猜测」）。
+    forced = 0
+    for L, blocks in pay.items():
+        for bid, tb in blocks.items():
+            sb = S.get(bid)
+            if not sb or not isinstance(tb, dict):
+                continue
+            forced += force_source(S, sb, tb)
+    if forced:
+        print("   跳过单元强制回填源文：%d 处" % forced)
+
     json.dump(pay, open(out_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print("归一化 → %s：URL 回填 %d · 单元格 %d · 表头 %d · 列表项 %d · 段落 %d · 链接标签 %d"
           % (os.path.basename(out_path), stat["url"], stat["cell"], stat["header"],
