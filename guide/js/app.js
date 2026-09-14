@@ -99,7 +99,9 @@ function applyI18N(){
   $('brandSub').textContent=t('brandSub');
   $('searchInput').placeholder=t('searchPh');
   $('mapTip').textContent=t('mapTip');
-  $('guideHead').textContent=t('guideHead');
+  // %n% 必须替换 —— 这里先前直接赋 t('guideHead')，切换语言时标题会显示成
+  // 原始占位符「가이드 · %n% 카테고리」（冷启动走 renderGrid 才会替换，所以只在切换时暴露）
+  $('guideHead').textContent=t('guideHead').replace('%n%',CATS.length);
   $('guideSub').textContent=t('guideSub');
   $('guideEmpty').textContent=t('emptyCat');
   $('historyTitle').textContent=t('historyTitle');
@@ -108,6 +110,9 @@ function applyI18N(){
   $('noHistorySub').textContent=t('noHistorySub');
   $('upcomingTitle').textContent=t('upcoming');
   $('upcomingSub').textContent=t('recent3');
+  // 新生专区也要跟着切 —— renderNewcomerZone 原先只在 renderGrid 里调用，
+  // 切换语言时若当前不在宫格页，专区就会停留在上一语言（看似「没切过来」）
+  if(typeof renderNewcomerZone==='function')renderNewcomerZone();
   $('dataSrc').textContent=t('dataSrc');
   $('articleEnd').textContent=t('endMark');
   $('btnBack').textContent=t('backGrid');
