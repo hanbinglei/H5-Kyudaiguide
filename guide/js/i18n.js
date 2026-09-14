@@ -7,17 +7,18 @@
 (function(){
 // ── 品类名（12 宫格与文章分类标签共用） ──
 const CAT_I18N = {
-  zh:{ '1':'入境准备','2':'在留手续','3':'租房','4':'银行·汇款','5':'手机·网络','6':'学业·奖学金','7':'打工','8':'医疗·保险','9':'交通','10':'生活贴士','11':'购物','12':'应急联系','13':'反诈安全','14':'新生特辑','15':'奖学金' },
-  ja:{ '1':'入国準備','2':'在留手続き','3':'住まい探し','4':'銀行・送金','5':'携帯・ネット','6':'学業・奨学金','7':'アルバイト','8':'医療・保険','9':'交通','10':'生活のコツ','11':'買い物','12':'緊急連絡先','13':'詐欺防止','14':'新入生特集','15':'奨学金' },
-  en:{ '1':'Arrival','2':'Residence','3':'Housing','4':'Banking','5':'Mobile & Net','6':'Study & Grants','7':'Part-time','8':'Medical','9':'Transport','10':'Life Tips','11':'Shopping','12':'Emergency','13':'Anti-Fraud','14':'Newcomer','15':'Scholarships' },
-  ko:{ '1':'입국 준비','2':'체류 수속','3':'주거','4':'은행·송금','5':'휴대폰·인터넷','6':'학업·장학금','7':'아르바이트','8':'의료·보험','9':'교통','10':'생활 팁','11':'쇼핑','12':'긴급 연락','13':'사기 방지','14':'신입생 특집','15':'장학금' },
+  zh:{ '1':'入境准备','2':'在留手续','3':'租房','4':'银行·汇款','5':'手机·网络','6':'学业·奖学金','7':'打工','8':'医疗·保险','9':'交通','10':'生活贴士','11':'购物','12':'应急联系','13':'反诈安全','14':'新生特辑','15':'奖学金','16':'就职·实习' },
+  ja:{ '1':'入国準備','2':'在留手続き','3':'住まい探し','4':'銀行・送金','5':'携帯・ネット','6':'学業・奨学金','7':'アルバイト','8':'医療・保険','9':'交通','10':'生活のコツ','11':'買い物','12':'緊急連絡先','13':'詐欺防止','14':'新入生特集','15':'奨学金','16':'就職・インターン' },
+  en:{ '1':'Arrival','2':'Residence','3':'Housing','4':'Banking','5':'Mobile & Net','6':'Study & Grants','7':'Part-time','8':'Medical','9':'Transport','10':'Life Tips','11':'Shopping','12':'Emergency','13':'Anti-Fraud','14':'Newcomer','15':'Scholarships','16':'Career & Internships' },
+  ko:{ '1':'입국 준비','2':'체류 수속','3':'주거','4':'은행·송금','5':'휴대폰·인터넷','6':'학업·장학금','7':'아르바이트','8':'의료·보험','9':'교통','10':'생활 팁','11':'쇼핑','12':'긴급 연락','13':'사기 방지','14':'신입생 특집','15':'장학금','16':'취업·인턴십' },
 };
 // ── UI 词典 ──
 const UI = {
   zh:{
     self:'中文', brandSub:'九大伊都 · 留学指南 H5', searchPh:'搜索标题 / 正文',
     tabs:{map:'地图',guide:'指南',cunli:'村历',faculty:'官网',history:'历史'},
-    guideHead:'指南 · 15 个场景', guideSub:'选一个场景直接查看指南',
+    guideHead:'指南 · %n% 个场景', guideSub:'选一个场景直接查看指南',
+    nzTitle:'刚到日本？按这个顺序做', nzSub:'三个月内会用到的手续，按时间排好了 —— 点一条直接跳到那一节',
     emptyCat:'该分类内容整理中，敬请期待', backGrid:'‹ 全部品类',
     searchLabel:'搜索', noResults:'没有匹配结果',
     searchCount:'找到 %n% 篇 · 按相关度排序', searchHint:'换个更短的关键词试试，比如：',
@@ -63,7 +64,8 @@ const UI = {
   ja:{
     self:'日本語', brandSub:'九大伊都・留学生ガイド H5', searchPh:'タイトル / 本文で検索',
     tabs:{map:'地図',guide:'ガイド',cunli:'村暦',faculty:'公式',history:'履歴'},
-    guideHead:'ガイド · 15 カテゴリ', guideSub:'カテゴリを選んでガイドを開く',
+    guideHead:'ガイド · %n% カテゴリ', guideSub:'カテゴリを選んでガイドを開く',
+    nzTitle:'来日したばかりの方は、この順番で', nzSub:'3 か月以内に必要な手続きを時系列に並べました —— タップで該当節へ',
     emptyCat:'このカテゴリは準備中です', backGrid:'‹ 全カテゴリ',
     searchLabel:'検索', noResults:'該当する結果がありません',
     searchCount:'%n% 件（関連度順）', searchHint:'もっと短いキーワードでお試しください。例：',
@@ -107,7 +109,8 @@ const UI = {
   en:{
     self:'English', brandSub:'Kyushu U Ito — Guide H5', searchPh:'Search titles / text',
     tabs:{map:'Map',guide:'Guide',cunli:'Calendar',faculty:'Sites',history:'History'},
-    guideHead:'Guide · 15 Categories', guideSub:'Pick a category to read',
+    guideHead:'Guide · %n% categories', guideSub:'Pick a category to read',
+    nzTitle:'Just arrived? Do it in this order', nzSub:'Procedures you need within three months, in time order - tap to jump to that section',
     emptyCat:'Content coming soon', backGrid:'‹ All Categories',
     searchLabel:'Search', noResults:'No results found',
     searchCount:'%n% article(s), by relevance', searchHint:'Try a shorter keyword, for example:',
@@ -152,7 +155,8 @@ const UI = {
   ko:{
     self:'한국어', brandSub:'큐슈대 이토 · 가이드 H5', searchPh:'제목 / 본문 검색',
     tabs:{map:'지도',guide:'가이드',cunli:'마을달력',faculty:'사이트',history:'기록'},
-    guideHead:'가이드 · 15 카테고리', guideSub:'카테고리를 눌러 가이드 열기',
+    guideHead:'가이드 · %n% 카테고리', guideSub:'카테고리를 눌러 가이드 열기',
+    nzTitle:'일본에 막 도착했다면 이 순서로', nzSub:'3개월 안에 필요한 수속을 시간순으로 정리했습니다 - 누르면 해당 절로 이동',
     emptyCat:'해당 카테고리 준비 중', backGrid:'‹ 전체 카테고리',
     searchLabel:'검색', noResults:'검색 결과가 없습니다',
     searchCount:'%n%건 (관련도순)', searchHint:'더 짧은 키워드로 시도해 보세요. 예:',

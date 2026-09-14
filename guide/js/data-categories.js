@@ -13,5 +13,8 @@ const CATEGORIES = [
   { id: '10', name: '生活贴士', icon: '🍜' },
   { id: '11', name: '购物', icon: '🛒' },
   { id: '12', name: '应急联系', icon: '🚨' },
+  // ↓ H5 侧扩展（小程序 data/categories.js 里没有；重生成时注意别覆盖）
+  { id: '13', name: '反诈安全', icon: '🛡️' },
+  { id: '15', name: '奖学金', icon: '💰' },
 ];
 if(typeof window!=='undefined') window.CATEGORIES=CATEGORIES;

@@ -13,12 +13,13 @@
  * 地图在 ../h5-mvp/（约 500KB 数据）不在作用域内，不会被它缓存 —— 这是有意的：
  * 指南是随身要看的，地图是到了校园才用的，没必要为后者占掉学生的存储和流量。
  */
-const VERSION = 'kg-20260914f';
+const VERSION = 'kg-20260914g';
 const CORE = [
   './',
   './index.html',
   './manifest.webmanifest',
   './css/style.css',
+  './js/data-newcomer-zone.js',   // 新生专区深链数据（首屏渲染就要）
   './js/data-categories.js',
   './js/data-faculties.js',
   './js/data-articles.js',

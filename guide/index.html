@@ -27,7 +27,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Kyudai Guide">
 
-<link rel="stylesheet" href="css/style.css?v=20260914f">
+<link rel="stylesheet" href="css/style.css?v=20260914g">
 </head>
 <body>
 <div id="app">
@@ -59,15 +59,26 @@
     <!-- 指南：12 品类 -->
     <section id="pane-guide" class="pane">
       <!-- 宫格视图 -->
+      <!-- 🆕 新生专区：服务"刚到日本"的人 —— 不复制正文，只把散在各篇的关键步骤
+           按时间顺序串起来，每条用 ?sec=<区块ID> 深链到对应小节。
+           数据：guide/js/data-newcomer-zone.js（校验 tools/check_newcomer_zone.js） -->
+      <div id="nzWrap" style="display:none;margin-bottom:18px">
+        <div class="section-head">
+          <div class="section-title" id="nzTitle">刚到日本？按这个顺序做</div>
+          <div class="section-sub" id="nzSub"></div>
+        </div>
+        <div id="nzStages"></div>
+        <!-- 必读卡，可以不止一张。先后由 content 里的 pinOrder 决定（小的在前），
+             不按 updatedAt —— 那等于「谁最后被编辑谁排第一」，改个错别字就会
+             把首页第一张卡换掉。校验见 tools/build_guide_articles.js -->
+        <div id="pinnedCards" style="display:none;margin-top:12px"></div>
+      </div>
+
       <div id="catGridWrap">
         <div class="section-head">
           <div class="section-title" id="guideHead">指南 · 12 场景</div>
           <div class="section-sub" id="guideSub">选一个场景直接查看指南</div>
         </div>
-        <!-- 必读卡，可以不止一张。先后由 content 里的 pinOrder 决定（小的在前），
-             不按 updatedAt —— 那等于「谁最后被编辑谁排第一」，改个错别字就会
-             把首页第一张卡换掉。校验见 tools/build_guide_articles.js -->
-        <div id="pinnedCards" style="display:none;margin-bottom:10px"></div>
         <div id="catGrid" class="cat-grid"></div>
       </div>
       <!-- 列表视图（搜索结果 / 空分类提示） -->
@@ -171,20 +182,21 @@
   </div>
 </div>
 
+<script src="js/data-newcomer-zone.js?v=20260914g"></script>
 <script src="js/data-categories.js?v=20260902"></script>
 <script src="js/data-faculties.js?v=20260902"></script>
-<script src="js/data-articles.js?v=20260914f"></script>
-<script src="js/articles-i18n.js?v=20260914f"></script>
+<script src="js/data-articles.js?v=20260914g"></script>
+<script src="js/articles-i18n.js?v=20260914g"></script>
 <!-- articles-body-i18n.js 不在这里加载：它是全站最大的一个文件（gzip 约 165KB），
      而中文读者一个字节都用不上。改由 app.js 的 ensureBodyI18N() 在非中文时按需并行拉。 -->
 <script src="js/data-cunli.js?v=20260904"></script>
 <script src="js/cunli-utils.js?v=20260906"></script>
 <script src="js/cunli-export.js?v=20260910"></script>
-<script src="js/i18n.js?v=20260914f"></script>
+<script src="js/i18n.js?v=20260914g"></script>
 <script src="js/render.js?v=20260902"></script>
 <script src="js/bus-live.js?v=20260902"></script>
-<script src="js/search.js?v=20260914f"></script>
-<script src="js/app.js?v=20260914f"></script>
+<script src="js/search.js?v=20260914g"></script>
+<script src="js/app.js?v=20260914g"></script>
 <script src="js/tour.js?v=20260902"></script>
 </body>
 </html>

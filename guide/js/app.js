@@ -33,8 +33,17 @@ function navigate(h){if(location.hash!=='#'+h)location.hash='#'+h;else onHashCha
 function onHashChange(){
   const raw=currentHash();
   if(raw.startsWith('article/')){
+    // 支持 article/<id>?h=<小节标题> 深链到具体小节（新生专区的时间线就是靠它指路的）
+    const seg=raw.slice(8),qi=seg.indexOf('?');
+    const id=qi<0?seg:seg.slice(0,qi);
+    let want='',wantSec='';
+    try{
+      const p=new URLSearchParams(qi<0?'':seg.slice(qi+1));
+      want=p.get('h')||'';        // ?h=<小节标题>（语言相关，少用）
+      wantSec=p.get('sec')||'';   // ?sec=<区块ID>（语言无关，新生专区用这个）
+    }catch(e){}
     document.body.classList.add('modal-open');
-    showArticle(decodeURIComponent(raw.slice(8)));setTab('guide');return;
+    showArticle(decodeURIComponent(id),want,wantSec);setTab('guide');return;
   }
   // 离开文章详情：解除背景滚动锁定（showArticle 里加的 modal-open）
   document.body.classList.remove('modal-open');
@@ -123,9 +132,39 @@ function applyI18N(){
   $('facSrc').textContent=t('facSrc');
 }
 
+// ── 新生专区（首页顶部时间线） ──
+/* 服务"刚到日本"的人：不复制正文，只把散在各篇的关键步骤按时间顺序串起来，
+   每条深链到对应小节（?sec=<区块ID>，语言无关）。
+   数据在 data-newcomer-zone.js；ID 是否真实存在由 tools/check_newcomer_zone.js 把关 ——
+   链接指不到小节，等于给新生的第一屏就是坏的。 */
+function renderNewcomerZone(){
+  const wrap=$('nzWrap'),box=$('nzStages'),Z=window.NEWCOMER_ZONE;
+  if(!wrap||!box||!Z||!Z.stages||!Z.stages.length){if(wrap)wrap.style.display='none';return 0}
+  const lang=I18N.getLang();
+  const pick=o=>o?(o[lang]||o.zh||''):'';
+  let n=0;
+  box.innerHTML=Z.stages.map(st=>{
+    const items=(st.items||[]).filter(it=>it&&it.ref).map(it=>{
+      n++;
+      const href='#article/'+encodeURIComponent(it.ref)+(it.sec?'?sec='+encodeURIComponent(it.sec):'');
+      return `<a class="nz-item" href="${href}"><span class="nz-dot"></span><span class="nz-text">${esc(pick(it.text))}</span><span class="nz-go">›</span></a>`;
+    }).join('');
+    return `<div class="nz-stage"><div class="nz-head"><span class="nz-icon">${esc(st.icon||'')}</span><span>${esc(pick(st.label))}</span></div><div class="nz-items">${items}</div></div>`;
+  }).join('');
+  const ti=$('nzTitle'),su=$('nzSub');
+  if(ti)ti.textContent=t('nzTitle');
+  if(su)su.textContent=t('nzSub');
+  wrap.style.display='';
+  return n;
+}
+
 // ── 12 宫格（+ 置顶反诈卡） ──
 function renderGrid(){
   applyI18N();
+  renderNewcomerZone();
+  // guideHead 里的 %n% 换成实际格数 —— 写死数字一定会过期（曾经写「12 场景」而实际有 15 个）
+  const gh=$('guideHead');
+  if(gh) gh.textContent=t('guideHead').replace('%n%',CATS.length);
   const pin=$('pinnedCards');
   if(PINNED.length){
     pin.style.display='grid';
@@ -240,7 +279,7 @@ function bodyBlocks(art){
 }
 
 // ── 文章详情 ──
-function showArticle(id){
+function showArticle(id,wantHeading,wantSec){
   const art=ARTICLES.find(a=>String(a._id)===String(id));
   if(!art){$('pane-article').style.display='none';renderGrid();return}
   hPush({id:art._id,title:I18N.articleField(art,'title'),categoryName:I18N.catName(art.category)});
@@ -280,6 +319,23 @@ function showArticle(id){
     });
     toc.querySelector('.toc-tab')?.classList.add('on');
   }else{toc.style.display='none';toc.innerHTML=''}
+
+  /* 深链到小节：按**标题文本**定位，不按序号 —— 序号在正文增删后会整体错位，
+     和小程序那个「点目录跳到错位置」的缺陷同源。找不到就退到包含匹配，
+     再找不到就停在文章开头（打开的是正确的那篇，只是没滚到节）。 */
+  if(wantSec){
+    // 按区块 ID 定位（语言无关）→ 新生专区的时间线用这条
+    const el=body.querySelector(`h2[data-blk="${wantSec}"]`);
+    if(el) el.scrollIntoView({behavior:'smooth',block:'start'});
+  }else if(wantHeading){
+    let idx=headings.indexOf(wantHeading);
+    if(idx<0) idx=headings.findIndex(h=>h&&(h.includes(wantHeading)||wantHeading.includes(h)));
+    const el=idx>=0?document.getElementById('sec-'+idx):null;
+    if(el){
+      el.scrollIntoView({behavior:'smooth',block:'start'});
+      toc.querySelectorAll('.toc-tab').forEach((x,i)=>x.classList.toggle('on',i===idx));
+    }
+  }
 
   // 电话 / 互引
   // 电话本身是 <a href="tel:">：手机上交给系统（会先弹确认框，不会误拨）。

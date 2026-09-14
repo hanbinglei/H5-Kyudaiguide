@@ -81,13 +81,13 @@
         },
         {
           "_id": "guide-newcomer",
-          "category": "13",
+          "category": "14",
           "blocks": 42,
           "file": "content/guide-newcomer.json"
         },
         {
           "_id": "guide-firstmonth",
-          "category": "13",
+          "category": "14",
           "blocks": 37,
           "file": "content/guide-firstmonth.json"
         },

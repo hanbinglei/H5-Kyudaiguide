@@ -100,7 +100,7 @@ function renderBlocks(blocks,translatedHeadings){
     if(b.type==='heading'){
       sec++;
       const text=(translatedHeadings&&translatedHeadings[sec]!==undefined)?translatedHeadings[sec]:b.text;
-      html+=`<h2 id="sec-${sec}">${esc(text)}</h2>`;
+      html+=`<h2 id="sec-${sec}" data-blk="${esc(b.id||'')}">${esc(text)}</h2>`;
     }else{
       html+=blockToHTML(b);
     }

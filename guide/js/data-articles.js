@@ -5342,7 +5342,7 @@ window.ARTICLES = [
  },
  {
   "_id": "guide-firstmonth",
-  "category": "13",
+  "category": "14",
   "title": "落地后 30 天：手续总表",
   "summary": "把散在 12 个分类里的入境手续按时间线拼成一条：什么时候办、办这件之前必须先办完哪件、哪几件错过了补起来很麻烦。每节末尾指回详细的那一篇。",
   "tags": [

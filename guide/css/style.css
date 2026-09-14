@@ -534,3 +534,16 @@ mark{background:rgba(123,45,62,.10);color:inherit;border-radius:3px;padding:0 2p
 .sug-b{border:1px solid var(--line);background:#fff;color:var(--brand);border-radius:999px;
   padding:7px 14px;font-size:13px;cursor:pointer;transition:border-color .12s}
 .sug-b:active{border-color:#e8cbd2}
+
+/* ── 新生专区（首页顶部时间线导航）── */
+.nz-stage{border:1px solid var(--line);background:var(--card);border-radius:14px;padding:12px 14px;margin-bottom:10px}
+.nz-head{display:flex;align-items:center;gap:8px;font-weight:800;font-size:14px;color:var(--brand);margin-bottom:6px}
+.nz-icon{font-size:16px;line-height:1}
+.nz-items{display:flex;flex-direction:column}
+.nz-item{display:flex;align-items:center;gap:8px;padding:9px 0;border-top:1px solid var(--line);
+  color:inherit;text-decoration:none;font-size:14px;line-height:1.45}
+.nz-item:first-child{border-top:none}
+.nz-dot{width:6px;height:6px;border-radius:50%;background:#d9b9c1;flex:0 0 6px;margin-top:1px}
+.nz-text{flex:1;min-width:0}
+.nz-go{color:var(--muted2);font-size:15px;flex:0 0 auto}
+.nz-item:active .nz-text{color:var(--brand)}
