@@ -469,23 +469,23 @@ function initSearch(){
   function run(){
     const q=inp.value.trim();uc();
     if(!q){renderGrid();return}
-    let list;
+    let list,via='';
     if(searchReady()){
-      list=GuideSearch.query(q,{lang:I18N.getLang(),limit:40})
-        .map(h=>({a:ARTICLES.find(x=>x._id===h.id),snip:h.snip}))
-        .filter(x=>x.a);
+      const hits=GuideSearch.query(q,{lang:I18N.getLang(),limit:40});
+      via=hits.length?(hits[0].via||''):'';
+      list=hits.map(h=>({a:ARTICLES.find(x=>x._id===h.id),snip:h.snip,why:h.why})).filter(x=>x.a);
     }else{                       // search.js 未加载时的兜底，至少别把整页搞崩
       const n=q.toLowerCase();
       list=ARTICLES.filter(a=>((a.title||'')+(a.summary||'')).toLowerCase().includes(n)).map(a=>({a,snip:''}));
     }
-    showSearchResults(list,q);
+    showSearchResults(list,q,via);
   }
   runSearch=run;
   let tm=0;
   inp.addEventListener('input',()=>{uc();clearTimeout(tm);tm=setTimeout(run,140)});   // 防抖：别每敲一个字就重排一次
   clear.addEventListener('click',()=>{inp.value='';uc();renderGrid();inp.focus()});
 }
-function showSearchResults(list,q){
+function showSearchResults(list,q,via){
   guideView('list');
   // 结果必须落在第一屏：页面可能停在新生专区中段，不滚回顶部就等于看不到结果
   try{window.scrollTo(0,0)}catch(e){}
@@ -493,6 +493,8 @@ function showSearchResults(list,q){
   $('catBack').textContent=t('backGrid');
   $('catBack').onclick=()=>{$('searchInput').value='';renderGrid()};
   const box=$('catListArticles');
+  // 命中来自哪一层要讲清楚：模糊 / 关联的结果若不说来源，用户会以为搜错了
+  const note = via==='fuzzy' ? t('searchFuzzy') : (via==='alias' ? t('searchAlias') : '');
   if(!list.length){              // 零结果不能只说「没有」——给可点的关键词，别让用户空手走
     box.innerHTML='<div class="empty">'+esc(t('noResults'))+'</div>'
       +'<div class="sug"><div class="sug-t">'+esc(t('searchHint'))+'</div><div class="sug-k">'
@@ -503,12 +505,23 @@ function showSearchResults(list,q){
     }));
     return;
   }
-  box.innerHTML=list.map(({a,snip})=>
-    '<article class="card-lite" data-id="'+esc(a._id)+'">'
-    +'<div class="t">'+hl(I18N.articleField(a,'title'),q)+'</div>'
-    +(snip?'<div class="sn">'+esc(snip)+'</div>':'')
-    +'<div class="meta"><span class="tag">'+esc(I18N.catName(a.category))+'</span></div>'
-    +'</article>').join('');
+  // 高亮要连「实际命中的词」一起标：模糊命中时正文里并没有查询词本身，
+  // 只按原查询词标会出现「说命中却一片都不高亮」。
+  const hlFor = why => {
+    const extra = [].concat(
+      ((why && why.near) || []).map(x => x.hit),
+      ((why && why.alias) || []).map(x => x.hit));
+    return extra.length ? q + ' ' + extra.join(' ') : q;
+  };
+  box.innerHTML = (note ? '<div class="search-note">'+esc(note)+'</div>' : '')
+    + list.map(({a,snip,why})=>{
+      const hq = hlFor(why);
+      return '<article class="card-lite" data-id="'+esc(a._id)+'">'
+        +'<div class="t">'+hl(I18N.articleField(a,'title'),hq)+'</div>'
+        +(snip?'<div class="sn">'+hl(snip,hq)+'</div>':'')
+        +'<div class="meta"><span class="tag">'+esc(I18N.catName(a.category))+'</span></div>'
+        +'</article>';
+    }).join('');
   box.querySelectorAll('.card-lite').forEach(el=>el.addEventListener('click',()=>navigate('article/'+encodeURIComponent(el.dataset.id))));
 }
 

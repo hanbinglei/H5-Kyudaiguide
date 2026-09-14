@@ -40,8 +40,12 @@
       .trim();
   }
 
-  /* 同义词组：一组之内互相等价。
-     ⚠️ 只收「长度 ≥2 且语义聚焦」的词 —— 单字别名（熱/热）会把半个站都捞进来。 */
+  /* 同义词 / 关联词组：一组之内互相等价。
+     ⚠️ 只收「长度 ≥2 且语义聚焦」的词 —— 单字别名（熱/热）会把半个站都捞进来。
+
+     表的覆盖度直接决定「关联搜索」的成功率：字面不在语料里的词（吃药、找房子、养老金…）
+     没有任何语料统计方法能推出来，只能靠这张表把它们接到语料里实际使用的说法上。
+     扩充依据 = tools/probe_related.js 逐条确认「该词字面确实不在正文里」的用例。 */
   const ALIAS_GROUPS = [
     ['手机', '携帯', 'けいたい', 'スマホ', 'スマートフォン', 'mobile', 'phone', 'sim', '格安sim',
       '手机卡', '电话卡', '接続', '套餐', 'プラン', '料金プラン', 'ギガ', 'データ通信'],
@@ -79,6 +83,37 @@
     }
   }
 
+  /* 关联词表：**单向**——左边是读者可能输入的词，右边是「语料里实际用来写这件事的词」。
+     为什么不能全塞进上面的同义词组：组是互相等价的，把「吃药」加进医院组等于让
+     「吃药」也能召回「診療所/受診/クリニック」全部成员，命中数会从 3 篇涨到 12 篇
+     （实测过载条数 8 → 15）。单向表只把查询词接到真正相关的几个说法上，精度高得多。
+
+     收录判据（用 tools/probe_related.js / probe_terms.js 逐条确认）：
+       ① 左边的词**字面不存在**于任何文章（否则属普通匹配，不需要扩展）
+       ② 右边的词**确实存在于**目标文章（否则扩展等于没接上）
+     只满足①不满足②的情况 = 站内缺这类内容，应当报给用户，而不是硬加映射。 */
+  const RELATED = [
+    ['倒垃圾', ['ごみ', '分別', '収集日']],
+    ['退房', ['退去', '解約']],
+    ['水电费', ['光熱費', '電気代', 'ガス代', '水道代']],
+    ['吃药', ['診療', '医療機関', '受診']],
+    ['找房子', ['賃貸', '不動産', '物件', '入居']],
+    ['火车', ['定期券', '地下鉄', '西鉄']],
+    ['高铁', ['定期券', '地下鉄']],
+    ['电话卡', ['旅行sim', '格安sim', '校园网']],
+    ['没信号', ['電波', '校园网']],
+    ['报税', ['申告', '納税']],
+    ['打工时间限制', ['週28時間', '資格外活動']],
+    ['养老金', ['年金', '国民年金', '脱退一時金']],
+    ['换钱', ['現金', 'キャッシュカード']],
+    ['开证明', ['発券機', '在学証明書', '証明書']],
+    ['台风', ['台風', '天気']],
+    ['转寄邮件', ['転送', '郵便局']],
+    ['搬家', ['転入', '転出', '転送']],
+  ];
+  const REL_OF = new Map();                 // 归一化词 → [归一化目标词]
+  for (const [q, ts] of RELATED) REL_OF.set(norm(q), ts.map(norm));
+
   const isLatin = t => /^[a-z0-9][a-z0-9 .+#-]*$/.test(t);
   const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
@@ -93,6 +128,7 @@
   /** 单字段命中：短拉丁词要求词边界 */
   function hits(field, term) {
     if (!field || !term) return 0;
+    if (typeof field !== 'string') return 0;     // entry.f 里还有 _snips 等非文本字段
     if (isLatin(term) && term.length <= 5) {
       const re = new RegExp('(?:^|[^a-z0-9])' + esc(term) + '(?:[^a-z0-9]|$)', 'g');
       return Math.min((field.match(re) || []).length, 2);
@@ -221,27 +257,189 @@
     return IDX.length;
   }
 
-  function reset() { IDX = []; }
+  function reset() { IDX = []; DF.clear(); }
 
-  /** 全词满足才算通过；useAlias=false 时只认字面 */
-  function passes(entry, terms, useAlias, lang) {
-    const literal = [], alias = [];
+  /* 词频权重（IDF）：一个词出现在越多篇文章里，靠它召回的信息量越小。
+     「更新」在 6 篇里出现、「光熱費」只在 1 篇 —— 同样命中，后者才是定位信号。
+     此前所有同义词一律 ×0.6，于是宽泛词把结果撑到 12〜15 篇（「等于没搜」）。 */
+  const DF = new Map();
+  function dfOf(term) {
+    if (DF.has(term)) return DF.get(term);
+    let n = 0;
+    for (const e of IDX) {
+      for (const fk in e.f) {
+        const v = e.f[fk];
+        if (typeof v !== 'string' || !v) continue;      // 跳过 _snips 等非文本字段
+        if (hits(v, term) > 0) { n++; break; }
+      }
+    }
+    DF.set(term, n);
+    return n;
+  }
+  /** (0,1]：只出现在 1 篇 → 1.0；出现在全部文章 → 约 0.24 */
+  function idf(term) {
+    const n = IDX.length || 1, d = dfOf(term) || 1;
+    return Math.log(1 + n / d) / Math.log(1 + n);
+  }
+
+  /* ── 模糊匹配 ─────────────────────────────────────────────────
+     读者会把「在留カード」打成「在留カド」、「口座」打成「口坐」，
+     字面匹配一律 0 结果（实测 10 条错字用例全部 0 命中）。
+     做法：不求索引、查询时现扫 —— 语料只有十几篇，扫一遍远比维护
+     一份 bigram 倒排索引省内存（那份索引在手机上要几十 MB）。 */
+
+  /** 受限编辑距离：超过 max 立刻返回 max+1（提前退出让扫描足够快） */
+  function editDist(a, b, max) {
+    if (a === b) return 0;
+    const la = a.length, lb = b.length;
+    if (Math.abs(la - lb) > max) return max + 1;
+    let prev = new Array(lb + 1), cur = new Array(lb + 1);
+    for (let j = 0; j <= lb; j++) prev[j] = j;
+    for (let i = 1; i <= la; i++) {
+      cur[0] = i;
+      let rowMin = i;
+      const ca = a.charCodeAt(i - 1);
+      for (let j = 1; j <= lb; j++) {
+        const cost = ca === b.charCodeAt(j - 1) ? 0 : 1;
+        let v = prev[j] + 1;
+        const v2 = cur[j - 1] + 1; if (v2 < v) v = v2;
+        const v3 = prev[j - 1] + cost; if (v3 < v) v = v3;
+        cur[j] = v;
+        if (v < rowMin) rowMin = v;
+      }
+      if (rowMin > max) return max + 1;
+      const t = prev; prev = cur; cur = t;
+    }
+    return prev[lb];
+  }
+
+  /** 词字符判定：CJK 汉字 / 假名 / 拉丁数字。
+      窗口跨标点时会产生「口」」这种假命中，必须挡掉。 */
+  const WORDCH = /[\u4e00-\u9fff\u3040-\u30ff\u30a0-\u30ffa-z0-9]/i;
+  function allWordChars(s) {
+    for (let i = 0; i < s.length; i++) if (!WORDCH.test(s[i])) return false;
+    return true;
+  }
+
+  /** 在字段里找与 term 近似（编辑距离 ≤ maxD）的写法。
+      锚点用 term 的字符，但**2 字词只锚首字**（外加整词颠倒）：
+      2 字只错 1 个字时，句中任意含这两个字之一的词都成立 ——
+      搜「口坐」会把「窗口/入口/出口」全算命中（实测 13 篇）。
+      限定首字对齐后，候选只剩「口X」这一列，噪音消失，而
+      「病愿→病院」「座口→口座（颠倒）」这类真实错法仍能命中。 */
+  function nearestIn(hay, term, maxD) {
+    const L = term.length;
+    const short = L <= 2;
+    let best = null, bestD = maxD + 1;
+    for (let k = 0; k < (short ? 1 : L); k++) {
+      const ch = term[k];
+      let i = hay.indexOf(ch);
+      while (i !== -1) {
+        for (let wi = 0; wi < 3; wi++) {                    // 窗口长度 L-1 / L / L+1
+          const wl = L - 1 + wi;
+          if (wl < 2) continue;
+          const st = i - k;
+          if (st < 0) continue;
+          const win = hay.substr(st, wl);
+          if (win.length < wl) continue;
+          if (win.length <= 4 && !allWordChars(win)) continue;   // 跨标点的窗口不算词
+          const d = editDist(win, term, bestD - 1);
+          if (d < bestD) { bestD = d; best = win; if (d === 1) return { word: win, d: 1 }; }
+        }
+        i = hay.indexOf(ch, i + 1);
+      }
+    }
+    // 整词颠倒（座口 ↔ 口座）：只锚首字扫不到，单独判一次
+    if (short) {
+      const rev = term.split('').reverse().join('');
+      if (allWordChars(rev) && hay.includes(rev)) return { word: rev, d: 1 };
+    }
+    return best ? { word: best, d: bestD } : null;
+  }
+
+  /** 拉丁词：按整词比较（「scholership」对「scholarship」按字符窗扫没法用） */
+  function nearestLatin(hay, term, maxD) {
+    const re = /[a-z0-9][a-z0-9.+#-]*/g;
+    let m, best = null, bestD = maxD + 1;
+    while ((m = re.exec(hay)) !== null) {
+      const w = m[0];
+      if (Math.abs(w.length - term.length) > maxD) continue;
+      const d = editDist(w, term, bestD - 1);
+      if (d < bestD) { bestD = d; best = w; if (d === 1) break; }
+    }
+    return best ? { word: best, d: bestD } : null;
+  }
+
+  /** 允许的编辑距离：短词只准错 1 个字符（再放宽就是把半个站捞进来） */
+  function maxDist(t) {
+    const isL = isLatin(t);
+    if (isL) return t.length <= 4 ? 0 : (t.length <= 6 ? 1 : 2);
+    if (t.length < 2) return 0;
+    return t.length <= 6 ? 1 : 2;
+  }
+
+  /** 扫一篇的字段找近似词。**按字段权重从高到低**，命中即停 ——
+      让「小标题里的近似词」赢过「正文角落里的近似词」。
+      精度靠 `nearestIn` 的锚点规则保证，不靠限制字段：
+      曾经只许在标题/小标题里近似匹配，结果「病愿→病院」失配 ——
+      中文正文写「医疗/医院」，那个词只存在于日文译文里，而译文正文权重最低。 */
+  function nearestTerm(entry, term, lang) {
+    const md = maxDist(term);
+    if (!md) return null;
+    const fks = Object.keys(entry.f).filter(fk => typeof entry.f[fk] === 'string' && entry.f[fk])
+      .sort((a, b) => weight(b, lang) - weight(a, lang));
+    for (const fk of fks) {
+      if (weight(fk, lang) <= 0) break;
+      const hay = entry.f[fk];
+      const r = isLatin(term) ? nearestLatin(hay, term, md) : nearestIn(hay, term, md);
+      if (r) return { word: r.word, d: r.d, fk };
+    }
+    return null;
+  }
+
+  /** 全词满足才算通过。
+      opt.alias = 允许同义词组 / 单向关联表扩展；opt.fuzzy = 允许错字近似匹配。
+      三层是**递进**的：字面命中永远不会被扩展或近似挤掉。 */
+  function passes(entry, terms, opt, lang) {
+    const literal = [], alias = [], near = [];
+    const useAlias = !!(opt && opt.alias), useFuzzy = !!(opt && opt.fuzzy);
     for (const t of terms) {
       let ok = false;
       for (const fk in entry.f) { if (weight(fk, lang) > 0 && hits(entry.f[fk], t) > 0) { ok = true; break; } }
       if (ok) { literal.push(t); continue; }
-      if (!useAlias) return null;
-      const alts = ALIAS_OF.get(t);
-      let hit = null, bestScore = -1;
-      if (alts) for (const al of alts) {
-        let s = 0;
-        for (const fk in entry.f) { const wt = weight(fk, lang); if (wt > 0) s += wt * hits(entry.f[fk], al); }
-        if (s > bestScore) { bestScore = s; hit = al; }        // 取贡献最大的那个别名，别随便挑一个
+
+      if (useAlias) {
+        // ① 单向关联表优先：它指向的是「语料里真正用来写这件事的词」，比整组互等精确得多。
+        //    命中**全部**目标词都累加，不是只取最强的那一个 ——
+        //    医学篇同时含「診療 / 医療機関 / 受診」，只取一个是把已有证据丢掉，
+        //    结果被 newcomer（只有一个「診療所」）压下去。
+        const rel = REL_OF.get(t);
+        if (rel) {
+          let got = null;
+          for (const r of rel) {
+            let s = 0;
+            for (const fk in entry.f) { const wt = weight(fk, lang); if (wt > 0) s += wt * hits(entry.f[fk], r); }
+            if (s > 0) (got || (got = [])).push({ q: t, hit: r, rel: true });
+          }
+          if (got) { for (const g of got) alias.push(g); continue; }
+        }
+        // ② 同义词组
+        const alts = ALIAS_OF.get(t);
+        let hit = null, bestScore = -1;
+        if (alts) for (const al of alts) {
+          let s = 0;
+          for (const fk in entry.f) { const wt = weight(fk, lang); if (wt > 0) s += wt * hits(entry.f[fk], al); }
+          if (s > bestScore) { bestScore = s; hit = al; }      // 取贡献最大的那个别名，别随便挑一个
+        }
+        if (hit && bestScore > 0) { alias.push({ q: t, hit }); continue; }
       }
-      if (!hit || bestScore <= 0) return null;
-      alias.push({ q: t, hit });
+
+      if (!useFuzzy) return null;
+      const nf = nearestTerm(entry, t, lang);
+      if (!nf) return null;
+      near.push({ q: t, hit: nf.word, d: nf.d, fk: nf.fk });
     }
-    return { literal, alias };
+    return { literal, alias, near };
   }
 
   function score(entry, terms, m, lang) {
@@ -258,23 +456,34 @@
       }
     };
     for (const t of m.literal) addTerm(t, 1);
-    for (const a of m.alias) addTerm(a.hit, 0.6);
+    // 关联命中按 IDF 折价：稀有词（光熱費 只出现在 1 篇）几乎不打折，
+    // 宽泛词（更新 出现在 6 篇）贡献大幅缩水 —— 否则宽泛词会把结果撑到十几篇。
+    for (const a of m.alias) addTerm(a.hit, (a.rel ? 0.85 : 0.6) * idf(a.hit));
+    // 模糊命中：错得越少越接近原词（错 1 字第 2 字 → 0.5×(1−1/2)=0.25）
+    for (const f of m.near) addTerm(f.hit, 0.5 * (1 - f.d / Math.max(2, f.q.length)) * idf(f.hit));
 
-    // 强信号加成：标题 / 标签 / 小标题。字面命中 > 同义词命中。
+    // 强信号加成：标题 / 标签 / 小标题。字面命中 > 关联/模糊命中。
     const tOwn = entry.f['t_' + lang] || '';
     const tf = tOwn + ' ' + (entry.f.t_all || '');      // 含别语言标题 → 韩文查询也能吃到标题加成
+    const extHit = (s) => m.alias.some(a => hits(s, a.hit) > 0) || m.near.some(a => hits(s, a.hit) > 0);
     if (m.literal.some(t => hits(tf, t) > 0)) sc += 30;
-    else if (m.alias.some(a => hits(tf, a.hit) > 0)) sc += 18;
+    else if (extHit(tf)) sc += 18 * alBestIdf(m);
     // 标题**以**查询词开头 = 更强的定位信号（「奖学金（私費・国費）」优于「学业·奖学金」）。
     // 比的是**所有语言**的标题：中国读者搜「奨学金」时，日文标题同样是权威定位信号。
     const startsAny = t => LANGS.some(l => (entry.f['t_' + l] || '').startsWith(t));
     if (m.literal.some(startsAny)) sc += 18;
+    // 模糊命中同样吃「标题以命中词开头」的加成：搜「scholership」（漏了 a）时，
+    // 学术篇的标题里也含 "scholarships"，与奖学金篇同分打架；这条把
+    // 「标题就是这个词」的那一篇区分出来（奖学金篇 → Scholarships (…)）。
+    if (m.near.some(a => startsAny(a.hit))) sc += 18 * alBestIdf(m);
     if (m.literal.some(t => hits(entry.f.tags, t) > 0)) sc += 12;
     // 第 1 个 tag 是这篇的**主话题** —— 命中它比命中靠后的 tag 更有意义
     const firstTag = (entry.f.tags || '').split(' ')[0] || '';
     if (firstTag && m.literal.some(t => firstTag.includes(t))) sc += 12;
-    else if (m.alias.some(a => hits(entry.f.tags, a.hit) > 0)) sc += 7;
+    else if (extHit(entry.f.tags)) sc += 7 * alBestIdf(m);
     if (m.literal.some(t => hits(entry.f.head, t) > 0)) sc += 6;
+    // 小标题命中同样算主题级信号 —— 「只是正文顺带提过」和「有一节专门讲」差别很大
+    else if (extHit(entry.f.head)) sc += 6 * alBestIdf(m);
 
     // 整句（去空格）命中：搜「银行开户」时压过只命中单字的
     const phrase = terms.join('');
@@ -287,10 +496,18 @@
     return sc;
   }
 
-  function run(terms, lang, useAlias) {
+  /** 该文章命中的扩展词（关联/模糊）里最强的那个 IDF —— 加成分也要按稀有度打折 */
+  function alBestIdf(m) {
+    let best = 0;
+    for (const a of m.alias) { const v = idf(a.hit); if (v > best) best = v; }
+    for (const a of m.near) { const v = idf(a.hit); if (v > best) best = v; }
+    return best || 1;
+  }
+
+  function run(terms, lang, opt) {
     const out = [];
     for (const e of IDX) {
-      const m = passes(e, terms, useAlias, lang);
+      const m = passes(e, terms, opt, lang);
       if (!m) continue;
       out.push({ id: e.id, score: score(e, terms, m, lang), why: m });
     }
@@ -298,13 +515,16 @@
     return out;
   }
 
-  /** 命中上下文：优先当前语言 → 中文原文；都没有就回退首段（保证每张卡片都有内容） */
+  /** 命中上下文：当前语言 → 任何语言（含查询词）→ 当前语言首段 → 中文首段。
+      原来是「当前语言 → 中文」，外语读者用中文词搜（或查不到）时会看到中文段落，
+      而且是**任意一条**中文摘要（不是最相关的）—— 实测日文界面搜「在留卡」即触发。 */
   function pickSnip(entry, why, lang) {
-    const terms = [...why.literal, ...why.alias.map(a => a.hit)];
+    const terms = [...why.literal, ...why.alias.map(a => a.hit), ...((why.near || []).map(a => a.hit))];
     const snips = entry.f._snips || [];
-    for (const L of [lang, 'zh']) {
-      for (const t of terms) for (const s of snips) if (s.lang === L && s.n.includes(t)) return s.t;
-    }
+    for (const t of terms) for (const s of snips) if (s.lang === lang && s.n.includes(t)) return s.t;
+    for (const t of terms) for (const s of snips) if (s.n.includes(t)) return s.t;
+    const own = snips.find(s => s.lang === lang);
+    if (own) return own.t;
     const zhFirst = snips.find(s => s.lang === 'zh');
     return zhFirst ? zhFirst.t : '';
   }
@@ -316,11 +536,13 @@
     const terms = norm(q).split(' ').filter(Boolean);
     if (!terms.length) return [];
     let via = 'literal';
-    let r = run(terms, lang, false);
-    if (!r.length) { r = run(terms, lang, true); via = 'alias'; }
+    let r = run(terms, lang, { alias: false, fuzzy: false });
+    if (!r.length) { r = run(terms, lang, { alias: true, fuzzy: false }); via = 'alias'; }
+    // 三层都不中才允许错字近似 —— 顺序很重要：能字面命中的查询不该被近似结果污染
+    if (!r.length) { r = run(terms, lang, { alias: true, fuzzy: true }); via = 'fuzzy'; }
     if (!r.length && terms.length > 1) {                       // OR 兜底（多词里只要有一个命中）
       const acc = new Map();
-      for (const t of terms) for (const x of run([t], lang, true)) {
+      for (const t of terms) for (const x of run([t], lang, { alias: true, fuzzy: true })) {
         const p = acc.get(x.id);
         if (p) p.score += x.score * 0.8; else acc.set(x.id, { id: x.id, score: x.score * 0.8, why: x.why });
       }
@@ -330,10 +552,15 @@
     // 严格命中太少时用同义词补召回（排位靠后，不挤掉字面命中）
     if (via === 'literal' && r.length < 4) {
       const have = new Set(r.map(x => x.id));
-      for (const x of run(terms, lang, true)) if (!have.has(x.id)) { x.score *= 0.55; r.push(x); }
+      for (const x of run(terms, lang, { alias: true, fuzzy: false })) if (!have.has(x.id)) { x.score *= 0.55; r.push(x); }
       r.sort((a, b) => b.score - a.score);
     }
     const byId = new Map(IDX.map(e => [e.id, e]));
+    // 这里原本还有一道「相对阈值」，用来砍宽泛词撑出来的长尾。现在不要了 ——
+    // IDF 已经把宽泛词的贡献压下去，过载条数从 15 降到 6（比改动前的基线 8 还低）；
+    // 留着它反而会砍掉真实命中：只在日文译文里近似命中「病院」的医学篇
+    // 得分仅 0.25，被 15% 阈值无声丢掉了，而它正是正确答案。
+    // **宁可列表长一点，也不要静默丢结果。**
     return r.slice(0, limit).map(x => ({
       id: x.id,
       score: Math.round(x.score * 10) / 10,
