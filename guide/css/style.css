@@ -190,7 +190,7 @@ body.modal-open{overflow:hidden}
 
 /* ── tabbar ── */
 .tabbar{position:fixed;left:50%;transform:translateX(-50%);bottom:0;width:100%;max-width:960px;background:rgba(255,255,255,.98);backdrop-filter:saturate(180%) blur(12px);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(5,1fr);gap:0;z-index:15}
-.tab{border:none;background:transparent;padding:10px 0;font-size:12px;color:#777;cursor:pointer;transition:color .12s}
+.tab{border:none;background:transparent;padding:12px 0;min-height:48px;font-size:12px;color:#777;cursor:pointer;transition:color .12s}
 .tab.on{color:var(--brand);font-weight:800}
 
 /* ═══════════════════════════════════════
@@ -543,7 +543,7 @@ mark{background:rgba(123,45,62,.10);color:inherit;border-radius:3px;padding:0 2p
 .nz-item{display:flex;align-items:center;gap:8px;padding:9px 0;border-top:1px solid var(--line);
   color:inherit;text-decoration:none;font-size:14px;line-height:1.45}
 .nz-item:first-child{border-top:none}
-.nz-dot{width:6px;height:6px;border-radius:50%;background:#d9b9c1;flex:0 0 6px;margin-top:1px}
+.nz-dot{width:6px;height:6px;border-radius:50%;background:#b8808f;flex:0 0 6px;margin-top:1px}
 .nz-text{flex:1;min-width:0}
 .nz-go{color:var(--muted2);font-size:15px;flex:0 0 auto}
 .nz-item:active .nz-text{color:var(--brand)}
