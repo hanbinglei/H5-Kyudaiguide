@@ -15,6 +15,7 @@ LIM = {
     "opening_chars": 130,     # 开篇「30 秒结论」段
     "table_rows": 15,
     "table_cols": 4,
+    "narrow_cell": 10,   # 窄表（单元格全为短值）豁免列数限制
     "cell_chars": 14,          # 描述性单元格；第 1 列（专有名词）放宽到 18
     "bold_per_block": 2,
     "list_item_chars": 40,
@@ -57,7 +58,12 @@ def audit(path):
         r, c = len(b.get("rows") or []), len(b["headers"])
         if r > LIM["table_rows"]:
             v.append(("🔴", f"表 {b['id']}: {r} 行 > {LIM['table_rows']}（信息墙，应折叠或改为链接）"))
-        if c > LIM["table_cols"]:
+        # 窄表豁免：拥挤取决于「单元格宽度 × 列数」。全是 ≤10 字短值的时刻表，
+        # 5 列在手机上仍排得开；为凑列数去拆时刻表只会丢数据或错行。
+        narrow = all(chars(cell) <= LIM["narrow_cell"]
+                     for row in (b.get("rows") or [])
+                     for ci, cell in enumerate(row) if ci > 0)
+        if c > LIM["table_cols"] and not narrow:
             v.append(("🟡", f"表 {b['id']}: {c} 列 > {LIM['table_cols']}（手机上会挤成一团）"))
         over = []
         for ri, row in enumerate(b.get("rows") or []):

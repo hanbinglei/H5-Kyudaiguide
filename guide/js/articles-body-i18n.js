@@ -2341,6 +2341,12 @@ window.ARTICLES_BODY_I18N = {
    },
    "7dc6be": {
     "text": "本記事の一部は《新伊都国風土記》（著者 Hato_Tsubame、CantonSimon）より、著者の許諾を得て収録しています。文中の価格、運行本数、手続きの流れは時間とともに変わります。重要な事項は各公式サイトでご確認ください。"
+   },
+   "ab8535": {
+    "text": "乗車方向の確認"
+   },
+   "33eac7": {
+    "text": "直通運転と運賃"
    }
   },
   "en": {
@@ -2729,6 +2735,12 @@ window.ARTICLES_BODY_I18N = {
    },
    "7dc6be": {
     "text": "Parts of this guide are adapted from “New Ito Chronicle” (by Hato_Tsubame and CantonSimon) and included with the authors’ permission. Prices, service frequencies, and procedures change over time; for anything important, please check the relevant official website."
+   },
+   "ab8535": {
+    "text": "Which train to board"
+   },
+   "33eac7": {
+    "text": "Through service and fares"
    }
   },
   "ko": {
@@ -3117,6 +3129,12 @@ window.ARTICLES_BODY_I18N = {
    },
    "7dc6be": {
     "text": "이 글의 일부는 《신 이토 풍토기》(저자 Hato_Tsubame, CantonSimon)에서 저자의 허락을 받아 수록했습니다. 본문의 가격, 운행 편수, 절차는 시간이 지나면 바뀝니다. 중요한 사항은 각 공식 사이트를 확인하세요."
+   },
+   "ab8535": {
+    "text": "승차 방향 확인"
+   },
+   "33eac7": {
+    "text": "직통 운행과 운임"
    }
   }
  },
@@ -3124,16 +3142,34 @@ window.ARTICLES_BODY_I18N = {
   "ja": {
    "67f6a8": {
     "text": "学内寮と民間賃貸は別ルートです。**まず寮を検討してください** —— 安く、手続きが簡単で、保証人も不要。このページでは選び方、初期費用、契約で確認すべき点を扱います。"
+   },
+   "c8bea3": {
+    "text": "居室と設備"
+   },
+   "6c71d4": {
+    "text": "交通と立地"
    }
   },
   "en": {
    "67f6a8": {
     "text": "Dormitories and private rentals are two different routes - **check the dorms first**: cheaper, simpler paperwork, no guarantor. This page covers how to choose, upfront costs, and what to check in the contract."
+   },
+   "c8bea3": {
+    "text": "Rooms and facilities"
+   },
+   "6c71d4": {
+    "text": "Access and location"
    }
   },
   "ko": {
    "67f6a8": {
     "text": "교내 기숙사와 민간 임대는 다른 경로입니다. **먼저 기숙사를 보세요** —— 저렴하고 절차가 간단하며 보증인도 불필요. 이 페이지는 선택 방법, 초기 비용, 계약서에서 확인할 점을 다룹니다."
+   },
+   "c8bea3": {
+    "text": "주거 형태와 설비"
+   },
+   "6c71d4": {
+    "text": "교통과 입지"
    }
   }
  },
@@ -3209,16 +3245,34 @@ window.ARTICLES_BODY_I18N = {
   "ja": {
    "8988f9": {
     "text": "住居登録がすべての起点です —— **これがないと口座も携帯も作れません**。まず「区役所 vs 入管局」を切り分け、住居登録・在留更新・マイナンバー・健康保険と進みます。"
+   },
+   "6114a5": {
+    "text": "越境に使う証明書類とリスク"
+   },
+   "26200b": {
+    "text": "離境税の払い戻し"
    }
   },
   "en": {
    "8988f9": {
     "text": "Registering your address unlocks everything else - **without it you cannot open a bank account or get a phone**. This page first separates ward office from immigration, then walks through address registration, visa renewal, My Number and health insurance."
+   },
+   "6114a5": {
+    "text": "Cross-border documents and risks"
+   },
+   "26200b": {
+    "text": "Departure tax refund"
    }
   },
   "ko": {
    "8988f9": {
     "text": "주소 등록이 모든 수속의 시작입니다 —— **없으면 계좌도 휴대폰도 만들 수 없습니다**. 먼저 「구청 vs 출입국」을 구분하고, 주소 등록·재류 갱신·마이넘버·건강보험 순으로 진행합니다."
+   },
+   "6114a5": {
+    "text": "통과 증명서와 리스크"
+   },
+   "26200b": {
+    "text": "출국세 환급"
    }
   }
  },
@@ -3243,16 +3297,61 @@ window.ARTICLES_BODY_I18N = {
   "ja": {
    "d182c2": {
     "text": "寮から大学へ、天神・博多へ、自転車、免許 —— **まず毎日の経路を決めてから**切符を選んでください。運賃・定期券・割引きっぷ・節約案を並べて比較しています。"
+   },
+   "695d78": {
+    "text": "その他のきっぷと割引"
+   },
+   "00a067": {
+    "text": "2 つの案の内訳"
+   },
+   "032cc4": {
+    "text": "結論と操作のヒント"
+   },
+   "5803fa": {
+    "text": "関連リンク"
+   },
+   "0e3977": {
+    "text": "西鉄バスの割引"
    }
   },
   "en": {
    "d182c2": {
     "text": "Dorm to campus, trips to Tenjin and Hakata, bicycles, driving licences - **work out your daily route first**, then decide which ticket to buy. Fares, commuter passes, discount tickets and money-saving options compared side by side."
+   },
+   "695d78": {
+    "text": "Other tickets and discounts"
+   },
+   "00a067": {
+    "text": "Details of the two plans"
+   },
+   "032cc4": {
+    "text": "Conclusion and practical tips"
+   },
+   "5803fa": {
+    "text": "Related links"
+   },
+   "0e3977": {
+    "text": "Nishitetsu bus discounts"
    }
   },
   "ko": {
    "d182c2": {
     "text": "기숙사에서 학교까지, 덴진·하카타, 자전거, 면허 —— **먼저 매일 다닐 경로를 정하고** 표를 고르세요. 운임·정기권·할인권·절약안을 나란히 비교했습니다."
+   },
+   "695d78": {
+    "text": "기타 승차권과 할인"
+   },
+   "00a067": {
+    "text": "두 방안의 세부"
+   },
+   "032cc4": {
+    "text": "결론과 조작 안내"
+   },
+   "5803fa": {
+    "text": "관련 링크"
+   },
+   "0e3977": {
+    "text": "니시테츠 버스 할인"
    }
   }
  },

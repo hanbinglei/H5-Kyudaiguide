@@ -1,0 +1,44 @@
+{
+ "ja": {
+  "695d78": {
+   "text": "その他のきっぷと割引"
+  },
+  "00a067": {
+   "text": "2 つの案の内訳"
+  },
+  "032cc4": {
+   "text": "結論と操作のヒント"
+  },
+  "5803fa": {
+   "text": "関連リンク"
+  }
+ },
+ "en": {
+  "695d78": {
+   "text": "Other tickets and discounts"
+  },
+  "00a067": {
+   "text": "Details of the two plans"
+  },
+  "032cc4": {
+   "text": "Conclusion and practical tips"
+  },
+  "5803fa": {
+   "text": "Related links"
+  }
+ },
+ "ko": {
+  "695d78": {
+   "text": "기타 승차권과 할인"
+  },
+  "00a067": {
+   "text": "두 방안의 세부"
+  },
+  "032cc4": {
+   "text": "결론과 조작 안내"
+  },
+  "5803fa": {
+   "text": "관련 링크"
+  }
+ }
+}
