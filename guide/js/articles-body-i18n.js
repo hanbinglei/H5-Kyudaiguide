@@ -3219,17 +3219,176 @@ window.ARTICLES_BODY_I18N = {
  "guide-parttime": {
   "ja": {
    "1947e3": {
-    "text": "アルバイトには 2 つの手続きが必要です：**資格外活動許可**（未取得では働けません）と税・年金。労働時間の上限、探し方、賃金未払いへの対応を扱います。"
+    "text": "アルバイト前には 2 つの手続きが必要です：**資格外活動許可**（未取得では就労できません）と税・年金。本ページでは労働時間の上限、探し方、賃金未払いへの対応を説明します。"
+   },
+   "5e12c4": {
+    "text": "資格外活動許可と労働時間の上限"
+   },
+   "f0b619": {
+    "text": "留学ビザで日本でアルバイトをするには、**まず「資格外活動許可」を取得する必要があります**。この許可は入国時に空港で申請でき、入国後に地方出入国在留管理局で手続きすることもできます。許可なしの就労は違法であり、ビザに影響するおそれがあります。詳しくは【在留手続き】をご参照ください。"
+   },
+   "9071cc": {
+    "text": "学期中は週 28 時間が上限です。長期休暇中（春休み・夏休み・冬休み）は 1 日 8 時間、週 40 時間が上限です。上限を超えた就労が違法と判断されると、在留期間の更新に影響します。厳守してください。"
+   },
+   "105e04": {
+    "text": "時給の相場と求人の探し方"
+   },
+   "77b055": {
+    "text": "福岡県の最低賃金は **1,057 円/時間** です（2025 年 11 月 16 日施行）。留学生の時給はおおむね 1,057〜1,200 円程度で、コンビニ・飲食は低め、家庭教師・翻訳は高めです。実際の条件は雇用主によります。"
+   },
+   "493aef": {
+    "text": "主な経路：大学生協や国際部の掲示板、タウンワーク（Townwork）・バイトル（Baitoru）などの求人サイト、先輩や研究室からの紹介があります。入国前に急いで探す必要はなく、在留カードと銀行口座を用意してからでも間に合います。"
+   },
+   "1ae89a": {
+    "text": "注意事項と公式窓口"
+   },
+   "b2625a": {
+    "items": [
+     {
+      "text": "まず資格外活動許可を取得してからアルバイトを始めてください。"
+     },
+     {
+      "text": "週 28 時間の上限を厳守し、シフトを自己管理して超過を避けてください。"
+     },
+     {
+      "text": "アルバイト収入は規定に従って申告し、奨学金の申請や税務との衝突を避けてください。"
+     },
+     {
+      "text": "保証金の支払いや身分証の預け入れを求める仲介は異常な兆候です。注意してください。"
+     }
+    ]
+   },
+   "c5ccc9": {
+    "items": [
+     {
+      "text": "出入国在留管理庁・資格外活動許可",
+      "url": "https://www.isa.go.jp/"
+     },
+     {
+      "text": "タウンワーク（Townwork）",
+      "url": "https://townwork.net/"
+     },
+     {
+      "text": "バイトル（Baitoru）",
+      "url": "https://baitoru.com/"
+     }
+    ]
    }
   },
   "en": {
    "1947e3": {
-    "text": "Two procedures come before part-time work: the **permission to engage in activity other than that permitted** (required to work) and tax/pension. This page covers hour limits, how to find work, and unpaid wages."
+    "text": "Two procedures are required before part-time work: the **permission to engage in activity other than that permitted** (no work is allowed without it) and tax/pension. This page covers hour limits, how to find work, and how to respond to unpaid wages."
+   },
+   "5e12c4": {
+    "text": "Work permit and weekly hour limits"
+   },
+   "f0b619": {
+    "text": "To work part-time in Japan on a student visa, the **permission to engage in activity other than that permitted must be obtained first**. It can be applied for at the airport on arrival, or later at the regional immigration bureau. Working without it is illegal and may affect visa status. See [Residence procedures]."
+   },
+   "9071cc": {
+    "text": "During term time the limit is 28 hours per week. During long vacations (spring, summer and winter) the limit is 8 hours per day and 40 hours per week. Exceeding these limits may be treated as illegal employment and can affect visa renewal, so strict compliance is required."
+   },
+   "105e04": {
+    "text": "Wage rates and where to find work"
+   },
+   "77b055": {
+    "text": "The minimum wage in Fukuoka Prefecture is **1,057 yen/hour** (effective 16 November 2025). International students typically earn around 1,057-1,200 yen/hour: convenience stores and restaurants at the lower end, tutoring and translation at the higher end. Actual conditions depend on the employer."
+   },
+   "493aef": {
+    "text": "Main channels: notice boards at the university co-op or the international office, job sites such as Townwork and Baitoru, and referrals from senior students or a laboratory. There is no need to search before arrival - after obtaining a residence card and bank account is soon enough."
+   },
+   "1ae89a": {
+    "text": "Precautions and official contacts"
+   },
+   "b2625a": {
+    "items": [
+     {
+      "text": "Obtain the work permission before starting."
+     },
+     {
+      "text": "Observe the 28-hour weekly limit strictly and keep personal shift records to avoid exceeding it."
+     },
+     {
+      "text": "Declare part-time income as required to avoid conflicts with scholarship applications or tax."
+     },
+     {
+      "text": "Agencies that demand deposits or retain identification documents are an abnormal signal - take care."
+     }
+    ]
+   },
+   "c5ccc9": {
+    "items": [
+     {
+      "text": "Immigration Services Agency of Japan - work permission",
+      "url": "https://www.isa.go.jp/"
+     },
+     {
+      "text": "タウンワーク（Townwork）",
+      "url": "https://townwork.net/"
+     },
+     {
+      "text": "バイトル（Baitoru）",
+      "url": "https://baitoru.com/"
+     }
+    ]
    }
   },
   "ko": {
    "1947e3": {
-    "text": "아르바이트 전에 두 가지 수속이 필요합니다: **자격외활동 허가**(없으면 근무 불가)와 세금·연금. 근무 시간 상한, 구하는 방법, 임금 체불 대응을 다룹니다."
+    "text": "아르바이트 전에 두 가지 수속이 필요합니다: **자격외활동 허가**(미취득 시 근무 불가)와 세금·연금. 이 페이지에서는 근무 시간 상한, 구하는 방법, 임금 체불 대응을 설명합니다."
+   },
+   "5e12c4": {
+    "text": "자격외활동 허가와 근무 시간 상한"
+   },
+   "f0b619": {
+    "text": "유학 비자로 일본에서 아르바이트를 하려면 **먼저 「자격외활동 허가」를 취득해야 합니다**. 이 허가는 입국 시 공항에서 신청할 수 있고, 입국 후 지방 출입국재류관리국에서도 수속할 수 있습니다. 허가 없이 근무하면 위법이며 비자에 영향을 줄 수 있습니다. 자세한 내용은 【재류 수속】을 참조하세요."
+   },
+   "9071cc": {
+    "text": "학기 중에는 주 28시간이 상한입니다. 장기 방학 중(봄·여름·겨울방학)에는 1일 8시간, 주 40시간이 상한입니다. 상한을 초과한 근무가 위법으로 판단되면 재류 기간 갱신에 영향을 미칩니다. 반드시 준수하세요."
+   },
+   "105e04": {
+    "text": "시급 시세와 구직 경로"
+   },
+   "77b055": {
+    "text": "후쿠오카현 최저임금은 **1,057엔/시간**입니다(2025년 11월 16일 시행). 유학생 시급은 대체로 1,057~1,200엔 수준이며, 편의점·음식점은 낮은 편, 과외·번역은 높은 편입니다. 실제 조건은 고용주에 따릅니다."
+   },
+   "493aef": {
+    "text": "주요 경로: 학교 생협 또는 국제부 게시판, 타운워크(Townwork)·바이토루(Baitoru) 등 구인 사이트, 선배나 연구실 소개 등이 있습니다. 입국 전에 서둘러 구할 필요는 없으며, 재류카드와 은행 계좌를 준비한 뒤에도 충분합니다."
+   },
+   "1ae89a": {
+    "text": "주의사항과 공식 창구"
+   },
+   "b2625a": {
+    "items": [
+     {
+      "text": "자격외활동 허가를 먼저 취득한 후 아르바이트를 시작하세요."
+     },
+     {
+      "text": "주 28시간 상한을 엄수하고 근무표를 직접 관리해 초과를 피하세요."
+     },
+     {
+      "text": "아르바이트 소득은 규정에 따라 신고하여 장학금 신청이나 세무와의 충돌을 피하세요."
+     },
+     {
+      "text": "보증금을 요구하거나 신분증을 보관하는 중개는 이상 신호입니다. 주의하세요."
+     }
+    ]
+   },
+   "c5ccc9": {
+    "items": [
+     {
+      "text": "출입국재류관리청·자격외활동 허가",
+      "url": "https://www.isa.go.jp/"
+     },
+     {
+      "text": "タウンワーク（Townwork）",
+      "url": "https://townwork.net/"
+     },
+     {
+      "text": "バイトル（Baitoru）",
+      "url": "https://baitoru.com/"
+     }
+    ]
    }
   }
  },
