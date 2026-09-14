@@ -27,3 +27,5 @@ _v2_*.png
 # 内部开发记录 / 方案文档（含协作过程，不公开）
 CHANGELOG.md
 docs/
+tools/.scholarship_i18n.json
+tools/.scholarship_nav_i18n.json
