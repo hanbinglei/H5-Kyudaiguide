@@ -537,18 +537,24 @@ function initToTop(){
       if(bar)bar.hidden=true;
       return;
     }
-    // 取滚动最多的那个容器（手机 .sheet-card / 桌面 #pane-article）
-    let sc=null,best=0;
-    for(const s of scs){const t=s.scrollTop||0;if(t>best){best=t;sc=s}}
-    if(!sc)sc=scs[0];
-    btn.hidden=best<500;
+    // 选「真正在滚的容器」。判据用**可滚动高度**而不是 scrollTop ——
+    // 用 scrollTop 时，未滚动（全为 0）会回退到列表第一个（手机上是
+    // #pane-article，max 只有几十 px），于是进度条在「刚打开还没滚」时
+    // 会莫名其妙地隐藏，滚一下又出现。
+    let sc=null,bestY=0,bestMax=-1;
+    for(const s of scs){
+      const m=Math.max(0,(s.scrollHeight||0)-(s.clientHeight||0));
+      if(m>bestMax){bestMax=m;sc=s}
+      const y=s.scrollTop||0;
+      if(y>bestY)bestY=y;
+    }
+    btn.hidden=bestY<500;
     if(bar){
-      const max=sc?Math.max(0,(sc.scrollHeight||0)-(sc.clientHeight||0)):0;
       // 短于约一屏的文章不显示进度条 —— 那点进度没有信息量
-      if(max>80){
+      if(bestMax>80){
         bar.hidden=false;
         const i=bar.firstElementChild;
-        if(i)i.style.width=Math.min(100,(best/max)*100).toFixed(1)+'%';
+        if(i)i.style.width=Math.min(100,(bestY/bestMax)*100).toFixed(1)+'%';
       }else bar.hidden=true;
     }
   };
