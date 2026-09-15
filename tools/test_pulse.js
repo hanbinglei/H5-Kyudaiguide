@@ -177,6 +177,37 @@ const settle = () => new Promise((r) => setTimeout(r, 30));
     ok(/25/.test(tt[2] || ''), lang + ' 天气温度保留数字', tt[2]);
   }
 
+  console.log('\n=== ⑥b 启动后切换语言：文案必须跟着变（不能只在启动时正确） ===');
+  {
+    // 实测踩过的 bug：天气与活动的文案在 loadWeather()/loadEvent() 里就被渲染成字符串
+    // 存进 state 了，切语言时 paint() 只是把旧字符串重新贴一遍 ——
+    // 状态条整条保持上一个语言，而页面其余部分都换了。
+    // 原测试是「换语言再启动」，路径不同，测不出来。
+    nodes.pulse.children.length = 0;
+    const { ctx: c6 } = boot({ today: { visit: 31, visitor: 12 }, total: { visit: 900, visitor: 486 }, wxData: WX_RAIN, store: {} });
+    await settle();
+    const before = texts().slice(0, 4);
+    const shots = { zh: before };
+    for (const L of ['ja', 'en', 'ko']) {
+      c6.GuideI18N.setLang(L);
+      c6.Pulse.render();                       // app.js 的 applyI18N() 就是这么调的
+      await settle();
+      shots[L] = texts().slice(0, 4);
+    }
+    const stale = [];
+    for (const L of ['ja', 'en', 'ko']) {
+      // 每条标签都不该与中文版完全相同（温度等数字相同是允许的，但整串不该一样）
+      ['👋', '📅', '☔', '📖'].forEach((ic, i) => {
+        const a = (shots.zh[i] || '').replace(ic, '').trim();
+        const b = (shots[L][i] || '').replace(ic, '').trim();
+        if (a && a === b && /[\u4e00-\u9fa5]/.test(b)) stale.push(L + '#' + i + '=' + b);
+      });
+    }
+    ok(stale.length === 0, '切换语言后四条标签都跟着变', stale.join(' | '));
+    console.log('      en: ' + JSON.stringify(shots.en));
+    console.log('      ko: ' + JSON.stringify(shots.ko));
+  }
+
   console.log('\n=== ⑦ 打卡：打开文章后计数增加（走 hash） ===');
   nodes.pulse.children.length = 0;
   const { sb: sb7, ctx: c7 } = boot({ today: { visit: 1, visitor: 1 }, total: { visit: 1, visitor: 1 }, wxData: WX_OK, store: {} });

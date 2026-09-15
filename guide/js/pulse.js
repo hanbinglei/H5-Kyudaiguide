@@ -82,10 +82,10 @@
       out.push(chipEl('👋', fill('pulseVisitors', { today: num(st.visitors.today), total: num(st.visitors.total) })));
     }
     if (st.event) {
-      out.push(chipEl('📅', st.event));
+      out.push(chipEl('📅', eventText()));
     }
     if (st.wx) {
-      out.push(chipEl(st.wx.icon, st.wx.text, st.wx.warn));
+      out.push(chipEl(wxIcon(), wxText(), st.wx.warn));
     }
     if (st.read && st.read.total) {
       out.push(chipEl('📖', fill('pulseRead', { n: st.read.n, total: st.read.total })));
@@ -136,12 +136,22 @@
   function loadEvent() {
     const it = pickEvent();
     if (!it) return;
-    const full = (I18N.cunliName && I18N.cunliName(it.title)) || it.title || '';
+    // 只存**原始数据**（日文原名 + 日期），文案留到 paint() 里现算。
+    // 存成渲染好的字符串的话，切换语言时那几条不会跟着变 —— 实测踩过：
+    // 切到日/英/韩后，出处小节标题变了，状态条却仍是中文。
+    st.event = { title: it.title, date: it.date };
+    paint();
+  }
+
+  /** 活动标签的文案，按当前语言现算 */
+  function eventText() {
+    const e = st.event;
+    if (!e) return '';
+    const full = (I18N.cunliName && I18N.cunliName(e.title)) || e.title || '';
     // 括号里的补充说明在标签上太长（「新入留学生サポート（空港シャトルバス）」），去掉
     const short = String(full).replace(/[（(][^）)]*[）)]/g, '').trim() || String(full);
-    const n = CU.diffDays ? CU.diffDays(todayJST(), it.date) : 0;
-    st.event = n <= 0 ? fill('pulseEventToday', { name: short }) : fill('pulseEvent', { name: short, n });
-    paint();
+    const n = CU.diffDays ? CU.diffDays(todayJST(), e.date) : 0;
+    return n <= 0 ? fill('pulseEventToday', { name: short }) : fill('pulseEvent', { name: short, n });
   }
 
   /* ─────────────── ③ 福冈天气 ─────────────── */
@@ -153,17 +163,23 @@
       const wxk = WX_WORD[Number(j.current.weather_code)];
       const ppArr = (j.daily && j.daily.precipitation_probability_max) || [];
       const pp = Number(ppArr[0]);
-      const warn = isFinite(pp) && pp >= 50;
-      // 要下雨时**整条换成降雨文案**，不要在当前天况后面追加提示：
-      // 当前天况与今日降雨概率讲的不是同一件事（实测出现过「☔ 大致晴 带伞 84%」——
-      // 图标、文案、提示三者互相打架）。外出只看一件事：会不会下。
-      const text = warn
-        ? fill('pulseWxRain', { temp, p: pp })
-        : fill('pulseWx', { temp, wx: wxk ? t(wxk) : '' }).trim();
-      st.wx = { text, warn, icon: warn ? '☔' : '🌤' };
+      const hasPp = isFinite(pp);
+      st.wx = { temp, wxKey: wxk || null, pp: hasPp ? pp : null, warn: hasPp && pp >= 50 };
       paint();
     });
   }
+
+  /** 天气标签的文案，按当前语言现算 */
+  function wxText() {
+    const w = st.wx;
+    if (!w) return '';
+    // 要下雨时**整条换成降雨文案**，不在当前天况后面追加提示：
+    // 两者讲的不是同一件事（实测出现过「☔ 大致晴 带伞 84%」——图标与文案互相打架）。
+    // 外出只需要一个答案：会不会下。
+    if (w.warn) return fill('pulseWxRain', { temp: w.temp, p: w.pp });
+    return fill('pulseWx', { temp: w.temp, wx: w.wxKey ? t(w.wxKey) : '' }).trim();
+  }
+  function wxIcon() { return st.wx && st.wx.warn ? '☔' : '🌤'; }
 
   /* ─────────────── ④ 阅读打卡 ─────────────── */
   function readList() {
