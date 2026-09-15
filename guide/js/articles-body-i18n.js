@@ -101,7 +101,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "指導教員が定年退職に近い場合"
    },
    "406f13": {
-    "text": "博士課程に進む予定で、教授の退職により修了が延びたり指導教員が変わったりすることが心配なら、事前にそれとなく状況を確認しておくとよいでしょう。通常、退職が近い教授は学生のその後の指導を手配してくれます。いちばん確実なのは、教授と直接会って懸念を伝えることです。"
+    "text": "博士課程に進む予定で、教授の退職により修了が延びたり指導教員が変わったりすることが心配なら、事前にそれとなく状況を確認しておくとよいでしょう。その後の指導に影響するかどうかは、教授と直接会って確認するのがいちばん確実です。"
    },
    "3668c3": {
     "text": "研究生（リサーチスチューデント）"
@@ -555,7 +555,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "If your supervisor is nearing retirement"
    },
    "406f13": {
-    "text": "If you plan to pursue a doctorate and worry that a supervisor’s retirement might delay your graduation or force a change of supervisor, it is worth quietly finding out where things stand beforehand. Professors close to retirement usually arrange onward supervision for their students. The most direct approach is to raise your concerns with the professor face to face."
+    "text": "If you plan to pursue a doctorate and worry that a supervisor’s retirement might delay your graduation or force a change of supervisor, it is worth quietly finding out where things stand beforehand. Whether it affects your supervision arrangements is best confirmed by talking to the professor in person."
    },
    "3668c3": {
     "text": "Research students"
@@ -1009,7 +1009,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "지도교수가 정년에 가까울 때"
    },
    "406f13": {
-    "text": "박사과정을 생각하고 있고 교수의 퇴직으로 졸업이 늦어지거나 지도교수가 바뀔까 걱정된다면, 미리 상황을 넌지시 알아보는 것이 좋습니다. 보통 퇴직이 가까운 교수는 학생의 이후 지도를 마련해 둡니다. 가장 확실한 방법은 교수와 직접 만나 우려를 이야기하는 것입니다."
+    "text": "박사과정을 생각하고 있고 교수의 퇴직으로 졸업이 늦어지거나 지도교수가 바뀔까 걱정된다면, 미리 상황을 넌지시 알아보는 것이 좋습니다. 이후 지도에 영향이 있는지는 교수와 직접 만나 확인하는 것이 가장 확실합니다."
    },
    "3668c3": {
     "text": "연구생(리서치 스튜던트)"
@@ -1387,7 +1387,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "一、よくある詐欺の類型"
    },
    "011c4f": {
-    "text": "1. 大使館・領事館／公安・検察・裁判所を名乗る詐欺（最も多発）"
+    "text": "1. 大使館・領事館／公安・検察・裁判所を名乗る詐欺"
    },
    "049994": {
     "text": "手口：電話で「中国大使館／領事館」を名乗り、「重要書類の未受取」「旅券の異常」「事件の調査」などと言う。転送された「国内の公安局／検察院」からは「資金洗浄（マネーロンダリング）の容疑」をかけられ、Signal／Webex／Skype などの暗号化アプリのダウンロードと「遠隔ビデオ取調べ」を要求される。偽造した警察手帳や公文書を見せて「保釈金」「取保候審の保証金」を要求し、「応じなければ国外退去・送還する」と脅す。"
@@ -1583,7 +1583,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "I. Common Types of Fraud"
    },
    "011c4f": {
-    "text": "1. Impersonating Embassies/Consulates or Police and Judicial Authorities (most frequent)"
+    "text": "1. Impersonating Embassies/Consulates or Police and Judicial Authorities "
    },
    "049994": {
     "text": "Modus operandi: callers claim to be from the Chinese Embassy/Consulate, stating that important documents remain uncollected, that the passport is abnormal, or that an investigation is underway; the call is transferred to a \"domestic Public Security Bureau/Procuratorate\" claiming the victim is suspected of money laundering; victims are told to download encrypted apps such as Signal/Webex/Skype for a \"remote video interrogation\"; forged police IDs and official documents are displayed; victims are asked to pay \"bail\" or \"release-pending guarantee deposits,\" with threats of \"deportation/extradition if the victim does not cooperate.\""
@@ -1779,7 +1779,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "1. 주요 사기 유형"
    },
    "011c4f": {
-    "text": "1. 대사관·영사관/공안·검찰·법원 사칭 (가장 빈번)"
+    "text": "1. 대사관·영사관/공안·검찰·법원 사칭 "
    },
    "049994": {
     "text": "수법: 전화로 \"중국 대사관/영사관\"을 사칭하며 중요한 서류를 찾아가지 않았다, 여권에 이상이 있다, 사건 조사에 연루되었다고 말하고, \"중국 내 공안/검찰\"로 연결해 돈세탁 혐의가 있다고 주장합니다. Signal/Webex/Skype 등 암호화 앱 설치를 요구하며 \"원격 화상 심문\"을 진행하고, 위조된 경찰 신분증과 공문을 보여 줍니다. \"보석금\", \"보석 보증금\"을 납부하라고 요구하며 \"협조하지 않으면 추방/인도된다\"고 협박합니다."
@@ -4231,7 +4231,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "SETTLE International：他の寮との違い"
    },
    "6eed67": {
-    "text": "SETTLE は実際には一般向けに運営されている商業アパートで、住民の約半数は日本人学生のため、価格は最も高く、条件も最も良いです。運営形態が異なるため、他の寮や伊都協奏館での経験は通常そのまま当てはまりません。また、糸島市に位置するため、各種手続きの流れも福岡市西区に住む人とは異なります。"
+    "text": "SETTLE は実際には一般向けに運営されている商業アパートで、住民の約半数は日本人学生のため、家賃は三つの寮の中で最も高いです。運営形態が異なるため、他の寮や伊都協奏館での経験は通常そのまま当てはまりません。また、糸島市に位置するため、各種手続きの流れも福岡市西区に住む人とは異なります。"
    },
    "55a19c": {
     "headers": [
@@ -4300,7 +4300,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "不動産会社の選び方"
    },
    "be819d": {
-    "text": "ネットで見つけた気になる物件も、実際の物件情報はほとんどがどこかの不動産会社に握られています。写真だけでは当てにならないため、できるだけ現地で内見しましょう。迷う物件があればグループで聞いてみると、現在住んでいる人や過去に住んだ人が見つかる可能性が高いです。"
+    "text": "ネットで見つけた気になる物件も、実際の物件情報はほとんどがどこかの不動産会社に握られています。写真だけでは部屋の実際の状態までは分からないため、できるだけ現地で内見しましょう。迷う物件があればグループで聞いて、現在住んでいる人や過去に住んだ人がいないか確かめましょう。"
    },
    "89ee7b": {
     "headers": [
@@ -4628,7 +4628,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "SETTLE International: Differences from the Other Dormitories"
    },
    "6eed67": {
-    "text": "SETTLE is in fact a commercially operated apartment building open to the general public, and about half of its residents are Japanese students; it is therefore the most expensive and the best equipped. Because of this different mode of operation, experience from the other dormitories and 伊都協奏館 usually does not carry over; and since it is located in Itoshima City, administrative procedures also differ from those for residents of Nishi-ku, Fukuoka City."
+    "text": "SETTLE is in fact a commercially operated apartment building open to the general public, and about half of its residents are Japanese students; it is therefore the most expensive of the three. Because of this different mode of operation, experience from the other dormitories and 伊都協奏館 usually does not carry over; and since it is located in Itoshima City, administrative procedures also differ from those for residents of Nishi-ku, Fukuoka City."
    },
    "55a19c": {
     "headers": [
@@ -4697,7 +4697,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Key Points for Choosing an Agency"
    },
    "be819d": {
-    "text": "A listing found online is usually held by some specific agency in practice. Photos alone are unreliable, so units should be viewed in person whenever possible; for uncertain listings, asking in a group chat will likely reach someone currently living there or who has lived there."
+    "text": "A listing found online is usually held by some specific agency in practice. Photos do not show the actual condition of a unit, so units should be viewed in person whenever possible; for uncertain listings, ask in a group chat whether anyone currently lives there or has lived there."
    },
    "89ee7b": {
     "headers": [
@@ -5025,7 +5025,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "SETTLE International: 다른 기숙사와의 차이점"
    },
    "6eed67": {
-    "text": "SETTLE는 실제로 일반에 영업하는 상업용 아파트이며, 입주자의 약 절반이 일본인 학생이라 가격이 가장 높고 조건도 가장 좋습니다. 운영 방식이 다르기 때문에 다른 기숙사나 協奏館의 경험은 보통 적용되지 않으며, 이토시마시(糸島市)에 위치한 관계로 각종 행정 절차도 후쿠오카시 니시구에 사는 사람들과 다릅니다."
+    "text": "SETTLE는 실제로 일반에 영업하는 상업용 아파트이며, 입주자의 약 절반이 일본인 학생이라 세 곳 중 가격이 가장 높습니다. 운영 방식이 다르기 때문에 다른 기숙사나 協奏館의 경험은 보통 적용되지 않으며, 이토시마시(糸島市)에 위치한 관계로 각종 행정 절차도 후쿠오카시 니시구에 사는 사람들과 다릅니다."
    },
    "55a19c": {
     "headers": [
@@ -5094,7 +5094,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "부동산 중개 선택 포인트"
    },
    "be819d": {
-    "text": "인터넷에서 마음에 드는 집을 찾아도 실제 물건은 대부분 어느 중개업체가 쥐고 있습니다. 사진만으로는 신뢰하기 어려우므로 가능하면 직접 현장에서 집을 봐야 하며, 확신이 없는 집은 단체 채팅방에 물어보면 현재 살고 있거나 살았던 사람을 만날 가능성이 높습니다."
+    "text": "인터넷에서 마음에 드는 집을 찾아도 실제 물건은 대부분 어느 중개업체가 쥐고 있습니다. 사진만으로는 집의 실제 상태를 알 수 없으므로 가능하면 직접 현장에서 봐야 하며, 확신이 없는 집은 단체 채팅방에서 현재 살고 있거나 살았던 사람이 있는지 물어보세요."
    },
    "89ee7b": {
     "headers": [
@@ -5361,7 +5361,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "福岡は日本海側と太平洋側の両方の気候の特徴を持っています。冬は北西からの寒気を正面から受け、風は強いものの気温はおおむね0度以上で、降水は少なめです——福岡と朝鮮半島の間の海面が狭く、十分な水蒸気が蓄積しないため、北陸のような大雪はめったにありませんが、強風は頻繁で、最も強い時は最大瞬間風速が風力8に達することがあります。"
    },
    "cc62d7": {
-    "text": "6月から7月は梅雨で、その後は太平洋高気圧（副熱帯高気圧）に覆われ、蒸し暑く晴れが続き雨は少ないですが、蓄積されたエネルギーが強い対流を引き起こしやすくなります。秋にも秋雨の時期がありますが、梅雨ほど典型的ではありません。春と秋は比較的快適で、秋は通常1年で最も過ごしやすい季節です。"
+    "text": "6月から7月は梅雨で、その後は太平洋高気圧（副熱帯高気圧）に覆われ、蒸し暑く晴れが続き雨は少ないですが、蓄積されたエネルギーが強い対流を引き起こしやすくなります。秋にも秋雨の時期がありますが、梅雨ほど典型的ではありません。春と秋は気温が比較的穏やかで、秋は晴れる日が多く外出に向いています。"
    },
    "0aeb5b": {
     "items": [
@@ -5841,7 +5841,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "후쿠오카는 일본해 쪽과 태평양 쪽 기후의 특징을 동시에 지닙니다. 겨울에는 북서쪽에서 불어오는 찬 공기를 정면으로 맞아 바람이 강하지만 기온은 대체로 0도 이상이며 강수량은 적습니다. 후쿠오카와 한반도 사이의 바다 폭이 좁아 수증기가 충분히 쌓이지 못하기 때문에, 호쿠리쿠처럼 폭설이 내리는 경우는 드물지만 강풍은 잦고 최대 순간 풍속이 8급에 달할 때도 있습니다."
    },
    "cc62d7": {
-    "text": "6~7월은 장마철이며, 이후 아열대 고기압의 영향을 받아 무덥고 맑은 날이 이어지며 비는 적지만, 쌓인 에너지가 강한 대류를 일으키기 쉽습니다. 가을에도 장마와 비슷한 가을비 시기가 있지만 장마만큼 전형적이지는 않습니다. 봄과 가을은 비교적 쾌적하며, 가을은 보통 1년 중 가장 좋은 계절입니다."
+    "text": "6~7월은 장마철이며, 이후 아열대 고기압의 영향을 받아 무덥고 맑은 날이 이어지며 비는 적지만, 쌓인 에너지가 강한 대류를 일으키기 쉽습니다. 가을에도 장마와 비슷한 가을비 시기가 있지만 장마만큼 전형적이지는 않습니다. 봄과 가을은 기온이 비교적 온화하며, 가을은 맑은 날이 많아 외출하기 좋습니다."
    },
    "0aeb5b": {
     "items": [
@@ -7944,7 +7944,7 @@ window.ARTICLES_BODY_I18N = {
    "30eccf": {
     "items": [
      {
-      "text": "信頼できる中古自転車店",
+      "text": "中古自転車店（地図）",
       "url": "https://maps.app.goo.gl/PqRLz6KtPdcAPvnW7"
      },
      {
@@ -8100,7 +8100,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "イオンの学内受け取りロッカー：寮生に最も便利"
    },
    "3dfc41": {
-    "text": "2025年10月から、学内の中央食堂前にイオンオンラインスーパーの受け取りロッカーが設置されました。このロッカーへの配送は送料無料で、取り扱い品目は九大学研都市のイオンスーパーとほぼ同じです。実際、商品はその店舗から発送されます。学内に住んでいるなら、これが最も手間のかからない買い物方法でしょう。"
+    "text": "2025年10月から、学内の中央食堂前にイオンオンラインスーパーの受け取りロッカーが設置されました。このロッカーへの配送は送料無料で、取り扱い品目は九大学研都市のイオンスーパーとほぼ同じです。実際、商品はその店舗から発送されます。学内に住んでいれば、遠出せずに用事のついでに受け取れます。"
    },
    "ac5dc4": {
     "items": [
@@ -8220,7 +8220,7 @@ window.ARTICLES_BODY_I18N = {
    "30eccf": {
     "items": [
      {
-      "text": "Reliable secondhand bicycle shop",
+      "text": "Secondhand bicycle shop (map)",
       "url": "https://maps.app.goo.gl/PqRLz6KtPdcAPvnW7"
      },
      {
@@ -8376,7 +8376,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "AEON On-Campus Pickup Lockers: Most Convenient for Dorm Residents"
    },
    "3dfc41": {
-    "text": "Since October 2025, a pickup locker for the AEON online supermarket has been available at the entrance of the Central Cafeteria on campus. Deliveries to this locker are free of delivery charges, and the selection covers essentially the full range of the AEON supermarket in the Gakken area - the goods in fact ship from that store. For on-campus residents, this is probably the least effort way to shop."
+    "text": "Since October 2025, a pickup locker for the AEON online supermarket has been available at the entrance of the Central Cafeteria on campus. Deliveries to this locker are free of delivery charges, and the selection covers essentially the full range of the AEON supermarket in the Gakken area - the goods in fact ship from that store. For on-campus residents, there is no need to travel: pick it up on the way back from errands."
    },
    "ac5dc4": {
     "items": [
@@ -8496,7 +8496,7 @@ window.ARTICLES_BODY_I18N = {
    "30eccf": {
     "items": [
      {
-      "text": "믿을 수 있는 중고 자전거 매장",
+      "text": "중고 자전거 매장(지도)",
       "url": "https://maps.app.goo.gl/PqRLz6KtPdcAPvnW7"
      },
      {
@@ -8652,7 +8652,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "이온 캠퍼스 내 픽업함: 기숙사 거주자에게 가장 편리"
    },
    "3dfc41": {
-    "text": "2025년 10월부터 캠퍼스 내 중앙식당 입구에 이온 온라인 슈퍼마켓의 픽업함이 설치되었습니다. 이 픽업함으로 배송하면 배송료가 무료이며, 취급 품목은 가쿠겐 이온 슈퍼마켓의 전 품목을 거의 모두 포함합니다. 실제로 상품도 그 매장에서 출고됩니다. 캠퍼스 내에 살고 있다면 가장 수고가 적은 장보기 방법일 것입니다."
+    "text": "2025년 10월부터 캠퍼스 내 중앙식당 입구에 이온 온라인 슈퍼마켓의 픽업함이 설치되었습니다. 이 픽업함으로 배송하면 배송료가 무료이며, 취급 품목은 가쿠겐 이온 슈퍼마켓의 전 품목을 거의 모두 포함합니다. 실제로 상품도 그 매장에서 출고됩니다. 캠퍼스 내에 살고 있다면 멀리 나가지 않고 볼일 보는 길에 받을 수 있습니다."
    },
    "ac5dc4": {
     "items": [
@@ -13629,7 +13629,7 @@ window.ARTICLES_BODY_I18N = {
      [
       "書類選考",
       "文字数指定の ES 作文",
-      "最も苦労する人が多い"
+      "ES 作文、日本語の要求が高い"
      ],
      [
       "適性検査・筆記",
@@ -13839,7 +13839,7 @@ window.ARTICLES_BODY_I18N = {
      [
       "Document screening",
       "Entry sheet essay, fixed length",
-      "Hardest part for most people"
+      "ES essay, demanding Japanese"
      ],
      [
       "Aptitude / written test",
@@ -14049,7 +14049,7 @@ window.ARTICLES_BODY_I18N = {
      [
       "서류 선고",
       "글자수 지정 ES 작문",
-      "가장 힘들어하는 사람이 많음"
+      "ES 작문, 일본어 요구 수준 높음"
      ],
      [
       "적성검사·필기",
