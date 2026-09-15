@@ -133,5 +133,72 @@ function blockToHTML(b){
   return'';
 }
 
-window.GuideRender={renderBlocks,normalizeBlocks,splitPhone};
+/* ── 文末「参考链接与出处」─────────────────────────────────────
+   把正文里出现过的外部链接汇总一遍，放在文章最后。
+
+   为什么从**渲染后的 DOM** 抓、而不是从 blocks 数据抓：
+     ① 锚文本已经是当前语言的（正文里翻译过，这里直接复用，不必再翻一遍）
+     ② 正文里手写的裸 URL 也被 renderSegments 转成了 <a>，一并覆盖
+     ③ 不用维护第二份数据，正文改了这里自动跟上，不存在漂移
+
+   分组：官方 / 公共机构（政府、学校、公共法人）与其他链接分开。
+   前者是「这条信息从哪来」，后者多是地图、比价、预约这类工具链接 ——
+   混在一起会冲淡前者的可信感。 */
+const OFFICIAL_HOST = /\.(go\.jp|lg\.jp|ac\.jp|or\.jp|ed\.jp|gov\.cn|go\.kr|ac\.kr)$/i;
+
+// 取主机名用纯正则，不用 new URL()。
+// 两个理由：① 某些宿主环境（如 Node 的 vm 沙箱）没有 URL 这个 Web API，
+// 一旦取不到就会被 try/catch 吞掉、静默把官方链接判成「其他」——
+// 分组悄悄失效比直接报错更难发现；② 这里只需要 host，正则足够且无异常路径。
+function hostOf(url){
+  const m=/^https?:\/\/([^\/?#]+)/i.exec(String(url||''));
+  return m?m[1].replace(/^www\./,'').toLowerCase():'';
+}
+
+function renderSources(container){
+  if(!container||!container.querySelectorAll)return null;
+  const seen=new Map();                       // 保序去重：同一 URL 只出现一次
+  for(const a of container.querySelectorAll('a[href]')){
+    const href=a.getAttribute('href')||'';
+    // 只收外部 http(s)。tel:、#sec-N（目录锚点）、以及页内互引都排除
+    if(!/^https?:\/\//i.test(href))continue;
+    if(seen.has(href))continue;
+    let label=(a.textContent||'').trim();
+    // 正文里手写的裸 URL，锚文本就是 URL 本身 —— 那样带着协议头又长又难扫，
+    // 去掉 https:// 与结尾斜杠，和下一行的域名信息合并显示
+    if(!label||/^https?:\/\//i.test(label))label=href.replace(/^https?:\/\//i,'').replace(/\/$/,'');
+    seen.set(href,{url:href,label:label});
+  }
+  const items=[...seen.values()];
+  if(!items.length)return null;               // 一条链接都没有就不出现，不留空壳
+
+  const official=[],other=[];
+  for(const it of items){(OFFICIAL_HOST.test(hostOf(it.url))?official:other).push(it);}
+
+  const T=(k,f)=>{try{return window.GuideI18N?window.GuideI18N.t(k):f}catch(e){return f}};
+  const row=it=>{
+    const shown=it.url.replace(/^https?:\/\//i,'').replace(/\/$/,'');
+    const sub=(it.label===shown)?'':`<span class="src-u">${esc(shown)}</span>`;
+    return `<a class="src-row" href="${esc(it.url)}" target="_blank" rel="noopener">`
+      +`<span class="src-t">${esc(it.label)}</span>${sub}</a>`;
+  };
+  const group=(title,list)=>list.length
+    ?`<h3 class="src-sub">${esc(title)}<span class="src-n">${list.length}</span></h3><div class="src-list">${list.map(row).join('')}</div>`
+    :'';
+
+  const sec=document.createElement('details');
+  sec.id='articleSources';
+  sec.className='src-box';
+  // 默认折叠：guide-academic 一篇就有 19 条，全部铺开会把文末堆成一大片，
+  // 反而稀释正文。折叠后标题行给条数，想看的人一点即开，不想看的不受干扰。
+  sec.innerHTML=`<summary class="src-sum"><span class="src-h">${esc(T('sourcesTitle','参考链接与出处'))}</span>`
+    +`<span class="src-n">${items.length}</span></summary>`
+    +`<p class="src-lead">${esc(T('sourcesLead','本文正文提到的原始链接汇总如下，可直接点开核对原文。'))}</p>`
+    +group(T('sourcesOfficial','官方·公共机构'),official)
+    +group(T('sourcesOther','其他链接'),other);
+  container.appendChild(sec);
+  return sec;
+}
+
+window.GuideRender={renderBlocks,normalizeBlocks,splitPhone,renderSources};
 })();

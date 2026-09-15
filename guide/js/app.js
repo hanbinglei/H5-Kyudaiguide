@@ -354,6 +354,9 @@ function showArticle(id,wantHeading,wantSec){
   // 正文（TOC 取自同一份 blocks，与正文语言必然一致）
   const body=$('articleBody');
   body.innerHTML=window.GuideRender.renderBlocks(blocks,null);
+  // 文末汇总正文引用过的外部链接（从渲染后的 DOM 抓，锚文本已是当前语言）。
+  // 必须紧跟 innerHTML 之后：再晚就来不及，这里的结果会留在这一屏。
+  window.GuideRender.renderSources(body);
 
   const headings=blocks.filter(b=>b.type==='heading').map(b=>b.text);
   const toc=$('toc');
