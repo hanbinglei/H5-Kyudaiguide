@@ -603,11 +603,24 @@ function initTocSpy(){
 }
 
 /* ── 文末上一篇 / 下一篇 ── */
-/** 顺序用**宫格顺序**（用户就是照宫格一篇篇看的），不按 id 也不按更新时间 ——
-    后两者对「下一篇」这个动作没有意义。跨分类也走，等于把 15 篇串成一条线。 */
+/** 顺序 = **序章 + 宫格顺序**。
+    宫格顺序是用户实际浏览的顺序（照格子一篇篇点），跨分类也走，把 15 篇串成一条线。
+    但有两篇**不占宫格格子**：guide-newcomer（新入生特辑）与 guide-firstmonth
+    （落地后 30 天总表）—— 它们同属分类 14，而 14 没有格子。
+    只按宫格取序，这两篇就成了孤岛：读者读完没有上一篇/下一篇，只能返回宫格。
+    它们恰恰是新生最先该读的两篇，所以放在链首当序章（顺序固定，便于复现）。 */
+const NAV_HEAD=['guide-newcomer','guide-firstmonth'];
+function navOrder(){
+  const grid=(typeof CATS!=='undefined'&&CATS?CATS:[]).map(c=>CAT_ART[c.id]).filter(Boolean);
+  const inGrid=new Set(grid.map(a=>a._id));
+  const head=NAV_HEAD.map(id=>ARTICLES.find(a=>a._id===id)).filter(a=>a&&!inGrid.has(a._id));
+  // 兜底：将来若又出现不占格子的文章，追加到末尾，别让它静默变成孤岛
+  const rest=ARTICLES.filter(a=>!inGrid.has(a._id)&&!head.some(h=>h._id===a._id));
+  return head.concat(grid, rest);
+}
 function renderArticleNav(art){
   const box=$('articleNav'); if(!box)return;
-  const order=(typeof CATS!=='undefined'&&CATS?CATS:[]).map(c=>CAT_ART[c.id]).filter(Boolean);
+  const order=navOrder();
   const i=order.findIndex(a=>a&&String(a._id)===String(art._id));
   if(i<0){box.hidden=true;box.innerHTML='';return}
   const prev=i>0?order[i-1]:null, next=i<order.length-1?order[i+1]:null;
