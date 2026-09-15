@@ -45,7 +45,9 @@ function onHashChange(){
     document.body.classList.add('modal-open');
     showArticle(decodeURIComponent(id),want,wantSec);setTab('guide');return;
   }
-  // 离开文章详情：解除背景滚动锁定（showArticle 里加的 modal-open）
+  // 离开文章详情：解除背景滚动锁定（showArticle 里加的 modal-open），
+  // 并把进入文章前的宫格滚动位置还原 —— 否则看完一篇回来就被扔回页首。
+  const wasArticle=document.body.classList.contains('modal-open');
   document.body.classList.remove('modal-open');
   if(raw.startsWith('category/')){showCategory(decodeURIComponent(raw.slice(9)));setTab('guide');return}
   const tab=raw.split('?')[0].split('/')[0]||'guide';
@@ -54,6 +56,10 @@ function onHashChange(){
   if(tab==='cunli')renderCunli();
   if(tab==='faculty')renderFaculties();
   if(tab==='history')renderHistory();
+  if(wasArticle){
+    const btn=$('btnToTop'); if(btn)btn.hidden=true;
+    if(tab==='guide')restoreScroll(guideScrollY);
+  }
 }
 /** 地图 iframe 首次真正需要时才注入 src。地图侧数据约 500KB，
     默认进来的人是来看指南的，不该替他先下载。 */
@@ -90,15 +96,27 @@ function initLang(){
 }
 /** 恢复滚动位置。requestAnimationFrame 里做：正文重建后布局可能还没完成，
     直接设 scrollTop 会被浏览器的后续布局吞掉；等一帧再设才稳。
-    showArticle 结尾会 scrollTo(0,0)，这里用 rAF 在它之后覆盖。 */
+    showArticle 结尾会 scrollTo(0,0)，这里用 rAF 在它之后覆盖。
+    再补一次 setTimeout：图片/表格撑高后文档高度还会变，只设一次会被截短。 */
 function restoreScroll(y){
   if(typeof y!=='number'||y<=0)return;
-  requestAnimationFrame(()=>{ try{ window.scrollTo(0,y); }catch(e){} });
+  const go=()=>{try{ window.scrollTo(0,y); }catch(e){}};
+  requestAnimationFrame(go);
+  setTimeout(go,60);
 }
+
+/* 打开文章前记下宫格/列表的滚动位置，关闭后恢复 ——
+   否则用户在长列表里翻到一半，看完一篇回来就被扔回页首，
+   在手机上（新生专区 + 15 格）这个体感尤其差。 */
+let guideScrollY=0;
+/* 文章内的两个联动更新器（回到顶部按钮显隐、目录高亮），
+   showArticle 渲染完要主动调一次，否则打开新文章时状态还停在上一次。 */
+let refreshToTop=null, refreshTocSpy=null;
 function applyI18N(){
   $('brandSub').textContent=t('brandSub');
   $('searchInput').placeholder=t('searchPh');
   $('mapTip').textContent=t('mapTip');
+  const bt=$('btnToTop'); if(bt)bt.title=t('toTop');   // 悬浮按钮只有图标，靠 title 说明
   // %n% 必须替换 —— 这里先前直接赋 t('guideHead')，切换语言时标题会显示成
   // 原始占位符「가이드 · %n% 카테고리」（冷启动走 renderGrid 才会替换，所以只在切换时暴露）
   $('guideHead').textContent=t('guideHead').replace('%n%',CATS.length);
@@ -297,6 +315,9 @@ function bodyBlocks(art){
 function showArticle(id,wantHeading,wantSec){
   const art=ARTICLES.find(a=>String(a._id)===String(id));
   if(!art){$('pane-article').style.display='none';renderGrid();return}
+  // 记下进入文章前的宫格滚动位置（文章窗已经开着 = 文内互引跳转，不覆盖）
+  const paNow=$('pane-article');
+  if(paNow&&getComputedStyle(paNow).display==='none') guideScrollY=window.scrollY||0;
   hPush({id:art._id,title:I18N.articleField(art,'title'),categoryName:I18N.catName(art.category)});
   document.querySelectorAll('.pane').forEach(p=>{p.style.display=(p.id==='pane-article')?'':'none'});
   $('pane-article').style.display='';
@@ -365,6 +386,9 @@ function showArticle(id,wantHeading,wantSec){
         // 关闭按钮/遮罩点击由 onHashChange 离开 article 时解除。
         document.body.classList.add('modal-open');
         window.scrollTo(0,0);
+        // 新文章从顶部开始：回到顶部按钮该隐藏、目录高亮该回到第一节，
+        // 都要在这里主动刷一次，否则状态还停在上一次打开的那篇。
+        try{ if(refreshToTop)refreshToTop(); if(refreshTocSpy)refreshTocSpy(); }catch(e){}
 
         /* 深链到小节。⚠️ 必须放在 window.scrollTo(0,0) **之后**并延后一拍 ——
            放在前面会被那次 scrollTo 冲掉（实测目标小节停在视口下方 970px）。
@@ -463,6 +487,102 @@ function hl(text,q){
   }
   return out;
 }
+/* ── 使用体验：回到顶部 / 目录联动 / 最近搜索（2026-09-15）─────────
+
+   三处都是实测出来的摩擦点：
+     · 学术篇正文 7134px（约 10 屏），从中间想回顶部只能一路划
+     · 桌面侧栏目录 14 节，滚动时不指示当前在哪一节；手机横排目录
+       高亮的项常常在屏幕外，等于没提示
+     · 搜过的词不留存，重复搜索要重打
+*/
+
+/** 文章正文的滚动容器：手机是 .sheet-card，桌面 ≥1024px 换成了 #pane-article。
+    两个都要监听，不能写死一个。 */
+function articleScrollers(){
+  const pa=$('pane-article'), sc=document.querySelector('#pane-article .sheet-card');
+  return [pa,sc].filter(Boolean);
+}
+function articleVisible(){
+  const pa=$('pane-article');
+  return !!pa&&getComputedStyle(pa).display!=='none';
+}
+
+/** 回到顶部按钮：滚过一段才出现，避免短文章也顶着个按钮 */
+function initToTop(){
+  const btn=$('btnToTop'); if(!btn)return;
+  const scs=articleScrollers();
+  const update=()=>{
+    if(!articleVisible()){btn.hidden=true;return}
+    let y=0; for(const s of scs)y=Math.max(y,s.scrollTop||0);
+    btn.hidden=y<500;
+  };
+  scs.forEach(s=>s.addEventListener('scroll',update,{passive:true}));
+  btn.addEventListener('click',()=>{
+    const sc=scs.find(s=>(s.scrollTop||0)>0);
+    if(sc&&sc.scrollTo)sc.scrollTo({top:0,behavior:'smooth'});
+    else window.scrollTo({top:0,behavior:'smooth'});
+  });
+  refreshToTop=update;
+  update();
+}
+
+/** 目录联动：滚到哪一节，目录里对应项高亮；横排时把当前项滑进可视区 */
+function initTocSpy(){
+  const toc=$('toc'); if(!toc)return;
+  const scs=articleScrollers();
+  const update=()=>{
+    if(!articleVisible())return;
+    const tabs=[...toc.querySelectorAll('.toc-tab')];
+    if(tabs.length<2)return;
+    const sc=scs.find(s=>(s.scrollTop||0)>0)||scs[0];
+    const base=sc?sc.getBoundingClientRect().top:0;
+    // 当前节 = 最后一个「顶边已经滚过容器顶部（留 80px 余量）」的小节
+    let cur=0;
+    tabs.forEach((a,i)=>{
+      const el=document.getElementById('sec-'+a.dataset.idx);
+      if(!el)return;
+      if(el.getBoundingClientRect().top-base<=80)cur=i;
+    });
+    tabs.forEach((a,i)=>a.classList.toggle('on',i===cur));
+    if(toc.scrollWidth>toc.clientWidth+4){          // 横排（手机）时保证可见
+      const act=tabs[cur]; if(!act)return;
+      const l=act.offsetLeft,w=act.offsetWidth,cw=toc.clientWidth,sx=toc.scrollLeft;
+      if(l<sx+8||l+w>sx+cw-8)toc.scrollTo({left:Math.max(0,l-w/2+cw/2),behavior:'smooth'});
+    }
+  };
+  scs.forEach(s=>s.addEventListener('scroll',update,{passive:true}));
+  refreshTocSpy=update;
+}
+
+/* ── 最近搜索（localStorage）── */
+const HIST_KEY='kyudai-search-hist', HIST_MAX=8;
+function histLoad(){
+  try{const a=JSON.parse(localStorage.getItem(HIST_KEY)||'[]');return Array.isArray(a)?a.filter(x=>typeof x==='string'&&x).slice(0,HIST_MAX):[]}
+  catch(e){return[]}
+}
+function histAdd(q){
+  const v=String(q||'').trim(); if(!v)return;
+  const a=histLoad().filter(x=>x!==v); a.unshift(v);
+  try{localStorage.setItem(HIST_KEY,JSON.stringify(a.slice(0,HIST_MAX)))}catch(e){}
+}
+function histClear(){ try{localStorage.removeItem(HIST_KEY)}catch(e){} }
+/** 聚焦且输入为空时展开；点条目即重搜 */
+function renderSearchHist(){
+  const box=$('searchHist'), inp=$('searchInput'); if(!box||!inp)return;
+  const list=histLoad();
+  if(document.activeElement!==inp||inp.value.trim()||!list.length){box.hidden=true;box.innerHTML='';return}
+  box.hidden=false;
+  box.innerHTML='<div class="search-hist-head"><span>'+esc(t('searchHist'))+'</span>'
+    +'<button class="search-hist-clear" type="button">'+esc(t('searchHistClear'))+'</button></div>'
+    +'<div class="search-hist-list">'+list.map(x=>
+      '<button class="search-hist-chip" type="button" data-q="'+esc(x)+'">'+esc(x)+'</button>').join('')+'</div>';
+  const c=box.querySelector('.search-hist-clear');
+  if(c)c.addEventListener('click',e=>{e.preventDefault();histClear();renderSearchHist();inp.focus()});
+  box.querySelectorAll('.search-hist-chip').forEach(b=>b.addEventListener('click',e=>{
+    e.preventDefault(); inp.value=b.dataset.q; runSearch(); inp.focus(); renderSearchHist();
+  }));
+}
+
 function initSearch(){
   const inp=$('searchInput'),clear=$('searchClear');if(!inp)return;
   function uc(){clear.classList.toggle('show',!!inp.value)}
@@ -482,7 +602,14 @@ function initSearch(){
   }
   runSearch=run;
   let tm=0;
-  inp.addEventListener('input',()=>{uc();clearTimeout(tm);tm=setTimeout(run,140)});   // 防抖：别每敲一个字就重排一次
+  inp.addEventListener('input',()=>{uc();clearTimeout(tm);tm=setTimeout(run,140);renderSearchHist()});   // 防抖：别每敲一个字就重排一次
+  // 只在「明确的搜索意图」时才记进历史：按回车、或点开了某条结果。
+  // 每次防抖都记会把「银」「银行」这种中间状态也存进去，历史就废了。
+  inp.addEventListener('keydown',e=>{ if(e.key==='Enter'){ histAdd(inp.value); renderSearchHist(); } });
+  inp.addEventListener('focus',renderSearchHist);
+  document.addEventListener('click',e=>{
+    if(!e.target.closest||!e.target.closest('#searchWrap')){const b=$('searchHist');if(b)b.hidden=true}
+  });
   clear.addEventListener('click',()=>{inp.value='';uc();renderGrid();inp.focus()});
 }
 function showSearchResults(list,q,via){
@@ -522,7 +649,11 @@ function showSearchResults(list,q,via){
         +'<div class="meta"><span class="tag">'+esc(I18N.catName(a.category))+'</span></div>'
         +'</article>';
     }).join('');
-  box.querySelectorAll('.card-lite').forEach(el=>el.addEventListener('click',()=>navigate('article/'+encodeURIComponent(el.dataset.id))));
+  box.querySelectorAll('.card-lite').forEach(el=>el.addEventListener('click',()=>{
+    // 点开了某条结果 = 这次搜索有用，值得记进历史（比每次防抖都记干净得多）
+    histAdd(q);
+    navigate('article/'+encodeURIComponent(el.dataset.id));
+  }));
 }
 
 // ── 村历 ──
@@ -720,6 +851,7 @@ function renderHistory(){
 // ── init ──
 function init(){
   initLang();applyI18N();searchRebuild();initSearch();renderGrid();initCunli();renderHistory();
+  initToTop();initTocSpy();      // 长文回顶 / 目录联动（都是纯增强，失败不影响主流程）
   // 非中文时并行取正文译文包；不 await —— 首屏不该等它
   ensureBodyI18N(()=>{ if(currentHash().startsWith('article/'))onHashChange(); });
   document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>navigate(b.dataset.tab)));

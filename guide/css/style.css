@@ -655,3 +655,34 @@ mark{background:rgba(123,45,62,.10);color:inherit;border-radius:3px;padding:0 2p
 .search-note{margin:0 0 10px;padding:8px 12px;border-radius:10px;
   background:#f7f1f2;border:1px solid #e8d5d9;color:var(--brand);
   font-size:12.5px;line-height:1.6}
+
+/* ── 使用体验优化（2026-09-15）───────────────────────────────── */
+
+/* 最近搜索：聚焦且输入为空时，从搜索框下方展开 */
+.search-wrap{position:relative}
+.search-hist{position:absolute;top:calc(100% + 6px);left:0;right:0;z-index:30;
+  background:#fff;border:1px solid var(--line);border-radius:12px;
+  box-shadow:0 10px 28px rgba(0,0,0,.12);padding:10px 12px}
+.search-hist-head{display:flex;align-items:center;justify-content:space-between;
+  font-size:12px;color:var(--muted);margin-bottom:8px}
+.search-hist-clear{border:none;background:transparent;color:var(--brand);
+  font-size:12px;cursor:pointer;padding:4px 6px;border-radius:6px}
+.search-hist-clear:hover{background:#f7f1f2}
+.search-hist-list{display:flex;flex-wrap:wrap;gap:6px}
+.search-hist-chip{border:1px solid #e8d5d9;background:#f7f1f2;color:var(--brand);
+  border-radius:999px;padding:6px 12px;font-size:12.5px;cursor:pointer;max-width:100%;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.search-hist-chip:hover{background:#f0e2e6}
+@media(pointer:coarse){.search-hist-chip{min-height:36px;padding:8px 14px}}
+
+/* 回到顶部：长文滚动一段后出现。两个滚动容器（手机 .sheet-card /
+   桌面 #pane-article）都要能触发，位置固定在右下、避开底部导航栏。 */
+.to-top{position:fixed;right:14px;bottom:76px;z-index:40;
+  width:44px;height:44px;border-radius:50%;border:1px solid var(--line);
+  background:rgba(255,255,255,.96);color:var(--brand);font-size:19px;line-height:1;
+  box-shadow:0 6px 18px rgba(0,0,0,.16);cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  transition:opacity .18s ease, transform .18s ease}
+.to-top[hidden]{display:none}
+.to-top:active{transform:scale(.94)}
+@media(min-width:1024px){.to-top{right:calc(50% - 640px + 16px);bottom:28px}}
