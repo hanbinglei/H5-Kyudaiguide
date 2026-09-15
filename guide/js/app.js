@@ -711,7 +711,10 @@ function initCunli(){
         try{
           const mapped=(CUNLI.items||[]).map(it=>({
             id:it.id, title:nameOf(it).name, date:it.date, end:it.end,
-            note:it.note, place:it.place
+            // 导出也要跟语言走：原来 note/place 直接传原始字段，
+            // 英文界面导出的 .ics 里说明和地点还是中文。
+            note:I18N.cunliNote?I18N.cunliNote(it,I18N.getLang()):(it.note||''),
+            place:I18N.cunliPlace?I18N.cunliPlace(it,I18N.getLang()):it.place
           }));
           const ics=window.CunliExport.buildIcs(mapped);
           const blob=new Blob([ics],{type:'text/calendar;charset=utf-8'});
@@ -801,7 +804,11 @@ function openDetail(id){
   const it=(window._cu_items||[]).find(x=>String(x.id)===String(id));if(!it)return;
   const n=nameOf(it),srcMap=CUNLI.sources||{},src=srcMap[it.src]||null;
   const wd=it.date?t('wdFull')[U.dow(it.date)]:'';
-  $('detailBody').innerHTML=`<div style="font-size:16px;font-weight:800">${esc(n.name)}${it.star?'<span class="star">※</span>':''}</div>${n.sub?`<div style="font-size:13px;color:#777;margin-top:2px">${esc(n.sub)}</div>`:''}<div style="margin-top:8px;display:flex;gap:8px;align-items:center;flex-wrap:wrap"><span class="tg tg-${esc(it.type)}">${esc(typeLabel(it.type))}</span><span style="font-size:12px;color:#666">${it.date?esc(U.fmtRange(it))+' · '+esc(wd):esc(t('pending'))}</span></div>${it.place?`<div style="margin-top:8px;font-size:13px">${esc(t('place'))}：${esc(it.place.zh)}（${esc(it.place.ja)}）</div>`:''}${it.desc?`<div style="margin-top:12px;font-size:14px;line-height:1.7;white-space:pre-wrap">${esc(it.desc)}</div>`:''}${it.note?`<div style="margin-top:10px;background:#fff7e6;border:1px solid #ffe7ba;border-radius:8px;padding:8px 10px;font-size:13px;color:#7a4d00">${esc(it.note)}</div>`:''}${src?`<div style="margin-top:10px;font-size:12px;color:#888">${esc(t('source'))}：${src.url?`<a href="${esc(src.url)}" target="_blank" rel="noopener">${esc(src.name)}</a>`:esc(src.name)}</div>`:''}`;
+  // 说明文字与地点也要跟语言走 —— 原来直接输出 it.note / it.place.zh，
+  // 切到英文/韩文时标题变了、说明还是中文。
+  const noteTxt=I18N.cunliNote?I18N.cunliNote(it,I18N.getLang()):(it.note||'');
+  const placeTxt=I18N.cunliPlace?I18N.cunliPlace(it,I18N.getLang()):(it.place?(it.place.zh+'（'+it.place.ja+'）'):'');
+  $('detailBody').innerHTML=`<div style="font-size:16px;font-weight:800">${esc(n.name)}${it.star?'<span class="star">※</span>':''}</div>${n.sub?`<div style="font-size:13px;color:#777;margin-top:2px">${esc(n.sub)}</div>`:''}<div style="margin-top:8px;display:flex;gap:8px;align-items:center;flex-wrap:wrap"><span class="tg tg-${esc(it.type)}">${esc(typeLabel(it.type))}</span><span style="font-size:12px;color:#666">${it.date?esc(U.fmtRange(it))+' · '+esc(wd):esc(t('pending'))}</span></div>${it.place?`<div style="margin-top:8px;font-size:13px">${esc(t('place'))}：${esc(placeTxt)}</div>`:''}${it.desc?`<div style="margin-top:12px;font-size:14px;line-height:1.7;white-space:pre-wrap">${esc(it.desc)}</div>`:''}${noteTxt?`<div style="margin-top:10px;background:#fff7e6;border:1px solid #ffe7ba;border-radius:8px;padding:8px 10px;font-size:13px;color:#7a4d00">${esc(noteTxt)}</div>`:''}${src?`<div style="margin-top:10px;font-size:12px;color:#888">${esc(t('source'))}：${src.url?`<a href="${esc(src.url)}" target="_blank" rel="noopener">${esc(src.name)}</a>`:esc(src.name)}</div>`:''}`;
   $('detailMask').style.display='';
 }
 function closeDetail(){

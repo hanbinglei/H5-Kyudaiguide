@@ -350,5 +350,49 @@ function articleField(art, field){
 }
 applyDocLang();
 function getLangNow(){return lang}
-window.GuideI18N={ LANGS, UI, CAT_I18N, CUNLI_NAMES, cunliName, getLang:()=>lang, setLang, t, catName, articleField, applyDocLang, _s(v){lang=v;applyDocLang();} };
+
+/* 村历详情的**说明文字**与**地点**译名。
+   为什么也要翻译：nameOf() 只管活动名，详情面板里 note / place 原来是直接
+   输出中文字段（it.note / it.place.zh），于是切到英文/韩文，点开一条
+   留学課活动，标题是英文、说明还是中文 —— 与「活动名不跟着切」是同一个病。
+   note 按 **条目 id** 索引（每条说明都是独立文案，不像活动名会重复）；
+   place 按**日文原名**索引，与 CUNLI_NAMES 一致（同一地点会被多条复用）。 */
+const CUNLI_NOTES = {
+  c62:{en:'Not yet published on the Kyushu U academic calendar — check the student affairs system (Gakumu) or your faculty notice.',
+       ko:'규슈대 학사력에 아직 미공개 — 학무시스템 또는 소속 학부 공지를 확인하세요.'},
+  c63:{en:'International Student Office: Fukuoka Airport to Kyudai Gakken Toshi Stn / dorms. First come, first served, no booking needed. See the Newcomer guide.',
+       ko:'유학과: 후쿠오카 공항 → 규다이 가켄토시역/각 기숙사. 선착순, 예약 불필요. 「신입생 특집」 참조.'},
+  c64:{en:'International Student Office: runs 9/24-25, 9/29-30 and 10/1. Dorms to Kyudai Gakken Toshi Stn. See the Newcomer guide for live times.',
+       ko:'유학과: 운행일 9/24-25・29-30・10/1. 기숙사 ⇄ 규다이 가켄토시역. 실시간 운행은 「신입생 특집」 참조.'},
+  c65:{en:'International Student Office: for dorm residents. Attendance at both Session 1 and 2 is required; advance registration needed. See the Newcomer guide.',
+       ko:'유학과: 기숙사 입주자 대상. 1회차와 2회차 모두 참석 필수, 사전 신청 필요. 「신입생 특집」 참조.'},
+  c66:{en:'12:50-15:10, attendance required. On the same day: SIM sales, library tour, immigration consultation and a welcome party. See the Newcomer guide.',
+       ko:'12:50-15:10 참석 필수. 같은 날 SIM 판매회・도서관 투어・출입국 상담회・웰컴 파티. 「신입생 특집」 참조.'},
+  c67:{en:'International Student Office / Q-Mate: 10:30-12:00 and 15:00-16:30 each day, two sessions (east / west). Registration required. See the Newcomer guide.',
+       ko:'유학과/Q-Mate: 매일 10:30-12:00・15:00-16:30 동/서 두 차례, 신청 필요. 「신입생 특집」 참조.'},
+  c68:{en:'International Student Office: for new students who have already registered their address. Advance registration required; the card is issued on the spot. See the Newcomer guide.',
+       ko:'유학과: 주소 등록을 마친 신입생 대상. 사전 신청 필요, 현장에서 카드 발급. 「신입생 특집」 참조.'},
+  c69:{en:'All international students must enrol. Apply through the OSSMA app after arriving in Japan. See the Newcomer guide.',
+       ko:'유학생 전원 가입 필수. OSSMA 앱으로 신청하며 일본 도착 후 처리합니다. 「신입생 특집」 참조.'},
+};
+const CUNLI_PLACES = {
+  '椎木講堂':{en:'Shiiki Hall (University HQ)',ko:'시이키 강당 (대학 본부)'},
+};
+/** 详情面板的说明文字：en/ko 有译文用译文，否则回中文（中文是本站编写语言） */
+function cunliNote(it, lang){
+  const e = it && CUNLI_NOTES[it.id];
+  if(e && e[lang]) return e[lang];
+  return (it && it.note) || '';
+}
+/** 详情面板的地点：en/ko 有译名用译名，否则「中文（日文原名）」 */
+function cunliPlace(it, lang){
+  const pz = it && it.place; if(!pz) return '';
+  const e = CUNLI_PLACES[pz.ja];
+  if(e && e[lang]) return e[lang] + '（' + pz.ja + '）';
+  if(lang === 'ja') return pz.ja;
+  if(lang === 'zh') return pz.zh + '（' + pz.ja + '）';
+  return pz.zh + '（' + pz.ja + '）';
+}
+
+window.GuideI18N={ LANGS, UI, CAT_I18N, CUNLI_NAMES, cunliName, CUNLI_NOTES, CUNLI_PLACES, cunliNote, cunliPlace, getLang:()=>lang, setLang, t, catName, articleField, applyDocLang, _s(v){lang=v;applyDocLang();} };
 })();

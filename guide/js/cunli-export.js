@@ -68,7 +68,9 @@ function buildIcs(items){
     if(de)lines.push('DTEND;VALUE=DATE:'+dtend);
     lines.push(foldLine('SUMMARY:'+esc(it.title||it.id)));
     if(it.note)lines.push(foldLine('DESCRIPTION:'+esc(it.note)));
-    const place=it.place&&(it.place.zh||it.place.ja);
+    // place 允许传字符串（调用方用本地化后的写法）或原来的 {zh|ja} 对象 ——
+    // 只认对象时，调用方传字符串会导致 LOCATION 被静默丢掉。
+    const place = typeof it.place === 'string' ? it.place : (it.place&&(it.place.zh||it.place.ja));
     if(place)lines.push(foldLine('LOCATION:'+esc(place)));
     lines.push('END:VEVENT');
   });

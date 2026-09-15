@@ -26,11 +26,13 @@ function run(f, expr) {
 const CUNLI = run('data-cunli.js', 'CUNLI_DATA');
 // i18n.js 是赋到 window.GuideI18N 的属性（不是 var 声明），沙箱里
 // 写裸名字 GuideI18N 会 ReferenceError —— 必须走 window.
-const NAMES = run('i18n.js', 'window.GuideI18N.CUNLI_NAMES');
+const G = run('i18n.js', 'window.GuideI18N');
+const NAMES = G.CUNLI_NAMES, NOTES = G.CUNLI_NOTES, PLACES = G.CUNLI_PLACES;
 const items = (CUNLI && CUNLI.items) || [];
 
 const noZh = [], noEn = [], noKo = [];
-const used = new Set();
+const noteMiss = [], placeMiss = [];
+const used = new Set(), usedPlace = new Set();
 for (const it of items) {
   const ja = it.title || '';
   used.add(ja);
@@ -38,22 +40,38 @@ for (const it of items) {
   const e = NAMES[ja];
   if (!e || !e.en) noEn.push(it.id + ' ' + ja);
   if (!e || !e.ko) noKo.push(it.id + ' ' + ja);
+  // 详情面板 / .ics 导出会显示说明与地点：en/ko 缺译文就会漏中文出去
+  if (it.note) {
+    const n = NOTES[it.id];
+    if (!n || !n.en || !n.ko) noteMiss.push(it.id + ' ' + ja);
+  }
+  if (it.place && it.place.ja) {
+    usedPlace.add(it.place.ja);
+    const p = PLACES[it.place.ja];
+    if (!p || !p.en || !p.ko) placeMiss.push(it.id + ' ' + ja + ' @ ' + it.place.ja);
+  }
 }
 const stale = Object.keys(NAMES).filter(k => !used.has(k));
+const staleNote = Object.keys(NOTES).filter(k => !items.some(it => it.id === k && it.note));
+const stalePlace = Object.keys(PLACES).filter(k => !usedPlace.has(k));
 
 let bad = 0;
-console.log(`村历条目 ${items.length} 条 · 名字表 ${Object.keys(NAMES).length} 条`);
-for (const [label, arr, fatal] of [['缺 zh（中文界面会显示日文）', noZh, true], ['缺 en 译名', noEn, true], ['缺 ko 译名', noKo, true]]) {
+console.log(`村历条目 ${items.length} 条 · 名字表 ${Object.keys(NAMES).length} · 说明表 ${Object.keys(NOTES).length} · 地点表 ${Object.keys(PLACES).length}`);
+for (const [label, arr] of [['缺 zh（中文界面会显示日文）', noZh], ['缺 en 译名', noEn], ['缺 ko 译名', noKo],
+                            ['缺说明译文（详情面板 / .ics 会漏中文）', noteMiss], ['缺地点译文', placeMiss]]) {
   if (arr.length) {
     bad += arr.length;
     console.log(`\n✗ ${label} ${arr.length} 条：`);
     arr.forEach(x => console.log('   ' + x));
   } else console.log(`✓ ${label}：0`);
 }
-if (stale.length) {
-  console.log(`\n⚠ 名字表里有 ${stale.length} 条在数据中已不存在（陈旧，建议清理）：`);
-  stale.forEach(x => console.log('   ' + x));
+const staleAll = [['名字', stale], ['说明', staleNote], ['地点', stalePlace]].filter(x => x[1].length);
+if (staleAll.length) {
+  console.log('');
+  for (const [label, arr] of staleAll) {
+    console.log(`⚠ ${label}表里有 ${arr.length} 条在数据中已不存在（陈旧，建议清理）：${arr.join(', ')}`);
+  }
 }
 console.log('');
-if (bad) { console.log('✗ 村历译名不完整：切到 en/ko 时缺译名的条目会回落显示日文原名。'); process.exit(1); }
-console.log('✓ 村历译名完整（zh / en / ko 全部覆盖）');
+if (bad) { console.log('✗ 村历译名不完整：切到 en/ko 时缺译名的条目会回落显示中文/日文原名。'); process.exit(1); }
+console.log('✓ 村历译名完整（活动名 / 说明 / 地点的 zh / en / ko 全部覆盖）');
