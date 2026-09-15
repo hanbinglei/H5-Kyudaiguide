@@ -153,9 +153,13 @@
       const wxk = WX_WORD[Number(j.current.weather_code)];
       const ppArr = (j.daily && j.daily.precipitation_probability_max) || [];
       const pp = Number(ppArr[0]);
-      let text = fill('pulseWx', { temp, wx: wxk ? t(wxk) : '' }).trim();
       const warn = isFinite(pp) && pp >= 50;
-      if (warn) text += ' ' + fill('pulseWxRain', { p: pp });
+      // 要下雨时**整条换成降雨文案**，不要在当前天况后面追加提示：
+      // 当前天况与今日降雨概率讲的不是同一件事（实测出现过「☔ 大致晴 带伞 84%」——
+      // 图标、文案、提示三者互相打架）。外出只看一件事：会不会下。
+      const text = warn
+        ? fill('pulseWxRain', { temp, p: pp })
+        : fill('pulseWx', { temp, wx: wxk ? t(wxk) : '' }).trim();
       st.wx = { text, warn, icon: warn ? '☔' : '🌤' };
       paint();
     });

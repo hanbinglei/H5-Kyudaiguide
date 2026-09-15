@@ -29,8 +29,14 @@ function makeDom(anchors) {
     },
   };
 }
-function anchor(href, text) {
-  return { getAttribute: (k) => (k === 'href' ? href : null), textContent: text === undefined ? '' : text };
+function anchor(href, text, txtInner) {
+  // txtInner = 链接卡里 <span class="txt"> 的内容。真实 links 块还有 <span class="go">打开 ›</span>，
+  // 所以 textContent（含按钮文案）与 .txt（纯标签）是两个不同的值 —— 假锚点必须都能给。
+  return {
+    getAttribute: (k) => (k === 'href' ? href : null),
+    textContent: text === undefined ? '' : text,
+    querySelector: (sel) => (sel === '.txt' && txtInner != null ? { textContent: txtInner } : null),
+  };
 }
 
 /* 从真实渲染出的 HTML 里抽出 <a ...>：只要 href 与锚文本，够用 */
@@ -39,8 +45,10 @@ function anchorsFromHTML(html) {
   const re = /<a\b[^>]*href="([^"]*)"[^>]*>([\s\S]*?)<\/a>/g;
   let m;
   while ((m = re.exec(html))) {
-    const label = m[2].replace(/<[^>]*>/g, '').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').trim();
-    out.push(anchor(m[1], label));
+    const unesc = (x) => x.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"');
+    const whole = unesc(m[2]).replace(/<[^>]*>/g, '').trim();
+    const tm = /<span class="txt">([\s\S]*?)<\/span>/.exec(m[2]);
+    out.push(anchor(m[1], whole, tm ? unesc(tm[1]).trim() : null));
   }
   return out;
 }
@@ -146,6 +154,30 @@ console.log('\n=== ④ 裸 URL 的标签回落（去掉协议头与结尾斜杠�
   // 只看**可见文本**：href 属性里当然有 https://，那是链接目标，不是显示内容
   const visible = h.replace(/<[^>]*>/g, '');
   ok(!/https:\/\//.test(visible), '可见文本里不出现带协议的 URL', visible.slice(0, 80));
+}
+
+console.log('\n=== ④b 标签不得混入链接卡的「打开 ›」按钮文案 ===');
+{
+  // 真实 links 块的锚点是 <a><span class="txt">标签</span><span class="go">打开 ›</span></a>，
+  // 取 a.textContent 会把按钮文案拼进标签。离线测试曾漏过这一条 ——
+  // 因为测试自己也是「剥标签取文本」，同样会带上它。这里必须显式挡住。
+  const dom = makeDom([anchor('https://www.kyushu-u.ac.jp/x', '九大 certificate打开 ›', '九大 certificate')]);
+  const h = R.renderSources(dom.container).innerHTML;
+  ok(/src-t">九大 certificate</.test(h), '标签只取 .txt', (h.match(/class="src-t">([^<]*)/) || [])[1]);
+  ok(!/打开/.test(h), '整段里没有「打开 ›」');
+}
+{
+  // 四种语言的按钮文案都不能漏进来
+  const OPEN = { zh: '打开 ›', ja: '開く ›', en: 'Open ›', ko: '열기 ›' };
+  let bad = [];
+  for (const [lang, word] of Object.entries(OPEN)) {
+    ctx.GuideI18N.setLang(lang);
+    const a = anchor('https://www.kyushu-u.ac.jp/x', 'Label' + word, 'Label');
+    const h = R.renderSources(makeDom([a]).container).innerHTML;
+    if (new RegExp(word.split(' ')[0]).test(h)) bad.push(lang);
+  }
+  ctx.GuideI18N.setLang('zh');
+  ok(bad.length === 0, '四语的按钮文案都不出现', bad.join(','));
 }
 
 console.log('\n=== ⑤ 同名 URL 只出现一次（保序去重）===');

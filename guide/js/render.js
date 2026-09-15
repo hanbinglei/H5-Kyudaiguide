@@ -164,6 +164,10 @@ function renderSources(container){
     if(!/^https?:\/\//i.test(href))continue;
     if(seen.has(href))continue;
     let label=(a.textContent||'').trim();
+    // links 块的链接卡里除了标题还有个「打开 ›」按钮 span，直接取 textContent
+    // 会把按钮文案拼进标签（「九大 certificate… 打开 ›」）。有 .txt 就只取它。
+    const tSpan=a.querySelector?a.querySelector('.txt'):null;
+    if(tSpan&&tSpan.textContent)label=tSpan.textContent.trim();
     // 正文里手写的裸 URL，锚文本就是 URL 本身 —— 那样带着协议头又长又难扫，
     // 去掉 https:// 与结尾斜杠，和下一行的域名信息合并显示
     if(!label||/^https?:\/\//i.test(label))label=href.replace(/^https?:\/\//i,'').replace(/\/$/,'');

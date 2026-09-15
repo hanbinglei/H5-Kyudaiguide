@@ -118,7 +118,7 @@ const settle = () => new Promise((r) => setTimeout(r, 30));
   ok(/今日 12 人来过 · 累计 486 人/.test(t[0] || ''), '① 来访取 visitor 而非 visit（12 不是 31）');
   ok(/距离 .+ 还有 \d+ 天/.test(t[1] || ''), '② 下一件大事', t[1]);
   ok(/福冈 25℃ · 大致晴/.test(t[2] || ''), '③ 天气', t[2]);
-  ok(!/带伞/.test(t[2] || ''), '③ 降雨 20% 不提示带伞');
+  ok(!/降雨/.test(t[2] || ''), '③ 降雨 20% 不出现降雨提示');
   ok(/已看过 2\/17 篇/.test(t[3] || ''), '④ 打卡 2/17', t[3]);
 
   console.log('\n=== ② 降雨 ≥50% 转警告色 ===');
@@ -126,7 +126,7 @@ const settle = () => new Promise((r) => setTimeout(r, 30));
   boot({ today: { visit: 1, visitor: 1 }, total: { visit: 1, visitor: 1 }, wxData: WX_RAIN, store: {} });
   await settle();
   t = texts();
-  ok(/带伞 80%/.test(t[2] || ''), '提示带伞', t[2]);
+  ok(/福冈 22℃ · 降雨 80%/.test(t[2] || ''), '要下雨时整条换成降雨文案', t[2]);
   ok(warns()[2] === true, '第 3 条带 warn 样式');
 
   console.log('\n=== ③ 降级：计数接口挂掉 ===');
