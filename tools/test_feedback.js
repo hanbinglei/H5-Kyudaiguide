@@ -304,6 +304,12 @@ console.log('\n=== ④f 悬浮按钮与支持卡片 ===');
   ok(/target="_blank"/.test(html) && /rel="noopener"/.test(html), '外链用新窗口 + noopener');
   ok(/点个 star/.test(html), '含 star 引导文案');
   ok(/supShare/.test(html), '含复制链接分享的按钮');
+  ok(/这份指南帮到你了吗/.test(html), '卡片是中文');
+  // 这个坑犯了两次：重建写在 if(!built) return 之后 → 面板没打开过就永远切不过来
+  f.ctx.GuideI18N.setLang('en'); f.ctx.Feedback.relabel();
+  ok(/Did this guide help you/.test(card.innerHTML), '切英文后卡片标题跟着变', (card.innerHTML||'').slice(0,60));
+  ok(/Star it on GitHub/.test(card.innerHTML), '切英文后 star 按钮也跟着变');
+  f.ctx.GuideI18N.setLang('zh'); f.ctx.Feedback.relabel();
 }
 
 console.log('\n=== ④g 未启用时：悬浮按钮与支持卡片也一起撤下 ===');

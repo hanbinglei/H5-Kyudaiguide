@@ -169,6 +169,16 @@ function applyI18N(){
   $('facUgTitle').textContent=t('facUg');
   $('facGradTitle').textContent=t('facGrad');
   $('facSrc').textContent=t('facSrc');
+  // ── 以下四处以前完全没人管：切语言时纹丝不动 ──
+  // ① 浏览器标签页标题（此前四语都停在中日混排）
+  document.title=t('docTitle');
+  // ② 底栏的 aria-label —— 读屏软件用的，看不见但影响无障碍
+  const tb=document.querySelector('.tabbar'); if(tb)tb.setAttribute('aria-label',t('navAria'));
+  // ③ 地图 iframe 的 title（同样是无障碍用的）
+  const mf=$('mapFrame'); if(mf)mf.setAttribute('title',t('mapTitle'));
+  // ④ 村历翻月按钮的 aria-label（只有 ‹ › 符号，全靠它说明）
+  const bp=$('btnPrev'); if(bp)bp.setAttribute('aria-label',t('prevMonth'));
+  const bn=$('btnNext'); if(bn)bn.setAttribute('aria-label',t('nextMonth'));
 }
 
 // ── 新生专区（首页顶部时间线） ──

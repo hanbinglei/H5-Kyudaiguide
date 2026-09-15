@@ -112,6 +112,9 @@
     if (ra0) ra0.textContent = t('fbEntryArticle', '发现错误？点这里报告');
     const gf0 = $('btnFeedback');
     if (gf0) gf0.textContent = t('fbEntryGeneral', '意见与建议');
+    // 支持卡片也要在守卫之前重建 —— 面板从未打开过时 built 仍是 false，
+    // 放在守卫后面就会漏掉，卡片永远停在第一个语言（和入口按钮同一个坑）
+    if ($('supportCard')) buildSupport();
     const fab0 = $('btnFeedbackFab');
     if (fab0) {
       fab0.textContent = '💬 ' + t('fbFab', '反馈');
@@ -120,7 +123,6 @@
     }
     if (!built) return;
     syncHidden();          // 类型名随语言变，主题里的 kindLabel 也要跟着变
-    if ($('supportCard')) buildSupport();   // 卡片文案也要跟着切
     const set = (id, k, fb) => { const e = $(id); if (e) e.textContent = t(k, fb); };
     set('fbTitle', ctx.kind === 'article' ? 'fbTitleArticle' : 'fbTitleGeneral', '反馈与纠错');
     set('fbLead', 'fbLead', '欢迎指出错误或提出建议。信息会直接发给维护者，不会公开。');
@@ -190,7 +192,7 @@
     f.setAttribute('data-sent', '1');       // 供 open() 判断是否需要还原骨架
     f.innerHTML = '<div class="fb-ok"><div class="fb-ok-ic">✓</div>'
       + '<p class="fb-ok-t">' + esc(t('fbSent', '已发送，谢谢！')) + '</p>'
-      + '<p class="fb-note">' + esc(t('fbSentNote', '你的反馈已直接送达维护者，不会公开。')) + '</p>'
+      + '<p class="fb-note">' + esc(t('fbSentNote', '感谢反馈。内容会直接送给维护者，不会公开。')) + '</p>'
       + '<button class="fb-cancel" type="button" id="fbDone">' + esc(t('fbCloseBtn', '关闭')) + '</button></div>';
     const d = $('fbDone');
     if (d) d.addEventListener('click', close);
