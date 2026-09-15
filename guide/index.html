@@ -27,7 +27,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Kyudai Guide">
 
-<link rel="stylesheet" href="css/style.css?v=20260915k">
+<link rel="stylesheet" href="css/style.css?v=20260915l">
 </head>
 <body>
 <div id="app">
@@ -60,6 +60,9 @@
 
     <!-- 指南：12 品类 -->
     <section id="pane-guide" class="pane">
+      <!-- 状态条：今日来访 / 下一件大事 / 福冈天气 / 阅读打卡。
+           四条都是纯增强 —— 任一条拿不到数据就整条隐藏，不留空壳。 -->
+      <div id="pulse" class="pulse" hidden></div>
       <!-- 宫格视图 -->
       <!-- 🆕 新生专区：服务"刚到日本"的人 —— 不复制正文，只把散在各篇的关键步骤
            按时间顺序串起来，每条用 ?sec=<区块ID> 深链到对应小节。
@@ -207,21 +210,22 @@
   </div>
 </div>
 
-<script src="js/data-newcomer-zone.js?v=20260915k"></script>
+<script src="js/data-newcomer-zone.js?v=20260915l"></script>
 <script src="js/data-categories.js?v=20260902"></script>
 <script src="js/data-faculties.js?v=20260902"></script>
-<script src="js/data-articles.js?v=20260915k"></script>
-<script src="js/articles-i18n.js?v=20260915k"></script>
+<script src="js/data-articles.js?v=20260915l"></script>
+<script src="js/articles-i18n.js?v=20260915l"></script>
 <!-- articles-body-i18n.js 不在这里加载：它是全站最大的一个文件（gzip 约 165KB），
      而中文读者一个字节都用不上。改由 app.js 的 ensureBodyI18N() 在非中文时按需并行拉。 -->
 <script src="js/data-cunli.js?v=20260904"></script>
 <script src="js/cunli-utils.js?v=20260906"></script>
 <script src="js/cunli-export.js?v=20260910"></script>
-<script src="js/i18n.js?v=20260915k"></script>
+<script src="js/i18n.js?v=20260915l"></script>
 <script src="js/render.js?v=20260902"></script>
 <script src="js/bus-live.js?v=20260902"></script>
-<script src="js/search.js?v=20260915k"></script>
-<script src="js/app.js?v=20260915k"></script>
+<script src="js/search.js?v=20260915l"></script>
+<script src="js/app.js?v=20260915l"></script>
+<script src="js/pulse.js?v=20260915l"></script>
 <script src="js/tour.js?v=20260902"></script>
 </body>
 </html>

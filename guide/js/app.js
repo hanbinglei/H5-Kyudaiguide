@@ -120,6 +120,8 @@ function applyI18N(){
   $('searchInput').placeholder=t('searchPh');
   $('mapTip').textContent=t('mapTip');
   const bt=$('btnToTop'); if(bt)bt.title=t('toTop');   // 悬浮按钮只有图标，靠 title 说明
+  // 状态条里的文案（来访人数/天气/打卡）由 pulse.js 自己管，这里叫它重算一遍
+  if(window.Pulse)window.Pulse.render();
   // 安装提示条已经显示时切语言，文案要跟着变（它是由 beforeinstallprompt 触发的，
   // 不在 renderXxx 的重绘路径上，不在这里补就会停在上一个语言）
   const ib=$('installBar');
@@ -226,6 +228,9 @@ function renderGrid(){
 function guideView(v){
   const set=(id,show)=>{const e=$(id);if(e)e.style.display=show?'':'none'};
   set('nzWrap', v==='grid');
+  // 状态条只在宫格首页出现 —— 搜索结果页和分类列表页要收起，否则今日来访/天气/打卡
+  // 四条标签会压在结果上面，把用户真正要看的东西往下推。
+  set('pulse', v==='grid');
   set('catGridWrap', v==='grid');
   set('catListWrap', v==='list');
   if(v!=='grid')set('pinnedCards',false);

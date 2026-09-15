@@ -731,3 +731,21 @@ mark{background:rgba(123,45,62,.10);color:inherit;border-radius:3px;padding:0 2p
 /* 搜索结果键盘导航：↑↓ 选、Enter 开。只加在键盘操作时，鼠标悬停不受影响 */
 .card-lite.kbd-on{border-color:var(--brand);background:#fdf7f8;
   box-shadow:0 0 0 2px rgba(123,45,62,.10)}
+
+/* ── 首页状态条（2026-09-15 第三批）──────────────────────────────
+   今日来访 / 下一件大事 / 福冈天气 / 阅读打卡。
+   四条都是「有就显示、没有就整条收起」—— 不留空壳、不占位。 */
+.pulse{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
+.pulse[hidden]{display:none}
+.pulse-i{display:inline-flex;align-items:center;gap:6px;min-width:0;
+  border:1px solid var(--line);background:var(--card);border-radius:999px;
+  padding:6px 12px;font-size:12.5px;color:#3a3a3a;line-height:1.3}
+.pulse-i .pi-ic{font-size:13px;flex:0 0 auto}
+.pulse-i b{font-weight:700;color:var(--brand)}
+/* 天气那条给一点状态色：要带伞时提示更明显 */
+.pulse-i.warn{border-color:#f0d9a8;background:#fffaf0}
+.pulse-i.warn b{color:#8a5a00}
+@media(max-width:479px){
+  .pulse{gap:6px;margin-bottom:12px}
+  .pulse-i{padding:5px 10px;font-size:12px}
+}

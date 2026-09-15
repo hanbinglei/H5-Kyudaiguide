@@ -17,9 +17,10 @@
 const fs = require('fs'), path = require('path');
 const ROOT = path.join(__dirname, '..');
 const html = fs.readFileSync(path.join(ROOT, 'guide', 'index.html'), 'utf8');
-const jsFiles = ['app.js', 'render.js', 'cunli-utils.js', 'tour.js', 'bus-live.js']
-  .map(f => path.join(ROOT, 'guide', 'js', f))
-  .filter(f => fs.existsSync(f));
+// 自动扫全部 js，不写死清单 —— 写死的清单一定会漏（新增 pulse.js 时就是）
+const jsFiles = fs.readdirSync(path.join(ROOT, 'guide', 'js'))
+  .filter(f => f.endsWith('.js'))
+  .map(f => path.join(ROOT, 'guide', 'js', f));
 const js = jsFiles.map(f => fs.readFileSync(f, 'utf8')).join('\n');
 
 // 静态 id：index.html 里的 id="..."
@@ -38,10 +39,10 @@ for (const m of js.matchAll(/\$\(\s*'([A-Za-z0-9_-]+)'\s*\)/g)) refs.add(m[1]);
 for (const m of js.matchAll(/getElementById\(\s*'([A-Za-z0-9_-]+)'\s*\)/g)) refs.add(m[1]);
 
 const missing = [...refs].filter(id => !staticIds.has(id) && !dynIds.has(id)).sort();
-console.log(`index.html 静态 id ${staticIds.size} 个 · 脚本动态 id ${dynIds.size} 个 · app.js 引用 ${refs.size} 个`);
+console.log(`index.html 静态 id ${staticIds.size} 个 · 脚本动态 id ${dynIds.size} 个 · 全站 js 引用 ${refs.size} 个`);
 if (missing.length) {
   console.log(`\n✗ 引用了不存在的 id（该段功能会静默失效）${missing.length} 个：`);
   missing.forEach(id => console.log('   ' + id));
   process.exit(1);
 }
-console.log('\n✓ app.js 引用的 DOM id 全部存在');
+console.log('\n✓ 全站 js 引用的 DOM id 全部存在');
