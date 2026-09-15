@@ -18,7 +18,10 @@
 (function () {
   'use strict';
 
-  const ENDPOINT = 'https://formsubmit.co/kyudaiguide@gmail.com';
+  // 后端地址。留空 = 功能未启用：入口按钮不显示、open() 直接返回。
+  // 这样「后端没配好却能被读者点到」在结构上就不可能发生 ——
+  // FormSubmit 那次就是这么栽的：页面能点、显示成功，但信根本发不出去。
+  const ENDPOINT = '';
   const SUBJECT_TAG = '[KyudaiGuide]';
   const $ = (id) => document.getElementById(id);
   const I18N = window.GuideI18N || {};
@@ -31,6 +34,8 @@
 
   let built = false;
   let ctx = { kind: 'general', title: '' };
+
+  function enabled() { return !!ENDPOINT; }
 
   function build() {
     if (built) return;
@@ -124,6 +129,7 @@
   }
 
   function open(kind, title) {
+    if (!enabled()) return;
     build();
     ctx = { kind: kind || 'general', title: title || '' };
     syncHidden();
@@ -141,6 +147,13 @@
 
   /** 绑定入口：文章底部的「报告有误」与指南页的「意见与建议」 */
   function init() {
+    // 后端没配好就整块撤下：留着「能点但送不到」比没有更糟 ——
+    // 读者会以为报过了，维护者却什么都没收到。
+    if (!enabled()) {
+      const hide = (id) => { const e = $(id); if (e) e.hidden = true; };
+      hide('btnReportArticle'); hide('btnFeedback');
+      return;
+    }
     relabel();                                   // 不依赖面板是否已打开
     const a = $('btnReportArticle');
     if (a) a.addEventListener('click', () => open('article', (window.__fbArticleTitle || '')));

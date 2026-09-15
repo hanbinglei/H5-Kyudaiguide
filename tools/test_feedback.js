@@ -55,7 +55,7 @@ function parseInto(html, registry) {
   }
 }
 
-function boot(lang, href) {
+function boot(lang, href, endpoint) {
   const registry = {};
   // index.html 里的两个入口按钮先预置（它们不在 JS 创建的 DOM 里）。
   // 它们真实存在这件事由 tools/check_dom_ids.js 保证，这里只补上 shim。
@@ -89,7 +89,12 @@ function boot(lang, href) {
   const ctx = vm.createContext(sb);
   ctx.window = ctx;
   for (const f of ['i18n.js', 'feedback.js']) {
-    vm.runInContext(fs.readFileSync(path.join(ROOT, 'guide', 'js', f), 'utf8'), ctx, { filename: f });
+    let src = fs.readFileSync(path.join(ROOT, 'guide', 'js', f), 'utf8');
+    // endpoint 参数用于注入测试用后端；不传则保持源码原样（= 未配置状态）
+    if (f === 'feedback.js' && endpoint) {
+      src = src.replace(/const ENDPOINT = '[^']*';/, "const ENDPOINT = '" + endpoint + "';");
+    }
+    vm.runInContext(src, ctx, { filename: f });
   }
   ctx.GuideI18N.setLang(lang || 'zh');
   return { ctx, reg: registry };
@@ -99,7 +104,7 @@ const wrapOf = (reg) => reg.fbWrap;
 
 console.log('=== ① action 与隐私：绝不能出现个人邮箱 ===');
 {
-  const { ctx, reg } = boot();
+  const { ctx, reg } = boot('zh', null, 'https://example.test/form');
   ctx.Feedback.open('general', '');            // build() 是懒加载，必须先 open
   const w = wrapOf(reg);
   ok(!!w, '面板已创建', w ? '' : 'null');
@@ -107,15 +112,27 @@ console.log('=== ① action 与隐私：绝不能出现个人邮箱 ===');
   const src = fs.readFileSync(path.join(ROOT, 'guide', 'js', 'feedback.js'), 'utf8');
   const m = /const ENDPOINT\s*=\s*'([^']+)'/.exec(src);
   const endpoint = m ? m[1] : '';
-  console.log('     ENDPOINT = ' + endpoint);
-  ok(/^https:\/\/formsubmit\.co\/[^/]+@[^/]+$/.test(endpoint), '是 formsubmit.co 的地址');
-  ok(/kyudaiguide@gmail\.com$/.test(endpoint), '收件人是 kyudaiguide@gmail.com');
-  ok(!/126\.com|qq\.com|163\.com|jingpenghan/i.test(endpoint), '不含个人邮箱');
+  ok(endpoint === '', '源码里的 ENDPOINT 目前是空的（后端未配 → 功能自动撤下）', JSON.stringify(endpoint));
+  console.log('     源码 ENDPOINT = ' + JSON.stringify(endpoint) + '（换后端时在这里填）');
+  const injEp = 'https://script.google.com/macros/s/AKfycbTEST/exec';
+  // 只检查 ENDPOINT 这个值本身 —— 扫整个文件会把注释里提到的「126 的分类规则」误判成泄漏
+  ok(/script\.google\.com/.test(injEp), '可注入 Apps Script 地址（换后端无需改结构）');
+  ok(!/126\.com|qq\.com|jingpenghan/i.test(injEp), '注入后 URL 里不含个人邮箱');
+}
+
+console.log('\n=== ①b 后端未配置时：入口撤下、open() 无效 ===');
+{
+  const { ctx, reg } = boot('zh');              // 不注入 endpoint → 保持未配置
+  ctx.Feedback.init();
+  ok(reg.btnReportArticle.hidden === true, '纠错入口被隐藏', String(reg.btnReportArticle.hidden));
+  ok(reg.btnFeedback.hidden === true, '综合入口被隐藏', String(reg.btnFeedback.hidden));
+  ctx.Feedback.open('article', '租房');
+  ok(reg.fbWrap === undefined || reg.fbWrap.hidden === true, 'open() 不打开面板');
 }
 
 console.log('\n=== ② 蜜罐与模板 ===');
 {
-  const { ctx, reg } = boot();
+  const { ctx, reg } = boot('zh', null, 'https://example.test/form');
   ctx.Feedback.open('general', '');
   ok(!!reg['@_honey'], '蜜罐字段 _honey 存在');
   ok(reg['@_template'] && reg['@_template'].value === 'table', '邮件模板 = table', reg['@_template'] && reg['@_template'].value);
@@ -125,7 +142,7 @@ console.log('\n=== ② 蜜罐与模板 ===');
 
 console.log('\n=== ③ 提交时 _subject 必须带 [KyudaiGuide] 标记 ===');
 {
-  const { ctx, reg } = boot('zh');
+  const { ctx, reg } = boot('zh', null, 'https://example.test/form');
   ctx.Feedback.open('article', '租房');
   reg.fbForm._ev.submit();                     // 触发提交前处理器
   const subj = reg['@_subject'].value;
@@ -141,7 +158,7 @@ console.log('\n=== ③b open() 之后就必须填好 hidden（不依赖 submit �
 {
   // 程序化 form.submit() 不派发 submit 事件 —— 只把赋值挂在 submit 上，
   // 这样提交出去的邮件主题就不带标记，126 的分类规则收不到。实测踩到过。
-  const { ctx, reg } = boot('zh');
+  const { ctx, reg } = boot('zh', null, 'https://example.test/form');
   ctx.Feedback.open('article', '在留手续');
   const subj = reg['@_subject'].value;
   ok(!!subj, 'open() 后 _subject 已有值（未触发 submit）', JSON.stringify(subj));
@@ -152,7 +169,7 @@ console.log('\n=== ③b open() 之后就必须填好 hidden（不依赖 submit �
 
 console.log('\n=== ④ 综合反馈（无文章）也能用 ===');
 {
-  const { ctx, reg } = boot('zh');
+  const { ctx, reg } = boot('zh', null, 'https://example.test/form');
   ctx.Feedback.open('general', '');
   reg.fbForm._ev.submit();
   const subj = reg['@_subject'].value;
@@ -164,7 +181,7 @@ console.log('\n=== ④ 综合反馈（无文章）也能用 ===');
 
 console.log('\n=== ⑤ 四语文案 ===');
 for (const [L, want] of [['ja', /問題を報告/], ['en', /Report a problem/], ['ko', /문제 신고/]]) {
-  const { ctx, reg } = boot(L);
+  const { ctx, reg } = boot(L, null, 'https://example.test/form');
   ctx.Feedback.open('article', 'x');
   const title = (reg.fbTitle || {}).textContent || '';
   ok(want.test(title), L + ' 面板标题', title);
@@ -176,7 +193,7 @@ console.log('\n=== ⑤c 面板未打开时入口按钮也必须有文字（懒�
 {
   // 面板是懒加载的：不点开就不 build。若把入口按钮的文案放在 build 守卫之后，
   // 读者第一次看到的就是两个空白按钮 —— 实测线上就是这个症状。
-  const { ctx, reg } = boot('zh');
+  const { ctx, reg } = boot('zh', null, 'https://example.test/form');
   ctx.Feedback.init();                          // 只初始化，不 open
   const a = reg.btnReportArticle, g = reg.btnFeedback;
   ok(a.textContent && a.textContent.trim().length > 0, '未打开面板时纠错入口有文字', JSON.stringify(a.textContent));
@@ -187,7 +204,7 @@ console.log('\n=== ⑤c 面板未打开时入口按钮也必须有文字（懒�
 
 console.log('\n=== ⑥ 入口按钮的文案随语言重算 ===');
 {
-  const { ctx, reg } = boot('zh');
+  const { ctx, reg } = boot('zh', null, 'https://example.test/form');
   ctx.Feedback.open('general', '');
   const a = reg.btnReportArticle, g = reg.btnFeedback;
   ok(!!a && !!g, '两个入口按钮都在 DOM 里（check_dom_ids 也会兜底）');
