@@ -159,6 +159,19 @@ for (const [L, want] of [['ja', /問題を報告/], ['en', /Report a problem/], 
   ok((reg.fbType || {}).selectedIndex === 0, L + ' 类型下拉的选中项有效');
 }
 
+console.log('\n=== ⑤c 面板未打开时入口按钮也必须有文字（懒加载的坑） ===');
+{
+  // 面板是懒加载的：不点开就不 build。若把入口按钮的文案放在 build 守卫之后，
+  // 读者第一次看到的就是两个空白按钮 —— 实测线上就是这个症状。
+  const { ctx, reg } = boot('zh');
+  ctx.Feedback.init();                          // 只初始化，不 open
+  const a = reg.btnReportArticle, g = reg.btnFeedback;
+  ok(a.textContent && a.textContent.trim().length > 0, '未打开面板时纠错入口有文字', JSON.stringify(a.textContent));
+  ok(g.textContent && g.textContent.trim().length > 0, '未打开面板时综合入口有文字', JSON.stringify(g.textContent));
+  ctx.GuideI18N.setLang('ja'); ctx.Feedback.relabel();
+  ok(/誤りを見つけたら/.test(a.textContent), '此时切语言也能跟着变', a.textContent);
+}
+
 console.log('\n=== ⑥ 入口按钮的文案随语言重算 ===');
 {
   const { ctx, reg } = boot('zh');

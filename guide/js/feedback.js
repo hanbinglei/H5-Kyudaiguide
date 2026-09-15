@@ -82,6 +82,14 @@
 
   /** 按当前语言重写全部文案（切语言时由 applyI18N 调用） */
   function relabel() {
+    // ⚠️ 入口按钮的文字必须在 build 守卫**之前**设置。
+    // 面板是懒加载（只有点开过才 build），把这两行放在守卫之后就变成：
+    // 读者在第一次点开面板之前，看到的是两个**空白按钮** —— 实测踩到过。
+    // 凡是「非面板自身的文案」，都要放在这道守卫之前。
+    const ra0 = $('btnReportArticle');
+    if (ra0) ra0.textContent = t('fbEntryArticle', '发现错误？点这里报告');
+    const gf0 = $('btnFeedback');
+    if (gf0) gf0.textContent = t('fbEntryGeneral', '意见与建议');
     if (!built) return;
     const set = (id, k, fb) => { const e = $(id); if (e) e.textContent = t(k, fb); };
     set('fbTitle', ctx.kind === 'article' ? 'fbTitleArticle' : 'fbTitleGeneral', '反馈与纠错');
@@ -104,11 +112,6 @@
       const row = t2;
       row.value = ctx.title || '';
     }
-    // 两个入口按钮的文字也在语言切换范围内（它们不是 renderXxx 路径渲染的）
-    const ra = $('btnReportArticle');
-    if (ra) ra.textContent = t('fbEntryArticle', '发现错误？点这里报告');
-    const gf = $('btnFeedback');
-    if (gf) gf.textContent = t('fbEntryGeneral', '意见与建议');
   }
 
   function open(kind, title) {
@@ -128,6 +131,7 @@
 
   /** 绑定入口：文章底部的「报告有误」与指南页的「意见与建议」 */
   function init() {
+    relabel();                                   // 不依赖面板是否已打开
     const a = $('btnReportArticle');
     if (a) a.addEventListener('click', () => open('article', (window.__fbArticleTitle || '')));
     const g = $('btnFeedback');
