@@ -18,10 +18,10 @@
 (function () {
   'use strict';
 
-  // 后端地址。留空 = 功能未启用：入口按钮不显示、open() 直接返回。
-  // 这样「后端没配好却能被读者点到」在结构上就不可能发生 ——
-  // FormSubmit 那次就是这么栽的：页面能点、显示成功，但信根本发不出去。
-  const ENDPOINT = '';
+  // 后端地址 = Google Apps Script 网页应用（源码见 tools/apps-script/feedback-endpoint.gs）。
+  // 它写 Google Sheet + 用账号自己的 Gmail 发通知到 126（主题带 [KyudaiGuide] 标记，
+  // 126 的分类规则据此归档）。留空 = 功能未启用：入口不显示、open() 直接返回。
+  const ENDPOINT = 'https://script.google.com/macros/s/AKfycbyO88MWkC8Uwwv7iMQ3lVstjO_0EyZN56NriuZAXWLfS-4HOgJ-E6vKkYQ2SuqRaAKa/exec';
   const SUBJECT_TAG = '[KyudaiGuide]';
   const $ = (id) => document.getElementById(id);
   const I18N = window.GuideI18N || {};
@@ -74,8 +74,27 @@
     $('fbCancel').addEventListener('click', close);
     wrap.addEventListener('click', (e) => { if (e.target === wrap) close(); });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !wrap.hidden) close(); });
-    // 提交前再刷一次（URL 可能在面板打开后变了）
-    $('fbForm').addEventListener('submit', syncHidden);
+    // 站内提交：普通表单 POST 会把读者带到 Google 的裸 JSON 页面（script.googleusercontent.com），
+    // 体验很差。改用 no-cors fetch 原地发送，成功后自己给提示。
+    // 代价：no-cors 的响应是 opaque 的，客户端**无法判断是否真的成功** ——
+    // 所以文案不写「已送达」，只写「已发送」，并另给一个直接发信的兜底地址。
+    $('fbForm').addEventListener('submit', (ev) => {
+      ev.preventDefault();
+      syncHidden();
+      const form = $('fbForm');
+      const btn = $('fbSend');
+      if (btn) { btn.disabled = true; btn.textContent = t('fbSending', '发送中…'); }
+      let body;
+      try { body = new URLSearchParams(new FormData(form)); }
+      catch (e) { form.submit(); return; }            // 老浏览器退回普通提交
+      fetch(ENDPOINT, { method: 'POST', mode: 'no-cors', body: body })
+        .then(() => sent_())
+        .catch(() => {
+          if (btn) { btn.disabled = false; btn.textContent = t('fbSend', '发送'); }
+          const n = $('fbNote');
+          if (n) n.textContent = t('fbFailed', '发送失败，请检查网络后重试。');
+        });
+    });
     built = true;
   }
 
@@ -137,6 +156,18 @@
     $('fbWrap').hidden = false;
     document.body.classList.add('fb-open');
     try { $('fbMsg').focus(); } catch (e) { /* 忽略 */ }
+  }
+
+  /** 成功态：把表单换成一句确认，并给一个直接发信的兜底 */
+  function sent_() {
+    const f = $('fbForm');
+    if (!f) return;
+    f.innerHTML = '<div class="fb-ok"><div class="fb-ok-ic">✓</div>'
+      + '<p class="fb-ok-t">' + esc(t('fbSent', '已发送，谢谢！')) + '</p>'
+      + '<p class="fb-note">' + esc(t('fbSentNote', '你的反馈已直接送达维护者，不会公开。')) + '</p>'
+      + '<button class="fb-cancel" type="button" id="fbDone">' + esc(t('fbCloseBtn', '关闭')) + '</button></div>';
+    const d = $('fbDone');
+    if (d) d.addEventListener('click', close);
   }
 
   function close() {

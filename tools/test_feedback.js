@@ -85,13 +85,17 @@ function boot(lang, href, endpoint) {
     location: { href: href || 'https://hanbinglei.github.io/H5-Kyudaiguide/guide/#article/guide-housing' },
     __registry: registry,
   };
+  sb.__fetches = [];
+  sb.fetch = (url, opts) => { sb.__fetches.push({ url: url, opts: opts || {} }); return Promise.resolve({}); };
+  sb.URLSearchParams = URLSearchParams;
+  sb.FormData = function () {};                 // 只用于构造，内容不断言
   sb.window = sb;
   const ctx = vm.createContext(sb);
   ctx.window = ctx;
   for (const f of ['i18n.js', 'feedback.js']) {
     let src = fs.readFileSync(path.join(ROOT, 'guide', 'js', f), 'utf8');
     // endpoint 参数用于注入测试用后端；不传则保持源码原样（= 未配置状态）
-    if (f === 'feedback.js' && endpoint) {
+    if (f === 'feedback.js' && endpoint !== undefined) {
       src = src.replace(/const ENDPOINT = '[^']*';/, "const ENDPOINT = '" + endpoint + "';");
     }
     vm.runInContext(src, ctx, { filename: f });
@@ -102,6 +106,7 @@ function boot(lang, href, endpoint) {
 
 const wrapOf = (reg) => reg.fbWrap;
 
+(async () => {
 console.log('=== ① action 与隐私：绝不能出现个人邮箱 ===');
 {
   const { ctx, reg } = boot('zh', null, 'https://example.test/form');
@@ -112,17 +117,16 @@ console.log('=== ① action 与隐私：绝不能出现个人邮箱 ===');
   const src = fs.readFileSync(path.join(ROOT, 'guide', 'js', 'feedback.js'), 'utf8');
   const m = /const ENDPOINT\s*=\s*'([^']+)'/.exec(src);
   const endpoint = m ? m[1] : '';
-  ok(endpoint === '', '源码里的 ENDPOINT 目前是空的（后端未配 → 功能自动撤下）', JSON.stringify(endpoint));
-  console.log('     源码 ENDPOINT = ' + JSON.stringify(endpoint) + '（换后端时在这里填）');
-  const injEp = 'https://script.google.com/macros/s/AKfycbTEST/exec';
-  // 只检查 ENDPOINT 这个值本身 —— 扫整个文件会把注释里提到的「126 的分类规则」误判成泄漏
-  ok(/script\.google\.com/.test(injEp), '可注入 Apps Script 地址（换后端无需改结构）');
-  ok(!/126\.com|qq\.com|jingpenghan/i.test(injEp), '注入后 URL 里不含个人邮箱');
+  ok(/^https:\/\/script\.google\.com\/macros\/s\/[A-Za-z0-9_-]+\/exec$/.test(endpoint),
+     '源码 ENDPOINT 是 Apps Script 网页应用地址', endpoint.slice(0, 70) + '…');
+  ok(!/126\.com|qq\.com|jingpenghan/i.test(endpoint), 'ENDPOINT 里不含个人邮箱');
+  console.log('     源码 ENDPOINT = ' + endpoint.slice(0, 62) + '…');
+  ok(/exec$/.test(endpoint), '地址以 /exec 结尾（Apps Script 网页应用的正确形态）');
 }
 
 console.log('\n=== ①b 后端未配置时：入口撤下、open() 无效 ===');
 {
-  const { ctx, reg } = boot('zh');              // 不注入 endpoint → 保持未配置
+  const { ctx, reg } = boot('zh', null, '');    // 显式注入空 endpoint → 未启用
   ctx.Feedback.init();
   ok(reg.btnReportArticle.hidden === true, '纠错入口被隐藏', String(reg.btnReportArticle.hidden));
   ok(reg.btnFeedback.hidden === true, '综合入口被隐藏', String(reg.btnFeedback.hidden));
@@ -144,7 +148,7 @@ console.log('\n=== ③ 提交时 _subject 必须带 [KyudaiGuide] 标记 ===');
 {
   const { ctx, reg } = boot('zh', null, 'https://example.test/form');
   ctx.Feedback.open('article', '租房');
-  reg.fbForm._ev.submit();                     // 触发提交前处理器
+  reg.fbForm._ev.submit({ preventDefault() {} });   // 触发提交前处理器
   const subj = reg['@_subject'].value;
   console.log('     _subject = ' + JSON.stringify(subj));
   ok(subj.indexOf('[KyudaiGuide]') === 0, '以 [KyudaiGuide] 开头', subj);
@@ -167,11 +171,26 @@ console.log('\n=== ③b open() 之后就必须填好 hidden（不依赖 submit �
   ok(reg['@article'].value === '在留手续', 'open() 后 article 已填', reg['@article'].value);
 }
 
+console.log('\n=== ③c 提交走站内 fetch（不跳转到 Google 的裸 JSON 页） ===');
+{
+  const { ctx, reg, sb } = (function () { const b = boot('zh', null, 'https://script.google.com/macros/s/TEST/exec'); return { ...b, sb: b.ctx }; })();
+  ctx.Feedback.open('article', '租房');
+  reg.fbForm._ev.submit({ preventDefault() {}, });
+  await new Promise((r) => setTimeout(r, 30));
+  const calls = ctx.__fetches || [];
+  ok(calls.length === 1, '提交触发了一次 fetch', calls.length + ' 次');
+  ok(calls[0] && calls[0].url === 'https://script.google.com/macros/s/TEST/exec', '打到 ENDPOINT', calls[0] && calls[0].url);
+  ok(calls[0] && calls[0].opts && calls[0].opts.method === 'POST', '方法是 POST');
+  ok(calls[0] && calls[0].opts && calls[0].opts.mode === 'no-cors', 'mode=no-cors（否则会被 CORS 拦）');
+  await new Promise((r) => setTimeout(r, 30));
+  ok(/已发送/.test(reg.fbForm.innerHTML || ''), '成功后表单换成确认文案', (reg.fbForm.innerHTML || '').slice(0, 60));
+}
+
 console.log('\n=== ④ 综合反馈（无文章）也能用 ===');
 {
   const { ctx, reg } = boot('zh', null, 'https://example.test/form');
   ctx.Feedback.open('general', '');
-  reg.fbForm._ev.submit();
+  reg.fbForm._ev.submit({ preventDefault() {} });
   const subj = reg['@_subject'].value;
   console.log('     _subject = ' + JSON.stringify(subj));
   ok(subj.indexOf('[KyudaiGuide]') === 0, '仍以标记开头', subj);
@@ -218,3 +237,4 @@ console.log('\n=== ⑥ 入口按钮的文案随语言重算 ===');
 
 console.log('\n' + (fail ? '✗ ' + fail + ' 项未通过' : '✓ 全部通过'));
 process.exit(fail ? 1 : 0);
+})();
