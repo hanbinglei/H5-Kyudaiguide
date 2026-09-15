@@ -33,7 +33,9 @@
   const TYPES = ['fbTypeWrong', 'fbTypeLink', 'fbTypeStale', 'fbTypeAdd', 'fbTypeOther'];
 
   let built = false;
-  let ctx = { kind: 'general', title: '' };
+  let ctx = { kind: 'general', title: '', source: '' };
+  let formHTML = '';      // 表单初始骨架，用于成功态之后重置
+  let trigger = null;     // 打开面板的那个按钮，关闭时把焦点还回去
 
   function enabled() { return !!ENDPOINT; }
 
@@ -56,6 +58,7 @@
       + '<input type="hidden" name="_template" value="table">'
       + '<input type="hidden" name="page" id="fbPage">'
       + '<input type="hidden" name="article" id="fbArticle">'
+      + '<input type="hidden" name="source" id="fbSource">'
       + '<label class="fb-lb" for="fbType" id="fbTypeLb"></label>'
       + '<select class="fb-in" name="type" id="fbType">'
       + TYPES.map((k) => '<option value="' + esc(t(k, k)) + '">' + esc(t(k, k)) + '</option>').join('')
@@ -69,6 +72,7 @@
       + '<button class="fb-cancel" type="button" id="fbCancel"></button></div>'
       + '</form></div>';
     document.body.appendChild(wrap);
+    formHTML = $('fbForm').innerHTML;      // 存骨架，成功态之后要还原
 
     $('fbClose').addEventListener('click', close);
     $('fbCancel').addEventListener('click', close);
@@ -108,8 +112,15 @@
     if (ra0) ra0.textContent = t('fbEntryArticle', '发现错误？点这里报告');
     const gf0 = $('btnFeedback');
     if (gf0) gf0.textContent = t('fbEntryGeneral', '意见与建议');
+    const fab0 = $('btnFeedbackFab');
+    if (fab0) {
+      fab0.textContent = '💬 ' + t('fbFab', '反馈');
+      fab0.title = t('fbFabTitle', '反馈与纠错');
+      fab0.setAttribute('aria-label', t('fbFabTitle', '反馈与纠错'));
+    }
     if (!built) return;
     syncHidden();          // 类型名随语言变，主题里的 kindLabel 也要跟着变
+    if ($('supportCard')) buildSupport();   // 卡片文案也要跟着切
     const set = (id, k, fb) => { const e = $(id); if (e) e.textContent = t(k, fb); };
     set('fbTitle', ctx.kind === 'article' ? 'fbTitleArticle' : 'fbTitleGeneral', '反馈与纠错');
     set('fbLead', 'fbLead', '欢迎指出错误或提出建议。信息会直接发给维护者，不会公开。');
@@ -143,14 +154,28 @@
     const sub = $('fbSubject'), nxt = $('fbNext'), pg = $('fbPage'), ar = $('fbArticle');
     if (sub) sub.value = SUBJECT_TAG + ' ' + kindLabel + (ctx.title ? ' - ' + ctx.title : '');
     if (nxt) nxt.value = location.href.split('#')[0] + '#guide';
-    if (pg) pg.value = location.href;
+    // page 里带上入口来源。为什么拼在 page 上：那头的 Apps Script 字段是写死的，
+    // 新加字段要重新部署脚本；拼进来则**当前部署立刻就能看到是哪个入口提交的**。
+    // 同时另发一个独立的 source 字段（语言中立 token），等脚本升级后可直接用。
+    if (pg) pg.value = location.href + (ctx.source ? '  ｜ 来源: ' + ctx.source : '');
     if (ar) ar.value = ctx.title || '';
+    const sc = $('fbSource');
+    if (sc) sc.value = ctx.source || '';
   }
 
-  function open(kind, title) {
+  function open(kind, title, source) {
     if (!enabled()) return;
     build();
-    ctx = { kind: kind || 'general', title: title || '' };
+    // 上次提交成功过 → 面板里留着的是成功态（0 个表单字段）。
+    // 不还原的话，读者关闭后再打开就再也提交不了第二次，只能刷新页面。
+    const form = $('fbForm');
+    if (form && form.getAttribute('data-sent') === '1') {
+      form.innerHTML = formHTML;
+      form.removeAttribute('data-sent');
+    }
+    trigger = (document.activeElement && document.activeElement.tagName === 'BUTTON')
+      ? document.activeElement : null;
+    ctx = { kind: kind || 'general', title: title || '', source: source || '' };
     syncHidden();
     relabel();
     $('fbWrap').hidden = false;
@@ -162,6 +187,7 @@
   function sent_() {
     const f = $('fbForm');
     if (!f) return;
+    f.setAttribute('data-sent', '1');       // 供 open() 判断是否需要还原骨架
     f.innerHTML = '<div class="fb-ok"><div class="fb-ok-ic">✓</div>'
       + '<p class="fb-ok-t">' + esc(t('fbSent', '已发送，谢谢！')) + '</p>'
       + '<p class="fb-note">' + esc(t('fbSentNote', '你的反馈已直接送达维护者，不会公开。')) + '</p>'
@@ -174,6 +200,58 @@
     const w = $('fbWrap');
     if (w) w.hidden = true;
     document.body.classList.remove('fb-open');
+    // 把焦点还给打开面板的那个按钮 —— 否则键盘用户按 Esc 关闭后
+    // 焦点掉到 body 上，再想按 Tab 得从头走一遍整个页面。
+    if (trigger && trigger.focus) { try { trigger.focus(); } catch (e) { /* 元素可能已不在 */ } }
+    trigger = null;
+  }
+
+  const REPO = 'https://github.com/hanbinglei/H5-Kyudaiguide';
+
+  /** 「支持这个项目」卡片：GitHub star + 复制链接分享。
+   *  放在指南页底部（一页只出现一次，不像文章页那样每篇都推，避免打扰）。 */
+  function buildSupport() {
+    const box = $('supportCard');
+    if (!box || !enabled()) return;
+    box.innerHTML =
+      '<div class="sup-t">' + esc(t('supportTitle', '这份指南帮到你了吗？')) + '</div>'
+      + '<p class="sup-note">' + esc(t('supportNote', '你的支持会直接决定接下来优先更新哪部分。')) + '</p>'
+      + '<div class="sup-acts">'
+      + '<a class="sup-btn sup-star" href="' + REPO + '" target="_blank" rel="noopener">'
+      + '<span class="sup-ic">★</span>' + esc(t('supportStar', '在 GitHub 上点个 star')) + '</a>'
+      + '<button class="sup-btn" type="button" id="supShare">'
+      + '<span class="sup-ic">🔗</span>' + esc(t('supportShare', '复制链接分享给同学')) + '</button>'
+      + '</div>';
+    box.hidden = false;
+    const sh = $('supShare');
+    if (!sh) return;
+    const base = sh.innerHTML;
+    sh.addEventListener('click', () => {
+      const url = location.origin + location.pathname;
+      const done = () => {
+        sh.innerHTML = '<span class="sup-ic">✓</span>' + esc(t('supportCopied', '已复制链接'));
+        setTimeout(() => { sh.innerHTML = base; }, 2200);
+      };
+      // 优先用 Clipboard API；它需要安全上下文与用户手势，失败时退回 execCommand
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(done, () => fbLegacyCopy_(url) && done());
+      } else if (fbLegacyCopy_(url)) done();
+    });
+  }
+
+  /** 老浏览器/非安全上下文的复制兜底 */
+  function fbLegacyCopy_(text) {
+    try {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed';
+      ta.style.left = '-9999px';
+      document.body.appendChild(ta);
+      ta.select();
+      const ok = document.execCommand('copy');
+      document.body.removeChild(ta);
+      return ok;
+    } catch (e) { return false; }
   }
 
   /** 绑定入口：文章底部的「报告有误」与指南页的「意见与建议」 */
@@ -182,15 +260,24 @@
     // 读者会以为报过了，维护者却什么都没收到。
     if (!enabled()) {
       const hide = (id) => { const e = $(id); if (e) e.hidden = true; };
-      hide('btnReportArticle'); hide('btnFeedback');
+      hide('btnReportArticle'); hide('btnFeedback'); hide('btnFeedbackFab');
+      const sc = $('supportCard'); if (sc) sc.hidden = true;
       return;
     }
     relabel();                                   // 不依赖面板是否已打开
+    buildSupport();                              // 「支持这个项目」卡片（指南页底部）
+    // 来源 token 用语言中立的英文短标识，直接进邮件与表格，便于统计哪个入口有用
     const a = $('btnReportArticle');
-    if (a) a.addEventListener('click', () => open('article', (window.__fbArticleTitle || '')));
+    if (a) a.addEventListener('click', () => open('article', (window.__fbArticleTitle || ''), 'article-footer'));
     const g = $('btnFeedback');
-    if (g) g.addEventListener('click', () => open('general', ''));
+    if (g) g.addEventListener('click', () => open('general', '', 'grid-footer'));
+    const fab = $('btnFeedbackFab');
+    if (fab) fab.addEventListener('click', () => {
+      const art = window.__fbArticleTitle || '';
+      open(art ? 'article' : 'general', art, 'article-fab');
+    });
   }
 
-  window.Feedback = { init: init, open: open, close: close, relabel: relabel, syncHidden: syncHidden, ENDPOINT: ENDPOINT, SUBJECT_TAG: SUBJECT_TAG };
+  window.Feedback = { init: init, open: open, close: close, relabel: relabel, syncHidden: syncHidden,
+  buildSupport: buildSupport, REPO: REPO, ENDPOINT: ENDPOINT, SUBJECT_TAG: SUBJECT_TAG };
 })();

@@ -27,7 +27,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Kyudai Guide">
 
-<link rel="stylesheet" href="css/style.css?v=20260915v">
+<link rel="stylesheet" href="css/style.css?v=20260915w">
 </head>
 <body>
 <div id="app">
@@ -93,6 +93,7 @@
         <div id="catListArticles" class="list"></div>
       </div>
       <div id="guideEmpty" class="empty" style="display:none"></div>
+      <div class="support-card" id="supportCard" hidden></div>
       <!-- 综合反馈入口：没有具体文章时用这个 -->
       <button class="fb-entry fb-entry-wide" id="btnFeedback" type="button"></button>
     </section>
@@ -180,6 +181,9 @@
                这里给一个随滚动出现的浮动按钮。两个滚动容器都监听，
                手机是 .sheet-card、桌面 ≥1024px 是 #pane-article。 -->
           <button class="to-top" id="btnToTop" type="button" aria-label="回到顶部" hidden>↑</button>
+          <!-- 反馈悬浮按钮：阅读时始终显示（参照小程序）。放左侧，避免与右侧的回顶按钮打架。
+               在 #pane-article 内 → 随阅读页一起显隐，不需要额外的显示逻辑。 -->
+          <button class="fb-fab" id="btnFeedbackFab" type="button"></button>
           <!-- 阅读进度：细线贴在视口顶部。两个滚动容器都能触发，逻辑同回顶按钮 -->
           <div class="read-progress" id="readProgress" hidden><i></i></div>
         </section>
@@ -214,23 +218,23 @@
   </div>
 </div>
 
-<script src="js/data-newcomer-zone.js?v=20260915v"></script>
+<script src="js/data-newcomer-zone.js?v=20260915w"></script>
 <script src="js/data-categories.js?v=20260902"></script>
 <script src="js/data-faculties.js?v=20260902"></script>
-<script src="js/data-articles.js?v=20260915v"></script>
-<script src="js/articles-i18n.js?v=20260915v"></script>
+<script src="js/data-articles.js?v=20260915w"></script>
+<script src="js/articles-i18n.js?v=20260915w"></script>
 <!-- articles-body-i18n.js 不在这里加载：它是全站最大的一个文件（gzip 约 165KB），
      而中文读者一个字节都用不上。改由 app.js 的 ensureBodyI18N() 在非中文时按需并行拉。 -->
 <script src="js/data-cunli.js?v=20260904"></script>
 <script src="js/cunli-utils.js?v=20260906"></script>
 <script src="js/cunli-export.js?v=20260910"></script>
-<script src="js/i18n.js?v=20260915v"></script>
+<script src="js/i18n.js?v=20260915w"></script>
 <script src="js/render.js?v=20260902"></script>
 <script src="js/bus-live.js?v=20260902"></script>
-<script src="js/search.js?v=20260915v"></script>
-<script src="js/app.js?v=20260915v"></script>
-<script src="js/pulse.js?v=20260915v"></script>
-<script src="js/feedback.js?v=20260915v"></script>
+<script src="js/search.js?v=20260915w"></script>
+<script src="js/app.js?v=20260915w"></script>
+<script src="js/pulse.js?v=20260915w"></script>
+<script src="js/feedback.js?v=20260915w"></script>
 <script src="js/tour.js?v=20260902"></script>
 </body>
 </html>

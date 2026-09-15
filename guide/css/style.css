@@ -824,3 +824,36 @@ mark{background:rgba(123,45,62,.10);color:inherit;border-radius:3px;padding:0 2p
 .fb-ok-t{font-size:15px;font-weight:700;color:#2b2b2b;margin:0 0 6px}
 .fb-ok .fb-note{margin:0 0 16px}
 .fb-ok .fb-cancel{max-width:180px;margin:0 auto}
+
+/* 面板打开时锁住背景滚动（JS 加/去 .fb-open，此前只有类名没有规则） */
+body.fb-open{overflow:hidden}
+
+/* ── 反馈悬浮按钮（阅读时始终显示，参照小程序）──────────────────
+   放左下：右侧已有「回到顶部」，两者都固定在右下会在滚动后重叠。 */
+.fb-fab{position:fixed;left:14px;bottom:76px;z-index:40;
+  height:44px;padding:0 15px;border-radius:22px;border:1px solid var(--line);
+  background:rgba(255,255,255,.96);color:var(--brand);font-size:13px;font-weight:700;
+  font-family:inherit;cursor:pointer;display:flex;align-items:center;gap:5px;
+  box-shadow:0 6px 18px rgba(0,0,0,.16);-webkit-tap-highlight-color:transparent;
+  transition:transform .14s ease}
+.fb-fab[hidden]{display:none}
+.fb-fab:active{transform:scale(.94)}
+@media(min-width:1024px){.fb-fab{left:calc(50% - 640px + 16px);bottom:28px}}
+
+/* ── 「支持这个项目」卡片（指南页底部）─────────────────────────
+   一页只出现一次，不像文章页那样每篇都推，避免变成乞讨。 */
+.support-card{margin:22px 0 6px;padding:15px 16px;border:1px solid var(--line);
+  border-radius:12px;background:linear-gradient(180deg,#fffaf9,#fff)}
+.support-card[hidden]{display:none}
+.sup-t{font-size:14px;font-weight:700;color:#2b2b2b;margin-bottom:5px}
+.sup-note{font-size:12.5px;color:#777;line-height:1.6;margin:0 0 13px}
+.sup-acts{display:flex;flex-wrap:wrap;gap:8px}
+.sup-btn{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 14px;
+  border-radius:9px;font-size:13px;font-weight:700;cursor:pointer;text-decoration:none;
+  font-family:inherit;border:1px solid var(--line);background:#fff;color:#4a4a4a;
+  transition:border-color .15s,color .15s}
+.sup-btn:hover{border-color:var(--brand);color:var(--brand)}
+.sup-star{border-color:#f0dfae;background:#fffdf5;color:#8a6a15}
+.sup-star:hover{border-color:#d9b95c;color:#8a6a15}
+.sup-ic{font-size:14px;line-height:1}
+@media(max-width:479px){.sup-acts{gap:6px}.sup-btn{flex:1;justify-content:center;font-size:12.5px}}
