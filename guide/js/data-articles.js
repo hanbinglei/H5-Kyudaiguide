@@ -1,7 +1,7 @@
 // data-articles.js — 12 篇主指南（cat 1–12）+ 置顶反诈（cat 13）
 // 由 tools/build_guide_articles.js 从 content/ 生成，勿手改。
 // **要改内容请改 content/<article>.json**，然后重跑构建。
-// 共 17 篇 · 717 块
+// 共 17 篇 · 727 块
 //
 // ⚠️ 这里不写生成日期。CI 的做法是「重跑构建 → git diff 必须为空」，
 //    用来抓「改了 content/ 却忘了重跑」。而日期戳会让产物每天都不一样，
@@ -1871,6 +1871,87 @@ window.ARTICLES = [
     "id": "d3cc3b",
     "type": "paragraph",
     "text": "eSIM **可能因机型不兼容而无法正常使用**，首次办理建议优先选实体 SIM，或另备一张实体卡以防万一。"
+   },
+   {
+    "id": "e1b701",
+    "type": "heading",
+    "level": 2,
+    "text": "家里的网络"
+   },
+   {
+    "id": "e1b702",
+    "type": "paragraph",
+    "text": "宿舍和自租房的网络情况完全不同：宿舍不含网络，要自己签约；自租房则要先确认能不能施工。"
+   },
+   {
+    "id": "e1b703",
+    "type": "heading",
+    "level": 2,
+    "text": "宿舍：网络要自己签"
+   },
+   {
+    "id": "e1b704",
+    "type": "paragraph",
+    "text": "学生宿舍（含伊都協奏館）**不含网络**。要上网需与指定运营商签约，校方公布的参考价是**每月 2,000 円左右**。"
+   },
+   {
+    "id": "e1b705",
+    "type": "list",
+    "items": [
+     {
+      "text": "伊都協奏館 管理人室：092-806-5779"
+     },
+     {
+      "text": "ドミトリー1／2／3 管理人室电话见下方官方页面"
+     }
+    ]
+   },
+   {
+    "id": "e1b706",
+    "type": "links",
+    "items": [
+     {
+      "text": "九州大学 学生寮（官方 · 各项费用与管理人室电话）",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/life/dormitory"
+     }
+    ]
+   },
+   {
+    "id": "e1b707",
+    "type": "heading",
+    "level": 2,
+    "text": "自租房：光纤 or 免施工"
+   },
+   {
+    "id": "e1b708",
+    "type": "list",
+    "items": [
+     {
+      "text": "光纤：需施工两次（屋内 + 屋外），须业主或管理公司同意，开通往往要等数周"
+     },
+     {
+      "text": "免施工：ホームルーター 或 モバイル Wi-Fi，插电即用，适合短住或不便施工的房子"
+     }
+    ]
+   },
+   {
+    "id": "e1b709",
+    "type": "warning",
+    "text": "光纤施工**必须本人在场**，而且**要先取得业主或管理公司的同意**。没打招呼就动工属于违约，这一步不能跳。"
+   },
+   {
+    "id": "e1b70a",
+    "type": "links",
+    "items": [
+     {
+      "text": "NURO 光：向业主・管理公司的工事承诺说明（官方）",
+      "url": "https://support.nuro.jp/faqsupport/nuro/web/knowledge10994.html"
+     },
+     {
+      "text": "SoftBank Air（官方 · 免施工）",
+      "url": "https://www.softbank.jp/internet/air/"
+     }
+    ]
    },
    {
     "id": "a747f8",

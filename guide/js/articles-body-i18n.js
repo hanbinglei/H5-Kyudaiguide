@@ -6906,6 +6906,64 @@ window.ARTICLES_BODY_I18N = {
    },
    "7e41fb": {
     "text": "この2つの条件があるため、SIM契約は到着初日にできるものではありません。一般的な順序は、住所登録 → SIM契約・口座開設 → その他の手続き です。さらに口座開設には電話番号が必要なため、どうしても行き詰まった場合は、まず Supporter やサポートセンターの番号で口座を開設し、自分の番号を取得してから変更するとよいでしょう。"
+   },
+   "e1b701": {
+    "text": "自宅のネット回線"
+   },
+   "e1b702": {
+    "text": "寮と自分で借りた部屋では事情がまったく違います。寮はネット込みではないので自分で契約し、賃貸は工事ができるかどうかを先に確認します。"
+   },
+   "e1b703": {
+    "text": "寮：ネットは自分で契約"
+   },
+   "e1b704": {
+    "text": "学生寮（伊都協奏館を含む）に**ネットは含まれていません**。利用するには指定事業者との契約が必要で、大学が示す目安は**月額 2,000 円程度**です。"
+   },
+   "e1b705": {
+    "items": [
+     {
+      "text": "伊都協奏館 管理人室：092-806-5779"
+     },
+     {
+      "text": "ドミトリー1／2／3 の管理人室電話は下記の公式ページ参照"
+     }
+    ]
+   },
+   "e1b706": {
+    "items": [
+     {
+      "text": "九州大学 学生寮（公式・費用と管理人室電話）",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/life/dormitory"
+     }
+    ]
+   },
+   "e1b707": {
+    "text": "賃貸：光回線か工事不要か"
+   },
+   "e1b708": {
+    "items": [
+     {
+      "text": "光回線：工事が 2 回（屋内・屋外）必要で、オーナーまたは管理会社の承諾も要る。申込から開通まで数週間かかることが多い"
+     },
+     {
+      "text": "工事不要：ホームルーターやモバイル Wi-Fi。コンセントに挿すだけ。短期居住や工事が難しい物件に向く"
+     }
+    ]
+   },
+   "e1b709": {
+    "text": "光回線の工事は**本人の立ち会いが必須**で、**事前にオーナーまたは管理会社の承諾**を取る必要があります。無断で工事すると契約違反になります。この手順は省けません。"
+   },
+   "e1b70a": {
+    "items": [
+     {
+      "text": "NURO 光：オーナー・管理会社への工事承諾のご案内（公式）",
+      "url": "https://support.nuro.jp/faqsupport/nuro/web/knowledge10994.html"
+     },
+     {
+      "text": "SoftBank Air（公式・工事不要）",
+      "url": "https://www.softbank.jp/internet/air/"
+     }
+    ]
    }
   },
   "en": {
@@ -7019,6 +7077,64 @@ window.ARTICLES_BODY_I18N = {
    },
    "7e41fb": {
     "text": "These two conditions mean that signing up for a SIM cannot be done on the first day after arrival. The usual order is: residence registration → SIM contract / bank account opening → other procedures. Opening an account itself requires a phone number, so when these requirements block each other, an account can be opened using the number of a Supporter or the Support Center (サポートセンター) first, then changed to one's own number later."
+   },
+   "e1b701": {
+    "text": "Internet at home"
+   },
+   "e1b702": {
+    "text": "Dormitories and private rentals work completely differently: dorms do not include internet, so you contract it yourself; for a rental, first check whether installation is even possible."
+   },
+   "e1b703": {
+    "text": "Dorms: you arrange internet yourself"
+   },
+   "e1b704": {
+    "text": "Student dormitories (including Ito Kyoso-kan) do **not include internet**. You need a contract with the designated provider; the university's stated reference cost is **around 2,000 yen per month**."
+   },
+   "e1b705": {
+    "items": [
+     {
+      "text": "Ito Kyoso-kan caretaker's office: 092-806-5779"
+     },
+     {
+      "text": "Dormitory 1/2/3 caretaker numbers: see the official page below"
+     }
+    ]
+   },
+   "e1b706": {
+    "items": [
+     {
+      "text": "Kyushu University student dormitories (official: fees and caretaker numbers)",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/life/dormitory"
+     }
+    ]
+   },
+   "e1b707": {
+    "text": "Rentals: fibre or no-install"
+   },
+   "e1b708": {
+    "items": [
+     {
+      "text": "Fibre: needs two installations (indoor and outdoor) plus the owner's or management company's consent; activation often takes weeks"
+     },
+     {
+      "text": "No-install: a home router or mobile Wi-Fi — just plug it in. Good for short stays or buildings where work is difficult"
+     }
+    ]
+   },
+   "e1b709": {
+    "text": "Fibre installation **requires you to be present** and **needs the owner's or management company's prior consent**. Having work done without asking breaches your contract — do not skip this step."
+   },
+   "e1b70a": {
+    "items": [
+     {
+      "text": "NURO Hikari: asking the owner/management company for installation consent (official)",
+      "url": "https://support.nuro.jp/faqsupport/nuro/web/knowledge10994.html"
+     },
+     {
+      "text": "SoftBank Air (official, no installation)",
+      "url": "https://www.softbank.jp/internet/air/"
+     }
+    ]
    }
   },
   "ko": {
@@ -7132,6 +7248,64 @@ window.ARTICLES_BODY_I18N = {
    },
    "7e41fb": {
     "text": "이 두 가지 때문에 SIM 가입은 입국 첫날에 끝낼 수 있는 일이 아닙니다. 일반적인 순서는 주소 등록 → SIM 가입 / 계좌 개설 → 기타 수속입니다. 그런데 계좌 개설 자체에도 전화번호가 필요하므로, 정말로 서로 막힐 경우 Supporter 또는 서포트센터(サポートセンター)의 번호로 먼저 계좌를 개설하고, 자신의 번호를 받은 뒤 변경하시면 됩니다."
+   },
+   "e1b701": {
+    "text": "집에서 쓰는 인터넷"
+   },
+   "e1b702": {
+    "text": "기숙사와 직접 빌린 집은 상황이 전혀 다릅니다. 기숙사는 인터넷이 포함되어 있지 않아 직접 계약하고, 임대 주택은 공사가 가능한지 먼저 확인해야 합니다."
+   },
+   "e1b703": {
+    "text": "기숙사: 인터넷은 직접 계약"
+   },
+   "e1b704": {
+    "text": "학생 기숙사(이토 교소칸 포함)에는 **인터넷이 포함되어 있지 않습니다**. 이용하려면 지정 사업자와 계약해야 하며, 대학이 제시한 기준은 **월 2,000엔 정도**입니다."
+   },
+   "e1b705": {
+    "items": [
+     {
+      "text": "이토 교소칸 관리인실: 092-806-5779"
+     },
+     {
+      "text": "기숙사 1/2/3 관리인실 전화는 아래 공식 페이지 참조"
+     }
+    ]
+   },
+   "e1b706": {
+    "items": [
+     {
+      "text": "규슈대 학생 기숙사(공식·비용 및 관리인실 전화)",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/life/dormitory"
+     }
+    ]
+   },
+   "e1b707": {
+    "text": "임대: 광회선 또는 공사 불필요"
+   },
+   "e1b708": {
+    "items": [
+     {
+      "text": "광회선: 공사가 2회(실내·실외) 필요하고 건물주나 관리회사의 동의도 받아야 합니다. 신청부터 개통까지 몇 주 걸리는 경우가 많습니다"
+     },
+     {
+      "text": "공사 불필요: 홈라우터나 모바일 Wi-Fi. 플러그만 꽂으면 됩니다. 단기 거주나 공사가 어려운 집에 적합합니다"
+     }
+    ]
+   },
+   "e1b709": {
+    "text": "광회선 공사는 **본인이 입회해야 하고**, **사전에 건물주나 관리회사의 동의**를 받아야 합니다. 무단으로 공사하면 계약 위반입니다. 이 절차는 생략할 수 없습니다."
+   },
+   "e1b70a": {
+    "items": [
+     {
+      "text": "NURO 광: 건물주·관리회사 공사 승낙 안내(공식)",
+      "url": "https://support.nuro.jp/faqsupport/nuro/web/knowledge10994.html"
+     },
+     {
+      "text": "SoftBank Air(공식·공사 불필요)",
+      "url": "https://www.softbank.jp/internet/air/"
+     }
+    ]
    }
   }
  },
