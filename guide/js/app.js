@@ -546,7 +546,11 @@ function initTocSpy(){
     tabs.forEach((a,i)=>a.classList.toggle('on',i===cur));
     if(toc.scrollWidth>toc.clientWidth+4){          // 横排（手机）时保证可见
       const act=tabs[cur]; if(!act)return;
-      const l=act.offsetLeft,w=act.offsetWidth,cw=toc.clientWidth,sx=toc.scrollLeft;
+      /* ⚠️ 不能用 offsetLeft：.toc-tab 的 offsetParent 不是 #toc（弹层里有定位祖先），
+         算出来的目标值会偏掉 —— 实测滑过去后当前项仍在屏幕外。
+         改用 rect 差值 + 当前 scrollLeft，与 offsetParent 无关。 */
+      const tr=toc.getBoundingClientRect(), ar=act.getBoundingClientRect();
+      const l=ar.left-tr.left+toc.scrollLeft, w=ar.width, cw=toc.clientWidth, sx=toc.scrollLeft;
       if(l<sx+8||l+w>sx+cw-8)toc.scrollTo({left:Math.max(0,l-w/2+cw/2),behavior:'smooth'});
     }
   };
