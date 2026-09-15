@@ -304,6 +304,18 @@ const CUNLI_NAMES = {
   '一般選抜（前期日程）':{en:'General entrance exam (first round)',ko:'일반선발(전기 일정)'},
   '一般選抜（後期日程）':{en:'General entrance exam (second round)',ko:'일반선발(후기 일정)'},
   '履修登録期間（後期）':{en:'Course registration (second semester)',ko:'수강신청 기간(2학기)'},
+
+  /* 2026-09-15 补：留学課（c63–c69）这批新入生支援活动只有 title+zh，
+     en/ko 译名漏了 —— 切到英文/韩文时日历条仍显示日文。
+     数据加了名字表没加，查表失败就回落日文（nameOf 的 fallback）。
+     防止再次发生：tools/check_cunli_i18n.js 会卡住缺译名的新条目。 */
+  '新入留学生サポート（空港シャトルバス）':{en:"Newcomer Support: Airport Shuttle Bus",ko:"신입 유학생 지원: 공항 셔틀버스"},
+  '新入留学生サポート（生活支援バス）':{en:"Newcomer Support: Daily-life Shuttle Bus",ko:"신입 유학생 지원: 생활 지원 버스"},
+  '行政手続き・銀行ガイダンス':{en:"Administrative Procedures & Bank Guidance",ko:"행정 수속 · 은행 가이던스"},
+  '新入留学生オリエンテーション':{en:"New International Student Orientation",ko:"신입 유학생 오리엔테이션"},
+  '新入留学生キャンパスツアー':{en:"Newcomer Campus Tour",ko:"신입 유학생 캠퍼스 투어"},
+  '福岡銀行口座開設会':{en:"Fukuoka Bank Account Opening Session",ko:"후쿠오카 은행 계좌 개설회"},
+  'ESP 加入期限':{en:"ESP Enrollment Deadline",ko:"ESP 가입 마감"},
 };
 /** 村历条目名：按日文原名查当前语言的译名，查不到返回空串（调用方自己决定退回什么）。 */
 function cunliName(jaTitle, lang){
