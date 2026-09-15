@@ -80,6 +80,7 @@ function setTab(tab){
 }
 
 // ── 语言 ──
+function initFeedback(){ if(window.Feedback)window.Feedback.init(); }
 function initLang(){
   const sel=$('langSwitch');
   if(!sel||!I18N)return;
@@ -122,6 +123,8 @@ function applyI18N(){
   const bt=$('btnToTop'); if(bt)bt.title=t('toTop');   // 悬浮按钮只有图标，靠 title 说明
   // 状态条里的文案（来访人数/天气/打卡）由 pulse.js 自己管，这里叫它重算一遍
   if(window.Pulse)window.Pulse.render();
+  // 反馈入口/面板的文案同样不在 renderXxx 路径上，切语言要单独叫它重算
+  if(window.Feedback)window.Feedback.relabel();
   // 安装提示条已经显示时切语言，文案要跟着变（它是由 beforeinstallprompt 触发的，
   // 不在 renderXxx 的重绘路径上，不在这里补就会停在上一个语言）
   const ib=$('installBar');
@@ -340,6 +343,9 @@ function showArticle(id,wantHeading,wantSec){
   setTab('guide');
 
   const title=I18N.articleField(art,'title');
+  // 纠错入口要带上「是哪一篇」，否则维护者收到邮件还得问一遍
+  window.__fbArticleTitle=title;
+  if(window.Feedback)window.Feedback.relabel();
   const summary=I18N.articleField(art,'summary');
   const catLabel=I18N.catName(art.category);
   // 提示条只在「整篇都没有译文」时出现；个别区块缺译不打扰读者，静默显示中文即可
@@ -1023,7 +1029,8 @@ function renderHistory(){
 // ── init ──
 function init(){
   initLang();applyI18N();searchRebuild();initSearch();renderGrid();initCunli();renderHistory();
-  initToTop();initTocSpy();      // 长文回顶 / 阅读进度 / 目录联动（纯增强，失败不影响主流程）
+  initFeedback();                // 反馈入口（文章底部 / 指南页底部）
+initToTop();initTocSpy();      // 长文回顶 / 阅读进度 / 目录联动（纯增强，失败不影响主流程）
   initInstallBar();              // 添加到主屏幕（只在浏览器真的支持时出现）
   // 非中文时并行取正文译文包；不 await —— 首屏不该等它
   ensureBodyI18N(()=>{ if(currentHash().startsWith('article/'))onHashChange(); });

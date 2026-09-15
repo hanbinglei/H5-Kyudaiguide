@@ -783,3 +783,38 @@ mark{background:rgba(123,45,62,.10);color:inherit;border-radius:3px;padding:0 2p
   .src-row{padding:7px 10px}
   .src-t{font-size:12.5px}
 }
+
+/* ── 反馈 / 纠错（2026-09）──────────────────────────────────────
+   入口两处：文章底部「报告有误」（带文章名）、指南页底部「意见与建议」。
+   面板是覆盖层，纯本地渲染，提交走 FormSubmit（第三方表单后端，免注册）。 */
+.fb-entry{display:block;width:100%;margin:10px 0 4px;padding:11px 14px;min-height:44px;
+  border:1px dashed var(--line);background:#fff;border-radius:10px;cursor:pointer;
+  font-size:13.5px;color:#666;text-align:center;font-family:inherit;
+  transition:border-color .15s,color .15s,background .15s}
+.fb-entry:hover{border-color:var(--brand);color:var(--brand);background:#fffafa}
+.fb-entry-wide{margin-top:16px}
+.fb-wrap{position:fixed;inset:0;z-index:60;background:rgba(0,0,0,.42);
+  display:flex;align-items:flex-end;justify-content:center;padding:0}
+.fb-wrap[hidden]{display:none}
+.fb-card{background:var(--card);width:100%;max-width:620px;max-height:88vh;overflow-y:auto;
+  border-radius:16px 16px 0 0;padding:16px 18px 20px;box-shadow:0 -6px 28px rgba(0,0,0,.2)}
+.fb-head{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.fb-h{font-size:16px;font-weight:700;margin:0;color:#2b2b2b}
+.fb-lead{font-size:12.5px;color:#777;line-height:1.65;margin:6px 0 14px}
+.fb-lb{display:block;font-size:12.5px;font-weight:700;color:#5a5a5a;margin:12px 0 5px}
+.fb-in{width:100%;box-sizing:border-box;padding:10px 11px;font-size:14px;font-family:inherit;
+  border:1px solid var(--line);border-radius:9px;background:#fff;color:#2b2b2b;min-height:44px}
+.fb-ta{min-height:104px;resize:vertical;line-height:1.6}
+.fb-in:focus{outline:2px solid var(--brand);outline-offset:-1px;border-color:var(--brand)}
+.fb-honey{position:absolute!important;left:-9999px!important;width:1px;height:1px;
+  opacity:0;pointer-events:none}
+.fb-note{font-size:11.5px;color:#999;line-height:1.55;margin:12px 0 0}
+.fb-acts{display:flex;gap:10px;margin-top:16px}
+.fb-send,.fb-cancel{flex:1;min-height:46px;border-radius:10px;font-size:14px;font-family:inherit;
+  cursor:pointer;font-weight:700}
+.fb-send{border:0;background:var(--brand);color:#fff}
+.fb-send:hover{filter:brightness(.94)}
+.fb-cancel{border:1px solid var(--line);background:#fff;color:#666}
+@media(min-width:640px){ .fb-wrap{align-items:center;padding:24px}
+  .fb-card{border-radius:16px;max-height:84vh} }
+@media(max-width:479px){ .fb-h{font-size:15px} .fb-card{padding:14px 15px 18px} }

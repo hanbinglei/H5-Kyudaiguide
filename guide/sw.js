@@ -13,7 +13,7 @@
  * 地图在 ../h5-mvp/（约 500KB 数据）不在作用域内，不会被它缓存 —— 这是有意的：
  * 指南是随身要看的，地图是到了校园才用的，没必要为后者占掉学生的存储和流量。
  */
-const VERSION = 'kg-20260915p';
+const VERSION = 'kg-20260915q';
 const CORE = [
   './',
   './index.html',
@@ -31,6 +31,7 @@ const CORE = [
   './js/search.js',   // 搜索索引与排序（app.js 依赖它，必须在 CORE）
   './js/app.js',
   './js/pulse.js',
+  './js/feedback.js',
   './js/bus-live.js',
   './js/tour.js',
   './icons/favicon-32.png',
