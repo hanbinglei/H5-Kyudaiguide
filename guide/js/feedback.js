@@ -69,14 +69,8 @@
     $('fbCancel').addEventListener('click', close);
     wrap.addEventListener('click', (e) => { if (e.target === wrap) close(); });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !wrap.hidden) close(); });
-    // 提交前把动态值填进 hidden：主题带标记（126 靠它归档）、_next 回到当前页
-    $('fbForm').addEventListener('submit', () => {
-      const kindLabel = ctx.kind === 'article' ? t('fbKindArticle', '纠错') : t('fbKindGeneral', '意见');
-      $('fbSubject').value = SUBJECT_TAG + ' ' + kindLabel + (ctx.title ? ' - ' + ctx.title : '');
-      $('fbNext').value = location.href.split('#')[0] + '#guide';
-      $('fbPage').value = location.href;
-      $('fbArticle').value = ctx.title || '';
-    });
+    // 提交前再刷一次（URL 可能在面板打开后变了）
+    $('fbForm').addEventListener('submit', syncHidden);
     built = true;
   }
 
@@ -91,6 +85,7 @@
     const gf0 = $('btnFeedback');
     if (gf0) gf0.textContent = t('fbEntryGeneral', '意见与建议');
     if (!built) return;
+    syncHidden();          // 类型名随语言变，主题里的 kindLabel 也要跟着变
     const set = (id, k, fb) => { const e = $(id); if (e) e.textContent = t(k, fb); };
     set('fbTitle', ctx.kind === 'article' ? 'fbTitleArticle' : 'fbTitleGeneral', '反馈与纠错');
     set('fbLead', 'fbLead', '欢迎指出错误或提出建议。信息会直接发给维护者，不会公开。');
@@ -114,9 +109,24 @@
     }
   }
 
+  /** 把动态值写进 hidden。
+   *  ⚠️ 必须在 open() 里就调用，不能只挂在 submit 事件上 ——
+   *  程序化 form.submit() **不会派发 submit 事件**，那样发出去的邮件
+   *  主题就不带 [KyudaiGuide] 标记，126 的分类规则收不到它（实测踩到）。
+   *  真实用户点按钮时事件会触发，但结构上不该依赖这一点。 */
+  function syncHidden() {
+    const kindLabel = ctx.kind === 'article' ? t('fbKindArticle', '纠错') : t('fbKindGeneral', '意见');
+    const sub = $('fbSubject'), nxt = $('fbNext'), pg = $('fbPage'), ar = $('fbArticle');
+    if (sub) sub.value = SUBJECT_TAG + ' ' + kindLabel + (ctx.title ? ' - ' + ctx.title : '');
+    if (nxt) nxt.value = location.href.split('#')[0] + '#guide';
+    if (pg) pg.value = location.href;
+    if (ar) ar.value = ctx.title || '';
+  }
+
   function open(kind, title) {
     build();
     ctx = { kind: kind || 'general', title: title || '' };
+    syncHidden();
     relabel();
     $('fbWrap').hidden = false;
     document.body.classList.add('fb-open');
@@ -138,5 +148,5 @@
     if (g) g.addEventListener('click', () => open('general', ''));
   }
 
-  window.Feedback = { init: init, open: open, close: close, relabel: relabel, ENDPOINT: ENDPOINT, SUBJECT_TAG: SUBJECT_TAG };
+  window.Feedback = { init: init, open: open, close: close, relabel: relabel, syncHidden: syncHidden, ENDPOINT: ENDPOINT, SUBJECT_TAG: SUBJECT_TAG };
 })();

@@ -137,6 +137,19 @@ console.log('\n=== ③ 提交时 _subject 必须带 [KyudaiGuide] 标记 ===');
   ok(reg['@article'].value === '租房', 'article 字段 = 文章名', reg['@article'].value);
 }
 
+console.log('\n=== ③b open() 之后就必须填好 hidden（不依赖 submit 事件） ===');
+{
+  // 程序化 form.submit() 不派发 submit 事件 —— 只把赋值挂在 submit 上，
+  // 这样提交出去的邮件主题就不带标记，126 的分类规则收不到。实测踩到过。
+  const { ctx, reg } = boot('zh');
+  ctx.Feedback.open('article', '在留手续');
+  const subj = reg['@_subject'].value;
+  ok(!!subj, 'open() 后 _subject 已有值（未触发 submit）', JSON.stringify(subj));
+  ok(subj.indexOf('[KyudaiGuide]') === 0, 'open() 后已带标记', subj);
+  ok(!!reg['@_next'].value, 'open() 后 _next 已填（否则提交后不回到本站）', JSON.stringify(reg['@_next'].value));
+  ok(reg['@article'].value === '在留手续', 'open() 后 article 已填', reg['@article'].value);
+}
+
 console.log('\n=== ④ 综合反馈（无文章）也能用 ===');
 {
   const { ctx, reg } = boot('zh');
