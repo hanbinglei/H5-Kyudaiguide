@@ -546,12 +546,20 @@ function initTocSpy(){
     tabs.forEach((a,i)=>a.classList.toggle('on',i===cur));
     if(toc.scrollWidth>toc.clientWidth+4){          // 横排（手机）时保证可见
       const act=tabs[cur]; if(!act)return;
-      /* ⚠️ 不能用 offsetLeft：.toc-tab 的 offsetParent 不是 #toc（弹层里有定位祖先），
-         算出来的目标值会偏掉 —— 实测滑过去后当前项仍在屏幕外。
-         改用 rect 差值 + 当前 scrollLeft，与 offsetParent 无关。 */
       const tr=toc.getBoundingClientRect(), ar=act.getBoundingClientRect();
       const l=ar.left-tr.left+toc.scrollLeft, w=ar.width, cw=toc.clientWidth, sx=toc.scrollLeft;
-      if(l<sx+8||l+w>sx+cw-8)toc.scrollTo({left:Math.max(0,l-w/2+cw/2),behavior:'smooth'});
+      /* 「最小滑动量」而不是居中：居中会把靠左的项往右滑过去（第 0 节被推到
+         容器左侧 -142px，等于更看不见了）。偏左就左对齐、偏右就右对齐。
+         另外用 behavior:auto 而不是 smooth —— 平滑滚动期间 getBoundingClientRect
+         读到的是动画中间态，叠加下一次滚动事件会算出错误目标（实测过冲）。 */
+      const PAD=12;
+      let target=sx;
+      if(l<sx+PAD)target=l-PAD;
+      else if(l+w>sx+cw-PAD)target=l+w-cw+PAD;
+      if(Math.abs(target-sx)>1){
+        target=Math.max(0,Math.min(target,toc.scrollWidth-cw));
+        if(toc.scrollTo)toc.scrollTo({left:target,behavior:'auto'});else toc.scrollLeft=target;
+      }
     }
   };
   scs.forEach(s=>s.addEventListener('scroll',update,{passive:true}));
