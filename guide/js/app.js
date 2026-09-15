@@ -179,6 +179,12 @@ function applyI18N(){
   // ④ 村历翻月按钮的 aria-label（只有 ‹ › 符号，全靠它说明）
   const bp=$('btnPrev'); if(bp)bp.setAttribute('aria-label',t('prevMonth'));
   const bn=$('btnNext'); if(bn)bn.setAttribute('aria-label',t('nextMonth'));
+  // ⑤ 其余无障碍标签：统一用 data-a11y 标记驱动
+  //    这样以后新增「只有图标/只有符号」的控件，只要在 HTML 上写一个 data-a11y，
+  //    不用再改这个函数，也不会漏掉（漏了就是读屏用户听到中文）
+  document.querySelectorAll('[data-a11y]').forEach(el=>{
+    el.setAttribute('aria-label', t(el.getAttribute('data-a11y')));
+  });
 }
 
 // ── 新生专区（首页顶部时间线） ──

@@ -131,7 +131,9 @@ const rep=(k,v)=>{ if(typeof v==='function') return '__FN__';
 function paths(o,pre){ const out={};
   for(const k of Object.keys(o)){ const v=o[k], p2=pre?pre+'.'+k:k;
     // 数组当叶子值：展开成 wd.0 / wd.1 会让「键 wd 存在」被判成不存在
-    if(v&&typeof v==='object'&&typeof v!=='function'&&!Array.isArray(v)){ Object.assign(out,paths(v,p2)); }
+    // 展开对象的同时也记下父键：legend/typeLabels 这种「值的对象」本身也是合法 key，
+    // 只记叶子会把 t('legend') 误判成「词典里没有这个键」
+    if(v&&typeof v==='object'&&typeof v!=='function'&&!Array.isArray(v)){ out[p2]='__OBJ__'; Object.assign(out,paths(v,p2)); }
     else { out[p2]=v; } }
   return out; }
 const flat={}; for(const L of I.LANGS) flat[L]=paths(I.UI[L]||{});
@@ -174,6 +176,32 @@ def report_cd(dump):
                     missing.append({'file': name, 'key': key, 'missing_langs': miss})
     return bad_fallback, missing, zh, out, langs
 
+def report_e(dump):
+    """E. index.html 上标了 data-a11y 的控件，其 key 是否四语齐全。
+    约定：只有图标/只有符号的控件（✕ ‹ › ↑）一律挂 data-a11y，由 applyI18N 统一赋值。
+    这样新增控件时漏掉本地化会被这里拦住，不必逐个改 applyI18N。"""
+    html = open(HTML, encoding='utf-8').read()
+    langs, out = dump['langs'], dump['out']
+    zh = out.get('zh', {})
+    bad = []
+    for m in re.finditer(r'data-a11y="([^"]+)"', html):
+        k = m.group(1)
+        if k not in zh:
+            bad.append({'key': k, 'why': '词典无此键'})
+            continue
+        miss = [L for L in langs if k not in out.get(L, {})]
+        if miss:
+            bad.append({'key': k, 'why': '缺 ' + ','.join(miss)})
+    # 反向：带 aria-label 中文却没有 data-a11y 的控件（新加的漏网控件）
+    naked = []
+    for m in re.finditer(r'<(\w+)([^>]*)>', html):
+        tag, attrs = m.group(1), m.group(2)
+        am = re.search(r'aria-label="([^"]*)"', attrs)
+        if am and CJK.search(am.group(1)) and 'data-a11y' not in attrs:
+            idm = re.search(r'id="([^"]+)"', attrs)
+            naked.append({'tag': tag, 'id': idm.group(1) if idm else None, 'text': am.group(1)})
+    return bad, naked
+
 if __name__ == '__main__':
     dump = load_dict()
     a = report_a()
@@ -182,6 +210,7 @@ if __name__ == '__main__':
     b2 = report_b2()
     b2bad = [x for x in b2 if not x['covered']]
     c, d, zh, out, langs = report_cd(dump)
+    e_bad, e_naked = report_e(dump)
 
     if '--json' in sys.argv:
         print(json.dumps({'A_hardcoded_js': a, 'B_html_uncovered': bbad,
@@ -205,6 +234,14 @@ if __name__ == '__main__':
     print('\n=== C. t(key, 兜底) 与词典 zh 不一致 %d 处 ===' % len(c))
     for x in c[:20]:
         print('  %-16s %-24s 兜底「%s」≠ 词典「%s」' % (x['file'], x['key'], x['fallback'][:22], x['dict_zh'][:22]))
+    print('\n=== E. data-a11y 无障碍键 %d 处不合格 / %d 处带中文却没有标记 ==='
+          % (len(e_bad), len(e_naked)))
+    for x in e_bad:
+        print('  key=%s  %s' % (x['key'], x['why']))
+    for x in e_naked:
+        print('  <%s id=%s> aria-label「%s」没有 data-a11y → 静态查不出它是否会被翻译'
+              % (x['tag'], x['id'] or '—', x['text']))
+
     print('\n=== D. t() 的 key 缺失 %d 处 ===' % len(d))
     seen = set()
     for x in d:
