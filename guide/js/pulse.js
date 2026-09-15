@@ -12,7 +12,9 @@
 (function () {
   'use strict';
 
-  const $ = (s) => document.querySelector(s);
+  // 与 app.js 的 $ 一致：**按 id 取**。别改成 querySelector ——
+  // 那样 $('pulse') 会去找 <pulse> 标签，永远 null，静默失效。
+  const $ = (id) => document.getElementById(id);
   const I18N = window.GuideI18N || {};
   const t = (k) => (typeof I18N.t === 'function' ? I18N.t(k) : k);
   /** t() 不支持占位符，这里自己替换 {name} —— 文案仍留在 i18n 表里，翻译校验器才扫得到 */
@@ -191,6 +193,9 @@
   /* ─────────────── 启动 ─────────────── */
   function init() {
     if (!$('pulse')) return;
+    // 先按「什么都还没拿到」画一次：这样「收起」是脚本自己定的状态，
+    // 而不是碰运气依赖标签上的初始 hidden 属性（万一以后谁把那属性删了就漏出来一个空壳）
+    paint();
     trackRead();
     loadRead();
     loadEvent();
