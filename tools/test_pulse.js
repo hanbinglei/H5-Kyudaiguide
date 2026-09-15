@@ -220,6 +220,28 @@ const settle = () => new Promise((r) => setTimeout(r, 30));
   ok(JSON.parse(sb7.__store['kyudai-read'] || '[]').indexOf('guide-medical') >= 0, 'hash 里的文章 id 被记下');
   ok(/已看过 1\/17 篇/.test(texts()[3] || ''), '计数变 1/17', texts()[3]);
 
+  console.log('\n=== ⑦ 状态条的活动名：四语都要正确 ===');
+  // 曾经线上是「距离 新入留学生サポート 还有 8 天」—— 中文界面里冒日文。
+  // 根因：pulse.js 用 cunliName()，而它只覆盖 en/ko，取 zh 返回空串再回落日文原名。
+  // 数据里 item.zh 一直是全的，所以校验器查数据只会说「译名完整」，查不出这个。
+  {
+    const { sb: sb8, ctx: c8 } = boot({ today: { visit: 1, visitor: 1 }, total: { visit: 1, visitor: 1 }, wxData: WX_OK, store: {} });
+    await settle();
+    const item = { title: '新入留学生サポート（空港シャトルバス）', zh: '免费机场穿梭巴士' };
+    const want = {
+      zh: '免费机场穿梭巴士',
+      ja: '新入留学生サポート（空港シャトルバス）',
+      en: 'Newcomer Support: Airport Shuttle Bus',
+      ko: '신입 유학생 지원: 공항 셔틀버스',
+    };
+    for (const L of ['zh', 'ja', 'en', 'ko']) {
+      const got = c8.window.GuideI18N.cunliLabel(item, L);
+      ok(got === want[L], L + ' 取到正确的活动名', got);
+    }
+    ok(c8.window.GuideI18N.cunliLabel(item, 'zh') !== item.title, '中文不再回落成日文原名');
+    ok(c8.window.GuideI18N.cunliLabel({ title: 'x', zh: 'y' }, 'en') === 'x', 'en 查不到译名时回落日文原名（预期行为）');
+  }
+
   console.log('\n' + (fail ? '✗ ' + fail + ' 项未通过' : '✓ 全部通过'));
   process.exit(fail ? 1 : 0);
 })();

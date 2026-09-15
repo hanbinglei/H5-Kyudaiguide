@@ -359,6 +359,22 @@ function cunliName(jaTitle, lang){
   return (e && e[lang || getLangNow()]) || '';
 }
 
+/** 村历条目在指定语言下的显示名 —— **取名字一律用这个，不要直接调 cunliName**。
+ *
+ * 为什么需要它：中文译名存在 data-cunli.js 的 item.zh 里，**不在 CUNLI_NAMES 表**里，
+ * 所以 cunliName(日文原名, 'zh') 返回空串；调用方再 `|| 日文原名` 回落，
+ * 界面上就变成「中文界面里冒出一句日文」—— 而 data-cunli.js 里 item.zh 明明是全的，
+ * 校验器查数据只会说「译名完整」，查不出调用方用错了函数。
+ * 实测踩到：首页状态条的「距离 新入留学生サポート 还有 8 天」。 */
+function cunliLabel(it, lang){
+  const L = lang || getLangNow();
+  const ja = (it && it.title) || '';
+  const zh = (it && it.zh) || '';
+  if (L === 'ja') return ja || zh;
+  if (L === 'zh') return zh || ja;
+  return cunliName(ja, L) || ja || zh;
+}
+
 /** 同步 <html lang>。不同步的话浏览器始终认为整站是中文：Chrome 会对着英文正文
     弹「翻译此页」，CJK 字体按中文规则回退，读屏软件也用错语言朗读。 */
 function applyDocLang(){
@@ -430,5 +446,5 @@ function cunliPlace(it, lang){
   return pz.zh + '（' + pz.ja + '）';
 }
 
-window.GuideI18N={ LANGS, UI, CAT_I18N, CUNLI_NAMES, cunliName, CUNLI_NOTES, CUNLI_PLACES, cunliNote, cunliPlace, getLang:()=>lang, setLang, t, catName, articleField, applyDocLang, _s(v){lang=v;applyDocLang();} };
+window.GuideI18N={ LANGS, UI, CAT_I18N, CUNLI_NAMES, cunliName, cunliLabel, CUNLI_NOTES, CUNLI_PLACES, cunliNote, cunliPlace, getLang:()=>lang, setLang, t, catName, articleField, applyDocLang, _s(v){lang=v;applyDocLang();} };
 })();

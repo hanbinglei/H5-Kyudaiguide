@@ -139,7 +139,9 @@
     // 只存**原始数据**（日文原名 + 日期），文案留到 paint() 里现算。
     // 存成渲染好的字符串的话，切换语言时那几条不会跟着变 —— 实测踩过：
     // 切到日/英/韩后，出处小节标题变了，状态条却仍是中文。
-    st.event = { title: it.title, date: it.date };
+    // zh 也要存：中文译名在 item.zh 里，不在 CUNLI_NAMES 表里，只存 title 的话
+    // 中文界面取不到译名 → 回落日文原名（实测踩过：首页显示「新入留学生サポート」）
+    st.event = { title: it.title, zh: it.zh, date: it.date };
     paint();
   }
 
@@ -147,7 +149,9 @@
   function eventText() {
     const e = st.event;
     if (!e) return '';
-    const full = (I18N.cunliName && I18N.cunliName(e.title)) || e.title || '';
+    // 用 cunliLabel（zh→item.zh，en/ko→译名表，ja→原名）。
+    // 不要用 cunliName：它只覆盖 en/ko，取 zh 会返回空串再回落日文。
+    const full = (I18N.cunliLabel && I18N.cunliLabel(e)) || e.zh || e.title || '';
     // 括号里的补充说明在标签上太长（「新入留学生サポート（空港シャトルバス）」），去掉
     const short = String(full).replace(/[（(][^）)]*[）)]/g, '').trim() || String(full);
     const n = CU.diffDays ? CU.diffDays(todayJST(), e.date) : 0;
