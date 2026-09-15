@@ -626,7 +626,7 @@ mark{background:rgba(123,45,62,.10);color:inherit;border-radius:3px;padding:0 2p
     margin-left:auto;margin-right:auto;width:100%}
   .article-body{grid-area:abody;max-width:44em;width:100%;
     margin-left:auto;margin-right:auto;padding:8px 8px 16px}
-  .article-end{grid-area:aend;max-width:44em;margin:0 auto;width:100%;padding:8px 8px 56px}
+  .article-foot{grid-area:aend;max-width:44em;margin:0 auto;width:100%;padding:8px 8px 56px}
   /* 目录：改为竖向常驻列表（横排时在宽屏上只能放下 3~4 个标签） */
   .toc{grid-area:toc;position:sticky;top:52px;align-self:start;
     display:flex;flex-direction:column;gap:4px;
@@ -647,7 +647,7 @@ mark{background:rgba(123,45,62,.10);color:inherit;border-radius:3px;padding:0 2p
 /* 更宽的桌面：正文与目录都再多给一点空间 */
 @media(min-width:1440px){
   .sheet-card{grid-template-columns:minmax(0,1fr) 300px}
-  .article-body,.article-header,.article-end{max-width:46em}
+  .article-body,.article-header,.article-foot{max-width:46em}
 }
 
 /* 搜索命中来源提示（模糊 / 关联）：结果与输入不完全一致时必须说明，
@@ -686,3 +686,48 @@ mark{background:rgba(123,45,62,.10);color:inherit;border-radius:3px;padding:0 2p
 .to-top[hidden]{display:none}
 .to-top:active{transform:scale(.94)}
 @media(min-width:1024px){.to-top{right:calc(50% - 640px + 16px);bottom:28px}}
+
+/* ── 锦上添花（2026-09-15 第二批）──────────────────────────── */
+
+/* 阅读进度：贴在视口顶部的细线。放在 #pane-article 内、position:fixed，
+   这样手机（滚动容器是 .sheet-card）与桌面（容器是 #pane-article）都成立。
+   文章打开时 topbar 被文章页盖住（z-index 20 > 10），所以压在 top:0 不会打架。 */
+.read-progress{position:fixed;top:0;left:0;right:0;height:3px;z-index:41;
+  background:transparent;pointer-events:none}
+.read-progress[hidden]{display:none}
+.read-progress i{display:block;height:100%;width:0;background:var(--brand);
+  transition:width .08s linear}
+
+/* 文末上一篇/下一篇：按宫格顺序走，读完不用退回宫格再找 */
+.article-nav{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
+.article-nav a{display:block;border:1px solid var(--line);border-radius:12px;
+  padding:10px 12px;background:var(--card);text-decoration:none;min-width:0}
+.article-nav a:hover{border-color:#e0c9cf;background:#fdfbfc}
+.article-nav .an-k{font-size:11px;color:var(--muted2);margin-bottom:4px}
+.article-nav .an-t{font-size:13.5px;font-weight:600;color:#1a1a2e;line-height:1.45;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.article-nav a.next{text-align:right}
+.article-nav a.next .an-t{justify-self:end}
+@media(max-width:479px){.article-nav{grid-template-columns:1fr;gap:8px}}
+
+/* 添加到主屏幕：贴在底部导航栏之上，可关闭 */
+.install-bar{position:fixed;left:50%;transform:translateX(-50%);
+  bottom:calc(48px + 10px + env(safe-area-inset-bottom,0px));
+  width:calc(100% - 20px);max-width:680px;z-index:18;
+  display:flex;align-items:center;gap:10px;
+  background:#fff;border:1px solid var(--line);border-radius:14px;
+  box-shadow:0 10px 30px rgba(0,0,0,.14);padding:10px 12px}
+.install-bar[hidden]{display:none}
+.install-ic{font-size:20px;flex:0 0 auto}
+.install-tx{flex:1;min-width:0}
+.install-t{font-size:13.5px;font-weight:700;color:#1a1a2e}
+.install-d{font-size:12px;color:var(--muted);margin-top:2px;line-height:1.5}
+.install-go{flex:0 0 auto;border:none;background:var(--brand);color:#fff;
+  border-radius:999px;padding:8px 16px;font-size:13px;font-weight:600;cursor:pointer}
+.install-no{flex:0 0 auto;border:none;background:transparent;color:var(--muted2);
+  font-size:15px;padding:4px 6px;cursor:pointer;border-radius:8px}
+@media(pointer:coarse){.install-go{min-height:40px}.install-no{min-width:40px;min-height:40px}}
+
+/* 搜索结果键盘导航：↑↓ 选、Enter 开。只加在键盘操作时，鼠标悬停不受影响 */
+.card-lite.kbd-on{border-color:var(--brand);background:#fdf7f8;
+  box-shadow:0 0 0 2px rgba(123,45,62,.10)}

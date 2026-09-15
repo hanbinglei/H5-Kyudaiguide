@@ -27,7 +27,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Kyudai Guide">
 
-<link rel="stylesheet" href="css/style.css?v=20260915h">
+<link rel="stylesheet" href="css/style.css?v=20260915i">
 </head>
 <body>
 <div id="app">
@@ -163,14 +163,33 @@
             <div id="articleHeader" class="article-header"></div>
             <nav id="toc" class="toc" style="display:none"></nav>
             <div id="articleBody" class="article-body"></div>
-            <div class="article-end" id="articleEnd">— 全文完 —</div>
+            <div class="article-foot">
+              <div class="article-end" id="articleEnd">— 全文完 —</div>
+              <!-- 读完只能返回宫格太断了：按宫格顺序给上一篇/下一篇 -->
+              <nav id="articleNav" class="article-nav" hidden></nav>
+            </div>
           </div>
-          <!-- 长文章（学术篇 7000px+，约 10 屏）从中间想回顶部只能一路划，
+          <!-- 长文（学术篇 7000px+，约 10 屏）从中间想回顶部只能一路划，
                这里给一个随滚动出现的浮动按钮。两个滚动容器都监听，
                手机是 .sheet-card、桌面 ≥1024px 是 #pane-article。 -->
           <button class="to-top" id="btnToTop" type="button" aria-label="回到顶部" hidden>↑</button>
+          <!-- 阅读进度：细线贴在视口顶部。两个滚动容器都能触发，逻辑同回顶按钮 -->
+          <div class="read-progress" id="readProgress" hidden><i></i></div>
         </section>
   </main>
+
+  <!-- 添加到主屏幕提示：只在浏览器真的抛出 beforeinstallprompt 时出现
+       （即「可安装」且用户还没装）。iOS Safari 不抛这个事件，所以那里不显示，
+       不做 UA 嗅探去猜 —— 猜错会在不支持的浏览器上给无效指引。 -->
+  <div class="install-bar" id="installBar" hidden>
+    <span class="install-ic">📲</span>
+    <div class="install-tx">
+      <div class="install-t" id="installTitle"></div>
+      <div class="install-d" id="installDesc"></div>
+    </div>
+    <button class="install-go" id="installGo" type="button"></button>
+    <button class="install-no" id="installNo" type="button" aria-label="关闭">✕</button>
+  </div>
 
   <nav class="tabbar" aria-label="主导航">
     <button class="tab" data-tab="map" id="tabMap">地图</button>
@@ -188,21 +207,21 @@
   </div>
 </div>
 
-<script src="js/data-newcomer-zone.js?v=20260915h"></script>
+<script src="js/data-newcomer-zone.js?v=20260915i"></script>
 <script src="js/data-categories.js?v=20260902"></script>
 <script src="js/data-faculties.js?v=20260902"></script>
-<script src="js/data-articles.js?v=20260915h"></script>
-<script src="js/articles-i18n.js?v=20260915h"></script>
+<script src="js/data-articles.js?v=20260915i"></script>
+<script src="js/articles-i18n.js?v=20260915i"></script>
 <!-- articles-body-i18n.js 不在这里加载：它是全站最大的一个文件（gzip 约 165KB），
      而中文读者一个字节都用不上。改由 app.js 的 ensureBodyI18N() 在非中文时按需并行拉。 -->
 <script src="js/data-cunli.js?v=20260904"></script>
 <script src="js/cunli-utils.js?v=20260906"></script>
 <script src="js/cunli-export.js?v=20260910"></script>
-<script src="js/i18n.js?v=20260915h"></script>
+<script src="js/i18n.js?v=20260915i"></script>
 <script src="js/render.js?v=20260902"></script>
 <script src="js/bus-live.js?v=20260902"></script>
-<script src="js/search.js?v=20260915h"></script>
-<script src="js/app.js?v=20260915h"></script>
+<script src="js/search.js?v=20260915i"></script>
+<script src="js/app.js?v=20260915i"></script>
 <script src="js/tour.js?v=20260902"></script>
 </body>
 </html>

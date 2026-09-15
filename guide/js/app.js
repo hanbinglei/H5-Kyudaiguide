@@ -112,11 +112,22 @@ let guideScrollY=0;
 /* 文章内的两个联动更新器（回到顶部按钮显隐、目录高亮），
    showArticle 渲染完要主动调一次，否则打开新文章时状态还停在上一次。 */
 let refreshToTop=null, refreshTocSpy=null;
+/* 搜索结果的键盘选中（↑↓ / Enter）。必须在这里声明 ——
+   app.js 的 IIFE 是严格模式，showSearchResults 里裸赋值会抛 ReferenceError。 */
+let searchKbd={idx:-1,cards:[],set:function(){}};
 function applyI18N(){
   $('brandSub').textContent=t('brandSub');
   $('searchInput').placeholder=t('searchPh');
   $('mapTip').textContent=t('mapTip');
   const bt=$('btnToTop'); if(bt)bt.title=t('toTop');   // 悬浮按钮只有图标，靠 title 说明
+  // 安装提示条已经显示时切语言，文案要跟着变（它是由 beforeinstallprompt 触发的，
+  // 不在 renderXxx 的重绘路径上，不在这里补就会停在上一个语言）
+  const ib=$('installBar');
+  if(ib&&!ib.hidden){
+    const set=(id,k)=>{const e=$(id); if(e)e.textContent=t(k)};
+    set('installTitle','installTitle'); set('installDesc','installDesc');
+    set('installGo','installGo'); set('installNo','installNo');
+  }
   // %n% 必须替换 —— 这里先前直接赋 t('guideHead')，切换语言时标题会显示成
   // 原始占位符「가이드 · %n% 카테고리」（冷启动走 renderGrid 才会替换，所以只在切换时暴露）
   $('guideHead').textContent=t('guideHead').replace('%n%',CATS.length);
@@ -386,6 +397,12 @@ function showArticle(id,wantHeading,wantSec){
         // 关闭按钮/遮罩点击由 onHashChange 离开 article 时解除。
         document.body.classList.add('modal-open');
         window.scrollTo(0,0);
+        /* 换文章要真的回到顶部：手机/平板的滚动容器是 .sheet-card，
+           window.scrollTo 管不到它 —— 不重置就会出现「点下一篇后停在上一篇的
+           滚动位置」，看起来像内容没换。深链跳转在下面，会再显式赋值，不受影响。 */
+        for(const s of articleScrollers()){ if(s.scrollTop) s.scrollTop=0; }
+        // 文末的上一篇 / 下一篇（按宫格顺序）
+        try{ renderArticleNav(art); }catch(e){}
         // 新文章从顶部开始：回到顶部按钮该隐藏、目录高亮该回到第一节，
         // 都要在这里主动刷一次，否则状态还停在上一次打开的那篇。
         try{ if(refreshToTop)refreshToTop(); if(refreshTocSpy)refreshTocSpy(); }catch(e){}
@@ -507,14 +524,33 @@ function articleVisible(){
   return !!pa&&getComputedStyle(pa).display!=='none';
 }
 
-/** 回到顶部按钮：滚过一段才出现，避免短文章也顶着个按钮 */
+/** 回到顶部按钮 + 阅读进度条：滚过一段才出现，避免短文章也顶着个按钮。
+    两者共用一个更新器 —— 监听的是同一批滚动容器、同一批滚动事件，
+    分成两套只会多一倍监听器，还容易出现「一个有反应一个没有」。 */
 function initToTop(){
   const btn=$('btnToTop'); if(!btn)return;
   const scs=articleScrollers();
   const update=()=>{
-    if(!articleVisible()){btn.hidden=true;return}
-    let y=0; for(const s of scs)y=Math.max(y,s.scrollTop||0);
-    btn.hidden=y<500;
+    const bar=$('readProgress');
+    if(!articleVisible()){
+      btn.hidden=true;
+      if(bar)bar.hidden=true;
+      return;
+    }
+    // 取滚动最多的那个容器（手机 .sheet-card / 桌面 #pane-article）
+    let sc=null,best=0;
+    for(const s of scs){const t=s.scrollTop||0;if(t>best){best=t;sc=s}}
+    if(!sc)sc=scs[0];
+    btn.hidden=best<500;
+    if(bar){
+      const max=sc?Math.max(0,(sc.scrollHeight||0)-(sc.clientHeight||0)):0;
+      // 短于约一屏的文章不显示进度条 —— 那点进度没有信息量
+      if(max>80){
+        bar.hidden=false;
+        const i=bar.firstElementChild;
+        if(i)i.style.width=Math.min(100,(best/max)*100).toFixed(1)+'%';
+      }else bar.hidden=true;
+    }
   };
   scs.forEach(s=>s.addEventListener('scroll',update,{passive:true}));
   btn.addEventListener('click',()=>{
@@ -564,6 +600,62 @@ function initTocSpy(){
   };
   scs.forEach(s=>s.addEventListener('scroll',update,{passive:true}));
   refreshTocSpy=update;
+}
+
+/* ── 文末上一篇 / 下一篇 ── */
+/** 顺序用**宫格顺序**（用户就是照宫格一篇篇看的），不按 id 也不按更新时间 ——
+    后两者对「下一篇」这个动作没有意义。跨分类也走，等于把 15 篇串成一条线。 */
+function renderArticleNav(art){
+  const box=$('articleNav'); if(!box)return;
+  const order=(typeof CATS!=='undefined'&&CATS?CATS:[]).map(c=>CAT_ART[c.id]).filter(Boolean);
+  const i=order.findIndex(a=>a&&String(a._id)===String(art._id));
+  if(i<0){box.hidden=true;box.innerHTML='';return}
+  const prev=i>0?order[i-1]:null, next=i<order.length-1?order[i+1]:null;
+  if(!prev&&!next){box.hidden=true;box.innerHTML='';return}
+  const cell=(a,cls,label)=>a
+    ? '<a class="'+cls+'" href="#article/'+encodeURIComponent(a._id)+'">'
+      +'<div class="an-k">'+esc(label)+'</div>'
+      +'<div class="an-t">'+esc(I18N.articleField(a,'title'))+'</div></a>'
+    : '<span></span>';
+  box.innerHTML=cell(prev,'prev',t('prevArticle'))+cell(next,'next',t('nextArticle'));
+  box.hidden=false;
+  box.querySelectorAll('a').forEach(a=>a.addEventListener('click',e=>{
+    e.preventDefault();
+    navigate(a.getAttribute('href').slice(1));
+  }));
+}
+
+/* ── 添加到主屏幕 ── */
+/** 只在浏览器真的抛出 beforeinstallprompt（= 可安装且未安装）时才显示。
+    iOS Safari 不抛这个事件 —— 那里就什么都不显示，而不是做 UA 嗅探去猜：
+    猜错会在不支持的浏览器上给出无效指引，比不提示更糟。 */
+function initInstallBar(){
+  const bar=$('installBar'); if(!bar)return;
+  const KEY='kyudai-install-dismissed';
+  let dismissed=false;
+  try{ dismissed=localStorage.getItem(KEY)==='1' }catch(e){}
+  let deferred=null;
+  window.addEventListener('beforeinstallprompt',e=>{
+    e.preventDefault();               // 拦下浏览器自带横幅，改用我们自己的
+    deferred=e;
+    if(dismissed)return;
+    $('installTitle').textContent=t('installTitle');
+    $('installDesc').textContent=t('installDesc');
+    $('installGo').textContent=t('installGo');
+    $('installNo').textContent=t('installNo');
+    bar.hidden=false;
+  });
+  $('installNo').addEventListener('click',()=>{
+    bar.hidden=true; dismissed=true;
+    try{ localStorage.setItem(KEY,'1') }catch(e){}
+  });
+  $('installGo').addEventListener('click',async()=>{
+    bar.hidden=true;
+    if(!deferred)return;
+    try{ deferred.prompt(); await deferred.userChoice; }catch(e){}
+    deferred=null;
+  });
+  window.addEventListener('appinstalled',()=>{ bar.hidden=true; deferred=null; });
 }
 
 /* ── 最近搜索（localStorage）── */
@@ -617,7 +709,30 @@ function initSearch(){
   inp.addEventListener('input',()=>{uc();clearTimeout(tm);tm=setTimeout(run,140);renderSearchHist()});   // 防抖：别每敲一个字就重排一次
   // 只在「明确的搜索意图」时才记进历史：按回车、或点开了某条结果。
   // 每次防抖都记会把「银」「银行」这种中间状态也存进去，历史就废了。
-  inp.addEventListener('keydown',e=>{ if(e.key==='Enter'){ histAdd(inp.value); renderSearchHist(); } });
+  // 键盘导航也走这里：↑↓ 选择、Enter 打开选中的那条（没选就只记历史）。
+  inp.addEventListener('keydown',e=>{
+    if(e.key==='ArrowDown'||e.key==='ArrowUp'){
+      const cards=searchKbd.cards||[];
+      if(!cards.length)return;
+      e.preventDefault();
+      const n=cards.length;
+      let i=searchKbd.idx+(e.key==='ArrowDown'?1:-1);
+      if(i<-1)i=n-1;
+      if(i>=n)i=-1;
+      searchKbd.set(i);
+      return;
+    }
+    if(e.key==='Escape'){ const b=$('searchHist'); if(b)b.hidden=true; return; }
+    if(e.key==='Enter'){
+      const cards=searchKbd.cards||[];
+      if(searchKbd.idx>=0&&cards[searchKbd.idx]){
+        e.preventDefault();
+        cards[searchKbd.idx].click();     // 复用卡片自己的处理（含记历史 + navigate）
+        return;
+      }
+      histAdd(inp.value); renderSearchHist();
+    }
+  });
   inp.addEventListener('focus',renderSearchHist);
   document.addEventListener('click',e=>{
     if(!e.target.closest||!e.target.closest('#searchWrap')){const b=$('searchHist');if(b)b.hidden=true}
@@ -666,6 +781,17 @@ function showSearchResults(list,q,via){
     histAdd(q);
     navigate('article/'+encodeURIComponent(el.dataset.id));
   }));
+  /* 键盘导航（桌面用）：↑↓ 选、Enter 开。状态放在模块级并每轮重建 ——
+     直接在这里 addEventListener('keydown') 会随每次输入累加，越敲越卡。 */
+  const cards=[...box.querySelectorAll('.card-lite')];
+  const setKbd=i=>{
+    searchKbd.idx=i;
+    searchKbd.cards=cards;
+    cards.forEach((c,j)=>c.classList.toggle('kbd-on',j===i));
+    if(i>=0&&cards[i]){ try{ cards[i].scrollIntoView({block:'nearest'}) }catch(e){} }
+  };
+  searchKbd={idx:-1,cards:cards,set:setKbd};
+  setKbd(-1);
 }
 
 // ── 村历 ──
@@ -870,7 +996,8 @@ function renderHistory(){
 // ── init ──
 function init(){
   initLang();applyI18N();searchRebuild();initSearch();renderGrid();initCunli();renderHistory();
-  initToTop();initTocSpy();      // 长文回顶 / 目录联动（都是纯增强，失败不影响主流程）
+  initToTop();initTocSpy();      // 长文回顶 / 阅读进度 / 目录联动（纯增强，失败不影响主流程）
+  initInstallBar();              // 添加到主屏幕（只在浏览器真的支持时出现）
   // 非中文时并行取正文译文包；不 await —— 首屏不该等它
   ensureBodyI18N(()=>{ if(currentHash().startsWith('article/'))onHashChange(); });
   document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>navigate(b.dataset.tab)));
