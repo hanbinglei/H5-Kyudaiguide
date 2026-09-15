@@ -5601,7 +5601,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Fukuoka's climate combines features of both the Sea of Japan side and the Pacific Ocean side. In winter it directly faces cold air coming from the northwest: windy, yet temperatures mostly stay above 0 °C, with relatively little precipitation. Because the sea between Fukuoka and the Korean Peninsula is too narrow to accumulate enough moisture, heavy snow like that in the Hokuriku (北陸) region is rare — instead, strong winds are common, and gusts can reach Force 8 at their strongest."
    },
    "cc62d7": {
-    "text": "June and July are the rainy season (梅雨), after which the region comes under the subtropical high: muggy, sunny, and dry, though the accumulated energy readily triggers severe convection. Autumn also has a rainy spell, but less pronounced than the rainy season. Spring and autumn are comparatively comfortable, and autumn is usually the best season of the year."
+    "text": "June and July are the rainy season (梅雨), after which the region comes under the subtropical high: muggy, sunny, and dry, though the accumulated energy readily triggers severe convection. Autumn also has a rainy spell, but less pronounced than the rainy season. Spring and autumn are comparatively mild, and autumn brings many clear days suited to going out."
    },
    "0aeb5b": {
     "items": [

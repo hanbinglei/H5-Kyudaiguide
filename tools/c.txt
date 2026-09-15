@@ -1,0 +1,8 @@
+内容修订（续）：补上生活篇漏掉的英译 + 清理临时文件
+
+上一提交漏了 guide-life / cc62d7 的英译（只换了日韩），
+已改成 "Spring and autumn are comparatively mild, and autumn brings many
+clear days suited to going out."。
+
+穷举核对：8 处 × 4 语 = 32 个字符串，旧说法残留 0 处。
+顺带删掉误提交的 tools/.msg.txt，并把它与 tools/.*.js 加进 .gitignore。

@@ -29,3 +29,5 @@ CHANGELOG.md
 docs/
 tools/.scholarship_i18n.json
 tools/.scholarship_nav_i18n.json
+tools/.msg.txt
+tools/.*.js
