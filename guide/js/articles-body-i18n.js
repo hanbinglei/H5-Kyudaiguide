@@ -6036,6 +6036,93 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://www.city.fukuoka.lg.jp/chinese/"
      }
     ]
+   },
+   "e1a701": {
+    "text": "体調不良と受診"
+   },
+   "e1a702": {
+    "text": "日本の医療は「まず緊急度を判断し、それから行き先を決める」という流れです。緊急度が高ければ救急車を呼び、病院に行くべきか迷う場合はまず電話で相談できます。どちらの窓口も 24 時間対応です。"
+   },
+   "e1a703": {
+    "items": [
+     {
+      "text": "緊急度が高い（突然の激しい頭痛・呼吸困難・意識がはっきりしない）→ 119 番"
+     },
+     {
+      "text": "病院に行くべきか迷う → #7119（24 時間・無料）"
+     },
+     {
+      "text": "#7119 がつながらない（IP 電話など）→ 092-471-0099"
+     },
+     {
+      "text": "受診できる病院を探す → 同じく #7119、音声案内で「1 番」"
+     }
+    ]
+   },
+   "e1a704": {
+    "items": [
+     {
+      "text": "福岡県 救急医療電話相談窓口（公式）",
+      "url": "https://www.pref.fukuoka.lg.jp/contents/fukuokaqq.html"
+     }
+    ]
+   },
+   "e1a705": {
+    "text": "学内：健康相談室（無料）"
+   },
+   "e1a706": {
+    "text": "九大の健康相談室は内科医が担当し、一般的な健康相談と診療を行っています。相談・治療に**費用は一切かからず**、受診内容が**指導教員を含む第三者に漏れることもありません**。必要に応じて学外の専門医を紹介してくれます。"
+   },
+   "e1a707": {
+    "items": [
+     {
+      "text": "伊都・センターゾーン：092-802-5881"
+     },
+     {
+      "text": "伊都・ウエストゾーン：092-802-3297"
+     },
+     {
+      "text": "病院地区：092-642-6889"
+     },
+     {
+      "text": "大橋：092-553-4581　／　筑紫：092-583-8431"
+     }
+    ]
+   },
+   "e1a708": {
+    "text": "相談日は地区ごとに異なります。行く前に電話で確認してください。"
+   },
+   "e1a709": {
+    "items": [
+     {
+      "text": "九州大学 キャンパスライフ・健康支援センター（公式）",
+      "url": "https://chc.kyushu-u.ac.jp/organization/facility/"
+     }
+    ]
+   },
+   "e1a70a": {
+    "text": "夜間・休日"
+   },
+   "e1a70b": {
+    "text": "福岡市立急患診療センターは夜間・休日の急病を応急処置として診ます。公式に「不要・不急の受診はできるだけ控え、まずはかかりつけ医の診療時間内に」と明記されています。"
+   },
+   "e1a70c": {
+    "items": [
+     {
+      "text": "場所：早良区百道浜 1-6-9"
+     },
+     {
+      "text": "電話：092-847-1099"
+     }
+    ]
+   },
+   "e1a70d": {
+    "items": [
+     {
+      "text": "福岡市医師会 急患診療センター（公式）",
+      "url": "https://www.city.fukuoka.med.or.jp/facilities/"
+     }
+    ]
    }
   },
   "en": {
@@ -6195,6 +6282,93 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://www.city.fukuoka.lg.jp/chinese/"
      }
     ]
+   },
+   "e1a701": {
+    "text": "Feeling unwell: where to go"
+   },
+   "e1a702": {
+    "text": "Medical care in Japan works in two steps: judge how urgent it is, then decide where to go. If it is clearly urgent, call an ambulance; if you are unsure whether you need a hospital, you can call and ask first. Both lines run 24 hours."
+   },
+   "e1a703": {
+    "items": [
+     {
+      "text": "Clearly urgent (sudden severe headache, trouble breathing, confusion) → call 119"
+     },
+     {
+      "text": "Unsure whether to go to hospital → dial #7119 (24 h, free)"
+     },
+     {
+      "text": "#7119 not reachable (IP phones etc.) → 092-471-0099"
+     },
+     {
+      "text": "Looking for a hospital that can see you → same #7119, choose option 1"
+     }
+    ]
+   },
+   "e1a704": {
+    "items": [
+     {
+      "text": "Fukuoka Prefecture emergency medical telephone consultation (official)",
+      "url": "https://www.pref.fukuoka.lg.jp/contents/fukuokaqq.html"
+     }
+    ]
+   },
+   "e1a705": {
+    "text": "On campus: Health Counselling Room (free)"
+   },
+   "e1a706": {
+    "text": "Kyushu U's Health Counselling Room is staffed by physicians, offering general health advice and treatment. There is **no charge** for consultation or treatment, and what you discuss is **not disclosed to third parties, including your supervisor**. Where needed, the doctor will refer you to a specialist outside the university."
+   },
+   "e1a707": {
+    "items": [
+     {
+      "text": "Ito, Center Zone: 092-802-5881"
+     },
+     {
+      "text": "Ito, West Zone: 092-802-3297"
+     },
+     {
+      "text": "Hospital Campus: 092-642-6889"
+     },
+     {
+      "text": "Ohashi: 092-553-4581 ／ Chikushi: 092-583-8431"
+     }
+    ]
+   },
+   "e1a708": {
+    "text": "Consultation days differ by campus — call ahead to confirm."
+   },
+   "e1a709": {
+    "items": [
+     {
+      "text": "Kyushu University Center for Health Sciences and Counseling (official)",
+      "url": "https://chc.kyushu-u.ac.jp/organization/facility/"
+     }
+    ]
+   },
+   "e1a70a": {
+    "text": "Nights and holidays"
+   },
+   "e1a70b": {
+    "text": "Fukuoka City Emergency Medical Center handles night-time and holiday emergencies on a first-aid basis. Its official guidance asks you to avoid non-urgent visits and to see your regular doctor first during normal hours."
+   },
+   "e1a70c": {
+    "items": [
+     {
+      "text": "Address: 1-6-9 Momochihama, Sawara-ku"
+     },
+     {
+      "text": "Phone: 092-847-1099"
+     }
+    ]
+   },
+   "e1a70d": {
+    "items": [
+     {
+      "text": "Fukuoka City Medical Association emergency centres (official)",
+      "url": "https://www.city.fukuoka.med.or.jp/facilities/"
+     }
+    ]
    }
   },
   "ko": {
@@ -6352,6 +6526,93 @@ window.ARTICLES_BODY_I18N = {
      {
       "text": "福岡市 다국어 포털 (간체 중국어)",
       "url": "https://www.city.fukuoka.lg.jp/chinese/"
+     }
+    ]
+   },
+   "e1a701": {
+    "text": "아플 때: 어디로 가야 하나"
+   },
+   "e1a702": {
+    "text": "일본의 진료는 「먼저 긴급도를 판단하고, 그다음 갈 곳을 정한다」는 흐름입니다. 긴급도가 높으면 구급차를 부르고, 병원에 가야 할지 망설여지면 먼저 전화로 상담할 수 있습니다. 두 창구 모두 24시간입니다."
+   },
+   "e1a703": {
+    "items": [
+     {
+      "text": "긴급도가 높음(갑작스러운 심한 두통·호흡 곤란·의식 불명) → 119"
+     },
+     {
+      "text": "병원에 가야 할지 모르겠음 → #7119(24시간·무료)"
+     },
+     {
+      "text": "#7119 연결 안 됨(IP 전화 등) → 092-471-0099"
+     },
+     {
+      "text": "진료 가능한 병원을 찾음 → 같은 #7119, 음성 안내에서 「1번」"
+     }
+    ]
+   },
+   "e1a704": {
+    "items": [
+     {
+      "text": "후쿠오카현 응급의료 전화 상담 창구(공식)",
+      "url": "https://www.pref.fukuoka.lg.jp/contents/fukuokaqq.html"
+     }
+    ]
+   },
+   "e1a705": {
+    "text": "교내: 건강상담실(무료)"
+   },
+   "e1a706": {
+    "text": "규슈대 건강상담실은 내과 의사가 담당하며 일반 건강 상담과 진료를 합니다. 상담과 치료에 **비용이 전혀 들지 않고**, 진료 내용이 **지도교수를 포함한 제3자에게 알려지지 않습니다**. 필요하면 교외 전문의를 소개해 줍니다."
+   },
+   "e1a707": {
+    "items": [
+     {
+      "text": "이토·센터존: 092-802-5881"
+     },
+     {
+      "text": "이토·웨스트존: 092-802-3297"
+     },
+     {
+      "text": "병원 캠퍼스: 092-642-6889"
+     },
+     {
+      "text": "오하시: 092-553-4581 ／ 지쿠시: 092-583-8431"
+     }
+    ]
+   },
+   "e1a708": {
+    "text": "상담 가능한 요일은 캠퍼스마다 다릅니다. 가기 전에 전화로 확인하세요."
+   },
+   "e1a709": {
+    "items": [
+     {
+      "text": "규슈대 캠퍼스라이프·건강지원센터(공식)",
+      "url": "https://chc.kyushu-u.ac.jp/organization/facility/"
+     }
+    ]
+   },
+   "e1a70a": {
+    "text": "야간·휴일"
+   },
+   "e1a70b": {
+    "text": "후쿠오카시립 응급진료센터는 야간·휴일의 급병을 응급처치로 진료합니다. 공식 안내에 「불필요하거나 급하지 않은 진료는 가급적 피하고, 먼저 주치의의 진료 시간 내에」라고 명시되어 있습니다."
+   },
+   "e1a70c": {
+    "items": [
+     {
+      "text": "주소: 사와라구 모모치하마 1-6-9"
+     },
+     {
+      "text": "전화: 092-847-1099"
+     }
+    ]
+   },
+   "e1a70d": {
+    "items": [
+     {
+      "text": "후쿠오카시 의사회 응급진료센터(공식)",
+      "url": "https://www.city.fukuoka.med.or.jp/facilities/"
      }
     ]
    }

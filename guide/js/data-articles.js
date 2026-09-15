@@ -1,7 +1,7 @@
 // data-articles.js — 12 篇主指南（cat 1–12）+ 置顶反诈（cat 13）
 // 由 tools/build_guide_articles.js 从 content/ 生成，勿手改。
 // **要改内容请改 content/<article>.json**，然后重跑构建。
-// 共 17 篇 · 704 块
+// 共 17 篇 · 717 块
 //
 // ⚠️ 这里不写生成日期。CI 的做法是「重跑构建 → git diff 必须为空」，
 //    用来抓「改了 content/ 却忘了重跑」。而日期戳会让产物每天都不一样，
@@ -2812,6 +2812,122 @@ window.ARTICLES = [
      {
       "text": "福岡アジア医療サポートセンター",
       "url": "https://asian-msc.jp/"
+     }
+    ]
+   },
+   {
+    "id": "e1a701",
+    "type": "heading",
+    "level": 2,
+    "text": "生病与就诊"
+   },
+   {
+    "id": "e1a702",
+    "type": "paragraph",
+    "text": "日本的医疗流程是：先判断紧急度，再决定去哪。紧急度高就直接叫救护车；不确定该不该去医院，可以先打电话咨询——这两个窗口都是 24 小时的。"
+   },
+   {
+    "id": "e1a703",
+    "type": "list",
+    "items": [
+     {
+      "text": "紧急度高（突然剧烈头痛、呼吸困难、意识不清）→ 直接拨 119"
+     },
+     {
+      "text": "不确定要不要去医院 → 拨 #7119（24 小时，免费）"
+     },
+     {
+      "text": "#7119 打不通（IP 电话等）→ 092-471-0099"
+     },
+     {
+      "text": "要找能就诊的医院 → 同样拨 #7119，按语音提示选 1 番"
+     }
+    ]
+   },
+   {
+    "id": "e1a704",
+    "type": "links",
+    "items": [
+     {
+      "text": "福冈县 救急医疗电话咨询窗口（官方）",
+      "url": "https://www.pref.fukuoka.lg.jp/contents/fukuokaqq.html"
+     }
+    ]
+   },
+   {
+    "id": "e1a705",
+    "type": "heading",
+    "level": 2,
+    "text": "校内：健康相談室（不收费）"
+   },
+   {
+    "id": "e1a706",
+    "type": "paragraph",
+    "text": "九大健康相談室由内科医生坐诊，做一般健康咨询和诊疗。咨询和治疗**不产生任何费用**，就诊内容也**不会透露给导师在内的第三方**。需要时医生会介绍校外的专科医院。"
+   },
+   {
+    "id": "e1a707",
+    "type": "list",
+    "items": [
+     {
+      "text": "伊都・Center Zone：092-802-5881"
+     },
+     {
+      "text": "伊都・West Zone：092-802-3297"
+     },
+     {
+      "text": "病院地区：092-642-6889"
+     },
+     {
+      "text": "大橋：092-553-4581　／　筑紫：092-583-8431"
+     }
+    ]
+   },
+   {
+    "id": "e1a708",
+    "type": "paragraph",
+    "text": "各地区的开诊日不一样，去之前先打个电话确认。"
+   },
+   {
+    "id": "e1a709",
+    "type": "links",
+    "items": [
+     {
+      "text": "九州大学 キャンパスライフ・健康支援センター（官方）",
+      "url": "https://chc.kyushu-u.ac.jp/organization/facility/"
+     }
+    ]
+   },
+   {
+    "id": "e1a70a",
+    "type": "heading",
+    "level": 2,
+    "text": "夜间与节假日"
+   },
+   {
+    "id": "e1a70b",
+    "type": "paragraph",
+    "text": "福冈市立急患诊疗中心负责夜间和节假日的急病，只做应急处理。官方明确请求：不要不急的就诊尽量避开，先找平时就诊的医生。"
+   },
+   {
+    "id": "e1a70c",
+    "type": "list",
+    "items": [
+     {
+      "text": "地点：早良区百道浜 1-6-9"
+     },
+     {
+      "text": "电话：092-847-1099"
+     }
+    ]
+   },
+   {
+    "id": "e1a70d",
+    "type": "links",
+    "items": [
+     {
+      "text": "福冈市医师会 急患诊疗中心（官方）",
+      "url": "https://www.city.fukuoka.med.or.jp/facilities/"
      }
     ]
    },
