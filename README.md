@@ -25,16 +25,34 @@
 
 ### 📖 Guide (`guide/`, static H5)
 
-A read-only H5 build of the campus guide — four content tabs plus faculty links, no backend, no account:
+A read-only H5 build of the campus guide — four content tabs plus faculty links. No account, no server:
 
-- **Guide** — living how-tos across 12 scenarios (arrival, residence, housing, banking, SIM, scholarships,
-  part-time work, medical, transport, life tips, shopping, emergency), rendered from local content blocks.
+- **Guide** — **17 in-depth articles** across 12 categories (arrival, residence, housing, banking, SIM,
+  scholarships, part-time work, medical, transport, life tips, shopping, emergency), rendered from local
+  content blocks. Includes a **newcomer timeline** that strings the scattered procedures into the order
+  you actually have to do them.
 - **Calendar (村暦)** — academic-year & holiday calendar (Cabinet Office public holidays + KU academic calendar).
 - **Map** — embeds the interactive map below.
 - **History** — recently viewed guides (localStorage).
 - **Faculty sites (官网)** — one-tap links to all **12 undergraduate schools + 21 graduate schools**,
   each with a campus tag, sourced from KU's official faculty index.
-- 4 UI languages (zh / ja / en / ko).
+- **Status bar** — today's visitor count · days until the next campus event · Fukuoka weather · your own
+  reading progress. **Every item degrades silently**: if a source is unavailable that item alone is hidden,
+  never an error and never a blank.
+- **Sources section** — every article ends with the original links it cites, grouped into official/public
+  bodies vs. other, collapsed by default. All external links are collected from the rendered DOM, so they
+  are localised along with the article.
+- **Feedback & correction** — a form at the end of each article plus a floating button while reading.
+  Submissions go to a Google Apps Script endpoint (writes a Sheet + sends notification mail); the entry
+  point is recorded so the maintainer can see which button was used.
+- **Installable & fully offline** — Service Worker precaches everything; add to home screen and it still
+  works with no network.
+- 4 UI languages (zh / ja / en / ko) — and not just UI strings: **all 1447 content units are translated**
+  (unit-level completeness, enforced by a checker).
+
+**Search** is four layers — literal → alias → fuzzy → **CJK bigram fallback** — with an IDF-weighted
+coverage score deciding what even counts as a result. Real-phrasing queries (「怎么开银行账户」,
+「風邪をひいたら」) are part of the regression suite, not just keyword lookups.
 
 ### 🗺️ Map (`h5-mvp/`)
 
@@ -62,6 +80,32 @@ npx http-server -p 8123 .
 
 **GitHub Pages**: host from the repo root and access `https://<username>.github.io/H5-Kyudaiguide/guide/`.
 The offline single file `dist/kyudaimap-offline.html` can also be downloaded and shared with no server at all.
+
+---
+
+## Quality gates (`tools/`)
+
+Nothing here is eyeballed, and the checkers themselves are versioned. Every change runs through:
+
+| Checker | What it guards |
+|---------|----------------|
+| `check_dom_ids.js` | every DOM id referenced from JS actually exists |
+| `check_body_i18n.js` | zh/ja/en/ko article bodies have identical structure (block ids, counts, URLs, phone numbers) |
+| `check_nav_i18n.js` · `check_cunli_i18n.js` · `verify_cunli_nameof.js` | nav & calendar translations complete in all languages |
+| `check_newcomer_zone.js` | every deep link in the newcomer timeline resolves to a real section |
+| `check_claims.js` | every claim in the ledger is still referenced |
+| `check_readability.py` | readability budget (bold runs per paragraph, list-item length, table size, elements per heading) |
+| `audit_i18n_full.py` | text that bypasses `t()` — hardcoded CJK, `aria-label`/`title` attributes, dict drift |
+| `audit_subjective.js` | sentences asserting something without a source |
+| `bench_search.js` · `probe_real_queries.js` | search regression: ranking, plus recall/precision on real phrasings in 4 languages |
+| `test_pulse.js` · `test_sources.js` · `test_feedback.js` | module behaviour (79 assertions in the feedback module alone) |
+
+**Build reproducibility**: `guide/js/data-articles.js` is generated from `content/*.json`. CI re-runs the
+build and requires an empty diff — so 「edited content but forgot to rebuild」 fails loudly instead of
+shipping stale content.
+
+**Content discipline**: every figure carries its source; anything that cannot be sourced is left out
+rather than invented. The pipeline that enforces this is described under Limitations.
 
 ---
 
@@ -158,6 +202,17 @@ place them in the repo root (keep the filenames) to re-run the pipeline:
 
 ## Limitations (honestly)
 
+- **Search precision is uneven across languages.** Recall on real-phrasing queries improved from 54% to 92%
+  after adding query-side stopword filtering, partial-match coverage and CJK bigram fallback. But Japanese
+  phrasings can still return 9–16 of 17 articles — the next step is per-language scoring, not another
+  threshold.
+- **English vocabulary gaps**: a query saying "sick" will not find a section that says "unwell".
+  A synonym layer is still to come.
+- **Verified in Chrome only** (desktop plus emulated mobile widths). iOS Safari is untested — and that is
+  the browser most readers here actually use.
+- **No real users yet** besides the author. Everything above is self-testing; the failure modes that only
+  show up with real readers (wording that confuses, sections nobody finishes) are structurally invisible
+  to these checkers.
 - **Drifts over time**: timetables change, buildings change. Data carries a `fetched` date and scripts are
   re-runnable — re-run periodically, don't treat it as static truth.
 - Buses are **outbound only** (station → KU); return trips pending (`build_bus_schedule.py` with `updown=1`).
