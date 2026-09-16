@@ -865,3 +865,17 @@ body.fb-open{overflow:hidden}
   border-color:#f0dfae;background:#fffdf5;color:#8a6a15}
 .star-entry:hover{border-color:#d9b95c;color:#8a6a15}
 .article-foot .star-entry{display:flex;justify-content:center;width:100%}
+
+/* ── 文章内插图（机场指南等图文类文章）────────────────────
+   设计取舍：指南里的照片是给读者认路的，所以要（1）占满正文宽度、
+   （2）点开能看全尺寸、（3）配一句说明它替代了我口头描述不清的部分。
+   颜色全部走主题变量，深色模式下自动适配。 */
+.ar-figure{margin:15px 0;border:1px solid var(--border,#e6e6e6);border-radius:12px;
+  overflow:hidden;background:var(--card,#fafafa)}
+.ar-figure img{display:block;width:100%;height:auto;cursor:zoom-in}
+.ar-figure figcaption{padding:9px 13px;font-size:13px;line-height:1.55;
+  color:var(--muted-foreground,#666);border-top:1px solid var(--border,#eee)}
+/* 点图放大：指南里的标志牌文字必须能看清 */
+#arLightbox{position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.88);
+  display:flex;align-items:center;justify-content:center;padding:16px;cursor:zoom-out}
+#arLightbox img{max-width:100%;max-height:100%;object-fit:contain;border-radius:6px}

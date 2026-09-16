@@ -4,19 +4,19 @@
     {
       "_id": "guide-entry",
       "category": "1",
-      "blocks": 74,
+      "blocks": 76,
       "file": "content/guide-entry.json"
     },
     {
       "_id": "guide-residence",
       "category": "2",
-      "blocks": 65,
+      "blocks": 67,
       "file": "content/guide-residence.json"
     },
     {
       "_id": "guide-housing",
       "category": "3",
-      "blocks": 50,
+      "blocks": 55,
       "file": "content/guide-housing.json"
     },
     {
@@ -28,7 +28,7 @@
     {
       "_id": "guide-phone",
       "category": "5",
-      "blocks": 25,
+      "blocks": 35,
       "file": "content/guide-phone.json"
     },
     {
@@ -46,19 +46,19 @@
     {
       "_id": "guide-medical",
       "category": "8",
-      "blocks": 24,
+      "blocks": 37,
       "file": "content/guide-medical.json"
     },
     {
       "_id": "guide-transport",
       "category": "9",
-      "blocks": 67,
+      "blocks": 82,
       "file": "content/guide-transport.json"
     },
     {
       "_id": "guide-life",
       "category": "10",
-      "blocks": 47,
+      "blocks": 52,
       "file": "content/guide-life.json"
     },
     {
@@ -70,7 +70,7 @@
     {
       "_id": "guide-emergency",
       "category": "12",
-      "blocks": 28,
+      "blocks": 34,
       "file": "content/guide-emergency.json"
     },
     {
@@ -80,9 +80,15 @@
       "file": "content/guide-antifraud.json"
     },
     {
+      "_id": "guide-airport",
+      "category": "14",
+      "blocks": 51,
+      "file": "content/guide-airport.json"
+    },
+    {
       "_id": "guide-newcomer",
       "category": "14",
-      "blocks": 46,
+      "blocks": 51,
       "file": "content/guide-newcomer.json"
     },
     {

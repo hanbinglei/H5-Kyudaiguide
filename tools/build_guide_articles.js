@@ -25,7 +25,7 @@ const OUT = path.join(ROOT, 'guide', 'js', 'data-articles.js');
 
 // 渲染器 render.js 支持的区块类型 —— 加新类型要先改渲染器
 const TYPES = new Set(['paragraph', 'heading', 'subheading', 'list', 'links', 'notice',
-  'warning', 'steps', 'fee_table', 'checklist', 'collapse', 'quote', 'bus_live']);
+  'warning', 'steps', 'fee_table', 'checklist', 'collapse', 'quote', 'bus_live', 'image']);
 
 const errors = [];
 const ids = new Set();

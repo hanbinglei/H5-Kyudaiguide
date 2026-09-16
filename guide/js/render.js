@@ -124,6 +124,12 @@ function blockToHTML(b){
   if(b.type==='steps')return`<div class="steps">${(b.items||[]).map((it,i)=>`<div class="step"><div class="step-dot">${i+1}</div><div class="step-body"><div class="step-title">${esc(it.title||'')}</div>${it.desc?`<div class="step-desc">${esc(it.desc)}</div>`:''}</div></div>`).join('')}</div>`;
   if(b.type==='fee_table')return`<div class="table-wrap"><table class="table"><thead><tr>${(b.headers||[]).map(h=>`<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${(b.rows||[]).map(r=>`<tr>${r.map(c=>`<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
   if(b.type==='collapse')return`<details class="notice" style="background:#fff"><summary style="cursor:pointer;font-weight:700">${esc(b.title||'展开')}</summary><div style="margin-top:8px">${(b.blocks||[]).map(ib=>blockToHTML(ib)).join('')}</div></details>`;
+  if(b.type==='image'){
+    const cap = b.caption ? `<figcaption>${esc(b.caption)}</figcaption>` : '';
+    return `<figure class="ar-figure" data-blk="${esc(b.id||'')}">`
+      + `<img src="${esc(b.src)}" alt="${esc(b.alt||'')}" loading="lazy" decoding="async">`
+      + cap + `</figure>`;
+  }
     // bus_live —— 渲染为骨架容器，数据存 dataset.schedule，由 bus-live.js 填充实时表格
     if(b.type==='bus_live'){
       const data=JSON.stringify(b);
@@ -205,4 +211,33 @@ function renderSources(container){
 }
 
 window.GuideRender={renderBlocks,normalizeBlocks,splitPhone,renderSources};
+})();
+
+
+/* ── 图片点开放大 ──
+   指南里的照片是标志牌，本来就该能看清字。点开显示原始 webp，Esc 或点空白关闭。
+   用事件委托 + 单例守卫，切文章/切语言重建 DOM 也不会重复挂载。 */
+(function(){
+  if(typeof document === 'undefined') return;   // node 测试环境无 DOM
+if(window.__kyudaiLightbox) return;
+  window.__kyudaiLightbox = true;
+  function close(){
+    const el = document.getElementById('arLightbox');
+    if(el){ el.remove(); document.body.style.overflow=''; }
+  }
+  document.addEventListener('click', function(e){
+    const img = e.target && e.target.closest && e.target.closest('.ar-figure img');
+    if(img){
+      const el = document.createElement('div');
+      el.id = 'arLightbox';
+      el.innerHTML = '<img alt="">';
+      el.querySelector('img').src = img.currentSrc || img.src;
+      el.addEventListener('click', close);
+      document.body.appendChild(el);
+      document.body.style.overflow = 'hidden';
+      return;
+    }
+    if(e.target && e.target.id === 'arLightbox') close();
+  }, false);
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape') close(); });
 })();

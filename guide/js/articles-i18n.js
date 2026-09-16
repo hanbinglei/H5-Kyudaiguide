@@ -99,6 +99,15 @@ window.ARTICLES_I18N = {
     en:'Common scams targeting international students (embassy impersonation / currency-exchange fraud / virtual kidnapping), core prevention principles, a daily checklist, and what to do if scammed. Read this first.',
     ko:'유학생을 노리는 흔한 사기(대사관 사칭/환전 사기/가상 납치 등), 예방 기본 원칙, 일일 체크리스트, 피해 후 대응과 상담처. 신입생 필독.' },
 },
+'guide-airport': {
+  title:{ ja:'福岡空港から伊都キャンパスへ：公共交通の全行程ガイド',
+          en:'Fukuoka Airport to Ito Campus: the complete public-transit guide',
+          ko:'후쿠오카 공항에서 이토 캠퍼스까지: 대중교통 전체 가이드' },
+  summary:{
+    ja:'飛行機を降りてから校門をくぐるまで、実際に歩いた記録をもとに整理した一枚のルート：人の流れについていく → 入国審査 → 手荷物受取と税関 → 無料連絡バスで国内線へ → 地下鉄で九大学研都市駅まで直通 → 昭和バスでキャンパスへ。現場写真 17 枚つきで、各段階を見比べながら進めます。つまずきやすいのは地下鉄の方向だけ——その一点は独立した節で詳しく説明しています。',
+    en:'From stepping off the plane to walking through the campus gate, one continuous route rebuilt from a real walkthrough: follow the crowd → immigration → baggage and customs → free shuttle to the domestic terminal → subway straight through to Kyudai-Gakkentoshi → Showa bus to campus. With 17 on-site photos so you can compare each step. Only one step is easy to get wrong — the subway direction — and it gets a section of its own.',
+    ko:'비행기에서 내려 교문을 들어설 때까지, 실제로 걸어보며 기록한 하나의 경로: 인파를 따라가기 → 입국 심사 → 수하물 수취와 세관 → 무료 셔틀로 국내선 이동 → 지하철로 규다이갓켄토시역까지 직통 → 쇼와버스로 캠퍼스까지. 현장 사진 17장이 있어 각 단계를 비교하며 진행할 수 있습니다. 헷갈리기 쉬운 곳은 지하철 방향 한 곳뿐이며, 그 부분은 별도 절에서 자세히 설명합니다.' },
+},
 'guide-firstmonth': {
   title:{ ja:'着いてからの 30 日：手続き一覧', en:'Your First 30 Days: procedures in order', ko:'도착 후 30일: 수속 총정리' },
   summary:{

@@ -11026,7 +11026,666 @@ window.ARTICLES_BODY_I18N = {
    }
   }
  },
- "guide-firstmonth": {
+  "guide-airport": {
+  "ja": {
+     "ap0000": {
+        "text": "福岡空港から伊都キャンパスへ、**タクシーを使わずに**行くルートです：空港 → 入国審査 → 手荷物受取 → 無料連絡バス → 地下鉄 → バス。順番どおりに進めば大丈夫で、全体で 1 時間半ほどです。"
+     },
+     "ap0001": {
+        "text": "本文のルートは**2026 年 5 月の実地記録**（同じ道を歩いた学生が区間ごとに撮影した写真と説明）に基づき、駅と乗り方は**九州大学公式サイト**で確認済みです。写真はタップで拡大でき、標識の文字まで読み取れます。"
+     },
+     "ap0002": {
+        "text": "全行程 7 ステップ"
+     },
+     "ap0004": {
+        "text": "**間違えやすいのは一か所だけ**：地下鉄は必ず「筑前前原」または「西唐津」方面に乗ってください。「姪浜」行きに乗ると九大学研都市には行けず、姪浜で乗り換えが必要です。詳しくは第 5 節。"
+     },
+     "ap0005": {
+        "text": "一、飛行機を降りたら：人の流れについていく"
+     },
+     "ap0006": {
+        "text": "降機後は**人の流れについていく**だけです。通常ルートは一本しかありません。下の「到着／Arrivals」の標識が見えたら、矢印の方向へ進みます——到着ゲートによって方向が違うので、記憶ではなく**矢印**を見てください。"
+     },
+     "ap0008": {
+        "text": "**日本語が分からなくても大丈夫です。**空港の標識はほぼ漢字で、やさしい英語も併記されているので、方向を見失うことはありません。"
+     },
+     "ap0010": {
+        "text": "二、入国審査"
+     },
+     "ap0011": {
+        "text": "**出発前にスマホで準備しておくのがおすすめです。**日本の入国・税関申告は Visit Japan Web で事前に登録でき、QR コードを発行できます。到着後に紙の申告書に書くより格段に早く済みます。"
+     },
+     "ap0014": {
+        "text": "列は**外国人の列**に並びます。登録済みの入国 QR コードとパスポートを係員に提示します。現在はほとんどが**電子ゲート**で、QR コード読み取り → パスポート読み取り → 指紋 → 顔写真、の順に進みます。完了後、機械が **A／B／C／D のどの窓口**に行くかを表示し、係員が案内します。"
+     },
+     "ap0015": {
+        "text": "**入国審査エリアは撮影禁止です。**この区間は写真がありません。現場の係員の案内に従って進んでください。"
+     },
+     "ap0017a": {
+        "text": "手荷物受取"
+     },
+     "ap0018": {
+        "text": "「**手荷物受取所／Baggage Claim**」の標識に従って進み、受取ホールに着いたら大型モニターで自分の便の**ターンテーブル番号**を確認し、そこで待ちます。"
+     },
+     "ap0020a": {
+        "text": "税関"
+     },
+     "ap0021": {
+        "text": "荷物を受け取ったら税関へ。**電子申告と紙申告でレーンが分かれています**。案内に従い、自分の申告方法に合ったレーンから出ます。"
+     },
+     "ap0023": {
+        "text": "四、無料連絡バスで国内線へ"
+     },
+     "ap0024": {
+        "text": "到着ロビーを出たら案内に従い、**A2 出口**を探します。"
+     },
+     "ap0027": {
+        "text": "A2 出口の外から**無料連絡バス**で国内線ターミナルへ移動します。ここは徒歩では行けず、必ずバスに乗ります。車内は**中国語のアナウンス**もあるので安心です。"
+     },
+     "ap0029": {
+        "text": "五、地下鉄：「筑前前原」方面を選ぶ"
+     },
+     "ap0030": {
+        "text": "国内線に着いたら**地下鉄の階へ下ります**。Suica などの交通系 IC カードを事前に用意していなくても、**現地で作れます**。作る窓口は左側にあります。"
+     },
+     "ap0032a": {
+        "text": "方向を間違えないこと"
+     },
+     "ap0033": {
+        "text": "そのまま改札へ進みます。ここが要点です：「**筑前前原**」方面か「**西唐津**」方面の電車に乗ってください。この二つだけが**九大学研都市へ直通**します。なお、駅の案内表示に**「筑前前原」と書かれていないこともあります**。ローマ字表記（Chikuzen-Maebaru）と路線図の終点駅名で確認してください。"
+     },
+     "ap0036": {
+        "text": "**乗り間違えたら？**誤って「姪浜」行きに乗ってしまった場合は、終点の**姪浜**で降り、同じホームで次の「筑前前原」方面の電車を待てば九大学研都市に着きます。少し時間がかかるだけです。改札を出て買い直す必要はありません。"
+     },
+     "ap0037": {
+        "text": "六、降車とキャンパス行きバスへの乗り換え"
+     },
+     "ap0037a": {
+        "text": "降車"
+     },
+     "ap0038": {
+        "text": "目的の駅は「**九大学研都市**」（Kyudai-Gakkentoshi）です。福岡空港駅から**直通で約 40 分**（九州大学公式サイトのデータ）。"
+     },
+     "ap0041a": {
+        "text": "バスへ乗り換え"
+     },
+     "ap0042": {
+        "text": "駅を出たら**昭和バス**に乗り換えて伊都キャンパスへ向かいます。バス停は駅のすぐ近くにあり、駅構内の案内に従えば着きます。"
+     },
+     "ap0042a": {
+        "text": "出発前チェックリスト"
+     },
+     "ap0044": {
+        "text": "本文の写真は、実際にこの道を歩いた学生が区間ごとに撮影したものです。ルート自体は九州大学公式サイトで確認済みです。もし歩いてみて本文と違う点（標識の移設、駅の改修など）があれば、ページ下部のフィードバックからお知らせください。"
+     },
+     "ap0017": {
+        "text": "三、手荷物受取と税関"
+     },
+     "ap0003": {
+        "items": [
+           {
+              "title": "飛行機を降りて人の流れについていく",
+              "desc": "道は一本、標識の矢印の方向へ"
+           },
+           {
+              "title": "入国審査",
+              "desc": "外国人の列に並び、QR コードとパスポートを提示"
+           },
+           {
+              "title": "手荷物受取",
+              "desc": "モニターで自分の便のターンテーブル番号を確認"
+           },
+           {
+              "title": "税関",
+              "desc": "電子申告と紙申告でレーンが分かれる"
+           },
+           {
+              "title": "無料連絡バス",
+              "desc": "A2 出口から国内線行きに乗る"
+           },
+           {
+              "title": "地下鉄",
+              "desc": "「筑前前原」方面なら直通・乗り換えなし"
+           },
+           {
+              "title": "昭和バスに乗り換え",
+              "desc": "九大学研都市駅からキャンパスへ"
+           }
+        ]
+     },
+     "ap0043": {
+        "items": [
+           {
+              "text": "出発前に Visit Japan Web で入国・税関申告を登録し、QR コードをスクリーンショット保存"
+           },
+           {
+              "text": "国内線から地下鉄に乗る際、方向幕が「筑前前原」か「西唐津」であることを確認"
+           },
+           {
+              "text": "降りる駅名が「九大学研都市」であることを確認（「九大前」など別の駅と間違えない）"
+           },
+           {
+              "text": "荷物が多い場合は、駅から寮までタクシーを使うのも一案"
+           }
+        ]
+     },
+     "ap0012": {
+        "items": [
+           {
+              "text": "Visit Japan Web（入国・税関申告）",
+      "url": "https://vjw-lp.digital.go.jp/zh-hans/"
+           }
+        ]
+     },
+     "ap0007": {
+        "alt": "到着ロビー方向の黒い案内標識（到着／Arrivals・手荷物受取所）",
+        "caption": "到着ロビー方向の標識：到着／Arrivals、手荷物受取所／Baggage Claim"
+     },
+     "ap0009": {
+        "alt": "入国審査方向へ向かう空港内の通路と吊り下げ標識",
+        "caption": "標識に従い入国審査方面へ"
+     },
+     "ap0013": {
+        "alt": "入国審査エリアの列と案内標識",
+        "caption": "入国審査エリア"
+     },
+     "ap0016": {
+        "alt": "入国審査後の通路と窓口番号の案内",
+        "caption": "審査後は窓口番号の案内に従う"
+     },
+     "ap0019": {
+        "alt": "手荷物受取ホールの案内標識",
+        "caption": "手荷物受取ホール"
+     },
+     "ap0020": {
+        "alt": "便ごとのターンテーブル番号を表示するモニター",
+        "caption": "モニターで自分の便のターンテーブル番号を確認"
+     },
+     "ap0022": {
+        "alt": "税関のレーン、電子申告と紙申告の分流",
+        "caption": "税関：電子と紙でレーンが分かれる"
+     },
+     "ap0025": {
+        "alt": "連絡バス乗り場への案内標識",
+        "caption": "ロビーを出たら案内に従う"
+     },
+     "ap0026": {
+        "alt": "A2 出口の標識",
+        "caption": "A2 出口を探す"
+     },
+     "ap0028": {
+        "alt": "無料連絡バスと国内線ターミナル方向",
+        "caption": "無料連絡バス（国内線行き・中国語アナウンスあり）"
+     },
+     "ap0031": {
+        "alt": "国内線ターミナルから地下鉄階へ下りる通路",
+        "caption": "地下鉄の階へ下りる"
+     },
+     "ap0032": {
+        "alt": "地下鉄駅のカード発行窓口と券売機エリア",
+        "caption": "交通系 IC カードは左側で作れる"
+     },
+     "ap0034": {
+        "alt": "地下鉄改札付近の路線・方向案内",
+        "caption": "そのまま改札へ"
+     },
+     "ap0035": {
+        "alt": "ホームの方向案内（筑前前原方面）",
+        "caption": "案内に従い所定のホームへ、「筑前前原」方面を確認"
+     },
+     "ap0039": {
+        "alt": "車内の路線図と到着案内",
+        "caption": "車内に路線図とローマ字のアナウンスあり"
+     },
+     "ap0040": {
+        "alt": "ホームの駅名標",
+        "caption": "駅名を確認、降り早すぎ・乗り過ごしに注意"
+     },
+     "ap0041": {
+        "alt": "ホームと出口方向",
+        "caption": "目的駅で降車"
+     }
+  },
+  "en": {
+     "ap0000": {
+        "text": "Getting from Fukuoka Airport to Ito Campus **without a taxi**: airport → immigration → baggage → free shuttle → subway → bus. Follow the order and you are fine; the whole trip takes about ninety minutes."
+     },
+     "ap0001": {
+        "text": "The route below is based on a **walkthrough recorded in May 2026** (photos and notes taken stage by stage by a student who walked it), with the stations and boarding rules checked against **Kyushu University's official site**. Tap any photo to enlarge it — the text on the signs is legible."
+     },
+     "ap0002": {
+        "text": "Seven steps in total"
+     },
+     "ap0004": {
+        "text": "**Only one step is easy to get wrong**: on the subway, board a train bound for **Chikuzen-Maebaru** or **Nishi-Karatsu**. A train bound for **Meinohama** will not take you to Kyudai-Gakkentoshi — you would have to change at Meinohama. See section five."
+     },
+     "ap0005": {
+        "text": "1. After landing: follow the crowd"
+     },
+     "ap0006": {
+        "text": "Just **follow the crowd** after disembarking; there is usually only one path. When you see the 「到着／Arrivals」 sign below, go whichever way its arrow points — the direction differs by gate, so read the **arrow**, not your memory."
+     },
+     "ap0008": {
+        "text": "**No Japanese required.** Airport signs are mostly kanji with beginner-level English alongside, so finding your way is no problem."
+     },
+     "ap0010": {
+        "text": "2. Immigration"
+     },
+     "ap0011": {
+        "text": "**Do this on your phone before you fly.** Japan's immigration and customs declaration can be completed in advance on Visit Japan Web, which issues a QR code. That saves a lot of time compared with filling in paper forms after landing."
+     },
+     "ap0014": {
+        "text": "Join the **foreign-passport line**. Show your immigration QR code and passport to the officer. These days it is mostly an **electronic gate**: scan the QR code → read the passport → fingerprint → photo. Afterwards the machine tells you which desk — **A／B／C／D** — to go to, and staff guide you."
+     },
+     "ap0015": {
+        "text": "**Photography is prohibited inside the immigration area.** There are no photos of this stretch; just follow the staff on site."
+     },
+     "ap0017a": {
+        "text": "Baggage claim"
+     },
+     "ap0018": {
+        "text": "Follow the 「**手荷物受取所／Baggage Claim**」 signs. In the hall, check the large screens for your flight's **carousel number** and wait there."
+     },
+     "ap0020a": {
+        "text": "Customs"
+     },
+     "ap0021": {
+        "text": "With your bags, head to customs. **Electronic and paper declarations use different lanes** — follow the signs and exit through the one matching your declaration type."
+     },
+     "ap0023": {
+        "text": "4. Free shuttle to the domestic terminal"
+     },
+     "ap0024": {
+        "text": "Leaving the arrivals hall, follow the guidance and find **Exit A2**."
+     },
+     "ap0027": {
+        "text": "Outside Exit A2, take the **free shuttle** to the domestic terminal. You cannot walk this stretch — the bus is the only way. There are **announcements in Chinese** on board."
+     },
+     "ap0029": {
+        "text": "5. The subway: choose the Chikuzen-Maebaru direction"
+     },
+     "ap0030": {
+        "text": "At the domestic terminal, **go down to the subway level**. If you have not prepared a Suica or other IC card, **you can get one on the spot**; the counter is on the left."
+     },
+     "ap0032a": {
+        "text": "Get the direction right"
+     },
+     "ap0033": {
+        "text": "Walk straight to the gates. This is the crux: board a train bound for 「**筑前前原**」 or 「**西唐津**」 — only those two run **through to Kyudai-Gakkentoshi**. Note that station signage **does not always say 「筑前前原」**; check the romanised name (Chikuzen-Maebaru) and the terminus on the route map."
+     },
+     "ap0036": {
+        "text": "**What if you board the wrong train?** If you end up on a 「姪浜」(Meinohama) train, get off at the terminus **Meinohama** and wait on the same platform for the next Chikuzen-Maebaru-bound train. You will still reach Kyudai-Gakkentoshi — it just takes a little longer. No need to exit and buy another ticket."
+     },
+     "ap0037": {
+        "text": "6. Arriving and transferring to the campus bus"
+     },
+     "ap0037a": {
+        "text": "Your stop"
+     },
+     "ap0038": {
+        "text": "The station you want is 「**九大学研都市**」 (Kyudai-Gakkentoshi). The through service from Fukuoka Airport takes **about 40 minutes** (Kyushu University official data)."
+     },
+     "ap0041a": {
+        "text": "Transfer to the bus"
+     },
+     "ap0042": {
+        "text": "Outside the station, transfer to a **Showa bus** for Ito Campus. The stop is close to the station; in-station signage will lead you there."
+     },
+     "ap0042a": {
+        "text": "Before you leave: checklist"
+     },
+     "ap0044": {
+        "text": "The photos here were taken stage by stage by a student who actually walked this route, and the route itself has been checked against Kyushu University's official site. If you walk it and find something different (a sign moved, a station rebuilt), tell us using the feedback button at the bottom of the page."
+     },
+     "ap0017": {
+        "text": "3. Baggage claim and customs"
+     },
+     "ap0003": {
+        "items": [
+           {
+              "title": "Land and follow the crowd",
+              "desc": "One path only — take the direction the arrow points"
+           },
+           {
+              "title": "Immigration",
+              "desc": "Foreign-passport line; show QR code and passport"
+           },
+           {
+              "title": "Baggage claim",
+              "desc": "Find your flight's carousel number on the screens"
+           },
+           {
+              "title": "Customs",
+              "desc": "Electronic and paper declarations use different lanes"
+           },
+           {
+              "title": "Free shuttle",
+              "desc": "From Exit A2, ride to the domestic terminal"
+           },
+           {
+              "title": "Subway",
+              "desc": "Chikuzen-Maebaru direction runs through, no change"
+           },
+           {
+              "title": "Showa bus",
+              "desc": "From Kyudai-Gakkentoshi station to campus"
+           }
+        ]
+     },
+     "ap0043": {
+        "items": [
+           {
+              "text": "Complete immigration and customs on Visit Japan Web before flying; screenshot the QR code"
+           },
+           {
+              "text": "Boarding the subway, confirm the destination reads Chikuzen-Maebaru or Nishi-Karatsu"
+           },
+           {
+              "text": "Confirm your stop is Kyudai-Gakkentoshi — not another station with a similar name"
+           },
+           {
+              "text": "With heavy luggage, a taxi from the station to your dorm is also an option"
+           }
+        ]
+     },
+     "ap0012": {
+        "items": [
+           {
+              "text": "Visit Japan Web (immigration & customs declaration)",
+      "url": "https://vjw-lp.digital.go.jp/zh-hans/"
+           }
+        ]
+     },
+     "ap0007": {
+        "alt": "Black overhead sign pointing to arrivals (到着／Arrivals, Baggage Claim)",
+        "caption": "Sign for arrivals: 到着／Arrivals, 手荷物受取所／Baggage Claim"
+     },
+     "ap0009": {
+        "alt": "Airport corridor with overhead signage toward immigration",
+        "caption": "Follow the signs toward immigration"
+     },
+     "ap0013": {
+        "alt": "Queues and signage in the immigration area",
+        "caption": "Immigration area"
+     },
+     "ap0016": {
+        "alt": "Corridor after immigration with desk-number guidance",
+        "caption": "After inspection, follow the desk-number signs"
+     },
+     "ap0019": {
+        "alt": "Signage in the baggage claim hall",
+        "caption": "Baggage claim hall"
+     },
+     "ap0020": {
+        "alt": "Screens showing each flight's carousel number",
+        "caption": "Find your flight's carousel number on the screens"
+     },
+     "ap0022": {
+        "alt": "Customs lanes separating electronic and paper declarations",
+        "caption": "Customs: electronic and paper use separate lanes"
+     },
+     "ap0025": {
+        "alt": "Signage toward the shuttle bus stop",
+        "caption": "Leaving the hall, follow the guidance"
+     },
+     "ap0026": {
+        "alt": "Exit A2 sign",
+        "caption": "Find Exit A2"
+     },
+     "ap0028": {
+        "alt": "Free shuttle bus and direction to the domestic terminal",
+        "caption": "Free shuttle (to the domestic terminal; announcements in Chinese)"
+     },
+     "ap0031": {
+        "alt": "Passage descending from the domestic terminal to the subway level",
+        "caption": "Go down to the subway level"
+     },
+     "ap0032": {
+        "alt": "IC card counter and ticket machines at the subway station",
+        "caption": "Get your IC card at the counter on the left"
+     },
+     "ap0034": {
+        "alt": "Line and direction guidance near the subway gates",
+        "caption": "Straight on to the gates"
+     },
+     "ap0035": {
+        "alt": "Platform direction signage pointing to Chikuzen-Maebaru",
+        "caption": "Follow the signs to the platform; check for Chikuzen-Maebaru"
+     },
+     "ap0039": {
+        "alt": "Route map and arrival information inside the train",
+        "caption": "Route map and romanised announcements on board"
+     },
+     "ap0040": {
+        "alt": "Station name sign on the platform",
+        "caption": "Check the station name — don't get off early or ride past"
+     },
+     "ap0041": {
+        "alt": "Platform and exit direction",
+        "caption": "Get off at your stop"
+     }
+  },
+  "ko": {
+     "ap0000": {
+        "text": "후쿠오카 공항에서 이토 캠퍼스까지 **택시를 쓰지 않고** 가는 경로입니다: 공항 → 입국 심사 → 수하물 수취 → 무료 셔틀 → 지하철 → 버스. 순서대로만 가면 되고, 전체 1시간 30분 정도 걸립니다."
+     },
+     "ap0001": {
+        "text": "아래 경로는 **2026년 5월 실지 답사 기록**(같은 길을 걸은 학생이 구간마다 찍은 사진과 설명)을 바탕으로 했고, 역과 승차 방식은 **규슈대학 공식 사이트**로 확인했습니다. 사진을 누르면 확대되며, 표지판 글자까지 읽을 수 있습니다."
+     },
+     "ap0002": {
+        "text": "전체 7단계"
+     },
+     "ap0004": {
+        "text": "**헷갈리기 쉬운 곳은 한 군데뿐**입니다: 지하철은 반드시 「**지쿠젠마에바루(筑前前原)**」 또는 「**니시카라쓰(西唐津)**」 방면에 타세요. 「**메이노하마(姪浜)**」 행에 타면 규다이갓켄토시에 갈 수 없고, 메이노하마에서 갈아타야 합니다. 자세한 내용은 5절."
+     },
+     "ap0005": {
+        "text": "1. 비행기에서 내린 뒤: 인파를 따라가기"
+     },
+     "ap0006": {
+        "text": "내린 뒤에는 **인파를 따라가기만** 하면 됩니다. 보통 길은 하나뿐입니다. 아래 「到着／Arrivals」 표지판이 보이면 화살표가 가리키는 쪽으로 갑니다 — 도착 게이트마다 방향이 다르니 기억이 아니라 **화살표**를 보세요."
+     },
+     "ap0008": {
+        "text": "**일본어를 몰라도 괜찮습니다.** 공항 표지판은 대부분 한자이고 쉬운 영어도 함께 적혀 있어 방향을 잃을 일이 없습니다."
+     },
+     "ap0010": {
+        "text": "2. 입국 심사"
+     },
+     "ap0011": {
+        "text": "**출발 전에 스마트폰으로 준비해 두는 것을 권합니다.** 일본 입국·세관 신고는 Visit Japan Web에서 미리 등록해 QR 코드를 발급받을 수 있습니다. 도착 후 종이 신고서를 쓰는 것보다 훨씬 빠릅니다."
+     },
+     "ap0014": {
+        "text": "줄은 **외국인 줄**에 섭니다. 등록한 입국 QR 코드와 여권을 직원에게 제시합니다. 요즘은 대부분 **전자 게이트**로, QR 코드 스캔 → 여권 판독 → 지문 → 사진 순으로 진행됩니다. 끝나면 기계가 **A／B／C／D 중 어느 창구**로 가야 하는지 알려주고, 직원이 안내합니다."
+     },
+     "ap0015": {
+        "text": "**입국 심사 구역은 촬영 금지입니다.** 이 구간은 사진이 없습니다. 현장 직원의 안내를 따라가세요."
+     },
+     "ap0017": {
+        "text": "3. 수하물 수취와 세관"
+     },
+     "ap0017a": {
+        "text": "수하물 수취"
+     },
+     "ap0018": {
+        "text": "「**手荷物受取所／Baggage Claim**」 표지판을 따라가고, 수취 홀에 도착하면 대형 모니터에서 자기 항공편의 **컨베이어 번호**를 확인해 그곳에서 기다립니다."
+     },
+     "ap0020a": {
+        "text": "세관"
+     },
+     "ap0021": {
+        "text": "짐을 받은 뒤 세관으로 갑니다. **전자 신고와 종이 신고는 레인이 다릅니다.** 안내에 따라 자기 신고 방식에 맞는 레인으로 나옵니다."
+     },
+     "ap0023": {
+        "text": "4. 무료 셔틀로 국내선 이동"
+     },
+     "ap0024": {
+        "text": "도착 로비를 나와 안내를 따라 **A2 출구**를 찾습니다."
+     },
+     "ap0027": {
+        "text": "A2 출구 밖에서 **무료 셔틀**을 타고 국내선 터미널로 갑니다. 이 구간은 걸어갈 수 없고 반드시 버스를 타야 합니다. 차내에 **중국어 안내 방송**이 있습니다."
+     },
+     "ap0029": {
+        "text": "5. 지하철: 「지쿠젠마에바루」 방면을 고르기"
+     },
+     "ap0030": {
+        "text": "국내선에 도착하면 **지하철 층으로 내려갑니다.** 스이카 등 교통 IC 카드를 미리 준비하지 않았어도 **현장에서 만들 수 있습니다.** 발급 창구는 왼쪽에 있습니다."
+     },
+     "ap0032a": {
+        "text": "방향을 틀리지 않기"
+     },
+     "ap0033": {
+        "text": "그대로 개찰구로 갑니다. 여기가 핵심입니다: 「**지쿠젠마에바루**」 방면이나 「**니시카라쓰**」 방면 열차에 타세요. 이 둘만 **규다이갓켄토시까지 직통**입니다. 참고로 역 안내 표지에 **「筑前前原」라고 적혀 있지 않은 경우도 있습니다.** 로마자 표기(Chikuzen-Maebaru)와 노선도의 종점 역명으로 확인하세요."
+     },
+     "ap0036": {
+        "text": "**잘못 탔다면?** 실수로 「메이노하마」 행에 탔다면 종점인 **메이노하마**에서 내려 같은 승강장에서 다음 「지쿠젠마에바루」 방면 열차를 기다리면 규다이갓켄토시에 도착합니다. 시간이 조금 더 걸릴 뿐입니다. 개찰구를 나가 표를 다시 살 필요는 없습니다."
+     },
+     "ap0037": {
+        "text": "6. 하차와 캠퍼스행 버스 환승"
+     },
+     "ap0037a": {
+        "text": "하차"
+     },
+     "ap0038": {
+        "text": "목적역은 「**규다이갓켄토시(九大学研都市)**」입니다. 후쿠오카 공항역에서 **직통 약 40분**(규슈대학 공식 사이트 자료)입니다."
+     },
+     "ap0041a": {
+        "text": "버스로 환승"
+     },
+     "ap0042": {
+        "text": "역을 나와 **쇼와버스**로 갈아타 이토 캠퍼스로 갑니다. 버스 정류장은 역 바로 근처에 있고, 역 안내를 따르면 도착합니다."
+     },
+     "ap0042a": {
+        "text": "출발 전 체크리스트"
+     },
+     "ap0044": {
+        "text": "이 글의 사진은 실제로 이 길을 걸은 학생이 구간마다 촬영한 것입니다. 경로 자체는 규슈대학 공식 사이트로 확인했습니다. 직접 걸어보고 글과 다른 점(표지판 이전, 역 개수 등)이 있으면 페이지 아래 피드백 버튼으로 알려주세요."
+     },
+     "ap0003": {
+        "items": [
+           {
+              "title": "비행기에서 내려 인파를 따라가기",
+              "desc": "길은 하나, 표지판 화살표 방향으로"
+           },
+           {
+              "title": "입국 심사",
+              "desc": "외국인 줄에 서서 QR 코드와 여권 제시"
+           },
+           {
+              "title": "수하물 수취",
+              "desc": "모니터에서 자기 항편 컨베이어 번호 확인"
+           },
+           {
+              "title": "세관",
+              "desc": "전자 신고와 종이 신고는 레인이 다름"
+           },
+           {
+              "title": "무료 셔틀",
+              "desc": "A2 출구에서 국내선행 승차"
+           },
+           {
+              "title": "지하철",
+              "desc": "지쿠젠마에바루 방면이면 직통·환승 없음"
+           },
+           {
+              "title": "쇼와버스 환승",
+              "desc": "규다이갓켄토시역에서 캠퍼스로"
+           }
+        ]
+     },
+     "ap0043": {
+        "items": [
+           {
+              "text": "출발 전 Visit Japan Web에서 입국·세관 신고를 등록하고 QR 코드를 캡처해 두기"
+           },
+           {
+              "text": "국내선에서 지하철 탑승 시 행선지가 지쿠젠마에바루 또는 니시카라쓰인지 확인"
+           },
+           {
+              "text": "내릴 역명이 「규다이갓켄토시」인지 확인 (비슷한 다른 역명과 혼동 주의)"
+           },
+           {
+              "text": "짐이 많으면 역에서 기숙사까지 택시를 쓰는 것도 방법"
+           }
+        ]
+     },
+     "ap0012": {
+        "items": [
+           {
+              "text": "Visit Japan Web (입국·세관 신고)",
+      "url": "https://vjw-lp.digital.go.jp/zh-hans/"
+           }
+        ]
+     },
+     "ap0007": {
+        "alt": "도착 로비 방향 검은 안내 표지판(도착／Arrivals, 수하물 수취소)",
+        "caption": "도착 로비 방향 표지판: 到着／Arrivals, 手荷物受取所／Baggage Claim"
+     },
+     "ap0009": {
+        "alt": "입국 심사 방향으로 향하는 공항 내 통로와 매다는 표지판",
+        "caption": "표지판을 따라 입국 심사 방향으로"
+     },
+     "ap0013": {
+        "alt": "입국 심사 구역의 줄과 안내 표지판",
+        "caption": "입국 심사 구역"
+     },
+     "ap0016": {
+        "alt": "입국 심사 후 통로와 창구 번호 안내",
+        "caption": "심사 후에는 창구 번호 안내를 따름"
+     },
+     "ap0019": {
+        "alt": "수하물 수취 홀의 안내 표지판",
+        "caption": "수하물 수취 홀"
+     },
+     "ap0020": {
+        "alt": "항공편별 컨베이어 번호를 표시하는 모니터",
+        "caption": "모니터에서 자기 항공편 컨베이어 번호 확인"
+     },
+     "ap0022": {
+        "alt": "세관 레인, 전자 신고와 종이 신고 분리",
+        "caption": "세관: 전자와 종이 레인이 다름"
+     },
+     "ap0025": {
+        "alt": "셔틀버스 승차장으로 가는 안내 표지판",
+        "caption": "로비를 나와 안내를 따라감"
+     },
+     "ap0026": {
+        "alt": "A2 출구 표지판",
+        "caption": "A2 출구 찾기"
+     },
+     "ap0028": {
+        "alt": "무료 셔틀버스와 국내선 터미널 방향",
+        "caption": "무료 셔틀(국내선행, 중국어 안내 있음)"
+     },
+     "ap0031": {
+        "alt": "국내선 터미널에서 지하철 층으로 내려가는 통로",
+        "caption": "지하철 층으로 내려가기"
+     },
+     "ap0032": {
+        "alt": "지하철역 카드 발급 창구와 발매기 구역",
+        "caption": "교통 IC 카드는 왼쪽에서 발급"
+     },
+     "ap0034": {
+        "alt": "지하철 개찰구 부근 노선·방향 안내",
+        "caption": "그대로 개찰구로"
+     },
+     "ap0035": {
+        "alt": "승강장 방향 안내(지쿠젠마에바루 방면)",
+        "caption": "안내를 따라 지정 승강장으로, 지쿠젠마에바루 방면 확인"
+     },
+     "ap0039": {
+        "alt": "차내 노선도와 도착 안내",
+        "caption": "차내에 노선도와 로마자 안내 방송 있음"
+     },
+     "ap0040": {
+        "alt": "승강장 역명 표지",
+        "caption": "역명 확인, 너무 일찍 내리거나 지나치지 않기"
+     },
+     "ap0041": {
+        "alt": "승강장과 출구 방향",
+        "caption": "목적역에서 하차"
+     }
+  },
+ },
+"guide-firstmonth": {
   "ja": {
    "125163": {
     "text": "出発前：日本で入手しにくい 3 点"

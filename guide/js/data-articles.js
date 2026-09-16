@@ -1,7 +1,7 @@
 // data-articles.js — 12 篇主指南（cat 1–12）+ 置顶反诈（cat 13）
 // 由 tools/build_guide_articles.js 从 content/ 生成，勿手改。
 // **要改内容请改 content/<article>.json**，然后重跑构建。
-// 共 17 篇 · 745 块
+// 共 18 篇 · 796 块
 //
 // ⚠️ 这里不写生成日期。CI 的做法是「重跑构建 → git diff 必须为空」，
 //    用来抓「改了 content/ 却忘了重跑」。而日期戳会让产物每天都不一样，
@@ -5218,6 +5218,365 @@ window.ARTICLES = [
       "url": "https://fukuoka.china-consulate.gov.cn/"
      }
     ]
+   }
+  ]
+ },
+ {
+  "_id": "guide-airport",
+  "category": "14",
+  "title": "从福冈机场到伊都校区：公共交通全程指南",
+  "summary": "从下飞机到进校门，按实拍记录整理的一条完整路线：跟着人流走 → 入境审查 → 取行李过关 → 免费接驳车到国内线 → 地铁直通九大学研都市駅 → 转昭和バス到校区。含 17 张现场照片，每一步都能对照着看。最容易出错的一步是地铁方向——本文用一整节讲清怎么避免坐错。",
+  "tags": [
+   "新生",
+   "必读",
+   "机场",
+   "交通",
+   "地铁",
+   "筑肥线",
+   "九大学研都市",
+   "入境",
+   "图文"
+  ],
+  "author": "管理员",
+  "updatedAt": "2026-09-16",
+  "isPinned": true,
+  "pinOrder": 3,
+  "blocks": [
+   {
+    "id": "ap0000",
+    "type": "paragraph",
+    "text": "第一次从福冈机场去伊都校区，这条路线全程**不用打车**：机场 → 入境 → 取行李 → 免费接驳车 → 地铁 → 公交。按顺序走即可，全程约一个半小时。"
+   },
+   {
+    "id": "ap0001",
+    "type": "notice",
+    "text": "本文路线来自**2026年5月的实拍记录**（一位同学习慣路线时逐段拍下的照片与说明），站点与乘车方式已对照**九州大学官网**核实。现场照片均可点开放大，标志牌上的文字能看清。"
+   },
+   {
+    "id": "ap0002",
+    "type": "heading",
+    "text": "全程七步"
+   },
+   {
+    "id": "ap0003",
+    "type": "steps",
+    "items": [
+     {
+      "title": "下飞机，跟着人流走",
+      "desc": "只有一条路，看标志上的箭头方向"
+     },
+     {
+      "title": "入境审查",
+      "desc": "外国人通道排队，交入境二维码和护照"
+     },
+     {
+      "title": "取行李",
+      "desc": "看屏幕找自己航班的转盘号"
+     },
+     {
+      "title": "过海关",
+      "desc": "电子申报与纸质申报分不同通道"
+     },
+     {
+      "title": "免费接驳车",
+      "desc": "到 A2 出口，坐去国内线的车"
+     },
+     {
+      "title": "地铁",
+      "desc": "认准「筑前前原」方向，直通不换乘"
+     },
+     {
+      "title": "转昭和バス",
+      "desc": "九大学研都市駅 出站转公交到校区"
+     }
+    ]
+   },
+   {
+    "id": "ap0004",
+    "type": "warning",
+    "text": "**全程只有一处容易坐错**：地铁一定要上「筑前前原」或「西唐津」方向的车。上了「姪浜」方向的车到不了九大学研都市，必须在姪浜换乘。详见第五节。"
+   },
+   {
+    "id": "ap0005",
+    "type": "heading",
+    "text": "一、下飞机后：跟着人流走"
+   },
+   {
+    "id": "ap0006",
+    "type": "paragraph",
+    "text": "下机后**跟着人流走**即可，通常只有一条路。看到下方这个「到着／Arrivals」标志后，牌子上的箭头指向哪边就往哪边走——不同登机口下来的方向可能不同，看箭头，不要凭记忆。"
+   },
+   {
+    "id": "ap0007",
+    "type": "image",
+    "src": "img/airport/step01.webp",
+    "alt": "到达大厅方向的黑色指示牌，含到着/Arrivals 与手荷物受取所",
+    "caption": "到达大厅方向的标志：到着／Arrivals、手荷物受取所／Baggage Claim"
+   },
+   {
+    "id": "ap0008",
+    "type": "paragraph",
+    "text": "**不懂日语也没关系。**机场标志基本都用汉字，还有入门级英语，看懂方向没有障碍。"
+   },
+   {
+    "id": "ap0009",
+    "type": "image",
+    "src": "img/airport/step02.webp",
+    "alt": "机场内通往入境审查方向的通道与悬挂指示牌",
+    "caption": "跟着指示走，往入境审查方向"
+   },
+   {
+    "id": "ap0010",
+    "type": "heading",
+    "text": "二、入境审查"
+   },
+   {
+    "id": "ap0011",
+    "type": "paragraph",
+    "text": "**建议出发前在手机上填好**。日本的入境与海关申报可以在 Visiting Japan Web 上提前填写，生成二维码，落地后直接刷码，比在飞机上填纸质表快很多。"
+   },
+   {
+    "id": "ap0012",
+    "type": "links",
+    "items": [
+     {
+      "text": "Visit Japan Web（入境・海关申报）",
+      "url": "https://vjw-lp.digital.go.jp/zh-hans/"
+     }
+    ]
+   },
+   {
+    "id": "ap0013",
+    "type": "image",
+    "src": "img/airport/step03.webp",
+    "alt": "入境审查区域，排队通道与指示标志",
+    "caption": "入境审查区域"
+   },
+   {
+    "id": "ap0014",
+    "type": "paragraph",
+    "text": "排队时走**外国人通道**。把填好的入境二维码和护照交给工作人员核验。现在多数情况是**电子闸机**：扫入境码 → 读取护照 → 录指纹 → 拍照，完成后机器会告诉你去 A／B／C／D 哪一个窗口，现场有工作人员引导。"
+   },
+   {
+    "id": "ap0015",
+    "type": "warning",
+    "text": "**入境审查区域内禁止拍照。**这一段没有照片可以看，按现场工作人员指引走即可。"
+   },
+   {
+    "id": "ap0017",
+    "type": "heading",
+    "text": "三、取行李与过海关"
+   },
+   {
+    "id": "ap0017a",
+    "type": "subheading",
+    "text": "取行李"
+   },
+   {
+    "id": "ap0016",
+    "type": "image",
+    "src": "img/airport/step04.webp",
+    "alt": "入境审查后的通道，含窗口编号指示",
+    "caption": "审查完成后按窗口编号指示走"
+   },
+   {
+    "id": "ap0018",
+    "type": "paragraph",
+    "text": "跟着「**手荷物受取所／Baggage Claim**」的标志走，到行李提取厅后看大屏幕，找到自己航班对应的**转盘号**，去那里等行李。"
+   },
+   {
+    "id": "ap0019",
+    "type": "image",
+    "src": "img/airport/step05.webp",
+    "alt": "行李提取厅的指示标志",
+    "caption": "行李提取厅"
+   },
+   {
+    "id": "ap0020",
+    "type": "image",
+    "src": "img/airport/step06.webp",
+    "alt": "显示各航班行李转盘号的电子屏幕",
+    "caption": "在大屏幕上找自己航班的转盘号"
+   },
+   {
+    "id": "ap0020a",
+    "type": "subheading",
+    "text": "过海关"
+   },
+   {
+    "id": "ap0021",
+    "type": "paragraph",
+    "text": "拿到行李后走海关。**电子申报和纸质申报走不同通道**，现场有提示，按自己的申报方式选对应的口出来即可。"
+   },
+   {
+    "id": "ap0022",
+    "type": "image",
+    "src": "img/airport/step07.webp",
+    "alt": "海关申报通道，电子申报与纸质申报分流",
+    "caption": "海关申报：电子与纸质分不同通道"
+   },
+   {
+    "id": "ap0023",
+    "type": "heading",
+    "text": "四、免费接驳车到国内线"
+   },
+   {
+    "id": "ap0024",
+    "type": "paragraph",
+    "text": "出到达大厅后跟着引导走，找到 **A2 出口**。"
+   },
+   {
+    "id": "ap0025",
+    "type": "image",
+    "src": "img/airport/step08.webp",
+    "alt": "通往接驳车乘车处的引导标志",
+    "caption": "出大厅后跟着引导走"
+   },
+   {
+    "id": "ap0026",
+    "type": "image",
+    "src": "img/airport/step09.webp",
+    "alt": "A2 出口标识",
+    "caption": "找到 A2 出口"
+   },
+   {
+    "id": "ap0027",
+    "type": "paragraph",
+    "text": "在 A2 出口外坐**免费接驳车**去国内线航站楼。这段路不能步行，必须坐车。车上**有中文播报**，不用担心听不懂。"
+   },
+   {
+    "id": "ap0028",
+    "type": "image",
+    "src": "img/airport/step10.webp",
+    "alt": "免费接驳车与国内线航站楼方向",
+    "caption": "免费接驳车（去国内线，有中文播报）"
+   },
+   {
+    "id": "ap0029",
+    "type": "heading",
+    "text": "五、地铁：认准「筑前前原」方向"
+   },
+   {
+    "id": "ap0030",
+    "type": "paragraph",
+    "text": "到国内线后**下到地铁层**。西瓜卡等交通 IC 卡没提前办好也没关系，**现场就能办**，办卡窗口在左边。"
+   },
+   {
+    "id": "ap0031",
+    "type": "image",
+    "src": "img/airport/step11.webp",
+    "alt": "从国内线航站楼下行至地铁层的通道",
+    "caption": "下到地铁层"
+   },
+   {
+    "id": "ap0032",
+    "type": "image",
+    "src": "img/airport/step12.webp",
+    "alt": "地铁站的办卡窗口与自动售票区域",
+    "caption": "左边是办交通卡的地方"
+   },
+   {
+    "id": "ap0032a",
+    "type": "subheading",
+    "text": "认准方向，别上错车"
+   },
+   {
+    "id": "ap0033",
+    "type": "paragraph",
+    "text": "直走到检票口。关键在这一步：要坐「筑前前原」方向或「西唐津」方向的车，只有这两种是**直通九大学研都市**的。注意站内指示牌上**不一定写「筑前前原」**，认罗马音（Chikuzen-Maebaru）和线路图上的终点站名。"
+   },
+   {
+    "id": "ap0034",
+    "type": "image",
+    "src": "img/airport/step13.webp",
+    "alt": "地铁检票口附近的线路与方向指示",
+    "caption": "直走到检票口"
+   },
+   {
+    "id": "ap0035",
+    "type": "image",
+    "src": "img/airport/step14.webp",
+    "alt": "站台上的方向指示，指向筑前前原方向",
+    "caption": "按指引到指定站台，认「筑前前原」方向"
+   },
+   {
+    "id": "ap0036",
+    "type": "warning",
+    "text": "**坐错了怎么办？**如果不小心上了「姪浜」方向的车，在终点站**姪浜**下车，在同一个站台等下一班「筑前前原」方向的车即可，同样能到九大学研都市，只是多花一点时间。不必出站重新买票。"
+   },
+   {
+    "id": "ap0037",
+    "type": "heading",
+    "text": "六、到站与转乘校车"
+   },
+   {
+    "id": "ap0037a",
+    "type": "subheading",
+    "text": "到站"
+   },
+   {
+    "id": "ap0038",
+    "type": "paragraph",
+    "text": "目标站是「**九大学研都市**」（Kyudai-Gakkentoshi）。从福冈机场站直通到这里**约 40 分钟**（九州大学官网数据）。"
+   },
+   {
+    "id": "ap0039",
+    "type": "image",
+    "src": "img/airport/step15.webp",
+    "alt": "地铁车厢内的线路图与到站信息",
+    "caption": "车内有线路图与罗马音报站"
+   },
+   {
+    "id": "ap0040",
+    "type": "image",
+    "src": "img/airport/step16.webp",
+    "alt": "站台上的站名指示",
+    "caption": "认站名，别下早也别坐过"
+   },
+   {
+    "id": "ap0041",
+    "type": "image",
+    "src": "img/airport/step17.webp",
+    "alt": "站台与出站方向",
+    "caption": "到站下车"
+   },
+   {
+    "id": "ap0041a",
+    "type": "subheading",
+    "text": "转乘校车"
+   },
+   {
+    "id": "ap0042",
+    "type": "paragraph",
+    "text": "出站后转乘**昭和バス**前往伊都校区。公交站就在车站附近，按站内指引走即可。"
+   },
+   {
+    "id": "ap0042a",
+    "type": "subheading",
+    "text": "出发前检查清单"
+   },
+   {
+    "id": "ap0043",
+    "type": "checklist",
+    "items": [
+     {
+      "text": "出发前在 Visit Japan Web 填好入境与海关申报，截图保存二维码"
+     },
+     {
+      "text": "国内线换乘地铁时，确认车头方向写的是「筑前前原」或「西唐津」"
+     },
+     {
+      "text": "到站名确认是「九大学研都市」，不是「九大前」等其他站名"
+     },
+     {
+      "text": "行李多的话，出站后可以直接打车到宿舍，起步价范围内"
+     }
+    ]
+   },
+   {
+    "id": "ap0044",
+    "type": "notice",
+    "text": "本文照片来自一位同学实地走这条路线时逐段拍下的记录，路线本身已对照九州大学官网核实。如果你走的时候发现哪个环节和本文不一样（指示牌换了位置、车站改造等），请通过页面底部的反馈按钮告诉我们。"
    }
   ]
  },

@@ -98,6 +98,8 @@ const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
 const WX_OK = { current: { temperature_2m: 25.4, weather_code: 1 }, daily: { precipitation_probability_max: [20] } };
 const WX_RAIN = { current: { temperature_2m: 22.1, weather_code: 61 }, daily: { precipitation_probability_max: [80] } };
 
+// 篇数不写死：新增文章后必须自动跟上，否则测试会给未来埋雷
+let TOTAL = 0;
 const texts = () => nodes.pulse.children.map((c) => c.textContent.trim());
 const warns = () => nodes.pulse.children.map((c) => c.classList.contains('warn'));
 
@@ -111,6 +113,7 @@ const settle = () => new Promise((r) => setTimeout(r, 30));
   console.log('=== ① 全部数据正常（中文）===');
   nodes.pulse.children.length = 0;
   let { ctx } = boot({ today: { visit: 31, visitor: 12 }, total: { visit: 900, visitor: 486 }, wxData: WX_OK, store: { 'kyudai-read': '["guide-entry","guide-bank"]' } });
+  TOTAL = ((ctx.GuideArticles || ctx.ARTICLES || []) || []).length;
   await settle();
   let t = texts();
   console.log('   渲染:', JSON.stringify(t, null, 0));
@@ -119,7 +122,7 @@ const settle = () => new Promise((r) => setTimeout(r, 30));
   ok(/距离 .+ 还有 \d+ 天/.test(t[1] || ''), '② 下一件大事', t[1]);
   ok(/福冈 25℃ · 大致晴/.test(t[2] || ''), '③ 天气', t[2]);
   ok(!/降雨/.test(t[2] || ''), '③ 降雨 20% 不出现降雨提示');
-  ok(/已看过 2\/17 篇/.test(t[3] || ''), '④ 打卡 2/17', t[3]);
+  ok(new RegExp('已看过 2/' + TOTAL + ' 篇').test(t[3] || ''), '④ 打卡 2/' + TOTAL, t[3]);
 
   console.log('\n=== ② 降雨 ≥50% 转警告色 ===');
   nodes.pulse.children.length = 0;
@@ -212,13 +215,13 @@ const settle = () => new Promise((r) => setTimeout(r, 30));
   nodes.pulse.children.length = 0;
   const { sb: sb7, ctx: c7 } = boot({ today: { visit: 1, visitor: 1 }, total: { visit: 1, visitor: 1 }, wxData: WX_OK, store: {} });
   await settle();
-  ok(/已看过 0\/17 篇/.test(texts()[3] || ''), '初始 0/17', texts()[3]);
+  ok(new RegExp('已看过 0/' + TOTAL + ' 篇').test(texts()[3] || ''), '初始 0/' + TOTAL, texts()[3]);
   c7.location.hash = '#article/guide-medical';
   if (typeof c7.window.onhashchange === 'function') c7.window.onhashchange();
   else if (sb7.__hashCb) sb7.__hashCb();
   await settle();
   ok(JSON.parse(sb7.__store['kyudai-read'] || '[]').indexOf('guide-medical') >= 0, 'hash 里的文章 id 被记下');
-  ok(/已看过 1\/17 篇/.test(texts()[3] || ''), '计数变 1/17', texts()[3]);
+  ok(new RegExp('已看过 1/' + TOTAL + ' 篇').test(texts()[3] || ''), '计数变 1/' + TOTAL, texts()[3]);
 
   console.log('\n=== ⑦ 状态条的活动名：四语都要正确 ===');
   // 曾经线上是「距离 新入留学生サポート 还有 8 天」—— 中文界面里冒日文。
