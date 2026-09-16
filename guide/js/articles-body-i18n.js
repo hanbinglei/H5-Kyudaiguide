@@ -5551,6 +5551,46 @@ window.ARTICLES_BODY_I18N = {
    },
    "df5369": {
     "text": "本ページの一部の内容は『新伊都国風土記』（著者：Hato_Tsubame、CantonSimon）を整理したもので、著者の許可を得て掲載しています。文中の価格・運行情報・手続きは時期によって変わります。重要な事項は各公式サイトでご確認ください。"
+   },
+   "e1e701": {
+    "text": "落とし物をしたとき"
+   },
+   "e1e702": {
+    "text": "学内か学外かで窓口が違います。まずどこで失くしたかを確認しましょう。"
+   },
+   "e1e703": {
+    "items": [
+     {
+      "text": "学内（伊都センターゾーン）→ 学生支援課 092-802-5915。公式の**落とし物登録フォーム**あり"
+     },
+     {
+      "text": "学内（伊都イースト／ウエスト）→ 各学務窓口：イースト 092-802-6361"
+     },
+     {
+      "text": "　　ウエスト：理学 092-802-4014 ／ 工学 092-802-2736 ／ 農学 092-802-4508"
+     },
+     {
+      "text": "学内でトラブル、警察が必要 → 伊都キャンパス**警務員室 092-802-2305**"
+     },
+     {
+      "text": "キャンパス周辺で最寄りの交番 → **周船寺交番 092-806-1110**"
+     }
+    ]
+   },
+   "e1e704": {
+    "text": "⚠️ 緊急時は学校より先に **110**（警察）または **119**（救急）へ。学内の番号は事後の支援用で、通報窓口ではありません。"
+   },
+   "e1e705": {
+    "items": [
+     {
+      "text": "学生何でも相談窓口（公式・落とし物登録フォームと各キャンパス窓口）",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/contact/consultation/"
+     },
+     {
+      "text": "九州大学 緊急連絡先（公式・警務員室・交番・相談ホットライン）",
+      "url": "https://chc.kyushu-u.ac.jp/emergency/"
+     }
+    ]
    }
   },
   "en": {
@@ -5791,6 +5831,46 @@ window.ARTICLES_BODY_I18N = {
    },
    "df5369": {
     "text": "Parts of this article are compiled from 《新伊都国風土記》 (authors: Hato_Tsubame, CantonSimon), included with the authors' permission. Prices, schedules, and procedures in this article change over time; for important matters, refer to the official websites."
+   },
+   "e1e701": {
+    "text": "If you lose something"
+   },
+   "e1e702": {
+    "text": "The counter differs depending on whether you lost it on or off campus — first work out where."
+   },
+   "e1e703": {
+    "items": [
+     {
+      "text": "On campus (Ito Center Zone) → Student Support Division 092-802-5915; there is an official **lost-item reporting form**"
+     },
+     {
+      "text": "On campus (Ito East/West) → your faculty office: East 092-802-6361"
+     },
+     {
+      "text": "　　West: Science 092-802-4014 ／ Engineering 092-802-2736 ／ Agriculture 092-802-4508"
+     },
+     {
+      "text": "Trouble on campus needing police → Ito campus **security office (警務員室) 092-802-2305**"
+     },
+     {
+      "text": "Nearest police box to campus → **Shusenji koban 092-806-1110**"
+     }
+    ]
+   },
+   "e1e704": {
+    "text": "⚠️ In an emergency, do not start with the university — call **110** (police) or **119** (ambulance) directly. Campus numbers are for follow-up support, not for reporting emergencies."
+   },
+   "e1e705": {
+    "items": [
+     {
+      "text": "Student general consultation desk (official: lost-item form and campus counters)",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/contact/consultation/"
+     },
+     {
+      "text": "Kyushu University emergency contacts (official: security office, koban, helplines)",
+      "url": "https://chc.kyushu-u.ac.jp/emergency/"
+     }
+    ]
    }
   },
   "ko": {
@@ -6031,6 +6111,46 @@ window.ARTICLES_BODY_I18N = {
    },
    "df5369": {
     "text": "이 글의 일부 내용은 《新伊都国風土記》(저자 Hato_Tsubame, CantonSimon)에서 정리한 것으로, 저자의 허가를 받아 수록되었습니다. 본문의 가격, 운행 횟수와 절차는 시간이 지나면서 변할 수 있으므로, 중요한 사항은 각 공식 웹사이트를 기준으로 확인하시기 바랍니다."
+   },
+   "e1e701": {
+    "text": "물건을 잃어버렸을 때"
+   },
+   "e1e702": {
+    "text": "교내인지 교외인지에 따라 창구가 다릅니다. 먼저 어디서 잃어버렸는지 확인하세요."
+   },
+   "e1e703": {
+    "items": [
+     {
+      "text": "교내(이토 센터존) → 학생지원과 092-802-5915. 공식 **분실물 등록 양식** 있음"
+     },
+     {
+      "text": "교내(이토 이스트/웨스트) → 각 학무 창구: 이스트 092-802-6361"
+     },
+     {
+      "text": "　　웨스트: 이학 092-802-4014 ／ 공학 092-802-2736 ／ 농학 092-802-4508"
+     },
+     {
+      "text": "교내 문제로 경찰이 필요 → 이토 캠퍼스 **경무원실 092-802-2305**"
+     },
+     {
+      "text": "캠퍼스 주변 최근접 파출소 → **슈센지 코반 092-806-1110**"
+     }
+    ]
+   },
+   "e1e704": {
+    "text": "⚠️ 긴급할 때는 학교보다 먼저 **110**(경찰) 또는 **119**(구급)로. 교내 번호는 사후 지원용이며 신고 창구가 아닙니다."
+   },
+   "e1e705": {
+    "items": [
+     {
+      "text": "학생 무엇이든 상담 창구(공식·분실물 양식 및 캠퍼스 창구)",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/contact/consultation/"
+     },
+     {
+      "text": "규슈대 긴급 연락처(공식·경무원실·파출소·상담 핫라인)",
+      "url": "https://chc.kyushu-u.ac.jp/emergency/"
+     }
+    ]
    }
   }
  },

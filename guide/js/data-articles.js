@@ -1,7 +1,7 @@
 // data-articles.js — 12 篇主指南（cat 1–12）+ 置顶反诈（cat 13）
 // 由 tools/build_guide_articles.js 从 content/ 生成，勿手改。
 // **要改内容请改 content/<article>.json**，然后重跑构建。
-// 共 17 篇 · 740 块
+// 共 17 篇 · 745 块
 //
 // ⚠️ 这里不写生成日期。CI 的做法是「重跑构建 → git diff 必须为空」，
 //    用来抓「改了 content/ 却忘了重跑」。而日期戳会让产物每天都不一样，
@@ -4173,6 +4173,57 @@ window.ARTICLES = [
     "id": "df5369",
     "type": "notice",
     "text": "本篇部分内容整理自《新伊都国風土記》（作者 Hato_Tsubame、CantonSimon），经作者授权收录。文中的价格、班次与流程均会随时间变动，重要事项请以各官方网站为准。"
+   },
+   {
+    "id": "e1e701",
+    "type": "heading",
+    "level": 2,
+    "text": "丢了东西怎么办"
+   },
+   {
+    "id": "e1e702",
+    "type": "paragraph",
+    "text": "校内和校外的处理窗口不一样，先判断丢在哪。"
+   },
+   {
+    "id": "e1e703",
+    "type": "list",
+    "items": [
+     {
+      "text": "校内（伊都 Center Zone）→ 学生支援課 092-802-5915，官方设有**遗失物登记表单**"
+     },
+     {
+      "text": "校内（伊都 East／West）→ 各自学务窗口：East 092-802-6361"
+     },
+     {
+      "text": "　　West：理学 092-802-4014 ／ 工学 092-802-2736 ／ 農学 092-802-4508"
+     },
+     {
+      "text": "校内发生纠纷、需要警察 → 伊都校区**警務員室 092-802-2305**"
+     },
+     {
+      "text": "校区周边最近的交番 → **周船寺交番 092-806-1110**"
+     }
+    ]
+   },
+   {
+    "id": "e1e704",
+    "type": "notice",
+    "text": "⚠️ 紧急情况不要先找学校，直接拨 **110**（警察）或 **119**（急救）。校内号码是事后协助用的，不是报警通道。"
+   },
+   {
+    "id": "e1e705",
+    "type": "links",
+    "items": [
+     {
+      "text": "学生何でも相談窓口（官方 · 含遗失物登记表单与各校区窗口）",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/contact/consultation/"
+     },
+     {
+      "text": "九州大学 緊急連絡先（官方 · 警務員室・交番・相談热线）",
+      "url": "https://chc.kyushu-u.ac.jp/emergency/"
+     }
+    ]
    }
   ]
  },
