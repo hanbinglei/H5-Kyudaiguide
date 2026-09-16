@@ -31,6 +31,52 @@
   'use strict';
 
   /** 归一化：NFKC → 小写 → 片假名转平假名 → 空白压缩 */
+  // ── 无信息量词（助词 / 疑问词 / 冠词 / 介词）────────────────────────────
+  // 加它的原因：严格 AND 下，查询里只要有一个词不在正文里 → 整条归零。
+  // 「how to open a bank account」里的 to/open 之外的虚词命中不了任何东西，
+  // 却和实词一样参与 AND，是「17 篇 = 全站」的成因之一。
+  // 语言相关的只有这张表；逻辑（过滤 + 按词计数覆盖率）是同一份。
+  const STOP = new Set([
+    '的','了','是','在','有','和','就','不','也','都','很','把','被','给','对','从','到',
+    '怎么','怎样','如何','什么','哪些','哪个','哪里','吗','呢','请问','的话','可以','能','要','想','应该','一下',
+    'の','は','が','を','に','で','と','も','から','まで','へ','や','か','ね','よ',
+    'です','ます','する','した','して','こと','もの','ため','って','ば','たら','なら',
+    'どの','どれ','なに','なん','どう','どこ','いつ','なぜ','いくら',
+    'a','an','the','of','to','in','on','at','for','and','or','is','are','am','was','were','be','been',
+    'do','does','did','how','what','when','where','which','who','whose','why','my','your','his','her',
+    'i','you','he','she','it','we','they','this','that','these','those','can','could','should','would',
+    'will','may','might','must','not','no','so','if','as','by','with','about','into',
+    '은','는','이','가','을','를','에','에서','와','과','의','로','으로','도','만','부터','까지','랑','하고',
+    '어떻게','무엇','뭐','어디','언제','왜','얼마','입니다','합니다','있습니다','없습니다','하다','했다','하는',
+  ]);
+
+  /** 把 CJK 长词拆成 bigram 子词。
+      为什么需要：中文/日文查询**没有词边界**，「打工超时」整个词在正文里不存在，
+      严格命中的三层全部落空 → 0 篇。而它其实含「打工」「超时」两个正文里有的词。
+      成熟做法（lunr-languages 等）就是 bigram 切分；这里作为**最后一层兜底**，
+      只在前三层全空时启用，不动既有行为。
+      2 字词不拆 —— 它本身已是最小区分单元（「感冒」「打工」都直接命中）。 */
+  const RE_CJK = /[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff]/;
+  // 助词/结构助词单字：出现在 bigram 里就说明它是跨词碎片
+  const PARTICLE = new Set([...'のはがをにでとへやかねよものりするで', '了', '吗', '呢', '的', '着', '过']);
+  function bigrams(t) {
+    // 只对 CJK 生效。拉丁字母/谚文有词边界（空格），bigram 只会把
+    // "sick" 切成 si/ic/ck 这种任何正文里都有的垃圾，把结果集撑爆。
+    if (!RE_CJK.test(t)) return [];
+    const cs = [...t];
+    if (cs.length < 3) return [];
+    const out = [];
+    for (let i = 0; i + 1 < cs.length; i++) {
+      const b = cs[i] + cs[i + 1];
+      if (STOP.has(b)) continue;
+      // 含助词的 bigram 一律丢：日文的 の/は/が/を… 与中文的 了/吗/呢 极少出现在
+      // 实词内部，跨词碎片（「座の」「の作」）留在候选里只会撑大分母、拉低精度。
+      if ([...b].some(ch => PARTICLE.has(ch))) continue;
+      out.push(b);
+    }
+    return [...new Set(out)];
+  }
+
   function norm(s) {
     return String(s == null ? '' : s)
       .normalize('NFKC')
@@ -401,8 +447,12 @@
       opt.alias = 允许同义词组 / 单向关联表扩展；opt.fuzzy = 允许错字近似匹配。
       三层是**递进**的：字面命中永远不会被扩展或近似挤掉。 */
   function passes(entry, terms, opt, lang) {
-    const literal = [], alias = [], near = [];
+    const literal = [], alias = [], near = [], miss = [];
     const useAlias = !!(opt && opt.alias), useFuzzy = !!(opt && opt.fuzzy);
+    // partial=true 时，未命中的词记进 miss 而**不丢掉整篇** —— 交由 run() 按覆盖率裁决。
+    // 默认 false：字面层/关联层仍是严格 AND，既有行为不变。
+    const partial = !!(opt && opt.partial);
+    const give = (t) => { if (partial) { miss.push(t); return true; } return false; };
     for (const t of terms) {
       let ok = false;
       for (const fk in entry.f) { if (weight(fk, lang) > 0 && hits(entry.f[fk], t) > 0) { ok = true; break; } }
@@ -434,12 +484,12 @@
         if (hit && bestScore > 0) { alias.push({ q: t, hit }); continue; }
       }
 
-      if (!useFuzzy) return null;
+      if (!useFuzzy) { if (give(t)) continue; return null; }
       const nf = nearestTerm(entry, t, lang);
-      if (!nf) return null;
+      if (!nf) { if (give(t)) continue; return null; }
       near.push({ q: t, hit: nf.word, d: nf.d, fk: nf.fk });
     }
-    return { literal, alias, near };
+    return { literal, alias, near, miss };
   }
 
   function score(entry, terms, m, lang) {
@@ -504,12 +554,40 @@
     return best || 1;
   }
 
+  /** 覆盖率 = 命中的词数 / 查询词数。
+      为什么用覆盖率而不是「分数阈值」：本项目先前删过一次分数阈值 —— 它在医学篇
+      「病院」那种低分正确答案上会**静默丢结果**（见 query() 末尾的注释）。
+      覆盖率与分数高低无关，只回答「查询里有信息量的词命中了几个」，
+      低分但命中的正确结果不会被误杀。 */
   function run(terms, lang, opt) {
     const out = [];
+    const minCov = (opt && opt.minCov) || 1;
     for (const e of IDX) {
       const m = passes(e, terms, opt, lang);
       if (!m) continue;
-      out.push({ id: e.id, score: score(e, terms, m, lang), why: m });
+      let cov;
+      if (opt && opt.idfCov) {
+        // IDF 加权覆盖率。为什么需要：按**词数**算覆盖率时，「時間制限」相邻的
+        // 两个 bigram（時間 + 間制）都命中就算 2 个 —— 一个常见词就能满足判据，
+        // 结果集炸到 16 篇（实测日文）。加权后，命中「時間」这种常见词贡献极小，
+        // 只有命中稀有 bigram 才推得动覆盖率。
+        // 未在语料中出现的 bigram 由 idf() 给满分权重 —— 它们正是区分度所在。
+        let tot = 0, got = 0;
+        for (const t of terms) {
+          // 语料里根本没有的 bigram 一律不进分母。它永远不可能被命中，计进去
+          // 只会让覆盖率永远达不到阈值 —— 实测这一条把召回从 91.7% 打到 58.3%。
+          // 覆盖率要回答的是「查询里**可能存在**的词，命中了多少」。
+          if (dfOf(t) === 0) continue;
+          const w = idf(t); tot += w;
+          if (!m.miss || m.miss.indexOf(t) < 0) got += w;
+        }
+        cov = tot ? got / tot : 1;
+      } else {
+        cov = terms.length ? (terms.length - (m.miss ? m.miss.length : 0)) / terms.length : 1;
+      }
+      if (cov + 1e-9 < minCov) continue;
+      // 覆盖率进分数：全命中的排在部分命中之前（0.6 ~ 1.0 的温和偏好，不改变量级）
+      out.push({ id: e.id, score: score(e, terms, m, lang) * (0.6 + 0.4 * cov), why: m, cov });
     }
     out.sort((a, b) => b.score - a.score);
     return out;
@@ -535,13 +613,40 @@
     opt = opt || {};
     const lang = opt.lang || 'zh';
     const limit = opt.limit || 20;
-    const terms = norm(q).split(' ').filter(Boolean);
+    const rawTerms = norm(q).split(' ').filter(Boolean);
+    // 虚词不参与匹配：它们几乎不会出现在正文里，却会把严格 AND 掐死
+    // （「アルバイトの時間制限は」的 の/は）。只在过滤后**还有实词**时才过滤 ——
+    // 否则搜「の」「在」这种本身就是虚词的查询会变成空查询。
+    const kept = rawTerms.filter(t => !STOP.has(t));
+    const terms = kept.length ? kept : rawTerms;
     if (!terms.length) return [];
     let via = 'literal';
     let r = run(terms, lang, { alias: false, fuzzy: false });
     if (!r.length) { r = run(terms, lang, { alias: true, fuzzy: false }); via = 'alias'; }
-    // 三层都不中才允许错字近似 —— 顺序很重要：能字面命中的查询不该被近似结果污染
-    if (!r.length) { r = run(terms, lang, { alias: true, fuzzy: true }); via = 'fuzzy'; }
+    // 模糊层改为「覆盖率」裁决。原先要求每个词都近似命中，而 what/to/do 这类虚词
+    // 在模糊层几乎能命中任何正文 → 实测「what to do when sick」返回 17 篇（全站）。
+    // 虚词已在上面滤掉，这里再要求信息词的命中比例 —— 不足半数的整篇不算结果。
+    if (!r.length) { r = run(terms, lang, { alias: true, fuzzy: true, partial: true, minCov: 0.5 }); via = 'fuzzy'; }
+    // 第 4 层（新）：CJK 长词整词查不到时拆成 bigram 再查。
+    // 「打工超时」「銀行口座の作り方」没有词边界，前三层必然全空 —— 这一层救回来。
+    // 只在前三层都空时启用，不污染既有结果。
+    if (!r.length) {
+      const sub = [];
+      for (const t of terms) { const b = bigrams(t); if (b.length) sub.push(...b); else sub.push(t); }
+      if (sub.length > terms.length) {
+        // 判据是「至少 2 个 bigram 命中」，不是按比例。
+        // 按比例的话，「打工超时了怎么办」切出的 工超/时了/了怎/么办 这些
+        // **跨词垃圾**永远不命中，会把分母撑大导致阈值永远达不到 → 仍然 0 篇。
+        // bigram 是候选而非要求：命中 2 个 = 已覆盖至少一个 2 字实词。
+        // 长查询（≥5 个候选 bigram）要求至少 2 个命中 —— 命中 2 个 = 覆盖了一个
+        // 以上 2 字实词，足以定位；短查询放宽到 1 个，否则「生病了怎么办」
+        // （有效 bigram 只有「生病」）会被判成不合格。
+        // 判据改为 IDF 加权覆盖率 ≥ 0.5：命中「時間」这类常见 bigram 推不动覆盖率，
+        // 必须命中足够多**有区分度**的 bigram 才算结果。
+        const r4 = run(sub, lang, { alias: false, fuzzy: false, partial: true, minCov: 0.5, idfCov: true });
+        if (r4.length) { r = r4; via = 'sub'; }
+      }
+    }
     if (!r.length && terms.length > 1) {                       // OR 兜底（多词里只要有一个命中）
       const acc = new Map();
       for (const t of terms) for (const x of run([t], lang, { alias: true, fuzzy: true })) {
