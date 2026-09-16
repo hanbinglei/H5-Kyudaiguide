@@ -857,3 +857,11 @@ body.fb-open{overflow:hidden}
 .sup-star:hover{border-color:#d9b95c;color:#8a6a15}
 .sup-ic{font-size:14px;line-height:1}
 @media(max-width:479px){.sup-acts{gap:6px}.sup-btn{flex:1;justify-content:center;font-size:12.5px}}
+
+/* ── 文章底部的 ★ 好评入口 ───────────────────────────────────
+   为什么加：宫格页那支持卡片在折叠线以下（距视口顶 1203px / 视口 1024px），
+   实测连作者本人都没看到。阅读动线的终点才是路径最短的位置。 */
+.star-entry{margin-top:10px;display:inline-flex;text-decoration:none;
+  border-color:#f0dfae;background:#fffdf5;color:#8a6a15}
+.star-entry:hover{border-color:#d9b95c;color:#8a6a15}
+.article-foot .star-entry{display:flex;justify-content:center;width:100%}

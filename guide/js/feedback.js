@@ -112,6 +112,9 @@
     if (ra0) ra0.textContent = t('fbEntryArticle', '发现错误？点这里报告');
     const gf0 = $('btnFeedback');
     if (gf0) gf0.textContent = t('fbEntryGeneral', '意见与建议');
+    // 文章底部的 ★ 入口：读者读完的瞬间，路径最短的好评位置
+    const st0 = $('btnStar');
+    if (st0) st0.textContent = t('starEntryArticle', '★ 这份指南有用的话，去 GitHub 给个 star');
     // 支持卡片也要在守卫之前重建 —— 面板从未打开过时 built 仍是 false，
     // 放在守卫后面就会漏掉，卡片永远停在第一个语言（和入口按钮同一个坑）
     if ($('supportCard')) buildSupport();

@@ -68,7 +68,7 @@ function boot(lang, href, endpoint) {
   const registry = {};
   // index.html 里的两个入口按钮先预置（它们不在 JS 创建的 DOM 里）。
   // 它们真实存在这件事由 tools/check_dom_ids.js 保证，这里只补上 shim。
-  for (const id of ['btnReportArticle', 'btnFeedback', 'btnFeedbackFab', 'supportCard']) {
+  for (const id of ['btnReportArticle', 'btnFeedback', 'btnFeedbackFab', 'supportCard', 'btnStar']) {
     const b = makeEl('button', registry);
     b.id = id;
   }
@@ -304,6 +304,19 @@ console.log('\n=== ④f 悬浮按钮与支持卡片 ===');
   ok(/target="_blank"/.test(html) && /rel="noopener"/.test(html), '外链用新窗口 + noopener');
   ok(/点个 star/.test(html), '含 star 引导文案');
   ok(/supShare/.test(html), '含复制链接分享的按钮');
+  // 文章底部的 ★ 入口：宫格页那张卡片在折叠线以下，实测作者本人都没看到过，
+  // 所以在阅读动线终点补了一个 —— 但它必须**有文字**，不能是个空按钮
+  const star = f.reg.btnStar;
+  ok(!!star, '文章底部有 ★ 入口');
+  ok(/star/.test(star.textContent || ''), '★ 入口有文案', star.textContent);
+  // 链接属性直接查 index.html 源码 —— shim 的桩元素不带属性，查桩只能证明「有这个 id」，
+  // 查源码才能证明「它真的是个带 href/noopener 的外链」。后者更强。
+  const htmlSrc = fs.readFileSync(path.join(ROOT, 'guide', 'index.html'), 'utf8');
+  const mA = /<a[^>]*id="btnStar"[^>]*>/.exec(htmlSrc);
+  ok(!!mA, 'index.html 里 btnStar 是 <a> 而不是 <button>');
+  const tag = mA ? mA[0] : '';
+  ok(/href="https:\/\/github\.com\/hanbinglei\/H5-Kyudaiguide"/.test(tag), '★ 指向项目仓库', tag.slice(0, 80));
+  ok(/target="_blank"/.test(tag) && /rel="noopener"/.test(tag), '★ 用新窗口 + noopener');
   ok(/这份指南帮到你了吗/.test(html), '卡片是中文');
   // 这个坑犯了两次：重建写在 if(!built) return 之后 → 面板没打开过就永远切不过来
   f.ctx.GuideI18N.setLang('en'); f.ctx.Feedback.relabel();

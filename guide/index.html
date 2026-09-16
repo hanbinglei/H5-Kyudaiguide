@@ -27,7 +27,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Kyudai Guide">
 
-<link rel="stylesheet" href="css/style.css?v=20260917a">
+<link rel="stylesheet" href="css/style.css?v=20260917b">
 </head>
 <body>
 <div id="app">
@@ -173,6 +173,11 @@
               <div class="article-end" id="articleEnd">— 全文完 —</div>
               <!-- 纠错入口：读者发现错误时路径最短的地方。文案由 feedback.js 按语言填 -->
               <button class="fb-entry" id="btnReportArticle" type="button"></button>
+              <!-- 好评入口：读者**刚好读完全文**的时刻，路径最短。
+                   宫格页底部那张支持卡片在折叠线以下（实测距视口顶 1203px、
+                   视口 1024px），连作者本人都没看到过 —— 所以在阅读动线上补一个。 -->
+              <a class="fb-entry star-entry" id="btnStar" href="https://github.com/hanbinglei/H5-Kyudaiguide"
+                 target="_blank" rel="noopener"></a>
               <!-- 读完只能返回宫格太断了：按宫格顺序给上一篇/下一篇 -->
               <nav id="articleNav" class="article-nav" hidden></nav>
             </div>
@@ -218,23 +223,23 @@
   </div>
 </div>
 
-<script src="js/data-newcomer-zone.js?v=20260917a"></script>
+<script src="js/data-newcomer-zone.js?v=20260917b"></script>
 <script src="js/data-categories.js?v=20260902"></script>
 <script src="js/data-faculties.js?v=20260902"></script>
-<script src="js/data-articles.js?v=20260917a"></script>
-<script src="js/articles-i18n.js?v=20260917a"></script>
+<script src="js/data-articles.js?v=20260917b"></script>
+<script src="js/articles-i18n.js?v=20260917b"></script>
 <!-- articles-body-i18n.js 不在这里加载：它是全站最大的一个文件（gzip 约 165KB），
      而中文读者一个字节都用不上。改由 app.js 的 ensureBodyI18N() 在非中文时按需并行拉。 -->
 <script src="js/data-cunli.js?v=20260904"></script>
 <script src="js/cunli-utils.js?v=20260906"></script>
 <script src="js/cunli-export.js?v=20260910"></script>
-<script src="js/i18n.js?v=20260917a"></script>
+<script src="js/i18n.js?v=20260917b"></script>
 <script src="js/render.js?v=20260902"></script>
 <script src="js/bus-live.js?v=20260902"></script>
-<script src="js/search.js?v=20260917a"></script>
-<script src="js/app.js?v=20260917a"></script>
-<script src="js/pulse.js?v=20260917a"></script>
-<script src="js/feedback.js?v=20260917a"></script>
+<script src="js/search.js?v=20260917b"></script>
+<script src="js/app.js?v=20260917b"></script>
+<script src="js/pulse.js?v=20260917b"></script>
+<script src="js/feedback.js?v=20260917b"></script>
 <script src="js/tour.js?v=20260902"></script>
 </body>
 </html>
