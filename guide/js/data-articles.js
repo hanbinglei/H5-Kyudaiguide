@@ -1,7 +1,7 @@
 // data-articles.js — 12 篇主指南（cat 1–12）+ 置顶反诈（cat 13）
 // 由 tools/build_guide_articles.js 从 content/ 生成，勿手改。
 // **要改内容请改 content/<article>.json**，然后重跑构建。
-// 共 17 篇 · 727 块
+// 共 17 篇 · 734 块
 //
 // ⚠️ 这里不写生成日期。CI 的做法是「重跑构建 → git diff 必须为空」，
 //    用来抓「改了 content/ 却忘了重跑」。而日期戳会让产物每天都不一样，
@@ -3744,6 +3744,77 @@ window.ARTICLES = [
     "id": "e612d1",
     "type": "notice",
     "text": "本篇部分主题的选取参考了《新伊都国風土記》（作者 Hato_Tsubame、CantonSimon）的整理。文中全部数字与流程均取自各官方网站并重新核实，与该文可能存在出入时以官方为准。"
+   },
+   {
+    "id": "e1c701",
+    "type": "heading",
+    "level": 2,
+    "text": "新干线"
+   },
+   {
+    "id": "e1c702",
+    "type": "paragraph",
+    "text": "从博多出发有两条：往本州方向的**山阳新干线**，和往九州南部的**九州新干线**。"
+   },
+   {
+    "id": "e1c703",
+    "type": "notice",
+    "text": "⚠️ **JR Pass（ジャパン・レール・パス）留学生买不了。** 官方规定只卖给以「短期滞在」资格入境的外国旅客，留学在留资格不属于这一类，买了也换不到手。网上「全日本 JR 随便坐」的说法不适用于我们。"
+   },
+   {
+    "id": "e1c704",
+    "type": "heading",
+    "level": 2,
+    "text": "买票与省钱"
+   },
+   {
+    "id": "e1c705",
+    "type": "list",
+    "items": [
+     {
+      "text": "网络预约：smartEX 覆盖东海道・山阳・九州新干线，预约后可直接刷 IC 卡进站"
+     },
+     {
+      "text": "学割：JR 指定校学生、**单程超过 100 km**，运费打 2 折"
+     },
+     {
+      "text": "注意学割只管「乘车券」，新干线的特急券不在打折范围内"
+     },
+     {
+      "text": "ぷらっとこだま：JR 东海旅行社的折扣商品，只坐こだま号，比原价便宜"
+     }
+    ]
+   },
+   {
+    "id": "e1c706",
+    "type": "paragraph",
+    "text": "学割需要学校发放的**学割証**，向所属学务窗口申请即可（JASSO 规定由学校配发）。"
+   },
+   {
+    "id": "e1c707",
+    "type": "links",
+    "items": [
+     {
+      "text": "学割証（JASSO 官方）",
+      "url": "https://www.jasso.go.jp/gakusei/gakuwari/index.html"
+     },
+     {
+      "text": "学生割引乗車券的买法与用法（JR东日本 官方）",
+      "url": "https://media.jreast.co.jp/articles/1731"
+     },
+     {
+      "text": "smartEX（官方 · 网络预约）",
+      "url": "https://smart-ex.jp/top.php"
+     },
+     {
+      "text": "ぷらっとこだま（JR东海旅行社 官方）",
+      "url": "https://travel.jr-central.co.jp/plan/tokushu/kep"
+     },
+     {
+      "text": "JR Pass 利用资格（官方）",
+      "url": "https://japanrailpass.net/about_jrp/riyou/"
+     }
+    ]
    }
   ]
  },

@@ -9610,6 +9610,61 @@ window.ARTICLES_BODY_I18N = {
    },
    "e612d1": {
     "text": "本記事のテーマ選定の一部は『新伊都国風土記』（著者 Hato_Tsubame、CantonSimon）の整理を参考にしています。文中のすべての数字と手順は各公式サイトから取得し再確認したもので、同書と食い違いがある場合は公式の情報を優先してください。"
+   },
+   "e1c701": {
+    "text": "新幹線"
+   },
+   "e1c702": {
+    "text": "博多からは 2 方向あります。本州方面の**山陽新幹線**と、九州南部方面の**九州新幹線**です。"
+   },
+   "e1c703": {
+    "text": "⚠️ **ジャパン・レール・パス（JR Pass）は留学生には買えません。** 公式の利用資格は「短期滞在」で入国した外国人旅行者のみで、留学の在留資格は該当しません。買っても引き換えできません。"
+   },
+   "e1c704": {
+    "text": "きっぷの買い方と節約"
+   },
+   "e1c705": {
+    "items": [
+     {
+      "text": "ネット予約：smartEX は東海道・山陽・九州新幹線に対応。予約後は IC カードでそのまま改札を通れる"
+     },
+     {
+      "text": "学割：JR 指定校の学生かつ**片道 100 km 超**で運賃が 2 割引"
+     },
+     {
+      "text": "ただし学割は「乗車券」のみで、新幹線の特急券は対象外"
+     },
+     {
+      "text": "ぷらっとこだま：JR 東海ツアーズの割引商品。こだま号限定で通常より安い"
+     }
+    ]
+   },
+   "e1c706": {
+    "text": "学割には学校が発行する**学割証**が必要です。所属の学務窓口で申請できます（JASSO の定めにより学校が配付）。"
+   },
+   "e1c707": {
+    "items": [
+     {
+      "text": "学割証（JASSO 公式）",
+      "url": "https://www.jasso.go.jp/gakusei/gakuwari/index.html"
+     },
+     {
+      "text": "学生割引乗車券の買い方（JR 東日本 公式）",
+      "url": "https://media.jreast.co.jp/articles/1731"
+     },
+     {
+      "text": "smartEX（公式・ネット予約）",
+      "url": "https://smart-ex.jp/top.php"
+     },
+     {
+      "text": "ぷらっとこだま（JR 東海ツアーズ 公式）",
+      "url": "https://travel.jr-central.co.jp/plan/tokushu/kep"
+     },
+     {
+      "text": "ジャパン・レール・パス 利用資格（公式）",
+      "url": "https://japanrailpass.net/about_jrp/riyou/"
+     }
+    ]
    }
   },
   "en": {
@@ -10096,6 +10151,61 @@ window.ARTICLES_BODY_I18N = {
    },
    "e612d1": {
     "text": "Part of this article's topic selection references the compilation《新伊都国風土記》(a work by Hato_Tsubame and CantonSimon). All figures and procedures in this article are taken from official websites and re-verified; where they differ from that work, the official sources prevail."
+   },
+   "e1c701": {
+    "text": "Shinkansen"
+   },
+   "e1c702": {
+    "text": "Two lines start from Hakata: the **Sanyo Shinkansen** toward Honshu, and the **Kyushu Shinkansen** toward southern Kyushu."
+   },
+   "e1c703": {
+    "text": "⚠️ **JR Pass is not available to international students.** Official eligibility is limited to foreign visitors entering Japan under \"Temporary Visitor\" status; a student residence status does not qualify, and the pass cannot be exchanged even if purchased."
+   },
+   "e1c704": {
+    "text": "Buying tickets and saving"
+   },
+   "e1c705": {
+    "items": [
+     {
+      "text": "Online booking: smartEX covers the Tokaido, Sanyo and Kyushu Shinkansen; after booking, tap straight through the gates with an IC card"
+     },
+     {
+      "text": "Student discount: designated-school students, **one way over 100 km**, 20% off the fare"
+     },
+     {
+      "text": "Note it applies only to the base ticket; Shinkansen express surcharges are excluded"
+     },
+     {
+      "text": "Platt Kodama: a discounted product from JR Central Tours, limited to Kodama services"
+     }
+    ]
+   },
+   "e1c706": {
+    "text": "The student discount requires a **student discount certificate (学割証)** issued by the university; apply at your faculty's student affairs office (per JASSO, the school issues it)."
+   },
+   "e1c707": {
+    "items": [
+     {
+      "text": "Student discount certificate (JASSO, official)",
+      "url": "https://www.jasso.go.jp/gakusei/gakuwari/index.html"
+     },
+     {
+      "text": "How to buy a student discount ticket (JR East, official)",
+      "url": "https://media.jreast.co.jp/articles/1731"
+     },
+     {
+      "text": "smartEX (official, online booking)",
+      "url": "https://smart-ex.jp/top.php"
+     },
+     {
+      "text": "Platt Kodama (JR Central Tours, official)",
+      "url": "https://travel.jr-central.co.jp/plan/tokushu/kep"
+     },
+     {
+      "text": "Japan Rail Pass eligibility (official)",
+      "url": "https://japanrailpass.net/about_jrp/riyou/"
+     }
+    ]
    }
   },
   "ko": {
@@ -10582,6 +10692,61 @@ window.ARTICLES_BODY_I18N = {
    },
    "e612d1": {
     "text": "본문의 일부 주제 선정은 《新伊都国風土記》(저자 Hato_Tsubame, CantonSimon)의 정리를 참고했습니다. 본문의 모든 숫자와 절차는 각 공식 웹사이트에서 가져와 다시 확인했으며, 해당 글과 차이가 있을 경우 공식 정보를 기준으로 합니다."
+   },
+   "e1c701": {
+    "text": "신칸센"
+   },
+   "e1c702": {
+    "text": "하카타에서 두 방향이 있습니다. 본슈 방면의 **산요 신칸센**과 규슈 남부 방면의 **규슈 신칸센**입니다."
+   },
+   "e1c703": {
+    "text": "⚠️ **JR 패스는 유학생이 살 수 없습니다.** 공식 이용 자격은 「단기 체재」로 입국한 외국인 여행자에 한정되며, 유학 재류 자격은 해당되지 않습니다. 사도 교환할 수 없습니다."
+   },
+   "e1c704": {
+    "text": "표 사는 법과 절약"
+   },
+   "e1c705": {
+    "items": [
+     {
+      "text": "온라인 예약: smartEX는 도카이도·산요·규슈 신칸센 대응. 예약 후 IC 카드로 바로 개찰구를 통과할 수 있습니다"
+     },
+     {
+      "text": "학생 할인: JR 지정교 학생이며 **편도 100km 초과** 구간 운임 20% 할인"
+     },
+     {
+      "text": "단 학생 할인은 「승차권」에만 적용되며 신칸센 특급권은 대상이 아닙니다"
+     },
+     {
+      "text": "플랫 고다마: JR 도카이 투어즈 할인 상품. 고다마호 한정으로 정가보다 저렴"
+     }
+    ]
+   },
+   "e1c706": {
+    "text": "학생 할인에는 학교가 발급하는 **학할증**이 필요합니다. 소속 학무 창구에서 신청할 수 있습니다(JASSO 규정상 학교가 배포)."
+   },
+   "e1c707": {
+    "items": [
+     {
+      "text": "학할증(JASSO 공식)",
+      "url": "https://www.jasso.go.jp/gakusei/gakuwari/index.html"
+     },
+     {
+      "text": "학생 할인 승차권 구입법(JR 동일본 공식)",
+      "url": "https://media.jreast.co.jp/articles/1731"
+     },
+     {
+      "text": "smartEX(공식·온라인 예약)",
+      "url": "https://smart-ex.jp/top.php"
+     },
+     {
+      "text": "플랫 고다마(JR 도카이 투어즈 공식)",
+      "url": "https://travel.jr-central.co.jp/plan/tokushu/kep"
+     },
+     {
+      "text": "JR 패스 이용 자격(공식)",
+      "url": "https://japanrailpass.net/about_jrp/riyou/"
+     }
+    ]
    }
   }
  },

@@ -1,21 +1,19 @@
-内容补缺 ②：手机篇新增「家里的网络」
+内容补缺 ③：交通篇新增「新干线」
 
-现有「校园网络」只讲 kitenet/eduroam，完全没讲住宿处的网。补 10 个区块：
+7 个区块，核心是拆掉留学生最大的误解：
 
-  宿舍：网络要自己签
-    · 学生宿舍（含伊都協奏館）**不含网络**，需与指定运营商签约
-    · 校方公布的参考价 **每月 2,000 円左右**  ← 这条官方写着，一般不查寮页不会知道
-    · 伊都協奏館 管理人室 092-806-5779
-  自租房：光纤 or 免施工
-    · 光纤：需施工两次（屋内+屋外）、须业主或管理公司同意、开通常等数周
-    · 免施工：ホームルーター / モバイル Wi-Fi
-    · warning：施工**必须本人在场**且**须先取得同意**，擅自施工属违约
+  · **JR Pass 留学生买不了** —— 官方利用资格只给「短期滞在」入境的旅客，
+    留学在留资格不属于这类，买了也换不到手（japanrailpass.net 官方原文）
+  · 学割：JR 指定校学生 + **单程超 100km**，**运费**打 2 折 ——
+    但**只管「乘车券」，新干线特急券不打折**（这条最容易被传成「新干线打 2 折」）
+  · smartEX：东道・山阳・九州新干线网络预约，预约后刷 IC 卡进站
+  · ぷらっとこだま：JR 东海旅行社官方折扣商品
+  · 学割証由学校发放，向所属学务窗口申请（JASSO 官方）
 
-出典（实际打开的官方页）：
-  kyushu-u.ac.jp/ja/education/life/dormitory
-  support.nuro.jp/faqsupport/nuro/web/knowledge10994.html
-  softbank.jp/internet/air/
+出典全部实际打开过：
+  japanrailpass.net/about_jrp/riyou/
+  jasso.go.jp/gakusei/gakuwari/index.html
+  media.jreast.co.jp/articles/1731
+  smart-ex.jp/top.php ／ travel.jr-central.co.jp/plan/tokushu/kep
 
-参考但未写入的：nc.kyushu-u.ac.jp/campus-wifi（kitenet/edunet 已有专节，不重复）
-
-10 块 × 3 语 = 30 条译文。可读性超预算 2 处（加粗 3 处 / 列表项 55 字）已改到 0。
+7 块 × 3 语 = 21 条译文。可读性超预算 1 处（学割项 59 字）已拆成两项 → 0。
