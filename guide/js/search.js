@@ -59,6 +59,19 @@
   const RE_CJK = /[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff]/;
   // 助词/结构助词单字：出现在 bigram 里就说明它是跨词碎片
   const PARTICLE = new Set([...'のはがをにでとへやかねよものりするで', '了', '吗', '呢', '的', '着', '过']);
+  /** 找出**词表里出现在查询中的键**。
+      为什么需要：CJK 查询没有词边界，同义表拿到的是整块「風邪をひいたら」，
+      表里当然没有这个键 —— 于是 alias 层永远不命中，只能落到 bigram 兜底，
+      用「ひい」「いた」这类碎片凑出 10 篇噪声。
+      反过来做：看表里的键是否**出现在查询里**。用的是人写的词表，比 bigram 精确得多。
+      只取长度 ≥2 的键，避免单字误命中。 */
+  function keysInQuery(s) {
+    const out = [];
+    for (const k of ALIAS_OF.keys()) if (k.length >= 2 && s.includes(k)) out.push(k);
+    for (const k of REL_OF.keys()) if (k.length >= 2 && s.includes(k)) out.push(k);
+    return [...new Set(out)];
+  }
+
   function bigrams(t) {
     // 只对 CJK 生效。拉丁字母/谚文有词边界（空格），bigram 只会把
     // "sick" 切成 si/ic/ck 这种任何正文里都有的垃圾，把结果集撑爆。
@@ -641,6 +654,16 @@
     // 在模糊层几乎能命中任何正文 → 实测「what to do when sick」返回 17 篇（全站）。
     // 虚词已在上面滤掉，这里再要求信息词的命中比例 —— 不足半数的整篇不算结果。
     if (!r.length) { r = run(terms, lang, { alias: true, fuzzy: true, partial: true, minCov: 0.5 }); via = 'fuzzy'; }
+    // 第 3.5 层：用**词表键**补召回。CJK 查询没有词边界，alias 层拿的是整块查询词，
+    // 永远查不到；这一层反过来从查询里抽出表内的词，再走 alias 展开。
+    // 判据严（minCov=1，所有抽出的键都要命中），所以结果是精确的，不会像 bigram 那样炸开。
+    if (!r.length) {
+      const keys = keysInQuery(rawTerms.join(' '));
+      if (keys.length) {
+        const rk = run(keys, lang, { alias: true, fuzzy: false, minCov: 1 });
+        if (rk.length) { r = rk; via = 'key'; }
+      }
+    }
     // 第 4 层（新）：CJK 长词整词查不到时拆成 bigram 再查。
     // 「打工超时」「銀行口座の作り方」没有词边界，前三层必然全空 —— 这一层救回来。
     // 只在前三层都空时启用，不污染既有结果。
