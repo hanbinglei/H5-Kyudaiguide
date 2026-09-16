@@ -99,8 +99,14 @@
       '送金', '汇款', '振込', 'remittance', '国際送金', 'atm', 'キャッシュカード'],
     ['网络', 'ネット', 'wifi', '无线网', '上网', '流量', 'インターネット'],
     ['医院', '医療', '病院', '診療所', 'クリニック', '医療機関', 'hospital', 'clinic', '看病', '就医',
-      '就诊', '受診'],
-    ['发烧', '発熱', '发热', 'fever', '体温', '生病', '感冒'],
+      '就诊', '受診',
+      // 2026-09 补：读者说症状，正文写「体調不良」—— 两边都进组才能接上。
+      // 实测缺这批词时，「風邪をひいたら」返回 10 篇噪声（靠「ひい」「いた」这类
+      // bigram 碎片凑出来的），而正确的医疗篇根本不在结果里。
+      '風邪', 'かぜ', '体調不良', '具合', '症状', '病気', '医者', '医生', '大夫', '診察',
+      'sick', 'ill', 'unwell', 'symptom', 'doctor', 'feeling unwell',
+      '아프다', '아픈', '아플', '아픔', '증상', '의사'],
+    ['发烧', '発熱', '发热', 'fever', '体温', '生病', '感冒', 'かぜ気味'],
     ['保险', '保険', 'insurance', '健康保険', '国保', '国民健康保険', '医療保険'],
     ['打工', 'アルバイト', 'バイト', 'part-time', 'parttime', '兼职', '資格外活動'],
     ['奖学金', '奨学金', 'scholarship', '장학금', '国费', '国費', '学習奨励費', '财团', '给付',
@@ -492,7 +498,7 @@
     return { literal, alias, near, miss };
   }
 
-  function score(entry, terms, m, lang) {
+  function score(entry, terms, m, lang, opt) {
     let sc = 0;
     const addTerm = (t, factor) => {
       for (const fk in entry.f) {
@@ -505,12 +511,20 @@
         sc += v;
       }
     };
-    for (const t of m.literal) addTerm(t, 1);
+    // 字面命中按 IDF 加权（仅 sub 层开启）。默认 1 = 维持原行为。
+    // 为什么 sub 层必须加：bigram 碎片里混着「いた」「ひい」这类高频片段，
+    // 与「風邪」同权时，噪声篇会与正确篇并列甚至压过。
+    for (const t of m.literal) addTerm(t, (opt && opt.idfScore) ? idf(t) : 1);
     // 关联命中按 IDF 折价：稀有词（光熱費 只出现在 1 篇）几乎不打折，
     // 宽泛词（更新 出现在 6 篇）贡献大幅缩水 —— 否则宽泛词会把结果撑到十几篇。
     for (const a of m.alias) addTerm(a.hit, (a.rel ? 0.85 : 0.6) * idf(a.hit));
     // 模糊命中：错得越少越接近原词（错 1 字第 2 字 → 0.5×(1−1/2)=0.25）
     for (const f of m.near) addTerm(f.hit, 0.5 * (1 - f.d / Math.max(2, f.q.length)) * idf(f.hit));
+
+    // sub 层关掉全部加成：bigram 碎片命中标题毫无意义（「いた」能命中很多标题），
+    // 而 +30 的标题加成会直接压过词本身的证据 —— 实测「風邪をひいたら」前三名
+    // 全错（在留手续 / 租房 / 手机），就是这样来的。
+    if (opt && opt.noBonus) return sc;
 
     // 强信号加成：标题 / 标签 / 小标题。字面命中 > 关联/模糊命中。
     const tOwn = entry.f['t_' + lang] || '';
@@ -587,7 +601,7 @@
       }
       if (cov + 1e-9 < minCov) continue;
       // 覆盖率进分数：全命中的排在部分命中之前（0.6 ~ 1.0 的温和偏好，不改变量级）
-      out.push({ id: e.id, score: score(e, terms, m, lang) * (0.6 + 0.4 * cov), why: m, cov });
+      out.push({ id: e.id, score: score(e, terms, m, lang, opt) * (0.6 + 0.4 * cov), why: m, cov });
     }
     out.sort((a, b) => b.score - a.score);
     return out;
@@ -643,7 +657,8 @@
         // （有效 bigram 只有「生病」）会被判成不合格。
         // 判据改为 IDF 加权覆盖率 ≥ 0.5：命中「時間」这类常见 bigram 推不动覆盖率，
         // 必须命中足够多**有区分度**的 bigram 才算结果。
-        const r4 = run(sub, lang, { alias: false, fuzzy: false, partial: true, minCov: 0.5, idfCov: true });
+        const r4 = run(sub, lang, { alias: false, fuzzy: false, partial: true,
+          minCov: 0.5, idfCov: true, idfScore: true, noBonus: true });
         if (r4.length) { r = r4; via = 'sub'; }
       }
     }
