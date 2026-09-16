@@ -1,7 +1,7 @@
 // data-articles.js — 12 篇主指南（cat 1–12）+ 置顶反诈（cat 13）
 // 由 tools/build_guide_articles.js 从 content/ 生成，勿手改。
 // **要改内容请改 content/<article>.json**，然后重跑构建。
-// 共 17 篇 · 734 块
+// 共 17 篇 · 740 块
 //
 // ⚠️ 这里不写生成日期。CI 的做法是「重跑构建 → git diff 必须为空」，
 //    用来抓「改了 content/ 却忘了重跑」。而日期戳会让产物每天都不一样，
@@ -4717,6 +4717,71 @@ window.ARTICLES = [
      },
      {
       "text": "189——儿童相谈（虐待等）"
+     }
+    ]
+   },
+   {
+    "id": "e1d701",
+    "type": "heading",
+    "level": 2,
+    "text": "骚扰与不公平对待"
+   },
+   {
+    "id": "e1d702",
+    "type": "paragraph",
+    "text": "遇到骚扰、歧视或不公平对待，先记住：不用自己忍着，有官方窗口，而且**咨询不会对你不利**。"
+   },
+   {
+    "id": "e1d703",
+    "type": "list",
+    "items": [
+     {
+      "text": "不确定算不算骚扰 → 也可以先咨询，不用先定性"
+     },
+     {
+      "text": "想用中文谈 → 学生相談室有英语・中文咨询师"
+     },
+     {
+      "text": "被拒绝租房、拒绝服务、歧视言论 → 法务省 外国語人権相談 0570-090911（平日 9:00–17:00）"
+     },
+     {
+      "text": "打工被欠薪、被要求违法劳动 → 厚労省 外国人労働相談（有中文页面）"
+     }
+    ]
+   },
+   {
+    "id": "e1d704",
+    "type": "notice",
+    "text": "九大骚扰窗口的规矩：严格保密，**不会因咨询而受到不利对待**，与所属部局无关、任何咨询员都可以找；但**匿名举报和投书不处理** —— 要进入调查程序必须具名。"
+   },
+   {
+    "id": "e1d705",
+    "type": "paragraph",
+    "text": "谈不下来时可以要求「苦情申立（调查）」：骚扰委员会设调查部会核实事实，认定后学校会做出惩戒等处理。"
+   },
+   {
+    "id": "e1d706",
+    "type": "links",
+    "items": [
+     {
+      "text": "九州大学 ハラスメント対策推進室（官方 · 咨询流程）",
+      "url": "https://ohpc.kyushu-u.ac.jp/consultation.php"
+     },
+     {
+      "text": "学生相談室（官方 · 可用英语・中文）",
+      "url": "https://chc.kyushu-u.ac.jp/organization/consultation/"
+     },
+     {
+      "text": "法务省 外国人的咨询窗口与多语言人权热线（官方）",
+      "url": "https://www.moj.go.jp/JINKEN/jinken04_00101.html"
+     },
+     {
+      "text": "厚労省 外国人労働相談（官方 · 中文）",
+      "url": "https://www.startup-roudou.mhlw.go.jp/foreigner_chi.html"
+     },
+     {
+      "text": "総合労働相談コーナー（福岡労働局 官方）",
+      "url": "https://jsite.mhlw.go.jp/fukuoka-roudoukyoku/roudoukyoku/gyoumu_naiyou/soumu/sodan/sodan01.html"
      }
     ]
    },

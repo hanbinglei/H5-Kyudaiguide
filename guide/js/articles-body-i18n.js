@@ -2414,6 +2414,58 @@ window.ARTICLES_BODY_I18N = {
    },
    "8903c1": {
     "text": "本記事の一部は《新伊都国風土記》（著者 Hato_Tsubame、CantonSimon）より、著者の許諾を得て収録しています。文中の価格、運行本数、手続きの流れは時間とともに変わります。重要な事項は各公式サイトでご確認ください。"
+   },
+   "e1d701": {
+    "text": "ハラスメントと不当な扱い"
+   },
+   "e1d702": {
+    "text": "ハラスメント、差別、不当な扱いにあったら、まずこれを覚えておいてください。我慢する必要はなく、公的な窓口があり、しかも**相談しても不利益にはなりません**。"
+   },
+   "e1d703": {
+    "items": [
+     {
+      "text": "ハラスメントかどうか分からない → まず相談で構いません。自分で判断しなくて大丈夫"
+     },
+     {
+      "text": "中国語で話したい → 学生相談室に英語・中国語対応のカウンセラーがいます"
+     },
+     {
+      "text": "入居拒否・サービス拒否・差別的言動 → 法務省 外国語人権相談 0570-090911（平日 9:00–17:00）"
+     },
+     {
+      "text": "賃金未払い・違法な労働を求められた → 厚労省 外国人労働相談（中国語ページあり）"
+     }
+    ]
+   },
+   "e1d704": {
+    "text": "九大のハラスメント窓口のルール：厳秘は守られ、**相談によって不利益な扱いを受けることはなく**、所属部局に関係なくどの相談員にも相談できます。ただし**匿名の通報・投書は受け付けていません** —— 調査に入るには実名が必要です。"
+   },
+   "e1d705": {
+    "text": "話し合いで解決しない場合は「苦情申立（調査）」を求めることができます。ハラスメント委員会が調査部会を設置して事実関係を確認し、認定されれば大学が懲戒等の措置を講じます。"
+   },
+   "e1d706": {
+    "items": [
+     {
+      "text": "九州大学 ハラスメント対策推進室（公式・相談の流れ）",
+      "url": "https://ohpc.kyushu-u.ac.jp/consultation.php"
+     },
+     {
+      "text": "学生相談室（公式・英語・中国語可）",
+      "url": "https://chc.kyushu-u.ac.jp/organization/consultation/"
+     },
+     {
+      "text": "法務省 外国人のための人権相談（公式）",
+      "url": "https://www.moj.go.jp/JINKEN/jinken04_00101.html"
+     },
+     {
+      "text": "厚労省 外国人労働相談（公式・中国語）",
+      "url": "https://www.startup-roudou.mhlw.go.jp/foreigner_chi.html"
+     },
+     {
+      "text": "総合労働相談コーナー（福岡労働局 公式）",
+      "url": "https://jsite.mhlw.go.jp/fukuoka-roudoukyoku/roudoukyoku/gyoumu_naiyou/soumu/sodan/sodan01.html"
+     }
+    ]
    }
   },
   "en": {
@@ -2595,6 +2647,58 @@ window.ARTICLES_BODY_I18N = {
    },
    "8903c1": {
     "text": "Parts of this guide are adapted from “New Ito Chronicle” (by Hato_Tsubame and CantonSimon) and included with the authors’ permission. Prices, service frequencies, and procedures change over time; for anything important, please check the relevant official website."
+   },
+   "e1d701": {
+    "text": "Harassment and unfair treatment"
+   },
+   "e1d702": {
+    "text": "If you face harassment, discrimination or unfair treatment, remember this first: you do not have to put up with it, official help exists, and **consulting will not work against you**."
+   },
+   "e1d703": {
+    "items": [
+     {
+      "text": "Not sure whether it counts as harassment → you can simply ask first; you do not have to label it yourself"
+     },
+     {
+      "text": "Prefer to speak Chinese → the Student Counselling Room has English- and Chinese-speaking counsellors"
+     },
+     {
+      "text": "Refused housing or service, discriminatory remarks → MOJ foreign-language human rights hotline 0570-090911 (weekdays 9:00–17:00)"
+     },
+     {
+      "text": "Unpaid wages, asked to work illegally → MHLW consultation for foreign workers (Chinese page available)"
+     }
+    ]
+   },
+   "e1d704": {
+    "text": "Rules at Kyushu U's harassment office: confidentiality is strict, **consulting will not bring you any disadvantage**, and you may approach any counsellor regardless of your department. However, **anonymous reports and letters are not accepted** — entering the investigation process requires your name."
+   },
+   "e1d705": {
+    "text": "If it cannot be resolved through discussion, you can request a formal grievance filing (investigation). The harassment committee sets up an investigation panel to establish the facts, and if the conduct is confirmed the university takes disciplinary and other measures."
+   },
+   "e1d706": {
+    "items": [
+     {
+      "text": "Kyushu University Harassment Prevention Office (official, consultation flow)",
+      "url": "https://ohpc.kyushu-u.ac.jp/consultation.php"
+     },
+     {
+      "text": "Student Counselling Room (official, English and Chinese available)",
+      "url": "https://chc.kyushu-u.ac.jp/organization/consultation/"
+     },
+     {
+      "text": "MOJ human rights counselling for foreign nationals (official)",
+      "url": "https://www.moj.go.jp/JINKEN/jinken04_00101.html"
+     },
+     {
+      "text": "MHLW consultation for foreign workers (official, Chinese)",
+      "url": "https://www.startup-roudou.mhlw.go.jp/foreigner_chi.html"
+     },
+     {
+      "text": "General Labour Consultation Corner, Fukuoka Labour Bureau (official)",
+      "url": "https://jsite.mhlw.go.jp/fukuoka-roudoukyoku/roudoukyoku/gyoumu_naiyou/soumu/sodan/sodan01.html"
+     }
+    ]
    }
   },
   "ko": {
@@ -2776,6 +2880,58 @@ window.ARTICLES_BODY_I18N = {
    },
    "8903c1": {
     "text": "이 글의 일부는 《신 이토 풍토기》(저자 Hato_Tsubame, CantonSimon)에서 저자의 허락을 받아 수록했습니다. 본문의 가격, 운행 편수, 절차는 시간이 지나면 바뀝니다. 중요한 사항은 각 공식 사이트를 확인하세요."
+   },
+   "e1d701": {
+    "text": "괴롭힘과 부당한 대우"
+   },
+   "e1d702": {
+    "text": "괴롭힘·차별·부당한 대우를 겪었다면 먼저 이것만 기억하세요. 참을 필요가 없고, 공식 창구가 있으며, **상담해도 불이익을 받지 않습니다**."
+   },
+   "e1d703": {
+    "items": [
+     {
+      "text": "괴롭힘인지 확실하지 않음 → 우선 상담만 해도 됩니다. 스스로 판단하지 않아도 됩니다"
+     },
+     {
+      "text": "중국어로 이야기하고 싶음 → 학생상담실에 영어·중국어 가능 상담원이 있습니다"
+     },
+     {
+      "text": "입주 거절·서비스 거절·차별적 발언 → 법무성 외국어 인권상담 0570-090911(평일 9:00–17:00)"
+     },
+     {
+      "text": "임금 체불·위법한 노동 요구 → 후생노동성 외국인 노동 상담(중국어 페이지 있음)"
+     }
+    ]
+   },
+   "e1d704": {
+    "text": "규슈대 괴롭힘 창구의 규칙: 비밀은 엄수되며, **상담으로 불이익을 받지 않고**, 소속 부국과 무관하게 어느 상담원에게나 상담할 수 있습니다. 다만 **익명 신고와 투서는 접수하지 않습니다** — 조사 절차에 들어가려면 실명이 필요합니다."
+   },
+   "e1d705": {
+    "text": "대화로 해결되지 않으면 「고충 신청(조사)」을 요구할 수 있습니다. 괴롭힘 위원회가 조사부회를 설치해 사실관계를 확인하고, 인정되면 대학이 징계 등의 조치를 취합니다."
+   },
+   "e1d706": {
+    "items": [
+     {
+      "text": "규슈대 괴롭힘 대책추진실(공식·상담 절차)",
+      "url": "https://ohpc.kyushu-u.ac.jp/consultation.php"
+     },
+     {
+      "text": "학생상담실(공식·영어·중국어 가능)",
+      "url": "https://chc.kyushu-u.ac.jp/organization/consultation/"
+     },
+     {
+      "text": "법무성 외국인 인권상담(공식)",
+      "url": "https://www.moj.go.jp/JINKEN/jinken04_00101.html"
+     },
+     {
+      "text": "후생노동성 외국인 노동 상담(공식·중국어)",
+      "url": "https://www.startup-roudou.mhlw.go.jp/foreigner_chi.html"
+     },
+     {
+      "text": "종합노동상담코너(후쿠오카 노동국 공식)",
+      "url": "https://jsite.mhlw.go.jp/fukuoka-roudoukyoku/roudoukyoku/gyoumu_naiyou/soumu/sodan/sodan01.html"
+     }
+    ]
    }
   }
  },
