@@ -135,6 +135,10 @@
     ['地震', '台風', '災害', 'disaster', 'earthquake', '避難', '避难', '灾害', '防災'],
     ['年金', 'pension', '国民年金', '脱退一時金', '保険料'],
     ['税', '税金', 'tax', '住民税', '確定申告', '納税'],
+    ['丢失', '丢了', '遗失', '落とし物', '忘れ物', 'なくした', '失くした', '紛失',
+      'lost', 'lose', 'missing', '잃어버리다', '잃어버', '분실'],   // 잃어버리다 是原形；韩语的活用形（잃어버렸을/잃어버린）不含原形，
+   // 所以子串匹配要用词干 잃어버。这是韩语形态问题的临时处理，
+   // 完整的助词/语尾剥离属于后续（同 zh/ja 的 bigram 一样，是语言相关的那一小块）
     ['打工投诉', '労働', '労基', '相談', 'ハラスメント'],
     ['打工时间', '資格外活動', '週28時間'],
   ];
@@ -650,21 +654,26 @@
     let via = 'literal';
     let r = run(terms, lang, { alias: false, fuzzy: false });
     if (!r.length) { r = run(terms, lang, { alias: true, fuzzy: false }); via = 'alias'; }
-    // 模糊层改为「覆盖率」裁决。原先要求每个词都近似命中，而 what/to/do 这类虚词
-    // 在模糊层几乎能命中任何正文 → 实测「what to do when sick」返回 17 篇（全站）。
-    // 虚词已在上面滤掉，这里再要求信息词的命中比例 —— 不足半数的整篇不算结果。
-    if (!r.length) { r = run(terms, lang, { alias: true, fuzzy: true, partial: true, minCov: 0.5 }); via = 'fuzzy'; }
-    // 第 3.5 层：用**词表键**补召回。CJK 查询没有词边界，alias 层拿的是整块查询词，
+    // 第 3 层：用**词表键**补召回。**必须排在模糊层之前** ——
+// 词表键是人写的、精确的；模糊层是猜的、宽泛的。原先放在模糊层之后，
+// 「휴대폰 잃어버렸을 때」就先被模糊层用宽泛匹配处理了，首位成了手机篇。
+// 层序原则：精度递减 —— 能精确命中的查询不该被近似结果污染。CJK 查询没有词边界，alias 层拿的是整块查询词，
     // 永远查不到；这一层反过来从查询里抽出表内的词，再走 alias 展开。
     // 判据严（minCov=1，所有抽出的键都要命中），所以结果是精确的，不会像 bigram 那样炸开。
     if (!r.length) {
       const keys = keysInQuery(rawTerms.join(' '));
       if (keys.length) {
-        const rk = run(keys, lang, { alias: true, fuzzy: false, minCov: 1 });
+        // idfScore：让稀有键主导 —— 「手机丢了」里「丢了」比「手机」稀有，
+        // 而用户要的正是「丢」这件事。不加权时「手机」的字段权重会压过它。
+        const rk = run(keys, lang, { alias: true, fuzzy: false, minCov: 1, idfScore: true });
         if (rk.length) { r = rk; via = 'key'; }
       }
     }
-    // 第 4 层（新）：CJK 长词整词查不到时拆成 bigram 再查。
+        // 第 4 层（模糊）：改为「覆盖率」裁决。原先要求每个词都近似命中，而 what/to/do 这类虚词
+    // 在模糊层几乎能命中任何正文 → 实测「what to do when sick」返回 17 篇（全站）。
+    // 虚词已在上面滤掉，这里再要求信息词的命中比例 —— 不足半数的整篇不算结果。
+    if (!r.length) { r = run(terms, lang, { alias: true, fuzzy: true, partial: true, minCov: 0.5 }); via = 'fuzzy'; }
+// 第 5 层：CJK 长词整词查不到时拆成 bigram 再查。
     // 「打工超时」「銀行口座の作り方」没有词边界，前三层必然全空 —— 这一层救回来。
     // 只在前三层都空时启用，不污染既有结果。
     if (!r.length) {

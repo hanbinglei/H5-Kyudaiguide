@@ -61,28 +61,31 @@ const CASES = [
 
 const pad = (s, n2) => { s = String(s); let w = 0; for (const ch of s) w += (ch.charCodeAt(0) > 0x1100 ? 2 : 1);
   return s + ' '.repeat(Math.max(0, n2 - w)); };
-let recMiss = 0, precMiss = 0, recTot = 0, precTot = 0;
+// 判据说明（2026-09 改）：
+//   旧判据是「结果条数 ≤ N」，那个 N 是**我拍的**，而且量错了东西 ——
+//   搜「银行」返回 10 篇是合理的（银行相关内容本来就散在多篇），
+//   而用户在搜索框里**只会点第一条**。真正决定「好不好用」的是首位对不对。
+//   所以：首位命中率 = 主指标；召回 = 护栏；条数只作参考，不计分。
+let recMiss = 0, topMiss = 0, recTot = 0;
 const byLang = {};
 for (const [lang, q, want, maxN] of CASES) {
   const r = S.query(q, { lang, limit: 20 });
   const rank = r.findIndex(x => x.id === want);
   const okRec = rank >= 0;
-  const okPrec = r.length <= maxN;
-  recTot++; if (!okRec) recMiss++;
-  // 精度只对「能搜到」的查询计分 —— 0 篇不算精度好，算召回差
-  if (okRec) { precTot++; if (!okPrec) precMiss++; }
-  const b = byLang[lang] = byLang[lang] || { n: 0, r: 0, p: 0, rp: 0 };
-  b.n++; if (okRec) b.r++; if (okRec && okPrec) b.p++;
-  console.log([okRec ? '✓' : '✗', pad(lang, 4), pad(q.slice(0, 26), 28),
-    pad(r.length + ' 篇', 6),
-    okRec ? ('第 ' + (rank + 1) + ' 位') : '**没找到目标篇**',
-    (okRec && !okPrec) ? '（结果过多，超 ' + maxN + '）' : ''].join(' '));
+  const okTop = rank === 0;
+  recTot++; if (!okRec) recMiss++; if (!okTop) topMiss++;
+  const b = byLang[lang] = byLang[lang] || { n: 0, r: 0, t: 0 };
+  b.n++; if (okRec) b.r++; if (okTop) b.t++;
+  console.log([okTop ? '◎' : (okRec ? '○' : '✗'), pad(lang, 4), pad(q.slice(0, 26), 28),
+    pad(r.length + ' 篇', 7),
+    okRec ? ('第 ' + (rank + 1) + ' 位' + (r[0] ? '  首位=' + r[0].id : '')) : '**没找到目标篇**',
+    (r.length > maxN) ? '（参考：超过 ' + maxN + ' 篇）' : ''].join(' '));
 }
-console.log('\n── 汇总 ──');
+console.log('\n── 汇总 ──   ◎ 首位命中 · ○ 召回但非首位 · ✗ 没找到');
 for (const L of Object.keys(byLang)) {
   const b = byLang[L];
-  console.log('  ' + pad(L, 3) + ' 召回 ' + b.r + '/' + b.n + ' · 召回且精度达标 ' + b.p + '/' + b.n);
+  console.log('  ' + pad(L, 3) + ' 首位 ' + b.t + '/' + b.n + ' · 召回 ' + b.r + '/' + b.n);
 }
-console.log('  合计 召回 ' + (recTot - recMiss) + '/' + recTot + '（' + (100 * (recTot - recMiss) / recTot).toFixed(1) + '%）'
-  + ' · 精度 ' + (precTot - precMiss) + '/' + precTot + '（' + (precTot ? (100 * (precTot - precMiss) / precTot).toFixed(1) : '0') + '%）');
-process.exit(recMiss || precMiss ? 1 : 0);
+console.log('  合计 首位命中 ' + (recTot - topMiss) + '/' + recTot + '（' + (100 * (recTot - topMiss) / recTot).toFixed(1) + '%）'
+  + ' · 召回 ' + (recTot - recMiss) + '/' + recTot + '（' + (100 * (recTot - recMiss) / recTot).toFixed(1) + '%）');
+process.exit(recMiss || topMiss ? 1 : 0);
