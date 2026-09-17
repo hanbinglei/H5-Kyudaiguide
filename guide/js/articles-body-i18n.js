@@ -2624,7 +2624,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "各銀行の特徴"
    },
    "a43466": {
-    "text": "口座開設、家賃・学費の納付、クレジットカードの申込み、海外への送金——実際の手続きの順番に沿って構成しています。**まず「銀行に行く前に」の節をお読みになることをおすすめします**。印鑑と営業時間が最もよくある2つの問題です。"
+    "text": "口座開設、家賃・学費の納付、クレジットカードの申込み、海外への送金——実際の手続きの順番に沿って構成しています。**まず「銀行に行く前に」の節をお読みください**。印鑑の規格と営業時間は、口座開設前に確認が必要な項目です。"
    },
    "9fb1a4": {
     "text": "銀行に行く前に：印鑑・オリエンテーション・営業時間"
@@ -2654,7 +2654,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "授業料の口座振替"
    },
    "340c3a": {
-    "text": "口座振替（自動引き落とし）を申し込んだのに、なかなか引き落とされない場合は、通常は学校の事務処理に時間がかかっているだけなので、しばらく待てば問題ありません。"
+    "text": "口座振替（自動引き落とし）を申し込んだのに引き落としが確認できない場合は、申請した窓口で状況を確認してください。引き落としに失敗すると延滞になりますので、様子を見るだけで済ませないでください。"
    },
    "beb008": {
     "text": "クレジットカードの申請"
@@ -2713,7 +2713,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Features of Major Banks"
    },
    "a43466": {
-    "text": "Opening an account, paying rent and tuition, applying for a credit card, and remitting money home are arranged in the actual order of the procedures. **Reading the \"Before Going to the Bank\" section first is recommended**, as the seal (hanko) and business hours are the two most common issues."
+    "text": "Opening an account, paying rent and tuition, applying for a credit card, and remitting money home are arranged in the actual order of the procedures. **Read the \"Before Going to the Bank\" section first** — the required type of seal and the bank's opening hours must be confirmed before you go."
    },
    "9fb1a4": {
     "text": "Before Going to the Bank: Hanko Seal, Orientation, and Business Hours"
@@ -2743,7 +2743,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Direct Debit for Tuition (口座振替)"
    },
    "340c3a": {
-    "text": "If automatic withdrawal (口座振替) has been applied for but the charge is slow to appear, the delay is usually caused by the university's administrative processing; simply wait."
+    "text": "If you have applied for automatic withdrawal (口座振替) but the charge does not appear, confirm the status with the office that accepted your application. A failed withdrawal results in arrears, so do not simply wait."
    },
    "beb008": {
     "text": "Credit Card Application"
@@ -2802,7 +2802,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "은행별 특징"
    },
    "a43466": {
-    "text": "계좌 개설, 집세·학비 납부, 신용카드 발급, 본국 송금까지 실제로 진행하는 순서에 맞춰 구성했습니다. **「은행 방문 전」 항목을 먼저 읽어 보시기를 권합니다.** 인감과 영업 시간이 가장 자주 겪는 두 가지 문제입니다."
+    "text": "계좌 개설, 집세·학비 납부, 신용카드 발급, 본국 송금까지 실제로 진행하는 순서에 맞춰 구성했습니다. **「은행 방문 전」 항목을 먼저 읽어 주십시오.** 인감 규격과 영업 시간은 계좌 개설 전에 확인해야 하는 항목입니다."
    },
    "9fb1a4": {
     "text": "은행 방문 전: 인감·orientation·영업 시간"
@@ -2832,7 +2832,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "授業料 자동이체(口座振替)"
    },
    "340c3a": {
-    "text": "계좌 자동이체(口座振替)를 신청했는데도 좀처럼 출금되지 않는다면, 대개 학교 행정 처리 속도가 느린 것이 원인이므로 기다리면 됩니다."
+    "text": "계좌 자동이체(口座振替)를 신청했는데 출금이 확인되지 않으면, 신청한 창구에서 상태를 확인하십시오. 출금에 실패하면 연체가 되므로, 기다리기만 해서는 안 됩니다."
    },
    "beb008": {
     "text": "신용카드 신청"
@@ -2891,7 +2891,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Características de cada banco"
    },
    "a43466": {
-    "text": "Apertura de cuenta, pago del alquiler y de la matrícula, solicitud de tarjeta de crédito y envío de dinero al extranjero: el contenido sigue el orden real de los trámites. **Se recomienda leer primero la sección «Antes de ir al banco»**; el sello personal y el horario de atención son los dos problemas más frecuentes."
+    "text": "Apertura de cuenta, pago del alquiler y de la matrícula, solicitud de tarjeta de crédito y envío de dinero al extranjero: el contenido sigue el orden real de los trámites. **Lee primero la sección «Antes de ir al banco»**: el tipo de sello requerido y el horario de atención deben confirmarse antes de ir."
    },
    "9fb1a4": {
     "text": "Antes de ir al banco: sello personal, orientation y horario de atención"
@@ -2921,7 +2921,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Domiciliación bancaria de la matrícula (口座振替)"
    },
    "340c3a": {
-    "text": "Si ya solicitaste el cargo automático desde tu cuenta (口座振替) y el cobro tarda en realizarse, por lo general se debe a la lentitud de los trámites administrativos de la universidad; basta con esperar."
+    "text": "Si has solicitado el cargo automático (口座振替) y el cobro no aparece, confirma el estado en la ventanilla donde presentaste la solicitud. Un cargo fallido genera recargos por mora, así que no te limites a esperar."
    },
    "beb008": {
     "text": "Solicitud de tarjeta de crédito"

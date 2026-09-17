@@ -180,12 +180,21 @@ function renderSources(container){
     seen.set(href,{url:href,label:label});
   }
   const items=[...seen.values()];
+  const T=(k,f)=>{try{return window.GuideI18N?window.GuideI18N.t(k):f}catch(e){return f}};
+  /* 经验性内容说明：与「有没有外部链接」无关，每篇都出。
+     站内大量「通常…」「多为…」是维护者的实地观察、没有官方出处 ——
+     与其逐句加限定词，不如在文末统一交代这一类内容的性质。 */
+  {
+    const exp=document.createElement('p');
+    exp.className='exp-note';
+    exp.textContent=T('expNote','');
+    container.appendChild(exp);
+  }
   if(!items.length)return null;               // 一条链接都没有就不出现，不留空壳
 
   const official=[],other=[];
   for(const it of items){(OFFICIAL_HOST.test(hostOf(it.url))?official:other).push(it);}
 
-  const T=(k,f)=>{try{return window.GuideI18N?window.GuideI18N.t(k):f}catch(e){return f}};
   const row=it=>{
     const shown=it.url.replace(/^https?:\/\//i,'').replace(/\/$/,'');
     const sub=(it.label===shown)?'':`<span class="src-u">${esc(shown)}</span>`;
