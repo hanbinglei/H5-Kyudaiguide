@@ -36,7 +36,7 @@ function hay(id) {
   };
   (a.blocks || []).forEach(walk);
   const im = BODY[id] || {};
-  for (const l of ['ja', 'en', 'ko']) {
+  for (const l of ['ja', 'en', 'ko', 'es']) {
     const tm = im[l]; if (!tm) continue;
     for (const k in tm) {
       const v = tm[k]; if (!v) continue;

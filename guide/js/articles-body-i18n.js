@@ -1963,6 +1963,202 @@ window.ARTICLES_BODY_I18N = {
      }
     ]
    }
+  },
+  "es": {
+   "aa3847": {
+    "text": "Objetivo de este artículo: saber cómo actuar ante situaciones sospechosas. Dos reglas prioritarias: no transferir dinero y no revelar datos personales; si los hechos ya ocurrieron, llama de inmediato al primer teléfono que aparece al final del artículo."
+   },
+   "52ec55": {
+    "text": "⚠️ Si acabas de llegar a Japón para estudiar, lee este artículo completo antes que nada: las bandas de estafadores usan métodos muy elaborados y también caen personas con estudios superiores. Ten presente la regla «no entrar en pánico, no creer nada, no entregar dinero»: con ella evitarás la gran mayoría de las estafas."
+   },
+   "094ae5": {
+    "text": "I. Tipos de estafa más comunes"
+   },
+   "011c4f": {
+    "text": "1. Suplantación de embajadas, consulados o autoridades policiales y judiciales"
+   },
+   "049994": {
+    "text": "Método: llaman diciendo que son la «embajada o el consulado de China» y afirman que tienes un documento importante sin recoger, que hay un problema con tu pasaporte o que estás implicado en una investigación; después te pasan con una supuesta «comisaría o fiscalía de China», que afirma que se te investiga por blanqueo de dinero; te piden instalar aplicaciones cifradas como Signal, Webex o Skype para un «interrogatorio por videollamada a distancia»; muestran credenciales policiales y documentos falsificados; exigen pagar una «fianza» o un «depósito de libertad provisional» y amenazan con «deportarte o extraditarte si no colaboras»."
+   },
+   "a49a0e": {
+    "text": "Claves para reconocerlo: ① las embajadas y consulados de China en el extranjero no te avisan por teléfono de que estás implicado en un caso; ② la policía y la fiscalía de China no tramitan casos internacionales por teléfono, WeChat o QQ; ③ nunca piden que hagas una transferencia ni que descargues aplicaciones de mensajería; ④ el número de origen puede falsearse con un simulador de llamadas, así que aunque en pantalla aparezca «comisaría», no es fiable."
+   },
+   "a1f761": {
+    "text": "2. Estafa en el cambio de divisas (muy frecuente entre estudiantes internacionales)"
+   },
+   "72ad22": {
+    "text": "Método: publican en grupos de WeChat ofertas de «cambio de divisas a buen precio» o mensajes como «necesito yenes con urgencia»; falsifican capturas de pantalla de transferencias y te piden que envíes el dinero primero; la «estafa ABC», en la que el estafador A dice aportar yuanes y el B dice aportar yenes, te incitan a transferir a los dos a la vez y luego desaparecen; actúan como «intermediarios» y estafan a ambas partes."
+   },
+   "edaa9e": {
+    "text": "Claves para reconocerlo: cambia divisas solo por canales bancarios oficiales; considera sospechosa cualquier oferta de cambio de un desconocido en grupos de WeChat; nunca envíes dinero antes de recibirlo; los cambios con un «tipo de cambio excepcionalmente bueno» son casi siempre una estafa."
+   },
+   "3a818c": {
+    "text": "3. Suplantación de la universidad o de un profesor"
+   },
+   "adabc1": {
+    "text": "Método: envían correos haciéndose pasar por la universidad y piden el pago de «tasas académicas o de matrícula»; se hacen pasar por un profesor y piden que compres tarjetas regalo o hagas transferencias en su nombre; aprovechan fallos de seguridad para falsificar la dirección de correo del profesor."
+   },
+   "b41808": {
+    "text": "Claves para reconocerlo: la universidad nunca pide por correo o por teléfono tu contraseña bancaria ni una transferencia inmediata; si un profesor te pide de repente que compres algo en su nombre, confírmalo en persona o por teléfono con el propio profesor; comprueba si la dirección del remitente pertenece de verdad al dominio de la universidad."
+   },
+   "d246ca": {
+    "text": "4. Mensajes y enlaces de phishing"
+   },
+   "e1d74f": {
+    "text": "Método: envían mensajes con un enlace para pagar, con excusas como «depósito de alquiler», «caducidad del ETC» o «paquete retenido»; también envían enlaces haciéndose pasar por empresas de mensajería, servicios postales o compañías eléctricas."
+   },
+   "ffd258": {
+    "text": "Claves para reconocerlo: todo mensaje que incluya un enlace para pagar es una estafa; en Japón los pagos legítimos se hacen en tiendas de conveniencia, por transferencia bancaria (振込) o por domiciliación de cuenta; si tienes dudas, llama antes al teléfono oficial y no hagas clic en el enlace."
+   },
+   "8eed64": {
+    "text": "5. Secuestro virtual"
+   },
+   "b25888": {
+    "text": "Método: el estafador aísla primero al estudiante internacional de su entorno y después contacta con su familia en el país de origen para decir que lo han secuestrado y exigir un rescate, aprovechando la falta de comunicación entre ambos."
+   },
+   "a3c952": {
+    "text": "Claves para reconocerlo: si recibes un aviso de que «han secuestrado a tu hijo», contacta de inmediato con la embajada o el consulado para verificarlo; quien te pida «no contactar con tu familia» es un estafador."
+   },
+   "9f1d78": {
+    "text": "6. Estafa de trabajos a tiempo parcial y de pedidos falsos"
+   },
+   "aa1237": {
+    "text": "Método: te añaden en WhatsApp o WeChat a un «grupo de trabajo a tiempo parcial» donde prometen un sueldo alto por una tarea sencilla; te piden adelantar el pago de la mercancía o comprar productos; al principio devuelven pequeñas cantidades y, cuando la suma es grande, se llevan el dinero y desaparecen."
+   },
+   "2cd15e": {
+    "text": "Claves para reconocerlo: cualquier trabajo a tiempo parcial que te pida pagar primero es una estafa; tu tarjeta de residencia indica el alcance del permiso de actividad fuera del estatus, así que un «trabajo a tiempo parcial» con un sueldo desorbitado tampoco es legal; sal de los grupos de WhatsApp de desconocidos y denúncialos."
+   },
+   "55891a": {
+    "text": "7. Estafa de las tarjetas regalo en tiendas de conveniencia"
+   },
+   "041a81": {
+    "text": "Método: se hacen pasar por la policía, una embajada o un técnico y, con la excusa de «verificar la cuenta» o «desbloquearla», te piden comprar tarjetas regalo de importe elevado en una tienda de conveniencia (Vプリカ, Apple Gift Card, etc.) y darles el número y el código."
+   },
+   "1449d2": {
+    "text": "Claves para reconocerlo: ninguna institución seria pide comprar tarjetas regalo para verificar algo o para pagar; a veces el personal de la tienda de conveniencia te avisa, pero no siempre consigue detenerlo."
+   },
+   "8eecc1": {
+    "text": "8. Venta a domicilio y cambio de compañía eléctrica"
+   },
+   "584b05": {
+    "text": "Método: se presentan en tu casa como empleados de una compañía eléctrica o de internet y dicen que «cambiar de compañía es más barato» para conseguir tus datos personales o hacerte firmar un plan caro."
+   },
+   "ccc44b": {
+    "text": "Claves para reconocerlo: la venta a domicilio puede no convenirte en absoluto; no firmes nada en el momento, di «no lo necesito» y cierra la puerta; una compañía legítima no se presenta sin avisar."
+   },
+   "3743ca": {
+    "text": "II. Principios básicos para evitar las estafas"
+   },
+   "daa01e": {
+    "items": [
+     {
+      "title": "Mantén la calma, no te lo creas y no entregues dinero",
+      "desc": ""
+     },
+     {
+      "title": "Cualquier llamada que diga ser de la policía, la fiscalía o una embajada y pida una transferencia → cuelga directamente",
+      "desc": ""
+     },
+     {
+      "title": "Quien te pida «guardar el secreto» o «no contárselo a tu familia o a tus amigos» es sin duda un estafador",
+      "desc": ""
+     },
+     {
+      "title": "Si tienes dudas, verifica por teléfono: llama al número de protección consular publicado en la web oficial de la embajada, no al número que te haya dado la otra persona",
+      "desc": ""
+     }
+    ]
+   },
+   "0252c5": {
+    "text": "Prevención diaria: no respondas a las llamadas de números desconocidos y, si suena una grabación, cuelga de inmediato; si quien llama dice ser de la embajada o de la policía, cuelga y busca por tu cuenta el número oficial en la web para devolver la llamada; no respondas ni escribas en privado a los mensajes de cambio de divisas que aparecen en grupos de WeChat; no hagas clic en los mensajes con enlaces; si alguien te pide comprar tarjetas regalo, es una estafa al 100 %, termina la conversación de inmediato; si un correo de la universidad o de un profesor pide una transferencia, confírmalo en persona o por teléfono; ante una venta a domicilio, no abras la puerta o di «no lo necesito» y ciérrala."
+   },
+   "2f22d1": {
+    "text": "III. Consulta rápida para la prevención diaria"
+   },
+   "02de93": {
+    "headers": [
+     "Situación",
+     "Qué hacer"
+    ],
+    "rows": [
+     [
+      "Recibes una llamada de un número desconocido",
+      "No respondas y, si suena una grabación, cuelga de inmediato"
+     ],
+     [
+      "Quien llama dice ser de la embajada o de la policía",
+      "Cuelga, busca el número oficial en la web y llama tú para confirmarlo"
+     ],
+     [
+      "Un desconocido te agrega a WeChat o WhatsApp",
+      "Recházalo o confirma antes su identidad"
+     ],
+     [
+      "Ofertas de cambio de divisas en un grupo de WeChat",
+      "No respondas, no escribas en privado, ignóralas por completo"
+     ],
+     [
+      "Recibes un mensaje con un enlace",
+      "¡No hagas clic! Verifica antes al remitente"
+     ],
+     [
+      "Alguien te pide comprar tarjetas regalo",
+      "Es una estafa al 100 %, termina la conversación de inmediato"
+     ],
+     [
+      "Un correo de la universidad o de un profesor pide una transferencia",
+      "Confírmalo en persona o por teléfono"
+     ],
+     [
+      "Venta a domicilio",
+      "No abras la puerta o di «no lo necesito» y cierra la puerta"
+     ]
+    ]
+   },
+   "717d03": {
+    "text": "IV. Qué hacer después de una estafa (por orden de prioridad)"
+   },
+   "c06ba5": {
+    "items": [
+     {
+      "title": "Contacta con el banco de inmediato",
+      "desc": "Llama al banco donde está abierta la cuenta desde la que se hizo la transferencia y pide que detengan el pago y bloqueen la cuenta: el dinero puede retirarse pocos minutos después de la transferencia, así que cuanto antes mejor"
+     },
+     {
+      "title": "Denuncia ante la policía local",
+      "desc": "En Japón llama al 110 y guarda los historiales de chat, los registros de la transferencia y los datos de la otra persona como pruebas"
+     },
+     {
+      "title": "Pide a tus familiares en tu país que denuncien",
+      "desc": "Que llamen al 110 de tu país y pidan ser transferidos al centro de lucha contra el fraude telefónico y en internet, o bien directamente a la comisaría correspondiente a su domicilio registrado"
+     },
+     {
+      "title": "Contacta con la embajada o el consulado de China",
+      "desc": "Consulta el número de protección consular en la web oficial; la línea global de emergencia de protección y servicios consulares del Ministerio de Asuntos Exteriores (24 horas) aparece en la sección «Contactos de emergencia»（应急联系）"
+     },
+     {
+      "title": "Comparte el aviso",
+      "desc": "Cuenta lo que te pasó en los grupos de WeChat para evitar que más personas caigan en la estafa"
+     }
+    ]
+   },
+   "6d59ab": {
+    "text": "💡 Ser víctima de una estafa no es culpa tuya: las bandas de estafadores están entrenadas profesionalmente y entre las víctimas hay personas con estudios superiores. Hay pocas esperanzas de recuperar el dinero, pero denunciar sigue teniendo valor (permite vincular casos y rastrear a la banda); no te calles por vergüenza, tu experiencia puede ayudar a otras personas a no caer en la trampa."
+   },
+   "3e86de": {
+    "text": "V. Puntos clave para reconocer una estafa"
+   },
+   "0125e2": {
+    "text": "Basado en casos reales y en la experiencia de los grupos de chat: pregunta directamente por el origen de su acento (un acento claramente de cierta región suele indicar una estafa); responde en dialecto local o en japonés y la otra persona normalmente colgará; pregúntale a qué comisaría pertenece y busca tú mismo el teléfono público en internet para llamar y verificarlo; los estafadores tienen prisa por cerrar el trato y se ponen nerviosos cuando se les piden detalles. Lo más importante es proteger tu información bancaria: cuida bien el número de tu tarjeta y tu contraseña."
+   },
+   "40510e": {
+    "items": [
+     {
+      "text": "Consulado General de China en Fukuoka",
+      "url": "https://fukuoka.china-consulate.gov.cn/"
+     }
+    ]
+   }
   }
  },
  "guide-bank": {
@@ -2231,6 +2427,95 @@ window.ARTICLES_BODY_I18N = {
    },
    "9958c0": {
     "text": "**사전 신청이 필요**하며, 入国支援システム(Pre-Arrival System)을 통해 예약합니다. 같은 행사에는 보통 행정 수속 안내도 포함되어 있어 두 가지를 한 번에 처리하는 것이 가장 효율적입니다. 신청 인원과 일정은 학교 안내에 따릅니다."
+   }
+  },
+  "es": {
+   "637370": {
+    "text": "Si vas a abrir la cuenta por tu cuenta en una sucursal del Banco de Fukuoka（福岡銀行）, también **debes reservar con antelación**; no se atiende sin cita."
+   },
+   "908368": {
+    "text": "Características de cada banco"
+   },
+   "a43466": {
+    "text": "Apertura de cuenta, pago del alquiler y de la matrícula, solicitud de tarjeta de crédito y envío de dinero al extranjero: el contenido sigue el orden real de los trámites. **Se recomienda leer primero la sección «Antes de ir al banco»**; el sello personal y el horario de atención son los dos problemas más frecuentes."
+   },
+   "9fb1a4": {
+    "text": "Antes de ir al banco: sello personal, orientation y horario de atención"
+   },
+   "930ced": {
+    "text": "Para abrir una cuenta bancaria es imprescindible un sello personal (hanko) (**no se acepta Shachihata（シャチハタ）**). Antes de venir a Japón, asegúrate de preparar tu sello personal; de lo contrario no podrás abrir la cuenta en ventanilla. Ver 【Preparativos para la entrada a Japón】"
+   },
+   "9d3912": {
+    "text": "La orientation bancaria (sesión informativa para abrir una cuenta) es una de las partes más importantes de los trámites de estudio en el extranjero; antes de venir a Japón, confirma si ya te has inscrito. Es un evento distinto de la orientation general de ingreso y requiere una reserva por separado. Si pierdes la sesión organizada por la universidad, por lo general después solo podrás tramitarlo por tu cuenta en la ventanilla del banco, lo que consume bastante tiempo."
+   },
+   "a34b68": {
+    "text": "Horario de atención del banco"
+   },
+   "f68cb8": {
+    "text": "El horario de ventanilla de los bancos japoneses es, por lo general, **de 10:00 a 15:00**. Después de las 15:00 no se atiende ningún trámite de ventanilla ni de mostrador, salvo en los cajeros automáticos (ATM). Para abrir una cuenta o hacer una transferencia, acude siempre dentro del horario de atención."
+   },
+   "49d42a": {
+    "text": "Pagar: alquiler y matrícula"
+   },
+   "9639d1": {
+    "text": "Los estudiantes de intercambio y los del programa JTW normalmente solo pueden pagar el alquiler mediante transferencia bancaria; no se acepta efectivo. Una vez abierta la cuenta recibirás una cash card (tarjeta de efectivo), con la que podrás depositar y transferir en el ATM, sin necesidad de usar la app de banca móvil."
+   },
+   "52174c": {
+    "text": "Atención: las tarjetas bancarias emitidas en el extranjero no sirven directamente para pagar el alquiler en Japón; por lo general los ATM cierran después de las 5 de la tarde, así que realiza las transferencias dentro del horario de trabajo."
+   },
+   "4e10c7": {
+    "text": "Domiciliación bancaria de la matrícula (口座振替)"
+   },
+   "340c3a": {
+    "text": "Si ya solicitaste el cargo automático desde tu cuenta (口座振替) y el cobro tarda en realizarse, por lo general se debe a la lentitud de los trámites administrativos de la universidad; basta con esperar."
+   },
+   "beb008": {
+    "text": "Solicitud de tarjeta de crédito"
+   },
+   "9e4ae1": {
+    "text": "La lógica de emisión de tarjetas de crédito en Japón es distinta de la de otros países: si acabas de llegar y no tienes historial de crédito, es fácil que te rechacen la solicitud de una tarjeta tradicional. En cambio, la tarjeta PayPay es más accesible para los extranjeros, se solicita desde la app del móvil y el umbral es más bajo, por lo que puede considerarse como primera tarjeta de crédito."
+   },
+   "13aee8": {
+    "text": "Conviene advertir que, en conjunto, solicitar una tarjeta de crédito es un proceso complejo: la mayoría de los productos exige haber residido en Japón al menos 6 meses y contar con un margen suficiente en el periodo de residencia restante para superar la revisión; además, el límite que se aprueba a los estudiantes suele ser bajo, por lo que sirve principalmente para gastos diarios pequeños y para ir construyendo historial crediticio."
+   },
+   "299ec9": {
+    "text": "Banco Yucho（ゆうちょ銀行）"
+   },
+   "7f6376": {
+    "text": "Es el banco con el umbral de apertura más bajo: normalmente basta con la tarjeta de residencia y el carné de estudiante, y se puede abrir incluso con menos de 6 meses de residencia (algunas funciones quedan limitadas). Tiene sucursales en todo el país y comisiones de ATM bajas. Quienes reciben una beca del Gobierno (MEXT) deben abrir la cuenta en la sesión colectiva de apertura (口座開設会) organizada por la universidad, y no pueden hacerlo por su cuenta en la oficina de correos; la beca de estímulo al estudio de JASSO también se recibe en una cuenta de Yucho（ゆうちょ）."
+   },
+   "d6d8e4": {
+    "text": "Atención: si han pasado menos de 6 meses desde tu llegada a Japón, las transferencias desde el extranjero a una cuenta de Yucho（ゆうちょ）conllevan comisiones elevadas (unos 7500 yenes por operación). Si prevés enviar cantidades importantes desde el extranjero, conviene planificarlo con antelación y comparar varias opciones."
+   },
+   "6f4401": {
+    "text": "Banco de Fukuoka（福岡銀行）"
+   },
+   "767f70": {
+    "text": "Es el banco principal de ámbito local en Fukuoka. Para abrir una cuenta se necesitan el sello personal (**no se acepta Shachihata（シャチハタ）**), la tarjeta de residencia y el pasaporte. La atención en ventanilla se ofrece actualmente sobre todo en japonés, y algunas sucursales pueden mostrarse cautelosas ante estudiantes internacionales con estancia corta, por lo que conviene confirmarlo antes por teléfono."
+   },
+   "e9546f": {
+    "text": "Si por descuido pierdes la orientation de la universidad, o si quieres abrir la cuenta por tu cuenta y con antelación después de llegar a Japón, deberás reservar en la web oficial del Banco de Fukuoka（福岡銀行）; se recomienda hacerlo con al menos 1-2 semanas de antelación. En las cuentas abiertas de forma colectiva a través de la orientation de la universidad normalmente solo se entrega la tarjeta bancaria (cash card) en el momento; si necesitas una libreta de ahorros (通帳), tendrás que acudir por tu cuenta a una sucursal del banco."
+   },
+   "c93498": {
+    "text": "Nishi-Nippon City Bank（西日本シティ銀行）"
+   },
+   "7e1a3e": {
+    "text": "Para abrir una cuenta se necesitan el sello personal y la tarjeta de residencia. La dirección (en caracteres kanji) del formulario de solicitud debes escribirla tú mismo, no se admite que otra persona la escriba; antes de ir, confirma cómo se escribe tu dirección. En Nishi-Nippon City Bank（西日本シティ銀行）normalmente se puede acudir directamente el mismo día, sin reserva; sin embargo, todo el trámite **debe realizarse en japonés**, así que si tu japonés no es fluido necesitarás que te acompañe alguien que lo hable."
+   },
+   "b65e5c": {
+    "text": "Lista de documentos para abrir una cuenta"
+   },
+   "77b3a2": {
+    "text": "Si más adelante necesitas recibir transferencias desde el extranjero, el banco te pedirá el My Number; si aún no tienes la tarjeta My Number, puedes presentar en su lugar un certificado de residencia (住民票) en el que conste el My Number. Ver 【Trámites de residencia】"
+   },
+   "35e7b3": {
+    "text": "Sesión colectiva de apertura de la universidad: solo el Banco de Fukuoka（福岡銀行）"
+   },
+   "66223f": {
+    "text": "Después de la llegada de los estudiantes nuevos, la universidad celebra una «福岡銀行口座開設会», en la que se tramita la apertura de cuenta de forma colectiva y se evita la molestia de reservar y negociar por tu cuenta. Pero solo cubre el Banco de Fukuoka（福岡銀行）: si quieres abrir una cuenta en Yucho（ゆうちょ）o en Nishi-Nippon City Bank（西日本シティ銀行）, tendrás que ir tú mismo a una sucursal."
+   },
+   "9958c0": {
+    "text": "**Se requiere inscripción previa**, mediante reserva a través del 入国支援システム (Pre-Arrival System). La misma sesión suele incluir además orientación sobre los trámites administrativos, y hacer ambas cosas a la vez ahorra el máximo de tiempo. El número de plazas y las sesiones se rigen por lo que notifique la universidad."
    }
   }
  },
@@ -2930,6 +3215,239 @@ window.ARTICLES_BODY_I18N = {
      {
       "text": "종합노동상담코너(후쿠오카 노동국 공식)",
       "url": "https://jsite.mhlw.go.jp/fukuoka-roudoukyoku/roudoukyoku/gyoumu_naiyou/soumu/sodan/sodan01.html"
+     }
+    ]
+   }
+  },
+  "es": {
+   "392840": {
+    "text": "El Consulado General de China en Fukuoka se encarga de la protección consular, los documentos y la asistencia de emergencia. Si sufres una emergencia en Japón y necesitas asistencia consular, puedes llamar a la línea mundial de emergencia consular del Ministerio de Relaciones Exteriores (24 horas): +86-10-12308 o +86-10-65612308."
+   },
+   "800183": {
+    "text": "· Centro de Intercambio Internacional de la Prefectura de Fukuoka: información de apoyo a la vida diaria para extranjeros"
+   },
+   "d9edd9": {
+    "text": "Ante una emergencia, primero identifica el tipo y luego marca. Estos son los números generales de Japón y los canales oficiales locales de Fukuoka."
+   },
+   "e02b8f": {
+    "text": "Emergencias de vida o seguridad"
+   },
+   "b3b000": {
+    "items": [
+     {
+      "text": "110 — cuando ocurre un delito o un accidente y necesitas a la policía"
+     },
+     {
+      "text": "119 — en caso de incendio o cuando se necesita atención médica de urgencia (ambulancia)"
+     },
+     {
+      "text": "#7119 — consulta de urgencias cuando hay una enfermedad repentina y no sabes si necesitas una ambulancia (prefectura de Fukuoka, 24 horas)"
+     },
+     {
+      "text": "#8000 (para niños) — consulta por enfermedad repentina de un niño durante la noche; si el número corto no funciona, marca 092-731-4119"
+     }
+    ]
+   },
+   "6daaf2": {
+    "text": "Embajada y consulados (China)"
+   },
+   "06b1ad": {
+    "text": "· (consultas de protección consular 092-752-0085)"
+   },
+   "40a3b6": {
+    "items": [
+     {
+      "text": "Consulado General de China en Fukuoka",
+      "url": "https://fukuoka.china-consulate.gov.cn/"
+     }
+    ]
+   },
+   "8ff3c2": {
+    "text": "Asuntos de la universidad"
+   },
+   "05277d": {
+    "text": "El Área Internacional de la Universidad de Kyushu puede ofrecer consultas administrativas y asistencia de contacto de emergencia a los estudiantes internacionales matriculados; en emergencias relacionadas con el dormitorio se recomienda contactar primero al encargado del dormitorio o al administrador."
+   },
+   "0a63f9": {
+    "text": "Ventanillas de consulta para extranjeros"
+   },
+   "7ee48c": {
+    "text": "· Centro Integral de Consulta y Apoyo para Extranjeros de la ciudad de Fukuoka: 0120-66-1799 (gratuito) / 092-262-1799, atención en días hábiles 8:45~18:00, con apoyo en varios idiomas"
+   },
+   "8f6c5b": {
+    "items": [
+     {
+      "text": "Fundación de Intercambio Internacional Fukuoka Yokatopia（福岡よかトピア国際交流財団）",
+      "url": "https://www.fcif.or.jp/"
+     }
+    ]
+   },
+   "0ce8ec": {
+    "text": "Fuentes de información de referencia"
+   },
+   "2687b6": {
+    "items": [
+     {
+      "text": "Universidad de Kyushu · Guía de vida / folleto (incluye リビングガイド)",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/life/pamphlet/"
+     },
+     {
+      "text": "Global Gateway（información sobre estatus de residencia, vivienda y vida diaria）",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student"
+     },
+     {
+      "text": "Agencia de Servicios de Inmigración",
+      "url": "http://www.moj.go.jp/isa/index.html"
+     },
+     {
+      "text": "MEXT · lista de sistemas disponibles para estudiantes internacionales",
+      "url": "https://www.mext.go.jp/a_menu/koutou/ryugaku/1405561_00006.htm"
+     },
+     {
+      "text": "Información de seguridad en el extranjero del Ministerio de Relaciones Exteriores",
+      "url": "https://www.anzen.mofa.go.jp/"
+     }
+    ]
+   },
+   "8dd5f7": {
+    "text": "Ayuda para asuntos de la vida diaria"
+   },
+   "70bd3f": {
+    "items": [
+     {
+      "text": "188 — consulta sobre la vida del consumidor (conflictos de consumo)"
+     },
+     {
+      "text": "#8008 o 0570-013-320 — línea de consulta para mujeres (violencia doméstica, etc.)"
+     },
+     {
+      "text": "189 — consulta sobre niños (maltrato, etc.)"
+     }
+    ]
+   },
+   "e1d701": {
+    "text": "Acoso y trato injusto"
+   },
+   "e1d702": {
+    "text": "Si sufres acoso, discriminación o un trato injusto, recuerda primero esto: no tienes que aguantarlo solo, existen ventanillas oficiales, y **consultar no te perjudicará**."
+   },
+   "e1d703": {
+    "items": [
+     {
+      "text": "No sabes si cuenta como acoso → también puedes consultar primero, no hace falta definirlo antes"
+     },
+     {
+      "text": "Quieres hablar en chino → la Oficina de Consulta Estudiantil (学生相談室) cuenta con consejeros de inglés y chino"
+     },
+     {
+      "text": "Te rechazan un alquiler, te niegan un servicio o recibes comentarios discriminatorios → consulta de derechos humanos en lenguas extranjeras del Ministerio de Justicia（外国語人権相談）0570-090911 (días hábiles 9:00–17:00)"
+     },
+     {
+      "text": "No te pagan el trabajo a tiempo parcial o te exigen trabajo ilegal → consulta laboral para extranjeros del Ministerio de Salud, Trabajo y Bienestar（外国人労働相談）(hay página en chino)"
+     }
+    ]
+   },
+   "e1d704": {
+    "text": "Las reglas de la ventanilla de acoso de Kyudai: confidencialidad estricta, **no recibirás un trato desfavorable por consultar**, no importa a qué departamento pertenezcas y puedes acudir a cualquier consejero; sin embargo, **las denuncias anónimas y los escritos no se tramitan** — para iniciar un procedimiento de investigación es obligatorio dar tu nombre."
+   },
+   "e1d705": {
+    "text": "Si no se llega a una solución, puedes solicitar una «reclamación formal (investigación)」（苦情申立）: el comité de acoso cuenta con una comisión de investigación que verifica los hechos y, si se determinan, la universidad aplica medidas disciplinarias, entre otras."
+   },
+   "e1d706": {
+    "items": [
+     {
+      "text": "Oficina de Promoción de Medidas contra el Acoso de la Universidad de Kyushu（ハラスメント対策推進室）(oficial · proceso de consulta)",
+      "url": "https://ohpc.kyushu-u.ac.jp/consultation.php"
+     },
+     {
+      "text": "Oficina de Consulta Estudiantil（学生相談室）(oficial · disponible en inglés y chino)",
+      "url": "https://chc.kyushu-u.ac.jp/organization/consultation/"
+     },
+     {
+      "text": "Ministerio de Justicia: ventanillas de consulta para extranjeros y línea multilingüe de derechos humanos (oficial)",
+      "url": "https://www.moj.go.jp/JINKEN/jinken04_00101.html"
+     },
+     {
+      "text": "Ministerio de Salud, Trabajo y Bienestar: consulta laboral para extranjeros（外国人労働相談）(oficial · en chino)",
+      "url": "https://www.startup-roudou.mhlw.go.jp/foreigner_chi.html"
+     },
+     {
+      "text": "Centro General de Consulta Laboral（総合労働相談コーナー）(Oficina de Trabajo de Fukuoka, oficial)",
+      "url": "https://jsite.mhlw.go.jp/fukuoka-roudoukyoku/roudoukyoku/gyoumu_naiyou/soumu/sodan/sodan01.html"
+     }
+    ]
+   },
+   "ab086d": {
+    "text": "Qué hacer de inmediato tras sufrir una estafa"
+   },
+   "8d68f1": {
+    "text": "Los estudiantes internacionales son un grupo muy expuesto a las estafas. Si ya hiciste una transferencia o estás siendo manipulado, actúa siguiendo este orden de prioridad; para una guía más completa sobre cómo identificar las estafas y prevenirlas en el día a día, consulta en la página de inicio «Lectura obligatoria para principiantes · Seguridad antirfraude para estudiar en Japón»."
+   },
+   "070eb4": {
+    "items": [
+     {
+      "title": "Contacta de inmediato con el banco",
+      "desc": "Comunícate con el banco donde está la cuenta desde la que enviaste el dinero y solicita detener el pago y bloquear la cuenta; el dinero puede ser retirado pocos minutos después de la transferencia, así que cuanto antes mejor"
+     },
+     {
+      "title": "Denuncia ante la policía local",
+      "desc": "En Japón marca 110 y conserva los historiales de chat, los registros de transferencia y los datos de la otra parte como pruebas"
+     },
+     {
+      "title": "Pide a tus familiares en China que denuncien",
+      "desc": "Que tus familiares llamen al 110 en China y pidan que les transfieran al Centro contra el Fraude Telefónico y en Internet"
+     },
+     {
+      "title": "Contacta con la embajada o los consulados de China",
+      "desc": "Consulta el teléfono de protección consular en la web oficial; la línea mundial de emergencia consular (24 h) del Ministerio de Relaciones Exteriores aparece arriba, en «Embajada y consulados (China)»"
+     }
+    ]
+   },
+   "682c0c": {
+    "text": "💡 Ser estafado no es tu culpa; las redes de estafa tienen métodos muy elaborados. Recuperar el dinero es poco probable, pero denunciar sigue teniendo valor; no guardes silencio por vergüenza."
+   },
+   "1a55d0": {
+    "text": "Riesgos de desastres en esta zona"
+   },
+   "a2c2ba": {
+    "text": "Fukuoka no es una zona de alta actividad sísmica, pero no está exenta de riesgos. La falla de Kego（警固断層帯）se extiende desde el mar al norte de la península de Itoshima hacia el sureste, atraviesa la zona urbana de Fukuoka y llega hasta las cercanías de Dazaifu; se evalúa que su segmento sureste puede provocar un terremoto de cierta magnitud, con una probabilidad relativamente alta entre las principales fallas de Japón. En su segmento noroeste, en el mar, ya se produjo un terremoto en 2005."
+   },
+   "d1f94f": {
+    "items": [
+     {
+      "text": "Inundaciones: los ríos Zuiryuji y Raizan pueden desbordarse con lluvias intensas; el campus está en una zona elevada, por lo que el riesgo es menor"
+     },
+     {
+      "text": "Escasez de agua: en el invierno de 2025–2026 hubo escasez de agua en toda la región de Fukuoka y en la zona de Itoshima se redujo temporalmente la presión del suministro"
+     },
+     {
+      "text": "Energía nuclear: la central nuclear de Genkai está a unos 40 km del campus Ito y los vientos predominantes soplan del sureste y del noroeste"
+     }
+    ]
+   },
+   "aa5140": {
+    "text": "La cuenta oficial de LINE de la ciudad de Fukuoka envía información de prevención de desastres; se recomienda añadirla al llegar — consulta la sección «Cuenta oficial de LINE de la ciudad de Fukuoka» más arriba en este artículo."
+   },
+   "030d6c": {
+    "items": [
+     {
+      "text": "Sede de Promoción de la Investigación Sísmica（地震調査研究推進本部）· falla de Kego",
+      "url": "https://www.jishin.go.jp/regional_seismicity/rs_katsudanso/f108_kego/"
+     },
+     {
+      "text": "Agencia Meteorológica de Japón",
+      "url": "https://www.jma.go.jp/bosai/"
+     }
+    ]
+   },
+   "8903c1": {
+    "text": "Parte del contenido de este artículo se ha elaborado a partir de «新伊都国風土記» (autores: Hato_Tsubame y CantonSimon), incluido con autorización de los autores. Los precios, los horarios y los procedimientos mencionados cambian con el tiempo; para asuntos importantes, consulta siempre las webs oficiales correspondientes."
+   },
+   "04e631": {
+    "items": [
+     {
+      "text": "kokusaihiroba.or.jp",
+      "url": "https://www.kokusaihiroba.or.jp/"
      }
     ]
    }
@@ -6152,6 +6670,275 @@ window.ARTICLES_BODY_I18N = {
      }
     ]
    }
+  },
+  "es": {
+   "222467": {
+    "text": "Cooperativa（生協）: formas de pago en el campus"
+   },
+   "509375": {
+    "text": "La basura voluminosa（粗大ゴミ）(muebles, electrodomésticos, etc.) debe reservarse por teléfono para su recogida y tiene un costo."
+   },
+   "9d0f73": {
+    "text": "Separación de basura, clima, buzones de correo, cafeterías y cooperativa universitaria（生協）: ninguno de estos temas se enseña en un curso, pero se usan a diario. Consúltalos cuando los necesites."
+   },
+   "c6f3dd": {
+    "text": "Clima en Fukuoka"
+   },
+   "564f6c": {
+    "text": "Los veranos en Fukuoka son calurosos, así que hay que protegerse del calor: lleva agua al salir y usa bien el aire acondicionado y el ventilador. En verano y otoño es temporada de tifones; presta atención a los avisos de la universidad y de la agencia meteorológica."
+   },
+   "81acda": {
+    "text": "Separación de basura"
+   },
+   "aeecc8": {
+    "text": "La basura doméstica de la ciudad de Fukuoka se recoge periódicamente en tres categorías: basura combustible（燃えるごみ）, basura no combustible（燃えないごみ） y botellas vacías y botellas de PET（空きびん・ペットボトル）. La basura voluminosa（粗大ゴミ） requiere una reserva aparte."
+   },
+   "0efd50": {
+    "text": "**Es obligatorio usar las bolsas designadas**（se venden en las tiendas de conveniencia y supermercados; son distintas según la categoría y llevan impresiones diferentes）. La basura combustible se recoge 2 veces por semana y el resto, una vez al mes; en Fukuoka la recogida suele ser nocturna, y normalmente se saca entre la puesta de sol y las 24:00 del día anterior a la recogida."
+   },
+   "48309f": {
+    "text": "El sitio web oficial de la ciudad de Fukuoka tiene un buscador de clasificación de basura en chino: introduce el nombre del artículo y verás a qué categoría pertenece:"
+   },
+   "caad01": {
+    "items": [
+     {
+      "text": "Buscador de clasificación de basura de la ciudad de Fukuoka (en chino)"
+     }
+    ]
+   },
+   "52ee2d": {
+    "text": "Cuenta oficial de LINE de la ciudad de Fukuoka"
+   },
+   "3f8bd7": {
+    "text": "La cuenta oficial de LINE de la ciudad de Fukuoka（@fukuokacity）envía avisos de prevención de desastres（防災）, días de recogida de basura, crianza, prevención de delitos（防犯） y eventos; también permite reservar vacunas y consultar la clasificación de basura por LINE. Puedes seguirla y configurar las categorías que necesites."
+   },
+   "2defd6": {
+    "text": "Círculos y clubes（サークル・部活動）"
+   },
+   "958a05": {
+    "text": "Unirse a un círculo（サークル）es una de las formas de conocer estudiantes japoneses e integrarse en el campus. En la Universidad de Kyushu hay círculos de todo tipo, deportivos y culturales."
+   },
+   "aff452": {
+    "text": "· (en japonés)"
+   },
+   "0bb9f5": {
+    "items": [
+     {
+      "text": "九州大学課外活動 (lista de círculos)"
+     }
+    ]
+   },
+   "a71552": {
+    "text": "· Los estudiantes internacionales pueden seguir a KUFSA（九州大学留学生会）y a KUIFA（九州大学国際親善会）; ambas organizan actividades de todo tipo con frecuencia."
+   },
+   "a7df77": {
+    "text": "Espacio de intercambio multilingüe（EZぷらっと）"
+   },
+   "cadf66": {
+    "text": "En la planta 2 del edificio Este 1（イースト1号館）hay un espacio multilingüe de aprendizaje, EZ ぷらっと, abierto gratuitamente a todos los estudiantes; ofrece apoyo para el aprendizaje de idiomas (libros, DVD, materiales en línea) y también se puede recibir asesoría sobre estudios en el extranjero y participar en actividades relacionadas."
+   },
+   "123b43": {
+    "text": "Aviso de averías en el dormitorio (fugas de agua/moho)"
+   },
+   "d7dc2a": {
+    "text": "Proceso: saca una foto → avisa al administrador del dormitorio → indica el número de habitación. También puede transmitirlo un estudiante residente; luego el administrador se pondrá en contacto contigo. En Fukuoka hay mucha humedad y el moho es frecuente; como medida de emergencia, puedes aislar la zona con cinta adhesiva."
+   },
+   "4f9189": {
+    "text": "Coffee Hour es una reunión que se celebra semanalmente en cada dormitorio; los participantes vienen de distintos países y culturas, y es una oportunidad para conocer gente nueva."
+   },
+   "3b5a1b": {
+    "text": "Vida en el campus: cafeterías, biblioteca y actividades"
+   },
+   "7a6ada": {
+    "text": "El menú de las cafeterías cambia a diario; los horarios y si abren los domingos se consultan en el sitio web de la cooperativa（生協）. La información de apertura de la biblioteca está en el sitio oficial, y durante la época de exámenes el horario puede ampliarse."
+   },
+   "dca705": {
+    "items": [
+     {
+      "text": "Información de apertura de la biblioteca"
+     },
+     {
+      "text": "Cafeterías de la cooperativa (horarios/domingos)"
+     },
+     {
+      "text": "Menú mensual de las cafeterías de la cooperativa"
+     }
+    ]
+   },
+   "2b45db": {
+    "text": "Actividades en el campus y la ciudad"
+   },
+   "ba080f": {
+    "items": [
+     {
+      "text": "九大祭 (actividades del campus)"
+     },
+     {
+      "text": "博多どんたく (gran festival de la ciudad de Fukuoka)"
+     }
+    ]
+   },
+   "0120b0": {
+    "text": "La 九州大学生活協同組合（cooperativa universitaria, 生協）opera la mayoría de las cafeterías y tiendas del campus, y también se dedica a la intermediación inmobiliaria y a los seguros. No es un órgano oficial de la universidad, sino una cooperativa independiente — por eso, para usar sus servicios, primero hay que hacerse miembro."
+   },
+   "a22a49": {
+    "text": "El trámite de afiliación es algo engorroso; se recomienda hacerlo directamente en una tienda física de la cooperativa. Una vez afiliado, se puede pagar con la app de la cooperativa, y hay dos formas."
+   },
+   "a728d5": {
+    "headers": [
+     "Forma",
+     "Cómo se usa",
+     "Reembolso",
+     "Qué se puede comprar"
+    ],
+    "rows": [
+     [
+      "Dinero electrónico de la cooperativa（生協電子マネー）",
+      "Se recarga y se usa al momento",
+      "1% en puntos",
+      "Cualquier producto"
+     ],
+     [
+      "Meal Prepaid（ミールプリペ）",
+      "Recarga única de gran importe",
+      "Aprox. 2%～5%, aumenta según el tramo",
+      "Solo alimentos de cafeterías y tiendas"
+     ]
+    ]
+   },
+   "faabed": {
+    "text": "Los tramos de reembolso de Meal Prepaid（ミールプリペ）se ajustaron en 2026 y las tasas de los tramos bajos bajaron notablemente: recargar poco ya no resulta rentable. Antes de recargar, consulta la última tabla oficial de tramos y decide el importe; no reutilices las cifras de guías antiguas. Los importes de recarga y reembolso de cada tramo vigente están en el sitio oficial: https://www.coop.kyushu-u.ac.jp/e-money/index.html"
+   },
+   "216ba0": {
+    "text": "Cafeterías: ubicación y formas de pago"
+   },
+   "b871d7": {
+    "items": [
+     {
+      "text": "Cafeterías de la cooperativa（生協）: horarios, menú del día y menú mensual están en el sitio web de la cooperativa; son la opción principal del campus"
+     },
+     {
+      "text": "GARDEN KITCHEN (entrada de la Facultad de Ciencias, W1): no es de la cooperativa; se puede pagar con tarjeta IC y Alipay（支付宝）"
+     },
+     {
+      "text": "En las cafeterías QASIS y ビッグどら hay un puesto de comida india en cada una; el de QASIS acepta WeChat Pay（微信支付）"
+     }
+    ]
+   },
+   "f308d3": {
+    "items": [
+     {
+      "text": "Guía de cafeterías de la cooperativa de la Universidad de Kyushu（九大生協・食堂部案内）"
+     }
+    ]
+   },
+   "281f66": {
+    "text": "Trámites según el lugar de residencia"
+   },
+   "42f05c": {
+    "text": "La península de Itoshima（糸島半島）está dividida entre el distrito Nishi de la ciudad de Fukuoka y la ciudad de Itoshima. La universidad está en el distrito Nishi, y todos los dormitorios, salvo SETTLE International, también están en ese distrito. Pero las zonas residenciales cercanas abarcan las dos ciudades, y eso determina dónde tienes que hacer cada trámite."
+   },
+   "39e635": {
+    "headers": [
+     "Dónde vives",
+     "A qué oficina municipal（役所）ir",
+     "Estación más cercana"
+    ],
+    "rows": [
+     [
+      "Distrito Nishi de Fukuoka（福岡市西区）",
+      "Oficina delegada Oeste del Ayuntamiento de Fukuoka（福岡市役所西部出張所）",
+      "Estación Kyudai-Gakkentoshi（九大学研都市駅）"
+     ],
+     [
+      "Ciudad de Itoshima (zona de Takata, de SETTLE, etc.)",
+      "Ayuntamiento de Itoshima（糸島市役所）",
+      "Estación JR Chikuzen-Maebaru（JR 筑前前原駅）"
+     ]
+    ]
+   },
+   "26be59": {
+    "text": "**Las bolsas de basura de las dos ciudades no son compatibles.** Antes de comprarlas, confirma a cuál de los dos lados perteneces; si compras la equivocada, no podrás sacar la basura."
+   },
+   "5ce69e": {
+    "text": "Clima: ventoso, con inviernos suaves"
+   },
+   "445f0d": {
+    "text": "Fukuoka combina rasgos del clima del lado del mar de Japón y del lado del Pacífico. En invierno recibe de frente el aire frío del noroeste: hay mucho viento, pero la temperatura casi siempre se mantiene por encima de 0 grados y llueve poco — como la franja de mar entre Fukuoka y la península de Corea es muy estrecha, no se acumula suficiente vapor de agua, así que rara vez hay nevadas como las de la región de Hokuriku, pero los vientos fuertes son frecuentes y las ráfagas máximas pueden llegar a la fuerza 8."
+   },
+   "cc62d7": {
+    "text": "Junio y julio son la temporada de lluvias（梅雨）; después domina el anticiclón subtropical, con calor húmedo, cielos despejados y poca lluvia, pero la energía acumulada suele provocar tormentas convectivas intensas. En otoño también hay un periodo de lluvias, aunque menos marcado que la temporada de lluvias. En primavera y otoño las temperaturas son suaves, y el otoño trae muchos días despejados, ideales para salir."
+   },
+   "0aeb5b": {
+    "items": [
+     {
+      "text": "Pronóstico, viento y mapas de radar: windy (tiene app para móvil)"
+     },
+     {
+      "text": "Condiciones actuales y pronóstico a largo plazo: Agencia Meteorológica de Japón（気象庁）"
+     },
+     {
+      "text": "Datos en tiempo real: tenki.jp"
+     },
+     {
+      "text": "Trayectorias de tifones en temporada: Tropical Tidbits (aunque los tifones rara vez pasan directamente por Fukuoka)"
+     }
+    ]
+   },
+   "48c15c": {
+    "text": "Las nubes de lluvia se mueven rápido por esta zona; echar un vistazo al mapa de radar antes de salir da un resultado más fiable que consultar el pronóstico por horas."
+   },
+   "20bca1": {
+    "text": "Ubicación de los buzones de correo"
+   },
+   "9add58": {
+    "items": [
+     {
+      "text": "Mapa de buzones de correo de Japón (postmap)"
+     }
+    ]
+   },
+   "df5369": {
+    "text": "Parte del contenido de esta página procede de《新伊都国風土記》(autores: Hato_Tsubame y CantonSimon), incluido con autorización de los autores. Los precios, horarios y trámites mencionados cambian con el tiempo; para asuntos importantes, consulta los sitios web oficiales."
+   },
+   "e1e701": {
+    "text": "Qué hacer si pierdes algo"
+   },
+   "e1e702": {
+    "text": "Las ventanillas de gestión son distintas dentro y fuera del campus; primero identifica dónde lo perdiste."
+   },
+   "e1e703": {
+    "items": [
+     {
+      "text": "Dentro del campus (zona central de Ito): oficina de apoyo al estudiante（学生支援課）, 092-802-5915; la universidad tiene un **formulario de registro de objetos perdidos**"
+     },
+     {
+      "text": "Dentro del campus (zonas Este/Oeste de Ito): ventanilla académica de cada zona; Este: 092-802-6361"
+     },
+     {
+      "text": "Oeste: Ciencias: 092-802-4014 / Ingeniería: 092-802-2736 / Agricultura: 092-802-4508"
+     },
+     {
+      "text": "Si hay un altercado en el campus y necesitas a la policía: **oficina del oficial de seguridad（警務員室）del campus Ito, 092-802-2305**"
+     },
+     {
+      "text": "La comisaría（交番）más cercana al campus: **comisaría de Susenji, 092-806-1110**"
+     }
+    ]
+   },
+   "e1e704": {
+    "text": "⚠️ En una emergencia no llames primero a la universidad: marca directamente **110** (policía) o **119** (emergencias médicas). Los números del campus sirven para ayudar después, no son un canal de alerta."
+   },
+   "e1e705": {
+    "items": [
+     {
+      "text": "Ventanilla de consultas para estudiantes（学生何でも相談窓口）(oficial: incluye el formulario de objetos perdidos y las ventanillas de cada campus)"
+     },
+     {
+      "text": "Contactos de emergencia de la Universidad de Kyushu（緊急連絡先）(oficial: oficina del oficial de seguridad, comisarías y líneas de consulta)"
+     }
+    ]
+   }
   }
  },
  "guide-medical": {
@@ -6892,6 +7679,243 @@ window.ARTICLES_BODY_I18N = {
      }
     ]
    }
+  },
+  "es": {
+   "543059": {
+    "text": "Centro de salud del campus"
+   },
+   "50e4ae": {
+    "text": "Antes de acudir al médico en Japón conviene confirmar tres cosas: si ya estás afiliado al seguro nacional de salud, a qué hospital ir y si el centro atiende en chino. Este artículo conecta en una sola línea el seguro, 学研災, el ESP y la línea de consulta médica en chino."
+   },
+   "a955e0": {
+    "text": "Seguro nacional de salud"
+   },
+   "6d0c07": {
+    "text": "Tramita el seguro nacional de salud lo antes posible después de llegar a Japón (para el orden de los trámites, consulta «Preparación para la entrada al país · Orden de los trámites tras la llegada»). Una vez afiliado, tu parte del coste de la consulta es del 30 %."
+   },
+   "40a340": {
+    "text": "学研災 / 学研賠 (todos los estudiantes deben afiliarse, en principio)"
+   },
+   "1de97f": {
+    "text": "学研災 (学生教育研究災害傷害保険) es el seguro de accidentes al que Kyudai exige, en principio, que se afilie todo el alumnado; la prima se paga de una sola vez en función de los años previstos de estudio. El reparto de funciones con el seguro nacional de salud es el siguiente: el seguro nacional cubre los gastos médicos de una consulta, mientras que 学研災 cubre el hecho mismo de sufrir una lesión."
+   },
+   "dd53eb": {
+    "headers": [
+     "Destinatarios",
+     "Prima de 1 año"
+    ],
+    "rows": [
+     [
+      "Estudiantes de grado (general)",
+      "1,000 円"
+     ],
+     [
+      "Facultades de Medicina, Odontología y Farmacia",
+      "1,020 円"
+     ],
+     [
+      "Programas de posgrado",
+      "450〜1,000 円"
+     ],
+     [
+      "学研賠 curso A (general)",
+      "340 円"
+     ],
+     [
+      "学研賠 curso C (área médica)",
+      "500 円"
+     ],
+     [
+      "学研賠 curso L (área de Derecho)",
+      "1,640 円"
+     ]
+    ]
+   },
+   "5c9577": {
+    "items": [
+     {
+      "text": "Cobertura: clases regulares, actividades extracurriculares reconocidas por la universidad, eventos escolares, el tiempo de permanencia en el centro y el trayecto hasta él"
+     },
+     {
+      "text": "Ejemplos de prestación: hospitalización 4,000 円 al día (máximo 180 días), tratamiento 3,000 ～ 30,000 円"
+     },
+     {
+      "text": "El límite de indemnización de 学研賠 (que incluye seguro de responsabilidad civil) es de 1 億円 por accidente"
+     }
+    ]
+   },
+   "c636c2": {
+    "text": "学研災 [no cubre enfermedades]: cuando enfermas y acudes al médico, lo que se aplica es el seguro nacional de salud; no cuentes con este seguro. Además, para contratar 学研賠 hay que estar afiliado primero a 学研災; no se pueden contratar por separado."
+   },
+   "07daed": {
+    "items": [
+     {
+      "text": "Universidad de Kyushu · Seguro estudiantil (学研災 / 学研賠)"
+     }
+    ]
+   },
+   "ec29c8": {
+    "text": "ESP (servicio de apoyo urgente para estudiantes internacionales)"
+   },
+   "c05384": {
+    "text": "El ESP (Emergency Secure Plan) es un servicio de apoyo urgente (no un seguro) al que deben suscribirse los estudiantes internacionales de la Universidad de Kyushu. Ofrece principalmente:"
+   },
+   "ebdd5e": {
+    "items": [
+     {
+      "text": "Interpretación telefónica a tres bandas durante una consulta médica (japonés, inglés, chino, etc.)"
+     },
+     {
+      "text": "Orientación hacia centros médicos adecuados"
+     },
+     {
+      "text": "Contacto con los familiares del país de origen en caso de urgencia"
+     }
+    ]
+   },
+   "77eb90": {
+    "text": "**La cuota anual es de unos 1,650 円** (incluye una cobertura especial de seguro de accidentes en el trayecto al centro de estudios; el importe vigente es el de la guía del año correspondiente). Tras registrarte en línea, se paga con tarjeta de crédito o en una tienda de conveniencia; para el procedimiento de solicitud, sigue las indicaciones que Coop / ISC envían por correo electrónico."
+   },
+   "f5cfed": {
+    "items": [
+     {
+      "text": "Presentación de seguros como el ESP y 学研災 (Kyudai)"
+     },
+     {
+      "text": "Global Gateway · Información para estudiantes internacionales"
+     }
+    ]
+   },
+   "4a1f02": {
+    "text": "Línea de consulta médica multilingüe"
+   },
+   "2880fb": {
+    "text": "El ふくおか国際医療サポートセンター (Centro de Apoyo Médico Internacional de Fukuoka, antes 福岡アジア医療サポートセンター) ofrece interpretación telefónica multilingüe, 24 horas al día los 365 días del año y sin coste para quien llama:"
+   },
+   "e120a6": {
+    "items": [
+     {
+      "text": "092-286-9595 (unos 19 idiomas: inglés, chino, coreano, tailandés, vietnamita, indonesio, etc.)"
+     },
+     {
+      "text": "También puedes buscar centros médicos por idioma en ふくおか医療情報ネット"
+     }
+    ]
+   },
+   "a14f90": {
+    "items": [
+     {
+      "text": "Centro de Apoyo Médico para Asia de Fukuoka (福岡アジア医療サポートセンター)"
+     }
+    ]
+   },
+   "e1a701": {
+    "text": "Enfermedad y consulta médica"
+   },
+   "e1a702": {
+    "text": "En Japón el proceso es el siguiente: primero se valora la urgencia y después se decide adónde ir. Si la urgencia es alta, llama directamente a la ambulancia; si no sabes si necesitas ir al hospital, puedes consultar antes por teléfono. Ambas vías funcionan 24 horas."
+   },
+   "e1a703": {
+    "items": [
+     {
+      "text": "Urgencia alta (dolor de cabeza repentino e intenso, dificultad para respirar, pérdida de consciencia) → llama directamente al 119"
+     },
+     {
+      "text": "Si no sabes si necesitas ir al hospital → llama al #7119 (24 horas, gratuito)"
+     },
+     {
+      "text": "Si no consigues comunicar con el #7119 (teléfonos IP, etc.) → 092-471-0099"
+     },
+     {
+      "text": "Si buscas un hospital que pueda atenderte → llama también al #7119 y elige la opción 1 siguiendo las indicaciones de voz"
+     }
+    ]
+   },
+   "e1a704": {
+    "items": [
+     {
+      "text": "Ventanilla de consulta médica telefónica de urgencia de la prefectura de Fukuoka (oficial)"
+     }
+    ]
+   },
+   "e1a705": {
+    "text": "En el campus: 健康相談室 (consultorio de salud, gratuito)"
+   },
+   "e1a706": {
+    "text": "En el 健康相談室 de Kyudai atienden médicos internistas, y se ofrecen consultas generales de salud y tratamiento. Ni la consulta ni el tratamiento **generan coste alguno**, y el contenido de la visita **no se comunica a terceros, incluido tu tutor**. Cuando es necesario, el médico te deriva a un hospital especializado de fuera del campus."
+   },
+   "e1a707": {
+    "items": [
+     {
+      "text": "Ito · Center Zone: 092-802-5881"
+     },
+     {
+      "text": "Ito · West Zone: 092-802-3297"
+     },
+     {
+      "text": "Zona del hospital universitario: 092-642-6889"
+     },
+     {
+      "text": "Ohashi: 092-553-4581　／　Chikushi: 092-583-8431"
+     }
+    ]
+   },
+   "e1a708": {
+    "text": "Los días de consulta varían según la zona; confírmalo por teléfono antes de ir."
+   },
+   "e1a709": {
+    "items": [
+     {
+      "text": "Centro de Apoyo a la Salud y a la Vida en el Campus de la Universidad de Kyushu (oficial)"
+     }
+    ]
+   },
+   "e1a70a": {
+    "text": "Noche y días festivos"
+   },
+   "e1a70b": {
+    "text": "El Centro Municipal de Atención de Urgencias de Fukuoka (福岡市立急患診療センター) se ocupa de las enfermedades repentinas durante la noche y en los días festivos, y solo realiza tratamiento de urgencia. La institución pide expresamente que se eviten las visitas no urgentes y que se acuda primero al médico habitual."
+   },
+   "e1a70c": {
+    "items": [
+     {
+      "text": "Dirección: Sawara-ku, Momochihama 1-6-9"
+     },
+     {
+      "text": "Teléfono: 092-847-1099"
+     }
+    ]
+   },
+   "e1a70d": {
+    "items": [
+     {
+      "text": "Centro de Atención de Urgencias del Colegio Médico de la ciudad de Fukuoka (oficial)"
+     }
+    ]
+   },
+   "bb0130": {
+    "items": [
+     {
+      "text": "Consulta en el centro de salud"
+     }
+    ]
+   },
+   "1c9357": {
+    "text": "Apoyo médico y de vida para personas extranjeras en la ciudad de Fukuoka"
+   },
+   "eea36a": {
+    "text": "La ciudad de Fukuoka dispone de una ventanilla de consulta general para personas extranjeras; si encuentras barreras de idioma al acudir al médico, puedes pedir ayuda por teléfono primero:"
+   },
+   "bbd53a": {
+    "text": "· Centro de Apoyo y Consulta General para Personas Extranjeras de la ciudad de Fukuoka: 0120-66-1799 (gratuito) / 092-262-1799, horario de atención 8:45~18:00 en días laborables, varios idiomas"
+   },
+   "6fa2b0": {
+    "items": [
+     {
+      "text": "Portal multilingüe de la ciudad de Fukuoka (chino simplificado)"
+     }
+    ]
+   }
   }
  },
  "guide-parttime": {
@@ -7064,6 +8088,64 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "text": "バイトル（Baitoru）",
+      "url": "https://baitoru.com/"
+     }
+    ]
+   }
+  },
+  "es": {
+   "1947e3": {
+    "text": "Antes de trabajar a tiempo parcial hay que completar dos trámites: el **permiso de actividad fuera del estatus** (no se puede trabajar sin haberlo obtenido) y los impuestos y la pensión. Este artículo explica el límite de horas de trabajo, los canales para buscar empleo y cómo actuar ante el impago del salario."
+   },
+   "5e12c4": {
+    "text": "Permiso de actividad fuera del estatus y límite de horas de trabajo"
+   },
+   "f0b619": {
+    "text": "Para trabajar a tiempo parcial en Japón con un visado de estudiante, **primero hay que obtener el «permiso de actividad fuera del estatus»**. Este permiso puede solicitarse en el aeropuerto al entrar al país, o más tarde en la Agencia de Servicios de Inmigración regional. Trabajar sin haberlo obtenido es ilegal y puede afectar al visado. Consulta el apartado [Trámites de residencia]（在留手続き）."
+   },
+   "9071cc": {
+    "text": "Durante el período lectivo, el límite es de 28 horas por semana. Durante las vacaciones largas (vacaciones de primavera, de verano y de invierno), el límite es de 8 horas por día y 40 horas por semana. Si se determina que has trabajado por encima del límite de forma ilegal, puede afectar a la renovación del visado; respeta estrictamente las normas."
+   },
+   "105e04": {
+    "text": "Salario por hora y canales de búsqueda de empleo"
+   },
+   "77b055": {
+    "text": "El salario mínimo de la prefectura de Fukuoka es **1,057 円/hora**（hasta el 2026 年 10 月 3 日）, y desde el 2026 年 10 月 4 日 sube a **1,114 円/hora**. El salario real varía según el sector: en las tiendas de conveniencia y en la restauración suele ser más bajo; en las clases particulares y la traducción, más alto. Las condiciones concretas dependen de cada empleador."
+   },
+   "493aef": {
+    "text": "Canales principales: el tablón de anuncios de la cooperativa de la universidad（生協）o de la oficina de asuntos internacionales, sitios de búsqueda de empleo como Townwork（タウンワーク）o Baitoru（バイトル）, y recomendaciones de estudiantes de cursos superiores o de personas de tu laboratorio de investigación. No hay que buscar trabajo con urgencia antes de entrar al país; también da tiempo de sobra después de llegar, una vez tramitada la tarjeta de residencia y la cuenta bancaria."
+   },
+   "1ae89a": {
+    "text": "Precauciones y portales oficiales"
+   },
+   "b2625a": {
+    "items": [
+     {
+      "text": "Obtén primero el permiso de actividad fuera del estatus y solo después empieza a trabajar."
+     },
+     {
+      "text": "Respeta estrictamente el límite de 28 horas por semana y lleva tu propio registro de turnos para no superarlo."
+     },
+     {
+      "text": "Declara los ingresos del trabajo a tiempo parcial según la normativa, para evitar conflictos con la solicitud de becas o con la declaración de impuestos."
+     },
+     {
+      "text": "Desconfía de las agencias que piden un depósito o retienen documentos de identidad: es una señal de alerta."
+     }
+    ]
+   },
+   "c5ccc9": {
+    "items": [
+     {
+      "text": "Agencia de Servicios de Inmigración — permiso de actividad fuera del estatus",
+      "url": "https://www.isa.go.jp/"
+     },
+     {
+      "text": "Townwork（タウンワーク）",
+      "url": "https://townwork.net/"
+     },
+     {
+      "text": "Baitoru（バイトル）",
       "url": "https://baitoru.com/"
      }
     ]
@@ -7582,6 +8664,177 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://www.softbank.jp/internet/air/"
      }
     ]
+   }
+  },
+  "es": {
+   "939835": {
+    "text": "Dos requisitos previos antes de contratar la tarjeta"
+   },
+   "a3ea1a": {
+    "text": "Al llegar a Japón, lo primero que hay que resolver es la comunicación. **Se recomienda preparar antes una tarjeta de datos temporal como transición** y elegir el plan definitivo una vez en el país. Este artículo compara las tres grandes operadoras y las SIM de bajo coste（格安 SIM）, y explica qué tener en cuenta al cancelar el contrato."
+   },
+   "72f94d": {
+    "text": "Antes de venir: tarjeta de datos temporal (recomendado)"
+   },
+   "69d3e3": {
+    "text": "Se recomienda preparar antes de venir a Japón una tarjeta de datos de uso a corto plazo (con 1 semana suele bastar; por precaución también se puede solicitar una validez más larga) y usarla al llegar para la navegación, los contactos y los trámites, de modo que la transición sea más tranquila."
+   },
+   "58e988": {
+    "text": "Puedes optar por CMlink de China Mobile o comprar en una plataforma de comercio electrónico una tarjeta de datos para viajes (SIM turística); el trámite es sencillo y se usa al instante."
+   },
+   "17c7e7": {
+    "text": "La tarjeta temporal solo sirve como transición al llegar; si vas a vivir en Japón a largo plazo, tramita cuanto antes una SIM de bajo coste japonesa (véase «Elección de tarjeta SIM» más abajo)."
+   },
+   "57ee3f": {
+    "text": "Elección de tarjeta SIM"
+   },
+   "a65f78": {
+    "text": "La cuota mensual de las marcas principales de las tres grandes operadoras japonesas (docomo / au / SoftBank) suele ser cara; para los estudiantes es más recomendable elegir las submarcas de esas operadoras, como Y!mobile, de SoftBank, o UQ mobile, de au, con tarifas más bajas y una red relativamente estable. Además, Rakuten Mobile también es una de las más elegidas entre los estudiantes internacionales por sus tarifas económicas."
+   },
+   "930aa8": {
+    "text": "Si eliges según los datos mensuales, las SIM de bajo coste como povo y ahamo tienen una buena relación calidad-precio: povo permite comprar paquetes de datos según necesidad y ahamo incluye más datos y es compatible con 5G. Según la experiencia previa, povo y ahamo funcionan mejor en los alrededores del campus Ito, mientras que Rakuten Mobile y SoftBank tienen una señal regular en las inmediaciones del campus Ito."
+   },
+   "95aeea": {
+    "text": "En el caso de SIM orientadas a estudiantes internacionales como GTN o Sakura, según la experiencia previa los precios son más bien altos y las valoraciones de la señal, peores; conviene comparar antes de contratar. También puedes informarte sobre Jio, Mobal y otras."
+   },
+   "b88191": {
+    "text": "Solicitud en línea y atención al cliente multilingüe"
+   },
+   "1238cc": {
+    "text": "Da prioridad a las SIM de bajo coste que admitan solicitud en línea y no exijan tarjeta de crédito (como IIJmio, LINEMO, etc.); por lo general la solicitud y la activación se completan por internet."
+   },
+   "bb18de": {
+    "text": "Nota: el antiguo «LINE MOBILE» dejó de aceptar nuevas contrataciones en 2021 y cesó el servicio en 2023; su sucesor es LINEMO, del grupo SoftBank, así que ahora hay que fijarse en LINEMO."
+   },
+   "a79fe6": {
+    "text": "Si necesitas consultar por teléfono, las siguientes operadoras principales ofrecen atención al cliente multilingüe:"
+   },
+   "7cc68f": {
+    "items": [
+     {
+      "text": "docomo: 0120-005-250 (inglés, chino, portugués, español), horario de atención: días laborables 9:00~20:00"
+     },
+     {
+      "text": "au: 0120-959-472 (inglés, coreano, chino, portugués)"
+     },
+     {
+      "text": "SoftBank: 0800-919-0157; tras conectar, marca 8→9→9 para pasar al inglés; atención en inglés 10:00~19:00"
+     }
+    ]
+   },
+   "d3cc3b": {
+    "text": "La eSIM **puede no funcionar correctamente por incompatibilidad con el modelo de teléfono**; en la primera contratación es preferible elegir una SIM física o llevar además una tarjeta física por si acaso."
+   },
+   "e1b701": {
+    "text": "El internet de casa"
+   },
+   "e1b702": {
+    "text": "El internet de los dormitorios y el de una vivienda alquilada por tu cuenta son muy distintos: el dormitorio no incluye internet y hay que contratarlo por tu cuenta, mientras que en una vivienda alquilada primero hay que confirmar si se puede realizar la obra de instalación."
+   },
+   "e1b703": {
+    "text": "Dormitorio: el internet lo contratas tú"
+   },
+   "e1b704": {
+    "text": "Los dormitorios de estudiantes (incluido 伊都協奏館) **no incluyen internet**. Para conectarte hay que contratar con la operadora designada; el precio de referencia publicado por la universidad es de **unos 2,000 円 al mes**."
+   },
+   "e1b705": {
+    "items": [
+     {
+      "text": "伊都協奏館, oficina del administrador: 092-806-5779"
+     },
+     {
+      "text": "ドミトリー 1／2／3: el teléfono de la oficina del administrador aparece en la página oficial indicada más abajo"
+     }
+    ]
+   },
+   "e1b706": {
+    "items": [
+     {
+      "text": "Universidad de Kyushu, dormitorios de estudiantes (oficial · costes y teléfono de la oficina del administrador)",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/life/dormitory"
+     }
+    ]
+   },
+   "e1b707": {
+    "text": "Vivienda alquilada por tu cuenta: fibra óptica o sin obra"
+   },
+   "e1b708": {
+    "items": [
+     {
+      "text": "Fibra óptica: requiere dos obras (interior + exterior), necesita el consentimiento del propietario o de la empresa administradora, y la activación suele tardar varias semanas"
+     },
+     {
+      "text": "Sin obra: ホームルーター（router doméstico）o モバイル Wi-Fi（Wi-Fi móvil）; se usa solo con enchufarlo y es adecuado para estancias cortas o viviendas donde la obra resulta complicada"
+     }
+    ]
+   },
+   "e1b709": {
+    "text": "En la obra de la fibra óptica **es obligatoria tu presencia** y **hay que obtener primero el consentimiento del propietario o de la empresa administradora**. Empezar la obra sin avisar constituye un incumplimiento del contrato, así que este paso no se puede omitir."
+   },
+   "e1b70a": {
+    "items": [
+     {
+      "text": "NURO 光: explicación del consentimiento de obra al propietario y a la empresa administradora (oficial)",
+      "url": "https://support.nuro.jp/faqsupport/nuro/web/knowledge10994.html"
+     },
+     {
+      "text": "SoftBank Air (oficial · sin obra)",
+      "url": "https://www.softbank.jp/internet/air/"
+     }
+    ]
+   },
+   "a747f8": {
+    "text": "Red del campus"
+   },
+   "7bdf67": {
+    "text": "Una vez tengas tu cuenta de la universidad podrás conectarte al WiFi del campus; eduroam es un servicio de WiFi entre universidades y requiere un registro aparte."
+   },
+   "72a8d0": {
+    "text": "La cuenta de acceso al WiFi del campus es tu propio SSOKID@Kitnet, y la contraseña es la que estableciste al activar el SSOKID (la misma que la de Campusmate)."
+   },
+   "0fb853": {
+    "items": [
+     {
+      "text": "Manual de conexión a la red del campus de Kyushu (KiteNet)",
+      "url": "https://www.nc.kyushu-u.ac.jp/en/kitenet-en/#manual"
+     },
+     {
+      "text": "Registro en eduroam",
+      "url": "https://www.nc.kyushu-u.ac.jp/net/eduroam/"
+     }
+    ]
+   },
+   "93c21c": {
+    "text": "Baja / portabilidad"
+   },
+   "5b8387": {
+    "items": [
+     {
+      "text": "Cómo resolver cuando povo no permite la verificación de edad de LINE",
+      "url": "https://archive.iii.kyushu-u.ac.jp/public/chZBQvKJXFG-062U_y4xquQ7cH_2rixMydT2JqEsYaBK"
+     },
+     {
+      "text": "Proceso de baja de un número de SoftBank",
+      "url": "https://www.softbank.jp/support/faq/view/10062"
+     },
+     {
+      "text": "Trámite para pasar de au a povo",
+      "url": "https://povo.jp/procedure/au/"
+     }
+    ]
+   },
+   "3604eb": {
+    "items": [
+     {
+      "text": "Tener ya completado el registro de residencia: el reverso de la tarjeta de residencia（在留カード）debe mostrar la dirección"
+     },
+     {
+      "text": "Tener una tarjeta de crédito con la que domiciliar el pago, o una cuenta bancaria japonesa ya abierta"
+     }
+    ]
+   },
+   "7e41fb": {
+    "text": "Estos dos puntos hacen imposible que contratar la tarjeta sea cosa del primer día de llegada. El orden habitual es: registro de residencia → contratar la tarjeta / abrir la cuenta → el resto de trámites. Y como abrir la cuenta exige a su vez un número de teléfono, si de verdad se bloquean mutuamente puedes abrir la cuenta con el número del Supporter o del サポートセンター y cambiarlo después de tener tu propio número."
    }
   }
  },
@@ -11026,666 +12279,885 @@ window.ARTICLES_BODY_I18N = {
    }
   }
  },
-  "guide-airport": {
+ "guide-airport": {
   "ja": {
-     "ap0000": {
-        "text": "福岡空港から伊都キャンパスへ、**タクシーを使わずに**行くルートです：空港 → 入国審査 → 手荷物受取 → 無料連絡バス → 地下鉄 → バス。順番どおりに進めば大丈夫で、全体で 1 時間半ほどです。"
+   "ap0000": {
+    "text": "福岡空港から伊都キャンパスへ、**タクシーを使わずに**行くルートです：空港 → 入国審査 → 手荷物受取 → 無料連絡バス → 地下鉄 → バス。順番どおりに進めば大丈夫で、全体で 1 時間半ほどです。"
+   },
+   "ap0001": {
+    "text": "本文のルートは**2026 年 5 月の実地記録**（同じ道を歩いた学生が区間ごとに撮影した写真と説明）に基づき、駅と乗り方は**九州大学公式サイト**で確認済みです。写真はタップで拡大でき、標識の文字まで読み取れます。"
+   },
+   "ap0002": {
+    "text": "全行程 7 ステップ"
+   },
+   "ap0004": {
+    "text": "**間違えやすいのは一か所だけ**：地下鉄は必ず「筑前前原」または「西唐津」方面に乗ってください。「姪浜」行きに乗ると九大学研都市には行けず、姪浜で乗り換えが必要です。詳しくは第 5 節。"
+   },
+   "ap0005": {
+    "text": "一、飛行機を降りたら：人の流れについていく"
+   },
+   "ap0006": {
+    "text": "降機後は**人の流れについていく**だけです。通常ルートは一本しかありません。下の「到着／Arrivals」の標識が見えたら、矢印の方向へ進みます——到着ゲートによって方向が違うので、記憶ではなく**矢印**を見てください。"
+   },
+   "ap0008": {
+    "text": "**日本語が分からなくても大丈夫です。**空港の標識はほぼ漢字で、やさしい英語も併記されているので、方向を見失うことはありません。"
+   },
+   "ap0010": {
+    "text": "二、入国審査"
+   },
+   "ap0011": {
+    "text": "**出発前にスマホで準備しておくのがおすすめです。**日本の入国・税関申告は Visit Japan Web で事前に登録でき、QR コードを発行できます。到着後に紙の申告書に書くより格段に早く済みます。"
+   },
+   "ap0014": {
+    "text": "列は**外国人の列**に並びます。登録済みの入国 QR コードとパスポートを係員に提示します。現在はほとんどが**電子ゲート**で、QR コード読み取り → パスポート読み取り → 指紋 → 顔写真、の順に進みます。完了後、機械が **A／B／C／D のどの窓口**に行くかを表示し、係員が案内します。"
+   },
+   "ap0015": {
+    "text": "**入国審査エリアは撮影禁止です。**この区間は写真がありません。現場の係員の案内に従って進んでください。"
+   },
+   "ap0017a": {
+    "text": "手荷物受取"
+   },
+   "ap0018": {
+    "text": "「**手荷物受取所／Baggage Claim**」の標識に従って進み、受取ホールに着いたら大型モニターで自分の便の**ターンテーブル番号**を確認し、そこで待ちます。"
+   },
+   "ap0020a": {
+    "text": "税関"
+   },
+   "ap0021": {
+    "text": "荷物を受け取ったら税関へ。**電子申告と紙申告でレーンが分かれています**。案内に従い、自分の申告方法に合ったレーンから出ます。"
+   },
+   "ap0023": {
+    "text": "四、無料連絡バスで国内線へ"
+   },
+   "ap0024": {
+    "text": "到着ロビーを出たら案内に従い、**A2 出口**を探します。"
+   },
+   "ap0027": {
+    "text": "A2 出口の外から**無料連絡バス**で国内線ターミナルへ移動します。ここは徒歩では行けず、必ずバスに乗ります。車内は**中国語のアナウンス**もあるので安心です。"
+   },
+   "ap0029": {
+    "text": "五、地下鉄：「筑前前原」方面を選ぶ"
+   },
+   "ap0030": {
+    "text": "国内線に着いたら**地下鉄の階へ下ります**。Suica などの交通系 IC カードを事前に用意していなくても、**現地で作れます**。作る窓口は左側にあります。"
+   },
+   "ap0032a": {
+    "text": "方向を間違えないこと"
+   },
+   "ap0033": {
+    "text": "そのまま改札へ進みます。ここが要点です：「**筑前前原**」方面か「**西唐津**」方面の電車に乗ってください。この二つだけが**九大学研都市へ直通**します。なお、駅の案内表示に**「筑前前原」と書かれていないこともあります**。ローマ字表記（Chikuzen-Maebaru）と路線図の終点駅名で確認してください。"
+   },
+   "ap0036": {
+    "text": "**乗り間違えたら？**誤って「姪浜」行きに乗ってしまった場合は、終点の**姪浜**で降り、同じホームで次の「筑前前原」方面の電車を待てば九大学研都市に着きます。少し時間がかかるだけです。改札を出て買い直す必要はありません。"
+   },
+   "ap0037": {
+    "text": "六、降車とキャンパス行きバスへの乗り換え"
+   },
+   "ap0037a": {
+    "text": "降車"
+   },
+   "ap0038": {
+    "text": "目的の駅は「**九大学研都市**」（Kyudai-Gakkentoshi）です。福岡空港駅から**直通で約 40 分**（九州大学公式サイトのデータ）。"
+   },
+   "ap0041a": {
+    "text": "バスへ乗り換え"
+   },
+   "ap0042": {
+    "text": "駅を出たら**昭和バス**に乗り換えて伊都キャンパスへ向かいます。バス停は駅のすぐ近くにあり、駅構内の案内に従えば着きます。"
+   },
+   "ap0042a": {
+    "text": "出発前チェックリスト"
+   },
+   "ap0044": {
+    "text": "本文の写真は、実際にこの道を歩いた学生が区間ごとに撮影したものです。ルート自体は九州大学公式サイトで確認済みです。もし歩いてみて本文と違う点（標識の移設、駅の改修など）があれば、ページ下部のフィードバックからお知らせください。"
+   },
+   "ap0017": {
+    "text": "三、手荷物受取と税関"
+   },
+   "ap0003": {
+    "items": [
+     {
+      "title": "飛行機を降りて人の流れについていく",
+      "desc": "道は一本、標識の矢印の方向へ"
      },
-     "ap0001": {
-        "text": "本文のルートは**2026 年 5 月の実地記録**（同じ道を歩いた学生が区間ごとに撮影した写真と説明）に基づき、駅と乗り方は**九州大学公式サイト**で確認済みです。写真はタップで拡大でき、標識の文字まで読み取れます。"
+     {
+      "title": "入国審査",
+      "desc": "外国人の列に並び、QR コードとパスポートを提示"
      },
-     "ap0002": {
-        "text": "全行程 7 ステップ"
+     {
+      "title": "手荷物受取",
+      "desc": "モニターで自分の便のターンテーブル番号を確認"
      },
-     "ap0004": {
-        "text": "**間違えやすいのは一か所だけ**：地下鉄は必ず「筑前前原」または「西唐津」方面に乗ってください。「姪浜」行きに乗ると九大学研都市には行けず、姪浜で乗り換えが必要です。詳しくは第 5 節。"
+     {
+      "title": "税関",
+      "desc": "電子申告と紙申告でレーンが分かれる"
      },
-     "ap0005": {
-        "text": "一、飛行機を降りたら：人の流れについていく"
+     {
+      "title": "無料連絡バス",
+      "desc": "A2 出口から国内線行きに乗る"
      },
-     "ap0006": {
-        "text": "降機後は**人の流れについていく**だけです。通常ルートは一本しかありません。下の「到着／Arrivals」の標識が見えたら、矢印の方向へ進みます——到着ゲートによって方向が違うので、記憶ではなく**矢印**を見てください。"
+     {
+      "title": "地下鉄",
+      "desc": "「筑前前原」方面なら直通・乗り換えなし"
      },
-     "ap0008": {
-        "text": "**日本語が分からなくても大丈夫です。**空港の標識はほぼ漢字で、やさしい英語も併記されているので、方向を見失うことはありません。"
-     },
-     "ap0010": {
-        "text": "二、入国審査"
-     },
-     "ap0011": {
-        "text": "**出発前にスマホで準備しておくのがおすすめです。**日本の入国・税関申告は Visit Japan Web で事前に登録でき、QR コードを発行できます。到着後に紙の申告書に書くより格段に早く済みます。"
-     },
-     "ap0014": {
-        "text": "列は**外国人の列**に並びます。登録済みの入国 QR コードとパスポートを係員に提示します。現在はほとんどが**電子ゲート**で、QR コード読み取り → パスポート読み取り → 指紋 → 顔写真、の順に進みます。完了後、機械が **A／B／C／D のどの窓口**に行くかを表示し、係員が案内します。"
-     },
-     "ap0015": {
-        "text": "**入国審査エリアは撮影禁止です。**この区間は写真がありません。現場の係員の案内に従って進んでください。"
-     },
-     "ap0017a": {
-        "text": "手荷物受取"
-     },
-     "ap0018": {
-        "text": "「**手荷物受取所／Baggage Claim**」の標識に従って進み、受取ホールに着いたら大型モニターで自分の便の**ターンテーブル番号**を確認し、そこで待ちます。"
-     },
-     "ap0020a": {
-        "text": "税関"
-     },
-     "ap0021": {
-        "text": "荷物を受け取ったら税関へ。**電子申告と紙申告でレーンが分かれています**。案内に従い、自分の申告方法に合ったレーンから出ます。"
-     },
-     "ap0023": {
-        "text": "四、無料連絡バスで国内線へ"
-     },
-     "ap0024": {
-        "text": "到着ロビーを出たら案内に従い、**A2 出口**を探します。"
-     },
-     "ap0027": {
-        "text": "A2 出口の外から**無料連絡バス**で国内線ターミナルへ移動します。ここは徒歩では行けず、必ずバスに乗ります。車内は**中国語のアナウンス**もあるので安心です。"
-     },
-     "ap0029": {
-        "text": "五、地下鉄：「筑前前原」方面を選ぶ"
-     },
-     "ap0030": {
-        "text": "国内線に着いたら**地下鉄の階へ下ります**。Suica などの交通系 IC カードを事前に用意していなくても、**現地で作れます**。作る窓口は左側にあります。"
-     },
-     "ap0032a": {
-        "text": "方向を間違えないこと"
-     },
-     "ap0033": {
-        "text": "そのまま改札へ進みます。ここが要点です：「**筑前前原**」方面か「**西唐津**」方面の電車に乗ってください。この二つだけが**九大学研都市へ直通**します。なお、駅の案内表示に**「筑前前原」と書かれていないこともあります**。ローマ字表記（Chikuzen-Maebaru）と路線図の終点駅名で確認してください。"
-     },
-     "ap0036": {
-        "text": "**乗り間違えたら？**誤って「姪浜」行きに乗ってしまった場合は、終点の**姪浜**で降り、同じホームで次の「筑前前原」方面の電車を待てば九大学研都市に着きます。少し時間がかかるだけです。改札を出て買い直す必要はありません。"
-     },
-     "ap0037": {
-        "text": "六、降車とキャンパス行きバスへの乗り換え"
-     },
-     "ap0037a": {
-        "text": "降車"
-     },
-     "ap0038": {
-        "text": "目的の駅は「**九大学研都市**」（Kyudai-Gakkentoshi）です。福岡空港駅から**直通で約 40 分**（九州大学公式サイトのデータ）。"
-     },
-     "ap0041a": {
-        "text": "バスへ乗り換え"
-     },
-     "ap0042": {
-        "text": "駅を出たら**昭和バス**に乗り換えて伊都キャンパスへ向かいます。バス停は駅のすぐ近くにあり、駅構内の案内に従えば着きます。"
-     },
-     "ap0042a": {
-        "text": "出発前チェックリスト"
-     },
-     "ap0044": {
-        "text": "本文の写真は、実際にこの道を歩いた学生が区間ごとに撮影したものです。ルート自体は九州大学公式サイトで確認済みです。もし歩いてみて本文と違う点（標識の移設、駅の改修など）があれば、ページ下部のフィードバックからお知らせください。"
-     },
-     "ap0017": {
-        "text": "三、手荷物受取と税関"
-     },
-     "ap0003": {
-        "items": [
-           {
-              "title": "飛行機を降りて人の流れについていく",
-              "desc": "道は一本、標識の矢印の方向へ"
-           },
-           {
-              "title": "入国審査",
-              "desc": "外国人の列に並び、QR コードとパスポートを提示"
-           },
-           {
-              "title": "手荷物受取",
-              "desc": "モニターで自分の便のターンテーブル番号を確認"
-           },
-           {
-              "title": "税関",
-              "desc": "電子申告と紙申告でレーンが分かれる"
-           },
-           {
-              "title": "無料連絡バス",
-              "desc": "A2 出口から国内線行きに乗る"
-           },
-           {
-              "title": "地下鉄",
-              "desc": "「筑前前原」方面なら直通・乗り換えなし"
-           },
-           {
-              "title": "昭和バスに乗り換え",
-              "desc": "九大学研都市駅からキャンパスへ"
-           }
-        ]
-     },
-     "ap0043": {
-        "items": [
-           {
-              "text": "出発前に Visit Japan Web で入国・税関申告を登録し、QR コードをスクリーンショット保存"
-           },
-           {
-              "text": "国内線から地下鉄に乗る際、方向幕が「筑前前原」か「西唐津」であることを確認"
-           },
-           {
-              "text": "降りる駅名が「九大学研都市」であることを確認（「九大前」など別の駅と間違えない）"
-           },
-           {
-              "text": "荷物が多い場合は、駅から寮までタクシーを使うのも一案"
-           }
-        ]
-     },
-     "ap0012": {
-        "items": [
-           {
-              "text": "Visit Japan Web（入国・税関申告）",
-      "url": "https://vjw-lp.digital.go.jp/zh-hans/"
-           }
-        ]
-     },
-     "ap0007": {
-        "alt": "到着ロビー方向の黒い案内標識（到着／Arrivals・手荷物受取所）",
-        "caption": "到着ロビー方向の標識：到着／Arrivals、手荷物受取所／Baggage Claim"
-     },
-     "ap0009": {
-        "alt": "入国審査方向へ向かう空港内の通路と吊り下げ標識",
-        "caption": "標識に従い入国審査方面へ"
-     },
-     "ap0013": {
-        "alt": "入国審査エリアの列と案内標識",
-        "caption": "入国審査エリア"
-     },
-     "ap0016": {
-        "alt": "入国審査後の通路と窓口番号の案内",
-        "caption": "審査後は窓口番号の案内に従う"
-     },
-     "ap0019": {
-        "alt": "手荷物受取ホールの案内標識",
-        "caption": "手荷物受取ホール"
-     },
-     "ap0020": {
-        "alt": "便ごとのターンテーブル番号を表示するモニター",
-        "caption": "モニターで自分の便のターンテーブル番号を確認"
-     },
-     "ap0022": {
-        "alt": "税関のレーン、電子申告と紙申告の分流",
-        "caption": "税関：電子と紙でレーンが分かれる"
-     },
-     "ap0025": {
-        "alt": "連絡バス乗り場への案内標識",
-        "caption": "ロビーを出たら案内に従う"
-     },
-     "ap0026": {
-        "alt": "A2 出口の標識",
-        "caption": "A2 出口を探す"
-     },
-     "ap0028": {
-        "alt": "無料連絡バスと国内線ターミナル方向",
-        "caption": "無料連絡バス（国内線行き・中国語アナウンスあり）"
-     },
-     "ap0031": {
-        "alt": "国内線ターミナルから地下鉄階へ下りる通路",
-        "caption": "地下鉄の階へ下りる"
-     },
-     "ap0032": {
-        "alt": "地下鉄駅のカード発行窓口と券売機エリア",
-        "caption": "交通系 IC カードは左側で作れる"
-     },
-     "ap0034": {
-        "alt": "地下鉄改札付近の路線・方向案内",
-        "caption": "そのまま改札へ"
-     },
-     "ap0035": {
-        "alt": "ホームの方向案内（筑前前原方面）",
-        "caption": "案内に従い所定のホームへ、「筑前前原」方面を確認"
-     },
-     "ap0039": {
-        "alt": "車内の路線図と到着案内",
-        "caption": "車内に路線図とローマ字のアナウンスあり"
-     },
-     "ap0040": {
-        "alt": "ホームの駅名標",
-        "caption": "駅名を確認、降り早すぎ・乗り過ごしに注意"
-     },
-     "ap0041": {
-        "alt": "ホームと出口方向",
-        "caption": "目的駅で降車"
+     {
+      "title": "昭和バスに乗り換え",
+      "desc": "九大学研都市駅からキャンパスへ"
      }
+    ]
+   },
+   "ap0043": {
+    "items": [
+     {
+      "text": "出発前に Visit Japan Web で入国・税関申告を登録し、QR コードをスクリーンショット保存"
+     },
+     {
+      "text": "国内線から地下鉄に乗る際、方向幕が「筑前前原」か「西唐津」であることを確認"
+     },
+     {
+      "text": "降りる駅名が「九大学研都市」であることを確認（「九大前」など別の駅と間違えない）"
+     },
+     {
+      "text": "荷物が多い場合は、駅から寮までタクシーを使うのも一案"
+     }
+    ]
+   },
+   "ap0012": {
+    "items": [
+     {
+      "text": "Visit Japan Web（入国・税関申告）",
+      "url": "https://vjw-lp.digital.go.jp/zh-hans/"
+     }
+    ]
+   },
+   "ap0007": {
+    "alt": "到着ロビー方向の黒い案内標識（到着／Arrivals・手荷物受取所）",
+    "caption": "到着ロビー方向の標識：到着／Arrivals、手荷物受取所／Baggage Claim"
+   },
+   "ap0009": {
+    "alt": "入国審査方向へ向かう空港内の通路と吊り下げ標識",
+    "caption": "標識に従い入国審査方面へ"
+   },
+   "ap0013": {
+    "alt": "入国審査エリアの列と案内標識",
+    "caption": "入国審査エリア"
+   },
+   "ap0016": {
+    "alt": "入国審査後の通路と窓口番号の案内",
+    "caption": "審査後は窓口番号の案内に従う"
+   },
+   "ap0019": {
+    "alt": "手荷物受取ホールの案内標識",
+    "caption": "手荷物受取ホール"
+   },
+   "ap0020": {
+    "alt": "便ごとのターンテーブル番号を表示するモニター",
+    "caption": "モニターで自分の便のターンテーブル番号を確認"
+   },
+   "ap0022": {
+    "alt": "税関のレーン、電子申告と紙申告の分流",
+    "caption": "税関：電子と紙でレーンが分かれる"
+   },
+   "ap0025": {
+    "alt": "連絡バス乗り場への案内標識",
+    "caption": "ロビーを出たら案内に従う"
+   },
+   "ap0026": {
+    "alt": "A2 出口の標識",
+    "caption": "A2 出口を探す"
+   },
+   "ap0028": {
+    "alt": "無料連絡バスと国内線ターミナル方向",
+    "caption": "無料連絡バス（国内線行き・中国語アナウンスあり）"
+   },
+   "ap0031": {
+    "alt": "国内線ターミナルから地下鉄階へ下りる通路",
+    "caption": "地下鉄の階へ下りる"
+   },
+   "ap0032": {
+    "alt": "地下鉄駅のカード発行窓口と券売機エリア",
+    "caption": "交通系 IC カードは左側で作れる"
+   },
+   "ap0034": {
+    "alt": "地下鉄改札付近の路線・方向案内",
+    "caption": "そのまま改札へ"
+   },
+   "ap0035": {
+    "alt": "ホームの方向案内（筑前前原方面）",
+    "caption": "案内に従い所定のホームへ、「筑前前原」方面を確認"
+   },
+   "ap0039": {
+    "alt": "車内の路線図と到着案内",
+    "caption": "車内に路線図とローマ字のアナウンスあり"
+   },
+   "ap0040": {
+    "alt": "ホームの駅名標",
+    "caption": "駅名を確認、降り早すぎ・乗り過ごしに注意"
+   },
+   "ap0041": {
+    "alt": "ホームと出口方向",
+    "caption": "目的駅で降車"
+   }
   },
   "en": {
-     "ap0000": {
-        "text": "Getting from Fukuoka Airport to Ito Campus **without a taxi**: airport → immigration → baggage → free shuttle → subway → bus. Follow the order and you are fine; the whole trip takes about ninety minutes."
+   "ap0000": {
+    "text": "Getting from Fukuoka Airport to Ito Campus **without a taxi**: airport → immigration → baggage → free shuttle → subway → bus. Follow the order and you are fine; the whole trip takes about ninety minutes."
+   },
+   "ap0001": {
+    "text": "The route below is based on a **walkthrough recorded in May 2026** (photos and notes taken stage by stage by a student who walked it), with the stations and boarding rules checked against **Kyushu University's official site**. Tap any photo to enlarge it — the text on the signs is legible."
+   },
+   "ap0002": {
+    "text": "Seven steps in total"
+   },
+   "ap0004": {
+    "text": "**Only one step is easy to get wrong**: on the subway, board a train bound for **Chikuzen-Maebaru** or **Nishi-Karatsu**. A train bound for **Meinohama** will not take you to Kyudai-Gakkentoshi — you would have to change at Meinohama. See section five."
+   },
+   "ap0005": {
+    "text": "1. After landing: follow the crowd"
+   },
+   "ap0006": {
+    "text": "Just **follow the crowd** after disembarking; there is usually only one path. When you see the 「到着／Arrivals」 sign below, go whichever way its arrow points — the direction differs by gate, so read the **arrow**, not your memory."
+   },
+   "ap0008": {
+    "text": "**No Japanese required.** Airport signs are mostly kanji with beginner-level English alongside, so finding your way is no problem."
+   },
+   "ap0010": {
+    "text": "2. Immigration"
+   },
+   "ap0011": {
+    "text": "**Do this on your phone before you fly.** Japan's immigration and customs declaration can be completed in advance on Visit Japan Web, which issues a QR code. That saves a lot of time compared with filling in paper forms after landing."
+   },
+   "ap0014": {
+    "text": "Join the **foreign-passport line**. Show your immigration QR code and passport to the officer. These days it is mostly an **electronic gate**: scan the QR code → read the passport → fingerprint → photo. Afterwards the machine tells you which desk — **A／B／C／D** — to go to, and staff guide you."
+   },
+   "ap0015": {
+    "text": "**Photography is prohibited inside the immigration area.** There are no photos of this stretch; just follow the staff on site."
+   },
+   "ap0017a": {
+    "text": "Baggage claim"
+   },
+   "ap0018": {
+    "text": "Follow the 「**手荷物受取所／Baggage Claim**」 signs. In the hall, check the large screens for your flight's **carousel number** and wait there."
+   },
+   "ap0020a": {
+    "text": "Customs"
+   },
+   "ap0021": {
+    "text": "With your bags, head to customs. **Electronic and paper declarations use different lanes** — follow the signs and exit through the one matching your declaration type."
+   },
+   "ap0023": {
+    "text": "4. Free shuttle to the domestic terminal"
+   },
+   "ap0024": {
+    "text": "Leaving the arrivals hall, follow the guidance and find **Exit A2**."
+   },
+   "ap0027": {
+    "text": "Outside Exit A2, take the **free shuttle** to the domestic terminal. You cannot walk this stretch — the bus is the only way. There are **announcements in Chinese** on board."
+   },
+   "ap0029": {
+    "text": "5. The subway: choose the Chikuzen-Maebaru direction"
+   },
+   "ap0030": {
+    "text": "At the domestic terminal, **go down to the subway level**. If you have not prepared a Suica or other IC card, **you can get one on the spot**; the counter is on the left."
+   },
+   "ap0032a": {
+    "text": "Get the direction right"
+   },
+   "ap0033": {
+    "text": "Walk straight to the gates. This is the crux: board a train bound for 「**筑前前原**」 or 「**西唐津**」 — only those two run **through to Kyudai-Gakkentoshi**. Note that station signage **does not always say 「筑前前原」**; check the romanised name (Chikuzen-Maebaru) and the terminus on the route map."
+   },
+   "ap0036": {
+    "text": "**What if you board the wrong train?** If you end up on a 「姪浜」(Meinohama) train, get off at the terminus **Meinohama** and wait on the same platform for the next Chikuzen-Maebaru-bound train. You will still reach Kyudai-Gakkentoshi — it just takes a little longer. No need to exit and buy another ticket."
+   },
+   "ap0037": {
+    "text": "6. Arriving and transferring to the campus bus"
+   },
+   "ap0037a": {
+    "text": "Your stop"
+   },
+   "ap0038": {
+    "text": "The station you want is 「**九大学研都市**」 (Kyudai-Gakkentoshi). The through service from Fukuoka Airport takes **about 40 minutes** (Kyushu University official data)."
+   },
+   "ap0041a": {
+    "text": "Transfer to the bus"
+   },
+   "ap0042": {
+    "text": "Outside the station, transfer to a **Showa bus** for Ito Campus. The stop is close to the station; in-station signage will lead you there."
+   },
+   "ap0042a": {
+    "text": "Before you leave: checklist"
+   },
+   "ap0044": {
+    "text": "The photos here were taken stage by stage by a student who actually walked this route, and the route itself has been checked against Kyushu University's official site. If you walk it and find something different (a sign moved, a station rebuilt), tell us using the feedback button at the bottom of the page."
+   },
+   "ap0017": {
+    "text": "3. Baggage claim and customs"
+   },
+   "ap0003": {
+    "items": [
+     {
+      "title": "Land and follow the crowd",
+      "desc": "One path only — take the direction the arrow points"
      },
-     "ap0001": {
-        "text": "The route below is based on a **walkthrough recorded in May 2026** (photos and notes taken stage by stage by a student who walked it), with the stations and boarding rules checked against **Kyushu University's official site**. Tap any photo to enlarge it — the text on the signs is legible."
+     {
+      "title": "Immigration",
+      "desc": "Foreign-passport line; show QR code and passport"
      },
-     "ap0002": {
-        "text": "Seven steps in total"
+     {
+      "title": "Baggage claim",
+      "desc": "Find your flight's carousel number on the screens"
      },
-     "ap0004": {
-        "text": "**Only one step is easy to get wrong**: on the subway, board a train bound for **Chikuzen-Maebaru** or **Nishi-Karatsu**. A train bound for **Meinohama** will not take you to Kyudai-Gakkentoshi — you would have to change at Meinohama. See section five."
+     {
+      "title": "Customs",
+      "desc": "Electronic and paper declarations use different lanes"
      },
-     "ap0005": {
-        "text": "1. After landing: follow the crowd"
+     {
+      "title": "Free shuttle",
+      "desc": "From Exit A2, ride to the domestic terminal"
      },
-     "ap0006": {
-        "text": "Just **follow the crowd** after disembarking; there is usually only one path. When you see the 「到着／Arrivals」 sign below, go whichever way its arrow points — the direction differs by gate, so read the **arrow**, not your memory."
+     {
+      "title": "Subway",
+      "desc": "Chikuzen-Maebaru direction runs through, no change"
      },
-     "ap0008": {
-        "text": "**No Japanese required.** Airport signs are mostly kanji with beginner-level English alongside, so finding your way is no problem."
-     },
-     "ap0010": {
-        "text": "2. Immigration"
-     },
-     "ap0011": {
-        "text": "**Do this on your phone before you fly.** Japan's immigration and customs declaration can be completed in advance on Visit Japan Web, which issues a QR code. That saves a lot of time compared with filling in paper forms after landing."
-     },
-     "ap0014": {
-        "text": "Join the **foreign-passport line**. Show your immigration QR code and passport to the officer. These days it is mostly an **electronic gate**: scan the QR code → read the passport → fingerprint → photo. Afterwards the machine tells you which desk — **A／B／C／D** — to go to, and staff guide you."
-     },
-     "ap0015": {
-        "text": "**Photography is prohibited inside the immigration area.** There are no photos of this stretch; just follow the staff on site."
-     },
-     "ap0017a": {
-        "text": "Baggage claim"
-     },
-     "ap0018": {
-        "text": "Follow the 「**手荷物受取所／Baggage Claim**」 signs. In the hall, check the large screens for your flight's **carousel number** and wait there."
-     },
-     "ap0020a": {
-        "text": "Customs"
-     },
-     "ap0021": {
-        "text": "With your bags, head to customs. **Electronic and paper declarations use different lanes** — follow the signs and exit through the one matching your declaration type."
-     },
-     "ap0023": {
-        "text": "4. Free shuttle to the domestic terminal"
-     },
-     "ap0024": {
-        "text": "Leaving the arrivals hall, follow the guidance and find **Exit A2**."
-     },
-     "ap0027": {
-        "text": "Outside Exit A2, take the **free shuttle** to the domestic terminal. You cannot walk this stretch — the bus is the only way. There are **announcements in Chinese** on board."
-     },
-     "ap0029": {
-        "text": "5. The subway: choose the Chikuzen-Maebaru direction"
-     },
-     "ap0030": {
-        "text": "At the domestic terminal, **go down to the subway level**. If you have not prepared a Suica or other IC card, **you can get one on the spot**; the counter is on the left."
-     },
-     "ap0032a": {
-        "text": "Get the direction right"
-     },
-     "ap0033": {
-        "text": "Walk straight to the gates. This is the crux: board a train bound for 「**筑前前原**」 or 「**西唐津**」 — only those two run **through to Kyudai-Gakkentoshi**. Note that station signage **does not always say 「筑前前原」**; check the romanised name (Chikuzen-Maebaru) and the terminus on the route map."
-     },
-     "ap0036": {
-        "text": "**What if you board the wrong train?** If you end up on a 「姪浜」(Meinohama) train, get off at the terminus **Meinohama** and wait on the same platform for the next Chikuzen-Maebaru-bound train. You will still reach Kyudai-Gakkentoshi — it just takes a little longer. No need to exit and buy another ticket."
-     },
-     "ap0037": {
-        "text": "6. Arriving and transferring to the campus bus"
-     },
-     "ap0037a": {
-        "text": "Your stop"
-     },
-     "ap0038": {
-        "text": "The station you want is 「**九大学研都市**」 (Kyudai-Gakkentoshi). The through service from Fukuoka Airport takes **about 40 minutes** (Kyushu University official data)."
-     },
-     "ap0041a": {
-        "text": "Transfer to the bus"
-     },
-     "ap0042": {
-        "text": "Outside the station, transfer to a **Showa bus** for Ito Campus. The stop is close to the station; in-station signage will lead you there."
-     },
-     "ap0042a": {
-        "text": "Before you leave: checklist"
-     },
-     "ap0044": {
-        "text": "The photos here were taken stage by stage by a student who actually walked this route, and the route itself has been checked against Kyushu University's official site. If you walk it and find something different (a sign moved, a station rebuilt), tell us using the feedback button at the bottom of the page."
-     },
-     "ap0017": {
-        "text": "3. Baggage claim and customs"
-     },
-     "ap0003": {
-        "items": [
-           {
-              "title": "Land and follow the crowd",
-              "desc": "One path only — take the direction the arrow points"
-           },
-           {
-              "title": "Immigration",
-              "desc": "Foreign-passport line; show QR code and passport"
-           },
-           {
-              "title": "Baggage claim",
-              "desc": "Find your flight's carousel number on the screens"
-           },
-           {
-              "title": "Customs",
-              "desc": "Electronic and paper declarations use different lanes"
-           },
-           {
-              "title": "Free shuttle",
-              "desc": "From Exit A2, ride to the domestic terminal"
-           },
-           {
-              "title": "Subway",
-              "desc": "Chikuzen-Maebaru direction runs through, no change"
-           },
-           {
-              "title": "Showa bus",
-              "desc": "From Kyudai-Gakkentoshi station to campus"
-           }
-        ]
-     },
-     "ap0043": {
-        "items": [
-           {
-              "text": "Complete immigration and customs on Visit Japan Web before flying; screenshot the QR code"
-           },
-           {
-              "text": "Boarding the subway, confirm the destination reads Chikuzen-Maebaru or Nishi-Karatsu"
-           },
-           {
-              "text": "Confirm your stop is Kyudai-Gakkentoshi — not another station with a similar name"
-           },
-           {
-              "text": "With heavy luggage, a taxi from the station to your dorm is also an option"
-           }
-        ]
-     },
-     "ap0012": {
-        "items": [
-           {
-              "text": "Visit Japan Web (immigration & customs declaration)",
-      "url": "https://vjw-lp.digital.go.jp/zh-hans/"
-           }
-        ]
-     },
-     "ap0007": {
-        "alt": "Black overhead sign pointing to arrivals (到着／Arrivals, Baggage Claim)",
-        "caption": "Sign for arrivals: 到着／Arrivals, 手荷物受取所／Baggage Claim"
-     },
-     "ap0009": {
-        "alt": "Airport corridor with overhead signage toward immigration",
-        "caption": "Follow the signs toward immigration"
-     },
-     "ap0013": {
-        "alt": "Queues and signage in the immigration area",
-        "caption": "Immigration area"
-     },
-     "ap0016": {
-        "alt": "Corridor after immigration with desk-number guidance",
-        "caption": "After inspection, follow the desk-number signs"
-     },
-     "ap0019": {
-        "alt": "Signage in the baggage claim hall",
-        "caption": "Baggage claim hall"
-     },
-     "ap0020": {
-        "alt": "Screens showing each flight's carousel number",
-        "caption": "Find your flight's carousel number on the screens"
-     },
-     "ap0022": {
-        "alt": "Customs lanes separating electronic and paper declarations",
-        "caption": "Customs: electronic and paper use separate lanes"
-     },
-     "ap0025": {
-        "alt": "Signage toward the shuttle bus stop",
-        "caption": "Leaving the hall, follow the guidance"
-     },
-     "ap0026": {
-        "alt": "Exit A2 sign",
-        "caption": "Find Exit A2"
-     },
-     "ap0028": {
-        "alt": "Free shuttle bus and direction to the domestic terminal",
-        "caption": "Free shuttle (to the domestic terminal; announcements in Chinese)"
-     },
-     "ap0031": {
-        "alt": "Passage descending from the domestic terminal to the subway level",
-        "caption": "Go down to the subway level"
-     },
-     "ap0032": {
-        "alt": "IC card counter and ticket machines at the subway station",
-        "caption": "Get your IC card at the counter on the left"
-     },
-     "ap0034": {
-        "alt": "Line and direction guidance near the subway gates",
-        "caption": "Straight on to the gates"
-     },
-     "ap0035": {
-        "alt": "Platform direction signage pointing to Chikuzen-Maebaru",
-        "caption": "Follow the signs to the platform; check for Chikuzen-Maebaru"
-     },
-     "ap0039": {
-        "alt": "Route map and arrival information inside the train",
-        "caption": "Route map and romanised announcements on board"
-     },
-     "ap0040": {
-        "alt": "Station name sign on the platform",
-        "caption": "Check the station name — don't get off early or ride past"
-     },
-     "ap0041": {
-        "alt": "Platform and exit direction",
-        "caption": "Get off at your stop"
+     {
+      "title": "Showa bus",
+      "desc": "From Kyudai-Gakkentoshi station to campus"
      }
+    ]
+   },
+   "ap0043": {
+    "items": [
+     {
+      "text": "Complete immigration and customs on Visit Japan Web before flying; screenshot the QR code"
+     },
+     {
+      "text": "Boarding the subway, confirm the destination reads Chikuzen-Maebaru or Nishi-Karatsu"
+     },
+     {
+      "text": "Confirm your stop is Kyudai-Gakkentoshi — not another station with a similar name"
+     },
+     {
+      "text": "With heavy luggage, a taxi from the station to your dorm is also an option"
+     }
+    ]
+   },
+   "ap0012": {
+    "items": [
+     {
+      "text": "Visit Japan Web (immigration & customs declaration)",
+      "url": "https://vjw-lp.digital.go.jp/zh-hans/"
+     }
+    ]
+   },
+   "ap0007": {
+    "alt": "Black overhead sign pointing to arrivals (到着／Arrivals, Baggage Claim)",
+    "caption": "Sign for arrivals: 到着／Arrivals, 手荷物受取所／Baggage Claim"
+   },
+   "ap0009": {
+    "alt": "Airport corridor with overhead signage toward immigration",
+    "caption": "Follow the signs toward immigration"
+   },
+   "ap0013": {
+    "alt": "Queues and signage in the immigration area",
+    "caption": "Immigration area"
+   },
+   "ap0016": {
+    "alt": "Corridor after immigration with desk-number guidance",
+    "caption": "After inspection, follow the desk-number signs"
+   },
+   "ap0019": {
+    "alt": "Signage in the baggage claim hall",
+    "caption": "Baggage claim hall"
+   },
+   "ap0020": {
+    "alt": "Screens showing each flight's carousel number",
+    "caption": "Find your flight's carousel number on the screens"
+   },
+   "ap0022": {
+    "alt": "Customs lanes separating electronic and paper declarations",
+    "caption": "Customs: electronic and paper use separate lanes"
+   },
+   "ap0025": {
+    "alt": "Signage toward the shuttle bus stop",
+    "caption": "Leaving the hall, follow the guidance"
+   },
+   "ap0026": {
+    "alt": "Exit A2 sign",
+    "caption": "Find Exit A2"
+   },
+   "ap0028": {
+    "alt": "Free shuttle bus and direction to the domestic terminal",
+    "caption": "Free shuttle (to the domestic terminal; announcements in Chinese)"
+   },
+   "ap0031": {
+    "alt": "Passage descending from the domestic terminal to the subway level",
+    "caption": "Go down to the subway level"
+   },
+   "ap0032": {
+    "alt": "IC card counter and ticket machines at the subway station",
+    "caption": "Get your IC card at the counter on the left"
+   },
+   "ap0034": {
+    "alt": "Line and direction guidance near the subway gates",
+    "caption": "Straight on to the gates"
+   },
+   "ap0035": {
+    "alt": "Platform direction signage pointing to Chikuzen-Maebaru",
+    "caption": "Follow the signs to the platform; check for Chikuzen-Maebaru"
+   },
+   "ap0039": {
+    "alt": "Route map and arrival information inside the train",
+    "caption": "Route map and romanised announcements on board"
+   },
+   "ap0040": {
+    "alt": "Station name sign on the platform",
+    "caption": "Check the station name — don't get off early or ride past"
+   },
+   "ap0041": {
+    "alt": "Platform and exit direction",
+    "caption": "Get off at your stop"
+   }
   },
   "ko": {
-     "ap0000": {
-        "text": "후쿠오카 공항에서 이토 캠퍼스까지 **택시를 쓰지 않고** 가는 경로입니다: 공항 → 입국 심사 → 수하물 수취 → 무료 셔틀 → 지하철 → 버스. 순서대로만 가면 되고, 전체 1시간 30분 정도 걸립니다."
+   "ap0000": {
+    "text": "후쿠오카 공항에서 이토 캠퍼스까지 **택시를 쓰지 않고** 가는 경로입니다: 공항 → 입국 심사 → 수하물 수취 → 무료 셔틀 → 지하철 → 버스. 순서대로만 가면 되고, 전체 1시간 30분 정도 걸립니다."
+   },
+   "ap0001": {
+    "text": "아래 경로는 **2026년 5월 실지 답사 기록**(같은 길을 걸은 학생이 구간마다 찍은 사진과 설명)을 바탕으로 했고, 역과 승차 방식은 **규슈대학 공식 사이트**로 확인했습니다. 사진을 누르면 확대되며, 표지판 글자까지 읽을 수 있습니다."
+   },
+   "ap0002": {
+    "text": "전체 7단계"
+   },
+   "ap0004": {
+    "text": "**헷갈리기 쉬운 곳은 한 군데뿐**입니다: 지하철은 반드시 「**지쿠젠마에바루(筑前前原)**」 또는 「**니시카라쓰(西唐津)**」 방면에 타세요. 「**메이노하마(姪浜)**」 행에 타면 규다이갓켄토시에 갈 수 없고, 메이노하마에서 갈아타야 합니다. 자세한 내용은 5절."
+   },
+   "ap0005": {
+    "text": "1. 비행기에서 내린 뒤: 인파를 따라가기"
+   },
+   "ap0006": {
+    "text": "내린 뒤에는 **인파를 따라가기만** 하면 됩니다. 보통 길은 하나뿐입니다. 아래 「到着／Arrivals」 표지판이 보이면 화살표가 가리키는 쪽으로 갑니다 — 도착 게이트마다 방향이 다르니 기억이 아니라 **화살표**를 보세요."
+   },
+   "ap0008": {
+    "text": "**일본어를 몰라도 괜찮습니다.** 공항 표지판은 대부분 한자이고 쉬운 영어도 함께 적혀 있어 방향을 잃을 일이 없습니다."
+   },
+   "ap0010": {
+    "text": "2. 입국 심사"
+   },
+   "ap0011": {
+    "text": "**출발 전에 스마트폰으로 준비해 두는 것을 권합니다.** 일본 입국·세관 신고는 Visit Japan Web에서 미리 등록해 QR 코드를 발급받을 수 있습니다. 도착 후 종이 신고서를 쓰는 것보다 훨씬 빠릅니다."
+   },
+   "ap0014": {
+    "text": "줄은 **외국인 줄**에 섭니다. 등록한 입국 QR 코드와 여권을 직원에게 제시합니다. 요즘은 대부분 **전자 게이트**로, QR 코드 스캔 → 여권 판독 → 지문 → 사진 순으로 진행됩니다. 끝나면 기계가 **A／B／C／D 중 어느 창구**로 가야 하는지 알려주고, 직원이 안내합니다."
+   },
+   "ap0015": {
+    "text": "**입국 심사 구역은 촬영 금지입니다.** 이 구간은 사진이 없습니다. 현장 직원의 안내를 따라가세요."
+   },
+   "ap0017": {
+    "text": "3. 수하물 수취와 세관"
+   },
+   "ap0017a": {
+    "text": "수하물 수취"
+   },
+   "ap0018": {
+    "text": "「**手荷物受取所／Baggage Claim**」 표지판을 따라가고, 수취 홀에 도착하면 대형 모니터에서 자기 항공편의 **컨베이어 번호**를 확인해 그곳에서 기다립니다."
+   },
+   "ap0020a": {
+    "text": "세관"
+   },
+   "ap0021": {
+    "text": "짐을 받은 뒤 세관으로 갑니다. **전자 신고와 종이 신고는 레인이 다릅니다.** 안내에 따라 자기 신고 방식에 맞는 레인으로 나옵니다."
+   },
+   "ap0023": {
+    "text": "4. 무료 셔틀로 국내선 이동"
+   },
+   "ap0024": {
+    "text": "도착 로비를 나와 안내를 따라 **A2 출구**를 찾습니다."
+   },
+   "ap0027": {
+    "text": "A2 출구 밖에서 **무료 셔틀**을 타고 국내선 터미널로 갑니다. 이 구간은 걸어갈 수 없고 반드시 버스를 타야 합니다. 차내에 **중국어 안내 방송**이 있습니다."
+   },
+   "ap0029": {
+    "text": "5. 지하철: 「지쿠젠마에바루」 방면을 고르기"
+   },
+   "ap0030": {
+    "text": "국내선에 도착하면 **지하철 층으로 내려갑니다.** 스이카 등 교통 IC 카드를 미리 준비하지 않았어도 **현장에서 만들 수 있습니다.** 발급 창구는 왼쪽에 있습니다."
+   },
+   "ap0032a": {
+    "text": "방향을 틀리지 않기"
+   },
+   "ap0033": {
+    "text": "그대로 개찰구로 갑니다. 여기가 핵심입니다: 「**지쿠젠마에바루**」 방면이나 「**니시카라쓰**」 방면 열차에 타세요. 이 둘만 **규다이갓켄토시까지 직통**입니다. 참고로 역 안내 표지에 **「筑前前原」라고 적혀 있지 않은 경우도 있습니다.** 로마자 표기(Chikuzen-Maebaru)와 노선도의 종점 역명으로 확인하세요."
+   },
+   "ap0036": {
+    "text": "**잘못 탔다면?** 실수로 「메이노하마」 행에 탔다면 종점인 **메이노하마**에서 내려 같은 승강장에서 다음 「지쿠젠마에바루」 방면 열차를 기다리면 규다이갓켄토시에 도착합니다. 시간이 조금 더 걸릴 뿐입니다. 개찰구를 나가 표를 다시 살 필요는 없습니다."
+   },
+   "ap0037": {
+    "text": "6. 하차와 캠퍼스행 버스 환승"
+   },
+   "ap0037a": {
+    "text": "하차"
+   },
+   "ap0038": {
+    "text": "목적역은 「**규다이갓켄토시(九大学研都市)**」입니다. 후쿠오카 공항역에서 **직통 약 40분**(규슈대학 공식 사이트 자료)입니다."
+   },
+   "ap0041a": {
+    "text": "버스로 환승"
+   },
+   "ap0042": {
+    "text": "역을 나와 **쇼와버스**로 갈아타 이토 캠퍼스로 갑니다. 버스 정류장은 역 바로 근처에 있고, 역 안내를 따르면 도착합니다."
+   },
+   "ap0042a": {
+    "text": "출발 전 체크리스트"
+   },
+   "ap0044": {
+    "text": "이 글의 사진은 실제로 이 길을 걸은 학생이 구간마다 촬영한 것입니다. 경로 자체는 규슈대학 공식 사이트로 확인했습니다. 직접 걸어보고 글과 다른 점(표지판 이전, 역 개수 등)이 있으면 페이지 아래 피드백 버튼으로 알려주세요."
+   },
+   "ap0003": {
+    "items": [
+     {
+      "title": "비행기에서 내려 인파를 따라가기",
+      "desc": "길은 하나, 표지판 화살표 방향으로"
      },
-     "ap0001": {
-        "text": "아래 경로는 **2026년 5월 실지 답사 기록**(같은 길을 걸은 학생이 구간마다 찍은 사진과 설명)을 바탕으로 했고, 역과 승차 방식은 **규슈대학 공식 사이트**로 확인했습니다. 사진을 누르면 확대되며, 표지판 글자까지 읽을 수 있습니다."
+     {
+      "title": "입국 심사",
+      "desc": "외국인 줄에 서서 QR 코드와 여권 제시"
      },
-     "ap0002": {
-        "text": "전체 7단계"
+     {
+      "title": "수하물 수취",
+      "desc": "모니터에서 자기 항편 컨베이어 번호 확인"
      },
-     "ap0004": {
-        "text": "**헷갈리기 쉬운 곳은 한 군데뿐**입니다: 지하철은 반드시 「**지쿠젠마에바루(筑前前原)**」 또는 「**니시카라쓰(西唐津)**」 방면에 타세요. 「**메이노하마(姪浜)**」 행에 타면 규다이갓켄토시에 갈 수 없고, 메이노하마에서 갈아타야 합니다. 자세한 내용은 5절."
+     {
+      "title": "세관",
+      "desc": "전자 신고와 종이 신고는 레인이 다름"
      },
-     "ap0005": {
-        "text": "1. 비행기에서 내린 뒤: 인파를 따라가기"
+     {
+      "title": "무료 셔틀",
+      "desc": "A2 출구에서 국내선행 승차"
      },
-     "ap0006": {
-        "text": "내린 뒤에는 **인파를 따라가기만** 하면 됩니다. 보통 길은 하나뿐입니다. 아래 「到着／Arrivals」 표지판이 보이면 화살표가 가리키는 쪽으로 갑니다 — 도착 게이트마다 방향이 다르니 기억이 아니라 **화살표**를 보세요."
+     {
+      "title": "지하철",
+      "desc": "지쿠젠마에바루 방면이면 직통·환승 없음"
      },
-     "ap0008": {
-        "text": "**일본어를 몰라도 괜찮습니다.** 공항 표지판은 대부분 한자이고 쉬운 영어도 함께 적혀 있어 방향을 잃을 일이 없습니다."
-     },
-     "ap0010": {
-        "text": "2. 입국 심사"
-     },
-     "ap0011": {
-        "text": "**출발 전에 스마트폰으로 준비해 두는 것을 권합니다.** 일본 입국·세관 신고는 Visit Japan Web에서 미리 등록해 QR 코드를 발급받을 수 있습니다. 도착 후 종이 신고서를 쓰는 것보다 훨씬 빠릅니다."
-     },
-     "ap0014": {
-        "text": "줄은 **외국인 줄**에 섭니다. 등록한 입국 QR 코드와 여권을 직원에게 제시합니다. 요즘은 대부분 **전자 게이트**로, QR 코드 스캔 → 여권 판독 → 지문 → 사진 순으로 진행됩니다. 끝나면 기계가 **A／B／C／D 중 어느 창구**로 가야 하는지 알려주고, 직원이 안내합니다."
-     },
-     "ap0015": {
-        "text": "**입국 심사 구역은 촬영 금지입니다.** 이 구간은 사진이 없습니다. 현장 직원의 안내를 따라가세요."
-     },
-     "ap0017": {
-        "text": "3. 수하물 수취와 세관"
-     },
-     "ap0017a": {
-        "text": "수하물 수취"
-     },
-     "ap0018": {
-        "text": "「**手荷物受取所／Baggage Claim**」 표지판을 따라가고, 수취 홀에 도착하면 대형 모니터에서 자기 항공편의 **컨베이어 번호**를 확인해 그곳에서 기다립니다."
-     },
-     "ap0020a": {
-        "text": "세관"
-     },
-     "ap0021": {
-        "text": "짐을 받은 뒤 세관으로 갑니다. **전자 신고와 종이 신고는 레인이 다릅니다.** 안내에 따라 자기 신고 방식에 맞는 레인으로 나옵니다."
-     },
-     "ap0023": {
-        "text": "4. 무료 셔틀로 국내선 이동"
-     },
-     "ap0024": {
-        "text": "도착 로비를 나와 안내를 따라 **A2 출구**를 찾습니다."
-     },
-     "ap0027": {
-        "text": "A2 출구 밖에서 **무료 셔틀**을 타고 국내선 터미널로 갑니다. 이 구간은 걸어갈 수 없고 반드시 버스를 타야 합니다. 차내에 **중국어 안내 방송**이 있습니다."
-     },
-     "ap0029": {
-        "text": "5. 지하철: 「지쿠젠마에바루」 방면을 고르기"
-     },
-     "ap0030": {
-        "text": "국내선에 도착하면 **지하철 층으로 내려갑니다.** 스이카 등 교통 IC 카드를 미리 준비하지 않았어도 **현장에서 만들 수 있습니다.** 발급 창구는 왼쪽에 있습니다."
-     },
-     "ap0032a": {
-        "text": "방향을 틀리지 않기"
-     },
-     "ap0033": {
-        "text": "그대로 개찰구로 갑니다. 여기가 핵심입니다: 「**지쿠젠마에바루**」 방면이나 「**니시카라쓰**」 방면 열차에 타세요. 이 둘만 **규다이갓켄토시까지 직통**입니다. 참고로 역 안내 표지에 **「筑前前原」라고 적혀 있지 않은 경우도 있습니다.** 로마자 표기(Chikuzen-Maebaru)와 노선도의 종점 역명으로 확인하세요."
-     },
-     "ap0036": {
-        "text": "**잘못 탔다면?** 실수로 「메이노하마」 행에 탔다면 종점인 **메이노하마**에서 내려 같은 승강장에서 다음 「지쿠젠마에바루」 방면 열차를 기다리면 규다이갓켄토시에 도착합니다. 시간이 조금 더 걸릴 뿐입니다. 개찰구를 나가 표를 다시 살 필요는 없습니다."
-     },
-     "ap0037": {
-        "text": "6. 하차와 캠퍼스행 버스 환승"
-     },
-     "ap0037a": {
-        "text": "하차"
-     },
-     "ap0038": {
-        "text": "목적역은 「**규다이갓켄토시(九大学研都市)**」입니다. 후쿠오카 공항역에서 **직통 약 40분**(규슈대학 공식 사이트 자료)입니다."
-     },
-     "ap0041a": {
-        "text": "버스로 환승"
-     },
-     "ap0042": {
-        "text": "역을 나와 **쇼와버스**로 갈아타 이토 캠퍼스로 갑니다. 버스 정류장은 역 바로 근처에 있고, 역 안내를 따르면 도착합니다."
-     },
-     "ap0042a": {
-        "text": "출발 전 체크리스트"
-     },
-     "ap0044": {
-        "text": "이 글의 사진은 실제로 이 길을 걸은 학생이 구간마다 촬영한 것입니다. 경로 자체는 규슈대학 공식 사이트로 확인했습니다. 직접 걸어보고 글과 다른 점(표지판 이전, 역 개수 등)이 있으면 페이지 아래 피드백 버튼으로 알려주세요."
-     },
-     "ap0003": {
-        "items": [
-           {
-              "title": "비행기에서 내려 인파를 따라가기",
-              "desc": "길은 하나, 표지판 화살표 방향으로"
-           },
-           {
-              "title": "입국 심사",
-              "desc": "외국인 줄에 서서 QR 코드와 여권 제시"
-           },
-           {
-              "title": "수하물 수취",
-              "desc": "모니터에서 자기 항편 컨베이어 번호 확인"
-           },
-           {
-              "title": "세관",
-              "desc": "전자 신고와 종이 신고는 레인이 다름"
-           },
-           {
-              "title": "무료 셔틀",
-              "desc": "A2 출구에서 국내선행 승차"
-           },
-           {
-              "title": "지하철",
-              "desc": "지쿠젠마에바루 방면이면 직통·환승 없음"
-           },
-           {
-              "title": "쇼와버스 환승",
-              "desc": "규다이갓켄토시역에서 캠퍼스로"
-           }
-        ]
-     },
-     "ap0043": {
-        "items": [
-           {
-              "text": "출발 전 Visit Japan Web에서 입국·세관 신고를 등록하고 QR 코드를 캡처해 두기"
-           },
-           {
-              "text": "국내선에서 지하철 탑승 시 행선지가 지쿠젠마에바루 또는 니시카라쓰인지 확인"
-           },
-           {
-              "text": "내릴 역명이 「규다이갓켄토시」인지 확인 (비슷한 다른 역명과 혼동 주의)"
-           },
-           {
-              "text": "짐이 많으면 역에서 기숙사까지 택시를 쓰는 것도 방법"
-           }
-        ]
-     },
-     "ap0012": {
-        "items": [
-           {
-              "text": "Visit Japan Web (입국·세관 신고)",
-      "url": "https://vjw-lp.digital.go.jp/zh-hans/"
-           }
-        ]
-     },
-     "ap0007": {
-        "alt": "도착 로비 방향 검은 안내 표지판(도착／Arrivals, 수하물 수취소)",
-        "caption": "도착 로비 방향 표지판: 到着／Arrivals, 手荷物受取所／Baggage Claim"
-     },
-     "ap0009": {
-        "alt": "입국 심사 방향으로 향하는 공항 내 통로와 매다는 표지판",
-        "caption": "표지판을 따라 입국 심사 방향으로"
-     },
-     "ap0013": {
-        "alt": "입국 심사 구역의 줄과 안내 표지판",
-        "caption": "입국 심사 구역"
-     },
-     "ap0016": {
-        "alt": "입국 심사 후 통로와 창구 번호 안내",
-        "caption": "심사 후에는 창구 번호 안내를 따름"
-     },
-     "ap0019": {
-        "alt": "수하물 수취 홀의 안내 표지판",
-        "caption": "수하물 수취 홀"
-     },
-     "ap0020": {
-        "alt": "항공편별 컨베이어 번호를 표시하는 모니터",
-        "caption": "모니터에서 자기 항공편 컨베이어 번호 확인"
-     },
-     "ap0022": {
-        "alt": "세관 레인, 전자 신고와 종이 신고 분리",
-        "caption": "세관: 전자와 종이 레인이 다름"
-     },
-     "ap0025": {
-        "alt": "셔틀버스 승차장으로 가는 안내 표지판",
-        "caption": "로비를 나와 안내를 따라감"
-     },
-     "ap0026": {
-        "alt": "A2 출구 표지판",
-        "caption": "A2 출구 찾기"
-     },
-     "ap0028": {
-        "alt": "무료 셔틀버스와 국내선 터미널 방향",
-        "caption": "무료 셔틀(국내선행, 중국어 안내 있음)"
-     },
-     "ap0031": {
-        "alt": "국내선 터미널에서 지하철 층으로 내려가는 통로",
-        "caption": "지하철 층으로 내려가기"
-     },
-     "ap0032": {
-        "alt": "지하철역 카드 발급 창구와 발매기 구역",
-        "caption": "교통 IC 카드는 왼쪽에서 발급"
-     },
-     "ap0034": {
-        "alt": "지하철 개찰구 부근 노선·방향 안내",
-        "caption": "그대로 개찰구로"
-     },
-     "ap0035": {
-        "alt": "승강장 방향 안내(지쿠젠마에바루 방면)",
-        "caption": "안내를 따라 지정 승강장으로, 지쿠젠마에바루 방면 확인"
-     },
-     "ap0039": {
-        "alt": "차내 노선도와 도착 안내",
-        "caption": "차내에 노선도와 로마자 안내 방송 있음"
-     },
-     "ap0040": {
-        "alt": "승강장 역명 표지",
-        "caption": "역명 확인, 너무 일찍 내리거나 지나치지 않기"
-     },
-     "ap0041": {
-        "alt": "승강장과 출구 방향",
-        "caption": "목적역에서 하차"
+     {
+      "title": "쇼와버스 환승",
+      "desc": "규다이갓켄토시역에서 캠퍼스로"
      }
+    ]
+   },
+   "ap0043": {
+    "items": [
+     {
+      "text": "출발 전 Visit Japan Web에서 입국·세관 신고를 등록하고 QR 코드를 캡처해 두기"
+     },
+     {
+      "text": "국내선에서 지하철 탑승 시 행선지가 지쿠젠마에바루 또는 니시카라쓰인지 확인"
+     },
+     {
+      "text": "내릴 역명이 「규다이갓켄토시」인지 확인 (비슷한 다른 역명과 혼동 주의)"
+     },
+     {
+      "text": "짐이 많으면 역에서 기숙사까지 택시를 쓰는 것도 방법"
+     }
+    ]
+   },
+   "ap0012": {
+    "items": [
+     {
+      "text": "Visit Japan Web (입국·세관 신고)",
+      "url": "https://vjw-lp.digital.go.jp/zh-hans/"
+     }
+    ]
+   },
+   "ap0007": {
+    "alt": "도착 로비 방향 검은 안내 표지판(도착／Arrivals, 수하물 수취소)",
+    "caption": "도착 로비 방향 표지판: 到着／Arrivals, 手荷物受取所／Baggage Claim"
+   },
+   "ap0009": {
+    "alt": "입국 심사 방향으로 향하는 공항 내 통로와 매다는 표지판",
+    "caption": "표지판을 따라 입국 심사 방향으로"
+   },
+   "ap0013": {
+    "alt": "입국 심사 구역의 줄과 안내 표지판",
+    "caption": "입국 심사 구역"
+   },
+   "ap0016": {
+    "alt": "입국 심사 후 통로와 창구 번호 안내",
+    "caption": "심사 후에는 창구 번호 안내를 따름"
+   },
+   "ap0019": {
+    "alt": "수하물 수취 홀의 안내 표지판",
+    "caption": "수하물 수취 홀"
+   },
+   "ap0020": {
+    "alt": "항공편별 컨베이어 번호를 표시하는 모니터",
+    "caption": "모니터에서 자기 항공편 컨베이어 번호 확인"
+   },
+   "ap0022": {
+    "alt": "세관 레인, 전자 신고와 종이 신고 분리",
+    "caption": "세관: 전자와 종이 레인이 다름"
+   },
+   "ap0025": {
+    "alt": "셔틀버스 승차장으로 가는 안내 표지판",
+    "caption": "로비를 나와 안내를 따라감"
+   },
+   "ap0026": {
+    "alt": "A2 출구 표지판",
+    "caption": "A2 출구 찾기"
+   },
+   "ap0028": {
+    "alt": "무료 셔틀버스와 국내선 터미널 방향",
+    "caption": "무료 셔틀(국내선행, 중국어 안내 있음)"
+   },
+   "ap0031": {
+    "alt": "국내선 터미널에서 지하철 층으로 내려가는 통로",
+    "caption": "지하철 층으로 내려가기"
+   },
+   "ap0032": {
+    "alt": "지하철역 카드 발급 창구와 발매기 구역",
+    "caption": "교통 IC 카드는 왼쪽에서 발급"
+   },
+   "ap0034": {
+    "alt": "지하철 개찰구 부근 노선·방향 안내",
+    "caption": "그대로 개찰구로"
+   },
+   "ap0035": {
+    "alt": "승강장 방향 안내(지쿠젠마에바루 방면)",
+    "caption": "안내를 따라 지정 승강장으로, 지쿠젠마에바루 방면 확인"
+   },
+   "ap0039": {
+    "alt": "차내 노선도와 도착 안내",
+    "caption": "차내에 노선도와 로마자 안내 방송 있음"
+   },
+   "ap0040": {
+    "alt": "승강장 역명 표지",
+    "caption": "역명 확인, 너무 일찍 내리거나 지나치지 않기"
+   },
+   "ap0041": {
+    "alt": "승강장과 출구 방향",
+    "caption": "목적역에서 하차"
+   }
   },
+  "es": {
+   "ap0000": {
+    "text": "La primera vez que vas del aeropuerto de Fukuoka al campus Ito, esta ruta **no requiere taxi** en ningún tramo: aeropuerto → control de inmigración → recogida de equipaje → autobús lanzadera gratuito → metro → autobús urbano. Solo tienes que seguir el orden, y el trayecto completo dura alrededor de hora y media."
+   },
+   "ap0001": {
+    "text": "La ruta de este artículo proviene de un **registro fotográfico de mayo de 2026** (las fotos y notas que un estudiante tomó tramo por tramo mientras aprendía el recorrido), y tanto las estaciones como la forma de viajar se han verificado con la **página oficial de la Universidad de Kyushu**. Todas las fotos de campo se pueden abrir y ampliar, y el texto de los carteles se lee con claridad."
+   },
+   "ap0002": {
+    "text": "Siete pasos en total"
+   },
+   "ap0003": {
+    "items": [
+     {
+      "title": "Bajas del avión y sigues a la multitud",
+      "desc": "Solo hay un camino: sigue la dirección de las flechas de los carteles"
+     },
+     {
+      "title": "Control de inmigración",
+      "desc": "Haz cola en el carril para extranjeros y entrega el código QR de entrada y el pasaporte"
+     },
+     {
+      "title": "Recogida de equipaje",
+      "desc": "Consulta la pantalla para encontrar el número de cinta de tu vuelo"
+     },
+     {
+      "title": "Control de aduanas",
+      "desc": "La declaración electrónica y la declaración en papel usan carriles distintos"
+     },
+     {
+      "title": "Autobús lanzadera gratuito",
+      "desc": "Ve a la salida A2 y toma el autobús que va a la terminal nacional"
+     },
+     {
+      "title": "Metro",
+      "desc": "Fíjate en la dirección «筑前前原»; el tren va directo, sin transbordo"
+     },
+     {
+      "title": "Transbordo al autobús Showa",
+      "desc": "En la estación Kyudai-Gakkentoshi, al salir de la estación toma el autobús hasta el campus"
+     }
+    ]
+   },
+   "ap0004": {
+    "text": "**En todo el trayecto solo hay un punto donde es fácil equivocarse de tren**: en el metro debes subir al tren con dirección «筑前前原» o «西唐津». Si subes al tren con dirección «姪浜», no llegarás a Kyudai-Gakkentoshi y tendrás que hacer transbordo en Meinohama. Consulta la sección cinco."
+   },
+   "ap0005": {
+    "text": "1. Después de bajar del avión: sigue a la multitud"
+   },
+   "ap0006": {
+    "text": "Al bajar del avión basta con **seguir a la multitud**; normalmente solo hay un camino. Cuando veas el cartel «到着／Arrivals» que aparece abajo, ve hacia donde apunten las flechas del cartel: según la puerta de embarque por la que salgas la dirección puede ser distinta, así que guíate por las flechas y no por la memoria."
+   },
+   "ap0008": {
+    "text": "**No pasa nada si no entiendes japonés.** Los carteles del aeropuerto usan en su mayoría kanji y también hay inglés básico, así que no tendrás problemas para orientarte."
+   },
+   "ap0010": {
+    "text": "2. Control de inmigración"
+   },
+   "ap0011": {
+    "text": "**Conviene rellenarlo en el móvil antes de salir.** La entrada y la declaración de aduanas de Japón se pueden completar por adelantado en Visiting Japan Web, que genera un código QR; al llegar solo tienes que escanearlo, y es mucho más rápido que rellenar el formulario en papel en el avión."
+   },
+   "ap0012": {
+    "items": [
+     {
+      "text": "Visit Japan Web (entrada y declaración de aduanas)",
+      "url": "https://vjw-lp.digital.go.jp/zh-hans/"
+     }
+    ]
+   },
+   "ap0014": {
+    "text": "En la cola usa el **carril para extranjeros**. Entrega el código QR de entrada ya rellenado y el pasaporte al personal para que lo verifiquen. Hoy en día, en la mayoría de los casos se usa una **puerta automática**: escanear el código de entrada → leer el pasaporte → registrar las huellas dactilares → tomar la foto; al terminar, la máquina te indica a qué ventanilla A/B/C/D debes ir, y en el lugar hay personal que te orienta."
+   },
+   "ap0015": {
+    "text": "**Está prohibido hacer fotos dentro de la zona de control de inmigración.** En este tramo no hay fotos que consultar; basta con seguir las indicaciones del personal."
+   },
+   "ap0017": {
+    "text": "3. Recogida de equipaje y control de aduanas"
+   },
+   "ap0017a": {
+    "text": "Recogida de equipaje"
+   },
+   "ap0018": {
+    "text": "Sigue los carteles de «**手荷物受取所／Baggage Claim**»; al llegar a la sala de recogida de equipaje, mira la pantalla grande, busca el **número de cinta** correspondiente a tu vuelo y espera allí tu equipaje."
+   },
+   "ap0020a": {
+    "text": "Control de aduanas"
+   },
+   "ap0021": {
+    "text": "Con el equipaje en mano, pasa por la aduana. **La declaración electrónica y la declaración en papel tienen carriles distintos**; en el lugar hay indicaciones, así que elige la salida correspondiente a tu tipo de declaración."
+   },
+   "ap0023": {
+    "text": "4. Autobús lanzadera gratuito a la terminal nacional"
+   },
+   "ap0024": {
+    "text": "Al salir de la sala de llegadas sigue las indicaciones y busca la **salida A2**."
+   },
+   "ap0027": {
+    "text": "Fuera de la salida A2 toma el **autobús lanzadera gratuito** hasta la terminal de vuelos nacionales. Este tramo no se puede hacer a pie: hay que tomar el autobús. En el autobús **hay anuncios en chino**, así que no te preocupes por no entenderlos."
+   },
+   "ap0029": {
+    "text": "5. Metro: fíjate en la dirección «筑前前原»"
+   },
+   "ap0030": {
+    "text": "Al llegar a la terminal nacional, **baja al piso del metro**. Si no has tramitado antes una tarjeta IC de transporte como Suica, no hay problema: **puedes hacerlo allí mismo**, y la ventanilla para tramitarla está a la izquierda."
+   },
+   "ap0032a": {
+    "text": "Fíjate bien en la dirección para no subir al tren equivocado"
+   },
+   "ap0033": {
+    "text": "Camina recto hasta el torno de acceso. La clave está en este paso: hay que tomar el tren con dirección «筑前前原» o «西唐津», pues solo estos dos van **directos a Kyudai-Gakkentoshi**. Ten en cuenta que en los carteles de la estación **no siempre aparece escrito «筑前前原»**: guíate por el romaji (Chikuzen-Maebaru) y por el nombre de la estación terminal en el mapa de líneas."
+   },
+   "ap0036": {
+    "text": "**¿Y si te equivocas de tren?** Si por descuido subes al tren con dirección «姪浜», baja en la estación terminal, **Meinohama**, y espera en el mismo andén el siguiente tren con dirección «筑前前原»: también llega a Kyudai-Gakkentoshi, solo que tardarás un poco más. No hace falta salir de la estación ni comprar otro billete."
+   },
+   "ap0037": {
+    "text": "6. Llegada a la estación y transbordo al autobús"
+   },
+   "ap0037a": {
+    "text": "Llegada a la estación"
+   },
+   "ap0038": {
+    "text": "La estación de destino es «**九大学研都市**» (Kyudai-Gakkentoshi). Desde la estación del aeropuerto de Fukuoka, el trayecto directo hasta aquí dura **unos 40 minutos** (datos de la página oficial de la Universidad de Kyushu)."
+   },
+   "ap0041a": {
+    "text": "Transbordo al autobús hacia el campus"
+   },
+   "ap0042": {
+    "text": "Al salir de la estación, haz transbordo al **autobús Showa** para ir al campus Ito. La parada de autobús está cerca de la estación; basta con seguir las indicaciones dentro de la estación."
+   },
+   "ap0042a": {
+    "text": "Lista de comprobación antes de salir"
+   },
+   "ap0044": {
+    "text": "Las fotos de este artículo provienen del registro que un estudiante hizo tramo por tramo al recorrer esta ruta sobre el terreno, y la ruta en sí se ha verificado con la página oficial de la Universidad de Kyushu. Si al recorrerla encuentras algún punto que no coincide con este artículo (carteles que han cambiado de sitio, obras en la estación, etc.), avísanos con el botón de comentarios al final de la página."
+   },
+   "ap0007": {
+    "alt": "Cartel negro en dirección a la sala de llegadas, con 到着 / Arrivals y 手荷物受取所",
+    "caption": "Señal hacia la sala de llegadas: 到着 / Arrivals, 手荷物受取所 / Baggage Claim"
+   },
+   "ap0009": {
+    "alt": "Pasillo y carteles suspendidos dentro del aeropuerto hacia el control de inmigración",
+    "caption": "Sigue las señales hacia el control de inmigración"
+   },
+   "ap0013": {
+    "alt": "Zona de control de inmigración, con colas y señales",
+    "caption": "Zona de control de inmigración"
+   },
+   "ap0016": {
+    "alt": "Pasillo tras el control de inmigración, con la numeración de ventanillas",
+    "caption": "Tras el control, sigue la numeración de ventanillas"
+   },
+   "ap0019": {
+    "alt": "Señal de la sala de recogida de equipajes",
+    "caption": "Sala de recogida de equipajes"
+   },
+   "ap0020": {
+    "alt": "Pantalla electrónica con la cinta de equipajes de cada vuelo",
+    "caption": "Busca la cinta de tu vuelo en la pantalla grande"
+   },
+   "ap0022": {
+    "alt": "Canales de declaración en aduana: declaración electrónica y en papel",
+    "caption": "Declaración en aduana: los canales electrónico y en papel son distintos"
+   },
+   "ap0025": {
+    "alt": "Señal que guía hacia la parada del autobús lanzadera",
+    "caption": "Al salir de la sala, sigue las indicaciones"
+   },
+   "ap0026": {
+    "alt": "Señal de la salida A2",
+    "caption": "Localiza la salida A2"
+   },
+   "ap0028": {
+    "alt": "Autobús lanzadera gratuito, dirección a la terminal nacional",
+    "caption": "Autobús lanzadera gratuito (hacia la terminal nacional, con anuncios en varios idiomas)"
+   },
+   "ap0031": {
+    "alt": "Pasillo descendente de la terminal nacional al nivel del metro",
+    "caption": "Baja al nivel del metro"
+   },
+   "ap0032": {
+    "alt": "Ventanilla de tarjetas y zona de máquinas expendedoras en la estación de metro",
+    "caption": "A la izquierda está la ventanilla para la tarjeta de transporte"
+   },
+   "ap0034": {
+    "alt": "Señales de línea y dirección junto a los tornos del metro",
+    "caption": "Continúa recto hasta los tornos"
+   },
+   "ap0035": {
+    "alt": "Señales de dirección en el andén, hacia Chikuzen-Maebaru",
+    "caption": "Sigue las indicaciones hasta el andén correcto y busca la dirección «Chikuzen-Maebaru»"
+   },
+   "ap0039": {
+    "alt": "Mapa de líneas e información de paradas dentro del vagón",
+    "caption": "En el vagón hay mapas de líneas y anuncios de parada con transcripción latina"
+   },
+   "ap0040": {
+    "alt": "Señal con el nombre de la estación en el andén",
+    "caption": "Comprueba el nombre de la estación: no te bajes antes ni te pases"
+   },
+   "ap0041": {
+    "alt": "Andén y dirección de salida",
+    "caption": "Bájate al llegar a tu estación"
+   },
+   "ap0043": {
+    "items": [
+     {
+      "text": "Antes de salir, rellena la entrada y la declaración de aduana en Visit Japan Web y guarda una captura del código QR"
+     },
+     {
+      "text": "Al cambiar al metro en la terminal nacional, comprueba que el cartel de dirección indique «Chikuzen-Maebaru» o «Nishi-Karatsu»"
+     },
+     {
+      "text": "Confirma que tu estación es «Kyudai-Gakkentoshi» y no otra como «Kyudai-mae»"
+     },
+     {
+      "text": "Si llevas mucho equipaje, puedes tomar un taxi de la estación al dormitorio; está dentro de la tarifa mínima"
+     }
+    ]
+   }
+  }
  },
-"guide-firstmonth": {
+ "guide-firstmonth": {
   "ja": {
    "125163": {
     "text": "出発前：日本で入手しにくい 3 点"
@@ -15052,6 +16524,241 @@ window.ARTICLES_BODY_I18N = {
    "0b08bd": {
     "text": "상담: 국제부 유학과 유학생계 `intlr-pscholar@jimu.kyushu-u.ac.jp`(사비 장학금); 학습장려비는 **소속 학부·대학원 사무실**로."
    }
+  },
+  "es": {
+   "768171": {
+    "items": [
+     {
+      "text": "Becas para estudiantes internacionales autofinanciados（私費留学生のための奨学金）(panorama del sistema)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/page-012"
+     },
+     {
+      "text": "Scholarship Guidebook (cómo redactar la solicitud y entrevistas)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2021/03/guidebook_scholarship.pdf"
+     },
+     {
+      "text": "Material explicativo del proceso de solicitud（応募流程）",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2024/08/The-scholarship-application-process-1.pdf"
+     },
+     {
+      "text": "Colección de preguntas frecuentes sobre becas（奨学金 Q&A）",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2024/09/QA-List_JPN_202405.pdf"
+     },
+     {
+      "text": "Estudiantes internacionales becados por el Gobierno (MEXT)（国費外国人留学生）(descripción del sistema)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/government-expense"
+     }
+    ]
+   },
+   "13edbe": {
+    "text": "Este artículo te ayuda a aclarar dos cosas: **qué puedes solicitar ahora** y **cómo solicitarlo**. Las becas para estudiantes internacionales autofinanciados de Kyudai exigen en general estar ya matriculado y saber japonés, y se dividen en dos vías: la recomendación de la universidad y la solicitud directa. Las 7 que aparecen a continuación siguen abiertas."
+   },
+   "25d902": {
+    "text": "**Fuente de los datos**: Global Gateways «奨学金一覧»（国際部留学課）, recopilado el 2026-09-14. Cada fundación reabre su convocatoria cada año, y los importes y las fechas límite cambian: **antes de actuar, consulta el listado oficial de abajo para confirmar el texto original**."
+   },
+   "3fe9fc": {
+    "text": "Solicitables ahora (7)"
+   },
+   "552ef2": {
+    "headers": [
+     "Beca",
+     "Importe",
+     "Fecha límite"
+    ],
+    "rows": [
+     [
+      "CWAJ 外国人留学生大学院女子奨…",
+      "200万円 al año",
+      ""
+     ],
+     [
+      "INPEX教育交流…（3 个国别版）",
+      "160,000円 al mes",
+      ""
+     ],
+     [
+      "日本台湾交流協会日本奨学金",
+      "14万4千円 al mes",
+      ""
+     ],
+     [
+      "福岡よかトピア国際交流財団",
+      "50万円 al año",
+      ""
+     ],
+     [
+      "本庄国際奨学財団",
+      "23万円 al mes",
+      ""
+     ],
+     [
+      "平和中島財団奨学金",
+      "Estudiantes de grado: 17万円 al mes",
+      ""
+     ],
+     [
+      "イノアック国際教育振興財団奨学金",
+      "5万円 al mes",
+      ""
+     ]
+    ]
+   },
+   "0e1654": {
+    "text": "De las siguientes puedes obtener directamente los documentos oficiales: **descarga primero las bases de la convocatoria（募集要項） y luego decide si presentarte**."
+   },
+   "075ce4": {
+    "items": [
+     {
+      "text": "INPEX教育交流…（3 个国别版） — bases de la convocatoria (PDF)・インドネシア",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/view-attach-file.php?sc_id=1199&img_type=1&img_for=1&mime_type=application/pdf"
+     },
+     {
+      "text": "INPEX教育交流…（3 个国别版） — bases de la convocatoria (PDF)・オーストラリア",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/view-attach-file.php?sc_id=1200&img_type=1&img_for=1&mime_type=application/pdf"
+     },
+     {
+      "text": "INPEX教育交流…（3 个国别版） — bases de la convocatoria (PDF)・UAE",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/view-attach-file.php?sc_id=1201&img_type=1&img_for=1&mime_type=application/pdf"
+     },
+     {
+      "text": "福岡よかトピア国際交流財団 — bases de la convocatoria (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/view-attach-file.php?sc_id=1212&img_type=1&img_for=1&mime_type=application/pdf"
+     },
+     {
+      "text": "平和中島財団奨学金 — bases de la convocatoria (PDF)・edición 2027",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/view-attach-file.php?sc_id=1210&img_type=1&img_for=1&mime_type=application/pdf"
+     },
+     {
+      "text": "平和中島財団奨学金 — bases de la convocatoria (PDF)・edición 2026",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/view-attach-file.php?sc_id=1140&img_type=1&img_for=1&mime_type=application/pdf"
+     }
+    ]
+   },
+   "620a45": {
+    "text": "Para los demás, entra desde el listado oficial (se actualiza cada año e incluye las convocatorias ya cerradas):"
+   },
+   "d123df": {
+    "items": [
+     {
+      "text": "Listado de becas（奨学金一覧）(oficial, año en curso)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2027&lang="
+     },
+     {
+      "text": "Listado de becas（奨学金一覧）(oficial, año anterior, incluye las ya cerradas)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2026&lang="
+     },
+     {
+      "text": "",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2027&lang=en"
+     }
+    ]
+   },
+   "c482ce": {
+    "text": "5 puntos clave antes de solicitar"
+   },
+   "9145cf": {
+    "items": [
+     {
+      "text": "**Debes leer tú mismo las bases de la convocatoria（募集要項）**: existen casos reales de candidaturas descalificadas por presentarse sin haberlas entendido."
+     },
+     {
+      "text": "**La compatibilidad con otras becas tiene límites**: la mayoría no permite recibir dos a la vez; incluso donde hay un tope, confírmalo punto por punto."
+     },
+     {
+      "text": "**El japonés es un requisito obligatorio**: muchas fundaciones exigen redactar a mano en japonés y una entrevista en japonés."
+     },
+     {
+      "text": "**La mayoría solo acepta a estudiantes ya matriculados**: son muy pocas las que se pueden solicitar antes de ingresar."
+     },
+     {
+      "text": "**La competencia es intensa**: solicitar no equivale a ser seleccionado, así que conviene presentarse a varias."
+     }
+    ]
+   },
+   "7efb8a": {
+    "text": "Las dos vías de solicitud"
+   },
+   "2461df": {
+    "headers": [
+     "Vía",
+     "Quién presenta los documentos",
+     "Riesgo de no ser seleccionado"
+    ],
+    "rows": [
+     [
+      "Recomendación de la universidad (selección interna)",
+      "Primero se presenta a la oficina de estudiantes internacionales y, si se aprueba, la universidad te recomienda.",
+      "Es fácil quedar eliminado en la selección interna."
+     ],
+     [
+      "Solicitud directa",
+      "La presentas tú mismo a la fundación.",
+      "Depende por completo de ti seguir la web oficial y las fechas límite."
+     ]
+    ]
+   },
+   "887b6a": {
+    "text": "**La selección interna（学内選考）** se presenta a la sección de estudiantes internacionales de la oficina de estudiantes internacionales（国際部留学課留学生係）: `intlr-pscholar@jimu.kyushu-u.ac.jp`. La beca de estímulo al aprendizaje（学習奨励費）, dirigida a estudiantes autofinanciados con 48,000 円 al mes, debe solicitarse en la **oficina de asuntos académicos（学務係） de tu facultad o escuela de posgrado**; no confundas ambas."
+   },
+   "8aa843": {
+    "text": "Estudiantes internacionales becados por el Gobierno (MEXT)（国費外国人留学生）"
+   },
+   "303df2": {
+    "text": "Es un programa del Ministerio de Educación, Cultura, Deportes, Ciencia y Tecnología (MEXT). **La matrícula la cubre la universidad y además se incluyen los billetes de avión de ida y vuelta.** El importe mensual varía según la categoría: máster 147,000 円 / doctorado 148,000 円 / estudiante de investigación 146,000 円 / grado 120,000 円."
+   },
+   "7ba84b": {
+    "items": [
+     {
+      "text": "**Recomendación de la universidad**: el periodo de solicitud lo fija cada escuela de posgrado → selección interna 2月 → aceptación 6月"
+     },
+     {
+      "text": "**Recomendación de la embajada**: solicitud 2–3月 → primera selección 5–7月 → llegada a Japón el año siguiente"
+     }
+    ]
+   },
+   "546b06": {
+    "text": "**Al pasar a un nivel superior no se renueva automáticamente**: se necesita la recomendación del tutor y solicitar al MEXT（文科省）la prórroga del periodo de pago; la aprobación depende de la selección del MEXT."
+   },
+   "55d28a": {
+    "text": "Para estudiantes autofinanciados: beca de estímulo al aprendizaje（学習奨励費）"
+   },
+   "d52461": {
+    "headers": [
+     "Concepto",
+     "Contenido"
+    ],
+    "rows": [
+     [
+      "Importe mensual",
+      "48,000 円"
+     ],
+     [
+      "Duración",
+      "1 año o 6 meses"
+     ],
+     [
+      "Convocatoria",
+      "En principio 2 veces al año (primavera y otoño)"
+     ],
+     [
+      "Dirigido a",
+      "Estudiantes regulares de grado / estudiantes de posgrado y estudiantes de investigación（研究生）"
+     ],
+     [
+      "Ventanilla",
+      "Oficina de asuntos académicos（学務係） de tu facultad"
+     ]
+    ]
+   },
+   "2d2248": {
+    "text": "Enlaces oficiales"
+   },
+   "1ea4c3": {
+    "text": "**No tomes esta página como el calendario del próximo año.** Los nombres, los importes y las fechas límite cambian cada año, y el listado oficial solo incluye el año en curso."
+   },
+   "0b08bd": {
+    "text": "Consultas: sección de estudiantes internacionales de la oficina de estudiantes internacionales（国際部留学課 留学生係） `intlr-pscholar@jimu.kyushu-u.ac.jp` (becas para estudiantes autofinanciados); para la beca de estímulo al aprendizaje（学習奨励費）, acude a la **oficina de asuntos académicos（学務係） de tu facultad o escuela de posgrado**."
+   }
   }
  },
  "guide-career": {
@@ -15683,6 +17390,216 @@ window.ARTICLES_BODY_I18N = {
    },
    "8a888e": {
     "text": "위 9개 페이지 중 **대부분은 규슈대 SSO 로그인이 필요**합니다(`/ja/internal/` 아래는 교내 페이지). 입학 전에 볼 수 있는 것은 「일본에서의 취업활동」과 「진로 상황」뿐입니다. 페이지가 안 열리는 것은 고장이 아니라 권한 문제입니다."
+   }
+  },
+  "es": {
+   "13edbe": {
+    "text": "La búsqueda de empleo en Japón se basa en el sistema **新卒一括採用** (contratación conjunta de recién graduados): las empresas contratan una sola vez al año y todas las personas siguen el mismo calendario. Este artículo aclara tres cosas: cuándo empieza, qué evalúa cada una de las tres etapas y dónde están las ventanillas de atención."
+   },
+   "3cf804": {
+    "text": "Próximos eventos"
+   },
+   "aad43e": {
+    "headers": [
+     "Evento",
+     "Fecha",
+     "Dirigido a"
+    ],
+    "rows": [
+     [
+      "Feria de estudio de sectores y empresas (業界・企業研究フェア) 2026",
+      "",
+      ""
+     ],
+     [
+      "Formato",
+      "Zoom en línea",
+      "Principalmente en japonés (con subtítulos)"
+     ]
+    ]
+   },
+   "db6bf7": {
+    "text": "Participan 11 empresas (正興電機, 福岡銀行, ニトリ, AGC, NTTデータ, カプコン, 楽天カード, entre otras). Organiza: **学務部キャリア支援課 092-802-5902**. La información oficial tiene prioridad."
+   },
+   "4decce": {
+    "text": "Características de la búsqueda de empleo en Japón"
+   },
+   "504b9c": {
+    "items": [
+     {
+      "text": "**新卒一括採用**: contratación única según el año de graduación; la empresa decide al candidato mientras todavía estudia."
+     },
+     {
+      "text": "**4 月入社** (incorporación en abril): se gradúa en marzo y se entra el 1 de abril, casi al mismo ritmo en todos los sectores."
+     },
+     {
+      "text": "**Se valora el potencial, no la capacidad inmediata**: no se exige saber hacer el trabajo antes de entrar, sino que se pueda formar a la persona."
+     },
+     {
+      "text": "**メンバーシップ型** (empleo por pertenencia): no se limitan las funciones, el lugar ni el horario; se contrata como «puesto general» (総合職)."
+     }
+    ]
+   },
+   "1e230b": {
+    "text": "Las empresas japonesas evalúan a los estudiantes internacionales con el **mismo criterio que a los estudiantes japoneses**, tanto en empresas japonesas como extranjeras. No existe una «vía exclusiva para extranjeros»."
+   },
+   "8523d8": {
+    "text": "Calendario: una vez al año"
+   },
+   "7bcd01": {
+    "headers": [
+     "Etapa",
+     "Fecha",
+     "Qué hacer"
+    ],
+    "rows": [
+     [
+      "Preparación",
+      "5 meses antes del proceso principal",
+      "Autoanálisis y estudio del sector"
+     ],
+     [
+      "Prácticas de verano",
+      "",
+      "Contacto anticipado con las empresas"
+     ],
+     [
+      "Solicitud y sesiones informativas",
+      "",
+      "Enviar el currículum y asistir a sesiones informativas"
+     ],
+     [
+      "ES y pruebas escritas",
+      "",
+      "Ensayo del formulario de solicitud y prueba SPI"
+     ],
+     [
+      "Entrevistas",
+      "Desde junio",
+      "De 2 a 3 rondas por empresa"
+     ],
+     [
+      "Oferta de empleo (内定)",
+      "Desde junio (formal en octubre)",
+      "Informar a la universidad una vez decidido"
+     ]
+    ]
+   },
+   "cfc60c": {
+    "text": "El punto de partida es el **1 de marzo del año anterior al último curso** (grado: 3.er año; máster: 1.er año; doctorado: 2.º año) y el proceso termina a mediados de junio: unos 4 meses. **Si pierdes este año, después es difícil recuperarlo**."
+   },
+   "0d5661": {
+    "text": "Las tres etapas de selección"
+   },
+   "27c2f5": {
+    "headers": [
+     "Etapa",
+     "Qué se evalúa",
+     "Dificultad para estudiantes internacionales"
+    ],
+    "rows": [
+     [
+      "Selección documental",
+      "Ensayo ES con un número de caracteres determinado",
+      "Ensayo ES: exige un nivel alto de japonés"
+     ],
+     [
+      "Prueba de aptitud y examen escrito",
+      "SPI, entre otros; los enunciados son en japonés",
+      "Las preguntas no son difíciles, pero hay que ser rápido y preciso"
+     ],
+     [
+      "Entrevista",
+      "Debate en grupo, entrevista grupal y entrevista individual",
+      "De 2 a 3 rondas por empresa; se evalúa la expresión oral"
+     ]
+    ]
+   },
+   "8476b7": {
+    "text": "En el ES hay que redactar los «motivos de la solicitud» y «lo que más te esforzaste durante tus estudios», y **los estudiantes internacionales suelen tener dificultades con la redacción en japonés**. La universidad cuenta con un **進路・就職アドバイザー** (asesor de trayectoria profesional y empleo) que puede ayudarte a revisar el texto."
+   },
+   "40bdee": {
+    "text": "Los dos trámites posteriores al 内定"
+   },
+   "ffe405": {
+    "items": [
+     {
+      "text": "**Cambio de estatus de residencia**: pasar del estatus «estudiante internacional» (留学) a un estatus de residencia que permita trabajar."
+     },
+     {
+      "text": "**Notificación a la universidad**: una vez decidida tu trayectoria profesional, debes informar al departamento al que perteneces; también puedes presentarla a través del sistema de apoyo al empleo."
+     }
+    ]
+   },
+   "14b0cf": {
+    "text": "Accesos oficiales y ventanillas de atención"
+   },
+   "082260": {
+    "items": [
+     {
+      "text": "学務部学生支援課 キャリア支援室 (Oficina de Apoyo Profesional) — responsable del apoyo al empleo de estudiantes internacionales"
+     },
+     {
+      "text": "Edificio 1 del Centro (センター1号館), 2.º piso, ventanilla n.º 2 (campus Ito)"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     }
+    ]
+   },
+   "bd6778": {
+    "items": [
+     {
+      "text": "Sobre la búsqueda de empleo en Japón (público · léelo primero)",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/employment/foreign/jobhunting"
+     },
+     {
+      "text": "Situación de las trayectorias tras la graduación (datos reales de años anteriores)",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/employment/foreign/situation"
+     },
+     {
+      "text": "Apoyo al empleo para estudiantes internacionales (portal general)",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/employment/foreign"
+     },
+     {
+      "text": "Eventos de empleo dentro del campus (requiere inicio de sesión SSO)",
+      "url": "https://www.kyushu-u.ac.jp/ja/internal/employment/intl_support/on-campus_seminar_guidance"
+     },
+     {
+      "text": "Eventos de empleo fuera del campus (requiere inicio de sesión SSO)",
+      "url": "https://www.kyushu-u.ac.jp/ja/internal/employment/intl_support/off-campus_guidance"
+     },
+     {
+      "text": "Ofertas de empleo (requiere inicio de sesión SSO)",
+      "url": "https://www.kyushu-u.ac.jp/ja/internal/employment/intl_support/jobvacancy"
+     },
+     {
+      "text": "Programas de prácticas (requiere inicio de sesión SSO)",
+      "url": "https://www.kyushu-u.ac.jp/ja/internal/employment/intl_support/internships"
+     },
+     {
+      "text": "Experiencias de búsqueda de empleo (requiere inicio de sesión SSO)",
+      "url": "https://www.kyushu-u.ac.jp/ja/internal/employment/intl_support/reports"
+     },
+     {
+      "text": "Consulta sobre trayectoria y empleo (requiere inicio de sesión SSO)",
+      "url": "https://www.kyushu-u.ac.jp/ja/internal/employment/intl_support/consulting"
+     },
+     {
+      "text": "Información útil para la búsqueda de empleo de estudiantes internacionales (requiere inicio de sesión SSO)",
+      "url": "https://www.kyushu-u.ac.jp/ja/internal/employment/intl_support/information"
+     },
+     {
+      "text": "Study in Japan (empleo en Japón y estatus de residencia)",
+      "url": "https://www.studyinjapan.go.jp/ja/work-in-japan/employment/"
+     }
+    ]
+   },
+   "8a888e": {
+    "text": "De las 9 páginas anteriores, **la mayoría requiere iniciar sesión con el SSO de Kyudai** (todas las que aparecen bajo `/ja/internal/` son páginas internas). Antes de matricularte solo puedes consultar «Sobre la búsqueda de empleo en Japón» y «Situación de las trayectorias tras la graduación». Que no encuentres una página no es un fallo: es una cuestión de permisos."
    }
   }
  }

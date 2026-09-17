@@ -16,7 +16,7 @@ function hay(a) {
     (b.rows || []).forEach(r => acc.push(r.join(' '))); (b.blocks || []).forEach(walk); };
   (a.blocks || []).forEach(walk);
   const im = BODY[a._id] || {};
-  for (const l of ['ja','en','ko']) { const tm = im[l]; if (!tm) continue;
+  for (const l of ['ja','en','ko','es']) { const tm = im[l]; if (!tm) continue;
     for (const k in tm) { const v = tm[k]; if (!v) continue;
       if (v.text) acc.push(v.text);
       (v.items || []).forEach(it => ['text','title','desc'].forEach(x => { if (it[x]) acc.push(it[x]); }));

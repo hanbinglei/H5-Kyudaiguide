@@ -29,7 +29,7 @@ const ARTICLES = loadWin('data-articles.js', 'ARTICLES');
 const NAV = loadWin('articles-i18n.js', 'ARTICLES_I18N') || {};
 const BODY = loadWin('articles-body-i18n.js', 'ARTICLES_BODY_I18N') || {};
 const S = loadWin('search.js', 'GuideSearch');
-S.build(ARTICLES, { nav: NAV, body: BODY, langs: ['zh', 'ja', 'en', 'ko'] });
+S.build(ARTICLES, { nav: NAV, body: BODY, langs: ['zh', 'ja', 'en', 'ko', 'es'] });
 
 // lang, 真实语序查询, 期望文章, 结果条数上限
 const CASES = [

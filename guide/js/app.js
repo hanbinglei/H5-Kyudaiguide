@@ -523,7 +523,7 @@ const SUGGEST=['手机','银行','打工','医院','垃圾分类','地震'];
 let runSearch=()=>{};
 function searchReady(){return !!(window.GuideSearch&&ARTICLES.length)}
 function searchRebuild(){
-  if(searchReady())GuideSearch.build(ARTICLES,{nav:window.ARTICLES_I18N||{},body:window.ARTICLES_BODY_I18N||{},langs:['zh','ja','en','ko']});
+  if(searchReady())GuideSearch.build(ARTICLES,{nav:window.ARTICLES_I18N||{},body:window.ARTICLES_BODY_I18N||{},langs:['zh','ja','en','ko','es']});
 }
 /** 关键词高亮：在原文上逐字扫，避开正则转义问题与 <mark> 套娃 */
 function hl(text,q){

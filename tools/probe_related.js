@@ -81,7 +81,7 @@ const CAND = [
   ['汇款回国', 'guide-bank', '口语'],
 ];
 
-const LANGS = ['zh', 'ja', 'en', 'ko'];
+const LANGS = ['zh', 'ja', 'en', 'ko', 'es'];
 console.log('查询词            目标文章            字面是否已出现   结论');
 console.log('─'.repeat(78));
 const ok = [];

@@ -10,7 +10,7 @@ const BODY = loadWin('articles-body-i18n.js', 'ARTICLES_BODY_I18N') || {};
 const sandbox = { window: {} };
 new vm.Script(fs.readFileSync(path.join(ROOT, 'guide', 'js', 'search.js'), 'utf8')).runInNewContext(sandbox);
 const S = sandbox.window.GuideSearch;
-S.build(ARTICLES, { nav: NAV, body: BODY, langs: ['zh', 'ja', 'en', 'ko'] });
+S.build(ARTICLES, { nav: NAV, body: BODY, langs: ['zh', 'ja', 'en', 'ko', 'es'] });
 for (const q of ['手机卡', '电话卡', '医院', '手机 套餐', '吃药']) {
   try {
     const r = S.query(q, { lang: 'zh', limit: 99 });

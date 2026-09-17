@@ -72,7 +72,7 @@ if (process.env.USE_NEW) {
   const sandbox = { window: {} };
   new vm.Script(src).runInNewContext(sandbox);
   const S = sandbox.window.GuideSearch;
-  S.build(ARTICLES, { nav: NAV, body: BODY, langs: ['zh', 'ja', 'en', 'ko'] });
+  S.build(ARTICLES, { nav: NAV, body: BODY, langs: ['zh', 'ja', 'en', 'ko', 'es'] });
   newQuery = (q, lang) => S.query(q, { lang, limit: 99 }).map(r => r.id);
 }
 
@@ -155,7 +155,7 @@ try {
   const sandbox = { window: {} };
   new vm.Script(src).runInNewContext(sandbox);
   const S = sandbox.window.GuideSearch;
-  S.build(ARTICLES, { nav: NAV, body: BODY, langs: ['zh', 'ja', 'en', 'ko'] });
+  S.build(ARTICLES, { nav: NAV, body: BODY, langs: ['zh', 'ja', 'en', 'ko', 'es'] });
   impls.push(['新版', (q, lang) => S.query(q, { lang, limit: 99 }).map(r => r.id)]);
 } catch (e) {
   if (!process.env.NEW_ONLY) console.error('(search.js 未装载: ' + e.message.slice(0, 60) + ')');

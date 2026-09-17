@@ -18,7 +18,7 @@ spec = importlib.util.spec_from_file_location("ex", os.path.join(ROOT, "tools", 
 ex = importlib.util.module_from_spec(spec); spec.loader.exec_module(ex)
 
 I18N = os.path.join(ROOT, "guide", "js", "articles-body-i18n.js")
-LANGS = ("ja", "en", "ko")
+LANGS = ("ja", "en", "ko", "es")
 
 
 def load_entry(art, raw):

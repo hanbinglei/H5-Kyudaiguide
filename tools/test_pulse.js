@@ -191,14 +191,14 @@ const settle = () => new Promise((r) => setTimeout(r, 30));
     await settle();
     const before = texts().slice(0, 4);
     const shots = { zh: before };
-    for (const L of ['ja', 'en', 'ko']) {
+    for (const L of ['ja', 'en', 'ko', 'es']) {
       c6.GuideI18N.setLang(L);
       c6.Pulse.render();                       // app.js 的 applyI18N() 就是这么调的
       await settle();
       shots[L] = texts().slice(0, 4);
     }
     const stale = [];
-    for (const L of ['ja', 'en', 'ko']) {
+    for (const L of ['ja', 'en', 'ko', 'es']) {
       // 每条标签都不该与中文版完全相同（温度等数字相同是允许的，但整串不该一样）
       ['👋', '📅', '☔', '📖'].forEach((ic, i) => {
         const a = (shots.zh[i] || '').replace(ic, '').trim();
@@ -236,8 +236,9 @@ const settle = () => new Promise((r) => setTimeout(r, 30));
       ja: '新入留学生サポート（空港シャトルバス）',
       en: 'Newcomer Support: Airport Shuttle Bus',
       ko: '신입 유학생 지원: 공항 셔틀버스',
+      es: 'Apoyo a nuevos estudiantes: autobús lanzadera del aeropuerto',
     };
-    for (const L of ['zh', 'ja', 'en', 'ko']) {
+    for (const L of ['zh', 'ja', 'en', 'ko', 'es']) {
       const got = c8.window.GuideI18N.cunliLabel(item, L);
       ok(got === want[L], L + ' 取到正确的活动名', got);
     }
