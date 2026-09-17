@@ -1373,6 +1373,460 @@ window.ARTICLES_BODY_I18N = {
      }
     ]
    }
+  },
+  "es": {
+   "333750": {
+    "text": "Reconocimientos médicos y ventanillas dentro de la universidad"
+   },
+   "742187": {
+    "text": "Exención de matrícula"
+   },
+   "444ca9": {
+    "text": "Organizado por: cuentas y certificados → selección de cursos y clases → investigación y estudios de posgrado → becas y exenciones."
+   },
+   "cc1cac": {
+    "text": "Cuentas y certificados"
+   },
+   "3b7366": {
+    "text": "La activación de SSO-KID no se puede hacer con un correo distinto al de la universidad. El certificado de notas, el certificado de matrícula, el certificado de descuento de estudiante para el Shinkansen（新幹線学割）y otros se solicitan a través de la página de certificados (certificate) del sitio oficial de Kyushu University; los certificados de los estudiantes de posgrado se tramitan en ku-cert."
+   },
+   "5ed19b": {
+    "items": [
+     {
+      "text": "Certificados de Kyushu University (notas, matrícula, descuentos, etc.)",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/procedure/certificate/"
+     },
+     {
+      "text": "Certificados de estudiantes de posgrado (ku-cert)",
+      "url": "https://ku-cert.kyushu-u.ac.jp/cert/z/c_menu.html/_/g"
+     },
+     {
+      "text": "Sistema de selección de cursos (JTC)",
+      "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
+     },
+     {
+      "text": "Correo de la universidad (Outlook, iniciar sesión con la cuenta de la universidad)",
+      "url": "https://outlook.office.com/mail/"
+     },
+     {
+      "text": "Contraseña/cuenta SSO (passchg)",
+      "url": "https://ci.iii.kyushu-u.ac.jp/m/"
+     }
+    ]
+   },
+   "c8db3c": {
+    "text": "Algunas instalaciones (como las externas frente a la estación Hakata) requieren reserva para poder entrar; los estudiantes que no son de QBS también pueden entrar, aunque en ocasiones como las sesiones informativas puede resultar incómodo intervenir. Las plazas de aparcamiento se solicitan a través del sistema car-entry."
+   },
+   "ad0d60": {
+    "items": [
+     {
+      "text": "Guía de instalaciones externas de Hakata",
+      "url": "https://www.kyushu-u.ac.jp/ja/university/facility/external/hakata/guide/"
+     },
+     {
+      "text": "Solicitud de plazas de aparcamiento de la universidad",
+      "url": "https://car-entry.cargate.kyushu-u.ac.jp/reg_apply/"
+     },
+     {
+      "text": "Gestión de la tarjeta de puntos Rakuten（楽天ポイントカード）",
+      "url": "https://pointcard.rakuten.co.jp/"
+     }
+    ]
+   },
+   "c8e67d": {
+    "text": "Selección de cursos y clases"
+   },
+   "e254fb": {
+    "text": "La selección de cursos suele empezar en la primera o segunda semana del nuevo semestre (aproximadamente del 4/8 al 4/10; consulta el aviso oficial de la universidad). JTW es un sistema de cursos independiente; la universidad avisa por correo a quienes cumplan los requisitos."
+   },
+   "b1a9b5": {
+    "text": "La lista de libros de texto suele publicarse recién en la primera clase, así que conviene pensar con antelación en cómo comprarlos; también se pueden conseguir de segunda mano de los estudiantes de cursos superiores. Los doctorandos pueden asistir a los cursos de japonés del Centro de Estudiantes Internacionales (ISC); consulta la página del ISC."
+   },
+   "9ce243": {
+    "items": [
+     {
+      "text": "Cursos de japonés del ISC",
+      "url": "https://isc.kyushu-u.ac.jp/center/international/japaneselang/"
+     }
+    ]
+   },
+   "4d947b": {
+    "text": "Kyushu University ofrece **una gran cantidad de asignaturas impartidas en inglés**. Para los estudiantes de intercambio del año 2026 hay una lista aparte de asignaturas a las que pueden asistir; si quieres evitar las clases en japonés, consulta primero esa lista."
+   },
+   "d13843": {
+    "items": [
+     {
+      "text": "Lista de asignaturas impartidas en inglés (página en japonés)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/english"
+     },
+     {
+      "text": "Courses Conducted in English (página en inglés)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/en/student/english"
+     }
+    ]
+   },
+   "f9e37c": {
+    "text": "Investigación y estudios de posgrado"
+   },
+   "5b832c": {
+    "text": "¿Es necesario contactar antes con el profesor para ingresar directamente en Kyushu University?"
+   },
+   "acc4f9": {
+    "text": "Sí. **Primero hay que contactar con el profesor** y confirmar que está dispuesto a aceptarte, y después presentarse al examen. Esto depende de si el profesor acepta estudiantes extranjeros y de si el laboratorio tiene plazas: incluso si apruebas el examen, sin plaza puede ser imposible ingresar. Las calificaciones de la licenciatura no son el único factor; lo que cuenta sobre todo es el criterio del profesor. Algunos programas de informática no exigen el consentimiento previo del profesor（内諾）, pero aun así se recomienda contactar con antelación para confirmarlo."
+   },
+   "6be666": {
+    "text": "El profesor tutor está próximo a jubilarse"
+   },
+   "406f13": {
+    "text": "Si piensas hacer un doctorado y te preocupa que la jubilación del profesor retrase tu graduación o te obligue a cambiar de tutor, puedes informarte con antelación de forma indirecta sobre la situación del profesor. La forma más directa de saber si esto afectará a la supervisión posterior es hablarlo en persona con el profesor."
+   },
+   "3668c3": {
+    "text": "Research Student (estudiante de investigación, 研究生)"
+   },
+   "93d2c1": {
+    "text": "La experiencia depende en gran medida del estilo del profesor: unos guían todo el tiempo en inglés y son exigentes; otros son más flexibles y dejan que aprendas por tu cuenta. Las horas de presencia en el laboratorio son una norma interna del laboratorio; asistir puntualmente es el requisito básico. Los detalles se pueden preguntar al profesor o a los estudiantes de cursos superiores."
+   },
+   "eedeaa": {
+    "text": "Referencia para la preparación: cada especialidad es distinta; puedes inscribirte y presentarte una vez para conocer el formato de las preguntas y los requisitos, y prepararte en consecuencia."
+   },
+   "14676e": {
+    "text": "Becas y exenciones"
+   },
+   "fbd83d": {
+    "text": "El RA (asistente de investigación) de Kyushu University sigue un estándar unificado para toda la universidad; según los comentarios, en el Departamento de Matemáticas ronda los 44,000 円/月 (valor orientativo; puede variar según el departamento y el año). Para solicitar el RA hace falta un tema de investigación adecuado; no todo el mundo puede obtenerlo y la competencia es bastante fuerte. Las publicaciones que muestran ingresos en internet no representan el nivel general; sirven solo como referencia."
+   },
+   "853a53": {
+    "text": "Becas para estudiantes internacionales autofinanciados"
+   },
+   "b6950e": {
+    "text": "Para las becas que pueden solicitar los estudiantes internacionales autofinanciados, la fuente más autorizada es el «tablón de anuncios de becas para estudiantes internacionales autofinanciados»（私費留学生奨学金公示板）del Centro de Estudiantes Internacionales (ISC), que se actualiza continuamente con las convocatorias vigentes. Los períodos de solicitud suelen ser cortos; se recomienda consultarlo con regularidad y confirmar cuanto antes las condiciones y las fechas límite."
+   },
+   "066616": {
+    "items": [
+     {
+      "text": "Tablón de becas para estudiantes internacionales autofinanciados del ISC (último año)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2026&lang=jp"
+     }
+    ]
+   },
+   "c3f0b4": {
+    "text": "Normalmente se solicita iniciando sesión en campusweb (el procedimiento se explica en «Trámites de estancia · solicitud de acceso a campus»); el período de solicitud sigue el aviso oficial de la universidad."
+   },
+   "e248db": {
+    "text": "Cursos de japonés（日本語コース, JTCs）"
+   },
+   "7fbb45": {
+    "text": "El centro de estudiantes internacionales de Kyushu University ofrece cursos de japonés (Japanese Training Courses). Hay que registrarse en línea dentro del período indicado y presentarse a la prueba de nivel（プレースメントテスト); **si se pierde el plazo de inscripción, no hay forma de registrarse después**."
+   },
+   "66a59f": {
+    "items": [
+     {
+      "text": "El período de inscripción suele ser la primera semana después del inicio de clases (por ejemplo, del 13 al 18 de abril)"
+     },
+     {
+      "text": "Dirigido a estudiantes de grado, de posgrado y no matriculados en asignaturas regulares（非正課生）"
+     },
+     {
+      "text": "Consulta: intlr-isc@jimu.kyushu-u.ac.jp / 092-802-2228"
+     }
+    ]
+   },
+   "32f280": {
+    "items": [
+     {
+      "text": "Página de registro de JTCs",
+      "url": "https://isc.kyushu-u.ac.jp/center/jtcs/"
+     }
+    ]
+   },
+   "6aab6e": {
+    "text": "Además existen los cursos intensivos de japonés（集中日本語コース, Intensive Japanese Courses）, abiertos en el semestre de otoño a todos los estudiantes internacionales (se requieren condiciones como un nivel de japonés suficiente y el permiso del profesor tutor)."
+   },
+   "c9398a": {
+    "text": "Clases de japonés fuera de la universidad（学外の日本語教室, 6 lugares）"
+   },
+   "714c74": {
+    "text": "Los cursos de japonés de Kyushu University son **gratuitos** (ver los enlaces de arriba). Fuera de la universidad hay además 6 clases de voluntarios, con costes que van de gratis a 100 円 por sesión; para practicar la conversación cotidiana y conocer a gente local son más adecuadas que las clases dentro del campus. La mayoría requieren contactar antes por correo."
+   },
+   "f627ad": {
+    "headers": [
+     "Clase",
+     "Ubicación",
+     "Horario",
+     "Coste"
+    ],
+    "rows": [
+     [
+      "Círculo Internacional de Ito（伊都インターナショナルサークル）",
+      "Campus Ito, West4",
+      "木 17:30〜20:00",
+      "cuota de entrada 500 円"
+     ],
+     [
+      "Hiroba de japonés Itoshima（日本語ひろば いとしま）",
+      "Centro de Derechos Humanos de Itoshima（糸島市人権センター）",
+      "Consulta necesaria",
+      "100 円 por sesión"
+     ],
+     [
+      "Hiroba de intercambio internacional Motooka（元岡国際交流ひろば）",
+      "centro cívico Motooka（元岡公民館）",
+      "水 18:30〜20:00",
+      "Gratis"
+     ],
+     [
+      "Global Friendship",
+      "Centro Internacional de la ciudad de Fukuoka, 4F（福岡市国際会館 4F）",
+      "Consulta necesaria",
+      "100 円 por sesión"
+     ],
+     [
+      "かすが・にほんごひろば",
+      "クローバープラザ 3F",
+      "Consulta necesaria",
+      "600 円 al mes"
+     ],
+     [
+      "Yorutomo-kai de Kashii-hama（香椎浜 よるとも会）",
+      "escuela primaria Kashii-hama（香椎浜小学校）",
+      "Consulta necesaria",
+      "Gratis"
+     ]
+    ]
+   },
+   "0d6cf9": {
+    "items": [
+     {
+      "text": "Círculo Internacional de Ito（伊都インターナショナルサークル）090-8764-9588",
+      "url": "mailto:hatae_iic@yahoo.co.jp"
+     },
+     {
+      "text": "Hiroba de japonés Itoshima（日本語ひろば いとしま）092-322-5095",
+      "url": "mailto:nihongoitoshima@gmail.com"
+     },
+     {
+      "text": "Hiroba de intercambio internacional Motooka（元岡国際交流ひろば）— consulta por correo",
+      "url": "mailto:motookahiroba@gmail.com"
+     },
+     {
+      "text": "Global Friendship 090-5727-9925",
+      "url": "mailto:globalfriendshipnihongo@gmail.com"
+     },
+     {
+      "text": "Hiroba de japonés Kasuga（かすが・にほんごひろば）080-6441-0763",
+      "url": "mailto:fk.kasuga.nihongo@gmail.com"
+     },
+     {
+      "text": "Yorutomo-kai de Kashii-hama（香椎浜 よるとも会）090-5921-7798",
+      "url": "mailto:tomoikifukuoka@gmail.com"
+     }
+    ]
+   },
+   "048da7": {
+    "text": "Reconocimiento médico"
+   },
+   "9bf76b": {
+    "text": "Cada año, en abril y octubre, hay un reconocimiento médico periódico (normalmente en el 2.º piso del Big Sando（ビッグさんど）). Tras la revisión se puede expedir gratuitamente el certificado de reconocimiento médico（健康診断書）. Si hay conflicto de fechas, se puede cambiar la cita."
+   },
+   "1a0232": {
+    "text": "**Sin haberse sometido al reconocimiento, no se puede expedir el certificado de reconocimiento médico.** Lo necesitarás para solicitar becas y para encontrar trabajo; asegúrate de asistir."
+   },
+   "0c0390": {
+    "text": "Retirada de certificados: los estudiantes de cursos regulares usan las **máquinas expendedoras automáticas**; los research students y los estudiantes de intercambio las solicitan en el **Centro de Apoyo a la Vida en el Campus y a la Salud**（キャンパスライフ・健康支援センター）de cada campus, gratis."
+   },
+   "c29b18": {
+    "text": "Lista de ventanillas de consulta"
+   },
+   "ac541e": {
+    "items": [
+     {
+      "text": "Centro de Apoyo a la Salud（健康支援センター）: 2.º piso del Big Sando; consultas psicológicas y de salud"
+     },
+     {
+      "text": "Oficina de consultas para estudiantes internacionales (ISC): B540; asignaturas, vivienda, enfermedades, cuidado de niños y asuntos que resultan incómodos de plantear al profesor tutor"
+     },
+     {
+      "text": "Sala de apoyo de salud del campus（キャンパスヘルスサポートルーム）: E-B-202; relaciones interpersonales y adaptaciones en la vida diaria"
+     },
+     {
+      "text": "Espacio de intercambio multilingüe (EZ Puratto, マルチリンガル交流スペース): E-C-202; apoyo a estudios en el extranjero, idiomas y préstamo de materiales"
+     },
+     {
+      "text": "Oficina de asuntos académicos（教務課）: Edificio East 1, C108; registro de asignaturas, certificados y expediente académico"
+     },
+     {
+      "text": "Oficina de asuntos estudiantiles（学生課）: Edificio East 1, C108; descuento de estudiante para transporte（定期学割）, reemisión de la tarjeta de estudiante y diversas solicitudes"
+     },
+     {
+      "text": "Centro de apoyo（サポートセンター）: Edificio East 1, C108; visado, información sobre hospitales, vivienda, clases de japonés, etc."
+     }
+    ]
+   },
+   "b41e84": {
+    "text": "Oficina de prevención del acoso（ハラスメント対策推進室）: ventanilla de consulta y denuncia sobre acoso (acoso sexual, acoso académico y abuso de poder)."
+   },
+   "e6e7d1": {
+    "items": [
+     {
+      "text": "Guía del Centro de Apoyo a la Salud (PDF en chino)",
+      "url": "https://chc.kyushu-u.ac.jp/@@supportx//wp-content/uploads/2026/05/brochure_chinese_2026.pdf"
+     },
+     {
+      "text": "Ídem (versión en inglés)",
+      "url": "https://chc.kyushu-u.ac.jp/@@supportx//wp-content/uploads/2026/05/brochure_english_2026.pdf"
+     },
+     {
+      "text": "Ídem (versión en japonés)",
+      "url": "https://chc.kyushu-u.ac.jp/@@supportx//wp-content/uploads/2026/05/brochure_japanese_2026.pdf"
+     },
+     {
+      "text": "Reconocimiento médico periódico de estudiantes (página oficial)",
+      "url": "https://chc.kyushu-u.ac.jp/student/health_check/"
+     }
+    ]
+   },
+   "9e1128": {
+    "text": "Contactos por facultad e instituto（部局別問い合わせ先）"
+   },
+   "7b2c1e": {
+    "items": [
+     {
+      "text": "Humanidades y Sociedad Global（人文・地球社会）: jbkkyomu1lt@jimu.kyushu-u.ac.jp"
+     },
+     {
+      "text": "Entorno Humano y Educación（人環・教育）: jbkkyomu1ed@jimu.kyushu-u.ac.jp"
+     },
+     {
+      "text": "Derecho: jbkkyomu2la@jimu.kyushu-u.ac.jp"
+     },
+     {
+      "text": "Economía: jbkkyomu2ec@jimu.kyushu-u.ac.jp"
+     },
+     {
+      "text": "Oficina de asuntos estudiantiles（学生係）: jbggakusei@jimu.kyushu-u.ac.jp"
+     }
+    ]
+   },
+   "f40f04": {
+    "text": "Calendario académico: confirma la versión aplicable"
+   },
+   "f8719f": {
+    "headers": [
+     "Período",
+     "Año académico 2026"
+    ],
+    "rows": [
+     [
+      "Semestre de primavera",
+      "04-08 ～ 06-09"
+     ],
+     [
+      "Semestre de verano",
+      "06-10 ～ 08-07"
+     ],
+     [
+      "Semestre de otoño",
+      "10-01 ～ 12-06"
+     ],
+     [
+      "Semestre de invierno",
+      "12-07 ～ 02-15"
+     ],
+     [
+      "Vacaciones de primavera",
+      "04-01 ～ 04-07"
+     ],
+     [
+      "Vacaciones de verano",
+      "08-08 ～ 09-30"
+     ],
+     [
+      "Vacaciones de invierno",
+      "12-26 ～ 01-04"
+     ]
+    ]
+   },
+   "92c5cc": {
+    "text": "Ceremonia de ingreso: 04-03 (otoño: 10-02) · entrega de diplomas: 03-25 (otoño: 09-25) · festival Kyudai（九大祭）: 10-30 – 11-02."
+   },
+   "828e4c": {
+    "text": "**Este es el calendario estándar unificado de toda la universidad; puede diferir según la escuela de posgrado o la facultad** — así lo señala la propia página oficial. Antes de reservar vuelos de vuelta a casa, exámenes o prácticas, vuelve a confirmarlo en el sitio web de tu propia facultad; no uses el calendario de la Facultad de Ingeniería para planificar asuntos de otra facultad."
+   },
+   "acd972": {
+    "items": [
+     {
+      "text": "Kyushu University · calendario académico (toda la universidad)",
+      "url": "https://www.kyushu-u.ac.jp/ja/faculty/schedule/"
+     }
+    ]
+   },
+   "1240ad": {
+    "text": "Cómo solicitar certificados"
+   },
+   "7d38ec": {
+    "text": "El certificado de matrícula（在学証明）, el certificado de notas, el certificado de finalización prevista de estudios（卒業/修了見込証明）y otros se tramitan a través del portal de emisión de certificados de la universidad. Algunos se pueden imprimir por cuenta propia en las **máquinas expendedoras automáticas del campus** (ver más abajo)."
+   },
+   "8d720b": {
+    "text": "Máquinas expendedoras automáticas (8:30〜17:15)"
+   },
+   "7ddd0f": {
+    "text": "El certificado de matrícula（在学証明書）, el certificado de desplazamiento（通学証明書）, el certificado de descuento de estudiante（学割証）y el certificado de reconocimiento médico（健康診断証明書）se pueden imprimir por cuenta propia, **sin hacer cola**. Ojo: **solo pueden usarlas los estudiantes de cursos regulares**; los research students y los estudiantes de intercambio deben acudir a su ventanilla correspondiente."
+   },
+   "9dc610": {
+    "headers": [
+     "Campus",
+     "Ubicación"
+    ],
+    "rows": [
+     [
+      "Ito",
+      "Edificio Center 1, 2F"
+     ],
+     [
+      "Ito",
+      "Edificio East 1, Bloque C, 1F"
+     ],
+     [
+      "Ito",
+      "Edificio West 1, Bloque A, 3F"
+     ],
+     [
+      "Ito",
+      "Edificio West 4, 2F"
+     ],
+     [
+      "Ito",
+      "Edificio West 5 Este, 3F"
+     ],
+     [
+      "Chikushi",
+      "entrada de la tienda del Vista Hall（ビスタホール売店入口）"
+     ],
+     [
+      "Ohashi",
+      "edificio administrativo de la Facultad de Diseño（芸術工学部管理棟）, 1F"
+     ],
+     [
+      "Hospital（病院）",
+      "Edificio de Investigación Básica, Bloque A, 1F"
+     ]
+    ]
+   },
+   "d2ae99": {
+    "items": [
+     {
+      "text": "Kyushu University · emisión de certificados",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/procedure/certificate/"
+     },
+     {
+      "text": "ISC · guía de vida diaria para estudiantes internacionales",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/page-019"
+     }
+    ]
+   },
+   "35d880": {
+    "text": "RA (ayudante de investigación)"
+   }
   }
  },
  "guide-antifraud": {
@@ -4635,6 +5089,394 @@ window.ARTICLES_BODY_I18N = {
    "33eac7": {
     "text": "직통 운행과 운임"
    }
+  },
+  "es": {
+   "329701": {
+    "text": "De la terminal internacional a la estación de metro"
+   },
+   "378734": {
+    "text": "Si vives en ITO Kyoso-kan y no hay un servicio directo, puedes tomar una línea con más frecuencia hasta la Biblioteca Central (中央図書館) o el Big Orange (ビッグオレンジ) y caminar desde allí: Biblioteca Central → ITO Kyoso-kan son unos 1.1 km, unos 15 minutos a pie; Big Orange → ITO Kyoso-kan son unos 1.4 km, unos 20 minutos a pie. Con mucho equipaje será más lento; valóralo según tu caso."
+   },
+   "520711": {
+    "text": "Tampoco pasa nada si te lo pierdes: es solo un servicio transitorio de los primeros días. Para las compras diarias posteriores puedes tomar el autobús Showa hasta la zona de la estación Kyudai-Gakkentoshi, usar los casilleros de recogida de Aeon en el campus (ver «Compras») o, si vives lejos, plantearte comprar una bicicleta."
+   },
+   "549889": {
+    "text": "**No importa lo tarde que llegues: el mismo día puedes instalarte con normalidad.** Según la hora de llegada, el trámite de entrada y la explicación de las normas del dormitorio pueden quedar para el día siguiente, pero el alojamiento en sí no se ve afectado."
+   },
+   "d15555": {
+    "text": "Los primeros días tras llegar a Japón hay que realizar varios trámites de forma concentrada y algunos deben seguir un orden determinado. A continuación se presentan ordenados según el itinerario «antes de entrar al país → después de aterrizar»."
+   },
+   "e71472": {
+    "text": "Trámites (antes de entrar al país)"
+   },
+   "0a4bc5": {
+    "text": "Cuándo se emite el COE (certificado de elegibilidad del estatus de residencia)"
+   },
+   "9d9ff6": {
+    "text": "Después de que la universidad presenta la solicitud ante la Agencia de Servicios de Inmigración, el COE suele emitirse en un plazo de 1~3 meses. Según la experiencia previa, la Universidad de Kyushu (九大) procesa las solicitudes con rapidez: en la mayoría de los casos se obtiene en aproximadamente 1 mes, por lo que normalmente se llega a tiempo para la matrícula."
+   },
+   "0ad4d3": {
+    "text": "Las áreas sensibles, como las carreras de ingeniería y ciencias (por ejemplo, IA, espacio o energía nuclear), pueden estar sujetas a revisiones adicionales, lo que alarga el proceso y conlleva el riesgo de no llegar a Japón antes del inicio de clases. En ese caso, conviene contactar con el personal académico y con el dormitorio (寮) para explicar la situación y acordar alternativas, como retrasar la llegada."
+   },
+   "a52750": {
+    "text": "Una vez emitido, el COE se envía por correo electrónico en versión electrónica (PDF) y tiene **una validez de 3 meses**; hay que completar la solicitud de visado y entrar al país dentro de ese plazo."
+   },
+   "30ec7e": {
+    "text": "Después de recibir el COE"
+   },
+   "a02f9c": {
+    "items": [
+     {
+      "text": "Solicitar el visado en la embajada o el consulado de Japón en China (normalmente 5~7 días hábiles)"
+     },
+     {
+      "text": "Reservar el billete de avión y organizar el alojamiento"
+     },
+     {
+      "text": "Esperar el viaje a Japón"
+     }
+    ]
+   },
+   "92d7fe": {
+    "text": "Preparativos antes de salir: equipaje, futón y sello"
+   },
+   "07924e": {
+    "text": "Qué llevar y qué dejar"
+   },
+   "db2432": {
+    "text": "Para decidir si merece la pena llevar un artículo, puedes plantearte tres preguntas:"
+   },
+   "4c7fd5": {
+    "items": [
+     {
+      "text": "¿Es un producto electrónico o de alta tecnología? (En Japón suelen ser más caros; conviene llevarlo)"
+     },
+     {
+      "text": "¿Solo se consigue en tu país de origen? (Los productos importados son caros en Japón)"
+     },
+     {
+      "text": "¿Lo usas todos los días? (Para evitar incomodidades al llegar)"
+     }
+    ]
+   },
+   "6c9ae7": {
+    "text": "En Japón hay ropa asequible, como Uniqlo (cuyas prendas de temporadas pasadas suelen estar rebajadas), así que la ropa normal se puede comprar allí; se recomienda traer ropa interior propia. Conviene llevar algo más de productos electrónicos y algo de efectivo. El protector solar no es caro en Japón, así que traerlo o no es opcional. El verano en Fukuoka es caluroso; hay que prepararse para el calor."
+   },
+   "d1f1ea": {
+    "text": "Futón"
+   },
+   "a28fda": {
+    "text": "En el dormitorio se puede alquilar ropa de cama, pero según las opiniones la calidad es regular. Se recomienda traer la ropa de cama que va en contacto con el cuerpo (funda del edredón y funda de la almohada); además, seguirán sirviéndote después de mudarte."
+   },
+   "1267be": {
+    "text": "Equipamiento del dormitorio"
+   },
+   "d0461c": {
+    "text": "El dormitorio ya cuenta con: cama, escritorio y silla, estantería, frigorífico y aire acondicionado. **No se proporcionan**: utensilios de cocina, hervidor, vajilla, toallas ni artículos de higiene. El papel higiénico solo incluye 1 rollo; hay que reponerlo por tu cuenta en cuanto puedas."
+   },
+   "6c0af7": {
+    "items": [
+     {
+      "text": "Global Gateway · información para estudiantes internacionales (incluye vivienda)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student"
+     }
+    ]
+   },
+   "67b2e2": {
+    "text": "Sello (はんこ)"
+   },
+   "7a40b0": {
+    "text": "En la vida diaria en Japón se necesita el sello en muchas situaciones. Puedes comprarlo en la máquina de grabado automático de Don Quijote (ドンキホーテ), desde unos 500 円; se pueden grabar kanji, hiragana, katakana y letras. Atención: el sello de tinta automática shachihata (シャチハタ) **no se puede usar para abrir una cuenta bancaria**, así que compra un sello de material común. Ver «Banco · transferencias»."
+   },
+   "65cb2d": {
+    "text": "Contacto antes de viajar (Supporter)"
+   },
+   "a6a23c": {
+    "text": "La Universidad de Kyushu asigna a cada estudiante nuevo un Supporter (estudiante actual), que se pondrá en contacto por correo antes de la salida. Conviene responder lo antes posible e intercambiar LINE / WeChat. El Supporter puede ayudar con el registro de entrada al dormitorio, el registro en la oficina del distrito, la apertura de cuenta bancaria y otros trámites."
+   },
+   "9bc5f2": {
+    "text": "Entrada al país: la tarjeta de residencia y el control de inmigración"
+   },
+   "2ca893": {
+    "text": "El Aeropuerto de Fukuoka es uno de los aeropuertos designados para la entrega de la tarjeta de residencia; te la entregan en el momento al pasar el control de inmigración. En ese momento, el campo de dirección de la tarjeta está en blanco; hay que registrarlo en la oficina del distrito después de aterrizar. El personal del control ayuda a quitar la grapa que fija el COE al pasaporte."
+   },
+   "7a12ab": {
+    "text": "Quienes entren por aeropuertos no designados (aeropuertos regionales como Naha, Kagoshima, Shizuoka…) solo reciben en el lugar el «aviso de entrega prevista de la tarjeta de residencia» (在留カード交付予定通知); la tarjeta de residencia se envía por correo a la dirección registrada aproximadamente 1～2 semanas después de completar el registro de residencia. Al entrar por Fukuoka no ocurre esto."
+   },
+   "6001bc": {
+    "text": "Pasar todo el control suele tardar 20～30 minutos; puede alargarse si llegan muchos vuelos a la misma hora. Si has confirmado el autobús de enlace de la universidad, deja margen de tiempo."
+   },
+   "7298fb": {
+    "text": "Ruta de salida: los cuatro controles que se pasan en orden"
+   },
+   "0a5d8b": {
+    "text": "El recorrido tras bajar del avión está señalizado por carteles en todo momento; basta con fijarse en los siguientes."
+   },
+   "ec1775": {
+    "items": [
+     {
+      "title": "Llegadas (到着 / Arrivals)",
+      "desc": "Sigue el cartel de fondo negro con el avión amarillo: «到着 Arrivals». En el mismo cartel, el símbolo verde «乗り継ぎ (国際線) Transfer» indica el pasillo de conexiones (transbordos)."
+     },
+     {
+      "title": "Cuarentena (検疫 / Quarantine) → control de inmigración",
+      "desc": "Si ya te registraste en Visit Japan Web, usa el pasillo marcado «Visit Japan Web 受付済みの方» y las letras a b c d. Si aún no te has registrado, puedes hacerlo allí mismo: busca la pancarta de fondo azul y letras blancas «共同キオスク / The integrated KIOSK», señalada a 50m."
+     },
+     {
+      "title": "Recogida de equipaje (手荷物受取所 / Baggage Claim)",
+      "desc": "Mira la pantalla «手荷物受取 (Baggage Claim)»; localiza tu vuelo por el aeropuerto de origen (出発地) y el número de vuelo (便名). El número a la derecha de tu vuelo es el de la cinta de equipaje."
+     },
+     {
+      "title": "Aduana (税関 / Customs)",
+      "desc": "Hay dos pasillos. Si hiciste la declaración por el móvil, usa el terminal «電子申告端末 (Customs Electronic Declaration Terminal)»; si declaras en papel, sigue la flecha roja del cartel amarillo «PAPER 紙申告»."
+     }
+    ]
+   },
+   "a03965": {
+    "text": "Antes de salir: prepara cambio en metálico"
+   },
+   "0da744": {
+    "text": "**Si piensas usar el transporte público, cambia el dinero antes de salir del aeropuerto.**\nEn el metro y en las líneas de JR se puede pagar con tarjeta contactless (ver la siguiente sección), pero el autobús Showa del campus solo acepta efectivo o tarjeta IC. La máquina cambiadora de los autobuses en Japón suele aceptar únicamente billetes de 1,000 円; los billetes de 5,000 円 y 10,000 円 no se pueden cambiar. Como los cajeros del aeropuerto suelen entregar billetes de 10,000 円, se recomienda cambiarlos antes en la tienda de conveniencia del aeropuerto y tener a mano unos cuantos billetes de 1,000 円 y algo de calderilla."
+   },
+   "c04837": {
+    "text": "Del aeropuerto a Ito: el autobús de enlace"
+   },
+   "1589b8": {
+    "text": "La universidad organiza autobuses de enlace gratuitos para estudiantes nuevos en fechas fijas alrededor del inicio de clases, solo para el campus Ito; el vehículo es un midibús o un autobús según el número de pasajeros de ese día. Las paradas de subida están en las terminales internacional y nacional del Aeropuerto de Fukuoka, y las de bajada incluyen la estación Kyudai-Gakkentoshi y los distintos dormitorios de estudiantes. Se atiende por orden de llegada, sin reserva previa."
+   },
+   "a963ac": {
+    "text": "**Las fechas y horarios de funcionamiento cambian cada semestre; consulta el aviso más reciente enviado por la universidad.** Si llegas fuera del periodo de funcionamiento o no puedes alcanzarlo por un retraso del vuelo, puedes ir por tu cuenta de las tres formas siguientes."
+   },
+   "b7abf2": {
+    "items": [
+     {
+      "text": "Información sobre el punto de encuentro del autobús de enlace de la Universidad de Kyushu (página de ejemplo; consulta el aviso más reciente)",
+      "url": "https://notepm.jp/sharing/90f2611c-aaa9-4f96-b32f-a88ca30e57c9"
+     }
+    ]
+   },
+   "c11763": {
+    "text": "Por tu cuenta (1): tren"
+   },
+   "4ecc41": {
+    "text": "Es la opción más fiable de las tres."
+   },
+   "c1cff3": {
+    "text": "Las terminales internacional y nacional del Aeropuerto de Fukuoka están a lados opuestos de la pista: **la estación de metro está en el lado de la terminal nacional, así que primero hay que tomar el autobús de conexión gratuito para llegar allí.**"
+   },
+   "76803e": {
+    "items": [
+     {
+      "title": "Encontrar el autobús de conexión",
+      "desc": "Al salir de la sala de llegadas, sigue los carteles de las columnas: «国内線連絡バス (地下鉄) Shuttle Bus (INT'L ⇔ Domestic, Subway)». La parada de subida es la A2."
+     },
+     {
+      "title": "Llegada a la terminal nacional",
+      "desc": "Junto a la parada de bajada está la entrada de la estación Fukuoka Airport (福岡空港駅), con escaleras mecánicas hacia abajo. En el mismo pasillo hay otra columna con el cartel «2 路線バス»: es el autobús urbano de línea, no el que va a Ito."
+     }
+    ]
+   },
+   "51cf4a": {
+    "text": "Entrar en la estación y subir al tren"
+   },
+   "2e12f7": {
+    "text": "La máquina de billetes está a la derecha del pasillo, marcada «きっぷうりば (Tickets)»."
+   },
+   "6041f9": {
+    "text": "Los tornos aceptan pago contactless con tarjeta de crédito (VISA / JCB / AMEX / Mastercard; junto al torno hay un cartel «タッチ決済 乗車OK»). **El día de la llegada no hace falta comprar billete ni obtener una tarjeta IC: puedes pasar directamente con tu tarjeta.**"
+   },
+   "ab8535": {
+    "text": "Confirmar el sentido del tren"
+   },
+   "4ac4a5": {
+    "text": "La estación Fukuoka Airport es la estación de origen (en el interior indica «当駅は始発駅です»); todos los trenes salen de aquí."
+   },
+   "91e638": {
+    "text": "**Toma el tren con dirección Chikuzen-Maebaru / Nishikaratsu / Karatsu. El tren hacia Meinohama termina en Meinohama y obliga a transbordar.**"
+   },
+   "9870ff": {
+    "text": "En la pantalla electrónica, los dos sentidos se distinguen por colores, así que puedes identificarlos aunque no sepas leer:"
+   },
+   "094817": {
+    "headers": [
+     "Dirección",
+     "Color en pantalla",
+     "¿Directo?"
+    ],
+    "rows": [
+     [
+      "Chikuzen-Maebaru / Nishikaratsu / Karatsu",
+      "Blanco",
+      "Directo, sin transbordo"
+     ],
+     [
+      "Meinohama",
+      "Rosa",
+      "Termina en Meinohama, hay que transbordar"
+     ]
+    ]
+   },
+   "33eac7": {
+    "text": "Servicio directo y tarifas"
+   },
+   "110b67": {
+    "text": "La línea de metro del Aeropuerto (空港線) y la línea JR Chikuhi (筑肥線) funcionan como servicio directo; después de Meinohama se entra en el tramo de JR:"
+   },
+   "60e8e9": {
+    "headers": [
+     "Estación",
+     "Número"
+    ],
+    "rows": [
+     [
+      "Meinohama (姪浜)",
+      "JK01"
+     ],
+     [
+      "Shimoyamato (下山門)",
+      "JK02"
+     ],
+     [
+      "Imajuku (今宿)",
+      "JK03"
+     ],
+     [
+      "Kyudai-Gakkentoshi (九大学研都市)",
+      "JK04"
+     ]
+    ]
+   },
+   "6a2144": {
+    "text": "Transbordo al autobús Showa en la estación Kyudai-Gakkentoshi"
+   },
+   "3df5ca": {
+    "headers": [
+     "Destino",
+     "Parada de bajada",
+     "Frecuencia"
+    ],
+    "rows": [
+     [
+      "D1 / D2 / D3",
+      "La entrada de Center Zone y otras 3 paradas",
+      "Frecuente"
+     ],
+     [
+      "ITO Kyoso-kan (伊都協奏館)",
+      "ITO Kyoso-kan (伊都協奏館)",
+      "Poco frecuente"
+     ],
+     [
+      "SETTLE International",
+      "Kokusaimura-mae / Tomari-kitaguchi (国際村前 / 泊北口)",
+      "Poco frecuente"
+     ]
+    ]
+   },
+   "f8af94": {
+    "text": "Para ir a SETTLE también puedes bajarte en la estación Hatae (波多江), caminar unos 400 metros hasta la estación de 産の宮 y transbordar al autobús. **Desde el aeropuerto no se puede tomar el tren rápido.** Un taxi desde Hatae hasta SETTLE cuesta unos 1,300 円 (valor de referencia)."
+   },
+   "05176b": {
+    "text": "Por tu cuenta (2): taxi"
+   },
+   "3077e9": {
+    "text": "Del Aeropuerto de Fukuoka al campus Ito cuesta unos 8,000～10,000 円 (valor de referencia; el importe real lo marca el taxímetro). Es una opción razonable si llevas mucho equipaje o llegas después de la última salida del transporte público."
+   },
+   "7135a9": {
+    "text": "Por tu cuenta (3): solo autobús"
+   },
+   "7f84f6": {
+    "text": "Desde la terminal internacional, toma el autobús Nishitetsu hasta la salida Chikushi de la estación Hakata (博多駅筑紫口); cruza la estación Hakata y camina unos 400 metros hasta la plataforma «Hakata Ekimae A» (博多駅前 A); allí transborda a la línea K del Nishitetsu hasta el Big Orange de la Universidad de Kyushu (九大ビッグオレンジ). Ambos tramos tienen intervalos largos y la línea K deja de funcionar pronto, así que solo plantéatelo si los horarios encajan bien."
+   },
+   "0ee9af": {
+    "text": "Para consultar autobuses usa Google Maps y **establece siempre la hora de salida**. En esta zona varias líneas tienen poca frecuencia; si no fijas la hora, puede mostrarte el servicio del día siguiente."
+   },
+   "cdff70": {
+    "text": "Resumen de costes por tramo"
+   },
+   "2f3a74": {
+    "headers": [
+     "Tramo",
+     "Medio",
+     "Coste"
+    ],
+    "rows": [
+     [
+      "Terminal internacional ⇄ terminal nacional",
+      "Autobús de conexión",
+      "Gratis"
+     ],
+     [
+      "Fukuoka Airport (福岡空港) → Kyudai-Gakkentoshi (九大学研都市)",
+      "Metro + JR (directo)",
+      "610 円, unos 36 min, sin transbordo"
+     ],
+     [
+      "Kyudai-Gakkentoshi (九大学研都市) → paradas del campus",
+      "Autobús Showa",
+      "Según la web oficial"
+     ],
+     [
+      "Fukuoka Airport (福岡空港) → campus Ito",
+      "Taxi",
+      "Unos 8,000〜10,000 円"
+     ],
+     [
+      "Hatae (波多江) → SETTLE",
+      "Taxi",
+      "Unos 1,300 円 (valor de referencia)"
+     ]
+    ]
+   },
+   "e8280e": {
+    "text": "Si vas a menudo al centro de la ciudad o al aeropuerto, puedes considerar el bono de viajes del campus Ito (伊都キャンパス回数券): 6,730 円 / 10 billetes, es decir, 673 円 por viaje; cubre desde las estaciones del metro hasta las paradas del campus en la línea de la Universidad de Kyushu (九大線) del autobús Showa. **La página oficial no indica si se puede usar hasta la estación del Aeropuerto de Fukuoka**; confírmalo por tu cuenta antes de comprarlo. Más detalles en «Transporte»."
+   },
+   "f7cdf3": {
+    "text": "Llegada al dormitorio: se puede entrar a cualquier hora del día"
+   },
+   "d5f4d7": {
+    "text": "Por eso, si el vuelo se retrasa, la conexión se demora o tienes que recurrir al taxi, no hace falta preocuparse por no tener dónde dormir esa noche."
+   },
+   "8e952c": {
+    "text": "Orden de los trámites en los primeros días tras la llegada"
+   },
+   "da2b75": {
+    "text": "Los trámites que se realizan tras instalarse siguen este orden: ① tarjeta SIM → ② cuenta bancaria → ③ seguro nacional de salud → ④ bicicleta y artículos de primera necesidad → ⑤ familiarizarse con el campus. Ver «Móvil · internet», «Banco · transferencias» y «Salud · seguros»."
+   },
+   "4547cd": {
+    "text": "De ellos, **el registro de la dirección es un requisito previo para la mayoría de los trámites**: primero se presenta la tarjeta de residencia para registrar la dirección y se recoge al día siguiente; después se tramitan la tarjeta SIM y la cuenta bancaria. Además, no olvides asistir a las distintas orientaciones; el tutor o el Supporter te avisarán con antelación."
+   },
+   "3e3e21": {
+    "text": "Los recorridos del aeropuerto, los carteles y la información local de esta sección se basan en los registros y fotos aportados por Hato y Ayáo (阿遥), y se han redactado a partir de ellos."
+   },
+   "2c1d72": {
+    "text": "Periodo de instalación: el autobús de apoyo a la vida diaria (生活支援バス)"
+   },
+   "62e9c1": {
+    "text": "Durante las dos primeras semanas aproximadamente tras entrar en el dormitorio, la universidad organiza el «autobús de apoyo a la vida diaria» (生活支援バス) para que los estudiantes nuevos que aún no tienen medio de transporte puedan comprar artículos de primera necesidad. Este nombre aparece en varios avisos: no es una línea permanente, sino un servicio temporal organizado específicamente para cada promoción."
+   },
+   "72acee": {
+    "items": [
+     {
+      "text": "En la puerta de D1"
+     },
+     {
+      "text": "En la puerta de ITO Kyoso-kan (伊都協奏館)"
+     },
+     {
+      "text": "En la puerta de SETTLE International"
+     },
+     {
+      "text": "En la puerta de la estación JR Kyudai-Gakkentoshi (JR 九大学研都市駅)"
+     }
+    ]
+   },
+   "041128": {
+    "text": "**Las fechas, frecuencias y rutas cambian en cada promoción; cada dormitorio y cada facultad las avisa por separado.** La tabla anterior solo indica las paradas: la hora de salida y el destino concretos siguen el aviso que recibas del dormitorio o la facultad; no te bases en los horarios de años anteriores."
+   },
+   "7dc6be": {
+    "text": "Parte del contenido de este artículo se basa en «新伊都国風土記» (Shin Ito-koku Fudoki), escrito por Hato_Tsubame y CantonSimon, e incluido con autorización de los autores. Los precios, horarios y procedimientos mencionados cambian con el tiempo; para asuntos importantes, consulta siempre las páginas web oficiales."
+   }
   }
  },
  "guide-housing": {
@@ -5827,6 +6669,403 @@ window.ARTICLES_BODY_I18N = {
    },
    "3218b7": {
     "text": "이 문서의 일부 내용은 「新伊都国風土記」(저자 Hato_Tsubame, CantonSimon)를 정리한 것이며 저자의 허가를 받아 수록했습니다. 본문의 가격, 배차, 절차는 모두 시간에 따라 변할 수 있으므로 중요한 사항은 각 공식 홈페이지를 기준으로 하세요."
+   }
+  },
+  "es": {
+   "161806": {
+    "items": [
+     {
+      "text": "Dormitorios designados por la Universidad de Kyushu: la universidad tiene contratos con apartamentos privados y se puede entrar sin fiador; preguntar en la oficina de estudiantes internacionales."
+     },
+     {
+      "text": "Vivienda pública (公営住宅, municipal/prefectural): alquiler más bajo, pero plazos de solicitud limitados; hay que participar en el sistema de garantía de vivienda de Kyudai (九大住宅保証制度)."
+     },
+     {
+      "text": "Apartamentos gestionados por 九大生協 (cooperativa de Kyudai): se pueden consultar en la tienda de la cooperativa (伊都皎皎舎) o en la página oficial."
+     },
+     {
+      "text": "福岡国際交流会館: atención multilingüe, orientado a personas extranjeras."
+     },
+     {
+      "text": "Casa compartida (share house) / guesthouse: en la zona de Itoshima hay share houses en casas antiguas tradicionales (como 糸結, ことのは, etc.)."
+     }
+    ]
+   },
+   "807523": {
+    "items": [
+     {
+      "title": "Solicitar en línea en el «Sistema de Apoyo a la Entrada»",
+      "desc": "Los estudiantes internacionales utilizan esta vía y deben completarla antes de llegar a Japón. Se puede solicitar a varias residencias a la vez e indicar el orden de preferencia."
+     },
+     {
+      "title": "Presentar antes de la fecha límite",
+      "desc": "Por ejemplo, para el periodo de octubre de 2026, la fecha límite es el 31 de julio de ese año a las 17:00 (hora de Japón)."
+     },
+     {
+      "title": "Esperar la notificación del resultado",
+      "desc": "Para el periodo de octubre, el resultado se notifica por correo a finales de agosto a la persona y a su profesor tutor."
+     },
+     {
+      "title": "Registrar el vuelo con antelación",
+      "desc": "Hay que introducir la información del vuelo en el sistema al menos 7 días hábiles antes de la fecha de entrada al dormitorio; de lo contrario, no se podrá entrar a tiempo."
+     }
+    ]
+   },
+   "910043": {
+    "text": "Transporte: todas las líneas del sistema Itoshima de la línea Kyudai pasan por aquí, y el sistema de líneas Kyudai también tiene una línea 2A que pasa. Las paradas disponibles son 国際村前, 伊都の湯どころ入口 y 泊北口. 国際村前 es la más cercana: todas las líneas 2A paran allí, pero solo parte de las líneas del sistema Itoshima pasan por ella; las líneas de Itoshima que no pasan por 国際村前 paran todas en 伊都の湯どころ入口, donde conviene bajarse si vas hacia la universidad porque está más cerca y no hay que cruzar la carretera; en 泊北口 paran todas las líneas mencionadas."
+   },
+   "67f6a8": {
+    "text": "Los dormitorios de la universidad y el alquiler en la ciudad son dos vías distintas: **se recomienda considerar primero el dormitorio**, ya que es más barato, los trámites son más sencillos y no se necesita fiador. Este artículo explica cómo elegir, los gastos iniciales y los puntos a tener en cuenta en el contrato."
+   },
+   "59e679": {
+    "text": "Dormitorios de la universidad: comparativa de las cuatro opciones"
+   },
+   "ec0d25": {
+    "text": "La mayoría de los estudiantes internacionales viven primero en dormitorios de la universidad durante el primer año y, una vez estables, consideran alquilar por su cuenta. En el campus Ito hay cuatro opciones a las que se puede solicitar: ドミトリー1/2/3 (D1/D2/D3) e 伊都協奏館, todas con estudiantes internacionales y japoneses conviviendo. Además, SETTLE International es un apartamento privado, pero está designado por la Universidad de Kyushu como dormitorio para estudiantes internacionales y se solicita por el mismo procedimiento; los detalles se tratan en una sección aparte más adelante en esta página."
+   },
+   "bdce7d": {
+    "headers": [
+     "Dormitorio",
+     "Tipo de habitación",
+     "Cuota mensual",
+     "Distancia a los edificios de clase"
+    ],
+    "rows": [
+     [
+      "Dormitorio 1 (D1)",
+      "Individual de 13 ㎡ (254 室)",
+      "23,000 円 + agua y electricidad",
+      "A pie, unos 5 min"
+     ],
+     [
+      "Dormitorio 2 (D2)",
+      "Individual de 17 ㎡ / pareja de 43 ㎡",
+      "30,000 円 + agua y electricidad",
+      "A pie, unos 5 min"
+     ],
+     [
+      "Dormitorio 3 (D3)",
+      "Unidad compartida de 4 personas",
+      "23,500 円 todo incluido",
+      "A pie, unos 5 min"
+     ],
+     [
+      "伊都協奏館",
+      "Individual de 17 ㎡ / pareja de 43 ㎡",
+      "21,000 円 + agua y electricidad",
+      "A pie, unos 15 min"
+     ]
+    ]
+   },
+   "ca3d1f": {
+    "text": "Tipos de habitación y número de unidades: ドミトリー1 y ドミトリー2 tienen individuales de 17 ㎡ y habitaciones de pareja de 43 ㎡; ドミトリー2 tiene 242 individuales y 20 de pareja, y ドミトリー1 tiene 549 individuales y 15 de pareja. La D3 de 伊都協奏館 es una unidad compartida de 4 personas (habitación individual de 7 ㎡ + espacios comunes de 28 ㎡)."
+   },
+   "ef875c": {
+    "text": "Cuotas y plazo de solicitud"
+   },
+   "612bb9": {
+    "text": "La cuota mensual = 寄宿料 (cuota de alojamiento) + 共益費 (gastos comunes) de 4,500 円. En los 23,500 円 de D3 ya están incluidos luz, agua, gas e internet; es la única opción «todo incluido». En las otras tres, los gastos de luz, agua y gas se cobran aparte según el consumo real, y el internet hay que contratarlo por cuenta propia con el operador designado (aprox. 2,000～3,500 円／mes). Las cuatro cobran además un depósito de 30,000 円, reembolsable al salir."
+   },
+   "a35e71": {
+    "text": "**No es un alojamiento permanente.** Los dormitorios se vuelven a ofertar cada semestre; cada estancia dura unos seis meses (por ejemplo, el periodo de octubre de 2026 va desde la fecha de entrada hasta el 15 de marzo de 2027). Hay una convocatoria cada año para el periodo de abril y otra para el de octubre; al finalizar, hay que volver a solicitar o mudarse según lo establecido. Si piensas a largo plazo, tenlo en cuenta."
+   },
+   "e96b54": {
+    "items": [
+     {
+      "text": "Ninguno de los cuatro tiene comedor (así lo declara oficialmente); hay que cocinar por cuenta propia o ir al comedor del campus."
+     },
+     {
+      "text": "Los estudiantes internacionales deben alquilar la ropa de cama: 7,480 円／medio año, o 14,960 円／año."
+     },
+     {
+      "text": "La habitación de pareja solo la pueden solicitar estudiantes internacionales y solo existe en D2 y 伊都協奏館."
+     },
+     {
+      "text": "D3 es una unidad compartida de 4 personas: 2 estudiantes internacionales + 2 estudiantes japoneses; la solicitud requiere escribir la motivación para el intercambio."
+     }
+    ]
+   },
+   "0785ee": {
+    "text": "Cómo solicitar el dormitorio"
+   },
+   "f917d8": {
+    "text": "D3 solo se puede marcar como primera opción y no se puede solicitar junto con el dormitorio 井尻寮. Una vez asignada la habitación, en principio no se puede cambiar."
+   },
+   "f7acdc": {
+    "text": "**La página oficial no aclara si pueden entrar los estudiantes de investigación (研究生 / リサーチスチューデント) y los estudiantes de intercambio.** El canal para estudiantes japoneses excluye explícitamente a los estudiantes de investigación, oyentes y otras personas no matriculadas en cursos regulares; las bases de la convocatoria del canal para estudiantes internacionales solo indican «estudiantes internacionales que tienen previsto llegar a la universidad o a Japón por primera vez», sin enumerar por separado esas dos categorías. Si no lo tienes claro, pregunta directamente: 国際部留学課受入支援係 (Sección de Apoyo a la Recepción de la Oficina de Estudiantes Internacionales del Departamento Internacional), imm.s@jimu.kyushu-u.ac.jp"
+   },
+   "7ffe11": {
+    "items": [
+     {
+      "text": "Universidad de Kyushu · Dormitorios de estudiantes",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/life/dormitory/"
+     },
+     {
+      "text": "Universidad de Kyushu · Portal de información de vivienda",
+      "url": "https://dormitory.student.kyushu-u.ac.jp/"
+     },
+     {
+      "text": "ISC · Detalles de los dormitorios para estudiantes internacionales",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/housing/dormitory"
+     },
+     {
+      "text": "Sistema de Apoyo a la Entrada (acceso a la solicitud)",
+      "url": "https://supportcenter.jimu.kyushu-u.ac.jp/student/"
+     }
+    ]
+   },
+   "ce90ee": {
+    "text": "Alquilar en Fukuoka: comparativa de tres zonas"
+   },
+   "c9a766": {
+    "text": "Gakken (alrededores de la estación Kyudai-Gakkentoshi)"
+   },
+   "60cdc9": {
+    "text": "Es la más amplia de las tres zonas y es la estación de salida de los autobuses, por lo que se puede tomar cualquier línea; es la más cómoda para ir a clase. En consecuencia, con las mismas condiciones, el alquiler es unas 1.1~1.2 veces el de Susenji."
+   },
+   "095a6e": {
+    "text": "Susenji（周船寺）"
+   },
+   "fe6c53": {
+    "text": "Es la opción más equilibrada entre distancia, alquiler y comodidad para la vida diaria. Algunos edificios son antiguos y el aislamiento acústico de las construcciones de madera es normal. El transporte depende principalmente de la línea Susenji; las líneas de autobús no son tan variadas como en Gakken."
+   },
+   "298caa": {
+    "text": "Justo al lado del campus"
+   },
+   "374ae9": {
+    "text": "Los edificios suelen ser nuevos y en su mayoría no son de madera; algunos incluyen electrodomésticos básicos. El inconveniente es que hay pocas tiendas alrededor: las compras cotidianas dependen sobre todo de las tiendas de conveniencia y la comodidad de vida es menor."
+   },
+   "02657e": {
+    "text": "Referencia de experiencia: un estudiante vive en Gakken desde 2022; el propietario pensaba subir el alquiler casi 2 veces, pero tras negociar se mantuvo en 53,000 円/月. El alquiler tiene margen de negociación; al renovar el contrato, conviene hablar con el propietario."
+   },
+   "1bb6a1": {
+    "text": "Gastos iniciales"
+   },
+   "fa402b": {
+    "text": "Los gastos iniciales del alquiler suelen ser de 4~5 veces la renta mensual e incluyen limpieza, cambio de cerradura, gastos de gestión, etc. (es un rango basado en experiencias; el contrato real es lo que vale). El proceso de aprobación tarda aproximadamente un mes; si planeas entrar en julio, conviene empezar a buscar ya en mayo."
+   },
+   "c505d6": {
+    "text": "Gastos de luz, agua y gas"
+   },
+   "495d0f": {
+    "text": "En verano, con el aire acondicionado en marcha, electricidad, gas y agua suman unos 20,000 円 al mes (valor orientativo; varía según los hábitos de uso)."
+   },
+   "cb74b3": {
+    "text": "Redirección del correo"
+   },
+   "994e7b": {
+    "text": "El trámite de redirección del correo en la oficina de correos después de mudarse se explica en 【Trámites de residencia · Redirección del correo】; no se repite aquí."
+   },
+   "c541f6": {
+    "text": "Enlaces útiles de la zona"
+   },
+   "11a7ad": {
+    "items": [
+     {
+      "text": "Precios de alquiler (HOME'S)",
+      "url": "https://www.homes.co.jp/"
+     },
+     {
+      "text": "SUUMO versión estudiantes (alrededores del campus Ito de Kyudai)",
+      "url": "https://gakusei.suumo.jp/gakko/kyushu/10015000_004/"
+     },
+     {
+      "text": "九大前不動産",
+      "url": "https://www.kyudaimae.co.jp/"
+     },
+     {
+      "text": "Susenji · Punto de recogida de cartones",
+      "url": "https://maps.app.goo.gl/WMofqf67itQLxT1B9"
+     },
+     {
+      "text": "Susenji · Buzón",
+      "url": "https://maps.app.goo.gl/v1yiCxUtXgySeABSA?g_st=ic"
+     },
+     {
+      "text": "Reciclaje de cartones (ciudad de Fukuoka)",
+      "url": "https://www.city.fukuoka.lg.jp/kankyo/jigyokeigomi/kaishujoho.html#web"
+     },
+     {
+      "text": "Centro de salud de la universidad · Consultas",
+      "url": "https://consult.kyushu-u.ac.jp/project/"
+     }
+    ]
+   },
+   "2e80af": {
+    "text": "Más canales para buscar vivienda"
+   },
+   "4919b5": {
+    "text": "La oferta de pisos en alquiler cerca del campus Ito es limitada; conviene combinar varios canales a la vez:"
+   },
+   "83dd45": {
+    "text": "Aviso: los estudiantes oyentes especiales (特別聴講学生), los estudiantes de investigación (研究生) y otras personas no matriculadas en cursos regulares pueden encontrar restricciones al alquilar; conviene consultar con antelación al centro de apoyo (サポートセンター)."
+   },
+   "69b4a1": {
+    "text": "Dos zonas más allá: Takata y Fujimi-Izumi"
+   },
+   "a7c359": {
+    "headers": [
+     "Zona (con ubicación)",
+     "Alquiler",
+     "Vida diaria",
+     "Desplazamientos"
+    ],
+    "rows": [
+     [
+      "Takata（高田; ciudad de Itoshima, entre Susenji y Hatae）",
+      "Más barato que el distrito oeste de Fukuoka",
+      "Comprar y comer sin problema",
+      "La línea Kyudai tiene menos frecuencias; con coche es más rápido"
+     ],
+     [
+      "Fujimi-Izumi（富士见·泉; entre Susenji y la universidad, zona residencial tranquila）",
+      "Un poco más barato que el centro de Susenji",
+      "Cuanto más al norte, menos tiendas; hay que ir hacia el sur o el este",
+      "Pasando por Susenji o Gakuen-dori（学園通）, es bastante cómodo"
+     ]
+    ]
+   },
+   "d28f07": {
+    "text": "Ojo si cruzas de municipio: Takata pertenece a la ciudad de Itoshima; para los trámites hay que ir a la oficina del ayuntamiento de Itoshima（糸島市役所）, cerca de la estación Chikuzen-Maebaru（筑前前原）. Quienes viven en el distrito oeste de Fukuoka van a la sucursal oeste de la oficina del ayuntamiento de Fukuoka（福岡市役所西部出張所）, cerca de la estación Kyudai-Gakkentoshi. Las bolsas de basura tampoco valen en ambos municipios: antes de comprar, confirma a cuál perteneces."
+   },
+   "3dede6": {
+    "text": "SETTLE International: diferencias con los demás dormitorios"
+   },
+   "6eed67": {
+    "text": "SETTLE es en realidad un apartamento comercial abierto al público; alrededor de la mitad de los residentes son estudiantes japoneses, por lo que su alquiler mensual es el más alto de las tres opciones. Precisamente por funcionar de otra manera, las experiencias de los demás dormitorios y de 伊都協奏館 normalmente no le aplican; y como está en la ciudad de Itoshima, varios trámites también son distintos de los de quienes viven en el distrito oeste de Fukuoka."
+   },
+   "55a19c": {
+    "headers": [
+     "Concepto",
+     "Importe (vía de solicitud de Kyudai)"
+    ],
+    "rows": [
+     [
+      "寄宿料 (cuota de alojamiento)",
+      "41,000 円／月"
+     ],
+     [
+      "管理費 (gastos de gestión)",
+      "5,000 円／月"
+     ],
+     [
+      "Soporte 24 h / seguro contra incendios / débito domiciliado",
+      "En total, 2,120 円／月"
+     ],
+     [
+      "Agua a tarifa fija",
+      "2,200 円／月"
+     ],
+     [
+      "Total mensual",
+      "Aprox. 50,320 円 + gastos de luz y gas"
+     ],
+     [
+      "Pago único a la entrada",
+      "132,100 円"
+     ]
+    ]
+   },
+   "97975c": {
+    "text": "Desglose de los gastos iniciales: 132,100 円 = depósito 30,000 + llave tarjeta 16,500 + limpieza 58,300 + otros gastos 27,300. En la cuota mensual está incluido el internet (gratis); hay que llevar el router por cuenta propia."
+   },
+   "482c1e": {
+    "text": "**Hay dos sistemas de precios; no te confundas.** La tabla anterior corresponde a los precios para entrar por el canal de solicitud de Kyudai; alquilar directamente al operador es otro esquema (alquiler aparte, gratificación al propietario, contrato de un año y comidas cobradas por separado cada mes). Ambos coexisten oficialmente; antes de solicitar, confirma por cuál vía vas."
+   },
+   "c8bea3": {
+    "text": "El edificio y las instalaciones"
+   },
+   "ee03f5": {
+    "text": "Complemento de información oficial: el tipo de habitación es 1R de unos 18.48～21.69 ㎡ (no se puede elegir entre los dos modelos), con comedor (las comidas se pagan aparte) y sala de estudio en la planta 6 (10:00–20:00). La estancia dura unos seis meses más que en los demás dormitorios. Los precios y las instalaciones se rigen por el último folleto oficial."
+   },
+   "adf452": {
+    "items": [
+     {
+      "text": "Ubicación: al suroeste del campus, fuera de la puerta sur, cerca de la Facultad de Agricultura; desde la puerta sur hay que subir una cuesta larga para llegar a la universidad."
+     },
+     {
+      "text": "Orientación: al norte, poca luz natural y ruido de la carretera; al sur, mucho sol en verano y más mosquitos."
+     },
+     {
+      "text": "Instalaciones: el edificio es muy nuevo; en la planta superior hay sala de estudio y secadora, y en la planta baja hay comedor."
+     },
+     {
+      "text": "Alrededores: no hay supermercado (solo una tienda de conveniencia en el cruce); hay un baño público y varios restaurantes."
+     }
+    ]
+   },
+   "8d272b": {
+    "text": "Referencia de experiencia: tener comedor es algo habitual en los apartamentos de estudiantes japoneses, y en una ubicación tan apartada como Kyudai sí tiene valor; sin embargo, según quienes han vivido allí, ni el sabor ni el precio destacan. Entrar como dormitorio no supone los elevados gastos iniciales de un apartamento comercial, así que puede servir como una experiencia de bajo coste."
+   },
+   "6c71d4": {
+    "text": "Transporte y ubicación"
+   },
+   "9c8146": {
+    "text": "Las frecuencias son escasas y casi no hay servicios en la zona a pie; para salir cuando quieras necesitas tu propio medio de transporte. Además, de SETTLE a la universidad todo son cuestas (hacia el sur, hasta la carretera nacional, sí hay terreno llano): una bicicleta normal resulta bastante pesada, y una eléctrica es cara y las subidas tampoco se alivian mucho. Si no tienes confianza en pedalear cuestas, plantéate directamente un ciclomotor (原付) — ver 【Transporte · Ciclomotor / Carné de conducir】."
+   },
+   "63c7c3": {
+    "text": "Puntos clave al elegir agencia"
+   },
+   "be819d": {
+    "text": "Cuando encuentras un piso que te gusta por internet, en la práctica la oferta suele estar en manos de alguna agencia. Las fotos no muestran el estado real de la vivienda; en la medida de lo posible, visita el piso en persona; si un piso te genera dudas, pregunta en el grupo por si algún compañero vive o ha vivido allí."
+   },
+   "89ee7b": {
+    "headers": [
+     "Agencia",
+     "Características"
+    ],
+    "rows": [
+     [
+      "九大生協 (cooperativa de Kyudai)",
+      "No es una institución de la universidad; algunos pisos sin comisión"
+     ],
+     [
+      "エイブル",
+      "Cadena nacional; la comisión de intermediación equivale a media mensualidad"
+     ],
+     [
+      "三好不動産",
+      "Con presencia sólida en Fukuoka"
+     ],
+     [
+      "アパマンショップ",
+      "Está bajo el Aeon; se visita de paso al supermercado"
+     ],
+     [
+      "九大前不動産",
+      "Es el administrador de SETTLE"
+     ],
+     [
+      "日本ハウス",
+      "Algunos pisos de gestión propia no cobran comisión"
+     ],
+     [
+      "ホームメイト",
+      "Tiene pisos cerca de la universidad; la oficina está en 姪浜 (Meinohama)"
+     ]
+    ]
+   },
+   "4e0936": {
+    "text": "Referencia de experiencia: lo anterior son impresiones de quienes han vivido allí; las políticas de cada agencia cambian y antes de firmar manda la oferta real. Merece la pena hojear la revista de vivienda de Kyudai que publica la cooperativa: sirve para hacerse una idea general de precios y zonas."
+   },
+   "81a0f5": {
+    "items": [
+     {
+      "text": "LIFULL HOME'S (el modo mapa facilita mucho buscar piso)",
+      "url": "https://www.homes.co.jp/chintai/"
+     },
+     {
+      "text": "SUUMO Kyushu",
+      "url": "https://suumo.jp/kyushu/"
+     },
+     {
+      "text": "九大生協 · Búsqueda de vivienda (住まいさがし)",
+      "url": "https://coop.kyushu-u.ac.jp/wp/"
+     }
+    ]
+   },
+   "3218b7": {
+    "text": "Parte del contenido de esta página procede de《新伊都国風土記》(autores: Hato_Tsubame y CantonSimon), recopilado con autorización de los autores. Los precios, las frecuencias y los trámites indicados cambian con el tiempo; para los asuntos importantes, consulta las páginas oficiales correspondientes."
    }
   }
  },
@@ -9822,6 +11061,334 @@ window.ARTICLES_BODY_I18N = {
    "526eaa": {
     "text": "본편의 일부 내용은 《新伊都国風土記(신이토국풍토기)》(저자 Hato_Tsubame, CantonSimon)에서 정리한 것으로, 저자의 허가를 받아 수록되었습니다. 본문의 가격, 운행 횟수와 절차는 시간이 지나면 변할 수 있으므로, 중요한 사항은 각 공식 사이트를 기준으로 하십시오."
    }
+  },
+  "es": {
+   "123756": {
+    "headers": [
+     "Duración de la salida",
+     "Qué hay que hacer"
+    ],
+    "rows": [
+     [
+      "1 año o menos",
+      "Basta con el permiso de reentrada presunto (みなし再入国許可)"
+     ],
+     [
+      "Más de 1 año",
+      "Solicitar con antelación el permiso de reentrada en la Agencia de Servicios de Inmigración"
+     ]
+    ]
+   },
+   "333844": {
+    "items": [
+     {
+      "text": "Antes de obtener el carné de estudiante hay que haber completado el registro de residencia;"
+     },
+     {
+      "text": "El tiempo de emisión del carné de estudiante varía según la facultad y no se entrega el mismo día;"
+     },
+     {
+      "text": "Una vez obtenido el carné de estudiante, hay que volver a la oficina del distrito para hacer el cambio."
+     }
+    ]
+   },
+   "569204": {
+    "text": "Trámites antes de regresar al país de origen"
+   },
+   "745564": {
+    "text": "Oficina del distrito / del ayuntamiento (administración local): trámites de la vida diaria, registro de residencia (住民登録), seguro nacional de salud (国民健康保険), pensión nacional (国民年金), My Number (マイナンバー)"
+   },
+   "824008": {
+    "text": "La mayoría de los trámites relacionados con el estatus de residencia se pueden realizar en ventanilla o en línea, pero tienen plazos y un orden determinado. Primero hay que distinguir bien las dos instituciones:"
+   },
+   "8988f9": {
+    "text": "El registro de domicilio es el punto de partida de todos los trámites: **sin completarlo no se puede abrir una cuenta bancaria ni contratar un teléfono móvil**. Este artículo primero distingue entre la oficina del distrito (区役所) y la Agencia de Servicios de Inmigración, y después explica en orden el registro de domicilio, la renovación del estatus de residencia, el My Number y el seguro de salud."
+   },
+   "cc395e": {
+    "text": "División de funciones entre la oficina del distrito y la Agencia de Servicios de Inmigración"
+   },
+   "37a783": {
+    "text": "Oficina del distrito vs. Agencia de Servicios de Inmigración"
+   },
+   "a14519": {
+    "text": "Agencia de Servicios de Inmigración (administración nacional): visado y estatus de residencia, renovación y modificación de la tarjeta de residencia, permiso de reentrada (再入国許可), permiso de actividad fuera del estatus (資格外活動許可)"
+   },
+   "5f159d": {
+    "text": "En resumen: la oficina del distrito gestiona la vida diaria; la Agencia de Servicios de Inmigración, el visado."
+   },
+   "1b1c2c": {
+    "text": "Registro de domicilio en la tarjeta de residencia"
+   },
+   "da7df6": {
+    "text": "El registro de domicilio es el primer paso después de llegar a Japón y también el más importante: casi todos los trámites posteriores (banco, teléfono móvil, seguro, etc.) solo se pueden realizar después de haberlo completado. Hay dos formas de hacerlo:"
+   },
+   "72da73": {
+    "text": "Por cuenta propia: acudir a Saitopia (さいとぴあ, sucursal 西部出張所), junto a la estación Kyudai-Gakkentoshi (九大学研都市駅) de JR, a unos 1 minuto a pie (horario de atención: días laborables 8:45~17:15, cerrado los fines de semana y festivos)."
+   },
+   "b9e577": {
+    "text": "En las ventanillas hay mostradores de asuntos de los ciudadanos (市民係) y de seguros y pensiones (保険年金係). Normalmente, en unas 1~1.5 horas se pueden completar a la vez el registro de residencia, la pensión y el seguro de salud. El personal tiene experiencia y puede atender en inglés."
+   },
+   "e1582c": {
+    "text": "Que lo gestione la universidad: la universidad guarda temporalmente la tarjeta de residencia durante unos 3 días hábiles y solo realiza el registro de residencia; la pensión y el seguro de salud se tramitan por cuenta propia. La ventaja es que no hay que ir personalmente."
+   },
+   "e5831f": {
+    "text": "Se puede elegir cualquiera de las dos opciones; incluso si se elige que lo gestione la universidad, no hay problema en completar después los demás trámites en la oficina del distrito. Una vez hecho el registro, hay que entregar la tarjeta de residencia en la oficina de asuntos estudiantiles correspondiente para un nuevo registro."
+   },
+   "fff1b2": {
+    "text": "Cambio de domicilio después de mudarse"
+   },
+   "3eed49": {
+    "text": "Después de mudarse (incluido dentro del mismo municipio), hay que hacer la declaración de entrada (転入届) en la oficina del distrito de la nueva dirección en un plazo de **14 días** y actualizar el domicilio en el reverso de la tarjeta de residencia. Hay que llevar: la tarjeta de residencia, el pasaporte y el certificado de residencia (住民票) anterior, si se tiene. En las mudanzas entre municipios, primero hay que presentar la declaración de salida (転出届) en la oficina del distrito del domicilio anterior y después la declaración de entrada (転入届) en el nuevo."
+   },
+   "ec20eb": {
+    "text": "Reenvío de correo en la oficina de correos"
+   },
+   "258c3a": {
+    "text": "Después de mudarse se puede solicitar en línea el reenvío de correo, con una validez de unos 3 meses. Si te mudas de A a B y luego a C, puedes solicitar primero A→B y después B→C; si durante ese tiempo llega correo a A, se reenviará automáticamente a C."
+   },
+   "ac86c0": {
+    "text": "Renovación de la tarjeta de residencia"
+   },
+   "29561b": {
+    "text": "La renovación se puede solicitar a partir de los **3 meses anteriores a la expiración** del período de residencia. Lugar: oficina regional de la Agencia de Servicios de Inmigración en Fukuoka (福岡出入国在留管理局), cerca de la estación Akasaka (赤坂駅) del metro. Los materiales necesarios suelen incluir: tarjeta de residencia, pasaporte, certificado de matrícula (在学証明書), formulario de solicitud (descargable en el sitio oficial), certificado de ingresos, etc."
+   },
+   "f9cb98": {
+    "text": "No renovar a tiempo constituye «estancia ilegal» (不法残留), con consecuencias graves y graduadas: penalmente se puede imponer **hasta 3 años de prisión o una multa de hasta 300 万円**; además conlleva la denegación de desembarco (上陸拒否, prohibición de reingreso): 1 año para quienes se presentan voluntariamente y salen del país, 5 años para quienes son deportados a la fuerza y 10 años para los reincidentes. Hazlo siempre antes de la fecha de expiración."
+   },
+   "0086fd": {
+    "items": [
+     {
+      "text": "Agencia de Servicios de Inmigración (出入国在留管理庁)",
+      "url": "http://www.moj.go.jp/isa/index.html"
+     }
+    ]
+   },
+   "9dec43": {
+    "text": "Tarjeta de residencia específica (nueva norma de 2026)"
+   },
+   "702ad6": {
+    "text": "A partir de 2026 年 6 月 14 日, la tarjeta de residencia y la tarjeta My Number se integran en una sola: se emite la tarjeta de residencia específica, que reúne ambas funciones en un único plástico. Las tarjetas de residencia actuales siguen siendo válidas durante su período de vigencia; el cambio es voluntario. Al renovar por vencimiento, se puede solicitar la nueva tarjeta si se desea."
+   },
+   "092dbb": {
+    "text": "Solicitud de acceso a campus (campusweb)"
+   },
+   "8977fb": {
+    "items": [
+     {
+      "text": "campusweb de la Universidad de Kyushu (九大)",
+      "url": "https://ku-portal.kyushu-u.ac.jp/campusweb/top.do"
+     }
+    ]
+   },
+   "1dda60": {
+    "text": "Las solicitudes de reducción de matrícula, como las de la Facultad de Agricultura, suelen tramitarse también por campusweb (si no sabes si está disponible, puedes intentar abrir la página anterior)."
+   },
+   "9c6062": {
+    "text": "Inicio de sesión y activación de SSO-KID"
+   },
+   "d66ea0": {
+    "text": "Si no consigues iniciar sesión o activar la cuenta unificada de la universidad (SSO-KID), consulta los accesos siguientes. Atención: para activar SSO-KID **no se puede usar un correo distinto del correo institucional**."
+   },
+   "7d1d01": {
+    "items": [
+     {
+      "text": "Inicio de sesión de estudiantes de SSO-KID",
+      "url": "https://web.sso.kyushu-u.ac.jp/ssokid/students.html"
+     },
+     {
+      "text": "Activación de la contraseña de SSO",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
+     }
+    ]
+   },
+   "67b663": {
+    "text": "My Number (マイナンバー)"
+   },
+   "e63790": {
+    "text": "Después del registro de residencia, la notificación del número personal llega por correo certificado a la dirección. Se recomienda solicitar cuanto antes la tarjeta My Number (tarjeta de plástico con foto) en la oficina del distrito: la necesitarás después para abrir una cuenta bancaria, recibir transferencias desde el extranjero, contratar seguros, etc. Al recibir transferencias del extranjero, el banco pedirá el My Number; se puede presentar el certificado de residencia (住民票) en el que conste."
+   },
+   "0b4d10": {
+    "text": "Seguro nacional de salud (seguro médico)"
+   },
+   "8f34d4": {
+    "text": "El seguro nacional de salud es un seguro médico: al afiliarse, la persona solo paga el 30% de la atención médica. Los estudiantes internacionales deben afiliarse. Se puede solicitar a la vez que el registro de residencia. Ver【Salud y Seguros】"
+   },
+   "ca823a": {
+    "text": "Pensión nacional (pensión de jubilación)"
+   },
+   "cf19f3": {
+    "text": "La pensión nacional es un seguro de pensión: toda persona de 20 años o más que resida en Japón tiene la obligación de afiliarse. En el año fiscal Reiwa 8 (2026), la prima es de **17,920 円 al mes**. Los estudiantes internacionales normalmente no necesitan pagarla de forma efectiva: se puede reducir o eximir por dos vías:"
+   },
+   "637f64": {
+    "text": "① Exención por ingresos por debajo del límite: se puede solicitar al llegar a Japón, cuando aún no hay ingresos; es la solución transitoria que la oficina del distrito ofrece en la primera gestión."
+   },
+   "ca081f": {
+    "text": "② Exención de pago para estudiantes (学生納付特例): la medida de largo plazo más adecuada para estudiantes internacionales: la prima se aplaza durante los años de estudio y se abona después, al tener ingresos tras graduarse. Para solicitarla se necesita el carné de estudiante y que los ingresos del año anterior estén por debajo del límite fijado (unos 128 万円 más las deducciones por dependientes; consulta la cifra oficial)."
+   },
+   "c8342b": {
+    "text": "Proceso clave y dudas frecuentes"
+   },
+   "4f17e5": {
+    "text": "Registro de residencia → solicitar en la oficina del distrito la exención por ingresos por debajo del límite → recoger el carné de estudiante en la oficina de asuntos estudiantiles → volver a la oficina del distrito para cambiar la exención de ① a ②, la exención de pago para estudiantes"
+   },
+   "90bede": {
+    "text": "Cada año hay estudiantes que olvidan hacer ese cambio y después reciben facturas de la pensión. Atención:"
+   },
+   "e7cf1e": {
+    "text": "Lugar de solicitud: el mostrador de pensiones de la oficina del distrito donde se hizo el registro de residencia, o la oficina de pensiones de Nishi-Fukuoka (西福岡年金事務所)."
+   },
+   "8a0854": {
+    "items": [
+     {
+      "text": "Agencia de Pensiones de Japón · Exención de pago para estudiantes (学生納付特例)",
+      "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20150514.html"
+     }
+    ]
+   },
+   "5960c7": {
+    "text": "Antes de salir de Japón hay que gestionar:"
+   },
+   "067610": {
+    "items": [
+     {
+      "text": "Dar de baja el domicilio: presentar la declaración de salida (転出届) en la oficina del distrito"
+     },
+     {
+      "text": "Seguro nacional de salud: devolver el certificado de seguro y liquidar las primas; si se han pagado 6 meses, se puede solicitar el reembolso único por salida (脱退一時金)"
+     },
+     {
+      "text": "Pensión nacional: si se solicitó alguna exención, confirmar el tratamiento posterior"
+     },
+     {
+      "text": "Impuestos: confirmar que el impuesto municipal (住民税) y el impuesto sobre la renta están liquidados; tras salir de Japón puede llegar una notificación de pago adicional, que habrá que encargar a un amigo que siga en Japón"
+     },
+     {
+      "text": "Cuenta bancaria: decidir si se cierra la cuenta"
+     },
+     {
+      "text": "Teléfono móvil: cancelar el contrato o portar el número (MNP)"
+     },
+     {
+      "text": "Dormitorio / apartamento: hacer la salida conforme al contrato"
+     },
+     {
+      "text": "Trámites de la universidad: certificados de calificaciones y de graduación, devolver los libros a la biblioteca, baja de la cooperativa (生協), etc."
+     }
+    ]
+   },
+   "23d79c": {
+    "text": "Las cantidades impagadas pueden afectar al historial crediticio personal y también salpicar al fiador o al profesor tutor."
+   },
+   "497bc4": {
+    "text": "Impuesto de turismo internacional (国際観光旅客税, «impuesto de salida»)"
+   },
+   "a61a13": {
+    "text": "Al salir de Japón en avión o en barco se cobra el impuesto internacional de turismo (国際観光旅客税), conocido popularmente como «impuesto de salida»; por lo general ya está incluido en el precio del billete. Desde las salidas de 2026-07-01, el impuesto sube de 1,000 円 a 3,000 円 por salida."
+   },
+   "f0dbae": {
+    "text": "Hay una medida transitoria que conviene recordar: los contratos de transporte firmados antes de 2026-06-30 (es decir, los billetes ya emitidos) siguen cobrándose a 1,000 円, aunque la salida real sea posterior al 7 月 1 日. Si piensas volver a casa en verano, emitir el billete antes supone una diferencia real."
+   },
+   "6432da": {
+    "text": "Cómo comprobarlo: revisar en el desglose del precio del billete o en el recibo si aparece el concepto «国際観光旅客税» o si entre los impuestos figura la cantidad JPY 3,000. Este impuesto no se cobra en los vuelos de entrada a Japón, así que solo aparece en sentido de «salida»."
+   },
+   "f21cc4": {
+    "text": "Salida temporal de Japón (volver a casa / asistir a congresos)"
+   },
+   "b36386": {
+    "text": "A diferencia del regreso definitivo, la salida temporal tiene su propio procedimiento. En principio, primero hay que obtener el consentimiento del profesor tutor (si aún no hay tutor asignado, se solicita al presidente del comité de estudiantes) y después presentar en la universidad la notificación de viaje al extranjero (海外渡航届). El formato del formulario puede variar según la facultad o la escuela de posgrado; conviene preguntarlo al obtener el consentimiento."
+   },
+   "e00cbb": {
+    "items": [
+     {
+      "title": "Recoger la declaración de entrada y salida al salir de Japón",
+      "desc": "Solicitarla y cumplimentarla al realizar los trámites de salida de Japón."
+     },
+     {
+      "title": "Marcar la opción correcta",
+      "desc": "En el período previsto de salida, marcar «1 año o menos» y, debajo, «salida temporal con intención de reingreso»."
+     },
+     {
+      "title": "Confirmar el sello",
+      "desc": "El personal de aduanas fija la declaración al pasaporte y estampa en el reverso el sello «みなし再入国許可»."
+     }
+    ]
+   },
+   "ba4f4e": {
+    "text": "**Si la tarjeta de residencia expira antes de cumplirse 1 año, el plazo que manda es el de la tarjeta de residencia**, no el de «1 año». Si esta regla se calcula mal, a la vuelta puede que no te dejen entrar."
+   },
+   "f188b5": {
+    "text": "Aviso de transporte: la estación Aeropuerto de Fukuoka del metro conecta directamente con la terminal de **vuelos nacionales**. Para volver a casa o viajar a otro país hay que ir a la terminal de **vuelos internacionales**, con transbordo en el autobús lanzadera gratuito."
+   },
+   "5a78fd": {
+    "text": "Tránsito por Hong Kong: documentos y devolución de impuestos"
+   },
+   "6e4653": {
+    "text": "Entre Hong Kong y Fukuoka hay vuelos directos de varias aerolíneas, dos de ellas de bajo coste, por lo que muchos estudiantes del sur de China eligen hacer escala en Hong Kong. Sin embargo, las reglas sobre qué documento usar en el tránsito son más complicadas de lo que parece, y un error puede dejar un antecedente negativo."
+   },
+   "d598ce": {
+    "headers": [
+     "Situación",
+     "¿Se puede usar el pasaporte de China continental?",
+     "Puntos clave"
+    ],
+    "rows": [
+     [
+      "Solo hacer escala en la zona de tránsito del aeropuerto",
+      "No implica entrada ni salida del país",
+      "No hay que tener en cuenta los requisitos siguientes"
+     ],
+     [
+      "A ⇄ Hong Kong (en 7 días) ⇄ B",
+      "Sí",
+      "A y B no pueden ser la misma zona; se necesita billete de continuación"
+     ],
+     [
+      "Japón → Hong Kong → regreso directo a Japón",
+      "No",
+      "Hay que tramitar previamente el «permiso de entrada a Hong Kong»"
+     ],
+     [
+      "Permanecer en Hong Kong más de 7 días",
+      "No",
+      "Igual que arriba: hay que tramitarlo con antelación"
+     ],
+     [
+      "Solo ir y volver entre el continente y Hong Kong",
+      "No",
+      "Es obligatorio usar el permiso de viaje Hong Kong-Macao (港澳通行证)"
+     ]
+    ]
+   },
+   "6114a5": {
+    "text": "Documentos de tránsito y riesgos"
+   },
+   "49f1ab": {
+    "text": "Si se entra a Hong Kong desde el continente con el documento equivocado, la aduana dejará en el pasaporte un registro DT (Delete Travel) que afectará a las entradas posteriores a Hong Kong y a las solicitudes de visado de otros países. Con este punto no hay que tentar la suerte."
+   },
+   "51009c": {
+    "text": "El «permiso de entrada a Hong Kong» se puede tramitar en la embajada o el consulado de China en Japón; permite una estancia máxima de 14 días por entrada, con varias modalidades: 1 entrada en 3 meses, 2 entradas en 3 meses, entradas múltiples de 1 año y entradas múltiples de 2 años. El consulado de Fukuoka está cerca de la estación Tojinmachi (唐人町駅) del metro."
+   },
+   "26200b": {
+    "text": "Devolución del impuesto de salida"
+   },
+   "b3abdf": {
+    "text": "Devolución de impuestos: todos los vuelos que salen de Hong Kong suelen incluir el impuesto de salida de pasajeros aéreos que cobra Hong Kong. Si se cumplen las condiciones, se puede solicitar la devolución en un plazo de 28 días desde el despegue. Las condiciones y los pasos concretos están explicados en la sección «国際観光旅客税（impuesto de salida）」 de este artículo; también se puede consultar directamente la guía oficial de Hong Kong para devoluciones."
+   },
+   "2cbead": {
+    "items": [
+     {
+      "text": "Devolución del impuesto de salida de pasajeros de Hong Kong (oficial)",
+      "url": "https://www.apdtrefund.hk/tc/"
+     },
+     {
+      "text": "Embajada de China en Japón · Guía para ir a Hong Kong desde el extranjero",
+      "url": "https://jp.china-embassy.gov.cn/lsfw_0/zjfw_138408/zhjfw28/LSZJZGGA/202405/t20240507_11300545.htm"
+     }
+    ]
+   },
+   "526eaa": {
+    "text": "Parte del contenido de este artículo proviene de《新伊都国風土記》(autores: Hato_Tsubame, CantonSimon), recopilado con autorización de los autores. Los precios, horarios y procedimientos indicados en el texto cambian con el tiempo; para los asuntos importantes, consulta siempre los sitios web oficiales."
+   }
   }
  },
  "guide-shopping": {
@@ -10651,6 +12218,282 @@ window.ARTICLES_BODY_I18N = {
    },
    "a847a0": {
     "text": "이 글의 일부 내용은 『新伊都国風土記』(저자 Hato_Tsubame, CantonSimon)를 정리한 것으로, 저자의 허락을 받아 수록했습니다. 글 속의 가격, 운행 시간, 절차는 시간이 지나면 변할 수 있으므로 중요한 사항은 각 공식 홈페이지를 기준으로 하시기 바랍니다."
+   }
+  },
+  "es": {
+   "01aac7": {
+    "text": "Lugares de compra diaria, formas de ahorrar y **trampas que conviene evitar** (plataformas de segunda mano, compras por encargo, contratos a plazos). Puedes consultarlo según lo necesites."
+   },
+   "3082ec": {
+    "text": "Resumen: distribución de las zonas comerciales"
+   },
+   "8e23fa": {
+    "text": "El campus Ito está en Motooka, distrito Nishi de la ciudad de Fukuoka, y sus alrededores son sobre todo el propio campus y zonas residenciales. La zona comercial más cercana está en los alrededores de la estación Kyudai-Gakkentoshi; hacia el oeste se llega a la ciudad de Itoshima (Chikuzen-Maebaru) y hacia el este a las zonas de Meinohama（姪浜）y Muromi（室見）, más o menos dentro de un radio de 7 km desde el campus. Para las compras diarias sirven principalmente los supermercados y las droguerías cerca de la estación; para hacer acopio a granel puedes ir a las tiendas de descuento y a los supermercados integrales."
+   },
+   "d5299c": {
+    "text": "Los artículos de uso diario se consiguen casi todos en la zona de la estación Kyudai-Gakkentoshi. Para muebles y artículos de primera necesidad puedes ir a Nitori（ニトリ）: ten en cuenta que la sucursal más cercana es la de Fukuoka Nishi, cerca de la estación Hashimoto del metro（地下鉄橋本駅）, que queda lejos del campus Ito y no está a distancia caminable, así que hay que ir en transporte."
+   },
+   "3dc2d0": {
+    "text": "Lo siguiente está organizado por «distancia/tipo»; las direcciones exactas de cada sucursal, los horarios y si están dentro de los 7 km, confírmalos con una búsqueda en el mapa, ya que las sucursales pueden cambiar."
+   },
+   "aacc3a": {
+    "text": "Supermercados: MaxValu y Nishitetsu Store"
+   },
+   "edac1a": {
+    "items": [
+     {
+      "text": "MaxValu（マックスバリュ）: supermercado del grupo AEON; la sucursal Suenishi Nishi（周船寺西店）está abierta 24 horas."
+     },
+     {
+      "text": "Nishitetsu Store（にしてつストア, sucursal Suenishi 周船寺店）: supermercado del grupo Nishitetsu, con productos frescos, comidas preparadas y especialidades de Fukuoka."
+     }
+    ]
+   },
+   "18b42b": {
+    "text": "Droguerías: medicamentos e higiene personal"
+   },
+   "b4d3ba": {
+    "items": [
+     {
+      "text": "Drug Eleven（ドラッグイレブン）: cadena de droguerías local de Kyushu (medicamentos, cosméticos y artículos de uso diario)."
+     },
+     {
+      "text": "Sundrug（サンドラッグ）y Direx（ダイレックス）: droguerías y tiendas de descuento, con artículos de uso diario más baratos."
+     }
+    ]
+   },
+   "c24ac4": {
+    "text": "Tiendas de descuento: Trial y Gyomu Super"
+   },
+   "d29eba": {
+    "items": [
+     {
+      "text": "Trial（トライアル）: supermercado de descuento con precios bajos en alimentos y artículos de uso diario; algunas sucursales abren 24 horas."
+     },
+     {
+      "text": "Gyomu Super（業務スーパー, sucursal Ito 伊都店）: especializado sobre todo en congelados y venta al mayor; ideal para comprar en cantidad."
+     }
+    ]
+   },
+   "84d22e": {
+    "text": "Grandes superficies: AEON y Sunny"
+   },
+   "92e039": {
+    "items": [
+     {
+      "text": "AEON（イオン, sucursal Fukuoka Ito 福岡伊都店）: supermercado integral con ropa, artículos para el hogar, productos frescos y comidas preparadas."
+     },
+     {
+      "text": "Sunny（サニー）y Marukyo（マルキョウ）: supermercados locales de Fukuoka con productos frescos baratos y ofertas frecuentes."
+     }
+    ]
+   },
+   "6e9f25": {
+    "text": "Tiendas de conveniencia y zonas comerciales aledañas"
+   },
+   "a76085": {
+    "text": "Lawson（ローソン）／7-Eleven（セブンイレブン）／FamilyMart（ファミリーマート）: hay sucursales cerca de la estación y del campus; son prácticas para emergencias (bebidas, comidas ligeras, artículos de uso diario, cajeros automáticos, fotocopias), aunque los precios son más altos."
+   },
+   "40861e": {
+    "text": "En las zonas de Meinohama y Muromi（姪浜・室見, hacia el este）hay más supermercados, droguerías y establecimientos comerciales, a los que se llega en metro o autobús; en Chikuzen-Maebaru（筑前前原）, ciudad de Itoshima (hacia el oeste), hay supermercados locales y una calle comercial que puedes recorrer de paso."
+   },
+   "9da2b2": {
+    "text": "Tiendas de segunda mano y consejos para ahorrar"
+   },
+   "30eccf": {
+    "items": [
+     {
+      "text": "Tienda de bicicletas de segunda mano (ubicación en el mapa)",
+      "url": "https://maps.app.goo.gl/PqRLz6KtPdcAPvnW7"
+     },
+     {
+      "text": "Punto de reciclaje de cartón abierto 24 horas en el distrito Nishi",
+      "url": "https://maps.app.goo.gl/KKvgjEHL8grTamZk8?g_st=ic"
+     },
+     {
+      "text": "Co-op de la Universidad de Kyushu（九大生協, información sobre inscripciones en el campus, como exámenes de idiomas）",
+      "url": "https://www.coop.kyushu-u.ac.jp/"
+     }
+    ]
+   },
+   "962a01": {
+    "text": "Puntos clave"
+   },
+   "1ff8de": {
+    "items": [
+     {
+      "text": "El papel de fotocopiadora y artículos similares son más baratos en Nafco（ナフコ）, Don Quijote（ドンキホーテ）y Direx（ダイレックス）."
+     },
+     {
+      "text": "Quienes viven en Kyoso-kan（協奏館）pueden comprar productos frescos en el camión de venta ambulante «Itomaru-kun»（いと丸くん）."
+     }
+    ]
+   },
+   "1420ca": {
+    "items": [
+     {
+      "text": "Guía de vida / folletos de la Universidad de Kyushu (incluye Living Guide)",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/life/pamphlet/"
+     },
+     {
+      "text": "Global Gateway (información sobre estatus de residencia, vivienda y vida diaria)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student"
+     }
+    ]
+   },
+   "8328f6": {
+    "text": "Muebles y electrodomésticos: tiendas del hogar (home center)"
+   },
+   "666b25": {
+    "text": "En una tienda del hogar encuentras en un solo lugar artículos de uso diario, muebles, electrodomésticos y bicicletas, además de algunos alimentos. Los precios no son tan bajos como en las tiendas de 100 yenes, pero a cambio tienen de todo. La mayoría de las tiendas del hogar cuentan con tienda online y consulta de stock; revisar el precio y la disponibilidad en internet antes de salir te ahorra un viaje."
+   },
+   "3496a2": {
+    "headers": [
+     "Tienda",
+     "Distancia del campus",
+     "Notas"
+    ],
+    "rows": [
+     [
+      "Home Plaza Nafco Motooka（ホームプラザナフコ 元岡店）",
+      "La más cercana",
+      "Tienda online disponible"
+     ],
+     [
+      "Home Center Gooday, sucursal Ito（ホームセンターグッデイ 伊都店）",
+      "Cerca",
+      "Relativamente nueva"
+     ],
+     [
+      "MrMax, sucursal Itoshima（ミスターマックス 糸島店）",
+      "Media",
+      "Artículos de uso diario y muebles baratos; stock consultable en línea"
+     ],
+     [
+      "Super Viva Home, sucursal Shima（スーパービバホーム 志摩店）",
+      "Lejos",
+      "Gran superficie; cerca de SETTLE"
+     ],
+     [
+      "Komeri Power, sucursal Suenishi（コメリパワー 周船寺店）",
+      "Lejos",
+      "Muy grande, con todas las categorías"
+     ]
+    ]
+   },
+   "adfb20": {
+    "text": "Tiendas de 100 yenes: ve después de confirmar el stock"
+   },
+   "28bbb8": {
+    "text": "Lo que en una tienda del hogar cuesta 1.000 円, aquí puede conseguirse por 100 円, aunque la calidad es proporcionalmente menor. Es lo más rentable justo al llegar, para comprar los enseres básicos. Seria es una tienda pura de 100 yenes: todos sus productos cuestan 100 円. En Daiso（ダイソー）hay productos desde 200 円 hasta 1,000 円, y los más caros tienen mejor calidad."
+   },
+   "dc40bc": {
+    "text": "El surtido cambia según la sucursal y a menudo hay faltantes. La aplicación oficial de Daiso permite consultar el stock de cada tienda; revisarla antes de ir evita un viaje en vano."
+   },
+   "69029b": {
+    "text": "Tiendas de segunda mano: libros, muebles, electrodomésticos y ropa"
+   },
+   "8db039": {
+    "text": "Los precios no son particularmente bajos, pero los artículos pasan por una limpieza básica y ofrecen cierta garantía; son adecuados si vives por poco tiempo y no quieres comprar cosas nuevas."
+   },
+   "af7aff": {
+    "items": [
+     {
+      "text": "BOOKOFF PLUS Fukuoka Itoshima（BOOKOFF PLUS 福岡糸島店）: sobre todo libros y artículos de anime y manga."
+     },
+     {
+      "text": "Second Street, sucursal Itoshima（セカンドストリート 糸島店）: relativamente nueva, con mucha variedad y precios un poco más altos."
+     },
+     {
+      "text": "Recycle Mart, sucursal Itoshima（リサイクルマート 糸島店）: más sencilla, con artículos relativamente baratos."
+     },
+     {
+      "text": "Treasure Factory（トレジャーファクトリー, Suenishi 周船寺）: parecida a Second Street, pero con menos surtido."
+     }
+    ]
+   },
+   "52dfde": {
+    "text": "Bicicletas: algo imprescindible en Ito"
+   },
+   "adb267": {
+    "text": "En Ito, no tener vehículo se nota de verdad, y las bicicletas en Japón tampoco son baratas. El campus está en una zona elevada y las cuestas son inevitables, así que elige al menos un modelo con cambios; si el presupuesto lo permite, considera la asistencia eléctrica. Conviene visitar varias tiendas antes de decidir."
+   },
+   "97941b": {
+    "headers": [
+     "Tienda",
+     "Distancia del campus",
+     "Referencias"
+    ],
+    "rows": [
+     [
+      "Lumière, sucursal Imajuku（ルミエール 今宿店）",
+      "Media (accesible con la línea K)",
+      "Bicicleta con cambios por menos de 20.000 円, sin asistencia eléctrica"
+     ],
+     [
+      "Cycle Shop Palette Kyudai-mae（九大前店）",
+      "La más cercana",
+      "Hay bicicletas económicas; acepta Alipay"
+     ],
+     [
+      "Cycling Base Asahi, sucursales Ito / Itoshima（サイクルベースあさひ 伊都店 / 糸島店）",
+      "Media",
+      "Gran cadena, ordenada y con mucho stock; precios un poco más altos"
+     ],
+     [
+      "AEON Bike, sucursal Fukuoka Ito（イオンバイク 福岡伊都店）",
+      "Cerca",
+      "Práctica por estar dentro de AEON; precios un poco más altos"
+     ],
+     [
+      "MrMax, sucursal Itoshima（ミスターマックス 糸島店）",
+      "Media",
+      "Hay bicicletas con asistencia eléctrica económicas"
+     ]
+    ]
+   },
+   "b5f388": {
+    "text": "Referencias: estas valoraciones provienen de personas que han visitado las tiendas; los precios y el stock cambian, así que lo que vale es lo que veas en el local. Para las bicicletas de segunda mano también puedes fijarte en las ventas de estudiantes que se gradúan en los grupos: suelen ser más baratas que en las tiendas, pero recuerda tramitar el traspaso del registro antirrobo."
+   },
+   "a2836a": {
+    "text": "Casilleros de recogida de AEON en el campus: lo más cómodo para quienes viven en los dormitorios"
+   },
+   "3dfc41": {
+    "text": "Desde octubre de 2025 hay casilleros de recogida del supermercado online de AEON en la entrada de la cafetería central del campus. Enviar a estos casilleros no tiene gastos de envío, y la selección de productos cubre prácticamente todas las categorías del supermercado AEON de Gakken: de hecho, la mercancía sale de esa misma tienda. Si vives dentro del campus, no hace falta ir lejos: puedes recogerlo de paso cuando termines tus trámites."
+   },
+   "ac5dc4": {
+    "items": [
+     {
+      "title": "Crear una cuenta",
+      "desc": "Si ya tienes una cuenta iAEON, sirve la misma."
+     },
+     {
+      "title": "Elegir tienda y hacer el pedido",
+      "desc": "Selecciona AEON Fukuoka Ito（イオン福岡伊都店）; hay un importe mínimo de pedido."
+     },
+     {
+      "title": "Elegir recogida en el carrito",
+      "desc": "En 受取り時間 elige «店舗などでお受取» y presta atención a las franjas horarias disponibles."
+     },
+     {
+      "title": "Designar el casillero",
+      "desc": "En el paso siguiente, en 受取場所 elige el casillero del campus y fíjate en el horario de recogida."
+     }
+    ]
+   },
+   "3238c2": {
+    "text": "Referencias: los precios de la tienda online son prácticamente iguales a los de las tiendas físicas (que de por sí no son baratos). Hay pocas categorías de productos frescos y comidas preparadas, pero verduras y frutas están bastante completas, y los artículos de uso diario cubren lo que se vende en el segundo piso de AEON. Si eliges envío a domicilio se cobra un gasto de envío aparte, y la posibilidad de entrega depende de lo que indique el código postal que introduzcas."
+   },
+   "4fc028": {
+    "items": [
+     {
+      "text": "Supermercado online de AEON Kyushu（イオン九州）",
+      "url": "https://kyushu.netsuper.aeon.com/0000018990"
+     }
+    ]
+   },
+   "a847a0": {
+    "text": "Parte del contenido de este artículo proviene de «Shin-Ito Koku Fudoki»（新伊都国風土記）, de Hato_Tsubame y CantonSimon, recopilado con autorización de los autores. Los precios, horarios y procedimientos del texto cambian con el tiempo; para asuntos importantes, consulta los sitios web oficiales."
    }
   }
  },
@@ -12273,6 +14116,547 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "text": "JR 패스 이용 자격(공식)",
+      "url": "https://japanrailpass.net/about_jrp/riyou/"
+     }
+    ]
+   }
+  },
+  "es": {
+   "397485": {
+    "text": "Bicicleta: compra, uso y retirada"
+   },
+   "402355": {
+    "text": "Para cada situación hay un plan: ① si solo vas a Tenjin/Hakata → plan 1 (billete multiviaje, 994円 entre ida y vuelta); ② si vas a 2 o más lugares de la ciudad y tienes tiempo → plan 2 (transbordo en Meinohama + billete de un día del metro)."
+   },
+   "565847": {
+    "text": "Cómo usarlo: activa el ticket del sistema siguiendo las instrucciones de la aplicación y, antes de bajar, muéstralo al conductor y baja directamente."
+   },
+   "d182c2": {
+    "text": "Ir del dormitorio a la universidad, moverse por Tenjin y Hakata, comprar una bicicleta u obtener el carné de conducir: **lo recomendable es decidir primero la ruta diaria** y después elegir el plan de billetes. Este artículo compara en paralelo tarifas, abonos de transporte, cupones de descuento y formas de ahorrar."
+   },
+   "1b9a7f": {
+    "text": "En el campus Ito, la bicicleta es un medio de transporte habitual. Desde la estación JR de Kyudai-Gakkentoshi, caminar hasta la universidad tarda unos 45~50 minutos; en bicicleta, unos 20~30 minutos; en moto o en coche, unos 10~15 minutos. También se puede ir en autobús (unos 15~20 minutos), pero las frecuencias son pocas."
+   },
+   "29a476": {
+    "text": "Comprar una bicicleta"
+   },
+   "fc7dbb": {
+    "text": "Una bicicleta nueva suele costar a partir de 17,000 円; en Fukuoka, el precio de mercado de segunda mano ronda los 11,000 円 (valor orientativo). Para una de segunda mano puedes usar Mercari o fijarte en los avisos de traspaso entre estudiantes. Al comprarla hay que hacer el **registro antirrobo (600 円)** y guardar la tarjeta del registro antirrobo (la necesitarás para la baja). Ver 【Compras】."
+   },
+   "255bf5": {
+    "text": "Retirada y traspaso de la bicicleta"
+   },
+   "1dfdbd": {
+    "items": [
+     {
+      "text": "Una bicicleta que ya no uses se puede vender en una tienda de segunda mano o traspasarla a un amigo."
+     },
+     {
+      "text": "Hay que dar de baja el registro antirrobo: lleva a la comisaría de policía la copia del cliente de la tarjeta de registro antirrobo que recibiste al comprar la bicicleta, junto con un documento de identidad."
+     },
+     {
+      "text": "En Recycle Mart Itoshima (リサイクルマート糸島) atienden en inglés."
+     }
+    ]
+   },
+   "ccfc54": {
+    "text": "Bicicletas compartidas / alquiler"
+   },
+   "08e40e": {
+    "text": "En el campus hay puntos de estacionamiento de bicicletas compartidas y de bicicletas eléctricas compartidas; su ubicación y la disponibilidad se pueden consultar en el mapa del campus o en la aplicación correspondiente. La universidad también ofrece bicicletas de alquiler: pregunta en la cooperativa de estudiantes (生協)."
+   },
+   "9ce8b1": {
+    "text": "Cómo viajar en autobús: subir y bajar, y tarifas urbanas"
+   },
+   "96d0f3": {
+    "text": "En la mayoría de los autobuses de Japón se sube por la puerta trasera (en el centro del vehículo) y se baja por la puerta delantera (junto al conductor)."
+   },
+   "c35290": {
+    "text": "Al subir y al bajar se pasa la tarjeta IC en casi todos los casos (excepto en las líneas de tarifa plana). Si pagas en efectivo, al subir tienes que coger el «ticket de zona» (整理券) de la máquina emisora situada junto a la puerta: es el comprobante de la parada en la que subiste. Al bajar, introduce el ticket de zona junto con el importe en la caja de monedas."
+   },
+   "aed18c": {
+    "text": "El autobús lleva una máquina de cambio, pero solo acepta billetes de 1000 円 y monedas de 500 円; conviene llevar cambio preparado."
+   },
+   "5d3027": {
+    "text": "Autobuses urbanos de Fukuoka"
+   },
+   "f264f5": {
+    "text": "En el tramo del centro del autobús Nishitetsu (estación de Hakata, Tenjin, frente a la estación de Yakuin, etc.) la tarifa es plana, 150円, y en los tramos generales la tarifa inicial es 210円 (tras el ajuste de tarifas de enero de 2024). Los autobuses y el metro de Fukuoka aceptan tarjetas IC (SUGOCA, nimoca, Hayakaken (はやかん), etc.)."
+   },
+   "60da92": {
+    "text": "Ir a la universidad: líneas, my route y abono de estudiante"
+   },
+   "de2248": {
+    "text": "Para ir al campus Ito de la Universidad de Kyushu hay principalmente estas 3 líneas de autobús:"
+   },
+   "54f112": {
+    "headers": [
+     "Ruta",
+     "Operador",
+     "Tramo principal",
+     "Tarifa de ida"
+    ],
+    "rows": [
+     [
+      "Línea de la Universidad de Kyushu (línea principal)",
+      "Autobús Showa",
+      "Estación Kyudai-Gakkentoshi ↔ campus Ito",
+      "330円"
+     ],
+     [
+      "Línea de la Universidad de Kyushu (Itoshima)",
+      "Autobús Showa",
+      "Maehara · frente a la escuela primaria de Suzenji ↔ Ito",
+      "200円"
+     ],
+     [
+      "Expreso · servicio directo",
+      "Autobús Nishitetsu",
+      "Frente a la estación de Hakata · Tenjin ↔ campus Ito",
+      "670円～"
+     ]
+    ]
+   },
+   "3f31f6": {
+    "text": "Desde la estación Kyudai-Gakkentoshi, todas las paradas de autobús del campus (zona este, edificio Orange, Facultad de Ingeniería, Facultad de Agricultura, etc.) tienen **tarifa plana de 330円**. Dentro del campus, el tramo de tarifa plana es de 160円. De la estación Kyudai-Gakkentoshi a la oficina de Ito (伊都営業所), 390円, y en dirección a Tomari-kitaguchi (泊北口) y frente a la aldea internacional (国際村), 410円."
+   },
+   "9a0cda": {
+    "text": "Si tienes problemas para escanear el código QR de aimo con Google, puedes usar la página japonesa de aimo: https://aimo-kyushu-u.zendesk.com/hc/ja"
+   },
+   "d0f4c1": {
+    "text": "Opción recomendada: la aplicación my route"
+   },
+   "790a29": {
+    "text": "Puedes descargar la aplicación my route (en iOS hay que cambiar la región a una fuera de Japón). En la aplicación está la línea de la Universidad de Kyushu del autobús Showa (excepto las líneas de la ciudad de Itoshima) y se vende el ticket de viajes ilimitados (乗り放題チケット) de 550円 / 18 horas; se puede pagar con tarjeta de crédito o con PayPay. Es una de las formas más recomendadas para el desplazamiento diario a la universidad."
+   },
+   "96fc42": {
+    "text": "Abono de estudiante (通学定期)"
+   },
+   "f61466": {
+    "headers": [
+     "Ruta",
+     "Tramo",
+     "1 mes",
+     "3 meses"
+    ],
+    "rows": [
+     [
+      "Línea de la Universidad de Kyushu del autobús Showa",
+      "Estación Kyudai-Gakkentoshi ↔ campus Ito",
+      "10,000円",
+      "28,000円"
+     ],
+     [
+      "Línea de la Universidad de Kyushu del autobús Showa (Itoshima)",
+      "Maehara · Suzenji ↔ campus Ito",
+      "7,200円",
+      "20,520円"
+     ],
+     [
+      "Línea Chikuhi de JR + metro",
+      "Kyudai-Gakkentoshi → Tenjin",
+      "aprox. 11,680円",
+      "—"
+     ],
+     [
+      "Autobús Nishitetsu",
+      "Según el tramo",
+      "—",
+      "—"
+     ]
+    ]
+   },
+   "3dd9c3": {
+    "items": [
+     {
+      "text": "Línea de la Universidad de Kyushu del autobús Showa: abono digital para el móvil, exclusivo para estudiantes de la Universidad de Kyushu."
+     },
+     {
+      "text": "Línea de la Universidad de Kyushu del autobús Showa (Itoshima): válido en papel o en el móvil."
+     },
+     {
+      "text": "Línea Chikuhi de JR + metro: consulta en NAVITIME."
+     },
+     {
+      "text": "Autobús Nishitetsu: según el sitio web oficial de Nishitetsu."
+     }
+    ]
+   },
+   "967aaa": {
+    "text": "Además, dentro del campus hay un servicio de lanzadera gratuito con reserva previa, aimo, que cubre 37 paradas del campus: reserva con el móvil y sube en la parada indicada. Además del servicio a demanda, también hay un servicio de ruta y horario fijos que también requiere reserva; funciona los días laborables del periodo lectivo de 08:00 a 22:00."
+   },
+   "6ca9ff": {
+    "text": "aimo no es una lanzadera que se pueda tomar alzando la mano: es con reserva previa. Cuando hay mucha afluencia, la espera puede ser de diez minutos o más; si tienes prisa por llegar a clase, no cuentes con él."
+   },
+   "060e79": {
+    "text": "Resumen de billetes con descuento"
+   },
+   "459d9a": {
+    "text": "Lo siguiente está sujeto a la información oficial más reciente:"
+   },
+   "76448a": {
+    "items": [
+     {
+      "text": "Billete de un día del metro: 640円, viajes ilimitados ese día en todas las líneas de metro (línea Kuko (空港線), línea Hakozaki (箱崎線) y línea Nanakuma (七隈線))."
+     },
+     {
+      "text": "Pago sin contacto (タッチ決済): se puede pasar directamente la tarjeta de crédito en las 36 estaciones de las 3 líneas de metro."
+     },
+     {
+      "text": "El mismo día, al llegar a 640円 acumulados, no se cobra más (personas con discapacidad y niños: 320円)."
+     }
+    ]
+   },
+   "84fe39": {
+    "text": "El tope diario del pago sin contacto solo se calcula de forma conjunta con «el mismo número de tarjeta y el mismo medio». Si por la mañana pasas la tarjeta física y por la tarde usas la misma tarjeta desde la cartera del móvil, cada lado cuenta por separado y el tope no se aplica: para disfrutar del tope, usa un único método todo el día. Además, el tramo de metro llega hasta Meinohama (姪浜); el primer tramo desde la Universidad de Kyushu va por la línea Chikuhi de JR y no cuenta para este tope."
+   },
+   "695d78": {
+    "text": "Otros billetes y descuentos"
+   },
+   "28e638": {
+    "items": [
+     {
+      "text": "Billete multiviaje del campus Ito: 6,730 円 / 10 billetes (válido 3 meses), se puede comprar en la cooperativa de estudiantes de la Universidad de Kyushu."
+     },
+     {
+      "text": "Ecoru Card (エコルカード) / Wide Ecoru Card (ワイドエコルカード): abono mensual del autobús Nishitetsu; el precio varía según la zona."
+     },
+     {
+      "text": "Abono de estudiante: JR, Nishitetsu y el metro tienen cada uno su abono con descuento para estudiantes; se puede solicitar después de recibir el carné de estudiante."
+     }
+    ]
+   },
+   "bf8325": {
+    "text": "Ámbito del billete multiviaje: todas las estaciones de metro ↔ estación JR Kyudai-Gakkentoshi ↔ líneas del autobús Showa dentro del campus de la Universidad de Kyushu. Cada billete cuesta 673 円."
+   },
+   "50ea66": {
+    "text": "Atención: los estudiantes no regulares, como los oyentes especiales (特別聴講生) y los estudiantes de investigación (研究生), **no pueden comprar** la Ecoru Card (エコルカード) ni el abono de estudiante (通学定期券)."
+   },
+   "56c5db": {
+    "items": [
+     {
+      "text": "Billete de un día del metro",
+      "url": "https://subway.city.fukuoka.lg.jp/fare/card/oneday.php"
+     },
+     {
+      "text": "Billete multiviaje del campus Ito (autobús Showa)",
+      "url": "https://showa-bus.jp/tickets/pass_itocampus/"
+     },
+     {
+      "text": "Billete multiviaje del campus Ito (metro)",
+      "url": "https://subway.city.fukuoka.lg.jp/fare/card/itocampus.php"
+     },
+     {
+      "text": "Ecoru Card (Nishitetsu)",
+      "url": "https://www.nishitetsu.jp/bus/ecole/"
+     }
+    ]
+   },
+   "5824ef": {
+    "text": "· Billete multiviaje mini de enlace (連絡ミニ回数券): cuadernillo de 6 billetes; según la estación de salida cuesta 2,610 / 2,820 / 2,980 / 3,360 円 y se vende en las estaciones de JR Kyushu. El tramo que cubre es distinto del billete multiviaje del campus Ito: antes de comprarlo, comprueba si el tramo que usas habitualmente está incluido."
+   },
+   "0e3977": {
+    "text": "Descuentos del autobús Nishitetsu"
+   },
+   "9acd34": {
+    "text": "· Free pass de 6 horas / 24 horas del autobús Nishitetsu (西鉄バス): permite viajes ilimitados en los autobuses Nishitetsu dentro de la zona gratuita durante el periodo de validez; se compra en la aplicación my route. Solo el trayecto de ida de la Universidad de Kyushu a Tenjin por la línea K cuesta unos 710 円, así que suele compensar si ese día vas a hacer varios viajes por la ciudad."
+   },
+   "a010db": {
+    "text": "Sobre el precio y la zona gratuita del free pass de Nishitetsu: la compañía publica los precios dentro de imágenes, y las cifras que circulan no coinciden entre sí. Antes de comprarlo, confírmalo en la aplicación my route. **Que la zona gratuita cubra o no el tramo de la Universidad de Kyushu afecta más a si merece la pena que el propio precio.**"
+   },
+   "c1a2f8": {
+    "text": "Ir a Tenjin y Hakata: dos planes para ahorrar"
+   },
+   "70e66b": {
+    "text": "La zona más concurrida de Fukuoka es Tenjin-Hakata, pero ir directamente desde la universidad hasta allí cuesta 570円 el trayecto sencillo. La razón es que la zona de Kyudai-Gakkentoshi y Suzenji pertenece a la línea Chikuhi de JR, que conecta directamente con el metro de la ciudad de Fukuoka: al viajar se paga una parte a JR y otra al metro de la ciudad de Fukuoka, y por eso la tarifa es alta."
+   },
+   "842f3d": {
+    "text": "Meinohama (姪浜), del plan 2, es la estación de origen de las líneas Hakozaki (箱崎線) y Kuko (空港線) del metro de la ciudad de Fukuoka; hay muchas frecuencias y el transbordo no supone perder mucho tiempo."
+   },
+   "00a067": {
+    "text": "Detalle de los dos planes"
+   },
+   "13e40f": {
+    "text": "Cuándo usarlo: si ese día solo te mueves por la zona de Tenjin/Hakata. Se usa un billete por trayecto (2 en total); el precio actual es de 994円 (unos 497円 por billete), 73円 más barato por billete que el viaje directo. Se venden en grupos de 6, válidos durante 1 mes y caducan si no se usan: compra según tu plan de viajes."
+   },
+   "4e6275": {
+    "items": [
+     {
+      "text": "Después de entrar en la estación, busca la zona de máquinas expendedoras junto a la «ventanilla verde» (みどりの窓口)."
+     },
+     {
+      "text": "En la pantalla táctil, pulsa el botón «Otoku Ticket» (オトクチケット)."
+     },
+     {
+      "text": "Elige la estación de salida (Suzenji o Kyudai-Gakkentoshi) y el número de billetes (se compran 6 de una vez; esta vez usa 2)."
+     },
+     {
+      "text": "Mete efectivo o paga con la tarjeta IC y recoge los billetes."
+     },
+     {
+      "text": "Pasa el billete por el torniquete automático para subir; al llegar a Tenjin/Hakata, introdúcelo en el torniquete para salir."
+     }
+    ]
+   },
+   "092ecf": {
+    "text": "Cuándo usarlo: si ese día vas a 2 o más lugares de la ciudad y no tienes prisa. La clave es bajarse en Meinohama (la estación de origen del metro de la ciudad de Fukuoka) cogiendo solo el JR, y pasar el día con el billete de un día del metro. Meinohama es la estación de origen de las líneas Hakozaki (箱崎線) y Kuko (空港線), con muchas más frecuencias que la estación Kyudai-Gakkentoshi, así que el transbordo apenas añade tiempo."
+   },
+   "2c1ea4": {
+    "text": "Coste total: 270×2 + 640 = 1,180円; si solo vas a un lugar no compensa (viajar directo, 570×2 = 1,140円, es más barato)."
+   },
+   "3f3ee3": {
+    "items": [
+     {
+      "text": "En la estación de Suzenji o de Kyudai-Gakkentoshi, compra el billete hasta Meinohama (trayecto sencillo: 270円)."
+     },
+     {
+      "text": "Baja en la estación de Meinohama, sal del torniquete y entra en el vestíbulo de la estación."
+     },
+     {
+      "text": "Compra el billete de un día del metro de la ciudad de Fukuoka (640円) en la máquina expendedora de Meinohama."
+     },
+     {
+      "text": "Con el billete de un día puedes usar todas las líneas del metro de la ciudad de Fukuoka; ese día puedes salir y volver a entrar por los torniquetes las veces que quieras."
+     },
+     {
+      "text": "A la vuelta, antes de salir por el torniquete, paga la diferencia del tramo Meinohama → Kyudai-Gakkentoshi en la máquina de ajuste (unos 300 円)."
+     },
+     {
+      "text": "*El billete de un día sigue siendo válido ese día después de salir del torniquete; guárdalo para la próxima vez que vengas a la ciudad de Fukuoka.*"
+     }
+    ]
+   },
+   "032240": {
+    "headers": [
+     "Método",
+     "Coste de ida y vuelta"
+    ],
+    "rows": [
+     [
+      "Viaje directo de ida y vuelta a Hakata",
+      "570×2 = 1,140円"
+     ],
+     [
+      "Meinohama ida y vuelta + billete de un día del metro",
+      "Total 1,180 円"
+     ]
+    ]
+   },
+   "032cc4": {
+    "text": "Conclusión y consejos de uso"
+   },
+   "2a2b4d": {
+    "text": "Conclusión: si solo vas a un lugar, comprar el billete directo es más barato (1,140円); si en un día vas a 2 o más lugares, usar «transbordo en Meinohama + billete de un día del metro» compensa más."
+   },
+   "1fac9d": {
+    "text": "Consejo: si no conoces el funcionamiento de las máquinas expendedoras o del ajuste de tarifa en el torniquete, puedes pedir ayuda directamente al personal de la estación de metro/JR (van con uniforme y placa identificativa); pídeles en chino sencillo o en inglés que te ayuden a comprar el billete, salir del torniquete y ajustar la tarifa."
+   },
+   "ec7b4d": {
+    "text": "Ciclomotor / carné de conducir"
+   },
+   "50dcb4": {
+    "text": "Para canjear el carné de conducir o sacar el de ciclomotor (原付), consulta los enlaces siguientes; para el ciclomotor no hace falta apuntarse a una autoescuela: también se puede hacer el examen directamente tras reservar cita. Los detalles están sujetos a las indicaciones de la policía de la prefectura de Fukuoka."
+   },
+   "b31729": {
+    "items": [
+     {
+      "text": "Policía de la prefectura de Fukuoka · carné de ciclomotor",
+      "url": "https://www.police.pref.fukuoka.jp/kotsu/unshi/gentukihenkou_2.html"
+     },
+     {
+      "text": "Zona de prácticas (cerca de Suzenji)",
+      "url": "https://maps.app.goo.gl/mR8r3vYoqpNxiBVM6?g_st=ic"
+     },
+     {
+      "text": "Seguridad de los patinetes eléctricos",
+      "url": "https://www.keishicho.metro.tokyo.lg.jp/kotsu/jikoboshi/electric_mobility/electric_kickboard.html"
+     }
+    ]
+   },
+   "1f9df3": {
+    "text": "Experiencia yendo juntos al canje del carné: se puede ir primero a Hakata; en la estación de Hakata se cambia a la línea Fukuhoku-Yutaka (福北豊線) de JR hasta Iizuka (飯塚), y desde allí se va caminando."
+   },
+   "6135a0": {
+    "text": "Cambio normativo de 2025: el ciclomotor de nuevo estándar (新基準原付)"
+   },
+   "187f72": {
+    "text": "Tras el endurecimiento de las normas de emisiones, el ciclomotor de clase 1 (原付一種) de menos de 50cc dejó de fabricarse el 2025-10-31; en su lugar llega el «ciclomotor de nuevo estándar» (新基準原付): la cilindrada se amplía hasta 125cc o menos, pero la potencia máxima se limita a 4.0 kW o menos. El régimen rige desde el 2025-04-01 y la nueva norma de emisiones se aplica desde el 2025-11-01."
+   },
+   "55a01a": {
+    "text": "La cilindrada ha aumentado, pero **el tratamiento legal no ha cambiado en absoluto**: se sigue tratando como ciclomotor de clase 1 (原付一種): velocidad máxima legal de 30 km/h, giro a la derecha en dos fases (二段階右折) en los cruces de las vías con tres o más carriles, y prohibido llevar pasajero. Cualquier afirmación del tipo «como es 125cc ya puede ir a 60 y llevar pasajero» es errónea."
+   },
+   "2553ff": {
+    "text": "El examen: solo teórico, pero con curso previo obligatorio"
+   },
+   "22a10d": {
+    "text": "El carné de ciclomotor no tiene examen práctico: solo hay un examen teórico de 30 minutos, y el cuestionario está disponible en japonés, inglés, chino y vietnamita. Lo que de verdad complica no es el examen, sino que antes hay que completar la «formación para ciclomotor» (原付講習): si no la has terminado, aunque apruebes el examen teórico no obtienes el carné ese mismo día."
+   },
+   "de3307": {
+    "headers": [
+     "Concepto",
+     "Importe"
+    ],
+    "rows": [
+     [
+      "Tasa de examen (試験手数料)",
+      "1,600 円"
+     ],
+     [
+      "Tasa de expedición del carné",
+      "2,350 円"
+     ],
+     [
+      "Total (mínimo)",
+      "3,950 円"
+     ]
+    ]
+   },
+   "2b03e1": {
+    "text": "※ Si lo solicitas por Internet con la tarjeta My Number, el coste anterior baja a 1,550 円."
+   },
+   "d2037e": {
+    "text": "Proceso del examen y horario de recepción"
+   },
+   "f264aa": {
+    "text": "La recepción de solicitudes es solo de 08:30 a 09:00 de la mañana de los días laborables (excepto festivos y del 12/29 al 01/03), y hay 4 centros de examen en la prefectura de Fukuoka. Si la pierdes, tendrás que volver otro día: calcula bien el tiempo de desplazamiento desde Ito (伊都)."
+   },
+   "e03f4f": {
+    "items": [
+     {
+      "text": "Matriculación: la placa del ciclomotor la expide la oficina del ayuntamiento / del distrito del lugar de residencia (no la oficina de vehículos); la ventanilla del distrito Nishi (西区) es distinta de la de la ciudad de Itoshima (糸島市)."
+     },
+     {
+      "text": "Es obligatorio contratar el seguro de responsabilidad civil obligatoria (自賠責保険); circular sin seguro es ilegal."
+     }
+    ]
+   },
+   "3ef442": {
+    "items": [
+     {
+      "text": "Policía de la prefectura de Fukuoka · carné de ciclomotor (原付免許)",
+      "url": "https://www.police.pref.fukuoka.jp/kotsu/unshi/026_2.html"
+     },
+     {
+      "text": "Policía de la prefectura de Fukuoka · formación para ciclomotor (原付講習)",
+      "url": "https://www.police.pref.fukuoka.jp/kotsu/unshi/gentukihenkou_2.html"
+     },
+     {
+      "text": "Asociación Japonesa de Fabricantes de Automóviles (日本自動車工業会) · nueva clasificación del ciclomotor de clase 1",
+      "url": "https://www.jama.or.jp/operation/motorcycle/cat1_scooter/"
+     }
+    ]
+   },
+   "9e60e9": {
+    "text": "Taxi: tarifas y cómo pedirlo"
+   },
+   "4dff94": {
+    "text": "Te hará falta cuando pierdas el último tren por la noche o cuando lleves equipaje voluminoso. La tarifa vigente en la zona de Fukuoka se aplica desde el 2026-07-01."
+   },
+   "adf1b4": {
+    "headers": [
+     "Tipo de vehículo",
+     "Tarifa inicial (dentro de 1.1 km)",
+     "Después, cada 100 円"
+    ],
+    "rows": [
+     [
+      "Coche estándar",
+      "600 円",
+      "287 m"
+     ],
+     [
+      "Coche grande",
+      "720 円",
+      "176 m"
+     ],
+     [
+      "Coche extra grande",
+      "780 円",
+      "148 m"
+     ]
+    ]
+   },
+   "094238": {
+    "items": [
+     {
+      "text": "Recargo nocturno (深夜割増): de 22:00 a las 05:00 del día siguiente, la tarifa sube un 20 %."
+     },
+     {
+      "text": "La tarifa de recogida (el taxi viene a buscarte) la fija cada empresa; el importe no es uniforme."
+     },
+     {
+      "text": "En las salidas de las estaciones de JR suele haber taxis esperando; en las zonas apartadas hay que pedirlo por teléfono o con una aplicación."
+     }
+    ]
+   },
+   "f7c689": {
+    "text": "La tarifa que circula por Internet de «inicio 1,064 m por 670 円, después 268 m por 80 円» es la versión anterior y quedó derogada el 2026-07-01. Si una guía muestra esas cifras, es probable que el resto de su contenido se escribiera antes de esa fecha; tenlo en cuenta."
+   },
+   "5803fa": {
+    "text": "Enlaces relacionados"
+   },
+   "9b2747": {
+    "items": [
+     {
+      "text": "Asociación de Taxis de Fukuoka (福岡市タクシー協会) · tabla de tarifas",
+      "url": "https://www.taxi-fukcty.or.jp/charge/"
+     }
+    ]
+   },
+   "e612d1": {
+    "text": "La selección de algunos temas de este artículo se basa en la recopilación de «新伊都国風土記» (Shin Itokoku Fudoki), de los autores Hato_Tsubame y CantonSimon. Todas las cifras y procedimientos del texto proceden de los sitios web oficiales y se han vuelto a comprobar; en caso de discrepancia con ese documento, prevalece la información oficial."
+   },
+   "e1c701": {
+    "text": "Shinkansen (新幹線)"
+   },
+   "e1c702": {
+    "text": "Desde Hakata salen dos líneas: el **shinkansen de Sanyo (山陽新幹線)**, en dirección a Honshu, y el **shinkansen de Kyushu (九州新幹線)**, hacia el sur de Kyushu."
+   },
+   "e1c703": {
+    "text": "⚠️ **Los estudiantes internacionales no pueden comprar el JR Pass (ジャパン・レール・パス).** Según las normas oficiales, solo se vende a los viajeros extranjeros que entran en Japón con el estatus de «estancia corta» (短期滞在); el estatus de residencia por estudios no entra en esa categoría, y aunque lo compres no podrás canjearlo. La idea que circula por Internet de «poder usar todo el JR de Japón sin límite» no se aplica a nosotros."
+   },
+   "e1c704": {
+    "text": "Comprar billetes y ahorrar"
+   },
+   "e1c705": {
+    "items": [
+     {
+      "text": "Reserva por Internet: smartEX cubre los shinkansen de Tokaido (東海道), Sanyo (山陽) y Kyushu (九州); después de reservar, puedes entrar en la estación pasando directamente la tarjeta IC."
+     },
+     {
+      "text": "Descuento de estudiante (学割): para estudiantes de los centros designados por JR y con un **trayecto sencillo de más de 100 km**, la tarifa tiene un 20 % de descuento."
+     },
+     {
+      "text": "Ten en cuenta que el descuento de estudiante solo cubre el «billete de tren» (乗車券): el suplemento por el expreso (特急券) del shinkansen no entra en el descuento."
+     },
+     {
+      "text": "Platt Kodama (ぷらっとこだま): un producto con descuento de la agencia de viajes JR Tokai; solo se puede usar en el Kodama (こだま) y es más barato que el precio normal."
+     }
+    ]
+   },
+   "e1c706": {
+    "text": "El descuento de estudiante requiere el **certificado de estudiante (学割証)** que expide la universidad: basta con solicitarlo en la ventanilla de asuntos académicos correspondiente (la normativa de JASSO establece que lo reparte la universidad)."
+   },
+   "e1c707": {
+    "items": [
+     {
+      "text": "Certificado de estudiante (学割証) (JASSO, oficial)",
+      "url": "https://www.jasso.go.jp/gakusei/gakuwari/index.html"
+     },
+     {
+      "text": "Cómo comprar y usar el billete con descuento de estudiante (JR East, oficial)",
+      "url": "https://media.jreast.co.jp/articles/1731"
+     },
+     {
+      "text": "smartEX (oficial · reserva por Internet)",
+      "url": "https://smart-ex.jp/top.php"
+     },
+     {
+      "text": "Platt Kodama (ぷらっとこだま) (agencia de viajes JR Tokai, oficial)",
+      "url": "https://travel.jr-central.co.jp/plan/tokushu/kep"
+     },
+     {
+      "text": "Requisitos de uso del JR Pass (oficial)",
       "url": "https://japanrailpass.net/about_jrp/riyou/"
      }
     ]
@@ -13930,6 +16314,260 @@ window.ARTICLES_BODY_I18N = {
    },
    "918ebe": {
     "text": "막 도착한 첫 몇 달은 표적이 되기 쉬운 시기입니다 —— 싼 환전, 대사관이나 경찰을 사칭하는 전화, 「먼저 송금부터」라는 온갖 명목. 참조【사기 방지 가이드(필독)】"
+   }
+  },
+  "es": {
+   "125163": {
+    "text": "Antes de partir: 3 artículos difíciles de conseguir después de llegar a Japón"
+   },
+   "762418": {
+    "headers": [
+     "Asunto",
+     "Plazo",
+     "Qué ocurre si se incumple"
+    ],
+    "rows": [
+     [
+      "COE",
+      "Entrar en Japón dentro de 3 meses tras la emisión",
+      "Se anula, hay que volver a solicitarlo"
+     ],
+     [
+      "Mudanza de vivienda（incluida dentro de la misma ciudad）",
+      "Declarar en la oficina del distrito de la nueva dirección en 14 días",
+      "——"
+     ],
+     [
+      "Renovación de la tarjeta de residencia",
+      "Se puede hacer desde 3 meses antes de que expire el periodo de residencia",
+      "Si vence, es estancia ilegal"
+     ],
+     [
+      "Pago único de retiro de la pensión",
+      "Presentar dentro de 2 años después de salir de Japón",
+      "Si pasa el plazo, no se puede solicitar"
+     ]
+    ]
+   },
+   "7dd5df": {
+    "text": "Durante el primer mes tras la llegada hay que hacer una docena de trámites, y tienen un orden: algunos solo se pueden completar después de haber hecho otros. Este artículo los ordena en una sola línea. **Es un índice, no un sustituto**: los documentos concretos, las direcciones y los importes se rigen por el contenido de cada sección."
+   },
+   "2c7db0": {
+    "text": "Para abrir una cuenta bancaria es **obligatorio** usar un sello (hanko) de material común; los shachihata（シャチハタ, sello de tinta automática）no se aceptan en ningún caso. Sin sello no se puede abrir la cuenta, y el alquiler, la matrícula y la beca van por cuenta bancaria. Si no te da tiempo de grabar el sello en tu país, en los Don Quijote（ドンキホーテ）de Japón hay máquinas de grabado automático, desde unos 500 円. Véase 【Preparativos de llegada】"
+   },
+   "4c0436": {
+    "text": "El COE tiene una validez de **3 meses**: hay que completar la solicitud de visado y entrar en Japón dentro del plazo. Los ámbitos sensibles de ciencia e ingeniería（IA, espacio, energía nuclear）pueden ser objeto de una revisión adicional y el proceso se alarga; si de verdad no llegas al inicio del curso, contacta cuanto antes con el personal docente y con el alojamiento para negociar un retraso. Véase 【Preparativos de llegada】"
+   },
+   "9da430": {
+    "text": "La tarjeta SIM de datos temporal es solo un puente de una semana aproximadamente: al llegar necesitas internet para navegar, comunicarte y hacer trámites, y la SIM local japonesa solo se puede contratar bien después de completar el registro de residencia. Véase 【Móvil e internet】"
+   },
+   "7404c3": {
+    "text": "El día de la llegada: 2 trámites que se pueden hacer en el aeropuerto"
+   },
+   "eba78f": {
+    "items": [
+     {
+      "title": "Recoger la tarjeta de residencia",
+      "desc": "El aeropuerto de Fukuoka es un aeropuerto designado para la emisión de la tarjeta: te la entregan en el momento tras pasar el control. En ese momento el campo de dirección está vacío; después hay que registrarla en la oficina del distrito."
+     },
+     {
+      "title": "Solicitar el permiso de actividad fuera del estatus",
+      "desc": "Si piensas trabajar a tiempo parcial, hazlo aquí de una vez: se puede solicitar en el aeropuerto al entrar en Japón, y si lo pierdes tendrás que ir aparte a la Agencia de Servicios de Inmigración."
+     }
+    ]
+   },
+   "6bb153": {
+    "text": "Trabajar sin haber obtenido el permiso de actividad fuera del estatus es ilegal y puede afectar al visado. Durante el periodo de clases el límite es de **28 horas** semanales; en las vacaciones largas, 8 horas al día y 40 horas por semana. Véase 【Trabajo a tiempo parcial】"
+   },
+   "6d60e7": {
+    "text": "Si entras por un **aeropuerto no designado**（aeropuertos regionales como Naha, Kagoshima, Shizuoka）, el aeropuerto solo emite un «aviso de entrega prevista de la tarjeta de residencia»; la tarjeta de residencia se enviará por correo a la dirección registrada 1〜2 semanas después de completar el registro de residencia. Durante ese periodo no se puede hacer ningún trámite que requiera la tarjeta de residencia. Entrar por Fukuoka no tiene este problema. Véase 【Preparativos de llegada】"
+   },
+   "0dcd62": {
+    "text": "Pasar el control suele tardar 20~30 minutos, y más cuando llegan muchos vuelos el mismo día; si tienes que alcanzar el autobús de enlace, prevé tiempo. El autobús de enlace de la universidad sale de las terminales internacional y nacional del aeropuerto de Fukuoka, **por orden de llegada y sin reserva**; las fechas y los horarios cambian cada semestre, según el aviso de la universidad. Véase 【Preparativos de llegada】"
+   },
+   "ca70c6": {
+    "text": "Primera semana: registro de residencia（requisito previo de los demás trámites）"
+   },
+   "aea806": {
+    "text": "Banco, móvil, seguro, pensión: **casi todos los trámites posteriores exigen que la dirección ya esté registrada en el reverso de la tarjeta de residencia**. Por eso va lo primero, y ocupa uno o dos días: entregas la tarjeta de residencia en el momento y la recuperas al día siguiente."
+   },
+   "eb553f": {
+    "items": [
+     {
+      "title": "Registro de residencia（住民登録）",
+      "desc": "Ve tú mismo a Saitopia（さいとぴあ）o encárgaselo a la universidad."
+     },
+     {
+      "title": "Recoger la tarjeta de residencia",
+      "desc": "Después de que la dirección quede impresa en el reverso, hay que entregarla de nuevo en la oficina de asuntos estudiantiles de cada facultad para otro registro."
+     },
+     {
+      "title": "Contratar la tarjeta SIM",
+      "desc": ""
+     },
+     {
+      "title": "Abrir la cuenta bancaria",
+      "desc": ""
+     },
+     {
+      "title": "Seguro nacional de salud + pensión nacional",
+      "desc": "Se pueden tramitar a la vez que el registro de residencia."
+     }
+    ]
+   },
+   "7a8ea2": {
+    "text": "Saitopia（subsucursal del oeste, 西部出張所）está a unos 1 minuto a pie de la estación JR «Kyudai-Gakkentoshi». Atención **días laborables 8:45~17:15**, cerrada los fines de semana y festivos. Las ventanillas incluyen la sección de ciudadanía（市民係）y la sección de seguro y pensión（保険年金係）; normalmente en **1~1.5 horas se completan de una vez el registro de residencia, la pensión y el seguro de salud**, y el personal puede atender en inglés. Véase 【Trámites de residencia】"
+   },
+   "ae2598": {
+    "text": "La gestión por la universidad solo cubre el registro de residencia: la universidad guarda temporalmente la tarjeta de residencia unos 3 días hábiles; la pensión y el seguro de salud todavía tienes que hacerlos tú. Ambas opciones valen: si eliges la gestión por la universidad, luego puedes completar tú mismo el resto de trámites sin problema. Véase 【Trámites de residencia】"
+   },
+   "563ad8": {
+    "text": "La orientación bancaria es una **actividad aparte** y se reserva por separado de la orientación de ingreso; hay que confirmar antes de venir a Japón si te has inscrito. Si la pierdes, normalmente solo queda ir tú mismo a la ventanilla, que lleva bastante tiempo. Además, las ventanillas de los bancos japoneses suelen atender solo de **10:00~15:00**; después de las 15:00 no se puede hacer nada salvo usar el cajero automático. Véase 【Banco y transferencias】"
+   },
+   "41022a": {
+    "text": "Dependencias entre trámites"
+   },
+   "5adfc3": {
+    "headers": [
+     "Trámite",
+     "Requisito previo",
+     "Dónde se hace"
+    ],
+    "rows": [
+     [
+      "Registro de residencia",
+      "Tarjeta de residencia",
+      "Saitopia / oficina del distrito"
+     ],
+     [
+      "Tarjeta SIM",
+      "Tarjeta de residencia con dirección registrada",
+      "En línea o en tienda"
+     ],
+     [
+      "Abrir cuenta bancaria",
+      "Tarjeta de residencia, pasaporte, sello (hanko) y carné de estudiante",
+      "Ventanilla del banco / sesión informativa"
+     ],
+     [
+      "Seguro nacional de salud",
+      "Registro de residencia",
+      "Oficina del distrito（puede hacerse a la vez que el registro de residencia）"
+     ],
+     [
+      "Exención de pago para estudiantes",
+      "Carné de estudiante",
+      "Ventanilla de pensiones de la oficina del distrito"
+     ],
+     [
+      "マイナンバーカード",
+      "Registro de residencia",
+      "Oficina del distrito"
+     ],
+     [
+      "Recibir transferencias del extranjero",
+      "マイナンバー",
+      "Banco"
+     ],
+     [
+      "Trabajo a tiempo parcial",
+      "Permiso de actividad fuera del estatus",
+      "Aeropuerto o Agencia de Servicios de Inmigración"
+     ]
+    ]
+   },
+   "96276e": {
+    "text": "Si al abrir la cuenta todavía no tienes número de móvil propio, en el campo del teléfono puedes poner primero el número del Supporter o del Centro de Apoyo（サポートセンター）, y cambiarlo después de tener el tuyo. Para abrir la cuenta también hay que llevar algo de efectivo para el depósito inicial. Véase 【Banco y transferencias】"
+   },
+   "dcdc27": {
+    "text": "Primer mes: los 3 trámites que más se pasan por alto"
+   },
+   "1b0c01": {
+    "text": "El paso de la pensión **se olvida todos los años**. El proceso completo es: registro de residencia → tramitar por primera vez en la oficina del distrito la «exención por ingresos por debajo del umbral» → recibir el carné de estudiante → **volver a la oficina del distrito** para cambiar a la exención de pago para estudiantes. Si te olvidas de cambiar, luego recibirás la factura de la pensión. Ten en cuenta que el carné de estudiante no se entrega el mismo día; el tiempo de emisión varía según la facultad. Véase 【Trámites de residencia】"
+   },
+   "ae843e": {
+    "text": "El ESP（servicio de apoyo de emergencia para estudiantes internacionales）es de afiliación obligatoria para los estudiantes internacionales de la Universidad de Kyushu; la cuota anual es de unos 1,650 円, e incluye interpretación telefónica a tres bandas al ir al médico, información sobre instituciones médicas y contacto con la familia en emergencias. **No es un seguro**: es distinto del seguro nacional de salud, y hay que contratar los dos. Véase 【Salud y seguros】"
+   },
+   "bca906": {
+    "text": "Plazos que anotar en el calendario"
+   },
+   "b9105b": {
+    "text": "No renovar a tiempo el estatus de residencia es «estancia ilegal», con consecuencias por niveles: en lo penal se puede imponer **prisión de hasta 3 años o multa de hasta 300 万円**; además conlleva la denegación de reingreso: 1 año para quien se entrega y sale voluntariamente, 5 años para quien es deportado por la fuerza y 10 años para los reincidentes. Véase 【Trámites de residencia】"
+   },
+   "973bb1": {
+    "text": "Después de instalarse"
+   },
+   "16e6d0": {
+    "text": "El dormitorio ya viene con cama, mesa y silla, estantería, nevera y aire acondicionado; **no se proporcionan** utensilios de cocina, hervidor, vajilla, toallas ni artículos de aseo, y solo se incluye 1 rollo de papel higiénico. El futón se puede alquilar, pero las opiniones dicen que la calidad es regular; se recomienda traer tu propia ropa de cama de contacto（funda de edredón, funda de almohada）, que además te servirá después de salir del dormitorio. Véase 【Preparativos de llegada】"
+   },
+   "38bab8": {
+    "text": "En el campus Ito la vida diaria depende de la bicicleta: desde la estación JR Kyudai-Gakkentoshi se tarda unos 45~50 minutos a pie hasta la universidad, y 20~30 minutos en bici. Al comprar la bicicleta hay que hacer el **registro antirrobo（600 円）**; guarda bien la tarjeta del registro, la necesitarás para la baja. Véase 【Transporte】"
+   },
+   "3897a8": {
+    "text": "En la ciudad de Fukuoka la basura se recoge por tipos de forma periódica, y **es obligatorio usar las bolsas designadas**（se venden en tiendas de conveniencia y supermercados, con impresión distinta según el tipo）. La basura combustible se recoge 2 veces por semana y el resto 1 vez al mes, casi siempre de noche; normalmente se saca entre la puesta de sol y las 24:00 del día anterior al de la recogida. La web oficial de la ciudad tiene un buscador de clasificación en chino: introduces el nombre del objeto y te dice cómo clasificarlo. Véase 【Consejos de vida diaria】"
+   },
+   "36cd13": {
+    "text": "Dos trampas con las cuentas de la universidad: para activar SSO-KID **no se puede usar un correo distinto del correo de la universidad**; la cuenta del WiFi del campus es SSOKID@Kitnet, y la contraseña es la que pusiste al activar SSO-KID. Véase 【Trámites de residencia】"
+   },
+   "082061": {
+    "text": "Teléfonos de emergencia"
+   },
+   "b01952": {
+    "items": [
+     {
+      "text": "Delitos o accidentes, si necesitas a la policía — 110"
+     },
+     {
+      "text": "Incendio, o si necesitas una ambulancia — 119"
+     },
+     {
+      "text": "Enfermedad súbita o duda de si llamar a la ambulancia — #7119（si el número corto no funciona, marca 092-471-0099）"
+     },
+     {
+      "text": "Problemas de idioma al ir al médico — 092-286-9595（24 horas, 365 días, unos 19 idiomas, traducción telefónica gratuita）"
+     },
+     {
+      "text": "Si necesitas asistencia consular — Línea de emergencia de protección consular del Ministerio de Asuntos Exteriores +86-10-12308（24 horas）"
+     },
+     {
+      "text": "Dificultades de la vida diaria y quieres consultar en chino — Consulta integral para extranjeros de la ciudad de Fukuoka（días laborables 8:45~18:00）"
+     }
+    ]
+   },
+   "9b980b": {
+    "text": "La lista completa de números y la información de embajadas y consulados, en 【Contactos de emergencia】"
+   },
+   "644b54": {
+    "text": "Lecturas complementarias"
+   },
+   "918ebe": {
+    "text": "Los primeros meses tras la llegada son la época de mayor riesgo de ser objetivo de fraudes: cambio de divisas a precio sospechosamente bajo, llamadas que suplantan a la embajada o a la policía, y todo tipo de pretextos para «transferir el dinero primero». Véase 【Seguridad anti-estafas para estudiantes（prioritaria para principiantes）】"
+   },
+   "06893a": {
+    "items": [
+     {
+      "text": "Sello (はんこ): de material normal; no se acepta el tipo シャチハタ"
+     },
+     {
+      "text": "El COE original y una copia del PDF que recibiste por correo"
+     },
+     {
+      "text": "Una SIM temporal o wifi portátil para usar nada más aterrizar"
+     }
+    ]
+   },
+   "0aad31": {
+    "items": [
+     {
+      "text": "Cuando tengas el carné de estudiante, vuelve a la oficina del distrito y cambia la pensión de la «exención por bajos ingresos» a la «exención de pago para estudiantes»"
+     },
+     {
+      "text": "Solicita la tarjeta My Number (hará falta más adelante para el banco, las transferencias y el seguro)"
+     },
+     {
+      "text": "Pasa la revisión médica periódica de abril / octubre (normalmente en la 2.ª planta de Big Sando)"
+     }
+    ]
    }
   }
  },
@@ -15817,6 +18455,625 @@ window.ARTICLES_BODY_I18N = {
    "8f9a0b": {
     "text": "**원문 출처**: 留学課 NotePM「新入留学生サポートポータル（伊都キャンパス）」2026-08-20（각 하위 페이지와 공식 PDF 시간표 포함）. 정보는 공식 최신 발표를 기준으로 합니다."
    }
+  },
+  "es": {
+   "83b134": {
+    "text": "Toda la información de apoyo para quienes ingresan en otoño de 2026: traslado desde el aeropuerto, entrada al dormitorio, Wi-Fi, trámites administrativos, orientación（オリエンテーション）, sesión de apertura de cuenta bancaria y ESP. **Se recomienda revisar primero el resumen del programa** y ampliar cada sección según sea necesario."
+   },
+   "9c1a2e": {
+    "text": "Este artículo reúne toda la información oficial de apoyo de la oficina de estudiantes internacionales de la División Internacional de la Universidad de Kyushu dirigida a **los estudiantes internacionales de nuevo ingreso del otoño de 2026**. Fuente original: portal NotePM de la oficina de estudiantes internacionales «Portal de apoyo para estudiantes internacionales de nuevo ingreso（新入留学生サポートポータル - campus Ito, 伊都キャンパス）», publicado el 2026-08-20. Los destinatarios y las fechas de cada actividad tienen limitaciones oficiales; verifica siempre según lo indicado en este artículo."
+   },
+   "1b2c3d": {
+    "text": "Resumen del programa"
+   },
+   "a4b5c6": {
+    "headers": [
+     "Fecha",
+     "Actividad",
+     "Destinatarios",
+     "Notas"
+    ],
+    "rows": [
+     [
+      "9月24日・25日",
+      "Autobús lanzadera gratuito desde el aeropuerto",
+      "Todos los estudiantes internacionales de nuevo ingreso",
+      "Por orden de llegada, sin reserva"
+     ],
+     [
+      "9月24日・25日・29日・30日・10月1日",
+      "Autobús gratuito de apoyo para la vida diaria",
+      "Estudiantes internacionales de nuevo ingreso y acompañantes",
+      "Por orden de llegada, sin reserva"
+     ],
+     [
+      "9月24日～10月上旬",
+      "Trámites administrativos y orientación bancaria",
+      "Estudiantes de nuevo ingreso del extranjero que residen en dormitorios estudiantiles",
+      "⚠️ Inscripción previa obligatoria"
+     ],
+     [
+      "9月28日",
+      "Orientación + 4 actividades paralelas",
+      "Todos los estudiantes internacionales de nuevo ingreso (incluidos los de otros campus)",
+      "⚠️ Asistencia obligatoria para estudiantes internacionales de nuevo ingreso"
+     ],
+     [
+      "9月29日・30日",
+      "Visita guiada al campus para estudiantes internacionales de nuevo ingreso",
+      "Todos los estudiantes internacionales de nuevo ingreso",
+      "Requiere inscripción; 20 personas por sesión"
+     ],
+     [
+      "10月6日・7日・8日",
+      "Sesión de apertura de cuenta del Banco de Fukuoka（福岡銀行）",
+      "Estudiantes de nuevo ingreso que ya completaron el registro de domicilio",
+      "⚠️ Inscripción previa obligatoria"
+     ]
+    ]
+   },
+   "2d3e4f": {
+    "text": "Los horarios disponibles para entrar a cada dormitorio estudiantil se rigen por lo indicado en las bases de la convocatoria（募集要項：Solicitud de dormitorio para estudiantes internacionales, 留学生用宿舎申請）a partir de la página 6."
+   },
+   "3e4f5a": {
+    "text": "① Autobús lanzadera gratuito desde el aeropuerto (Aeropuerto de Fukuoka → dormitorios de Ito)"
+   },
+   "4f5a6b": {
+    "text": "El 24 y 25 de septiembre de 2026, la oficina de estudiantes internacionales operará autobuses lanzadera gratuitos desde el Aeropuerto de Fukuoka con destino directo a la estación Kyudai-Gakkentoshi (九大学研都市駅) / dormitorios 1-3 (ドミトリー1-3) / Ito Kyosokan（伊都協奏館） / Settle International（セトルインターナショナル）. **En principio, solo pueden subir los propios estudiantes internacionales de nuevo ingreso**. Se asignan por orden de llegada y sin reserva; si el autobús se llena, es posible que no se pueda abordar. Llega al punto de encuentro **al menos 15 minutos antes**."
+   },
+   "5a6b7c": {
+    "headers": [
+     "Salida (Aeropuerto de Fukuoka)",
+     "Servicio 1",
+     "Servicio 2",
+     "Servicio 3",
+     "Servicio 4"
+    ],
+    "rows": [
+     [
+      "Terminal internacional",
+      "9:00",
+      "11:30",
+      "15:00",
+      "18:00"
+     ],
+     [
+      "Terminal nacional",
+      "9:25",
+      "11:55",
+      "15:25",
+      "18:25"
+     ]
+    ]
+   },
+   "6b7c8d": {
+    "headers": [
+     "Llegada",
+     "Servicio 1",
+     "Servicio 2",
+     "Servicio 3",
+     "Servicio 4"
+    ],
+    "rows": [
+     [
+      "Estación Kyudai-Gakkentoshi",
+      "9:55",
+      "12:35",
+      "16:05",
+      "19:05"
+     ],
+     [
+      "セトルインターナショナル",
+      "10:25",
+      "12:55",
+      "16:25",
+      "No para"
+     ],
+     [
+      "ドミトリー1～3",
+      "10:45",
+      "13:15",
+      "16:45",
+      "19:30"
+     ],
+     [
+      "Ito Kyosokan（伊都協奏館）",
+      "11:00",
+      "13:30",
+      "17:00",
+      "19:50"
+     ]
+    ]
+   },
+   "7c8d9e": {
+    "items": [
+     {
+      "text": "El Servicio 4 no para en Settle International（セトルインターナショナル）ningún día."
+     },
+     {
+      "text": "Punto de encuentro: terminales internacional / nacional del Aeropuerto de Fukuoka"
+     },
+     {
+      "text": "Desde 1 hora antes de la salida, personal con cartel de «Kyushu University» guía en la puerta de llegadas"
+     },
+     {
+      "text": "Los horarios de salida y llegada pueden variar según las condiciones del tráfico."
+     },
+     {
+      "text": "Los estudiantes internacionales de nuevo ingreso de los campus Byoin（病院）, Chikushi（筑紫） y Ohashi（大桥）**no pueden** usar este autobús."
+     }
+    ]
+   },
+   "8d9e0f": {
+    "text": "② Autobús gratuito de apoyo para la vida diaria (dormitorios ⇄ estación Kyudai-Gakkentoshi)"
+   },
+   "9e0f1a": {
+    "text": "Trayecto: Ito Kyosokan（伊都協奏館） / dormitorios 1-3 (ドミトリー1-3) / Settle International（セトルインターナショナル） ⇄ estación Kyudai-Gakkentoshi (九大学研都市駅). En la zona de Gakkentoshi hay centros comerciales y servicios públicos como AEON Mall y Saitopia（さいとぴあ）. Días de operación: 9月24日・25日・29日・30日、10月1日. Pueden usarlo los estudiantes internacionales de nuevo ingreso y sus acompañantes, por orden de llegada. La siguiente tabla muestra en tiempo real la hora de llegada del siguiente servicio."
+   },
+   "0f1a2b": {
+    "text": "Los asientos del autobús son limitados y se asignan por orden de llegada; quienes vivan en los dormitorios 2 y 3 (ドミトリー2・3) deben abordar en el dormitorio 1 (ドミトリー1). Los horarios de operación y las paradas se rigen por el PDF del póster oficial."
+   },
+   "w1a2b3": {
+    "text": "③ Wi-Fi del campus（キャンパスWi-Fi / kitenet）"
+   },
+   "w2b3c4": {
+    "text": "Para los estudiantes internacionales de nuevo ingreso que aún no tengan conexión de red preparada tras su llegada a Japón, la oficina de estudiantes internacionales proporciona **ID y contraseña temporales de acceso al Wi-Fi** (se envían a finales de septiembre al correo registrado en el sistema de apoyo a la llegada). La Universidad de Kyushu cuenta con múltiples puntos de acceso inalámbrico en el campus."
+   },
+   "w3c4d5": {
+    "text": "Validez de las credenciales temporales: **2026年9月24日(木)～10月9日(金)**. Después de 10月9日 ya no se podrán usar; deberás configurar kitenet（Wi-Fi del campus para estudiantes de Kyushu University）con tu propio **SSO-KID**."
+   },
+   "w4d5e6": {
+    "items": [
+     {
+      "title": "Confirma tu propio SSO-KID",
+      "desc": "Los estudiantes regulares lo tienen **en el reverso de la tarjeta de estudiante**. Quienes no tengan tarjeta de estudiante deben consultar a la oficina de asuntos estudiantiles de su facultad（学部）o escuela de posgrado（学府）(pregunta también por el código de registro)."
+     },
+     {
+      "title": "Prepara los materiales",
+      "desc": "Código de registro + una dirección de correo que no sea @s.kyushu-u.ac.jp."
+     },
+     {
+      "title": "Activa el SSO-KID",
+      "desc": "Actívalo en el sitio oficial: https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
+     },
+     {
+      "title": "Completa la configuración inicial de kitenet",
+      "desc": "La universidad ofrece guías de configuración para iOS / Android / otros sistemas operativos."
+     }
+    ]
+   },
+   "w5e6f7": {
+    "items": [
+     {
+      "text": "Página de activación de SSO-KID",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
+     },
+     {
+      "text": "Página oficial del Wi-Fi del campus",
+      "url": "https://notepm.jp/sharing/751f751c-dbec-4cf0-a5b9-0e3a396b467d"
+     }
+    ]
+   },
+   "1a2b3c": {
+    "text": "④ Trámites administrativos y orientación bancaria (lectura obligatoria para residentes de dormitorios)"
+   },
+   "2b3c4d": {
+    "text": "Para los estudiantes internacionales de nuevo ingreso que llegan del extranjero y residirán en dormitorios estudiantiles, la oficina de estudiantes internacionales gestiona en su nombre trámites administrativos como el registro de domicilio y el seguro nacional de salud, y explica la pensión nacional, la tarjeta My Number y la apertura de cuenta bancaria（Japan Post Bank（ゆうちょ） / Banco de Fukuoka（福岡銀行） / Nishi-Nippon City Bank（西日本シティ銀行））. **Es obligatorio asistir a la primera y a la segunda sesión de orientación**. Lugar: Jonathan K.S. Choi Cultural Center（日本ジョナサン・KS・チョイ文化館）(No.79 del mapa del campus). Llevar: pasaporte, tarjeta de residencia y bolígrafo negro. La fecha de participación se reserva en el sistema de apoyo a la llegada (Pre-Arrival Assistance) (el formulario solo aparece cuando se completa el trámite de entrada al dormitorio); **no se envía correo de recordatorio**, así que anota la fecha reservada y confírmala en la página de estado. La fecha de la primera sesión no puede ser anterior al día de ingreso al dormitorio. Antes del día de participación, envía al correo de la oficina de estudiantes internacionales las fotos de la página de datos del pasaporte y de la página con el sello del permiso de entrada (si la página de datos ya se subió al sistema de apoyo a la llegada, basta con enviar la del sello de entrada). Quienes no puedan asistir por conflicto de horarios pueden realizar los trámites por su cuenta con los videos instructivos multilingües elaborados por Q-Mate."
+   },
+   "c0d1e2": {
+    "headers": [
+     "Grupo",
+     "1.ª sesión de orientación",
+     "2.ª sesión de orientación"
+    ],
+    "rows": [
+     [
+      "A",
+      "9/24(木) 15:00-15:30",
+      "9/29(火) 13:00-14:00"
+     ],
+     [
+      "B",
+      "9/25(金) 13:00-13:30",
+      "9/29(火) 13:00-14:00"
+     ],
+     [
+      "C",
+      "9/28(月) 10:00-10:30",
+      "9/30(水) 13:00-14:00"
+     ],
+     [
+      "D",
+      "9/29(火) 10:00-10:30",
+      "10/1(木) 13:00-14:00"
+     ],
+     [
+      "E",
+      "9/30(水) 10:00-10:30",
+      "10/2(金) 13:00-14:00"
+     ],
+     [
+      "F",
+      "10/1(木) 10:00-10:30",
+      "10/5(月) 12:30-13:30"
+     ],
+     [
+      "G",
+      "10/2(金) 10:00-10:30",
+      "10/6(火) 12:00-13:00"
+     ]
+    ]
+   },
+   "d1e2f0": {
+    "text": "A unos 18 minutos a pie desde Kyosokan（協奏館）y a unos 5-7 minutos a pie desde los dormitorios（ドミトリー）. El cupo es limitado y es posible que no puedas elegir la fecha deseada. Cuando la oficina de estudiantes internacionales realiza el registro de domicilio en tu nombre, no se puede solicitar al mismo tiempo la tarjeta de residencia específica（特定在留カード）, el documento que integra la tarjeta My Number con la tarjeta de residencia; en el caso de registro de domicilio de nueva entrada es gratuita y **no es obligatoria**."
+   },
+   "e2f0a3": {
+    "headers": [
+     "Grupo",
+     "1.ª sesión de orientación",
+     "2.ª sesión de orientación"
+    ],
+    "rows": [
+     [
+      "A",
+      "9/28(月) 11:00-11:30",
+      "9/30(水) 15:00-16:00"
+     ],
+     [
+      "B",
+      "9/29(火) 11:00-11:30",
+      "10/1(木) 15:00-16:00"
+     ],
+     [
+      "C",
+      "9/30(水) 11:00-11:30",
+      "10/2(金) 15:00-16:00"
+     ]
+    ]
+   },
+   "f0a3b4": {
+    "text": "El lugar es el mismo (cultural center No.79). Unos 13 minutos en autobús (bajar en Big Orange（九大ビッグオレンジ前）) y unos 35 minutos a pie."
+   },
+   "5e6f0a": {
+    "text": "⑤ Orientación para estudiantes internacionales de nuevo ingreso (9月28日)"
+   },
+   "6f0a1b": {
+    "text": "9月28日(月) 12:50-15:10, en el Salón Shiinoki（椎木講堂）del campus Ito. Darán charlas la comisaría de Nishi（西警察署）, la Oficina Regional de Fukuoka de la Agencia de Servicios de Inmigración（福岡出入国在留管理局） y el Cuerpo de Bomberos de la ciudad de Fukuoka（福岡市消防局）. **Asistencia obligatoria para los estudiantes internacionales de nuevo ingreso** (excepto cuando coincida con otra sesión de orientación). Se requiere inscripción previa: **formulario de inscripción** https://forms.cloud.microsoft/r/nCDDWic1U5"
+   },
+   "a3b4c5": {
+    "headers": [
+     "Hora",
+     "Programa"
+    ],
+    "rows": [
+     [
+      "12:50",
+      "Discurso de apertura"
+     ],
+     [
+      "12:55",
+      "Presentación de «Q-Mate»"
+     ],
+     [
+      "13:05",
+      "Información práctica para la nueva vida en Fukuoka"
+     ],
+     [
+      "13:10",
+      "KUFSA（asociación de estudiantes internacionales, 留学生会）"
+     ],
+     [
+      "13:20",
+      "Presentación del servicio de asesoramiento psicológico del campus"
+     ],
+     [
+      "13:25",
+      "Sistema de estatus de residencia (Agencia de Servicios de Inmigración)"
+     ],
+     [
+      "13:35",
+      "Descanso de 15 minutos"
+     ],
+     [
+      "13:50",
+      "Seguridad y prevención del delito (comisaría de Nishi, 西警察署)"
+     ],
+     [
+      "14:30",
+      "Incendios, primeros auxilios y prevención de desastres (Cuerpo de Bomberos)"
+     ],
+     [
+      "14:55",
+      "Aviso de la biblioteca"
+     ],
+     [
+      "15:00",
+      "Discurso de clausura"
+     ]
+    ]
+   },
+   "b4c5d6": {
+    "text": "Ese mismo día hay 4 actividades más: venta de tarjetas SIM (lugar: Galleria del Salón Shiinoki（椎木講堂）; elige una de dos sesiones: ① 10:30-12:30, antes de la orientación, ② 15:10-17:00, después de la orientación; el sitio oficial recomienda priorizar la sesión de la mañana, pues la de la tarde puede estar concurrida; **es necesaria la inscripción previa**; los planes, precios y el método de inscripción se indican en el póster oficial), visita a la biblioteca (Biblioteca Central), consulta de inmigración（入管相談会）(puedes consultar en el lugar sobre el estatus de residencia) y fiesta de bienvenida（歓迎会）(17:00-18:00 @ BIG SKY, solo para estudiantes internacionales de nuevo ingreso). Hay autobuses lanzadera gratuitos de ida y vuelta al Salón Shiinoki（椎木講堂） desde los campus Byoin（病院）, Chikushi（筑紫） y Ohashi（大桥）, el Centro Internacional de Fukuoka（福岡市国際会館） e Ijiri（井尻） (ida: salida aproximada 10:40-10:50; vuelta: salida aproximada 18:20); por orden de llegada, y para la vuelta se debe mostrar el boleto entregado en la ida. **El punto de encuentro de la lanzadera es el lugar designado en cada campus (consulta el PDF oficial); no es el Centro de Intercambio Internacional（国際交流会館）.**"
+   },
+   "5f0a6b": {
+    "text": "⑥ Visita guiada al campus para estudiantes internacionales de nuevo ingreso (9月29・30日)"
+   },
+   "6a7b8c": {
+    "headers": [
+     "Fecha",
+     "Hora",
+     "Zona temática"
+    ],
+    "rows": [
+     [
+      "9/29(火)",
+      "10:30-12:00",
+      "Zona Este（イーストゾーン）: humanidades（文科）"
+     ],
+     [
+      "9/29(火)",
+      "15:00-16:30",
+      "Zona Oeste（ウエストゾーン）: ciencias（理科）"
+     ],
+     [
+      "9/30(水)",
+      "10:30-12:00",
+      "Zona Oeste（ウエストゾーン）: ciencias（理科）"
+     ],
+     [
+      "9/30(水)",
+      "15:00-16:30",
+      "Zona Este（イーストゾーン）: humanidades（文科）"
+     ]
+    ]
+   },
+   "7b8c9d": {
+    "text": "Punto de encuentro: edificio 6 de la Zona Central（センター6号館）. 20 personas por sesión, unos 90 minutos, todo a pie; usa zapatos cómodos para caminar y lleva tu propia bebida. El idioma principal es el inglés (también se acepta japonés). Puedes inscribirte en una zona distinta a la tuya (los estudiantes de humanidades también pueden elegir la sesión de ciencias). Durante la actividad se tomarán fotos que podrían publicarse en redes sociales; si te incomoda, avísalo con antelación a Q-Mate. Organiza Q-Mate; el formulario de inscripción está en el portal oficial."
+   },
+   "8c9d0e": {
+    "text": "⑦ Sesión de apertura de cuenta del Banco de Fukuoka（福岡銀行）(10月6・7・8日)"
+   },
+   "9d0e1f": {
+    "text": "El Banco de Fukuoka（福岡銀行） tiene cajeros automáticos dentro del campus Ito y es uno de los principales bancos de la prefectura de Fukuoka. Al participar en la sesión de apertura puedes **recibir en el acto el número de cuenta y la tarjeta bancaria**, sin necesidad de ir a una sucursal; la cuenta puede usarse directamente para recibir becas y para la domiciliación del alquiler. Personal del Banco de Fukuoka y de la Universidad de Kyushu ofrece apoyo en inglés y japonés. **Lugar: Jonathan K.S. Choi Cultural Center（日本Jonathan KS Choi文化館）(No.79 del mapa del campus)**; elige una de las sesiones 1.ª a 3.ª (evita el horario de tus clases)."
+   },
+   "0e1f2a": {
+    "items": [
+     {
+      "text": "Condición ①: haber completado el registro de domicilio en la tarjeta de residencia"
+     },
+     {
+      "text": "Condición ②: que queden más de 3 meses del período de residencia (quienes no cumplan deben acudir por su cuenta a una sucursal bancaria)"
+     },
+     {
+      "text": "Inscripción: sistema de apoyo a la llegada (Pre-Arrival Assistance) → completar el formulario de la sesión de apertura de cuenta y subir la foto de la tarjeta de residencia (el formulario solo se muestra durante el período de inscripción)"
+     },
+     {
+      "text": "La inscripción solo es válida cuando se recibe el correo de confirmación de la oficina de estudiantes internacionales; sin ese correo no se puede participar y, en principio, no se permite cancelar"
+     },
+     {
+      "text": "El sello (印鑑) no puede ser automático（シャチハタ）: debe ser un sello tradicional con tinta roja（朱肉）; además se necesita un número de teléfono utilizable en Japón"
+     },
+     {
+      "text": "Quienes tengan nacionalidad estadounidense deben confirmar antes su SSN (Social Security Number)"
+     }
+    ]
+   },
+   "1f2a3b": {
+    "text": "⑧ ESP: plan de tranquilidad en emergencias para estudiantes internacionales y otros（外国人留学生等緊急安心プラン）"
+   },
+   "2a3b4c": {
+    "text": "Dirigido a todos los estudiantes internacionales de la Universidad de Kyushu que tengan el estatus de residencia de «estudiante（留学）»; **la afiliación es obligatoria**. Ofrece asistencia médica 24 horas, 365 días al año, en chino, inglés y japonés: recomendación de hospitales, interpretación telefónica durante la consulta médica (con permiso del médico), contacto con la familia en el país de origen y organización del transporte en emergencias, entre otros. **Atención: ESP no es un seguro médico** y no reembolsa los gastos médicos; los costos de hospitalización, tratamiento y exámenes deben pagarse por cuenta propia o a través del seguro nacional de salud."
+   },
+   "3b4c5d": {
+    "headers": [
+     "Años de estudio",
+     "Costo",
+     "Aplicación"
+    ],
+    "rows": [
+     [
+      "1 año",
+      "1,650円",
+      "Estudiantes no regulares, estudiantes de investigación（研究生）y otros"
+     ],
+     [
+      "2 años",
+      "3,300円",
+      "Maestría（修士課程）"
+     ],
+     [
+      "3 años",
+      "4,950円",
+      "Doctorado（博士後期課程）"
+     ],
+     [
+      "4 años",
+      "6,600円",
+      "Licenciatura（学部）"
+     ]
+    ]
+   },
+   "4c5d6e": {
+    "items": [
+     {
+      "text": "Fecha límite de afiliación: **2026年10月30日(金)**."
+     },
+     {
+      "text": "Solicitud: en línea a través de la app oficial; se necesita un número de teléfono japonés; se recomienda tramitarla después de llegar a Japón"
+     },
+     {
+      "text": "El nombre de la app figura de forma inconsistente en los materiales oficiales (OSSMA / NEXUS); prevalece el manual más reciente"
+     },
+     {
+      "text": "Pago: tarjeta de crédito / tienda de conveniencia (se elige al registrarse en línea; se agrega una comisión)."
+     }
+    ]
+   },
+   "m1h2i3": {
+    "text": "⑨ Información práctica y recursos médicos y de salud"
+   },
+   "m2i3j4": {
+    "text": "La página «お役立ち情報» (información útil) de la oficina de estudiantes internacionales reúne recursos prácticos para la vida en Fukuoka. **Lo que más preocupa a los estudiantes de nuevo ingreso es la atención médica**: dentro del campus Ito hay una clínica (伊都クリニック), pero no abre los fines de semana; para atenderse fuera del campus se debe consultar la **lista de instituciones médicas que atienden en idiomas extranjeros** (edición de mayo de 2026; nivel de idioma: A fluido / B conversación cotidiana / C básico)."
+   },
+   "m3j4k5": {
+    "headers": [
+     "Hospital",
+     "Ubicación",
+     "Especialidades",
+     "Idiomas"
+    ],
+    "rows": [
+     [
+      "Clínica Ito（伊都クリニック）(dentro del campus)",
+      "Centro Zona 6, 1F（センター6号館 1F）",
+      "Medicina interna y psiquiatría",
+      "Inglés: nivel B"
+     ],
+     [
+      "Hospital Nishi-Fukuoka（西福岡病院）",
+      "Nishi-ku (西区), Ikinomatsubara（生之松原）",
+      "General",
+      "Nivel A · 20 idiomas"
+     ],
+     [
+      "Hospital Conmemorativo de Fukuoka（福岡記念病院）",
+      "Sawara-ku (早良区), Nishijin（西新）",
+      "General",
+      "Nivel A"
+     ]
+    ]
+   },
+   "45ba0c": {
+    "text": "Horarios de atención y contacto: Clínica Ito（伊都クリニック）días laborables 10:00-12:30 / 14:00-16:30; Hospital Nishi-Fukuoka（西福岡病院）0570-09-1331 (se requiere carta de referencia médica y reserva; sin carta de referencia se pagan 7,700 円 adicionales); Hospital Conmemorativo de Fukuoka（福岡記念病院）092-821-4731. Antes de acudir a un hospital fuera del campus, verifica los siguientes puntos: si se necesita reserva; la Clínica Ito no abre los fines de semana, por lo que necesitarás buscar otro hospital fuera del campus."
+   },
+   "d966c7": {
+    "items": [
+     {
+      "text": "Clínica Ito（伊都クリニック）",
+      "url": "https://itoclinic.kyushu-u.ac.jp/"
+     },
+     {
+      "text": "Hospital Conmemorativo de Fukuoka（福岡記念病院）",
+      "url": "http://kinen.jp"
+     }
+    ]
+   },
+   "m4k5l6": {
+    "items": [
+     {
+      "text": "Lista de instituciones médicas del campus Ito (PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E4%BC%8A%E9%83%BD%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-1.pdf"
+     },
+     {
+      "text": "Lista de instituciones médicas del campus Byoin（病院）(PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%97%85%E9%99%A2%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2-2.pdf"
+     },
+     {
+      "text": "Lista de instituciones médicas del campus Ohashi（大桥）(PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E5%A4%A7%E6%A9%8B%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"
+     },
+     {
+      "text": "Lista de instituciones médicas del campus Chikushi（筑紫）(PDF)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/06/%E7%AD%91%E7%B4%AB%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9_%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2.pdf"
+     }
+    ]
+   },
+   "2cbef1": {
+    "text": "Recursos útiles y enlaces"
+   },
+   "m5l6m7": {
+    "items": [
+     {
+      "text": "Ingreso a Japón de medicamentos de uso personal"
+     },
+     {
+      "text": "Información sobre enfermedades prevenibles por vacunación"
+     },
+     {
+      "text": "2026 CLUB & CIRCLE GUIDE"
+     },
+     {
+      "text": "2026 International Clubs Guide"
+     },
+     {
+      "text": "Global Gateways"
+     }
+    ]
+   },
+   "8b5893": {
+    "items": [
+     {
+      "text": "Ingreso a Japón de medicamentos de uso personal",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/kojinyunyu/topics/tp010401-1.html"
+     },
+     {
+      "text": "Información sobre enfermedades prevenibles por vacunación",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/visitor.html"
+     },
+     {
+      "text": "2026 CLUB & CIRCLE GUIDE",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-CLUB-CIRCLE-GUIDE.pdf"
+     },
+     {
+      "text": "2026 International Clubs Guide",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-INTL-CLUB-AND-CIRCLE%E3%80%80%E8%8B%B1%E8%AA%9E.pdf"
+     },
+     {
+      "text": "Global Gateways",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/"
+     }
+    ]
+   },
+   "5d6e7f": {
+    "text": "⑩ Contacto y consultas"
+   },
+   "6e7f8a": {
+    "items": [
+     {
+      "text": "Consultas antes de la llegada: oficina de estudiantes internacionales imm.s@jimu.kyushu-u.ac.jp"
+     },
+     {
+      "text": "Consultas diarias: LINE «Consultation Desk» (responde Q-Mate)"
+     },
+     {
+      "text": "Q-Mate Instagram：@_qmate"
+     },
+     {
+      "text": "Sitio web de Q-Mate: respuestas a dudas y resumen de información para la vida diaria"
+     }
+    ]
+   },
+   "0e969c": {
+    "items": [
+     {
+      "text": "Consultas diarias después de la llegada",
+      "url": "https://lin.ee/EiQqccP"
+     },
+     {
+      "text": "Sitio web de Q-Mate",
+      "url": "https://studentassistantqu.wixsite.com/q-mate/about"
+     }
+    ]
+   },
+   "7e8f9a": {
+    "items": [
+     {
+      "text": "Portal oficial NotePM (en japonés)",
+      "url": "https://notepm.jp/sharing/fb0e6579-ad42-4aaa-90fb-9bcff4e253e3"
+     },
+     {
+      "text": "Portal oficial NotePM (en inglés)",
+      "url": "https://notepm.jp/sharing/da6d736d-f9e1-44db-ba5e-580d2f1413b2"
+     },
+     {
+      "text": "Q-Mate Instagram",
+      "url": "https://www.instagram.com/_qmate/"
+     }
+    ]
+   },
+   "8f9a0b": {
+    "text": "**Fuente original**: portal NotePM de la oficina de estudiantes internacionales «Portal de apoyo para estudiantes internacionales de nuevo ingreso（新入留学生サポートポータル - campus Ito, 伊都キャンパス）» 2026-08-20 (incluye las subpáginas y los PDF oficiales de horarios). Prevalece la información publicada oficialmente más reciente."
+   }
   }
  },
  "guide-scholarship": {
@@ -16569,37 +19826,37 @@ window.ARTICLES_BODY_I18N = {
      [
       "CWAJ 外国人留学生大学院女子奨…",
       "200万円 al año",
-      ""
+      "10/5"
      ],
      [
       "INPEX教育交流…（3 个国别版）",
       "160,000円 al mes",
-      ""
+      "10/31"
      ],
      [
       "日本台湾交流協会日本奨学金",
       "14万4千円 al mes",
-      ""
+      "10/23"
      ],
      [
       "福岡よかトピア国際交流財団",
       "50万円 al año",
-      ""
+      "9/24 17:00"
      ],
      [
       "本庄国際奨学財団",
       "23万円 al mes",
-      ""
+      "10/31"
      ],
      [
       "平和中島財団奨学金",
       "Estudiantes de grado: 17万円 al mes",
-      ""
+      "9/25 17:00"
      ],
      [
       "イノアック国際教育振興財団奨学金",
       "5万円 al mes",
-      ""
+      "10/9 13:00"
      ]
     ]
    },
@@ -16648,7 +19905,7 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2026&lang="
      },
      {
-      "text": "",
+      "text": "Scholarship list (English)",
       "url": "https://www.isc.kyushu-u.ac.jp/intlweb/scholarship/view/list.php?nendo=2027&lang=en"
      }
     ]
@@ -17408,8 +20665,8 @@ window.ARTICLES_BODY_I18N = {
     "rows": [
      [
       "Feria de estudio de sectores y empresas (業界・企業研究フェア) 2026",
-      "",
-      ""
+      "12/2 16:40〜",
+      "2027/9・2028/3"
      ],
      [
       "Formato",
@@ -17460,17 +20717,17 @@ window.ARTICLES_BODY_I18N = {
      ],
      [
       "Prácticas de verano",
-      "",
+      "7〜9 月",
       "Contacto anticipado con las empresas"
      ],
      [
       "Solicitud y sesiones informativas",
-      "",
+      "3〜5 月",
       "Enviar el currículum y asistir a sesiones informativas"
      ],
      [
       "ES y pruebas escritas",
-      "",
+      "3〜6 月",
       "Ensayo del formulario de solicitud y prueba SPI"
      ],
      [
@@ -17543,10 +20800,10 @@ window.ARTICLES_BODY_I18N = {
       "text": "Edificio 1 del Centro (センター1号館), 2.º piso, ventanilla n.º 2 (campus Ito)"
      },
      {
-      "text": ""
+      "text": "TEL 092-802-5902"
      },
      {
-      "text": ""
+      "text": "Email q-ssc@jimu.kyushu-u.ac.jp"
      }
     ]
    },
