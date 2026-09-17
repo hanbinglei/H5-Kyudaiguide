@@ -5,14 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light">
 <meta name="theme-color" content="#7B2D3E">
-<title>Kyudai Guide · 九大伊都 留学生ガイド</title>
+<title>Kyudai Guide · 九大伊都 留学生指南</title>
 <meta name="description" content="Guide, campus map, academic calendar and faculty links for international students at Kyushu University Ito Campus. 中文 / 日本語 / English / 한국어. Works offline.">
 
 <!-- 分享卡片：学生之间主要靠 LINE / 微信群转发，没有这几行贴出去就只是一条裸链接 -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Kyudai Guide">
-<meta property="og:title" content="Kyudai Guide · 九大伊都 留学生ガイド">
-<meta property="og:description" content="入境·在留·租房·银行·交通·应急 12 篇指南 + 校园地图 + 学年历。中文 / 日本語 / English / 한국어，可离线。">
+<meta property="og:title" content="Kyudai Guide · 九大伊都 留学生指南">
+<meta property="og:description" content="九大伊都校区留学生生活指南：入境·在留·租房·银行·手机·就医·打工·交通 + 校园地图 + 学年历。多语言切换，可离线使用。">
 <meta property="og:image" content="https://hanbinglei.github.io/H5-Kyudaiguide/guide/og-cover.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -27,7 +27,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Kyudai Guide">
 
-<link rel="stylesheet" href="css/style.css?v=20260918d">
+<link rel="stylesheet" href="css/style.css?v=20260917a">
 </head>
 <body>
 <div id="app">
@@ -52,9 +52,9 @@
     <section id="pane-map" class="pane pane-map" style="display:none">
       <!-- src 延迟到用户点「地图」tab 才注入：地图数据约 500KB，
            而默认进来的人是要看指南的，不该先替他下载地图。见 app.js mountMap()
-           ?v=20260918d 必须带上：app.html 会把它透传给 data/*.json（见其中的 DATA_V），
+           ?v=20260917a 必须带上：app.html 会把它透传给 data/*.json（见其中的 DATA_V），
            不带的话改了数据也换不掉老用户缓存里的那份，而 HTML 却已经是新的。 -->
-      <iframe id="mapFrame" title="校园地图" data-a11y="mapTitle" data-src="../h5-mvp/app.html?v=20260918d" loading="lazy"></iframe>
+      <iframe id="mapFrame" title="校园地图" data-a11y="mapTitle" data-src="../h5-mvp/app.html?v=20260917a" loading="lazy"></iframe>
       <div class="map-tip" id="mapTip">地图由 Kyudaimap 提供 · 支持搜索与定位</div>
     </section>
 
@@ -68,6 +68,9 @@
            按时间顺序串起来，每条用 ?sec=<区块ID> 深链到对应小节。
            数据：guide/js/data-newcomer-zone.js（校验 tools/check_newcomer_zone.js） -->
       <div id="nzWrap" style="display:none;margin-bottom:18px">
+        <!-- 专区在手机上约 1.6 屏（实测 390px 宽下分类宫格在 1609px），
+             不按时间线走的读者需要一个出口，否则要滑两屏才到宫格。 -->
+        <button class="nz-skip" id="nzSkip" type="button"></button>
         <div class="section-head">
           <div class="section-title" id="nzTitle">落地后手续办理顺序</div>
           <div class="section-sub" id="nzSub"></div>
@@ -96,6 +99,9 @@
       <div class="support-card" id="supportCard" hidden></div>
       <!-- 综合反馈入口：没有具体文章时用这个 -->
       <button class="fb-entry fb-entry-wide" id="btnFeedback" type="button"></button>
+      <!-- 非官方声明。读者看到「像官方」的站点会犹豫要不要转发，
+           写清来源反而更容易被学生组织接受。文案在 i18n.js 的 disclaimer 键。 -->
+      <div class="disclaimer" id="disclaimer"></div>
     </section>
 
     <!-- 村历 -->
@@ -223,23 +229,23 @@
   </div>
 </div>
 
-<script src="js/data-newcomer-zone.js?v=20260918d"></script>
-<script src="js/data-categories.js?v=20260918d"></script>
-<script src="js/data-faculties.js?v=20260918d"></script>
-<script src="js/data-articles.js?v=20260918d"></script>
-<script src="js/articles-i18n.js?v=20260918d"></script>
+<script src="js/data-newcomer-zone.js?v=20260917a"></script>
+<script src="js/data-categories.js?v=20260917a"></script>
+<script src="js/data-faculties.js?v=20260917a"></script>
+<script src="js/data-articles.js?v=20260917a"></script>
+<script src="js/articles-i18n.js?v=20260917a"></script>
 <!-- articles-body-i18n.js 不在这里加载：它是全站最大的一个文件（gzip 约 165KB），
      而中文读者一个字节都用不上。改由 app.js 的 ensureBodyI18N() 在非中文时按需并行拉。 -->
-<script src="js/data-cunli.js?v=20260918d"></script>
-<script src="js/cunli-utils.js?v=20260918d"></script>
-<script src="js/cunli-export.js?v=20260918d"></script>
-<script src="js/i18n.js?v=20260918d"></script>
-<script src="js/render.js?v=20260918d"></script>
-<script src="js/bus-live.js?v=20260918d"></script>
-<script src="js/search.js?v=20260918d"></script>
-<script src="js/app.js?v=20260918d"></script>
-<script src="js/pulse.js?v=20260918d"></script>
-<script src="js/feedback.js?v=20260918d"></script>
-<script src="js/tour.js?v=20260918d"></script>
+<script src="js/data-cunli.js?v=20260917a"></script>
+<script src="js/cunli-utils.js?v=20260917a"></script>
+<script src="js/cunli-export.js?v=20260917a"></script>
+<script src="js/i18n.js?v=20260917a"></script>
+<script src="js/render.js?v=20260917a"></script>
+<script src="js/bus-live.js?v=20260917a"></script>
+<script src="js/search.js?v=20260917a"></script>
+<script src="js/app.js?v=20260917a"></script>
+<script src="js/pulse.js?v=20260917a"></script>
+<script src="js/feedback.js?v=20260917a"></script>
+<script src="js/tour.js?v=20260917a"></script>
 </body>
 </html>

@@ -1,8 +1,8 @@
 {
-  "name": "Kyudai Guide · 九大伊都 留学生ガイド",
+  "name": "Kyudai Guide · 九大伊都 留学生指南",
   "short_name": "Kyudai Guide",
-  "description": "Guide, campus map, academic calendar and faculty links for international students at Kyushu University Ito Campus. Works offline.",
-  "lang": "en",
+  "description": "九大伊都校区留学生指南：入境·在留·租房·银行·就医·打工等，含校园地图与学年历。多语言，可离线使用。",
+  "lang": "zh",
   "dir": "ltr",
   "start_url": "./",
   "scope": "./",
@@ -10,15 +10,61 @@
   "orientation": "portrait",
   "background_color": "#F8F8F8",
   "theme_color": "#7B2D3E",
-  "categories": ["education", "travel", "navigation"],
+  "categories": [
+    "education",
+    "travel",
+    "navigation"
+  ],
   "icons": [
-    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ],
   "shortcuts": [
-    { "name": "Emergency contacts", "url": "./#article/guide-emergency", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
-    { "name": "Arrival & entry", "url": "./#article/guide-entry", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
-    { "name": "Campus map", "url": "./#map", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+    {
+      "name": "Emergency contacts",
+      "url": "./#article/guide-emergency",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Arrival & entry",
+      "url": "./#article/guide-entry",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Campus map",
+      "url": "./#map",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
   ]
 }

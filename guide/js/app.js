@@ -87,6 +87,9 @@ function initLang(){
   sel.innerHTML=I18N.LANGS.map(k=>`<option value="${k}"${k===I18N.getLang()?' selected':''}>${(I18N.UI[k]||{}).self||k}</option>`).join('');
   sel.addEventListener('change',()=>{
       I18N.setLang(sel.value);applyI18N();searchRebuild();
+      // 搜索结果区不随 applyI18N 重绘（它由搜索框的输入事件驱动）。停在结果页时切语言，
+      // 标题/条数/摘要会一起停在上一个语言 —— 重跑一次上次的查询即可。
+      if(typeof runSearch==='function'&&($('searchInput')||{}).value.trim())runSearch();
       // 记住滚动位置：正文重建后 restore，切换语言不该把人踢回页首
       const scY=window.scrollY||document.documentElement.scrollTop||0;
       // 先按现有内容渲染（中文兜底），译文包到了再重排一次 —— 切语言不等下载
@@ -137,6 +140,8 @@ function applyI18N(){
   // 原始占位符「가이드 · %n% 카테고리」（冷启动走 renderGrid 才会替换，所以只在切换时暴露）
   $('guideHead').textContent=t('guideHead').replace('%n%',CATS.length);
   $('guideSub').textContent=t('guideSub');
+  const nzs=$('nzSkip'); if(nzs)nzs.textContent=t('skipAll');
+  const dsc=$('disclaimer'); if(dsc)dsc.textContent=t('disclaimer');
   $('guideEmpty').textContent=t('emptyCat');
   $('historyTitle').textContent=t('historyTitle');
   $('btnClearHistory').textContent=t('clear');
@@ -1046,6 +1051,13 @@ function renderHistory(){
 function init(){
   initLang();applyI18N();searchRebuild();initSearch();renderGrid();initCunli();renderHistory();
   initFeedback();                // 反馈入口（文章底部 / 指南页底部）
+  // 新生专区的「全部主题」出口：首页靠 body 滚动，自己算偏移比 scrollIntoView 稳
+  const nzSkipBtn=$('nzSkip');
+  if(nzSkipBtn)nzSkipBtn.addEventListener('click',()=>{
+    const g=$('catGridWrap'); if(!g)return;
+    const y=g.getBoundingClientRect().top+(window.scrollY||0)-8;
+    try{window.scrollTo({top:y,behavior:'smooth'})}catch(e){window.scrollTo(0,y)}
+  });
 initToTop();initTocSpy();      // 长文回顶 / 阅读进度 / 目录联动（纯增强，失败不影响主流程）
   initInstallBar();              // 添加到主屏幕（只在浏览器真的支持时出现）
   // 非中文时并行取正文译文包；不 await —— 首屏不该等它

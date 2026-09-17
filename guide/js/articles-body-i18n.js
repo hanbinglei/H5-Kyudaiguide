@@ -6912,7 +6912,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "時給の相場と求人の探し方"
    },
    "77b055": {
-    "text": "福岡県の最低賃金は **1,057 円/時間** です（2025 年 11 月 16 日施行）。留学生の時給はおおむね 1,057〜1,200 円程度で、コンビニ・飲食は低め、家庭教師・翻訳は高めです。実際の条件は雇用主によります。"
+    "text": "福岡県の最低賃金は **1,057 円/時間**（2026 年 10 月 3 日まで）、2026 年 10 月 4 日から **1,114 円/時間** に引き上げられます。実際の時給は業種により異なり、コンビニ・飲食は低め、家庭教師・翻訳は高めです。具体的な条件は雇用主によります。"
    },
    "493aef": {
     "text": "主な経路：大学生協や国際部の掲示板、タウンワーク（Townwork）・バイトル（Baitoru）などの求人サイト、先輩や研究室からの紹介があります。入国前に急いで探す必要はなく、在留カードと銀行口座を用意してからでも間に合います。"
@@ -6970,7 +6970,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Wage rates and where to find work"
    },
    "77b055": {
-    "text": "The minimum wage in Fukuoka Prefecture is **1,057 yen/hour** (effective 16 November 2025). International students typically earn around 1,057-1,200 yen/hour: convenience stores and restaurants at the lower end, tutoring and translation at the higher end. Actual conditions depend on the employer."
+    "text": "Fukuoka Prefecture's minimum wage is **1,057 yen/hour** (until 3 October 2026) and rises to **1,114 yen/hour** from 4 October 2026. Actual wages vary by industry: convenience stores and restaurants at the lower end, tutoring and translation at the higher end. Specific conditions depend on the employer."
    },
    "493aef": {
     "text": "Main channels: notice boards at the university co-op or the international office, job sites such as Townwork and Baitoru, and referrals from senior students or a laboratory. There is no need to search before arrival - after obtaining a residence card and bank account is soon enough."
@@ -7028,7 +7028,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "시급 시세와 구직 경로"
    },
    "77b055": {
-    "text": "후쿠오카현 최저임금은 **1,057엔/시간**입니다(2025년 11월 16일 시행). 유학생 시급은 대체로 1,057~1,200엔 수준이며, 편의점·음식점은 낮은 편, 과외·번역은 높은 편입니다. 실제 조건은 고용주에 따릅니다."
+    "text": "후쿠오카현 최저임금은 **1,057엔/시간**(2026년 10월 3일까지)이며, 2026년 10월 4일부터 **1,114엔/시간**으로 인상됩니다. 실제 시급은 업종에 따라 다르며, 편의점·음식점은 낮은 편, 과외·번역은 높은 편입니다. 구체적인 조건은 고용주에 따릅니다."
    },
    "493aef": {
     "text": "주요 경로: 학교 생협 또는 국제부 게시판, 타운워크(Townwork)·바이토루(Baitoru) 등 구인 사이트, 선배나 연구실 소개 등이 있습니다. 입국 전에 서둘러 구할 필요는 없으며, 재류카드와 은행 계좌를 준비한 뒤에도 충분합니다."
@@ -7747,7 +7747,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "国民年金（老齢年金）"
    },
    "cf19f3": {
-    "text": "年金は老齢に備える保険で、日本に住む20歳以上の人は加入義務があります。令和7年度（2025）の保険料は**月額 17,510円**です。留学生は通常、実際の納付は不要で、次の2つの方法で免除を受けられます。"
+    "text": "年金は老齢に備える保険で、日本に住む20歳以上の人は加入義務があります。令和8年度（2026）の保険料は**月額 17,920円**です。留学生は通常、実際の納付は不要で、次の2つの方法で免除を受けられます。"
    },
    "637f64": {
     "text": "① 所得が基準以下の免除：来日直後で収入がない場合に申請できます。区役所が初回手続き時に案内するつなぎの制度です。"
@@ -8075,7 +8075,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "国民年金（National Pension）"
    },
    "cf19f3": {
-    "text": "年金（pension）is retirement insurance; all persons aged 20 or over residing in Japan are obliged to enroll. The premium for fiscal year 令和 7（2025）is **17,510 円 per month**. International students generally do not actually pay; the premium can be reduced or exempted in two ways:"
+    "text": "年金（pension）is retirement insurance; all persons aged 20 or over residing in Japan are obliged to enroll. The premium for fiscal year 令和 8（2026）is **17,920 円 per month**. International students generally do not actually pay; the premium can be reduced or exempted in two ways:"
    },
    "637f64": {
     "text": "① Income-below-threshold exemption: it can be applied for upon arrival when no income exists yet, and is a transitional option offered by the 区役所（ward office）at the initial enrollment."
@@ -8403,7 +8403,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "国民年金(국민연금)(연금보험)"
    },
    "cf19f3": {
-    "text": "연금은 노후 보장을 위한 보험으로, 일본에 거주하는 20세 이상은 모두 가입 의무가 있으며, 令和7年度(레이와7년도)(2025)의 보험료는 **매월 17,510円(17,510엔)**입니다. 유학생은 일반적으로 실제 납부가 필요 없으며, 다음 두 가지 방법으로 감면받을 수 있습니다:"
+    "text": "연금은 노후 보장을 위한 보험으로, 일본에 거주하는 20세 이상은 모두 가입 의무가 있으며, 令和8年度(레이와8년도)(2026)의 보험료는 **매월 17,920円(17,920엔)**입니다. 유학생은 일반적으로 실제 납부가 필요 없으며, 다음 두 가지 방법으로 감면받을 수 있습니다:"
    },
    "637f64": {
     "text": "① 소득 기준 미달 면제: 일본에 막 도착해 소득이 없을 때 신청할 수 있으며, 区役所(구청)가 최초 처리 시 제공하는 과도기 방안입니다."
