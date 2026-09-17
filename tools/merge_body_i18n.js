@@ -41,7 +41,7 @@ const payload = JSON.parse(fs.readFileSync(payloadPath, 'utf8'));
 const MERGE = process.argv.includes('--merge');
 if (MERGE) {
   BODY[articleId] = BODY[articleId] || {};
-  for (const l of ['ja', 'en', 'ko']) {
+  for (const l of ['ja', 'en', 'ko', 'es']) {
     BODY[articleId][l] = Object.assign({}, BODY[articleId][l] || {}, payload[l] || {});
   }
 } else {
@@ -58,7 +58,7 @@ const got = check.window.ARTICLES_BODY_I18N[articleId];
 // 增量合并后条目数只会变多，所以验证的是「payload 里的块是否都在」而不是总数相等
 // 只验证 payload 里**实际提供了**的语言 —— 译文可分批交付（先 ja+ko、再 en），
 // 早先这里写死三种语言齐全，分批交付时会因 payload.en 不存在而崩（文件已写入但退出码 1）
-const LANGS = ['ja', 'en', 'ko'].filter(l => payload[l] && typeof payload[l] === 'object');
+const LANGS = ['ja', 'en', 'ko', 'es'].filter(l => payload[l] && typeof payload[l] === 'object');
 const ok = got && LANGS.length > 0 &&
   LANGS.every(l => got[l] && Object.keys(payload[l]).every(k => got[l][k] !== undefined));
 const total = l => (got && got[l] ? Object.keys(got[l]).length : 0);

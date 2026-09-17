@@ -14,7 +14,7 @@ const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
 const ROOT = path.join(__dirname, '..');
-const LANGS = ['zh', 'ja', 'en', 'ko'];
+const LANGS = ['zh', 'ja', 'en', 'ko', 'es'];
 
 function loadWin(file, name) {
   const sandbox = { window: {} };
@@ -37,7 +37,7 @@ for (const a of ARTICLES) {
     errs.push(`${a._id}: nav 结构不是扁平式 ${'{title:{zh,ja,en,ko}}'}${nested ? '（检测到嵌套式 {ja:{title}}）' : ''}`);
     continue;
   }
-  const miss = ['ja', 'en', 'ko'].filter(l => !nv.title[l] || !nv.summary[l]);
+  const miss = ['ja', 'en', 'ko', 'es'].filter(l => !nv.title[l] || !nv.summary[l]);
   if (miss.length) warns.push(`${a._id}: 缺 ${miss.join('/')} 的 title 或 summary`);
 }
 

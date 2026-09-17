@@ -11,6 +11,7 @@ const CAT_I18N = {
   ja:{ '1':'入国準備','2':'在留手続き','3':'住まい探し','4':'銀行・送金','5':'携帯・ネット','6':'学業・奨学金','7':'アルバイト','8':'医療・保険','9':'交通','10':'生活のコツ','11':'買い物','12':'緊急連絡先','13':'詐欺防止','14':'新入生特集','15':'奨学金','16':'就職・インターン' },
   en:{ '1':'Arrival','2':'Residence','3':'Housing','4':'Banking','5':'Mobile & Net','6':'Study & Grants','7':'Part-time','8':'Medical','9':'Transport','10':'Life Tips','11':'Shopping','12':'Emergency','13':'Anti-Fraud','14':'Newcomer','15':'Scholarships','16':'Career & Internships' },
   ko:{ '1':'입국 준비','2':'체류 수속','3':'주거','4':'은행·송금','5':'휴대폰·인터넷','6':'학업·장학금','7':'아르바이트','8':'의료·보험','9':'교통','10':'생활 팁','11':'쇼핑','12':'긴급 연락','13':'사기 방지','14':'신입생 특집','15':'장학금','16':'취업·인턴십' },
+  es:{ '1':'Llegada','2':'Residencia','3':'Vivienda','4':'Banca y envíos','5':'Móvil e internet','6':'Estudios y becas','7':'Trabajo parcial','8':'Salud','9':'Transporte','10':'Consejos prácticos','11':'Compras','12':'Emergencias','13':'Antifraude','14':'Nuevos estudiantes','15':'Becas','16':'Empleo y prácticas' },
 };
 // ── UI 词典 ──
 const UI = {
@@ -71,7 +72,7 @@ const UI = {
         pinned:{t:'建议优先阅读', d:'《落地后 30 天》将全部手续按时间线排列，依赖关系清晰；《反诈必读》针对落地初期的风险。'},
         cats:{t:'15 个场景分类', d:'按当前需要办理的事项进入：入境、在留、租房、银行、手机、打工、医疗、交通……'},
         tabs:{t:'底部五个板块', d:'地图可检索教室、巴士与校内接驳；村历为校历与活动；官网直达各学部；历史为浏览记录。'},
-        lang:{t:'四种语言 · 支持离线', d:'中日英韩随时切换。添加至主屏幕后可离线阅读 —— 区役所排队、地下室无信号时同样可用。'}
+        lang:{t:'五种语言 · 支持离线', d:'中日英韩西随时切换。添加至主屏幕后可离线阅读 —— 区役所排队、地下室无信号时同样可用。'}
       } },
   },
   ja:{
@@ -129,7 +130,7 @@ const UI = {
         pinned:{t:'はじめに読む 2 本', d:'『着いてからの 30 日』は手続きを時系列に並べ、依存関係が一目で分かります。『詐欺防止ガイド』は来日初期に狙われやすい手口を扱っています。'},
         cats:{t:'15 のカテゴリ', d:'現在必要な用事から入ってください：入国、在留、住まい、銀行、携帯、アルバイト、医療、交通……'},
         tabs:{t:'下の 5 つのタブ', d:'地図では教室・バス・学内シャトルを検索できます。村暦は学年暦とイベント、公式サイトは各学部へ、履歴は閲覧した記事です。'},
-        lang:{t:'4 言語 · オフライン対応', d:'日本語・中国語・英語・韓国語をいつでも切り替え。ホーム画面に追加するとオフラインでも開けます —— 区役所の待ち時間や地下でも利用できます。'}
+        lang:{t:'5 言語 · オフライン対応', d:'日本語・中国語・英語・韓国語・スペイン語をいつでも切り替え。ホーム画面に追加するとオフラインでも開けます —— 区役所の待ち時間や地下でも利用できます。'}
       } },
   },
   en:{
@@ -188,7 +189,7 @@ const UI = {
         pinned:{t:'Recommended first reads', d:'“Your First 30 Days” places every procedure on one timeline so dependencies are clear. The anti-fraud guide covers the risks of the first months after arrival.'},
         cats:{t:'Fifteen situations', d:'Go in by what you need to do now: arrival, residence, housing, banking, mobile, part-time work, medical, transport…'},
         tabs:{t:'Five tabs at the bottom', d:'The map finds classrooms, buses and the campus shuttle. Cunli holds the academic calendar and events. Official links straight to each school. History shows what you have read.'},
-        lang:{t:'Four languages · works offline', d:'Switch between Chinese, Japanese, English and Korean at any time. Add it to your home screen for offline reading — useful while queuing at the ward office or in a basement with no signal.'}
+        lang:{t:'Five languages · works offline', d:'Switch between Chinese, Japanese, English, Korean and Spanish at any time. Add it to your home screen for offline reading — useful while queuing at the ward office or in a basement with no signal.'}
       } },
   },
   ko:{
@@ -246,12 +247,69 @@ const UI = {
         pinned:{t:'먼저 읽을 2편', d:'『도착 후 30일』은 모든 수속을 시간순으로 정리해 의존 관계를 한눈에 볼 수 있습니다. 『사기 방지 가이드』는 입국 초기에 표적이 되기 쉬운 수법을 다룹니다.'},
         cats:{t:'15개 상황별 분류', d:'지금 해야 하는 일부터 들어가세요: 입국, 체류, 주거, 은행, 휴대폰, 아르바이트, 의료, 교통……'},
         tabs:{t:'아래 다섯 개 탭', d:'지도에서는 강의실·버스·교내 셔틀을 검색할 수 있습니다. 촌력은 학사 일정과 행사, 공식 사이트는 각 학부로, 기록은 읽은 글입니다.'},
-        lang:{t:'4개 언어 · 오프라인 지원', d:'중국어·일본어·영어·한국어를 언제든 전환. 홈 화면에 추가하면 오프라인에서도 열립니다 —— 구청 대기 중이나 신호 없는 지하에서도 사용할 수 있습니다.'}
+        lang:{t:'5개 언어 · 오프라인 지원', d:'중국어·일본어·영어·한국어·스페인어를 언제든 전환. 홈 화면에 추가하면 오프라인에서도 열립니다 —— 구청 대기 중이나 신호 없는 지하에서도 사용할 수 있습니다.'}
       } },
   },
+  es:{
+    self:'Español', brandSub:'Kyushu U Ito · Guía para estudiantes', searchPh:'Buscar en títulos / texto',
+    tabs:{map:'Mapa',guide:'Guía',cunli:'Calendario',faculty:'Facultades',history:'Historial'},
+    guideHead:'Guía · %n% categorías', guideSub:'Elige una categoría para leer', skipAll:'Todas las categorías ↓',
+    nzTitle:'Orden de los trámites tras la llegada', nzSub:'Los trámites necesarios en los primeros tres meses, en orden cronológico; toca para ir a la sección',
+    emptyCat:'Contenido en preparación', backGrid:'‹ Todas las categorías',
+    searchLabel:'Buscar', noResults:'Sin resultados',
+    prevArticle:'Anterior', nextArticle:'Siguiente',
+    installTitle:'Añadir a la pantalla de inicio', installDesc:'Funciona sin conexión y abre más rápido', installGo:'Añadir', installNo:'Más tarde',
+    searchHist:'Búsquedas recientes', searchHistClear:'Borrar', toTop:'Volver arriba',
+    pulseVisitors:'{today} hoy · {total} en total', pulseEvent:'{name} en {n} días', pulseEventToday:'Hoy: {name}', pulseWx:'Fukuoka {temp}℃ · {wx}', pulseWxRain:'Fukuoka {temp}℃ · lluvia {p}%', pulseRead:'{n}/{total} leídos', wxClear:'Despejado', wxMainly:'Mayormente despejado', wxPartly:'Parcialmente nublado', wxOvercast:'Cubierto', wxFog:'Niebla', wxDrizzle:'Llovizna', wxRain:'Lluvia', wxSnow:'Nieve', wxShowers:'Chubascos', wxThunder:'Tormenta',
+    sourcesTitle:'Fuentes y enlaces', sourcesLead:'Todos los enlaces originales citados en este artículo, para consultar la fuente directamente.', sourcesOfficial:'Organismos oficiales o públicos', sourcesOther:'Otros enlaces',
+    fbTitleArticle:'Informar de un problema', fbTitleGeneral:'Comentarios y sugerencias', fbLead:'Se agradecen correcciones y sugerencias. El mensaje llega directamente al responsable y no se publica.', fbTypeLb:'Tipo', fbMsgLb:'Detalles', fbEmailLb:'Contacto (opcional, para poder responder)', fbNote:'Al enviar verás una página de confirmación y volverás aquí.', fbSend:'Enviar', fbCancel:'Cancelar', fbTypeWrong:'Contenido incorrecto', fbTypeLink:'Enlace roto', fbTypeStale:'Información desactualizada', fbTypeAdd:'Falta contenido', fbTypeOther:'Otro', fbKindArticle:'Corrección', fbKindGeneral:'Comentario', fbEntryArticle:'¿Has encontrado un error? Infórmalo', fbEntryGeneral:'Comentarios y sugerencias', fbOpen:'Comentarios',
+    fbSending:'Enviando…', fbSent:'Enviado. ¡Gracias!', fbSentNote:'El mensaje se envía directamente al responsable y no se publica.', fbFailed:'No se pudo enviar. Comprueba la conexión e inténtalo de nuevo.', fbCloseBtn:'Cerrar',
+    fbFab:'Comentarios', fbFabTitle:'Comentarios y correcciones', supportTitle:'¿Te ha servido esta guía?', supportNote:'Tu apoyo decide qué se actualiza primero.', supportStar:'Dar una estrella en GitHub', supportShare:'Copiar el enlace y compartirlo', supportCopied:'Enlace copiado', disclaimer:'Este sitio lo mantiene un estudiante a título individual y no es una publicación oficial de la Universidad de Kyushu. Las fuentes se citan en todo el contenido; las páginas oficiales tienen siempre prioridad.',
+  starEntryArticle:'★ ¿Te ha resultado útil? Dános una estrella en GitHub',
+  docTitle:'Kyudai Guide · Universidad de Kyushu, campus Ito', navAria:'Navegación principal', mapTitle:'Mapa del campus', prevMonth:'Mes anterior', nextMonth:'Mes siguiente',
+  a11yClose:'Cerrar', a11yClear:'Borrar', a11yTop:'Volver arriba', a11yArticle:'Artículo',
+    searchFuzzy:'Sin coincidencia exacta: se muestran resultados con escritura similar',
+    searchAlias:'No se encontró ese término: se muestran resultados de términos relacionados',
+    searchCount:'%n% artículo(s), por relevancia', searchHint:'Prueba con una palabra clave más corta, por ejemplo:',
+    pinnedTag:'Fijado · Lectura obligada',
+    historyTitle:'Reciente', clear:'Borrar', noHistory:'Sin historial todavía', noHistorySub:'Abre una guía y aparecerá aquí',
+    mapTip:'Mapa de Kyudaimap',
+    updated:'Actualizado', byAdmin:'Mantenido por el administrador', endMark:'— Fin —',
+    bodyNotice:'El texto de los artículos está en chino. El cambio de idioma afecta a la navegación y los resúmenes.',
+    openLink:'Abrir ›', seeRef:'Ver', copied:'Copiado: ', cleared:'Borrado',
+    upcoming:'Próximos', recent3:'Próximos 3',
+    dataSrc:'Fuentes: festivos de la Oficina del Gabinete + calendario académico de la Universidad de Kyushu (sin conexión)',
+    wd:['D','L','M','X','J','V','S'], wdFull:['Dom','Lun','Mar','Mié','Jue','Vie','Sáb'],
+    legend:{rest:'Descanso / festivo',admin:'Administrativo',term:'Trimestre',misc:'Evento'},
+    typeLabels:{admin:'Administrativo',term:'Trimestre',break:'Descanso',holiday:'Festivo',event:'Evento',exam:'Examen',user:'Publicación'},
+    today:'Hoy', expand:'Ampliar ⌄', collapse:'Contraer ⌃',
+        exportIcs:'Exportar calendario', exportIcsTitle:'Exportar .ics (compatible con calendarios móviles)', exported:'Archivo .ics generado',
+        monthTitle:(y,m)=>['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'][m-1]+' '+y,
+        dayTitle:(m,d,wd)=>`${wd}, ${d} ${['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'][m-1]}`,
+    ongoing:'En curso', pending:'Sin verificar', pendingBox:'⬜ Sin verificar',
+    nItems:n=>`${n} elemento${n>1?'s':''}`, noneOnDay:'Sin eventos', monthN:n=>`${n} este mes`, tapDetail:'Toca para ver detalles',
+    noUpcoming:'No hay eventos próximos registrados', renkyu:n=>`Descanso de ${n} días`,
+    place:'Lugar', source:'Fuente', locale:'es-ES',
+    facHead:'Sitios de las facultades', facSub:'Sitios oficiales de cada facultad y escuela de posgrado', facUg:'Grado', facGrad:'Posgrado',
+    facSrc:'Fuente: índice de facultades de la Universidad de Kyushu (consultado el 2026-08-24)',
+        busStop:'Parada', busDirToStation:'Hacia la estación', busDirFromStation:'Hacia los dormitorios',
+        busRunning:'En servicio hoy', busNotRunning:'Sin servicio hoy', busRunDays:'Días de servicio',
+        busLastBusGone:'El último autobús ya ha salido', busNoData:'Sin datos',
+        busNote:'Se actualiza cada 30 s · Horarios según el póster oficial en PDF',
+        bus_stop_kyousoukan:'Ito Kyousoukan', bus_stop_dorm:'Dormitorio 1-3', bus_stop_settle:'SETTLE Internacional', bus_stop_gakentoshi:'Est. Kyudai-Gakkentoshi',
+    tour:{ open:'Cómo usarlo', skip:'Omitir', prev:'Atrás', next:'Siguiente', done:'Empezar',
+      steps:{
+        welcome:{t:'Guía para estudiantes internacionales del campus Ito', d:'Los trámites que tendrás tras llegar, el mapa del campus Ito y el calendario académico, en un solo lugar. Unos 30 segundos para ver cómo funciona.'},
+        search:{t:'Busca cuando no sepas dónde mirar', d:'Se buscan a la vez los títulos y el texto. Prueba con «tarjeta de residencia», «basura», «autobús» o «beca».'},
+        pinned:{t:'Lecturas recomendadas', d:'«Tus primeros 30 días» reúne todos los trámites en una línea temporal, con sus dependencias. La guía antifraude cubre los riesgos de los primeros meses tras la llegada.'},
+        cats:{t:'Quince situaciones', d:'Entra por lo que necesites hacer ahora: llegada, residencia, vivienda, banca, móvil, trabajo a tiempo parcial, sanidad, transporte…'},
+        tabs:{t:'Cinco pestañas abajo', d:'El mapa localiza aulas, autobuses y el transporte interno. El calendario reúne el año académico y los eventos. Facultades enlaza con cada escuela. El historial muestra lo que has leído.'},
+        lang:{t:'Cinco idiomas · funciona sin conexión', d:'Cambia entre chino, japonés, inglés, coreano y español cuando quieras. Añádelo a la pantalla de inicio para leerlo sin conexión.'}
+      } },
+  },
 };
-const LANGS = ['zh','ja','en','ko'];
-/** 把一个 BCP 47 语言标签映射到本站支持的 4 语之一，映射不上返回 null。
+const LANGS = ['zh','ja','en','ko','es'];
+/** 把一个 BCP 47 语言标签映射到本站支持的 5 语之一，映射不上返回 null。
     只看主语言子标签：zh-CN / zh-TW / zh-Hant 都算中文，en-GB / en-SG 都算英文。
     简繁不分是有意的 —— 正文是简体，但繁体读者读简体远好过被丢去英文。 */
 function matchLang(tag){
@@ -260,6 +318,7 @@ function matchLang(tag){
   if(b.startsWith('ja')) return 'ja';
   if(b.startsWith('ko')) return 'ko';
   if(b.startsWith('en')) return 'en';
+  if(b.startsWith('es')) return 'es';
   return null;
 }
 
@@ -299,63 +358,63 @@ function setLang(v){ if(!UI[v]) v='zh'; lang=v; try{ localStorage.setItem('kyuda
    往里加生成器不产出的字段会造成两边漂移。按【日文原名】索引。
    祝日的英文名用内閣府的官方译法。 */
 const CUNLI_NAMES = {
-  '元日':{en:"New Year's Day",ko:'신정'},
-  '成人の日':{en:'Coming of Age Day',ko:'성인의 날'},
-  '建国記念の日':{en:'National Foundation Day',ko:'건국기념일'},
-  '天皇誕生日':{en:"The Emperor's Birthday",ko:'천황 탄생일'},
-  '春分の日':{en:'Vernal Equinox Day',ko:'춘분의 날'},
-  '昭和の日':{en:'Showa Day',ko:'쇼와의 날'},
-  '憲法記念日':{en:'Constitution Memorial Day',ko:'헌법기념일'},
-  'みどりの日':{en:'Greenery Day',ko:'녹색의 날'},
-  'こどもの日':{en:"Children's Day",ko:'어린이날'},
-  '振替休日':{en:'Substitute Holiday',ko:'대체 공휴일'},
-  '海の日':{en:'Marine Day',ko:'바다의 날'},
-  '山の日':{en:'Mountain Day',ko:'산의 날'},
-  '敬老の日':{en:'Respect for the Aged Day',ko:'경로의 날'},
-  '国民の休日':{en:"Citizens' Holiday",ko:'국민의 휴일'},
-  '秋分の日':{en:'Autumnal Equinox Day',ko:'추분의 날'},
-  'スポーツの日':{en:'Sports Day',ko:'스포츠의 날'},
-  '文化の日':{en:'Culture Day',ko:'문화의 날'},
-  '勤労感謝の日':{en:'Labor Thanksgiving Day',ko:'근로감사의 날'},
-  '前期開始':{en:'First semester begins',ko:'1학기 시작'},
-  '前期終了':{en:'First semester ends',ko:'1학기 종료'},
-  '後期開始':{en:'Second semester begins',ko:'2학기 시작'},
-  '後期終了':{en:'Second semester ends',ko:'2학기 종료'},
-  '春学期開始':{en:'Spring quarter begins',ko:'봄학기 시작'},
-  '春学期終了':{en:'Spring quarter ends',ko:'봄학기 종료'},
-  '夏学期開始':{en:'Summer quarter begins',ko:'여름학기 시작'},
-  '夏学期終了':{en:'Summer quarter ends',ko:'여름학기 종료'},
-  '秋学期開始':{en:'Autumn quarter begins',ko:'가을학기 시작'},
-  '秋学期終了':{en:'Autumn quarter ends',ko:'가을학기 종료'},
-  '冬学期開始':{en:'Winter quarter begins',ko:'겨울학기 시작'},
-  '冬学期終了':{en:'Winter quarter ends',ko:'겨울학기 종료'},
-  '春季休業':{en:'Spring break',ko:'봄방학'},
-  '夏季休業':{en:'Summer break',ko:'여름방학'},
-  '冬季休業':{en:'Winter break',ko:'겨울방학'},
-  '春季入学式':{en:'Spring entrance ceremony',ko:'봄 입학식'},
-  '秋季入学式':{en:'Autumn entrance ceremony',ko:'가을 입학식'},
-  '春季学位記授与式':{en:'Spring degree conferment ceremony',ko:'봄 학위수여식'},
-  '秋季学位記授与式':{en:'Autumn degree conferment ceremony',ko:'가을 학위수여식'},
-  '本学記念日':{en:'University Foundation Day',ko:'개교기념일'},
-  '学生定期健康診断':{en:'Annual student health check',ko:'학생 정기 건강검진'},
-  '新入生オリエンテーション':{en:'New student orientation',ko:'신입생 오리엔테이션'},
-  '九大祭・芸工際':{en:'Kyudai Festival / Geiko Festival',ko:'규슈대 축제·게이코 축제'},
-  '大学入学共通テスト':{en:'Common Test for University Admissions',ko:'대학입학 공통테스트'},
-  '一般選抜（前期日程）':{en:'General entrance exam (first round)',ko:'일반선발(전기 일정)'},
-  '一般選抜（後期日程）':{en:'General entrance exam (second round)',ko:'일반선발(후기 일정)'},
-  '履修登録期間（後期）':{en:'Course registration (second semester)',ko:'수강신청 기간(2학기)'},
+  '元日':{en:"New Year's Day",ko:'신정',es:'Año Nuevo'},
+  '成人の日':{en:'Coming of Age Day',ko:'성인의 날',es:'Día de la Mayoría de Edad'},
+  '建国記念の日':{en:'National Foundation Day',ko:'건국기념일',es:'Día de la Fundación Nacional'},
+  '天皇誕生日':{en:"The Emperor's Birthday",ko:'천황 탄생일',es:'Cumpleaños del Emperador'},
+  '春分の日':{en:'Vernal Equinox Day',ko:'춘분의 날',es:'Día del Equinoccio de Primavera'},
+  '昭和の日':{en:'Showa Day',ko:'쇼와의 날',es:'Día de Showa'},
+  '憲法記念日':{en:'Constitution Memorial Day',ko:'헌법기념일',es:'Día de la Constitución'},
+  'みどりの日':{en:'Greenery Day',ko:'녹색의 날',es:'Día del Verde'},
+  'こどもの日':{en:"Children's Day",ko:'어린이날',es:'Día del Niño'},
+  '振替休日':{en:'Substitute Holiday',ko:'대체 공휴일',es:'Festivo sustitutivo'},
+  '海の日':{en:'Marine Day',ko:'바다의 날',es:'Día del Mar'},
+  '山の日':{en:'Mountain Day',ko:'산의 날',es:'Día de la Montaña'},
+  '敬老の日':{en:'Respect for the Aged Day',ko:'경로의 날',es:'Día del Respeto a las Personas Mayores'},
+  '国民の休日':{en:"Citizens' Holiday",ko:'국민의 휴일',es:'Festivo nacional'},
+  '秋分の日':{en:'Autumnal Equinox Day',ko:'추분의 날',es:'Día del Equinoccio de Otoño'},
+  'スポーツの日':{en:'Sports Day',ko:'스포츠의 날',es:'Día del Deporte'},
+  '文化の日':{en:'Culture Day',ko:'문화의 날',es:'Día de la Cultura'},
+  '勤労感謝の日':{en:'Labor Thanksgiving Day',ko:'근로감사의 날',es:'Día de Acción de Gracias por el Trabajo'},
+  '前期開始':{en:'First semester begins',ko:'1학기 시작',es:'Inicio del primer semestre'},
+  '前期終了':{en:'First semester ends',ko:'1학기 종료',es:'Fin del primer semestre'},
+  '後期開始':{en:'Second semester begins',ko:'2학기 시작',es:'Inicio del segundo semestre'},
+  '後期終了':{en:'Second semester ends',ko:'2학기 종료',es:'Fin del segundo semestre'},
+  '春学期開始':{en:'Spring quarter begins',ko:'봄학기 시작',es:'Inicio del trimestre de primavera'},
+  '春学期終了':{en:'Spring quarter ends',ko:'봄학기 종료',es:'Fin del trimestre de primavera'},
+  '夏学期開始':{en:'Summer quarter begins',ko:'여름학기 시작',es:'Inicio del trimestre de verano'},
+  '夏学期終了':{en:'Summer quarter ends',ko:'여름학기 종료',es:'Fin del trimestre de verano'},
+  '秋学期開始':{en:'Autumn quarter begins',ko:'가을학기 시작',es:'Inicio del trimestre de otoño'},
+  '秋学期終了':{en:'Autumn quarter ends',ko:'가을학기 종료',es:'Fin del trimestre de otoño'},
+  '冬学期開始':{en:'Winter quarter begins',ko:'겨울학기 시작',es:'Inicio del trimestre de invierno'},
+  '冬学期終了':{en:'Winter quarter ends',ko:'겨울학기 종료',es:'Fin del trimestre de invierno'},
+  '春季休業':{en:'Spring break',ko:'봄방학',es:'Vacaciones de primavera'},
+  '夏季休業':{en:'Summer break',ko:'여름방학',es:'Vacaciones de verano'},
+  '冬季休業':{en:'Winter break',ko:'겨울방학',es:'Vacaciones de invierno'},
+  '春季入学式':{en:'Spring entrance ceremony',ko:'봄 입학식',es:'Ceremonia de ingreso de primavera'},
+  '秋季入学式':{en:'Autumn entrance ceremony',ko:'가을 입학식',es:'Ceremonia de ingreso de otoño'},
+  '春季学位記授与式':{en:'Spring degree conferment ceremony',ko:'봄 학위수여식',es:'Ceremonia de entrega de títulos de primavera'},
+  '秋季学位記授与式':{en:'Autumn degree conferment ceremony',ko:'가을 학위수여식',es:'Ceremonia de entrega de títulos de otoño'},
+  '本学記念日':{en:'University Foundation Day',ko:'개교기념일',es:'Aniversario de la Universidad'},
+  '学生定期健康診断':{en:'Annual student health check',ko:'학생 정기 건강검진',es:'Revisión médica anual del estudiante'},
+  '新入生オリエンテーション':{en:'New student orientation',ko:'신입생 오리엔테이션',es:'Orientación para nuevos estudiantes'},
+  '九大祭・芸工際':{en:'Kyudai Festival / Geiko Festival',ko:'규슈대 축제·게이코 축제',es:'Festival Kyudai / Festival Geiko'},
+  '大学入学共通テスト':{en:'Common Test for University Admissions',ko:'대학입학 공통테스트',es:'Examen común de acceso a la universidad'},
+  '一般選抜（前期日程）':{en:'General entrance exam (first round)',ko:'일반선발(전기 일정)',es:'Examen general de acceso (primera convocatoria)'},
+  '一般選抜（後期日程）':{en:'General entrance exam (second round)',ko:'일반선발(후기 일정)',es:'Examen general de acceso (segunda convocatoria)'},
+  '履修登録期間（後期）':{en:'Course registration (second semester)',ko:'수강신청 기간(2학기)',es:'Periodo de inscripción de asignaturas (segundo semestre)'},
 
   /* 2026-09-15 补：留学課（c63–c69）这批新入生支援活动只有 title+zh，
      en/ko 译名漏了 —— 切到英文/韩文时日历条仍显示日文。
      数据加了名字表没加，查表失败就回落日文（nameOf 的 fallback）。
      防止再次发生：tools/check_cunli_i18n.js 会卡住缺译名的新条目。 */
-  '新入留学生サポート（空港シャトルバス）':{en:"Newcomer Support: Airport Shuttle Bus",ko:"신입 유학생 지원: 공항 셔틀버스"},
-  '新入留学生サポート（生活支援バス）':{en:"Newcomer Support: Daily-life Shuttle Bus",ko:"신입 유학생 지원: 생활 지원 버스"},
-  '行政手続き・銀行ガイダンス':{en:"Administrative Procedures & Bank Guidance",ko:"행정 수속 · 은행 가이던스"},
-  '新入留学生オリエンテーション':{en:"New International Student Orientation",ko:"신입 유학생 오리엔테이션"},
-  '新入留学生キャンパスツアー':{en:"Newcomer Campus Tour",ko:"신입 유학생 캠퍼스 투어"},
-  '福岡銀行口座開設会':{en:"Fukuoka Bank Account Opening Session",ko:"후쿠오카 은행 계좌 개설회"},
-  'ESP 加入期限':{en:"ESP Enrollment Deadline",ko:"ESP 가입 마감"},
+  '新入留学生サポート（空港シャトルバス）':{en:"Newcomer Support: Airport Shuttle Bus",ko:"신입 유학생 지원: 공항 셔틀버스",es:'Apoyo a nuevos estudiantes: autobús lanzadera del aeropuerto'},
+  '新入留学生サポート（生活支援バス）':{en:"Newcomer Support: Daily-life Shuttle Bus",ko:"신입 유학생 지원: 생활 지원 버스",es:'Apoyo a nuevos estudiantes: autobús de apoyo diario'},
+  '行政手続き・銀行ガイダンス':{en:"Administrative Procedures & Bank Guidance",ko:"행정 수속 · 은행 가이던스",es:'Trámites administrativos y orientación bancaria'},
+  '新入留学生オリエンテーション':{en:"New International Student Orientation",ko:"신입 유학생 오리엔테이션",es:'Orientación para nuevos estudiantes internacionales'},
+  '新入留学生キャンパスツアー':{en:"Newcomer Campus Tour",ko:"신입 유학생 캠퍼스 투어",es:'Visita guiada al campus para nuevos estudiantes'},
+  '福岡銀行口座開設会':{en:"Fukuoka Bank Account Opening Session",ko:"후쿠오카 은행 계좌 개설회",es:'Sesión de apertura de cuenta del Banco de Fukuoka'},
+  'ESP 加入期限':{en:"ESP Enrollment Deadline",ko:"ESP 가입 마감",es:'Fecha límite de inscripción al ESP'},
 };
 /** 村历条目名：按日文原名查当前语言的译名，查不到返回空串（调用方自己决定退回什么）。 */
 function cunliName(jaTitle, lang){
@@ -415,24 +474,32 @@ function getLangNow(){return lang}
    place 按**日文原名**索引，与 CUNLI_NAMES 一致（同一地点会被多条复用）。 */
 const CUNLI_NOTES = {
   c62:{en:'Not yet published on the Kyushu U academic calendar — check the student affairs system (Gakumu) or your faculty notice.',
-       ko:'규슈대 학사력에 아직 미공개 — 학무시스템 또는 소속 학부 공지를 확인하세요.'},
+       ko:'규슈대 학사력에 아직 미공개 — 학무시스템 또는 소속 학부 공지를 확인하세요.',
+       es:'Aún no publicado en el calendario académico de la Universidad de Kyushu — consulta el sistema de asuntos estudiantiles (Gakumu) o el tablón de tu facultad.'},
   c63:{en:'International Student Office: Fukuoka Airport to Kyudai Gakken Toshi Stn / dorms. First come, first served, no booking needed. See the Newcomer guide.',
-       ko:'유학과: 후쿠오카 공항 → 규다이 가켄토시역/각 기숙사. 선착순, 예약 불필요. 「신입생 특집」 참조.'},
+       ko:'유학과: 후쿠오카 공항 → 규다이 가켄토시역/각 기숙사. 선착순, 예약 불필요. 「신입생 특집」 참조.',
+       es:'Oficina de Estudiantes Internacionales: del aeropuerto de Fukuoka a la estación Kyudai-Gakkentoshi y los dormitorios. Por orden de llegada, sin reserva. Consulta la guía para nuevos estudiantes.'},
   c64:{en:'International Student Office: runs 9/24-25, 9/29-30 and 10/1. Dorms to Kyudai Gakken Toshi Stn. See the Newcomer guide for live times.',
-       ko:'유학과: 운행일 9/24-25・29-30・10/1. 기숙사 ⇄ 규다이 가켄토시역. 실시간 운행은 「신입생 특집」 참조.'},
+       ko:'유학과: 운행일 9/24-25・29-30・10/1. 기숙사 ⇄ 규다이 가켄토시역. 실시간 운행은 「신입생 특집」 참조.',
+       es:'Oficina de Estudiantes Internacionales: circula el 9/24-25, 9/29-30 y 10/1. De los dormitorios a la estación Kyudai-Gakentoshi. Consulta los horarios actualizados en la guía para nuevos estudiantes.'},
   c65:{en:'International Student Office: for dorm residents. Attendance at both Session 1 and 2 is required; advance registration needed. See the Newcomer guide.',
-       ko:'유학과: 기숙사 입주자 대상. 1회차와 2회차 모두 참석 필수, 사전 신청 필요. 「신입생 특집」 참조.'},
+       ko:'유학과: 기숙사 입주자 대상. 1회차와 2회차 모두 참석 필수, 사전 신청 필요. 「신입생 특집」 참조.',
+       es:'Oficina de Estudiantes Internacionales: para residentes de los dormitorios. Es obligatorio asistir a la sesión 1 y a la sesión 2; requiere inscripción previa. Consulta la guía para nuevos estudiantes.'},
   c66:{en:'12:50-15:10, attendance required. On the same day: SIM sales, library tour, immigration consultation and a welcome party. See the Newcomer guide.',
-       ko:'12:50-15:10 참석 필수. 같은 날 SIM 판매회・도서관 투어・출입국 상담회・웰컴 파티. 「신입생 특집」 참조.'},
+       ko:'12:50-15:10 참석 필수. 같은 날 SIM 판매회・도서관 투어・출입국 상담회・웰컴 파티. 「신입생 특집」 참조.',
+       es:'12:50-15:10, asistencia obligatoria. El mismo día: venta de SIM, visita a la biblioteca, consulta de inmigración y fiesta de bienvenida. Consulta la guía para nuevos estudiantes.'},
   c67:{en:'International Student Office / Q-Mate: 10:30-12:00 and 15:00-16:30 each day, two sessions (east / west). Registration required. See the Newcomer guide.',
-       ko:'유학과/Q-Mate: 매일 10:30-12:00・15:00-16:30 동/서 두 차례, 신청 필요. 「신입생 특집」 참조.'},
+       ko:'유학과/Q-Mate: 매일 10:30-12:00・15:00-16:30 동/서 두 차례, 신청 필요. 「신입생 특집」 참조.',
+       es:'Oficina de Estudiantes Internacionales / Q-Mate: de 10:30 a 12:00 y de 15:00 a 16:30 cada día, en dos sesiones (este / oeste). Requiere inscripción. Consulta la guía para nuevos estudiantes.'},
   c68:{en:'International Student Office: for new students who have already registered their address. Advance registration required; the card is issued on the spot. See the Newcomer guide.',
-       ko:'유학과: 주소 등록을 마친 신입생 대상. 사전 신청 필요, 현장에서 카드 발급. 「신입생 특집」 참조.'},
+       ko:'유학과: 주소 등록을 마친 신입생 대상. 사전 신청 필요, 현장에서 카드 발급. 「신입생 특집」 참조.',
+       es:'Oficina de Estudiantes Internacionales: para nuevos estudiantes que ya hayan registrado su dirección. Requiere inscripción previa; la tarjeta se emite en el momento. Consulta la guía para nuevos estudiantes.'},
   c69:{en:'All international students must enrol. Apply through the OSSMA app after arriving in Japan. See the Newcomer guide.',
-       ko:'유학생 전원 가입 필수. OSSMA 앱으로 신청하며 일본 도착 후 처리합니다. 「신입생 특집」 참조.'},
+       ko:'유학생 전원 가입 필수. OSSMA 앱으로 신청하며 일본 도착 후 처리합니다. 「신입생 특집」 참조.',
+       es:'Todos los estudiantes internacionales deben inscribirse. Solicítalo a través de la app OSSMA tras llegar a Japón. Consulta la guía para nuevos estudiantes.'},
 };
 const CUNLI_PLACES = {
-  '椎木講堂':{en:'Shiiki Hall (University HQ)',ko:'시이키 강당 (대학 본부)'},
+  '椎木講堂':{en:'Shiiki Hall (University HQ)',ko:'시이키 강당 (대학 본부)',es:'Sala Shiiki (Rectorado)'},
 };
 /** 详情面板的说明文字：en/ko 有译文用译文，否则回中文（中文是本站编写语言） */
 function cunliNote(it, lang){

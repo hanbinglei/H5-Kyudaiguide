@@ -13,7 +13,7 @@
 import json, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-LANGS = ("ja", "en", "ko")
+LANGS = ("ja", "en", "ko", "es")
 
 
 def flatten(bs, o=None):

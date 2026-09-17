@@ -38,7 +38,7 @@ const JA = s => KANA.test(String(s));
 let fail = 0;
 const items = CUNLI.items || [];
 for (const it of items) {
-  for (const L of ['en', 'ko']) {
+  for (const L of ['en', 'ko', 'es']) {
     const n = nameOf(it, L);
     if (JA(n.name)) { console.log(`✗ [${it.id}] ${L} 活动名仍是日文: ${n.name}`); fail++; }
     if (it.note) {

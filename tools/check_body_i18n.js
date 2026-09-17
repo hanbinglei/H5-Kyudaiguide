@@ -17,20 +17,20 @@ const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
 const ROOT = path.join(__dirname, '..');
-const LANGS = ['ja', 'en', 'ko'];
+const LANGS = ['ja', 'en', 'ko', 'es'];
 
 // 联络方式按读者国籍本地化是有意的，不是翻译手滑：
 // 中文版指向中国总领事馆，韩语版就该指向韩国总领事馆；日/英版面向多国读者则改为
 // 「查你自己国家的公馆」。这几组 URL/电话必然与中文不同 —— 跳过等值断言，
 // 改为打印差异供人工核对号码真实性。
 const CONTACT_LOCALIZED = {
-  'guide-emergency': ['ja', 'en', 'ko'],
-  'guide-medical': ['ja', 'en', 'ko'],
-  'guide-antifraud': ['ja', 'en', 'ko'],
-  'guide-life': ['ja', 'en', 'ko'],
+  'guide-emergency': ['ja', 'en', 'ko', 'es'],
+  'guide-medical': ['ja', 'en', 'ko', 'es'],
+  'guide-antifraud': ['ja', 'en', 'ko', 'es'],
+  'guide-life': ['ja', 'en', 'ko', 'es'],
   // 「出事时打哪个电话」那一条：中文写的是中国的领保热线，ja/en 改为
   // 「联系本国在外机构」并列出在福冈的总领事馆，ko 换成韩国总领事馆
-  'guide-firstmonth': ['ja', 'en', 'ko'],
+  'guide-firstmonth': ['ja', 'en', 'ko', 'es'],
 };
 
 function loadWin(file, name) {

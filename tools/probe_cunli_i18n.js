@@ -18,7 +18,7 @@ const I18N = loadWin('i18n.js', 'GuideI18N');
 console.log('cunliName 是否存在:', typeof (I18N && I18N.cunliName));
 console.log('CUNLI items:', CUNLI && CUNLI.items ? CUNLI.items.length : '—');
 
-const LANGS = ['en', 'ko'];
+const LANGS = ['en', 'ko', 'es'];
 const items = (CUNLI && CUNLI.items) || [];
 const miss = { en: [], ko: [] };
 const hit = { en: 0, ko: 0 };

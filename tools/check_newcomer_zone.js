@@ -13,7 +13,7 @@ const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
 const ROOT = path.join(__dirname, '..');
-const LANGS = ['zh', 'ja', 'en', 'ko'];
+const LANGS = ['zh', 'ja', 'en', 'ko', 'es'];
 
 function loadWin(file, name) {
   const sandbox = { window: {} };
