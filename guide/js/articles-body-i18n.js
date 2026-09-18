@@ -2703,6 +2703,28 @@ window.ARTICLES_BODY_I18N = {
    },
    "9958c0": {
     "text": "**事前の申し込みが必要**です。入国支援システム（Pre-Arrival System）から予約してください。同じ回では通常、行政手続きの案内も行われるため、まとめて済ませるのが最も効率的です。定員や開催回数は学校からの案内に従ってください。"
+   },
+   "1dc907": {
+    "items": [
+     {
+      "text": "在留カード（裏面の住所欄に住居地の届出が完了していること）"
+     },
+     {
+      "text": "パスポート"
+     },
+     {
+      "text": "印鑑（シャチハタ不可。通常の印鑑をご用意ください）"
+     },
+     {
+      "text": "学生証"
+     },
+     {
+      "text": "携帯電話番号（未取得の場合は Supporter の電話番号で申請し、取得後に変更）"
+     },
+     {
+      "text": "現金（口座開設時の初回入金用に少額）"
+     }
+    ]
    }
   },
   "en": {
@@ -2792,6 +2814,28 @@ window.ARTICLES_BODY_I18N = {
    },
    "9958c0": {
     "text": "**Advance registration is required**, via the 入国支援システム (Pre-Arrival System). The same session usually also includes guidance on administrative procedures, so completing both at once saves the most time. Availability and sessions are subject to the university's notices."
+   },
+   "1dc907": {
+    "items": [
+     {
+      "text": "Residence card (the address field on the back must already show the registered address)"
+     },
+     {
+      "text": "Passport"
+     },
+     {
+      "text": "Personal seal (inkan; a self-inking Shachihata stamp is not accepted — bring an ordinary seal)"
+     },
+     {
+      "text": "Student ID card"
+     },
+     {
+      "text": "Mobile phone number (if not available yet, the Supporter's number may be entered first and changed later)"
+     },
+     {
+      "text": "A small amount of cash (for the initial deposit when opening the account)"
+     }
+    ]
    }
   },
   "ko": {
@@ -2881,6 +2925,28 @@ window.ARTICLES_BODY_I18N = {
    },
    "9958c0": {
     "text": "**사전 신청이 필요**하며, 入国支援システム(Pre-Arrival System)을 통해 예약합니다. 같은 행사에는 보통 행정 수속 안내도 포함되어 있어 두 가지를 한 번에 처리하는 것이 가장 효율적입니다. 신청 인원과 일정은 학교 안내에 따릅니다."
+   },
+   "1dc907": {
+    "items": [
+     {
+      "text": "재류카드(뒷면 주소란에 주소 등록이 완료되어 있어야 함)"
+     },
+     {
+      "text": "여권"
+     },
+     {
+      "text": "도장(샤치하타 불가. 일반 도장을 준비)"
+     },
+     {
+      "text": "학생증"
+     },
+     {
+      "text": "휴대전화 번호(아직 없으면 Supporter 전화번호로 먼저 기재하고, 개설 후 변경)"
+     },
+     {
+      "text": "소액의 현금(계좌 개설 시 초입금용)"
+     }
+    ]
    }
   },
   "es": {
@@ -2970,6 +3036,28 @@ window.ARTICLES_BODY_I18N = {
    },
    "9958c0": {
     "text": "**Se requiere inscripción previa**, mediante reserva a través del 入国支援システム (Pre-Arrival System). La misma sesión suele incluir además orientación sobre los trámites administrativos, y hacer ambas cosas a la vez ahorra el máximo de tiempo. El número de plazas y las sesiones se rigen por lo que notifique la universidad."
+   },
+   "1dc907": {
+    "items": [
+     {
+      "text": "Tarjeta de residencia (el apartado de dirección del reverso debe tener ya el domicilio registrado)"
+     },
+     {
+      "text": "Pasaporte"
+     },
+     {
+      "text": "Sello personal (inkan): no se acepta el sello autoentintado (Shachihata); hay que llevar un sello normal"
+     },
+     {
+      "text": "Tarjeta de estudiante"
+     },
+     {
+      "text": "Número de teléfono móvil (si aún no se tiene, puede indicarse el del Supporter y cambiarlo después)"
+     },
+     {
+      "text": "Una pequeña cantidad de efectivo (para el depósito inicial al abrir la cuenta)"
+     }
+    ]
    }
   }
  },
@@ -13101,6 +13189,12 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://japanrailpass.net/about_jrp/riyou/"
      }
     ]
+   },
+   "675d9f": {
+    "title": "プラン1：オトクチケット（回数券）· 天神／博多のみ（往復 994円）"
+   },
+   "fb7753": {
+    "title": "プラン2：姪浜乗り換え＋地下鉄1日乗車券 · 複数地点／時間に余裕（総額 1,180円）"
    }
   },
   "en": {
@@ -13642,6 +13736,12 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://japanrailpass.net/about_jrp/riyou/"
      }
     ]
+   },
+   "675d9f": {
+    "title": "Option 1: Otoku Ticket (multi-ride coupon ticket) · Tenjin/Hakata only (994 yen round trip)"
+   },
+   "fb7753": {
+    "title": "Option 2: transfer at Meinohama + subway 1-day pass · multiple destinations / ample time (1,180 yen total)"
    }
   },
   "ko": {
@@ -14183,6 +14283,12 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://japanrailpass.net/about_jrp/riyou/"
      }
     ]
+   },
+   "675d9f": {
+    "title": "방법 1: 오토쿠 티켓(회수권) · 덴진/하카타만(왕복 994엔)"
+   },
+   "fb7753": {
+    "title": "방법 2: 姪浜 환승 + 지하철 1일권 · 여러 곳/시간 여유(총액 1,180엔)"
    }
   },
   "es": {
@@ -14724,6 +14830,12 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://japanrailpass.net/about_jrp/riyou/"
      }
     ]
+   },
+   "675d9f": {
+    "title": "Plan 1: Otoku Ticket (billete multiviaje) · solo Tenjin/Hakata (994円 ida y vuelta)"
+   },
+   "fb7753": {
+    "title": "Plan 2: transbordo en Meinohama + pase de un día de metro · varios destinos / con tiempo (1,180円 en total)"
    }
   }
  },
@@ -17278,6 +17390,12 @@ window.ARTICLES_BODY_I18N = {
    },
    "8f9a0b": {
     "text": "**原文の出典**：留学課 NotePM「新入留学生サポートポータル（伊都キャンパス）」2026-08-20（各子ページおよび公式 PDF の時刻表を含む）。情報は公式の最新発表を基準とします。"
+   },
+   "3c4d5e": {
+    "title": "伊都協奏館 / ドミトリー1-3 入居者 · 日程（A～G グループ）"
+   },
+   "4d5e6f": {
+    "title": "セトルインターナショナル（SETTLE International）入居者 · 日程（A～C グループ）"
    }
   },
   "en": {
@@ -17922,6 +18040,12 @@ window.ARTICLES_BODY_I18N = {
    },
    "8f9a0b": {
     "text": "**Source**: 留学課 NotePM 「新入留学生サポートポータル（伊都キャンパス）」2026-08-20 (including sub-pages and official PDF timetables). The latest official publication takes precedence."
+   },
+   "3c4d5e": {
+    "title": "Residents of 伊都協奏館 / ドミトリー1-3 · Schedule (Groups A–G)"
+   },
+   "4d5e6f": {
+    "title": "Residents of セトルインターナショナル (SETTLE International) · Schedule (Groups A–C)"
    }
   },
   "ko": {
@@ -18566,6 +18690,12 @@ window.ARTICLES_BODY_I18N = {
    },
    "8f9a0b": {
     "text": "**원문 출처**: 留学課 NotePM「新入留学生サポートポータル（伊都キャンパス）」2026-08-20（각 하위 페이지와 공식 PDF 시간표 포함）. 정보는 공식 최신 발표를 기준으로 합니다."
+   },
+   "3c4d5e": {
+    "title": "伊都協奏館 / ドミトリー1-3 입주자 · 일정(A~G조)"
+   },
+   "4d5e6f": {
+    "title": "セトルインターナショナル(SETTLE International) 입주자 · 일정(A~C조)"
    }
   },
   "es": {
@@ -19201,6 +19331,12 @@ window.ARTICLES_BODY_I18N = {
    },
    "8f9a0b": {
     "text": "**Fuente original**: portal NotePM de la oficina de estudiantes internacionales «Portal de apoyo para estudiantes internacionales de nuevo ingreso（新入留学生サポートポータル - campus Ito, 伊都キャンパス）» 2026-08-20 (incluye las subpáginas y los PDF oficiales de horarios). Prevalece la información publicada oficialmente más reciente."
+   },
+   "3c4d5e": {
+    "title": "Residentes de Ito Kyosokan (伊都協奏館) / dormitorios 1-3 (ドミトリー1-3) · Calendario (grupos A–G)"
+   },
+   "4d5e6f": {
+    "title": "Residentes de Settle International (セトルインターナショナル) · Calendario (grupos A–C)"
    }
   }
  },
