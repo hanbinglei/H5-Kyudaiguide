@@ -2,7 +2,7 @@
  "_id": "guide-phone",
  "category": "5",
  "title": "手机·网络",
- "summary": "来日前临时上网卡（CMlink / 旅行SIM）、SIM卡选择（povo/ahamo/Y!mobile/UQ mobile/乐天）、在线申请与多语言客服、eSIM、校园WiFi（SSOKID@Kitnet）与eduroam、注销与转卡链接。",
+ "summary": "来日前临时上网卡（CMlink / 旅行SIM）、SIM卡选择（povo/ahamo/Y!mobile/UQ mobile/乐天）、在线申请与多语言客服、eSIM、校园WiFi（SSO-KID@kitenet）与eduroam、注销与转卡链接。",
  "tags": [
   "手机",
   "SIM",
@@ -190,11 +190,11 @@
   {
    "id": "7bdf67",
    "type": "paragraph",
-   "text": "拿到学校账号后即可连接校内 WiFi；eduroam 是跨校 WiFi 服务，需另行注册。"
+   "text": "拿到学校账号后即可连接校内 WiFi（kitenet）；eduroam 是跨校 WiFi 服务，需另行注册。官方手册页需先用 SSO-KID 登录后查看。"
   },
   {
    "id": "72a8d0",
-   "text": "校内 WiFi 的登录账号为本人 SSOKID@Kitnet，密码为激活 SSOKID 时设置的密码（与 Campusmate 相同）。",
+   "text": "校内 WiFi（kitenet）的登录账号为 **SSO-KID@kitenet**（SSO-KID 为学生证背面的 10 位数字），密码为 SSO-KID 的密码（与 Campusmate 相同）。",
    "type": "paragraph"
   },
   {
@@ -202,7 +202,23 @@
    "type": "links",
    "items": [
     {
-     "text": "九大校园网（KiteNet）连接手册",
+     "text": "kitenet 设置手册：iOS",
+     "url": "https://www.nc.kyushu-u.ac.jp/kitenet/manual-ios/"
+    },
+    {
+     "text": "kitenet 设置手册：Android",
+     "url": "https://www.nc.kyushu-u.ac.jp/kitenet/manual-android/"
+    },
+    {
+     "text": "kitenet 设置手册：其他 OS",
+     "url": "https://www.nc.kyushu-u.ac.jp/kitenet/?#manual"
+    },
+    {
+     "text": "kitenet 官方页面（日文）",
+     "url": "https://www.nc.kyushu-u.ac.jp/kitenet/"
+    },
+    {
+     "text": "KiteNet 连接手册（英文）",
      "url": "https://www.nc.kyushu-u.ac.jp/en/kitenet-en/#manual"
     },
     {

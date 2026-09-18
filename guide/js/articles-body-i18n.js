@@ -9455,15 +9455,31 @@ window.ARTICLES_BODY_I18N = {
     "text": "キャンパスネットワーク"
    },
    "7bdf67": {
-    "text": "学校アカウントを取得すれば、学内WiFiに接続できます。eduroam は大学間をまたいで利用できるWiFiサービスで、別途登録が必要です。"
+    "text": "学校アカウントを取得すると学内 Wi-Fi（kitenet）に接続できます。eduroam は大学間で利用できる Wi-Fi サービスで、別途登録が必要です。公式マニュアルのページは、SSO-KID でログインしてから閲覧してください。"
    },
    "72a8d0": {
-    "text": "学内WiFiのログインIDは自分の SSOKID@Kitnet、パスワードは SSOKID を有効化したときに設定したパスワードです（Campusmate と同じ）。"
+    "text": "学内 Wi-Fi（kitenet）の接続用 ID は **SSO-KID@kitenet**（SSO-KID は学生証の裏面に記載された 10 桁の数字）、パスワードは SSO-KID のパスワードです（Campusmate と同じ）。"
    },
    "0fb853": {
     "items": [
      {
-      "text": "九大キャンパスネットワーク（KiteNet）接続マニュアル",
+      "text": "kitenet 設定マニュアル：iOS",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/manual-ios/"
+     },
+     {
+      "text": "kitenet 設定マニュアル：Android",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/manual-android/"
+     },
+     {
+      "text": "kitenet 設定マニュアル：その他の OS",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/?#manual"
+     },
+     {
+      "text": "kitenet 公式ページ（日本語）",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/"
+     },
+     {
+      "text": "KiteNet 接続マニュアル（英語）",
       "url": "https://www.nc.kyushu-u.ac.jp/en/kitenet-en/#manual"
      },
      {
@@ -9626,19 +9642,35 @@ window.ARTICLES_BODY_I18N = {
     "text": "Campus Network"
    },
    "7bdf67": {
-    "text": "The campus WiFi can be connected once the university account is obtained; eduroam, a WiFi service shared among universities, requires separate registration."
+    "text": "Once the university account is obtained, the campus Wi-Fi (kitenet) can be used. eduroam is a Wi-Fi service shared between universities and requires separate registration. The official manual pages require signing in with the SSO-KID."
    },
    "72a8d0": {
-    "text": "The login ID for campus WiFi is the student's SSOKID@Kitnet, and the password is the one set when activating SSOKID (same as Campusmate)."
+    "text": "The login ID for the campus Wi-Fi (kitenet) is **SSO-KID@kitenet** (the SSO-KID is the 10-digit number printed on the back of the student ID card), and the password is the SSO-KID password (the same as for Campusmate)."
    },
    "0fb853": {
     "items": [
      {
-      "text": "Kyushu University Campus Network (KiteNet) Connection Guide",
+      "text": "kitenet setup manual: iOS",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/manual-ios/"
+     },
+     {
+      "text": "kitenet setup manual: Android",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/manual-android/"
+     },
+     {
+      "text": "kitenet setup manual: other OS",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/?#manual"
+     },
+     {
+      "text": "kitenet official page (Japanese)",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/"
+     },
+     {
+      "text": "KiteNet connection guide (English)",
       "url": "https://www.nc.kyushu-u.ac.jp/en/kitenet-en/#manual"
      },
      {
-      "text": "eduroam Registration",
+      "text": "eduroam registration",
       "url": "https://www.nc.kyushu-u.ac.jp/net/eduroam/"
      }
     ]
@@ -9797,15 +9829,31 @@ window.ARTICLES_BODY_I18N = {
     "text": "교내 네트워크"
    },
    "7bdf67": {
-    "text": "학교 계정을 받으면 교내 WiFi에 연결할 수 있습니다. eduroam은 대학 간 연동 WiFi 서비스로, 별도로 등록이 필요합니다."
+    "text": "학교 계정을 받으면 교내 Wi-Fi(kitenet)에 연결할 수 있습니다. eduroam은 대학 간에 이용할 수 있는 Wi-Fi 서비스로 별도 등록이 필요합니다. 공식 매뉴얼 페이지는 SSO-KID로 로그인한 뒤 열람할 수 있습니다."
    },
    "72a8d0": {
-    "text": "교내 WiFi의 로그인 계정은 본인의 SSOKID@Kitnet이며, 비밀번호는 SSOKID 활성화 시 설정한 비밀번호입니다(Campusmate와 동일)."
+    "text": "교내 Wi-Fi(kitenet)의 접속 ID는 **SSO-KID@kitenet**(SSO-KID는 학생증 뒷면에 적힌 10자리 숫자)이며, 비밀번호는 SSO-KID 비밀번호입니다(Campusmate와 동일)."
    },
    "0fb853": {
     "items": [
      {
-      "text": "큐슈대학 캠퍼스 네트워크(KiteNet) 연결 매뉴얼",
+      "text": "kitenet 설정 매뉴얼: iOS",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/manual-ios/"
+     },
+     {
+      "text": "kitenet 설정 매뉴얼: Android",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/manual-android/"
+     },
+     {
+      "text": "kitenet 설정 매뉴얼: 기타 OS",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/?#manual"
+     },
+     {
+      "text": "kitenet 공식 페이지(일본어)",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/"
+     },
+     {
+      "text": "KiteNet 연결 매뉴얼(영어)",
       "url": "https://www.nc.kyushu-u.ac.jp/en/kitenet-en/#manual"
      },
      {
@@ -10026,15 +10074,31 @@ window.ARTICLES_BODY_I18N = {
     "text": "Red del campus"
    },
    "7bdf67": {
-    "text": "Una vez tengas tu cuenta de la universidad podrás conectarte al WiFi del campus; eduroam es un servicio de WiFi entre universidades y requiere un registro aparte."
+    "text": "Una vez obtenida la cuenta de la universidad se puede usar el Wi-Fi del campus (kitenet). eduroam es un servicio de Wi-Fi compartido entre universidades y requiere un registro aparte. Las páginas del manual oficial requieren iniciar sesión con el SSO-KID."
    },
    "72a8d0": {
-    "text": "La cuenta de acceso al WiFi del campus es tu propio SSOKID@Kitnet, y la contraseña es la que estableciste al activar el SSOKID (la misma que la de Campusmate)."
+    "text": "El ID de acceso al Wi-Fi del campus (kitenet) es **SSO-KID@kitenet** (el SSO-KID es el número de 10 dígitos del reverso de la tarjeta de estudiante) y la contraseña es la del SSO-KID (la misma que la de Campusmate)."
    },
    "0fb853": {
     "items": [
      {
-      "text": "Manual de conexión a la red del campus de Kyushu (KiteNet)",
+      "text": "Manual de configuración de kitenet: iOS",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/manual-ios/"
+     },
+     {
+      "text": "Manual de configuración de kitenet: Android",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/manual-android/"
+     },
+     {
+      "text": "Manual de configuración de kitenet: otros SO",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/?#manual"
+     },
+     {
+      "text": "Página oficial de kitenet (japonés)",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/"
+     },
+     {
+      "text": "Manual de conexión de KiteNet (inglés)",
       "url": "https://www.nc.kyushu-u.ac.jp/en/kitenet-en/#manual"
      },
      {
@@ -15757,7 +15821,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "福岡市のゴミは 3 種類に分かれ、定期収集です。**指定袋を使う必要があります**（コンビニやスーパーで購入でき、種類ごとに袋の印字が違います）。燃えるゴミは週 2 回、そのほかは月 1 回。夜間収集が中心で、通常は収集日の前日の日没後から 24 時までの間に出します。市の公式サイトには品目名で分別を調べられる検索システムがあります。参照【生活のコツ】"
    },
    "36cd13": {
-    "text": "大学アカウントの落とし穴が 2 つ：SSO-KID の有効化には**大学のメールアドレス以外は使えません**。学内 Wi-Fi のアカウントは SSOKID@Kitnet で、パスワードは SSO-KID を有効化したときに設定したものです。参照【在留手続き】"
+    "text": "大学アカウントの落とし穴が 2 つ：SSO-KID の有効化には**大学のメールアドレス以外は使えません**。学内 Wi-Fi のアカウントは SSO-KID@kitenet で、パスワードは SSO-KID を有効化したときに設定したものです。参照【在留手続き】"
    },
    "082061": {
     "text": "緊急時の連絡先"
@@ -16015,7 +16079,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Fukuoka City sorts household waste into three types on a fixed collection schedule, and **you must use the designated bags** (sold at convenience stores and supermarkets, with different printing for each type). Burnable waste is collected twice a week, the rest once a month. Collection is mostly at night: put your bags out between sunset the day before and midnight. The city website has a search where you enter an item name to find its category. See【Life Tips】"
    },
    "36cd13": {
-    "text": "Two traps with the university account: activating your SSO-KID **cannot be done with any address other than your university email**. The campus Wi-Fi username is SSOKID@Kitnet, and the password is the one you set when you activated the SSO-KID. See【Residence Procedures】"
+    "text": "Two traps with the university account: activating your SSO-KID **cannot be done with any address other than your university email**. The campus Wi-Fi username is SSO-KID@kitenet, and the password is the one you set when you activated the SSO-KID. See【Residence Procedures】"
    },
    "082061": {
     "text": "Emergency contacts"
@@ -16273,7 +16337,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "후쿠오카시의 쓰레기는 세 종류로 나뉘어 정기 수거됩니다. **지정 봉투를 사용해야 합니다**(편의점과 슈퍼에서 판매하며 종류별로 봉투의 인쇄가 다릅니다). 타는 쓰레기는 주 2회, 나머지는 월 1회. 야간 수거가 중심이라, 보통 수거일 전날 해가 진 뒤부터 24시 사이에 내놓습니다. 시 공식 사이트에는 품목명을 입력해 분류를 찾는 검색 시스템이 있습니다. 참조【생활의 요령】"
    },
    "36cd13": {
-    "text": "대학 계정의 함정이 두 가지: SSO-KID 활성화에는 **대학 메일 이외의 주소는 쓸 수 없습니다**. 교내 Wi-Fi 계정은 SSOKID@Kitnet이고, 비밀번호는 SSO-KID를 활성화할 때 설정한 그것입니다. 참조【체류 수속】"
+    "text": "대학 계정의 함정이 두 가지: SSO-KID 활성화에는 **대학 메일 이외의 주소는 쓸 수 없습니다**. 교내 Wi-Fi 계정은 SSO-KID@kitenet이고, 비밀번호는 SSO-KID를 활성화할 때 설정한 그것입니다. 참조【체류 수속】"
    },
    "082061": {
     "text": "긴급 연락처"
@@ -16507,7 +16571,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "En la ciudad de Fukuoka la basura se recoge por tipos de forma periódica, y **es obligatorio usar las bolsas designadas**（se venden en tiendas de conveniencia y supermercados, con impresión distinta según el tipo）. La basura combustible se recoge 2 veces por semana y el resto 1 vez al mes, casi siempre de noche; normalmente se saca entre la puesta de sol y las 24:00 del día anterior al de la recogida. La web oficial de la ciudad tiene un buscador de clasificación en chino: introduces el nombre del objeto y te dice cómo clasificarlo. Véase 【Consejos de vida diaria】"
    },
    "36cd13": {
-    "text": "Dos trampas con las cuentas de la universidad: para activar SSO-KID **no se puede usar un correo distinto del correo de la universidad**; la cuenta del WiFi del campus es SSOKID@Kitnet, y la contraseña es la que pusiste al activar SSO-KID. Véase 【Trámites de residencia】"
+    "text": "Dos trampas con las cuentas de la universidad: para activar SSO-KID **no se puede usar un correo distinto del correo de la universidad**; la cuenta del WiFi del campus es SSO-KID@kitenet, y la contraseña es la que pusiste al activar SSO-KID. Véase 【Trámites de residencia】"
    },
    "082061": {
     "text": "Teléfonos de emergencia"

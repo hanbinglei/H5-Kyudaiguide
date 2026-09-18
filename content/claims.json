@@ -233,6 +233,19 @@
       "level": "verified",
       "recheck": "P1M",
       "note": "临时凭证 10/9 失效：届时本区块（w3c4d5 / w4d5e6）须移除或改写为常设的 SSO-KID・kitenet 说明；kitenet 三份 OS 手册链接长期有效，可保留"
+    },
+    {
+      "id": "phone-kitenet-login-id",
+      "article": "guide-phone",
+      "block": "72a8d0",
+      "claim": "kitenet（学内 Wi-Fi）の接続用 ID は SSO-KID@kitenet、パスワードは SSO-KID のパスワード。SSO-KID は学生証裏面の 10 桁の数字（guide-firstmonth 36cd13 にも同内容）",
+      "sourceName": "九州大学 基幹教育院 情報相談室「情報教育環境の活用」",
+      "source": "https://www.artsci.kyushu-u.ac.jp/~csr/services.html",
+      "effective": "",
+      "verified": "2026-09-18",
+      "level": "verified",
+      "recheck": "P1Y",
+      "note": "認証方式の変更履歴あり（2023-03 に学生証番号による認証を廃止）。学外者向け一時利用サービスは別 ID。旧表記 SSOKID@Kitnet は誤り（2026-09-18 に全站修正）"
     }
   ]
 }

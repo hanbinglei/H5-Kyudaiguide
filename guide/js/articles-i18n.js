@@ -38,9 +38,9 @@ window.ARTICLES_I18N = {
 'guide-phone': {
   title:{ ja:'携帯・ネット', en:'Mobile & Internet', ko:'휴대폰·인터넷', es:'Móvil e internet' },
   summary:{
-    ja:'来日前の一時上網カード（CMlink/旅行SIM）、SIM選び（povo/ahamo/Y!mobile/UQ mobile/楽天）、オンライン申込と多言語サポート、eSIM、学内WiFi（SSOKID@Kitnet）と eduroam、解約・乗り換えリンク。',
-    en:'Temporary data SIM before arrival (CMlink / travel SIM), choosing a SIM (povo / ahamo / Y!mobile / UQ mobile / Rakuten), online application & multilingual support, eSIM, campus WiFi (SSOKID@Kitnet) and eduroam, cancellation & porting links.',
-    ko:'입국 전 임시 데이터 SIM(CMlink/여행 SIM), SIM 선택(povo/ahamo/Y!mobile/UQ mobile/라쿠텐), 온라인 신청과 다국어 지원, eSIM, 교내 WiFi(SSOKID@Kitnet)와 eduroam, 해지·번호이동 링크.',
+    ja:'来日前の一時上網カード（CMlink/旅行SIM）、SIM選び（povo/ahamo/Y!mobile/UQ mobile/楽天）、オンライン申込と多言語サポート、eSIM、学内WiFi（SSO-KID@kitenet）と eduroam、解約・乗り換えリンク。',
+    en:'Temporary data SIM before arrival (CMlink / travel SIM), choosing a SIM (povo / ahamo / Y!mobile / UQ mobile / Rakuten), online application & multilingual support, eSIM, campus WiFi (SSO-KID@kitenet) and eduroam, cancellation & porting links.',
+    ko:'입국 전 임시 데이터 SIM(CMlink/여행 SIM), SIM 선택(povo/ahamo/Y!mobile/UQ mobile/라쿠텐), 온라인 신청과 다국어 지원, eSIM, 교내 WiFi(SSO-KID@kitenet)와 eduroam, 해지·번호이동 링크.',
     es:'SIM temporal antes de llegar (CMlink / SIM de viaje), elección de operador (povo, ahamo, Y!mobile, UQ mobile, Rakuten), solicitud en línea y atención multilingüe, eSIM, wifi del campus (SSO-KID@Kitnet) y eduroam, y enlaces para darse de baja o cambiar de operador.' },
 },
 'guide-academic': {
