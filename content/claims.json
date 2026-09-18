@@ -220,6 +220,19 @@
       "level": "verified",
       "recheck": "P6M",
       "note": "MEXT 奖学金生需另行开设ゆうちょ账户，见同篇 4c5d6e"
+    },
+    {
+      "id": "newcomer-wifi-temp-2026",
+      "article": "guide-newcomer",
+      "block": "w3c4d5",
+      "claim": "留学课面向新入留学生提供的临时校园 Wi-Fi 登录 ID・密码：有效期间 2026-09-24(木)～2026-10-09(金)，9 月下旬发送至入国支援システム登记的邮箱；10/9 之后须用本人 SSO-KID 设置 kitenet",
+      "sourceName": "九州大学国际部留学课 NotePM 门户「キャンパスWi-Fi」（发布于 2026-08-20）",
+      "source": "https://notepm.jp/sharing/751f751c-dbec-4cf0-a5b9-0e3a396b467d",
+      "effective": "2026-09-24",
+      "verified": "2026-09-18",
+      "level": "verified",
+      "recheck": "P1M",
+      "note": "临时凭证 10/9 失效：届时本区块（w3c4d5 / w4d5e6）须移除或改写为常设的 SSO-KID・kitenet 说明；kitenet 三份 OS 手册链接长期有效，可保留"
     }
   ]
 }

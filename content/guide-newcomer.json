@@ -348,7 +348,7 @@
     {
       "id": "w2b3c4",
       "type": "paragraph",
-      "text": "针对渡日后网络环境未完备的新入留学生，留学课提供**临时 Wi-Fi 登录 ID・密码**（9月下旬发送至入国支援系统登记的邮箱）。九州大学校园内有多处无线接入点。"
+      "text": "针对渡日后网络环境未完备的新入留学生，留学课提供**临时 Wi-Fi 登录 ID・密码**（9月下旬发送至入国支援系统登记的邮箱）。九州大学校园内有多处无线接入点。**SSO-KID** 是入学时每人分配一个的全学通用 ID，使用校内 Wi-Fi、学生邮箱等均需要它。"
     },
     {
       "id": "w3c4d5",
@@ -373,7 +373,7 @@
         },
         {
           "title": "完成 kitenet 初始设置",
-          "desc": "官方提供 iOS / Android / 其他OS 设置指南。"
+          "desc": "官方手册分 iOS、Android、其他 OS 三种（见下方链接，需先用 SSO-KID 登录）。"
         }
       ]
     },
@@ -386,7 +386,23 @@
           "url": "https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
         },
         {
-          "text": "校园 Wi-Fi 官方页面",
+          "text": "SSO-KID 激活方法说明（官方）",
+          "url": "https://web.sso.kyushu-u.ac.jp/ssokid/idpw.html#activation"
+        },
+        {
+          "text": "kitenet 设置手册：iOS",
+          "url": "https://www.nc.kyushu-u.ac.jp/kitenet/manual-ios/"
+        },
+        {
+          "text": "kitenet 设置手册：Android",
+          "url": "https://www.nc.kyushu-u.ac.jp/kitenet/manual-android/"
+        },
+        {
+          "text": "kitenet 设置手册：其他 OS",
+          "url": "https://www.nc.kyushu-u.ac.jp/kitenet/?#manual"
+        },
+        {
+          "text": "校园 Wi-Fi 官方页面（留学课）",
           "url": "https://notepm.jp/sharing/751f751c-dbec-4cf0-a5b9-0e3a396b467d"
         }
       ]

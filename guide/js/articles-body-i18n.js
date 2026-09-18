@@ -16733,7 +16733,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "③ キャンパス Wi-Fi（キャンパスWi-Fi / kitenet）"
    },
    "w2b3c4": {
-    "text": "来日後にネット環境が整っていない新入留学生に対し、留学課は**臨時の Wi-Fi ログイン ID・パスワード**を提供します（9月下旬に入国支援システムに登録したメールアドレスへ送付）。九州大学キャンパス内には複数の無線アクセスポイントがあります。"
+    "text": "来日後にネット環境が整っていない新入留学生に対し、留学課は**臨時の Wi-Fi ログイン ID・パスワード**を提供します（9月下旬に入国支援システムに登録したメールアドレスへ送付）。九州大学キャンパス内には複数の無線アクセスポイントがあります。**SSO-KID** は入学時に一人ずつ付与される全学共通の ID で、学内 Wi-Fi や学生用メールアドレスなどの利用に必要です。"
    },
    "w3c4d5": {
     "text": "臨時ログイン情報の有効期間：**2026年9月24日(木)～10月9日(金)**。10月9日以降は利用できませんので、ご自身の **SSO-KID** で kitenet（九大生用キャンパス Wi-Fi）を設定してください。"
@@ -16754,7 +16754,7 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "title": "kitenet の初期設定の完了",
-      "desc": "公式サイトで iOS / Android / その他OS の設定ガイドが提供されています。"
+      "desc": "公式マニュアルは iOS・Android・その他の OS の 3 種類です（下記リンク参照。閲覧には SSO-KID でのログインが必要です）。"
      }
     ]
    },
@@ -16765,7 +16765,23 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
      },
      {
-      "text": "キャンパス Wi-Fi 公式ページ",
+      "text": "SSO-KID 有効化の手順（公式）",
+      "url": "https://web.sso.kyushu-u.ac.jp/ssokid/idpw.html#activation"
+     },
+     {
+      "text": "kitenet 設定マニュアル：iOS",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/manual-ios/"
+     },
+     {
+      "text": "kitenet 設定マニュアル：Android",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/manual-android/"
+     },
+     {
+      "text": "kitenet 設定マニュアル：その他の OS",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/?#manual"
+     },
+     {
+      "text": "キャンパス Wi-Fi 公式ページ（留学課）",
       "url": "https://notepm.jp/sharing/751f751c-dbec-4cf0-a5b9-0e3a396b467d"
      }
     ]
@@ -17361,7 +17377,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "③ Campus Wi-Fi (キャンパスWi-Fi / kitenet)"
    },
    "w2b3c4": {
-    "text": "For new international students whose network environment is not yet ready after arrival in Japan, 留学課 provides a **temporary Wi-Fi login ID and password** (sent in late September to the email address registered in the 入国支援システム). Wireless access points are available at many locations on Kyushu University campuses."
+    "text": "For new international students whose network environment is not yet ready after arrival in Japan, 留学課 provides a **temporary Wi-Fi login ID and password** (sent in late September to the email address registered in the 入国支援システム). Wireless access points are available at many locations on Kyushu University campuses.The **SSO-KID** is a university-wide ID issued to every incoming student; it is required to use campus Wi-Fi, the student email account and other services."
    },
    "w3c4d5": {
     "text": "Validity of the temporary login credentials: **September 24, 2026 (Thu) – October 9, 2026 (Fri)**. The credentials can no longer be used after October 9; kitenet (Kyushu University student campus Wi-Fi) must be set up with the student's own **SSO-KID**."
@@ -17382,7 +17398,7 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "title": "Complete the initial kitenet setup",
-      "desc": "Official setup guides are provided for iOS / Android / other OS."
+      "desc": "Official manuals cover iOS, Android and other operating systems (see the links below; signing in with the SSO-KID is required to open them)."
      }
     ]
    },
@@ -17393,7 +17409,23 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
      },
      {
-      "text": "Campus Wi-Fi official page",
+      "text": "SSO-KID activation guide (official)",
+      "url": "https://web.sso.kyushu-u.ac.jp/ssokid/idpw.html#activation"
+     },
+     {
+      "text": "kitenet setup manual: iOS",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/manual-ios/"
+     },
+     {
+      "text": "kitenet setup manual: Android",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/manual-android/"
+     },
+     {
+      "text": "kitenet setup manual: other OS",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/?#manual"
+     },
+     {
+      "text": "Campus Wi-Fi official page (international office)",
       "url": "https://notepm.jp/sharing/751f751c-dbec-4cf0-a5b9-0e3a396b467d"
      }
     ]
@@ -17989,7 +18021,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "③ 캠퍼스 Wi-Fi（キャンパスWi-Fi / kitenet）"
    },
    "w2b3c4": {
-    "text": "일본 입국 후 네트워크 환경이 갖추어지지 않은 신입 유학생을 위해 留学課가 **임시 Wi-Fi 로그인 ID・비밀번호**를 제공합니다（9월 하순에 입국 지원 시스템에 등록된 메일 주소로 발송）. 九州大学 캠퍼스 내에는 무선 액세스 포인트가 여러 곳 있습니다."
+    "text": "일본 입국 후 네트워크 환경이 갖추어지지 않은 신입 유학생을 위해 留学課가 **임시 Wi-Fi 로그인 ID・비밀번호**를 제공합니다（9월 하순에 입국 지원 시스템에 등록된 메일 주소로 발송）. 九州大学 캠퍼스 내에는 무선 액세스 포인트가 여러 곳 있습니다.**SSO-KID**는 입학 시 한 사람당 하나씩 부여되는 전교 공통 ID로, 교내 Wi-Fi와 학생용 메일 주소 등의 이용에 필요합니다."
    },
    "w3c4d5": {
     "text": "임시 로그인 정보 유효 기간: **2026年9月24日(木)～10月9日(金)**. 10月9日 이후에는 사용할 수 없으며, 본인의 **SSO-KID**로 kitenet（九大生 캠퍼스 Wi-Fi）을 설정해야 합니다."
@@ -18010,7 +18042,7 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "title": "kitenet 초기 설정 완료",
-      "desc": "공식 사이트에서 iOS / Android / 기타 OS 설정 가이드를 제공합니다."
+      "desc": "공식 매뉴얼은 iOS, Android, 기타 OS 세 가지입니다(아래 링크 참조. 열람하려면 SSO-KID 로그인이 필요합니다)."
      }
     ]
    },
@@ -18021,7 +18053,23 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
      },
      {
-      "text": "캠퍼스 Wi-Fi 공식 페이지",
+      "text": "SSO-KID 활성화 방법 안내(공식)",
+      "url": "https://web.sso.kyushu-u.ac.jp/ssokid/idpw.html#activation"
+     },
+     {
+      "text": "kitenet 설정 매뉴얼: iOS",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/manual-ios/"
+     },
+     {
+      "text": "kitenet 설정 매뉴얼: Android",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/manual-android/"
+     },
+     {
+      "text": "kitenet 설정 매뉴얼: 기타 OS",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/?#manual"
+     },
+     {
+      "text": "캠퍼스 Wi-Fi 공식 페이지(유학과)",
       "url": "https://notepm.jp/sharing/751f751c-dbec-4cf0-a5b9-0e3a396b467d"
      }
     ]
@@ -18617,7 +18665,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "③ Wi-Fi del campus（キャンパスWi-Fi / kitenet）"
    },
    "w2b3c4": {
-    "text": "Para los estudiantes internacionales de nuevo ingreso que aún no tengan conexión de red preparada tras su llegada a Japón, la oficina de estudiantes internacionales proporciona **ID y contraseña temporales de acceso al Wi-Fi** (se envían a finales de septiembre al correo registrado en el sistema de apoyo a la llegada). La Universidad de Kyushu cuenta con múltiples puntos de acceso inalámbrico en el campus."
+    "text": "Para los estudiantes internacionales de nuevo ingreso que aún no tengan conexión de red preparada tras su llegada a Japón, la oficina de estudiantes internacionales proporciona **ID y contraseña temporales de acceso al Wi-Fi** (se envían a finales de septiembre al correo registrado en el sistema de apoyo a la llegada). La Universidad de Kyushu cuenta con múltiples puntos de acceso inalámbrico en el campus.El **SSO-KID** es un identificador común de toda la universidad que se asigna a cada estudiante al ingresar; es necesario para usar el Wi-Fi del campus, el correo de estudiante y otros servicios."
    },
    "w3c4d5": {
     "text": "Validez de las credenciales temporales: **2026年9月24日(木)～10月9日(金)**. Después de 10月9日 ya no se podrán usar; deberás configurar kitenet（Wi-Fi del campus para estudiantes de Kyushu University）con tu propio **SSO-KID**."
@@ -18638,7 +18686,7 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "title": "Completa la configuración inicial de kitenet",
-      "desc": "La universidad ofrece guías de configuración para iOS / Android / otros sistemas operativos."
+      "desc": "Los manuales oficiales cubren iOS, Android y otros sistemas operativos (véanse los enlaces siguientes; para abrirlos hay que iniciar sesión con el SSO-KID)."
      }
     ]
    },
@@ -18649,7 +18697,23 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
      },
      {
-      "text": "Página oficial del Wi-Fi del campus",
+      "text": "Guía de activación de SSO-KID (oficial)",
+      "url": "https://web.sso.kyushu-u.ac.jp/ssokid/idpw.html#activation"
+     },
+     {
+      "text": "Manual de configuración de kitenet: iOS",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/manual-ios/"
+     },
+     {
+      "text": "Manual de configuración de kitenet: Android",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/manual-android/"
+     },
+     {
+      "text": "Manual de configuración de kitenet: otros SO",
+      "url": "https://www.nc.kyushu-u.ac.jp/kitenet/?#manual"
+     },
+     {
+      "text": "Página oficial del Wi-Fi del campus (oficina de estudiantes internacionales)",
       "url": "https://notepm.jp/sharing/751f751c-dbec-4cf0-a5b9-0e3a396b467d"
      }
     ]
