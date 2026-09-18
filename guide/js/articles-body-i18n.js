@@ -443,16 +443,16 @@ window.ARTICLES_BODY_I18N = {
    "ac541e": {
     "items": [
      {
-      "text": "健康支援センター：ビッグさんど 2 階，心理・健康相谈：ビッグさんど 2 階。心理・健康の相談"
+      "text": "健康支援センター：ビッグさんど 2 階。心理・健康の相談"
      },
      {
-      "text": "留学生相談室（ISC）：B540，履修・住居・疾病・育儿，不便向导师谈的事：イースト1号館 B540。履修、住居、病気、育児など、指導教員には話しにくいことも"
+      "text": "留学生相談室（ISC）：イースト1号館 B540。履修、住居、病気、育児など、指導教員には話しにくいことも"
      },
      {
-      "text": "キャンパスヘルスサポートルーム：E-B-202，对人关系・生活配慮：イースト1号館2階 E-B-202。対人関係、生活上の合理的配慮など"
+      "text": "キャンパスヘルスサポートルーム：イースト1号館2階 E-B-202。対人関係、生活上の合理的配慮など"
      },
      {
-      "text": "マルチリンガル交流スペース（EZぷらっと）：E-C-202，留学支援・语学・借阅（EZぷらっと）：イースト1号館2階 E-C-202。留学支援、語学学習、書籍・DVD の貸出"
+      "text": "マルチリンガル交流スペース（EZぷらっと）：イースト1号館2階 E-C-202。留学支援、語学学習、書籍・DVD の貸出"
      },
      {
       "text": "教務課：イースト1号館 C108。履修登録、証明書、学籍"
@@ -2630,7 +2630,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "銀行に行く前に：印鑑・オリエンテーション・営業時間"
    },
    "930ced": {
-    "text": "銀行口座の開設には必ず印鑑が必要です（**シャチハタは不可**）。来日前に必ず個人印鑑をご用意ください。印鑑がなければ窓口で口座を開設することができません。【入境准备】参照"
+    "text": "銀行口座の開設には必ず印鑑が必要です（**シャチハタは不可**）。来日前に必ず個人印鑑をご用意ください。印鑑がなければ窓口で口座を開設することができません。【入国準備】参照"
    },
    "9d3912": {
     "text": "銀行オリエンテーション（口座開設説明会）は留学手続きの中でも重要な一環です。来日前に申し込みが完了しているかご確認ください。通常の入学オリエンテーションとは別のイベントであり、それぞれ別に予約する必要があります。学校の回を逃した場合、その後は通常、自分で銀行の窓口で手続きするしかなく、時間がかかります。"
@@ -2741,7 +2741,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Before Going to the Bank: Hanko Seal, Orientation, and Business Hours"
    },
    "930ced": {
-    "text": "Opening a bank account always requires a personal seal (hanko); **shachihata stamps are not acceptable**. Prepare a personal seal before arriving in Japan, or an account cannot be opened at the counter. See 【入境准备】"
+    "text": "Opening a bank account always requires a personal seal (hanko); **shachihata stamps are not acceptable**. Prepare a personal seal before arriving in Japan, or an account cannot be opened at the counter. See 【Arrival & Entry】"
    },
    "9d3912": {
     "text": "The bank orientation (account opening information session) is an important step in the study-abroad procedures; check whether registration has been completed before arriving in Japan. It is a different event from the regular entrance orientation and requires a separate reservation. If the session hosted by the university is missed, the account must usually be opened in person at a bank counter, which takes considerable time."
@@ -3084,7 +3084,7 @@ window.ARTICLES_BODY_I18N = {
       "text": "119——火災のとき、または救急搬送（救急車）が必要なとき"
      },
      {
-      "text": "#7119 —— 突发急病、不确定是否需叫救护车时的救急相谈（福冈县 24 小时）——急な病気で救急車を呼ぶべきか迷うときの救急電話相談（福岡県、24時間）。短縮番号がつながらない場合は 092-471-0099"
+      "text": "#7119 —— 急な病気で救急車を呼ぶべきか迷うときの救急電話相談（福岡県、24時間）。短縮番号がつながらない場合は 092-471-0099"
      },
      {
       "text": "#8000（子ども）——子どもの夜間の急な病気の相談。短縮番号がつながらない場合は 092-731-4119"
@@ -3214,7 +3214,7 @@ window.ARTICLES_BODY_I18N = {
    "d1f94f": {
     "items": [
      {
-      "text": "洪水：瑞梅寺川、雷山川等强降水时可能泛滥；学校地势较高，风险较小、雷山川などは脊振山地を源としており、大雨のときに氾濫する可能性があります。キャンパスは標高が高くリスクは小さめですが、国道 202 号沿いに住む場合は、賃貸契約時に渡される防災事項をよく読んでください"
+      "text": "洪水：瑞梅寺川、雷山川などは脊振山地を源としており、大雨のときに氾濫する可能性があります。キャンパスは標高が高くリスクは小さめですが、国道 202 号沿いに住む場合は、賃貸契約時に渡される防災事項をよく読んでください"
      },
      {
       "text": "水不足：2025–2026 年の冬、福岡全域が深刻な水不足となり、一部のダムは貯水率がほぼ底をつき、糸島地区では一時減圧給水が行われました"
@@ -3317,7 +3317,7 @@ window.ARTICLES_BODY_I18N = {
       "text": "119 — fire, or you need an ambulance"
      },
      {
-      "text": "#7119 —— 突发急病、不确定是否需叫救护车时的救急相谈（福冈县 24 小时） — emergency phone consultation when you fall ill suddenly and are unsure whether to call an ambulance (Fukuoka Prefecture, 24 hours). If the short number will not connect, dial 092-471-0099"
+      "text": "#7119 — emergency telephone consultation when you fall ill suddenly and are unsure whether to call an ambulance (Fukuoka Prefecture, 24 hours). If the short number will not connect, dial 092-471-0099"
      },
      {
       "text": "#8000 (children) — nighttime consultation for a child’s sudden illness. If the short number will not connect, dial 092-731-4119"
@@ -3550,7 +3550,7 @@ window.ARTICLES_BODY_I18N = {
       "text": "119 — 화재, 또는 응급 이송(구급차)이 필요할 때"
      },
      {
-      "text": "#7119 —— 突发急病、不确定是否需叫救护车时的救急相谈（福冈县 24 小时） — 갑자기 아파서 구급차를 불러야 할지 판단이 서지 않을 때의 응급 전화 상담(후쿠오카현, 24시간). 단축번호가 연결되지 않으면 092-471-0099"
+      "text": "#7119 — 갑자기 아파서 구급차를 불러야 할지 판단이 서지 않을 때의 응급 전화 상담(후쿠오카현, 24시간). 단축번호가 연결되지 않으면 092-471-0099"
      },
      {
       "text": "#8000(어린이) — 아이의 야간 응급 질환 상담. 단축번호가 연결되지 않으면 092-731-4119"
@@ -4264,7 +4264,7 @@ window.ARTICLES_BODY_I18N = {
     "rows": [
      [
       "D1 / D2 / D3",
-      "センターゾーン入口等 3 处",
+      "センターゾーン入口等 3 か所",
       "多め"
      ],
      [
@@ -6551,7 +6551,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "우편물 전송(주소 변경)"
    },
    "994e7b": {
-    "text": "이사 후 우체국 전송 신청 방법은 【在留手续·邮局地址转送】을 참조하세요. 이곳에서는 반복하지 않습니다."
+    "text": "이사 후 우체국 전송 신청 방법은 【재류 수속·우편물 전송】을 참조하세요. 이곳에서는 반복하지 않습니다."
    },
    "c541f6": {
     "text": "주변 유용 링크"
@@ -8526,7 +8526,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "国民健康保険 (National Health Insurance)"
    },
    "6d0c07": {
-    "text": "Enroll in 国民健康保険 (national health insurance) promptly after arrival (procedure order: see【入境准备·落地后的办理顺序】). After enrollment, the patient's personal share of medical costs is 30%."
+    "text": "Enroll in 国民健康保険 (national health insurance) promptly after arrival (procedure order: see 【Arrival & Entry · The Order of Things in Your First Days】). After enrollment, the patient's personal share of medical costs is 30%."
    },
    "40a340": {
     "text": "学研災 / 学研賠 (All Students Join in Principle)"
@@ -8772,7 +8772,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "국민건강보험 (国民健康保険)"
    },
    "6d0c07": {
-    "text": "일본 도착 후 가능한 한 빨리 국민건강보험 (国民健康保険)에 가입하시기 바랍니다 (가입 순서는 【入境准备·落地后的办理顺序】 참조). 가입하면 진료비 본인 부담이 30%가 됩니다."
+    "text": "일본 도착 후 가능한 한 빨리 국민건강보험 (国民健康保険)에 가입하시기 바랍니다 (가입 순서는 【입국 준비·도착 후 며칠간의 처리 순서】 참조). 가입하면 진료비 본인 부담이 30%가 됩니다."
    },
    "40a340": {
     "text": "学研災 / 学研賠 (원칙적으로 전원 가입)"
@@ -10713,7 +10713,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "国民健康保険（National Health Insurance）"
    },
    "8f34d4": {
-    "text": "国民健康保険（National Health Insurance）is medical insurance; once enrolled, the individual bears only 30% of medical costs. International students must enroll. It can be applied for together with 住民登録（resident registration）. See【医疗·保险】"
+    "text": "国民健康保険（National Health Insurance）is medical insurance; once enrolled, the individual bears only 30% of medical costs. International students must enroll. It can be applied for together with 住民登録（resident registration）. See 【Medical & Insurance】"
    },
    "ca823a": {
     "text": "国民年金（National Pension）"
@@ -15950,7 +15950,7 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "num": "3",
-      "text": "急な体調不良で、救急車を呼ぶべきか判断できないとき —— #7119 —— 突发急病、不确定是否需叫救护车时的救急相谈（福冈县 24 小时）（短縮番号がつながらなければ 092-471-0099）"
+      "text": "急な体調不良で、救急車を呼ぶべきか判断できないとき —— #7119（短縮番号がつながらなければ 092-471-0099）"
      },
      {
       "num": "4",
@@ -16208,7 +16208,7 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "num": "3",
-      "text": "Sudden illness and you are not sure whether to call an ambulance — #7119 —— 突发急病、不确定是否需叫救护车时的救急相谈（福冈县 24 小时） (if the short number does not connect, dial 092-471-0099)"
+      "text": "Sudden illness and you are not sure whether to call an ambulance — #7119 (if the short number does not connect, dial 092-471-0099)"
      },
      {
       "num": "4",
@@ -16466,7 +16466,7 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "num": "3",
-      "text": "갑작스러운 몸 상태 악화로 구급차를 불러야 할지 판단이 서지 않을 때 —— #7119 —— 突发急病、不确定是否需叫救护车时的救急相谈（福冈县 24 小时）(단축번호가 안 되면 092-471-0099)"
+      "text": "갑작스러운 몸 상태 악화로 구급차를 불러야 할지 판단이 서지 않을 때 —— #7119(단축번호가 안 되면 092-471-0099)"
      },
      {
       "num": "4",
@@ -17259,12 +17259,12 @@ window.ARTICLES_BODY_I18N = {
      {
       "text": "伊都診療所",
       "url": "https://itoclinic.kyushu-u.ac.jp/",
-      "desc": "校内诊所官网"
+      "desc": "院内診療所の公式サイト"
      },
      {
       "text": "福岡記念病院",
       "url": "http://kinen.jp",
-      "desc": "官网"
+      "desc": "公式サイト"
      }
     ]
    },
@@ -17315,27 +17315,27 @@ window.ARTICLES_BODY_I18N = {
      {
       "text": "個人使用の医薬品の日本への持込み",
       "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/kojinyunyu/topics/tp010401-1.html",
-      "desc": "厚生劳动省：海外携入医药品的限制说明"
+      "desc": "厚生労働省：海外からの医薬品持込みの制限について"
      },
      {
       "text": "ワクチンで予防できる感染症情報",
       "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/visitor.html",
-      "desc": "渡航前确认接种史"
+      "desc": "渡航前に接種歴を確認"
      },
      {
       "text": "2026 CLUB & CIRCLE GUIDE",
       "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-CLUB-CIRCLE-GUIDE.pdf",
-      "desc": "校内社团・日文版 PDF"
+      "desc": "学内サークル・日本語版 PDF"
      },
      {
       "text": "2026 International Clubs Guide",
       "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-INTL-CLUB-AND-CIRCLE%E3%80%80%E8%8B%B1%E8%AA%9E.pdf",
-      "desc": "国际社团・英文版 PDF"
+      "desc": "国際サークル・英語版 PDF"
      },
      {
       "text": "Global Gateways",
       "url": "https://www.isc.kyushu-u.ac.jp/intlweb/",
-      "desc": "国际部留学生信息网，建议定期查看"
+      "desc": "国際部の留学生向け情報サイト（定期確認推奨）"
      }
     ]
    },
@@ -17363,12 +17363,12 @@ window.ARTICLES_BODY_I18N = {
      {
       "text": "来日後の日常相談",
       "url": "https://lin.ee/EiQqccP",
-      "desc": "LINE 官方账号"
+      "desc": "LINE 公式アカウント"
      },
      {
       "text": "Q-Mate 公式サイト",
       "url": "https://studentassistantqu.wixsite.com/q-mate/about",
-      "desc": "官网"
+      "desc": "公式サイト"
      }
     ]
    },
@@ -17909,12 +17909,12 @@ window.ARTICLES_BODY_I18N = {
      {
       "text": "伊都診療所",
       "url": "https://itoclinic.kyushu-u.ac.jp/",
-      "desc": "校内诊所官网"
+      "desc": "Official website of the campus clinic"
      },
      {
       "text": "福岡記念病院",
       "url": "http://kinen.jp",
-      "desc": "官网"
+      "desc": "Official website"
      }
     ]
    },
@@ -17965,27 +17965,27 @@ window.ARTICLES_BODY_I18N = {
      {
       "text": "Bringing personal medications into Japan",
       "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/kojinyunyu/topics/tp010401-1.html",
-      "desc": "厚生劳动省：海外携入医药品的限制说明"
+      "desc": "Ministry of Health, Labour and Welfare: restrictions on bringing medications into Japan"
      },
      {
       "text": "Information on vaccine-preventable infectious diseases",
       "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/visitor.html",
-      "desc": "渡航前确认接种史"
+      "desc": "Check vaccination history before travel"
      },
      {
       "text": "2026 CLUB & CIRCLE GUIDE",
       "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-CLUB-CIRCLE-GUIDE.pdf",
-      "desc": "校内社团・日文版 PDF"
+      "desc": "On-campus clubs, Japanese edition (PDF)"
      },
      {
       "text": "2026 International Clubs Guide",
       "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-INTL-CLUB-AND-CIRCLE%E3%80%80%E8%8B%B1%E8%AA%9E.pdf",
-      "desc": "国际社团・英文版 PDF"
+      "desc": "International clubs, English edition (PDF)"
      },
      {
       "text": "Global Gateways",
       "url": "https://www.isc.kyushu-u.ac.jp/intlweb/",
-      "desc": "国际部留学生信息网，建议定期查看"
+      "desc": "International office site for international students — worth checking regularly"
      }
     ]
    },
@@ -18013,12 +18013,12 @@ window.ARTICLES_BODY_I18N = {
      {
       "text": "Daily consultation after arrival in Japan",
       "url": "https://lin.ee/EiQqccP",
-      "desc": "LINE 官方账号"
+      "desc": "Official LINE account"
      },
      {
       "text": "Q-Mate official website",
       "url": "https://studentassistantqu.wixsite.com/q-mate/about",
-      "desc": "官网"
+      "desc": "Official website"
      }
     ]
    },
@@ -18559,12 +18559,12 @@ window.ARTICLES_BODY_I18N = {
      {
       "text": "伊都診療所",
       "url": "https://itoclinic.kyushu-u.ac.jp/",
-      "desc": "校内诊所官网"
+      "desc": "교내 진료소 공식 사이트"
      },
      {
       "text": "福岡記念病院",
       "url": "http://kinen.jp",
-      "desc": "官网"
+      "desc": "공식 사이트"
      }
     ]
    },
@@ -18615,27 +18615,27 @@ window.ARTICLES_BODY_I18N = {
      {
       "text": "개인용 의약품 일본 반입",
       "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/kojinyunyu/topics/tp010401-1.html",
-      "desc": "厚生劳动省：海外携入医药品的限制说明"
+      "desc": "후생노동성: 해외 의약품 반입 제한 안내"
      },
      {
       "text": "백신으로 예방하는 감염병 정보",
       "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/visitor.html",
-      "desc": "渡航前确认接种史"
+      "desc": "출국 전 접종 이력 확인"
      },
      {
       "text": "2026 CLUB & CIRCLE GUIDE",
       "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-CLUB-CIRCLE-GUIDE.pdf",
-      "desc": "校内社团・日文版 PDF"
+      "desc": "교내 동아리·일본어판 PDF"
      },
      {
       "text": "2026 International Clubs Guide",
       "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2026/03/2026-INTL-CLUB-AND-CIRCLE%E3%80%80%E8%8B%B1%E8%AA%9E.pdf",
-      "desc": "国际社团・英文版 PDF"
+      "desc": "국제 동아리·영어판 PDF"
      },
      {
       "text": "Global Gateways",
       "url": "https://www.isc.kyushu-u.ac.jp/intlweb/",
-      "desc": "国际部留学生信息网，建议定期查看"
+      "desc": "국제부 유학생 정보 사이트(정기 확인 권장)"
      }
     ]
    },
@@ -18663,12 +18663,12 @@ window.ARTICLES_BODY_I18N = {
      {
       "text": "입국 후 일상 상담",
       "url": "https://lin.ee/EiQqccP",
-      "desc": "LINE 官方账号"
+      "desc": "LINE 공식 계정"
      },
      {
       "text": "Q-Mate 공식 사이트",
       "url": "https://studentassistantqu.wixsite.com/q-mate/about",
-      "desc": "官网"
+      "desc": "공식 사이트"
      }
     ]
    },
