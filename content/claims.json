@@ -246,6 +246,32 @@
       "level": "verified",
       "recheck": "P1Y",
       "note": "認証方式の変更履歴あり（2023-03 に学生証番号による認証を廃止）。学外者向け一時利用サービスは別 ID。旧表記 SSOKID@Kitnet は誤り（2026-09-18 に全站修正）"
+    },
+    {
+      "id": "bank-account-session-2026f",
+      "article": "guide-bank",
+      "block": "b1f2a3",
+      "claim": "2026 秋 福岡銀行口座開設会：10/6・10/7・10/8 各 16:20-17:20，会场 日本ジョナサン・KS・チョイ文化館；申込締切分别为 9/30(水) 17:00・10/1(木) 17:00・10/5(月) 14:00；须通过入国支援システム事前报名，且须收到留学課的参加申込完了邮件",
+      "sourceName": "九州大学 留学課受入支援係（桑原/浅野）通知邮件 2026-09-24 + 留学課 NotePM 门户",
+      "source": "https://notepm.jp/sharing/60d704cb-f873-46d5-8352-8f566d5abcf3",
+      "effective": "2026-09-24",
+      "verified": "2026-09-26",
+      "level": "verified",
+      "recheck": "P6M",
+      "note": "每期（春/秋）日程与申込締切逐期变动 —— 10/8 之后须把 b1f2a3 表格与 c2d3e4 改写为「以当期通知为准」或撤下；参加条件（e5f6a7）、报名流程（f6a7b8）与 9958c0 的提醒属长期有效，可保留。英文版 NotePM 仍写「Session 1 or Session 2」，已滞后，正文只推日文版并注明"
+    },
+    {
+      "id": "jtcs-registration-2026f",
+      "article": "guide-academic",
+      "block": "77aa1c",
+      "claim": "2026 年度后期：留学生中心日语课程（JTCs／JACs）官方问卷期限 2026-09-25 13:00；JTCs 分班考试与课程登记期间 2026-10-16(金)〜2026-10-21(水)",
+      "sourceName": "九州大学 サポートセンター转发（原件：留学生センター／留学課「日本語クラスについて（2026年度後期）」）+ ISC JTCs 页面",
+      "source": "https://isc.kyushu-u.ac.jp/center/international/japaneselang/",
+      "effective": "2026-10-16",
+      "verified": "2026-09-26",
+      "level": "verified",
+      "recheck": "P6M",
+      "note": "问卷与登记期间逐学期变动 —— 10/21 之后须把 77aa1c 改写为「以当期通知为准」。两步申请流程（7fbb45 / 66a59f）与 JTCs office 邮箱 japanesecourses@jimu.kyushu-u.ac.jp（2026 前期官方课程指南记载）长期有效。官方 JTCs 页面目前仍挂 2026 前期课程指南 PDF"
     }
   ]
 }

@@ -139,29 +139,43 @@ window.ARTICLES_BODY_I18N = {
     "text": "通常は campusweb にログインして申請します（操作は 参照【在留手続き·campus のログイン申請】）。受付期間は大学からの通知が優先します。"
    },
    "e248db": {
-    "text": "日本語コース（JTCs）"
+    "text": "日本語コース（JTCs／JACs）"
    },
    "7fbb45": {
-    "text": "九州大学の留学生センターは日本語コース（Japanese Training Courses）を開講しています。指定期間内にオンラインで登録し、プレースメントテストを受ける必要があります。登録期間を逃すと後から申し込むことはできません。"
+    "text": "留学生センターは日本語コースを開講しており、JTCs（単位不認定）と JACs（単位認定）の 2 つの経路があります。申し込みは 2 段階です —— まず公式アンケートに回答し、次に希望するコースのシステムで登録を完了してください。**アンケートの提出だけでは申し込みは完了しません**。登録期間を過ぎると追加申し込みはできません。"
    },
    "66a59f": {
     "items": [
      {
-      "text": "登録期間は通常、学期が始まった最初の週（例：4 月 13～18 日）"
+      "text": "第 1 段階：留学生センターの公式アンケートに回答し、自分のレベルに合ったコースへ案内されます"
      },
      {
-      "text": "対象は学部生、大学院生、非正課生"
+      "text": "第 2 段階：コースのウェブサイトで登録。JTCs は別途オンラインのプレースメントテストを受験します"
      },
      {
-      "text": "問い合わせ：intlr-isc@jimu.kyushu-u.ac.jp / 092-802-2228"
+      "text": "JTCs（伊都・単位不認定）：週 2 回 × 10 週間、7 レベル、修了証を発行"
+     },
+     {
+      "text": "JACs（伊都・単位認定）：週 2 回 × 15 週間、8 レベル、対象は学部正規留学生など"
+     },
+     {
+      "text": "問い合わせ：JTCs office japanesecourses@jimu.kyushu-u.ac.jp（氏名・キャンパス・学生番号を明記）"
      }
     ]
    },
    "32f280": {
     "items": [
      {
-      "text": "JTCs の登録ページ",
+      "text": "JTCs コースページ（伊都・単位不認定）",
       "url": "https://isc.kyushu-u.ac.jp/center/jtcs/"
+     },
+     {
+      "text": "JACs コースページ（伊都・単位認定）",
+      "url": "https://isc.kyushu-u.ac.jp/center/jacs"
+     },
+     {
+      "text": "JTCs オンライン登録システム（プレースメントテスト・クラス登録）",
+      "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
      }
     ]
    },
@@ -464,6 +478,9 @@ window.ARTICLES_BODY_I18N = {
       "text": "サポートセンター：イースト1号館 C108。ビザ、病院の紹介、住居、日本語教室など"
      }
     ]
+   },
+   "77aa1c": {
+    "text": "2026 年度後期：公式アンケートは 9/25 13:00 に締め切られました。JTCs のプレースメントテストとコース登録期間は **10/16(金)〜10/21(水)** です。日程は学期ごとに異なり、JACs の手続きは在籍区分によって異なります。いずれも ISC のページと留学課からの案内に従ってください。"
    }
   },
   "en": {
@@ -593,29 +610,43 @@ window.ARTICLES_BODY_I18N = {
     "text": "Generally applied for by logging into campusweb (for how, See【Residence Procedures·campusweb login application】). The application window follows the university’s announcement."
    },
    "e248db": {
-    "text": "Japanese Courses (JTCs)"
+    "text": "日本語コース (JTCs / JACs)"
    },
    "7fbb45": {
-    "text": "The Kyushu University international student center runs Japanese Training Courses. You must register online within the designated period and take a placement test; if you miss registration, you cannot apply later."
+    "text": "The International Student Center offers Japanese language courses along two tracks: JTCs (non-credit) and JACs (credit). Application takes two steps — first complete the official questionnaire, then register in the system of the chosen course. **Submitting the questionnaire alone does not complete the application**, and registration cannot be made up after the period closes."
    },
    "66a59f": {
     "items": [
      {
-      "text": "Registration is usually in the first week after term begins (for example 13–18 April)"
+      "text": "Step 1: complete the official questionnaire from the International Student Center, which guides applicants to the course suited to their level"
      },
      {
-      "text": "Open to undergraduates, graduate students, and non-degree students"
+      "text": "Step 2: register on the course website; JTCs additionally requires the online placement test"
      },
      {
-      "text": "Enquiries: intlr-isc@jimu.kyushu-u.ac.jp / 092-802-2228"
+      "text": "JTCs (Ito campus, non-credit): twice a week for 10 weeks, 7 levels, certificate of completion issued"
+     },
+     {
+      "text": "JACs (Ito campus, credit): twice a week for 15 weeks, 8 levels, for regular undergraduate international students and others"
+     },
+     {
+      "text": "Contact: JTCs office japanesecourses@jimu.kyushu-u.ac.jp (state name, campus and student ID)"
      }
     ]
    },
    "32f280": {
     "items": [
      {
-      "text": "JTCs registration page",
+      "text": "JTCs course page (Ito campus, non-credit)",
       "url": "https://isc.kyushu-u.ac.jp/center/jtcs/"
+     },
+     {
+      "text": "JACs course page (Ito campus, credit)",
+      "url": "https://isc.kyushu-u.ac.jp/center/jacs"
+     },
+     {
+      "text": "JTCs online registration system (placement test and class registration)",
+      "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
      }
     ]
    },
@@ -918,6 +949,9 @@ window.ARTICLES_BODY_I18N = {
       "text": "Support Center: イースト1号館 C108. Visas, hospital referrals, housing, Japanese classes, and more"
      }
     ]
+   },
+   "77aa1c": {
+    "text": "Fall semester 2026: the official questionnaire closed on 9/25 at 13:00; the JTCs placement test and course registration period runs from **10/16 (Fri) to 10/21 (Wed)**. Schedules differ by semester, and JACs procedures depend on enrollment category; in all cases follow the ISC pages and notices from the International Student Exchange Division."
    }
   },
   "ko": {
@@ -1047,29 +1081,43 @@ window.ARTICLES_BODY_I18N = {
     "text": "보통 campusweb에 로그인해 신청합니다(방법은 참조【체류 수속·campus 로그인 신청】). 신청 기간은 학교 공지가 우선합니다."
    },
    "e248db": {
-    "text": "일본어 과정(JTCs)"
+    "text": "日本語コース(JTCs／JACs)"
    },
    "7fbb45": {
-    "text": "규슈대학 유학생센터는 일본어 과정(Japanese Training Courses)을 개설합니다. 지정 기간에 온라인으로 등록하고 반 배치 시험(플레이스먼트 테스트)을 봐야 하며, 등록 기간을 놓치면 추가 신청은 불가능합니다."
+    "text": "국제유학생센터는 일본어 과정을 개설하고 있으며 JTCs(단위 불인정)와 JACs(단위 인정) 두 가지 경로가 있습니다. 신청은 2단계입니다 — 먼저 공식 설문에 응답하고, 다음으로 선택한 과정의 시스템에서 등록을 완료합니다. **설문 제출만으로는 신청이 완료되지 않습니다**. 등록 기간이 지나면 추가 신청은 불가능합니다."
    },
    "66a59f": {
     "items": [
      {
-      "text": "등록 기간은 보통 개강 후 첫째 주(예: 4월 13~18일)"
+      "text": "1단계: 국제유학생센터의 공식 설문에 응답하면 자신의 수준에 맞는 과정으로 안내됩니다"
      },
      {
-      "text": "대상은 학부생, 대학원생, 비정규 과정 학생"
+      "text": "2단계: 과정 웹사이트에서 등록. JTCs는 온라인 배치고사를 별도로 응시합니다"
      },
      {
-      "text": "문의: intlr-isc@jimu.kyushu-u.ac.jp / 092-802-2228"
+      "text": "JTCs(이토 캠퍼스・단위 불인정): 주 2회 × 10주, 7개 레벨, 수료증 발급"
+     },
+     {
+      "text": "JACs(이토 캠퍼스・단위 인정): 주 2회 × 15주, 8개 레벨, 학부 정규 유학생 등 대상"
+     },
+     {
+      "text": "문의: JTCs office japanesecourses@jimu.kyushu-u.ac.jp(이름・캠퍼스・학생번호 기재)"
      }
     ]
    },
    "32f280": {
     "items": [
      {
-      "text": "JTCs 등록 페이지",
+      "text": "JTCs 과정 페이지(이토 캠퍼스・단위 불인정)",
       "url": "https://isc.kyushu-u.ac.jp/center/jtcs/"
+     },
+     {
+      "text": "JACs 과정 페이지(이토 캠퍼스・단위 인정)",
+      "url": "https://isc.kyushu-u.ac.jp/center/jacs"
+     },
+     {
+      "text": "JTCs 온라인 등록 시스템(배치고사・클래스 등록)",
+      "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
      }
     ]
    },
@@ -1372,6 +1420,9 @@ window.ARTICLES_BODY_I18N = {
       "text": "서포트센터: イースト1号館 C108. 비자, 병원 소개, 주거, 일본어 교실 등"
      }
     ]
+   },
+   "77aa1c": {
+    "text": "2026년 후기(가을학기): 공식 설문은 9/25 13:00에 마감되었습니다. JTCs 배치고사와 과정 등록 기간은 **10/16(금)〜10/21(수)**입니다. 일정은 학기마다 다르며, JACs 수속은 재적 구분에 따라 다릅니다. 모두 ISC 페이지와 留学課 안내를 따르십시오."
    }
   },
   "es": {
@@ -1513,29 +1564,43 @@ window.ARTICLES_BODY_I18N = {
     "text": "Normalmente se solicita iniciando sesión en campusweb (el procedimiento se explica en «Trámites de estancia · solicitud de acceso a campus»); el período de solicitud sigue el aviso oficial de la universidad."
    },
    "e248db": {
-    "text": "Cursos de japonés（日本語コース, JTCs）"
+    "text": "Cursos de japonés (JTCs / JACs)"
    },
    "7fbb45": {
-    "text": "El centro de estudiantes internacionales de Kyushu University ofrece cursos de japonés (Japanese Training Courses). Hay que registrarse en línea dentro del período indicado y presentarse a la prueba de nivel（プレースメントテスト); **si se pierde el plazo de inscripción, no hay forma de registrarse después**."
+    "text": "El Centro de Estudiantes Internacionales ofrece cursos de japonés por dos vías: JTCs (sin créditos) y JACs (con créditos). La solicitud consta de dos pasos: primero, responder al cuestionario oficial, y después inscribirse en el sistema del curso elegido. **Enviar solo el cuestionario no completa la solicitud** y, una vez cerrado el plazo de inscripción, no cabe solicitud posterior."
    },
    "66a59f": {
     "items": [
      {
-      "text": "El período de inscripción suele ser la primera semana después del inicio de clases (por ejemplo, del 13 al 18 de abril)"
+      "text": "Paso 1: responder al cuestionario oficial del Centro de Estudiantes Internacionales, que orienta al curso adecuado según el nivel"
      },
      {
-      "text": "Dirigido a estudiantes de grado, de posgrado y no matriculados en asignaturas regulares（非正課生）"
+      "text": "Paso 2: inscribirse en la web del curso; JTCs requiere además la prueba de nivel en línea"
      },
      {
-      "text": "Consulta: intlr-isc@jimu.kyushu-u.ac.jp / 092-802-2228"
+      "text": "JTCs (campus Ito, sin créditos): dos veces por semana durante 10 semanas, 7 niveles, certificado de finalización"
+     },
+     {
+      "text": "JACs (campus Ito, con créditos): dos veces por semana durante 15 semanas, 8 niveles, para estudiantes internacionales de grado regulares y otros"
+     },
+     {
+      "text": "Contacto: JTCs office japanesecourses@jimu.kyushu-u.ac.jp (indicar nombre, campus y número de estudiante)"
      }
     ]
    },
    "32f280": {
     "items": [
      {
-      "text": "Página de registro de JTCs",
+      "text": "Página del curso JTCs (campus Ito, sin créditos)",
       "url": "https://isc.kyushu-u.ac.jp/center/jtcs/"
+     },
+     {
+      "text": "Página del curso JACs (campus Ito, con créditos)",
+      "url": "https://isc.kyushu-u.ac.jp/center/jacs"
+     },
+     {
+      "text": "Sistema de inscripción en línea de JTCs (prueba de nivel y registro de clase)",
+      "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
      }
     ]
    },
@@ -1826,6 +1891,9 @@ window.ARTICLES_BODY_I18N = {
    },
    "35d880": {
     "text": "RA (ayudante de investigación)"
+   },
+   "77aa1c": {
+    "text": "Otoño de 2026: el cuestionario oficial cerró el 9/25 a las 13:00; el periodo de prueba de nivel y de inscripción de JTCs va del **10/16 (vie) al 10/21 (mié)**. Los calendarios varían en cada semestre y los trámites de JACs dependen de la categoría de matrícula; en todos los casos, sigue las páginas del ISC y los avisos de la División de Intercambio Internacional."
    }
   }
  },
@@ -2699,10 +2767,10 @@ window.ARTICLES_BODY_I18N = {
     "text": "学校の一括口座開設会：対象は福岡銀行のみ"
    },
    "66223f": {
-    "text": "学校は新入生が到着した後に「福岡銀行口座開設会」を開催し、その場で一括して口座開設の手続きを行います。自分で予約や問い合わせをする手間が省けます。ただし、対象は福岡銀行のみです。ゆうちょや西日本シティの口座を開設したい場合は、自分で店舗に行く必要があります。"
+    "text": "学校は新入生の到着後に「福岡銀行口座開設会」を開催し、その場で口座開設の手続きを一括して行います。**当日に口座番号とキャッシュカードを受け取ることができ**、福岡銀行と九州大学の職員が日本語・英語で対応します。ただし対象は福岡銀行のみです。ゆうちょや西日本シティの口座を開設する場合は、ご自身で店舗に行く必要があります。"
    },
    "9958c0": {
-    "text": "**事前の申し込みが必要**です。入国支援システム（Pre-Arrival System）から予約してください。同じ回では通常、行政手続きの案内も行われるため、まとめて済ませるのが最も効率的です。定員や開催回数は学校からの案内に従ってください。"
+    "text": "**事前の申し込みが必要です**。入国支援システムで申請し、留学課から「参加申込完了」のメールを受け取った方のみ参加できます。メールが届かなかった場合は参加できません。在留期間の更新許可申請中の方は本会に参加できませんので、新しい在留カードを受け取った後にご自身で銀行店舗で手続きしてください。申し込み後のキャンセルは原則できません。"
    },
    "1dc907": {
     "items": [
@@ -2723,6 +2791,86 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "text": "現金（口座開設時の初回入金用に少額）"
+     }
+    ]
+   },
+   "b1f2a3": {
+    "headers": [
+     "開催回",
+     "日付",
+     "時間",
+     "申込締切"
+    ],
+    "rows": [
+     [
+      "第 1 回",
+      "10/6(火)",
+      "16:20-17:20",
+      "9/30(水) 17:00"
+     ],
+     [
+      "第 2 回",
+      "10/7(水)",
+      "16:20-17:20",
+      "10/1(木) 17:00"
+     ],
+     [
+      "第 3 回",
+      "10/8(木)",
+      "16:20-17:20",
+      "10/5(月) 14:00"
+     ]
+    ]
+   },
+   "c2d3e4": {
+    "text": "以上は 2026 年秋学期の日程です。以降の各回は別途案内されます。3 回のうち 1 回のみ参加してください。いずれも授業開始後の開催ですので、ご自身の時間割を確認し、確実に参加できる回を選んでください。会場：日本ジョナサン・KS・チョイ文化館（キャンパスマップ 79 番）。"
+   },
+   "d4e5f6": {
+    "text": "参加条件と申し込み方法"
+   },
+   "e5f6a7": {
+    "items": [
+     {
+      "text": "在留カードの住所登録が完了していること"
+     },
+     {
+      "text": "在留期間が 3 か月以上残っていること"
+     }
+    ]
+   },
+   "f6a7b8": {
+    "items": [
+     {
+      "title": "在留カードの条件を確認",
+      "desc": "住所登録が完了し、在留期間が 3 か月以上あること"
+     },
+     {
+      "title": "入国支援システムにログイン",
+      "desc": "Pre-Arrival Assistance（大学のアカウントでログイン）"
+     },
+     {
+      "title": "申請フォームを入力",
+      "desc": "「スケジュール情報の入力」から本会を選び、在留カードの画像をアップロード"
+     },
+     {
+      "title": "留学課からの完了メールを待つ",
+      "desc": "メールが届いて初めて申し込み完了。案内に従って会場へ"
+     }
+    ]
+   },
+   "b8c9da": {
+    "items": [
+     {
+      "text": "入国支援システム（Pre-Arrival Assistance）",
+      "url": "https://supportcenter.jimu.kyushu-u.ac.jp/student/base/top/top.php"
+     },
+     {
+      "text": "福岡銀行口座開設会・留学課公式ページ（日本語）",
+      "url": "https://notepm.jp/sharing/60d704cb-f873-46d5-8352-8f566d5abcf3"
+     },
+     {
+      "text": "同ページの英語版（一部内容が古い場合があります）",
+      "url": "https://notepm.jp/sharing/89cb98a4-c0a6-4e3c-9edb-4ee0087fb789"
      }
     ]
    }
@@ -2810,10 +2958,10 @@ window.ARTICLES_BODY_I18N = {
     "text": "The University's Group Account Opening Session: Only 福岡銀行"
    },
    "66223f": {
-    "text": "After new students arrive, the university holds a \"福岡銀行口座開設会\" (Fukuoka Bank account opening session) where accounts are opened collectively on-site, saving the trouble of making an appointment and arranging communication individually. However, it covers only 福岡銀行; to open an account at ゆうちょ銀行 or 西日本シティ銀行, students must visit a branch on their own."
+    "text": "After new students arrive, the university holds a \"福岡銀行口座開設会\" (Fukuoka Bank account opening session), where accounts are opened collectively on site. **The account number and cash card are issued on the same day**, with support from Bank of Fukuoka and Kyushu University staff in Japanese and English. It covers Fukuoka Bank only, however — opening a ゆうちょ or 西日本シティ account requires visiting a branch in person."
    },
    "9958c0": {
-    "text": "**Advance registration is required**, via the 入国支援システム (Pre-Arrival System). The same session usually also includes guidance on administrative procedures, so completing both at once saves the most time. Availability and sessions are subject to the university's notices."
+    "text": "**Advance registration is required.** Participation is possible only after applying through the 入国支援システム (Pre-Arrival Assistance) and receiving a \"参加申込完了\" email from the International Student Exchange Division; without that email, entry is not possible. Students currently applying for an extension of their period of stay cannot join this session and should go to a bank branch themselves once the new residence card is issued. Cancellations are, in principle, not accepted."
    },
    "1dc907": {
     "items": [
@@ -2834,6 +2982,86 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "text": "A small amount of cash (for the initial deposit when opening the account)"
+     }
+    ]
+   },
+   "b1f2a3": {
+    "headers": [
+     "Session",
+     "Date",
+     "Time",
+     "Application deadline"
+    ],
+    "rows": [
+     [
+      "Session 1",
+      "10/6 (Tue)",
+      "16:20-17:20",
+      "9/30 (Wed) 17:00"
+     ],
+     [
+      "Session 2",
+      "10/7 (Wed)",
+      "16:20-17:20",
+      "10/1 (Thu) 17:00"
+     ],
+     [
+      "Session 3",
+      "10/8 (Thu)",
+      "16:20-17:20",
+      "10/5 (Mon) 14:00"
+     ]
+    ]
+   },
+   "c2d3e4": {
+    "text": "The dates above are the fall 2026 schedule; later sessions are announced separately. Attend only one of the three. All of them take place after classes begin, so check your timetable and choose a session you can certainly attend. Venue: Jonathan KS Choi Cultural Centre of Japan (No. 79 on the campus map)."
+   },
+   "d4e5f6": {
+    "text": "Eligibility and how to apply"
+   },
+   "e5f6a7": {
+    "items": [
+     {
+      "text": "Address registration on the residence card is complete"
+     },
+     {
+      "text": "More than 3 months remain on the period of stay"
+     }
+    ]
+   },
+   "f6a7b8": {
+    "items": [
+     {
+      "title": "Check the residence card requirements",
+      "desc": "Address registered and more than 3 months of stay remaining"
+     },
+     {
+      "title": "Log in to the Pre-Arrival Assistance system",
+      "desc": "Using the university account"
+     },
+     {
+      "title": "Complete the application form",
+      "desc": "Select this session under \"Travel details\" and upload a photo of the residence card"
+     },
+     {
+      "title": "Wait for the completion email",
+      "desc": "The application counts as complete only when the email arrives; then go to the venue"
+     }
+    ]
+   },
+   "b8c9da": {
+    "items": [
+     {
+      "text": "Pre-Arrival Assistance system",
+      "url": "https://supportcenter.jimu.kyushu-u.ac.jp/student/base/top/top.php"
+     },
+     {
+      "text": "Bank account opening session - official page (Japanese)",
+      "url": "https://notepm.jp/sharing/60d704cb-f873-46d5-8352-8f566d5abcf3"
+     },
+     {
+      "text": "English version of the same page (part may be outdated)",
+      "url": "https://notepm.jp/sharing/89cb98a4-c0a6-4e3c-9edb-4ee0087fb789"
      }
     ]
    }
@@ -2921,10 +3149,10 @@ window.ARTICLES_BODY_I18N = {
     "text": "학교 일괄 개설회: 福岡銀行만 해당"
    },
    "66223f": {
-    "text": "학교는 신입생 도착 후 「福岡銀行口座開設会」를 한 번 개최하며, 현장에서 일괄적으로 계좌를 개설해 주므로 직접 예약하고 상담해야 하는 번거로움이 없습니다. 다만 대상은 福岡銀行 한 곳뿐이며, ゆうちょ나 西日本シティ 계좌를 개설하려면 직접 지점에 가야 합니다."
+    "text": "학교는 신입생 도착 후 「福岡銀行口座開設会」를 개최하여 현장에서 계좌 개설 수속을 일괄 처리합니다. **당일 계좌번호와 캐시카드를 받을 수 있으며**, 福岡銀行과 규슈대학 직원이 일본어・영어로 지원합니다. 다만 대상은 福岡銀行 한 곳뿐이므로, ゆうちょ나 西日本シティ 계좌를 개설하려면 직접 지점에 가야 합니다."
    },
    "9958c0": {
-    "text": "**사전 신청이 필요**하며, 入国支援システム(Pre-Arrival System)을 통해 예약합니다. 같은 행사에는 보통 행정 수속 안내도 포함되어 있어 두 가지를 한 번에 처리하는 것이 가장 효율적입니다. 신청 인원과 일정은 학교 안내에 따릅니다."
+    "text": "**사전 신청이 필요합니다.** 入国支援システム에서 신청하고 留学課로부터 「参加申込完了」 메일을 받은 사람만 참가할 수 있으며, 메일이 도착하지 않으면 입장할 수 없습니다. 재류기간 갱신 허가 신청 중인 사람은 이 행사에 참가할 수 없으므로, 새 재류카드를 받은 후 직접 은행 지점에서 수속하십시오. 신청 후 취소는 원칙적으로 불가능합니다."
    },
    "1dc907": {
     "items": [
@@ -2945,6 +3173,86 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "text": "소액의 현금(계좌 개설 시 초입금용)"
+     }
+    ]
+   },
+   "b1f2a3": {
+    "headers": [
+     "회차",
+     "날짜",
+     "시간",
+     "신청 마감"
+    ],
+    "rows": [
+     [
+      "1회차",
+      "10/6(화)",
+      "16:20-17:20",
+      "9/30(수) 17:00"
+     ],
+     [
+      "2회차",
+      "10/7(수)",
+      "16:20-17:20",
+      "10/1(목) 17:00"
+     ],
+     [
+      "3회차",
+      "10/8(목)",
+      "16:20-17:20",
+      "10/5(월) 14:00"
+     ]
+    ]
+   },
+   "c2d3e4": {
+    "text": "위 일정은 2026년 가을학기 기준이며, 이후 회차는 별도로 안내됩니다. 3회 중 1회만 참가합니다. 모두 수업 시작 이후에 열리므로 자신의 시간표를 확인하여 반드시 참가할 수 있는 회차를 선택하십시오. 회장: 日本ジョナサン・KS・チョイ文化館(캠퍼스 맵 79번)."
+   },
+   "d4e5f6": {
+    "text": "참가 조건과 신청 방법"
+   },
+   "e5f6a7": {
+    "items": [
+     {
+      "text": "재류카드의 주소 등록이 완료되어 있을 것"
+     },
+     {
+      "text": "재류기간이 3개월 이상 남아 있을 것"
+     }
+    ]
+   },
+   "f6a7b8": {
+    "items": [
+     {
+      "title": "재류카드 조건 확인",
+      "desc": "주소 등록 완료, 재류기간 3개월 이상 남아 있을 것"
+     },
+     {
+      "title": "入国支援システム에 로그인",
+      "desc": "Pre-Arrival Assistance(학교 계정으로 로그인)"
+     },
+     {
+      "title": "신청서 작성",
+      "desc": "「スケジュール情報の入力」에서 본 행사를 선택하고 재류카드 이미지 업로드"
+     },
+     {
+      "title": "留学課의 완료 메일 대기",
+      "desc": "메일이 도착해야 신청 완료. 이후 안내에 따라 회장으로"
+     }
+    ]
+   },
+   "b8c9da": {
+    "items": [
+     {
+      "text": "入国支援システム(Pre-Arrival Assistance)",
+      "url": "https://supportcenter.jimu.kyushu-u.ac.jp/student/base/top/top.php"
+     },
+     {
+      "text": "福岡銀行口座開設会・留学課 공식 페이지(일본어)",
+      "url": "https://notepm.jp/sharing/60d704cb-f873-46d5-8352-8f566d5abcf3"
+     },
+     {
+      "text": "같은 페이지의 영어판(일부 내용이 오래되었을 수 있음)",
+      "url": "https://notepm.jp/sharing/89cb98a4-c0a6-4e3c-9edb-4ee0087fb789"
      }
     ]
    }
@@ -3032,10 +3340,10 @@ window.ARTICLES_BODY_I18N = {
     "text": "Sesión colectiva de apertura de la universidad: solo el Banco de Fukuoka（福岡銀行）"
    },
    "66223f": {
-    "text": "Después de la llegada de los estudiantes nuevos, la universidad celebra una «福岡銀行口座開設会», en la que se tramita la apertura de cuenta de forma colectiva y se evita la molestia de reservar y negociar por tu cuenta. Pero solo cubre el Banco de Fukuoka（福岡銀行）: si quieres abrir una cuenta en Yucho（ゆうちょ）o en Nishi-Nippon City Bank（西日本シティ銀行）, tendrás que ir tú mismo a una sucursal."
+    "text": "Después de la llegada de los estudiantes nuevos, la universidad celebra la «福岡銀行口座開設会», en la que se tramita la apertura de cuenta de forma colectiva en el propio lugar. **El número de cuenta y la tarjeta se entregan el mismo día**, con apoyo del personal del Banco de Fukuoka y de la Universidad de Kyushu en japonés e inglés. Sin embargo, solo cubre 福岡銀行: para abrir una cuenta en ゆうちょ o 西日本シティ hay que acudir a una sucursal por cuenta propia."
    },
    "9958c0": {
-    "text": "**Se requiere inscripción previa**, mediante reserva a través del 入国支援システム (Pre-Arrival System). La misma sesión suele incluir además orientación sobre los trámites administrativos, y hacer ambas cosas a la vez ahorra el máximo de tiempo. El número de plazas y las sesiones se rigen por lo que notifique la universidad."
+    "text": "**Se requiere inscripción previa.** Solo se puede participar tras presentar la solicitud en el 入国支援システム y recibir el correo «参加申込完了» de la División de Intercambio Internacional; sin ese correo no se puede entrar. Quienes estén tramitando una prórroga de su periodo de estancia no pueden asistir a esta sesión y deben realizar el trámite en una sucursal bancaria una vez emitida la nueva tarjeta de residencia. Las cancelaciones no se aceptan, en principio."
    },
    "1dc907": {
     "items": [
@@ -3056,6 +3364,86 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "text": "Una pequeña cantidad de efectivo (para el depósito inicial al abrir la cuenta)"
+     }
+    ]
+   },
+   "b1f2a3": {
+    "headers": [
+     "Sesión",
+     "Fecha",
+     "Hora",
+     "Plazo de solicitud"
+    ],
+    "rows": [
+     [
+      "Sesión 1",
+      "10/6 (mar)",
+      "16:20-17:20",
+      "9/30 (mié) 17:00"
+     ],
+     [
+      "Sesión 2",
+      "10/7 (mié)",
+      "16:20-17:20",
+      "10/1 (jue) 17:00"
+     ],
+     [
+      "Sesión 3",
+      "10/8 (jue)",
+      "16:20-17:20",
+      "10/5 (lun) 14:00"
+     ]
+    ]
+   },
+   "c2d3e4": {
+    "text": "Las fechas anteriores corresponden al calendario del otoño de 2026; las sesiones posteriores se anuncian por separado. Asiste solo a una de las tres. Todas se celebran después del inicio de las clases, así que revisa tu horario y elige una sesión a la que puedas asistir con seguridad. Lugar: Jonathan KS Choi Cultural Centre of Japan (n.º 79 del mapa del campus)."
+   },
+   "d4e5f6": {
+    "text": "Requisitos y forma de solicitud"
+   },
+   "e5f6a7": {
+    "items": [
+     {
+      "text": "El domicilio ya está registrado en la tarjeta de residencia"
+     },
+     {
+      "text": "Quedan más de 3 meses del periodo de estancia"
+     }
+    ]
+   },
+   "f6a7b8": {
+    "items": [
+     {
+      "title": "Comprueba los requisitos de la tarjeta de residencia",
+      "desc": "Domicilio registrado y más de 3 meses de estancia"
+     },
+     {
+      "title": "Inicia sesión en Pre-Arrival Assistance",
+      "desc": "Con la cuenta de la universidad"
+     },
+     {
+      "title": "Rellena el formulario de solicitud",
+      "desc": "Selecciona esta sesión en «スケジュール情報の入力» y sube una imagen de la tarjeta de residencia"
+     },
+     {
+      "title": "Espera el correo de confirmación",
+      "desc": "La solicitud solo queda completa cuando llega; después, acude al lugar indicado"
+     }
+    ]
+   },
+   "b8c9da": {
+    "items": [
+     {
+      "text": "Sistema Pre-Arrival Assistance",
+      "url": "https://supportcenter.jimu.kyushu-u.ac.jp/student/base/top/top.php"
+     },
+     {
+      "text": "Sesión de apertura de cuenta - página oficial (japonés)",
+      "url": "https://notepm.jp/sharing/60d704cb-f873-46d5-8352-8f566d5abcf3"
+     },
+     {
+      "text": "Versión en inglés de la misma página (parte puede estar desactualizada)",
+      "url": "https://notepm.jp/sharing/89cb98a4-c0a6-4e3c-9edb-4ee0087fb789"
      }
     ]
    }

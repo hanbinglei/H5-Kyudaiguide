@@ -2,14 +2,14 @@
   "_id": "guide-academic",
   "category": "6",
   "title": "学业·奖学金",
-  "summary": "学校账号与各类证明、选课与课程、直考/研究升学、RA与私费留学生奖学金、英语授课科目、JTCs 日语课程与学外 6 家志愿者日语教室、健康诊断与学内相谈窗口。",
+  "summary": "学校账号与各类证明、选课与课程、直考/研究升学、RA与私费留学生奖学金、英语授课科目、JTCs／JACs 日语课程与学外 6 家志愿者日语教室、健康诊断与学内相谈窗口。",
   "tags": [
     "学业",
     "选课",
     "奖学金"
   ],
   "author": "管理员",
-  "updatedAt": "2026-08-15",
+  "updatedAt": "2026-09-26",
   "blocks": [
     {
       "id": "444ca9",
@@ -212,35 +212,54 @@
       "id": "e248db",
       "type": "heading",
       "level": 2,
-      "text": "日本語コース（JTCs）"
+      "text": "日本語コース（JTCs／JACs）"
     },
     {
       "id": "7fbb45",
       "type": "paragraph",
-      "text": "九州大学留学生中心开设日语课程（Japanese Training Courses），需在指定期间内在线注册并参加分班考试（プレースメントテスト），**错过注册无法补报**。"
+      "text": "留学生中心开设日语课程，分两条路径：JTCs（単位不認定）与 JACs（単位認定）。申请分两步 —— 先回答官方问卷，再在所选课程的系统内完成登记；**只提交问卷不算报名成功**，错过登记期间不能补报。"
     },
     {
       "id": "66a59f",
       "type": "list",
       "items": [
         {
-          "text": "注册期间通常为开学后第一周（如 4 月 13~18 日）"
+          "text": "第一步：回答留学生中心的官方问卷，按自身水平被引导到合适课程"
         },
         {
-          "text": "面向学部生、大学院生、非正課生"
+          "text": "第二步：在课程网站内登记；JTCs 需另行参加在线分班考试"
         },
         {
-          "text": "咨询：intlr-isc@jimu.kyushu-u.ac.jp / 092-802-2228"
+          "text": "JTCs（伊都・単位不認定）：每周 2 次 × 10 周，7 个级别，结业发受讲证明书"
+        },
+        {
+          "text": "JACs（伊都・単位認定）：每周 2 次 × 15 周，8 个级别，对象为学部正规留学生等"
+        },
+        {
+          "text": "咨询：JTCs office japanesecourses@jimu.kyushu-u.ac.jp（注明姓名、校区、学生番号）"
         }
       ]
+    },
+    {
+      "id": "77aa1c",
+      "type": "notice",
+      "text": "2026 年后期（秋学期）：官方问卷已于 9/25 13:00 截止，JTCs 的分班考试与课程登记期间为 **10/16(金)〜10/21(水)**。各学期日程不同；JACs 的手续按在籍区分而异，均以 ISC 页面与留学課通知为准。"
     },
     {
       "id": "32f280",
       "type": "links",
       "items": [
         {
-          "text": "JTCs 注册页面",
+          "text": "JTCs 课程页（伊都・単位不認定）",
           "url": "https://isc.kyushu-u.ac.jp/center/jtcs/"
+        },
+        {
+          "text": "JACs 课程页（伊都・単位認定）",
+          "url": "https://isc.kyushu-u.ac.jp/center/jacs"
+        },
+        {
+          "text": "JTCs 在线登记系统（分班考试・班级登记）",
+          "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
         }
       ]
     },
