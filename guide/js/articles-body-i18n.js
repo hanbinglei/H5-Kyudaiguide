@@ -17606,7 +17606,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "m1h2i3": {
-    "text": "⑨ お役立ち情報・医療健康リソース"
+    "text": "⑩ お役立ち情報・医療健康リソース"
    },
    "m2i3j4": {
     "text": "留学課の「お役立ち情報」ページには、福岡での生活に役立つ情報がまとめられています。**受診は新入生が最もよく直面する問題**です：伊都キャンパス内には伊都診療所がありますが、土日は開業していません。学外で受診する場合は**外国語対応の医療機関一覧**（2026年5月版、対応言語レベル A 堪能 / B 日常会話 / C 片言を含む）を参照してください。"
@@ -17784,6 +17784,51 @@ window.ARTICLES_BODY_I18N = {
    },
    "4d5e6f": {
     "title": "セトルインターナショナル（SETTLE International）入居者 · 日程（A～C グループ）"
+   },
+   "jca101": {
+    "text": "⑨ 日本語コース（JTCs／JACs）の申し込み"
+   },
+   "jca102": {
+    "text": "留学生センターは日本語コースを開講しており、**JTCs**（単位不認定・週 2 回 × 10 週間・7 レベル）と **JACs**（単位認定・週 2 回 × 15 週間・8 レベル）の 2 つの経路があります。いずれも伊都キャンパス Center Zone 5（センター5号館）で行われます。2026 年度後期（秋学期）はすでにアンケート段階が終了しており、次はプレースメントテストとコース登録です。"
+   },
+   "jca103": {
+    "text": "2026 年度後期：公式アンケートは **9/25 13:00 に締め切られました**。回答済みの方は **10/16(金)〜10/21(水)** にプレースメントテストとコース登録を完了してください。未回答の方は、まず JTCs office（japanesecourses@jimu.kyushu-u.ac.jp／氏名・キャンパス・学生番号を明記）に今期の参加可否を確認してください。**コースシステムから直接追加申し込みをしないでください** —— システムは登録済みの名簿で動いています。アンケートの提出だけでは申し込みは完了しません。"
+   },
+   "jca104": {
+    "items": [
+     {
+      "text": "JTCs（伊都・単位不認定）：週 2 回 × 10 週間・7 レベル・修了時に受講証明書を発行"
+     },
+     {
+      "text": "JACs（伊都・単位認定）：週 2 回 × 15 週間・8 レベル・対象は学部正規留学生など"
+     },
+     {
+      "text": "実施場所：伊都キャンパス Center Zone 5（センター5号館）"
+     },
+     {
+      "text": "受講証明書が必要な場合は九大を離れる前に申請してください（帰国後の申請は有料で、手続きも複雑になります）"
+     }
+    ]
+   },
+   "jca105": {
+    "items": [
+     {
+      "text": "九大の日本語コース総覧（在籍区分とキャンパスで選ぶ）",
+      "url": "https://isc.kyushu-u.ac.jp/center/international/japaneselang/"
+     },
+     {
+      "text": "JTCs コースページ（伊都・単位不認定）",
+      "url": "https://isc.kyushu-u.ac.jp/center/jtcs/"
+     },
+     {
+      "text": "JACs コースページ（伊都・単位認定）",
+      "url": "https://isc.kyushu-u.ac.jp/center/jacs"
+     },
+     {
+      "text": "JTCs オンライン登録システム（プレースメントテスト・クラス登録）",
+      "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
+     }
+    ]
    }
   },
   "en": {
@@ -18256,7 +18301,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "m1h2i3": {
-    "text": "⑨ Practical Information and Health Resources"
+    "text": "⑩ Practical Information and Health Resources"
    },
    "m2i3j4": {
     "text": "The 留学課 「お役立ち情報」 page compiles useful resources for life in Fukuoka. **Seeking medical care is the issue new students encounter most often**: 伊都診療所 is located on 伊都キャンパス but is closed on weekends, and off-campus care requires reference to the **list of medical institutions providing foreign-language support** (May 2026 edition, including language-support levels A fluent / B daily conversation / C basic phrases)."
@@ -18434,6 +18479,51 @@ window.ARTICLES_BODY_I18N = {
    },
    "4d5e6f": {
     "title": "Residents of セトルインターナショナル (SETTLE International) · Schedule (Groups A–C)"
+   },
+   "jca101": {
+    "text": "⑨ Japanese courses (JTCs / JACs): application"
+   },
+   "jca102": {
+    "text": "The International Student Center offers Japanese courses along two tracks: **JTCs** (non-credit, twice a week for 10 weeks, 7 levels) and **JACs** (credit, twice a week for 15 weeks, 8 levels). Both are held at Center Zone 5 on the Ito campus. For fall 2026 the questionnaire stage has already closed; what remains is the placement test and course registration."
+   },
+   "jca103": {
+    "text": "Fall 2026: the official questionnaire **closed on 9/25 at 13:00**. If you answered it, complete the placement test and course registration between **10/16 (Fri) and 10/21 (Wed)**. If you did not, first ask the JTCs office (japanesecourses@jimu.kyushu-u.ac.jp; state your name, campus and student ID) whether you can still join this term — **do not simply register through the course system**, which works from the list of confirmed applicants. Submitting the questionnaire alone does not complete the application."
+   },
+   "jca104": {
+    "items": [
+     {
+      "text": "JTCs (Ito campus, non-credit): twice a week for 10 weeks, 7 levels, certificate of attendance on completion"
+     },
+     {
+      "text": "JACs (Ito campus, credit): twice a week for 15 weeks, 8 levels, for regular undergraduate international students and others"
+     },
+     {
+      "text": "Venue: Center Zone 5, Ito campus"
+     },
+     {
+      "text": "If you need a certificate of attendance, apply before leaving Kyushu U. (applying after returning home costs more and takes more steps)"
+     }
+    ]
+   },
+   "jca105": {
+    "items": [
+     {
+      "text": "Kyushu U. Japanese course overview (choose by status and campus)",
+      "url": "https://isc.kyushu-u.ac.jp/center/international/japaneselang/"
+     },
+     {
+      "text": "JTCs course page (Ito campus, non-credit)",
+      "url": "https://isc.kyushu-u.ac.jp/center/jtcs/"
+     },
+     {
+      "text": "JACs course page (Ito campus, credit)",
+      "url": "https://isc.kyushu-u.ac.jp/center/jacs"
+     },
+     {
+      "text": "JTCs online registration system (placement test and class registration)",
+      "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
+     }
+    ]
    }
   },
   "ko": {
@@ -18906,7 +18996,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "m1h2i3": {
-    "text": "⑨ 실용 정보・의료 건강 리소스"
+    "text": "⑩ 실용 정보・의료 건강 리소스"
    },
    "m2i3j4": {
     "text": "留学課 「お役立ち情報」 페이지에는 후쿠오카 생활에 유용한 자료가 정리되어 있습니다. **진료는 신입생이 가장 자주 겪는 문제입니다**: 伊都 캠퍼스 내에 伊都診療所가 있지만 주말에는 운영하지 않으며, 교외 진료 시에는 **외국어 대응 의료기관 표**（2026年5月版, 대응 언어 등급 A 유창 / B 일상 / C 단편적）를 참고해야 합니다."
@@ -19084,6 +19174,51 @@ window.ARTICLES_BODY_I18N = {
    },
    "4d5e6f": {
     "title": "セトルインターナショナル(SETTLE International) 입주자 · 일정(A~C조)"
+   },
+   "jca101": {
+    "text": "⑨ 일본어 과정(JTCs／JACs) 신청"
+   },
+   "jca102": {
+    "text": "국제유학생센터는 일본어 과정을 **JTCs**(단위 불인정・주 2회 × 10주・7개 레벨)와 **JACs**(단위 인정・주 2회 × 15주・8개 레벨) 두 경로로 개설하고 있으며, 두 과정 모두 이토 캠퍼스 Center Zone 5(센터 5호관)에서 열립니다. 2026년 후기(가을학기)는 설문 단계가 이미 끝났고, 다음은 배치고사와 과정 등록입니다."
+   },
+   "jca103": {
+    "text": "2026년 후기: 공식 설문은 **9/25 13:00에 마감되었습니다**. 응답한 분은 **10/16(금)〜10/21(수)**에 배치고사와 과정 등록을 완료하십시오. 응답하지 않은 분은 먼저 JTCs office(japanesecourses@jimu.kyushu-u.ac.jp, 이름・캠퍼스・학생번호 기재)에 이번 학기 참가 가능 여부를 확인하십시오. **과정 시스템에서 직접 추가 신청을 하지 마십시오** — 시스템은 등록된 명단대로 운영됩니다. 설문 제출만으로는 신청이 완료되지 않습니다."
+   },
+   "jca104": {
+    "items": [
+     {
+      "text": "JTCs(이토 캠퍼스・단위 불인정): 주 2회 × 10주・7개 레벨・수료 시 수강증명서 발급"
+     },
+     {
+      "text": "JACs(이토 캠퍼스・단위 인정): 주 2회 × 15주・8개 레벨・학부 정규 유학생 등 대상"
+     },
+     {
+      "text": "수업 장소: 이토 캠퍼스 Center Zone 5(센터 5호관)"
+     },
+     {
+      "text": "수강증명서가 필요하면 규슈대를 떠나기 전에 신청하십시오(귀국 후 신청은 유료이고 절차도 복잡합니다)"
+     }
+    ]
+   },
+   "jca105": {
+    "items": [
+     {
+      "text": "규슈대 일본어 과정 총람(재적 구분과 캠퍼스로 선택)",
+      "url": "https://isc.kyushu-u.ac.jp/center/international/japaneselang/"
+     },
+     {
+      "text": "JTCs 과정 페이지(이토 캠퍼스・단위 불인정)",
+      "url": "https://isc.kyushu-u.ac.jp/center/jtcs/"
+     },
+     {
+      "text": "JACs 과정 페이지(이토 캠퍼스・단위 인정)",
+      "url": "https://isc.kyushu-u.ac.jp/center/jacs"
+     },
+     {
+      "text": "JTCs 온라인 등록 시스템(배치고사・클래스 등록)",
+      "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
+     }
+    ]
    }
   },
   "es": {
@@ -19556,7 +19691,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "m1h2i3": {
-    "text": "⑨ Información práctica y recursos médicos y de salud"
+    "text": "⑩ Información práctica y recursos médicos y de salud"
    },
    "m2i3j4": {
     "text": "La página «お役立ち情報» (información útil) de la oficina de estudiantes internacionales reúne recursos prácticos para la vida en Fukuoka. **Lo que más preocupa a los estudiantes de nuevo ingreso es la atención médica**: dentro del campus Ito hay una clínica (伊都クリニック), pero no abre los fines de semana; para atenderse fuera del campus se debe consultar la **lista de instituciones médicas que atienden en idiomas extranjeros** (edición de mayo de 2026; nivel de idioma: A fluido / B conversación cotidiana / C básico)."
@@ -19725,6 +19860,51 @@ window.ARTICLES_BODY_I18N = {
    },
    "4d5e6f": {
     "title": "Residentes de Settle International (セトルインターナショナル) · Calendario (grupos A–C)"
+   },
+   "jca101": {
+    "text": "⑨ Cursos de japonés (JTCs / JACs): solicitud"
+   },
+   "jca102": {
+    "text": "El Centro de Estudiantes Internacionales ofrece cursos de japonés por dos vías: **JTCs** (sin créditos, dos veces por semana durante 10 semanas, 7 niveles) y **JACs** (con créditos, dos veces por semana durante 15 semanas, 8 niveles). Ambos se imparten en el Center Zone 5 del campus Ito. En el otoño de 2026 la fase del cuestionario ya ha cerrado; lo que queda es la prueba de nivel y la inscripción en el curso."
+   },
+   "jca103": {
+    "text": "Otoño de 2026: el cuestionario oficial **cerró el 9/25 a las 13:00**. Quien lo haya respondido debe completar la prueba de nivel y la inscripción entre el **10/16 (vie) y el 10/21 (mié)**. Quien no lo haya respondido debe preguntar primero a la oficina de JTCs (japanesecourses@jimu.kyushu-u.ac.jp; indicando nombre, campus y número de estudiante) si aún puede incorporarse este semestre: **no se inscriba directamente en el sistema del curso**, que funciona con la lista de personas ya registradas. Enviar solo el cuestionario no completa la solicitud."
+   },
+   "jca104": {
+    "items": [
+     {
+      "text": "JTCs (campus Ito, sin créditos): dos veces por semana durante 10 semanas, 7 niveles, certificado de asistencia al finalizar"
+     },
+     {
+      "text": "JACs (campus Ito, con créditos): dos veces por semana durante 15 semanas, 8 niveles, para estudiantes internacionales de grado regulares y otros"
+     },
+     {
+      "text": "Lugar: Center Zone 5, campus Ito"
+     },
+     {
+      "text": "Si necesitas un certificado de asistencia, solicítalo antes de dejar Kyushu U. (hacerlo tras volver a tu país cuesta más y requiere más trámites)"
+     }
+    ]
+   },
+   "jca105": {
+    "items": [
+     {
+      "text": "Panorama de cursos de japonés de Kyushu U. (elegir por estatus y campus)",
+      "url": "https://isc.kyushu-u.ac.jp/center/international/japaneselang/"
+     },
+     {
+      "text": "Página del curso JTCs (campus Ito, sin créditos)",
+      "url": "https://isc.kyushu-u.ac.jp/center/jtcs/"
+     },
+     {
+      "text": "Página del curso JACs (campus Ito, con créditos)",
+      "url": "https://isc.kyushu-u.ac.jp/center/jacs"
+     },
+     {
+      "text": "Sistema de inscripción en línea de JTCs (prueba de nivel y registro de clase)",
+      "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
+     }
+    ]
    }
   }
  },

@@ -272,6 +272,19 @@
       "level": "verified",
       "recheck": "P6M",
       "note": "问卷与登记期间逐学期变动 —— 10/21 之后须把 77aa1c 改写为「以当期通知为准」。两步申请流程（7fbb45 / 66a59f）与 JTCs office 邮箱 japanesecourses@jimu.kyushu-u.ac.jp（2026 前期官方课程指南记载）长期有效。官方 JTCs 页面目前仍挂 2026 前期课程指南 PDF"
+    },
+    {
+      "id": "jtcs-registration-2026f-newcomer",
+      "article": "guide-newcomer",
+      "block": "jca103",
+      "claim": "2026 年度后期：新生专区同一条日程 —— 官方问卷 2026-09-25 13:00 截止；已答问卷者 JTCs 分班考试与课程登记 2026-10-16(金)〜2026-10-21(水)；未答问卷者须先联系 JTCs office（不得写成仍可补报）",
+      "sourceName": "同上（留学課「日本語クラスについて（2026年度後期）」）+ ISC JTCs 页面",
+      "source": "https://isc.kyushu-u.ac.jp/center/international/japaneselang/",
+      "effective": "2026-10-16",
+      "verified": "2026-09-27",
+      "level": "verified",
+      "recheck": "P6M",
+      "note": "新生专区 ⑨（jca101〜jca105）与学术篇 77aa1c 是同一条事实的两处副本 —— 改一处必须改另一处，10/21 之后两处都要改写为「以当期通知为准」。jca103 里「不要直接在课程系统上补报」的依据：系统按已登记的问卷名单走（官方通知的两步流程）。"
     }
   ]
 }

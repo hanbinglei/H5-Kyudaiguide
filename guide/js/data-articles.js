@@ -1,7 +1,7 @@
 // data-articles.js — 12 篇主指南（cat 1–12）+ 置顶反诈（cat 13）
 // 由 tools/build_guide_articles.js 从 content/ 生成，勿手改。
 // **要改内容请改 content/<article>.json**，然后重跑构建。
-// 共 18 篇 · 803 块
+// 共 18 篇 · 808 块
 //
 // ⚠️ 这里不写生成日期。CI 的做法是「重跑构建 → git diff 必须为空」，
 //    用来抓「改了 content/ 却忘了重跑」。而日期戳会让产物每天都不一样，
@@ -5721,10 +5721,11 @@ window.ARTICLES = [
    "オリエンテーション",
    "行政手续",
    "银行",
-   "ESP"
+   "ESP",
+   "日语课程"
   ],
   "author": "管理员",
-  "updatedAt": "2026-09-03",
+  "updatedAt": "2026-09-27",
   "isPinned": true,
   "pinOrder": 5,
   "blocks": [
@@ -6428,9 +6429,64 @@ window.ARTICLES = [
     ]
    },
    {
+    "id": "jca101",
+    "type": "heading",
+    "text": "⑨ 日语课程（JTCs／JACs）报名"
+   },
+   {
+    "id": "jca102",
+    "type": "paragraph",
+    "text": "留学生中心开设日语课程，分两条路径：**JTCs**（単位不認定，每周 2 次 × 10 周，7 个级别）与 **JACs**（単位認定，每周 2 次 × 15 周，8 个级别），上课地点都在伊都校区 Center Zone 5（センター5号馆）。2026 后期（秋学期）的报名已经走完问卷阶段，接下来是分班考试与课程登记。"
+   },
+   {
+    "id": "jca103",
+    "type": "notice",
+    "text": "2026 后期日程：官方问卷已于 **9/25 13:00 截止**。已答问卷者请在 **10/16(金)〜10/21(水)** 完成分班考试与课程登记；未答问卷者请先联系 JTCs office（japanesecourses@jimu.kyushu-u.ac.jp，注明姓名・校区・学生番号）确认能否参加本期，**不要直接在课程系统上补报** —— 系统按已登记的名单走。只填问卷不算完成申请。"
+   },
+   {
+    "id": "jca104",
+    "type": "list",
+    "items": [
+     {
+      "text": "JTCs（伊都・単位不認定）：每周 2 次 × 10 周・7 个级别・结业发受讲证明书"
+     },
+     {
+      "text": "JACs（伊都・単位認定）：每周 2 次 × 15 周・8 个级别・对象为学部正规留学生等"
+     },
+     {
+      "text": "上课地点：伊都校区 Center Zone 5（センター5号馆）"
+     },
+     {
+      "text": "需要受讲证明书者请在离开九大前申请（回国后申请会收费且手续更复杂）"
+     }
+    ]
+   },
+   {
+    "id": "jca105",
+    "type": "links",
+    "items": [
+     {
+      "text": "九大日语课程总览（按身份与校区选择）",
+      "url": "https://isc.kyushu-u.ac.jp/center/international/japaneselang/"
+     },
+     {
+      "text": "JTCs 课程页（伊都・単位不認定）",
+      "url": "https://isc.kyushu-u.ac.jp/center/jtcs/"
+     },
+     {
+      "text": "JACs 课程页（伊都・単位認定）",
+      "url": "https://isc.kyushu-u.ac.jp/center/jacs"
+     },
+     {
+      "text": "JTCs 在线登记系统（分班考试・班级登记）",
+      "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
+     }
+    ]
+   },
+   {
     "id": "m1h2i3",
     "type": "heading",
-    "text": "⑨ 实用信息・医疗健康资源"
+    "text": "⑩ 实用信息・医疗健康资源"
    },
    {
     "id": "m2i3j4",
