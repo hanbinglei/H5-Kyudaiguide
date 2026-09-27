@@ -17792,7 +17792,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "留学生センターは日本語コースを開講しており、**JTCs**（単位不認定・週 2 回 × 10 週間・7 レベル）と **JACs**（単位認定・週 2 回 × 15 週間・8 レベル）の 2 つの経路があります。いずれも伊都キャンパス Center Zone 5（センター5号館）で行われます。2026 年度後期（秋学期）はすでにアンケート段階が終了しており、次はプレースメントテストとコース登録です。"
    },
    "jca103": {
-    "text": "2026 年度後期：公式アンケートは **9/25 13:00 に締め切られました**。回答済みの方は **10/16(金)〜10/21(水)** にプレースメントテストとコース登録を完了してください。未回答の方は、まず JTCs office（japanesecourses@jimu.kyushu-u.ac.jp／氏名・キャンパス・学生番号を明記）に今期の参加可否を確認してください。**コースシステムから直接追加申し込みをしないでください** —— システムは登録済みの名簿で動いています。アンケートの提出だけでは申し込みは完了しません。"
+    "text": "2026 年度後期：公式アンケートは 9/25 13:00 に締め切られました。回答済みの方は **10/16(金)〜10/21(水)** にプレースメントテストとコース登録を完了してください。未回答の方は、まず JTCs office（japanesecourses@jimu.kyushu-u.ac.jp／氏名・キャンパス・学生番号を明記）に今期の参加可否を確認してください。**コースシステムから直接追加申し込みをしないでください** —— システムは登録済みの名簿で動いています。アンケートの提出だけでは申し込みは完了しません。"
    },
    "jca104": {
     "items": [
@@ -18487,7 +18487,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "The International Student Center offers Japanese courses along two tracks: **JTCs** (non-credit, twice a week for 10 weeks, 7 levels) and **JACs** (credit, twice a week for 15 weeks, 8 levels). Both are held at Center Zone 5 on the Ito campus. For fall 2026 the questionnaire stage has already closed; what remains is the placement test and course registration."
    },
    "jca103": {
-    "text": "Fall 2026: the official questionnaire **closed on 9/25 at 13:00**. If you answered it, complete the placement test and course registration between **10/16 (Fri) and 10/21 (Wed)**. If you did not, first ask the JTCs office (japanesecourses@jimu.kyushu-u.ac.jp; state your name, campus and student ID) whether you can still join this term — **do not simply register through the course system**, which works from the list of confirmed applicants. Submitting the questionnaire alone does not complete the application."
+    "text": "Fall 2026: the official questionnaire closed on 9/25 at 13:00. If you answered it, complete the placement test and course registration between **10/16 (Fri) and 10/21 (Wed)**. If you did not, first ask the JTCs office (japanesecourses@jimu.kyushu-u.ac.jp; state your name, campus and student ID) whether you can still join this term — **do not simply register through the course system**, which works from the list of confirmed applicants. Submitting the questionnaire alone does not complete the application."
    },
    "jca104": {
     "items": [
@@ -19182,7 +19182,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "국제유학생센터는 일본어 과정을 **JTCs**(단위 불인정・주 2회 × 10주・7개 레벨)와 **JACs**(단위 인정・주 2회 × 15주・8개 레벨) 두 경로로 개설하고 있으며, 두 과정 모두 이토 캠퍼스 Center Zone 5(센터 5호관)에서 열립니다. 2026년 후기(가을학기)는 설문 단계가 이미 끝났고, 다음은 배치고사와 과정 등록입니다."
    },
    "jca103": {
-    "text": "2026년 후기: 공식 설문은 **9/25 13:00에 마감되었습니다**. 응답한 분은 **10/16(금)〜10/21(수)**에 배치고사와 과정 등록을 완료하십시오. 응답하지 않은 분은 먼저 JTCs office(japanesecourses@jimu.kyushu-u.ac.jp, 이름・캠퍼스・학생번호 기재)에 이번 학기 참가 가능 여부를 확인하십시오. **과정 시스템에서 직접 추가 신청을 하지 마십시오** — 시스템은 등록된 명단대로 운영됩니다. 설문 제출만으로는 신청이 완료되지 않습니다."
+    "text": "2026년 후기: 공식 설문은 9/25 13:00에 마감되었습니다. 응답한 분은 **10/16(금)〜10/21(수)**에 배치고사와 과정 등록을 완료하십시오. 응답하지 않은 분은 먼저 JTCs office(japanesecourses@jimu.kyushu-u.ac.jp, 이름・캠퍼스・학생번호 기재)에 이번 학기 참가 가능 여부를 확인하십시오. **과정 시스템에서 직접 추가 신청을 하지 마십시오** — 시스템은 등록된 명단대로 운영됩니다. 설문 제출만으로는 신청이 완료되지 않습니다."
    },
    "jca104": {
     "items": [
@@ -19868,7 +19868,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "El Centro de Estudiantes Internacionales ofrece cursos de japonés por dos vías: **JTCs** (sin créditos, dos veces por semana durante 10 semanas, 7 niveles) y **JACs** (con créditos, dos veces por semana durante 15 semanas, 8 niveles). Ambos se imparten en el Center Zone 5 del campus Ito. En el otoño de 2026 la fase del cuestionario ya ha cerrado; lo que queda es la prueba de nivel y la inscripción en el curso."
    },
    "jca103": {
-    "text": "Otoño de 2026: el cuestionario oficial **cerró el 9/25 a las 13:00**. Quien lo haya respondido debe completar la prueba de nivel y la inscripción entre el **10/16 (vie) y el 10/21 (mié)**. Quien no lo haya respondido debe preguntar primero a la oficina de JTCs (japanesecourses@jimu.kyushu-u.ac.jp; indicando nombre, campus y número de estudiante) si aún puede incorporarse este semestre: **no se inscriba directamente en el sistema del curso**, que funciona con la lista de personas ya registradas. Enviar solo el cuestionario no completa la solicitud."
+    "text": "Otoño de 2026: el cuestionario oficial cerró el 9/25 a las 13:00. Quien lo haya respondido debe completar la prueba de nivel y la inscripción entre el **10/16 (vie) y el 10/21 (mié)**. Quien no lo haya respondido debe preguntar primero a la oficina de JTCs (japanesecourses@jimu.kyushu-u.ac.jp; indicando nombre, campus y número de estudiante) si aún puede incorporarse este semestre: **no se inscriba directamente en el sistema del curso**, que funciona con la lista de personas ya registradas. Enviar solo el cuestionario no completa la solicitud."
    },
    "jca104": {
     "items": [
