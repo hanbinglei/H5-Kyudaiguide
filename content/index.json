@@ -16,7 +16,7 @@
     {
       "_id": "guide-housing",
       "category": "3",
-      "blocks": 55,
+      "blocks": 70,
       "file": "content/guide-housing.json"
     },
     {
@@ -28,13 +28,13 @@
     {
       "_id": "guide-phone",
       "category": "5",
-      "blocks": 35,
+      "blocks": 36,
       "file": "content/guide-phone.json"
     },
     {
       "_id": "guide-academic",
       "category": "6",
-      "blocks": 59,
+      "blocks": 65,
       "file": "content/guide-academic.json"
     },
     {
@@ -46,7 +46,7 @@
     {
       "_id": "guide-medical",
       "category": "8",
-      "blocks": 37,
+      "blocks": 39,
       "file": "content/guide-medical.json"
     },
     {
@@ -88,7 +88,7 @@
     {
       "_id": "guide-newcomer",
       "category": "14",
-      "blocks": 51,
+      "blocks": 56,
       "file": "content/guide-newcomer.json"
     },
     {

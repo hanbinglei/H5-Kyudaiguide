@@ -20,12 +20,12 @@ window.ARTICLES_I18N = {
     es:'Registro de la dirección en la tarjeta de residencia (por tu cuenta o mediante la universidad), cambio de dirección y reenvío postal al mudarte, renovación de la tarjeta y la tarjeta de residencia específica de 2026, acceso a campusweb/SSO, My Number, seguro nacional de salud y exención de la pensión para estudiantes, y trámites antes de volver a tu país.' },
 },
 'guide-housing': {
-  title:{ ja:'住まい探し', en:'Housing', ko:'주거', es:'Vivienda' },
+  title:{ ja:'寮・住まい探し', en:'Dorms & Housing', ko:'기숙사·주거', es:'Residencias y vivienda' },
   summary:{
-    ja:'福岡3エリア（学研都市/周船寺/キャンパス横）の選び方、初期費用と水道光熱、郵便転送、周辺の賃貸ルートと実用リンク。',
-    en:'Choosing among 3 Fukuoka areas (Gakken-toshi / Susenji / campus-side), initial costs and utilities, mail forwarding, local rental channels and useful links.',
-    ko:'후쿠오카 3개 지역(학연도시/스센지/캠퍼스 옆) 선택법, 초기 비용과 공과금, 우편 전송, 주변 임대 경로와 실용 링크.',
-    es:'Cómo elegir entre las tres zonas de Fukuoka (Gakken-toshi, Susenji, junto al campus), gastos iniciales y suministros, reenvío postal, y canales locales de alquiler con enlaces útiles.' },
+    ja:'伊都5か所の留学生寮の部屋・設備・入居時の確認事項、福岡3エリアの賃貸選び、初期費用と水道光熱、郵便転送。',
+    en:'Facilities and move-in checks for five Ito international student residences, choosing among three Fukuoka rental areas, initial costs, utilities and mail forwarding.',
+    ko:'이토 지역 유학생 기숙사 5곳의 시설과 입주 확인 사항, 후쿠오카 3개 지역 임대 선택, 초기 비용·공과금·우편 전송.',
+    es:'Instalaciones y comprobaciones de entrada en cinco residencias estudiantiles de Ito; elección entre tres zonas de alquiler en Fukuoka, gastos iniciales, suministros y reenvío postal.' },
 },
 'guide-bank': {
   title:{ ja:'銀行・送金', en:'Banking & Remittance', ko:'은행·송금', es:'Banca y envíos' },
@@ -135,10 +135,10 @@ window.ARTICLES_I18N = {
 'guide-newcomer': {
   title:{ ja:'2026秋 新入生スペシャル：留学課サポート総覧', en:'2026 Fall Newcomer Special: Student Exchange Division support', ko:'2026 가을 신입생 특집: 유학과 지원 총람', es:'Especial nuevos estudiantes, otoño de 2026: panorama del apoyo disponible' },
   summary:{
-    ja:'九州大学留学課（国際部）が 2026 年秋の新入留学生向けに用意したサポート情報のまとめ：無料空港シャトルバス／生活支援バス（リアルタイム次便つき）、行政手続き・銀行ガイダンス、オリエンテーション、銀行口座開設会、ESP 緊急安心プラン、問い合わせ・相談窓口。公式 NotePM ポータルが原本。',
-    en:'A summary of all support provided by the Kyushu U Student Exchange Division for 2026 fall newcomers: free airport shuttle / shopping shuttle (with live next-bus), administrative & banking guidance, orientation, bank account event, ESP emergency plan, and contacts. Based on the official NotePM portal.',
-    ko:'규슈대 유학과(국제부)가 2026년 가을 신입 유학생에게 준비한 지원 정보 총정리: 무료 공항 셔틀버스/생활지원버스(실시간 다음 차량 포함), 행정절차·은행 가이던스, 오리엔테이션, 은행 계좌 개설회, ESP 긴급 안심 플랜, 문의·상담 창구. 공식 NotePM 포털이 원본.',
-    es:'Resumen de todo el apoyo de la oficina de estudiantes internacionales para los nuevos estudiantes del otoño de 2026: horarios del autobús del aeropuerto y del autobús de apoyo diario (con el próximo servicio en tiempo real), wifi del campus (kitenet / SSO-KID), sesión sobre trámites y banca, orientación, sesión de apertura de cuenta bancaria, plan de asistencia urgente ESP, y canales de contacto y consulta. Prevalece el portal oficial de NotePM.' },
+    ja:'九州大学留学課（国際部）が 2026 年秋の新入留学生向けに用意したサポート情報のまとめ：無料空港シャトルバス／生活支援バス（リアルタイム次便つき）、行政手続き・銀行ガイダンス、オリエンテーション、銀行口座開設会、ESP 緊急安心プラン、問い合わせ・相談窓口。寮の設備、学生保険、学生証の受取日程はトップページの新入生ゾーン「よく使う資料」をご覧ください。公式 NotePM ポータルが原本。',
+    en:'A summary of support provided by the Kyushu U Student Exchange Division for 2026 fall newcomers: airport and shopping shuttles (with live next-bus), administrative & banking guidance, orientation, bank account event, ESP emergency plan, and contacts. For dorm facilities, student insurance and student ID pickup, use “Common resources” in the homepage newcomer zone. Based on the official NotePM portal.',
+    ko:'규슈대 유학과(국제부)가 2026년 가을 신입 유학생에게 준비한 지원 정보 총정리: 무료 공항 셔틀버스/생활지원버스(실시간 다음 차량 포함), 행정절차·은행 가이던스, 오리엔테이션, 은행 계좌 개설회, ESP 긴급 안심 플랜, 문의·상담 창구. 기숙사 시설, 학생 보험, 학생증 수령 일정은 홈페이지 신입생 구역의 ‘자주 보는 자료’를 확인하세요. 공식 NotePM 포털을 기준으로 합니다.',
+    es:'Resumen del apoyo de la oficina de estudiantes internacionales para los nuevos estudiantes del otoño de 2026: autobuses del aeropuerto y de apoyo diario (con el próximo servicio en tiempo real), trámites y orientación bancaria, orientación, sesión de apertura de cuenta, plan ESP y contactos. Para instalaciones de residencias, seguros estudiantiles y recogida del carné, consulta «Recursos habituales» en la zona para nuevos estudiantes de la página principal. Basado en el portal oficial de NotePM.' },
 },
 "guide-scholarship": {
   "title": {

@@ -52,8 +52,20 @@ for (const st of ZONE.stages || []) {
   }
 }
 
+for (const it of ZONE.resources || []) {
+  const name = it && it.title && it.title.zh || '(无标题)';
+  const a = byId.get(it && it.ref);
+  if (!a) { errs.push(`常用资料「${name}」: ref「${it && it.ref}」不存在于文章列表`); continue; }
+  if (!it.sec) errs.push(`常用资料「${name}」: 缺 sec`);
+  else if (!headingIds(a).has(it.sec)) errs.push(`常用资料「${name}」: sec「${it.sec}」找不到对应小节`);
+  for (const key of ['title', 'desc']) {
+    if (!it[key] || !it[key].zh) errs.push(`常用资料「${name}」: 缺 ${key}.zh`);
+    for (const l of LANGS) if (!it[key] || !it[key][l]) warns.push(`常用资料「${name}」: ${key} 缺 ${l}`);
+  }
+}
+
 const langs = new Set((ZONE.stages || []).map(s => s.label && Object.keys(s.label).length));
-console.log(`专区：${(ZONE.stages || []).length} 个阶段 · ${n} 条深链 · 语言数 ${[...langs].join('/')}`);
+console.log(`专区：${(ZONE.stages || []).length} 个阶段 · ${n} 条日程深链 · ${(ZONE.resources || []).length} 条常用资料 · 语言数 ${[...langs].join('/')}`);
 for (const e of errs) console.log('  ✗ ' + e);
 for (const w of warns) console.log('  · ' + w);
 console.log(errs.length

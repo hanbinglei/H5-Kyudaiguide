@@ -7,24 +7,26 @@
 // 生成于：2026-08-19
 //
 // ⚠️ 本仓库（H5-Kyudaiguide）为独立副本：scripts/ 不在本仓库内，
-//    2026-09-02 起新增的留学課（ryugakuka）条目（c63–c69）直接在此文件维护。
+//    2026-09-02 起新增的留学課（ryugakuka）条目（c63–c69）及 2026-09 学生证日程（c70–c78）直接在此文件维护。
 //    若小程序侧 gen_cunli_data.js 重新生成，需把这里的增量条目合回去。
 //
 // 来源：
 //   祝日   内閣府 https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv
 //   学年暦 九州大学 https://www.kyushu-u.ac.jp/ja/faculty/schedule/（誊写日 2026-08-19）
 //   留学課 NotePM 门户 https://notepm.jp/sharing/fb0e6579-ad42-4aaa-90fb-9bcff4e253e3（誊写日 2026-09-02）
+//   学生证领取安排：2026-09-11 所属别通知；公开链接仅为所属学务课咨询指引，并非原配付表。
 //
 // 打包进主包做离线兜底：云端挂了这个 tab 也不会空。
 // 体积约 10.3 KB —— 主包 2 MB 的预算里可以忽略。
 
 const CUNLI_DATA = {
-  version: "2026-09-02",
+  version: "2026-09-30",
   range: { from: "2026-01-01", to: "2027-12-31" },
   sources: {
       cao: { name: '内閣府', url: "https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv" },
       kyudai: { name: '九州大学 学年暦', url: "https://www.kyushu-u.ac.jp/ja/faculty/schedule/" },
-      ryugakuka: { name: '留学課 NotePM 门户', url: "https://notepm.jp/sharing/fb0e6579-ad42-4aaa-90fb-9bcff4e253e3" }
+      ryugakuka: { name: '留学課 NotePM 门户', url: "https://notepm.jp/sharing/fb0e6579-ad42-4aaa-90fb-9bcff4e253e3" },
+      studentId: { name: '所属学务课公开咨询指引（学生证日程据 2026-09-11 所属别通知整理；此链接不是原配付表）', url: "https://notepm.jp/sharing/2ea39b87-b202-435c-bc50-938b9e5a9488" }
     },
   // 场所出处：九大官网「大学施設の利用 → 椎木講堂」
   venueSource: "https://www.kyushu-u.ac.jp/ja/university/facility/shiiki/",
@@ -102,7 +104,16 @@ const CUNLI_DATA = {
         {"id":"c66","title":"新入留学生オリエンテーション","zh":"新入留学生入学指导","date":"2026-09-28","end":"","type":"event","star":false,"src":"ryugakuka","place":{"id":"617112195","ja":"椎木講堂","zh":"椎木讲堂（大学本部）"},"note":"12:50-15:10 参加必须；同日 SIM販売会・図書館ツアー・入管相談会・ウェルカムパーティ。见【新入生特辑】","link":"https://notepm.jp/sharing/f354d82c-a09a-4bc8-afc6-a1e0bea2b521"},
         {"id":"c67","title":"新入留学生キャンパスツアー","zh":"新入生校园参观","date":"2026-09-29","end":"2026-09-30","type":"event","star":false,"src":"ryugakuka","note":"留学課/Q-Mate：各日 10:30-12:00・15:00-16:30 东/西两场，要申込。见【新入生特辑】","link":"https://notepm.jp/sharing/8ae99f42-70ec-42f4-9fd4-afde9f857c49"},
         {"id":"c68","title":"福岡銀行口座開設会","zh":"福冈银行开户会","date":"2026-10-06","end":"2026-10-08","type":"event","star":false,"src":"ryugakuka","note":"留学課：住所登録済み新入生対象，事前申込必要，当场发卡。见【新入生特辑】","link":"https://notepm.jp/sharing/60d704cb-f873-46d5-8352-8f566d5abcf3"},
-        {"id":"c69","title":"ESP 加入期限","zh":"ESP 紧急安心计划加入截止","date":"2026-10-30","end":"","type":"admin","star":false,"src":"ryugakuka","note":"留学生全員加入必須；OSSMA App 申请，到日本后办理。见【新入生特辑】","link":"https://notepm.jp/sharing/907ae8e7-4cfe-4c79-bcdd-b88a8edf630e"}
+        {"id":"c69","title":"ESP 加入期限","zh":"ESP 紧急安心计划加入截止","date":"2026-10-30","end":"","type":"admin","star":false,"src":"ryugakuka","note":"持「留学」资格的九州大学留学生须加入；官方旧 OSSMA 手册与 2026.10 NEXUS 手册的 App 名称有差异，以当期最新手册与申请页面为准。","link":"https://notepm.jp/sharing/907ae8e7-4cfe-4c79-bcdd-b88a8edf630e"},
+        {"id":"c70","title":"学生証配付｜経済・特別聴講生","zh":"学生证领取｜经济・特别听讲生","date":"2026-09-30","end":"","type":"admin","star":false,"src":"studentId","note":"13:00；履修説明会；E-E-103。表中对象不能在入学式前领取。具体安排请按所属最新通知确认。"},
+        {"id":"c71","title":"学生証配付｜経済・正課生","zh":"学生证领取｜经济・正课生","date":"2026-09-30","end":"","type":"admin","star":false,"src":"studentId","note":"14:00；経済学部入学式；E-E-109。表中对象不能在入学式前领取。具体安排请按所属最新通知确认。"},
+        {"id":"c72","title":"学生証配付｜経済・研究生","zh":"学生证领取｜经济・研究生","date":"2026-09-30","end":"","type":"admin","star":false,"src":"studentId","note":"14:00；資料配付；E-E-102。表中对象不能在入学式前领取。具体安排请按所属最新通知确认。"},
+        {"id":"c73","title":"学生証配付｜地球社会・非正課生","zh":"学生证领取｜地球社会・非正课生","date":"2026-09-30","end":"","type":"admin","star":false,"src":"studentId","note":"14:00；新入生ガイダンス；E-B-112。カード未作成の場合は別途メールで窓口受取を案内。表中对象不能在入学式前领取。具体安排请按所属最新通知确认。"},
+        {"id":"c74","title":"学生証配付｜文・人文・非正課生","zh":"学生证领取｜文・人文・非正课生","date":"2026-10-01","end":"","type":"admin","star":false,"src":"studentId","note":"11:00；オリエンテーション；C-419。表中对象不能在入学式前领取。具体安排请按所属最新通知确认。"},
+        {"id":"c75","title":"学生証配付｜法学・正課生","zh":"学生证领取｜法学・正课生","date":"2026-10-01","end":"","type":"admin","star":false,"src":"studentId","note":"具体时刻及教室未在通知中列出；法学国际课程入学式及オリエンテーション。表中对象不能在入学式前领取，请查看本人所属通知。"},
+        {"id":"c76","title":"学生証配付｜法学・非正課生（英語）","zh":"学生证领取｜法学・非正课生（英语）","date":"2026-10-01","end":"","type":"admin","star":false,"src":"studentId","note":"具体时刻及教室未在通知中列出；法学オリエンテーション。表中对象不能在入学式前领取，请查看本人所属通知。"},
+        {"id":"c77","title":"学生証配付｜地球社会・正課生","zh":"学生证领取｜地球社会・正课生","date":"2026-10-02","end":"","type":"admin","star":false,"src":"studentId","note":"13:30；入学式；E-B-112。表中对象不能在入学式前领取。具体安排请按所属最新通知确认。"},
+        {"id":"c78","title":"学生証配付｜教育・人環・正課生","zh":"学生证领取｜教育・人环・正课生","date":"2026-10-02","end":"","type":"admin","star":false,"src":"studentId","note":"具体时刻及教室未在通知中列出；Orientation。表中对象不能在入学式前领取，请查看本人所属通知。"}
       ]
     };
 if(typeof window!=='undefined') window.CUNLI_DATA=CUNLI_DATA;

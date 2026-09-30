@@ -5,6 +5,7 @@
 //
 // 为什么用区块 ID 而不是标题文本：标题会随界面语言变（日/英/韩译本），
 // ID 不会；也不用维护 4 份标题对照表。
+// 常用资料独立于日程阶段，避免把未定日期事项误呈现为活动安排。
 // 校验：tools/check_newcomer_zone.js（ID 必须真实存在，否则链接点不动）
 //
 // 只放 5×3=15 条，按可读性预算 —— 这不是目录，是"接下来做什么"的短清单。
@@ -58,5 +59,16 @@ window.NEWCOMER_ZONE = {
           "text": { "zh": "防骗核心原则", "ja": "詐欺対策の基本原則", "en": "Core anti-fraud rules", "ko": "사기 방지 기본 원칙", "es": "Principios básicos contra el fraude"} }
       ]
     }
+  ],
+  "resources": [
+    { "ref": "guide-housing", "sec": "d27e01",
+      "title": { "zh": "宿舍设备与入住采购", "ja": "寮の設備と入居時の準備", "en": "Dorm facilities and move-in supplies", "ko": "기숙사 시설 및 입주 준비", "es": "Instalaciones y artículos para la mudanza" },
+      "desc": { "zh": "核对 D1/D2、D3、協奏館与 SETTLE；入住提醒与生活巴士信息分开。", "ja": "D1/D2、D3、協奏館、SETTLE を確認。入居案内と生活支援バスの日程は別情報です。", "en": "Compare D1/D2, D3, Kyoso-kan and SETTLE. Move-in notes are separate from the shopping-bus schedule.", "ko": "D1/D2, D3, 교소칸, SETTLE을 비교하세요. 입주 안내와 생활지원 버스 일정은 별도 정보입니다.", "es": "Compara D1/D2, D3, Kyoso-kan y SETTLE. Las notas de entrada no son el horario del autobús de compras." } },
+    { "ref": "guide-medical", "sec": "40a340",
+      "title": { "zh": "学生保险与医疗", "ja": "学生保険と医療", "en": "Student insurance and healthcare", "ko": "학생 보험 및 의료", "es": "Seguro estudiantil y atención médica" },
+      "desc": { "zh": "区分学研災、责任险、留学生综合保险、ESP 与国保的适用范围。", "ja": "学研災、賠償責任保険、留学生総合保険、ESP、国保の適用範囲を区別します。", "en": "Understand the scope of Gakkensai, liability cover, inbound student insurance, ESP and NHI.", "ko": "학연재해보험, 배상책임보험, 유학생 종합보험, ESP와 국민건강보험의 적용 범위를 구분합니다.", "es": "Distingue el alcance de Gakkensai, la responsabilidad civil, el seguro para estudiantes internacionales, ESP y el seguro nacional." } },
+    { "ref": "guide-academic", "sec": "e2c3d0",
+      "title": { "zh": "学生证领取安排", "ja": "学生証の受取日程", "en": "Student ID pickup schedule", "ko": "학생증 수령 일정", "es": "Calendario de recogida del carné" },
+      "desc": { "zh": "仅列五个所属通知中的 12 组身份；按本人所属核对日期与开放窗口。", "ja": "5つの所属の通知にある12の身分のみ掲載。所属別の日程と窓口を確認してください。", "en": "Covers only the 12 groups in notices from five academic units; check the dates and window by affiliation.", "ko": "5개 소속 공지의 12개 신분만 포함합니다. 소속별 일정과 창구를 확인하세요.", "es": "Incluye solo los 12 grupos de cinco unidades académicas; comprueba la fecha y ventanilla según tu afiliación." } }
   ]
 };

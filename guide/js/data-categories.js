@@ -3,7 +3,7 @@
 const CATEGORIES = [
   { id: '1', name: '入境准备', icon: '🛫' },
   { id: '2', name: '在留手续', icon: '📋' },
-  { id: '3', name: '租房', icon: '🏠' },
+  { id: '3', name: '宿舍·租房', icon: '🏠' },
   { id: '4', name: '银行·汇款', icon: '🏦' },
   { id: '5', name: '手机·网络', icon: '📱' },
   { id: '6', name: '学业·奖学金', icon: '🎓' },

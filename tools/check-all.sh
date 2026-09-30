@@ -51,12 +51,14 @@ run_soft() {   # 名称 · 命令（只报数字）
 
 echo "=== 硬性校验（失败即 CI 红）==="
 
-# 构建可复现：产物必须与 content/ 一致
+# 比较重建前后的产物，不比较 HEAD：正确的未提交内容也应能本地验收。
+# 旧产物或缺失产物会在重建后改变哈希，仍能发现“改内容后忘记构建”。
+H5_BUILD_BEFORE="$(git hash-object --no-filters guide/js/data-articles.js 2>/dev/null || true)"
 if ! node tools/build_guide_articles.js > /dev/null 2>&1; then
   printf '  \033[31m✗\033[0m %-22s %s\n' "build" "构建失败"
   HARD_FAIL=$((HARD_FAIL + 1))
 else
-  if git diff --quiet -- guide/js/data-articles.js 2>/dev/null; then
+  if [ "$H5_BUILD_BEFORE" = "$(git hash-object --no-filters guide/js/data-articles.js 2>/dev/null)" ]; then
     printf '  \033[32m✓\033[0m %-22s %s\n' "build 一致性" "产物与 content/ 一致"
   else
     printf '  \033[31m✗\033[0m %-22s %s\n' "build 一致性" "产物与 content/ 不一致 —— 改了内容忘了重跑构建"

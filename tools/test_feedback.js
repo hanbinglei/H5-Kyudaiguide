@@ -356,6 +356,15 @@ console.log('\n=== ⑤c 面板未打开时入口按钮也必须有文字（懒�
   ok(/誤りを見つけたら/.test(a.textContent), '此时切语言也能跟着变', a.textContent);
 }
 
+console.log('\n=== ⑤d 五语说明须对应原地发送，不承诺跳转确认页 ===');
+for (const [L, want] of [['zh', /当前面板/], ['ja', /このパネル/], ['en', /this panel/], ['ko', /현재 패널/], ['es', /este panel/]]) {
+  const { ctx, reg } = boot(L, null, 'https://example.test/form');
+  ctx.Feedback.open('article', 'Scholarships');
+  const note = reg.fbNote.textContent;
+  ok(want.test(note), L + ' 说明是面板内提示', note);
+  ok(!/跳转到确认页|確認ページに移動|confirmation page|확인 페이지로 이동|página de confirmación/.test(note), L + ' 不承诺不存在的跳转页', note);
+}
+
 console.log('\n=== ⑥ 入口按钮的文案随语言重算 ===');
 {
   const { ctx, reg } = boot('zh', null, 'https://example.test/form');

@@ -68,7 +68,9 @@ button{font:inherit}
 /* 整个卡片滚动；头部吸顶、TOC 吸在头部下方，正文与「全文完」正常滚动 */
 .sheet-card .toc{position:sticky;top:45px;z-index:3}
 body.modal-open{overflow:hidden}
-.article-header{padding:16px 16px 8px}
+/* 标题、摘要也要允许长单词换行：只给正文换行会在大字号手机上撑宽整张卡片。
+   保留字号和完整文字，不用隐藏溢出或裁剪标题来掩盖问题。 */
+.article-header{padding:16px 16px 8px;min-width:0;overflow-wrap:break-word;overflow-wrap:anywhere}
 .article-header h1{font-size:19px;line-height:1.35;color:#1a1a2e}
 .article-header .meta{font-size:12px;color:var(--muted2);margin-top:6px}
 .toc{display:flex;gap:6px;overflow-x:auto;padding:8px 14px;border-bottom:1px solid var(--line);background:#fff;position:sticky;top:44px;z-index:2;scrollbar-width:none;-webkit-overflow-scrolling:touch}
@@ -547,6 +549,12 @@ mark{background:rgba(123,45,62,.10);color:inherit;border-radius:3px;padding:0 2p
 .nz-text{flex:1;min-width:0}
 .nz-go{color:var(--muted2);font-size:15px;flex:0 0 auto}
 .nz-item:active .nz-text{color:var(--brand)}
+.nz-resource-head{margin-top:14px}
+.nz-resources{display:grid;grid-template-columns:1fr;gap:8px}
+.nz-resource{display:flex;flex-direction:column;gap:4px;padding:11px 13px;border:1px solid var(--line);
+  border-radius:12px;background:var(--card);color:var(--text);text-decoration:none}
+.nz-resource-title{font-size:14px;font-weight:750;color:var(--brand)}
+.nz-resource-desc{font-size:12px;line-height:1.45;color:var(--muted)}
 
 
 /* ══════════════════════════════════════════════════════════════
@@ -596,6 +604,7 @@ mark{background:rgba(123,45,62,.10);color:inherit;border-radius:3px;padding:0 2p
    改为一阶段一列，横向并列后可一眼看完来日前 / 落地 3 天 / 30 天内。 */
 @media(min-width:768px){
   #nzStages{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;align-items:start}
+  #nzResources{grid-template-columns:repeat(3,minmax(0,1fr))}
   .nz-stage{margin-bottom:0}
   .nz-item{padding:10px 0}
 }

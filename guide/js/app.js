@@ -198,7 +198,7 @@ function applyI18N(){
    数据在 data-newcomer-zone.js；ID 是否真实存在由 tools/check_newcomer_zone.js 把关 ——
    链接指不到小节，等于给新生的第一屏就是坏的。 */
 function renderNewcomerZone(){
-  const wrap=$('nzWrap'),box=$('nzStages'),Z=window.NEWCOMER_ZONE;
+  const wrap=$('nzWrap'),box=$('nzStages'),resourceBox=$('nzResources'),Z=window.NEWCOMER_ZONE;
   if(!wrap||!box||!Z||!Z.stages||!Z.stages.length){if(wrap)wrap.style.display='none';return 0}
   const lang=I18N.getLang();
   const pick=o=>o?(o[lang]||o.zh||''):'';
@@ -214,6 +214,14 @@ function renderNewcomerZone(){
   const ti=$('nzTitle'),su=$('nzSub');
   if(ti)ti.textContent=t('nzTitle');
   if(su)su.textContent=t('nzSub');
+  const rti=$('nzResourcesTitle'),rsu=$('nzResourcesSub');
+  if(rti)rti.textContent=t('nzResourcesTitle');
+  if(rsu)rsu.textContent=t('nzResourcesSub');
+  if(resourceBox)resourceBox.innerHTML=(Z.resources||[]).map(it=>{
+    if(!it||!it.ref)return '';
+    const href='#article/'+encodeURIComponent(it.ref)+(it.sec?'?sec='+encodeURIComponent(it.sec):'');
+    return `<a class="nz-resource" href="${href}"><span class="nz-resource-title">${esc(pick(it.title))}</span><span class="nz-resource-desc">${esc(pick(it.desc))}</span></a>`;
+  }).join('');
   wrap.style.display='';
   return n;
 }

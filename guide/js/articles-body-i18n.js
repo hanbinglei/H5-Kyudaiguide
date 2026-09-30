@@ -71,6 +71,11 @@ window.ARTICLES_BODY_I18N = {
      }
     ]
    },
+   "e2c3d0": {"text":"2026年秋・学生証の受取：所属・身分別に確認"},
+   "e2c3d1": {"text":"2026-09-11付「学生証配付について」に基づく一覧です。経済、地球社会、教育・人間環境、法学、文・人文の5所属の通知に記載された12の身分のみを対象とし、全学・4キャンパス共通の日程ではありません。表に記載された対象者は入学式前に受け取れません。変更や具体的な時刻・教室は本人の所属学部／学府の通知を確認してください。時刻・教室の記載がない箇所は推測していません。"},
+   "e2c3d2": {"headers":["所属・身分","2026年の日時","受取方法","場所"],"rows":[["経済・正課生","9/30 14:00","経済学部入学式","E-E-109"],["経済・特別聴講学生","9/30 13:00","履修説明会","E-E-103"],["経済・研究生","9/30 14:00","資料配付","E-E-102"],["地球社会・正課生","10/2 13:30","入学式","E-B-112"],["地球社会・非正課生","9/30 14:00","新入生ガイダンス。未作成の場合は窓口受取のメール連絡","E-B-112"],["教育・人間環境・正課生","10/2（時刻記載なし）","Orientation","原資料に教室記載なし"],["教育・人間環境・非正課生","10/1から（暫定）","教務窓口。メール連絡。授業料の支払確認が必要","教務窓口"],["法学・正課生","10/1（時刻記載なし）","法学国際コース入学式・Orientation","原資料に教室記載なし"],["法学・非正課生・英語","10/1（時刻記載なし）","法学 Orientation","原資料に教室記載なし"],["法学・非正課生・日本語","10/1から","教務窓口","教務窓口"],["文・人文・正課生","10/1から","教務窓口","教務窓口"],["文・人文・非正課生","10/1 11:00","Orientation","C-419"]]},
+   "e2c3d3": {"text":"正課生と研究生・特別聴講学生など非正課生では受取方法が異なります。10/1からの窓口対応に締切日の記載はないため、開始日を締切日とみなさないでください。授業料の支払確認が必要なのは教育・人間環境の非正課生のみです。カード未作成の場合に窓口受取のメールを送ると記載されているのは地球社会の非正課生のみです。他の身分に適用しないでください。"},
+   "e2c3d4": {"items":[{"text":"所属学務窓口の相談案内（公開相談先。学生証一覧表の原資料ではありません）","url":"https://notepm.jp/sharing/2ea39b87-b202-435c-bc50-938b9e5a9488"}]},
    "c8e67d": {
     "text": "履修と授業"
    },
@@ -542,6 +547,11 @@ window.ARTICLES_BODY_I18N = {
      }
     ]
    },
+   "e2c3d0": {"text":"Fall 2026 student ID pickup: check by affiliation and status"},
+   "e2c3d1": {"text":"Based on “学生証配付について” dated 2026-09-11. It covers only the 12 status groups in notices from five affiliations: Economics, GSST, Education/Human-Environment, Law, and Literature/Humanities. It is not a university-wide or four-campus schedule. People listed in this table cannot collect their card before the entrance ceremony. For changes and specific times or rooms, follow your own faculty/graduate school notice. No unstated time or room is inferred."},
+   "e2c3d2": {"headers":["Affiliation and status","2026 date/time","Pickup arrangement","Location"],"rows":[["Economics · regular students","9/30 14:00","Economics entrance ceremony","E-E-109"],["Economics · special auditors","9/30 13:00","Course registration briefing","E-E-103"],["Economics · research students","9/30 14:00","Document distribution","E-E-102"],["GSST · regular students","10/2 13:30","Entrance ceremony","E-B-112"],["GSST · non-regular students","9/30 14:00","New student guidance; if the card is not ready, an email will tell you to collect it at the office","E-B-112"],["Education/Human-Environment · regular students","10/2 (time not listed)","Orientation","No room listed in source"],["Education/Human-Environment · non-regular students","From 10/1 (tentative)","Academic office; email notice; tuition payment must be confirmed","Academic office"],["Law · regular students","10/1 (time not listed)","Law international-program entrance ceremony and orientation","No room listed in source"],["Law · non-regular · English","10/1 (time not listed)","Law orientation","No room listed in source"],["Law · non-regular · Japanese","From 10/1","Academic office","Academic office"],["Literature/Humanities · regular students","From 10/1","Academic office","Academic office"],["Literature/Humanities · non-regular students","10/1 11:00","Orientation","C-419"]]},
+   "e2c3d3": {"text":"Pickup arrangements differ between regular students and non-regular students such as research students or special auditors. No cutoff date is given for office pickup starting 10/1, so do not treat the start date as a deadline. Tuition-payment confirmation applies only to non-regular students in Education/Human-Environment. An email directing students with an unmade card to office pickup is stated only for non-regular GSST students. Do not extend either condition to other groups."},
+   "e2c3d4": {"items":[{"text":"Consultation guide for your academic office (public contact route; not the original student ID schedule)","url":"https://notepm.jp/sharing/2ea39b87-b202-435c-bc50-938b9e5a9488"}]},
    "c8e67d": {
     "text": "Course Registration"
    },
@@ -1013,6 +1023,11 @@ window.ARTICLES_BODY_I18N = {
      }
     ]
    },
+   "e2c3d0": {"text":"2026년 가을 학생증 수령: 소속·신분별 확인"},
+   "e2c3d1": {"text":"2026-09-11자 「学生証配付について」를 기준으로 정리했습니다. 경제, 지구사회, 교육·인간환경, 법학, 문·인문 등 5개 소속 공지에 기재된 12개 신분만 포함하며, 전교 또는 4개 캠퍼스 공통 일정이 아닙니다. 표에 기재된 대상자는 입학식 전에 수령할 수 없습니다. 변경 및 구체적인 시각·교실은 본인 소속 학부·학부/대학원 공지를 따르세요. 기재되지 않은 시간이나 교실을 추정하지 않았습니다."},
+   "e2c3d2": {"headers":["소속·신분","2026년 날짜·시간","수령 방법","장소"],"rows":[["경제 · 정규 학생","9/30 14:00","경제학부 입학식","E-E-109"],["경제 · 특별청강생","9/30 13:00","수강 안내 설명회","E-E-103"],["경제 · 연구생","9/30 14:00","자료 배부","E-E-102"],["지구사회 · 정규 학생","10/2 13:30","입학식","E-B-112"],["지구사회 · 비정규 학생","9/30 14:00","신입생 안내. 카드 미제작 시 창구 수령 안내 이메일 발송","E-B-112"],["교육·인간환경 · 정규 학생","10/2 (시간 미기재)","Orientation","원자료에 교실 미기재"],["교육·인간환경 · 비정규 학생","10/1부터 (잠정)","학무 창구, 이메일 안내, 등록금 납부 확인 필요","학무 창구"],["법학 · 정규 학생","10/1 (시간 미기재)","법학 국제과정 입학식 및 Orientation","원자료에 교실 미기재"],["법학 · 비정규 · 영어","10/1 (시간 미기재)","법학 Orientation","원자료에 교실 미기재"],["법학 · 비정규 · 일본어","10/1부터","학무 창구","학무 창구"],["문·인문 · 정규 학생","10/1부터","학무 창구","학무 창구"],["문·인문 · 비정규 학생","10/1 11:00","Orientation","C-419"]]},
+   "e2c3d3": {"text":"정규 학생과 연구생·특별청강생 등 비정규 학생의 수령 방식은 다릅니다. 10/1부터 시작하는 창구 수령에는 마감일이 안내되어 있지 않으므로 시작일을 마감일로 간주하지 마세요. 등록금 납부 확인 조건은 교육·인간환경 비정규 학생에만 해당합니다. 카드가 준비되지 않은 경우 이메일로 창구 수령을 안내한다는 내용은 지구사회 비정규 학생에만 해당합니다. 다른 신분에 이 조건을 적용하지 마세요."},
+   "e2c3d4": {"items":[{"text":"소속 학무 창구 상담 안내 (공개 문의 경로이며 학생증 일정표 원문이 아닙니다)","url":"https://notepm.jp/sharing/2ea39b87-b202-435c-bc50-938b9e5a9488"}]},
    "c8e67d": {
     "text": "수강신청과 수업"
    },
@@ -1484,6 +1499,11 @@ window.ARTICLES_BODY_I18N = {
      }
     ]
    },
+   "e2c3d0": {"text":"Recogida del carné de otoño de 2026: consulta según afiliación y estatus"},
+   "e2c3d1": {"text":"Basado en «学生証配付について», de 11-09-2026. Solo cubre los 12 grupos de estatus indicados en avisos de cinco afiliaciones: Economía, GSST, Educación/Entorno Humano, Derecho y Letras/Humanidades. No es un calendario para toda la universidad ni común a los cuatro campus. Las personas incluidas en esta tabla no pueden recoger el carné antes de la ceremonia de ingreso. Para cambios y horarios o aulas concretos, sigue el aviso de tu facultad/escuela de posgrado. No se infieren horas ni aulas que no constan."},
+   "e2c3d2": {"headers":["Afiliación y estatus","Fecha/hora 2026","Forma de entrega","Lugar"],"rows":[["Economía · estudiantes regulares","30/9 14:00","Ceremonia de ingreso de Economía","E-E-109"],["Economía · oyentes especiales","30/9 13:00","Sesión informativa de matrícula","E-E-103"],["Economía · estudiantes de investigación","30/9 14:00","Entrega de documentos","E-E-102"],["GSST · estudiantes regulares","2/10 13:30","Ceremonia de ingreso","E-B-112"],["GSST · no regulares","30/9 14:00","Orientación; si el carné aún no está listo, se avisará por correo para recogerlo en ventanilla","E-B-112"],["Educación/Entorno Humano · regulares","2/10 (hora no indicada)","Orientación","El original no indica aula"],["Educación/Entorno Humano · no regulares","Desde 1/10 (provisional)","Ventanilla académica; aviso por correo; hay que confirmar el pago de matrícula","Ventanilla académica"],["Derecho · estudiantes regulares","1/10 (hora no indicada)","Ceremonia de ingreso y orientación del programa internacional de Derecho","El original no indica aula"],["Derecho · no regulares · inglés","1/10 (hora no indicada)","Orientación de Derecho","El original no indica aula"],["Derecho · no regulares · japonés","Desde 1/10","Ventanilla académica","Ventanilla académica"],["Letras/Humanidades · estudiantes regulares","Desde 1/10","Ventanilla académica","Ventanilla académica"],["Letras/Humanidades · no regulares","1/10 11:00","Orientación","C-419"]]},
+   "e2c3d3": {"text":"La entrega difiere entre estudiantes regulares y no regulares, como estudiantes de investigación y oyentes especiales. No se indica una fecha límite para recoger en ventanilla a partir del 1/10; no conviertas la fecha de inicio en plazo final. La confirmación del pago de matrícula se exige solo a no regulares de Educación/Entorno Humano. El aviso por correo para recoger en ventanilla si el carné no está listo se menciona solo para no regulares de GSST. No extiendas ninguna condición a otros grupos."},
+   "e2c3d4": {"items":[{"text":"Guía de consulta de tu oficina académica (canal público de contacto; no es la tabla original de entrega de carnés)","url":"https://notepm.jp/sharing/2ea39b87-b202-435c-bc50-938b9e5a9488"}]},
    "c8e67d": {
     "text": "Selección de cursos y clases"
    },
@@ -6040,7 +6060,7 @@ window.ARTICLES_BODY_I18N = {
      [
       "D3",
       "4 人ユニットシェア",
-      "23,500 円 全込み",
+      "寄宿料 10,000 円＋共益費 4,500 円＋光熱水費（ネット含む）9,000 円／月",
       "徒歩約 5 分"
      ],
      [
@@ -6055,7 +6075,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "間取りと室数：ドミトリー1・2 にはそれぞれ単間 17 ㎡ と夫婦室 43 ㎡ があります。ドミトリー2 は単間 242 室・夫婦室 20 室、ドミトリー1 は単間 549 室・夫婦室 15 室です。伊都協奏館 D3 は 4 人ユニットシェア（個室 7 ㎡＋共用 28 ㎡）です。"
    },
    "612bb9": {
-    "text": "月額費用＝寄宿料＋共益費 4,500 円です。D3 の 23,500 円には光熱水費とネット料金が含まれており、唯一の「全込み」プランです。残りの3か所は電気・ガス・水道が実費精算で、ネットは自分で指定事業者と契約する必要があります（月 2,000～3,500 円程度）。4か所とも入居時に敷金 30,000 円がかかり、退去時に返還されます。"
+    "text": "月額費用は寄宿料、共益費、各寮の規則に基づくその他の費用で構成されます。大学のページでは、D3 は寄宿料 10,000 円、共益費 4,500 円、光熱水費 9,000 円／月（ネット料金を含む）と記載されています。この内訳を他の寮に当てはめないでください。D1・D2・伊都協奏館では、入居後にネットを申し込み、別途料金が必要です。各寮の設備・手続きの違いは【携帯・ネット】を参照してください。4寮とも敷金 30,000 円が別途必要で、退去時は規定に従って返還されます。"
    },
    "a35e71": {
     "text": "**ずっと住み続けられるわけではありません。** 寮は学期ごとに再募集され、1回の入居期間は約半年です（例：2026 年 10 月期は入居日から 2027 年 3 月 15 日まで）。年に 4 月期と 10 月期の2回募集があり、期間が終わると規定に従って再申請するか退去する必要があります。長く住む予定の方は、この点を考慮に入れてください。"
@@ -6076,6 +6096,21 @@ window.ARTICLES_BODY_I18N = {
      }
     ]
    },
+   "d27e01": {"text":"入居時の設備：寮ごとに確認してから購入"},
+   "d27e02": {"text":"《08_寮の設備情報》5ページの資料と九州大学の寮公式ページに基づき、2026-09-30 時点で整理。伊都周辺のここに記載した寮のみが対象です。他キャンパス、夫婦室、異なる間取りでは設備が異なる場合があります。共用設備、貸出品、購入の提案を分けて記載しています。入居時に自室と管理担当者の案内を確認してください。"},
+   "d27e03": {"text":"Dormitory I（D1）"},
+   "d27e04": {"headers":["項目","設備・注意点"],"rows":[["室内家具","机、椅子、本棚、ベッド（下部収納付き）、靴箱、収納、エアコン、インターホン、テレビ・ネット端子。"],["台所・洗濯","IH コンロ、小型冷蔵庫。洗濯機・乾燥機は共用ランドリー。鍋、食器、日用品は別途用意。"],["貸出品","掃除機、アイロン、台車、ラバーカップ、工具。事務室で申請。数・貸出期間は管理担当者に確認。"],["カーテン","備え付けとして設備表に記載なし。購入案内には自分で用意と記載。窓を測ってから購入。"],["ネット","入居後に手続き。資料ではルーターと LAN ケーブルを推奨。申請、料金、端子、開通日は【携帯・ネット】を参照し、管理担当者に確認。"]]},
+   "d27e05": {"text":"Dormitory II（D2）"},
+   "d27e06": {"headers":["項目","設備・注意点"],"rows":[["室内家具","机、椅子、本棚、ベッド（下部収納付き）、靴箱、収納、エアコン、インターホン、テレビ・ネット端子。"],["台所","IH コンロ、冷蔵庫。"],["洗濯","2026 年後半の資料には室内洗濯機と共用洗濯機・乾燥機の両方が記載されています。一方、大学ページの単身室設備一覧には室内洗濯機がありません。資料間に差があるため、部屋ごとに管理担当者へ確認。"],["貸出品","掃除機、アイロン、台車、ラバーカップ、工具。事務室での借り方を確認。"],["カーテン","備え付けとして設備表に記載なし。購入案内には自分で用意と記載。サイズを測ってから購入。"],["ネット","入居後に手続き。資料ではルーターと LAN ケーブルを推奨。申請、料金、端子、開通日は【携帯・ネット】を参照し、管理担当者に確認。"]]},
+   "d27e07": {"text":"Dormitory III（D3）"},
+   "d27e08": {"headers":["場所","設備・注意点"],"rows":[["個室","机、椅子、収納付きベッド、エアコン、クローゼット、カーテン、テレビ・ネット端子。"],["共用ユニット","食卓と椅子 4 脚、2口 IH、両開き冷蔵庫、電子レンジ、食器棚、収納、靴箱、洗濯機、エアコン、カーテン、掃除機、インターホン、テレビ端子。掃除機は共用設備で、各個室に1台ずつあるわけではありません。"],["貸出・ネット","独立した貸出リストは資料にありません。他の物品は管理担当者へ相談。共用部に無線 LAN アクセスポイントあり。利用方法を確認してからルーター購入を検討してください。【携帯・ネット】参照。"]]},
+   "d27e09": {"text":"伊都協奏館"},
+   "d27e0a": {"headers":["項目","設備・注意点"],"rows":[["室内・台所","机、椅子、ベッド、クローゼット、エアコン、カーテン、インターホン、テレビ・ネット端子。台所に IH、冷蔵庫、オーブンレンジ。"],["洗濯","洗濯機・乾燥機は共用ランドリー。"],["貸出品","資料には掃除機、アイロン、台車、工具が記載され、事務室への申請が必要。ラバーカップの記載はなく、D1／D2 の貸出品リストを当てはめないでください。"],["ネット","大学ページでは入居後の申請と別料金が必要で、すぐ使えない場合があります。資料ではルーターと LAN ケーブルを推奨。【携帯・ネット】参照。"]]},
+   "d27e0b": {"text":"SETTLE International（セトル）"},
+   "d27e0c": {"headers":["項目","設備・注意点"],"rows":[["共通して確認できた設備","机、椅子、ベッド、クローゼット、エアコン、カーテン、台所、冷蔵庫、インターホン、テレビ・ネット。"],["洗濯・台所の資料差","共有資料は共用洗濯機・乾燥機とオーブンレンジを記載。大学ページは各室洗濯機、有料共用乾燥機、2口 IH を記載し、電子レンジは記載していません。契約した部屋を管理担当者に確認し、どちらか一方を保証とみなさないでください。"],["ベッド・寝具","大学ページではマットレスなしと記載。寝具レンタルに含まれる品を確認してから購入を検討してください。ベッド、マットレス、寝具は別項目です。"],["貸出・ネット","資料に貸出リストがないことは、借りられないという意味ではありません。必要な場合は管理担当者へ。大学ページではネット無料、資料ではルーターを推奨。部屋・契約に応じて確認。【携帯・ネット】参照。"]]},
+   "d27e0d": {"text":"入居用品：まず必需品を用意し、あとから補充"},
+   "d27e0e": {"items":[{"text":"資料には初期用のゴミ袋各1枚、トイレットペーパー1ロールとあります。少量の初期用品で、継続補給でも分別ルールでもありません。住所と物件の指定袋を確認してください。SETTLE は糸島市にあり、福岡市のゴミ袋制度をそのまま適用できません。"},{"text":"寝具セットとシーツは寝具レンタルを契約した場合のみ提供されます。契約必須か、料金、提供範囲は当期募集要項と入居案内を確認。"},{"text":"到着日はタオル、歯ブラシ、入浴用品、ティッシュ、水筒、基本的な食器、食器用洗剤、スポンジ、洗濯洗剤を用意。室内設備を先に確認して重複購入を避けてください。"},{"text":"その後、必要に応じて鍋、調味料、非常食、掃除用品・洗剤、毛布、スリッパ、指定ゴミ袋を追加。ネット・ルーターは【携帯・ネット】で確認。入居時に設備を確認し、故障は管理担当者に連絡。"},{"text":"「購入推奨」は寮備品を意味しません。「貸出リストに記載なし」も貸出禁止を意味しません。プリンターは一部ページで購入検討品として挙がるのみで、備品・貸出品ではありません。"}]},
+   "d27e0f": {"items":[{"text":"九州大学・留学生寮：設備と各寮の案内","url":"https://www.isc.kyushu-u.ac.jp/intlweb/student/housing/dormitory"}]},
    "0785ee": {
     "text": "寮の申請方法"
    },
@@ -6437,7 +6472,7 @@ window.ARTICLES_BODY_I18N = {
      [
       "D3",
       "4-person shared unit",
-      "23,500 yen all-inclusive",
+      "23,500 yen/month: 10,000 lodging + 4,500 common fee + 9,000 utilities incl. internet",
       "About 5 min on foot"
      ],
      [
@@ -6452,7 +6487,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Room types and numbers: ドミトリー1 and ドミトリー2 each offer singles of 17 ㎡ and couple units of 43 ㎡; ドミトリー2 has 242 singles and 20 couple units, while ドミトリー1 has 549 singles and 15 couple units. The 4-person shared units in 伊都協奏館 D3 consist of a 7 ㎡ private room plus 28 ㎡ of shared space."
    },
    "612bb9": {
-    "text": "Monthly fee = lodging fee (寄宿料) + common-area fee (共益費) of 4,500 円. The 23,500 円 for D3 already includes electricity, gas, water and internet, making it the only \"all-inclusive\" option; for the other three, utilities are billed by actual usage, and the internet requires a separate contract with a designated carrier (about 2,000-3,500 円/month). All four charge a deposit of 30,000 円, refundable when moving out."
+    "text": "Monthly charges comprise lodging, the common-area fee, and other costs set by each dormitory. The university page lists D3 lodging at 10,000 yen, a 4,500-yen common-area fee, and 9,000 yen/month for utilities including internet. Do not apply this cost structure to other dorms. D1, D2 and Ito Kyoso-kan require a separate internet application after move-in and charge an additional fee. See [Mobile & Net] for differences in equipment and procedures. All four also charge a 30,000-yen deposit, returned according to the rules when you move out."
    },
    "a35e71": {
     "text": "**Not a place to stay indefinitely.** Dormitories are re-opened for applications every semester, roughly half a year at a time (e.g., the October 2026 term runs from the move-in date to March 15, 2027). Applications open once for the April term and once for the October term each year, and at the end of each term residents must re-apply or move out as prescribed. This should be factored into any long-term plans."
@@ -6473,6 +6508,21 @@ window.ARTICLES_BODY_I18N = {
      }
     ]
    },
+   "d27e01": {"text":"Move-in facilities: check your dorm before buying"},
+   "d27e02": {"text":"Compiled from the five-page “08_寮の設備情報” document and Kyushu University dormitory pages, checked on 2026-09-30. Applies only to the Ito-area dorms listed here; other campuses, couple rooms and room types may differ. Shared equipment, loan items and purchase suggestions are identified separately. Confirm your own room and the manager’s instructions at move-in."},
+   "d27e03": {"text":"Dormitory I (D1)"},
+   "d27e04": {"headers":["Item","Facilities and notes"],"rows":[["Room furnishings","Desk, chair, bookshelf, bed with under-bed storage, shoe cabinet, storage cabinet, air conditioner, intercom, TV and network ports."],["Kitchen and laundry","IH cooktop and small refrigerator. Washer and dryer are in the shared laundry room. Bring cookware, tableware and everyday cleaning supplies."],["Loan items","Vacuum, iron, trolley, toilet plunger (rubber cup) and tools; request them from the office. Ask the manager about stock and loan periods."],["Curtains","Not listed as provided in the equipment list; the purchase guidance says to buy your own. Measure the window first."],["Internet","Arrange after move-in. The document suggests a router and LAN cable. See [Mobile & Net] and confirm the port, plan, fee and start date with management."]]},
+   "d27e05": {"text":"Dormitory II (D2)"},
+   "d27e06": {"headers":["Item","Facilities and notes"],"rows":[["Room furnishings","Desk, chair, bookshelf, bed with under-bed storage, shoe cabinet, storage cabinet, air conditioner, intercom, TV and network ports."],["Kitchen","IH cooktop and refrigerator."],["Laundry","A later-2026 document lists both an in-room washer and shared washers/dryers; the university page’s single-room equipment list does not list an in-room washer. Sources differ; confirm your room with management."],["Loan items","Vacuum, iron, trolley, toilet plunger and tools. Ask the office how to borrow them."],["Curtains","Not listed as provided in the equipment list; the purchase guidance says to buy your own. Measure first."],["Internet","Arrange after move-in. The document suggests a router and LAN cable. See [Mobile & Net] and confirm the port, plan, fee and start date with management."]]},
+   "d27e07": {"text":"Dormitory III (D3)"},
+   "d27e08": {"headers":["Area","Facilities and notes"],"rows":[["Private bedroom","Desk, chair, storage bed, air conditioner, wardrobe, curtains, TV and network port."],["Shared unit","Dining table and four chairs, double IH cooktop, two-door refrigerator, microwave, cupboard, storage, shoe cabinet, washer, air conditioner, curtains, vacuum, intercom and TV port. The vacuum is shared, not one per bedroom."],["Loans and internet","The source does not list a separate loan inventory; ask management about other items. A wireless LAN access point is listed in the shared area. Ask how to connect before buying a router; see [Mobile & Net]."]]},
+   "d27e09": {"text":"Ito Kyoso-kan"},
+   "d27e0a": {"headers":["Item","Facilities and notes"],"rows":[["Room and kitchen","Desk, chair, bed, wardrobe, air conditioner, curtains, intercom, TV and network port; kitchen has an IH cooktop, refrigerator and microwave oven."],["Laundry","Washer and dryer are in the shared laundry room."],["Loan items","The document lists a vacuum, iron, trolley and tools, available by request from the office. It does not list a toilet plunger; do not assume D1/D2’s loan list applies."],["Internet","The university page requires a post-arrival application and additional fee; service may not be ready immediately. The document suggests a router and LAN cable; see [Mobile & Net]."]]},
+   "d27e0b": {"text":"SETTLE International"},
+   "d27e0c": {"headers":["Item","Facilities and notes"],"rows":[["Confirmed across sources","Desk, chair, bed, wardrobe, air conditioner, curtains, kitchen, refrigerator, intercom, TV and internet."],["Laundry and kitchen differences","The shared document lists shared washers/dryers and a microwave oven. The university page lists in-room washers, a paid shared dryer and a two-burner IH cooktop, but no microwave. Confirm your room with management; neither source is a guarantee for your room."],["Bed and bedding","The university page says no mattress is provided. Check what the bedding rental includes before buying. Bed, mattress and bedding are separate items."],["Loans and internet","No loan list in the document does not prove that borrowing is unavailable; ask management. The university page says internet is free, while the document suggests a router. Confirm whether your room/contract requires your own equipment; see [Mobile & Net]."]]},
+   "d27e0d": {"text":"Move-in supplies: start with essentials, then add as needed"},
+   "d27e0e": {"items":[{"text":"The document lists one starter trash bag of each type and one toilet-paper roll. These are a small initial supply, not ongoing provisions or sorting rules. Check the designated bags for your address/property. SETTLE is in Itoshima City, so Fukuoka City’s trash-bag system does not automatically apply."},{"text":"A bedding set and sheets are supplied only if you have a bedding-rental contract. Check the current application guide and your move-in notice for whether rental is required, the fee and what is included."},{"text":"For arrival day, prepare towels, toothbrush and toothpaste, bath items, tissues, a water bottle, basic tableware, dish soap, a sponge and laundry detergent. Check the room first to avoid duplicate purchases."},{"text":"Later, add cookware, seasonings, emergency food, cleaning tools and products, a blanket, slippers and the designated trash bags as needed. Check [Mobile & Net] before buying network equipment. Inspect the room at move-in and report faults to management."},{"text":"“Recommended to buy” does not mean the dorm provides it; a blank loan list does not mean borrowing is prohibited. A printer appears as a possible purchase only on some pages, not as provided or loaned equipment."}]},
+   "d27e0f": {"items":[{"text":"Kyushu University international student dormitories: facilities and dormitory pages","url":"https://www.isc.kyushu-u.ac.jp/intlweb/student/housing/dormitory"}]},
    "0785ee": {
     "text": "Applying for Dormitories"
    },
@@ -6834,7 +6884,7 @@ window.ARTICLES_BODY_I18N = {
      [
       "D3",
       "4인 유닛 공용",
-      "23,500엔 전액 포함",
+      "월 23,500엔: 기숙료 10,000 + 공익비 4,500 + 인터넷 포함 광열수비 9,000",
       "도보 약 5분"
      ],
      [
@@ -6849,7 +6899,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "방 형태와 실수: ドミトリー1·2는 각각 싱글 17㎡와 부부실 43㎡를 갖추고 있습니다. ドミトリー2는 싱글 242실, 부부실 20실이며, ドミトリー1은 싱글 549실, 부부실 15실입니다. 이토쿄소칸(伊都協奏館) D3는 4인 유닛 공용(개인실 7㎡ + 공용 28㎡)입니다."
    },
    "612bb9": {
-    "text": "월 비용 = 기숙료(寄宿料) + 공동이익비(共益費) 4,500 円. D3의 23,500 円에는 수도·전기·가스와 인터넷 요금이 포함되어 있어 유일하게 「전액 포함」인 곳이며, 나머지 세 곳은 수도·전기·가스를 실제 사용량대로 별도 부과하고 네트워크는 지정 통신사업자와 직접 계약해야 합니다(약 2,000~3,500 円/월). 네 곳 모두 보증금 30,000 円을 별도로 징수하며 퇴거 시 반환됩니다."
+    "text": "월 비용은 기숙료, 공익비 및 기숙사별 규정에 따른 추가 비용으로 구성됩니다. 대학 페이지는 D3의 기숙료 10,000엔, 공익비 4,500엔, 인터넷 요금이 포함된 광열수비 월 9,000엔을 안내합니다. 이 비용 구조를 다른 기숙사에 일반화하지 마세요. D1·D2·이토교소칸은 입주 후 인터넷을 신청하고 별도 요금을 내야 합니다. 설비와 절차 차이는 【휴대폰·인터넷】을 확인하세요. 네 곳 모두 보증금 30,000엔을 별도로 받으며 퇴거 시 규정에 따라 반환합니다."
    },
    "a35e71": {
     "text": "**한 번 들어가면 계속 살 수 있는 것이 아닙니다.** 기숙사는 매 학기 재모집하며, 1회 기간은 약 반년입니다(예: 2026년 10월 기수는 입주일부터 2027년 3월 15일까지). 매년 4월 기수와 10월 기수가 각 한 차례 있으며, 기간이 끝나면 규정에 따라 재신청하거나 퇴거해야 합니다. 장기 거주를 계획한다면 이 점을 반드시 감안하세요."
@@ -6870,6 +6920,21 @@ window.ARTICLES_BODY_I18N = {
      }
     ]
    },
+   "d27e01": {"text":"입주 시설: 기숙사별 확인 후 구매"},
+   "d27e02": {"text":"《08_寮の設備情報》 5쪽 자료와 규슈대 기숙사 웹페이지를 바탕으로 2026-09-30에 정리했습니다. 여기 열거된 이토 주변 기숙사에만 적용됩니다. 다른 캠퍼스, 부부실 및 다른 방 유형은 설비가 다를 수 있습니다. 공용 설비, 대여품, 구매 권장품을 구분했으며 입주 시 본인 방과 관리 담당자의 안내를 확인하세요."},
+   "d27e03": {"text":"Dormitory I (D1)"},
+   "d27e04": {"headers":["항목","설비 및 참고사항"],"rows":[["방 가구","책상, 의자, 책장, 하부 수납 침대, 신발장, 수납장, 에어컨, 인터폰, TV 및 네트워크 단자."],["주방·세탁","IH 쿡탑, 소형 냉장고. 세탁기와 건조기는 공용 세탁실에 있습니다. 조리도구, 식기, 일상 청소용품은 별도 준비."],["대여품","청소기, 다리미, 손수레, 변기 뚫어뻥(라바컵), 공구. 사무실에 신청하고 재고와 대여 기간은 관리 담당자에게 확인."],["커튼","설비표에 기본 제공으로 기재되지 않았고, 구매 안내에는 직접 구입한다고 되어 있습니다. 창문을 잰 뒤 구매하세요."],["인터넷","입주 후 신청. 자료는 라우터와 LAN 케이블 준비를 권장합니다. 단자, 요금, 신청 및 개통일은 【휴대폰·인터넷】과 관리 담당자에게 확인하세요."]] },
+   "d27e05": {"text":"Dormitory II (D2)"},
+   "d27e06": {"headers":["항목","설비 및 참고사항"],"rows":[["방 가구","책상, 의자, 책장, 하부 수납 침대, 신발장, 수납장, 에어컨, 인터폰, TV 및 네트워크 단자."],["주방","IH 쿡탑과 냉장고."],["세탁","2026년 후반 자료에는 실내 세탁기와 공용 세탁기·건조기가 모두 기재되어 있습니다. 학교 웹페이지의 1인실 설비 목록에는 실내 세탁기가 없습니다. 자료가 달라 본인 방을 관리 담당자에게 확인하세요."],["대여품","청소기, 다리미, 손수레, 변기 뚫어뻥, 공구. 사무실에 대여 방법을 확인하세요."],["커튼","설비표에 기본 제공으로 기재되지 않았고 구매 안내에는 직접 준비한다고 되어 있습니다. 치수를 먼저 재세요."],["인터넷","입주 후 신청. 자료는 라우터와 LAN 케이블 준비를 권장합니다. 단자, 요금, 신청 및 개통일은 【휴대폰·인터넷】과 관리 담당자에게 확인하세요."]] },
+   "d27e07": {"text":"Dormitory III (D3)"},
+   "d27e08": {"headers":["구역","설비 및 참고사항"],"rows":[["개인 침실","책상, 의자, 수납 침대, 에어컨, 옷장, 커튼, TV 및 네트워크 단자."],["공용 유닛","식탁과 의자 4개, 2구 IH 쿡탑, 양문형 냉장고, 전자레인지, 찬장, 수납장, 신발장, 세탁기, 에어컨, 커튼, 청소기, 인터폰, TV 단자. 청소기는 공용 구역 설비이며 침실마다 있는 것은 아닙니다."],["대여·인터넷","별도 대여 목록은 자료에 없습니다. 다른 물품은 관리 담당자에게 문의하세요. 공용 공간에 무선 LAN 접속점이 있습니다. 라우터를 사기 전에 사용 방법을 확인하세요. 【휴대폰·인터넷】참조."]] },
+   "d27e09": {"text":"이토교소칸(伊都協奏館)"},
+   "d27e0a": {"headers":["항목","설비 및 참고사항"],"rows":[["방·주방","책상, 의자, 침대, 옷장, 에어컨, 커튼, 인터폰, TV 및 네트워크 단자. 주방에는 IH 쿡탑, 냉장고, 오븐 전자레인지."],["세탁","세탁기와 건조기는 공용 세탁실에 있습니다."],["대여품","자료에는 청소기, 다리미, 손수레, 공구가 기재되어 있으며 사무실에 신청합니다. 변기 뚫어뻥은 기재되지 않았으므로 D1/D2 대여 목록을 그대로 적용하지 마세요."],["인터넷","학교 웹페이지에 따르면 입주 후 신청 및 별도 요금이 필요하고 바로 사용하지 못할 수 있습니다. 자료는 라우터와 LAN 케이블을 권장합니다. 【휴대폰·인터넷】참조."]] },
+   "d27e0b": {"text":"SETTLE International (セトル)"},
+   "d27e0c": {"headers":["항목","설비 및 참고사항"],"rows":[["자료 간 확인된 설비","책상, 의자, 침대, 옷장, 에어컨, 커튼, 주방, 냉장고, 인터폰, TV와 인터넷."],["세탁·주방 자료 차이","공유 자료는 공용 세탁기·건조기와 오븐 전자레인지를 기재합니다. 학교 웹페이지에는 방별 세탁기, 유료 공용 건조기, 2구 IH 쿡탑이 있고 전자레인지는 없습니다. 입주할 방을 관리 담당자에게 확인하고 어느 한 자료도 보장으로 보지 마세요."],["침대·침구","학교 웹페이지는 매트리스가 없다고 안내합니다. 침구 대여에 포함되는 물품을 확인한 후 구매하세요. 침대, 매트리스, 침구는 서로 다른 항목입니다."],["대여·인터넷","대여 목록이 없어도 대여가 불가능하다는 뜻은 아닙니다. 필요하면 관리 담당자에게 문의하세요. 학교 웹페이지는 인터넷 무료, 자료는 라우터 준비를 권장합니다. 방과 계약에 따라 확인하세요. 【휴대폰·인터넷】참조."]] },
+   "d27e0d": {"text":"입주 물품: 필수품부터 준비하고 나중에 보충"},
+   "d27e0e": {"items":[{"text":"자료에는 초기 쓰레기봉투 종류별 1장과 화장지 1롤이 기재되어 있습니다. 소량의 초기 제공품일 뿐 계속 보충되는 물품이나 분리배출 규칙은 아닙니다. 주소와 건물의 지정 봉투를 확인하세요. SETTLE은 이토시 소재이므로 후쿠오카시 쓰레기봉투 제도를 그대로 적용할 수 없습니다."},{"text":"침구 세트와 시트는 침구 대여 계약을 한 경우에만 제공됩니다. 대여 의무 여부, 비용, 제공 범위는 해당 모집 요강과 입주 안내를 확인하세요."},{"text":"도착 당일 수건, 칫솔·치약, 목욕용품, 휴지, 물병, 기본 식기, 주방 세제, 수세미, 세탁 세제를 준비하세요. 중복 구매를 피하려면 방의 비품을 먼저 확인하세요."},{"text":"이후 필요하면 조리도구, 조미료, 비상식량, 청소도구·세제, 담요, 슬리퍼, 지정 쓰레기봉투를 추가하세요. 네트워크 장비는 【휴대폰·인터넷】을 확인한 뒤 구매하세요. 입주 시 설비를 점검하고 고장은 관리 담당자에게 연락하세요."},{"text":"‘구매 권장’은 기숙사 제공을 뜻하지 않습니다. 대여 목록에 항목이 없다고 대여 금지인 것도 아닙니다. 프린터는 일부 페이지에서 구매 고려품으로만 제시되며 비치·대여 설비가 아닙니다."}]},
+   "d27e0f": {"items":[{"text":"규슈대 유학생 기숙사: 설비 및 각 기숙사 안내","url":"https://www.isc.kyushu-u.ac.jp/intlweb/student/housing/dormitory"}]},
    "0785ee": {
     "text": "기숙사 신청 방법"
    },
@@ -7222,7 +7287,7 @@ window.ARTICLES_BODY_I18N = {
      [
       "Dormitorio 3 (D3)",
       "Unidad compartida de 4 personas",
-      "23,500 円 todo incluido",
+      "23,500 円/mes: 10,000 alojamiento + 4,500 gastos comunes + 9,000 suministros incl. internet",
       "A pie, unos 5 min"
      ],
      [
@@ -7240,7 +7305,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Cuotas y plazo de solicitud"
    },
    "612bb9": {
-    "text": "La cuota mensual = 寄宿料 (cuota de alojamiento) + 共益費 (gastos comunes) de 4,500 円. En los 23,500 円 de D3 ya están incluidos luz, agua, gas e internet; es la única opción «todo incluido». En las otras tres, los gastos de luz, agua y gas se cobran aparte según el consumo real, y el internet hay que contratarlo por cuenta propia con el operador designado (aprox. 2,000～3,500 円／mes). Las cuatro cobran además un depósito de 30,000 円, reembolsable al salir."
+    "text": "El coste mensual se compone del alojamiento, los gastos comunes y otros cargos según cada residencia. La página universitaria indica para D3: 10.000 円 de alojamiento, 4.500 円 de gastos comunes y 9.000 円 al mes de suministros (incluido internet). No extrapoles este desglose a las demás residencias. D1, D2 e Ito Kyoso-kan requieren solicitar internet después de la entrada y pagar una cuota adicional. Consulta【Móvil e internet】para ver las diferencias de equipos y trámites. Las cuatro cobran además un depósito de 30.000 円, reembolsable según las normas al dejar la residencia."
    },
    "a35e71": {
     "text": "**No es un alojamiento permanente.** Los dormitorios se vuelven a ofertar cada semestre; cada estancia dura unos seis meses (por ejemplo, el periodo de octubre de 2026 va desde la fecha de entrada hasta el 15 de marzo de 2027). Hay una convocatoria cada año para el periodo de abril y otra para el de octubre; al finalizar, hay que volver a solicitar o mudarse según lo establecido. Si piensas a largo plazo, tenlo en cuenta."
@@ -7261,6 +7326,21 @@ window.ARTICLES_BODY_I18N = {
      }
     ]
    },
+   "d27e01": {"text":"Instalaciones al entrar: comprueba la residencia antes de comprar"},
+   "d27e02": {"text":"Resumen basado en el documento de cinco páginas «08_寮の設備情報» y las páginas oficiales de las residencias de Kyushu University; comprobado el 30-09-2026. Solo se aplica a las residencias de la zona de Ito enumeradas aquí. Otras sedes, habitaciones para parejas y tipos de habitación pueden diferir. Separamos equipos comunes, artículos prestables y sugerencias de compra. Confirma tu habitación y las indicaciones de administración al entrar."},
+   "d27e03": {"text":"Dormitory I (D1)"},
+   "d27e04": {"headers":["Elemento","Instalaciones y notas"],"rows":[["Mobiliario","Escritorio, silla, estantería, cama con espacio inferior, zapatero, armario, aire acondicionado, interfono, TV y toma de red."],["Cocina y lavandería","Placa IH y nevera pequeña. Lavadora y secadora en la lavandería común. Hay que traer utensilios, vajilla y productos de limpieza diarios."],["Préstamos","Aspiradora, plancha, carrito, desatascador de inodoro (rubber cup) y herramientas; se solicitan en la oficina. Pregunta por disponibilidad y plazo al encargado."],["Cortinas","La lista de instalaciones no las incluye como equipadas; la guía de compras indica que hay que comprarlas. Mide la ventana antes."],["Internet","Se tramita después de entrar. El documento recomienda preparar router y cable LAN. Consulta【Móvil e internet】y confirma con administración el puerto, plan, coste y fecha de activación."]] },
+   "d27e05": {"text":"Dormitory II (D2)"},
+   "d27e06": {"headers":["Elemento","Instalaciones y notas"],"rows":[["Mobiliario","Escritorio, silla, estantería, cama con espacio inferior, zapatero, armario, aire acondicionado, interfono, TV y toma de red."],["Cocina","Placa IH y nevera."],["Lavandería","Un documento posterior de 2026 menciona lavadora dentro de la habitación y también lavadoras/secadoras comunes; la lista universitaria para habitaciones individuales no incluye la lavadora interior. Hay discrepancia: confirma tu habitación con administración."],["Préstamos","Aspiradora, plancha, carrito, desatascador y herramientas. Pregunta en la oficina cómo pedirlos."],["Cortinas","La lista no las incluye como equipadas; la guía de compras indica que hay que comprarlas. Mide primero."],["Internet","Se tramita después de entrar. El documento recomienda router y cable LAN. Consulta【Móvil e internet】y confirma puerto, plan, coste y activación con administración."]] },
+   "d27e07": {"text":"Dormitory III (D3)"},
+   "d27e08": {"headers":["Zona","Instalaciones y notas"],"rows":[["Dormitorio","Escritorio, silla, cama con almacenaje, aire acondicionado, armario, cortinas, TV y toma de red."],["Unidad común","Mesa y cuatro sillas, placa IH doble, nevera de dos puertas, microondas, aparador, armario, zapatero, lavadora, aire acondicionado, cortinas, aspiradora, interfono y toma de TV. La aspiradora es común, no hay una por dormitorio."],["Préstamos e internet","El documento no incluye una lista de préstamos independiente; pregunta por otros artículos. Hay un punto de acceso WLAN en la zona común. Confirma cómo usarlo antes de comprar un router; consulta【Móvil e internet】."]] },
+   "d27e09": {"text":"伊都協奏館"},
+   "d27e0a": {"headers":["Elemento","Instalaciones y notas"],"rows":[["Habitación y cocina","Escritorio, silla, cama, armario, aire acondicionado, cortinas, interfono, TV y toma de red; cocina con IH, nevera y microondas con horno."],["Lavandería","Lavadora y secadora en la lavandería común."],["Préstamos","El documento enumera aspiradora, plancha, carrito y herramientas, previa solicitud en la oficina. No incluye desatascador; no se debe aplicar la lista de D1/D2."],["Internet","La página universitaria exige solicitud después de entrar y un pago adicional; quizá no funcione de inmediato. El documento recomienda router y cable LAN; consulta【Móvil e internet】."]] },
+   "d27e0b": {"text":"SETTLE International (セトル)"},
+   "d27e0c": {"headers":["Elemento","Instalaciones y notas"],"rows":[["Coincidencias entre fuentes","Escritorio, silla, cama, armario, aire acondicionado, cortinas, cocina, nevera, interfono, TV e internet."],["Diferencias de lavandería y cocina","El documento compartido menciona lavadoras/secadoras comunes y microondas con horno. La página universitaria indica lavadora en cada habitación, secadora común de pago y placa IH doble, pero no microondas. Confirma tu habitación con administración; ninguna fuente garantiza el equipamiento de tu cuarto."],["Cama y ropa de cama","La página universitaria indica que no hay colchón. Comprueba qué incluye el alquiler de ropa de cama antes de comprar. Cama, colchón y ropa de cama son conceptos distintos."],["Préstamos e internet","Que el documento no enumere préstamos no significa que estén prohibidos; pregunta a administración. La página indica internet gratuito, mientras que el documento recomienda router. Confirma según tu habitación y contrato; consulta【Móvil e internet】."]] },
+   "d27e0d": {"text":"Artículos para entrar: empieza por lo esencial y completa después"},
+   "d27e0e": {"items":[{"text":"El documento enumera una bolsa inicial de cada tipo y un rollo de papel higiénico. Es una cantidad inicial pequeña, no un suministro continuo ni las reglas de separación. Comprueba las bolsas designadas para tu dirección y edificio. SETTLE está en la ciudad de Itoshima; no apliques automáticamente el sistema de bolsas de Fukuoka."},{"text":"El juego de cama y las sábanas solo se entregan si hay contrato de alquiler de ropa de cama. Consulta las bases vigentes y tu aviso de entrada para saber si es obligatorio, el coste y qué incluye."},{"text":"Para el primer día, prepara toallas, cepillo y pasta, artículos de baño, pañuelos, botella de agua, vajilla básica, lavavajillas, esponja y detergente para ropa. Revisa primero lo que ya hay para no comprar duplicados."},{"text":"Después añade, según necesites, ollas, condimentos, comida de emergencia, utensilios y productos de limpieza, manta, zapatillas y bolsas designadas. Consulta【Móvil e internet】antes de comprar equipo de red. Inspecciona la habitación al entrar y avisa a administración si hay fallos."},{"text":"«Se recomienda comprar» no significa que la residencia lo proporcione; que un artículo no aparezca en la lista de préstamos tampoco prohíbe pedirlo. La impresora solo aparece como posible compra en algunas páginas, no como equipo ni artículo prestable."}]},
+   "d27e0f": {"items":[{"text":"Kyushu University, residencias para estudiantes internacionales: instalaciones y páginas de cada residencia","url":"https://www.isc.kyushu-u.ac.jp/intlweb/student/housing/dormitory"}]},
    "0785ee": {
     "text": "Cómo solicitar el dormitorio"
    },
@@ -8670,73 +8750,34 @@ window.ARTICLES_BODY_I18N = {
    "6d0c07": {
     "text": "来日後、できるだけ早く国民健康保険に加入してください（手続きの順番は【入国準備・到着後の手続きの順番】を参照してください）。加入すると、診療費の自己負担は30%になります。"
    },
-   "40a340": {
-    "text": "学研災 / 学研賠（原則全員加入）"
-   },
-   "1de97f": {
-    "text": "学研災（学生教育研究災害傷害保険）は、九州大学が原則として全学生に加入を求めている傷害保険で、保険料は在学年数分をまとめて支払います。国民健康保険との役割分担は、国保が診療の医療費を負担し、学研災は「ケガによる損害」そのものを補償するというものです。"
-   },
+   "40a340": {"text":"学生保険：学研災、学研賠、留学生総合保険"},
+   "1de97f": {"text":"九州大学は原則として全学生に学研災（学生教育研究災害傷害保険）への加入を求めています。二重払いを避けるため、まず加入記録を確認してください。学研災は授業など規定された教育研究活動中のケガが主な対象です。一般の病気の診療費は国民健康保険（国保）の対象で、両者は代替できません。"},
    "dd53eb": {
-    "headers": [
-     "対象",
-     "1年保険料"
-    ],
-    "rows": [
-     [
-      "学部生（一般）",
-      "1,000 円"
-     ],
-     [
-      "医・歯・薬学部",
-      "1,020 円"
-     ],
-     [
-      "大学院各課程",
-      "450〜1,000 円"
-     ],
-     [
-      "学研賠 A 課程（一般）",
-      "340 円"
-     ],
-     [
-      "学研賠 C 課程（医療系）",
-      "500 円"
-     ],
-     [
-      "学研賠 L 課程（法科）",
-      "1,640 円"
-     ]
-    ]
+    "headers": ["制度","加入要件と主な対象","注意"],
+    "rows": [["学研災","大学は原則全学生に加入を求めます。正課、大学が認めた課外活動、学校行事など規定の場面でのケガが対象。","一般の病気は対象外。通学中などは当年度の約款を確認。"],["学研災付帯賠責（学研賠）","先に学研災への加入が必要。選択したコースと規定された教育活動での賠償責任が対象。","日常生活のすべての賠償責任が対象ではありません。コースと約款を確認。"],["インバウンド付帯学総（留学生総合保険）","留学生には加入を推奨。申込前に学研災への加入が必要。","日常生活の賠償責任や事故・疾病の保障は選択プランの約款によります。医療費が必ず全額補償されるわけではありません。"]]
    },
    "5c9577": {
     "items": [
      {
-      "text": "補償対象：正課、学校が認めた課外活動、学校行事、在学中、および通学途中"
+      "text": "学研災は、正課、大学が認めた課外活動、学校行事など規定の場面でのケガが対象です。"
      },
      {
-      "text": "給付例：入院 4,000 円／日（最長 180 日）、治療 3,000 ～ 30,000 円"
+      "text": "一般の病気は学研災の対象外です。病気の診療には国民健康保険を利用します。"
      },
      {
-      "text": "学研賠（賠償責任保険付き）の賠償限度額は 1 事故 1 億円"
+      "text": "保険料、給付額、賠償限度額、免責事項は本ガイドで推算していません。当年度の大学資料と本人の約款で確認してください。"
      }
     ]
    },
    "c636c2": {
-    "text": "学研災【疾病は対象外】―― 病気で診療を受ける場合は国民健康保険を利用します。この保険に頼らないでください。また、学研賠は学研災への加入が前提で、単独では加入できません。"
+    "text": "学研災は一般の病気を対象とせず、診療費は国民健康保険を利用します。学研賠は学研災への加入が前提で、選択コースと規定された教育活動に限り適用されます。留学生総合保険は推奨であり、加入必須ではありません。国保の代わりにはならず、給付は本人の約款によります。"
    },
-   "07daed": {
-    "items": [
-     {
-      "text": "九州大学・学生保険（学研災 / 学研賠）",
-      "url": "https://www.kyushu-u.ac.jp/ja/education/life/insurance"
-     }
-    ]
-   },
-   "ec29c8": {
-    "text": "ESP（留学生緊急支援サービス）"
-   },
+   "07daed": {"items":[{"text":"九州大学・学生保険（学研災／付帯賠責）","url":"https://www.kyushu-u.ac.jp/ja/education/life/insurance"},{"text":"留学生向け医療・日常生活総合保険（大学の案内）","url":"https://www.isc.kyushu-u.ac.jp/intlweb/student/page-019#medical_2/"},{"text":"JEES 留学生総合保険と事故申請手順","url":"https://www.jees.or.jp/gakkensai/opt-inbound/"},{"text":"JEES 事故報告・保険金請求の手順","url":"https://www.jees.or.jp/gakkensai/jiko/"}]},
+   "d3a100": {"text":"加入記録、加入証明、保険金請求の手続き"},
+   "d3a101": {"items":[{"text":"入学時に学研災へ加入済みか確認し、二重払いを避けてください。新規・途中加入の手続き、相談、保険金請求は各キャンパスの生協窓口へ。"},{"text":"実習などで加入証明が必要な場合は、学生証を持参して生協に申請します。所要時間は窓口で確認してください。"},{"text":"留学生総合保険は先に学研災へ加入し、大学の入口から Web 申請後、案内に従ってコンビニで支払います。事故時は診療・支出・事故の記録を保存し、JEES の「事故のとき」の手順に沿って所定の窓口へ連絡してください。"}]},
+   "ec29c8": {"text":"ESP：留学生向け緊急支援（医療費保険ではありません）"},
    "c05384": {
-    "text": "ESP（Emergency Secure Plan）は、九州大学の留学生が加入する緊急支援サービス（保険ではありません）です。主な内容は以下のとおりです："
+    "text": "在留資格「留学」の九州大学留学生は ESP（Emergency Secure Plan）への加入が必要です。医療・緊急連絡を支援しますが、医療費を補償する保険ではなく、診察・検査・治療・入院費の全額負担を保証しません。医療費は国保と本人の保険契約に基づきます。"
    },
    "ebdd5e": {
     "items": [
@@ -8752,7 +8793,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "77eb90": {
-    "text": "**年会費 約1,650 円**（通学傷害保険の特約を含みます。金額は当年度の案内に準じます）。オンラインで登録後、クレジットカードまたはコンビニで支払います。申請の流れは Coop / ISC からのメール案内に従ってください。"
+    "text": "会費は **1,650 円／年 × 在学年数**で、別途支払手数料がかかります。申請には日本の携帯番号が必要で、通常は来日後に手続きします。支払いは当年度の公式案内にあるクレジットカードまたはコンビニの方法を利用してください。旧 OSSMA 手引きと、2026 年秋に掲載された NEXUS 手引きで名称に差があります。公式ページ本文にも OSSMA の表記が残るため、当年度の最新手引きと申請ページを確認してください。新入生向け今季の期限は【新入生スペシャル】を参照し、在学生全員に適用しないでください。"
    },
    "f5cfed": {
     "items": [
@@ -8763,6 +8804,10 @@ window.ARTICLES_BODY_I18N = {
      {
       "text": "Global Gateway・留学生情報",
       "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student"
+     },
+     {
+      "text": "ESP 当期公式通知と申請案内",
+      "url": "https://notepm.jp/sharing/907ae8e7-4cfe-4c79-bcdd-b88a8edf630e"
      }
     ]
    },
@@ -8916,73 +8961,34 @@ window.ARTICLES_BODY_I18N = {
    "6d0c07": {
     "text": "Enroll in 国民健康保険 (national health insurance) promptly after arrival (procedure order: see 【Arrival & Entry · The Order of Things in Your First Days】). After enrollment, the patient's personal share of medical costs is 30%."
    },
-   "40a340": {
-    "text": "学研災 / 学研賠 (All Students Join in Principle)"
-   },
-   "1de97f": {
-    "text": "学研災 (学生教育研究災害傷害保険) is the accident insurance that Kyushu University in principle requires all students to join, with the premium paid in a single lump sum covering the years of enrollment. Its division of roles with 国民健康保険 (national health insurance): 国保 covers the medical costs of treatment, while 学研災 covers the injury itself — the loss caused by an accident."
-   },
+   "40a340": {"text":"Student insurance: Gakkensai, liability cover and inbound student insurance"},
+   "1de97f": {"text":"Kyushu University in principle requires all students to join Gakkensai (学生教育研究災害傷害保険). Check your enrollment record first to avoid paying twice. Gakkensai mainly covers accidental injuries during prescribed educational and research activities. National Health Insurance (NHI) covers medical costs for general illness; the two do not replace each other."},
    "dd53eb": {
-    "headers": [
-     "Category",
-     "1-Year Premium"
-    ],
-    "rows": [
-     [
-      "Undergraduate (general)",
-      "1,000 yen"
-     ],
-     [
-      "Medicine, Dentistry, and Pharmaceutical Sciences",
-      "1,020 yen"
-     ],
-     [
-      "Graduate school programs",
-      "450〜1,000 yen"
-     ],
-     [
-      "学研賠 Course A (general)",
-      "340 yen"
-     ],
-     [
-      "学研賠 Course C (medical)",
-      "500 yen"
-     ],
-     [
-      "学研賠 Course L (law)",
-      "1,640 yen"
-     ]
-    ]
+    "headers": ["Plan","Eligibility and main scope","Note"],
+    "rows": [["Gakkensai","University in principle requires all students to enroll; accidental injuries during classes, university-approved extracurricular activities, university events and other prescribed settings.","Does not cover general illness. Check current terms for commuting and other cases."],["Gakkensai supplemental liability (Gakkenbai)","Requires prior Gakkensai enrollment; covers liability during the selected course and prescribed educational activities.","Does not cover every everyday liability. Check the course and policy terms."],["Inbound supplemental student insurance","Recommended for international students; Gakkensai enrollment is required before application.","Everyday liability and accident/illness benefits depend on the selected plan. It does not mean medical expenses are always fully reimbursed."]]
    },
    "5c9577": {
     "items": [
      {
-      "text": "Coverage: regular classes, school-approved extracurricular activities, school events, periods on campus, and commuting to and from school"
+      "text": "Gakkensai covers accidental injuries in prescribed settings such as classes, university-approved extracurricular activities and university events."
      },
      {
-      "text": "Benefit examples: hospitalization 4,000 yen/day (up to 180 days), treatment 3,000 ～ 30,000 yen"
+      "text": "Gakkensai does not cover general illness; use National Health Insurance for medical visits due to illness."
      },
      {
-      "text": "学研賠 (supplementary liability insurance) compensation limit: 1 億円 per accident"
+      "text": "This guide does not estimate premiums, benefits, liability limits or exclusions. Check current university materials and your own policy."
      }
     ]
    },
    "c636c2": {
-    "text": "学研災【does not cover illness】— treatment for illness falls under 国民健康保険 (national health insurance); this insurance should not be relied on for illness. In addition, 学研賠 requires prior enrollment in 学研災; the two cannot be purchased separately."
+    "text": "Gakkensai does not cover general illness; use National Health Insurance for medical visits. Gakkenbai requires Gakkensai enrollment and applies only to the selected course and prescribed educational activities. Inbound student insurance is recommended, not mandatory, and cannot replace NHI; benefits depend on your policy terms."
    },
-   "07daed": {
-    "items": [
-     {
-      "text": "Kyushu University · Student Insurance (学研災 / 学研賠)",
-      "url": "https://www.kyushu-u.ac.jp/ja/education/life/insurance"
-     }
-    ]
-   },
-   "ec29c8": {
-    "text": "ESP (International Student Emergency Support Service)"
-   },
+   "07daed": {"items":[{"text":"Kyushu University student insurance (Gakkensai / supplemental liability)","url":"https://www.kyushu-u.ac.jp/ja/education/life/insurance"},{"text":"Healthcare and comprehensive daily-life insurance for international students (university guidance)","url":"https://www.isc.kyushu-u.ac.jp/intlweb/student/page-019#medical_2/"},{"text":"JEES inbound student insurance and accident claim procedures","url":"https://www.jees.or.jp/gakkensai/opt-inbound/"},{"text":"JEES accident report and insurance benefit claim procedure","url":"https://www.jees.or.jp/gakkensai/jiko/"}]},
+   "d3a100": {"text":"Enrollment records, proof of insurance and claims"},
+   "d3a101": {"items":[{"text":"Check whether you were already enrolled in Gakkensai at admission to avoid duplicate payment. For new or mid-year enrollment, questions and benefit claims, contact the co-op desk on your campus."},{"text":"If an internship or other activity requires proof of coverage, bring your student ID and request it from the co-op. Ask the desk how long processing takes."},{"text":"Inbound student insurance requires Gakkensai first; apply online through the university portal and pay at a convenience store as instructed. If an accident occurs, keep medical, expense and incident records and contact the designated office following JEES’s “事故のとき” procedure."}]},
+   "ec29c8": {"text":"ESP: emergency support for international students (not medical expense insurance)"},
    "c05384": {
-    "text": "ESP (Emergency Secure Plan) is an emergency support service (not insurance) that Kyushu University international students must join. It mainly provides:"
+    "text": "International students at Kyushu University with the “Student” residence status must join ESP (Emergency Secure Plan). It provides medical assistance and emergency contact support, but it is not medical expense insurance and does not reimburse or guarantee full payment of visits, tests, treatment or hospitalization. Medical expenses remain subject to NHI and your own policy."
    },
    "ebdd5e": {
     "items": [
@@ -8998,7 +9004,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "77eb90": {
-    "text": "**Annual fee: approx. 1,650 円** (includes the commuting accident insurance rider; the amount follows the current year's announcement). Register online and pay by credit card or at a convenience store; the application procedure follows the Coop / ISC email instructions."
+    "text": "The fee is **¥1,650 per year × years enrolled**, plus a payment handling fee. A Japanese mobile number is required, so application is usually after arrival. Pay by the credit-card or convenience-store method in the current official notice. The older OSSMA guide and the NEXUS guide attached to the Fall 2026 page differ in naming; OSSMA wording also remains in the page text. Check the latest guide and application page for the current version. See the 2026 Fall Newcomer Special for this intake's deadline; it does not apply to every enrolled student."
    },
    "f5cfed": {
     "items": [
@@ -9009,6 +9015,10 @@ window.ARTICLES_BODY_I18N = {
      {
       "text": "Global Gateway · International Student Information",
       "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student"
+     },
+     {
+      "text": "Current ESP notice and application guide",
+      "url": "https://notepm.jp/sharing/907ae8e7-4cfe-4c79-bcdd-b88a8edf630e"
      }
     ]
    },
@@ -9162,73 +9172,34 @@ window.ARTICLES_BODY_I18N = {
    "6d0c07": {
     "text": "일본 도착 후 가능한 한 빨리 국민건강보험 (国民健康保険)에 가입하시기 바랍니다 (가입 순서는 【입국 준비·도착 후 며칠간의 처리 순서】 참조). 가입하면 진료비 본인 부담이 30%가 됩니다."
    },
-   "40a340": {
-    "text": "学研災 / 学研賠 (원칙적으로 전원 가입)"
-   },
-   "1de97f": {
-    "text": "学研災 (学生教育研究災害傷害保険)는 九州大学가 원칙적으로 전 학생의 가입을 요구하는 상해보험으로, 보험료는 재학 연수에 따라 일시불로 납부합니다. 국민건강보험과의 분담은: 국민건강보험이 진료비를 담당하고, 学研災는 「부상으로 인한 손해」 그 자체를 담당합니다."
-   },
+   "40a340": {"text":"학생 보험: 学研災, 배상책임 및 유학생 종합보험"},
+   "1de97f": {"text":"규슈대는 원칙적으로 모든 학생에게 学研災(学生教育研究災害傷害保険) 가입을 요구합니다. 중복 납부를 피하려면 가입 기록을 먼저 확인하세요. 学研災는 정규 수업 등 정해진 교육·연구 활동 중 발생한 우발적 부상을 주로 보장합니다. 일반 질병 진료비는 국민건강보험이 적용되며 두 제도는 서로 대체할 수 없습니다."},
    "dd53eb": {
-    "headers": [
-     "대상",
-     "1년 보험료"
-    ],
-    "rows": [
-     [
-      "학부생 (일반)",
-      "1,000엔"
-     ],
-     [
-      "의·치·약학부",
-      "1,020엔"
-     ],
-     [
-      "대학원 각 과정",
-      "450〜1,000엔"
-     ],
-     [
-      "学研賠 A 코스 (일반)",
-      "340엔"
-     ],
-     [
-      "学研賠 C 코스 (의료계)",
-      "500엔"
-     ],
-     [
-      "学研賠 L 코스 (법과)",
-      "1,640엔"
-     ]
-    ]
+    "headers": ["제도","가입 조건 및 주요 범위","주의"],
+    "rows": [["学研災","대학은 원칙적으로 모든 학생의 가입을 요구합니다. 정규 수업, 대학이 인정한 과외 활동, 학교 행사 등 지정된 상황의 우발적 부상에 적용됩니다.","일반 질병은 보장하지 않습니다. 통학 등은 해당 연도 약관을 확인하세요."],["学研災 부대 배상책임보험(学研賠)","먼저 学研災에 가입해야 합니다. 선택한 코스와 정해진 교육 활동 중 배상책임에 적용됩니다.","일상생활의 모든 배상책임을 보장하지는 않습니다. 코스와 약관을 확인하세요."],["인바운드 부대 학생종합보험","유학생에게 가입을 권장하며 신청 전 学研災 가입이 필요합니다.","일상생활 배상책임 및 사고·질병 보장은 선택한 플랜의 약관에 따릅니다. 의료비 전액이 항상 환급된다는 뜻은 아닙니다."]]
    },
    "5c9577": {
     "items": [
      {
-      "text": "보장 범위: 정규 수업, 학교가 인정한 과외 활동, 학교 행사, 재학 기간 및 통학 중"
+      "text": "学研災는 정규 수업, 대학이 인정한 과외 활동, 학교 행사 등 정해진 상황에서 발생한 우발적 부상을 보장합니다."
      },
      {
-      "text": "지급 예: 입원 4,000엔/일 (최장 180일), 치료 3,000 ～ 30,000엔"
+      "text": "学研災는 일반 질병을 보장하지 않습니다. 질병 진료에는 국민건강보험을 이용하세요."
      },
      {
-      "text": "学研賠 (배상책임보험)의 배상 한도는 1 사고 1 億円"
+      "text": "보험료, 지급액, 배상 한도와 면책 사항은 이 안내서에서 추정하지 않았습니다. 해당 연도 대학 자료와 본인 약관을 확인하세요."
      }
     ]
    },
    "c636c2": {
-    "text": "学研災는 【질병 불포함】입니다. 병이 나서 진료를 받는 것은 국민건강보험에서 담당하므로, 이 보험에 기대지 마십시오. 또한 学研賠는 学研災에 먼저 가입한 후에야 가입할 수 있으며, 둘은 단독으로 가입할 수 없습니다."
+    "text": "学研災는 일반 질병을 보장하지 않으며 진료비는 국민건강보험을 이용합니다. 学研賠는 学研災 가입이 선행되어야 하고 선택한 코스와 정해진 교육 활동에만 적용됩니다. 유학생 종합보험은 권장 사항이지 의무 가입이 아니며 국민건강보험을 대체하지 않습니다. 보험금 지급은 본인 약관에 따릅니다."
    },
-   "07daed": {
-    "items": [
-     {
-      "text": "九州大学 · 학생보험 (学研災 / 学研賠)",
-      "url": "https://www.kyushu-u.ac.jp/ja/education/life/insurance"
-     }
-    ]
-   },
-   "ec29c8": {
-    "text": "ESP (유학생 긴급지원 서비스)"
-   },
+   "07daed": {"items":[{"text":"규슈대 학생 보험(学研災 / 부대 배상책임)","url":"https://www.kyushu-u.ac.jp/ja/education/life/insurance"},{"text":"유학생 의료·일상 종합보험(대학 안내)","url":"https://www.isc.kyushu-u.ac.jp/intlweb/student/page-019#medical_2/"},{"text":"JEES 유학생 종합보험 및 사고 청구 절차","url":"https://www.jees.or.jp/gakkensai/opt-inbound/"},{"text":"JEES 사고 보고와 보험금 청구 절차","url":"https://www.jees.or.jp/gakkensai/jiko/"}]},
+   "d3a100": {"text":"가입 기록, 보험 가입 증명 및 보험금 청구"},
+   "d3a101": {"items":[{"text":"입학 시 学研災에 이미 가입했는지 확인해 중복 납부를 피하세요. 신규·중도 가입, 문의와 보험금 청구는 각 캠퍼스 생협 창구에 연락하세요."},{"text":"실습 등에서 보험 가입 증명이 필요하면 학생증을 가지고 생협에 신청하세요. 처리 기간은 창구에 확인하세요."},{"text":"유학생 종합보험은 먼저 学研災에 가입한 뒤 대학 포털에서 온라인 신청하고 안내에 따라 편의점에서 납부합니다. 사고가 나면 진료·지출·사고 기록을 보관하고 JEES의 ‘事故のとき’ 절차에 따라 지정 창구에 연락하세요."}]},
+   "ec29c8": {"text":"ESP: 유학생 긴급 지원 (의료비 보험이 아닙니다)"},
    "c05384": {
-    "text": "ESP (Emergency Secure Plan)는 九州大学 유학생이 반드시 가입해야 하는 긴급지원 서비스 (보험 아님)로, 주로 다음을 제공합니다:"
+    "text": "‘유학’ 체류자격의 규슈대 유학생은 ESP(Emergency Secure Plan)에 가입해야 합니다. 의료 지원과 긴급 연락을 제공하지만 의료비 보험이 아니며 진료·검사·치료·입원비를 환급하거나 전액 부담을 보장하지 않습니다. 의료비는 국민건강보험 및 본인 보험 약관에 따릅니다."
    },
    "ebdd5e": {
     "items": [
@@ -9244,7 +9215,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "77eb90": {
-    "text": "**연회비 약 1,650 円** (통학 상해보험 특약 포함, 금액은 당해 연도 안내 기준). 온라인 등록 후 신용카드 또는 편의점에서 결제하며, 신청 절차는 Coop / ISC 메일 안내를 기준으로 합니다."
+    "text": "회비는 **연 1,650엔 × 재학 연수**이며 별도 결제 수수료가 있습니다. 일본 휴대전화 번호가 필요해 보통 입국 후 신청합니다. 해당 연도 공식 안내에 지정된 신용카드 또는 편의점 납부 방법을 이용하세요. 구 OSSMA 안내서와 2026년 가을 페이지에 첨부된 NEXUS 안내서는 명칭이 다르고, 페이지 본문에도 OSSMA 표기가 남아 있습니다. 최신 안내서와 신청 페이지에서 해당 연도 버전을 확인하세요. 이번 신입생 기한은 【신입생 특집】을 확인하고 모든 재학생에게 적용하지 마세요."
    },
    "f5cfed": {
     "items": [
@@ -9255,6 +9226,10 @@ window.ARTICLES_BODY_I18N = {
      {
       "text": "Global Gateway·유학생 정보",
       "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student"
+     },
+     {
+      "text": "ESP 해당 연도 공식 안내 및 신청 지침",
+      "url": "https://notepm.jp/sharing/907ae8e7-4cfe-4c79-bcdd-b88a8edf630e"
      }
     ]
    },
@@ -9408,72 +9383,34 @@ window.ARTICLES_BODY_I18N = {
    "6d0c07": {
     "text": "Tramita el seguro nacional de salud lo antes posible después de llegar a Japón (para el orden de los trámites, consulta «Preparación para la entrada al país · Orden de los trámites tras la llegada»). Una vez afiliado, tu parte del coste de la consulta es del 30 %."
    },
-   "40a340": {
-    "text": "学研災 / 学研賠 (todos los estudiantes deben afiliarse, en principio)"
-   },
-   "1de97f": {
-    "text": "学研災 (学生教育研究災害傷害保険) es el seguro de accidentes al que Kyudai exige, en principio, que se afilie todo el alumnado; la prima se paga de una sola vez en función de los años previstos de estudio. El reparto de funciones con el seguro nacional de salud es el siguiente: el seguro nacional cubre los gastos médicos de una consulta, mientras que 学研災 cubre el hecho mismo de sufrir una lesión."
-   },
+   "40a340": {"text":"Seguro estudiantil: Gakkensai, responsabilidad civil y seguro complementario"},
+   "1de97f": {"text":"Kyushu University exige en principio que todos sus estudiantes se afilien a Gakkensai (学生教育研究災害傷害保険). Comprueba primero tu registro de afiliación para no pagar dos veces. Gakkensai cubre principalmente lesiones accidentales durante actividades educativas o de investigación definidas. El seguro nacional de salud cubre la atención médica por enfermedades comunes; no se sustituyen entre sí."},
    "dd53eb": {
-    "headers": [
-     "Destinatarios",
-     "Prima de 1 año"
-    ],
-    "rows": [
-     [
-      "Estudiantes de grado (general)",
-      "1,000 円"
-     ],
-     [
-      "Facultades de Medicina, Odontología y Farmacia",
-      "1,020 円"
-     ],
-     [
-      "Programas de posgrado",
-      "450〜1,000 円"
-     ],
-     [
-      "学研賠 curso A (general)",
-      "340 円"
-     ],
-     [
-      "学研賠 curso C (área médica)",
-      "500 円"
-     ],
-     [
-      "学研賠 curso L (área de Derecho)",
-      "1,640 円"
-     ]
-    ]
+    "headers": ["Sistema","Requisitos y ámbito principal","Nota"],
+    "rows": [["Gakkensai","La universidad exige en principio la afiliación de todos. Cubre lesiones accidentales en clases, actividades extracurriculares aprobadas, eventos universitarios y otras situaciones definidas.","No cubre enfermedades comunes. Comprueba las condiciones vigentes para el trayecto y otros casos."],["Responsabilidad suplementaria de Gakkensai (Gakkenbai)","Requiere afiliación previa a Gakkensai; cubre responsabilidad durante el curso elegido y las actividades educativas definidas.","No cubre toda responsabilidad de la vida cotidiana. Comprueba el curso y las condiciones."],["Seguro complementario para estudiantes internacionales","Recomendado para estudiantes internacionales; antes de solicitarlo hay que afiliarse a Gakkensai.","La responsabilidad cotidiana y las prestaciones por accidente/enfermedad dependen del plan elegido. No garantiza el reembolso íntegro de gastos médicos."]]
    },
    "5c9577": {
     "items": [
      {
-      "text": "Cobertura: clases regulares, actividades extracurriculares reconocidas por la universidad, eventos escolares, el tiempo de permanencia en el centro y el trayecto hasta él"
+      "text": "Gakkensai cubre lesiones accidentales en situaciones definidas como clases, actividades extracurriculares aprobadas y eventos universitarios."
      },
      {
-      "text": "Ejemplos de prestación: hospitalización 4,000 円 al día (máximo 180 días), tratamiento 3,000 ～ 30,000 円"
+      "text": "Gakkensai no cubre enfermedades comunes; usa el seguro nacional de salud para las consultas por enfermedad."
      },
      {
-      "text": "El límite de indemnización de 学研賠 (que incluye seguro de responsabilidad civil) es de 1 億円 por accidente"
+      "text": "Esta guía no calcula primas, prestaciones, límites de responsabilidad ni exclusiones. Consulta los materiales universitarios del año y tu póliza."
      }
     ]
    },
    "c636c2": {
-    "text": "学研災 [no cubre enfermedades]: cuando enfermas y acudes al médico, lo que se aplica es el seguro nacional de salud; no cuentes con este seguro. Además, para contratar 学研賠 hay que estar afiliado primero a 学研災; no se pueden contratar por separado."
+    "text": "Gakkensai no cubre enfermedades comunes; para las consultas médicas se usa el seguro nacional de salud. Gakkenbai requiere estar afiliado a Gakkensai y solo se aplica al curso elegido y a actividades educativas definidas. El seguro complementario para estudiantes internacionales es recomendable, no obligatorio, y no sustituye al seguro nacional; las prestaciones dependen de la póliza."
    },
-   "07daed": {
-    "items": [
-     {
-      "text": "Universidad de Kyushu · Seguro estudiantil (学研災 / 学研賠)"
-     }
-    ]
-   },
-   "ec29c8": {
-    "text": "ESP (servicio de apoyo urgente para estudiantes internacionales)"
-   },
+   "07daed": {"items":[{"text":"Universidad de Kyushu: seguro estudiantil (Gakkensai / responsabilidad suplementaria)","url":"https://www.kyushu-u.ac.jp/ja/education/life/insurance"},{"text":"Seguro médico y de vida cotidiana para estudiantes internacionales (información universitaria)","url":"https://www.isc.kyushu-u.ac.jp/intlweb/student/page-019#medical_2/"},{"text":"Seguro complementario JEES y trámites de reclamación por accidente","url":"https://www.jees.or.jp/gakkensai/opt-inbound/"},{"text":"Informe de accidente y solicitud de prestaciones JEES","url":"https://www.jees.or.jp/gakkensai/jiko/"}]},
+   "d3a100": {"text":"Registro de afiliación, certificado y reclamaciones"},
+   "d3a101": {"items":[{"text":"Comprueba si ya te afiliaste a Gakkensai al matricularte para evitar pagar dos veces. Para nuevas afiliaciones o a mitad de curso, consultas y reclamaciones, contacta con la cooperativa estudiantil de tu campus."},{"text":"Si unas prácticas u otra actividad requieren un certificado de afiliación, lleva el carné de estudiante y solicítalo en la cooperativa. Pregunta cuánto tarda."},{"text":"Para el seguro complementario de estudiantes internacionales primero hay que afiliarse a Gakkensai, solicitarlo por la web del portal universitario y pagar en una tienda de conveniencia según las instrucciones. Si ocurre un accidente, guarda los registros médicos, gastos e incidente y contacta con la oficina indicada según el proceso JEES «事故のとき»."}]},
+   "ec29c8": {"text":"ESP: apoyo urgente para estudiantes internacionales (no es un seguro médico)"},
    "c05384": {
-    "text": "El ESP (Emergency Secure Plan) es un servicio de apoyo urgente (no un seguro) al que deben suscribirse los estudiantes internacionales de la Universidad de Kyushu. Ofrece principalmente:"
+    "text": "Los estudiantes internacionales de Kyushu University con estatus de residencia «Student» deben afiliarse a ESP (Emergency Secure Plan). Ofrece asistencia médica y apoyo de contacto en emergencias, pero no es un seguro de gastos médicos ni reembolsa o garantiza el pago total de consultas, pruebas, tratamientos u hospitalización. Los gastos médicos se rigen por el seguro nacional y la póliza propia."
    },
    "ebdd5e": {
     "items": [
@@ -9489,15 +9426,21 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "77eb90": {
-    "text": "**La cuota anual es de unos 1,650 円** (incluye una cobertura especial de seguro de accidentes en el trayecto al centro de estudios; el importe vigente es el de la guía del año correspondiente). Tras registrarte en línea, se paga con tarjeta de crédito o en una tienda de conveniencia; para el procedimiento de solicitud, sigue las indicaciones que Coop / ISC envían por correo electrónico."
+    "text": "La cuota es **1.650 円 al año × años de matrícula**, más una comisión de pago. Se necesita un número de móvil japonés, por lo que normalmente se solicita después de llegar. Paga con tarjeta o en una tienda de conveniencia según el aviso oficial vigente. La guía OSSMA antigua y la guía NEXUS adjunta a la página de otoño de 2026 usan nombres distintos; el texto de la página aún menciona OSSMA. Comprueba la guía y la página de solicitud del año vigente. Consulta【nuevos estudiantes】para el plazo de esta convocatoria; no se aplica a todo el alumnado actual."
    },
    "f5cfed": {
     "items": [
      {
-      "text": "Presentación de seguros como el ESP y 学研災 (Kyudai)"
+      "text": "Presentación de seguros como ESP y Gakkensai (Kyudai)",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/life/insurance/"
      },
      {
-      "text": "Global Gateway · Información para estudiantes internacionales"
+      "text": "Global Gateway · Información para estudiantes internacionales",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student"
+     },
+     {
+      "text": "Aviso y guía de solicitud ESP vigentes",
+      "url": "https://notepm.jp/sharing/907ae8e7-4cfe-4c79-bcdd-b88a8edf630e"
      }
     ]
    },
@@ -10000,14 +9943,15 @@ window.ARTICLES_BODY_I18N = {
     "text": "自宅のネット回線"
    },
    "e1b702": {
-    "text": "寮と自分で借りた部屋では事情がまったく違います。寮はネット込みではないので自分で契約し、賃貸は工事ができるかどうかを先に確認します。"
+    "text": "寮のネット環境は寮・部屋ごとに異なり、ルーターを必ず買うとは限りません。入居前に下の表を確認し、管理担当者に相談してください。賃貸は工事可能か先に確認します。"
    },
    "e1b703": {
-    "text": "寮：ネットは自分で契約"
+    "text": "寮：ネットとルーターを寮ごとに確認"
    },
    "e1b704": {
-    "text": "学生寮（伊都協奏館を含む）に**ネットは含まれていません**。利用するには指定事業者との契約が必要で、大学が示す目安は**月額 2,000 円程度**です。"
+    "text": "D1・D2・伊都協奏館は大学ページで入居後の申請と別料金が案内され、入居当日から使えるとは限りません。D3 は月 9,000 円の光熱水費にネット料金が含まれ、共用部に無線 LAN アクセスポイントがあります。利用方法は管理担当者に確認してください。SETTLE は大学ページでネット無料と案内されています。ルーター準備に関する資料の助言は別に確認し、全寮で個別契約やルーター購入が必要とは限りません。"
    },
+   "e1b70b": {"headers":["寮","ネットとルーターの準備"],"rows":[["D1","入居後に管理担当者へ申請。大学ページでは別料金、すぐ使えない場合があると案内。資料ではルーターと LAN ケーブルを推奨。端子、プラン、費用、開通日を確認。"],["D2","入居後に管理担当者へ申請。大学ページでは別料金、すぐ使えない場合があると案内。資料ではルーターと LAN ケーブルを推奨。間取りに応じて端子、プラン、費用、開通日を確認。"],["D3","大学ページでは月 9,000 円の光熱水費にネット料金を含むと案内。資料では共用部に無線 LAN アクセスポイントあり。接続方法を管理担当者に確認してからルーター購入を判断。"],["伊都協奏館","入居後に申請し別料金。すぐ使えない場合あり。資料ではルーターと LAN ケーブルを推奨。端子、プラン、費用、開通日を確認。"],["SETTLE International","大学ページではネット無料。2026 年秋の資料ではルーター準備を推奨。自室・契約に応じて設備の要否を管理担当者に確認。"]]},
    "e1b705": {
     "items": [
      {
@@ -10023,6 +9967,10 @@ window.ARTICLES_BODY_I18N = {
      {
       "text": "九州大学 学生寮（公式・費用と管理人室電話）",
       "url": "https://www.kyushu-u.ac.jp/ja/education/life/dormitory"
+     },
+     {
+      "text": "留学生宿舎公式ページ（D1／D2／D3／協奏館／SETTLE）",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/housing/dormitory"
      }
     ]
    },
@@ -10187,14 +10135,15 @@ window.ARTICLES_BODY_I18N = {
     "text": "Internet at home"
    },
    "e1b702": {
-    "text": "Dormitories and private rentals work completely differently: dorms do not include internet, so you contract it yourself; for a rental, first check whether installation is even possible."
+    "text": "Dorm internet varies by building and room, and you may not need to buy a router. Check the table below before move-in and ask management. For a private rental, first confirm whether installation work is possible."
    },
    "e1b703": {
-    "text": "Dorms: you arrange internet yourself"
+    "text": "Dorms: check internet and router needs by building"
    },
    "e1b704": {
-    "text": "Student dormitories (including Ito Kyoso-kan) do **not include internet**. You need a contract with the designated provider; the university's stated reference cost is **around 2,000 yen per month**."
+    "text": "The university page says D1, D2 and Ito Kyoso-kan require a separate internet application after move-in and an additional fee; service may not be ready on arrival day. D3's ¥9,000 monthly utilities include internet, and a wireless LAN access point is listed in the shared area; ask management how to connect. The university page lists internet as free at SETTLE. Router recommendations in the room-equipment document are separate; this does not mean every dorm requires an individual contract or router purchase."
    },
+   "e1b70b": {"headers":["Dorm","Internet and router preparation"],"rows":[["D1","Apply through management after moving in. The university page says an extra fee applies and service may not be immediate. The document suggests a router and LAN cable. Confirm port, plan, cost and activation date."],["D2","Apply through management after moving in. The university page says an extra fee applies and service may not be immediate. The document suggests a router and LAN cable. Confirm port, plan, cost and activation for your room."],["D3","The university page lists internet as included in the ¥9,000 monthly utilities. The room document lists a shared-area wireless LAN access point. Ask management how to connect before deciding whether to buy a router."],["Ito Kyoso-kan","Apply after move-in and pay an additional fee; service may not be immediate. The document suggests a router and LAN cable. Confirm port, plan, cost and activation date."],["SETTLE International","The university page lists internet as free; the Fall 2026 room document still suggests preparing a router. Ask management whether your room/contract requires your own equipment."]]},
    "e1b705": {
     "items": [
      {
@@ -10210,6 +10159,10 @@ window.ARTICLES_BODY_I18N = {
      {
       "text": "Kyushu University student dormitories (official: fees and caretaker numbers)",
       "url": "https://www.kyushu-u.ac.jp/ja/education/life/dormitory"
+     },
+     {
+      "text": "Official international student dormitory page (D1/D2/D3/Kyoso-kan/SETTLE)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/housing/dormitory"
      }
     ]
    },
@@ -10374,14 +10327,15 @@ window.ARTICLES_BODY_I18N = {
     "text": "집에서 쓰는 인터넷"
    },
    "e1b702": {
-    "text": "기숙사와 직접 빌린 집은 상황이 전혀 다릅니다. 기숙사는 인터넷이 포함되어 있지 않아 직접 계약하고, 임대 주택은 공사가 가능한지 먼저 확인해야 합니다."
+    "text": "기숙사 인터넷 환경은 건물과 방마다 다르며 라우터를 반드시 사야 하는 것도 아닙니다. 입주 전에 아래 표를 확인하고 관리 담당자에게 문의하세요. 임대주택은 공사 가능 여부를 먼저 확인해야 합니다."
    },
    "e1b703": {
-    "text": "기숙사: 인터넷은 직접 계약"
+    "text": "기숙사: 건물별 인터넷·라우터 확인"
    },
    "e1b704": {
-    "text": "학생 기숙사(이토 교소칸 포함)에는 **인터넷이 포함되어 있지 않습니다**. 이용하려면 지정 사업자와 계약해야 하며, 대학이 제시한 기준은 **월 2,000엔 정도**입니다."
+    "text": "대학 페이지에 따르면 D1·D2·이토교소칸은 입주 후 별도 신청 및 추가 요금이 필요하며 입주 당일부터 사용하지 못할 수 있습니다. D3는 월 9,000엔 광열수비에 인터넷 요금이 포함되고 공용 공간에 무선 LAN 접속점이 기재되어 있습니다. 사용 방법은 관리 담당자에게 확인하세요. SETTLE은 대학 페이지에 인터넷 무료로 안내되어 있습니다. 방 설비 자료의 라우터 권장은 별도이며, 모든 기숙사에 개별 계약이나 라우터 구매가 필요하다는 뜻은 아닙니다."
    },
+   "e1b70b": {"headers":["기숙사","인터넷·라우터 준비"],"rows":[["D1","입주 후 관리 담당자에게 신청. 대학 페이지에는 별도 요금과 즉시 사용 불가 가능성이 안내되어 있습니다. 자료는 라우터와 LAN 케이블을 권장합니다. 단자, 요금제, 비용, 개통일을 확인하세요."],["D2","입주 후 관리 담당자에게 신청. 대학 페이지에는 별도 요금과 즉시 사용 불가 가능성이 안내되어 있습니다. 자료는 라우터와 LAN 케이블을 권장합니다. 본인 방의 단자, 요금제, 비용, 개통일을 확인하세요."],["D3","대학 페이지에 월 9,000엔 광열수비에 인터넷 포함으로 기재되어 있습니다. 방 자료에는 공용 무선 LAN 접속점이 안내되어 있습니다. 라우터 구매 여부를 정하기 전 관리 담당자에게 사용 방법을 문의하세요."],["이토교소칸","입주 후 신청 및 추가 요금이 필요하며 즉시 사용하지 못할 수 있습니다. 자료는 라우터와 LAN 케이블을 권장합니다. 단자, 요금제, 비용, 개통일을 확인하세요."],["SETTLE International","대학 페이지에는 인터넷 무료로 안내되어 있습니다. 2026년 가을 방 자료는 라우터 준비를 권장합니다. 본인 방과 계약에 따라 장비 필요 여부를 관리 담당자에게 확인하세요."]]},
    "e1b705": {
     "items": [
      {
@@ -10397,6 +10351,10 @@ window.ARTICLES_BODY_I18N = {
      {
       "text": "규슈대 학생 기숙사(공식·비용 및 관리인실 전화)",
       "url": "https://www.kyushu-u.ac.jp/ja/education/life/dormitory"
+     },
+     {
+      "text": "유학생 기숙사 공식 페이지(D1/D2/D3/교소칸/SETTLE)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/housing/dormitory"
      }
     ]
    },
@@ -10492,14 +10450,15 @@ window.ARTICLES_BODY_I18N = {
     "text": "El internet de casa"
    },
    "e1b702": {
-    "text": "El internet de los dormitorios y el de una vivienda alquilada por tu cuenta son muy distintos: el dormitorio no incluye internet y hay que contratarlo por tu cuenta, mientras que en una vivienda alquilada primero hay que confirmar si se puede realizar la obra de instalación."
+    "text": "El internet de cada residencia y habitación puede variar, y no siempre hace falta comprar un router. Consulta la tabla antes de entrar y pregunta a administración. En una vivienda alquilada, confirma primero si se permiten obras."
    },
    "e1b703": {
-    "text": "Dormitorio: el internet lo contratas tú"
+    "text": "Residencias: comprueba internet y router según el edificio"
    },
    "e1b704": {
-    "text": "Los dormitorios de estudiantes (incluido 伊都協奏館) **no incluyen internet**. Para conectarte hay que contratar con la operadora designada; el precio de referencia publicado por la universidad es de **unos 2,000 円 al mes**."
+    "text": "La página universitaria indica que D1, D2 e Ito Kyoso-kan requieren una solicitud de internet después de entrar y una cuota adicional; puede que no funcione el primer día. En D3, los suministros mensuales de 9.000 円 incluyen internet y hay un punto de acceso WLAN en la zona común; pregunta a administración cómo conectarte. La página universitaria indica que SETTLE ofrece internet gratuito. Las recomendaciones de router del documento de habitaciones son independientes: no significa que todas las residencias requieran contrato individual o comprar un router."
    },
+   "e1b70b": {"headers":["Residencia","Internet y preparación del router"],"rows":[["D1","Solicítalo a administración después de entrar. La página universitaria indica cuota adicional y posible demora. El documento recomienda router y cable LAN. Confirma puerto, plan, coste y fecha de activación."],["D2","Solicítalo a administración después de entrar. La página universitaria indica cuota adicional y posible demora. El documento recomienda router y cable LAN. Confirma el puerto, plan, coste y activación de tu habitación."],["D3","La página universitaria indica que los suministros mensuales de 9.000 円 incluyen internet. El documento de habitaciones enumera un punto de acceso WLAN común. Pregunta cómo conectarte antes de decidir si necesitas un router."],["伊都協奏館","Solicítalo después de entrar y paga una cuota adicional; puede que no esté listo de inmediato. El documento recomienda router y cable LAN. Confirma puerto, plan, coste y activación."],["SETTLE International","La página universitaria indica internet gratuito; el documento de habitaciones de otoño de 2026 aun así recomienda preparar router. Pregunta a administración según tu habitación y contrato."]]},
    "e1b705": {
     "items": [
      {
@@ -10515,6 +10474,10 @@ window.ARTICLES_BODY_I18N = {
      {
       "text": "Universidad de Kyushu, dormitorios de estudiantes (oficial · costes y teléfono de la oficina del administrador)",
       "url": "https://www.kyushu-u.ac.jp/ja/education/life/dormitory"
+     },
+     {
+      "text": "Residencias oficiales para estudiantes internacionales (D1/D2/D3/Kyoso-kan/SETTLE)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/housing/dormitory"
      }
     ]
    },
@@ -16300,7 +16263,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "年金のこの一手は**毎年必ず忘れる人がいます**。流れは：住民登録 → まず区役所で「所得が基準以下による免除」→ 学生証を受け取る → **もう一度区役所へ行って**学生納付特例に切り替える。切り替えを忘れると、あとで年金の請求書が届きます。学生証は当日交付ではなく、発行にかかる日数は学府によって違います。参照【在留手続き】"
    },
    "ae843e": {
-    "text": "ESP（留学生緊急支援サービス）は九大の留学生が加入するもので、年会費はおよそ 1,650 円。受診時の三者間電話通訳、医療機関の紹介、緊急時の家族への連絡などが受けられます。これは**保険ではなく**、国民健康保険とは別のもので、両方とも必要です。参照【医療・保険】"
+    "text": "ESP（留学生緊急支援サービス）は、在留資格「留学」を持つ九州大学の学生が加入必須の緊急支援サービスです。費用は在籍年数に応じて **1,650 円／年 × 年数**となり、別途支払手数料がかかります。受診時の電話通訳、医療機関の紹介、緊急時の家族への連絡などを支援しますが、医療費を補償する保険ではなく、医療費の全額負担を保証するものでもありません。医療費は国民健康保険と本人の保険契約に基づいて扱われます。参照【医療・保険】"
    },
    "bca906": {
     "text": "カレンダーに入れておく期限"
@@ -16558,7 +16521,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "This pension step is **the one people forget every single year**. The full sequence is: resident registration → apply at the ward office for the low-income exemption → receive your student ID → **go back to the ward office** and switch to the student payment exception. Forget the switch and pension bills start arriving. Note that student IDs are not issued the same day, and how long they take differs by graduate school. See【Residence Procedures】"
    },
    "ae843e": {
-    "text": "ESP (Emergency Support for International Students) is something Kyushu University international students join, at roughly ¥1,650 a year. It provides three-way phone interpretation when you see a doctor, referrals to medical institutions, and contact with your family in an emergency. It is **not insurance** — it is separate from National Health Insurance, and you need both. See【Medical & Insurance】"
+    "text": "ESP (Emergency Support for International Students) is mandatory for Kyushu University students with the residence status “Student.” The fee is **¥1,650 per year of enrollment × the number of years**, plus a payment processing fee. It can arrange phone interpretation during medical visits, refer students to medical institutions, and contact family in an emergency. It is not insurance for medical expenses and does not reimburse or guarantee full coverage of treatment costs. Medical expenses are handled under National Health Insurance and the student's own policy. See【Medical & Insurance】"
    },
    "bca906": {
     "text": "Deadlines worth putting in your calendar"
@@ -16816,7 +16779,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "연금의 이 단계는 **매년 반드시 잊는 사람이 나옵니다**. 흐름은: 주민등록 → 먼저 구청에서 「소득 기준 이하 면제」 → 학생증 수령 → **구청에 한 번 더 가서** 학생납부특례로 전환. 전환을 잊으면 나중에 연금 고지서가 옵니다. 학생증은 당일 교부가 아니며, 발급 기간은 학부마다 다릅니다. 참조【체류 수속】"
    },
    "ae843e": {
-    "text": "ESP(유학생 긴급지원 서비스)는 규슈대 유학생이 가입하는 것으로, 연회비는 약 1,650엔입니다. 진료 시 삼자 통화 통역, 의료기관 소개, 긴급 시 가족 연락 등을 받을 수 있습니다. 이것은 **보험이 아니며**, 국민건강보험과는 별개로 둘 다 필요합니다. 참조【의료·보험】"
+    "text": "ESP(유학생 긴급지원 서비스)는 체류자격이 ‘유학’인 규슈대 학생이 반드시 가입해야 하는 긴급지원 서비스입니다. 비용은 재적 연수에 따라 **연 1,650엔 × 연수**이며, 결제 수수료가 별도로 부과됩니다. 진료 시 전화 통역, 의료기관 안내, 긴급 시 가족 연락 등을 지원하지만 의료비를 보장하는 보험은 아니며 의료비 전액 지급을 보장하지도 않습니다. 의료비는 국민건강보험과 본인의 보험 약관에 따라 처리합니다. 참조【의료·보험】"
    },
    "bca906": {
     "text": "달력에 넣어 둘 기한"
@@ -17050,7 +17013,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "El paso de la pensión **se olvida todos los años**. El proceso completo es: registro de residencia → tramitar por primera vez en la oficina del distrito la «exención por ingresos por debajo del umbral» → recibir el carné de estudiante → **volver a la oficina del distrito** para cambiar a la exención de pago para estudiantes. Si te olvidas de cambiar, luego recibirás la factura de la pensión. Ten en cuenta que el carné de estudiante no se entrega el mismo día; el tiempo de emisión varía según la facultad. Véase 【Trámites de residencia】"
    },
    "ae843e": {
-    "text": "El ESP（servicio de apoyo de emergencia para estudiantes internacionales）es de afiliación obligatoria para los estudiantes internacionales de la Universidad de Kyushu; la cuota anual es de unos 1,650 円, e incluye interpretación telefónica a tres bandas al ir al médico, información sobre instituciones médicas y contacto con la familia en emergencias. **No es un seguro**: es distinto del seguro nacional de salud, y hay que contratar los dos. Véase 【Salud y seguros】"
+    "text": "El ESP (servicio de apoyo de emergencia para estudiantes internacionales) es obligatorio para estudiantes de la Universidad de Kyushu con estatus de residencia «Estudiante». La cuota es de **1,650 円 por año de matrícula × el número de años**, más una comisión de pago. Puede organizar interpretación telefónica durante consultas médicas, derivaciones a centros médicos y contacto con la familia en emergencias. No es un seguro de gastos médicos y no reembolsa ni garantiza la cobertura total del tratamiento. Los gastos médicos se tramitan según el Seguro Nacional de Salud y la póliza personal. Véase 【Salud y seguros】"
    },
    "bca906": {
     "text": "Plazos que anotar en el calendario"
@@ -17138,7 +17101,7 @@ window.ARTICLES_BODY_I18N = {
  "guide-newcomer": {
   "ja": {
    "83b134": {
-    "text": "2026年秋入学者向けの支援情報をすべてまとめています：空港送迎、寮への入居、Wi-Fi、行政手続、オリエンテーション、銀行口座開設会、ESP。**まず日程一覧をご確認ください**、その後必要に応じてご覧ください。"
+    "text": "2026年秋入学者向けの支援情報：空港送迎、寮への入居、Wi-Fi、行政手続、オリエンテーション、銀行口座開設会、ESP。**まず日程一覧をご確認ください**。設備確認は参照【寮・住まい探し】、保険の範囲は参照【医療・保険】、学生証の受取日程は参照【学業・奨学金】。"
    },
    "9c1a2e": {
     "text": "本記事は、九州大学国際部留学課が**2026年秋季の新入留学生**向けに提供する公式支援情報をまとめたものです。原文の出典：留学課 NotePM ポータル「新入留学生サポートポータル（伊都キャンパス）」、公開日 2026-08-20。各行事の対象・日程は公式に限定されていますので、必ず本記事の記載に沿ってご確認ください。"
@@ -17833,7 +17796,7 @@ window.ARTICLES_BODY_I18N = {
   },
   "en": {
    "83b134": {
-    "text": "Complete support information for autumn 2026 entrants: airport shuttle, dormitory check-in, Wi-Fi, administrative procedures, オリエンテーション, bank account opening session, ESP. **Reviewing the schedule overview first is recommended**, then expanding each section as needed."
+    "text": "Support information for autumn 2026 entrants: airport shuttle, dormitory check-in, Wi-Fi, administrative procedures, オリエンテーション, bank account opening session and ESP. **Review the schedule overview first.** See【Dorms & Housing】 for facilities, See【Medical & Insurance】 for coverage, and See【Study & Scholarships】 for student ID pickup."
    },
    "9c1a2e": {
     "text": "This article compiles all official support information provided by Kyushu University 国際部留学課 for **new international students entering in autumn 2026**. Source: the division's NotePM portal 「新入留学生サポートポータル（伊都キャンパス）」, published 2026-08-20. Eligibility and dates for each activity are officially restricted; confirmation against the notes in this article is required."
@@ -18528,7 +18491,7 @@ window.ARTICLES_BODY_I18N = {
   },
   "ko": {
    "83b134": {
-    "text": "2026년 가을 입학생을 위한 모든 지원 정보: 공항 셔틀버스, 기숙사 입사, Wi-Fi, 행정 수속, オリエンテーション, 은행 계좌 개설회, ESP. **먼저 일정 개요를 확인한 뒤** 필요한 항목을 펼쳐 보시기 바랍니다."
+    "text": "2026년 가을 입학생을 위한 지원 정보: 공항 셔틀버스, 기숙사 입사, Wi-Fi, 행정 수속, オリエンテーション, 은행 계좌 개설회, ESP. **먼저 일정 개요를 확인하세요.** 시설은 참조【기숙사·주거】, 보험 보장 범위는 참조【의료·보험】, 학생증 수령 일정은 참조【학업·장학금】."
    },
    "9c1a2e": {
     "text": "이 글은 九州大学 国際部留学課가 **2026년 가을 신입 유학생**을 대상으로 제공하는 모든 공식 지원 정보를 정리한 것입니다. 원문 출처: 留学課 NotePM 포털 「新入留学生サポートポータル（伊都キャンパス）」, 게시일 2026-08-20. 각 행사의 대상과 날짜는 모두 공식적으로 한정되어 있으므로, 반드시 이 글에 표시된 내용을 기준으로 확인하시기 바랍니다."
@@ -19223,7 +19186,7 @@ window.ARTICLES_BODY_I18N = {
   },
   "es": {
    "83b134": {
-    "text": "Toda la información de apoyo para quienes ingresan en otoño de 2026: traslado desde el aeropuerto, entrada al dormitorio, Wi-Fi, trámites administrativos, orientación（オリエンテーション）, sesión de apertura de cuenta bancaria y ESP. **Se recomienda revisar primero el resumen del programa** y ampliar cada sección según sea necesario."
+    "text": "Información de apoyo para quienes ingresan en otoño de 2026: traslado desde el aeropuerto, entrada al dormitorio, Wi-Fi, trámites administrativos, orientación（オリエンテーション）, sesión de apertura de cuenta bancaria y ESP. **Consulta primero el resumen del programa.** Véase【Residencias y vivienda】 para las instalaciones, Véase【Salud y seguro】 para el alcance de la cobertura y Véase【Estudios y becas】 para la recogida del carné."
    },
    "9c1a2e": {
     "text": "Este artículo reúne toda la información oficial de apoyo de la oficina de estudiantes internacionales de la División Internacional de la Universidad de Kyushu dirigida a **los estudiantes internacionales de nuevo ingreso del otoño de 2026**. Fuente original: portal NotePM de la oficina de estudiantes internacionales «Portal de apoyo para estudiantes internacionales de nuevo ingreso（新入留学生サポートポータル - campus Ito, 伊都キャンパス）», publicado el 2026-08-20. Los destinatarios y las fechas de cada actividad tienen limitaciones oficiales; verifica siempre según lo indicado en este artículo."

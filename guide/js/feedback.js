@@ -132,7 +132,7 @@
     set('fbTypeLb', 'fbTypeLb', '类型');
     set('fbMsgLb', 'fbMsgLb', '具体说明');
     set('fbEmailLb', 'fbEmailLb', '联系方式（可选，便于回复）');
-    set('fbNote', 'fbNote', '提交后会跳转到确认页，随后返回本站。');
+    set('fbNote', 'fbNote', '点击发送后将在当前面板显示发送提示，不会跳转页面。');
     set('fbSend', 'fbSend', '发送');
     set('fbCancel', 'fbCancel', '取消');
     const sel = $('fbType');

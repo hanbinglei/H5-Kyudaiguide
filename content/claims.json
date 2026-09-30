@@ -108,14 +108,14 @@
       "id": "gakkensai-premium",
       "article": "guide-medical",
       "block": "dd53eb",
-      "claim": "学研災保费：学部生 1,000 円/年、医歯薬 1,020 円、大学院 450–1,000 円；学研賠 A/C/L 各 340/500/1,640 円",
+      "claim": "学研災与学研賠的当年度保费、给付金额、责任限额及除外事项须按现行条款核对；旧版按学部列出的费率已从正文撤回。",
       "sourceName": "九州大学 学生保険",
       "source": "https://www.kyushu-u.ac.jp/ja/education/life/insurance",
       "effective": null,
       "verified": null,
       "level": "unverified",
       "recheck": "P1Y",
-      "note": "按年度案内变动"
+      "note": "本次仅整理适用范围并撤回未重新核实的旧费率；未重核具体金额。按年度案内与本人所选课程条款复核。"
     },
     {
       "id": "showa-bus-fare",
@@ -212,7 +212,7 @@
       "id": "newcomer-esp-fee-2026",
       "article": "guide-newcomer",
       "block": "3b4c5d",
-      "claim": "ESP 外国人留学生等紧急安心计划会费：1年 1,650円、2年 3,300円、3年 4,950円、4年 6,600円；加入期限 2026-10-30(金)",
+      "claim": "ESP 会费为 1,650 円／年 × 在籍年数，另有支付手续费；2026 秋新入生加入期限为 2026-10-30（金）。",
       "sourceName": "九州大学国际部留学课 NotePM 门户（ESP 页面）+ ESP 官网 PDF",
       "source": "https://notepm.jp/sharing/907ae8e7-4cfe-4c79-bcdd-b88a8edf630e",
       "effective": "2026-10-01",

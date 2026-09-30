@@ -18,7 +18,7 @@
 |---|---|
 | `guide-entry.json` | 入境准备 |
 | `guide-residence.json` | 在留手续 |
-| `guide-housing.json` | 租房 |
+| `guide-housing.json` | 宿舍·租房 |
 | `guide-bank.json` | 银行·汇款 |
 | `guide-phone.json` | 手机·网络 |
 | `guide-academic.json` | 学业·奖学金 |
