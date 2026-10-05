@@ -347,6 +347,9 @@ function mergeBlocks(blocks,map){
     const nested=(b.type==='collapse'&&Array.isArray(b.blocks))?mergeBlocks(b.blocks,map):null;
     if(!tr&&!nested)return b;
     const out=Object.assign({},b,tr||{});
+    // 区间是当前语言原字符串的下标。译文未提供自身强调时，不能继承中文偏移。
+    // 缺译块仍显示中文，保留中文强调；译文显式提供 emphasis（包括空对象）则直接使用。
+    if(tr&&!Object.prototype.hasOwnProperty.call(tr,'emphasis'))delete out.emphasis;
     if(nested)out.blocks=nested;
     return out;
   });

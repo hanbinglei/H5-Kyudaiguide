@@ -296,7 +296,7 @@ const UI = {
         busRunning:'En servicio hoy', busNotRunning:'Sin servicio hoy', busRunDays:'Días de servicio',
         busLastBusGone:'El último autobús ya ha salido', busNoData:'Sin datos',
         busNote:'Se actualiza cada 30 s · Horarios según el póster oficial en PDF',
-        bus_stop_kyousoukan:'Ito Kyousoukan', bus_stop_dorm:'Dormitorio 1-3', bus_stop_settle:'SETTLE Internacional', bus_stop_gakentoshi:'Est. Kyudai-Gakkentoshi',
+        bus_stop_kyousoukan:'Ito Kyousoukan', bus_stop_dorm:'Dormitorio 1-3', bus_stop_settle:'SETTLE Internacional', bus_stop_gakkentoshi:'Est. Kyudai-Gakkentoshi',
     tour:{ open:'Cómo usarlo', skip:'Omitir', prev:'Atrás', next:'Siguiente', done:'Empezar',
       steps:{
         welcome:{t:'Guía para estudiantes internacionales del campus Ito', d:'Los trámites que tendrás tras llegar, el mapa del campus Ito y el calendario académico, en un solo lugar. Unos 30 segundos para ver cómo funciona.'},

@@ -149,11 +149,11 @@ window.ARTICLES_I18N = {
    "es": "Becas (autofinanciados y del Gobierno)"
   },
   "summary": {
-   "ja": "いま応募できる 7 件（金額・締切の一覧、募集要項のダウンロード付き）、2 つの応募ルート、日本語と併給の壁、国費外国人留学生 4 区分の月額、私費の学習奨励費 48,000 円/月。",
-   "en": "The 7 currently open calls (amounts and deadlines, with downloadable guidelines), the two application routes, the Japanese-language and double-dipping gates, the four MEXT categories and stipends, and the 48,000 JPY/month Study Incentive Grant for privately financed students.",
-   "ko": "지금 지원 가능한 7건(금액·마감 목록, 모집요강 다운로드 포함), 두 가지 지원 경로, 일본어와 중복 수급 장벽, 국비 외국인 유학생 4개 구분 월액, 사비 학습장려비 48,000엔/월.",
-   "zh": "现在能申请的 7 件（金额・截止一览，含可下载的募集要項）、两条应募路径、日语与併給门槛、国費外国人留学生 4 类别月額、私費学習奨励費 48,000 円/月。",
-   "es": "Las siete becas abiertas ahora (importes y plazos en una tabla, con las bases de convocatoria descargables), dos vías de solicitud, requisitos de japonés y compatibilidad entre becas, importes mensuales de las cuatro categorías de beca del Gobierno (MEXT) y la ayuda de estímulo al estudio de 48,000 円 al mes."
+   "ja": "2026年9月14日時点で整理した募集例7件（締切済みを含む。金額・締切・募集要項は最新公告を確認）、2つの応募ルート、日本語と併給の条件、国費留学生4区分の月額、私費の学習奨励費48,000円/月。",
+   "en": "Seven example calls compiled on 14 September 2026, including closed calls; check the latest notices for amounts, deadlines and guidelines. Also covers two application routes, language and concurrent-award requirements, four MEXT stipend categories and the 48,000-yen monthly Study Incentive Grant.",
+   "ko": "2026년 9월 14일 정리한 모집 사례 7건(마감된 건 포함, 금액·마감·모집요강은 최신 공고 확인), 두 신청 경로, 일본어·중복 수급 조건, 국비 유학생 4개 구분 월액, 사비 학습장려비 월 48,000엔.",
+   "zh": "2026 年 9 月 14 日整理的 7 件募集样本（含已截止，金额・截止与募集要項以最新公告为准）、两条应募路径、日语与併給门槛、国費外国人留学生 4 类别月額、私費学習奨励費 48,000 円/月。",
+   "es": "Siete convocatorias de ejemplo recopiladas el 14 de septiembre de 2026, incluidas algunas cerradas; consulta los avisos vigentes para importes, plazos y bases. Dos vías de solicitud, requisitos de idioma y compatibilidad, cuatro categorías MEXT y ayuda mensual de estudio de 48.000 yenes."
   }
  },
 "guide-career": {
@@ -164,10 +164,10 @@ window.ARTICLES_I18N = {
    "es": "Empleo y prácticas (estudiantes internacionales)"
   },
   "summary": {
-   "ja": "日本就活のルール（新卒一括採用・4 月入社・ポテンシャル採用）、年 1 回のスケジュール、3 つの関門（ES・SPI・面接）の難所、内定後の在留資格変更と報告義務、キャリア支援室の窓口と 12/2 企業研究フェア。",
-   "en": "How Japanese hiring works (mass new-grad hiring, April entry, potential-based selection), the once-a-year calendar, what the three gates (entry sheet, SPI, interviews) actually test, the residence-status change and reporting duty after an offer, the career office counter, and the 2 Dec company fair.",
-   "ko": "일본 취업 규칙(신졸 일괄 채용·4월 입사·포텐셜 채용), 1년에 한 번인 일정, 세 관문(ES·SPI·면접)의 난관, 내정 후 재류자격 변경과 보고 의무, 커리어지원실 창구와 12/2 기업 연구 페어.",
-   "es": "Las reglas del mercado laboral japonés (contratación conjunta de recién graduados, entrada en abril, se valoran las aptitudes), un calendario que solo se repite una vez al año, dónde se atasca cada una de las tres pruebas (ES, SPI y entrevista), el cambio de estatus de residencia y la obligación de notificar tras recibir una oferta, la oficina de apoyo profesional y la feria de empresas del 2/12."
+   "ja": "日本就活のルール（新卒一括採用・4月入社・ポテンシャル採用）、卒業年度の一般的な採用日程、3つの関門（ES・SPI・面接）、内定後の在留資格変更と報告義務、キャリア支援課の窓口と12/2企業研究フェア。",
+   "en": "How Japanese hiring works (new-graduate recruitment, April entry and potential-based selection), a common recruitment schedule for the graduation year, the three stages (entry sheet, SPI and interviews), residence-status changes and reporting after an offer, the career support office and the 2 December company fair.",
+   "ko": "일본 취업 규칙(신졸 일괄 채용·4월 입사·잠재력 중시), 일반적인 졸업 연도 채용 일정, 세 관문(ES·SPI·면접), 내정 후 재류자격 변경과 보고 의무, 커리어지원과 창구와 12/2 기업 연구 페어.",
+   "es": "Reglas de contratación japonesa (recién graduados, incorporación en abril y potencial), calendario habitual para el año de graduación, tres fases (ES, SPI y entrevista), cambio de estatus y notificación tras una oferta, oficina de apoyo profesional y feria de empresas del 2 de diciembre."
   }
  }
 };

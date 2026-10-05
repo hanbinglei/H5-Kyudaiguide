@@ -2,43 +2,123 @@
 (function(){
 function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
 
-function splitPhone(text){
-  if(typeof text!=='string')return[{type:'text',content:text||''}];
-  // REF 必须带引导词才算交叉引用 —— 正文里也有 学研災【不含疾病】 这类纯强调用法，
-  // 只认裸【】会把它误判成链接。引导词按语言给全，译本用各自语言写即可。
-  const URLRE=/(https?:\/\/[^\s)）"'，、]+)/g;
-  const TEL=/(0\d{2,4}-?\d{2,4}-?\d{3,4})/g,BOLD=/\*\*([^*]+?)\*\*/g,REF=/(?:见|参照|See|참조|Consulta|Véase|Ver)\s*【([^】]+)】/gi;
-  const marks=[];let m;
-  TEL.lastIndex=0;while((m=TEL.exec(text))!==null)marks.push({at:m.index,len:m[0].length,seg:{type:'tel',number:m[1]}});
-  BOLD.lastIndex=0;while((m=BOLD.exec(text))!==null)marks.push({at:m.index,len:m[0].length,seg:{type:'bold',content:m[1]}});
-  REF.lastIndex=0;while((m=REF.exec(text))!==null){const l=m[1];marks.push({at:m.index,len:m[0].length,seg:{type:'ref',label:l,guide:l.split('·')[0].trim()}})}
-  // 正文里直接写出的 URL 也应可点。此前只有 links 区块可点，写在 notice/warning
-  // 正文里的官方页面地址是纯文本 —— 读者看得见却点不动。
-  URLRE.lastIndex=0;while((m=URLRE.exec(text))!==null)marks.push({at:m.index,len:m[0].length,seg:{type:'url',url:m[1]}});
-  if(!marks.length)return[{type:'text',content:text}];
-  marks.sort((a,b)=>a.at-b.at);const segs=[];let last=0;
-  for(const k of marks){if(k.at<last)continue;if(k.at>last)segs.push({type:'text',content:text.slice(last,k.at)});segs.push(k.seg);last=k.at+k.len}
-  if(last<text.length)segs.push({type:'text',content:text.slice(last)});
-  if(!segs.length)segs.push({type:'text',content:text});
-  return segs;
+/** 共用强调契约：块.emphasis[fieldPath]，UTF-16 原文区间 [start,end)。
+ * 先去掉旧 ** 标记并保留原文位置，再在完整点击目标内部切样式，避免格式吞掉链接。
+ * 未知样式、越界区间及切开代理对的下标均忽略；正文从不作为 HTML 执行。 */
+function emphasisFor(block, path) {
+  const marks = block && block.emphasis && block.emphasis[path];
+  return Array.isArray(marks) ? marks : [];
 }
+/** 可选quote锁定原文片段；后台改字使偏移过期时忽略样式，旧无quote标注仍兼容。 */
+function matchesEmphasisQuote(text, mark) {
+  return !Object.prototype.hasOwnProperty.call(mark, 'quote') || mark.quote === text.slice(mark.start, mark.end);
+}
+/** 将原文与结构化强调转换为安全文字片段，tokenize 只识别已有点击元素。 */
+function styledInline(raw, marks, tokenize) {
+  const text = typeof raw === 'string' ? raw : String(raw == null ? '' : raw);
+  const valid = (Array.isArray(marks) ? marks : []).filter(m =>
+    m && ['bold', 'italic', 'underline'].includes(m.style) &&
+    Number.isInteger(m.start) && Number.isInteger(m.end) &&
+    m.start >= 0 && m.end > m.start && m.end <= text.length &&
+    !splitsSurrogate(text, m.start) && !splitsSurrogate(text, m.end) && matchesEmphasisQuote(text, m));
+  const source = [], legacy = [];
+  let visible = '', cursor = 0, match;
+  const bold = /\*\*([^*]+?)\*\*/g;
+  /** 添加可见字符，同时记录它在原字符串中的位置。 */
+  function append(from, end, isBold) {
+    for (let i = from; i < end; i++) { visible += text[i]; source.push(i); legacy.push(isBold); }
+  }
+  while ((match = bold.exec(text))) {
+    append(cursor, match.index, false);
+    append(match.index + 2, match.index + match[0].length - 2, true);
+    cursor = match.index + match[0].length;
+  }
+  append(cursor, text.length, false);
+  let offset = 0;
+  return tokenize(visible).flatMap(seg => {
+    const shown = seg.visibleText !== undefined ? seg.visibleText :
+      seg.type === 'tel' ? seg.number : seg.type === 'ref' ? '见【' + seg.label + '】' :
+      seg.type === 'place' ? seg.label : seg.type === 'url' ? seg.url : seg.content || '';
+    const from = offset + (seg.displayOffset || 0);
+    offset += seg.sourceLength === undefined ? shown.length : seg.sourceLength;
+    const parts = [];
+    // 按 Unicode 字符走，不能把 emoji 的两个 UTF-16 码元拆成两个 text 节点。
+    let at = from;
+    for (const ch of shown) {
+      const styles = { bold: !!legacy[at], italic: false, underline: false };
+      valid.forEach(m => { if (source[at] >= m.start && source[at] < m.end) styles[m.style] = true; });
+      const last = parts[parts.length - 1];
+      if (last && last.bold === styles.bold && last.italic === styles.italic && last.underline === styles.underline) last.content += ch;
+      else parts.push(Object.assign({ content: ch }, styles));
+      at += ch.length;
+    }
+    if (seg.type === 'text' || seg.type === 'bold') {
+      return parts.length ? parts.map(p => Object.assign({ type: p.bold ? 'bold' : 'text' }, p)) : [{ type: 'text', content: '' }];
+    }
+    return [Object.assign({}, seg, { parts })];
+  });
+}
+/** 检查区间边界是否位于 emoji 等 Unicode 代理对中间。 */
+function splitsSurrogate(text, index) {
+  return index > 0 && index < text.length &&
+    /[\uD800-\uDBFF]/.test(text[index - 1]) && /[\uDC00-\uDFFF]/.test(text[index]);
+}
+/** 把 URL、电话和互引识别为完整点击目标；显示文字按原文位置保留。 */
+function tokenizeInline(text){
+  const re=/\[([^\]]+)\]\((https?:\/\/[^)]+)\)|https?:\/\/[^\s)）"'，、。；：<>]+|(\+\d{1,3}-\d{1,4}-\d{3,8}|0\d{2,4}-?\d{2,4}-?\d{3,4})|(?:见|参照|See|참조|Consulta|Véase|Ver)\s*【([^】]+)】/gi;
+  const out=[];let cursor=0,m;
+  while((m=re.exec(text))){
+    if(m.index>cursor)out.push({type:'text',content:text.slice(cursor,m.index)});
+    if(m[1])out.push({type:'url',url:m[2],visibleText:m[1],sourceLength:m[0].length,displayOffset:1});
+    else if(m[3])out.push({type:'tel',number:m[3]});
+    else if(m[4])out.push({type:'ref',label:m[4],guide:m[4].split('·')[0].trim(),visibleText:m[0]});
+    else out.push({type:'url',url:m[0]});
+    cursor=re.lastIndex;
+  }
+  if(cursor<text.length)out.push({type:'text',content:text.slice(cursor)});
+  return out;
+}
+/** 兼容旧 API 与 **粗体**，新增强调只通过可选的原文区间传入。 */
+function splitPhone(text,marks){return styledInline(text,marks,tokenizeInline)}
+/** 外链只允许 HTTP(S)，转义 HTML 并不能阻止 javascript: 链接执行。 */
+function safeURL(url){return /^https?:\/\/[^\s]+$/i.test(String(url||''))?String(url):''}
 
+/** 样式标签只由白名单生成，所有正文字符先转义。 */
+function renderPart(part){
+  let html=esc(part.content||'');
+  if(part.underline)html='<u class="inline-underline">'+html+'</u>';
+  if(part.italic)html='<em class="inline-italic">'+html+'</em>';
+  if(part.bold)html='<strong class="bold">'+html+'</strong>';
+  return html;
+}
+/** 完整链接内可以叠加多个样式片段；不拆分链接地址和点击目标。 */
 function renderSegments(segs){
   return segs.map(s=>{
-    if(s.type==='text')return esc(s.content);
-    if(s.type==='bold')return`<strong class="bold">${esc(s.content)}</strong>`;
-    // 电话用真链接：手机上点了由系统弹确认框再拨号（应急篇里这一点很要紧），
-    // 桌面端没有拨号能力，由 app.js 拦下改为复制到剪贴板。
-    if(s.type==='tel')return`<a class="tel" href="tel:${esc(s.number.replace(/-/g,''))}" data-tel="${esc(s.number)}">📞 ${esc(s.number)}</a>`;
-    if(s.type==='url')return`<a class="inline-url" href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.url)}</a>`;
-    // ›单独成 span：它是装饰，不是名字的一部分 —— 分开才能把它调淡，
-    // 而 aria-label 里也不该念出来。
-    if(s.type==='ref'){const see=window.GuideI18N?window.GuideI18N.t('seeRef'):'见';const name=`${see}【${s.label}】`;return`<button class="ref" data-guide="${esc(s.guide)}" data-label="${esc(s.label)}" aria-label="${esc(name)}">${esc(name)}<span class="ref-go" aria-hidden="true">›</span></button>`;}
-    return esc(s.content||'');
+    if(s.type==='text'||s.type==='bold')return renderPart({...s,bold:s.bold||s.type==='bold'});
+    const body=(s.parts||[{content:s.visibleText!==undefined?s.visibleText:s.type==='tel'?s.number:s.type==='ref'?'见【'+s.label+'】':s.url||s.content||''}]).map(renderPart).join('');
+    if(s.type==='tel')return '<a class="tel" href="tel:'+esc(s.number.replace(/-/g,''))+'" data-tel="'+esc(s.number)+'">📞 '+body+'</a>';
+    if(s.type==='url'){
+      const url=safeURL(s.url);
+      return url?'<a class="inline-url" href="'+esc(url)+'" target="_blank" rel="noopener">'+body+'</a>':body;
+    }
+    if(s.type==='ref')return '<button class="ref" data-guide="'+esc(s.guide)+'" data-label="'+esc(s.label)+'">'+body+'<span class="ref-go" aria-hidden="true">›</span></button>';
+    return body;
   }).join('');
 }
 
-function splitNumberedList(text){
+/** 编号拆分前核对quote，再重新投影下标与quote，保持原段落的编号列表体验。 */
+function sliceEmphasis(text,marks,start,end){
+  return (Array.isArray(marks)?marks:[]).filter(m=>m&&
+    Number.isInteger(m.start)&&Number.isInteger(m.end)&&m.start>=0&&m.end>m.start&&m.end<=text.length&&
+    m.start<end&&m.end>start&&!splitsSurrogate(text,m.start)&&!splitsSurrogate(text,m.end)&&matchesEmphasisQuote(text,m))
+    .map(m=>{
+      const from=Math.max(m.start,start),to=Math.min(m.end,end);
+      const projected={start:from-start,end:to-start,style:m.style};
+      if(Object.prototype.hasOwnProperty.call(m,'quote'))projected.quote=text.slice(from,to);
+      return projected;
+    });
+}
+function splitNumberedList(text,marks){
   const re=/(\d+)\.\s+/g;const matches=[...text.matchAll(re)];
   if(matches.length<2)return null;
   const firstStart=matches[0].index;
@@ -47,9 +127,10 @@ function splitNumberedList(text){
   for(let i=0;i<matches.length;i++){
     const mm=matches[i];const cs=mm.index+mm[0].length;
     const ce=i+1<matches.length?matches[i+1].index:text.length;
-    items.push({num:mm[1],text:text.slice(cs,ce).trim(),segments:splitPhone(text.slice(cs,ce).trim())});
+    const raw=text.slice(cs,ce),content=raw.trim(),start=cs+raw.indexOf(content);
+    items.push({num:mm[1],text:content,segments:splitPhone(content,sliceEmphasis(text,marks,start,start+content.length))});
   }
-  return{prefix,items};
+  return{prefix,items,prefixMarks:sliceEmphasis(text,marks,text.indexOf(prefix),text.indexOf(prefix)+prefix.length)};
 }
 
 function normalizeBlocks(blocks){
@@ -57,11 +138,37 @@ function normalizeBlocks(blocks){
   const out=[];
   for(const b of blocks){
     if(!b||typeof b!=='object'){out.push(b);continue}
-    if(b.type==='list'){out.push({type:'list',items:(b.items||[]).map(it=>({num:it.num,text:it.text,segments:splitPhone(String(it.text||''))}))});continue}
-    if(['notice','warning','quote','community'].includes(b.type)){out.push({...b,segments:splitPhone(b.text||'')});continue}
+    if(['list','checklist','steps','links'].includes(b.type)){
+      const items=(b.items||[]).map((raw,i)=>{
+        const it=typeof raw==='string'?{text:raw}:raw||{};
+        return {...it,num:b.type==='list'?(it.num==null?i+1:it.num):it.num,
+          segments:b.type==='links'
+            ?styledInline(it.text||it.url||'',emphasisFor(b,'items.'+i+'.text'),text=>[{type:'text',content:text}])
+            :splitPhone(it.text||'',emphasisFor(b,'items.'+i+'.text')),
+          titleSegments:splitPhone(it.title||'',emphasisFor(b,'items.'+i+'.title')),
+          descSegments:splitPhone(it.desc||'',emphasisFor(b,'items.'+i+'.desc'))};
+      });
+      out.push({...b,items});continue;
+    }
+    if(b.type==='fee_table'){
+      out.push({...b,headerSegments:(b.headers||[]).map((h,i)=>splitPhone(h,emphasisFor(b,'headers.'+i))),
+        rowSegments:(b.rows||[]).map((r,i)=>r.map((c,j)=>splitPhone(c,emphasisFor(b,'rows.'+i+'.'+j))))});continue;
+    }
+    if(b.type==='collapse'){
+      out.push({...b,titleSegments:splitPhone(b.title||'展开',emphasisFor(b,'title')),blocks:normalizeBlocks(b.blocks)});continue;
+    }
+    if(['notice','warning','quote','community'].includes(b.type)){out.push({...b,segments:splitPhone(b.text||'',emphasisFor(b,'text'))});continue}
     if(b.type==='bus_live'){out.push({...b});continue}   // 数据块：结构原样保留
     if(typeof b.text!=='string'){out.push(b);continue}
     if(b.type!=='paragraph'){out.push(b);continue}
+    if(b.emphasis&&Object.keys(b.emphasis).length||/\*\*[^*]*https?:\/\/[^*]*\*\*/i.test(b.text)){
+      const numbered=splitNumberedList(b.text,emphasisFor(b,'text'));
+      if(numbered){
+        if(numbered.prefix)out.push({...b,segments:splitPhone(numbered.prefix,numbered.prefixMarks)});
+        out.push({...b,type:'list',items:numbered.items});
+      }else out.push({...b,segments:splitPhone(b.text,emphasisFor(b,'text'))});
+      continue;
+    }
     const mdLinkRe=/\[([^\]]+)\]\(([^)]+)\)/g;
     let m,lastIdx=0,hasMd=false;const segs=[];
     while((m=mdLinkRe.exec(b.text))!==null){
@@ -72,15 +179,15 @@ function normalizeBlocks(blocks){
       if(lastIdx<b.text.length)segs.push({type:'text',content:b.text.slice(lastIdx)});
       const remaining=segs.filter(s=>s.type==='text').map(s=>s.content).join('').trim();
       const links=segs.filter(s=>s.type==='link').map(s=>({text:s.text,url:s.url}));
-      if(remaining)out.push({type:'paragraph',segments:splitPhone(remaining)});
-      if(links.length)out.push({type:'links',items:links});
+      if(remaining)out.push({...b,type:'paragraph',segments:splitPhone(remaining)});
+      if(links.length)out.push({...b,type:'links',items:links});
     }else{
       const numbered=splitNumberedList(b.text);
       if(numbered){
-        if(numbered.prefix)out.push({type:'paragraph',segments:splitPhone(numbered.prefix)});
-        out.push({type:'list',items:numbered.items});
+        if(numbered.prefix)out.push({...b,type:'paragraph',segments:splitPhone(numbered.prefix)});
+        out.push({...b,type:'list',items:numbered.items});
       }else{
-        out.push({type:'paragraph',segments:splitPhone(b.text)});
+        out.push({...b,type:'paragraph',segments:splitPhone(b.text)});
       }
     }
   }
@@ -118,12 +225,19 @@ function blockToHTML(b){
   if(b.type==='notice')return`<div class="notice">📝 ${renderSegments(b.segments||splitPhone(b.text||''))}</div>`;
   if(b.type==='warning')return`<div class="warning">⚠️ ${renderSegments(b.segments||splitPhone(b.text||''))}</div>`;
   if(b.type==='community')return`<div class="notice">💬 ${renderSegments(b.segments||splitPhone(b.text||''))}</div>`;
-  if(b.type==='links'){const open=window.GuideI18N?window.GuideI18N.t('openLink'):'打开 ›';return`<div class="links">${(b.items||[]).map(it=>`<a class="link-card" href="${esc(it.url)}" target="_blank" rel="noopener"><span class="txt">${esc(it.text||it.url)}</span><span class="go">${esc(open)}</span></a>`).join('')}</div>`;}
+  if(b.type==='links'){
+    const open=window.GuideI18N?window.GuideI18N.t('openLink'):'打开 ›';
+    return '<div class="links">'+(b.items||[]).map((it,i)=>{
+      const url=safeURL(it.url),label=renderSegments(it.segments||styledInline(it.text||it.url,emphasisFor(b,'items.'+i+'.text'),text=>[{type:'text',content:text}]));
+      const content='<span class="txt">'+label+'</span><span class="go">'+esc(open)+'</span>';
+      return url?'<a class="link-card" href="'+esc(url)+'" target="_blank" rel="noopener">'+content+'</a>':'<span class="link-card">'+content+'</span>';
+    }).join('')+'</div>';
+  }
   if(b.type==='checklist')return`<div class="ar-list">${(b.items||[]).map(it=>`<div class="ar-list-item"><span class="ar-list-num">☐</span><span class="ar-list-text">${renderSegments(it.segments||splitPhone(it.text||''))}</span></div>`).join('')}</div>`;
   if(b.type==='list')return`<div class="ar-list">${(b.items||[]).map(it=>`<div class="ar-list-item"><span class="ar-list-num">${esc(it.num||'·')}</span><span class="ar-list-text">${renderSegments(it.segments||splitPhone(it.text||''))}</span></div>`).join('')}</div>`;
-  if(b.type==='steps')return`<div class="steps">${(b.items||[]).map((it,i)=>`<div class="step"><div class="step-dot">${i+1}</div><div class="step-body"><div class="step-title">${esc(it.title||'')}</div>${it.desc?`<div class="step-desc">${esc(it.desc)}</div>`:''}</div></div>`).join('')}</div>`;
-  if(b.type==='fee_table')return`<div class="table-wrap"><table class="table"><thead><tr>${(b.headers||[]).map(h=>`<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${(b.rows||[]).map(r=>`<tr>${r.map(c=>`<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
-  if(b.type==='collapse')return`<details class="notice" style="background:#fff"><summary style="cursor:pointer;font-weight:700">${esc(b.title||'展开')}</summary><div style="margin-top:8px">${(b.blocks||[]).map(ib=>blockToHTML(ib)).join('')}</div></details>`;
+  if(b.type==='steps')return`<div class="steps">${(b.items||[]).map((it,i)=>`<div class="step"><div class="step-dot">${i+1}</div><div class="step-body"><div class="step-title">${renderSegments(it.titleSegments||splitPhone(it.title||''))}</div>${it.desc?`<div class="step-desc">${renderSegments(it.descSegments||splitPhone(it.desc))}</div>`:''}</div></div>`).join('')}</div>`;
+  if(b.type==='fee_table')return`<div class="table-wrap"><table class="table"><thead><tr>${(b.headerSegments||(b.headers||[]).map(h=>splitPhone(h))).map(s=>`<th>${renderSegments(s)}</th>`).join('')}</tr></thead><tbody>${(b.rowSegments||(b.rows||[]).map(r=>r.map(c=>splitPhone(c)))).map(r=>`<tr>${r.map(s=>`<td>${renderSegments(s)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+  if(b.type==='collapse')return`<details class="notice" style="background:#fff"><summary style="cursor:pointer;font-weight:700">${renderSegments(b.titleSegments||splitPhone(b.title||'展开'))}</summary><div style="margin-top:8px">${(b.blocks||[]).map(ib=>blockToHTML(ib)).join('')}</div></details>`;
   if(b.type==='image'){
     const cap = b.caption ? `<figcaption>${esc(b.caption)}</figcaption>` : '';
     return `<figure class="ar-figure" data-blk="${esc(b.id||'')}">`
@@ -219,7 +333,7 @@ function renderSources(container){
   return sec;
 }
 
-window.GuideRender={renderBlocks,normalizeBlocks,splitPhone,renderSources};
+window.GuideRender={renderBlocks,normalizeBlocks,splitPhone,renderSegments,renderSources};
 })();
 
 

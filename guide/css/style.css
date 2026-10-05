@@ -108,6 +108,14 @@ body.modal-open{overflow:hidden}
      white-space:nowrap}  /* 「见【交通】›」被折行拆开就读不出它是一个整体 */
 .ref-go{font-weight:700;opacity:.5}
 .bold{font-weight:700;color:#1a1a1a}
+/* 强调不引入不可换行容器；链接内的字形与正文使用同一组规则。 */
+.inline-italic{font-style:italic}
+.inline-underline{text-decoration:underline;text-underline-offset:.12em}
+.step-body,.ar-list-text{min-width:0;overflow-wrap:anywhere}
+.article-body .ref{max-width:100%;white-space:normal;overflow-wrap:anywhere}
+.article-body .tel{max-width:100%;white-space:normal;overflow-wrap:anywhere}
+.article-body .table{table-layout:fixed}
+.article-body .table th,.article-body .table td{overflow-wrap:anywhere}
 .ar-list{margin:10px 0;display:grid;gap:6px}
 .ar-list-item{display:flex;gap:8px;align-items:flex-start}
 .ar-list-num{flex-shrink:0;color:var(--accent);font-weight:700;min-width:24px}

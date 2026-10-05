@@ -71,11 +71,105 @@ window.ARTICLES_BODY_I18N = {
      }
     ]
    },
-   "e2c3d0": {"text":"2026年秋・学生証の受取：所属・身分別に確認"},
-   "e2c3d1": {"text":"2026-09-11付「学生証配付について」に基づく一覧です。経済、地球社会、教育・人間環境、法学、文・人文の5所属の通知に記載された12の身分のみを対象とし、全学・4キャンパス共通の日程ではありません。表に記載された対象者は入学式前に受け取れません。変更や具体的な時刻・教室は本人の所属学部／学府の通知を確認してください。時刻・教室の記載がない箇所は推測していません。"},
-   "e2c3d2": {"headers":["所属・身分","2026年の日時","受取方法","場所"],"rows":[["経済・正課生","9/30 14:00","経済学部入学式","E-E-109"],["経済・特別聴講学生","9/30 13:00","履修説明会","E-E-103"],["経済・研究生","9/30 14:00","資料配付","E-E-102"],["地球社会・正課生","10/2 13:30","入学式","E-B-112"],["地球社会・非正課生","9/30 14:00","新入生ガイダンス。未作成の場合は窓口受取のメール連絡","E-B-112"],["教育・人間環境・正課生","10/2（時刻記載なし）","Orientation","原資料に教室記載なし"],["教育・人間環境・非正課生","10/1から（暫定）","教務窓口。メール連絡。授業料の支払確認が必要","教務窓口"],["法学・正課生","10/1（時刻記載なし）","法学国際コース入学式・Orientation","原資料に教室記載なし"],["法学・非正課生・英語","10/1（時刻記載なし）","法学 Orientation","原資料に教室記載なし"],["法学・非正課生・日本語","10/1から","教務窓口","教務窓口"],["文・人文・正課生","10/1から","教務窓口","教務窓口"],["文・人文・非正課生","10/1 11:00","Orientation","C-419"]]},
-   "e2c3d3": {"text":"正課生と研究生・特別聴講学生など非正課生では受取方法が異なります。10/1からの窓口対応に締切日の記載はないため、開始日を締切日とみなさないでください。授業料の支払確認が必要なのは教育・人間環境の非正課生のみです。カード未作成の場合に窓口受取のメールを送ると記載されているのは地球社会の非正課生のみです。他の身分に適用しないでください。"},
-   "e2c3d4": {"items":[{"text":"所属学務窓口の相談案内（公開相談先。学生証一覧表の原資料ではありません）","url":"https://notepm.jp/sharing/2ea39b87-b202-435c-bc50-938b9e5a9488"}]},
+   "e2c3d0": {
+    "text": "2026年秋・学生証の受取：所属・身分別に確認"
+   },
+   "e2c3d1": {
+    "text": "2026-09-11付「学生証配付について」に基づく一覧です。経済、地球社会、教育・人間環境、法学、文・人文の5所属の通知に記載された12の身分のみを対象とし、全学・4キャンパス共通の日程ではありません。表に記載された対象者は入学式前に受け取れません。変更や具体的な時刻・教室は本人の所属学部／学府の通知を確認してください。時刻・教室の記載がない箇所は推測していません。"
+   },
+   "e2c3d2": {
+    "headers": [
+     "所属・身分",
+     "2026年の日時",
+     "受取方法",
+     "場所"
+    ],
+    "rows": [
+     [
+      "経済・正課生",
+      "9/30 14:00",
+      "経済学部入学式",
+      "E-E-109"
+     ],
+     [
+      "経済・特別聴講学生",
+      "9/30 13:00",
+      "履修説明会",
+      "E-E-103"
+     ],
+     [
+      "経済・研究生",
+      "9/30 14:00",
+      "資料配付",
+      "E-E-102"
+     ],
+     [
+      "地球社会・正課生",
+      "10/2 13:30",
+      "入学式",
+      "E-B-112"
+     ],
+     [
+      "地球社会・非正課生",
+      "9/30 14:00",
+      "新入生ガイダンス。未作成の場合は窓口受取のメール連絡",
+      "E-B-112"
+     ],
+     [
+      "教育・人間環境・正課生",
+      "10/2（時刻記載なし）",
+      "Orientation",
+      "原資料に教室記載なし"
+     ],
+     [
+      "教育・人間環境・非正課生",
+      "10/1から（暫定）",
+      "教務窓口。メール連絡。授業料の支払確認が必要",
+      "教務窓口"
+     ],
+     [
+      "法学・正課生",
+      "10/1（時刻記載なし）",
+      "法学国際コース入学式・Orientation",
+      "原資料に教室記載なし"
+     ],
+     [
+      "法学・非正課生・英語",
+      "10/1（時刻記載なし）",
+      "法学 Orientation",
+      "原資料に教室記載なし"
+     ],
+     [
+      "法学・非正課生・日本語",
+      "10/1から",
+      "教務窓口",
+      "教務窓口"
+     ],
+     [
+      "文・人文・正課生",
+      "10/1から",
+      "教務窓口",
+      "教務窓口"
+     ],
+     [
+      "文・人文・非正課生",
+      "10/1 11:00",
+      "Orientation",
+      "C-419"
+     ]
+    ]
+   },
+   "e2c3d3": {
+    "text": "正課生と研究生・特別聴講学生など非正課生では受取方法が異なります。10/1からの窓口対応に締切日の記載はないため、開始日を締切日とみなさないでください。授業料の支払確認が必要なのは教育・人間環境の非正課生のみです。カード未作成の場合に窓口受取のメールを送ると記載されているのは地球社会の非正課生のみです。他の身分に適用しないでください。"
+   },
+   "e2c3d4": {
+    "items": [
+     {
+      "text": "所属学務窓口の相談案内（公開相談先。学生証一覧表の原資料ではありません）",
+      "url": "https://notepm.jp/sharing/2ea39b87-b202-435c-bc50-938b9e5a9488"
+     }
+    ]
+   },
    "c8e67d": {
     "text": "履修と授業"
    },
@@ -100,7 +194,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "九大を直接受験する場合、先に教授へ連絡が必要か"
    },
    "acc4f9": {
-    "text": "必要です。まず教授に連絡し、受け入れの意思を確認してから受験してください。 これは教授が外国人学生を受け入れるかどうか、研究室に枠があるかどうかに関わります —— 試験に合格しても、枠がなければ入学できないことがあります。学部の GPA だけで決まるわけではなく、主に教授の判断によります。情報系の一部の専攻では内諾が不要ですが、それでも事前に連絡して確認することをおすすめします。"
+    "text": "まず志望専攻の募集要項で、教員への事前連絡や内諾が必要か確認してください。必要な場合は受入意思と研究室の空きを確認してから出願します。学部の成績だけでなく受入判断も重要です。過去の経験では一部の情報系専攻は内諾不要とされていますが、事前確認をおすすめします。一専攻の規則を全専攻に当てはめないでください。"
    },
    "6be666": {
     "text": "指導教員が定年退職に近い場合"
@@ -124,7 +218,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "RA（リサーチアシスタント）"
    },
    "fbd83d": {
-    "text": "九大の RA は全学で基準が統一されており、数学系ではおよそ 44,000 円/月との声があります（経験値で、部局や年度によって異なる場合があります）。RA は適切な研究課題があって初めて申請でき、誰でも得られるものではなく競争もそれなりにあります。ネット上の収入のスクリーンショットは一般的な水準を表すものではないので、参考程度に。"
+    "text": "RAの金額は所属部局と当年度の条件で確認してください。過去に数学分野で月約44,000円との声がありますが、経験上の参考であり全学共通ではありません。適した研究課題が必要で、誰でも採用されるわけではありません。ネット上の収入紹介も一般的な水準とは限りません。"
    },
    "853a53": {
     "text": "私費留学生向けの奨学金"
@@ -547,11 +641,105 @@ window.ARTICLES_BODY_I18N = {
      }
     ]
    },
-   "e2c3d0": {"text":"Fall 2026 student ID pickup: check by affiliation and status"},
-   "e2c3d1": {"text":"Based on “学生証配付について” dated 2026-09-11. It covers only the 12 status groups in notices from five affiliations: Economics, GSST, Education/Human-Environment, Law, and Literature/Humanities. It is not a university-wide or four-campus schedule. People listed in this table cannot collect their card before the entrance ceremony. For changes and specific times or rooms, follow your own faculty/graduate school notice. No unstated time or room is inferred."},
-   "e2c3d2": {"headers":["Affiliation and status","2026 date/time","Pickup arrangement","Location"],"rows":[["Economics · regular students","9/30 14:00","Economics entrance ceremony","E-E-109"],["Economics · special auditors","9/30 13:00","Course registration briefing","E-E-103"],["Economics · research students","9/30 14:00","Document distribution","E-E-102"],["GSST · regular students","10/2 13:30","Entrance ceremony","E-B-112"],["GSST · non-regular students","9/30 14:00","New student guidance; if the card is not ready, an email will tell you to collect it at the office","E-B-112"],["Education/Human-Environment · regular students","10/2 (time not listed)","Orientation","No room listed in source"],["Education/Human-Environment · non-regular students","From 10/1 (tentative)","Academic office; email notice; tuition payment must be confirmed","Academic office"],["Law · regular students","10/1 (time not listed)","Law international-program entrance ceremony and orientation","No room listed in source"],["Law · non-regular · English","10/1 (time not listed)","Law orientation","No room listed in source"],["Law · non-regular · Japanese","From 10/1","Academic office","Academic office"],["Literature/Humanities · regular students","From 10/1","Academic office","Academic office"],["Literature/Humanities · non-regular students","10/1 11:00","Orientation","C-419"]]},
-   "e2c3d3": {"text":"Pickup arrangements differ between regular students and non-regular students such as research students or special auditors. No cutoff date is given for office pickup starting 10/1, so do not treat the start date as a deadline. Tuition-payment confirmation applies only to non-regular students in Education/Human-Environment. An email directing students with an unmade card to office pickup is stated only for non-regular GSST students. Do not extend either condition to other groups."},
-   "e2c3d4": {"items":[{"text":"Consultation guide for your academic office (public contact route; not the original student ID schedule)","url":"https://notepm.jp/sharing/2ea39b87-b202-435c-bc50-938b9e5a9488"}]},
+   "e2c3d0": {
+    "text": "Fall 2026 student ID pickup: check by affiliation and status"
+   },
+   "e2c3d1": {
+    "text": "Based on “学生証配付について” dated 2026-09-11. It covers only the 12 status groups in notices from five affiliations: Economics, GSST, Education/Human-Environment, Law, and Literature/Humanities. It is not a university-wide or four-campus schedule. People listed in this table cannot collect their card before the entrance ceremony. For changes and specific times or rooms, follow your own faculty/graduate school notice. No unstated time or room is inferred."
+   },
+   "e2c3d2": {
+    "headers": [
+     "Affiliation and status",
+     "2026 date/time",
+     "Pickup arrangement",
+     "Location"
+    ],
+    "rows": [
+     [
+      "Economics · regular students",
+      "9/30 14:00",
+      "Economics entrance ceremony",
+      "E-E-109"
+     ],
+     [
+      "Economics · special auditors",
+      "9/30 13:00",
+      "Course registration briefing",
+      "E-E-103"
+     ],
+     [
+      "Economics · research students",
+      "9/30 14:00",
+      "Document distribution",
+      "E-E-102"
+     ],
+     [
+      "GSST · regular students",
+      "10/2 13:30",
+      "Entrance ceremony",
+      "E-B-112"
+     ],
+     [
+      "GSST · non-regular students",
+      "9/30 14:00",
+      "New student guidance; if the card is not ready, an email will tell you to collect it at the office",
+      "E-B-112"
+     ],
+     [
+      "Education/Human-Environment · regular students",
+      "10/2 (time not listed)",
+      "Orientation",
+      "No room listed in source"
+     ],
+     [
+      "Education/Human-Environment · non-regular students",
+      "From 10/1 (tentative)",
+      "Academic office; email notice; tuition payment must be confirmed",
+      "Academic office"
+     ],
+     [
+      "Law · regular students",
+      "10/1 (time not listed)",
+      "Law international-program entrance ceremony and orientation",
+      "No room listed in source"
+     ],
+     [
+      "Law · non-regular · English",
+      "10/1 (time not listed)",
+      "Law orientation",
+      "No room listed in source"
+     ],
+     [
+      "Law · non-regular · Japanese",
+      "From 10/1",
+      "Academic office",
+      "Academic office"
+     ],
+     [
+      "Literature/Humanities · regular students",
+      "From 10/1",
+      "Academic office",
+      "Academic office"
+     ],
+     [
+      "Literature/Humanities · non-regular students",
+      "10/1 11:00",
+      "Orientation",
+      "C-419"
+     ]
+    ]
+   },
+   "e2c3d3": {
+    "text": "Pickup arrangements differ between regular students and non-regular students such as research students or special auditors. No cutoff date is given for office pickup starting 10/1, so do not treat the start date as a deadline. Tuition-payment confirmation applies only to non-regular students in Education/Human-Environment. An email directing students with an unmade card to office pickup is stated only for non-regular GSST students. Do not extend either condition to other groups."
+   },
+   "e2c3d4": {
+    "items": [
+     {
+      "text": "Consultation guide for your academic office (public contact route; not the original student ID schedule)",
+      "url": "https://notepm.jp/sharing/2ea39b87-b202-435c-bc50-938b9e5a9488"
+     }
+    ]
+   },
    "c8e67d": {
     "text": "Course Registration"
    },
@@ -576,7 +764,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Do you need to contact a professor before sitting the entrance exam?"
    },
    "acc4f9": {
-    "text": "Yes. You must contact a professor and confirm they are willing to take you before sitting the exam. This bears on whether the professor accepts international students and whether the lab has a place — even if you pass the exam, without a place you may not be able to enrol. Undergraduate GPA is not the only factor; it comes down largely to the professor’s judgement. A few informatics programs do not require prior consent, but contacting them in advance is still advisable."
+    "text": "Check your target programme's admission guidelines first to see whether advance contact or a supervisor's agreement is required. If it is, confirm willingness to accept you and lab capacity before applying. Undergraduate grades are not the only factor; the acceptance decision also matters. Existing experience notes that some information-science programmes do not require prior agreement, but checking ahead is still recommended. Do not apply one programme's rules to all programmes."
    },
    "6be666": {
     "text": "If your supervisor is nearing retirement"
@@ -600,7 +788,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "RA (Research Assistant)"
    },
    "fbd83d": {
-    "text": "Kyudai applies a university-wide standard for RA positions; in mathematics, students report around ¥44,000 a month (an experience-based figure that may differ by department and year). An RA position requires a suitable research topic and is not available to everyone — competition is real. Income screenshots circulating online do not represent the typical level; treat them as anecdote."
+    "text": "Check RA pay with your department for the current year. Past feedback from mathematics mentioned about 44,000 yen a month, as an experience-based reference rather than a university-wide rate. A suitable research topic is needed and positions are not available to everyone. Income posts online do not establish typical earnings either."
    },
    "853a53": {
     "text": "Scholarships for self-funded international students"
@@ -1023,11 +1211,105 @@ window.ARTICLES_BODY_I18N = {
      }
     ]
    },
-   "e2c3d0": {"text":"2026년 가을 학생증 수령: 소속·신분별 확인"},
-   "e2c3d1": {"text":"2026-09-11자 「学生証配付について」를 기준으로 정리했습니다. 경제, 지구사회, 교육·인간환경, 법학, 문·인문 등 5개 소속 공지에 기재된 12개 신분만 포함하며, 전교 또는 4개 캠퍼스 공통 일정이 아닙니다. 표에 기재된 대상자는 입학식 전에 수령할 수 없습니다. 변경 및 구체적인 시각·교실은 본인 소속 학부·학부/대학원 공지를 따르세요. 기재되지 않은 시간이나 교실을 추정하지 않았습니다."},
-   "e2c3d2": {"headers":["소속·신분","2026년 날짜·시간","수령 방법","장소"],"rows":[["경제 · 정규 학생","9/30 14:00","경제학부 입학식","E-E-109"],["경제 · 특별청강생","9/30 13:00","수강 안내 설명회","E-E-103"],["경제 · 연구생","9/30 14:00","자료 배부","E-E-102"],["지구사회 · 정규 학생","10/2 13:30","입학식","E-B-112"],["지구사회 · 비정규 학생","9/30 14:00","신입생 안내. 카드 미제작 시 창구 수령 안내 이메일 발송","E-B-112"],["교육·인간환경 · 정규 학생","10/2 (시간 미기재)","Orientation","원자료에 교실 미기재"],["교육·인간환경 · 비정규 학생","10/1부터 (잠정)","학무 창구, 이메일 안내, 등록금 납부 확인 필요","학무 창구"],["법학 · 정규 학생","10/1 (시간 미기재)","법학 국제과정 입학식 및 Orientation","원자료에 교실 미기재"],["법학 · 비정규 · 영어","10/1 (시간 미기재)","법학 Orientation","원자료에 교실 미기재"],["법학 · 비정규 · 일본어","10/1부터","학무 창구","학무 창구"],["문·인문 · 정규 학생","10/1부터","학무 창구","학무 창구"],["문·인문 · 비정규 학생","10/1 11:00","Orientation","C-419"]]},
-   "e2c3d3": {"text":"정규 학생과 연구생·특별청강생 등 비정규 학생의 수령 방식은 다릅니다. 10/1부터 시작하는 창구 수령에는 마감일이 안내되어 있지 않으므로 시작일을 마감일로 간주하지 마세요. 등록금 납부 확인 조건은 교육·인간환경 비정규 학생에만 해당합니다. 카드가 준비되지 않은 경우 이메일로 창구 수령을 안내한다는 내용은 지구사회 비정규 학생에만 해당합니다. 다른 신분에 이 조건을 적용하지 마세요."},
-   "e2c3d4": {"items":[{"text":"소속 학무 창구 상담 안내 (공개 문의 경로이며 학생증 일정표 원문이 아닙니다)","url":"https://notepm.jp/sharing/2ea39b87-b202-435c-bc50-938b9e5a9488"}]},
+   "e2c3d0": {
+    "text": "2026년 가을 학생증 수령: 소속·신분별 확인"
+   },
+   "e2c3d1": {
+    "text": "2026-09-11자 「学生証配付について」를 기준으로 정리했습니다. 경제, 지구사회, 교육·인간환경, 법학, 문·인문 등 5개 소속 공지에 기재된 12개 신분만 포함하며, 전교 또는 4개 캠퍼스 공통 일정이 아닙니다. 표에 기재된 대상자는 입학식 전에 수령할 수 없습니다. 변경 및 구체적인 시각·교실은 본인 소속 학부·학부/대학원 공지를 따르세요. 기재되지 않은 시간이나 교실을 추정하지 않았습니다."
+   },
+   "e2c3d2": {
+    "headers": [
+     "소속·신분",
+     "2026년 날짜·시간",
+     "수령 방법",
+     "장소"
+    ],
+    "rows": [
+     [
+      "경제 · 정규 학생",
+      "9/30 14:00",
+      "경제학부 입학식",
+      "E-E-109"
+     ],
+     [
+      "경제 · 특별청강생",
+      "9/30 13:00",
+      "수강 안내 설명회",
+      "E-E-103"
+     ],
+     [
+      "경제 · 연구생",
+      "9/30 14:00",
+      "자료 배부",
+      "E-E-102"
+     ],
+     [
+      "지구사회 · 정규 학생",
+      "10/2 13:30",
+      "입학식",
+      "E-B-112"
+     ],
+     [
+      "지구사회 · 비정규 학생",
+      "9/30 14:00",
+      "신입생 안내. 카드 미제작 시 창구 수령 안내 이메일 발송",
+      "E-B-112"
+     ],
+     [
+      "교육·인간환경 · 정규 학생",
+      "10/2 (시간 미기재)",
+      "Orientation",
+      "원자료에 교실 미기재"
+     ],
+     [
+      "교육·인간환경 · 비정규 학생",
+      "10/1부터 (잠정)",
+      "학무 창구, 이메일 안내, 등록금 납부 확인 필요",
+      "학무 창구"
+     ],
+     [
+      "법학 · 정규 학생",
+      "10/1 (시간 미기재)",
+      "법학 국제과정 입학식 및 Orientation",
+      "원자료에 교실 미기재"
+     ],
+     [
+      "법학 · 비정규 · 영어",
+      "10/1 (시간 미기재)",
+      "법학 Orientation",
+      "원자료에 교실 미기재"
+     ],
+     [
+      "법학 · 비정규 · 일본어",
+      "10/1부터",
+      "학무 창구",
+      "학무 창구"
+     ],
+     [
+      "문·인문 · 정규 학생",
+      "10/1부터",
+      "학무 창구",
+      "학무 창구"
+     ],
+     [
+      "문·인문 · 비정규 학생",
+      "10/1 11:00",
+      "Orientation",
+      "C-419"
+     ]
+    ]
+   },
+   "e2c3d3": {
+    "text": "정규 학생과 연구생·특별청강생 등 비정규 학생의 수령 방식은 다릅니다. 10/1부터 시작하는 창구 수령에는 마감일이 안내되어 있지 않으므로 시작일을 마감일로 간주하지 마세요. 등록금 납부 확인 조건은 교육·인간환경 비정규 학생에만 해당합니다. 카드가 준비되지 않은 경우 이메일로 창구 수령을 안내한다는 내용은 지구사회 비정규 학생에만 해당합니다. 다른 신분에 이 조건을 적용하지 마세요."
+   },
+   "e2c3d4": {
+    "items": [
+     {
+      "text": "소속 학무 창구 상담 안내 (공개 문의 경로이며 학생증 일정표 원문이 아닙니다)",
+      "url": "https://notepm.jp/sharing/2ea39b87-b202-435c-bc50-938b9e5a9488"
+     }
+    ]
+   },
    "c8e67d": {
     "text": "수강신청과 수업"
    },
@@ -1052,7 +1334,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "규슈대 직접 수험 시 교수에게 먼저 연락해야 하나"
    },
    "acc4f9": {
-    "text": "필요합니다. 먼저 교수에게 연락해 받아줄 의사를 확인한 뒤 시험을 치러야 합니다. 이는 교수가 외국인 학생을 받을지, 연구실에 자리가 있는지와 직결됩니다 —— 시험에 합격해도 자리가 없으면 입학하지 못할 수 있습니다. 학부 학점만으로 결정되는 것이 아니라 주로 교수의 판단에 달려 있습니다. 정보계 일부 전공은 내락이 필요 없지만, 그래도 미리 연락해 확인하기를 권합니다."
+    "text": "먼저 지원 전공의 모집요강에서 교수 사전 연락이나 내락이 필요한지 확인하세요. 필요하면 교수의 수락 의사와 연구실 정원을 확인한 뒤 지원합니다. 학부 성적뿐 아니라 수락 판단도 중요합니다. 기존 경험상 일부 정보계 전공은 내락이 필요 없다고 하지만 사전 확인을 권합니다. 한 전공의 규정을 모든 전공에 적용하지 마세요."
    },
    "6be666": {
     "text": "지도교수가 정년에 가까울 때"
@@ -1076,7 +1358,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "RA(리서치 어시스턴트)"
    },
    "fbd83d": {
-    "text": "규슈대의 RA는 전교 기준이 통일되어 있으며, 수학계는 월 약 44,000엔이라는 이야기가 있습니다(경험값으로 부서·연도에 따라 다를 수 있습니다). RA는 적절한 연구 과제가 있어야 신청할 수 있고 누구나 받을 수 있는 것은 아니며 경쟁도 있는 편입니다. 인터넷의 수입 인증 사진은 일반적인 수준을 대변하지 않으니 참고만 하세요."
+    "text": "RA 금액은 소속 부서와 해당 연도 조건을 먼저 확인하세요. 기존 수학과 후기의 월 약 44,000엔은 경험상 참고치이며 전교 공통 기준이 아닙니다. 적절한 연구 과제가 필요하고 누구나 선발되는 것은 아닙니다. 온라인 수입 인증도 보편적인 수준을 뜻하지 않습니다."
    },
    "853a53": {
     "text": "사비 유학생 장학금"
@@ -1499,11 +1781,105 @@ window.ARTICLES_BODY_I18N = {
      }
     ]
    },
-   "e2c3d0": {"text":"Recogida del carné de otoño de 2026: consulta según afiliación y estatus"},
-   "e2c3d1": {"text":"Basado en «学生証配付について», de 11-09-2026. Solo cubre los 12 grupos de estatus indicados en avisos de cinco afiliaciones: Economía, GSST, Educación/Entorno Humano, Derecho y Letras/Humanidades. No es un calendario para toda la universidad ni común a los cuatro campus. Las personas incluidas en esta tabla no pueden recoger el carné antes de la ceremonia de ingreso. Para cambios y horarios o aulas concretos, sigue el aviso de tu facultad/escuela de posgrado. No se infieren horas ni aulas que no constan."},
-   "e2c3d2": {"headers":["Afiliación y estatus","Fecha/hora 2026","Forma de entrega","Lugar"],"rows":[["Economía · estudiantes regulares","30/9 14:00","Ceremonia de ingreso de Economía","E-E-109"],["Economía · oyentes especiales","30/9 13:00","Sesión informativa de matrícula","E-E-103"],["Economía · estudiantes de investigación","30/9 14:00","Entrega de documentos","E-E-102"],["GSST · estudiantes regulares","2/10 13:30","Ceremonia de ingreso","E-B-112"],["GSST · no regulares","30/9 14:00","Orientación; si el carné aún no está listo, se avisará por correo para recogerlo en ventanilla","E-B-112"],["Educación/Entorno Humano · regulares","2/10 (hora no indicada)","Orientación","El original no indica aula"],["Educación/Entorno Humano · no regulares","Desde 1/10 (provisional)","Ventanilla académica; aviso por correo; hay que confirmar el pago de matrícula","Ventanilla académica"],["Derecho · estudiantes regulares","1/10 (hora no indicada)","Ceremonia de ingreso y orientación del programa internacional de Derecho","El original no indica aula"],["Derecho · no regulares · inglés","1/10 (hora no indicada)","Orientación de Derecho","El original no indica aula"],["Derecho · no regulares · japonés","Desde 1/10","Ventanilla académica","Ventanilla académica"],["Letras/Humanidades · estudiantes regulares","Desde 1/10","Ventanilla académica","Ventanilla académica"],["Letras/Humanidades · no regulares","1/10 11:00","Orientación","C-419"]]},
-   "e2c3d3": {"text":"La entrega difiere entre estudiantes regulares y no regulares, como estudiantes de investigación y oyentes especiales. No se indica una fecha límite para recoger en ventanilla a partir del 1/10; no conviertas la fecha de inicio en plazo final. La confirmación del pago de matrícula se exige solo a no regulares de Educación/Entorno Humano. El aviso por correo para recoger en ventanilla si el carné no está listo se menciona solo para no regulares de GSST. No extiendas ninguna condición a otros grupos."},
-   "e2c3d4": {"items":[{"text":"Guía de consulta de tu oficina académica (canal público de contacto; no es la tabla original de entrega de carnés)","url":"https://notepm.jp/sharing/2ea39b87-b202-435c-bc50-938b9e5a9488"}]},
+   "e2c3d0": {
+    "text": "Recogida del carné de otoño de 2026: consulta según afiliación y estatus"
+   },
+   "e2c3d1": {
+    "text": "Basado en «学生証配付について», de 11-09-2026. Solo cubre los 12 grupos de estatus indicados en avisos de cinco afiliaciones: Economía, GSST, Educación/Entorno Humano, Derecho y Letras/Humanidades. No es un calendario para toda la universidad ni común a los cuatro campus. Las personas incluidas en esta tabla no pueden recoger el carné antes de la ceremonia de ingreso. Para cambios y horarios o aulas concretos, sigue el aviso de tu facultad/escuela de posgrado. No se infieren horas ni aulas que no constan."
+   },
+   "e2c3d2": {
+    "headers": [
+     "Afiliación y estatus",
+     "Fecha/hora 2026",
+     "Forma de entrega",
+     "Lugar"
+    ],
+    "rows": [
+     [
+      "Economía · estudiantes regulares",
+      "30/9 14:00",
+      "Ceremonia de ingreso de Economía",
+      "E-E-109"
+     ],
+     [
+      "Economía · oyentes especiales",
+      "30/9 13:00",
+      "Sesión informativa de matrícula",
+      "E-E-103"
+     ],
+     [
+      "Economía · estudiantes de investigación",
+      "30/9 14:00",
+      "Entrega de documentos",
+      "E-E-102"
+     ],
+     [
+      "GSST · estudiantes regulares",
+      "2/10 13:30",
+      "Ceremonia de ingreso",
+      "E-B-112"
+     ],
+     [
+      "GSST · no regulares",
+      "30/9 14:00",
+      "Orientación; si el carné aún no está listo, se avisará por correo para recogerlo en ventanilla",
+      "E-B-112"
+     ],
+     [
+      "Educación/Entorno Humano · regulares",
+      "2/10 (hora no indicada)",
+      "Orientación",
+      "El original no indica aula"
+     ],
+     [
+      "Educación/Entorno Humano · no regulares",
+      "Desde 1/10 (provisional)",
+      "Ventanilla académica; aviso por correo; hay que confirmar el pago de matrícula",
+      "Ventanilla académica"
+     ],
+     [
+      "Derecho · estudiantes regulares",
+      "1/10 (hora no indicada)",
+      "Ceremonia de ingreso y orientación del programa internacional de Derecho",
+      "El original no indica aula"
+     ],
+     [
+      "Derecho · no regulares · inglés",
+      "1/10 (hora no indicada)",
+      "Orientación de Derecho",
+      "El original no indica aula"
+     ],
+     [
+      "Derecho · no regulares · japonés",
+      "Desde 1/10",
+      "Ventanilla académica",
+      "Ventanilla académica"
+     ],
+     [
+      "Letras/Humanidades · estudiantes regulares",
+      "Desde 1/10",
+      "Ventanilla académica",
+      "Ventanilla académica"
+     ],
+     [
+      "Letras/Humanidades · no regulares",
+      "1/10 11:00",
+      "Orientación",
+      "C-419"
+     ]
+    ]
+   },
+   "e2c3d3": {
+    "text": "La entrega difiere entre estudiantes regulares y no regulares, como estudiantes de investigación y oyentes especiales. No se indica una fecha límite para recoger en ventanilla a partir del 1/10; no conviertas la fecha de inicio en plazo final. La confirmación del pago de matrícula se exige solo a no regulares de Educación/Entorno Humano. El aviso por correo para recoger en ventanilla si el carné no está listo se menciona solo para no regulares de GSST. No extiendas ninguna condición a otros grupos."
+   },
+   "e2c3d4": {
+    "items": [
+     {
+      "text": "Guía de consulta de tu oficina académica (canal público de contacto; no es la tabla original de entrega de carnés)",
+      "url": "https://notepm.jp/sharing/2ea39b87-b202-435c-bc50-938b9e5a9488"
+     }
+    ]
+   },
    "c8e67d": {
     "text": "Selección de cursos y clases"
    },
@@ -1543,7 +1919,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "¿Es necesario contactar antes con el profesor para ingresar directamente en Kyushu University?"
    },
    "acc4f9": {
-    "text": "Sí. **Primero hay que contactar con el profesor** y confirmar que está dispuesto a aceptarte, y después presentarse al examen. Esto depende de si el profesor acepta estudiantes extranjeros y de si el laboratorio tiene plazas: incluso si apruebas el examen, sin plaza puede ser imposible ingresar. Las calificaciones de la licenciatura no son el único factor; lo que cuenta sobre todo es el criterio del profesor. Algunos programas de informática no exigen el consentimiento previo del profesor（内諾）, pero aun así se recomienda contactar con antelación para confirmarlo."
+    "text": "Consulta primero las bases de tu programa para saber si exige contactar al profesor o conseguir su consentimiento previo. Si lo exige, confirma su disposición y las plazas del laboratorio antes de solicitar. Las notas de grado no son el único factor; también cuenta la aceptación. Experiencias anteriores indican que algunos programas de informática no exigen consentimiento, pero conviene comprobarlo. No apliques las reglas de un programa a todos."
    },
    "6be666": {
     "text": "El profesor tutor está próximo a jubilarse"
@@ -1564,7 +1940,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Becas y exenciones"
    },
    "fbd83d": {
-    "text": "El RA (asistente de investigación) de Kyushu University sigue un estándar unificado para toda la universidad; según los comentarios, en el Departamento de Matemáticas ronda los 44,000 円/月 (valor orientativo; puede variar según el departamento y el año). Para solicitar el RA hace falta un tema de investigación adecuado; no todo el mundo puede obtenerlo y la competencia es bastante fuerte. Las publicaciones que muestran ingresos en internet no representan el nivel general; sirven solo como referencia."
+    "text": "Consulta el pago de RA con tu departamento para el año correspondiente. Experiencias anteriores en matemáticas mencionan unos 44.000 yenes al mes, como referencia y no como tarifa de toda la universidad. Hace falta un tema de investigación adecuado y no todos consiguen una plaza. Los ingresos publicados en internet tampoco representan el nivel habitual."
    },
    "853a53": {
     "text": "Becas para estudiantes internacionales autofinanciados"
@@ -1920,7 +2296,17 @@ window.ARTICLES_BODY_I18N = {
  "guide-antifraud": {
   "ja": {
    "aa3847": {
-    "text": "本稿の目的は、不審な状況に遭ったときの対処法を知ることです。最優先事項は2つ——振り込まないこと、個人情報を教えないことです。何かあれば、直ちに文末の最初の電話番号へ連絡してください。"
+    "text": "不審に感じたら送金を止め、暗証番号や個人情報を渡さないでください。すでに送金した場合は銀行への連絡を優先し、その後警察に届け出ます。詳しい手順は「被害に遭った後の対応」を確認してください。",
+    "emphasis": {
+     "text": [
+      {
+       "start": 7,
+       "end": 12,
+       "style": "bold",
+       "quote": "送金を止め"
+      }
+     ]
+    }
    },
    "52ec55": {
     "text": "⚠️ 留学を始めたばかりの方は、ぜひ先にこの記事を通読してください。詐欺グループの手口は巧妙で、高学歴の人でも騙されることがあります。「慌てない・信じない・金を出さない」を徹底すれば、ほとんどの詐欺を回避できます。"
@@ -1953,7 +2339,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "手口：大学を装ってメールを送り「学費・登録料」の支払いを要求する。教授を名乗ってギフトカードの代理購入や代理振込を依頼する。システムの脆弱性を利用して教授のメールアドレスを偽装する。"
    },
    "b41808": {
-    "text": "見分け方：大学がメールや電話で銀行の暗証番号や即時振込を求めることは絶対にありません。教授から突然代理購入を頼まれたら、直接会うか電話で教授本人に確認してください。送信元のメールアドレスが本当に大学のドメインかも確認してください。"
+    "text": "学校や教員を名乗る相手からパスワード、ギフトカードの代理購入、急な振込を求められたら、操作を止めてください。保存済みの連絡先、大学公式サイト、または対面で独立して確認します。送信者の表示名やメールのドメインだけで判断しないでください。"
    },
    "d246ca": {
     "text": "4. SMS・リンクを使ったフィッシング詐欺"
@@ -1962,7 +2348,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "手口：「賃貸契約の保証金」「ETC の有効期限切れ」「荷物の滞留」などと SMS にリンクを添付して支払いを求める。配送業者・郵便局・電力会社を装ってリンクを送ってくる。"
    },
    "ffd258": {
-    "text": "見分け方：リンクを送って支払わせるのはすべて詐欺です。日本の正規の支払い方法は、コンビニ決済、銀行振込、口座自動引き落としです。不確かな場合は公式の電話番号に確認し、リンクはクリックしないでください。"
+    "text": "支払いや口座情報の入力を急がせるSMSが届いても、記載されたリンクを直接開かないでください。確認済みの公式アプリや公式サイトから内容を確認し、必要に応じて公式サイト掲載の電話番号へ連絡します。リンクの有無だけでなく、送信元を確認することが重要です。",
+    "emphasis": {
+     "text": [
+      {
+       "start": 30,
+       "end": 40,
+       "style": "bold",
+       "quote": "リンクを直接開かない"
+      }
+     ]
+    }
    },
    "8eed64": {
     "text": "5. 仮想誘拐"
@@ -1980,7 +2376,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "手口：WhatsApp や WeChat で「高収入・簡単」をうたうアルバイトのグループに招待する。まず商品代金の立て替え払いや商品購入を求める。最初は少額の報酬を返し、その後、高額を支払わせてから資金を持ち逃げする。"
    },
    "2cd15e": {
-    "text": "見分け方：先に金を払わせるアルバイトはすべて詐欺です。在留カードには資格外活動の許可範囲が記載されており、超高額報酬の「アルバイト」はそもそも違法です。身に覚えのない WhatsApp グループはすぐに退会し、通報してください。"
+    "text": "高収入で簡単に稼げるという見知らぬ相手の仕事紹介は慎重に確認してください。立替払い、商品購入、先払いを求められたら止めて相談します。賃金の高低だけで合法性は判断できず、資格外活動許可と実際の仕事内容も確認が必要です。"
    },
    "55891a": {
     "text": "7. コンビニでのギフトカード詐欺"
@@ -1989,7 +2385,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "手口：警察・大使館・技術者を名乗り、「口座確認」「凍結解除」を理由に、コンビニで高額のギフトカード（Vプリカ／Apple Gift Card など）を購入させ、カード番号とパスワードを伝えさせる。"
    },
    "1449d2": {
-    "text": "見分け方：どのような正規の機関でも、口座確認や支払いのためにギフトカードの購入を求めることはありません。コンビニの店員が注意を促すこともありますが、いつも止められるとは限りません。"
+    "text": "知らない電話でギフトカードを買って番号やコードを渡すよう求められたら、止めて関係機関を独立して確認してください。ギフトカードで身元確認を済ませず、番号やコードを相手に渡さないでください。コンビニ店員の注意だけに頼らず、自分でも確認しましょう。"
    },
    "8eecc1": {
     "text": "8. 訪問販売・電力会社の切り替え勧誘"
@@ -1998,7 +2394,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "手口：電力会社や通信会社の社員を名乗って訪問し、「会社を乗り換えると安くなります」と言って個人情報を騙し取ったり、高額なプランへの契約を迫ったりする。"
    },
    "ccc44b": {
-    "text": "見分け方：訪問販売の勧誘は、そもそも割に合わないことが多いです。その場で契約せず、「必要ありません」と伝えてドアを閉めてください。本当の会社が予告なく訪問することはありません。"
+    "text": "圧力を感じてその場で個人情報を渡したり契約したりしないでください。会社、費用、契約条件を独立して確認します。正規の会社の訪問販売でも慎重な比較が必要な場合があり、訪問したかどうかだけで真偽は判断できません。"
    },
    "3743ca": {
     "text": "二、詐欺防止の基本原則"
@@ -2024,7 +2420,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "0252c5": {
-    "text": "日頃の対策：知らない番号からの電話には応答せず、録音が流れたらすぐに切る。大使館・領事館や公安を名乗る電話は、一度切ってから公式サイトの番号を自分で調べてかけ直す。WeChat グループ内の両替情報には返信せず、個別に連絡もとらない。リンク付き SMS はクリックしない。ギフトカードの購入を求められたら100%詐欺なので、すぐに会話を終える。大学・教授を名乗るメールで振込を求められたら、直接会うか電話で確認する。訪問販売はドアを開けず、「必要ありません」と言って閉める。"
+    "text": "日常の確認は場面ごとに：\n大使館や公安を名乗る電話――切った後、公式サイトの番号を自分で調べて連絡。\n学校や教員から急な振込・代理購入の依頼――既知の連絡先や対面で確認。\n知らないSMSの支払リンク――リンクからログインせず、公式入口を自分で開く。\n両替、ギフトカード、訪問契約――機関と条件を先に確認し、パスワードや認証コードを渡さない。"
    },
    "2f22d1": {
     "text": "三、日頃の対策 早見表"
@@ -2056,8 +2452,8 @@ window.ARTICLES_BODY_I18N = {
       "クリックしない！まず送信元を確認する"
      ],
      [
-      "ギフトカードの購入を求められた",
-      "100%詐欺なので、すぐに会話を終える"
+      "電話でギフトカード購入と番号・コードの提出を要求",
+      "止めて独立して確認し、番号・コードを渡さない"
      ],
      [
       "大学・教授からのメールで振込を求められた",
@@ -2075,12 +2471,12 @@ window.ARTICLES_BODY_I18N = {
    "c06ba5": {
     "items": [
      {
-      "title": "すぐに銀行へ連絡する",
-      "desc": "振込先口座の銀行に連絡し、支払い停止・口座凍結を依頼します。資金は振り出されると数分で引き出される可能性があるため、早ければ早いほどよいです。"
+      "title": "追加の振込を止め、すぐ銀行へ連絡",
+      "desc": "銀行の公式電話番号から振込元口座の銀行へ連絡し、送金停止・追跡・口座保護を相談してください。回収できるかは銀行と個々の取引状況によります。振込記録を保管してください。"
      },
      {
       "title": "現地の警察に被害届を出す",
-      "desc": "日本では 110 番に通報します。チャット履歴、振込記録、相手の情報を証拠として保管してください。"
+      "desc": "緊急の危険や進行中の犯罪は110番へ。それ以外は地元の警察へ届け出るか相談してください。チャット、振込記録、相手の情報を保管します。"
      },
      {
       "title": "中国国内の家族が被害届を出す",
@@ -2092,18 +2488,28 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "title": "注意喚起を発信する",
-      "desc": "WeChat グループで体験を共有し、他の人が騙されるのを防ぎます。"
+      "desc": "まず自分と家族の安全を確保し、その後、確認済みの注意喚起を適切に共有してください。銀行カード、身分証、パスワードや未確認の個人への非難を公開しないでください。"
      }
     ]
    },
    "6d59ab": {
-    "text": "💡 騙されたのはあなたのせいではありません。詐欺グループは専門的な訓練を受けており、高学歴の人も被害に遭っています。取り戻せる可能性は低いですが、被害届を出すことには意味があります（事件の関連付けやグループの追跡につながります）。恥ずかしさで黙り込まないでください。あなたの経験が、他の人の被害を防ぐかもしれません。"
+    "text": "被害に遭っても恥ずかしさで黙らず、証拠を保管し銀行や警察に助けを求めてください。回収できるかは取引と事件の状況次第で、保証はありません。個人情報を明かさずに確認済みの注意喚起を共有することは、他の人の助けにもなります。"
    },
    "3e86de": {
     "text": "五、詐欺を見破るポイント"
    },
    "0125e2": {
-    "text": "実際の被害事例とグループチャットの経験から：発信者の訛りの出身地を尋ねる（特定地域の訛りが明らかな場合は、ほぼ詐欺です）。現地の方言や日本語で応答すると、相手がすぐ切ることが多いです。所属する警察署を尋ね、自分で調べた公開電話番号にかけ直して確認します。詐欺師は成約を急いでおり、細かい点を追及されると動揺しやすいです。最も重要なのは銀行情報の保護です——カード番号と暗証番号は厳重に保管してください。"
+    "text": "相手の身元を確認する際は一度通話を終え、自分で調べた公式サイトの電話番号へかけ直します。話し方や日本語の能力、着信表示だけで信用しないでください。電話番号が偽装される場合もあります。確認中も銀行の暗証番号は伝えないでください。",
+    "emphasis": {
+     "text": [
+      {
+       "start": 20,
+       "end": 36,
+       "style": "bold",
+       "quote": "自分で調べた公式サイトの電話番号"
+      }
+     ]
+    }
    },
    "40510e": {
     "items": [
@@ -2116,7 +2522,17 @@ window.ARTICLES_BODY_I18N = {
   },
   "en": {
    "aa3847": {
-    "text": "Purpose of this article: to know how to respond when encountering a suspicious situation. Two primary rules - never transfer money, never disclose personal information; after an incident, immediately call the first number at the end of this article."
+    "text": "If something seems suspicious, stop the transfer and do not share passwords or personal information. If you have already sent money, contact your bank first, then report it to the police. See the emergency response section for the steps.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 31,
+       "end": 48,
+       "style": "bold",
+       "quote": "stop the transfer"
+      }
+     ]
+    }
    },
    "52ec55": {
     "text": "⚠️ New students should read this article in full first: fraud rings use sophisticated methods, and even highly educated people can be caught. Keeping in mind the principle \"stay calm, never believe, give no money when asked\" can avoid the vast majority of scams."
@@ -2149,7 +2565,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Modus operandi: emails impersonating the university demand payment of \"tuition/registration fees\"; people impersonating professors ask others to buy gift cards or transfer money on their behalf; professor email addresses are spoofed through exploited vulnerabilities."
    },
    "b41808": {
-    "text": "Recognition points: the university never asks by email or phone for bank passwords or an immediate transfer; when a professor suddenly asks for a purchase, confirm in person or by phone with the professor directly; verify that the sender's email address is truly on the university domain."
+    "text": "If someone claiming to be your university or professor asks for passwords, gift-card purchases or an urgent transfer, stop. Verify independently through contacts you already have, the university website or in person. Do not rely only on the sender's display name or email domain."
    },
    "d246ca": {
     "text": "4. SMS/Link Phishing"
@@ -2158,7 +2574,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "Modus operandi: text messages about \"rental deposits,\" \"ETC expiry,\" \"parcel held\" and similar include links that demand payment; senders impersonate couriers, the post office, or power companies."
    },
    "ffd258": {
-    "text": "Recognition points: any message that demands payment via a link is fraud; legitimate payment methods in Japan are convenience store payment, bank transfer (furikomi, 振込), and automatic account deduction; when unsure, call the official number first and do not click links."
+    "text": "Do not open a link in a message that pressures you to pay or enter account details. Check through a verified official app or website, and use the phone number published there if needed. Verify the source rather than judging a message solely by whether it contains a link.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 0,
+       "end": 18,
+       "style": "bold",
+       "quote": "Do not open a link"
+      }
+     ]
+    }
    },
    "8eed64": {
     "text": "5. Virtual Kidnapping"
@@ -2176,7 +2602,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Modus operandi: WhatsApp/WeChat groups recruit people into \"part-time job groups\" promising high pay and easy work; victims are asked to front the cost of goods or purchase products; small early payouts build trust, then a large sum is taken and the scammers disappear."
    },
    "2cd15e": {
-    "text": "Recognition points: any part-time job that asks for money first is a scam; the residence card (在留カード) lists the scope of permitted activities outside one's status, and ultra-high-paying \"jobs\" are not legitimate to begin with; leave unfamiliar WhatsApp groups immediately and report them."
+    "text": "Check unfamiliar offers of high pay and easy work carefully. If asked to advance money, buy products or pay first, stop and seek advice. Pay level alone does not establish legality; also check your permission to work outside your residence status and the actual job duties."
    },
    "55891a": {
     "text": "7. Convenience Store Gift Card Fraud"
@@ -2185,7 +2611,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Modus operandi: callers impersonating police, embassies, or technicians claim the need to \"verify an account\" or \"lift a freeze,\" instructing victims to buy large-denomination gift cards at convenience stores (Vプリカ/Apple Gift Card, etc.) and disclose the card number and password."
    },
    "1449d2": {
-    "text": "Recognition points: no legitimate organization asks anyone to buy gift cards for verification or payment; convenience store staff sometimes warn customers, but cannot always stop the fraud."
+    "text": "If an unfamiliar caller asks you to buy gift cards and share card numbers or codes, stop and verify the relevant organisation independently. Gift cards cannot replace identity checks; do not give the caller the numbers or codes. A warning from shop staff is not a substitute for your own verification."
    },
    "8eecc1": {
     "text": "8. Door-to-Door Sales/Switching Power Companies"
@@ -2194,7 +2620,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Modus operandi: people posing as power or internet company staff visit homes claiming that \"switching companies is cheaper,\" to obtain personal information or sign victims up for expensive plans."
    },
    "ccc44b": {
-    "text": "Recognition points: door-to-door offers are often not a real bargain; do not sign on the spot; say \"I don't need it\" and close the door; legitimate companies do not visit uninvited."
+    "text": "Do not hand over personal information or sign under pressure. Verify the company, costs and contract terms independently first. Even legitimate door-to-door sales may need careful comparison; a visit alone does not establish whether a company is genuine."
    },
    "3743ca": {
     "text": "II. Core Anti-Fraud Principles"
@@ -2220,7 +2646,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "0252c5": {
-    "text": "Daily prevention: do not answer unfamiliar calls actively, and hang up immediately if the call is recorded; if the caller claims to be from an embassy or the police, hang up and search the official website for the number to call back; do not reply to or privately message exchange offers in WeChat groups; do not click links in text messages; being asked to buy gift cards is 100% fraud - end the conversation immediately; email transfer requests from the university/professors should be confirmed in person or by phone; for door-to-door sales, do not open the door, or say \"not needed\" and close it."
+    "text": "Check each situation separately:\nCalls claiming to be an embassy or police: hang up and find the official phone number yourself.\nUrgent transfers or purchases requested by a university or professor: verify through known contacts or in person.\nPayment links in unfamiliar texts: do not log in through the link; open the official service yourself.\nCurrency exchange, gift cards or doorstep contracts: verify the organisation and terms first; do not disclose passwords or verification codes."
    },
    "2f22d1": {
     "text": "III. Daily Prevention Quick Reference"
@@ -2252,8 +2678,8 @@ window.ARTICLES_BODY_I18N = {
       "Do not click! Verify the sender first"
      ],
      [
-      "Someone asks to buy gift cards",
-      "100% fraud; end the conversation immediately"
+      "Caller asks you to buy gift cards and disclose numbers or codes",
+      "Stop, verify independently and do not provide numbers or codes"
      ],
      [
       "University/professor email demands a transfer",
@@ -2271,12 +2697,12 @@ window.ARTICLES_BODY_I18N = {
    "c06ba5": {
     "items": [
      {
-      "title": "Contact the bank immediately",
-      "desc": "Contact the bank that opened the receiving account and request a stop payment and account freeze - funds can be withdrawn within minutes of transfer, so the sooner the better"
+      "title": "Stop further transfers and contact your bank immediately",
+      "desc": "Use the bank's official phone number to contact the bank holding your sending account. Ask about stopping or tracing the transfer and protecting your account; recovery depends on the bank and the specific transaction. Keep transfer records."
      },
      {
       "title": "Report to the local police",
-      "desc": "In Japan, call 110; keep chat logs, transfer records, and the other party's information as evidence"
+      "desc": "Call 110 for urgent danger or a crime in progress. Otherwise report to or seek advice from local police. Keep chats, transfer records and information about the other party."
      },
      {
       "title": "Contact family at home to report",
@@ -2288,18 +2714,28 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "title": "Post a warning",
-      "desc": "Share the experience in WeChat groups to prevent more people from being defrauded"
+      "desc": "Secure your own and your family's safety first, then share verified fraud warnings appropriately. Do not publish bank cards, identity documents, passwords or unverified allegations against individuals."
      }
     ]
    },
    "6d59ab": {
-    "text": "💡 Being defrauded is not the victim's fault - fraud rings are professionally trained, and victims include highly educated people. The chance of recovering the money is small, but reporting still has value (cases can be linked and the ring tracked down); do not stay silent out of shame - the experience may help others avoid the same trap."
+    "text": "Do not stay silent out of shame after fraud. Keep evidence and seek help from your bank and police. Recovery depends on the transaction and case and is not guaranteed. Sharing verified warnings without exposing personal information may also help others."
    },
    "3e86de": {
     "text": "V. Key Points for Recognizing Fraud"
    },
    "0125e2": {
-    "text": "Drawn from real cases and group chat experience: directly ask about the origin of the caller's accent (a marked accent from a certain region is often fraud); respond in the local dialect or Japanese, and the caller often hangs up immediately; ask which police station the caller belongs to, then search online for the publicly listed number and call back to verify; fraudsters are eager to close the deal and tend to lose composure when pressed for details. The most critical point is protecting banking information - keep card numbers and passwords safe."
+    "text": "To verify someone's identity, end the call and call back using a number you find on the organisation's official website. Do not treat an accent, Japanese fluency or caller ID as proof of identity: numbers can be spoofed. Never disclose your bank password during verification.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 63,
+       "end": 119,
+       "style": "bold",
+       "quote": "a number you find on the organisation's official website"
+      }
+     ]
+    }
    },
    "40510e": {
     "items": [
@@ -2312,7 +2748,17 @@ window.ARTICLES_BODY_I18N = {
   },
   "ko": {
    "aa3847": {
-    "text": "이 문서의 목적은 수상한 상황에서 어떻게 대처해야 하는지 알려 주는 것입니다. 가장 중요한 두 가지 — 송금하지 않기, 개인정보를 알려 주지 않기. 사건 발생 후에는 문서 끝의 첫 번째 전화번호로 즉시 전화합니다."
+    "text": "의심스러운 상황에서는 송금을 멈추고 비밀번호나 개인정보를 제공하지 마세요. 이미 송금했다면 은행에 먼저 연락한 뒤 경찰에 신고하세요. 구체적인 순서는 피해 발생 후 대응 항목을 확인하세요.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 12,
+       "end": 19,
+       "style": "bold",
+       "quote": "송금을 멈추고"
+      }
+     ]
+    }
    },
    "52ec55": {
     "text": "⚠️ 유학을 처음 시작하는 분은 반드시 이 글을 먼저 읽어 주십시오. 사기 조직의 수법은 정교해서 고학력자도 당할 수 있습니다. \"당황하지 말고, 끝까지 믿지 말고, 돈을 요구하면 주지 않는다\"를 명심하면 대부분의 사기를 피할 수 있습니다."
@@ -2345,7 +2791,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "수법: 학교를 사칭해 \"학비/등록비\"를 내라고 이메일을 보내고, 교수를 사칭해 기프트 카드 대신 구매나 대신 송금을 요구하며, 취약점을 이용해 교수의 이메일 주소를 도용합니다."
    },
    "b41808": {
-    "text": "구별 포인트: 학교는 이메일이나 전화로 은행 비밀번호를 요구하거나 즉시 송금을 요구하지 않습니다. 교수가 갑자기 대신 구매를 부탁하면 → 직접 만나거나 전화로 교수 본인에게 확인합니다. 발신자 이메일 주소가 실제로 학교 도메인인지 확인합니다."
+    "text": "학교나 교수를 자칭하는 상대가 비밀번호·기프트카드 대리 구매·갑작스러운 송금을 요구하면 먼저 멈추세요. 저장해 둔 연락처나 학교 공식 홈페이지, 직접 만남으로 독립적으로 확인합니다. 발신자 표시 이름이나 이메일 도메인만 믿지 마세요."
    },
    "d246ca": {
     "text": "4. 문자/링크 피싱"
@@ -2354,7 +2800,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "수법: \"집 임대 보증금\", \"ETC 만료\", \"택배 보관\" 등 문자에 링크를 첨부해 돈을 내게 합니다. 택배/우체국/전력 회사를 사칭해 링크를 보내기도 합니다."
    },
    "ffd258": {
-    "text": "구별 포인트: 링크를 보내며 결제를 요구하는 것은 모두 사기입니다. 일본의 정식 결제 방식은 편의점 결제, 은행 송금(振込), 계좌 자동이체입니다. 확실하지 않으면 먼저 공식 전화로 확인하고 링크를 클릭하지 마십시오."
+    "text": "결제나 계좌정보 입력을 재촉하는 문자의 링크를 바로 열지 마세요. 확인된 공식 앱이나 홈페이지에서 내용을 확인하고 필요하면 공식 홈페이지에 공개된 번호로 연락하세요. 링크 유무만으로 판단하지 말고 발신 경로를 확인하는 것이 중요합니다.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 22,
+       "end": 35,
+       "style": "bold",
+       "quote": "링크를 바로 열지 마세요"
+      }
+     ]
+    }
    },
    "8eed64": {
     "text": "5. 가상 납치"
@@ -2372,7 +2828,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "수법: WhatsApp/위챗으로 \"아르바이트 모임\"에 초대해 고액에 간단하다고 합니다. 먼저 상품 대금을 대신 내거나 상품을 구매하라고 요구하고, 초기에는 소액을 돌려주다가 → 큰 금액을 받은 뒤 잠적합니다."
    },
    "2cd15e": {
-    "text": "구별 포인트: 먼저 돈을 내게 하는 아르바이트는 모두 사기입니다. 체류카드(在留カード)에는 자격 외 활동 허용 범위가 표시되어 있으며, 지나치게 고액인 \"아르바이트\"는 원래 불법입니다. 낯선 WhatsApp 모임은 바로 나가고 신고하십시오."
+    "text": "낯선 상대의 고수익·쉬운 아르바이트 제안은 신중히 확인하세요. 선결제·상품 구매·입금을 요구하면 멈추고 상담합니다. 임금 수준만으로 합법 여부를 판단할 수 없으며 자격외활동허가와 실제 업무도 확인해야 합니다."
    },
    "55891a": {
     "text": "7. 편의점 기프트 카드 사기"
@@ -2381,7 +2837,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "수법: 경찰/대사관/기술자를 사칭해 \"계좌 검증\", \"동결 해제\"를 이유로 편의점에서 고액 기프트 카드(Vプリカ/Apple Gift Card 등)를 구매하고 카드 번호와 비밀번호를 알려 달라고 요구합니다."
    },
    "1449d2": {
-    "text": "구별 포인트: 어떤 정식 기관도 기프트 카드 구매로 검증하거나 결제하도록 요구하지 않습니다. 편의점 직원이 때때로 경고하기도 하지만 매번 막을 수는 없습니다."
+    "text": "모르는 전화에서 기프트카드를 사서 번호·코드를 알려 달라고 하면 멈추고 해당 기관을 독립적으로 확인하세요. 기프트카드로 신원 확인을 대신하지 말고 상대에게 번호·코드를 주지 마세요. 편의점 직원의 경고도 본인의 확인을 대신하지 못합니다."
    },
    "8eecc1": {
     "text": "8. 방문 판매/전력 회사 변경"
@@ -2390,7 +2846,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "수법: 전력/인터넷 회사 직원을 사칭해 방문하여 \"회사를 바꾸면 더 저렴하다\"며 개인정보를 빼내거나 고액 요금제에 가입시키려 합니다."
    },
    "ccc44b": {
-    "text": "구별 포인트: 방문 판매는 본질적으로 득이 없을 수 있습니다. 자리에서 바로 계약하지 말고 \"필요 없습니다\"라고 말한 뒤 문을 닫으십시오. 진짜 회사는 불쑥 찾아오지 않습니다."
+    "text": "압박을 받아 현장에서 개인정보를 넘기거나 계약하지 마세요. 회사·비용·계약 조건을 먼저 독립적으로 확인합니다. 정식 회사의 방문 판매도 신중히 비교해야 할 수 있으며 방문 여부만으로 진위를 판단할 수 없습니다."
    },
    "3743ca": {
     "text": "2. 사기 예방 핵심 원칙"
@@ -2416,7 +2872,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "0252c5": {
-    "text": "일상 예방: 낯선 전화는 먼저 받지 않거나 녹음이 나오면 즉시 끊습니다. 상대가 대사관/공안을 사칭하면 → 끊은 뒤 공식 홈페이지에서 전화번호를 찾아 다시 걸어 확인합니다. 위챗 단체 대화방의 환전 정보에는 답장하지 않고 개인 대화도 하지 않습니다. 링크가 포함된 문자는 클릭하지 않습니다. 누군가 기프트 카드 구매를 요구하면 → 100% 사기이므로 즉시 대화를 끝냅니다. 학교/교수 이메일이 송금을 요구하면 → 직접 만나거나 전화로 확인합니다. 방문 판매는 문을 열지 않거나 \"필요 없습니다\"라고 말한 뒤 닫습니다."
+    "text": "일상 확인은 상황별로:\n대사관·공안을 자칭하는 전화―끊은 뒤 공식 번호를 직접 찾아 연락.\n학교·교수의 갑작스러운 송금·대리 구매 요청―기존 연락처나 직접 만남으로 확인.\n낯선 문자의 결제 링크―링크로 로그인하지 말고 공식 경로를 직접 열기.\n환전·기프트카드·방문 계약―기관과 조건부터 확인하고 비밀번호·인증번호를 넘기지 않기."
    },
    "2f22d1": {
     "text": "3. 일상 예방 요약"
@@ -2448,8 +2904,8 @@ window.ARTICLES_BODY_I18N = {
       "클릭하지 않는다! 먼저 발신자를 확인한다"
      ],
      [
-      "누군가 기프트 카드 구매를 요구",
-      "100% 사기, 즉시 대화를 끝낸다"
+      "전화 상대가 기프트카드 구매와 번호·코드 제공 요구",
+      "멈추고 독립적으로 확인하며 번호·코드 제공하지 않기"
      ],
      [
       "학교/교수 이메일이 송금을 요구",
@@ -2467,12 +2923,12 @@ window.ARTICLES_BODY_I18N = {
    "c06ba5": {
     "items": [
      {
-      "title": "즉시 은행에 연락한다",
-      "desc": "송금 계좌의 개설 은행에 연락해 지급 정지와 계좌 동결을 요청합니다. 자금은 이체된 뒤 몇 분 안에 인출될 수 있으므로 빠를수록 좋습니다"
+      "title": "추가 송금을 멈추고 즉시 은행에 연락",
+      "desc": "은행 공식 번호로 송금한 계좌의 은행에 연락해 송금 중지·추적·계좌 보호를 문의하세요. 회수 여부는 은행과 해당 거래 상황에 달려 있습니다. 송금 기록을 보관하세요."
      },
      {
       "title": "현지 경찰에 신고한다",
-      "desc": "일본에서는 110으로 전화하고, 채팅 기록·송금 기록·상대방 정보를 증거로 보관합니다"
+      "desc": "긴급 위험이나 진행 중인 범죄는 110으로 신고하고 그 밖의 경우는 현지 경찰에 신고·상담하세요. 대화·송금 기록과 상대 정보를 보관합니다."
      },
      {
       "title": "본국 가족에게 연락해 신고한다",
@@ -2484,18 +2940,28 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "title": "알림을 공유한다",
-      "desc": "위챗 단체 대화방에 경험을 공유해 더 많은 사람이 사기를 당하지 않게 합니다"
+      "desc": "본인과 가족의 안전부터 확보한 뒤 확인된 사기 예방 정보를 적절히 공유하세요. 은행 카드·신분증·비밀번호나 확인되지 않은 개인 비난을 공개하지 마세요."
      }
     ]
    },
    "6d59ab": {
-    "text": "💡 사기를 당한 것은 당신의 잘못이 아닙니다. 사기 조직은 전문적인 훈련을 받았으며 피해자에는 고학력자도 포함됩니다. 돈을 되찾을 가능성은 작지만 신고에는 여전히 가치가 있습니다(사건 병합 수사, 조직 추적이 가능합니다). 부끄러움 때문에 침묵하지 마십시오. 당신의 경험이 다른 사람을 사기에서 지켜 줄 수 있습니다."
+    "text": "사기를 당했더라도 부끄러움 때문에 침묵하지 말고 증거를 보관하며 은행과 경찰에 도움을 요청하세요. 회수 여부는 거래와 사건 상황에 달려 있으며 보장되지 않습니다. 개인정보를 노출하지 않고 확인된 예방 정보를 공유하면 다른 사람에게도 도움이 될 수 있습니다."
    },
    "3e86de": {
     "text": "5. 사기 식별 요점"
    },
    "0125e2": {
-    "text": "실제 사례와 단체 대화방의 경험에 따르면: 억양의 출신지를 직접 물어보면(특정 지역의 억양이 뚜렷하면 대부분 사기), 현지 사투리나 일본어로 응답하면 상대가 곧바로 끊는 경우가 많습니다. 상대가 소속된 경찰서를 물어본 뒤 스스로 인터넷에서 공개 전화번호를 찾아 다시 걸어 확인합니다. 사기꾼은 빨리 성사시키려 하므로 세부 내용을 추궁하면 당황하는 경우가 많습니다. 가장 중요한 것은 은행 정보 보호입니다. 카드 번호와 비밀번호를 안전하게 보관하십시오."
+    "text": "신원을 확인하려면 현재 통화를 끝내고 해당 기관의 공식 홈페이지에서 직접 찾은 번호로 다시 전화하세요. 억양, 일본어 실력, 발신번호 표시를 신원 증명으로 믿지 마세요. 번호는 위조될 수 있습니다. 확인 중에도 은행 비밀번호는 알려주지 마세요.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 28,
+       "end": 46,
+       "style": "bold",
+       "quote": "공식 홈페이지에서 직접 찾은 번호"
+      }
+     ]
+    }
    },
    "40510e": {
     "items": [
@@ -2508,7 +2974,17 @@ window.ARTICLES_BODY_I18N = {
   },
   "es": {
    "aa3847": {
-    "text": "Objetivo de este artículo: saber cómo actuar ante situaciones sospechosas. Dos reglas prioritarias: no transferir dinero y no revelar datos personales; si los hechos ya ocurrieron, llama de inmediato al primer teléfono que aparece al final del artículo."
+    "text": "Si algo parece sospechoso, detén la transferencia y no facilites contraseñas ni datos personales. Si ya has enviado dinero, contacta primero con tu banco y después denuncia a la policía. Consulta los pasos de actuación tras una estafa.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 27,
+       "end": 49,
+       "style": "bold",
+       "quote": "detén la transferencia"
+      }
+     ]
+    }
    },
    "52ec55": {
     "text": "⚠️ Si acabas de llegar a Japón para estudiar, lee este artículo completo antes que nada: las bandas de estafadores usan métodos muy elaborados y también caen personas con estudios superiores. Ten presente la regla «no entrar en pánico, no creer nada, no entregar dinero»: con ella evitarás la gran mayoría de las estafas."
@@ -2541,7 +3017,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Método: envían correos haciéndose pasar por la universidad y piden el pago de «tasas académicas o de matrícula»; se hacen pasar por un profesor y piden que compres tarjetas regalo o hagas transferencias en su nombre; aprovechan fallos de seguridad para falsificar la dirección de correo del profesor."
    },
    "b41808": {
-    "text": "Claves para reconocerlo: la universidad nunca pide por correo o por teléfono tu contraseña bancaria ni una transferencia inmediata; si un profesor te pide de repente que compres algo en su nombre, confírmalo en persona o por teléfono con el propio profesor; comprueba si la dirección del remitente pertenece de verdad al dominio de la universidad."
+    "text": "Si alguien que dice ser tu universidad o profesor pide contraseñas, comprar tarjetas regalo o una transferencia urgente, detente. Confirma de forma independiente mediante contactos que ya tienes, la web universitaria o en persona. No te fíes solo del nombre mostrado ni del dominio del correo."
    },
    "d246ca": {
     "text": "4. Mensajes y enlaces de phishing"
@@ -2550,7 +3026,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "Método: envían mensajes con un enlace para pagar, con excusas como «depósito de alquiler», «caducidad del ETC» o «paquete retenido»; también envían enlaces haciéndose pasar por empresas de mensajería, servicios postales o compañías eléctricas."
    },
    "ffd258": {
-    "text": "Claves para reconocerlo: todo mensaje que incluya un enlace para pagar es una estafa; en Japón los pagos legítimos se hacen en tiendas de conveniencia, por transferencia bancaria (振込) o por domiciliación de cuenta; si tienes dudas, llama antes al teléfono oficial y no hagas clic en el enlace."
+    "text": "No abras directamente el enlace de un mensaje que te presione para pagar o introducir datos bancarios. Compruébalo desde una aplicación o web oficial verificada y, si hace falta, llama al número publicado allí. Verifica el origen; la presencia de un enlace por sí sola no determina su autenticidad.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 0,
+       "end": 31,
+       "style": "bold",
+       "quote": "No abras directamente el enlace"
+      }
+     ]
+    }
    },
    "8eed64": {
     "text": "5. Secuestro virtual"
@@ -2568,7 +3054,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Método: te añaden en WhatsApp o WeChat a un «grupo de trabajo a tiempo parcial» donde prometen un sueldo alto por una tarea sencilla; te piden adelantar el pago de la mercancía o comprar productos; al principio devuelven pequeñas cantidades y, cuando la suma es grande, se llevan el dinero y desaparecen."
    },
    "2cd15e": {
-    "text": "Claves para reconocerlo: cualquier trabajo a tiempo parcial que te pida pagar primero es una estafa; tu tarjeta de residencia indica el alcance del permiso de actividad fuera del estatus, así que un «trabajo a tiempo parcial» con un sueldo desorbitado tampoco es legal; sal de los grupos de WhatsApp de desconocidos y denúncialos."
+    "text": "Verifica con cuidado las ofertas desconocidas de sueldo alto y trabajo fácil. Si exigen adelantar dinero, comprar productos o pagar primero, detente y consulta. El sueldo por sí solo no determina la legalidad; comprueba también el permiso de actividad y las tareas reales."
    },
    "55891a": {
     "text": "7. Estafa de las tarjetas regalo en tiendas de conveniencia"
@@ -2577,7 +3063,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Método: se hacen pasar por la policía, una embajada o un técnico y, con la excusa de «verificar la cuenta» o «desbloquearla», te piden comprar tarjetas regalo de importe elevado en una tienda de conveniencia (Vプリカ, Apple Gift Card, etc.) y darles el número y el código."
    },
    "1449d2": {
-    "text": "Claves para reconocerlo: ninguna institución seria pide comprar tarjetas regalo para verificar algo o para pagar; a veces el personal de la tienda de conveniencia te avisa, pero no siempre consigue detenerlo."
+    "text": "Si una llamada desconocida pide comprar tarjetas regalo y entregar números o códigos, detente y verifica la entidad por tu cuenta. Las tarjetas no sustituyen la verificación de identidad; no entregues los datos al interlocutor. El aviso del personal de tienda tampoco sustituye tu propia comprobación."
    },
    "8eecc1": {
     "text": "8. Venta a domicilio y cambio de compañía eléctrica"
@@ -2586,7 +3072,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Método: se presentan en tu casa como empleados de una compañía eléctrica o de internet y dicen que «cambiar de compañía es más barato» para conseguir tus datos personales o hacerte firmar un plan caro."
    },
    "ccc44b": {
-    "text": "Claves para reconocerlo: la venta a domicilio puede no convenirte en absoluto; no firmes nada en el momento, di «no lo necesito» y cierra la puerta; una compañía legítima no se presenta sin avisar."
+    "text": "No entregues datos personales ni firmes bajo presión. Comprueba antes empresa, costes y condiciones por tu cuenta. Incluso una venta a domicilio legítima puede requerir comparación cuidadosa; la visita por sí sola no demuestra autenticidad."
    },
    "3743ca": {
     "text": "II. Principios básicos para evitar las estafas"
@@ -2612,7 +3098,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "0252c5": {
-    "text": "Prevención diaria: no respondas a las llamadas de números desconocidos y, si suena una grabación, cuelga de inmediato; si quien llama dice ser de la embajada o de la policía, cuelga y busca por tu cuenta el número oficial en la web para devolver la llamada; no respondas ni escribas en privado a los mensajes de cambio de divisas que aparecen en grupos de WeChat; no hagas clic en los mensajes con enlaces; si alguien te pide comprar tarjetas regalo, es una estafa al 100 %, termina la conversación de inmediato; si un correo de la universidad o de un profesor pide una transferencia, confírmalo en persona o por teléfono; ante una venta a domicilio, no abras la puerta o di «no lo necesito» y ciérrala."
+    "text": "Comprueba cada situación por separado:\nLlamada que dice ser de la embajada o policía: cuelga y busca tú el teléfono oficial.\nTransferencias o compras urgentes de universidad o profesor: confirma mediante contactos conocidos o en persona.\nEnlaces de pago en mensajes desconocidos: no inicies sesión desde el enlace; abre tú el servicio oficial.\nDivisas, tarjetas regalo o contratos a domicilio: verifica entidad y condiciones; no entregues contraseñas ni códigos de verificación."
    },
    "2f22d1": {
     "text": "III. Consulta rápida para la prevención diaria"
@@ -2644,8 +3130,8 @@ window.ARTICLES_BODY_I18N = {
       "¡No hagas clic! Verifica antes al remitente"
      ],
      [
-      "Alguien te pide comprar tarjetas regalo",
-      "Es una estafa al 100 %, termina la conversación de inmediato"
+      "Una llamada pide comprar tarjetas regalo y entregar números o códigos",
+      "Detente, verifica por tu cuenta y no entregues números ni códigos"
      ],
      [
       "Un correo de la universidad o de un profesor pide una transferencia",
@@ -2663,12 +3149,12 @@ window.ARTICLES_BODY_I18N = {
    "c06ba5": {
     "items": [
      {
-      "title": "Contacta con el banco de inmediato",
-      "desc": "Llama al banco donde está abierta la cuenta desde la que se hizo la transferencia y pide que detengan el pago y bloqueen la cuenta: el dinero puede retirarse pocos minutos después de la transferencia, así que cuanto antes mejor"
+      "title": "Detén nuevas transferencias y contacta con tu banco de inmediato",
+      "desc": "Llama al número oficial del banco de tu cuenta de origen. Consulta la detención o seguimiento de la transferencia y la protección de la cuenta; recuperar el dinero depende del banco y la operación concreta. Guarda los registros."
      },
      {
       "title": "Denuncia ante la policía local",
-      "desc": "En Japón llama al 110 y guarda los historiales de chat, los registros de la transferencia y los datos de la otra persona como pruebas"
+      "desc": "Llama al 110 si hay peligro urgente o un delito en curso. En otros casos, denuncia o consulta a la policía local. Conserva conversaciones, transferencias y datos de la otra parte."
      },
      {
       "title": "Pide a tus familiares en tu país que denuncien",
@@ -2680,18 +3166,28 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "title": "Comparte el aviso",
-      "desc": "Cuenta lo que te pasó en los grupos de WeChat para evitar que más personas caigan en la estafa"
+      "desc": "Asegura primero tu seguridad y la de tu familia; después comparte avisos verificados de forma adecuada. No publiques tarjetas bancarias, documentos de identidad, contraseñas ni acusaciones personales sin verificar."
      }
     ]
    },
    "6d59ab": {
-    "text": "💡 Ser víctima de una estafa no es culpa tuya: las bandas de estafadores están entrenadas profesionalmente y entre las víctimas hay personas con estudios superiores. Hay pocas esperanzas de recuperar el dinero, pero denunciar sigue teniendo valor (permite vincular casos y rastrear a la banda); no te calles por vergüenza, tu experiencia puede ayudar a otras personas a no caer en la trampa."
+    "text": "No calles por vergüenza tras una estafa. Conserva pruebas y pide ayuda al banco y la policía. La recuperación depende de la operación y del caso y no está garantizada. Compartir avisos verificados sin revelar datos personales también puede ayudar a otros."
    },
    "3e86de": {
     "text": "V. Puntos clave para reconocer una estafa"
    },
    "0125e2": {
-    "text": "Basado en casos reales y en la experiencia de los grupos de chat: pregunta directamente por el origen de su acento (un acento claramente de cierta región suele indicar una estafa); responde en dialecto local o en japonés y la otra persona normalmente colgará; pregúntale a qué comisaría pertenece y busca tú mismo el teléfono público en internet para llamar y verificarlo; los estafadores tienen prisa por cerrar el trato y se ponen nerviosos cuando se les piden detalles. Lo más importante es proteger tu información bancaria: cuida bien el número de tu tarjeta y tu contraseña."
+    "text": "Para comprobar la identidad, termina la llamada y vuelve a llamar al número que encuentres tú mismo en la web oficial de la entidad. Ni el acento, ni hablar japonés, ni el identificador de llamada prueban la identidad: los números pueden falsificarse. No reveles tu contraseña bancaria durante la comprobación.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 69,
+       "end": 117,
+       "style": "bold",
+       "quote": "número que encuentres tú mismo en la web oficial"
+      }
+     ]
+    }
    },
    "40510e": {
     "items": [
@@ -2718,7 +3214,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "銀行に行く前に：印鑑・オリエンテーション・営業時間"
    },
    "930ced": {
-    "text": "銀行口座の開設には必ず印鑑が必要です（**シャチハタは不可**）。来日前に必ず個人印鑑をご用意ください。印鑑がなければ窓口で口座を開設することができません。【入国準備】参照"
+    "text": "印鑑の要否は銀行と申込方法ごとに確認してください。福岡銀行と西日本シティ銀行の窓口では通常の印鑑が必要で、シャチハタは使えません。ゆうちょ手続きアプリには外国籍の方向けの口座開設手続きがあります。印鑑が必要な取引は開設後に別途登録でき、すべての申込方法で事前の印鑑準備が必須ではありません。参照【入国準備】",
+    "emphasis": {
+     "text": [
+      {
+       "start": 0,
+       "end": 18,
+       "style": "bold",
+       "quote": "印鑑の要否は銀行と申込方法ごとに確認"
+      }
+     ]
+    }
    },
    "9d3912": {
     "text": "銀行オリエンテーション（口座開設説明会）は留学手続きの中でも重要な一環です。来日前に申し込みが完了しているかご確認ください。通常の入学オリエンテーションとは別のイベントであり、それぞれ別に予約する必要があります。学校の回を逃した場合、その後は通常、自分で銀行の窓口で手続きするしかなく、時間がかかります。"
@@ -2727,16 +3233,16 @@ window.ARTICLES_BODY_I18N = {
     "text": "銀行の営業時間"
    },
    "f68cb8": {
-    "text": "日本の銀行の窓口営業時間は通常**午前10:00から午後15:00まで**です。15:00以降はATM以外の窓口・カウンターでの業務は一切行えません。口座開設や送金の手続きは必ず営業時間内にお越しください。"
+    "text": "出発前に支店の窓口とATMの営業時間を別々に確認してください。窓口は平日15時までの場合が多いものの、開店時刻・昼休み・取扱業務は支店によって異なります。一律に10～15時と考えず、予約ページでも受付時間を確認しましょう。"
    },
    "49d42a": {
     "text": "支払い：家賃・学費"
    },
    "9639d1": {
-    "text": "交換留学生やJTWプログラムの学生は、通常、家賃を銀行振込でのみ支払うことができ、現金での支払いは受け付けられません。口座開設後はキャッシュカード（現金カード）が発行され、ATMで入金や振込ができます。モバイルバンキングアプリは不要です。"
+    "text": "交換留学生やJTWの家賃は通常銀行振込で、現金は受け付けません。本人の請求書と寮の通知を確認してください。口座開設後のキャッシュカードはATM入金に使えます。振込にATM・アプリ・窓口のどれを使えるかは口座設定次第で、特に下記のゆうちょ非居住者口座の制限に注意してください。"
    },
    "52174c": {
-    "text": "注意：海外発行の銀行カードは日本の家賃の支払いに直接使用できません。ATMは通常午後5時以降利用できなくなるため、振込は営業時間内に済ませてください。"
+    "text": "海外発行のカードでは、寮が求める日本国内の口座振込を通常そのまま行えません。ATMが一律17時に閉まるわけではありません。営業時間と当日振込の締切は銀行・支店・支払先の指定で確認し、期限直前は余裕を持ってください。"
    },
    "4e10c7": {
     "text": "授業料の口座振替"
@@ -2748,10 +3254,10 @@ window.ARTICLES_BODY_I18N = {
     "text": "クレジットカードの申請"
    },
    "9e4ae1": {
-    "text": "日本のクレジットカードの発行基準は母国とは異なります。来日直後で信用情報がない状態で一般的なクレジットカードを申し込むと、審査に落ちやすい傾向があります。一方、PayPayカードは外国人にとって比較的利用しやすく、スマホアプリから申し込めて敷居も低いため、最初の1枚として検討できます。"
+    "text": "クレジットカードを申し込む前に、発行会社の条件を確認してください。PayPayカードはスマートフォンで申し込めますが、外国人が審査に通りやすいとの公式な保証はありません。条件を満たしても審査があり、「ハードルが低い」とは限りません。"
    },
    "13aee8": {
-    "text": "なお、クレジットカードの申込みは全体的に複雑で、多くのカードは日本での居住期間が6か月以上あり、在留期間にも十分な残りがあることが審査通過の条件です。また、学生の場合は承認される限度額が通常それほど高くなく、日常の少額決済やクレジットヒストリーの積み上げに利用するのが主な目的となります。"
+    "text": "PayPayカードの公開条件には、日本国内在住・18歳以上・本人または配偶者の安定した継続収入・本人認証ができる携帯電話が含まれます。他社カードは個別に確認し、「多くのカードは在日6か月が必須」と一括りにしないでください。発行可否と利用限度額は各社の審査で決まります。"
    },
    "299ec9": {
     "text": "ゆうちょ銀行（郵便局の銀行）"
@@ -2760,7 +3266,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "開設のハードルが最も低く、通常は在留カードと学生証があれば口座を開設できます。在留期間が6か月未満でも開設可能です（一部機能に制限あり）。全国に店舗があり、ATM手数料も比較的安価です。国費奨学金を受給している方は、学校が一括開催する口座開設会で口座を開設する必要があり、自分で郵便局へ行って手続きすることはできません。JASSOの学習奨励費もゆうちょ口座での受取りが指定されています。"
    },
    "d6d8e4": {
-    "text": "注意：来日から6か月未満の間、海外からゆうちょ口座への入金には比較的高い手数料がかかります（約7,500円/回）。高額な海外送金の予定がある場合は、事前に計画を立て、複数の方法を比較することをおすすめします。"
+    "text": "入国後6か月未満で日本の事務所に勤務していない人は、外為法上の非居住者として扱われるのが一般的です。非居住者が関わる国内口座振込は窓口7,500円、Madotab・ゆうちょ通帳アプリ・ゆうちょダイレクトなど一部の経路は3,000円です。利用できる経路は相手先と審査にもよります。この振込はATMではできません。\nこれらは海外からの入金に一律かかる手数料ではありません。海外送金と中継銀行の費用は別途確認してください。居住者になったら窓口で口座設定の変更を申請します。",
+    "emphasis": {
+     "text": [
+      {
+       "start": 139,
+       "end": 154,
+       "style": "bold",
+       "quote": "この振込はATMではできません"
+      }
+     ]
+    }
    },
    "6f4401": {
     "text": "福岡銀行"
@@ -2775,7 +3291,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "西日本シティ銀行（西福岡銀行）"
    },
    "7e1a3e": {
-    "text": "口座開設には印鑑と在留カードが必要です。申込書に記入する住所（漢字）は本人が記入しなければならず、代筆はできません。手続き前に自分の住所の書き方を確認しておいてください。西日本シティ銀行（西福岡銀行）は通常、予約なしで当日直接来店できます。ただし、手続きはすべて**日本語での対応が必要**です。日本語に不安がある場合は、日本語が話せる人の同伴が必要です。"
+    "text": "西日本シティ銀行の窓口では印鑑と本人確認書類が必要です。在留カードなどの具体的な書類は支店に確認し、住所は正確に記入してください。予約してから行くのがおすすめです。予約なしでは待ち時間が長くなったり、当日受け付けられない場合があります。窓口は主に日本語なので、必要なら事前に言語支援を相談するか、日本語ができる人に同行を頼んでください。"
    },
    "b65e5c": {
     "text": "口座開設の必要書類一覧"
@@ -2801,16 +3317,16 @@ window.ARTICLES_BODY_I18N = {
       "text": "パスポート"
      },
      {
-      "text": "印鑑（シャチハタ不可。通常の印鑑をご用意ください）"
+      "text": "印鑑：銀行・申込方法に合わせて準備。福岡銀行と西日本シティ銀行の窓口ではシャチハタ不可"
      },
      {
       "text": "学生証"
      },
      {
-      "text": "携帯電話番号（未取得の場合は Supporter の電話番号で申請し、取得後に変更）"
+      "text": "連絡先：本人の携帯番号がない場合は、使える番号を銀行に確認。取得後は速やかに更新"
      },
      {
-      "text": "現金（口座開設時の初回入金用に少額）"
+      "text": "初回入金：銀行の条件に合わせて現金を準備。西日本シティ銀行は公式に0円での開設可"
      }
     ]
    },
@@ -2909,7 +3425,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "Before Going to the Bank: Hanko Seal, Orientation, and Business Hours"
    },
    "930ced": {
-    "text": "Opening a bank account always requires a personal seal (hanko); **shachihata stamps are not acceptable**. Prepare a personal seal before arriving in Japan, or an account cannot be opened at the counter. See 【Arrival & Entry】"
+    "text": "Check whether your bank and application method require a seal. Fukuoka Bank and Nishi-Nippon City Bank counters require a regular seal and do not accept self-inking Shachihata seals. The Japan Post Bank procedures app offers an account-opening process for foreign nationals. A seal can be registered later for transactions that need it; not every application method requires one in advance. See【Arrival & Entry】",
+    "emphasis": {
+     "text": [
+      {
+       "start": 0,
+       "end": 61,
+       "style": "bold",
+       "quote": "Check whether your bank and application method require a seal"
+      }
+     ]
+    }
    },
    "9d3912": {
     "text": "The bank orientation (account opening information session) is an important step in the study-abroad procedures; check whether registration has been completed before arriving in Japan. It is a different event from the regular entrance orientation and requires a separate reservation. If the session hosted by the university is missed, the account must usually be opened in person at a bank counter, which takes considerable time."
@@ -2918,16 +3444,16 @@ window.ARTICLES_BODY_I18N = {
     "text": "Bank Business Hours"
    },
    "f68cb8": {
-    "text": "Counter service at Japanese banks is generally available from **10:00 to 15:00**. After 15:00, no window or counter services are provided except ATMs; account opening, remittance, and other procedures must be completed during business hours."
+    "text": "Check the branch counter hours and ATM hours separately before going. Counters often close by 15:00 on weekdays, but opening times, lunch breaks and available services vary by branch. Do not plan around a universal 10:00–15:00 schedule; the booking page can also show available time slots."
    },
    "49d42a": {
     "text": "Paying Money: Rent and Tuition"
    },
    "9639d1": {
-    "text": "Exchange and JTW program students can usually pay rent only by bank transfer, as cash is not accepted. Once the account is opened, a cash card is issued, which can be used to deposit money and make transfers at an ATM; no mobile banking app is required."
+    "text": "Exchange and JTW students usually pay rent by bank transfer rather than cash; follow your bill and residence notice. The cash card issued after account opening can be used for ATM deposits. Check your account settings to see whether transfers are available through an ATM, app or counter, especially the Japan Post Bank restrictions for non-residents below."
    },
    "52174c": {
-    "text": "Note: bank cards issued overseas cannot be used directly to pay Japanese rent. ATMs generally close after 5 p.m., so transfers should be completed during working hours."
+    "text": "An overseas-issued card usually cannot directly make the domestic account transfer required by your residence. ATMs do not all close at 17:00. Check the bank, branch and recipient requirements for operating hours and same-day transfer deadlines, especially when payment is due soon."
    },
    "4e10c7": {
     "text": "Direct Debit for Tuition (口座振替)"
@@ -2939,10 +3465,10 @@ window.ARTICLES_BODY_I18N = {
     "text": "Credit Card Application"
    },
    "9e4ae1": {
-    "text": "The criteria for issuing credit cards in Japan differ from those overseas; applying for a traditional credit card shortly after arrival with no credit history is likely to be rejected. By comparison, the PayPay Card is friendlier to foreigners; it can be applied for in the mobile app with a lower threshold and may be considered as a first credit card."
+    "text": "Check the issuer's requirements before applying for a credit card. You can apply for a PayPay Card on your phone, but the company does not promise easier approval for foreign nationals. Meeting the application requirements still leaves a credit review; do not treat it as guaranteed easy approval."
    },
    "13aee8": {
-    "text": "Note: credit card applications are generally complicated, and most cards require residence in Japan for more than 6 months with sufficient remaining period of stay to pass screening; limits approved for students are usually low, suiting everyday small purchases and credit history building."
+    "text": "PayPay Card's published requirements include living in Japan, being at least 18, having stable ongoing income yourself or through your spouse, and a phone that supports identity verification. Check other cards individually; do not assume most require six months in Japan. Each issuer determines approval and credit limits through its review."
    },
    "299ec9": {
     "text": "ゆうちょ銀行 (Japan Post Bank)"
@@ -2951,7 +3477,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "It has the lowest opening threshold: an account can usually be opened with a residence card and student ID, even with less than 6 months of residence status (some functions are restricted). Branches are found nationwide and ATM fees are low. Recipients of the government (MEXT) scholarship must open their accounts on-site at the 口座開設会 (account opening session) organized by the university and cannot apply at a post office on their own; the JASSO Learning Encouragement Scholarship is also designated to be received in a ゆうちょ account."
    },
    "d6d8e4": {
-    "text": "Note: while in Japan for less than 6 months, receiving remittances from overseas into a ゆうちょ account incurs high fees (about 7500 yen per transfer). For large overseas remittances, plan ahead and compare options."
+    "text": "People who arrived less than six months ago and do not work at an office in Japan are generally treated as non-residents under foreign-exchange rules. Domestic account transfers involving non-residents cost 7,500 yen at a counter, or 3,000 yen through certain channels such as Madotab, the Japan Post Bank passbook app or Yucho Direct. Available channels also depend on the recipient and review. These transfers cannot be made at an ATM.\nThese amounts are not a fixed fee for incoming overseas transfers; check international-transfer and intermediary-bank fees separately. When your status changes to resident, ask a counter to update the account settings.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 396,
+       "end": 436,
+       "style": "bold",
+       "quote": "These transfers cannot be made at an ATM"
+      }
+     ]
+    }
    },
    "6f4401": {
     "text": "福岡銀行 (Fukuoka Bank)"
@@ -2966,7 +3502,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "西日本シティ銀行 (Nishi-Nippon City Bank)"
    },
    "7e1a3e": {
-    "text": "Opening an account requires a seal (hanko) and residence card. The address (in kanji) on the application form must be written by the applicant in person and cannot be written by proxy; confirm how to write the address before applying. At 西日本シティ銀行 (Nishi-Nippon City Bank), walk-ins are usually accepted on the same day without an appointment; however, the entire procedure **must be conducted in Japanese**, and if not proficient in Japanese, an accompanying person who speaks Japanese is required."
+    "text": "Nishi-Nippon City Bank counters require a seal and identity documents. Check the exact documents, including residence-card requirements, with the branch and write your address accurately. Book before visiting; without a booking you may face a long wait or be unable to apply that day. Service is mainly in Japanese, so ask about language assistance in advance or bring someone who speaks Japanese."
    },
    "b65e5c": {
     "text": "Checklist of Documents for Opening an Account"
@@ -2992,16 +3528,16 @@ window.ARTICLES_BODY_I18N = {
       "text": "Passport"
      },
      {
-      "text": "Personal seal (inkan; a self-inking Shachihata stamp is not accepted — bring an ordinary seal)"
+      "text": "Seal: prepare according to the bank and application method; Fukuoka Bank and Nishi-Nippon City Bank counters do not accept Shachihata"
      },
      {
       "text": "Student ID card"
      },
      {
-      "text": "Mobile phone number (if not available yet, the Supporter's number may be entered first and changed later)"
+      "text": "Contact details: if you have no personal mobile number, ask the bank which number it accepts; update it once you obtain your own"
      },
      {
-      "text": "A small amount of cash (for the initial deposit when opening the account)"
+      "text": "Initial deposit: bring cash if your bank requires it; Nishi-Nippon City Bank states that an account can be opened with zero yen"
      }
     ]
    },
@@ -3100,7 +3636,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "은행 방문 전: 인감·orientation·영업 시간"
    },
    "930ced": {
-    "text": "은행 계좌 개설에는 반드시 인감이 필요합니다(**シャチハタ 불가**). 일본 도착 전에 개인 인감을 반드시 준비해야 하며, 준비하지 않으면 창구에서 계좌를 개설할 수 없습니다. 【입국 준비】 참조"
+    "text": "은행과 신청 방법별로 도장이 필요한지 먼저 확인하세요. 후쿠오카은행과 니시닛폰시티은행 창구는 일반 도장이 필요하며 자동 잉크식 샤치하타는 받지 않습니다. 유초 수속 앱에는 외국 국적자용 계좌 개설 절차가 있습니다. 도장이 필요한 거래는 개설 후 별도로 등록할 수 있으므로 모든 신청 방법에 사전 도장이 필수인 것은 아닙니다. 참조【입국 준비】",
+    "emphasis": {
+     "text": [
+      {
+       "start": 0,
+       "end": 26,
+       "style": "bold",
+       "quote": "은행과 신청 방법별로 도장이 필요한지 먼저 확인"
+      }
+     ]
+    }
    },
    "9d3912": {
     "text": "은행 orientation(계좌 개설 설명회)은 유학 수속에서 비교적 중요한 과정입니다. 일본 도착 전에 신청했는지 확인하시기 바랍니다. 일반 입학 orientation과는 다른 행사이므로 각각 따로 예약해야 합니다. 학교 일정을 놓치면 이후에는 보통 직접 은행 창구에서 처리해야 하므로 시간이 많이 걸립니다."
@@ -3109,16 +3655,16 @@ window.ARTICLES_BODY_I18N = {
     "text": "은행 영업 시간"
    },
    "f68cb8": {
-    "text": "일본 은행의 창구 영업 시간은 보통 **오전 10:00부터 오후 15:00까지**입니다. 15:00 이후에는 ATM을 제외한 모든 창구 업무가 종료되므로, 계좌 개설이나 송금 등은 반드시 영업 시간 내에 방문하시기 바랍니다."
+    "text": "방문 전에 지점 창구와 ATM 운영 시간을 각각 확인하세요. 창구는 평일 15시까지인 경우가 많지만 개점 시간·점심 휴무·취급 업무는 지점마다 다릅니다. 모두 10:00~15:00라고 가정하지 말고 예약 페이지에서도 접수 시간을 확인하세요."
    },
    "49d42a": {
     "text": "납부: 집세·학비"
    },
    "9639d1": {
-    "text": "교환학생과 JTW 프로그램 학생은 보통 은행 송금으로만 집세를 납부할 수 있으며 현금은 받지 않습니다. 계좌가 개설되면 cash card(현금 카드)를 받을 수 있으며, ATM에서 입금·송금이 가능해 모바일 뱅킹 앱을 사용할 필요가 없습니다."
+    "text": "교환학생과 JTW 학생은 보통 현금이 아닌 계좌 이체로 월세를 냅니다. 본인 청구서와 기숙사 안내를 따르세요. 개설 후 받은 캐시카드는 ATM 입금에 쓸 수 있습니다. 이체에 ATM·앱·창구 중 무엇을 이용할 수 있는지는 계좌 설정에 따라 확인하며, 특히 아래 유초 비거주자 계좌 제한에 주의하세요."
    },
    "52174c": {
-    "text": "주의: 해외에서 발급된 은행 카드는 일본 집세 납부에 직접 사용할 수 없습니다. ATM은 보통 오후 5시 이후에 닫히므로 송금은 업무 시간 내에 완료하시기 바랍니다."
+    "text": "해외 발급 카드로는 보통 기숙사가 요구하는 일본 국내 계좌 이체를 직접 할 수 없습니다. 모든 ATM이 17시에 닫는 것은 아닙니다. 운영 시간과 당일 이체 마감은 은행·지점·수취인 요건에 따라 확인하고 납부 기한이 가까우면 미리 준비하세요."
    },
    "4e10c7": {
     "text": "授業料 자동이체(口座振替)"
@@ -3130,10 +3676,10 @@ window.ARTICLES_BODY_I18N = {
     "text": "신용카드 신청"
    },
    "9e4ae1": {
-    "text": "일본 신용카드 발급 기준은 본국과 다릅니다. 도착 직후 신용 기록이 없으면 일반 신용카드 신청이 거절되기 쉽습니다. 반면 PayPay 카드는 외국인에게 비교적 친절하며, 모바일 앱에서 신청할 수 있고 문턱이 낮아 첫 번째 신용카드로 고려할 만합니다."
+    "text": "신용카드를 신청하기 전에 발급사의 조건을 확인하세요. PayPay 카드는 휴대폰으로 신청할 수 있지만 외국인이 더 쉽게 승인된다는 공식 보장은 없습니다. 신청 조건을 충족해도 심사가 있으므로 발급이 쉽다고 단정하지 마세요."
    },
    "13aee8": {
-    "text": "참고로, 신용카드 신청 절차는 전반적으로 복잡합니다. 대부분의 카드는 일본 거주 기간이 6개월 이상이고 재류 기간이 충분히 남아 있어야 심사를 통과할 수 있습니다. 학생 신분으로 승인되는 한도는 보통 낮으며, 주로 일상적인 소액 결제와 신용 기록 쌓기에 사용됩니다."
+    "text": "PayPay 카드의 공개 조건은 일본 거주, 만 18세 이상, 본인 또는 배우자의 안정적이고 지속적인 수입, 본인 인증이 가능한 휴대폰 등입니다. 다른 카드는 개별 확인이 필요하며 대부분 일본 거주 6개월이 필수라고 일반화할 수 없습니다. 발급 여부와 한도는 각 회사의 심사로 결정됩니다."
    },
    "299ec9": {
     "text": "ゆうちょ銀行(우체국 은행)"
@@ -3142,7 +3688,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "개설 문턱이 가장 낮아, 보통 재류카드와 학생증만 있으면 계좌를 개설할 수 있으며 재류 기간이 6개월 미만이어도 개설이 가능합니다(일부 기능 제한). 점포가 전국에 있고 ATM 수수료가 낮습니다. 국비 장학금 수혜자는 학교가 주최하는 口座開設会 현장에서 계좌를 개설해야 하며, 직접 우체국에서 처리할 수 없습니다. JASSO 학습 장려비도 ゆうちょ 계좌로 받도록 지정되어 있습니다."
    },
    "d6d8e4": {
-    "text": "주의: 일본 도착 후 6개월 미만인 기간에는 해외에서 ゆうちょ 계좌로 송금하면 수수료가 높게 부과됩니다(약 7500엔/회). 대규모 해외 송금이 필요하다면 미리 계획하고 여러 방법을 비교하시기 바랍니다."
+    "text": "입국 6개월 미만이고 일본 내 사무소에 근무하지 않는 사람은 보통 외환법상 비거주자로 취급됩니다. 비거주자가 관련된 국내 계좌 이체는 창구 7,500엔, Madotab·유초 통장 앱·유초 다이렉트 등 일부 경로 3,000엔입니다. 이용 경로는 상대방과 심사 결과에도 달려 있습니다. 이런 이체는 ATM으로 할 수 없습니다.\n이 금액은 해외 송금 수취에 일률적으로 부과되는 수수료가 아닙니다. 국제 송금 및 중개 은행 비용은 별도로 확인하세요. 거주자로 변경되면 유초 창구에서 계좌 설정 변경을 신청하세요.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 158,
+       "end": 179,
+       "style": "bold",
+       "quote": "이런 이체는 ATM으로 할 수 없습니다"
+      }
+     ]
+    }
    },
    "6f4401": {
     "text": "福岡銀行(후쿠오카 은행)"
@@ -3157,7 +3713,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "西日本シティ銀行(서일본 시티 은행)"
    },
    "7e1a3e": {
-    "text": "계좌 개설에는 인감과 재류카드가 필요합니다. 신청서의 주소(한자)는 본인이 직접 작성해야 하며 대필할 수 없으므로, 신청 전에 본인 주소의 한자 표기를 확인하시기 바랍니다. 西日本シティ銀行(서일본 시티 은행)은 보통 예약 없이 당일 방문할 수 있습니다. 단, 모든 절차는 **반드시 일본어로 진행**되어야 하며, 일본어가 능숙하지 않다면 일본어가 가능한 사람의 동행이 필요합니다."
+    "text": "니시닛폰시티은행 창구 개설에는 도장과 본인 확인 서류가 필요합니다. 재류카드 등 구체적인 서류는 지점에 확인하고 주소를 정확히 작성하세요. 예약 후 방문하는 것이 좋으며, 미예약 시 오래 기다리거나 당일 접수가 어려울 수 있습니다. 창구는 주로 일본어이므로 필요하면 미리 언어 지원을 문의하거나 일본어 가능자와 동행하세요."
    },
    "b65e5c": {
     "text": "계좌 개설 서류 목록"
@@ -3183,16 +3739,16 @@ window.ARTICLES_BODY_I18N = {
       "text": "여권"
      },
      {
-      "text": "도장(샤치하타 불가. 일반 도장을 준비)"
+      "text": "도장: 은행·신청 방법에 따라 준비하며 후쿠오카은행과 니시닛폰시티은행 창구는 샤치하타 불가"
      },
      {
       "text": "학생증"
      },
      {
-      "text": "휴대전화 번호(아직 없으면 Supporter 전화번호로 먼저 기재하고, 개설 후 변경)"
+      "text": "연락처: 본인 휴대폰 번호가 없으면 은행에 인정되는 번호를 먼저 확인하고 발급 후 바로 변경"
      },
      {
-      "text": "소액의 현금(계좌 개설 시 초입금용)"
+      "text": "초기 입금: 은행 요건에 따라 현금을 준비하며 니시닛폰시티은행은 공식 안내상 0엔 개설 가능"
      }
     ]
    },
@@ -3291,7 +3847,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "Antes de ir al banco: sello personal, orientation y horario de atención"
    },
    "930ced": {
-    "text": "Para abrir una cuenta bancaria es imprescindible un sello personal (hanko) (**no se acepta Shachihata（シャチハタ）**). Antes de venir a Japón, asegúrate de preparar tu sello personal; de lo contrario no podrás abrir la cuenta en ventanilla. Ver 【Preparativos para la entrada a Japón】"
+    "text": "Comprueba si tu banco y la vía de solicitud requieren un sello. Las ventanillas de Fukuoka Bank y Nishi-Nippon City Bank exigen un sello normal y no aceptan Shachihata autoentintados. La aplicación de trámites de Japan Post Bank ofrece apertura de cuentas para extranjeros. El sello puede registrarse después para operaciones que lo requieran; no todas las vías lo exigen de antemano. Véase【Preparativos de llegada】",
+    "emphasis": {
+     "text": [
+      {
+       "start": 0,
+       "end": 62,
+       "style": "bold",
+       "quote": "Comprueba si tu banco y la vía de solicitud requieren un sello"
+      }
+     ]
+    }
    },
    "9d3912": {
     "text": "La orientation bancaria (sesión informativa para abrir una cuenta) es una de las partes más importantes de los trámites de estudio en el extranjero; antes de venir a Japón, confirma si ya te has inscrito. Es un evento distinto de la orientation general de ingreso y requiere una reserva por separado. Si pierdes la sesión organizada por la universidad, por lo general después solo podrás tramitarlo por tu cuenta en la ventanilla del banco, lo que consume bastante tiempo."
@@ -3300,16 +3866,16 @@ window.ARTICLES_BODY_I18N = {
     "text": "Horario de atención del banco"
    },
    "f68cb8": {
-    "text": "El horario de ventanilla de los bancos japoneses es, por lo general, **de 10:00 a 15:00**. Después de las 15:00 no se atiende ningún trámite de ventanilla ni de mostrador, salvo en los cajeros automáticos (ATM). Para abrir una cuenta o hacer una transferencia, acude siempre dentro del horario de atención."
+    "text": "Antes de ir, comprueba por separado el horario de ventanilla y el del cajero. Las ventanillas suelen cerrar a las 15:00 entre semana, pero la apertura, las pausas y los servicios varían según la sucursal. No des por hecho un horario general de 10:00 a 15:00; consulta también las franjas de la página de reservas."
    },
    "49d42a": {
     "text": "Pagar: alquiler y matrícula"
    },
    "9639d1": {
-    "text": "Los estudiantes de intercambio y los del programa JTW normalmente solo pueden pagar el alquiler mediante transferencia bancaria; no se acepta efectivo. Una vez abierta la cuenta recibirás una cash card (tarjeta de efectivo), con la que podrás depositar y transferir en el ATM, sin necesidad de usar la app de banca móvil."
+    "text": "Los estudiantes de intercambio y JTW suelen pagar el alquiler por transferencia, no en efectivo; sigue tu factura y el aviso de la residencia. La tarjeta bancaria permite ingresar efectivo en cajeros. Comprueba si tu cuenta permite transferencias por cajero, aplicación o ventanilla, especialmente las restricciones de Japan Post Bank para no residentes indicadas abajo."
    },
    "52174c": {
-    "text": "Atención: las tarjetas bancarias emitidas en el extranjero no sirven directamente para pagar el alquiler en Japón; por lo general los ATM cierran después de las 5 de la tarde, así que realiza las transferencias dentro del horario de trabajo."
+    "text": "Una tarjeta emitida en el extranjero normalmente no permite realizar directamente la transferencia nacional que exige la residencia. Los cajeros no cierran todos a las 17:00. Comprueba horarios y plazos de transferencia del banco, la sucursal y el destinatario, sobre todo si se acerca el vencimiento."
    },
    "4e10c7": {
     "text": "Domiciliación bancaria de la matrícula (口座振替)"
@@ -3321,10 +3887,10 @@ window.ARTICLES_BODY_I18N = {
     "text": "Solicitud de tarjeta de crédito"
    },
    "9e4ae1": {
-    "text": "La lógica de emisión de tarjetas de crédito en Japón es distinta de la de otros países: si acabas de llegar y no tienes historial de crédito, es fácil que te rechacen la solicitud de una tarjeta tradicional. En cambio, la tarjeta PayPay es más accesible para los extranjeros, se solicita desde la app del móvil y el umbral es más bajo, por lo que puede considerarse como primera tarjeta de crédito."
+    "text": "Consulta los requisitos del emisor antes de solicitar una tarjeta. PayPay Card se puede solicitar por móvil, pero la empresa no promete una aprobación más fácil para extranjeros. Cumplir los requisitos no evita la evaluación; no lo interpretes como una garantía de aprobación sencilla."
    },
    "13aee8": {
-    "text": "Conviene advertir que, en conjunto, solicitar una tarjeta de crédito es un proceso complejo: la mayoría de los productos exige haber residido en Japón al menos 6 meses y contar con un margen suficiente en el periodo de residencia restante para superar la revisión; además, el límite que se aprueba a los estudiantes suele ser bajo, por lo que sirve principalmente para gastos diarios pequeños y para ir construyendo historial crediticio."
+    "text": "Los requisitos publicados de PayPay Card incluyen residir en Japón, tener al menos 18 años, ingresos estables y continuados propios o del cónyuge, y un móvil que permita verificar la identidad. Consulta otras tarjetas por separado; no supongas que la mayoría exige seis meses en Japón. Cada emisor decide la aprobación y el límite mediante su evaluación."
    },
    "299ec9": {
     "text": "Banco Yucho（ゆうちょ銀行）"
@@ -3333,7 +3899,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "Es el banco con el umbral de apertura más bajo: normalmente basta con la tarjeta de residencia y el carné de estudiante, y se puede abrir incluso con menos de 6 meses de residencia (algunas funciones quedan limitadas). Tiene sucursales en todo el país y comisiones de ATM bajas. Quienes reciben una beca del Gobierno (MEXT) deben abrir la cuenta en la sesión colectiva de apertura (口座開設会) organizada por la universidad, y no pueden hacerlo por su cuenta en la oficina de correos; la beca de estímulo al estudio de JASSO también se recibe en una cuenta de Yucho（ゆうちょ）."
    },
    "d6d8e4": {
-    "text": "Atención: si han pasado menos de 6 meses desde tu llegada a Japón, las transferencias desde el extranjero a una cuenta de Yucho（ゆうちょ）conllevan comisiones elevadas (unos 7500 yenes por operación). Si prevés enviar cantidades importantes desde el extranjero, conviene planificarlo con antelación y comparar varias opciones."
+    "text": "Quienes llevan menos de seis meses en Japón y no trabajan en una oficina del país suelen considerarse no residentes según las normas de divisas. Las transferencias nacionales con no residentes cuestan 7.500 yenes en ventanilla o 3.000 por ciertas vías, como Madotab, la aplicación de libreta de Japan Post Bank o Yucho Direct. La disponibilidad depende también del destinatario y la evaluación. Estas transferencias no pueden hacerse por cajero.\nEstos importes no son una comisión fija por recibir dinero del extranjero; consulta aparte los gastos internacionales y de bancos intermediarios. Cuando pases a ser residente, solicita en ventanilla la actualización de la cuenta.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 395,
+       "end": 444,
+       "style": "bold",
+       "quote": "Estas transferencias no pueden hacerse por cajero"
+      }
+     ]
+    }
    },
    "6f4401": {
     "text": "Banco de Fukuoka（福岡銀行）"
@@ -3348,7 +3924,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Nishi-Nippon City Bank（西日本シティ銀行）"
    },
    "7e1a3e": {
-    "text": "Para abrir una cuenta se necesitan el sello personal y la tarjeta de residencia. La dirección (en caracteres kanji) del formulario de solicitud debes escribirla tú mismo, no se admite que otra persona la escriba; antes de ir, confirma cómo se escribe tu dirección. En Nishi-Nippon City Bank（西日本シティ銀行）normalmente se puede acudir directamente el mismo día, sin reserva; sin embargo, todo el trámite **debe realizarse en japonés**, así que si tu japonés no es fluido necesitarás que te acompañe alguien que lo hable."
+    "text": "Las ventanillas de Nishi-Nippon City Bank requieren sello y documentos de identidad. Confirma con la sucursal los documentos exactos, incluida la tarjeta de residencia, y escribe la dirección correctamente. Reserva antes de ir: sin cita puedes esperar mucho o no ser atendido ese día. La atención es principalmente en japonés; pregunta antes por ayuda lingüística o acude con alguien que lo hable."
    },
    "b65e5c": {
     "text": "Lista de documentos para abrir una cuenta"
@@ -3374,16 +3950,16 @@ window.ARTICLES_BODY_I18N = {
       "text": "Pasaporte"
      },
      {
-      "text": "Sello personal (inkan): no se acepta el sello autoentintado (Shachihata); hay que llevar un sello normal"
+      "text": "Sello: según el banco y la vía; las ventanillas de Fukuoka Bank y Nishi-Nippon City Bank no aceptan Shachihata"
      },
      {
       "text": "Tarjeta de estudiante"
      },
      {
-      "text": "Número de teléfono móvil (si aún no se tiene, puede indicarse el del Supporter y cambiarlo después)"
+      "text": "Contacto: si no tienes móvil propio, pregunta al banco qué número acepta y actualízalo cuando lo obtengas"
      },
      {
-      "text": "Una pequeña cantidad de efectivo (para el depósito inicial al abrir la cuenta)"
+      "text": "Depósito inicial: lleva efectivo si lo exige el banco; Nishi-Nippon City Bank indica que se puede abrir con cero yenes"
      }
     ]
    },
@@ -3633,7 +4209,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "aa5140": {
-    "text": "福岡市の LINE 公式アカウントは防災情報を配信しています。来日後に追加しておくことをおすすめします —— 本記事の上にある「福岡市 LINE 公式アカウント」の節を参照。"
+    "text": "到着後は福岡市公式LINEを登録し、必要に応じて防災情報の配信を設定できます。設定方法は【生活のコツ】の「福岡市LINE公式アカウント」を参照してください。"
    },
    "030d6c": {
     "items": [
@@ -3866,7 +4442,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "aa5140": {
-    "text": "Fukuoka City’s official LINE account pushes disaster-prevention information; adding it once you arrive is recommended — see the “Fukuoka City official LINE account” section above."
+    "text": "After arriving, follow Fukuoka City's official LINE account and enable disaster alerts as needed. See the Fukuoka City LINE section in【Life Tips】for settings."
    },
    "030d6c": {
     "items": [
@@ -4099,7 +4675,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "aa5140": {
-    "text": "후쿠오카시 공식 LINE 계정은 방재 정보를 발송합니다. 입국 후 추가해 두시길 권합니다 —— 본문 위쪽 「후쿠오카시 LINE 공식 계정」 절을 참조하세요."
+    "text": "도착 후 후쿠오카시 공식 LINE을 추가하고 필요에 따라 방재 알림을 설정하세요. 설정 방법은【생활 팁】의 후쿠오카시 공식 LINE 항목을 참조하세요."
    },
    "030d6c": {
     "items": [
@@ -4376,7 +4952,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "aa5140": {
-    "text": "La cuenta oficial de LINE de la ciudad de Fukuoka envía información de prevención de desastres; se recomienda añadirla al llegar — consulta la sección «Cuenta oficial de LINE de la ciudad de Fukuoka» más arriba en este artículo."
+    "text": "Tras llegar, sigue la cuenta oficial de LINE de Fukuoka y activa las alertas de desastres que necesites. Consulta la sección de LINE de Fukuoka en【Consejos prácticos】para configurarlas."
    },
    "030d6c": {
     "items": [
@@ -4415,7 +4991,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "逃しても大丈夫です。これは入居初期の一時的な措置にすぎません。その後の日常の買い物は昭和バスで学研都市駅の一帯まで行くか、イオンの学内受取ロッカーを使えます（参照【買い物】）。遠くに住んでいるなら自転車を買うのも手です。"
    },
    "549889": {
-    "text": "**到着が何時になっても、その日のうちに入居できます。** 到着時刻によっては、入居手続きと寮のルール説明が翌日に回ることはありますが、宿泊そのものに影響はありません。"
+    "text": "出発前に自分の寮の通知で入居日・受付時間・鍵の受取方法を確認してください。遅い到着は寮に対応を相談し、いつでも入居できるとは考えないでください。"
    },
    "d15555": {
     "text": "来日後の最初の数日は手続きが集中し、しかも一部には順序があります。以下は「入国前 → 到着後」の時系列で整理しています。"
@@ -4506,7 +5082,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "印鑑（はんこ）"
    },
    "7a40b0": {
-    "text": "日本の生活では印鑑が必要な場面が多くあります。「ドン・キホーテ」のセルフ彫刻機で作れます（およそ 500 円から）。漢字、ひらがな、カタカナ、アルファベットのいずれでも彫れます。注意：シャチハタ（インク内蔵式）は銀行の口座開設には使えないので、普通の材質の印鑑を用意してください。参照【銀行・送金】"
+    "text": "印鑑の要否は銀行と申込方法ごとに確認してください。福岡銀行と西日本シティ銀行の窓口ではシャチハタは使えず、通常の印鑑が必要です。事前に用意できない場合は、ドン・キホーテの自動印鑑作成機で購入できます（約500円から）。漢字・ひらがな・カタカナ・アルファベットに対応しています。参照【銀行・送金】"
    },
    "65cb2d": {
     "text": "渡日前の連絡（Supporter）"
@@ -4723,7 +5299,7 @@ window.ARTICLES_BODY_I18N = {
      [
       "福岡空港 → 九大学研都市",
       "地下鉄 + JR（直通）",
-      "610 円、約 36 分、乗り換えなし"
+      "実際の区間の現行運賃とJR直通列車かを確認"
      ],
      [
       "九大学研都市 → 学内各停留所",
@@ -4746,10 +5322,10 @@ window.ARTICLES_BODY_I18N = {
     "text": "市街地や空港へよく行き来するなら「伊都キャンパス回数券」（6,730 円 / 10 枚、1 回あたり 673 円）も検討できます。地下鉄各駅から昭和バスの九大線・学内までをカバーします。⬜要確認：この回数券が福岡空港駅まで使えるかどうか —— 2 つの公式ページのどちらにも明記がありません。詳しくは 参照【交通】。"
    },
    "f7cdf3": {
-    "text": "寮到着：当日は何時でも入居可"
+    "text": "寮到着：入居日と受付時間を先に確認"
    },
    "d5f4d7": {
-    "text": "ですから便の遅延や乗り継ぎのトラブル、やむを得ずタクシーに変更した場合でも、その晩の泊まる場所を心配する必要はありません。"
+    "text": "便の遅延や予定変更は寮または大学の支援担当へ早めに連絡してください。当夜の入居が確認できない場合は、一時的な宿泊先を準備します。"
    },
    "8e952c": {
     "text": "到着後の数日の手続き順序"
@@ -4758,7 +5334,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "落ち着いてからの手続きは次の順に進めます：① SIM カード → ② 銀行口座 → ③ 国民健康保険 → ④ 自転車と生活必需品 → ⑤ キャンパスに慣れる。参照【携帯・ネット】参照【銀行・送金】参照【医療・保険】"
    },
    "4547cd": {
-    "text": "このうち**住所登録がほとんどの手続きの前提**です —— まず在留カードを提出して住所を登録し、翌日に受け取ってから、SIM カードと銀行口座に進みます。またオリエンテーションへの参加も忘れずに。指導教員か Supporter が事前に知らせてくれます。"
+    "text": "住所登録は多くの手続きの前提です。住所地の窓口または大学の当期通知に従ってください。在留カードを預けるか、返却がいつかは利用する手続き方法で確認し、その後のSIMや口座開設を予定します。オリエンテーションも当期通知を確認してください。"
    },
    "3e3e21": {
     "text": "この節の空港の動線、案内表示、現地の情報は、Hato と阿遥が記録と写真を提供し、それをもとにまとめました。"
@@ -4809,7 +5385,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Missing it is not a problem: it is only a stopgap for your first days. Afterwards you can take the Showa Bus to the Gakkentoshi Station area for everyday shopping, or use AEON’s on-campus pickup locker (See【Shopping】). If you live further out, buying a bicycle is worth considering."
    },
    "549889": {
-    "text": "**However late you arrive, you can move in that same day.** Depending on the hour, the move-in formalities and the briefing on dormitory rules may be pushed to the next day, but staying the night is unaffected."
+    "text": "Before travelling, check your residence notice for the move-in date, reception hours and key collection. Ask the residence about late arrival arrangements; do not assume you can move in at any time."
    },
    "d15555": {
     "text": "The first few days after arriving are dense with procedures, and some of them have to be done in order. What follows is organised as a timeline: before entry, then after landing."
@@ -4900,7 +5476,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Personal seal (hanko)"
    },
    "7a40b0": {
-    "text": "A seal is needed in many situations in Japan. You can have one cut at the self-service machines in Don Quijote (from around 500 yen), in kanji, hiragana, katakana, or the Latin alphabet. Note: a シャチハタ (pre-inked) stamp cannot be used to open a bank account, so buy an ordinary one.See【Banking & Remittance】"
+    "text": "Check the seal requirements for your bank and application method first. Fukuoka Bank and Nishi-Nippon City Bank counters require a regular personal seal and do not accept self-inking Shachihata seals. If you cannot prepare one in advance, Don Quijote has self-service seal machines (from about 500 yen), supporting kanji, hiragana, katakana and letters. See【Banking & Remittance】"
    },
    "65cb2d": {
     "text": "Contact Before Departure (your Supporter)"
@@ -5117,7 +5693,7 @@ window.ARTICLES_BODY_I18N = {
      [
       "Fukuoka Airport → Kyudai-gakkentoshi",
       "Subway + JR (through service)",
-      "¥610, about 36 min, no change"
+      "Check current fares for your route and whether the train runs through to JR"
      ],
      [
       "Kyudai-gakkentoshi → campus stops",
@@ -5140,10 +5716,10 @@ window.ARTICLES_BODY_I18N = {
     "text": "If you travel into the city or to the airport often, consider the “Ito Campus coupon tickets” (6,730 yen for 10, i.e. 673 yen a trip), covering subway stations through to the Showa Bus Kyudai line on campus. ⬜ Unverified: whether these coupons are valid as far as Fukuoka Airport station — neither official page states it. For details, See【Transport】."
    },
    "f7cdf3": {
-    "text": "Arriving at the dorm: check in any time that day"
+    "text": "Arriving at your residence: confirm the move-in date and reception hours"
    },
    "d5f4d7": {
-    "text": "So if your flight is delayed, a connection goes wrong, or you have to switch to a taxi, there is no need to worry about having nowhere to sleep that night."
+    "text": "Contact the residence or university support staff promptly if your flight is delayed or plans change. If same-night move-in is not confirmed, arrange temporary accommodation."
    },
    "8e952c": {
     "text": "The Order of Things in Your First Days"
@@ -5152,7 +5728,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Once you have settled in, work through the procedures in this order: ① SIM card → ② bank account → ③ National Health Insurance → ④ a bicycle and daily necessities → ⑤ getting to know the campus.See【Mobile & Internet】See【Banking & Remittance】See【Medical & Insurance】"
    },
    "4547cd": {
-    "text": "Of these, **address registration is the prerequisite for most of the rest** — submit your residence card to register your address, collect it the next day, and only then arrange a SIM and a bank account. Also remember to attend the various orientations; your supervisor or Supporter will remind you in advance."
+    "text": "Address registration is a prerequisite for many procedures. Follow your local office or current university notice. Check whether your chosen service keeps the residence card and when it returns it before planning SIM and bank applications. Confirm orientation details in the current notices too."
    },
    "3e3e21": {
     "text": "The airport routing, signage, and on-the-ground details in this section were recorded and photographed by Hato and A-Yao, and written up from their material."
@@ -5203,7 +5779,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "놓쳐도 괜찮습니다. 입주 초기의 임시 조치일 뿐입니다. 이후 일상적인 장보기는 쇼와 버스로 학연도시역 일대까지 가거나 이온의 교내 수령 락커를 이용하면 됩니다(참조【쇼핑】). 멀리 산다면 자전거를 사는 것도 방법입니다."
    },
    "549889": {
-    "text": "**도착 시각이 아무리 늦어도 그날 정상적으로 입주할 수 있습니다.** 도착 시각에 따라 입주 수속과 기숙사 규칙 설명이 다음 날로 넘어갈 수는 있지만, 숙박 자체에는 영향이 없습니다."
+    "text": "출발 전 본인 숙소 안내에서 입주일·접수 시간·열쇠 수령 방법을 확인하세요. 늦게 도착한다면 숙소에 별도 준비를 문의하고 언제든 입주할 수 있다고 가정하지 마세요."
    },
    "d15555": {
     "text": "입국 후 첫 며칠은 수속이 몰려 있고, 일부는 순서도 정해져 있습니다. 아래는 「입국 전 → 도착 후」 시간 순으로 정리했습니다."
@@ -5294,7 +5870,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "도장(はんこ)"
    },
    "7a40b0": {
-    "text": "일본 생활에서는 도장이 필요한 곳이 많습니다. 「돈키호테」의 셀프 각인 기계에서 만들 수 있고(약 500엔부터) 한자·히라가나·가타카나·알파벳 모두 새길 수 있습니다. 주의: 샤치하타(잉크 내장식)는 은행 계좌 개설에 쓸 수 없으니 일반 재질의 도장을 준비하세요.참조【은행·송금】"
+    "text": "먼저 은행과 신청 방법별 도장 요건을 확인하세요. 후쿠오카은행과 니시닛폰시티은행 창구는 자동 잉크식 샤치하타를 받지 않으므로 일반 도장이 필요합니다. 미리 준비하지 못했다면 돈키호테의 무인 제작기를 이용할 수 있습니다(약 500엔부터). 한자·히라가나·가타카나·알파벳으로 제작할 수 있습니다. 참조【은행·송금】"
    },
    "65cb2d": {
     "text": "입국 전 연락(Supporter)"
@@ -5511,7 +6087,7 @@ window.ARTICLES_BODY_I18N = {
      [
       "후쿠오카 공항 → 규슈대 학연도시",
       "지하철 + JR(직통)",
-      "610엔, 약 36분, 환승 없음"
+      "실제 구간의 현행 요금과 JR 직통편 여부 확인"
      ],
      [
       "규슈대 학연도시 → 교내 각 정류장",
@@ -5534,10 +6110,10 @@ window.ARTICLES_BODY_I18N = {
     "text": "시내나 공항을 자주 오간다면 「이토 캠퍼스 회수권」(6,730엔 / 10매, 1회당 673엔)도 고려할 만합니다. 지하철 각 역부터 쇼와 버스 규슈대선 교내까지 커버합니다. ⬜ 확인 필요: 이 회수권을 후쿠오카 공항역까지 쓸 수 있는지 —— 두 공식 페이지 모두 명시하지 않았습니다. 자세한 내용은 참조【교통】."
    },
    "f7cdf3": {
-    "text": "기숙사 도착: 당일 아무 때나 입주 가능"
+    "text": "숙소 도착: 입주일과 접수 시간 먼저 확인"
    },
    "d5f4d7": {
-    "text": "그러니 항공편 지연이나 환승 문제, 부득이하게 택시로 바꿔야 하는 상황이라도 그날 밤 잘 곳을 걱정할 필요는 없습니다."
+    "text": "항공편 지연이나 일정 변경 시 숙소 또는 학교 지원 담당에게 바로 연락하세요. 당일 밤 입주가 확인되지 않았다면 임시 숙박을 준비하세요."
    },
    "8e952c": {
     "text": "도착 후 며칠간의 처리 순서"
@@ -5546,7 +6122,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "자리를 잡은 뒤의 수속은 다음 순서로 진행합니다: ① SIM 카드 → ② 은행 계좌 → ③ 국민건강보험 → ④ 자전거와 생필품 → ⑤ 캠퍼스 익히기.참조【휴대폰·인터넷】참조【은행·송금】참조【의료·보험】"
    },
    "4547cd": {
-    "text": "이 가운데 **주소 등록이 대부분 수속의 전제 조건**입니다 —— 먼저 재류카드를 제출해 주소를 등록하고 다음 날 찾은 뒤에 SIM 카드와 은행 계좌를 진행하세요. 또한 각종 오리엔테이션 참석도 잊지 마세요. 지도교수나 Supporter가 미리 알려줍니다."
+    "text": "주소 등록은 여러 수속의 전제입니다. 주소지 창구나 학교의 이번 안내를 따르세요. 재류카드 보관 여부와 반환일은 본인이 이용하는 수속 경로에서 확인한 뒤 SIM과 계좌 신청을 계획하세요. 오리엔테이션도 이번 안내로 확인합니다."
    },
    "3e3e21": {
     "text": "이 절의 공항 동선, 안내판, 현장 정보는 Hato와 아야오가 기록과 사진을 제공해 정리한 것입니다."
@@ -5597,7 +6173,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Tampoco pasa nada si te lo pierdes: es solo un servicio transitorio de los primeros días. Para las compras diarias posteriores puedes tomar el autobús Showa hasta la zona de la estación Kyudai-Gakkentoshi, usar los casilleros de recogida de Aeon en el campus (ver «Compras») o, si vives lejos, plantearte comprar una bicicleta."
    },
    "549889": {
-    "text": "**No importa lo tarde que llegues: el mismo día puedes instalarte con normalidad.** Según la hora de llegada, el trámite de entrada y la explicación de las normas del dormitorio pueden quedar para el día siguiente, pero el alojamiento en sí no se ve afectado."
+    "text": "Antes de viajar, revisa el aviso de tu residencia para la fecha de entrada, horario y recogida de llaves. Consulta los preparativos si llegas tarde; no supongas que puedes entrar a cualquier hora."
    },
    "d15555": {
     "text": "Los primeros días tras llegar a Japón hay que realizar varios trámites de forma concentrada y algunos deben seguir un orden determinado. A continuación se presentan ordenados según el itinerario «antes de entrar al país → después de aterrizar»."
@@ -5682,7 +6258,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Sello (はんこ)"
    },
    "7a40b0": {
-    "text": "En la vida diaria en Japón se necesita el sello en muchas situaciones. Puedes comprarlo en la máquina de grabado automático de Don Quijote (ドンキホーテ), desde unos 500 円; se pueden grabar kanji, hiragana, katakana y letras. Atención: el sello de tinta automática shachihata (シャチハタ) **no se puede usar para abrir una cuenta bancaria**, así que compra un sello de material común. Ver «Banco · transferencias»."
+    "text": "Comprueba primero los requisitos del banco y de la vía de solicitud. Las ventanillas de Fukuoka Bank y Nishi-Nippon City Bank requieren un sello personal normal y no aceptan sellos autoentintados Shachihata. Si no puedes prepararlo antes, las máquinas de Don Quijote permiten hacerlo desde unos 500 yenes, con kanji, hiragana, katakana o letras. Véase【Banca y envíos】"
    },
    "65cb2d": {
     "text": "Contacto antes de viajar (Supporter)"
@@ -5905,7 +6481,7 @@ window.ARTICLES_BODY_I18N = {
      [
       "Fukuoka Airport (福岡空港) → Kyudai-Gakkentoshi (九大学研都市)",
       "Metro + JR (directo)",
-      "610 円, unos 36 min, sin transbordo"
+      "Consulta la tarifa vigente del trayecto y si el tren continúa por JR"
      ],
      [
       "Kyudai-Gakkentoshi (九大学研都市) → paradas del campus",
@@ -5928,10 +6504,10 @@ window.ARTICLES_BODY_I18N = {
     "text": "Si vas a menudo al centro de la ciudad o al aeropuerto, puedes considerar el bono de viajes del campus Ito (伊都キャンパス回数券): 6,730 円 / 10 billetes, es decir, 673 円 por viaje; cubre desde las estaciones del metro hasta las paradas del campus en la línea de la Universidad de Kyushu (九大線) del autobús Showa. **La página oficial no indica si se puede usar hasta la estación del Aeropuerto de Fukuoka**; confírmalo por tu cuenta antes de comprarlo. Más detalles en «Transporte»."
    },
    "f7cdf3": {
-    "text": "Llegada al dormitorio: se puede entrar a cualquier hora del día"
+    "text": "Llegada a la residencia: confirma fecha de entrada y horario de recepción"
    },
    "d5f4d7": {
-    "text": "Por eso, si el vuelo se retrasa, la conexión se demora o tienes que recurrir al taxi, no hace falta preocuparse por no tener dónde dormir esa noche."
+    "text": "Avisa pronto a la residencia o al personal de apoyo si hay retrasos o cambios. Si la entrada esa noche no está confirmada, prepara alojamiento temporal."
    },
    "8e952c": {
     "text": "Orden de los trámites en los primeros días tras la llegada"
@@ -5940,7 +6516,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Los trámites que se realizan tras instalarse siguen este orden: ① tarjeta SIM → ② cuenta bancaria → ③ seguro nacional de salud → ④ bicicleta y artículos de primera necesidad → ⑤ familiarizarse con el campus. Ver «Móvil · internet», «Banco · transferencias» y «Salud · seguros»."
    },
    "4547cd": {
-    "text": "De ellos, **el registro de la dirección es un requisito previo para la mayoría de los trámites**: primero se presenta la tarjeta de residencia para registrar la dirección y se recoge al día siguiente; después se tramitan la tarjeta SIM y la cuenta bancaria. Además, no olvides asistir a las distintas orientaciones; el tutor o el Supporter te avisarán con antelación."
+    "text": "El registro de dirección precede a muchos trámites. Sigue el aviso de tu oficina local o de la universidad. Confirma si la vía elegida retiene la tarjeta y cuándo la devuelve antes de planificar SIM y cuenta bancaria. Revisa también los avisos vigentes de orientación."
    },
    "3e3e21": {
     "text": "Los recorridos del aeropuerto, los carteles y la información local de esta sección se basan en los registros y fotos aportados por Hato y Ayáo (阿遥), y se han redactado a partir de ellos."
@@ -6096,21 +6672,185 @@ window.ARTICLES_BODY_I18N = {
      }
     ]
    },
-   "d27e01": {"text":"入居時の設備：寮ごとに確認してから購入"},
-   "d27e02": {"text":"《08_寮の設備情報》5ページの資料と九州大学の寮公式ページに基づき、2026-09-30 時点で整理。伊都周辺のここに記載した寮のみが対象です。他キャンパス、夫婦室、異なる間取りでは設備が異なる場合があります。共用設備、貸出品、購入の提案を分けて記載しています。入居時に自室と管理担当者の案内を確認してください。"},
-   "d27e03": {"text":"Dormitory I（D1）"},
-   "d27e04": {"headers":["項目","設備・注意点"],"rows":[["室内家具","机、椅子、本棚、ベッド（下部収納付き）、靴箱、収納、エアコン、インターホン、テレビ・ネット端子。"],["台所・洗濯","IH コンロ、小型冷蔵庫。洗濯機・乾燥機は共用ランドリー。鍋、食器、日用品は別途用意。"],["貸出品","掃除機、アイロン、台車、ラバーカップ、工具。事務室で申請。数・貸出期間は管理担当者に確認。"],["カーテン","備え付けとして設備表に記載なし。購入案内には自分で用意と記載。窓を測ってから購入。"],["ネット","入居後に手続き。資料ではルーターと LAN ケーブルを推奨。申請、料金、端子、開通日は【携帯・ネット】を参照し、管理担当者に確認。"]]},
-   "d27e05": {"text":"Dormitory II（D2）"},
-   "d27e06": {"headers":["項目","設備・注意点"],"rows":[["室内家具","机、椅子、本棚、ベッド（下部収納付き）、靴箱、収納、エアコン、インターホン、テレビ・ネット端子。"],["台所","IH コンロ、冷蔵庫。"],["洗濯","2026 年後半の資料には室内洗濯機と共用洗濯機・乾燥機の両方が記載されています。一方、大学ページの単身室設備一覧には室内洗濯機がありません。資料間に差があるため、部屋ごとに管理担当者へ確認。"],["貸出品","掃除機、アイロン、台車、ラバーカップ、工具。事務室での借り方を確認。"],["カーテン","備え付けとして設備表に記載なし。購入案内には自分で用意と記載。サイズを測ってから購入。"],["ネット","入居後に手続き。資料ではルーターと LAN ケーブルを推奨。申請、料金、端子、開通日は【携帯・ネット】を参照し、管理担当者に確認。"]]},
-   "d27e07": {"text":"Dormitory III（D3）"},
-   "d27e08": {"headers":["場所","設備・注意点"],"rows":[["個室","机、椅子、収納付きベッド、エアコン、クローゼット、カーテン、テレビ・ネット端子。"],["共用ユニット","食卓と椅子 4 脚、2口 IH、両開き冷蔵庫、電子レンジ、食器棚、収納、靴箱、洗濯機、エアコン、カーテン、掃除機、インターホン、テレビ端子。掃除機は共用設備で、各個室に1台ずつあるわけではありません。"],["貸出・ネット","独立した貸出リストは資料にありません。他の物品は管理担当者へ相談。共用部に無線 LAN アクセスポイントあり。利用方法を確認してからルーター購入を検討してください。【携帯・ネット】参照。"]]},
-   "d27e09": {"text":"伊都協奏館"},
-   "d27e0a": {"headers":["項目","設備・注意点"],"rows":[["室内・台所","机、椅子、ベッド、クローゼット、エアコン、カーテン、インターホン、テレビ・ネット端子。台所に IH、冷蔵庫、オーブンレンジ。"],["洗濯","洗濯機・乾燥機は共用ランドリー。"],["貸出品","資料には掃除機、アイロン、台車、工具が記載され、事務室への申請が必要。ラバーカップの記載はなく、D1／D2 の貸出品リストを当てはめないでください。"],["ネット","大学ページでは入居後の申請と別料金が必要で、すぐ使えない場合があります。資料ではルーターと LAN ケーブルを推奨。【携帯・ネット】参照。"]]},
-   "d27e0b": {"text":"SETTLE International（セトル）"},
-   "d27e0c": {"headers":["項目","設備・注意点"],"rows":[["共通して確認できた設備","机、椅子、ベッド、クローゼット、エアコン、カーテン、台所、冷蔵庫、インターホン、テレビ・ネット。"],["洗濯・台所の資料差","共有資料は共用洗濯機・乾燥機とオーブンレンジを記載。大学ページは各室洗濯機、有料共用乾燥機、2口 IH を記載し、電子レンジは記載していません。契約した部屋を管理担当者に確認し、どちらか一方を保証とみなさないでください。"],["ベッド・寝具","大学ページではマットレスなしと記載。寝具レンタルに含まれる品を確認してから購入を検討してください。ベッド、マットレス、寝具は別項目です。"],["貸出・ネット","資料に貸出リストがないことは、借りられないという意味ではありません。必要な場合は管理担当者へ。大学ページではネット無料、資料ではルーターを推奨。部屋・契約に応じて確認。【携帯・ネット】参照。"]]},
-   "d27e0d": {"text":"入居用品：まず必需品を用意し、あとから補充"},
-   "d27e0e": {"items":[{"text":"資料には初期用のゴミ袋各1枚、トイレットペーパー1ロールとあります。少量の初期用品で、継続補給でも分別ルールでもありません。住所と物件の指定袋を確認してください。SETTLE は糸島市にあり、福岡市のゴミ袋制度をそのまま適用できません。"},{"text":"寝具セットとシーツは寝具レンタルを契約した場合のみ提供されます。契約必須か、料金、提供範囲は当期募集要項と入居案内を確認。"},{"text":"到着日はタオル、歯ブラシ、入浴用品、ティッシュ、水筒、基本的な食器、食器用洗剤、スポンジ、洗濯洗剤を用意。室内設備を先に確認して重複購入を避けてください。"},{"text":"その後、必要に応じて鍋、調味料、非常食、掃除用品・洗剤、毛布、スリッパ、指定ゴミ袋を追加。ネット・ルーターは【携帯・ネット】で確認。入居時に設備を確認し、故障は管理担当者に連絡。"},{"text":"「購入推奨」は寮備品を意味しません。「貸出リストに記載なし」も貸出禁止を意味しません。プリンターは一部ページで購入検討品として挙がるのみで、備品・貸出品ではありません。"}]},
-   "d27e0f": {"items":[{"text":"九州大学・留学生寮：設備と各寮の案内","url":"https://www.isc.kyushu-u.ac.jp/intlweb/student/housing/dormitory"}]},
+   "d27e01": {
+    "text": "入居時の設備：寮ごとに確認してから購入"
+   },
+   "d27e02": {
+    "text": "《08_寮の設備情報》5ページの資料と九州大学の寮公式ページに基づき、2026-09-30 時点で整理。伊都周辺のここに記載した寮のみが対象です。他キャンパス、夫婦室、異なる間取りでは設備が異なる場合があります。共用設備、貸出品、購入の提案を分けて記載しています。入居時に自室と管理担当者の案内を確認してください。"
+   },
+   "d27e03": {
+    "text": "Dormitory I（D1）"
+   },
+   "d27e04": {
+    "headers": [
+     "項目",
+     "設備・注意点"
+    ],
+    "rows": [
+     [
+      "室内家具",
+      "机、椅子、本棚、ベッド（下部収納付き）、靴箱、収納、エアコン、インターホン、テレビ・ネット端子。"
+     ],
+     [
+      "台所・洗濯",
+      "IH コンロ、小型冷蔵庫。洗濯機・乾燥機は共用ランドリー。鍋、食器、日用品は別途用意。"
+     ],
+     [
+      "貸出品",
+      "掃除機、アイロン、台車、ラバーカップ、工具。事務室で申請。数・貸出期間は管理担当者に確認。"
+     ],
+     [
+      "カーテン",
+      "備え付けとして設備表に記載なし。購入案内には自分で用意と記載。窓を測ってから購入。"
+     ],
+     [
+      "ネット",
+      "入居後に手続き。資料ではルーターと LAN ケーブルを推奨。申請、料金、端子、開通日は【携帯・ネット】を参照し、管理担当者に確認。"
+     ]
+    ]
+   },
+   "d27e05": {
+    "text": "Dormitory II（D2）"
+   },
+   "d27e06": {
+    "headers": [
+     "項目",
+     "設備・注意点"
+    ],
+    "rows": [
+     [
+      "室内家具",
+      "机、椅子、本棚、ベッド（下部収納付き）、靴箱、収納、エアコン、インターホン、テレビ・ネット端子。"
+     ],
+     [
+      "台所",
+      "IH コンロ、冷蔵庫。"
+     ],
+     [
+      "洗濯",
+      "2026 年後半の資料には室内洗濯機と共用洗濯機・乾燥機の両方が記載されています。一方、大学ページの単身室設備一覧には室内洗濯機がありません。資料間に差があるため、部屋ごとに管理担当者へ確認。"
+     ],
+     [
+      "貸出品",
+      "掃除機、アイロン、台車、ラバーカップ、工具。事務室での借り方を確認。"
+     ],
+     [
+      "カーテン",
+      "備え付けとして設備表に記載なし。購入案内には自分で用意と記載。サイズを測ってから購入。"
+     ],
+     [
+      "ネット",
+      "入居後に手続き。資料ではルーターと LAN ケーブルを推奨。申請、料金、端子、開通日は【携帯・ネット】を参照し、管理担当者に確認。"
+     ]
+    ]
+   },
+   "d27e07": {
+    "text": "Dormitory III（D3）"
+   },
+   "d27e08": {
+    "headers": [
+     "場所",
+     "設備・注意点"
+    ],
+    "rows": [
+     [
+      "個室",
+      "机、椅子、収納付きベッド、エアコン、クローゼット、カーテン、テレビ・ネット端子。"
+     ],
+     [
+      "共用ユニット",
+      "食卓と椅子 4 脚、2口 IH、両開き冷蔵庫、電子レンジ、食器棚、収納、靴箱、洗濯機、エアコン、カーテン、掃除機、インターホン、テレビ端子。掃除機は共用設備で、各個室に1台ずつあるわけではありません。"
+     ],
+     [
+      "貸出・ネット",
+      "独立した貸出リストは資料にありません。他の物品は管理担当者へ相談。共用部に無線 LAN アクセスポイントあり。利用方法を確認してからルーター購入を検討してください。【携帯・ネット】参照。"
+     ]
+    ]
+   },
+   "d27e09": {
+    "text": "伊都協奏館"
+   },
+   "d27e0a": {
+    "headers": [
+     "項目",
+     "設備・注意点"
+    ],
+    "rows": [
+     [
+      "室内・台所",
+      "机、椅子、ベッド、クローゼット、エアコン、カーテン、インターホン、テレビ・ネット端子。台所に IH、冷蔵庫、オーブンレンジ。"
+     ],
+     [
+      "洗濯",
+      "洗濯機・乾燥機は共用ランドリー。"
+     ],
+     [
+      "貸出品",
+      "資料には掃除機、アイロン、台車、工具が記載され、事務室への申請が必要。ラバーカップの記載はなく、D1／D2 の貸出品リストを当てはめないでください。"
+     ],
+     [
+      "ネット",
+      "大学ページでは入居後の申請と別料金が必要で、すぐ使えない場合があります。資料ではルーターと LAN ケーブルを推奨。【携帯・ネット】参照。"
+     ]
+    ]
+   },
+   "d27e0b": {
+    "text": "SETTLE International（セトル）"
+   },
+   "d27e0c": {
+    "headers": [
+     "項目",
+     "設備・注意点"
+    ],
+    "rows": [
+     [
+      "共通して確認できた設備",
+      "机、椅子、ベッド、クローゼット、エアコン、カーテン、台所、冷蔵庫、インターホン、テレビ・ネット。"
+     ],
+     [
+      "洗濯・台所の資料差",
+      "共有資料は共用洗濯機・乾燥機とオーブンレンジを記載。大学ページは各室洗濯機、有料共用乾燥機、2口 IH を記載し、電子レンジは記載していません。契約した部屋を管理担当者に確認し、どちらか一方を保証とみなさないでください。"
+     ],
+     [
+      "ベッド・寝具",
+      "大学ページではマットレスなしと記載。寝具レンタルに含まれる品を確認してから購入を検討してください。ベッド、マットレス、寝具は別項目です。"
+     ],
+     [
+      "貸出・ネット",
+      "資料に貸出リストがないことは、借りられないという意味ではありません。必要な場合は管理担当者へ。大学ページではネット無料、資料ではルーターを推奨。部屋・契約に応じて確認。【携帯・ネット】参照。"
+     ]
+    ]
+   },
+   "d27e0d": {
+    "text": "入居用品：まず必需品を用意し、あとから補充"
+   },
+   "d27e0e": {
+    "items": [
+     {
+      "text": "資料には初期用のゴミ袋各1枚、トイレットペーパー1ロールとあります。少量の初期用品で、継続補給でも分別ルールでもありません。住所と物件の指定袋を確認してください。SETTLE は糸島市にあり、福岡市のゴミ袋制度をそのまま適用できません。"
+     },
+     {
+      "text": "寝具セットとシーツは寝具レンタルを契約した場合のみ提供されます。契約必須か、料金、提供範囲は当期募集要項と入居案内を確認。"
+     },
+     {
+      "text": "到着日はタオル、歯ブラシ、入浴用品、ティッシュ、水筒、基本的な食器、食器用洗剤、スポンジ、洗濯洗剤を用意。室内設備を先に確認して重複購入を避けてください。"
+     },
+     {
+      "text": "その後、必要に応じて鍋、調味料、非常食、掃除用品・洗剤、毛布、スリッパ、指定ゴミ袋を追加。ネット・ルーターは【携帯・ネット】で確認。入居時に設備を確認し、故障は管理担当者に連絡。"
+     },
+     {
+      "text": "「購入推奨」は寮備品を意味しません。「貸出リストに記載なし」も貸出禁止を意味しません。プリンターは一部ページで購入検討品として挙がるのみで、備品・貸出品ではありません。"
+     }
+    ]
+   },
+   "d27e0f": {
+    "items": [
+     {
+      "text": "九州大学・留学生寮：設備と各寮の案内",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/housing/dormitory"
+     }
+    ]
+   },
    "0785ee": {
     "text": "寮の申請方法"
    },
@@ -6168,7 +6908,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "初期費用"
    },
    "fa402b": {
-    "text": "賃貸の初期費用は通常、家賃の 4～5 倍程度かかります。クリーニング代、鍵交換代、管理費などが含まれます（あくまで経験上の目安で、実際は契約内容によります）。審査には約1か月かかるため、7 月に入居予定なら 5 月頃から物件探しを始めることをおすすめします。"
+    "text": "過去の経験では、賃貸の初期費用は清掃費・鍵交換費・管理費などを含め、家賃の約4～5か月分です。実際の金額は契約で確認してください。審査には約1か月かかるため、7月入居なら5月から探し始めるのがおすすめです。"
    },
    "c505d6": {
     "text": "光熱費（電気・ガス・水道）"
@@ -6508,21 +7248,185 @@ window.ARTICLES_BODY_I18N = {
      }
     ]
    },
-   "d27e01": {"text":"Move-in facilities: check your dorm before buying"},
-   "d27e02": {"text":"Compiled from the five-page “08_寮の設備情報” document and Kyushu University dormitory pages, checked on 2026-09-30. Applies only to the Ito-area dorms listed here; other campuses, couple rooms and room types may differ. Shared equipment, loan items and purchase suggestions are identified separately. Confirm your own room and the manager’s instructions at move-in."},
-   "d27e03": {"text":"Dormitory I (D1)"},
-   "d27e04": {"headers":["Item","Facilities and notes"],"rows":[["Room furnishings","Desk, chair, bookshelf, bed with under-bed storage, shoe cabinet, storage cabinet, air conditioner, intercom, TV and network ports."],["Kitchen and laundry","IH cooktop and small refrigerator. Washer and dryer are in the shared laundry room. Bring cookware, tableware and everyday cleaning supplies."],["Loan items","Vacuum, iron, trolley, toilet plunger (rubber cup) and tools; request them from the office. Ask the manager about stock and loan periods."],["Curtains","Not listed as provided in the equipment list; the purchase guidance says to buy your own. Measure the window first."],["Internet","Arrange after move-in. The document suggests a router and LAN cable. See [Mobile & Net] and confirm the port, plan, fee and start date with management."]]},
-   "d27e05": {"text":"Dormitory II (D2)"},
-   "d27e06": {"headers":["Item","Facilities and notes"],"rows":[["Room furnishings","Desk, chair, bookshelf, bed with under-bed storage, shoe cabinet, storage cabinet, air conditioner, intercom, TV and network ports."],["Kitchen","IH cooktop and refrigerator."],["Laundry","A later-2026 document lists both an in-room washer and shared washers/dryers; the university page’s single-room equipment list does not list an in-room washer. Sources differ; confirm your room with management."],["Loan items","Vacuum, iron, trolley, toilet plunger and tools. Ask the office how to borrow them."],["Curtains","Not listed as provided in the equipment list; the purchase guidance says to buy your own. Measure first."],["Internet","Arrange after move-in. The document suggests a router and LAN cable. See [Mobile & Net] and confirm the port, plan, fee and start date with management."]]},
-   "d27e07": {"text":"Dormitory III (D3)"},
-   "d27e08": {"headers":["Area","Facilities and notes"],"rows":[["Private bedroom","Desk, chair, storage bed, air conditioner, wardrobe, curtains, TV and network port."],["Shared unit","Dining table and four chairs, double IH cooktop, two-door refrigerator, microwave, cupboard, storage, shoe cabinet, washer, air conditioner, curtains, vacuum, intercom and TV port. The vacuum is shared, not one per bedroom."],["Loans and internet","The source does not list a separate loan inventory; ask management about other items. A wireless LAN access point is listed in the shared area. Ask how to connect before buying a router; see [Mobile & Net]."]]},
-   "d27e09": {"text":"Ito Kyoso-kan"},
-   "d27e0a": {"headers":["Item","Facilities and notes"],"rows":[["Room and kitchen","Desk, chair, bed, wardrobe, air conditioner, curtains, intercom, TV and network port; kitchen has an IH cooktop, refrigerator and microwave oven."],["Laundry","Washer and dryer are in the shared laundry room."],["Loan items","The document lists a vacuum, iron, trolley and tools, available by request from the office. It does not list a toilet plunger; do not assume D1/D2’s loan list applies."],["Internet","The university page requires a post-arrival application and additional fee; service may not be ready immediately. The document suggests a router and LAN cable; see [Mobile & Net]."]]},
-   "d27e0b": {"text":"SETTLE International"},
-   "d27e0c": {"headers":["Item","Facilities and notes"],"rows":[["Confirmed across sources","Desk, chair, bed, wardrobe, air conditioner, curtains, kitchen, refrigerator, intercom, TV and internet."],["Laundry and kitchen differences","The shared document lists shared washers/dryers and a microwave oven. The university page lists in-room washers, a paid shared dryer and a two-burner IH cooktop, but no microwave. Confirm your room with management; neither source is a guarantee for your room."],["Bed and bedding","The university page says no mattress is provided. Check what the bedding rental includes before buying. Bed, mattress and bedding are separate items."],["Loans and internet","No loan list in the document does not prove that borrowing is unavailable; ask management. The university page says internet is free, while the document suggests a router. Confirm whether your room/contract requires your own equipment; see [Mobile & Net]."]]},
-   "d27e0d": {"text":"Move-in supplies: start with essentials, then add as needed"},
-   "d27e0e": {"items":[{"text":"The document lists one starter trash bag of each type and one toilet-paper roll. These are a small initial supply, not ongoing provisions or sorting rules. Check the designated bags for your address/property. SETTLE is in Itoshima City, so Fukuoka City’s trash-bag system does not automatically apply."},{"text":"A bedding set and sheets are supplied only if you have a bedding-rental contract. Check the current application guide and your move-in notice for whether rental is required, the fee and what is included."},{"text":"For arrival day, prepare towels, toothbrush and toothpaste, bath items, tissues, a water bottle, basic tableware, dish soap, a sponge and laundry detergent. Check the room first to avoid duplicate purchases."},{"text":"Later, add cookware, seasonings, emergency food, cleaning tools and products, a blanket, slippers and the designated trash bags as needed. Check [Mobile & Net] before buying network equipment. Inspect the room at move-in and report faults to management."},{"text":"“Recommended to buy” does not mean the dorm provides it; a blank loan list does not mean borrowing is prohibited. A printer appears as a possible purchase only on some pages, not as provided or loaned equipment."}]},
-   "d27e0f": {"items":[{"text":"Kyushu University international student dormitories: facilities and dormitory pages","url":"https://www.isc.kyushu-u.ac.jp/intlweb/student/housing/dormitory"}]},
+   "d27e01": {
+    "text": "Move-in facilities: check your dorm before buying"
+   },
+   "d27e02": {
+    "text": "Compiled from the five-page “08_寮の設備情報” document and Kyushu University dormitory pages, checked on 2026-09-30. Applies only to the Ito-area dorms listed here; other campuses, couple rooms and room types may differ. Shared equipment, loan items and purchase suggestions are identified separately. Confirm your own room and the manager’s instructions at move-in."
+   },
+   "d27e03": {
+    "text": "Dormitory I (D1)"
+   },
+   "d27e04": {
+    "headers": [
+     "Item",
+     "Facilities and notes"
+    ],
+    "rows": [
+     [
+      "Room furnishings",
+      "Desk, chair, bookshelf, bed with under-bed storage, shoe cabinet, storage cabinet, air conditioner, intercom, TV and network ports."
+     ],
+     [
+      "Kitchen and laundry",
+      "IH cooktop and small refrigerator. Washer and dryer are in the shared laundry room. Bring cookware, tableware and everyday cleaning supplies."
+     ],
+     [
+      "Loan items",
+      "Vacuum, iron, trolley, toilet plunger (rubber cup) and tools; request them from the office. Ask the manager about stock and loan periods."
+     ],
+     [
+      "Curtains",
+      "Not listed as provided in the equipment list; the purchase guidance says to buy your own. Measure the window first."
+     ],
+     [
+      "Internet",
+      "Arrange after move-in. The document suggests a router and LAN cable. See [Mobile & Net] and confirm the port, plan, fee and start date with management."
+     ]
+    ]
+   },
+   "d27e05": {
+    "text": "Dormitory II (D2)"
+   },
+   "d27e06": {
+    "headers": [
+     "Item",
+     "Facilities and notes"
+    ],
+    "rows": [
+     [
+      "Room furnishings",
+      "Desk, chair, bookshelf, bed with under-bed storage, shoe cabinet, storage cabinet, air conditioner, intercom, TV and network ports."
+     ],
+     [
+      "Kitchen",
+      "IH cooktop and refrigerator."
+     ],
+     [
+      "Laundry",
+      "A later-2026 document lists both an in-room washer and shared washers/dryers; the university page’s single-room equipment list does not list an in-room washer. Sources differ; confirm your room with management."
+     ],
+     [
+      "Loan items",
+      "Vacuum, iron, trolley, toilet plunger and tools. Ask the office how to borrow them."
+     ],
+     [
+      "Curtains",
+      "Not listed as provided in the equipment list; the purchase guidance says to buy your own. Measure first."
+     ],
+     [
+      "Internet",
+      "Arrange after move-in. The document suggests a router and LAN cable. See [Mobile & Net] and confirm the port, plan, fee and start date with management."
+     ]
+    ]
+   },
+   "d27e07": {
+    "text": "Dormitory III (D3)"
+   },
+   "d27e08": {
+    "headers": [
+     "Area",
+     "Facilities and notes"
+    ],
+    "rows": [
+     [
+      "Private bedroom",
+      "Desk, chair, storage bed, air conditioner, wardrobe, curtains, TV and network port."
+     ],
+     [
+      "Shared unit",
+      "Dining table and four chairs, double IH cooktop, two-door refrigerator, microwave, cupboard, storage, shoe cabinet, washer, air conditioner, curtains, vacuum, intercom and TV port. The vacuum is shared, not one per bedroom."
+     ],
+     [
+      "Loans and internet",
+      "The source does not list a separate loan inventory; ask management about other items. A wireless LAN access point is listed in the shared area. Ask how to connect before buying a router; see [Mobile & Net]."
+     ]
+    ]
+   },
+   "d27e09": {
+    "text": "Ito Kyoso-kan"
+   },
+   "d27e0a": {
+    "headers": [
+     "Item",
+     "Facilities and notes"
+    ],
+    "rows": [
+     [
+      "Room and kitchen",
+      "Desk, chair, bed, wardrobe, air conditioner, curtains, intercom, TV and network port; kitchen has an IH cooktop, refrigerator and microwave oven."
+     ],
+     [
+      "Laundry",
+      "Washer and dryer are in the shared laundry room."
+     ],
+     [
+      "Loan items",
+      "The document lists a vacuum, iron, trolley and tools, available by request from the office. It does not list a toilet plunger; do not assume D1/D2’s loan list applies."
+     ],
+     [
+      "Internet",
+      "The university page requires a post-arrival application and additional fee; service may not be ready immediately. The document suggests a router and LAN cable; see [Mobile & Net]."
+     ]
+    ]
+   },
+   "d27e0b": {
+    "text": "SETTLE International"
+   },
+   "d27e0c": {
+    "headers": [
+     "Item",
+     "Facilities and notes"
+    ],
+    "rows": [
+     [
+      "Confirmed across sources",
+      "Desk, chair, bed, wardrobe, air conditioner, curtains, kitchen, refrigerator, intercom, TV and internet."
+     ],
+     [
+      "Laundry and kitchen differences",
+      "The shared document lists shared washers/dryers and a microwave oven. The university page lists in-room washers, a paid shared dryer and a two-burner IH cooktop, but no microwave. Confirm your room with management; neither source is a guarantee for your room."
+     ],
+     [
+      "Bed and bedding",
+      "The university page says no mattress is provided. Check what the bedding rental includes before buying. Bed, mattress and bedding are separate items."
+     ],
+     [
+      "Loans and internet",
+      "No loan list in the document does not prove that borrowing is unavailable; ask management. The university page says internet is free, while the document suggests a router. Confirm whether your room/contract requires your own equipment; see [Mobile & Net]."
+     ]
+    ]
+   },
+   "d27e0d": {
+    "text": "Move-in supplies: start with essentials, then add as needed"
+   },
+   "d27e0e": {
+    "items": [
+     {
+      "text": "The document lists one starter trash bag of each type and one toilet-paper roll. These are a small initial supply, not ongoing provisions or sorting rules. Check the designated bags for your address/property. SETTLE is in Itoshima City, so Fukuoka City’s trash-bag system does not automatically apply."
+     },
+     {
+      "text": "A bedding set and sheets are supplied only if you have a bedding-rental contract. Check the current application guide and your move-in notice for whether rental is required, the fee and what is included."
+     },
+     {
+      "text": "For arrival day, prepare towels, toothbrush and toothpaste, bath items, tissues, a water bottle, basic tableware, dish soap, a sponge and laundry detergent. Check the room first to avoid duplicate purchases."
+     },
+     {
+      "text": "Later, add cookware, seasonings, emergency food, cleaning tools and products, a blanket, slippers and the designated trash bags as needed. Check [Mobile & Net] before buying network equipment. Inspect the room at move-in and report faults to management."
+     },
+     {
+      "text": "“Recommended to buy” does not mean the dorm provides it; a blank loan list does not mean borrowing is prohibited. A printer appears as a possible purchase only on some pages, not as provided or loaned equipment."
+     }
+    ]
+   },
+   "d27e0f": {
+    "items": [
+     {
+      "text": "Kyushu University international student dormitories: facilities and dormitory pages",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/housing/dormitory"
+     }
+    ]
+   },
    "0785ee": {
     "text": "Applying for Dormitories"
    },
@@ -6580,7 +7484,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Initial Costs"
    },
    "fa402b": {
-    "text": "Initial costs for renting are generally 4-5 times the monthly rent, including cleaning, key replacement, management fees and the like (an empirical range; the actual contract prevails). The screening process takes about one month, so to move in by July, house hunting should begin as early as May."
+    "text": "Past experience puts initial rental costs at about four to five months of rent, including cleaning, key replacement and management fees. Check the actual amount in your contract. Approval takes about a month; if you plan to move in during July, start looking in May."
    },
    "c505d6": {
     "text": "Utility Fees (Electricity, Gas, Water)"
@@ -6920,21 +7824,185 @@ window.ARTICLES_BODY_I18N = {
      }
     ]
    },
-   "d27e01": {"text":"입주 시설: 기숙사별 확인 후 구매"},
-   "d27e02": {"text":"《08_寮の設備情報》 5쪽 자료와 규슈대 기숙사 웹페이지를 바탕으로 2026-09-30에 정리했습니다. 여기 열거된 이토 주변 기숙사에만 적용됩니다. 다른 캠퍼스, 부부실 및 다른 방 유형은 설비가 다를 수 있습니다. 공용 설비, 대여품, 구매 권장품을 구분했으며 입주 시 본인 방과 관리 담당자의 안내를 확인하세요."},
-   "d27e03": {"text":"Dormitory I (D1)"},
-   "d27e04": {"headers":["항목","설비 및 참고사항"],"rows":[["방 가구","책상, 의자, 책장, 하부 수납 침대, 신발장, 수납장, 에어컨, 인터폰, TV 및 네트워크 단자."],["주방·세탁","IH 쿡탑, 소형 냉장고. 세탁기와 건조기는 공용 세탁실에 있습니다. 조리도구, 식기, 일상 청소용품은 별도 준비."],["대여품","청소기, 다리미, 손수레, 변기 뚫어뻥(라바컵), 공구. 사무실에 신청하고 재고와 대여 기간은 관리 담당자에게 확인."],["커튼","설비표에 기본 제공으로 기재되지 않았고, 구매 안내에는 직접 구입한다고 되어 있습니다. 창문을 잰 뒤 구매하세요."],["인터넷","입주 후 신청. 자료는 라우터와 LAN 케이블 준비를 권장합니다. 단자, 요금, 신청 및 개통일은 【휴대폰·인터넷】과 관리 담당자에게 확인하세요."]] },
-   "d27e05": {"text":"Dormitory II (D2)"},
-   "d27e06": {"headers":["항목","설비 및 참고사항"],"rows":[["방 가구","책상, 의자, 책장, 하부 수납 침대, 신발장, 수납장, 에어컨, 인터폰, TV 및 네트워크 단자."],["주방","IH 쿡탑과 냉장고."],["세탁","2026년 후반 자료에는 실내 세탁기와 공용 세탁기·건조기가 모두 기재되어 있습니다. 학교 웹페이지의 1인실 설비 목록에는 실내 세탁기가 없습니다. 자료가 달라 본인 방을 관리 담당자에게 확인하세요."],["대여품","청소기, 다리미, 손수레, 변기 뚫어뻥, 공구. 사무실에 대여 방법을 확인하세요."],["커튼","설비표에 기본 제공으로 기재되지 않았고 구매 안내에는 직접 준비한다고 되어 있습니다. 치수를 먼저 재세요."],["인터넷","입주 후 신청. 자료는 라우터와 LAN 케이블 준비를 권장합니다. 단자, 요금, 신청 및 개통일은 【휴대폰·인터넷】과 관리 담당자에게 확인하세요."]] },
-   "d27e07": {"text":"Dormitory III (D3)"},
-   "d27e08": {"headers":["구역","설비 및 참고사항"],"rows":[["개인 침실","책상, 의자, 수납 침대, 에어컨, 옷장, 커튼, TV 및 네트워크 단자."],["공용 유닛","식탁과 의자 4개, 2구 IH 쿡탑, 양문형 냉장고, 전자레인지, 찬장, 수납장, 신발장, 세탁기, 에어컨, 커튼, 청소기, 인터폰, TV 단자. 청소기는 공용 구역 설비이며 침실마다 있는 것은 아닙니다."],["대여·인터넷","별도 대여 목록은 자료에 없습니다. 다른 물품은 관리 담당자에게 문의하세요. 공용 공간에 무선 LAN 접속점이 있습니다. 라우터를 사기 전에 사용 방법을 확인하세요. 【휴대폰·인터넷】참조."]] },
-   "d27e09": {"text":"이토교소칸(伊都協奏館)"},
-   "d27e0a": {"headers":["항목","설비 및 참고사항"],"rows":[["방·주방","책상, 의자, 침대, 옷장, 에어컨, 커튼, 인터폰, TV 및 네트워크 단자. 주방에는 IH 쿡탑, 냉장고, 오븐 전자레인지."],["세탁","세탁기와 건조기는 공용 세탁실에 있습니다."],["대여품","자료에는 청소기, 다리미, 손수레, 공구가 기재되어 있으며 사무실에 신청합니다. 변기 뚫어뻥은 기재되지 않았으므로 D1/D2 대여 목록을 그대로 적용하지 마세요."],["인터넷","학교 웹페이지에 따르면 입주 후 신청 및 별도 요금이 필요하고 바로 사용하지 못할 수 있습니다. 자료는 라우터와 LAN 케이블을 권장합니다. 【휴대폰·인터넷】참조."]] },
-   "d27e0b": {"text":"SETTLE International (セトル)"},
-   "d27e0c": {"headers":["항목","설비 및 참고사항"],"rows":[["자료 간 확인된 설비","책상, 의자, 침대, 옷장, 에어컨, 커튼, 주방, 냉장고, 인터폰, TV와 인터넷."],["세탁·주방 자료 차이","공유 자료는 공용 세탁기·건조기와 오븐 전자레인지를 기재합니다. 학교 웹페이지에는 방별 세탁기, 유료 공용 건조기, 2구 IH 쿡탑이 있고 전자레인지는 없습니다. 입주할 방을 관리 담당자에게 확인하고 어느 한 자료도 보장으로 보지 마세요."],["침대·침구","학교 웹페이지는 매트리스가 없다고 안내합니다. 침구 대여에 포함되는 물품을 확인한 후 구매하세요. 침대, 매트리스, 침구는 서로 다른 항목입니다."],["대여·인터넷","대여 목록이 없어도 대여가 불가능하다는 뜻은 아닙니다. 필요하면 관리 담당자에게 문의하세요. 학교 웹페이지는 인터넷 무료, 자료는 라우터 준비를 권장합니다. 방과 계약에 따라 확인하세요. 【휴대폰·인터넷】참조."]] },
-   "d27e0d": {"text":"입주 물품: 필수품부터 준비하고 나중에 보충"},
-   "d27e0e": {"items":[{"text":"자료에는 초기 쓰레기봉투 종류별 1장과 화장지 1롤이 기재되어 있습니다. 소량의 초기 제공품일 뿐 계속 보충되는 물품이나 분리배출 규칙은 아닙니다. 주소와 건물의 지정 봉투를 확인하세요. SETTLE은 이토시 소재이므로 후쿠오카시 쓰레기봉투 제도를 그대로 적용할 수 없습니다."},{"text":"침구 세트와 시트는 침구 대여 계약을 한 경우에만 제공됩니다. 대여 의무 여부, 비용, 제공 범위는 해당 모집 요강과 입주 안내를 확인하세요."},{"text":"도착 당일 수건, 칫솔·치약, 목욕용품, 휴지, 물병, 기본 식기, 주방 세제, 수세미, 세탁 세제를 준비하세요. 중복 구매를 피하려면 방의 비품을 먼저 확인하세요."},{"text":"이후 필요하면 조리도구, 조미료, 비상식량, 청소도구·세제, 담요, 슬리퍼, 지정 쓰레기봉투를 추가하세요. 네트워크 장비는 【휴대폰·인터넷】을 확인한 뒤 구매하세요. 입주 시 설비를 점검하고 고장은 관리 담당자에게 연락하세요."},{"text":"‘구매 권장’은 기숙사 제공을 뜻하지 않습니다. 대여 목록에 항목이 없다고 대여 금지인 것도 아닙니다. 프린터는 일부 페이지에서 구매 고려품으로만 제시되며 비치·대여 설비가 아닙니다."}]},
-   "d27e0f": {"items":[{"text":"규슈대 유학생 기숙사: 설비 및 각 기숙사 안내","url":"https://www.isc.kyushu-u.ac.jp/intlweb/student/housing/dormitory"}]},
+   "d27e01": {
+    "text": "입주 시설: 기숙사별 확인 후 구매"
+   },
+   "d27e02": {
+    "text": "《08_寮の設備情報》 5쪽 자료와 규슈대 기숙사 웹페이지를 바탕으로 2026-09-30에 정리했습니다. 여기 열거된 이토 주변 기숙사에만 적용됩니다. 다른 캠퍼스, 부부실 및 다른 방 유형은 설비가 다를 수 있습니다. 공용 설비, 대여품, 구매 권장품을 구분했으며 입주 시 본인 방과 관리 담당자의 안내를 확인하세요."
+   },
+   "d27e03": {
+    "text": "Dormitory I (D1)"
+   },
+   "d27e04": {
+    "headers": [
+     "항목",
+     "설비 및 참고사항"
+    ],
+    "rows": [
+     [
+      "방 가구",
+      "책상, 의자, 책장, 하부 수납 침대, 신발장, 수납장, 에어컨, 인터폰, TV 및 네트워크 단자."
+     ],
+     [
+      "주방·세탁",
+      "IH 쿡탑, 소형 냉장고. 세탁기와 건조기는 공용 세탁실에 있습니다. 조리도구, 식기, 일상 청소용품은 별도 준비."
+     ],
+     [
+      "대여품",
+      "청소기, 다리미, 손수레, 변기 뚫어뻥(라바컵), 공구. 사무실에 신청하고 재고와 대여 기간은 관리 담당자에게 확인."
+     ],
+     [
+      "커튼",
+      "설비표에 기본 제공으로 기재되지 않았고, 구매 안내에는 직접 구입한다고 되어 있습니다. 창문을 잰 뒤 구매하세요."
+     ],
+     [
+      "인터넷",
+      "입주 후 신청. 자료는 라우터와 LAN 케이블 준비를 권장합니다. 단자, 요금, 신청 및 개통일은 【휴대폰·인터넷】과 관리 담당자에게 확인하세요."
+     ]
+    ]
+   },
+   "d27e05": {
+    "text": "Dormitory II (D2)"
+   },
+   "d27e06": {
+    "headers": [
+     "항목",
+     "설비 및 참고사항"
+    ],
+    "rows": [
+     [
+      "방 가구",
+      "책상, 의자, 책장, 하부 수납 침대, 신발장, 수납장, 에어컨, 인터폰, TV 및 네트워크 단자."
+     ],
+     [
+      "주방",
+      "IH 쿡탑과 냉장고."
+     ],
+     [
+      "세탁",
+      "2026년 후반 자료에는 실내 세탁기와 공용 세탁기·건조기가 모두 기재되어 있습니다. 학교 웹페이지의 1인실 설비 목록에는 실내 세탁기가 없습니다. 자료가 달라 본인 방을 관리 담당자에게 확인하세요."
+     ],
+     [
+      "대여품",
+      "청소기, 다리미, 손수레, 변기 뚫어뻥, 공구. 사무실에 대여 방법을 확인하세요."
+     ],
+     [
+      "커튼",
+      "설비표에 기본 제공으로 기재되지 않았고 구매 안내에는 직접 준비한다고 되어 있습니다. 치수를 먼저 재세요."
+     ],
+     [
+      "인터넷",
+      "입주 후 신청. 자료는 라우터와 LAN 케이블 준비를 권장합니다. 단자, 요금, 신청 및 개통일은 【휴대폰·인터넷】과 관리 담당자에게 확인하세요."
+     ]
+    ]
+   },
+   "d27e07": {
+    "text": "Dormitory III (D3)"
+   },
+   "d27e08": {
+    "headers": [
+     "구역",
+     "설비 및 참고사항"
+    ],
+    "rows": [
+     [
+      "개인 침실",
+      "책상, 의자, 수납 침대, 에어컨, 옷장, 커튼, TV 및 네트워크 단자."
+     ],
+     [
+      "공용 유닛",
+      "식탁과 의자 4개, 2구 IH 쿡탑, 양문형 냉장고, 전자레인지, 찬장, 수납장, 신발장, 세탁기, 에어컨, 커튼, 청소기, 인터폰, TV 단자. 청소기는 공용 구역 설비이며 침실마다 있는 것은 아닙니다."
+     ],
+     [
+      "대여·인터넷",
+      "별도 대여 목록은 자료에 없습니다. 다른 물품은 관리 담당자에게 문의하세요. 공용 공간에 무선 LAN 접속점이 있습니다. 라우터를 사기 전에 사용 방법을 확인하세요. 【휴대폰·인터넷】참조."
+     ]
+    ]
+   },
+   "d27e09": {
+    "text": "이토교소칸(伊都協奏館)"
+   },
+   "d27e0a": {
+    "headers": [
+     "항목",
+     "설비 및 참고사항"
+    ],
+    "rows": [
+     [
+      "방·주방",
+      "책상, 의자, 침대, 옷장, 에어컨, 커튼, 인터폰, TV 및 네트워크 단자. 주방에는 IH 쿡탑, 냉장고, 오븐 전자레인지."
+     ],
+     [
+      "세탁",
+      "세탁기와 건조기는 공용 세탁실에 있습니다."
+     ],
+     [
+      "대여품",
+      "자료에는 청소기, 다리미, 손수레, 공구가 기재되어 있으며 사무실에 신청합니다. 변기 뚫어뻥은 기재되지 않았으므로 D1/D2 대여 목록을 그대로 적용하지 마세요."
+     ],
+     [
+      "인터넷",
+      "학교 웹페이지에 따르면 입주 후 신청 및 별도 요금이 필요하고 바로 사용하지 못할 수 있습니다. 자료는 라우터와 LAN 케이블을 권장합니다. 【휴대폰·인터넷】참조."
+     ]
+    ]
+   },
+   "d27e0b": {
+    "text": "SETTLE International (セトル)"
+   },
+   "d27e0c": {
+    "headers": [
+     "항목",
+     "설비 및 참고사항"
+    ],
+    "rows": [
+     [
+      "자료 간 확인된 설비",
+      "책상, 의자, 침대, 옷장, 에어컨, 커튼, 주방, 냉장고, 인터폰, TV와 인터넷."
+     ],
+     [
+      "세탁·주방 자료 차이",
+      "공유 자료는 공용 세탁기·건조기와 오븐 전자레인지를 기재합니다. 학교 웹페이지에는 방별 세탁기, 유료 공용 건조기, 2구 IH 쿡탑이 있고 전자레인지는 없습니다. 입주할 방을 관리 담당자에게 확인하고 어느 한 자료도 보장으로 보지 마세요."
+     ],
+     [
+      "침대·침구",
+      "학교 웹페이지는 매트리스가 없다고 안내합니다. 침구 대여에 포함되는 물품을 확인한 후 구매하세요. 침대, 매트리스, 침구는 서로 다른 항목입니다."
+     ],
+     [
+      "대여·인터넷",
+      "대여 목록이 없어도 대여가 불가능하다는 뜻은 아닙니다. 필요하면 관리 담당자에게 문의하세요. 학교 웹페이지는 인터넷 무료, 자료는 라우터 준비를 권장합니다. 방과 계약에 따라 확인하세요. 【휴대폰·인터넷】참조."
+     ]
+    ]
+   },
+   "d27e0d": {
+    "text": "입주 물품: 필수품부터 준비하고 나중에 보충"
+   },
+   "d27e0e": {
+    "items": [
+     {
+      "text": "자료에는 초기 쓰레기봉투 종류별 1장과 화장지 1롤이 기재되어 있습니다. 소량의 초기 제공품일 뿐 계속 보충되는 물품이나 분리배출 규칙은 아닙니다. 주소와 건물의 지정 봉투를 확인하세요. SETTLE은 이토시 소재이므로 후쿠오카시 쓰레기봉투 제도를 그대로 적용할 수 없습니다."
+     },
+     {
+      "text": "침구 세트와 시트는 침구 대여 계약을 한 경우에만 제공됩니다. 대여 의무 여부, 비용, 제공 범위는 해당 모집 요강과 입주 안내를 확인하세요."
+     },
+     {
+      "text": "도착 당일 수건, 칫솔·치약, 목욕용품, 휴지, 물병, 기본 식기, 주방 세제, 수세미, 세탁 세제를 준비하세요. 중복 구매를 피하려면 방의 비품을 먼저 확인하세요."
+     },
+     {
+      "text": "이후 필요하면 조리도구, 조미료, 비상식량, 청소도구·세제, 담요, 슬리퍼, 지정 쓰레기봉투를 추가하세요. 네트워크 장비는 【휴대폰·인터넷】을 확인한 뒤 구매하세요. 입주 시 설비를 점검하고 고장은 관리 담당자에게 연락하세요."
+     },
+     {
+      "text": "‘구매 권장’은 기숙사 제공을 뜻하지 않습니다. 대여 목록에 항목이 없다고 대여 금지인 것도 아닙니다. 프린터는 일부 페이지에서 구매 고려품으로만 제시되며 비치·대여 설비가 아닙니다."
+     }
+    ]
+   },
+   "d27e0f": {
+    "items": [
+     {
+      "text": "규슈대 유학생 기숙사: 설비 및 각 기숙사 안내",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/housing/dormitory"
+     }
+    ]
+   },
    "0785ee": {
     "text": "기숙사 신청 방법"
    },
@@ -6992,7 +8060,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "초기 비용"
    },
    "fa402b": {
-    "text": "자취 초기 비용은 보통 월세의 4~5배이며, 청소비, 키 교체비, 관리비 등이 포함됩니다(경험상 범위이며 실제는 계약 기준입니다). 심사 절차는 약 한 달이 걸리므로 7월 입주를 계획한다면 5월부터 방을 찾기 시작하는 것이 좋습니다."
+    "text": "기존 경험상 초기 임대 비용은 청소비·열쇠 교체비·관리비 등을 포함해 월세의 약 4~5배입니다. 실제 금액은 계약서로 확인하세요. 심사는 약 한 달 걸리므로 7월 입주 계획이라면 5월부터 집을 찾는 것이 좋습니다."
    },
    "c505d6": {
     "text": "수도·전기·가스 요금"
@@ -7326,21 +8394,185 @@ window.ARTICLES_BODY_I18N = {
      }
     ]
    },
-   "d27e01": {"text":"Instalaciones al entrar: comprueba la residencia antes de comprar"},
-   "d27e02": {"text":"Resumen basado en el documento de cinco páginas «08_寮の設備情報» y las páginas oficiales de las residencias de Kyushu University; comprobado el 30-09-2026. Solo se aplica a las residencias de la zona de Ito enumeradas aquí. Otras sedes, habitaciones para parejas y tipos de habitación pueden diferir. Separamos equipos comunes, artículos prestables y sugerencias de compra. Confirma tu habitación y las indicaciones de administración al entrar."},
-   "d27e03": {"text":"Dormitory I (D1)"},
-   "d27e04": {"headers":["Elemento","Instalaciones y notas"],"rows":[["Mobiliario","Escritorio, silla, estantería, cama con espacio inferior, zapatero, armario, aire acondicionado, interfono, TV y toma de red."],["Cocina y lavandería","Placa IH y nevera pequeña. Lavadora y secadora en la lavandería común. Hay que traer utensilios, vajilla y productos de limpieza diarios."],["Préstamos","Aspiradora, plancha, carrito, desatascador de inodoro (rubber cup) y herramientas; se solicitan en la oficina. Pregunta por disponibilidad y plazo al encargado."],["Cortinas","La lista de instalaciones no las incluye como equipadas; la guía de compras indica que hay que comprarlas. Mide la ventana antes."],["Internet","Se tramita después de entrar. El documento recomienda preparar router y cable LAN. Consulta【Móvil e internet】y confirma con administración el puerto, plan, coste y fecha de activación."]] },
-   "d27e05": {"text":"Dormitory II (D2)"},
-   "d27e06": {"headers":["Elemento","Instalaciones y notas"],"rows":[["Mobiliario","Escritorio, silla, estantería, cama con espacio inferior, zapatero, armario, aire acondicionado, interfono, TV y toma de red."],["Cocina","Placa IH y nevera."],["Lavandería","Un documento posterior de 2026 menciona lavadora dentro de la habitación y también lavadoras/secadoras comunes; la lista universitaria para habitaciones individuales no incluye la lavadora interior. Hay discrepancia: confirma tu habitación con administración."],["Préstamos","Aspiradora, plancha, carrito, desatascador y herramientas. Pregunta en la oficina cómo pedirlos."],["Cortinas","La lista no las incluye como equipadas; la guía de compras indica que hay que comprarlas. Mide primero."],["Internet","Se tramita después de entrar. El documento recomienda router y cable LAN. Consulta【Móvil e internet】y confirma puerto, plan, coste y activación con administración."]] },
-   "d27e07": {"text":"Dormitory III (D3)"},
-   "d27e08": {"headers":["Zona","Instalaciones y notas"],"rows":[["Dormitorio","Escritorio, silla, cama con almacenaje, aire acondicionado, armario, cortinas, TV y toma de red."],["Unidad común","Mesa y cuatro sillas, placa IH doble, nevera de dos puertas, microondas, aparador, armario, zapatero, lavadora, aire acondicionado, cortinas, aspiradora, interfono y toma de TV. La aspiradora es común, no hay una por dormitorio."],["Préstamos e internet","El documento no incluye una lista de préstamos independiente; pregunta por otros artículos. Hay un punto de acceso WLAN en la zona común. Confirma cómo usarlo antes de comprar un router; consulta【Móvil e internet】."]] },
-   "d27e09": {"text":"伊都協奏館"},
-   "d27e0a": {"headers":["Elemento","Instalaciones y notas"],"rows":[["Habitación y cocina","Escritorio, silla, cama, armario, aire acondicionado, cortinas, interfono, TV y toma de red; cocina con IH, nevera y microondas con horno."],["Lavandería","Lavadora y secadora en la lavandería común."],["Préstamos","El documento enumera aspiradora, plancha, carrito y herramientas, previa solicitud en la oficina. No incluye desatascador; no se debe aplicar la lista de D1/D2."],["Internet","La página universitaria exige solicitud después de entrar y un pago adicional; quizá no funcione de inmediato. El documento recomienda router y cable LAN; consulta【Móvil e internet】."]] },
-   "d27e0b": {"text":"SETTLE International (セトル)"},
-   "d27e0c": {"headers":["Elemento","Instalaciones y notas"],"rows":[["Coincidencias entre fuentes","Escritorio, silla, cama, armario, aire acondicionado, cortinas, cocina, nevera, interfono, TV e internet."],["Diferencias de lavandería y cocina","El documento compartido menciona lavadoras/secadoras comunes y microondas con horno. La página universitaria indica lavadora en cada habitación, secadora común de pago y placa IH doble, pero no microondas. Confirma tu habitación con administración; ninguna fuente garantiza el equipamiento de tu cuarto."],["Cama y ropa de cama","La página universitaria indica que no hay colchón. Comprueba qué incluye el alquiler de ropa de cama antes de comprar. Cama, colchón y ropa de cama son conceptos distintos."],["Préstamos e internet","Que el documento no enumere préstamos no significa que estén prohibidos; pregunta a administración. La página indica internet gratuito, mientras que el documento recomienda router. Confirma según tu habitación y contrato; consulta【Móvil e internet】."]] },
-   "d27e0d": {"text":"Artículos para entrar: empieza por lo esencial y completa después"},
-   "d27e0e": {"items":[{"text":"El documento enumera una bolsa inicial de cada tipo y un rollo de papel higiénico. Es una cantidad inicial pequeña, no un suministro continuo ni las reglas de separación. Comprueba las bolsas designadas para tu dirección y edificio. SETTLE está en la ciudad de Itoshima; no apliques automáticamente el sistema de bolsas de Fukuoka."},{"text":"El juego de cama y las sábanas solo se entregan si hay contrato de alquiler de ropa de cama. Consulta las bases vigentes y tu aviso de entrada para saber si es obligatorio, el coste y qué incluye."},{"text":"Para el primer día, prepara toallas, cepillo y pasta, artículos de baño, pañuelos, botella de agua, vajilla básica, lavavajillas, esponja y detergente para ropa. Revisa primero lo que ya hay para no comprar duplicados."},{"text":"Después añade, según necesites, ollas, condimentos, comida de emergencia, utensilios y productos de limpieza, manta, zapatillas y bolsas designadas. Consulta【Móvil e internet】antes de comprar equipo de red. Inspecciona la habitación al entrar y avisa a administración si hay fallos."},{"text":"«Se recomienda comprar» no significa que la residencia lo proporcione; que un artículo no aparezca en la lista de préstamos tampoco prohíbe pedirlo. La impresora solo aparece como posible compra en algunas páginas, no como equipo ni artículo prestable."}]},
-   "d27e0f": {"items":[{"text":"Kyushu University, residencias para estudiantes internacionales: instalaciones y páginas de cada residencia","url":"https://www.isc.kyushu-u.ac.jp/intlweb/student/housing/dormitory"}]},
+   "d27e01": {
+    "text": "Instalaciones al entrar: comprueba la residencia antes de comprar"
+   },
+   "d27e02": {
+    "text": "Resumen basado en el documento de cinco páginas «08_寮の設備情報» y las páginas oficiales de las residencias de Kyushu University; comprobado el 30-09-2026. Solo se aplica a las residencias de la zona de Ito enumeradas aquí. Otras sedes, habitaciones para parejas y tipos de habitación pueden diferir. Separamos equipos comunes, artículos prestables y sugerencias de compra. Confirma tu habitación y las indicaciones de administración al entrar."
+   },
+   "d27e03": {
+    "text": "Dormitory I (D1)"
+   },
+   "d27e04": {
+    "headers": [
+     "Elemento",
+     "Instalaciones y notas"
+    ],
+    "rows": [
+     [
+      "Mobiliario",
+      "Escritorio, silla, estantería, cama con espacio inferior, zapatero, armario, aire acondicionado, interfono, TV y toma de red."
+     ],
+     [
+      "Cocina y lavandería",
+      "Placa IH y nevera pequeña. Lavadora y secadora en la lavandería común. Hay que traer utensilios, vajilla y productos de limpieza diarios."
+     ],
+     [
+      "Préstamos",
+      "Aspiradora, plancha, carrito, desatascador de inodoro (rubber cup) y herramientas; se solicitan en la oficina. Pregunta por disponibilidad y plazo al encargado."
+     ],
+     [
+      "Cortinas",
+      "La lista de instalaciones no las incluye como equipadas; la guía de compras indica que hay que comprarlas. Mide la ventana antes."
+     ],
+     [
+      "Internet",
+      "Se tramita después de entrar. El documento recomienda preparar router y cable LAN. Consulta【Móvil e internet】y confirma con administración el puerto, plan, coste y fecha de activación."
+     ]
+    ]
+   },
+   "d27e05": {
+    "text": "Dormitory II (D2)"
+   },
+   "d27e06": {
+    "headers": [
+     "Elemento",
+     "Instalaciones y notas"
+    ],
+    "rows": [
+     [
+      "Mobiliario",
+      "Escritorio, silla, estantería, cama con espacio inferior, zapatero, armario, aire acondicionado, interfono, TV y toma de red."
+     ],
+     [
+      "Cocina",
+      "Placa IH y nevera."
+     ],
+     [
+      "Lavandería",
+      "Un documento posterior de 2026 menciona lavadora dentro de la habitación y también lavadoras/secadoras comunes; la lista universitaria para habitaciones individuales no incluye la lavadora interior. Hay discrepancia: confirma tu habitación con administración."
+     ],
+     [
+      "Préstamos",
+      "Aspiradora, plancha, carrito, desatascador y herramientas. Pregunta en la oficina cómo pedirlos."
+     ],
+     [
+      "Cortinas",
+      "La lista no las incluye como equipadas; la guía de compras indica que hay que comprarlas. Mide primero."
+     ],
+     [
+      "Internet",
+      "Se tramita después de entrar. El documento recomienda router y cable LAN. Consulta【Móvil e internet】y confirma puerto, plan, coste y activación con administración."
+     ]
+    ]
+   },
+   "d27e07": {
+    "text": "Dormitory III (D3)"
+   },
+   "d27e08": {
+    "headers": [
+     "Zona",
+     "Instalaciones y notas"
+    ],
+    "rows": [
+     [
+      "Dormitorio",
+      "Escritorio, silla, cama con almacenaje, aire acondicionado, armario, cortinas, TV y toma de red."
+     ],
+     [
+      "Unidad común",
+      "Mesa y cuatro sillas, placa IH doble, nevera de dos puertas, microondas, aparador, armario, zapatero, lavadora, aire acondicionado, cortinas, aspiradora, interfono y toma de TV. La aspiradora es común, no hay una por dormitorio."
+     ],
+     [
+      "Préstamos e internet",
+      "El documento no incluye una lista de préstamos independiente; pregunta por otros artículos. Hay un punto de acceso WLAN en la zona común. Confirma cómo usarlo antes de comprar un router; consulta【Móvil e internet】."
+     ]
+    ]
+   },
+   "d27e09": {
+    "text": "伊都協奏館"
+   },
+   "d27e0a": {
+    "headers": [
+     "Elemento",
+     "Instalaciones y notas"
+    ],
+    "rows": [
+     [
+      "Habitación y cocina",
+      "Escritorio, silla, cama, armario, aire acondicionado, cortinas, interfono, TV y toma de red; cocina con IH, nevera y microondas con horno."
+     ],
+     [
+      "Lavandería",
+      "Lavadora y secadora en la lavandería común."
+     ],
+     [
+      "Préstamos",
+      "El documento enumera aspiradora, plancha, carrito y herramientas, previa solicitud en la oficina. No incluye desatascador; no se debe aplicar la lista de D1/D2."
+     ],
+     [
+      "Internet",
+      "La página universitaria exige solicitud después de entrar y un pago adicional; quizá no funcione de inmediato. El documento recomienda router y cable LAN; consulta【Móvil e internet】."
+     ]
+    ]
+   },
+   "d27e0b": {
+    "text": "SETTLE International (セトル)"
+   },
+   "d27e0c": {
+    "headers": [
+     "Elemento",
+     "Instalaciones y notas"
+    ],
+    "rows": [
+     [
+      "Coincidencias entre fuentes",
+      "Escritorio, silla, cama, armario, aire acondicionado, cortinas, cocina, nevera, interfono, TV e internet."
+     ],
+     [
+      "Diferencias de lavandería y cocina",
+      "El documento compartido menciona lavadoras/secadoras comunes y microondas con horno. La página universitaria indica lavadora en cada habitación, secadora común de pago y placa IH doble, pero no microondas. Confirma tu habitación con administración; ninguna fuente garantiza el equipamiento de tu cuarto."
+     ],
+     [
+      "Cama y ropa de cama",
+      "La página universitaria indica que no hay colchón. Comprueba qué incluye el alquiler de ropa de cama antes de comprar. Cama, colchón y ropa de cama son conceptos distintos."
+     ],
+     [
+      "Préstamos e internet",
+      "Que el documento no enumere préstamos no significa que estén prohibidos; pregunta a administración. La página indica internet gratuito, mientras que el documento recomienda router. Confirma según tu habitación y contrato; consulta【Móvil e internet】."
+     ]
+    ]
+   },
+   "d27e0d": {
+    "text": "Artículos para entrar: empieza por lo esencial y completa después"
+   },
+   "d27e0e": {
+    "items": [
+     {
+      "text": "El documento enumera una bolsa inicial de cada tipo y un rollo de papel higiénico. Es una cantidad inicial pequeña, no un suministro continuo ni las reglas de separación. Comprueba las bolsas designadas para tu dirección y edificio. SETTLE está en la ciudad de Itoshima; no apliques automáticamente el sistema de bolsas de Fukuoka."
+     },
+     {
+      "text": "El juego de cama y las sábanas solo se entregan si hay contrato de alquiler de ropa de cama. Consulta las bases vigentes y tu aviso de entrada para saber si es obligatorio, el coste y qué incluye."
+     },
+     {
+      "text": "Para el primer día, prepara toallas, cepillo y pasta, artículos de baño, pañuelos, botella de agua, vajilla básica, lavavajillas, esponja y detergente para ropa. Revisa primero lo que ya hay para no comprar duplicados."
+     },
+     {
+      "text": "Después añade, según necesites, ollas, condimentos, comida de emergencia, utensilios y productos de limpieza, manta, zapatillas y bolsas designadas. Consulta【Móvil e internet】antes de comprar equipo de red. Inspecciona la habitación al entrar y avisa a administración si hay fallos."
+     },
+     {
+      "text": "«Se recomienda comprar» no significa que la residencia lo proporcione; que un artículo no aparezca en la lista de préstamos tampoco prohíbe pedirlo. La impresora solo aparece como posible compra en algunas páginas, no como equipo ni artículo prestable."
+     }
+    ]
+   },
+   "d27e0f": {
+    "items": [
+     {
+      "text": "Kyushu University, residencias para estudiantes internacionales: instalaciones y páginas de cada residencia",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/housing/dormitory"
+     }
+    ]
+   },
    "0785ee": {
     "text": "Cómo solicitar el dormitorio"
    },
@@ -7398,7 +8630,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Gastos iniciales"
    },
    "fa402b": {
-    "text": "Los gastos iniciales del alquiler suelen ser de 4~5 veces la renta mensual e incluyen limpieza, cambio de cerradura, gastos de gestión, etc. (es un rango basado en experiencias; el contrato real es lo que vale). El proceso de aprobación tarda aproximadamente un mes; si planeas entrar en julio, conviene empezar a buscar ya en mayo."
+    "text": "Según experiencias anteriores, los gastos iniciales equivalen a unos cuatro o cinco meses de alquiler e incluyen limpieza, cambio de llaves y gestión. Comprueba el importe real en el contrato. La aprobación tarda alrededor de un mes; para entrar en julio, empieza a buscar en mayo."
    },
    "c505d6": {
     "text": "Gastos de luz, agua y gas"
@@ -7698,7 +8930,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "寮の修理依頼（水漏れ・カビ）"
    },
    "d7dc2a": {
-    "text": "手順：写真を撮る → 寮の管理人に報告する → 部屋番号を伝える。在校生を通して伝えてもらうこともでき、管理人から本人に連絡があります。福岡は湿気が多くカビが発生しやすいため、応急処置としてテープを貼って隔離しておくとよいでしょう。"
+    "text": "水漏れやカビを見つけたら、写真を撮り、寮の管理人に状況と部屋番号を伝えてください。在校生に連絡を手伝ってもらうこともできます。その後、管理人から本人へ連絡があります。処置は管理側の指示に従ってください。"
    },
    "4f9189": {
     "text": "Coffee Hour は各寮で毎週定期的に開催される集まりで、さまざまな国や文化背景を持つ参加者が集まります。新しい友達を作る機会です。"
@@ -7741,7 +8973,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "0120b0": {
-    "text": "九州大学生活協同組合（生協）は構内のほとんどの食堂や売店を運営しており、不動産仲介や保険などの業務も行っています。大学の公式機関ではなく、独立した協同組合です——サービスを利用するにはまず加入する必要があります。"
+    "text": "九州大学生活協同組合は学内の多くの食堂・店舗を運営し、住まい探しや保険なども扱う独立した協同組合です。利用前に店舗で組合員資格や手続き条件を確認してください。すべてのサービスに加入が必須と考えないようにしましょう。"
    },
    "a22a49": {
     "text": "加入手続きはやや煩雑なので、生協の実店舗で直接手続きすることをおすすめします。加入後は生協アプリでの支払いが利用でき、方法は2種類あります。"
@@ -7904,6 +9136,9 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://chc.kyushu-u.ac.jp/emergency/"
      }
     ]
+   },
+   "b46d7c": {
+    "text": "Coffee Hour（交流会）"
    }
   },
   "en": {
@@ -7978,7 +9213,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Dormitory Repairs (Leaks / Mold)"
    },
    "d7dc2a": {
-    "text": "Procedure: take a photo → notify the dormitory manager → provide the room number. A current resident can relay the report on behalf of the student; the manager then contacts the student directly. Fukuoka is humid and mold is common; as an emergency measure, tape can be applied first to isolate the affected area."
+    "text": "If you find a leak or mould, take photos and tell the residence manager what happened and your room number. A current student can help pass on the message; the manager will then contact you. Follow the manager's instructions for treatment."
    },
    "4f9189": {
     "text": "Coffee Hour is a gathering held weekly at each dormitory, with participants from different countries and cultural backgrounds — an opportunity to make new friends."
@@ -8021,7 +9256,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "0120b0": {
-    "text": "The Kyushu University Co-op (九州大学生活協同組合, abbreviated 生協) operates most of the cafeterias and shops on campus and also offers housing agency and insurance services. It is not an official university body but an independent cooperative — membership is therefore required to use its services."
+    "text": "The Kyushu University co-op runs most campus cafeterias and shops and offers services such as housing and insurance. It is an independent cooperative. Ask the shop about membership and application requirements before using a service; do not assume every service requires membership."
    },
    "a22a49": {
     "text": "The enrollment procedure is somewhat complicated; going directly to a physical Co-op (生協) store is recommended. After joining, payment can be made with the Co-op App, in two ways."
@@ -8184,6 +9419,9 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://chc.kyushu-u.ac.jp/emergency/"
      }
     ]
+   },
+   "b46d7c": {
+    "text": "Coffee Hour"
    }
   },
   "ko": {
@@ -8258,7 +9496,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "기숙사 수리 신청(누수/곰팡이)"
    },
    "d7dc2a": {
-    "text": "절차: 사진 촬영 → 기숙사 관리인에게 신고 → 호실 번호 제공. 재학생이 대신 전달할 수도 있으며, 관리인이 이후 본인에게 연락합니다. 후쿠오카는 습기가 많아 곰팡이가 흔하므로, 긴급 시에는 먼저 테이프로 봉합해 두시기 바랍니다."
+    "text": "누수나 곰팡이를 발견하면 사진을 찍고 숙소 관리자에게 상황과 방 번호를 알려 주세요. 재학생에게 전달을 부탁할 수도 있으며 이후 관리자가 본인에게 연락합니다. 처리 방법은 관리자 지시를 따르세요."
    },
    "4f9189": {
     "text": "Coffee Hour는 각 기숙사에서 매주 정기적으로 열리는 모임으로, 다양한 국가와 문화 배경의 참가자가 모여 새로운 친구를 사귈 수 있는 기회입니다."
@@ -8301,7 +9539,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "0120b0": {
-    "text": "九州大学生活協同組合(생협)은 캠퍼스 내 대부분의 식당과 매장을 운영하며, 부동산 중개와 보험 등의 업무도 담당합니다. 학교의 공식 기관이 아닌 독립된 협동조합이므로, 서비스를 이용하려면 먼저 가입해야 합니다."
+    "text": "규슈대학교 생협은 교내 대부분의 식당·상점을 운영하고 주택 중개·보험 등도 제공하는 독립 협동조합입니다. 이용 전에 매장에 회원 자격과 신청 조건을 확인하세요. 모든 서비스에 가입이 필수라고 가정하지 마세요."
    },
    "a22a49": {
     "text": "가입 절차가 다소 번거로우므로 생협의 오프라인 매장에서 직접 가입하는 것을 권장합니다. 가입 후에는 생협 앱으로 결제할 수 있으며, 결제 방식은 두 가지입니다."
@@ -8464,6 +9702,9 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://chc.kyushu-u.ac.jp/emergency/"
      }
     ]
+   },
+   "b46d7c": {
+    "text": "Coffee Hour（교류 모임）"
    }
   },
   "es": {
@@ -8536,7 +9777,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Aviso de averías en el dormitorio (fugas de agua/moho)"
    },
    "d7dc2a": {
-    "text": "Proceso: saca una foto → avisa al administrador del dormitorio → indica el número de habitación. También puede transmitirlo un estudiante residente; luego el administrador se pondrá en contacto contigo. En Fukuoka hay mucha humedad y el moho es frecuente; como medida de emergencia, puedes aislar la zona con cinta adhesiva."
+    "text": "Si encuentras una fuga o moho, toma fotos y comunica al responsable lo ocurrido y tu número de habitación. Un estudiante puede ayudarte a transmitirlo; el responsable te contactará después. Sigue sus indicaciones."
    },
    "4f9189": {
     "text": "Coffee Hour es una reunión que se celebra semanalmente en cada dormitorio; los participantes vienen de distintos países y culturas, y es una oportunidad para conocer gente nueva."
@@ -8574,7 +9815,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "0120b0": {
-    "text": "La 九州大学生活協同組合（cooperativa universitaria, 生協）opera la mayoría de las cafeterías y tiendas del campus, y también se dedica a la intermediación inmobiliaria y a los seguros. No es un órgano oficial de la universidad, sino una cooperativa independiente — por eso, para usar sus servicios, primero hay que hacerse miembro."
+    "text": "La cooperativa de Kyushu University gestiona la mayoría de comedores y tiendas del campus y ofrece vivienda, seguros y otros servicios. Es una cooperativa independiente. Pregunta en el establecimiento por los requisitos de afiliación y tramitación; no supongas que todos los servicios exigen ser socio."
    },
    "a22a49": {
     "text": "El trámite de afiliación es algo engorroso; se recomienda hacerlo directamente en una tienda física de la cooperativa. Una vez afiliado, se puede pagar con la app de la cooperativa, y hay dos formas."
@@ -8733,6 +9974,9 @@ window.ARTICLES_BODY_I18N = {
       "text": "Contactos de emergencia de la Universidad de Kyushu（緊急連絡先）(oficial: oficina del oficial de seguridad, comisarías y líneas de consulta)"
      }
     ]
+   },
+   "b46d7c": {
+    "text": "Coffee Hour (encuentro social)"
    }
   }
  },
@@ -8750,11 +9994,35 @@ window.ARTICLES_BODY_I18N = {
    "6d0c07": {
     "text": "来日後、できるだけ早く国民健康保険に加入してください（手続きの順番は【入国準備・到着後の手続きの順番】を参照してください）。加入すると、診療費の自己負担は30%になります。"
    },
-   "40a340": {"text":"学生保険：学研災、学研賠、留学生総合保険"},
-   "1de97f": {"text":"九州大学は原則として全学生に学研災（学生教育研究災害傷害保険）への加入を求めています。二重払いを避けるため、まず加入記録を確認してください。学研災は授業など規定された教育研究活動中のケガが主な対象です。一般の病気の診療費は国民健康保険（国保）の対象で、両者は代替できません。"},
+   "40a340": {
+    "text": "学生保険：学研災、学研賠、留学生総合保険"
+   },
+   "1de97f": {
+    "text": "九州大学は原則として全学生に学研災（学生教育研究災害傷害保険）への加入を求めています。二重払いを避けるため、まず加入記録を確認してください。学研災は授業など規定された教育研究活動中のケガが主な対象です。一般の病気の診療費は国民健康保険（国保）の対象で、両者は代替できません。"
+   },
    "dd53eb": {
-    "headers": ["制度","加入要件と主な対象","注意"],
-    "rows": [["学研災","大学は原則全学生に加入を求めます。正課、大学が認めた課外活動、学校行事など規定の場面でのケガが対象。","一般の病気は対象外。通学中などは当年度の約款を確認。"],["学研災付帯賠責（学研賠）","先に学研災への加入が必要。選択したコースと規定された教育活動での賠償責任が対象。","日常生活のすべての賠償責任が対象ではありません。コースと約款を確認。"],["インバウンド付帯学総（留学生総合保険）","留学生には加入を推奨。申込前に学研災への加入が必要。","日常生活の賠償責任や事故・疾病の保障は選択プランの約款によります。医療費が必ず全額補償されるわけではありません。"]]
+    "headers": [
+     "制度",
+     "加入要件と主な対象",
+     "注意"
+    ],
+    "rows": [
+     [
+      "学研災",
+      "大学は原則全学生に加入を求めます。正課、大学が認めた課外活動、学校行事など規定の場面でのケガが対象。",
+      "一般の病気は対象外。通学中などは当年度の約款を確認。"
+     ],
+     [
+      "学研災付帯賠責（学研賠）",
+      "先に学研災への加入が必要。選択したコースと規定された教育活動での賠償責任が対象。",
+      "日常生活のすべての賠償責任が対象ではありません。コースと約款を確認。"
+     ],
+     [
+      "インバウンド付帯学総（留学生総合保険）",
+      "留学生には加入を推奨。申込前に学研災への加入が必要。",
+      "日常生活の賠償責任や事故・疾病の保障は選択プランの約款によります。医療費が必ず全額補償されるわけではありません。"
+     ]
+    ]
    },
    "5c9577": {
     "items": [
@@ -8772,10 +10040,45 @@ window.ARTICLES_BODY_I18N = {
    "c636c2": {
     "text": "学研災は一般の病気を対象とせず、診療費は国民健康保険を利用します。学研賠は学研災への加入が前提で、選択コースと規定された教育活動に限り適用されます。留学生総合保険は推奨であり、加入必須ではありません。国保の代わりにはならず、給付は本人の約款によります。"
    },
-   "07daed": {"items":[{"text":"九州大学・学生保険（学研災／付帯賠責）","url":"https://www.kyushu-u.ac.jp/ja/education/life/insurance"},{"text":"留学生向け医療・日常生活総合保険（大学の案内）","url":"https://www.isc.kyushu-u.ac.jp/intlweb/student/page-019#medical_2/"},{"text":"JEES 留学生総合保険と事故申請手順","url":"https://www.jees.or.jp/gakkensai/opt-inbound/"},{"text":"JEES 事故報告・保険金請求の手順","url":"https://www.jees.or.jp/gakkensai/jiko/"}]},
-   "d3a100": {"text":"加入記録、加入証明、保険金請求の手続き"},
-   "d3a101": {"items":[{"text":"入学時に学研災へ加入済みか確認し、二重払いを避けてください。新規・途中加入の手続き、相談、保険金請求は各キャンパスの生協窓口へ。"},{"text":"実習などで加入証明が必要な場合は、学生証を持参して生協に申請します。所要時間は窓口で確認してください。"},{"text":"留学生総合保険は先に学研災へ加入し、大学の入口から Web 申請後、案内に従ってコンビニで支払います。事故時は診療・支出・事故の記録を保存し、JEES の「事故のとき」の手順に沿って所定の窓口へ連絡してください。"}]},
-   "ec29c8": {"text":"ESP：留学生向け緊急支援（医療費保険ではありません）"},
+   "07daed": {
+    "items": [
+     {
+      "text": "九州大学・学生保険（学研災／付帯賠責）",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/life/insurance"
+     },
+     {
+      "text": "留学生向け医療・日常生活総合保険（大学の案内）",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/page-019#medical_2/"
+     },
+     {
+      "text": "JEES 留学生総合保険と事故申請手順",
+      "url": "https://www.jees.or.jp/gakkensai/opt-inbound/"
+     },
+     {
+      "text": "JEES 事故報告・保険金請求の手順",
+      "url": "https://www.jees.or.jp/gakkensai/jiko/"
+     }
+    ]
+   },
+   "d3a100": {
+    "text": "加入記録、加入証明、保険金請求の手続き"
+   },
+   "d3a101": {
+    "items": [
+     {
+      "text": "入学時に学研災へ加入済みか確認し、二重払いを避けてください。新規・途中加入の手続き、相談、保険金請求は各キャンパスの生協窓口へ。"
+     },
+     {
+      "text": "実習などで加入証明が必要な場合は、学生証を持参して生協に申請します。所要時間は窓口で確認してください。"
+     },
+     {
+      "text": "留学生総合保険は先に学研災へ加入し、大学の入口から Web 申請後、案内に従ってコンビニで支払います。事故時は診療・支出・事故の記録を保存し、JEES の「事故のとき」の手順に沿って所定の窓口へ連絡してください。"
+     }
+    ]
+   },
+   "ec29c8": {
+    "text": "ESP：留学生向け緊急支援（医療費保険ではありません）"
+   },
    "c05384": {
     "text": "在留資格「留学」の九州大学留学生は ESP（Emergency Secure Plan）への加入が必要です。医療・緊急連絡を支援しますが、医療費を補償する保険ではなく、診察・検査・治療・入院費の全額負担を保証しません。医療費は国保と本人の保険契約に基づきます。"
    },
@@ -8850,7 +10153,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "福岡市には外国人総合相談窓口があります。診療で言葉の壁に直面した場合は、まず電話で相談してください："
    },
    "bbd53a": {
-    "text": "・福岡市外国人総合相談支援センター：0120-66-1799（無料）/ 092-262-1799、受付 平日 8:45~18:00、多言語対応"
+    "text": "福岡市外国人総合相談支援センター：0120-66-1799（無料）／092-262-1799。\n受付は平日8:45～18:00。多言語で相談できます。"
    },
    "6fa2b0": {
     "items": [
@@ -8961,11 +10264,35 @@ window.ARTICLES_BODY_I18N = {
    "6d0c07": {
     "text": "Enroll in 国民健康保険 (national health insurance) promptly after arrival (procedure order: see 【Arrival & Entry · The Order of Things in Your First Days】). After enrollment, the patient's personal share of medical costs is 30%."
    },
-   "40a340": {"text":"Student insurance: Gakkensai, liability cover and inbound student insurance"},
-   "1de97f": {"text":"Kyushu University in principle requires all students to join Gakkensai (学生教育研究災害傷害保険). Check your enrollment record first to avoid paying twice. Gakkensai mainly covers accidental injuries during prescribed educational and research activities. National Health Insurance (NHI) covers medical costs for general illness; the two do not replace each other."},
+   "40a340": {
+    "text": "Student insurance: Gakkensai, liability cover and inbound student insurance"
+   },
+   "1de97f": {
+    "text": "Kyushu University in principle requires all students to join Gakkensai (学生教育研究災害傷害保険). Check your enrollment record first to avoid paying twice. Gakkensai mainly covers accidental injuries during prescribed educational and research activities. National Health Insurance (NHI) covers medical costs for general illness; the two do not replace each other."
+   },
    "dd53eb": {
-    "headers": ["Plan","Eligibility and main scope","Note"],
-    "rows": [["Gakkensai","University in principle requires all students to enroll; accidental injuries during classes, university-approved extracurricular activities, university events and other prescribed settings.","Does not cover general illness. Check current terms for commuting and other cases."],["Gakkensai supplemental liability (Gakkenbai)","Requires prior Gakkensai enrollment; covers liability during the selected course and prescribed educational activities.","Does not cover every everyday liability. Check the course and policy terms."],["Inbound supplemental student insurance","Recommended for international students; Gakkensai enrollment is required before application.","Everyday liability and accident/illness benefits depend on the selected plan. It does not mean medical expenses are always fully reimbursed."]]
+    "headers": [
+     "Plan",
+     "Eligibility and main scope",
+     "Note"
+    ],
+    "rows": [
+     [
+      "Gakkensai",
+      "University in principle requires all students to enroll; accidental injuries during classes, university-approved extracurricular activities, university events and other prescribed settings.",
+      "Does not cover general illness. Check current terms for commuting and other cases."
+     ],
+     [
+      "Gakkensai supplemental liability (Gakkenbai)",
+      "Requires prior Gakkensai enrollment; covers liability during the selected course and prescribed educational activities.",
+      "Does not cover every everyday liability. Check the course and policy terms."
+     ],
+     [
+      "Inbound supplemental student insurance",
+      "Recommended for international students; Gakkensai enrollment is required before application.",
+      "Everyday liability and accident/illness benefits depend on the selected plan. It does not mean medical expenses are always fully reimbursed."
+     ]
+    ]
    },
    "5c9577": {
     "items": [
@@ -8983,10 +10310,45 @@ window.ARTICLES_BODY_I18N = {
    "c636c2": {
     "text": "Gakkensai does not cover general illness; use National Health Insurance for medical visits. Gakkenbai requires Gakkensai enrollment and applies only to the selected course and prescribed educational activities. Inbound student insurance is recommended, not mandatory, and cannot replace NHI; benefits depend on your policy terms."
    },
-   "07daed": {"items":[{"text":"Kyushu University student insurance (Gakkensai / supplemental liability)","url":"https://www.kyushu-u.ac.jp/ja/education/life/insurance"},{"text":"Healthcare and comprehensive daily-life insurance for international students (university guidance)","url":"https://www.isc.kyushu-u.ac.jp/intlweb/student/page-019#medical_2/"},{"text":"JEES inbound student insurance and accident claim procedures","url":"https://www.jees.or.jp/gakkensai/opt-inbound/"},{"text":"JEES accident report and insurance benefit claim procedure","url":"https://www.jees.or.jp/gakkensai/jiko/"}]},
-   "d3a100": {"text":"Enrollment records, proof of insurance and claims"},
-   "d3a101": {"items":[{"text":"Check whether you were already enrolled in Gakkensai at admission to avoid duplicate payment. For new or mid-year enrollment, questions and benefit claims, contact the co-op desk on your campus."},{"text":"If an internship or other activity requires proof of coverage, bring your student ID and request it from the co-op. Ask the desk how long processing takes."},{"text":"Inbound student insurance requires Gakkensai first; apply online through the university portal and pay at a convenience store as instructed. If an accident occurs, keep medical, expense and incident records and contact the designated office following JEES’s “事故のとき” procedure."}]},
-   "ec29c8": {"text":"ESP: emergency support for international students (not medical expense insurance)"},
+   "07daed": {
+    "items": [
+     {
+      "text": "Kyushu University student insurance (Gakkensai / supplemental liability)",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/life/insurance"
+     },
+     {
+      "text": "Healthcare and comprehensive daily-life insurance for international students (university guidance)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/page-019#medical_2/"
+     },
+     {
+      "text": "JEES inbound student insurance and accident claim procedures",
+      "url": "https://www.jees.or.jp/gakkensai/opt-inbound/"
+     },
+     {
+      "text": "JEES accident report and insurance benefit claim procedure",
+      "url": "https://www.jees.or.jp/gakkensai/jiko/"
+     }
+    ]
+   },
+   "d3a100": {
+    "text": "Enrollment records, proof of insurance and claims"
+   },
+   "d3a101": {
+    "items": [
+     {
+      "text": "Check whether you were already enrolled in Gakkensai at admission to avoid duplicate payment. For new or mid-year enrollment, questions and benefit claims, contact the co-op desk on your campus."
+     },
+     {
+      "text": "If an internship or other activity requires proof of coverage, bring your student ID and request it from the co-op. Ask the desk how long processing takes."
+     },
+     {
+      "text": "Inbound student insurance requires Gakkensai first; apply online through the university portal and pay at a convenience store as instructed. If an accident occurs, keep medical, expense and incident records and contact the designated office following JEES’s “事故のとき” procedure."
+     }
+    ]
+   },
+   "ec29c8": {
+    "text": "ESP: emergency support for international students (not medical expense insurance)"
+   },
    "c05384": {
     "text": "International students at Kyushu University with the “Student” residence status must join ESP (Emergency Secure Plan). It provides medical assistance and emergency contact support, but it is not medical expense insurance and does not reimburse or guarantee full payment of visits, tests, treatment or hospitalization. Medical expenses remain subject to NHI and your own policy."
    },
@@ -9061,7 +10423,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Fukuoka City operates a comprehensive consultation service for foreign residents. Those who encounter language barriers at a medical visit can call for help first:"
    },
    "bbd53a": {
-    "text": "· Fukuoka City Foreign Residents Comprehensive Consultation Support Center: 0120-66-1799 (toll-free) / 092-262-1799, available weekdays 8:45~18:00, multilingual"
+    "text": "Fukuoka City Consultation Support Center for Foreign Residents: 0120-66-1799 (free) / 092-262-1799.\nOpen weekdays 8:45–18:00, with multilingual support."
    },
    "6fa2b0": {
     "items": [
@@ -9172,11 +10534,35 @@ window.ARTICLES_BODY_I18N = {
    "6d0c07": {
     "text": "일본 도착 후 가능한 한 빨리 국민건강보험 (国民健康保険)에 가입하시기 바랍니다 (가입 순서는 【입국 준비·도착 후 며칠간의 처리 순서】 참조). 가입하면 진료비 본인 부담이 30%가 됩니다."
    },
-   "40a340": {"text":"학생 보험: 学研災, 배상책임 및 유학생 종합보험"},
-   "1de97f": {"text":"규슈대는 원칙적으로 모든 학생에게 学研災(学生教育研究災害傷害保険) 가입을 요구합니다. 중복 납부를 피하려면 가입 기록을 먼저 확인하세요. 学研災는 정규 수업 등 정해진 교육·연구 활동 중 발생한 우발적 부상을 주로 보장합니다. 일반 질병 진료비는 국민건강보험이 적용되며 두 제도는 서로 대체할 수 없습니다."},
+   "40a340": {
+    "text": "학생 보험: 学研災, 배상책임 및 유학생 종합보험"
+   },
+   "1de97f": {
+    "text": "규슈대는 원칙적으로 모든 학생에게 学研災(学生教育研究災害傷害保険) 가입을 요구합니다. 중복 납부를 피하려면 가입 기록을 먼저 확인하세요. 学研災는 정규 수업 등 정해진 교육·연구 활동 중 발생한 우발적 부상을 주로 보장합니다. 일반 질병 진료비는 국민건강보험이 적용되며 두 제도는 서로 대체할 수 없습니다."
+   },
    "dd53eb": {
-    "headers": ["제도","가입 조건 및 주요 범위","주의"],
-    "rows": [["学研災","대학은 원칙적으로 모든 학생의 가입을 요구합니다. 정규 수업, 대학이 인정한 과외 활동, 학교 행사 등 지정된 상황의 우발적 부상에 적용됩니다.","일반 질병은 보장하지 않습니다. 통학 등은 해당 연도 약관을 확인하세요."],["学研災 부대 배상책임보험(学研賠)","먼저 学研災에 가입해야 합니다. 선택한 코스와 정해진 교육 활동 중 배상책임에 적용됩니다.","일상생활의 모든 배상책임을 보장하지는 않습니다. 코스와 약관을 확인하세요."],["인바운드 부대 학생종합보험","유학생에게 가입을 권장하며 신청 전 学研災 가입이 필요합니다.","일상생활 배상책임 및 사고·질병 보장은 선택한 플랜의 약관에 따릅니다. 의료비 전액이 항상 환급된다는 뜻은 아닙니다."]]
+    "headers": [
+     "제도",
+     "가입 조건 및 주요 범위",
+     "주의"
+    ],
+    "rows": [
+     [
+      "学研災",
+      "대학은 원칙적으로 모든 학생의 가입을 요구합니다. 정규 수업, 대학이 인정한 과외 활동, 학교 행사 등 지정된 상황의 우발적 부상에 적용됩니다.",
+      "일반 질병은 보장하지 않습니다. 통학 등은 해당 연도 약관을 확인하세요."
+     ],
+     [
+      "学研災 부대 배상책임보험(学研賠)",
+      "먼저 学研災에 가입해야 합니다. 선택한 코스와 정해진 교육 활동 중 배상책임에 적용됩니다.",
+      "일상생활의 모든 배상책임을 보장하지는 않습니다. 코스와 약관을 확인하세요."
+     ],
+     [
+      "인바운드 부대 학생종합보험",
+      "유학생에게 가입을 권장하며 신청 전 学研災 가입이 필요합니다.",
+      "일상생활 배상책임 및 사고·질병 보장은 선택한 플랜의 약관에 따릅니다. 의료비 전액이 항상 환급된다는 뜻은 아닙니다."
+     ]
+    ]
    },
    "5c9577": {
     "items": [
@@ -9194,10 +10580,45 @@ window.ARTICLES_BODY_I18N = {
    "c636c2": {
     "text": "学研災는 일반 질병을 보장하지 않으며 진료비는 국민건강보험을 이용합니다. 学研賠는 学研災 가입이 선행되어야 하고 선택한 코스와 정해진 교육 활동에만 적용됩니다. 유학생 종합보험은 권장 사항이지 의무 가입이 아니며 국민건강보험을 대체하지 않습니다. 보험금 지급은 본인 약관에 따릅니다."
    },
-   "07daed": {"items":[{"text":"규슈대 학생 보험(学研災 / 부대 배상책임)","url":"https://www.kyushu-u.ac.jp/ja/education/life/insurance"},{"text":"유학생 의료·일상 종합보험(대학 안내)","url":"https://www.isc.kyushu-u.ac.jp/intlweb/student/page-019#medical_2/"},{"text":"JEES 유학생 종합보험 및 사고 청구 절차","url":"https://www.jees.or.jp/gakkensai/opt-inbound/"},{"text":"JEES 사고 보고와 보험금 청구 절차","url":"https://www.jees.or.jp/gakkensai/jiko/"}]},
-   "d3a100": {"text":"가입 기록, 보험 가입 증명 및 보험금 청구"},
-   "d3a101": {"items":[{"text":"입학 시 学研災에 이미 가입했는지 확인해 중복 납부를 피하세요. 신규·중도 가입, 문의와 보험금 청구는 각 캠퍼스 생협 창구에 연락하세요."},{"text":"실습 등에서 보험 가입 증명이 필요하면 학생증을 가지고 생협에 신청하세요. 처리 기간은 창구에 확인하세요."},{"text":"유학생 종합보험은 먼저 学研災에 가입한 뒤 대학 포털에서 온라인 신청하고 안내에 따라 편의점에서 납부합니다. 사고가 나면 진료·지출·사고 기록을 보관하고 JEES의 ‘事故のとき’ 절차에 따라 지정 창구에 연락하세요."}]},
-   "ec29c8": {"text":"ESP: 유학생 긴급 지원 (의료비 보험이 아닙니다)"},
+   "07daed": {
+    "items": [
+     {
+      "text": "규슈대 학생 보험(学研災 / 부대 배상책임)",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/life/insurance"
+     },
+     {
+      "text": "유학생 의료·일상 종합보험(대학 안내)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/page-019#medical_2/"
+     },
+     {
+      "text": "JEES 유학생 종합보험 및 사고 청구 절차",
+      "url": "https://www.jees.or.jp/gakkensai/opt-inbound/"
+     },
+     {
+      "text": "JEES 사고 보고와 보험금 청구 절차",
+      "url": "https://www.jees.or.jp/gakkensai/jiko/"
+     }
+    ]
+   },
+   "d3a100": {
+    "text": "가입 기록, 보험 가입 증명 및 보험금 청구"
+   },
+   "d3a101": {
+    "items": [
+     {
+      "text": "입학 시 学研災에 이미 가입했는지 확인해 중복 납부를 피하세요. 신규·중도 가입, 문의와 보험금 청구는 각 캠퍼스 생협 창구에 연락하세요."
+     },
+     {
+      "text": "실습 등에서 보험 가입 증명이 필요하면 학생증을 가지고 생협에 신청하세요. 처리 기간은 창구에 확인하세요."
+     },
+     {
+      "text": "유학생 종합보험은 먼저 学研災에 가입한 뒤 대학 포털에서 온라인 신청하고 안내에 따라 편의점에서 납부합니다. 사고가 나면 진료·지출·사고 기록을 보관하고 JEES의 ‘事故のとき’ 절차에 따라 지정 창구에 연락하세요."
+     }
+    ]
+   },
+   "ec29c8": {
+    "text": "ESP: 유학생 긴급 지원 (의료비 보험이 아닙니다)"
+   },
    "c05384": {
     "text": "‘유학’ 체류자격의 규슈대 유학생은 ESP(Emergency Secure Plan)에 가입해야 합니다. 의료 지원과 긴급 연락을 제공하지만 의료비 보험이 아니며 진료·검사·치료·입원비를 환급하거나 전액 부담을 보장하지 않습니다. 의료비는 국민건강보험 및 본인 보험 약관에 따릅니다."
    },
@@ -9272,7 +10693,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "福岡市에는 외국인 종합상담 창구가 마련되어 있습니다. 진료 시 언어 장벽이 있을 때는 먼저 전화로 상담을 요청할 수 있습니다:"
    },
    "bbd53a": {
-    "text": "· 福岡市 외국인 종합상담 지원센터: 0120-66-1799 (무료) / 092-262-1799, 접수: 평일 8:45~18:00, 다국어 대응"
+    "text": "후쿠오카시 외국인 종합 상담 지원 센터: 0120-66-1799(무료) / 092-262-1799.\n평일 8:45~18:00 접수, 다국어 상담 가능."
    },
    "6fa2b0": {
     "items": [
@@ -9383,11 +10804,35 @@ window.ARTICLES_BODY_I18N = {
    "6d0c07": {
     "text": "Tramita el seguro nacional de salud lo antes posible después de llegar a Japón (para el orden de los trámites, consulta «Preparación para la entrada al país · Orden de los trámites tras la llegada»). Una vez afiliado, tu parte del coste de la consulta es del 30 %."
    },
-   "40a340": {"text":"Seguro estudiantil: Gakkensai, responsabilidad civil y seguro complementario"},
-   "1de97f": {"text":"Kyushu University exige en principio que todos sus estudiantes se afilien a Gakkensai (学生教育研究災害傷害保険). Comprueba primero tu registro de afiliación para no pagar dos veces. Gakkensai cubre principalmente lesiones accidentales durante actividades educativas o de investigación definidas. El seguro nacional de salud cubre la atención médica por enfermedades comunes; no se sustituyen entre sí."},
+   "40a340": {
+    "text": "Seguro estudiantil: Gakkensai, responsabilidad civil y seguro complementario"
+   },
+   "1de97f": {
+    "text": "Kyushu University exige en principio que todos sus estudiantes se afilien a Gakkensai (学生教育研究災害傷害保険). Comprueba primero tu registro de afiliación para no pagar dos veces. Gakkensai cubre principalmente lesiones accidentales durante actividades educativas o de investigación definidas. El seguro nacional de salud cubre la atención médica por enfermedades comunes; no se sustituyen entre sí."
+   },
    "dd53eb": {
-    "headers": ["Sistema","Requisitos y ámbito principal","Nota"],
-    "rows": [["Gakkensai","La universidad exige en principio la afiliación de todos. Cubre lesiones accidentales en clases, actividades extracurriculares aprobadas, eventos universitarios y otras situaciones definidas.","No cubre enfermedades comunes. Comprueba las condiciones vigentes para el trayecto y otros casos."],["Responsabilidad suplementaria de Gakkensai (Gakkenbai)","Requiere afiliación previa a Gakkensai; cubre responsabilidad durante el curso elegido y las actividades educativas definidas.","No cubre toda responsabilidad de la vida cotidiana. Comprueba el curso y las condiciones."],["Seguro complementario para estudiantes internacionales","Recomendado para estudiantes internacionales; antes de solicitarlo hay que afiliarse a Gakkensai.","La responsabilidad cotidiana y las prestaciones por accidente/enfermedad dependen del plan elegido. No garantiza el reembolso íntegro de gastos médicos."]]
+    "headers": [
+     "Sistema",
+     "Requisitos y ámbito principal",
+     "Nota"
+    ],
+    "rows": [
+     [
+      "Gakkensai",
+      "La universidad exige en principio la afiliación de todos. Cubre lesiones accidentales en clases, actividades extracurriculares aprobadas, eventos universitarios y otras situaciones definidas.",
+      "No cubre enfermedades comunes. Comprueba las condiciones vigentes para el trayecto y otros casos."
+     ],
+     [
+      "Responsabilidad suplementaria de Gakkensai (Gakkenbai)",
+      "Requiere afiliación previa a Gakkensai; cubre responsabilidad durante el curso elegido y las actividades educativas definidas.",
+      "No cubre toda responsabilidad de la vida cotidiana. Comprueba el curso y las condiciones."
+     ],
+     [
+      "Seguro complementario para estudiantes internacionales",
+      "Recomendado para estudiantes internacionales; antes de solicitarlo hay que afiliarse a Gakkensai.",
+      "La responsabilidad cotidiana y las prestaciones por accidente/enfermedad dependen del plan elegido. No garantiza el reembolso íntegro de gastos médicos."
+     ]
+    ]
    },
    "5c9577": {
     "items": [
@@ -9405,10 +10850,45 @@ window.ARTICLES_BODY_I18N = {
    "c636c2": {
     "text": "Gakkensai no cubre enfermedades comunes; para las consultas médicas se usa el seguro nacional de salud. Gakkenbai requiere estar afiliado a Gakkensai y solo se aplica al curso elegido y a actividades educativas definidas. El seguro complementario para estudiantes internacionales es recomendable, no obligatorio, y no sustituye al seguro nacional; las prestaciones dependen de la póliza."
    },
-   "07daed": {"items":[{"text":"Universidad de Kyushu: seguro estudiantil (Gakkensai / responsabilidad suplementaria)","url":"https://www.kyushu-u.ac.jp/ja/education/life/insurance"},{"text":"Seguro médico y de vida cotidiana para estudiantes internacionales (información universitaria)","url":"https://www.isc.kyushu-u.ac.jp/intlweb/student/page-019#medical_2/"},{"text":"Seguro complementario JEES y trámites de reclamación por accidente","url":"https://www.jees.or.jp/gakkensai/opt-inbound/"},{"text":"Informe de accidente y solicitud de prestaciones JEES","url":"https://www.jees.or.jp/gakkensai/jiko/"}]},
-   "d3a100": {"text":"Registro de afiliación, certificado y reclamaciones"},
-   "d3a101": {"items":[{"text":"Comprueba si ya te afiliaste a Gakkensai al matricularte para evitar pagar dos veces. Para nuevas afiliaciones o a mitad de curso, consultas y reclamaciones, contacta con la cooperativa estudiantil de tu campus."},{"text":"Si unas prácticas u otra actividad requieren un certificado de afiliación, lleva el carné de estudiante y solicítalo en la cooperativa. Pregunta cuánto tarda."},{"text":"Para el seguro complementario de estudiantes internacionales primero hay que afiliarse a Gakkensai, solicitarlo por la web del portal universitario y pagar en una tienda de conveniencia según las instrucciones. Si ocurre un accidente, guarda los registros médicos, gastos e incidente y contacta con la oficina indicada según el proceso JEES «事故のとき»."}]},
-   "ec29c8": {"text":"ESP: apoyo urgente para estudiantes internacionales (no es un seguro médico)"},
+   "07daed": {
+    "items": [
+     {
+      "text": "Universidad de Kyushu: seguro estudiantil (Gakkensai / responsabilidad suplementaria)",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/life/insurance"
+     },
+     {
+      "text": "Seguro médico y de vida cotidiana para estudiantes internacionales (información universitaria)",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/page-019#medical_2/"
+     },
+     {
+      "text": "Seguro complementario JEES y trámites de reclamación por accidente",
+      "url": "https://www.jees.or.jp/gakkensai/opt-inbound/"
+     },
+     {
+      "text": "Informe de accidente y solicitud de prestaciones JEES",
+      "url": "https://www.jees.or.jp/gakkensai/jiko/"
+     }
+    ]
+   },
+   "d3a100": {
+    "text": "Registro de afiliación, certificado y reclamaciones"
+   },
+   "d3a101": {
+    "items": [
+     {
+      "text": "Comprueba si ya te afiliaste a Gakkensai al matricularte para evitar pagar dos veces. Para nuevas afiliaciones o a mitad de curso, consultas y reclamaciones, contacta con la cooperativa estudiantil de tu campus."
+     },
+     {
+      "text": "Si unas prácticas u otra actividad requieren un certificado de afiliación, lleva el carné de estudiante y solicítalo en la cooperativa. Pregunta cuánto tarda."
+     },
+     {
+      "text": "Para el seguro complementario de estudiantes internacionales primero hay que afiliarse a Gakkensai, solicitarlo por la web del portal universitario y pagar en una tienda de conveniencia según las instrucciones. Si ocurre un accidente, guarda los registros médicos, gastos e incidente y contacta con la oficina indicada según el proceso JEES «事故のとき»."
+     }
+    ]
+   },
+   "ec29c8": {
+    "text": "ESP: apoyo urgente para estudiantes internacionales (no es un seguro médico)"
+   },
    "c05384": {
     "text": "Los estudiantes internacionales de Kyushu University con estatus de residencia «Student» deben afiliarse a ESP (Emergency Secure Plan). Ofrece asistencia médica y apoyo de contacto en emergencias, pero no es un seguro de gastos médicos ni reembolsa o garantiza el pago total de consultas, pruebas, tratamientos u hospitalización. Los gastos médicos se rigen por el seguro nacional y la póliza propia."
    },
@@ -9565,7 +11045,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "La ciudad de Fukuoka dispone de una ventanilla de consulta general para personas extranjeras; si encuentras barreras de idioma al acudir al médico, puedes pedir ayuda por teléfono primero:"
    },
    "bbd53a": {
-    "text": "· Centro de Apoyo y Consulta General para Personas Extranjeras de la ciudad de Fukuoka: 0120-66-1799 (gratuito) / 092-262-1799, horario de atención 8:45~18:00 en días laborables, varios idiomas"
+    "text": "Centro de apoyo y consulta para residentes extranjeros de Fukuoka: 0120-66-1799 (gratuito) / 092-262-1799.\nAtención entre semana de 8:45 a 18:00, en varios idiomas."
    },
    "6fa2b0": {
     "items": [
@@ -9588,7 +11068,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "留学ビザで日本でアルバイトをするには、**まず「資格外活動許可」を取得する必要があります**。この許可は入国時に空港で申請でき、入国後に地方出入国在留管理局で手続きすることもできます。許可なしの就労は違法であり、ビザに影響するおそれがあります。詳しくは【在留手続き】をご参照ください。"
    },
    "9071cc": {
-    "text": "学期中は週 28 時間が上限です。長期休暇中（春休み・夏休み・冬休み）は 1 日 8 時間、週 40 時間が上限です。上限を超えた就労が違法と判断されると、在留期間の更新に影響します。厳守してください。"
+    "text": "学期中はすべてのアルバイトを合計して週28時間以内です。勤務先ごとには計算しません。学校が定める長期休業中は1日8時間以内で、労働時間の規定も守る必要があります。超過は在留資格更新に影響し得るため、全勤務時間を記録してください。"
    },
    "105e04": {
     "text": "時給の相場と求人の探し方"
@@ -9597,7 +11077,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "福岡県の最低賃金は **1,057 円/時間**（2026 年 10 月 3 日まで）、2026 年 10 月 4 日から **1,114 円/時間** に引き上げられます。実際の時給は業種により異なり、コンビニ・飲食は低め、家庭教師・翻訳は高めです。具体的な条件は雇用主によります。"
    },
    "493aef": {
-    "text": "主な経路：大学生協や国際部の掲示板、タウンワーク（Townwork）・バイトル（Baitoru）などの求人サイト、先輩や研究室からの紹介があります。入国前に急いで探す必要はなく、在留カードと銀行口座を用意してからでも間に合います。"
+    "text": "仕事探しは生協や国際担当の掲示板から始め、タウンワーク・バイトルなども確認しましょう。先輩や研究室に聞く方法もあります。来日前に急ぐ必要はなく、到着後に在留カードや銀行口座の手続きを済ませてからでも間に合います。"
    },
    "1ae89a": {
     "text": "注意事項と公式窓口"
@@ -9608,7 +11088,7 @@ window.ARTICLES_BODY_I18N = {
       "text": "まず資格外活動許可を取得してからアルバイトを始めてください。"
      },
      {
-      "text": "週 28 時間の上限を厳守し、シフトを自己管理して超過を避けてください。"
+      "text": "学期中は全アルバイト合計週28時間以内、学校所定の長期休業中は1日8時間以内。勤務記録と労働時間規定を守る。"
      },
      {
       "text": "アルバイト収入は規定に従って申告し、奨学金の申請や税務との衝突を避けてください。"
@@ -9646,7 +11126,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "To work part-time in Japan on a student visa, the **permission to engage in activity other than that permitted must be obtained first**. It can be applied for at the airport on arrival, or later at the regional immigration bureau. Working without it is illegal and may affect visa status. See [Residence procedures]."
    },
    "9071cc": {
-    "text": "During term time the limit is 28 hours per week. During long vacations (spring, summer and winter) the limit is 8 hours per day and 40 hours per week. Exceeding these limits may be treated as illegal employment and can affect visa renewal, so strict compliance is required."
+    "text": "During term, all part-time jobs combined are limited to 28 hours a week, not 28 per employer. During long vacations formally set by the school, the limit is eight hours a day; scheduling must also follow labour-time rules. Excess hours may affect residence-status renewal, so record all work time."
    },
    "105e04": {
     "text": "Wage rates and where to find work"
@@ -9655,7 +11135,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Fukuoka Prefecture's minimum wage is **1,057 yen/hour** (until 3 October 2026) and rises to **1,114 yen/hour** from 4 October 2026. Actual wages vary by industry: convenience stores and restaurants at the lower end, tutoring and translation at the higher end. Specific conditions depend on the employer."
    },
    "493aef": {
-    "text": "Main channels: notice boards at the university co-op or the international office, job sites such as Townwork and Baitoru, and referrals from senior students or a laboratory. There is no need to search before arrival - after obtaining a residence card and bank account is soon enough."
+    "text": "Start your job search with the university co-op or international office noticeboards, then check sites such as Townwork and Baitoru. You can also ask senior students or your lab. There is no need to rush before arriving; you can look after arranging your residence card and bank account."
    },
    "1ae89a": {
     "text": "Precautions and official contacts"
@@ -9666,7 +11146,7 @@ window.ARTICLES_BODY_I18N = {
       "text": "Obtain the work permission before starting."
      },
      {
-      "text": "Observe the 28-hour weekly limit strictly and keep personal shift records to avoid exceeding it."
+      "text": "During term, keep all jobs combined within 28 hours a week; during official school vacations, within eight hours a day. Record shifts and follow labour-time rules."
      },
      {
       "text": "Declare part-time income as required to avoid conflicts with scholarship applications or tax."
@@ -9704,7 +11184,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "유학 비자로 일본에서 아르바이트를 하려면 **먼저 「자격외활동 허가」를 취득해야 합니다**. 이 허가는 입국 시 공항에서 신청할 수 있고, 입국 후 지방 출입국재류관리국에서도 수속할 수 있습니다. 허가 없이 근무하면 위법이며 비자에 영향을 줄 수 있습니다. 자세한 내용은 【재류 수속】을 참조하세요."
    },
    "9071cc": {
-    "text": "학기 중에는 주 28시간이 상한입니다. 장기 방학 중(봄·여름·겨울방학)에는 1일 8시간, 주 40시간이 상한입니다. 상한을 초과한 근무가 위법으로 판단되면 재류 기간 갱신에 영향을 미칩니다. 반드시 준수하세요."
+    "text": "학기 중에는 모든 아르바이트를 합쳐 주 28시간 이내이며 고용주별로 계산하지 않습니다. 학교가 정한 공식 장기 방학은 하루 8시간 이내이고 노동시간 규정도 지켜야 합니다. 초과하면 재류자격 갱신에 영향을 줄 수 있으므로 모든 근무 시간을 기록하세요."
    },
    "105e04": {
     "text": "시급 시세와 구직 경로"
@@ -9713,7 +11193,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "후쿠오카현 최저임금은 **1,057엔/시간**(2026년 10월 3일까지)이며, 2026년 10월 4일부터 **1,114엔/시간**으로 인상됩니다. 실제 시급은 업종에 따라 다르며, 편의점·음식점은 낮은 편, 과외·번역은 높은 편입니다. 구체적인 조건은 고용주에 따릅니다."
    },
    "493aef": {
-    "text": "주요 경로: 학교 생협 또는 국제부 게시판, 타운워크(Townwork)·바이토루(Baitoru) 등 구인 사이트, 선배나 연구실 소개 등이 있습니다. 입국 전에 서둘러 구할 필요는 없으며, 재류카드와 은행 계좌를 준비한 뒤에도 충분합니다."
+    "text": "일자리를 찾을 때는 생협이나 국제 담당 게시판부터 보고 Townwork·Baitoru 등 구직 사이트도 확인하세요. 선배나 연구실에 물어볼 수도 있습니다. 입국 전부터 서두를 필요 없이 도착 후 재류카드와 계좌 수속을 마친 뒤 찾아도 됩니다."
    },
    "1ae89a": {
     "text": "주의사항과 공식 창구"
@@ -9724,7 +11204,7 @@ window.ARTICLES_BODY_I18N = {
       "text": "자격외활동 허가를 먼저 취득한 후 아르바이트를 시작하세요."
      },
      {
-      "text": "주 28시간 상한을 엄수하고 근무표를 직접 관리해 초과를 피하세요."
+      "text": "학기 중 모든 일자리 합계 주 28시간, 학교 공식 장기 방학 하루 8시간 이내; 근무 기록과 노동시간 규정 준수."
      },
      {
       "text": "아르바이트 소득은 규정에 따라 신고하여 장학금 신청이나 세무와의 충돌을 피하세요."
@@ -9762,7 +11242,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Para trabajar a tiempo parcial en Japón con un visado de estudiante, **primero hay que obtener el «permiso de actividad fuera del estatus»**. Este permiso puede solicitarse en el aeropuerto al entrar al país, o más tarde en la Agencia de Servicios de Inmigración regional. Trabajar sin haberlo obtenido es ilegal y puede afectar al visado. Consulta el apartado [Trámites de residencia]（在留手続き）."
    },
    "9071cc": {
-    "text": "Durante el período lectivo, el límite es de 28 horas por semana. Durante las vacaciones largas (vacaciones de primavera, de verano y de invierno), el límite es de 8 horas por día y 40 horas por semana. Si se determina que has trabajado por encima del límite de forma ilegal, puede afectar a la renovación del visado; respeta estrictamente las normas."
+    "text": "Durante el periodo lectivo, todos los empleos juntos tienen un límite de 28 horas semanales, no por empresa. En las vacaciones largas oficialmente fijadas por la universidad, el límite es de ocho horas al día; se aplican también las normas laborales. El exceso puede afectar la renovación de residencia, así que registra todas las horas."
    },
    "105e04": {
     "text": "Salario por hora y canales de búsqueda de empleo"
@@ -9771,7 +11251,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "El salario mínimo de la prefectura de Fukuoka es **1,057 円/hora**（hasta el 2026 年 10 月 3 日）, y desde el 2026 年 10 月 4 日 sube a **1,114 円/hora**. El salario real varía según el sector: en las tiendas de conveniencia y en la restauración suele ser más bajo; en las clases particulares y la traducción, más alto. Las condiciones concretas dependen de cada empleador."
    },
    "493aef": {
-    "text": "Canales principales: el tablón de anuncios de la cooperativa de la universidad（生協）o de la oficina de asuntos internacionales, sitios de búsqueda de empleo como Townwork（タウンワーク）o Baitoru（バイトル）, y recomendaciones de estudiantes de cursos superiores o de personas de tu laboratorio de investigación. No hay que buscar trabajo con urgencia antes de entrar al país; también da tiempo de sobra después de llegar, una vez tramitada la tarjeta de residencia y la cuenta bancaria."
+    "text": "Empieza por los tablones de la cooperativa o de la oficina internacional y consulta después Townwork, Baitoru y otras webs. También puedes preguntar a estudiantes veteranos o a tu laboratorio. No hace falta apresurarse antes de llegar; puedes buscar tras tramitar la tarjeta de residencia y la cuenta bancaria."
    },
    "1ae89a": {
     "text": "Precauciones y portales oficiales"
@@ -9782,7 +11262,7 @@ window.ARTICLES_BODY_I18N = {
       "text": "Obtén primero el permiso de actividad fuera del estatus y solo después empieza a trabajar."
      },
      {
-      "text": "Respeta estrictamente el límite de 28 horas por semana y lleva tu propio registro de turnos para no superarlo."
+      "text": "Durante clases, máximo de 28 horas semanales entre todos los empleos; en vacaciones oficiales largas, ocho horas diarias. Registra turnos y respeta las normas laborales."
      },
      {
       "text": "Declara los ingresos del trabajo a tiempo parcial según la normativa, para evitar conflictos con la solicitud de becas o con la declaración de impuestos."
@@ -9837,7 +11317,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "日本の大手3キャリア（docomo / au / SoftBank）の本家プランは月額が総じて高いため、学生には大手キャリアのサブブランドがおすすめです。例えば SoftBank 系の Y!mobile、au 系の UQ mobile は料金が安く、通信も比較的安定しています。また、楽天モバイル（Rakuten）は料金が安いことから、留学生にも多く利用されています。"
    },
    "930aa8": {
-    "text": "月間データ量で選ぶなら、povo、ahamo などの格安SIMがコストパフォーマンスに優れています。povo は必要な分だけデータを購入でき、ahamo はデータ容量が多く5Gにも対応しています。これまでの経験では、povo と ahamo は伊都周辺での利用感が良く、楽天モバイルと SoftBank は伊都キャンパス周辺の電波状況が良くありません。"
+    "text": "データ量で選ぶならpovoとahamoを比較できます。povoは必要なデータを都度購入し、ahamoはデータ量が多く5Gにも対応しています。伊都周辺の過去の利用者からはpovo・ahamoは良好、楽天モバイル・SoftBankは電波が弱めとの声がありました。あくまで利用経験なので、自分の利用場所で確認してください。"
    },
    "95aeea": {
     "text": "留学生向けの GTN、Sakura などのSIMは、これまでの経験では価格が高めで通信品質の評判も良くないため、契約前に比較検討することをおすすめします。また、Jio、Mobal などを調べてみるのも良いでしょう。"
@@ -9937,7 +11417,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "7e41fb": {
-    "text": "この2つの条件があるため、SIM契約は到着初日にできるものではありません。一般的な順序は、住所登録 → SIM契約・口座開設 → その他の手続き です。さらに口座開設には電話番号が必要なため、どうしても行き詰まった場合は、まず Supporter やサポートセンターの番号で口座を開設し、自分の番号を取得してから変更するとよいでしょう。"
+    "text": "申込前に住所登録と支払方法の条件を確認してください。到着初日に開通できるとは限りません。通常は住所登録後にSIMや口座を申し込みます。口座と携帯番号が互いに必要で困ったら、銀行が認める連絡先を先に確認してください。Supporterやサポートセンターの番号を当然使えるとは考えず、本人の番号を取得したら更新しましょう。"
    },
    "e1b701": {
     "text": "自宅のネット回線"
@@ -9951,7 +11431,34 @@ window.ARTICLES_BODY_I18N = {
    "e1b704": {
     "text": "D1・D2・伊都協奏館は大学ページで入居後の申請と別料金が案内され、入居当日から使えるとは限りません。D3 は月 9,000 円の光熱水費にネット料金が含まれ、共用部に無線 LAN アクセスポイントがあります。利用方法は管理担当者に確認してください。SETTLE は大学ページでネット無料と案内されています。ルーター準備に関する資料の助言は別に確認し、全寮で個別契約やルーター購入が必要とは限りません。"
    },
-   "e1b70b": {"headers":["寮","ネットとルーターの準備"],"rows":[["D1","入居後に管理担当者へ申請。大学ページでは別料金、すぐ使えない場合があると案内。資料ではルーターと LAN ケーブルを推奨。端子、プラン、費用、開通日を確認。"],["D2","入居後に管理担当者へ申請。大学ページでは別料金、すぐ使えない場合があると案内。資料ではルーターと LAN ケーブルを推奨。間取りに応じて端子、プラン、費用、開通日を確認。"],["D3","大学ページでは月 9,000 円の光熱水費にネット料金を含むと案内。資料では共用部に無線 LAN アクセスポイントあり。接続方法を管理担当者に確認してからルーター購入を判断。"],["伊都協奏館","入居後に申請し別料金。すぐ使えない場合あり。資料ではルーターと LAN ケーブルを推奨。端子、プラン、費用、開通日を確認。"],["SETTLE International","大学ページではネット無料。2026 年秋の資料ではルーター準備を推奨。自室・契約に応じて設備の要否を管理担当者に確認。"]]},
+   "e1b70b": {
+    "headers": [
+     "寮",
+     "ネットとルーターの準備"
+    ],
+    "rows": [
+     [
+      "D1",
+      "入居後に管理担当者へ申請。大学ページでは別料金、すぐ使えない場合があると案内。資料ではルーターと LAN ケーブルを推奨。端子、プラン、費用、開通日を確認。"
+     ],
+     [
+      "D2",
+      "入居後に管理担当者へ申請。大学ページでは別料金、すぐ使えない場合があると案内。資料ではルーターと LAN ケーブルを推奨。間取りに応じて端子、プラン、費用、開通日を確認。"
+     ],
+     [
+      "D3",
+      "大学ページでは月 9,000 円の光熱水費にネット料金を含むと案内。資料では共用部に無線 LAN アクセスポイントあり。接続方法を管理担当者に確認してからルーター購入を判断。"
+     ],
+     [
+      "伊都協奏館",
+      "入居後に申請し別料金。すぐ使えない場合あり。資料ではルーターと LAN ケーブルを推奨。端子、プラン、費用、開通日を確認。"
+     ],
+     [
+      "SETTLE International",
+      "大学ページではネット無料。2026 年秋の資料ではルーター準備を推奨。自室・契約に応じて設備の要否を管理担当者に確認。"
+     ]
+    ]
+   },
    "e1b705": {
     "items": [
      {
@@ -10001,6 +11508,9 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://www.softbank.jp/internet/air/"
      }
     ]
+   },
+   "3fc4be": {
+    "text": "eSIM"
    }
   },
   "en": {
@@ -10029,7 +11539,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "The monthly fees of the three major carriers' own-brand plans (docomo / au / SoftBank) are generally high. Sub-brands of the major carriers are more recommended for students: for example, Y!mobile under SoftBank and UQ mobile under au offer lower rates with relatively stable networks. Rakuten Mobile (Rakuten) is also popular among international students because of its low rates."
    },
    "930aa8": {
-    "text": "For monthly data volume, budget SIMs such as povo and ahamo offer good value: povo sells data packs on demand, while ahamo includes more data and supports 5G. Based on past experience, povo and ahamo perform well around Ito, while Rakuten Mobile and SoftBank have average signals around the Ito campus."
+    "text": "For data allowances, compare povo and ahamo: povo sells data packages as needed, while ahamo offers more data and supports 5G. Past feedback around Ito has favoured povo and ahamo, with weaker reception reported for Rakuten Mobile and SoftBank. This is user experience; check coverage at your own locations before signing up."
    },
    "95aeea": {
     "text": "International-student-oriented SIMs such as GTN and Sakura are reported to be overpriced with poor signal reviews, so compare options before signing up. Jio, Mobal and others are also worth checking."
@@ -10129,7 +11639,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "7e41fb": {
-    "text": "These two conditions mean that signing up for a SIM cannot be done on the first day after arrival. The usual order is: residence registration → SIM contract / bank account opening → other procedures. Opening an account itself requires a phone number, so when these requirements block each other, an account can be opened using the number of a Supporter or the Support Center (サポートセンター) first, then changed to one's own number later."
+    "text": "Check address-registration and payment requirements before applying; activation on your arrival day is not guaranteed. Usually you register your address before applying for a SIM or account. If the bank account and phone number depend on each other, ask the bank which contact details it accepts. Do not assume you can use a Supporter or support-centre number; update the details once you have your own."
    },
    "e1b701": {
     "text": "Internet at home"
@@ -10143,7 +11653,34 @@ window.ARTICLES_BODY_I18N = {
    "e1b704": {
     "text": "The university page says D1, D2 and Ito Kyoso-kan require a separate internet application after move-in and an additional fee; service may not be ready on arrival day. D3's ¥9,000 monthly utilities include internet, and a wireless LAN access point is listed in the shared area; ask management how to connect. The university page lists internet as free at SETTLE. Router recommendations in the room-equipment document are separate; this does not mean every dorm requires an individual contract or router purchase."
    },
-   "e1b70b": {"headers":["Dorm","Internet and router preparation"],"rows":[["D1","Apply through management after moving in. The university page says an extra fee applies and service may not be immediate. The document suggests a router and LAN cable. Confirm port, plan, cost and activation date."],["D2","Apply through management after moving in. The university page says an extra fee applies and service may not be immediate. The document suggests a router and LAN cable. Confirm port, plan, cost and activation for your room."],["D3","The university page lists internet as included in the ¥9,000 monthly utilities. The room document lists a shared-area wireless LAN access point. Ask management how to connect before deciding whether to buy a router."],["Ito Kyoso-kan","Apply after move-in and pay an additional fee; service may not be immediate. The document suggests a router and LAN cable. Confirm port, plan, cost and activation date."],["SETTLE International","The university page lists internet as free; the Fall 2026 room document still suggests preparing a router. Ask management whether your room/contract requires your own equipment."]]},
+   "e1b70b": {
+    "headers": [
+     "Dorm",
+     "Internet and router preparation"
+    ],
+    "rows": [
+     [
+      "D1",
+      "Apply through management after moving in. The university page says an extra fee applies and service may not be immediate. The document suggests a router and LAN cable. Confirm port, plan, cost and activation date."
+     ],
+     [
+      "D2",
+      "Apply through management after moving in. The university page says an extra fee applies and service may not be immediate. The document suggests a router and LAN cable. Confirm port, plan, cost and activation for your room."
+     ],
+     [
+      "D3",
+      "The university page lists internet as included in the ¥9,000 monthly utilities. The room document lists a shared-area wireless LAN access point. Ask management how to connect before deciding whether to buy a router."
+     ],
+     [
+      "Ito Kyoso-kan",
+      "Apply after move-in and pay an additional fee; service may not be immediate. The document suggests a router and LAN cable. Confirm port, plan, cost and activation date."
+     ],
+     [
+      "SETTLE International",
+      "The university page lists internet as free; the Fall 2026 room document still suggests preparing a router. Ask management whether your room/contract requires your own equipment."
+     ]
+    ]
+   },
    "e1b705": {
     "items": [
      {
@@ -10193,6 +11730,9 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://www.softbank.jp/internet/air/"
      }
     ]
+   },
+   "3fc4be": {
+    "text": "eSIM"
    }
   },
   "ko": {
@@ -10221,7 +11761,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "일본 3대 통신사(docomo / au / SoftBank)의 본 브랜드 월 요금은 대체로 비쌉니다. 학생이라면 대형 통신사의 서브 브랜드를 추천합니다. 예를 들어 SoftBank 계열의 Y!mobile, au 계열의 UQ mobile은 요금이 더 저렴하고 네트워크도 상대적으로 안정적입니다. 또한 라쿠텐 모바일(Rakuten)은 요금이 저렴해 유학생 사이에서도 많이 선택하는 통신사입니다."
    },
    "930aa8": {
-    "text": "월 데이터 용량 기준으로 고르면 povo, ahamo 등 저가 SIM(格安SIM)의 가성비가 높습니다. povo는 필요에 따라 데이터 팩을 구매하고, ahamo는 데이터 용량이 많고 5G를 지원합니다. 기존 경험에 따르면 이토(伊都) 주변에서는 povo, ahamo의 체감이 좋았고, 라쿠텐 모바일과 SoftBank는 신호가 보통 수준이었습니다."
+    "text": "데이터량으로 고를 때는 povo와 ahamo를 비교하세요. povo는 필요할 때 데이터 패키지를 구매하고 ahamo는 데이터량이 많으며 5G를 지원합니다. 이토 주변의 기존 이용 후기에서는 povo·ahamo가 양호하고 라쿠텐모바일·SoftBank는 신호가 약하다는 평이 있었습니다. 이용 경험이므로 본인이 쓰는 장소에서 확인하세요."
    },
    "95aeea": {
     "text": "유학생 대상 GTN, Sakura 등의 SIM은 기존 경험상 가격이 높고 신호 평가가 나쁜 편이므로, 가입 전에 먼저 비교할 것을 권장합니다. 그 외에 Jio, Mobal 등도 알아볼 수 있습니다."
@@ -10321,7 +11861,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "7e41fb": {
-    "text": "이 두 가지 때문에 SIM 가입은 입국 첫날에 끝낼 수 있는 일이 아닙니다. 일반적인 순서는 주소 등록 → SIM 가입 / 계좌 개설 → 기타 수속입니다. 그런데 계좌 개설 자체에도 전화번호가 필요하므로, 정말로 서로 막힐 경우 Supporter 또는 서포트센터(サポートセンター)의 번호로 먼저 계좌를 개설하고, 자신의 번호를 받은 뒤 변경하시면 됩니다."
+    "text": "신청 전에 주소 등록과 결제 수단 요건을 확인하세요. 도착 당일 개통이 보장되지는 않습니다. 보통 주소 등록 후 SIM이나 계좌를 신청합니다. 계좌와 전화번호가 서로 필요해 막히면 은행이 인정하는 연락처부터 확인하세요. Supporter나 서포트센터 번호를 당연히 쓸 수 있다고 가정하지 말고 본인 번호 발급 후 변경하세요."
    },
    "e1b701": {
     "text": "집에서 쓰는 인터넷"
@@ -10335,7 +11875,34 @@ window.ARTICLES_BODY_I18N = {
    "e1b704": {
     "text": "대학 페이지에 따르면 D1·D2·이토교소칸은 입주 후 별도 신청 및 추가 요금이 필요하며 입주 당일부터 사용하지 못할 수 있습니다. D3는 월 9,000엔 광열수비에 인터넷 요금이 포함되고 공용 공간에 무선 LAN 접속점이 기재되어 있습니다. 사용 방법은 관리 담당자에게 확인하세요. SETTLE은 대학 페이지에 인터넷 무료로 안내되어 있습니다. 방 설비 자료의 라우터 권장은 별도이며, 모든 기숙사에 개별 계약이나 라우터 구매가 필요하다는 뜻은 아닙니다."
    },
-   "e1b70b": {"headers":["기숙사","인터넷·라우터 준비"],"rows":[["D1","입주 후 관리 담당자에게 신청. 대학 페이지에는 별도 요금과 즉시 사용 불가 가능성이 안내되어 있습니다. 자료는 라우터와 LAN 케이블을 권장합니다. 단자, 요금제, 비용, 개통일을 확인하세요."],["D2","입주 후 관리 담당자에게 신청. 대학 페이지에는 별도 요금과 즉시 사용 불가 가능성이 안내되어 있습니다. 자료는 라우터와 LAN 케이블을 권장합니다. 본인 방의 단자, 요금제, 비용, 개통일을 확인하세요."],["D3","대학 페이지에 월 9,000엔 광열수비에 인터넷 포함으로 기재되어 있습니다. 방 자료에는 공용 무선 LAN 접속점이 안내되어 있습니다. 라우터 구매 여부를 정하기 전 관리 담당자에게 사용 방법을 문의하세요."],["이토교소칸","입주 후 신청 및 추가 요금이 필요하며 즉시 사용하지 못할 수 있습니다. 자료는 라우터와 LAN 케이블을 권장합니다. 단자, 요금제, 비용, 개통일을 확인하세요."],["SETTLE International","대학 페이지에는 인터넷 무료로 안내되어 있습니다. 2026년 가을 방 자료는 라우터 준비를 권장합니다. 본인 방과 계약에 따라 장비 필요 여부를 관리 담당자에게 확인하세요."]]},
+   "e1b70b": {
+    "headers": [
+     "기숙사",
+     "인터넷·라우터 준비"
+    ],
+    "rows": [
+     [
+      "D1",
+      "입주 후 관리 담당자에게 신청. 대학 페이지에는 별도 요금과 즉시 사용 불가 가능성이 안내되어 있습니다. 자료는 라우터와 LAN 케이블을 권장합니다. 단자, 요금제, 비용, 개통일을 확인하세요."
+     ],
+     [
+      "D2",
+      "입주 후 관리 담당자에게 신청. 대학 페이지에는 별도 요금과 즉시 사용 불가 가능성이 안내되어 있습니다. 자료는 라우터와 LAN 케이블을 권장합니다. 본인 방의 단자, 요금제, 비용, 개통일을 확인하세요."
+     ],
+     [
+      "D3",
+      "대학 페이지에 월 9,000엔 광열수비에 인터넷 포함으로 기재되어 있습니다. 방 자료에는 공용 무선 LAN 접속점이 안내되어 있습니다. 라우터 구매 여부를 정하기 전 관리 담당자에게 사용 방법을 문의하세요."
+     ],
+     [
+      "이토교소칸",
+      "입주 후 신청 및 추가 요금이 필요하며 즉시 사용하지 못할 수 있습니다. 자료는 라우터와 LAN 케이블을 권장합니다. 단자, 요금제, 비용, 개통일을 확인하세요."
+     ],
+     [
+      "SETTLE International",
+      "대학 페이지에는 인터넷 무료로 안내되어 있습니다. 2026년 가을 방 자료는 라우터 준비를 권장합니다. 본인 방과 계약에 따라 장비 필요 여부를 관리 담당자에게 확인하세요."
+     ]
+    ]
+   },
    "e1b705": {
     "items": [
      {
@@ -10385,6 +11952,9 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://www.softbank.jp/internet/air/"
      }
     ]
+   },
+   "3fc4be": {
+    "text": "eSIM"
    }
   },
   "es": {
@@ -10413,7 +11983,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "La cuota mensual de las marcas principales de las tres grandes operadoras japonesas (docomo / au / SoftBank) suele ser cara; para los estudiantes es más recomendable elegir las submarcas de esas operadoras, como Y!mobile, de SoftBank, o UQ mobile, de au, con tarifas más bajas y una red relativamente estable. Además, Rakuten Mobile también es una de las más elegidas entre los estudiantes internacionales por sus tarifas económicas."
    },
    "930aa8": {
-    "text": "Si eliges según los datos mensuales, las SIM de bajo coste como povo y ahamo tienen una buena relación calidad-precio: povo permite comprar paquetes de datos según necesidad y ahamo incluye más datos y es compatible con 5G. Según la experiencia previa, povo y ahamo funcionan mejor en los alrededores del campus Ito, mientras que Rakuten Mobile y SoftBank tienen una señal regular en las inmediaciones del campus Ito."
+    "text": "Para elegir por datos, compara povo y ahamo: povo vende paquetes según necesidad, mientras ahamo ofrece más datos y 5G. En experiencias anteriores cerca de Ito, povo y ahamo funcionaron mejor y Rakuten Mobile y SoftBank tuvieron recepción más débil. Son experiencias de usuarios; comprueba la cobertura en tus lugares habituales antes de contratar."
    },
    "95aeea": {
     "text": "En el caso de SIM orientadas a estudiantes internacionales como GTN o Sakura, según la experiencia previa los precios son más bien altos y las valoraciones de la señal, peores; conviene comparar antes de contratar. También puedes informarte sobre Jio, Mobal y otras."
@@ -10458,7 +12028,34 @@ window.ARTICLES_BODY_I18N = {
    "e1b704": {
     "text": "La página universitaria indica que D1, D2 e Ito Kyoso-kan requieren una solicitud de internet después de entrar y una cuota adicional; puede que no funcione el primer día. En D3, los suministros mensuales de 9.000 円 incluyen internet y hay un punto de acceso WLAN en la zona común; pregunta a administración cómo conectarte. La página universitaria indica que SETTLE ofrece internet gratuito. Las recomendaciones de router del documento de habitaciones son independientes: no significa que todas las residencias requieran contrato individual o comprar un router."
    },
-   "e1b70b": {"headers":["Residencia","Internet y preparación del router"],"rows":[["D1","Solicítalo a administración después de entrar. La página universitaria indica cuota adicional y posible demora. El documento recomienda router y cable LAN. Confirma puerto, plan, coste y fecha de activación."],["D2","Solicítalo a administración después de entrar. La página universitaria indica cuota adicional y posible demora. El documento recomienda router y cable LAN. Confirma el puerto, plan, coste y activación de tu habitación."],["D3","La página universitaria indica que los suministros mensuales de 9.000 円 incluyen internet. El documento de habitaciones enumera un punto de acceso WLAN común. Pregunta cómo conectarte antes de decidir si necesitas un router."],["伊都協奏館","Solicítalo después de entrar y paga una cuota adicional; puede que no esté listo de inmediato. El documento recomienda router y cable LAN. Confirma puerto, plan, coste y activación."],["SETTLE International","La página universitaria indica internet gratuito; el documento de habitaciones de otoño de 2026 aun así recomienda preparar router. Pregunta a administración según tu habitación y contrato."]]},
+   "e1b70b": {
+    "headers": [
+     "Residencia",
+     "Internet y preparación del router"
+    ],
+    "rows": [
+     [
+      "D1",
+      "Solicítalo a administración después de entrar. La página universitaria indica cuota adicional y posible demora. El documento recomienda router y cable LAN. Confirma puerto, plan, coste y fecha de activación."
+     ],
+     [
+      "D2",
+      "Solicítalo a administración después de entrar. La página universitaria indica cuota adicional y posible demora. El documento recomienda router y cable LAN. Confirma el puerto, plan, coste y activación de tu habitación."
+     ],
+     [
+      "D3",
+      "La página universitaria indica que los suministros mensuales de 9.000 円 incluyen internet. El documento de habitaciones enumera un punto de acceso WLAN común. Pregunta cómo conectarte antes de decidir si necesitas un router."
+     ],
+     [
+      "伊都協奏館",
+      "Solicítalo después de entrar y paga una cuota adicional; puede que no esté listo de inmediato. El documento recomienda router y cable LAN. Confirma puerto, plan, coste y activación."
+     ],
+     [
+      "SETTLE International",
+      "La página universitaria indica internet gratuito; el documento de habitaciones de otoño de 2026 aun así recomienda preparar router. Pregunta a administración según tu habitación y contrato."
+     ]
+    ]
+   },
    "e1b705": {
     "items": [
      {
@@ -10576,7 +12173,10 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "7e41fb": {
-    "text": "Estos dos puntos hacen imposible que contratar la tarjeta sea cosa del primer día de llegada. El orden habitual es: registro de residencia → contratar la tarjeta / abrir la cuenta → el resto de trámites. Y como abrir la cuenta exige a su vez un número de teléfono, si de verdad se bloquean mutuamente puedes abrir la cuenta con el número del Supporter o del サポートセンター y cambiarlo después de tener tu propio número."
+    "text": "Antes de solicitarla, comprueba los requisitos de dirección y pago; no se garantiza activar la SIM el día de llegada. Normalmente se registra la dirección antes de solicitar SIM o cuenta. Si ambas exigen la otra, pregunta al banco qué contacto acepta. No supongas que puedes usar el número de un Supporter o del centro de apoyo; actualízalo cuando tengas el tuyo."
+   },
+   "3fc4be": {
+    "text": "eSIM"
    }
   }
  },
@@ -10601,13 +12201,13 @@ window.ARTICLES_BODY_I18N = {
    "333844": {
     "items": [
      {
-      "text": "学生証を受け取る前に住民登録を完了しておく必要があります。"
+      "text": "本人の学籍と条件で適用制度を確認；"
      },
      {
-      "text": "学生証の交付には学部によって時間がかかり、当日には受け取れません。"
+      "text": "学生証が未交付なら在学証明書の原本などで申請できるか確認；"
      },
      {
-      "text": "学生証を受け取ったら、必ずもう一度区役所で切り替え手続きを行ってください。"
+      "text": "提出後は受付と審査結果を確認し、指示された書類を補完。一律の再切替は不要。"
      }
     ]
    },
@@ -10654,7 +12254,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "窓口には市民係と保険年金係があり、通常 1〜1.5 時間で住民登録・年金・健康保険の手続きをまとめて完了できます。職員は経験豊富で、英語での対応も可能です。"
    },
    "e1582c": {
-    "text": "学校による代理手続き：学校が在留カードを約3営業日預かり、住民登録のみを代理で行います。年金と健康保険は自分で別途手続きする必要があります。足を運ぶ必要がないのがメリットです。"
+    "text": "大学の代行を利用する場合、当期通知で対象と手続き範囲を確認してください。通常は住民登録のみで、年金と健康保険は自分で手続きします。在留カードを預けるか、いつ返されるかも自分の通知で確認してください。"
    },
    "e5831f": {
     "text": "どちらの方法でも構いません。学校の代理手続きを選んだ場合でも、後から自分で区役所へ行って残りの手続きを行っても問題ありません。届出完了後、在留カードは各自の学務課に提出して再登録してもらう必要があります。"
@@ -10669,7 +12269,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "郵便物の転送（郵便転送）"
    },
    "258c3a": {
-    "text": "引っ越し後、郵便物の転送はインターネットで申し込めます。有効期間は約3か月です。AからBへ、さらにCへと引っ越す場合は、A→B、次にB→Cの順で手続きします。その間にA宛に届いた郵便物は、自動的にCへ転送されます。"
+    "text": "引越し後は日本郵便にオンラインで転居届を出せます。旧住所の郵便物は新住所へ無料で転送され、期間は届出日から1年間です。転送開始希望日からではありません。継続する場合は再度届け出てください。「転送不要」の郵便物は対象外です。",
+    "emphasis": {
+     "text": [
+      {
+       "start": 45,
+       "end": 56,
+       "style": "bold",
+       "quote": "期間は届出日から1年間"
+      }
+     ]
+    }
    },
    "ac86c0": {
     "text": "在留カードの更新"
@@ -10742,22 +12352,22 @@ window.ARTICLES_BODY_I18N = {
     "text": "国民年金（老齢年金）"
    },
    "cf19f3": {
-    "text": "年金は老齢に備える保険で、日本に住む20歳以上の人は加入義務があります。令和8年度（2026）の保険料は**月額 17,920円**です。留学生は通常、実際の納付は不要で、次の2つの方法で免除を受けられます。"
+    "text": "国民年金は老後の年金制度で、2026年度の保険料は月17,920円です。学生納付特例などの適用は学籍と本人の条件で確認してください。免除や猶予には申請と承認が必要で、留学生というだけで納付不要にはなりません。"
    },
    "637f64": {
-    "text": "① 所得が基準以下の免除：来日直後で収入がない場合に申請できます。区役所が初回手続き時に案内するつなぎの制度です。"
+    "text": "① 一般の免除・納付猶予：学生は対象外です。入学前や特殊な学籍の場合は住所地の年金窓口に事情を説明し、適用制度を確認してください。入学前の一律のつなぎ制度とは考えないでください。"
    },
    "ca081f": {
-    "text": "② 学生納付特例：留学生に最も適した長期的な制度で、在学期間中は保険料の納付が猶予され、卒業後に収入ができてから追納します。申請には学生証が必要で、前年の所得が一定の基準（約128万円に扶養控除を加算。公式情報に準拠）以下であることが条件です。"
+    "text": "② 学生納付特例：条件を満たす在学生が申請できます。学生証の写しまたは在学証明書の原本で在学を証明します。申請年度の前年の本人所得を審査し、基準は128万円＋扶養親族等の数×38万円＋社会保険料控除等です。所得は給与収入総額とは異なります。承認期間は10年以内に追納でき、追納しない期間は老齢基礎年金額に反映されません。"
    },
    "c8342b": {
     "text": "重要な流れとよくある質問"
    },
    "4f17e5": {
-    "text": "住民登録 → 区役所で初回の「所得が基準以下の免除」を申請 → 学務課で学生証を受け取る → もう一度区役所へ行き、免除を①から②の学生納付特例へ切り替える"
+    "text": "学籍と適用制度を確認 → 必要書類を準備 → 年金窓口または公式申請入口へ提出 → 受付と審査結果を確認。すべての留学生が先に一般免除を申請し、学生証を待って切り替えるわけではありません。"
    },
    "90bede": {
-    "text": "毎年、切り替えを忘れた学生が後から年金の納付書を受け取ってしまうことがあります。注意点："
+    "text": "納付書が届いたら、申請の受付状況と審査結果を確認し、必要なら年金窓口へ相談してください。納付書だけで不承認や制度変更が必要と判断しないでください。以下も確認しましょう。"
    },
    "e7cf1e": {
     "text": "申請場所：住民登録をした区役所の年金窓口、または西福岡年金事務所。"
@@ -10779,7 +12389,7 @@ window.ARTICLES_BODY_I18N = {
       "text": "住所の抹消——区役所で転出届を提出"
      },
      {
-      "text": "国民健康保険：保険証の返還と保険料の完納。6か月以上納めていれば脱退一時金を申請できます"
+      "text": "国民健康保険：住所地の窓口で脱退と保険料の精算を確認してください。脱退一時金は年金制度の給付で、資格は年金窓口または公式案内で別途確認してください。"
      },
      {
       "text": "国民年金——特例申請をしている場合は、今後の手続きを確認"
@@ -10929,13 +12539,13 @@ window.ARTICLES_BODY_I18N = {
    "333844": {
     "items": [
      {
-      "text": "Resident registration must be completed before the student ID card is issued;"
+      "text": "Confirm the scheme for your student status and circumstances;"
      },
      {
-      "text": "The production time of the student ID card varies by faculty, and it is not available on the same day;"
+      "text": "If your student ID is not ready, check application using an original enrolment certificate or other accepted documents;"
      },
      {
-      "text": "After receiving the student ID card, the 区役所 (ward office) must be visited once more to complete the switch."
+      "text": "Check acceptance and the decision, and supply documents requested by the office; do not assume a later switch is required."
      }
     ]
    },
@@ -10982,7 +12592,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "The counter has 市民係（residents' affairs desk）and 保険年金係（insurance and pension desk）; residence registration, pension and health insurance can usually be completed together in about 1-1.5 hours. The staff are experienced and can respond in English."
    },
    "e1582c": {
-    "text": "School proxy: the school keeps the 在留カード（residence card）for about 3 business days and handles 住民登録（resident registration）only; pension and health insurance must still be arranged separately. The advantage is that no visit to the office is required."
+    "text": "If using the university service, check the current notice for eligibility and scope. It usually handles residence registration only; pension and health insurance still need separate applications. Confirm whether it keeps your residence card and when it returns it in your own notice."
    },
    "e5831f": {
     "text": "Either option may be chosen; even if the school proxy option is selected, the remaining procedures can still be completed later in person at the 区役所（ward office）. After registration is complete, the 在留カード（residence card）must be submitted to the respective 学務課（student affairs office）and registered once more."
@@ -10997,7 +12607,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "Postal mail forwarding"
    },
    "258c3a": {
-    "text": "Mail forwarding can be arranged online after moving and remains valid for about 3 months. When moving from A to B and then to C, A→B can be arranged first and then B→C; mail sent to A during the period is automatically forwarded on to C."
+    "text": "After moving, submit a change-of-address notice to Japan Post online. Mail from your old address is forwarded free for one year from the notice date, not from your requested start date. Submit another notice to continue forwarding. Mail marked 転送不要 (do not forward) is excluded.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 119,
+       "end": 148,
+       "style": "bold",
+       "quote": "one year from the notice date"
+      }
+     ]
+    }
    },
    "ac86c0": {
     "text": "Renewing the 在留カード（residence card）"
@@ -11070,22 +12690,22 @@ window.ARTICLES_BODY_I18N = {
     "text": "国民年金（National Pension）"
    },
    "cf19f3": {
-    "text": "年金（pension）is retirement insurance; all persons aged 20 or over residing in Japan are obliged to enroll. The premium for fiscal year 令和 8（2026）is **17,920 円 per month**. International students generally do not actually pay; the premium can be reduced or exempted in two ways:"
+    "text": "National Pension is a retirement pension scheme; the monthly contribution for fiscal 2026 is 17,920 yen. Check your student status and personal circumstances for student payment postponement or other schemes. Exemption or postponement needs an application and approval; international-student status alone does not remove payment obligations."
    },
    "637f64": {
-    "text": "① Income-below-threshold exemption: it can be applied for upon arrival when no income exists yet, and is a transitional option offered by the 区役所（ward office）at the initial enrollment."
+    "text": "1. General exemption or postponement: students are excluded from this scheme. If you have not enrolled or have unusual student status, explain your situation to your local pension office and ask which scheme applies. It is not a universal pre-enrolment bridge."
    },
    "ca081f": {
-    "text": "② 学生納付特例（student contribution special exception）: the long-term option best suited to international students - premiums are deferred while enrolled and paid later once income is earned. The application requires the student ID card, and the previous year's income must be below the specified threshold (approximately 128 万円 plus dependent deductions; the official figures take precedence)."
+    "text": "2. Student payment postponement: eligible enrolled students may apply using a copy of their student ID or an original enrolment certificate. Assessment uses personal income for the year before the application fiscal year: the threshold is 1.28 million yen plus 380,000 yen per dependent and social-insurance deductions and other allowances. Income is not gross salary. Approved periods may be paid retroactively within ten years; unpaid periods do not count towards the basic old-age pension amount."
    },
    "c8342b": {
     "text": "Key procedures and common questions"
    },
    "4f17e5": {
-    "text": "住民登録（resident registration）→ apply for the income-below-threshold exemption at the 区役所（ward office）on the first visit → collect the student ID card from the 学務課（student affairs office）→ return to the 区役所（ward office）to switch the exemption from ① to ② 学生納付特例（student contribution special exception）"
+    "text": "Confirm student status and the applicable scheme → prepare the documents → apply at a pension office or official application portal → check acceptance and the decision. Not every international student needs general exemption first and a later switch after receiving a student ID."
    },
    "90bede": {
-    "text": "Every year some students forget to make this switch and later receive pension bills. Note:"
+    "text": "If you receive a pension bill, check whether your application was accepted and what decision was made; contact the office if needed. A bill alone does not prove rejection or a need to change schemes. Also note:"
    },
    "e7cf1e": {
     "text": "Application location: the pension counter of the 区役所（ward office）where resident registration was filed, or 西福岡年金事務所（Nishi-Fukuoka Pension Office）."
@@ -11107,7 +12727,7 @@ window.ARTICLES_BODY_I18N = {
       "text": "Cancel the registered address - file a 転出届 (notice of moving out) at the 区役所 (ward office)"
      },
      {
-      "text": "国民健康保険 (National Health Insurance) : return the insurance certificate and settle all premiums; if premiums were paid for 6 months or more, a 脱退一時金 (lump-sum withdrawal payment) can be claimed"
+      "text": "National Health Insurance: confirm withdrawal and premium settlement with your local municipal office. The lump-sum withdrawal payment belongs to the pension system; check eligibility separately with a pension office or official information."
      },
      {
       "text": "国民年金 (National Pension) : if a special exception was applied for, confirm the follow-up procedure"
@@ -11257,13 +12877,13 @@ window.ARTICLES_BODY_I18N = {
    "333844": {
     "items": [
      {
-      "text": "학생증 수령 전에 먼저 주민 등록을 완료해야 합니다;"
+      "text": "본인 학적과 조건에 맞는 제도 확인;"
      },
      {
-      "text": "학생증 제작에는 학부(学部)에 따라 시간이 걸려 당일 수령이 불가능합니다;"
+      "text": "학생증 발급 전에는 재학증명서 원본 등으로 신청 가능한지 확인;"
      },
      {
-      "text": "학생증을 받은 뒤 반드시 区役所(구청)에 한 번 더 가서 전환 절차를 처리하십시오."
+      "text": "제출 후 접수·심사 결과를 확인하고 요청 서류를 보완하며 재전환을 당연히 가정하지 않기."
      }
     ]
    },
@@ -11310,7 +12930,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "창구에는 市民係(시민계), 保険年金係(보험연금계)가 있으며, 일반적으로 1~1.5시간이면 주민 등록, 연금, 건강보험을 한 번에 처리할 수 있습니다. 직원들은 경험이 풍부하며 영어로도 대응할 수 있습니다."
    },
    "e1582c": {
-    "text": "학교 대행: 학교가 在留カード(재류카드)를 약 3영업일간 보관하며, 주민 등록만 대행해 줍니다. 연금과 건강보험은 직접 별도로 처리해야 합니다. 장점은 직접 나가지 않아도 된다는 점입니다."
+    "text": "학교 대행을 이용하면 이번 안내의 대상과 처리 범위를 먼저 확인하세요. 보통 주민 등록만 대행하고 연금과 건강보험은 직접 신청합니다. 재류카드 보관 여부와 반환일도 본인 안내로 확인하세요."
    },
    "e5831f": {
     "text": "두 방법 중에서 선택할 수 있습니다. 학교 대행을 선택했더라도 이후 区役所(구청)에 직접 가서 나머지 수속을 추가로 처리해도 문제없습니다. 등록을 마친 뒤에는 在留カード(재류카드)를 각자 소속 학무과(学務課)에 제출해 한 번 더 등록해야 합니다."
@@ -11325,7 +12945,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "우편물 전송(郵便転送)"
    },
    "258c3a": {
-    "text": "이사 후 인터넷으로 우편물 전송(郵便転送)을 신청할 수 있으며, 유효기간은 약 3개월입니다. A에서 B로, 다시 C로 이사하는 경우 A→B, 이어서 B→C를 신청하면 됩니다. 그 사이에 A로 배달된 우편물은 자동으로 연속 전송되어 C까지 도착합니다."
+    "text": "이사 후 일본우편에 온라인으로 전거 신고를 할 수 있습니다. 옛 주소의 우편물은 새 주소로 무료 전송되며, 기간은 희망 시작일이 아닌 신고일부터 1년입니다. 계속 이용하려면 다시 신고하세요. 「転送不要」 표시 우편물은 전송되지 않습니다.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 75,
+       "end": 83,
+       "style": "bold",
+       "quote": "신고일부터 1년"
+      }
+     ]
+    }
    },
    "ac86c0": {
     "text": "在留カード(재류카드) 갱신"
@@ -11398,22 +13028,22 @@ window.ARTICLES_BODY_I18N = {
     "text": "国民年金(국민연금)(연금보험)"
    },
    "cf19f3": {
-    "text": "연금은 노후 보장을 위한 보험으로, 일본에 거주하는 20세 이상은 모두 가입 의무가 있으며, 令和8年度(레이와8년도)(2026)의 보험료는 **매월 17,920円(17,920엔)**입니다. 유학생은 일반적으로 실제 납부가 필요 없으며, 다음 두 가지 방법으로 감면받을 수 있습니다:"
+    "text": "국민연금은 노후 연금 제도이며 2026년도 보험료는 월 17,920엔입니다. 학생 납부 특례 등의 적용은 학적과 개인 조건으로 확인하세요. 면제나 유예는 신청과 승인이 필요하며 유학생이라는 이유만으로 납부 의무가 없어지지는 않습니다."
    },
    "637f64": {
-    "text": "① 소득 기준 미달 면제: 일본에 막 도착해 소득이 없을 때 신청할 수 있으며, 区役所(구청)가 최초 처리 시 제공하는 과도기 방안입니다."
+    "text": "① 일반 면제·납부 유예: 학생은 이 제도의 대상이 아닙니다. 입학 전이거나 학적이 특수하다면 주소지 연금 창구에 사정을 설명하고 적용 제도를 확인하세요. 입학 전 공통 임시 제도로 가정하지 마세요."
    },
    "ca081f": {
-    "text": "② 学生納付特例(학생납부특례): 유학생에게 가장 적합한 장기 방안으로, 재학 중에는 보험료 납부가 유예되고 졸업 후 소득이 생기면 추가 납부합니다. 신청에는 학생증이 필요하며, 전년도 소득이 기준선 이하(약 128万円(128만엔)에 부양 공제를 더한 금액, 공식 기준에 따름)여야 합니다."
+    "text": "② 학생 납부 특례: 조건을 충족하는 재학생이 신청하며 학생증 사본이나 재학증명서 원본으로 학적을 증명합니다. 신청 연도 전년의 본인 소득을 심사하며 기준은 128만엔＋부양 친족 등 인원×38만엔＋사회보험료 공제 등입니다. 소득은 급여 총수입과 다릅니다. 승인 기간은 10년 이내 추납할 수 있고 추납하지 않은 기간은 노령 기초연금액에 반영되지 않습니다."
    },
    "c8342b": {
     "text": "핵심 절차와 자주 묻는 질문"
    },
    "4f17e5": {
-    "text": "주민 등록 → 최초로 区役所(구청)에서 「소득 기준 미달 면제」 처리 → 학무과(学務課)에서 학생증 수령 → 다시 区役所(구청)에 가서 면제를 ①에서 ② 学生納付特例(학생납부특례)로 전환"
+    "text": "학적과 적용 제도 확인 → 해당 서류 준비 → 연금 창구나 공식 신청 경로로 제출 → 접수 및 심사 결과 확인. 모든 유학생이 일반 면제를 먼저 신청하고 학생증을 기다려 전환해야 하는 것은 아닙니다."
    },
    "90bede": {
-    "text": "매년 전환을 잊어버려 이후 연금 고지서를 받게 되는 학생들이 있습니다. 주의:"
+    "text": "연금 납부서가 오면 신청 접수와 심사 결과부터 확인하고 필요하면 창구에 문의하세요. 납부서만으로 신청 실패나 제도 전환 필요를 판단하지 마세요. 다음도 확인하세요."
    },
    "e7cf1e": {
     "text": "신청 장소: 주민 등록을 한 区役所(구청)의 연금 창구, 또는 西福岡年金事務所(니시후쿠오카네넨지무쇼)."
@@ -11435,7 +13065,7 @@ window.ARTICLES_BODY_I18N = {
       "text": "주소 말소: 区役所(구청)에서 転出届(전출신고) 처리"
      },
      {
-      "text": "国民健康保険(국민건강보험): 보험증 반납과 보험료 정산; 6개월 이상 납부 시 脱退一時金(탈퇴일시금) 신청 가능"
+      "text": "국민건강보험: 주소지 창구에서 탈퇴와 보험료 정산을 확인하세요. 탈퇴일시금은 연금 제도의 급여이므로 자격은 연금 창구나 공식 안내에서 별도로 확인하세요."
      },
      {
       "text": "国民年金(국민연금): 특례 신청을 한 경우 후속 처리 확인"
@@ -11585,13 +13215,13 @@ window.ARTICLES_BODY_I18N = {
    "333844": {
     "items": [
      {
-      "text": "Antes de obtener el carné de estudiante hay que haber completado el registro de residencia;"
+      "text": "Confirma el régimen según matrícula y circunstancias;"
      },
      {
-      "text": "El tiempo de emisión del carné de estudiante varía según la facultad y no se entrega el mismo día;"
+      "text": "Si aún no tienes carné, comprueba el uso de un certificado original de matrícula u otros documentos aceptados;"
      },
      {
-      "text": "Una vez obtenido el carné de estudiante, hay que volver a la oficina del distrito para hacer el cambio."
+      "text": "Comprueba recepción y resolución y aporta lo que solicite la oficina; no supongas que debes cambiar de régimen después."
      }
     ]
    },
@@ -11632,7 +13262,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "En las ventanillas hay mostradores de asuntos de los ciudadanos (市民係) y de seguros y pensiones (保険年金係). Normalmente, en unas 1~1.5 horas se pueden completar a la vez el registro de residencia, la pensión y el seguro de salud. El personal tiene experiencia y puede atender en inglés."
    },
    "e1582c": {
-    "text": "Que lo gestione la universidad: la universidad guarda temporalmente la tarjeta de residencia durante unos 3 días hábiles y solo realiza el registro de residencia; la pensión y el seguro de salud se tramitan por cuenta propia. La ventaja es que no hay que ir personalmente."
+    "text": "Si usas el servicio universitario, confirma los destinatarios y trámites del aviso vigente. Normalmente solo gestiona el registro de residencia; pensión y seguro de salud se tramitan aparte. Comprueba en tu aviso si retiene la tarjeta y cuándo la devuelve."
    },
    "e5831f": {
     "text": "Se puede elegir cualquiera de las dos opciones; incluso si se elige que lo gestione la universidad, no hay problema en completar después los demás trámites en la oficina del distrito. Una vez hecho el registro, hay que entregar la tarjeta de residencia en la oficina de asuntos estudiantiles correspondiente para un nuevo registro."
@@ -11647,7 +13277,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "Reenvío de correo en la oficina de correos"
    },
    "258c3a": {
-    "text": "Después de mudarse se puede solicitar en línea el reenvío de correo, con una validez de unos 3 meses. Si te mudas de A a B y luego a C, puedes solicitar primero A→B y después B→C; si durante ese tiempo llega correo a A, se reenviará automáticamente a C."
+    "text": "Tras mudarte, presenta en línea el aviso de cambio de dirección a Japan Post. El correo se reenvía gratis durante un año desde la fecha del aviso, no desde la fecha de inicio solicitada. Para continuar, presenta otro aviso. Se excluye el correo marcado 転送不要 (no reenviar).",
+    "emphasis": {
+     "text": [
+      {
+       "start": 114,
+       "end": 145,
+       "style": "bold",
+       "quote": "un año desde la fecha del aviso"
+      }
+     ]
+    }
    },
    "ac86c0": {
     "text": "Renovación de la tarjeta de residencia"
@@ -11720,22 +13360,22 @@ window.ARTICLES_BODY_I18N = {
     "text": "Pensión nacional (pensión de jubilación)"
    },
    "cf19f3": {
-    "text": "La pensión nacional es un seguro de pensión: toda persona de 20 años o más que resida en Japón tiene la obligación de afiliarse. En el año fiscal Reiwa 8 (2026), la prima es de **17,920 円 al mes**. Los estudiantes internacionales normalmente no necesitan pagarla de forma efectiva: se puede reducir o eximir por dos vías:"
+    "text": "La pensión nacional es un sistema de jubilación; la cuota mensual del ejercicio 2026 es de 17.920 yenes. Consulta tu matrícula y circunstancias para saber qué régimen corresponde. La exención o el aplazamiento requieren solicitud y aprobación; ser estudiante internacional no elimina por sí solo el pago."
    },
    "637f64": {
-    "text": "① Exención por ingresos por debajo del límite: se puede solicitar al llegar a Japón, cuando aún no hay ingresos; es la solución transitoria que la oficina del distrito ofrece en la primera gestión."
+    "text": "1. Exención o aplazamiento general: los estudiantes quedan fuera de este régimen. Si aún no estás matriculado o tu situación académica es especial, consulta tu caso en la oficina local de pensiones. No es un régimen provisional universal antes de matricularse."
    },
    "ca081f": {
-    "text": "② Exención de pago para estudiantes (学生納付特例): la medida de largo plazo más adecuada para estudiantes internacionales: la prima se aplaza durante los años de estudio y se abona después, al tener ingresos tras graduarse. Para solicitarla se necesita el carné de estudiante y que los ingresos del año anterior estén por debajo del límite fijado (unos 128 万円 más las deducciones por dependientes; consulta la cifra oficial)."
+    "text": "2. Aplazamiento para estudiantes: pueden solicitarlo los matriculados que cumplan los requisitos, con copia del carné o certificado original de matrícula. Se evalúa la renta personal del año anterior al ejercicio solicitado: umbral de 1,28 millones de yenes más 380.000 por dependiente y deducciones de seguridad social y otras. La renta no es el salario bruto. Los periodos aprobados pueden abonarse retroactivamente en diez años; si no se abonan, no cuentan para el importe de la pensión básica de vejez."
    },
    "c8342b": {
     "text": "Proceso clave y dudas frecuentes"
    },
    "4f17e5": {
-    "text": "Registro de residencia → solicitar en la oficina del distrito la exención por ingresos por debajo del límite → recoger el carné de estudiante en la oficina de asuntos estudiantiles → volver a la oficina del distrito para cambiar la exención de ① a ②, la exención de pago para estudiantes"
+    "text": "Confirma matrícula y régimen → prepara documentos → presenta la solicitud en la oficina o portal oficial → comprueba recepción y resolución. No todos los estudiantes deben pedir primero la exención general y cambiarla después de recibir el carné."
    },
    "90bede": {
-    "text": "Cada año hay estudiantes que olvidan hacer ese cambio y después reciben facturas de la pensión. Atención:"
+    "text": "Si llega un recibo de pensión, comprueba la recepción y resolución de tu solicitud y consulta la oficina si hace falta. El recibo por sí solo no demuestra rechazo ni necesidad de cambiar de régimen. Comprueba también lo siguiente:"
    },
    "e7cf1e": {
     "text": "Lugar de solicitud: el mostrador de pensiones de la oficina del distrito donde se hizo el registro de residencia, o la oficina de pensiones de Nishi-Fukuoka (西福岡年金事務所)."
@@ -11757,7 +13397,7 @@ window.ARTICLES_BODY_I18N = {
       "text": "Dar de baja el domicilio: presentar la declaración de salida (転出届) en la oficina del distrito"
      },
      {
-      "text": "Seguro nacional de salud: devolver el certificado de seguro y liquidar las primas; si se han pagado 6 meses, se puede solicitar el reembolso único por salida (脱退一時金)"
+      "text": "Seguro nacional de salud: confirma la baja y la liquidación de cuotas en tu oficina municipal. El pago único por retirada pertenece al sistema de pensiones; comprueba la elegibilidad aparte en la oficina de pensiones o en la información oficial."
      },
      {
       "text": "Pensión nacional: si se solicitó alguna exención, confirmar el tratamiento posterior"
@@ -12020,7 +13660,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "家具・家電：ホームセンター"
    },
    "666b25": {
-    "text": "日用品・家具・家電・自転車が一か所で揃い、食品も一部取り扱っています。百円ショップほど安くはありませんが、品揃えが豊富なのが強みです。多くのホームセンターはオンラインショップや在庫確認に対応しているので、出かける前に価格と在庫をネットで確認すれば、無駄足を防げます。"
+    "text": "ホームセンターへ行く前に、ネットで価格と在庫を確認すると空振りを防げます。日用品・家具・家電・自転車をまとめて買え、食品を扱う店もあります。100円ショップより高めですが品ぞろえが豊富で、多くの店に通販や在庫検索があります。"
    },
    "3496a2": {
     "headers": [
@@ -12296,7 +13936,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Furniture and Appliances: Home Centers"
    },
    "666b25": {
-    "text": "Daily necessities, furniture, appliances, and bicycles can all be purchased in one place, along with some food items. Prices are not as low as at 100-yen shops, but these stores win on selection. Most home centers offer well-developed online stores and inventory lookup; checking prices and availability online before going out can save a trip."
+    "text": "Check prices and stock online before visiting a home centre to avoid a wasted trip. You can usually buy daily supplies, furniture, appliances and bicycles in one place, with some food too. Prices are higher than at 100-yen shops, but the range is broader; most have online shops and stock checks."
    },
    "3496a2": {
     "headers": [
@@ -12572,7 +14212,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "가구·가전: 홈센터"
    },
    "666b25": {
-    "text": "일용품, 가구, 가전, 자전거를 한곳에서 모두 구할 수 있고 식품도 일부 취급합니다. 가격은 100엔 숍만큼 저렴하지는 않지만, 물건이 다양하다는 장점이 있습니다. 대부분의 홈센터는 온라인 쇼핑몰과 재고 조회가 갖춰져 있어, 출발 전에 온라인으로 가격과 재고를 확인하면 방문 한 번으로 끝낼 수 있습니다."
+    "text": "홈센터에 가기 전에 온라인으로 가격과 재고를 확인하면 헛걸음을 줄일 수 있습니다. 생활용품·가구·가전·자전거를 한 번에 살 수 있고 일부 식품도 있습니다. 100엔 숍보다 비싸지만 종류가 다양하며 대부분 온라인 쇼핑몰과 재고 조회를 제공합니다."
    },
    "3496a2": {
     "headers": [
@@ -12848,7 +14488,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Muebles y electrodomésticos: tiendas del hogar (home center)"
    },
    "666b25": {
-    "text": "En una tienda del hogar encuentras en un solo lugar artículos de uso diario, muebles, electrodomésticos y bicicletas, además de algunos alimentos. Los precios no son tan bajos como en las tiendas de 100 yenes, pero a cambio tienen de todo. La mayoría de las tiendas del hogar cuentan con tienda online y consulta de stock; revisar el precio y la disponibilidad en internet antes de salir te ahorra un viaje."
+    "text": "Comprueba precios y existencias en línea antes de ir a un home center para evitar un viaje en vano. Suele reunir artículos diarios, muebles, electrodomésticos y bicicletas, además de algunos alimentos. Es más caro que las tiendas de 100 yenes, pero tiene más variedad; la mayoría ofrece tienda en línea y consulta de existencias."
    },
    "3496a2": {
     "headers": [
@@ -13006,7 +14646,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "自転車：購入・利用・廃棄"
    },
    "402355": {
-    "text": "2つの場面に応じて2つのプランがあります：①天神/博多だけに行く場合はプラン1（回数券、往復で994円）。②市内の2か所以上に行き、時間に余裕がある場合はプラン2（姪浜乗り換え＋地下鉄1日乗車券）。"
+    "text": "天神・博多だけなら普通券と当期の割引券を比較できます。市内を複数回移動し時間に余裕があるなら、姪浜でJRと地下鉄一日券を組み合わせる方法も比較してください。現行運賃と行程で計算してから選びます。"
    },
    "565847": {
     "text": "使い方：アプリの案内に従ってモバイルチケットを有効化した後、降車前に運転手に提示すればそのまま降りられます。"
@@ -13070,7 +14710,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "日本のバスは、多くが後ろのドア（車両中央付近）から乗り、前のドア（運転手の横）から降ります。"
    },
    "c35290": {
-    "text": "乗降時は基本的にICカードにタッチします（均一料金の路線を除く）。現金で支払う場合は、乗車時に車両入口付近の発券機で「整理券」を取ります——どの停留所から乗ったかを証明するものです。降車時に整理券を運賃と一緒に運賃箱に入れます。"
+    "text": "ICカードでは、原則として乗車時と降車時の両方でタッチします（均一運賃路線を除く）。現金なら乗車時にドア付近で整理券を取り、乗った停留所を示します。降りる際に整理券と運賃を一緒に運賃箱へ入れてください。"
    },
    "aed18c": {
     "text": "車内には両替機がありますが、1000円札と500円硬貨しか両替できません。事前に小銭を用意しておくことをおすすめします。"
@@ -13125,7 +14765,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "おすすめの方法：my routeアプリ"
    },
    "790a29": {
-    "text": "my routeアプリをダウンロードしてください（iOSは海外ストアへの切り替えが必要）。アプリ内では昭和バス九州大学線（糸島市内の路線を除く）を検索でき、550円 / 18時間の乗り放題チケット（乗り放題乗車券）を販売しています。支払いはクレジットカードまたはPayPayに対応しており、普段の通学におすすめの乗車方法の一つです。"
+    "text": "my routeアプリで昭和バス九州大学線などの乗車券を確認できます（iOSの配信地域はストアで確認）。購入前に名称・現行価格・有効時間・支払方法・対象路線を確認してください。"
    },
    "96fc42": {
     "text": "通学定期券"
@@ -13260,43 +14900,43 @@ window.ARTICLES_BODY_I18N = {
     "text": "天神・博多へ：2つの節約プラン"
    },
    "70e66b": {
-    "text": "福岡市内で最もにぎわうエリアは天神–博多ですが、大学からこの2か所まで直接乗ると片道570円かかります。その理由は、九大学研都市・周船寺一帯がJR筑肥線エリアで、福岡市地下鉄と直結しており、乗車のたびにJRと福岡市地下鉄の両社にそれぞれ運賃を支払うことになるためです。"
+    "text": "九大学研都市や周船寺から天神・博多へはJR筑肥線と福岡市地下鉄をまたぐ場合があり、それぞれの運賃がかかります。出発駅・目的地・当期の券種で現行価格を調べ、旧固定運賃を使わないでください。"
    },
    "842f3d": {
-    "text": "プラン2の姪浜は福岡市地下鉄箱崎線・空港線の始発駅で、本数が多く、乗り換えにさほど時間はかかりません。"
+    "text": "姪浜はJR筑肥線と地下鉄空港線の接続駅です。利用列車・改札を出る必要・徒歩の乗換時間を確認し、余裕を持ってください。"
    },
    "13e40f": {
-    "text": "適用：当日は天神/博多周辺のみで活動する場合。往復で各1枚（計2枚）使用します。現在の販売価格は994円（約497円/枚）で、直接乗るより1枚あたり73円お得です。6枚1組で販売され、1ヶ月以内に有効、期限切れで失効となるため、移動計画に合わせて購入してください。"
+    "text": "天神・博多中心の外出なら、往復区間の普通券と現行割引券を調べてください。旧「オトクチケット」の価格・枚数・有効期限・券売機ボタンは現行確認ができていません。購入前にJR窓口や公式案内で確認してください。"
    },
    "4e6275": {
     "items": [
      {
-      "text": "駅構内に入り、「みどりの窓口」の隣にある券売機コーナーを探します"
+      "text": "自分の往復区間の現行普通運賃と割引券を調べる"
      },
      {
-      "text": "タッチパネルで「オトクチケット」ボタンをタップします"
+      "text": "JR公式案内または窓口で現在販売される券種を確認"
      },
      {
-      "text": "出発駅（周船寺 または 九大学研都市）と枚数を選択します（6枚購入し、今回は2枚使用）"
+      "text": "対象駅・枚数・有効期限・今回の行程との適合を確認"
      },
      {
-      "text": "現金を投入するかICカードで支払い、切符を受け取ります"
+      "text": "現在の券種で使える支払方法で購入し、受け取る"
      },
      {
-      "text": "切符を持って自動改札を通過し乗車します。天神/博多に着いたら切符を改札に挿入して出場します"
+      "text": "購入券の改札利用案内に従い、不明なら駅員に聞く"
      }
     ]
    },
    "092ecf": {
-    "text": "対象：当日は市内の2か所以上を訪れ、時間に余裕がある場合。柱となるのは、JRで姪浜（福岡市地下鉄の始発駅）まで乗って下車し、地下鉄1日乗車券に乗り換えて1日中移動することです。姪浜は箱崎線・空港線の始発駅で、九大学研都市駅より本数がはるかに多く、乗り換えにさほど時間はかかりません。"
+    "text": "市内で地下鉄を何度も使い、時間に余裕があるなら、JRで姪浜へ行き地下鉄一日券を使う方法があります。一日券は福岡市地下鉄のみ当日有効で、JRは含みません。列車と改札の使い方を確認してください。"
    },
    "2c1ea4": {
-    "text": "合計費用：270×2 + 640 = 1,180円。1か所だけなら割高です（直行570×2 = 1,140円のほうが安い）。"
+    "text": "総額＝出発駅から姪浜までのJR往復現行運賃＋地下鉄一日券です。大人の地下鉄一日券は640円。実際の区間と当日の行程で直通往復と比較し、必ず安いとは考えないでください。"
    },
    "3f3ee3": {
     "items": [
      {
-      "text": "周船寺 または 九大学研都市駅で姪浜までの切符を購入します（片道270円）"
+      "text": "出発駅から姪浜までのJR券を現行運賃で購入"
      },
      {
       "text": "姪浜駅で下車して改札を出、姪浜駅の構内に入ります"
@@ -13308,10 +14948,10 @@ window.ARTICLES_BODY_I18N = {
       "text": "地下鉄1日乗車券で福岡市地下鉄全線を自由に乗車できます。当日は改札を出て再度入場しても繰り返し利用可能です"
      },
      {
-      "text": "帰りは出場前に精算機で姪浜→九大学研都市の差額（約300円）を支払います"
+      "text": "帰りは姪浜で改札を出てJR券を別途購入可能。直通や精算は駅員に確認"
      },
      {
-      "text": "*1日乗車券は改札を出た後も当日有効なので、次に福岡市内へ行くときに使えます*"
+      "text": "一日券は当日繰り返し利用でき、別の日には使えません"
      }
     ]
    },
@@ -13323,16 +14963,16 @@ window.ARTICLES_BODY_I18N = {
     "rows": [
      [
       "博多まで直接乗車して往復",
-      "570×2 = 1,140円"
+      "自分の往復区間の普通券・現行割引券で計算"
      ],
      [
       "姪浜往復＋地下鉄1日乗車券",
-      "合計 1,180円"
+      "JR往復現行運賃＋地下鉄一日券（大人640円）"
      ]
     ]
    },
    "2a2b4d": {
-    "text": "まとめ：1か所だけ行く場合は直接切符を買うほうが安い（1,140円）。1日で2か所以上行く場合は「姪浜乗り換え＋地下鉄1日乗車券」がお得です。"
+    "text": "当日の往復区間と市内の乗車回数を整理し、普通券・現行割引券・JR＋地下鉄一日券の総額を調べてください。乗換時間と利用範囲も比べて選びます。"
    },
    "1fac9d": {
     "text": "ヒント：券売機や改札の精算方法に不慣れな場合は、地下鉄/JRの駅員（制服を着用し、名札を付けています）に、簡単な中国語や英語で購入・出場・精算のサポートをお願いできます。"
@@ -13484,7 +15124,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "e612d1": {
-    "text": "本記事のテーマ選定の一部は『新伊都国風土記』（著者 Hato_Tsubame、CantonSimon）の整理を参考にしています。文中のすべての数字と手順は各公式サイトから取得し再確認したもので、同書と食い違いがある場合は公式の情報を優先してください。"
+    "text": "一部のテーマは『新伊都国風土記』（Hato_Tsubame、CantonSimon）を参考にしています。一部の運賃・便・経験情報は現行確認が済んでいません。購入や外出前に公式案内と運行事業者の当日通知を確認してください。"
    },
    "e1c701": {
     "text": "新幹線"
@@ -13542,10 +15182,10 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "675d9f": {
-    "title": "プラン1：オトクチケット（回数券）· 天神／博多のみ（往復 994円）"
+    "title": "案1：天神・博多方面、普通券と現行割引券を比較"
    },
    "fb7753": {
-    "title": "プラン2：姪浜乗り換え＋地下鉄1日乗車券 · 複数地点／時間に余裕（総額 1,180円）"
+    "title": "案2：JR＋地下鉄一日券、現行運賃で計算"
    }
   },
   "en": {
@@ -13553,7 +15193,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Bicycles: buying, riding, and disposal"
    },
    "402355": {
-    "text": "Two scenarios, two options: ① Tenjin/Hakata only → Option 1 (coupon tickets, 994円 for the round trip); ② two or more city destinations with time to spare → Option 2 (transfer at Meinohama + subway one-day pass)."
+    "text": "For a day around Tenjin or Hakata, compare ordinary tickets with current offers. For several city destinations with time to spare, compare a JR trip via Meinohama plus a subway day pass. Calculate using current fares and your itinerary before deciding which is cheaper."
    },
    "565847": {
     "text": "How to use: after enabling the ticket in the app as instructed, show it to the driver before alighting and simply get off."
@@ -13617,7 +15257,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Most buses in Japan are boarded from the rear (middle) door and alighted from the front door (beside the driver)."
    },
    "c35290": {
-    "text": "Boarding and alighting basically require tapping an IC card (except on flat-fare routes). When paying cash, take a 整理券 (numbered boarding ticket) from the ticket dispenser by the door at boarding — it proves the boarding stop — and insert it into the fare box together with the fare when alighting."
+    "text": "With an IC card, usually tap both when boarding and when leaving, except on flat-fare routes. With cash, take a numbered ticket near the door when boarding to show your starting stop. Put the ticket and fare into the fare box when you leave."
    },
    "aed18c": {
     "text": "A change machine is on board, but it can only change 1,000円 bills into 500円 coins; prepare small change in advance."
@@ -13672,7 +15312,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Recommended: the my route app"
    },
    "790a29": {
-    "text": "The my route app can be downloaded (on iOS, the store region must be switched to an overseas one). The app covers the Shōwa Bus Kyushu University Line (excluding Itoshima City routes) and sells a 550円 / 18-hour unlimited-ride ticket (乗り放題チケット), payable by credit card or PayPay — one of the recommended options for the daily commute to campus."
+    "text": "Use the my route app to check tickets for the Showa Bus Kyushu University line and other services; check iOS store availability for your region. Before buying, confirm the name, current price, duration, payment methods and covered routes."
    },
    "96fc42": {
     "text": "Student commuter passes"
@@ -13807,43 +15447,43 @@ window.ARTICLES_BODY_I18N = {
     "text": "Tenjin and Hakata: two money-saving options"
    },
    "70e66b": {
-    "text": "The busiest districts in Fukuoka City are Tenjin and Hakata, but a direct ride from campus to either costs up to 570円 one way. The reason is that the Kyudai-Gakkentoshi and Susenji area belongs to the JR Chikuhi Line, which connects directly with the Fukuoka City Subway; a single trip pays the JR company and the Fukuoka City subway company separately, which drives the fare up."
+    "text": "Trips from Kyudai-Gakkentoshi or Susenji to Tenjin or Hakata may cover both JR Chikuhi and Fukuoka City Subway, each charging its own fare. Check current prices for your origin, destination and ticket type rather than using an old fixed one-way fare."
    },
    "842f3d": {
-    "text": "In Option 2, Meinohama is the origin station of the Fukuoka City Subway Hakozaki and Airport Lines, with dense train frequency, so the transfer costs little time."
+    "text": "Meinohama connects JR Chikuhi and the subway Airport Line. Check the train, whether you need to exit the gates and walking time for the connection; allow a margin."
    },
    "13e40f": {
-    "text": "Applicable: activities that day are only in the Tenjin/Hakata area. One ticket per leg (2 in total) currently costs 994円 (about 497円 each), 73円 per ticket cheaper than riding directly. Tickets are sold in sets of 6, valid for 1 month and void after expiry; purchase according to the outing plan."
+    "text": "For a day mainly in Tenjin or Hakata, check ordinary and current discount tickets for your return route. The old Otoku Ticket price, pack size, validity and machine button have not been verified as current. Ask a JR counter or consult official information before buying."
    },
    "4e6275": {
     "items": [
      {
-      "text": "After entering the station, find the ticket-vending machine area beside 「みどりの窓口」(Midori-no-madoguchi)"
+      "text": "Check current ordinary fares and discount tickets for your return route"
      },
      {
-      "text": "On the touch screen, tap the「オトクチケット」button"
+      "text": "Confirm currently sold ticket types through JR official information or a counter"
      },
      {
-      "text": "Select the departure station (Susenji or Kyudai-Gakkentoshi) and the number of tickets (buy 6 at once; 2 used this time)"
+      "text": "Check covered stations, pack size, validity and suitability for this trip"
      },
      {
-      "text": "Pay by cash or IC card and collect the tickets"
+      "text": "Pay using a method available for the current ticket and collect it"
      },
      {
-      "text": "Pass through the automatic gate with the ticket and board; at Tenjin/Hakata, insert the ticket into the gate to exit"
+      "text": "Follow gate instructions for your ticket; ask staff if unsure"
      }
     ]
    },
    "092ecf": {
-    "text": "Applicable: two or more city destinations that day with no tight schedule. The core is to ride JR only to Meinohama (the origin station of the Fukuoka City Subway), get off, and switch to a subway one-day pass for the day. Meinohama is the origin of the Hakozaki and Airport Lines, with much denser service than Kyudai-Gakkentoshi Station, so the transfer adds little time."
+    "text": "If you plan several subway trips in the city and have time, take JR to Meinohama and use a subway day pass. The pass covers Fukuoka City Subway only, is valid that day and excludes JR. Check train and gate arrangements first."
    },
    "2c1ea4": {
-    "text": "Total cost: 270×2 + 640 = 1,180円; for only one destination it is not worthwhile (the direct ride at 570×2 = 1,140円 is cheaper)."
+    "text": "Total cost = current JR return fare from your starting station to Meinohama + a subway day pass. The adult subway day pass costs 640 yen. Compare with a direct return trip using your actual route and itinerary; cheaper travel is not guaranteed."
    },
    "3f3ee3": {
     "items": [
      {
-      "text": "At Susenji or Kyudai-Gakkentoshi Station, buy a ticket to Meinohama (270 yen one way)"
+      "text": "Buy a JR ticket from your starting station to Meinohama at the current fare"
      },
      {
       "text": "Alight at Meinohama Station, exit the gate, and enter the Meinohama concourse"
@@ -13855,10 +15495,10 @@ window.ARTICLES_BODY_I18N = {
       "text": "Ride anywhere on the Fukuoka City Subway with the one-day pass; it can be used repeatedly, exiting and re-entering the gate on the same day"
      },
      {
-      "text": "On the return, pay the difference for Meinohama → Kyudai-Gakkentoshi at the fare-adjustment machine before exiting the gate (about 300 yen)"
+      "text": "On return, you can exit at Meinohama and buy a separate JR ticket; ask staff about through travel or fare adjustment"
      },
      {
-      "text": "*The one-day pass remains valid for the day after exiting the gate and can be kept for the next visit to Fukuoka City*"
+      "text": "The day pass can be reused that day, but not on another day"
      }
     ]
    },
@@ -13870,16 +15510,16 @@ window.ARTICLES_BODY_I18N = {
     "rows": [
      [
       "Direct round trip to Hakata",
-      "570×2 = 1,140 yen"
+      "Check current ordinary or discount fares for your actual return route"
      ],
      [
       "Meinohama round trip + subway one-day pass",
-      "Total 1,180 yen"
+      "Current JR return fare + subway day pass (adult: 640 yen)"
      ]
     ]
    },
    "2a2b4d": {
-    "text": "Conclusion: for a single destination, buying the direct ticket is cheaper (1,140円); for two or more destinations in a day, the Meinohama transfer + subway one-day pass is more economical."
+    "text": "List your return route and city trips, then check current totals for ordinary tickets, current offers and JR plus a subway day pass. Compare connection time and ticket coverage as well before choosing."
    },
    "1fac9d": {
     "text": "Tip: if unfamiliar with the ticket machines or fare adjustment at the gates, station staff of the subway/JR (in uniform with name badges) can be asked, in simple Chinese or English, to assist with ticket purchase, exiting, and fare adjustment."
@@ -14031,7 +15671,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "e612d1": {
-    "text": "Part of this article's topic selection references the compilation《新伊都国風土記》(a work by Hato_Tsubame and CantonSimon). All figures and procedures in this article are taken from official websites and re-verified; where they differ from that work, the official sources prevail."
+    "text": "Some topics draw on New Ito Local Chronicle by Hato_Tsubame and CantonSimon. Some fares, services and experience-based information have not been checked for current validity. Before buying tickets or travelling, check official sources and the operator's notices for that day."
    },
    "e1c701": {
     "text": "Shinkansen"
@@ -14089,10 +15729,10 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "675d9f": {
-    "title": "Option 1: Otoku Ticket (multi-ride coupon ticket) · Tenjin/Hakata only (994 yen round trip)"
+    "title": "Option 1: Tenjin/Hakata, comparing ordinary tickets and current offers"
    },
    "fb7753": {
-    "title": "Option 2: transfer at Meinohama + subway 1-day pass · multiple destinations / ample time (1,180 yen total)"
+    "title": "Option 2: JR plus a subway day pass, calculated at current fares"
    }
   },
   "ko": {
@@ -14100,7 +15740,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "자전거: 구입・이용・폐기"
    },
    "402355": {
-    "text": "두 가지 상황에 대응하는 두 가지 방법이 있습니다: ① 天神/博多만 갈 때 → 방법 1(회수권, 왕복 합계 994円); ② 시내 2곳 이상을 방문하고 시간이 넉넉할 때 → 방법 2(姪浜 환승＋지하철 1일권)."
+    "text": "텐진·하카타만 방문하면 일반 승차권과 현재 할인권을 비교하세요. 시내 여러 곳을 가고 시간이 넉넉하면 메이노하마에서 JR과 지하철 일일권을 조합하는 방법도 비교합니다. 현행 요금과 일정으로 계산한 뒤 선택하세요."
    },
    "565847": {
     "text": "사용 방법: App 안내에 따라 시스템 티켓을 활성화한 뒤, 하차 전에 운전기사에게 보여 주면 바로 하차할 수 있습니다."
@@ -14164,7 +15804,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "일본의 버스는 대부분 뒷문(차량 중간)에서 승차하고 앞문(기사 옆)에서 하차합니다."
    },
    "c35290": {
-    "text": "승하차 시 기본적으로 IC 카드를 태그해야 합니다(균일 요금 노선 제외). 현금을 사용하는 경우, 승차할 때 차량 문 근처의 발권기에서 「정리권(整理券)」을 받습니다. 이는 어느 정류장에서 탔는지 증명하는 표입니다. 하차할 때는 整理券을 요금과 함께 요금함에 넣습니다."
+    "text": "IC카드는 보통 승차와 하차 때 모두 태그합니다(균일 요금 노선 제외). 현금이라면 탈 때 문 근처에서 정리권을 받아 출발 정류장을 표시하세요. 내릴 때 정리권과 요금을 함께 요금함에 넣습니다."
    },
    "aed18c": {
     "text": "차량 안에 환전기가 있지만 1000円 지폐와 500円 동전만 환전할 수 있으므로, 미리 잔돈을 준비해 두는 것이 좋습니다."
@@ -14219,7 +15859,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "추천 방법: my route App"
    },
    "790a29": {
-    "text": "my route App을 다운로드할 수 있습니다(iOS는 해외 스토어로 변경 필요). App 안에서 昭和バス 九州大学線(糸島시의 노선 제외)을 찾을 수 있으며, 550円 / 18시간 동안 무제한 탑승 가능한 乗り放題チケット를 판매합니다. 결제는 신용카드 또는 PayPay를 선택할 수 있어, 일상 통학에 비교적 추천되는 탑승 방법 중 하나입니다."
+    "text": "my route 앱에서 쇼와버스 규슈대학교선 등의 승차권을 확인하세요(iOS 배포 지역은 스토어 확인). 구매 전 명칭·현행 가격·유효 시간·결제 방법·적용 노선을 확인하세요."
    },
    "96fc42": {
     "text": "통학 정기권"
@@ -14354,43 +15994,43 @@ window.ARTICLES_BODY_I18N = {
     "text": "天神・博多 가기: 비용 절약 방법 2가지"
    },
    "70e66b": {
-    "text": "후쿠오카 시내에서 가장 번화한 지역은 天神–博多입니다. 하지만 학교에서 이 두 곳까지 직행하면 편도 요금이 570円이나 됩니다. 그 이유는 九大学研都市와 周船寺 일대가 JR筑肥線에 속하고 福岡市地下鉄과 직접 이어져 있어, 탑승할 때 JR과 후쿠오카시 지하철에 각각 요금을 내야 하기 때문입니다."
+    "text": "규다이갓켄토시나 스센지에서 텐진·하카타로 가면 JR 지쿠히선과 후쿠오카 지하철을 함께 이용해 각각 요금이 부과될 수 있습니다. 출발역·목적지·현재 승차권 종류에 맞는 현행 요금을 확인하고 옛 고정 편도 가격을 사용하지 마세요."
    },
    "842f3d": {
-    "text": "방법 2의 姪浜은 福岡市地下鉄 箱崎線・空港線의 시발역으로 열차가 자주 운행되어 환승에 걸리는 시간이 그리 많지 않습니다."
+    "text": "메이노하마는 JR 지쿠히선과 지하철 공항선의 연결역입니다. 이용 편·개찰구 밖 이동 여부·도보 환승 시간을 확인하고 여유를 두세요."
    },
    "13e40f": {
-    "text": "적용: 당일 天神/博多 일대에서만 움직일 때. 왕복 각 1장(총 2장)이 필요하며, 현재 판매가 994円(약 497円/장)으로 직행보다 장당 73円 저렴합니다. 6장 한 세트로 판매되고 1개월 안에 유효하며 기간이 지나면 무효가 되므로, 이동 계획에 맞춰 구매하세요."
+    "text": "텐진·하카타 중심 일정이라면 왕복 구간의 일반권과 현재 할인권을 확인하세요. 기존 오토쿠 티켓의 가격·매수·유효 기간·발매기 버튼은 현행 확인이 되지 않았습니다. 구매 전 JR 창구나 공식 안내로 확인하세요."
    },
    "4e6275": {
     "items": [
      {
-      "text": "입장 후 「みどりの窓口」 옆의 무인 발매기 구역을 찾습니다"
+      "text": "본인 왕복 구간의 현행 일반 요금과 할인권 확인"
      },
      {
-      "text": "터치스크린에서 「オトクチケット」 버튼을 누릅니다"
+      "text": "JR 공식 안내나 창구에서 현재 판매 승차권 종류 확인"
      },
      {
-      "text": "출발역(周船寺 또는 九大学研都市)과 매수(한 번에 6장 구매, 이번에는 2장 사용)를 선택합니다"
+      "text": "적용역·매수·유효 기간과 이번 일정에 맞는지 확인"
      },
      {
-      "text": "현금을 넣거나 IC 카드로 결제한 뒤 티켓을 받습니다"
+      "text": "현재 승차권에 제공되는 결제 방법으로 지불 후 수령"
      },
      {
-      "text": "티켓을 들고 자동 개찰구를 통과해 탑승하고, 天神/博多에 도착하면 티켓을 개찰구에 넣고 나옵니다"
+      "text": "구매한 승차권의 개찰구 안내를 따르고 모르면 역무원에게 문의"
      }
     ]
    },
    "092ecf": {
-    "text": "적용: 당일 시내 2곳 이상을 방문하고 시간이 빠듯하지 않을 때. 핵심은 JR만 타고 姪浜(福岡市地下鉄 시발역)에 내려 지하철 1일권으로 환승해 하루를 보내는 것입니다. 姪浜은 箱崎線・空港線의 시발역으로 九大学研都市駅보다 열차가 훨씬 자주 운행되어 환승에 시간이 많이 들지 않습니다."
+    "text": "시내에서 지하철을 여러 번 타고 시간이 넉넉하면 JR로 메이노하마까지 간 뒤 지하철 일일권을 이용할 수 있습니다. 일일권은 후쿠오카시 지하철만 당일 유효하며 JR은 제외됩니다. 편과 개찰구 이용 방법을 먼저 확인하세요."
    },
    "2c1ea4": {
-    "text": "총 비용: 270×2 + 640 = 1,180円. 한 곳만 갈 때는 손해입니다(직행 570×2 = 1,140円이 더 저렴)."
+    "text": "총비용＝출발역에서 메이노하마까지의 현행 JR 왕복 요금＋지하철 일일권입니다. 성인 지하철 일일권은 640엔입니다. 실제 구간과 당일 일정으로 직통 왕복과 비교하며 반드시 더 저렴하다고 가정하지 마세요."
    },
    "3f3ee3": {
     "items": [
      {
-      "text": "周船寺 또는 九大学研都市 역에서 姪浜까지의 승차권을 구매합니다(편도 270엔)"
+      "text": "본인 출발역에서 메이노하마까지 JR 승차권을 현행 요금으로 구매"
      },
      {
       "text": "姪浜駅에서 하차해 개찰구를 나간 뒤 역 구내로 들어갑니다"
@@ -14402,10 +16042,10 @@ window.ARTICLES_BODY_I18N = {
       "text": "지하철 1일권으로 福岡市地下鉄 전 노선을 자유롭게 탑승할 수 있습니다. 당일에 개찰을 나갔다 다시 들어가도 반복해서 사용할 수 있습니다"
      },
      {
-      "text": "귀가할 때는 개찰구를 나가기 전 정산기에서 姪浜→九大学研都市의 차액(약 300엔)을 추가로 지불합니다"
+      "text": "귀환 시 메이노하마 개찰구 밖에서 JR권 별도 구매 가능; 직통·정산은 역무원 확인"
      },
      {
-      "text": "*1일권은 개찰 후에도 당일 유효하므로, 다음에 후쿠오카 시내에 갈 때 다시 사용할 수 있습니다*"
+      "text": "일일권은 당일 반복 사용 가능하며 다른 날에는 사용할 수 없음"
      }
     ]
    },
@@ -14417,16 +16057,16 @@ window.ARTICLES_BODY_I18N = {
     "rows": [
      [
       "博多까지 직행 왕복",
-      "570×2 = 1,140엔"
+      "본인 왕복 구간의 일반권·현재 할인권 가격 확인"
      ],
      [
       "姪浜 왕복＋지하철 1일권",
-      "합계 1,180엔"
+      "현행 JR 왕복 요금＋지하철 일일권(성인 640엔)"
      ]
     ]
    },
    "2a2b4d": {
-    "text": "결론: 한 곳만 방문할 때 → 직접 승차권을 사는 편이 더 저렴합니다(1,140円). 하루에 2곳 이상 방문할 때 → 「姪浜 환승＋지하철 1일권」이 더 유리합니다."
+    "text": "당일 왕복 구간과 시내 승차 횟수를 정리한 뒤 일반권·현재 할인권·JR＋지하철 일일권의 현행 총액을 확인하세요. 환승 시간과 적용 범위도 함께 비교해 선택합니다."
    },
    "1fac9d": {
     "text": "팁: 발매기나 개찰 정산 조작에 익숙하지 않다면 지하철/JR 역사 안의 직원(제복을 입고 명찰을 착용)에게 간단한 중국어나 영어로 승차권 구매, 개찰 통과와 정산을 도와 달라고 요청할 수 있습니다."
@@ -14578,7 +16218,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "e612d1": {
-    "text": "본문의 일부 주제 선정은 《新伊都国風土記》(저자 Hato_Tsubame, CantonSimon)의 정리를 참고했습니다. 본문의 모든 숫자와 절차는 각 공식 웹사이트에서 가져와 다시 확인했으며, 해당 글과 차이가 있을 경우 공식 정보를 기준으로 합니다."
+    "text": "일부 주제는 Hato_Tsubame·CantonSimon의 『新伊都国風土記』를 참고했습니다. 일부 요금·편·경험 정보는 현행 확인이 완료되지 않았습니다. 구매와 출발 전 공식 안내와 운영사의 당일 공지를 확인하세요."
    },
    "e1c701": {
     "text": "신칸센"
@@ -14636,10 +16276,10 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "675d9f": {
-    "title": "방법 1: 오토쿠 티켓(회수권) · 덴진/하카타만(왕복 994엔)"
+    "title": "방법 1: 텐진·하카타, 일반권과 현재 할인권 비교"
    },
    "fb7753": {
-    "title": "방법 2: 姪浜 환승 + 지하철 1일권 · 여러 곳/시간 여유(총액 1,180엔)"
+    "title": "방법 2: JR＋지하철 일일권, 현행 요금으로 계산"
    }
   },
   "es": {
@@ -14647,7 +16287,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Bicicleta: compra, uso y retirada"
    },
    "402355": {
-    "text": "Para cada situación hay un plan: ① si solo vas a Tenjin/Hakata → plan 1 (billete multiviaje, 994円 entre ida y vuelta); ② si vas a 2 o más lugares de la ciudad y tienes tiempo → plan 2 (transbordo en Meinohama + billete de un día del metro)."
+    "text": "Para Tenjin o Hakata, compara billetes normales y ofertas vigentes. Si visitas varios puntos de la ciudad y tienes tiempo, compara JR vía Meinohama más pase diario de metro. Calcula con tarifas actuales e itinerario antes de elegir lo más barato."
    },
    "565847": {
     "text": "Cómo usarlo: activa el ticket del sistema siguiendo las instrucciones de la aplicación y, antes de bajar, muéstralo al conductor y baja directamente."
@@ -14693,7 +16333,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "En la mayoría de los autobuses de Japón se sube por la puerta trasera (en el centro del vehículo) y se baja por la puerta delantera (junto al conductor)."
    },
    "c35290": {
-    "text": "Al subir y al bajar se pasa la tarjeta IC en casi todos los casos (excepto en las líneas de tarifa plana). Si pagas en efectivo, al subir tienes que coger el «ticket de zona» (整理券) de la máquina emisora situada junto a la puerta: es el comprobante de la parada en la que subiste. Al bajar, introduce el ticket de zona junto con el importe en la caja de monedas."
+    "text": "Con tarjeta IC, normalmente debes pasarla al subir y al bajar, salvo en líneas de tarifa fija. Si pagas en efectivo, recoge al subir el billete numerado junto a la puerta, que indica tu parada de origen. Al bajar, deposítalo con el importe en la caja de cobro."
    },
    "aed18c": {
     "text": "El autobús lleva una máquina de cambio, pero solo acepta billetes de 1000 円 y monedas de 500 円; conviene llevar cambio preparado."
@@ -14748,7 +16388,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Opción recomendada: la aplicación my route"
    },
    "790a29": {
-    "text": "Puedes descargar la aplicación my route (en iOS hay que cambiar la región a una fuera de Japón). En la aplicación está la línea de la Universidad de Kyushu del autobús Showa (excepto las líneas de la ciudad de Itoshima) y se vende el ticket de viajes ilimitados (乗り放題チケット) de 550円 / 18 horas; se puede pagar con tarjeta de crédito o con PayPay. Es una de las formas más recomendadas para el desplazamiento diario a la universidad."
+    "text": "Consulta en my route los billetes de la línea de Kyushu University de Showa Bus y otras; verifica la disponibilidad regional en iOS. Antes de comprar, confirma nombre, precio vigente, duración, pago y líneas incluidas."
    },
    "96fc42": {
     "text": "Abono de estudiante (通学定期)"
@@ -14889,46 +16529,46 @@ window.ARTICLES_BODY_I18N = {
     "text": "Ir a Tenjin y Hakata: dos planes para ahorrar"
    },
    "70e66b": {
-    "text": "La zona más concurrida de Fukuoka es Tenjin-Hakata, pero ir directamente desde la universidad hasta allí cuesta 570円 el trayecto sencillo. La razón es que la zona de Kyudai-Gakkentoshi y Suzenji pertenece a la línea Chikuhi de JR, que conecta directamente con el metro de la ciudad de Fukuoka: al viajar se paga una parte a JR y otra al metro de la ciudad de Fukuoka, y por eso la tarifa es alta."
+    "text": "Desde Kyudai-Gakkentoshi o Susenji a Tenjin o Hakata, el trayecto puede abarcar JR Chikuhi y el metro de Fukuoka, con tarifas separadas. Consulta el precio vigente para origen, destino y tipo de billete; no uses una tarifa fija antigua."
    },
    "842f3d": {
-    "text": "Meinohama (姪浜), del plan 2, es la estación de origen de las líneas Hakozaki (箱崎線) y Kuko (空港線) del metro de la ciudad de Fukuoka; hay muchas frecuencias y el transbordo no supone perder mucho tiempo."
+    "text": "Meinohama conecta JR Chikuhi y la línea de metro del aeropuerto. Comprueba tren, necesidad de salir de tornos y tiempo a pie para enlazar; deja margen."
    },
    "00a067": {
     "text": "Detalle de los dos planes"
    },
    "13e40f": {
-    "text": "Cuándo usarlo: si ese día solo te mueves por la zona de Tenjin/Hakata. Se usa un billete por trayecto (2 en total); el precio actual es de 994円 (unos 497円 por billete), 73円 más barato por billete que el viaje directo. Se venden en grupos de 6, válidos durante 1 mes y caducan si no se usan: compra según tu plan de viajes."
+    "text": "Para una salida centrada en Tenjin o Hakata, consulta billetes normales y descuentos actuales para ida y vuelta. No se han verificado como vigentes el precio, número, validez ni botón de máquina del antiguo Otoku Ticket. Confírmalo con JR antes de comprar."
    },
    "4e6275": {
     "items": [
      {
-      "text": "Después de entrar en la estación, busca la zona de máquinas expendedoras junto a la «ventanilla verde» (みどりの窓口)."
+      "text": "Consulta tarifas normales y descuentos vigentes para ida y vuelta"
      },
      {
-      "text": "En la pantalla táctil, pulsa el botón «Otoku Ticket» (オトクチケット)."
+      "text": "Confirma los billetes actualmente disponibles en JR o en ventanilla"
      },
      {
-      "text": "Elige la estación de salida (Suzenji o Kyudai-Gakkentoshi) y el número de billetes (se compran 6 de una vez; esta vez usa 2)."
+      "text": "Comprueba estaciones, cantidad, validez y utilidad para este viaje"
      },
      {
-      "text": "Mete efectivo o paga con la tarjeta IC y recoge los billetes."
+      "text": "Paga con un método admitido para ese billete y recógelo"
      },
      {
-      "text": "Pasa el billete por el torniquete automático para subir; al llegar a Tenjin/Hakata, introdúcelo en el torniquete para salir."
+      "text": "Sigue las instrucciones de acceso del billete; consulta al personal si dudas"
      }
     ]
    },
    "092ecf": {
-    "text": "Cuándo usarlo: si ese día vas a 2 o más lugares de la ciudad y no tienes prisa. La clave es bajarse en Meinohama (la estación de origen del metro de la ciudad de Fukuoka) cogiendo solo el JR, y pasar el día con el billete de un día del metro. Meinohama es la estación de origen de las líneas Hakozaki (箱崎線) y Kuko (空港線), con muchas más frecuencias que la estación Kyudai-Gakkentoshi, así que el transbordo apenas añade tiempo."
+    "text": "Si harás varios viajes de metro y tienes tiempo, puedes ir en JR a Meinohama y usar un pase diario. Solo cubre el metro municipal de Fukuoka, es válido ese día y excluye JR. Confirma tren y pasos por tornos antes."
    },
    "2c1ea4": {
-    "text": "Coste total: 270×2 + 640 = 1,180円; si solo vas a un lugar no compensa (viajar directo, 570×2 = 1,140円, es más barato)."
+    "text": "Coste total = tarifa vigente de ida y vuelta de JR hasta Meinohama + pase diario de metro. El pase adulto cuesta 640 yenes. Compara con la ida y vuelta directa según tu ruta e itinerario; no se garantiza ahorrar."
    },
    "3f3ee3": {
     "items": [
      {
-      "text": "En la estación de Suzenji o de Kyudai-Gakkentoshi, compra el billete hasta Meinohama (trayecto sencillo: 270円)."
+      "text": "Compra un billete JR desde tu estación a Meinohama al precio vigente"
      },
      {
       "text": "Baja en la estación de Meinohama, sal del torniquete y entra en el vestíbulo de la estación."
@@ -14940,10 +16580,10 @@ window.ARTICLES_BODY_I18N = {
       "text": "Con el billete de un día puedes usar todas las líneas del metro de la ciudad de Fukuoka; ese día puedes salir y volver a entrar por los torniquetes las veces que quieras."
      },
      {
-      "text": "A la vuelta, antes de salir por el torniquete, paga la diferencia del tramo Meinohama → Kyudai-Gakkentoshi en la máquina de ajuste (unos 300 円)."
+      "text": "Al volver, puedes salir en Meinohama y comprar JR aparte; consulta al personal sobre viaje directo o ajuste"
      },
      {
-      "text": "*El billete de un día sigue siendo válido ese día después de salir del torniquete; guárdalo para la próxima vez que vengas a la ciudad de Fukuoka.*"
+      "text": "El pase puede reutilizarse ese mismo día, no otro día"
      }
     ]
    },
@@ -14955,11 +16595,11 @@ window.ARTICLES_BODY_I18N = {
     "rows": [
      [
       "Viaje directo de ida y vuelta a Hakata",
-      "570×2 = 1,140円"
+      "Consulta billetes normales o descuentos vigentes para tu ida y vuelta"
      ],
      [
       "Meinohama ida y vuelta + billete de un día del metro",
-      "Total 1,180 円"
+      "JR ida y vuelta al precio vigente + pase diario de metro (adulto: 640 yenes)"
      ]
     ]
    },
@@ -14967,7 +16607,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Conclusión y consejos de uso"
    },
    "2a2b4d": {
-    "text": "Conclusión: si solo vas a un lugar, comprar el billete directo es más barato (1,140円); si en un día vas a 2 o más lugares, usar «transbordo en Meinohama + billete de un día del metro» compensa más."
+    "text": "Anota la ruta de ida y vuelta y los viajes urbanos, y calcula los totales vigentes de billetes normales, ofertas y JR más pase de metro. Compara también tiempo de enlace y cobertura antes de elegir."
    },
    "1fac9d": {
     "text": "Consejo: si no conoces el funcionamiento de las máquinas expendedoras o del ajuste de tarifa en el torniquete, puedes pedir ayuda directamente al personal de la estación de metro/JR (van con uniforme y placa identificativa); pídeles en chino sencillo o en inglés que te ayuden a comprar el billete, salir del torniquete y ajustar la tarifa."
@@ -15125,7 +16765,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "e612d1": {
-    "text": "La selección de algunos temas de este artículo se basa en la recopilación de «新伊都国風土記» (Shin Itokoku Fudoki), de los autores Hato_Tsubame y CantonSimon. Todas las cifras y procedimientos del texto proceden de los sitios web oficiales y se han vuelto a comprobar; en caso de discrepancia con ese documento, prevalece la información oficial."
+    "text": "Algunos temas se basan en 新伊都国風土記 de Hato_Tsubame y CantonSimon. Algunas tarifas, servicios y experiencias no se han comprobado como vigentes. Antes de comprar o viajar, consulta fuentes oficiales y avisos del operador para ese día."
    },
    "e1c701": {
     "text": "Shinkansen (新幹線)"
@@ -15183,10 +16823,10 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "675d9f": {
-    "title": "Plan 1: Otoku Ticket (billete multiviaje) · solo Tenjin/Hakata (994円 ida y vuelta)"
+    "title": "Opción 1: Tenjin/Hakata, billetes normales y ofertas vigentes"
    },
    "fb7753": {
-    "title": "Plan 2: transbordo en Meinohama + pase de un día de metro · varios destinos / con tiempo (1,180円 en total)"
+    "title": "Opción 2: JR más pase diario de metro, calculado a tarifas actuales"
    }
   }
  },
@@ -15208,7 +16848,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "一、飛行機を降りたら：人の流れについていく"
    },
    "ap0006": {
-    "text": "降機後は**人の流れについていく**だけです。通常ルートは一本しかありません。下の「到着／Arrivals」の標識が見えたら、矢印の方向へ進みます——到着ゲートによって方向が違うので、記憶ではなく**矢印**を見てください。"
+    "text": "降機後はまず「到着／Arrivals」の表示を探し、矢印に従って到着エリアへ進みます。搭乗口によって進む方向が異なるため、記憶だけに頼らず、その場の案内を確認してください。",
+    "emphasis": {
+     "text": [
+      {
+       "start": 26,
+       "end": 32,
+       "style": "bold",
+       "quote": "矢印に従って"
+      }
+     ]
+    }
    },
    "ap0008": {
     "text": "**日本語が分からなくても大丈夫です。**空港の標識はほぼ漢字で、やさしい英語も併記されているので、方向を見失うことはありません。"
@@ -15244,7 +16894,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "到着ロビーを出たら案内に従い、**A2 出口**を探します。"
    },
    "ap0027": {
-    "text": "A2 出口の外から**無料連絡バス**で国内線ターミナルへ移動します。ここは徒歩では行けず、必ずバスに乗ります。車内は**中国語のアナウンス**もあるので安心です。"
+    "text": "A2出口の外で「国内線」の表示を確認し、無料連絡バスで国内線ターミナルへ移動して地下鉄に乗り換えます。撮影時の記録では車内に中国語の案内がありました。乗り場と当日の案内は空港の表示・係員の指示を確認してください。",
+    "emphasis": {
+     "text": [
+      {
+       "start": 20,
+       "end": 26,
+       "style": "bold",
+       "quote": "無料連絡バス"
+      }
+     ]
+    }
    },
    "ap0029": {
     "text": "五、地下鉄：「筑前前原」方面を選ぶ"
@@ -15427,7 +17087,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "1. After landing: follow the crowd"
    },
    "ap0006": {
-    "text": "Just **follow the crowd** after disembarking; there is usually only one path. When you see the 「到着／Arrivals」 sign below, go whichever way its arrow points — the direction differs by gate, so read the **arrow**, not your memory."
+    "text": "After leaving the plane, look for the Arrivals signs and follow the arrows. The route depends on your arrival gate, so use the signs in front of you rather than relying on memory.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 57,
+       "end": 74,
+       "style": "bold",
+       "quote": "follow the arrows"
+      }
+     ]
+    }
    },
    "ap0008": {
     "text": "**No Japanese required.** Airport signs are mostly kanji with beginner-level English alongside, so finding your way is no problem."
@@ -15463,7 +17133,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "Leaving the arrivals hall, follow the guidance and find **Exit A2**."
    },
    "ap0027": {
-    "text": "Outside Exit A2, take the **free shuttle** to the domestic terminal. You cannot walk this stretch — the bus is the only way. There are **announcements in Chinese** on board."
+    "text": "Outside exit A2, follow the Domestic Terminal signs and take the free shuttle to the domestic terminal to connect with the subway. The recorded trip had Chinese announcements; follow the airport's current signs and staff instructions for boarding.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 65,
+       "end": 77,
+       "style": "bold",
+       "quote": "free shuttle"
+      }
+     ]
+    }
    },
    "ap0029": {
     "text": "5. The subway: choose the Chikuzen-Maebaru direction"
@@ -15646,7 +17326,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "1. 비행기에서 내린 뒤: 인파를 따라가기"
    },
    "ap0006": {
-    "text": "내린 뒤에는 **인파를 따라가기만** 하면 됩니다. 보통 길은 하나뿐입니다. 아래 「到着／Arrivals」 표지판이 보이면 화살표가 가리키는 쪽으로 갑니다 — 도착 게이트마다 방향이 다르니 기억이 아니라 **화살표**를 보세요."
+    "text": "비행기에서 내리면 먼저 「到着／Arrivals」 표지를 찾고 화살표를 따라 도착 구역으로 이동하세요. 도착 게이트마다 이동 방향이 다를 수 있으니 기억에만 의존하지 말고 현장 안내를 확인하세요.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 34,
+       "end": 41,
+       "style": "bold",
+       "quote": "화살표를 따라"
+      }
+     ]
+    }
    },
    "ap0008": {
     "text": "**일본어를 몰라도 괜찮습니다.** 공항 표지판은 대부분 한자이고 쉬운 영어도 함께 적혀 있어 방향을 잃을 일이 없습니다."
@@ -15685,7 +17375,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "도착 로비를 나와 안내를 따라 **A2 출구**를 찾습니다."
    },
    "ap0027": {
-    "text": "A2 출구 밖에서 **무료 셔틀**을 타고 국내선 터미널로 갑니다. 이 구간은 걸어갈 수 없고 반드시 버스를 타야 합니다. 차내에 **중국어 안내 방송**이 있습니다."
+    "text": "A2 출구 밖에서 「国内線」 표지를 확인하고 무료 연결 버스로 국내선 터미널에 이동한 뒤 지하철로 갈아타세요. 촬영 당시에는 차내 중국어 안내가 있었습니다. 승차 위치와 당일 안내는 공항 표지 및 직원의 지시에 따르세요.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 25,
+       "end": 33,
+       "style": "bold",
+       "quote": "무료 연결 버스"
+      }
+     ]
+    }
    },
    "ap0029": {
     "text": "5. 지하철: 「지쿠젠마에바루」 방면을 고르기"
@@ -15897,7 +17597,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "1. Después de bajar del avión: sigue a la multitud"
    },
    "ap0006": {
-    "text": "Al bajar del avión basta con **seguir a la multitud**; normalmente solo hay un camino. Cuando veas el cartel «到着／Arrivals» que aparece abajo, ve hacia donde apunten las flechas del cartel: según la puerta de embarque por la que salgas la dirección puede ser distinta, así que guíate por las flechas y no por la memoria."
+    "text": "Al bajar del avión, busca los carteles de Arrivals y sigue las flechas. La dirección depende de la puerta de llegada: guíate por la señalización del momento, no solo por lo que recuerdes.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 53,
+       "end": 70,
+       "style": "bold",
+       "quote": "sigue las flechas"
+      }
+     ]
+    }
    },
    "ap0008": {
     "text": "**No pasa nada si no entiendes japonés.** Los carteles del aeropuerto usan en su mayoría kanji y también hay inglés básico, así que no tendrás problemas para orientarte."
@@ -15944,7 +17654,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "Al salir de la sala de llegadas sigue las indicaciones y busca la **salida A2**."
    },
    "ap0027": {
-    "text": "Fuera de la salida A2 toma el **autobús lanzadera gratuito** hasta la terminal de vuelos nacionales. Este tramo no se puede hacer a pie: hay que tomar el autobús. En el autobús **hay anuncios en chino**, así que no te preocupes por no entenderlos."
+    "text": "Fuera de la salida A2, sigue las indicaciones de la terminal nacional y toma el autobús gratuito para enlazar con el metro. En el trayecto fotografiado había anuncios en chino; confirma la parada y las instrucciones actuales con la señalización y el personal del aeropuerto.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 80,
+       "end": 96,
+       "style": "bold",
+       "quote": "autobús gratuito"
+      }
+     ]
+    }
    },
    "ap0029": {
     "text": "5. Metro: fíjate en la dirección «筑前前原»"
@@ -16108,7 +17828,7 @@ window.ARTICLES_BODY_I18N = {
    "06893a": {
     "items": [
      {
-      "text": "印鑑（はんこ）—— 一般的な素材のもの。シャチハタは不可"
+      "text": "印鑑：銀行・申込方法で要否を確認。必要なら通常の印鑑を準備"
      },
      {
       "text": "COE の原本と、メールで届いた PDF のバックアップ"
@@ -16119,7 +17839,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "2c7db0": {
-    "text": "銀行の口座開設には**必ず**一般的な素材の印鑑が必要で、シャチハタ（インク内蔵式）は一切受け付けられません。印鑑がないと口座が開けず、家賃・学費・奨学金はすべて銀行口座を通します。出国前に間に合わない場合、日本のドン・キホーテに自動彫刻機があり、500 円ほどから作れます。参照【入国準備】"
+    "text": "印鑑の条件は銀行と申込方法ごとに確認してください。福岡銀行と西日本シティ銀行の窓口ではシャチハタを使えず、通常の印鑑を準備します。ゆうちょアプリなどの条件は【銀行・送金】を参照してください。事前に用意できない場合、日本のドン・キホーテの自動作成機は約500円から利用できます。参照【入国準備】"
    },
    "4c0436": {
     "text": "COE の有効期間は **3 か月**で、その間にビザ申請と入国を終える必要があります。理工系の機微分野（AI・宇宙・原子力関連）は追加審査で期間が延びることがあります。どうしても始業に間に合わないときは、早めに教務の担当と寮の担当に連絡して延期を相談してください。参照【入国準備】"
@@ -16143,7 +17863,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "6bb153": {
-    "text": "資格外活動許可を得ずにアルバイトをするのは違法で、ビザに影響することがあります。学期中は週 **28 時間**まで、長期休暇中は 1 日 8 時間・週 40 時間までです。参照【アルバイト】"
+    "text": "資格外活動許可を得てから働いてください。学期中は全アルバイト合計週28時間以内で、勤務先別ではありません。学校所定の長期休業中は1日8時間以内で、労働時間の規定も守ります。参照【アルバイト】"
    },
    "6d60e7": {
     "text": "**指定空港以外**（那覇・鹿児島・静岡などの地方空港）から入国した場合、空港は「在留カード交付予定通知」のみを発行し、在留カードは住民登録完了後 1〜2 週間で登録住址に郵送されます —— その間、在留カードが必要な手続きは一切できません。福岡入国ではこの問題はありません。"
@@ -16155,7 +17875,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "1 週目：住居登録（他の手続きの前提）"
    },
    "aea806": {
-    "text": "銀行・携帯・保険・年金 —— **その後の手続きはほぼすべて、在留カードの裏面に住所が記載されていることを前提にしています**。だから最初に置いてあり、しかも 1~2 日かかります：在留カードはその場で預け、翌日に受け取ります。"
+    "text": "住所登録は銀行や携帯など多くの手続きの前提です。住所地の窓口または大学の当期通知に従ってください。在留カードを預けるか、返却がいつかは利用する方法の案内で確認し、一律に翌日返却とは考えないでください。"
    },
    "eb553f": {
     "items": [
@@ -16183,10 +17903,10 @@ window.ARTICLES_BODY_I18N = {
     "text": "さいとぴあ（西部出張所）は JR「九大学研都市」駅から徒歩約 1 分、受付は **平日 8:45~17:15**、土日祝は休みです。市民係と保険年金係の窓口があり、通常 **1~1.5 時間で住民登録・年金・健康保険をまとめて済ませられます**。職員は英語でも対応できます。参照【在留手続き】"
    },
    "ae2598": {
-    "text": "大学の代行は住民登録のみで、その間およそ 3 営業日、在留カードは大学が預かります。年金と健康保険は結局自分で行くことになります。どちらの方法でも構いません —— 代行を選んだあとで残りを自分で足しにいっても問題ありません。参照【在留手続き】"
+    "text": "大学の代行は通常住民登録のみです。当期通知で対象と範囲を確認し、在留カードの預かりと返却時期も自分の通知で確認してください。年金と健康保険は別途自分で手続きし、代行後に区役所へ行けます。参照【在留手続き】"
    },
    "563ad8": {
-    "text": "銀行のオリエンテーションは**独立したイベント**で、入学オリエンテーションとは別に予約します。来日前に申し込めているか確認してください。逃した場合は自分で窓口へ行くことになり、時間がかかります。なお日本の銀行の窓口業務は通常 **10:00~15:00** で、15:00 以降は ATM 以外何もできません。参照【銀行・送金】"
+    "text": "銀行の口座開設会は通常の入学オリエンテーションとは別です。当期の通知で対象・申込方法・日時を確認してください。自分で開設する場合は、書類・予約・窓口営業時間を事前に確認します。ATMとは時間が異なり、一律10～15時とは限りません。参照【銀行・送金】"
    },
    "41022a": {
     "text": "手続きの依存関係"
@@ -16210,7 +17930,7 @@ window.ARTICLES_BODY_I18N = {
      ],
      [
       "銀行口座開設",
-      "在留カード（裏面に住所）・パスポート・印鑑・学生証",
+      "住所登録済みの在留カードなど。印鑑は銀行・申込方法で確認",
       "銀行窓口 / 大学のオリエンテーション"
      ],
      [
@@ -16220,7 +17940,7 @@ window.ARTICLES_BODY_I18N = {
      ],
      [
       "学生納付特例",
-      "学生証",
+      "学生証の写しまたは在学証明書の原本など",
       "区役所の年金窓口"
      ],
      [
@@ -16241,7 +17961,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "96276e": {
-    "text": "口座開設時にまだ本人の電話番号がない場合、電話番号欄にはサポーターやサポートセンターの番号を書いておき、番号を取得してから変更に行けば大丈夫です。開設時には初回入金用の現金も少し持っていきます。参照【銀行・送金】"
+    "text": "本人の携帯番号がまだなければ、銀行が認める連絡先を確認してください。Supporterやサポートセンターの番号を当然使えるとは考えないでください。初回入金も銀行の条件に合わせて準備し、本人の番号を取得したら更新します。参照【銀行・送金】"
    },
    "dcdc27": {
     "text": "1 か月目：漏れやすい 3 項目"
@@ -16249,7 +17969,7 @@ window.ARTICLES_BODY_I18N = {
    "0aad31": {
     "items": [
      {
-      "text": "学生証を受け取ったら区役所へ戻り、年金を「所得が基準以下による免除」から「学生納付特例」に切り替える"
+      "text": "学籍で年金制度を確認し、申請・受付・審査結果を確認。必要書類を補完"
      },
      {
       "text": "マイナンバーカードを申請する（銀行・送金・保険であとから必要になります）"
@@ -16260,7 +17980,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "1b0c01": {
-    "text": "年金のこの一手は**毎年必ず忘れる人がいます**。流れは：住民登録 → まず区役所で「所得が基準以下による免除」→ 学生証を受け取る → **もう一度区役所へ行って**学生納付特例に切り替える。切り替えを忘れると、あとで年金の請求書が届きます。学生証は当日交付ではなく、発行にかかる日数は学府によって違います。参照【在留手続き】"
+    "text": "年金制度は本人の学籍で確認し、条件を満たす在学生は学生納付特例を確認します。学生証の写しまたは在学証明書の原本で証明でき、一律に学生証を待って切り替える必要はありません。提出後は受付と審査結果を確認し、納付書が届いたら窓口へ相談してください。参照【在留手続き】"
    },
    "ae843e": {
     "text": "ESP（留学生緊急支援サービス）は、在留資格「留学」を持つ九州大学の学生が加入必須の緊急支援サービスです。費用は在籍年数に応じて **1,650 円／年 × 年数**となり、別途支払手数料がかかります。受診時の電話通訳、医療機関の紹介、緊急時の家族への連絡などを支援しますが、医療費を補償する保険ではなく、医療費の全額負担を保証するものでもありません。医療費は国民健康保険と本人の保険契約に基づいて扱われます。参照【医療・保険】"
@@ -16275,7 +17995,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "落ち着いてからの予定"
    },
    "16e6d0": {
-    "text": "寮にはベッド・机と椅子・本棚・冷蔵庫・エアコンが備え付けられています。**用意されていない**のは調理器具・電気ケトル・食器・タオル・洗面用具で、トイレットペーパーは 1 ロールのみ。布団はレンタルできますが質はいまひとつという声が多く、肌に触れる寝具（掛けカバー・枕カバー）は持参をおすすめします。寮を出たあとも使えます。参照【入国準備】"
+    "text": "買う前に【寮・住まい探し】で自分の寮の設備表を確認し、実際に部屋にある物も見てください。調理器具・食器・タオル・洗面用品は通常自分で用意します。寝具のレンタル要否・料金・範囲は当期の募集要項と入居通知で確認してください。肌に触れる掛け布団カバーや枕カバーは持参できます。参照【入国準備】"
    },
    "38bab8": {
     "text": "伊都キャンパスの日常は自転車が中心です：JR 九大学研都市駅から大学まで徒歩でおよそ 45~50 分、自転車なら 20~30 分。自転車を買ったら**防犯登録（600 円）**をして、登録カードは保管しておいてください —— 廃棄・譲渡のときに必要です。参照【交通】"
@@ -16366,7 +18086,7 @@ window.ARTICLES_BODY_I18N = {
    "06893a": {
     "items": [
      {
-      "text": "A seal (hanko) — ordinary material; self-inking シャチハタ is not accepted"
+      "text": "Personal seal: check your bank and application method; prepare a regular seal if required"
      },
      {
       "text": "Your original COE, plus a backup of the PDF you received by email"
@@ -16377,7 +18097,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "2c7db0": {
-    "text": "Opening a bank account **requires** a seal of ordinary material; self-inking シャチハタ seals are never accepted. Without one you cannot open an account, and rent, tuition and scholarships all go through a bank account. If you cannot have one made before you leave, Don Quijote stores in Japan have self-service engraving machines from about ¥500. See【Arrival & Entry】"
+    "text": "Check seal requirements for your bank and application method first. Fukuoka Bank and Nishi-Nippon City Bank counters require a regular seal rather than a self-inking Shachihata. See【Banking & Remittance】for other methods such as the Japan Post Bank app. If you cannot prepare one in advance, Don Quijote seal machines in Japan start at about 500 yen. See【Arrival & Entry】"
    },
    "4c0436": {
     "text": "A COE is valid for **3 months**, and the visa application and your entry must both be completed within that window. Sensitive science and engineering fields (AI, space, nuclear) may face extra screening and longer processing. If you truly cannot make the start of term, contact your academic affairs office and the dormitory early to arrange a delay. See【Arrival & Entry】"
@@ -16401,7 +18121,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "6bb153": {
-    "text": "Working without permission to engage in activity outside your status is illegal and can affect your visa. During term the limit is **28 hours** a week; during long vacations it is 8 hours a day and 40 hours a week. See【Part-time Work】"
+    "text": "Obtain permission for activities outside your residence status before working. During term, all jobs combined are limited to 28 hours a week, not per employer. During official school vacations, the limit is eight hours a day, with labour-time rules still applying. See【Part-time Work】"
    },
    "6d60e7": {
     "text": "If you enter through a **non-designated airport** (Naha, Kagoshima, Shizuoka and other regional airports), the airport issues only a notice of scheduled residence card delivery; the card is mailed to your registered address 1-2 weeks after residence registration is complete - during that period no procedure requiring the card can be completed. Entering via Fukuoka avoids this."
@@ -16413,7 +18133,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Week one: address registration (prerequisite for other procedures)"
    },
    "aea806": {
-    "text": "Bank, phone, insurance, pension — **almost every later procedure assumes your address is already printed on the back of your residence card**. That is why it comes first, and why it takes a day or two: you hand the card in and collect it the next day."
+    "text": "Address registration comes before many bank and phone procedures. Follow your local office or current university notice. Whether you hand over the residence card and when it is returned depend on your chosen service; do not assume next-day collection."
    },
    "eb553f": {
     "items": [
@@ -16441,10 +18161,10 @@ window.ARTICLES_BODY_I18N = {
     "text": "さいとぴあ (the western branch office) is about a minute on foot from JR Kyudai-gakkentoshi Station, open **weekdays 8:45–17:15** and closed on weekends and holidays. It has both a residents desk and an insurance-and-pension desk, and you can usually **finish resident registration, pension and health insurance together in 1–1.5 hours**. Staff can help in English. See【Residence Procedures】"
    },
    "ae2598": {
-    "text": "The university only handles the resident registration itself, holding your residence card for about three working days; pension and health insurance you still do yourself. Either route is fine — choosing the university route and then doing the rest yourself afterwards is perfectly normal. See【Residence Procedures】"
+    "text": "University assistance usually handles residence registration only. Check the current notice for eligibility and scope, and your own notice for card retention and return. Pension and health insurance still need separate applications; you can visit the ward office afterwards. See【Residence Procedures】"
    },
    "563ad8": {
-    "text": "The bank orientation is a **separate event**, booked separately from the enrolment orientation — check before you come that you actually have a place. If you miss it you generally have to go to a branch yourself, which takes longer. Note that Japanese bank counters normally operate **10:00–15:00**; after 15:00 nothing but the ATM is available. See【Banking & Remittance】"
+    "text": "Bank orientation is separate from general university orientation. Check the current notice for eligibility, registration and sessions. If opening an account yourself, confirm documents, bookings and counter hours in advance. Counter and ATM hours differ; do not assume a universal 10:00–15:00 schedule. See【Banking & Remittance】"
    },
    "41022a": {
     "text": "Procedure dependencies"
@@ -16468,7 +18188,7 @@ window.ARTICLES_BODY_I18N = {
      ],
      [
       "Open a bank account",
-      "Residence card (address on back), passport, seal, student ID",
+      "Documents such as an address-registered residence card; check seal requirements by bank and method",
       "Bank counter / university orientation"
      ],
      [
@@ -16478,7 +18198,7 @@ window.ARTICLES_BODY_I18N = {
      ],
      [
       "Student pension exception",
-      "Student ID",
+      "Copy of student ID or original enrolment certificate, and other required documents",
       "Pension desk at the ward office"
      ],
      [
@@ -16499,7 +18219,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "96276e": {
-    "text": "If you do not have your own phone number yet when you open the account, you can put your supporter’s or the support centre’s number in the phone field and change it once you have your own. Bring a little cash as well, for the initial deposit. See【Banking & Remittance】"
+    "text": "If you do not yet have your own mobile number, ask the bank which contact details it accepts. Do not assume you can enter a Supporter or support-centre number. Prepare any initial deposit according to the bank's requirements, and update your number once you obtain it. See【Banking & Remittance】"
    },
    "dcdc27": {
     "text": "First month: the three most-missed items"
@@ -16507,7 +18227,7 @@ window.ARTICLES_BODY_I18N = {
    "0aad31": {
     "items": [
      {
-      "text": "Once you have your student ID, go back to the ward office and switch your pension from the low-income exemption to the student payment exception"
+      "text": "Confirm the pension scheme for your student status, apply and check acceptance and the decision; supply further documents if needed"
      },
      {
       "text": "Apply for a My Number card (banking, remittance and insurance all need it later)"
@@ -16518,7 +18238,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "1b0c01": {
-    "text": "This pension step is **the one people forget every single year**. The full sequence is: resident registration → apply at the ward office for the low-income exemption → receive your student ID → **go back to the ward office** and switch to the student payment exception. Forget the switch and pension bills start arriving. Note that student IDs are not issued the same day, and how long they take differs by graduate school. See【Residence Procedures】"
+    "text": "Check the pension scheme for your student status; eligible enrolled students should look at student payment postponement. A student ID copy or original enrolment certificate proves enrolment, so a later switch after receiving a card is not universally required. Check acceptance and the decision after applying; ask the office if a bill arrives. See【Residence Procedures】"
    },
    "ae843e": {
     "text": "ESP (Emergency Support for International Students) is mandatory for Kyushu University students with the residence status “Student.” The fee is **¥1,650 per year of enrollment × the number of years**, plus a payment processing fee. It can arrange phone interpretation during medical visits, refer students to medical institutions, and contact family in an emergency. It is not insurance for medical expenses and does not reimburse or guarantee full coverage of treatment costs. Medical expenses are handled under National Health Insurance and the student's own policy. See【Medical & Insurance】"
@@ -16533,7 +18253,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "After you have settled in"
    },
    "16e6d0": {
-    "text": "The dormitory comes with a bed, desk and chair, bookshelf, fridge and air conditioning. What is **not provided**: cookware, kettle, tableware, towels and toiletries, and only one roll of toilet paper. Bedding can be rented but people generally find the quality mediocre, so bringing your own covers (duvet cover, pillowcase) is worth it — and they still work after you move out. See【Arrival & Entry】"
+    "text": "Before shopping, check your residence's equipment list in【Dorms & Housing】and see what your room already has. Cooking utensils, tableware, towels and toiletries usually need to be supplied yourself. Check the current application guidelines and move-in notice for bedding rental requirements, costs and what is included. You may bring your own duvet and pillow covers. See【Arrival & Entry】"
    },
    "38bab8": {
     "text": "Day-to-day life on the Ito campus runs on bicycles: about 45–50 minutes on foot from JR Kyudai-gakkentoshi Station to the university, 20–30 minutes by bike. When you buy one, register it against theft (**bicycle crime-prevention registration, ¥600**) and keep the registration card — you need it when you dispose of or transfer the bike. See【Transport】"
@@ -16624,7 +18344,7 @@ window.ARTICLES_BODY_I18N = {
    "06893a": {
     "items": [
      {
-      "text": "도장(はんこ) —— 일반 재질의 것. 샤치하타는 불가"
+      "text": "도장: 은행·신청 방법별로 확인하고 필요하면 일반 도장 준비"
      },
      {
       "text": "COE 원본과, 메일로 받은 PDF 백업"
@@ -16635,7 +18355,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "2c7db0": {
-    "text": "은행 계좌 개설에는 **반드시** 일반 재질의 도장이 필요하며, 샤치하타(잉크 내장식)는 일절 받지 않습니다. 도장이 없으면 계좌를 열 수 없고, 월세·학비·장학금은 모두 은행 계좌를 거칩니다. 출국 전에 만들지 못했다면 일본의 돈키호테에 자동 조각기가 있어 약 500엔부터 만들 수 있습니다. 참조【입국 준비】"
+    "text": "도장 요건은 은행과 신청 방법별로 먼저 확인하세요. 후쿠오카은행과 니시닛폰시티은행 창구는 샤치하타를 받지 않으므로 일반 도장을 준비합니다. 유초 앱 등은【은행·송금】을 확인하세요. 미리 준비하지 못하면 일본 돈키호테 무인 제작기를 약 500엔부터 이용할 수 있습니다. 참조【입국 준비】"
    },
    "4c0436": {
     "text": "COE의 유효기간은 **3개월**이며, 그 안에 비자 신청과 입국을 마쳐야 합니다. 이공계 민감 분야(AI·우주·원자력 관련)는 추가 심사로 기간이 길어질 수 있습니다. 도저히 개강에 맞출 수 없을 때는 일찍 교무 담당과 기숙사 쪽에 연락해 연기를 상의하세요. 참조【입국 준비】"
@@ -16659,7 +18379,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "6bb153": {
-    "text": "자격외활동허가 없이 아르바이트를 하는 것은 위법이며 비자에 영향을 줄 수 있습니다. 학기 중에는 주 **28시간**까지, 장기 방학 중에는 하루 8시간·주 40시간까지입니다. 참조【아르바이트】"
+    "text": "자격외활동허가를 먼저 받은 뒤 일하세요. 학기 중 모든 일자리를 합쳐 주 28시간 이내이며 고용주별이 아닙니다. 학교 공식 장기 방학은 하루 8시간 이내이고 노동시간 규정도 적용됩니다. 참조【아르바이트】"
    },
    "6d60e7": {
     "text": "**지정 공항 외**(나하·가고시마·시즈오카 등 지방 공항)로 입국하면 공항은 「재류카드 교부 예정 통지」만 발급하며, 재류카드는 주민등록 완료 후 1~2주 뒤 등록 주소로 우송됩니다 —— 그동안 재류카드가 필요한 수속은 일절 할 수 없습니다. 후쿠오카 입국은 이 문제가 없습니다."
@@ -16671,7 +18391,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "1주차: 주소 등록(다른 수속의 전제)"
    },
    "aea806": {
-    "text": "은행·휴대폰·보험·연금 —— **이후 수속은 거의 전부 재류카드 뒷면에 주소가 기재되어 있는 것을 전제로 합니다**. 그래서 맨 앞에 있고, 하루에서 이틀이 걸립니다: 재류카드를 그 자리에서 맡기고 다음 날 찾아옵니다."
+    "text": "주소 등록은 은행·휴대폰 등 여러 수속의 전제입니다. 주소지 창구나 학교의 이번 안내를 따르세요. 재류카드 제출 여부와 반환일은 이용 경로의 안내에 따라 확인하고 일률적으로 다음 날 수령을 가정하지 마세요."
    },
    "eb553f": {
     "items": [
@@ -16699,10 +18419,10 @@ window.ARTICLES_BODY_I18N = {
     "text": "사이토피아(서부출장소)는 JR 「규슈대 학연도시」역에서 도보 약 1분, 접수는 **평일 8:45~17:15**이며 주말·공휴일은 휴무입니다. 시민계와 보험연금계 창구가 있어 보통 **1~1.5시간이면 주민등록·연금·건강보험을 한 번에 끝낼 수 있습니다**. 직원은 영어로도 대응할 수 있습니다. 참조【체류 수속】"
    },
    "ae2598": {
-    "text": "대학 대행은 주민등록만 해 주며, 그동안 약 3영업일간 재류카드를 대학이 보관합니다. 연금과 건강보험은 결국 직접 가야 합니다. 어느 쪽이든 괜찮습니다 —— 대행을 택한 뒤에 나머지를 직접 하러 가도 문제없습니다. 참조【체류 수속】"
+    "text": "학교 대행은 보통 주민 등록만 처리합니다. 이번 안내에서 대상과 범위를 확인하고 재류카드 보관·반환일은 본인 안내를 따르세요. 연금과 건강보험은 직접 신청하므로 대행 후 구청에 따로 갈 수 있습니다. 참조【체류 수속】"
    },
    "563ad8": {
-    "text": "은행 오리엔테이션은 **별개의 행사**로, 입학 오리엔테이션과 따로 예약합니다. 일본에 오기 전에 신청이 되어 있는지 확인하세요. 놓치면 보통 직접 창구에 가야 하고 시간이 더 걸립니다. 또한 일본 은행 창구 업무는 보통 **10:00~15:00**이며, 15:00 이후에는 ATM 외에는 아무것도 할 수 없습니다. 참조【은행·송금】"
+    "text": "은행 오리엔테이션은 일반 입학 오리엔테이션과 별개입니다. 이번 안내에서 대상·신청 방법·일정을 확인하세요. 직접 개설할 때는 서류·예약·창구 시간을 미리 확인합니다. ATM과 창구 시간은 다르므로 모두 10:00~15:00라고 가정하지 마세요. 참조【은행·송금】"
    },
    "41022a": {
     "text": "수속 의존 관계"
@@ -16726,7 +18446,7 @@ window.ARTICLES_BODY_I18N = {
      ],
      [
       "은행 계좌 개설",
-      "재류카드(뒷면에 주소)·여권·도장·학생증",
+      "주소 등록된 재류카드 등 서류; 도장은 은행·신청 방법별 확인",
       "은행 창구 / 대학 오리엔테이션"
      ],
      [
@@ -16736,7 +18456,7 @@ window.ARTICLES_BODY_I18N = {
      ],
      [
       "학생납부특례",
-      "학생증",
+      "학생증 사본이나 재학증명서 원본 등 서류",
       "구청 연금 창구"
      ],
      [
@@ -16757,7 +18477,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "96276e": {
-    "text": "계좌 개설 시 아직 본인 전화번호가 없다면 전화번호란에 서포터나 서포트센터 번호를 적어 두고, 번호를 받은 뒤에 변경하러 가면 됩니다. 개설 시에는 최초 입금용 현금도 조금 가져갑니다. 참조【은행·송금】"
+    "text": "본인 휴대폰 번호가 아직 없으면 은행이 인정하는 연락처를 먼저 확인하세요. Supporter나 서포트센터 번호를 당연히 쓸 수 있다고 가정하지 마세요. 초기 입금도 은행 요건에 맞춰 준비하고 본인 번호를 받으면 변경합니다. 참조【은행·송금】"
    },
    "dcdc27": {
     "text": "첫 달: 가장 빠뜨리기 쉬운 3가지"
@@ -16765,7 +18485,7 @@ window.ARTICLES_BODY_I18N = {
    "0aad31": {
     "items": [
      {
-      "text": "학생증을 받으면 구청으로 돌아가 연금을 「소득 기준 이하 면제」에서 「학생납부특례」로 전환"
+      "text": "학적에 맞는 연금 제도 확인·신청·접수와 심사 결과 확인, 필요시 서류 보완"
      },
      {
       "text": "마이넘버 카드 신청(은행·송금·보험에서 나중에 필요합니다)"
@@ -16776,7 +18496,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "1b0c01": {
-    "text": "연금의 이 단계는 **매년 반드시 잊는 사람이 나옵니다**. 흐름은: 주민등록 → 먼저 구청에서 「소득 기준 이하 면제」 → 학생증 수령 → **구청에 한 번 더 가서** 학생납부특례로 전환. 전환을 잊으면 나중에 연금 고지서가 옵니다. 학생증은 당일 교부가 아니며, 발급 기간은 학부마다 다릅니다. 참조【체류 수속】"
+    "text": "연금 제도는 본인 학적으로 확인하고 조건을 충족하는 재학생은 학생 납부 특례를 확인하세요. 학생증 사본이나 재학증명서 원본으로 증명할 수 있어 학생증을 기다려 반드시 전환할 필요는 없습니다. 제출 후 접수·심사 결과를 확인하고 납부서가 오면 창구에 문의하세요. 참조【체류 수속】"
    },
    "ae843e": {
     "text": "ESP(유학생 긴급지원 서비스)는 체류자격이 ‘유학’인 규슈대 학생이 반드시 가입해야 하는 긴급지원 서비스입니다. 비용은 재적 연수에 따라 **연 1,650엔 × 연수**이며, 결제 수수료가 별도로 부과됩니다. 진료 시 전화 통역, 의료기관 안내, 긴급 시 가족 연락 등을 지원하지만 의료비를 보장하는 보험은 아니며 의료비 전액 지급을 보장하지도 않습니다. 의료비는 국민건강보험과 본인의 보험 약관에 따라 처리합니다. 참조【의료·보험】"
@@ -16791,7 +18511,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "안정된 이후의 일정"
    },
    "16e6d0": {
-    "text": "기숙사에는 침대·책상과 의자·책장·냉장고·에어컨이 갖춰져 있습니다. **제공되지 않는** 것은 조리 기구·전기 주전자·식기·수건·세면도구이며, 화장지는 1롤만 있습니다. 이불은 대여할 수 있지만 품질이 그저 그렇다는 반응이 많아, 피부에 닿는 침구(이불 커버·베개 커버)는 가져오길 권합니다. 기숙사를 나온 뒤에도 계속 쓸 수 있습니다. 참조【입국 준비】"
+    "text": "구매 전에【기숙사·주거】의 해당 숙소 설비표를 확인하고 방에 실제 있는 물품도 살펴보세요. 조리 도구·식기·수건·세면용품은 보통 직접 준비합니다. 침구 대여 여부·비용·범위는 이번 모집요강과 입주 안내로 확인하세요. 이불 커버와 베개 커버는 직접 가져올 수 있습니다. 참조【입국 준비】"
    },
    "38bab8": {
     "text": "이토 캠퍼스의 일상은 자전거가 중심입니다: JR 규슈대 학연도시역에서 대학까지 도보로 약 45~50분, 자전거로는 20~30분. 자전거를 사면 **방범 등록(600엔)**을 하고 등록 카드는 보관해 두세요 —— 폐기·양도할 때 필요합니다. 참조【교통】"
@@ -16880,7 +18600,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Durante el primer mes tras la llegada hay que hacer una docena de trámites, y tienen un orden: algunos solo se pueden completar después de haber hecho otros. Este artículo los ordena en una sola línea. **Es un índice, no un sustituto**: los documentos concretos, las direcciones y los importes se rigen por el contenido de cada sección."
    },
    "2c7db0": {
-    "text": "Para abrir una cuenta bancaria es **obligatorio** usar un sello (hanko) de material común; los shachihata（シャチハタ, sello de tinta automática）no se aceptan en ningún caso. Sin sello no se puede abrir la cuenta, y el alquiler, la matrícula y la beca van por cuenta bancaria. Si no te da tiempo de grabar el sello en tu país, en los Don Quijote（ドンキホーテ）de Japón hay máquinas de grabado automático, desde unos 500 円. Véase 【Preparativos de llegada】"
+    "text": "Comprueba los requisitos del banco y la vía de solicitud. Las ventanillas de Fukuoka Bank y Nishi-Nippon City Bank requieren sello normal, no Shachihata autoentintado. Para la aplicación de Japan Post Bank y otras vías, véase【Banca y envíos】. Si no puedes prepararlo antes, las máquinas de Don Quijote en Japón cuestan desde unos 500 yenes. Véase【Preparativos de llegada】"
    },
    "4c0436": {
     "text": "El COE tiene una validez de **3 meses**: hay que completar la solicitud de visado y entrar en Japón dentro del plazo. Los ámbitos sensibles de ciencia e ingeniería（IA, espacio, energía nuclear）pueden ser objeto de una revisión adicional y el proceso se alarga; si de verdad no llegas al inicio del curso, contacta cuanto antes con el personal docente y con el alojamiento para negociar un retraso. Véase 【Preparativos de llegada】"
@@ -16904,7 +18624,7 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "6bb153": {
-    "text": "Trabajar sin haber obtenido el permiso de actividad fuera del estatus es ilegal y puede afectar al visado. Durante el periodo de clases el límite es de **28 horas** semanales; en las vacaciones largas, 8 horas al día y 40 horas por semana. Véase 【Trabajo a tiempo parcial】"
+    "text": "Obtén el permiso de actividades fuera de tu estatus antes de trabajar. Durante clases, todos los empleos juntos tienen un límite de 28 horas semanales, no por empresa. En vacaciones oficiales largas, ocho horas diarias, respetando también las normas laborales. Véase【Trabajo a tiempo parcial】"
    },
    "6d60e7": {
     "text": "Si entras por un **aeropuerto no designado**（aeropuertos regionales como Naha, Kagoshima, Shizuoka）, el aeropuerto solo emite un «aviso de entrega prevista de la tarjeta de residencia»; la tarjeta de residencia se enviará por correo a la dirección registrada 1〜2 semanas después de completar el registro de residencia. Durante ese periodo no se puede hacer ningún trámite que requiera la tarjeta de residencia. Entrar por Fukuoka no tiene este problema. Véase 【Preparativos de llegada】"
@@ -16916,7 +18636,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Primera semana: registro de residencia（requisito previo de los demás trámites）"
    },
    "aea806": {
-    "text": "Banco, móvil, seguro, pensión: **casi todos los trámites posteriores exigen que la dirección ya esté registrada en el reverso de la tarjeta de residencia**. Por eso va lo primero, y ocupa uno o dos días: entregas la tarjeta de residencia en el momento y la recuperas al día siguiente."
+    "text": "El registro de dirección precede a muchos trámites bancarios y de móvil. Sigue el aviso local o universitario vigente. La entrega temporal de la tarjeta y su devolución dependen de la vía elegida; no des por hecho recogerla al día siguiente."
    },
    "eb553f": {
     "items": [
@@ -16946,10 +18666,10 @@ window.ARTICLES_BODY_I18N = {
     "text": "Saitopia（subsucursal del oeste, 西部出張所）está a unos 1 minuto a pie de la estación JR «Kyudai-Gakkentoshi». Atención **días laborables 8:45~17:15**, cerrada los fines de semana y festivos. Las ventanillas incluyen la sección de ciudadanía（市民係）y la sección de seguro y pensión（保険年金係）; normalmente en **1~1.5 horas se completan de una vez el registro de residencia, la pensión y el seguro de salud**, y el personal puede atender en inglés. Véase 【Trámites de residencia】"
    },
    "ae2598": {
-    "text": "La gestión por la universidad solo cubre el registro de residencia: la universidad guarda temporalmente la tarjeta de residencia unos 3 días hábiles; la pensión y el seguro de salud todavía tienes que hacerlos tú. Ambas opciones valen: si eliges la gestión por la universidad, luego puedes completar tú mismo el resto de trámites sin problema. Véase 【Trámites de residencia】"
+    "text": "El servicio universitario suele gestionar solo el registro. Confirma destinatarios y alcance en el aviso vigente, y la retención y devolución de tu tarjeta en el propio. Pensión y seguro de salud se solicitan aparte; puedes ir después a la oficina municipal. Véase【Trámites de residencia】"
    },
    "563ad8": {
-    "text": "La orientación bancaria es una **actividad aparte** y se reserva por separado de la orientación de ingreso; hay que confirmar antes de venir a Japón si te has inscrito. Si la pierdes, normalmente solo queda ir tú mismo a la ventanilla, que lleva bastante tiempo. Además, las ventanillas de los bancos japoneses suelen atender solo de **10:00~15:00**; después de las 15:00 no se puede hacer nada salvo usar el cajero automático. Véase 【Banco y transferencias】"
+    "text": "La orientación bancaria es distinta de la general de ingreso. Consulta el aviso vigente para ver destinatarios, inscripción y sesiones. Si abres la cuenta por tu cuenta, confirma documentos, reserva y horario de ventanilla. Este difiere del cajero; no supongas un horario general de 10:00 a 15:00. Véase【Banca y envíos】"
    },
    "41022a": {
     "text": "Dependencias entre trámites"
@@ -16973,7 +18693,7 @@ window.ARTICLES_BODY_I18N = {
      ],
      [
       "Abrir cuenta bancaria",
-      "Tarjeta de residencia, pasaporte, sello (hanko) y carné de estudiante",
+      "Documentos como tarjeta de residencia con dirección; sello según banco y vía",
       "Ventanilla del banco / sesión informativa"
      ],
      [
@@ -16983,7 +18703,7 @@ window.ARTICLES_BODY_I18N = {
      ],
      [
       "Exención de pago para estudiantes",
-      "Carné de estudiante",
+      "Copia del carné o certificado original de matrícula y otros documentos exigidos",
       "Ventanilla de pensiones de la oficina del distrito"
      ],
      [
@@ -17004,13 +18724,13 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "96276e": {
-    "text": "Si al abrir la cuenta todavía no tienes número de móvil propio, en el campo del teléfono puedes poner primero el número del Supporter o del Centro de Apoyo（サポートセンター）, y cambiarlo después de tener el tuyo. Para abrir la cuenta también hay que llevar algo de efectivo para el depósito inicial. Véase 【Banco y transferencias】"
+    "text": "Si aún no tienes móvil propio, pregunta al banco qué contacto acepta. No supongas que puedes poner el número de un Supporter o del centro de apoyo. Prepara el depósito inicial según sus requisitos y actualiza el número cuando lo obtengas. Véase【Banca y envíos】"
    },
    "dcdc27": {
     "text": "Primer mes: los 3 trámites que más se pasan por alto"
    },
    "1b0c01": {
-    "text": "El paso de la pensión **se olvida todos los años**. El proceso completo es: registro de residencia → tramitar por primera vez en la oficina del distrito la «exención por ingresos por debajo del umbral» → recibir el carné de estudiante → **volver a la oficina del distrito** para cambiar a la exención de pago para estudiantes. Si te olvidas de cambiar, luego recibirás la factura de la pensión. Ten en cuenta que el carné de estudiante no se entrega el mismo día; el tiempo de emisión varía según la facultad. Véase 【Trámites de residencia】"
+    "text": "Confirma el régimen según tu matrícula; los estudiantes que cumplan los requisitos pueden consultar el aplazamiento estudiantil. Basta acreditar matrícula con copia del carné o certificado original: no todos deben esperar el carné para cambiar de régimen. Comprueba recepción y resolución; si llega un recibo, consulta la oficina. Véase【Trámites de residencia】"
    },
    "ae843e": {
     "text": "El ESP (servicio de apoyo de emergencia para estudiantes internacionales) es obligatorio para estudiantes de la Universidad de Kyushu con estatus de residencia «Estudiante». La cuota es de **1,650 円 por año de matrícula × el número de años**, más una comisión de pago. Puede organizar interpretación telefónica durante consultas médicas, derivaciones a centros médicos y contacto con la familia en emergencias. No es un seguro de gastos médicos y no reembolsa ni garantiza la cobertura total del tratamiento. Los gastos médicos se tramitan según el Seguro Nacional de Salud y la póliza personal. Véase 【Salud y seguros】"
@@ -17025,7 +18745,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Después de instalarse"
    },
    "16e6d0": {
-    "text": "El dormitorio ya viene con cama, mesa y silla, estantería, nevera y aire acondicionado; **no se proporcionan** utensilios de cocina, hervidor, vajilla, toallas ni artículos de aseo, y solo se incluye 1 rollo de papel higiénico. El futón se puede alquilar, pero las opiniones dicen que la calidad es regular; se recomienda traer tu propia ropa de cama de contacto（funda de edredón, funda de almohada）, que además te servirá después de salir del dormitorio. Véase 【Preparativos de llegada】"
+    "text": "Antes de comprar, consulta la lista de equipamiento de tu residencia en【Residencias y vivienda】y comprueba qué hay en la habitación. Normalmente debes aportar utensilios, vajilla, toallas y artículos de aseo. Revisa las bases vigentes y el aviso de entrada para saber si debes alquilar ropa de cama, su coste y qué incluye. Puedes llevar tus propias fundas de edredón y almohada. Véase【Preparativos de llegada】"
    },
    "38bab8": {
     "text": "En el campus Ito la vida diaria depende de la bicicleta: desde la estación JR Kyudai-Gakkentoshi se tarda unos 45~50 minutos a pie hasta la universidad, y 20~30 minutos en bici. Al comprar la bicicleta hay que hacer el **registro antirrobo（600 円）**; guarda bien la tarjeta del registro, la necesitarás para la baja. Véase 【Transporte】"
@@ -17073,7 +18793,7 @@ window.ARTICLES_BODY_I18N = {
    "06893a": {
     "items": [
      {
-      "text": "Sello (はんこ): de material normal; no se acepta el tipo シャチハタ"
+      "text": "Sello personal: comprueba banco y vía de solicitud; prepara uno normal si se exige"
      },
      {
       "text": "El COE original y una copia del PDF que recibiste por correo"
@@ -17086,7 +18806,7 @@ window.ARTICLES_BODY_I18N = {
    "0aad31": {
     "items": [
      {
-      "text": "Cuando tengas el carné de estudiante, vuelve a la oficina del distrito y cambia la pensión de la «exención por bajos ingresos» a la «exención de pago para estudiantes»"
+      "text": "Confirma el régimen de pensión, solicita y comprueba recepción y resolución; aporta documentos si hace falta"
      },
      {
       "text": "Solicita la tarjeta My Number (hará falta más adelante para el banco, las transferencias y el seguro)"
@@ -17317,7 +19037,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "④ 行政手続・銀行ガイダンス（寮入居者は必読）"
    },
    "2b3c4d": {
-    "text": "海外から入国し学生寮に入居する新入留学生を対象に、留学課が住所登録・国民健康保険などの行政手続を代行し、国民年金、マイナンバーカード、銀行口座開設（ゆうちょ / 福岡銀行 / 西日本シティ銀行）について説明します。**第1回と第2回の両方のガイダンスに参加必須です**。会場：日本ジョナサン・KS・チョイ文化館（キャンパスマップ No.79）。持ち物：パスポート・在留カード・黒のボールペン。入国支援システム（Pre-Arrival Assistance）で参加日を予約してください（宿舎入居手続の完了後にフォームが表示されます）。**リマインダーメールはありません**ので、ご自身で予約日を控え、ステータスページで確認してください。第1回ガイダンスの日付は入居当日より前にすることはできません。参加当日までに、パスポートの顔写真ページと入国許可スタンプページの写真を留学課のメールアドレスへ送付してください（顔写真ページを入国支援システムにアップロード済みの場合は、入国許可スタンプページのみで結構です）。日程が合わず参加できない場合は、Q-Mate が作成した多言語の解説動画を参考にご自身で手続を行ってください。"
+    "text": "対象：海外から入国し、学生宿舎に入居する新入留学生。第1回・第2回の両方に参加します。留学課が住所登録・国民健康保険の手続きを支援し、国民年金、マイナンバーカード、銀行口座開設を説明します。\n\n予約：宿舎入居手続きの完了後、入国支援システムにフォームが表示されます。第1回は入居日より前には予約できません。リマインドメールはないため、日程を記録し、ステータスページで確認してください。\n\n当日：日本ジョナサン・KS・チョイ文化館（キャンパスマップNo.79）で、パスポート・在留カード・黒のボールペンを持参します。参加前にパスポート顔写真ページと上陸許可の印のページを留学課へ送付してください。顔写真ページをシステムに提出済みなら印のページのみ追加します。日程が合わない場合はQ-Mateの多言語動画を参考に自分で手続きします。",
+    "emphasis": {
+     "text": [
+      {
+       "start": 26,
+       "end": 36,
+       "style": "bold",
+       "quote": "第1回・第2回の両方"
+      }
+     ]
+    }
    },
    "c0d1e2": {
     "headers": [
@@ -17755,7 +19485,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "留学生センターは日本語コースを開講しており、**JTCs**（単位不認定・週 2 回 × 10 週間・7 レベル）と **JACs**（単位認定・週 2 回 × 15 週間・8 レベル）の 2 つの経路があります。いずれも伊都キャンパス Center Zone 5（センター5号館）で行われます。2026 年度後期（秋学期）はすでにアンケート段階が終了しており、次はプレースメントテストとコース登録です。"
    },
    "jca103": {
-    "text": "2026 年度後期：公式アンケートは 9/25 13:00 に締め切られました。回答済みの方は **10/16(金)〜10/21(水)** にプレースメントテストとコース登録を完了してください。未回答の方は、まず JTCs office（japanesecourses@jimu.kyushu-u.ac.jp／氏名・キャンパス・学生番号を明記）に今期の参加可否を確認してください。**コースシステムから直接追加申し込みをしないでください** —— システムは登録済みの名簿で動いています。アンケートの提出だけでは申し込みは完了しません。"
+    "text": "2026年度後期：アンケートは9/25 13:00で締め切られました。\n回答済みの方：10/16(金)〜10/21(水)にプレースメントテストと授業登録を完了してください。アンケートへの回答だけでは申込みは完了しません。\n未回答の方：まずJTCs office（japanesecourses@jimu.kyushu-u.ac.jp）へ氏名・キャンパス・学生番号を伝え、今期参加できるか確認してください。登録済みの名簿に基づくため、授業システムで直接追加登録しないでください。",
+    "emphasis": {
+     "text": [
+      {
+       "start": 43,
+       "end": 60,
+       "style": "underline",
+       "quote": "10/16(金)〜10/21(水)"
+      }
+     ]
+    }
    },
    "jca104": {
     "items": [
@@ -17792,7 +19532,8 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
      }
     ]
-   }
+   },
+   "b0c1d2": {}
   },
   "en": {
    "83b134": {
@@ -18012,7 +19753,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "④ Administrative Procedures and Banking Guidance (essential for dormitory residents)"
    },
    "2b3c4d": {
-    "text": "For new international students arriving from overseas and moving into student dormitories, 留学課 handles administrative procedures such as residence registration and 国民健康保険 on their behalf, and explains 国民年金, マイナンバーカード and bank account opening (ゆうちょ / 福岡銀行 / 西日本シティ銀行). **Attendance at both the 1st and 2nd guidance sessions is required.** Venue: 日本ジョナサン・KS・チョイ文化館 (campus map No.79). Items to bring: passport, 在留カード, black ballpoint pen. The attendance date must be reserved in the 入国支援システム (Pre-Arrival Assistance) (the form appears only after dormitory move-in procedures are completed); **no reminder email is sent**, so the reserved date must be noted and confirmed on the status page. The date of the 1st guidance session may not be earlier than the day of move-in. Before the day of attendance, photographs of the passport photo page and the landing permission stamp page must be sent to the 留学課 email address (if the photo page has already been uploaded to the 入国支援システム, submitting only the landing permission stamp page is sufficient). Those unable to attend due to schedule conflicts may complete the procedures independently using the multilingual instructional videos produced by Q-Mate."
+    "text": "Who it is for: new international students arriving from overseas and moving into student accommodation. Attend both the first and second sessions. The International Student Division helps with address registration and National Health Insurance and explains pensions, My Number cards and bank accounts.\n\nBooking: the form appears in the pre-arrival system after the accommodation procedure is complete. Do not book the first session before your move-in date. There is no reminder email: record the date and check the status page yourself.\n\nOn the day: bring your passport, residence card and a black ballpoint pen to the Jonathan KS Choi Cultural Center (map No.79). Before attending, send the passport photo page and landing-permission stamp page to the division. If the photo page is already uploaded, send only the stamp page. If the dates conflict, use Q-Mate's multilingual videos to complete the procedures yourself.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 111,
+       "end": 145,
+       "style": "bold",
+       "quote": "both the first and second sessions"
+      }
+     ]
+    }
    },
    "c0d1e2": {
     "headers": [
@@ -18450,7 +20201,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "The International Student Center offers Japanese courses along two tracks: **JTCs** (non-credit, twice a week for 10 weeks, 7 levels) and **JACs** (credit, twice a week for 15 weeks, 8 levels). Both are held at Center Zone 5 on the Ito campus. For fall 2026 the questionnaire stage has already closed; what remains is the placement test and course registration."
    },
    "jca103": {
-    "text": "Fall 2026: the official questionnaire closed on 9/25 at 13:00. If you answered it, complete the placement test and course registration between **10/16 (Fri) and 10/21 (Wed)**. If you did not, first ask the JTCs office (japanesecourses@jimu.kyushu-u.ac.jp; state your name, campus and student ID) whether you can still join this term — **do not simply register through the course system**, which works from the list of confirmed applicants. Submitting the questionnaire alone does not complete the application."
+    "text": "Autumn 2026: the questionnaire closed on 9/25 at 13:00.\nIf you answered it: complete the placement test and course registration between 10/16 (Fri) and 10/21 (Wed). Answering the questionnaire alone does not complete the application.\nIf you did not: contact the JTCs office first (japanesecourses@jimu.kyushu-u.ac.jp), giving your name, campus and student number, to ask whether you can join this term. Do not register directly in the course system: it uses the registered participant list.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 136,
+       "end": 163,
+       "style": "underline",
+       "quote": "10/16 (Fri) and 10/21 (Wed)"
+      }
+     ]
+    }
    },
    "jca104": {
     "items": [
@@ -18487,7 +20248,8 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
      }
     ]
-   }
+   },
+   "b0c1d2": {}
   },
   "ko": {
    "83b134": {
@@ -18707,7 +20469,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "④ 행정 수속・은행 안내（기숙사 입사자 필독）"
    },
    "2b3c4d": {
-    "text": "해외에서 입국하여 학생 기숙사에 입사하는 신입 유학생을 대상으로, 留学課가 주소 등록, 국민건강보험 등 행정 수속을 대행하고 국민연금, マイナンバーカード, 은행 계좌 개설（ゆうちょ / 福岡銀行 / 西日本シティ銀行）을 설명합니다. **제1회와 제2회 두 차례 안내에 반드시 참가해야 합니다**. 회장: 日本ジョナサン・KS・チョイ文化館（캠퍼스 지도 No.79）. 지참: 여권・재류카드・검은색 볼펜. 입국 지원 시스템（Pre-Arrival Assistance）에서 참가 날짜를 예약해야 합니다（기숙사 입주 수속 완료 후에야 양식이 표시됨）. **알림 메일은 발송되지 않으므로** 예약 날짜를 스스로 기억하고 상태 페이지에서 확인하시기 바랍니다. 제1회 안내 날짜는 입주 당일보다 앞설 수 없습니다. 참가 당일 전까지 여권 사진면과 입국 허가 스탬프면 사진을 留学課 메일로 발송해야 합니다（사진면을 입국 지원 시스템에 이미 업로드한 경우 입국 허가 스탬프면만 제출）. 일정이 맞지 않아 참가할 수 없는 경우, Q-Mate가 제작한 다국어 안내 영상을 참고하여 직접 수속할 수 있습니다."
+    "text": "대상: 해외에서 입국해 학생 기숙사에 입주하는 신입 유학생. 1차와 2차 안내에 모두 참가합니다. 유학과가 주소 등록과 국민건강보험 절차를 돕고 국민연금, 마이넘버카드, 은행 계좌 개설을 설명합니다.\n\n예약: 기숙사 입주 절차가 완료되면 입국지원 시스템에 양식이 표시됩니다. 1차 안내는 입주일보다 앞서 예약할 수 없습니다. 알림 메일이 없으므로 날짜를 직접 기록하고 상태 페이지를 확인하세요.\n\n당일: 일본 조너선 KS 초이 문화관(지도 No.79)에 여권, 재류카드, 검은색 볼펜을 지참합니다. 참가 전에 여권 사진 페이지와 입국허가 도장 페이지를 유학과에 보내세요. 사진 페이지를 시스템에 이미 올렸다면 도장 페이지만 추가 제출합니다. 일정이 맞지 않으면 Q-Mate 다국어 영상을 참고해 직접 절차를 진행하세요.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 34,
+       "end": 47,
+       "style": "bold",
+       "quote": "1차와 2차 안내에 모두"
+      }
+     ]
+    }
    },
    "c0d1e2": {
     "headers": [
@@ -19145,7 +20917,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "국제유학생센터는 일본어 과정을 **JTCs**(단위 불인정・주 2회 × 10주・7개 레벨)와 **JACs**(단위 인정・주 2회 × 15주・8개 레벨) 두 경로로 개설하고 있으며, 두 과정 모두 이토 캠퍼스 Center Zone 5(센터 5호관)에서 열립니다. 2026년 후기(가을학기)는 설문 단계가 이미 끝났고, 다음은 배치고사와 과정 등록입니다."
    },
    "jca103": {
-    "text": "2026년 후기: 공식 설문은 9/25 13:00에 마감되었습니다. 응답한 분은 **10/16(금)〜10/21(수)**에 배치고사와 과정 등록을 완료하십시오. 응답하지 않은 분은 먼저 JTCs office(japanesecourses@jimu.kyushu-u.ac.jp, 이름・캠퍼스・학생번호 기재)에 이번 학기 참가 가능 여부를 확인하십시오. **과정 시스템에서 직접 추가 신청을 하지 마십시오** — 시스템은 등록된 명단대로 운영됩니다. 설문 제출만으로는 신청이 완료되지 않습니다."
+    "text": "2026년 후기: 설문은 9/25 13:00에 마감되었습니다.\n설문 응답자: 10/16(금)〜10/21(수)에 레벨 테스트와 수강 등록을 완료하세요. 설문 응답만으로 신청이 끝나지는 않습니다.\n미응답자: 먼저 JTCs office(japanesecourses@jimu.kyushu-u.ac.jp)에 이름, 캠퍼스, 학번을 알려 이번 학기 참가 가능 여부를 확인하세요. 등록된 명단에 따라 처리하므로 수강 시스템에서 직접 추가 등록하지 마세요.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 43,
+       "end": 60,
+       "style": "underline",
+       "quote": "10/16(금)〜10/21(수)"
+      }
+     ]
+    }
    },
    "jca104": {
     "items": [
@@ -19182,7 +20964,8 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
      }
     ]
-   }
+   },
+   "b0c1d2": {}
   },
   "es": {
    "83b134": {
@@ -19402,7 +21185,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "④ Trámites administrativos y orientación bancaria (lectura obligatoria para residentes de dormitorios)"
    },
    "2b3c4d": {
-    "text": "Para los estudiantes internacionales de nuevo ingreso que llegan del extranjero y residirán en dormitorios estudiantiles, la oficina de estudiantes internacionales gestiona en su nombre trámites administrativos como el registro de domicilio y el seguro nacional de salud, y explica la pensión nacional, la tarjeta My Number y la apertura de cuenta bancaria（Japan Post Bank（ゆうちょ） / Banco de Fukuoka（福岡銀行） / Nishi-Nippon City Bank（西日本シティ銀行））. **Es obligatorio asistir a la primera y a la segunda sesión de orientación**. Lugar: Jonathan K.S. Choi Cultural Center（日本ジョナサン・KS・チョイ文化館）(No.79 del mapa del campus). Llevar: pasaporte, tarjeta de residencia y bolígrafo negro. La fecha de participación se reserva en el sistema de apoyo a la llegada (Pre-Arrival Assistance) (el formulario solo aparece cuando se completa el trámite de entrada al dormitorio); **no se envía correo de recordatorio**, así que anota la fecha reservada y confírmala en la página de estado. La fecha de la primera sesión no puede ser anterior al día de ingreso al dormitorio. Antes del día de participación, envía al correo de la oficina de estudiantes internacionales las fotos de la página de datos del pasaporte y de la página con el sello del permiso de entrada (si la página de datos ya se subió al sistema de apoyo a la llegada, basta con enviar la del sello de entrada). Quienes no puedan asistir por conflicto de horarios pueden realizar los trámites por su cuenta con los videos instructivos multilingües elaborados por Q-Mate."
+    "text": "Destinatarios: nuevos estudiantes internacionales que llegan del extranjero y se alojan en residencias estudiantiles. Hay que asistir a las dos sesiones. La División de Estudiantes Internacionales ayuda con el registro de domicilio y el seguro nacional de salud, y explica la pensión, My Number y la apertura de cuentas.\n\nReserva: el formulario aparece en el sistema de apoyo previo a la llegada al terminar el trámite de alojamiento. La primera sesión no puede ser anterior a la entrada en la residencia. No hay correo recordatorio: anota la fecha y comprueba la página de estado.\n\nEse día: lleva pasaporte, tarjeta de residencia y bolígrafo negro al Jonathan KS Choi Cultural Center (mapa No.79). Antes de asistir, envía la página de foto del pasaporte y la del sello de permiso de entrada. Si la primera ya está cargada en el sistema, envía solo la del sello. Si las fechas coinciden con otras obligaciones, consulta los vídeos multilingües de Q-Mate para hacer los trámites por tu cuenta.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 136,
+       "end": 152,
+       "style": "bold",
+       "quote": "las dos sesiones"
+      }
+     ]
+    }
    },
    "c0d1e2": {
     "headers": [
@@ -19831,7 +21624,17 @@ window.ARTICLES_BODY_I18N = {
     "text": "El Centro de Estudiantes Internacionales ofrece cursos de japonés por dos vías: **JTCs** (sin créditos, dos veces por semana durante 10 semanas, 7 niveles) y **JACs** (con créditos, dos veces por semana durante 15 semanas, 8 niveles). Ambos se imparten en el Center Zone 5 del campus Ito. En el otoño de 2026 la fase del cuestionario ya ha cerrado; lo que queda es la prueba de nivel y la inscripción en el curso."
    },
    "jca103": {
-    "text": "Otoño de 2026: el cuestionario oficial cerró el 9/25 a las 13:00. Quien lo haya respondido debe completar la prueba de nivel y la inscripción entre el **10/16 (vie) y el 10/21 (mié)**. Quien no lo haya respondido debe preguntar primero a la oficina de JTCs (japanesecourses@jimu.kyushu-u.ac.jp; indicando nombre, campus y número de estudiante) si aún puede incorporarse este semestre: **no se inscriba directamente en el sistema del curso**, que funciona con la lista de personas ya registradas. Enviar solo el cuestionario no completa la solicitud."
+    "text": "Otoño de 2026: el cuestionario cerró el 9/25 a las 13:00.\nSi lo respondiste: completa la prueba de nivel y la inscripción entre el 10/16 (viernes) y el 10/21 (miércoles). Responder al cuestionario no completa por sí solo la solicitud.\nSi no lo respondiste: consulta primero con JTCs office (japanesecourses@jimu.kyushu-u.ac.jp), indicando nombre, campus y número de estudiante, para saber si puedes participar este semestre. No te inscribas directamente en el sistema: se utiliza la lista de participantes registrados.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 131,
+       "end": 169,
+       "style": "underline",
+       "quote": "10/16 (viernes) y el 10/21 (miércoles)"
+      }
+     ]
+    }
    },
    "jca104": {
     "items": [
@@ -19868,7 +21671,8 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
      }
     ]
-   }
+   },
+   "b0c1d2": {}
   }
  },
  "guide-scholarship": {
@@ -19898,13 +21702,23 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "13edbe": {
-    "text": "このページで分かることは 2 つ：**いま何に出せるか**、**どう出すか**。九大の私費奨学金はほぼ「在籍中 ＋ 日本語ができる」が条件で、大学推薦と直接応募の 2 ルートあります。いま応募できるのは下の 7 件です。"
+    "text": "まず各奨学金の対象条件を確認し、大学推薦か直接応募かを選びます。下の7件は2026-09-14時点で収集した募集例で、現在応募できる案件の一覧ではありません。締切済みのものも含みます。応募前に公式一覧で期限、日本語要件、併給の可否を確認してください。",
+    "emphasis": {
+     "text": [
+      {
+       "start": 59,
+       "end": 78,
+       "style": "underline",
+       "quote": "現在応募できる案件の一覧ではありません"
+      }
+     ]
+    }
    },
    "25d902": {
     "text": "**出典**：Global Gateways「奨学金一覧」（国際部留学課）、2026-09-14 取得。財団ごとに毎年募集し直し、金額も締切も変わります —— **応募前に下の公式一覧で原文を確認してください**。"
    },
    "3fe9fc": {
-    "text": "現在応募できるもの（7 件）"
+    "text": "募集例：2026-09-14収集（締切済みを含む）"
    },
    "552ef2": {
     "headers": [
@@ -20006,21 +21820,63 @@ window.ARTICLES_BODY_I18N = {
    "9145cf": {
     "items": [
      {
-      "text": "**募集要項は自分で読む**：理解せず応募して取消になった例があります。"
+      "text": "募集要項：対象者・必要書類・提出方法を確認してから応募を決めます。"
      },
      {
-      "text": "**併給に上限**：二重受給は原則不可。上限ありも要確認。"
+      "text": "併給：他の奨学金との併給や金額の上限は、各制度の規定で確認します。"
      },
      {
-      "text": "**日本語は事実上の関門**：自筆書類や日本語面接を求める財団が多い。"
+      "text": "日本語：要件は制度ごとに異なります。日本語での自筆書類・翻訳・面接の有無を確認します。"
      },
      {
-      "text": "**多くは在籍者のみ**：入学前に出せるものはごく少数。"
+      "text": "在籍：入学済みであることが条件か確認し、入学前応募が可能とは一律に考えません。"
      },
      {
-      "text": "**競争は激しい**：応募 ≠ 採用。複数併願を。"
+      "text": "選考：応募しても採用されるとは限りません。複数に応募する場合は併給規定も確認します。"
      }
-    ]
+    ],
+    "emphasis": {
+     "items.0.text": [
+      {
+       "start": 0,
+       "end": 4,
+       "style": "bold",
+       "quote": "募集要項"
+      }
+     ],
+     "items.1.text": [
+      {
+       "start": 0,
+       "end": 2,
+       "style": "bold",
+       "quote": "併給"
+      }
+     ],
+     "items.2.text": [
+      {
+       "start": 0,
+       "end": 3,
+       "style": "bold",
+       "quote": "日本語"
+      }
+     ],
+     "items.3.text": [
+      {
+       "start": 0,
+       "end": 2,
+       "style": "bold",
+       "quote": "在籍"
+      }
+     ],
+     "items.4.text": [
+      {
+       "start": 0,
+       "end": 2,
+       "style": "bold",
+       "quote": "選考"
+      }
+     ]
+    }
    },
    "7efb8a": {
     "text": "2 つの応募ルート"
@@ -20133,13 +21989,23 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "13edbe": {
-    "text": "Two things this page answers: **what you can apply for now**, and **how to apply**. Kyushu U. privately financed scholarships almost always require you to be enrolled and able to work in Japanese, and there are two routes: university nomination and direct application. Below are the 7 currently open."
+    "text": "Check which schemes you are eligible for, then choose university recommendation or direct application. The seven entries below are examples collected on 2026-09-14, not a live list of open applications; some have already closed. Check the official list for deadlines, Japanese-language requirements and rules on receiving other scholarships.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 165,
+       "end": 201,
+       "style": "underline",
+       "quote": "not a live list of open applications"
+      }
+     ]
+    }
    },
    "25d902": {
     "text": "**Source**: Global Gateways “Scholarship Information” (International Student Exchange Division), captured 2026-09-14. Foundations re-open every year and both amounts and deadlines change - **check the official list below before you apply**."
    },
    "3fe9fc": {
-    "text": "Currently open for application (7)"
+    "text": "Examples collected on 2026-09-14 (includes closed calls)"
    },
    "552ef2": {
     "headers": [
@@ -20241,21 +22107,63 @@ window.ARTICLES_BODY_I18N = {
    "9145cf": {
     "items": [
      {
-      "text": "**Read the guidelines yourself**: people really do lose awards for not understanding them."
+      "text": "Application guidelines: check eligibility, documents and submission method before deciding to apply."
      },
      {
-      "text": "**Double-dipping is capped**: normally you cannot hold two, and caps need checking."
+      "text": "Combining awards: check each scheme's rules on other scholarships and any payment limits."
      },
      {
-      "text": "**Japanese is a de facto gate**: many foundations want handwritten Japanese and interviews."
+      "text": "Japanese: requirements vary. Check whether handwritten Japanese documents, translations or a Japanese interview are required."
      },
      {
-      "text": "**Most require enrolment**: very few accept applications before you enrol."
+      "text": "Enrolment: check whether you must already be enrolled; do not assume applications before admission are accepted."
      },
      {
-      "text": "**Competition is fierce**: applying ≠ being selected. Apply to several."
+      "text": "Selection: applying does not guarantee an award. If you apply to several schemes, check their compatibility rules as well."
      }
-    ]
+    ],
+    "emphasis": {
+     "items.0.text": [
+      {
+       "start": 0,
+       "end": 22,
+       "style": "bold",
+       "quote": "Application guidelines"
+      }
+     ],
+     "items.1.text": [
+      {
+       "start": 0,
+       "end": 16,
+       "style": "bold",
+       "quote": "Combining awards"
+      }
+     ],
+     "items.2.text": [
+      {
+       "start": 0,
+       "end": 8,
+       "style": "bold",
+       "quote": "Japanese"
+      }
+     ],
+     "items.3.text": [
+      {
+       "start": 0,
+       "end": 9,
+       "style": "bold",
+       "quote": "Enrolment"
+      }
+     ],
+     "items.4.text": [
+      {
+       "start": 0,
+       "end": 9,
+       "style": "bold",
+       "quote": "Selection"
+      }
+     ]
+    }
    },
    "7efb8a": {
     "text": "The two application routes"
@@ -20368,13 +22276,23 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "13edbe": {
-    "text": "이 페이지가 답하는 두 가지: **지금 무엇에 지원할 수 있는가**, **어떻게 지원하는가**. 규슈대 사비 장학금은 대부분 재학 중 + 일본어 가능이 조건이며, 대학 추천과 직접 응모 두 경로가 있습니다. 지금 지원 가능한 것은 아래 7건입니다."
+    "text": "먼저 각 장학금의 지원 대상 조건을 확인하고 학교 추천 또는 직접 지원 경로를 선택하세요. 아래 7건은 2026-09-14에 수집한 모집 사례이며 현재 지원 가능한 목록이 아닙니다. 이미 마감된 항목도 포함되어 있습니다. 지원 전에 공식 목록에서 기한, 일본어 요건, 중복 수혜 가능 여부를 확인하세요.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 82,
+       "end": 100,
+       "style": "underline",
+       "quote": "현재 지원 가능한 목록이 아닙니다"
+      }
+     ]
+    }
    },
    "25d902": {
     "text": "**출처**: Global Gateways「奨学金一覧」(국제부 유학과), 2026-09-14 수집. 재단마다 매년 다시 모집하고 금액과 마감일도 바뀝니다 - **지원 전에 아래 공식 목록에서 원문을 확인하세요**."
    },
    "3fe9fc": {
-    "text": "현재 신청 가능(7건)"
+    "text": "모집 사례: 2026-09-14 수집(마감 포함)"
    },
    "552ef2": {
     "headers": [
@@ -20476,21 +22394,63 @@ window.ARTICLES_BODY_I18N = {
    "9145cf": {
     "items": [
      {
-      "text": "**모집요강은 직접 읽기**: 이해 없이 지원해 취소된 사례가 있습니다."
+      "text": "모집 요강: 대상, 필요 서류, 제출 방법을 확인한 뒤 지원 여부를 결정하세요."
      },
      {
-      "text": "**중복 수급 상한**: 원칙적으로 두 곳 동시 수급 불가. 상한도 확인."
+      "text": "중복 수혜: 다른 장학금과 함께 받을 수 있는지와 금액 상한은 각 제도 규정을 확인하세요."
      },
      {
-      "text": "**일본어가 사실상 관문**: 자필 서류와 일본어 면접을 요구하는 재단이 많습니다."
+      "text": "일본어: 요건은 제도마다 다릅니다. 일본어 자필 서류, 번역문, 일본어 면접이 필요한지 확인하세요."
      },
      {
-      "text": "**대부분 재학생만**: 입학 전 지원 가능한 것은 극소수."
+      "text": "학적: 이미 재학 중이어야 하는지 확인하고 입학 전 지원이 모두 가능하다고 생각하지 마세요."
      },
      {
-      "text": "**경쟁이 치열**: 지원 ≠ 채용. 여러 곳에 지원하세요."
+      "text": "선발: 지원이 곧 선발을 의미하지는 않습니다. 여러 제도에 지원할 때는 중복 수혜 규정도 확인하세요."
      }
-    ]
+    ],
+    "emphasis": {
+     "items.0.text": [
+      {
+       "start": 0,
+       "end": 5,
+       "style": "bold",
+       "quote": "모집 요강"
+      }
+     ],
+     "items.1.text": [
+      {
+       "start": 0,
+       "end": 5,
+       "style": "bold",
+       "quote": "중복 수혜"
+      }
+     ],
+     "items.2.text": [
+      {
+       "start": 0,
+       "end": 3,
+       "style": "bold",
+       "quote": "일본어"
+      }
+     ],
+     "items.3.text": [
+      {
+       "start": 0,
+       "end": 2,
+       "style": "bold",
+       "quote": "학적"
+      }
+     ],
+     "items.4.text": [
+      {
+       "start": 0,
+       "end": 2,
+       "style": "bold",
+       "quote": "선발"
+      }
+     ]
+    }
    },
    "7efb8a": {
     "text": "두 가지 지원 경로"
@@ -20603,13 +22563,23 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "13edbe": {
-    "text": "Este artículo te ayuda a aclarar dos cosas: **qué puedes solicitar ahora** y **cómo solicitarlo**. Las becas para estudiantes internacionales autofinanciados de Kyudai exigen en general estar ya matriculado y saber japonés, y se dividen en dos vías: la recomendación de la universidad y la solicitud directa. Las 7 que aparecen a continuación siguen abiertas."
+    "text": "Comprueba primero para qué programas cumples los requisitos y elige entre recomendación universitaria o solicitud directa. Los siete ejemplos se recopilaron el 2026-09-14: no son una lista en tiempo real de convocatorias abiertas y algunos ya han cerrado. Revisa plazos, requisitos de japonés y compatibilidad con otras becas en la lista oficial.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 172,
+       "end": 203,
+       "style": "underline",
+       "quote": "no son una lista en tiempo real"
+      }
+     ]
+    }
    },
    "25d902": {
     "text": "**Fuente de los datos**: Global Gateways «奨学金一覧»（国際部留学課）, recopilado el 2026-09-14. Cada fundación reabre su convocatoria cada año, y los importes y las fechas límite cambian: **antes de actuar, consulta el listado oficial de abajo para confirmar el texto original**."
    },
    "3fe9fc": {
-    "text": "Solicitables ahora (7)"
+    "text": "Ejemplos del 2026-09-14 (incluye convocatorias cerradas)"
    },
    "552ef2": {
     "headers": [
@@ -20711,21 +22681,63 @@ window.ARTICLES_BODY_I18N = {
    "9145cf": {
     "items": [
      {
-      "text": "**Debes leer tú mismo las bases de la convocatoria（募集要項）**: existen casos reales de candidaturas descalificadas por presentarse sin haberlas entendido."
+      "text": "Bases: comprueba requisitos, documentos y forma de entrega antes de decidir si solicitas la beca."
      },
      {
-      "text": "**La compatibilidad con otras becas tiene límites**: la mayoría no permite recibir dos a la vez; incluso donde hay un tope, confírmalo punto por punto."
+      "text": "Compatibilidad: revisa en cada programa si admite otras becas y si hay límites de importe."
      },
      {
-      "text": "**El japonés es un requisito obligatorio**: muchas fundaciones exigen redactar a mano en japonés y una entrevista en japonés."
+      "text": "Japonés: los requisitos varían. Comprueba si exige documentos manuscritos en japonés, traducciones o entrevista en japonés."
      },
      {
-      "text": "**La mayoría solo acepta a estudiantes ya matriculados**: son muy pocas las que se pueden solicitar antes de ingresar."
+      "text": "Matrícula: confirma si debes estar ya matriculado; no supongas que se aceptan solicitudes antes del ingreso."
      },
      {
-      "text": "**La competencia es intensa**: solicitar no equivale a ser seleccionado, así que conviene presentarse a varias."
+      "text": "Selección: solicitar no garantiza la concesión. Si te presentas a varios programas, revisa también sus reglas de compatibilidad."
      }
-    ]
+    ],
+    "emphasis": {
+     "items.0.text": [
+      {
+       "start": 0,
+       "end": 5,
+       "style": "bold",
+       "quote": "Bases"
+      }
+     ],
+     "items.1.text": [
+      {
+       "start": 0,
+       "end": 14,
+       "style": "bold",
+       "quote": "Compatibilidad"
+      }
+     ],
+     "items.2.text": [
+      {
+       "start": 0,
+       "end": 7,
+       "style": "bold",
+       "quote": "Japonés"
+      }
+     ],
+     "items.3.text": [
+      {
+       "start": 0,
+       "end": 9,
+       "style": "bold",
+       "quote": "Matrícula"
+      }
+     ],
+     "items.4.text": [
+      {
+       "start": 0,
+       "end": 9,
+       "style": "bold",
+       "quote": "Selección"
+      }
+     ]
+    }
    },
    "7efb8a": {
     "text": "Las dos vías de solicitud"
@@ -20816,7 +22828,17 @@ window.ARTICLES_BODY_I18N = {
  "guide-career": {
   "ja": {
    "13edbe": {
-    "text": "日本の就活は**新卒一括採用** —— 企業は年に一度だけ募集し、全員が同じ日程で動きます。このページでは 3 点を整理します：いつ始まるか、3 つの関門が何を問うか、窓口はどこか。"
+    "text": "日本の就職活動では「新卒一括採用」が基本の一つです。企業は卒業年度ごとに募集し、通常は在学中に選考が始まります。まず自分の卒業時期を確認し、そこから準備日程を逆算しましょう。本記事では日程、ES・筆記試験・面接、相談窓口の順に説明します。具体的な予定は企業の案内で確認してください。",
+    "emphasis": {
+     "text": [
+      {
+       "start": 10,
+       "end": 16,
+       "style": "italic",
+       "quote": "新卒一括採用"
+      }
+     ]
+    }
    },
    "3cf804": {
     "text": "直近のイベント"
@@ -20863,10 +22885,10 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "1e230b": {
-    "text": "日本企業は外国人留学生を**日本人学生と同じ基準**で選考します。日系・外資系を問いません。「外国人専用ルート」はありません。"
+    "text": "九大が紹介する一般的な選考では、留学生も日本人学生と同じ枠で応募します。在日外資系企業も似た流れを採用することが多いため、ES・筆記試験・面接を準備しましょう。そのうえで、志望企業独自の応募条件や窓口も確認してください。"
    },
    "8523d8": {
-    "text": "スケジュール：年 1 回"
+    "text": "スケジュール：卒業年度の一般的な採用日程"
    },
    "7bcd01": {
     "headers": [
@@ -20908,7 +22930,17 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "cfc60c": {
-    "text": "起点は**最終学年の前年 3 月 1 日**（学部 3 年・修士 1 年・博士 2 年）、6 月中旬に終了。約 4 か月で、**この年を逃すと挽回が難しい**。"
+    "text": "九大が示す基本日程は、最終学年の前年の3月1日開始、6月中旬ごろまでの選考を目安としています。準備はそれより早く始めましょう。企業によって日程が異なるため、この約4か月だけがすべての求人の応募期間とは考えないでください。9月卒業予定者は入社月も確認します。",
+    "emphasis": {
+     "text": [
+      {
+       "start": 47,
+       "end": 56,
+       "style": "bold",
+       "quote": "準備はそれより早く"
+      }
+     ]
+    }
    },
    "0d5661": {
     "text": "3 つの選考段階"
@@ -21026,7 +23058,17 @@ window.ARTICLES_BODY_I18N = {
   },
   "en": {
    "13edbe": {
-    "text": "Japanese job hunting runs on **mass hiring of new graduates**: companies recruit once a year and everyone follows the same calendar. This page covers three things: when it starts, what the three gates test, and where to get help."
+    "text": "Many Japanese graduate recruitment programmes hire by graduation year, with selection starting while you are still studying. Start with your graduation date and work backwards to plan. This guide covers the schedule, entry sheets, tests and interviews, then support contacts. Confirm the actual dates with each employer.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 14,
+       "end": 34,
+       "style": "italic",
+       "quote": "graduate recruitment"
+      }
+     ]
+    }
    },
    "3cf804": {
     "text": "Upcoming event"
@@ -21073,10 +23115,10 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "1e230b": {
-    "text": "Japanese companies screen international students **by the same standards as Japanese students** - domestic or foreign firms alike. There is no separate foreigner route."
+    "text": "The university describes a common process in which international and Japanese students apply within the same recruitment framework. Many foreign-owned firms in Japan use similar steps. Prepare for entry sheets, tests and interviews, while checking each employer's own eligibility rules and application routes."
    },
    "8523d8": {
-    "text": "Schedule: once a year"
+    "text": "Timeline: a common recruitment schedule for the graduation year"
    },
    "7bcd01": {
     "headers": [
@@ -21118,7 +23160,17 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "cfc60c": {
-    "text": "It starts on **1 March of the year before your final year** (3rd-year undergrad, 1st-year master's, 2nd-year PhD) and ends mid-June - about four months, and **miss it and it is hard to recover**."
+    "text": "The university's basic schedule uses March 1 of the year before your final year as a starting point, with recruitment concentrated around the period up to mid-June. Begin preparing earlier. Employer schedules can differ: these roughly four months are not the only application window for every job. September graduates should also confirm the start month.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 165,
+       "end": 188,
+       "style": "bold",
+       "quote": "Begin preparing earlier"
+      }
+     ]
+    }
    },
    "0d5661": {
     "text": "Three selection stages"
@@ -21236,7 +23288,17 @@ window.ARTICLES_BODY_I18N = {
   },
   "ko": {
    "13edbe": {
-    "text": "일본 취업은 **신졸 일괄 채용**입니다 —— 기업은 1년에 한 번만 모집하고 모두 같은 일정으로 움직입니다. 이 페이지는 세 가지를 정리합니다: 언제 시작하는지, 세 관문이 무엇을 보는지, 창구는 어디인지."
+    "text": "일본 취업활동은 「新卒一括採用」가 주요 출발점입니다. 기업은 졸업 연도별로 모집하며 보통 재학 중에 선발이 시작됩니다. 먼저 본인의 졸업 시기를 확인하고 준비 일정을 역산하세요. 이 글은 일정, ES·필기시험·면접, 상담 창구 순으로 안내하며 구체적인 일정은 기업 공지로 확인하세요.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 10,
+       "end": 16,
+       "style": "italic",
+       "quote": "新卒一括採用"
+      }
+     ]
+    }
    },
    "3cf804": {
     "text": "최근 이벤트"
@@ -21283,10 +23345,10 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "1e230b": {
-    "text": "일본 기업은 외국인 유학생을 **일본인 학생과 같은 기준**으로 선발합니다. 일계·외자계 모두 같습니다. 「외국인 전용 루트」는 없습니다."
+    "text": "규슈대가 소개하는 일반적인 선발에서는 유학생도 일본 학생과 같은 틀에서 지원합니다. 일본 내 외국계 기업도 비슷한 절차를 사용하는 경우가 많습니다. ES, 필기시험, 면접을 준비하면서 희망 기업의 별도 대상 조건이나 지원 경로도 확인하세요."
    },
    "8523d8": {
-    "text": "일정: 연 1회"
+    "text": "시간표: 일반적인 졸업 연도 채용 일정"
    },
    "7bcd01": {
     "headers": [
@@ -21328,7 +23390,17 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "cfc60c": {
-    "text": "시작은 **최종 학년 전년도 3월 1일**(학부 3년·석사 1년·박사 2년), 6월 중순 종료. 약 4개월이며 **이 해를 놓치면 만회가 어렵습니다**."
+    "text": "규슈대의 기본 일정은 최종 학년 전년도 3월 1일 시작부터 6월 중순 전후의 선발을 참고로 합니다. 준비는 그보다 일찍 시작하세요. 기업마다 일정이 다를 수 있으므로 이 약 4개월만이 모든 채용의 유일한 지원 기간이라고 생각하지 마세요. 9월 졸업 예정자는 입사 월도 확인하세요.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 56,
+       "end": 66,
+       "style": "bold",
+       "quote": "준비는 그보다 일찍"
+      }
+     ]
+    }
    },
    "0d5661": {
     "text": "3가지 전형 단계"
@@ -21446,7 +23518,17 @@ window.ARTICLES_BODY_I18N = {
   },
   "es": {
    "13edbe": {
-    "text": "La búsqueda de empleo en Japón se basa en el sistema **新卒一括採用** (contratación conjunta de recién graduados): las empresas contratan una sola vez al año y todas las personas siguen el mismo calendario. Este artículo aclara tres cosas: cuándo empieza, qué evalúa cada una de las tres etapas y dónde están las ventanillas de atención."
+    "text": "Muchos procesos de contratación de recién graduados en Japón se organizan por año de graduación y comienzan mientras sigues estudiando. Parte de tu fecha de graduación y planifica hacia atrás. Esta guía explica el calendario, los formularios ES, las pruebas y entrevistas, y los contactos de apoyo. Confirma las fechas concretas con cada empresa.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 19,
+       "end": 51,
+       "style": "italic",
+       "quote": "contratación de recién graduados"
+      }
+     ]
+    }
    },
    "3cf804": {
     "text": "Próximos eventos"
@@ -21493,10 +23575,10 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "1e230b": {
-    "text": "Las empresas japonesas evalúan a los estudiantes internacionales con el **mismo criterio que a los estudiantes japoneses**, tanto en empresas japonesas como extranjeras. No existe una «vía exclusiva para extranjeros»."
+    "text": "La universidad describe un proceso habitual en el que estudiantes internacionales y japoneses solicitan dentro del mismo marco. Muchas empresas extranjeras en Japón siguen pasos parecidos. Prepara ES, pruebas y entrevistas, y comprueba los requisitos y vías particulares de cada empresa."
    },
    "8523d8": {
-    "text": "Calendario: una vez al año"
+    "text": "Calendario habitual de contratación para el año de graduación"
    },
    "7bcd01": {
     "headers": [
@@ -21538,7 +23620,17 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "cfc60c": {
-    "text": "El punto de partida es el **1 de marzo del año anterior al último curso** (grado: 3.er año; máster: 1.er año; doctorado: 2.º año) y el proceso termina a mediados de junio: unos 4 meses. **Si pierdes este año, después es difícil recuperarlo**."
+    "text": "El calendario orientativo de la universidad comienza el 1 de marzo del año anterior al último curso y concentra la selección hasta aproximadamente mediados de junio. Empieza a prepararte antes. Los calendarios varían entre empresas: esos cuatro meses no son la única ventana para todos los puestos. Si te gradúas en septiembre, confirma también el mes de incorporación.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 166,
+       "end": 192,
+       "style": "bold",
+       "quote": "Empieza a prepararte antes"
+      }
+     ]
+    }
    },
    "0d5661": {
     "text": "Las tres etapas de selección"
