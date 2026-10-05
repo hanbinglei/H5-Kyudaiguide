@@ -497,8 +497,9 @@ details[open]>summary{color:var(--brand)}
 .bus-live-dot{width:9px;height:9px;border-radius:50%;background:#bbb;display:inline-block;flex-shrink:0}
 .bus-live-dot.on{background:#2e9e5b;box-shadow:0 0 0 3px rgba(46,158,91,.18)}
 .bus-live-table{margin:0}
-.bus-live-table th{white-space:nowrap}
-.bus-live-cell{white-space:nowrap;text-align:left}
+/* 方向名称在西语等语言较长；运行日的时刻与倒计时也须在大字号下换行。 */
+.bus-live-table th{white-space:normal;overflow-wrap:anywhere}
+.bus-live-cell{white-space:normal;text-align:left}
 .bus-live-time{font-weight:700;color:var(--brand)}
 .bus-live-diff{color:#777;font-size:12px;margin-left:6px}
 .bus-live-diff.urgent{color:#c0392b;font-weight:700}
