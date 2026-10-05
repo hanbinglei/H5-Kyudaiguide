@@ -61,6 +61,7 @@ window.NEWCOMER_ZONE = {
     }
   ],
   "resources": [
+    {"ref":"guide-newcomer","sec":"jca101","title":{"zh":"JTCs 日语课｜2026 后期报名","ja":"JTCs 日本語補講｜2026 年度後期","en":"JTCs Japanese courses | Fall 2026","ko":"JTCs 일본어 수업｜2026년 후기","es":"JTCs japonés | Otoño de 2026"},"desc":{"zh":"10/16—10/21 登记与分班测试；10/26—10/27 另行选班。非学分，查看精确时刻与课程安排。","ja":"10/16—10/21 は新規登録・テスト、10/26—10/27 はクラス登録。単位不認定。時刻と授業日程を確認。","en":"Registration and placement test: 10/16—10/21. Separate class selection: 10/26—10/27. Non-credit; check exact times and the course schedule.","ko":"10/16—10/21 등록·분반 테스트, 10/26—10/27 별도 반 선택. 학점 미인정. 정확한 시각과 수업 일정을 확인하세요.","es":"Registro y prueba de nivel: 10/16—10/21. Selección de clase aparte: 10/26—10/27. Sin créditos; consulta las horas exactas y el calendario."}},
     { "ref": "guide-housing", "sec": "d27e01",
       "title": { "zh": "宿舍设备与入住采购", "ja": "寮の設備と入居時の準備", "en": "Dorm facilities and move-in supplies", "ko": "기숙사 시설 및 입주 준비", "es": "Instalaciones y artículos para la mudanza" },
       "desc": { "zh": "核对 D1/D2、D3、協奏館与 SETTLE；入住提醒与生活巴士信息分开。", "ja": "D1/D2、D3、協奏館、SETTLE を確認。入居案内と生活支援バスの日程は別情報です。", "en": "Compare D1/D2, D3, Kyoso-kan and SETTLE. Move-in notes are separate from the shopping-bus schedule.", "ko": "D1/D2, D3, 교소칸, SETTLE을 비교하세요. 입주 안내와 생활지원 버스 일정은 별도 정보입니다.", "es": "Compara D1/D2, D3, Kyoso-kan y SETTLE. Las notas de entrada no son el horario del autobús de compras." } },

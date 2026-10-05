@@ -246,6 +246,12 @@
 
   .leaflet-popup-content { font-size: 13.5px; line-height: 1.5; margin: 10px 14px; }
   .popup-name { font-weight: 600; font-size: 15px; }
+  .indoor-body { max-height: min(48vh, 330px); overflow-y: auto; font-size: 12px; line-height: 1.6; max-width: 270px; }
+  .indoor-list { margin: 8px 0; border-top: 1px solid #eee; }
+  .indoor-list summary { cursor: pointer; color: #8b1f41; padding: 7px 0; font-weight: 600; }
+  .indoor-list button { display: block; text-align: left; width: 100%; margin: 4px 0; padding: 9px; border: 1px solid #e6dedf; border-radius: 7px; background: #faf6f7; color: #5a2637; cursor: pointer; }
+  .indoor-list button:active { background: #eadde1; transform: translateY(1px); }
+  .indoor-sources a { display: block; padding: 6px 0; color: #8b1f41; overflow-wrap: anywhere; }
   .popup-sub { color: #888; font-size: 11.5px; margin: 2px 0 6px; }
   .popup-btns button {
     border: 1px solid #8b1f41; background: #fff; color: #8b1f41; border-radius: 6px;
@@ -1066,12 +1072,36 @@ function distM(lon1, lat1, lon2, lat2) {
   return Math.hypot((lon1 - lon2) * MLON, (lat1 - lat2) * MLAT);
 }
 function facName(f) {
+  if (f.building) {
+    const hit = I18N[lang].nameFallback.map(k => f[k]).find(Boolean);
+    if (hit) return hit;
+  }
+  if (lang === 'zh' && f.name_zh) return f.name_zh;
+  if (lang === 'ja' && f.name_ja) return f.name_ja;
   if (lang === 'en' && f.name_en) return f.name_en;
   // name 为空时回退到 name_en。官方图提取出来的那批点（AED / 校门）只有 name_en，
   // 里面装的正是「在哪栋楼」「哪个门」—— 不回退的话，中文和日文用户看到的是
   // 40 个一模一样的「🫀 AED」，而所属建筑恰恰是 AED 唯一有用的信息。
   // 楼名本身多为英文/罗马字，直接显示比显示空白强得多。
   return f.name || f.name_en || '';
+}
+/** 楼内设施的定位说明按当前语言展示；不把楼层文本当作导航坐标。 */
+function facilityWhere(f) {
+  const b = buildings.find(b => String(b.properties.id) === f.building);
+  return [b ? nameOf(b) : '', f.floor, f.room].filter(Boolean).join(' · ');
+}
+function indoorText(key) {
+  const text = {
+    zh: { list: '楼内设施', checked: '资料核对', precision: '定位到所属建筑；不提供室内路线，进楼后请看楼层指示。', sources: '官方资料', floorUnknown: '楼层未确认' },
+    ja: { list: '建物内の施設', checked: '確認日', precision: '建物単位の位置です。屋内経路ではありません。入館後は館内案内を確認してください。', sources: '公式情報', floorUnknown: '階は未確認' },
+    en: { list: 'Facilities in this building', checked: 'Checked', precision: 'Building-level location, not an indoor route. Follow floor signs after entering.', sources: 'Official information', floorUnknown: 'Floor unconfirmed' }
+  };
+  return (text[lang] || text.en)[key];
+}
+/** 搜索、分类列表和楼内目录统一进入这一张卡片。巴士仍由原时刻表入口处理。 */
+function openFacilityPopup(f) {
+  const c = catOfType(f.type);
+  openFeaturePopup(L.latLng(f.lat, f.lon), `${c ? CATS[c].icon + ' ' : ''}${facName(f)}`, null, [f.lon, f.lat], f);
 }
 /** 一个类别的全部条目：设施点 + 名称匹配的已标注建筑，按距地图中心排序 */
 function catItems(key) {
@@ -1113,8 +1143,7 @@ function setCategory(key) {
       m.on('click', e => {
         // 巴士站走专用弹窗（今日到达时刻 + 下一班），其余类别沿用通用弹窗
         if (key === 'bus') return openBusStopPopup(e.latlng, f);
-        openFeaturePopup(e.latlng,
-          `${cat.icon} ${facName(f) || I18N[lang].chip[key]}`, null, [f.lon, f.lat]);
+        openFacilityPopup(f);
       });
       return m;
     })).addTo(map);
@@ -1172,8 +1201,7 @@ function showCatResults(key) {
         map.setView(ll, 18);
         // 与地图上直接点巴士站保持一致：列表里点进来也给时刻表
         if (key === 'bus') openBusStopPopup(L.latLng(ll), it.obj);
-        else openFeaturePopup(L.latLng(ll), `${cat.icon} ${facName(it.obj) || chipName}`,
-          null, [it.obj.lon, it.obj.lat]);
+        else openFacilityPopup(it.obj);
       } else {
         gotoResult({ kind: 'building', obj: it.obj });
       }
@@ -1208,7 +1236,7 @@ function detectIntent(q) {
 
 /* ================= 弹窗（含导航按钮） ================= */
 /* ================= §4 弹窗信息卡 ================= */
-function openFeaturePopup(latlng, title, osmId, lonlat) {
+function openFeaturePopup(latlng, title, osmId, lonlat, facility) {
   const pt = lonlat || [latlng.lng, latlng.lat];
   const ann = annotations[osmId] || {};
   const cat = ann.cat || 'other';
@@ -1249,16 +1277,44 @@ function openFeaturePopup(latlng, title, osmId, lonlat) {
   }
 
   const offlineTag = offCampus.has(osmId) ? ' <span style="font-size:10px;color:#999">校外</span>' : '';
+  const children = osmId ? facilities.filter(f => f.building === String(osmId)) : [];
+  let indoorHtml = '';
+  if (facility && facility.building) {
+    const note = (facility.notes || {})[lang] || (facility.notes || {}).en || '';
+    indoorHtml = `<div class="indoor-body"><div>${busEsc(facilityWhere(facility))}</div>
+      <p>${busEsc(note)}</p><p style="color:#777">${busEsc(indoorText('precision'))}</p>
+      <div style="color:#777">${indoorText('checked')}: ${busEsc(facility.checked)}</div>
+      <div class="indoor-sources">${(facility.sources || []).map(s =>
+        `<a href="${busEsc(s.url)}" target="_blank" rel="noopener noreferrer">${indoorText('sources')}: ${busEsc(s.label)} ↗</a>`).join('')}</div></div>`;
+  } else if (children.length) {
+    indoorHtml = `<details class="indoor-list"><summary>${indoorText('list')} · ${children.length}</summary><div class="indoor-body">`
+      + children.map(f => `<button data-indoor-id="${busEsc(f.id)}">${busEsc(facName(f))}<br><small>${busEsc(f.floor || indoorText('floorUnknown'))} ›</small></button>`).join('') + '</div></details>';
+  }
   const html = `
-    <div><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:${catColor};margin-right:4px"></span><span class="popup-name">${title}${offlineTag}</span></div>
+    <div><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:${catColor};margin-right:4px"></span><span class="popup-name">${busEsc(title)}${offlineTag}</span></div>
     ${secondName ? `<div class="popup-sub">${ann.num ? '#' + ann.num + ' · ' : ''}${secondName} <span style="background:${catColor}22;color:${catColor};padding:0 5px;border-radius:3px;font-size:10px">${catName}</span></div>` : ''}
     ${roomHtml}
     ${aedHtml}
+    ${indoorHtml}
     <div class="popup-btns" style="margin-top:6px">
       <button onclick="setRoute('from', ${pt[0]}, ${pt[1]})">${T('from')}</button>
       <button class="primary" onclick="setRoute('to', ${pt[0]}, ${pt[1]})">${T('to')}</button>
     </div>`;
-  L.popup().setLatLng(latlng).setContent(html).openOn(map);
+  // 窄屏顶部搜索/分类栏是覆盖层；自动平移必须为它们留空间，否则标题会被遮住。
+  const chipsBottom = $('chips').getBoundingClientRect().bottom;
+  // 用 DOM 内容保留 details 的展开状态与监听器；popup.update() 不能重新写 HTML。
+  const content = document.createElement('div');
+  content.innerHTML = html;
+  const popup = L.popup({ maxWidth: 290, autoPanPaddingTopLeft: [12, Math.ceil(chipsBottom) + 12],
+    autoPanPaddingBottomRight: [12, 90] }).setLatLng(latlng).setContent(content).openOn(map);
+  const directory = popup.getElement().querySelector('.indoor-list');
+  if (directory) directory.addEventListener('toggle', () => popup.update());
+  popup.getElement().querySelectorAll('[data-indoor-id]').forEach(button => {
+    button.addEventListener('click', () => {
+      const f = facilities.find(f => f.id === button.dataset.indoorId);
+      if (f) gotoResult({ kind: 'facility', obj: f });
+    });
+  });
 }
 
 /* ================= 昭和バス：时刻表 + 示意动画 =================
@@ -2554,10 +2610,22 @@ function officeHay(o) {
     .concat(o.aliases || []).filter(Boolean).join('\n'));
 }
 
+function facilityNames(f) { return [f.name, f.name_zh, f.name_ja, f.name_en, ...(f.aliases || [])].filter(Boolean); }
+function facilityHay(f) { return norm(facilityNames(f).join('\n')); }
+
 function searchAll(q) {
   q = norm(q);
   if (!q) return [];
   const out = [];
+
+  // 全名/别名先行，避免 BasE 被 Baseball 的子串命中盖过；不重复加入同一个设施。
+  const exactIds = new Set();
+  for (const f of facilities) {
+    if (facilityNames(f).some(n => norm(n) === q)) {
+      out.push({ kind: 'facility', obj: f }); exactIds.add(f.id);
+      if (out.length >= 30) return out;
+    }
+  }
 
   // 办公室排在最前面。
   // 因为「農学府」「学務課」这类查询，用户要的是「该去哪个窗口」，
@@ -2582,12 +2650,12 @@ function searchAll(q) {
   }
   for (const e of buildingIndex()) {
     if (e && e.hay.includes(q)) out.push({ kind: 'building', obj: e.f });
-    if (out.length >= 30) break;
+    if (out.length >= 30) return out;
   }
   for (const p of pois) {
     const hay = norm([p.name_zh, p.name_ja, p.name_en].filter(Boolean).join('\n'));
     if (hay.includes(q)) out.push({ kind: 'poi', obj: p });
-    if (out.length >= 30) break;
+    if (out.length >= 30) return out;
   }
   /* 有名字的设施：ローソン / モスバーガー / TSUTAYA / 福岡銀行ATM / 巴士站名…
      此前 searchAll 完全不看 facilities，203 个设施里 109 个有名字，结果是：
@@ -2598,8 +2666,8 @@ function searchAll(q) {
      ⚠️ 只收有名字的。AED 点和绝大多数厕所没有 name，放进来只会让结果里
      跟着一串「(无名)」，把真正有用的条目挤下去。 */
   for (const f of facilities) {
-    if (!f.name && !f.name_en) continue;
-    const hay = norm([f.name, f.name_en].filter(Boolean).join('\n'));
+    if (!facilityNames(f).length || exactIds.has(f.id)) continue;
+    const hay = facilityHay(f);
     if (hay.includes(q)) out.push({ kind: 'facility', obj: f });
     if (out.length >= 30) break;
   }
@@ -2637,8 +2705,8 @@ function fuzzySearch(q) {
   }
   for (const p of pois) push('poi', p, norm([p.name_zh, p.name_ja, p.name_en].filter(Boolean).join('\n')));
   for (const f of facilities) {
-    if (!f.name && !f.name_en) continue;
-    push('facility', f, norm([f.name, f.name_en].filter(Boolean).join('\n')));
+    if (!facilityNames(f).length) continue;
+    push('facility', f, facilityHay(f));
   }
 
   /* 命中门槛：长查询必须命中至少两个片段。
@@ -2672,6 +2740,7 @@ $('q').addEventListener('input', () => {
   const nq = norm(qv);
   const specific = nq.length >= 3 && searchAll(qv).some(r => {
     if (r.fuzzy) return false;
+    if (r.kind === 'facility' && facilityNames(r.obj).some(n => norm(n) === nq)) return true;
     const nm = norm(r.kind === 'facility' ? (r.obj.name || r.obj.name_en)
              : r.kind === 'building' ? nameOf(r.obj)
              : (r.obj.name_zh || r.obj.name_ja || r.obj.name_en || r.obj.code || ''));
@@ -2714,7 +2783,7 @@ $('q').addEventListener('input', () => {
     if (r.kind === 'facility') {
       const c = catOfType(r.obj.type);
       // 副行写类别名，让「ローソン」一眼看出是便利店，而不是又一栋不知道干嘛的楼
-      const sub = c ? ((I18N[lang].chip || I18N.en.chip)[c] || c) : r.obj.type;
+      const sub = r.obj.building ? facilityWhere(r.obj) : c ? ((I18N[lang].chip || I18N.en.chip)[c] || c) : r.obj.type;
       return `<div class="result-item" data-i="${i}">
         <div class="r-name">${c ? CATS[c].icon : '📍'} ${busEsc(facName(r.obj))}${fz}</div>
         <div class="r-sub">${busEsc(sub)}</div></div>`;
@@ -2768,10 +2837,7 @@ function gotoResult(r) {
     const f = r.obj, ll = [f.lat, f.lon];
     map.setView(ll, 18);
     if (f.type === 'bus_stop') openBusStopPopup(L.latLng(ll), f);
-    else {
-      const c = catOfType(f.type);
-      openFeaturePopup(L.latLng(ll), `${c ? CATS[c].icon + ' ' : ''}${facName(f)}`, null, [f.lon, f.lat]);
-    }
+    else openFacilityPopup(f);
     return;
   }
 
@@ -2794,7 +2860,8 @@ function gotoResult(r) {
   }
   const ll = [lonlat[1], lonlat[0]];
   map.setView(ll, 18);
-  openFeaturePopup(L.latLng(ll), title, null, lonlat);
+  const buildingId = r.kind === 'building' ? r.obj.properties.id : r.kind === 'room' ? r.obj.building : null;
+  openFeaturePopup(L.latLng(ll), title, buildingId, lonlat);
 }
 
 /* ================= 语言切换 ================= */

@@ -56,11 +56,13 @@ coverage score deciding what even counts as a result. Real-phrasing queries (「
 
 ### 🗺️ Map (`h5-mvp/`)
 
+Indoor-facility search now covers 41 verified directory entries (35 new, 6 enriched existing records), including training rooms, the pool, SALC, QREC BasE, and library study/printing areas. Building popups expose an expandable facility list. Markers locate the parent building, not indoor entrances or routes. Update `h5-mvp/data/indoor-facilities.json`, then run `node tools/build_indoor_facilities.js` and `node tools/test_indoor_facilities.js`; the OSM generator also invokes this merge step.
+
 - **Search** (single box, fuzzy fallback so it never goes blank)
   - 84 buildings (official numbers + trilingual labels) · 136 classrooms (`2304` / `A-101` / `工学部第5講義室`)
   - **21 offices** (dept → building → floor → room, e.g. "International Student Section · Center Zone Bldg 4, 4F, Rm 401")
   - 11 off-campus schools (found, but only their campus is shown — not routed, so you don't travel for nothing)
-  - 233 facilities: canteens / shops / ATM / toilets / **AED / parking / gates / entrances**
+  - 238 facilities: canteens / shops / ATM / toilets / **AED / parking / gates / entrances**, including 41 official indoor-directory entries
 - **Intent queries**: type "where is the canteen / 食堂はどこ / where is toilet" → listed by distance and
   pinned on the map (7 languages, accent-insensitive)
 - **🚌 Showa Bus**: map animation of 3 lines (vehicle positions estimated from the timetable, with Obon and

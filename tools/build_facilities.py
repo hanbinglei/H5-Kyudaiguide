@@ -62,3 +62,7 @@ if os.path.exists(ICONS):
 json.dump(out, open(DST, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 from collections import Counter
 print('facilities:', len(out), Counter(f['type'] for f in out))
+
+# 官方楼内目录是持久输入，OSM 重新抓取后也必须合并；缺父楼/旧 ID 时显式报错。
+import subprocess
+subprocess.run(['node', os.path.join(os.path.dirname(__file__), 'build_indoor_facilities.js')], check=True)

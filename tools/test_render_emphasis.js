@@ -2,7 +2,7 @@
 /**
  * H5 强调渲染与译文覆盖验证；同一块使用 emphasis[fieldPath] = [{start,end,style}]。
  * 检查真实输出HTML、危险协议、旧客户端兼容与按语言独立的UTF-16区间。
- * 用法：node tools/test_render_emphasis.js；只读源码和 Git HEAD，不请求后端。
+ * 用法：node tools/test_render_emphasis.js；只读源码与固定旧版快照，不请求后端。
  */
 const assert = require('node:assert/strict'), fs = require('node:fs'), path = require('node:path'), vm = require('node:vm');
 const { execFileSync } = require('node:child_process');
@@ -118,7 +118,12 @@ const nested = merge([{ id: 'c', type: 'collapse', title: '条件', emphasis: { 
 check(!Object.hasOwn(nested, 'emphasis') && !Object.hasOwn(nested.blocks[0], 'emphasis'), '折叠标题和内部译文分别移除原偏移');
 check(original.emphasis.text[0].end === 4 && original.text === '仅工作日办理', '翻译不修改中文原稿');
 
-const old = load(execFileSync('git', ['show', 'HEAD:guide/js/render.js'], { cwd: root, encoding: 'utf8' }));
+// HEAD 随发布前进，已支持 emphasis，不能继续充当旧客户端。
+// 固定到 c37d6d8 强调功能发布前的实际快照；缺历史时明确失败，不降级跳过兼容断言。
+const legacyRef = '30358774b83dfeced297307c5c66ac6bf57d8af7';
+const legacySource = execFileSync('git', ['show', legacyRef + ':guide/js/render.js'], { cwd: root, encoding: 'utf8' });
+assert(!legacySource.includes('function styledInline'), '旧版基准不得具备新增强调渲染器');
+const old = load(legacySource);
 for (const block of [...textBlocks, steps, ...lists, table, collapse, cards]) {
   check(old.renderBlocks([block]) === old.renderBlocks([unmarked(block)]), block.type + ' 旧客户端忽略新字段');
 }

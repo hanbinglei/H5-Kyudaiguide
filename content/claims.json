@@ -264,27 +264,27 @@
       "id": "jtcs-registration-2026f",
       "article": "guide-academic",
       "block": "77aa1c",
-      "claim": "2026 年度后期：留学生中心日语课程（JTCs／JACs）官方问卷期限 2026-09-25 13:00；JTCs 分班考试与课程登记期间 2026-10-16(金)〜2026-10-21(水)",
-      "sourceName": "九州大学 サポートセンター转发（原件：留学生センター／留学課「日本語クラスについて（2026年度後期）」）+ ISC JTCs 页面",
-      "source": "https://isc.kyushu-u.ac.jp/center/international/japaneselang/",
+      "claim": "2026 后期 JTCs：10/16 12:00—10/21 23:59 新规登记与在线分班测试；10/23 下午结果邮件；10/26 12:30—10/27 23:59 选班；课程期 2026/11/9—2027/2/8。均为 JST，非学分。",
+      "sourceName": "九州大学 ISC · 2026 后期 JTCs 正式课程指南（伊都・病院）",
+      "source": "https://isc.kyushu-u.ac.jp/center/kanri/wp-content/uploads/2026/10/04_JTCs%E3%82%AC%E3%82%A4%E3%83%89_2026%E5%BE%8C%E6%9C%9F.pdf",
       "effective": "2026-10-16",
-      "verified": "2026-09-26",
+      "verified": "2026-10-05",
       "level": "verified",
       "recheck": "P6M",
-      "note": "问卷与登记期间逐学期变动 —— 10/21 之后须把 77aa1c 改写为「以当期通知为准」。两步申请流程（7fbb45 / 66a59f）与 JTCs office 邮箱 japanesecourses@jimu.kyushu-u.ac.jp（2026 前期官方课程指南记载）长期有效。官方 JTCs 页面目前仍挂 2026 前期课程指南 PDF"
+      "note": "当期海报和所属学务课邮件交叉核对。新规登记与选班是两个阶段；本期指南未列出 9/25 问卷作为此次登记的额外前置条件，不再沿用旧限制。不得自动套用到下一期；2027/2/8 后作为历史资料。"
     },
     {
       "id": "jtcs-registration-2026f-newcomer",
       "article": "guide-newcomer",
       "block": "jca103",
-      "claim": "2026 年度后期：新生专区同一条日程 —— 官方问卷 2026-09-25 13:00 截止；已答问卷者 JTCs 分班考试与课程登记 2026-10-16(金)〜2026-10-21(水)；未答问卷者须先联系 JTCs office（不得写成仍可补报）",
-      "sourceName": "同上（留学課「日本語クラスについて（2026年度後期）」）+ ISC JTCs 页面",
-      "source": "https://isc.kyushu-u.ac.jp/center/international/japaneselang/",
+      "claim": "2026 后期 JTCs：10/16 12:00—10/21 23:59 新规登记与在线分班测试；10/23 下午结果邮件；10/26 12:30—10/27 23:59 选班；课程期 2026/11/9—2027/2/8。均为 JST，非学分。",
+      "sourceName": "九州大学 ISC · 2026 后期 JTCs 正式课程指南（伊都・病院）",
+      "source": "https://isc.kyushu-u.ac.jp/center/kanri/wp-content/uploads/2026/10/04_JTCs%E3%82%AC%E3%82%A4%E3%83%89_2026%E5%BE%8C%E6%9C%9F.pdf",
       "effective": "2026-10-16",
-      "verified": "2026-09-27",
+      "verified": "2026-10-05",
       "level": "verified",
       "recheck": "P6M",
-      "note": "新生专区 ⑨（jca101〜jca105）与学术篇 77aa1c 是同一条事实的两处副本 —— 改一处必须改另一处，10/21 之后两处都要改写为「以当期通知为准」。jca103 里「不要直接在课程系统上补报」的依据：系统按已登记的问卷名单走（官方通知的两步流程）。"
+      "note": "当期海报和所属学务课邮件交叉核对。新规登记与选班是两个阶段；本期指南未列出 9/25 问卷作为此次登记的额外前置条件，不再沿用旧限制。不得自动套用到下一期；2027/2/8 后作为历史资料。"
     }
   ]
 }

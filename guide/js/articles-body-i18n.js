@@ -241,40 +241,63 @@ window.ARTICLES_BODY_I18N = {
     "text": "日本語コース（JTCs／JACs）"
    },
    "7fbb45": {
-    "text": "留学生センターは日本語コースを開講しており、JTCs（単位不認定）と JACs（単位認定）の 2 つの経路があります。申し込みは 2 段階です —— まず公式アンケートに回答し、次に希望するコースのシステムで登録を完了してください。**アンケートの提出だけでは申し込みは完了しません**。登録期間を過ぎると追加申し込みはできません。"
+    "text": "日本語を学びたい方は **JTCs（単位不認定）**をご確認ください。2026 年度後期は九州大学に在籍する留学生（交換留学生、研究生、修士・博士課程学生、学部生を含む）が対象です。JTCs を受講しても **九州大学の単位は取得できません**。JACs は別の単位認定コースです。対象・手続きは JACs の公式ページで確認し、JTCs の日程を流用しないでください。",
+    "emphasis": {
+     "text": [
+      {
+       "start": 13,
+       "end": 24,
+       "style": "bold",
+       "quote": "JTCs（単位不認定）"
+      },
+      {
+       "start": 105,
+       "end": 120,
+       "style": "bold",
+       "quote": "九州大学の単位は取得できません"
+      }
+     ]
+    }
    },
    "66a59f": {
     "items": [
      {
-      "text": "第 1 段階：留学生センターの公式アンケートに回答し、自分のレベルに合ったコースへ案内されます"
+      "text": "授業：1 回 90 分、週 2 回、10 週間。Japanese 1—7 の 7 レベルです。登録には学生番号が必要です。ゼロから学ぶ方はシステムで Japanese 1 から学ぶ選択肢を選んでください。"
      },
      {
-      "text": "第 2 段階：コースのウェブサイトで登録。JTCs は別途オンラインのプレースメントテストを受験します"
+      "text": "キャンパスと形式：今期のガイドは伊都・病院キャンパスが対象です。伊都の対面授業は通常センター 5 号館で行われます。病院キャンパスの方は Zoom またはハイブリッドのクラスを選んでください。教室番号・Zoom ID は開講前に担当教員から通知されます。"
      },
      {
-      "text": "JTCs（伊都・単位不認定）：週 2 回 × 10 週間、7 レベル、修了証を発行"
+      "text": "登録前の確認：他の授業と重ならない時間割を選んでください。登録後は変更できない場合があります。JACs、JLCC、JTAS、筑紫・大橋キャンパスの日本語補講との同時受講はできません。"
      },
      {
-      "text": "JACs（伊都・単位認定）：週 2 回 × 15 週間、8 レベル、対象は学部正規留学生など"
+      "text": "教科書と証明書：初回授業の前に教科書を購入しないでください。その後、教員が指定する版を用意します。九大の単位は取得できません。受講証明書が必要な方は九大を離れる前に申請してください。交換留学生の出身校での単位認定は出身校に相談してください。"
      },
      {
-      "text": "問い合わせ：JTCs office japanesecourses@jimu.kyushu-u.ac.jp（氏名・キャンパス・学生番号を明記）"
+      "text": "問い合わせ：JTCs office japanesecourses@jimu.kyushu-u.ac.jp（氏名、キャンパス、学生番号を記載）。システムや対象資格に疑問がある場合は事前に相談し、期限後に申込できると自己判断しないでください。"
+     },
+     {
+      "text": "JACs（伊都・単位認定）：週 2 回 × 15 週間、8 レベル。対象は学部の正規留学生など"
      }
     ]
    },
    "32f280": {
     "items": [
      {
-      "text": "JTCs コースページ（伊都・単位不認定）",
+      "text": "JTCs 公式案内（単位不認定）",
       "url": "https://isc.kyushu-u.ac.jp/center/jtcs/"
      },
      {
-      "text": "JACs コースページ（伊都・単位認定）",
+      "text": "JACs 公式案内（単位認定）",
       "url": "https://isc.kyushu-u.ac.jp/center/jacs"
      },
      {
-      "text": "JTCs オンライン登録システム（プレースメントテスト・クラス登録）",
+      "text": "JTCs 新規登録・テスト入口",
       "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
+     },
+     {
+      "text": "2026 年度後期 JTCs ガイド（登録・時間割・授業カレンダー）",
+      "url": "https://isc.kyushu-u.ac.jp/center/kanri/wp-content/uploads/2026/10/04_JTCs%E3%82%AC%E3%82%A4%E3%83%89_2026%E5%BE%8C%E6%9C%9F.pdf"
      }
     ]
    },
@@ -579,7 +602,58 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "77aa1c": {
-    "text": "2026 年度後期：公式アンケートは 9/25 13:00 に締め切られました。JTCs のプレースメントテストとコース登録期間は **10/16(金)〜10/21(水)** です。日程は学期ごとに異なり、JACs の手続きは在籍区分によって異なります。いずれも ISC のページと留学課からの案内に従ってください。"
+    "items": [
+     {
+      "title": "新規登録＋オンラインプレースメントテスト：**10/16（金）12:00—10/21（水）23:59**",
+      "desc": "2026 年度後期｜時刻はすべて日本時間（JST）です。 期間内に両方を完了してください。登録だけでは申込完了になりません。"
+     },
+     {
+      "title": "結果通知：**10/23（金）午後**",
+      "desc": "にメールで届きます。具体的な時刻は公表されていません。"
+     },
+     {
+      "title": "クラス登録（class select）：**10/26（月）12:30—10/27（火）23:59**",
+      "desc": "先着順で、定員に達すると締め切られます。"
+     },
+     {
+      "title": "開講期間：**2026/11/9—2027/2/8**",
+      "desc": "毎日授業があるわけではありません。初回授業、授業日、休講日は選択したクラスの時間割で確認してください。"
+     }
+    ],
+    "emphasis": {
+     "items.0.title": [
+      {
+       "start": 23,
+       "end": 50,
+       "style": "bold",
+       "quote": "10/16（金）12:00—10/21（水）23:59"
+      }
+     ],
+     "items.1.title": [
+      {
+       "start": 7,
+       "end": 17,
+       "style": "bold",
+       "quote": "10/23（金）午後"
+      }
+     ],
+     "items.2.title": [
+      {
+       "start": 22,
+       "end": 49,
+       "style": "bold",
+       "quote": "10/26（月）12:30—10/27（火）23:59"
+      }
+     ],
+     "items.3.title": [
+      {
+       "start": 7,
+       "end": 25,
+       "style": "bold",
+       "quote": "2026/11/9—2027/2/8"
+      }
+     ]
+    }
    }
   },
   "en": {
@@ -811,40 +885,63 @@ window.ARTICLES_BODY_I18N = {
     "text": "日本語コース (JTCs / JACs)"
    },
    "7fbb45": {
-    "text": "The International Student Center offers Japanese language courses along two tracks: JTCs (non-credit) and JACs (credit). Application takes two steps — first complete the official questionnaire, then register in the system of the chosen course. **Submitting the questionnaire alone does not complete the application**, and registration cannot be made up after the period closes."
+    "text": "To improve your Japanese, consider **JTCs (non-credit)**. The fall 2026 courses are for international students enrolled at Kyushu University, including exchange, research, master’s, doctoral and undergraduate students. JTCs **does not award Kyushu University credits**. JACs is a separate credit-bearing course: check its own eligibility and procedures rather than using the JTCs dates.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 37,
+       "end": 54,
+       "style": "bold",
+       "quote": "JTCs (non-credit)"
+      },
+      {
+       "start": 226,
+       "end": 266,
+       "style": "bold",
+       "quote": "does not award Kyushu University credits"
+      }
+     ]
+    }
    },
    "66a59f": {
     "items": [
      {
-      "text": "Step 1: complete the official questionnaire from the International Student Center, which guides applicants to the course suited to their level"
+      "text": "Classes: 90 minutes per lesson, twice a week for 10 weeks; seven levels, Japanese 1—7. A student ID number is required for registration. Complete beginners should select the option to learn from scratch through Japanese 1 in the system."
      },
      {
-      "text": "Step 2: register on the course website; JTCs additionally requires the online placement test"
+      "text": "Campuses and format: this term’s guide covers Ito and Hospital campuses. Face-to-face classes at Ito are normally at Center Zone 5. Hospital-campus students should choose a Zoom or hybrid class. The instructor will provide the classroom number or Zoom ID before the course starts."
      },
      {
-      "text": "JTCs (Ito campus, non-credit): twice a week for 10 weeks, 7 levels, certificate of completion issued"
+      "text": "Before selecting a class: check for timetable conflicts; changes may not be possible later. You cannot take JTCs simultaneously with JACs, JLCC, JTAS or supplementary Japanese courses at Chikushi or Ohashi campus."
+     },
+     {
+      "text": "Textbooks and certificates: do not buy textbooks before the first class; afterwards obtain the edition specified by your instructor. JTCs gives no Kyushu University credits. Request any completion certificate before leaving Kyushu U; exchange students should ask their home university about credit recognition."
+     },
+     {
+      "text": "Contact: JTCs office japanesecourses@jimu.kyushu-u.ac.jp (include your name, campus and student ID). Ask first if you have system or eligibility questions; do not assume late registration is available."
      },
      {
       "text": "JACs (Ito campus, credit): twice a week for 15 weeks, 8 levels, for regular undergraduate international students and others"
-     },
-     {
-      "text": "Contact: JTCs office japanesecourses@jimu.kyushu-u.ac.jp (state name, campus and student ID)"
      }
     ]
    },
    "32f280": {
     "items": [
      {
-      "text": "JTCs course page (Ito campus, non-credit)",
+      "text": "JTCs official course information (non-credit)",
       "url": "https://isc.kyushu-u.ac.jp/center/jtcs/"
      },
      {
-      "text": "JACs course page (Ito campus, credit)",
+      "text": "JACs official course information (credit-bearing)",
       "url": "https://isc.kyushu-u.ac.jp/center/jacs"
      },
      {
-      "text": "JTCs online registration system (placement test and class registration)",
+      "text": "JTCs new registration and placement test",
       "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
+     },
+     {
+      "text": "Fall 2026 JTCs guide (registration, timetable and teaching calendar)",
+      "url": "https://isc.kyushu-u.ac.jp/center/kanri/wp-content/uploads/2026/10/04_JTCs%E3%82%AC%E3%82%A4%E3%83%89_2026%E5%BE%8C%E6%9C%9F.pdf"
      }
     ]
    },
@@ -1149,7 +1246,58 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "77aa1c": {
-    "text": "Fall semester 2026: the official questionnaire closed on 9/25 at 13:00; the JTCs placement test and course registration period runs from **10/16 (Fri) to 10/21 (Wed)**. Schedules differ by semester, and JACs procedures depend on enrollment category; in all cases follow the ISC pages and notices from the International Student Exchange Division."
+    "items": [
+     {
+      "title": "New registration + online placement test: **10/16 (Fri) 12:00—10/21 (Wed) 23:59**",
+      "desc": "Fall 2026 | All times are Japan Standard Time (JST). Complete both within this period; registration alone does not complete the application."
+     },
+     {
+      "title": "Results: emailed **10/23 (Fri) in the afternoon**",
+      "desc": "; no exact time is published."
+     },
+     {
+      "title": "Class selection (class select): **10/26 (Mon) 12:30—10/27 (Tue) 23:59**",
+      "desc": "First come, first served; registration closes when full."
+     },
+     {
+      "title": "Course period: **2026/11/9—2027/2/8**",
+      "desc": "Classes do not meet every day. Check your selected class timetable for your first lesson, teaching days and days off."
+     }
+    ],
+    "emphasis": {
+     "items.0.title": [
+      {
+       "start": 44,
+       "end": 79,
+       "style": "bold",
+       "quote": "10/16 (Fri) 12:00—10/21 (Wed) 23:59"
+      }
+     ],
+     "items.1.title": [
+      {
+       "start": 19,
+       "end": 47,
+       "style": "bold",
+       "quote": "10/23 (Fri) in the afternoon"
+      }
+     ],
+     "items.2.title": [
+      {
+       "start": 34,
+       "end": 69,
+       "style": "bold",
+       "quote": "10/26 (Mon) 12:30—10/27 (Tue) 23:59"
+      }
+     ],
+     "items.3.title": [
+      {
+       "start": 17,
+       "end": 35,
+       "style": "bold",
+       "quote": "2026/11/9—2027/2/8"
+      }
+     ]
+    }
    }
   },
   "ko": {
@@ -1381,40 +1529,63 @@ window.ARTICLES_BODY_I18N = {
     "text": "日本語コース(JTCs／JACs)"
    },
    "7fbb45": {
-    "text": "국제유학생센터는 일본어 과정을 개설하고 있으며 JTCs(단위 불인정)와 JACs(단위 인정) 두 가지 경로가 있습니다. 신청은 2단계입니다 — 먼저 공식 설문에 응답하고, 다음으로 선택한 과정의 시스템에서 등록을 완료합니다. **설문 제출만으로는 신청이 완료되지 않습니다**. 등록 기간이 지나면 추가 신청은 불가능합니다."
+    "text": "일본어 실력을 높이고 싶다면 **JTCs(학점 미인정)**를 확인하세요. 2026년 후기에는 규슈대에 재학 중인 유학생(교환학생, 연구생, 석사·박사과정 및 학부생 포함)이 대상입니다. JTCs를 수강해도 **규슈대 학점을 취득할 수 없습니다**. JACs는 별도의 학점 인정 과정이므로 자격과 절차는 해당 공식 페이지를 확인하고 JTCs 일정을 적용하지 마세요.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 18,
+       "end": 30,
+       "style": "bold",
+       "quote": "JTCs(학점 미인정)"
+      },
+      {
+       "start": 117,
+       "end": 135,
+       "style": "bold",
+       "quote": "규슈대 학점을 취득할 수 없습니다"
+      }
+     ]
+    }
    },
    "66a59f": {
     "items": [
      {
-      "text": "1단계: 국제유학생센터의 공식 설문에 응답하면 자신의 수준에 맞는 과정으로 안내됩니다"
+      "text": "수업: 회당 90분, 주 2회, 총 10주이며 Japanese 1—7의 7개 레벨입니다. 등록에는 학번이 필요합니다. 완전 초보자는 시스템에서 Japanese 1부터 시작하는 항목을 선택하세요."
      },
      {
-      "text": "2단계: 과정 웹사이트에서 등록. JTCs는 온라인 배치고사를 별도로 응시합니다"
+      "text": "캠퍼스와 방식: 이번 안내는 이토·병원 캠퍼스 대상입니다. 이토 대면 수업은 보통 센터 5호관에서 진행됩니다. 병원 캠퍼스 학생은 Zoom 또는 혼합 수업을 선택하세요. 강의실 번호나 Zoom ID는 개강 전에 담당 교원이 안내합니다."
      },
      {
-      "text": "JTCs(이토 캠퍼스・단위 불인정): 주 2회 × 10주, 7개 레벨, 수료증 발급"
+      "text": "반 선택 전 확인: 본인 수업과 겹치지 않는지 확인하세요. 등록 후 변경하지 못할 수 있습니다. JACs, JLCC, JTAS 또는 지쿠시·오하시 캠퍼스의 일본어 보충 수업과 동시에 수강할 수 없습니다."
      },
      {
-      "text": "JACs(이토 캠퍼스・단위 인정): 주 2회 × 15주, 8개 레벨, 학부 정규 유학생 등 대상"
+      "text": "교재와 증명서: 첫 수업 전에 교재를 사지 말고 이후 교원이 지정한 판을 준비하세요. 규슈대 학점은 인정되지 않습니다. 수강 증명서가 필요하면 규슈대를 떠나기 전에 신청하세요. 교환학생의 원소속 대학 학점 인정은 해당 대학에 문의하세요."
      },
      {
-      "text": "문의: JTCs office japanesecourses@jimu.kyushu-u.ac.jp(이름・캠퍼스・학생번호 기재)"
+      "text": "문의: JTCs office japanesecourses@jimu.kyushu-u.ac.jp(이름, 캠퍼스, 학번 기재). 시스템이나 자격에 의문이 있으면 먼저 문의하고 기한 후 등록이 가능하다고 임의로 판단하지 마세요."
+     },
+     {
+      "text": "JACs(이토 캠퍼스, 학점 인정): 주 2회 × 15주, 8단계. 학부 정규 유학생 등이 대상"
      }
     ]
    },
    "32f280": {
     "items": [
      {
-      "text": "JTCs 과정 페이지(이토 캠퍼스・단위 불인정)",
+      "text": "JTCs 공식 안내(학점 미인정)",
       "url": "https://isc.kyushu-u.ac.jp/center/jtcs/"
      },
      {
-      "text": "JACs 과정 페이지(이토 캠퍼스・단위 인정)",
+      "text": "JACs 공식 안내(학점 인정)",
       "url": "https://isc.kyushu-u.ac.jp/center/jacs"
      },
      {
-      "text": "JTCs 온라인 등록 시스템(배치고사・클래스 등록)",
+      "text": "JTCs 신규 등록·분반 테스트",
       "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
+     },
+     {
+      "text": "2026년 후기 JTCs 안내(등록·시간표·수업 달력)",
+      "url": "https://isc.kyushu-u.ac.jp/center/kanri/wp-content/uploads/2026/10/04_JTCs%E3%82%AC%E3%82%A4%E3%83%89_2026%E5%BE%8C%E6%9C%9F.pdf"
      }
     ]
    },
@@ -1719,7 +1890,58 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "77aa1c": {
-    "text": "2026년 후기(가을학기): 공식 설문은 9/25 13:00에 마감되었습니다. JTCs 배치고사와 과정 등록 기간은 **10/16(금)〜10/21(수)**입니다. 일정은 학기마다 다르며, JACs 수속은 재적 구분에 따라 다릅니다. 모두 ISC 페이지와 留学課 안내를 따르십시오."
+    "items": [
+     {
+      "title": "신규 등록＋온라인 분반 테스트: **10/16(금) 12:00—10/21(수) 23:59**",
+      "desc": "2026년 후기｜모든 시각은 일본 표준시(JST)입니다. 기간 내 두 가지를 모두 완료해야 하며 등록만으로 신청이 완료되지 않습니다."
+     },
+     {
+      "title": "결과: **10/23(금) 오후**",
+      "desc": "이메일로 통지됩니다. 정확한 시각은 공지되지 않았습니다."
+     },
+     {
+      "title": "반 선택 등록(class select): **10/26(월) 12:30—10/27(화) 23:59**",
+      "desc": "선착순이며 정원이 차면 마감됩니다."
+     },
+     {
+      "title": "수업 기간: **2026/11/9—2027/2/8**",
+      "desc": "매일 수업하는 것이 아닙니다. 첫 수업, 수업일 및 휴강일은 선택한 반 시간표로 확인하세요."
+     }
+    ],
+    "emphasis": {
+     "items.0.title": [
+      {
+       "start": 20,
+       "end": 49,
+       "style": "bold",
+       "quote": "10/16(금) 12:00—10/21(수) 23:59"
+      }
+     ],
+     "items.1.title": [
+      {
+       "start": 6,
+       "end": 17,
+       "style": "bold",
+       "quote": "10/23(금) 오후"
+      }
+     ],
+     "items.2.title": [
+      {
+       "start": 25,
+       "end": 54,
+       "style": "bold",
+       "quote": "10/26(월) 12:30—10/27(화) 23:59"
+      }
+     ],
+     "items.3.title": [
+      {
+       "start": 9,
+       "end": 27,
+       "style": "bold",
+       "quote": "2026/11/9—2027/2/8"
+      }
+     ]
+    }
    }
   },
   "es": {
@@ -1963,40 +2185,63 @@ window.ARTICLES_BODY_I18N = {
     "text": "Cursos de japonés (JTCs / JACs)"
    },
    "7fbb45": {
-    "text": "El Centro de Estudiantes Internacionales ofrece cursos de japonés por dos vías: JTCs (sin créditos) y JACs (con créditos). La solicitud consta de dos pasos: primero, responder al cuestionario oficial, y después inscribirse en el sistema del curso elegido. **Enviar solo el cuestionario no completa la solicitud** y, una vez cerrado el plazo de inscripción, no cabe solicitud posterior."
+    "text": "Para mejorar tu japonés, consulta **JTCs (sin créditos)**. En otoño de 2026 pueden participar estudiantes internacionales matriculados en Kyushu University, incluidos estudiantes de intercambio, de investigación, máster, doctorado y grado. JTCs **no otorga créditos de Kyushu University**. JACs es un curso distinto con créditos: consulta sus propios requisitos y trámites, sin aplicar las fechas de JTCs.",
+    "emphasis": {
+     "text": [
+      {
+       "start": 36,
+       "end": 55,
+       "style": "bold",
+       "quote": "JTCs (sin créditos)"
+      },
+      {
+       "start": 247,
+       "end": 286,
+       "style": "bold",
+       "quote": "no otorga créditos de Kyushu University"
+      }
+     ]
+    }
    },
    "66a59f": {
     "items": [
      {
-      "text": "Paso 1: responder al cuestionario oficial del Centro de Estudiantes Internacionales, que orienta al curso adecuado según el nivel"
+      "text": "Clases: 90 minutos por sesión, dos veces por semana durante 10 semanas; siete niveles, Japanese 1—7. Necesitas tu número de estudiante para registrarte. Si empiezas desde cero, selecciona en el sistema la opción para aprender desde Japanese 1."
      },
      {
-      "text": "Paso 2: inscribirse en la web del curso; JTCs requiere además la prueba de nivel en línea"
+      "text": "Campus y modalidad: la guía de este semestre cubre Ito y Hospital. Las clases presenciales de Ito suelen impartirse en Center Zone 5. Los estudiantes del campus Hospital deben elegir una clase por Zoom o híbrida. El docente comunicará el aula o el ID de Zoom antes del inicio."
      },
      {
-      "text": "JTCs (campus Ito, sin créditos): dos veces por semana durante 10 semanas, 7 niveles, certificado de finalización"
+      "text": "Antes de elegir: comprueba que no haya conflictos de horario; puede que luego no puedas cambiar de clase. No puedes cursar JTCs a la vez que JACs, JLCC, JTAS o los cursos complementarios de japonés de Chikushi u Ohashi."
      },
      {
-      "text": "JACs (campus Ito, con créditos): dos veces por semana durante 15 semanas, 8 niveles, para estudiantes internacionales de grado regulares y otros"
+      "text": "Libros y certificados: no compres libros antes de la primera clase; después consigue la edición indicada por el docente. JTCs no otorga créditos de Kyushu University. Solicita el certificado antes de dejar Kyushu U. Para reconocer créditos de intercambio, consulta a tu universidad de origen."
      },
      {
-      "text": "Contacto: JTCs office japanesecourses@jimu.kyushu-u.ac.jp (indicar nombre, campus y número de estudiante)"
+      "text": "Consulta: JTCs office japanesecourses@jimu.kyushu-u.ac.jp (incluye nombre, campus y número de estudiante). Pregunta primero si tienes dudas sobre el sistema o los requisitos; no presupongas que se permite inscribirse fuera de plazo."
+     },
+     {
+      "text": "JACs (campus Ito, con créditos): dos veces por semana durante 15 semanas, 8 niveles, para estudiantes internacionales regulares de grado, entre otros"
      }
     ]
    },
    "32f280": {
     "items": [
      {
-      "text": "Página del curso JTCs (campus Ito, sin créditos)",
+      "text": "Información oficial de JTCs (sin créditos)",
       "url": "https://isc.kyushu-u.ac.jp/center/jtcs/"
      },
      {
-      "text": "Página del curso JACs (campus Ito, con créditos)",
+      "text": "Información oficial de JACs (con créditos)",
       "url": "https://isc.kyushu-u.ac.jp/center/jacs"
      },
      {
-      "text": "Sistema de inscripción en línea de JTCs (prueba de nivel y registro de clase)",
+      "text": "Nuevo registro y prueba de nivel JTCs",
       "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
+     },
+     {
+      "text": "Guía JTCs de otoño de 2026 (registro, horario y calendario lectivo)",
+      "url": "https://isc.kyushu-u.ac.jp/center/kanri/wp-content/uploads/2026/10/04_JTCs%E3%82%AC%E3%82%A4%E3%83%89_2026%E5%BE%8C%E6%9C%9F.pdf"
      }
     ]
    },
@@ -2289,7 +2534,58 @@ window.ARTICLES_BODY_I18N = {
     "text": "RA (ayudante de investigación)"
    },
    "77aa1c": {
-    "text": "Otoño de 2026: el cuestionario oficial cerró el 9/25 a las 13:00; el periodo de prueba de nivel y de inscripción de JTCs va del **10/16 (vie) al 10/21 (mié)**. Los calendarios varían en cada semestre y los trámites de JACs dependen de la categoría de matrícula; en todos los casos, sigue las páginas del ISC y los avisos de la División de Intercambio Internacional."
+    "items": [
+     {
+      "title": "Nuevo registro + prueba de nivel en línea: **10/16 (vie.) 12:00—10/21 (mié.) 23:59**",
+      "desc": "Otoño de 2026 | Todas las horas son de Japón (JST). Completa ambos dentro del plazo; registrarse no basta para finalizar la solicitud."
+     },
+     {
+      "title": "Resultados: por correo **10/23 (vie.) por la tarde**",
+      "desc": "; no se ha publicado una hora exacta."
+     },
+     {
+      "title": "Selección de clase (class select): **10/26 (lun.) 12:30—10/27 (mar.) 23:59**",
+      "desc": "Por orden de inscripción, hasta completar el aforo."
+     },
+     {
+      "title": "Periodo del curso: **2026/11/9—2027/2/8**",
+      "desc": "No hay clase todos los días. Comprueba tu horario para conocer la primera sesión, los días lectivos y las suspensiones."
+     }
+    ],
+    "emphasis": {
+     "items.0.title": [
+      {
+       "start": 45,
+       "end": 82,
+       "style": "bold",
+       "quote": "10/16 (vie.) 12:00—10/21 (mié.) 23:59"
+      }
+     ],
+     "items.1.title": [
+      {
+       "start": 25,
+       "end": 50,
+       "style": "bold",
+       "quote": "10/23 (vie.) por la tarde"
+      }
+     ],
+     "items.2.title": [
+      {
+       "start": 37,
+       "end": 74,
+       "style": "bold",
+       "quote": "10/26 (lun.) 12:30—10/27 (mar.) 23:59"
+      }
+     ],
+     "items.3.title": [
+      {
+       "start": 21,
+       "end": 39,
+       "style": "bold",
+       "quote": "2026/11/9—2027/2/8"
+      }
+     ]
+    }
    }
   }
  },
@@ -19479,20 +19775,77 @@ window.ARTICLES_BODY_I18N = {
     "title": "セトルインターナショナル（SETTLE International）入居者 · 日程（A～C グループ）"
    },
    "jca101": {
-    "text": "⑨ 日本語コース（JTCs／JACs）の申し込み"
+    "text": "⑨ JTCs 日本語補講：2026 年度後期の申込"
    },
    "jca102": {
-    "text": "留学生センターは日本語コースを開講しており、**JTCs**（単位不認定・週 2 回 × 10 週間・7 レベル）と **JACs**（単位認定・週 2 回 × 15 週間・8 レベル）の 2 つの経路があります。いずれも伊都キャンパス Center Zone 5（センター5号館）で行われます。2026 年度後期（秋学期）はすでにアンケート段階が終了しており、次はプレースメントテストとコース登録です。"
-   },
-   "jca103": {
-    "text": "2026年度後期：アンケートは9/25 13:00で締め切られました。\n回答済みの方：10/16(金)〜10/21(水)にプレースメントテストと授業登録を完了してください。アンケートへの回答だけでは申込みは完了しません。\n未回答の方：まずJTCs office（japanesecourses@jimu.kyushu-u.ac.jp）へ氏名・キャンパス・学生番号を伝え、今期参加できるか確認してください。登録済みの名簿に基づくため、授業システムで直接追加登録しないでください。",
+    "text": "日本語を学びたい方は **JTCs（単位不認定）**をご確認ください。2026 年度後期は九州大学に在籍する留学生（交換留学生、研究生、修士・博士課程学生、学部生を含む）が対象です。JTCs を受講しても **九州大学の単位は取得できません**。JACs は別の単位認定コースです。対象・手続きは JACs の公式ページで確認し、JTCs の日程を流用しないでください。",
     "emphasis": {
      "text": [
       {
-       "start": 43,
-       "end": 60,
-       "style": "underline",
-       "quote": "10/16(金)〜10/21(水)"
+       "start": 13,
+       "end": 24,
+       "style": "bold",
+       "quote": "JTCs（単位不認定）"
+      },
+      {
+       "start": 105,
+       "end": 120,
+       "style": "bold",
+       "quote": "九州大学の単位は取得できません"
+      }
+     ]
+    }
+   },
+   "jca103": {
+    "items": [
+     {
+      "title": "新規登録＋オンラインプレースメントテスト：**10/16（金）12:00—10/21（水）23:59**",
+      "desc": "2026 年度後期｜時刻はすべて日本時間（JST）です。 期間内に両方を完了してください。登録だけでは申込完了になりません。"
+     },
+     {
+      "title": "結果通知：**10/23（金）午後**",
+      "desc": "にメールで届きます。具体的な時刻は公表されていません。"
+     },
+     {
+      "title": "クラス登録（class select）：**10/26（月）12:30—10/27（火）23:59**",
+      "desc": "先着順で、定員に達すると締め切られます。"
+     },
+     {
+      "title": "開講期間：**2026/11/9—2027/2/8**",
+      "desc": "毎日授業があるわけではありません。初回授業、授業日、休講日は選択したクラスの時間割で確認してください。"
+     }
+    ],
+    "emphasis": {
+     "items.0.title": [
+      {
+       "start": 23,
+       "end": 50,
+       "style": "bold",
+       "quote": "10/16（金）12:00—10/21（水）23:59"
+      }
+     ],
+     "items.1.title": [
+      {
+       "start": 7,
+       "end": 17,
+       "style": "bold",
+       "quote": "10/23（金）午後"
+      }
+     ],
+     "items.2.title": [
+      {
+       "start": 22,
+       "end": 49,
+       "style": "bold",
+       "quote": "10/26（月）12:30—10/27（火）23:59"
+      }
+     ],
+     "items.3.title": [
+      {
+       "start": 7,
+       "end": 25,
+       "style": "bold",
+       "quote": "2026/11/9—2027/2/8"
       }
      ]
     }
@@ -19500,40 +19853,50 @@ window.ARTICLES_BODY_I18N = {
    "jca104": {
     "items": [
      {
-      "text": "JTCs（伊都・単位不認定）：週 2 回 × 10 週間・7 レベル・修了時に受講証明書を発行"
+      "text": "授業：1 回 90 分、週 2 回、10 週間。Japanese 1—7 の 7 レベルです。登録には学生番号が必要です。ゼロから学ぶ方はシステムで Japanese 1 から学ぶ選択肢を選んでください。"
      },
      {
-      "text": "JACs（伊都・単位認定）：週 2 回 × 15 週間・8 レベル・対象は学部正規留学生など"
+      "text": "キャンパスと形式：今期のガイドは伊都・病院キャンパスが対象です。伊都の対面授業は通常センター 5 号館で行われます。病院キャンパスの方は Zoom またはハイブリッドのクラスを選んでください。教室番号・Zoom ID は開講前に担当教員から通知されます。"
      },
      {
-      "text": "実施場所：伊都キャンパス Center Zone 5（センター5号館）"
+      "text": "登録前の確認：他の授業と重ならない時間割を選んでください。登録後は変更できない場合があります。JACs、JLCC、JTAS、筑紫・大橋キャンパスの日本語補講との同時受講はできません。"
      },
      {
-      "text": "受講証明書が必要な場合は九大を離れる前に申請してください（帰国後の申請は有料で、手続きも複雑になります）"
+      "text": "教科書と証明書：初回授業の前に教科書を購入しないでください。その後、教員が指定する版を用意します。九大の単位は取得できません。受講証明書が必要な方は九大を離れる前に申請してください。交換留学生の出身校での単位認定は出身校に相談してください。"
+     },
+     {
+      "text": "JACs（伊都・単位認定）：週 2 回 × 15 週間、8 レベル。対象は学部の正規留学生など"
      }
     ]
    },
    "jca105": {
     "items": [
      {
-      "text": "九大の日本語コース総覧（在籍区分とキャンパスで選ぶ）",
+      "text": "九大日本語コース一覧（身分・キャンパス別）",
       "url": "https://isc.kyushu-u.ac.jp/center/international/japaneselang/"
      },
      {
-      "text": "JTCs コースページ（伊都・単位不認定）",
+      "text": "JTCs 公式案内（単位不認定）",
       "url": "https://isc.kyushu-u.ac.jp/center/jtcs/"
      },
      {
-      "text": "JACs コースページ（伊都・単位認定）",
+      "text": "JACs 公式案内（単位認定）",
       "url": "https://isc.kyushu-u.ac.jp/center/jacs"
      },
      {
-      "text": "JTCs オンライン登録システム（プレースメントテスト・クラス登録）",
+      "text": "JTCs 新規登録・テスト入口",
       "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
+     },
+     {
+      "text": "2026 年度後期 JTCs ガイド（登録・時間割・授業カレンダー）",
+      "url": "https://isc.kyushu-u.ac.jp/center/kanri/wp-content/uploads/2026/10/04_JTCs%E3%82%AC%E3%82%A4%E3%83%89_2026%E5%BE%8C%E6%9C%9F.pdf"
      }
     ]
    },
-   "b0c1d2": {}
+   "b0c1d2": {},
+   "jca106": {
+    "text": "問い合わせ：JTCs office japanesecourses@jimu.kyushu-u.ac.jp（氏名、キャンパス、学生番号を記載）。システムや対象資格に疑問がある場合は事前に相談し、期限後に申込できると自己判断しないでください。"
+   }
   },
   "en": {
    "83b134": {
@@ -20195,20 +20558,77 @@ window.ARTICLES_BODY_I18N = {
     "title": "Residents of セトルインターナショナル (SETTLE International) · Schedule (Groups A–C)"
    },
    "jca101": {
-    "text": "⑨ Japanese courses (JTCs / JACs): application"
+    "text": "⑨ JTCs Japanese courses: fall 2026 registration"
    },
    "jca102": {
-    "text": "The International Student Center offers Japanese courses along two tracks: **JTCs** (non-credit, twice a week for 10 weeks, 7 levels) and **JACs** (credit, twice a week for 15 weeks, 8 levels). Both are held at Center Zone 5 on the Ito campus. For fall 2026 the questionnaire stage has already closed; what remains is the placement test and course registration."
-   },
-   "jca103": {
-    "text": "Autumn 2026: the questionnaire closed on 9/25 at 13:00.\nIf you answered it: complete the placement test and course registration between 10/16 (Fri) and 10/21 (Wed). Answering the questionnaire alone does not complete the application.\nIf you did not: contact the JTCs office first (japanesecourses@jimu.kyushu-u.ac.jp), giving your name, campus and student number, to ask whether you can join this term. Do not register directly in the course system: it uses the registered participant list.",
+    "text": "To improve your Japanese, consider **JTCs (non-credit)**. The fall 2026 courses are for international students enrolled at Kyushu University, including exchange, research, master’s, doctoral and undergraduate students. JTCs **does not award Kyushu University credits**. JACs is a separate credit-bearing course: check its own eligibility and procedures rather than using the JTCs dates.",
     "emphasis": {
      "text": [
       {
-       "start": 136,
-       "end": 163,
-       "style": "underline",
-       "quote": "10/16 (Fri) and 10/21 (Wed)"
+       "start": 37,
+       "end": 54,
+       "style": "bold",
+       "quote": "JTCs (non-credit)"
+      },
+      {
+       "start": 226,
+       "end": 266,
+       "style": "bold",
+       "quote": "does not award Kyushu University credits"
+      }
+     ]
+    }
+   },
+   "jca103": {
+    "items": [
+     {
+      "title": "New registration + online placement test: **10/16 (Fri) 12:00—10/21 (Wed) 23:59**",
+      "desc": "Fall 2026 | All times are Japan Standard Time (JST). Complete both within this period; registration alone does not complete the application."
+     },
+     {
+      "title": "Results: emailed **10/23 (Fri) in the afternoon**",
+      "desc": "; no exact time is published."
+     },
+     {
+      "title": "Class selection (class select): **10/26 (Mon) 12:30—10/27 (Tue) 23:59**",
+      "desc": "First come, first served; registration closes when full."
+     },
+     {
+      "title": "Course period: **2026/11/9—2027/2/8**",
+      "desc": "Classes do not meet every day. Check your selected class timetable for your first lesson, teaching days and days off."
+     }
+    ],
+    "emphasis": {
+     "items.0.title": [
+      {
+       "start": 44,
+       "end": 79,
+       "style": "bold",
+       "quote": "10/16 (Fri) 12:00—10/21 (Wed) 23:59"
+      }
+     ],
+     "items.1.title": [
+      {
+       "start": 19,
+       "end": 47,
+       "style": "bold",
+       "quote": "10/23 (Fri) in the afternoon"
+      }
+     ],
+     "items.2.title": [
+      {
+       "start": 34,
+       "end": 69,
+       "style": "bold",
+       "quote": "10/26 (Mon) 12:30—10/27 (Tue) 23:59"
+      }
+     ],
+     "items.3.title": [
+      {
+       "start": 17,
+       "end": 35,
+       "style": "bold",
+       "quote": "2026/11/9—2027/2/8"
       }
      ]
     }
@@ -20216,40 +20636,50 @@ window.ARTICLES_BODY_I18N = {
    "jca104": {
     "items": [
      {
-      "text": "JTCs (Ito campus, non-credit): twice a week for 10 weeks, 7 levels, certificate of attendance on completion"
+      "text": "Classes: 90 minutes per lesson, twice a week for 10 weeks; seven levels, Japanese 1—7. A student ID number is required for registration. Complete beginners should select the option to learn from scratch through Japanese 1 in the system."
+     },
+     {
+      "text": "Campuses and format: this term’s guide covers Ito and Hospital campuses. Face-to-face classes at Ito are normally at Center Zone 5. Hospital-campus students should choose a Zoom or hybrid class. The instructor will provide the classroom number or Zoom ID before the course starts."
+     },
+     {
+      "text": "Before selecting a class: check for timetable conflicts; changes may not be possible later. You cannot take JTCs simultaneously with JACs, JLCC, JTAS or supplementary Japanese courses at Chikushi or Ohashi campus."
+     },
+     {
+      "text": "Textbooks and certificates: do not buy textbooks before the first class; afterwards obtain the edition specified by your instructor. JTCs gives no Kyushu University credits. Request any completion certificate before leaving Kyushu U; exchange students should ask their home university about credit recognition."
      },
      {
       "text": "JACs (Ito campus, credit): twice a week for 15 weeks, 8 levels, for regular undergraduate international students and others"
-     },
-     {
-      "text": "Venue: Center Zone 5, Ito campus"
-     },
-     {
-      "text": "If you need a certificate of attendance, apply before leaving Kyushu U. (applying after returning home costs more and takes more steps)"
      }
     ]
    },
    "jca105": {
     "items": [
      {
-      "text": "Kyushu U. Japanese course overview (choose by status and campus)",
+      "text": "Kyushu U Japanese course overview (by status and campus)",
       "url": "https://isc.kyushu-u.ac.jp/center/international/japaneselang/"
      },
      {
-      "text": "JTCs course page (Ito campus, non-credit)",
+      "text": "JTCs official course information (non-credit)",
       "url": "https://isc.kyushu-u.ac.jp/center/jtcs/"
      },
      {
-      "text": "JACs course page (Ito campus, credit)",
+      "text": "JACs official course information (credit-bearing)",
       "url": "https://isc.kyushu-u.ac.jp/center/jacs"
      },
      {
-      "text": "JTCs online registration system (placement test and class registration)",
+      "text": "JTCs new registration and placement test",
       "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
+     },
+     {
+      "text": "Fall 2026 JTCs guide (registration, timetable and teaching calendar)",
+      "url": "https://isc.kyushu-u.ac.jp/center/kanri/wp-content/uploads/2026/10/04_JTCs%E3%82%AC%E3%82%A4%E3%83%89_2026%E5%BE%8C%E6%9C%9F.pdf"
      }
     ]
    },
-   "b0c1d2": {}
+   "b0c1d2": {},
+   "jca106": {
+    "text": "Contact: JTCs office japanesecourses@jimu.kyushu-u.ac.jp (include your name, campus and student ID). Ask first if you have system or eligibility questions; do not assume late registration is available."
+   }
   },
   "ko": {
    "83b134": {
@@ -20911,20 +21341,77 @@ window.ARTICLES_BODY_I18N = {
     "title": "セトルインターナショナル(SETTLE International) 입주자 · 일정(A~C조)"
    },
    "jca101": {
-    "text": "⑨ 일본어 과정(JTCs／JACs) 신청"
+    "text": "⑨ JTCs 일본어 수업: 2026년 후기 신청"
    },
    "jca102": {
-    "text": "국제유학생센터는 일본어 과정을 **JTCs**(단위 불인정・주 2회 × 10주・7개 레벨)와 **JACs**(단위 인정・주 2회 × 15주・8개 레벨) 두 경로로 개설하고 있으며, 두 과정 모두 이토 캠퍼스 Center Zone 5(센터 5호관)에서 열립니다. 2026년 후기(가을학기)는 설문 단계가 이미 끝났고, 다음은 배치고사와 과정 등록입니다."
-   },
-   "jca103": {
-    "text": "2026년 후기: 설문은 9/25 13:00에 마감되었습니다.\n설문 응답자: 10/16(금)〜10/21(수)에 레벨 테스트와 수강 등록을 완료하세요. 설문 응답만으로 신청이 끝나지는 않습니다.\n미응답자: 먼저 JTCs office(japanesecourses@jimu.kyushu-u.ac.jp)에 이름, 캠퍼스, 학번을 알려 이번 학기 참가 가능 여부를 확인하세요. 등록된 명단에 따라 처리하므로 수강 시스템에서 직접 추가 등록하지 마세요.",
+    "text": "일본어 실력을 높이고 싶다면 **JTCs(학점 미인정)**를 확인하세요. 2026년 후기에는 규슈대에 재학 중인 유학생(교환학생, 연구생, 석사·박사과정 및 학부생 포함)이 대상입니다. JTCs를 수강해도 **규슈대 학점을 취득할 수 없습니다**. JACs는 별도의 학점 인정 과정이므로 자격과 절차는 해당 공식 페이지를 확인하고 JTCs 일정을 적용하지 마세요.",
     "emphasis": {
      "text": [
       {
-       "start": 43,
-       "end": 60,
-       "style": "underline",
-       "quote": "10/16(금)〜10/21(수)"
+       "start": 18,
+       "end": 30,
+       "style": "bold",
+       "quote": "JTCs(학점 미인정)"
+      },
+      {
+       "start": 117,
+       "end": 135,
+       "style": "bold",
+       "quote": "규슈대 학점을 취득할 수 없습니다"
+      }
+     ]
+    }
+   },
+   "jca103": {
+    "items": [
+     {
+      "title": "신규 등록＋온라인 분반 테스트: **10/16(금) 12:00—10/21(수) 23:59**",
+      "desc": "2026년 후기｜모든 시각은 일본 표준시(JST)입니다. 기간 내 두 가지를 모두 완료해야 하며 등록만으로 신청이 완료되지 않습니다."
+     },
+     {
+      "title": "결과: **10/23(금) 오후**",
+      "desc": "이메일로 통지됩니다. 정확한 시각은 공지되지 않았습니다."
+     },
+     {
+      "title": "반 선택 등록(class select): **10/26(월) 12:30—10/27(화) 23:59**",
+      "desc": "선착순이며 정원이 차면 마감됩니다."
+     },
+     {
+      "title": "수업 기간: **2026/11/9—2027/2/8**",
+      "desc": "매일 수업하는 것이 아닙니다. 첫 수업, 수업일 및 휴강일은 선택한 반 시간표로 확인하세요."
+     }
+    ],
+    "emphasis": {
+     "items.0.title": [
+      {
+       "start": 20,
+       "end": 49,
+       "style": "bold",
+       "quote": "10/16(금) 12:00—10/21(수) 23:59"
+      }
+     ],
+     "items.1.title": [
+      {
+       "start": 6,
+       "end": 17,
+       "style": "bold",
+       "quote": "10/23(금) 오후"
+      }
+     ],
+     "items.2.title": [
+      {
+       "start": 25,
+       "end": 54,
+       "style": "bold",
+       "quote": "10/26(월) 12:30—10/27(화) 23:59"
+      }
+     ],
+     "items.3.title": [
+      {
+       "start": 9,
+       "end": 27,
+       "style": "bold",
+       "quote": "2026/11/9—2027/2/8"
       }
      ]
     }
@@ -20932,40 +21419,50 @@ window.ARTICLES_BODY_I18N = {
    "jca104": {
     "items": [
      {
-      "text": "JTCs(이토 캠퍼스・단위 불인정): 주 2회 × 10주・7개 레벨・수료 시 수강증명서 발급"
+      "text": "수업: 회당 90분, 주 2회, 총 10주이며 Japanese 1—7의 7개 레벨입니다. 등록에는 학번이 필요합니다. 완전 초보자는 시스템에서 Japanese 1부터 시작하는 항목을 선택하세요."
      },
      {
-      "text": "JACs(이토 캠퍼스・단위 인정): 주 2회 × 15주・8개 레벨・학부 정규 유학생 등 대상"
+      "text": "캠퍼스와 방식: 이번 안내는 이토·병원 캠퍼스 대상입니다. 이토 대면 수업은 보통 센터 5호관에서 진행됩니다. 병원 캠퍼스 학생은 Zoom 또는 혼합 수업을 선택하세요. 강의실 번호나 Zoom ID는 개강 전에 담당 교원이 안내합니다."
      },
      {
-      "text": "수업 장소: 이토 캠퍼스 Center Zone 5(센터 5호관)"
+      "text": "반 선택 전 확인: 본인 수업과 겹치지 않는지 확인하세요. 등록 후 변경하지 못할 수 있습니다. JACs, JLCC, JTAS 또는 지쿠시·오하시 캠퍼스의 일본어 보충 수업과 동시에 수강할 수 없습니다."
      },
      {
-      "text": "수강증명서가 필요하면 규슈대를 떠나기 전에 신청하십시오(귀국 후 신청은 유료이고 절차도 복잡합니다)"
+      "text": "교재와 증명서: 첫 수업 전에 교재를 사지 말고 이후 교원이 지정한 판을 준비하세요. 규슈대 학점은 인정되지 않습니다. 수강 증명서가 필요하면 규슈대를 떠나기 전에 신청하세요. 교환학생의 원소속 대학 학점 인정은 해당 대학에 문의하세요."
+     },
+     {
+      "text": "JACs(이토 캠퍼스, 학점 인정): 주 2회 × 15주, 8단계. 학부 정규 유학생 등이 대상"
      }
     ]
    },
    "jca105": {
     "items": [
      {
-      "text": "규슈대 일본어 과정 총람(재적 구분과 캠퍼스로 선택)",
+      "text": "규슈대 일본어 과정 안내(신분·캠퍼스별)",
       "url": "https://isc.kyushu-u.ac.jp/center/international/japaneselang/"
      },
      {
-      "text": "JTCs 과정 페이지(이토 캠퍼스・단위 불인정)",
+      "text": "JTCs 공식 안내(학점 미인정)",
       "url": "https://isc.kyushu-u.ac.jp/center/jtcs/"
      },
      {
-      "text": "JACs 과정 페이지(이토 캠퍼스・단위 인정)",
+      "text": "JACs 공식 안내(학점 인정)",
       "url": "https://isc.kyushu-u.ac.jp/center/jacs"
      },
      {
-      "text": "JTCs 온라인 등록 시스템(배치고사・클래스 등록)",
+      "text": "JTCs 신규 등록·분반 테스트",
       "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
+     },
+     {
+      "text": "2026년 후기 JTCs 안내(등록·시간표·수업 달력)",
+      "url": "https://isc.kyushu-u.ac.jp/center/kanri/wp-content/uploads/2026/10/04_JTCs%E3%82%AC%E3%82%A4%E3%83%89_2026%E5%BE%8C%E6%9C%9F.pdf"
      }
     ]
    },
-   "b0c1d2": {}
+   "b0c1d2": {},
+   "jca106": {
+    "text": "문의: JTCs office japanesecourses@jimu.kyushu-u.ac.jp(이름, 캠퍼스, 학번 기재). 시스템이나 자격에 의문이 있으면 먼저 문의하고 기한 후 등록이 가능하다고 임의로 판단하지 마세요."
+   }
   },
   "es": {
    "83b134": {
@@ -21618,20 +22115,77 @@ window.ARTICLES_BODY_I18N = {
     "title": "Residentes de Settle International (セトルインターナショナル) · Calendario (grupos A–C)"
    },
    "jca101": {
-    "text": "⑨ Cursos de japonés (JTCs / JACs): solicitud"
+    "text": "⑨ Cursos de japonés JTCs: inscripción de otoño de 2026"
    },
    "jca102": {
-    "text": "El Centro de Estudiantes Internacionales ofrece cursos de japonés por dos vías: **JTCs** (sin créditos, dos veces por semana durante 10 semanas, 7 niveles) y **JACs** (con créditos, dos veces por semana durante 15 semanas, 8 niveles). Ambos se imparten en el Center Zone 5 del campus Ito. En el otoño de 2026 la fase del cuestionario ya ha cerrado; lo que queda es la prueba de nivel y la inscripción en el curso."
-   },
-   "jca103": {
-    "text": "Otoño de 2026: el cuestionario cerró el 9/25 a las 13:00.\nSi lo respondiste: completa la prueba de nivel y la inscripción entre el 10/16 (viernes) y el 10/21 (miércoles). Responder al cuestionario no completa por sí solo la solicitud.\nSi no lo respondiste: consulta primero con JTCs office (japanesecourses@jimu.kyushu-u.ac.jp), indicando nombre, campus y número de estudiante, para saber si puedes participar este semestre. No te inscribas directamente en el sistema: se utiliza la lista de participantes registrados.",
+    "text": "Para mejorar tu japonés, consulta **JTCs (sin créditos)**. En otoño de 2026 pueden participar estudiantes internacionales matriculados en Kyushu University, incluidos estudiantes de intercambio, de investigación, máster, doctorado y grado. JTCs **no otorga créditos de Kyushu University**. JACs es un curso distinto con créditos: consulta sus propios requisitos y trámites, sin aplicar las fechas de JTCs.",
     "emphasis": {
      "text": [
       {
-       "start": 131,
-       "end": 169,
-       "style": "underline",
-       "quote": "10/16 (viernes) y el 10/21 (miércoles)"
+       "start": 36,
+       "end": 55,
+       "style": "bold",
+       "quote": "JTCs (sin créditos)"
+      },
+      {
+       "start": 247,
+       "end": 286,
+       "style": "bold",
+       "quote": "no otorga créditos de Kyushu University"
+      }
+     ]
+    }
+   },
+   "jca103": {
+    "items": [
+     {
+      "title": "Nuevo registro + prueba de nivel en línea: **10/16 (vie.) 12:00—10/21 (mié.) 23:59**",
+      "desc": "Otoño de 2026 | Todas las horas son de Japón (JST). Completa ambos dentro del plazo; registrarse no basta para finalizar la solicitud."
+     },
+     {
+      "title": "Resultados: por correo **10/23 (vie.) por la tarde**",
+      "desc": "; no se ha publicado una hora exacta."
+     },
+     {
+      "title": "Selección de clase (class select): **10/26 (lun.) 12:30—10/27 (mar.) 23:59**",
+      "desc": "Por orden de inscripción, hasta completar el aforo."
+     },
+     {
+      "title": "Periodo del curso: **2026/11/9—2027/2/8**",
+      "desc": "No hay clase todos los días. Comprueba tu horario para conocer la primera sesión, los días lectivos y las suspensiones."
+     }
+    ],
+    "emphasis": {
+     "items.0.title": [
+      {
+       "start": 45,
+       "end": 82,
+       "style": "bold",
+       "quote": "10/16 (vie.) 12:00—10/21 (mié.) 23:59"
+      }
+     ],
+     "items.1.title": [
+      {
+       "start": 25,
+       "end": 50,
+       "style": "bold",
+       "quote": "10/23 (vie.) por la tarde"
+      }
+     ],
+     "items.2.title": [
+      {
+       "start": 37,
+       "end": 74,
+       "style": "bold",
+       "quote": "10/26 (lun.) 12:30—10/27 (mar.) 23:59"
+      }
+     ],
+     "items.3.title": [
+      {
+       "start": 21,
+       "end": 39,
+       "style": "bold",
+       "quote": "2026/11/9—2027/2/8"
       }
      ]
     }
@@ -21639,40 +22193,50 @@ window.ARTICLES_BODY_I18N = {
    "jca104": {
     "items": [
      {
-      "text": "JTCs (campus Ito, sin créditos): dos veces por semana durante 10 semanas, 7 niveles, certificado de asistencia al finalizar"
+      "text": "Clases: 90 minutos por sesión, dos veces por semana durante 10 semanas; siete niveles, Japanese 1—7. Necesitas tu número de estudiante para registrarte. Si empiezas desde cero, selecciona en el sistema la opción para aprender desde Japanese 1."
      },
      {
-      "text": "JACs (campus Ito, con créditos): dos veces por semana durante 15 semanas, 8 niveles, para estudiantes internacionales de grado regulares y otros"
+      "text": "Campus y modalidad: la guía de este semestre cubre Ito y Hospital. Las clases presenciales de Ito suelen impartirse en Center Zone 5. Los estudiantes del campus Hospital deben elegir una clase por Zoom o híbrida. El docente comunicará el aula o el ID de Zoom antes del inicio."
      },
      {
-      "text": "Lugar: Center Zone 5, campus Ito"
+      "text": "Antes de elegir: comprueba que no haya conflictos de horario; puede que luego no puedas cambiar de clase. No puedes cursar JTCs a la vez que JACs, JLCC, JTAS o los cursos complementarios de japonés de Chikushi u Ohashi."
      },
      {
-      "text": "Si necesitas un certificado de asistencia, solicítalo antes de dejar Kyushu U. (hacerlo tras volver a tu país cuesta más y requiere más trámites)"
+      "text": "Libros y certificados: no compres libros antes de la primera clase; después consigue la edición indicada por el docente. JTCs no otorga créditos de Kyushu University. Solicita el certificado antes de dejar Kyushu U. Para reconocer créditos de intercambio, consulta a tu universidad de origen."
+     },
+     {
+      "text": "JACs (campus Ito, con créditos): dos veces por semana durante 15 semanas, 8 niveles, para estudiantes internacionales regulares de grado, entre otros"
      }
     ]
    },
    "jca105": {
     "items": [
      {
-      "text": "Panorama de cursos de japonés de Kyushu U. (elegir por estatus y campus)",
+      "text": "Cursos de japonés de Kyushu U (por condición y campus)",
       "url": "https://isc.kyushu-u.ac.jp/center/international/japaneselang/"
      },
      {
-      "text": "Página del curso JTCs (campus Ito, sin créditos)",
+      "text": "Información oficial de JTCs (sin créditos)",
       "url": "https://isc.kyushu-u.ac.jp/center/jtcs/"
      },
      {
-      "text": "Página del curso JACs (campus Ito, con créditos)",
+      "text": "Información oficial de JACs (con créditos)",
       "url": "https://isc.kyushu-u.ac.jp/center/jacs"
      },
      {
-      "text": "Sistema de inscripción en línea de JTCs (prueba de nivel y registro de clase)",
+      "text": "Nuevo registro y prueba de nivel JTCs",
       "url": "https://jlc.kyushu-u.ac.jp/JTCsi/page/placement/ButtonPlacement.aspx"
+     },
+     {
+      "text": "Guía JTCs de otoño de 2026 (registro, horario y calendario lectivo)",
+      "url": "https://isc.kyushu-u.ac.jp/center/kanri/wp-content/uploads/2026/10/04_JTCs%E3%82%AC%E3%82%A4%E3%83%89_2026%E5%BE%8C%E6%9C%9F.pdf"
      }
     ]
    },
-   "b0c1d2": {}
+   "b0c1d2": {},
+   "jca106": {
+    "text": "Consulta: JTCs office japanesecourses@jimu.kyushu-u.ac.jp (incluye nombre, campus y número de estudiante). Pregunta primero si tienes dudas sobre el sistema o los requisitos; no presupongas que se permite inscribirse fuera de plazo."
+   }
   }
  },
  "guide-scholarship": {

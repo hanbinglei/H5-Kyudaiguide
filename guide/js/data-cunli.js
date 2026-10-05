@@ -20,9 +20,10 @@
 // 体积约 10.3 KB —— 主包 2 MB 的预算里可以忽略。
 
 const CUNLI_DATA = {
-  version: "2026-09-30",
+  version: "2026-10-05",
   range: { from: "2026-01-01", to: "2027-12-31" },
   sources: {
+      jtcs2026f: {"name":"ISC · JTCs 2026 Second Semester","url":"https://isc.kyushu-u.ac.jp/center/kanri/wp-content/uploads/2026/10/04_JTCs%E3%82%AC%E3%82%A4%E3%83%89_2026%E5%BE%8C%E6%9C%9F.pdf"},
       cao: { name: '内閣府', url: "https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv" },
       kyudai: { name: '九州大学 学年暦', url: "https://www.kyushu-u.ac.jp/ja/faculty/schedule/" },
       ryugakuka: { name: '留学課 NotePM 门户', url: "https://notepm.jp/sharing/fb0e6579-ad42-4aaa-90fb-9bcff4e253e3" },
@@ -113,7 +114,12 @@ const CUNLI_DATA = {
         {"id":"c75","title":"学生証配付｜法学・正課生","zh":"学生证领取｜法学・正课生","date":"2026-10-01","end":"","type":"admin","star":false,"src":"studentId","note":"具体时刻及教室未在通知中列出；法学国际课程入学式及オリエンテーション。表中对象不能在入学式前领取，请查看本人所属通知。"},
         {"id":"c76","title":"学生証配付｜法学・非正課生（英語）","zh":"学生证领取｜法学・非正课生（英语）","date":"2026-10-01","end":"","type":"admin","star":false,"src":"studentId","note":"具体时刻及教室未在通知中列出；法学オリエンテーション。表中对象不能在入学式前领取，请查看本人所属通知。"},
         {"id":"c77","title":"学生証配付｜地球社会・正課生","zh":"学生证领取｜地球社会・正课生","date":"2026-10-02","end":"","type":"admin","star":false,"src":"studentId","note":"13:30；入学式；E-B-112。表中对象不能在入学式前领取。具体安排请按所属最新通知确认。"},
-        {"id":"c78","title":"学生証配付｜教育・人環・正課生","zh":"学生证领取｜教育・人环・正课生","date":"2026-10-02","end":"","type":"admin","star":false,"src":"studentId","note":"具体时刻及教室未在通知中列出；Orientation。表中对象不能在入学式前领取，请查看本人所属通知。"}
+        {"id":"c78","title":"学生証配付｜教育・人環・正課生","zh":"学生证领取｜教育・人环・正课生","date":"2026-10-02","end":"","type":"admin","star":false,"src":"studentId","note":"具体时刻及教室未在通知中列出；Orientation。表中对象不能在入学式前领取，请查看本人所属通知。"},
+        {"id":"nc2026-jtcs-0","title":"JTCs 新規登録・オンラインプレースメントテスト","zh":"JTCs 新规登记与在线分班测试","date":"2026-10-16","end":"2026-10-21","type":"event","star":false,"src":"jtcs2026f","note":"10/16 12:00—10/21 23:59（JST）。期间内完成新规登记与在线分班测试；这不是选班阶段。","link":"https://isc.kyushu-u.ac.jp/center/kanri/wp-content/uploads/2026/10/04_JTCs%E3%82%AC%E3%82%A4%E3%83%89_2026%E5%BE%8C%E6%9C%9F.pdf"},
+        {"id":"nc2026-jtcs-1","title":"JTCs プレースメントテスト結果通知","zh":"JTCs 分班测试结果通知","date":"2026-10-23","end":"","type":"event","star":false,"src":"jtcs2026f","note":"10/23 下午（JST）邮件通知结果；官方未给具体时刻，请查看登记邮箱。","link":"https://isc.kyushu-u.ac.jp/center/kanri/wp-content/uploads/2026/10/04_JTCs%E3%82%AC%E3%82%A4%E3%83%89_2026%E5%BE%8C%E6%9C%9F.pdf"},
+        {"id":"nc2026-jtcs-2","title":"JTCs クラス登録","zh":"JTCs 选班登记","date":"2026-10-26","end":"2026-10-27","type":"event","star":false,"src":"jtcs2026f","note":"10/26 12:30—10/27 23:59（JST）。按测试结果选班；先到先得，满员关闭。","link":"https://isc.kyushu-u.ac.jp/center/kanri/wp-content/uploads/2026/10/04_JTCs%E3%82%AC%E3%82%A4%E3%83%89_2026%E5%BE%8C%E6%9C%9F.pdf"},
+        {"id":"nc2026-jtcs-3","title":"JTCs 後期開講期間の開始","zh":"JTCs 后期课程期开始","date":"2026-11-09","end":"","type":"event","star":false,"src":"jtcs2026f","note":"2026/11/9—2027/2/8 为课程期，并非每天授课或所有人的首次课都是 11/9。各班课表及休课日见官方指南。","link":"https://isc.kyushu-u.ac.jp/center/kanri/wp-content/uploads/2026/10/04_JTCs%E3%82%AC%E3%82%A4%E3%83%89_2026%E5%BE%8C%E6%9C%9F.pdf"},
+        {"id":"nc2026-jtcs-4","title":"JTCs 後期開講期間の終了","zh":"JTCs 后期课程期结束","date":"2027-02-08","end":"","type":"event","star":false,"src":"jtcs2026f","note":"2027/2/8 为官方课程期结束；本人最后一节课按所选班级课表确认。","link":"https://isc.kyushu-u.ac.jp/center/kanri/wp-content/uploads/2026/10/04_JTCs%E3%82%AC%E3%82%A4%E3%83%89_2026%E5%BE%8C%E6%9C%9F.pdf"}
       ]
     };
 if(typeof window!=='undefined') window.CUNLI_DATA=CUNLI_DATA;

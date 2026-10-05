@@ -265,14 +265,6 @@
   "name_en": ""
  },
  {
-  "id": "n2335027348",
-  "type": "convenience",
-  "lon": 130.2191271,
-  "lat": 33.5959419,
-  "name": "生協",
-  "name_en": ""
- },
- {
   "id": "n2335031253",
   "type": "bus_stop",
   "lon": 130.2268247,
@@ -303,14 +295,6 @@
   "lon": 130.2252898,
   "lat": 33.599178,
   "name": "Itri Ito",
-  "name_en": ""
- },
- {
-  "id": "n3362698194",
-  "type": "cafe",
-  "lon": 130.223885,
-  "lat": 33.597035,
-  "name": "Qasis ( クアシス )",
   "name_en": ""
  },
  {
@@ -519,36 +503,12 @@
   "name_en": ""
  },
  {
-  "id": "n6849319936",
-  "type": "cafe",
-  "lon": 130.2264533,
-  "lat": 33.5986712,
-  "name": "童夢カフェ",
-  "name_en": "Domu cafe"
- },
- {
-  "id": "n6849320891",
-  "type": "restaurant",
-  "lon": 130.2129476,
-  "lat": 33.5941454,
-  "name": "アグリダイニング",
-  "name_en": "agridining"
- },
- {
   "id": "n6849320892",
   "type": "cafe",
   "lon": 130.2173921,
   "lat": 33.5951037,
   "name": "Eカフェ",
   "name_en": "E-cafe"
- },
- {
-  "id": "n6849323127",
-  "type": "convenience",
-  "lon": 130.2131399,
-  "lat": 33.5941212,
-  "name": "農学部生協",
-  "name_en": ""
  },
  {
   "id": "n7254938513",
@@ -638,14 +598,6 @@
   "lat": 33.5944166,
   "name": "ビッグどら",
   "name_en": "Big Dora"
- },
- {
-  "id": "w166556363",
-  "type": "restaurant",
-  "lon": 130.2225762,
-  "lat": 33.5966447,
-  "name": "ビックさんど",
-  "name_en": "Big Sand"
  },
  {
   "id": "w223800052",
@@ -1763,5 +1715,1519 @@
   "name": "産の宮北",
   "name_en": "",
   "src": "google-maps-2026-08-16"
+ },
+ {
+  "id": "indoor-gym-training",
+  "type": "fitness_centre",
+  "name": "総合体育館トレーニング室",
+  "name_zh": "综合体育馆健身房",
+  "name_ja": "総合体育館トレーニング室",
+  "name_en": "Main Gymnasium Training Room",
+  "aliases": [
+   "健身房",
+   "健身室",
+   "トレーニング室",
+   "ジム",
+   "gym",
+   "fitness room",
+   "weight room",
+   "综合体育馆健身房",
+   "総合体育館トレーニング室",
+   "Main Gymnasium Training Room"
+  ],
+  "building": "1388128319",
+  "lon": 130.222772,
+  "lat": 33.595301,
+  "notes": {
+   "zh": "开放时间及使用资格请确认体育设施公告。",
+   "ja": "利用時間・資格は体育施設の案内を確認してください。",
+   "en": "Check the sports-facility notices for access and hours."
+  },
+  "sources": [
+   {
+    "label": "Q-Post 969 · 学生支援课回复（2025）",
+    "url": "https://qpost.jimu.kyushu-u.ac.jp/SingleQa/Index/969"
+   },
+   {
+    "label": "九州大学体育设施",
+    "url": "https://www.kyushu-u.ac.jp/ja/education/life/institution/gym1/"
+   }
+  ],
+  "checked": "2026-10-05",
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-gym-pool",
+  "type": "swimming_pool",
+  "name": "総合体育館屋内温水プール",
+  "name_zh": "室内温水游泳池",
+  "name_ja": "総合体育館屋内温水プール",
+  "name_en": "Indoor Heated Swimming Pool",
+  "aliases": [
+   "游泳池",
+   "泳池",
+   "プール",
+   "温水プール",
+   "swimming pool",
+   "pool",
+   "室内温水游泳池",
+   "総合体育館屋内温水プール",
+   "Indoor Heated Swimming Pool"
+  ],
+  "building": "1388128319",
+  "floor": "1F",
+  "lon": 130.222772,
+  "lat": 33.595301,
+  "notes": {
+   "zh": "开放时间及使用资格请确认体育设施公告。",
+   "ja": "利用時間・資格は体育施設の案内を確認してください。",
+   "en": "Check the sports-facility notices for access and hours."
+  },
+  "sources": [
+   {
+    "label": "九州大学体育设施",
+    "url": "https://www.kyushu-u.ac.jp/ja/education/life/institution/gym1/"
+   },
+   {
+    "label": "伊都校园指南（2018，位置资料）",
+    "url": "https://www.kyushu-u.ac.jp/f/34066/ItoCampusGiudobook2018-JP.pdf"
+   }
+  ],
+  "checked": "2026-10-05",
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-shoto-training",
+  "type": "fitness_centre",
+  "name": "松濤錬成場トレーニング室",
+  "name_zh": "松濤训练室",
+  "name_ja": "松濤錬成場トレーニング室",
+  "name_en": "Shoto Training Rooms",
+  "aliases": [
+   "健身房",
+   "松涛健身房",
+   "トレーニング室",
+   "gym",
+   "fitness room",
+   "Shoto",
+   "松濤训练室",
+   "松濤錬成場トレーニング室",
+   "Shoto Training Rooms"
+  ],
+  "building": "225209493",
+  "floor": "1F",
+  "lon": 130.208722,
+  "lat": 33.599247,
+  "notes": {
+   "zh": "开放时间及使用资格请确认体育设施公告。",
+   "ja": "利用時間・資格は体育施設の案内を確認してください。",
+   "en": "Check the sports-facility notices for access and hours."
+  },
+  "sources": [
+   {
+    "label": "九州大学体育设施",
+    "url": "https://www.kyushu-u.ac.jp/ja/education/life/institution/gym1/"
+   },
+   {
+    "label": "松濤錬成場介绍（2018）",
+    "url": "https://www.kyushu-u.ac.jp/ja/topics/view/1298/"
+   }
+  ],
+  "checked": "2026-10-05",
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-central-commons",
+  "type": "study_space",
+  "name": "きゅうとコモンズ",
+  "name_zh": "中央馆学习共享区",
+  "name_ja": "きゅうとコモンズ",
+  "name_en": "Cute Commons",
+  "aliases": [
+   "Cute Commons",
+   "きゅうとコモンズ",
+   "学习共享区",
+   "自习",
+   "中央馆学习共享区"
+  ],
+  "building": "770575330",
+  "floor": "4F",
+  "lon": 130.226718,
+  "lat": 33.598313,
+  "notes": {
+   "zh": "按馆方当日开放安排使用；楼层依据所列馆内图，不代表独立营业时间。",
+   "ja": "当日の図書館案内に従って利用してください。階は出典の館内図によります。",
+   "en": "Follow the library's current access notices. Floors follow the cited floor guide; they do not imply separate opening hours."
+  },
+  "sources": [
+   {
+    "label": "中央图书馆",
+    "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/central"
+   },
+   {
+    "label": "中央馆馆内图（2018）",
+    "url": "https://www.lib.kyushu-u.ac.jp/sites/default/files/2018_guidechuo_gakunai_jp.pdf"
+   },
+   {
+    "label": "信息统括本部 · iCube",
+    "url": "https://iii.kyushu-u.ac.jp/contact-us"
+   }
+  ],
+  "checked": "2026-10-05",
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-central-group",
+  "type": "study_room",
+  "name": "中央図書館グループ学習室 1–4",
+  "name_zh": "中央馆小组学习室 1–4",
+  "name_ja": "中央図書館グループ学習室 1–4",
+  "name_en": "Central Library Group Study Rooms 1–4",
+  "aliases": [
+   "小组学习室",
+   "group study room",
+   "グループ学習室",
+   "中央馆小组学习室 1–4",
+   "中央図書館グループ学習室 1–4",
+   "Central Library Group Study Rooms 1–4"
+  ],
+  "building": "770575330",
+  "floor": "4F",
+  "lon": 130.226718,
+  "lat": 33.598313,
+  "notes": {
+   "zh": "预约或申请规则请向图书馆确认，不是可随时占用的空教室。",
+   "ja": "予約・申請方法は図書館に確認してください。自由に占有できる空き教室ではありません。",
+   "en": "Check booking or application requirements with the library; this is not an unrestricted empty classroom."
+  },
+  "sources": [
+   {
+    "label": "中央图书馆",
+    "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/central"
+   },
+   {
+    "label": "中央馆馆内图（2018）",
+    "url": "https://www.lib.kyushu-u.ac.jp/sites/default/files/2018_guidechuo_gakunai_jp.pdf"
+   }
+  ],
+  "checked": "2026-10-05",
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-central-seminar",
+  "type": "study_room",
+  "name": "中央図書館演習室 1–2",
+  "name_zh": "中央馆演习室 1–2",
+  "name_ja": "中央図書館演習室 1–2",
+  "name_en": "Central Library Seminar Rooms 1–2",
+  "aliases": [
+   "演习室",
+   "演習室",
+   "seminar room",
+   "中央馆演习室 1–2",
+   "中央図書館演習室 1–2",
+   "Central Library Seminar Rooms 1–2"
+  ],
+  "building": "770575330",
+  "floor": "4F",
+  "lon": 130.226718,
+  "lat": 33.598313,
+  "notes": {
+   "zh": "预约或申请规则请向图书馆确认，不是可随时占用的空教室。",
+   "ja": "予約・申請方法は図書館に確認してください。自由に占有できる空き教室ではありません。",
+   "en": "Check booking or application requirements with the library; this is not an unrestricted empty classroom."
+  },
+  "sources": [
+   {
+    "label": "中央图书馆",
+    "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/central"
+   },
+   {
+    "label": "中央馆馆内图（2018）",
+    "url": "https://www.lib.kyushu-u.ac.jp/sites/default/files/2018_guidechuo_gakunai_jp.pdf"
+   }
+  ],
+  "checked": "2026-10-05",
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-central-print",
+  "type": "copyshop",
+  "name": "中央図書館コピー・プリント",
+  "name_zh": "中央馆复印·打印区",
+  "name_ja": "中央図書館コピー・プリント",
+  "name_en": "Central Library Printing and Copying",
+  "aliases": [
+   "打印",
+   "复印",
+   "印刷",
+   "printer",
+   "printing",
+   "copy",
+   "コピー",
+   "プリンター",
+   "中央馆复印·打印区",
+   "中央図書館コピー・プリント",
+   "Central Library Printing and Copying"
+  ],
+  "building": "770575330",
+  "floor": "3F",
+  "lon": 130.226718,
+  "lat": 33.598313,
+  "notes": {
+   "zh": "打印和复印可能收费；馆藏复印须遵守版权及馆方设备规则。",
+   "ja": "印刷・複写は有料の場合があります。著作権と図書館の機器利用規則を守ってください。",
+   "en": "Printing/copying may incur charges. Follow copyright and library equipment rules."
+  },
+  "sources": [
+   {
+    "label": "中央图书馆",
+    "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/central"
+   },
+   {
+    "label": "中央馆馆内图（2018）",
+    "url": "https://www.lib.kyushu-u.ac.jp/sites/default/files/2018_guidechuo_gakunai_jp.pdf"
+   }
+  ],
+  "checked": "2026-10-05",
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-icube",
+  "type": "helpdesk",
+  "name": "iCube サービスデスク",
+  "name_zh": "iCube 电脑·信息服务台",
+  "name_ja": "iCube サービスデスク",
+  "name_en": "iCube IT Service Desk",
+  "aliases": [
+   "iCube",
+   "IT help",
+   "电脑咨询",
+   "电脑服务台",
+   "情報相談",
+   "iCube 电脑·信息服务台",
+   "iCube サービスデスク",
+   "iCube IT Service Desk"
+  ],
+  "building": "770575330",
+  "floor": "4F",
+  "lon": 130.226718,
+  "lat": 33.598313,
+  "notes": {
+   "zh": "在きゅうとコモンズ内。服务台值班与图书馆开馆时间不同，请看信息统括本部最新说明。",
+   "ja": "きゅうとコモンズ内。サービスデスクの対応時間は開館時間とは異なります。",
+   "en": "Inside Cute Commons. Desk hours differ from library opening hours; check the IT office notice."
+  },
+  "sources": [
+   {
+    "label": "信息统括本部 · iCube",
+    "url": "https://iii.kyushu-u.ac.jp/contact-us"
+   }
+  ],
+  "checked": "2026-10-05",
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-scitech-commons",
+  "type": "study_space",
+  "name": "理系図書館ラーニングコモンズ",
+  "name_zh": "理系馆学习共享区",
+  "name_ja": "理系図書館ラーニングコモンズ",
+  "name_en": "Science Library Learning Commons",
+  "aliases": [
+   "Learning Commons",
+   "ラーニングコモンズ",
+   "自习",
+   "学习共享区",
+   "理系馆学习共享区",
+   "理系図書館ラーニングコモンズ",
+   "Science Library Learning Commons"
+  ],
+  "building": "166554943",
+  "floor": "1F / 2F",
+  "lon": 130.22006,
+  "lat": 33.59573,
+  "notes": {
+   "zh": "按馆方当日开放安排使用；楼层依据所列馆内图，不代表独立营业时间。",
+   "ja": "当日の図書館案内に従って利用してください。階は出典の館内図によります。",
+   "en": "Follow the library's current access notices. Floors follow the cited floor guide; they do not imply separate opening hours."
+  },
+  "sources": [
+   {
+    "label": "理系图书馆",
+    "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/scitech"
+   },
+   {
+    "label": "理系馆馆内图（2024）",
+    "url": "https://www.lib.kyushu-u.ac.jp/sites/default/files/scitechguide_jpn202405_member.pdf"
+   }
+  ],
+  "checked": "2026-10-05",
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-scitech-group",
+  "type": "study_room",
+  "name": "理系図書館グループ学習室 1–4",
+  "name_zh": "理系馆小组学习室 1–4",
+  "name_ja": "理系図書館グループ学習室 1–4",
+  "name_en": "Science Library Group Study Rooms 1–4",
+  "aliases": [
+   "小组学习室",
+   "group study room",
+   "グループ学習室",
+   "理系馆小组学习室 1–4",
+   "理系図書館グループ学習室 1–4",
+   "Science Library Group Study Rooms 1–4"
+  ],
+  "building": "166554943",
+  "floor": "1F（1–2）/ 2F（3–4）",
+  "lon": 130.22006,
+  "lat": 33.59573,
+  "notes": {
+   "zh": "预约或申请规则请向图书馆确认，不是可随时占用的空教室。",
+   "ja": "予約・申請方法は図書館に確認してください。自由に占有できる空き教室ではありません。",
+   "en": "Check booking or application requirements with the library; this is not an unrestricted empty classroom."
+  },
+  "sources": [
+   {
+    "label": "理系图书馆",
+    "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/scitech"
+   },
+   {
+    "label": "理系馆馆内图（2024）",
+    "url": "https://www.lib.kyushu-u.ac.jp/sites/default/files/scitechguide_jpn202405_member.pdf"
+   }
+  ],
+  "checked": "2026-10-05",
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-scitech-private",
+  "type": "study_room",
+  "name": "理系図書館研究個室",
+  "name_zh": "理系馆研究个室",
+  "name_ja": "理系図書館研究個室",
+  "name_en": "Science Library Individual Study Rooms",
+  "aliases": [
+   "研究个室",
+   "研究個室",
+   "individual study room",
+   "理系馆研究个室",
+   "理系図書館研究個室",
+   "Science Library Individual Study Rooms"
+  ],
+  "building": "166554943",
+  "floor": "1F",
+  "lon": 130.22006,
+  "lat": 33.59573,
+  "notes": {
+   "zh": "预约或申请规则请向图书馆确认，不是可随时占用的空教室。",
+   "ja": "予約・申請方法は図書館に確認してください。自由に占有できる空き教室ではありません。",
+   "en": "Check booking or application requirements with the library; this is not an unrestricted empty classroom."
+  },
+  "sources": [
+   {
+    "label": "理系图书馆",
+    "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/scitech"
+   },
+   {
+    "label": "理系馆馆内图（2024）",
+    "url": "https://www.lib.kyushu-u.ac.jp/sites/default/files/scitechguide_jpn202405_member.pdf"
+   }
+  ],
+  "checked": "2026-10-05",
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-scitech-seminar12",
+  "type": "study_room",
+  "name": "オープンセミナー室 1–2",
+  "name_zh": "理系馆开放研讨室 1–2",
+  "name_ja": "オープンセミナー室 1–2",
+  "name_en": "Science Library Open Seminar Rooms 1–2",
+  "aliases": [
+   "开放研讨室",
+   "open seminar",
+   "オープンセミナー",
+   "理系馆开放研讨室 1–2",
+   "オープンセミナー室 1–2",
+   "Science Library Open Seminar Rooms 1–2"
+  ],
+  "building": "166554943",
+  "floor": "2F",
+  "lon": 130.22006,
+  "lat": 33.59573,
+  "notes": {
+   "zh": "预约或申请规则请向图书馆确认，不是可随时占用的空教室。",
+   "ja": "予約・申請方法は図書館に確認してください。自由に占有できる空き教室ではありません。",
+   "en": "Check booking or application requirements with the library; this is not an unrestricted empty classroom."
+  },
+  "sources": [
+   {
+    "label": "理系图书馆",
+    "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/scitech"
+   },
+   {
+    "label": "理系馆馆内图（2024）",
+    "url": "https://www.lib.kyushu-u.ac.jp/sites/default/files/scitechguide_jpn202405_member.pdf"
+   }
+  ],
+  "checked": "2026-10-05",
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-scitech-seminar3",
+  "type": "study_room",
+  "name": "オープンセミナー室 3",
+  "name_zh": "理系馆开放研讨室 3",
+  "name_ja": "オープンセミナー室 3",
+  "name_en": "Science Library Open Seminar Room 3",
+  "aliases": [
+   "开放研讨室",
+   "open seminar",
+   "オープンセミナー",
+   "理系馆开放研讨室 3",
+   "オープンセミナー室 3",
+   "Science Library Open Seminar Room 3"
+  ],
+  "building": "166554943",
+  "floor": "3F",
+  "lon": 130.22006,
+  "lat": 33.59573,
+  "notes": {
+   "zh": "预约或申请规则请向图书馆确认，不是可随时占用的空教室。",
+   "ja": "予約・申請方法は図書館に確認してください。自由に占有できる空き教室ではありません。",
+   "en": "Check booking or application requirements with the library; this is not an unrestricted empty classroom."
+  },
+  "sources": [
+   {
+    "label": "理系图书馆",
+    "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/scitech"
+   },
+   {
+    "label": "理系馆馆内图（2024）",
+    "url": "https://www.lib.kyushu-u.ac.jp/sites/default/files/scitechguide_jpn202405_member.pdf"
+   }
+  ],
+  "checked": "2026-10-05",
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-scitech-lounge",
+  "type": "study_space",
+  "name": "理系図書館国際交流ラウンジ",
+  "name_zh": "理系馆国际交流 Lounge",
+  "name_ja": "理系図書館国際交流ラウンジ",
+  "name_en": "Science Library International Lounge",
+  "aliases": [
+   "国际交流",
+   "international lounge",
+   "国際交流ラウンジ",
+   "理系馆国际交流 Lounge",
+   "理系図書館国際交流ラウンジ",
+   "Science Library International Lounge"
+  ],
+  "building": "166554943",
+  "floor": "2F",
+  "lon": 130.22006,
+  "lat": 33.59573,
+  "notes": {
+   "zh": "按馆方当日开放安排使用；楼层依据所列馆内图，不代表独立营业时间。",
+   "ja": "当日の図書館案内に従って利用してください。階は出典の館内図によります。",
+   "en": "Follow the library's current access notices. Floors follow the cited floor guide; they do not imply separate opening hours."
+  },
+  "sources": [
+   {
+    "label": "理系图书馆",
+    "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/scitech"
+   },
+   {
+    "label": "理系馆馆内图（2024）",
+    "url": "https://www.lib.kyushu-u.ac.jp/sites/default/files/scitechguide_jpn202405_member.pdf"
+   }
+  ],
+  "checked": "2026-10-05",
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-scitech-print",
+  "type": "copyshop",
+  "name": "理系図書館コピー・プリント",
+  "name_zh": "理系馆复印·打印区",
+  "name_ja": "理系図書館コピー・プリント",
+  "name_en": "Science Library Printing and Copying",
+  "aliases": [
+   "打印",
+   "复印",
+   "印刷",
+   "printer",
+   "printing",
+   "copy",
+   "コピー",
+   "プリンター",
+   "理系馆复印·打印区",
+   "理系図書館コピー・プリント",
+   "Science Library Printing and Copying"
+  ],
+  "building": "166554943",
+  "floor": "1F / 2F",
+  "lon": 130.22006,
+  "lat": 33.59573,
+  "notes": {
+   "zh": "打印和复印可能收费；馆藏复印须遵守版权及馆方设备规则。",
+   "ja": "印刷・複写は有料の場合があります。著作権と図書館の機器利用規則を守ってください。",
+   "en": "Printing/copying may incur charges. Follow copyright and library equipment rules."
+  },
+  "sources": [
+   {
+    "label": "理系图书馆",
+    "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/scitech"
+   },
+   {
+    "label": "理系馆馆内图（2024）",
+    "url": "https://www.lib.kyushu-u.ac.jp/sites/default/files/scitechguide_jpn202405_member.pdf"
+   }
+  ],
+  "checked": "2026-10-05",
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-scitech-accessible",
+  "type": "study_room",
+  "name": "理系図書館視覚障害者閲覧室",
+  "name_zh": "理系馆视障读者阅览室",
+  "name_ja": "理系図書館視覚障害者閲覧室",
+  "name_en": "Science Library Accessible Reading Room",
+  "aliases": [
+   "视障",
+   "無障害閲覧",
+   "視覚障害",
+   "accessible reading",
+   "理系馆视障读者阅览室",
+   "理系図書館視覚障害者閲覧室",
+   "Science Library Accessible Reading Room"
+  ],
+  "building": "166554943",
+  "floor": "1F",
+  "lon": 130.22006,
+  "lat": 33.59573,
+  "notes": {
+   "zh": "使用前先联系图书馆服务柜台。",
+   "ja": "利用前に図書館カウンターへ相談してください。",
+   "en": "Contact the library service counter before use."
+  },
+  "sources": [
+   {
+    "label": "理系图书馆",
+    "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/scitech"
+   },
+   {
+    "label": "理系馆馆内图（2024）",
+    "url": "https://www.lib.kyushu-u.ac.jp/sites/default/files/scitechguide_jpn202405_member.pdf"
+   }
+  ],
+  "checked": "2026-10-05",
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-scitech-av",
+  "type": "study_space",
+  "name": "理系図書館 AV 閲覧",
+  "name_zh": "理系馆 AV 阅览区",
+  "name_ja": "理系図書館 AV 閲覧",
+  "name_en": "Science Library AV Viewing Area",
+  "aliases": [
+   "AV",
+   "视听",
+   "視聴覚",
+   "audiovisual",
+   "理系馆 AV 阅览区",
+   "理系図書館 AV 閲覧",
+   "Science Library AV Viewing Area"
+  ],
+  "building": "166554943",
+  "floor": "3F",
+  "lon": 130.22006,
+  "lat": 33.59573,
+  "notes": {
+   "zh": "设备使用请向图书馆服务柜台申请。",
+   "ja": "機器利用は図書館カウンターへ申請してください。",
+   "en": "Ask the library counter to use the AV equipment."
+  },
+  "sources": [
+   {
+    "label": "理系图书馆",
+    "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/scitech"
+   },
+   {
+    "label": "理系馆馆内图（2024）",
+    "url": "https://www.lib.kyushu-u.ac.jp/sites/default/files/scitechguide_jpn202405_member.pdf"
+   }
+  ],
+  "checked": "2026-10-05",
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-scitech-refresh",
+  "type": "lounge",
+  "name": "理系図書館リフレッシュルーム",
+  "name_zh": "理系馆休息·饮食室",
+  "name_ja": "理系図書館リフレッシュルーム",
+  "name_en": "Science Library Refreshment Rooms",
+  "aliases": [
+   "休息室",
+   "饮食室",
+   "リフレッシュルーム",
+   "refreshment room",
+   "理系馆休息·饮食室",
+   "理系図書館リフレッシュルーム",
+   "Science Library Refreshment Rooms"
+  ],
+  "building": "166554943",
+  "floor": "2F / 3F",
+  "lon": 130.22006,
+  "lat": 33.59573,
+  "notes": {
+   "zh": "仅指定空间可饮食，不代表图书馆其他阅览区域可以用餐。",
+   "ja": "飲食は指定場所のみ。他の閲覧区域では飲食できません。",
+   "en": "Food and drinks are limited to designated spaces, not general reading areas."
+  },
+  "sources": [
+   {
+    "label": "理系图书馆",
+    "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/scitech"
+   },
+   {
+    "label": "理系馆馆内图（2024）",
+    "url": "https://www.lib.kyushu-u.ac.jp/sites/default/files/scitechguide_jpn202405_member.pdf"
+   }
+  ],
+  "checked": "2026-10-05",
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-salc",
+  "type": "study_space",
+  "name": "自律学習施設 SALC",
+  "name_zh": "SALC 自主语言学习中心",
+  "name_ja": "自律学習施設 SALC",
+  "name_en": "Self-Access Learning Center (SALC)",
+  "aliases": [
+   "SALC",
+   "语言学习",
+   "语言桌",
+   "language table",
+   "自律学習",
+   "SALC 自主语言学习中心",
+   "自律学習施設 SALC",
+   "Self-Access Learning Center (SALC)"
+  ],
+  "building": "165694547",
+  "floor": "1F",
+  "lon": 130.223468,
+  "lat": 33.597481,
+  "notes": {
+   "zh": "以现行访问页的 Center 1 地址为准，活动安排另看 SALC 通知。",
+   "ja": "所在地は現行アクセス案内のセンター1号館です。活動は SALC の案内を確認してください。",
+   "en": "Use the current Center 1 address. Check SALC notices for activities."
+  },
+  "sources": [
+   {
+    "label": "SALC 现行访问页",
+    "url": "https://www.artsci.kyushu-u.ac.jp/~salc/access"
+   }
+  ],
+  "checked": "2026-10-05",
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-qrec-base",
+  "type": "project_space",
+  "name": "QREC BasE",
+  "name_zh": "QREC BasE 创新协作空间",
+  "name_ja": "QREC BasE",
+  "name_en": "QREC BasE",
+  "aliases": [
+   "BasE",
+   "BasE HatcH",
+   "创业空间",
+   "创新空间",
+   "QREC BasE 创新协作空间",
+   "QREC BasE"
+  ],
+  "building": "222850629",
+  "floor": "2F",
+  "room": "204",
+  "lon": 130.22258,
+  "lat": 33.597195,
+  "notes": {
+   "zh": "正常使用有资格与登记要求，HatcH 为内部预约空间；Open House 的例外不等于平时自由开放。",
+   "ja": "通常利用には資格・登録が必要です。HatcH は内部の予約スペース。Open House の案内は通常利用とは異なります。",
+   "en": "Normal use requires eligibility and registration. HatcH is an internal bookable space; Open House access is an exception."
+  },
+  "sources": [
+   {
+    "label": "QREC BasE 使用说明",
+    "url": "https://qrec.kyushu-u.ac.jp/meet/facilities/base/"
+   }
+  ],
+  "checked": "2026-10-05",
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-qrec-top",
+  "type": "project_space",
+  "name": "QREC ToP",
+  "name_zh": "QREC ToP 协作空间",
+  "name_ja": "QREC ToP",
+  "name_en": "QREC ToP",
+  "aliases": [
+   "ToP",
+   "QREC ToP",
+   "QREC ToP 协作空间"
+  ],
+  "building": "165694577",
+  "floor": "7F",
+  "room": "5725",
+  "lon": 130.222249,
+  "lat": 33.597392,
+  "notes": {
+   "zh": "有使用资格和预约要求，不是无条件开放的自习室。",
+   "ja": "利用資格と予約が必要です。無条件に利用できる自習室ではありません。",
+   "en": "Eligibility and advance booking apply; this is not an unrestricted study room."
+  },
+  "sources": [
+   {
+    "label": "QREC ToP 使用说明",
+    "url": "https://qrec.kyushu-u.ac.jp/meet/facilities/top/"
+   }
+  ],
+  "checked": "2026-10-05",
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-inclusion",
+  "type": "helpdesk",
+  "name": "Inclusion 健康支援室",
+  "name_zh": "Inclusion 健康支援室",
+  "name_ja": "Inclusion 健康支援室",
+  "name_en": "Inclusion Health Support Room",
+  "aliases": [
+   "Inclusion",
+   "健康咨询",
+   "健康相談",
+   "Inclusion 健康支援室",
+   "Inclusion Health Support Room"
+  ],
+  "building": "165694547",
+  "floor": "1F",
+  "lon": 130.223468,
+  "lat": 33.597481,
+  "notes": {
+   "zh": "咨询预约及服务范围请先向健康支援中心确认。",
+   "ja": "相談予約と対応内容は健康支援センターへ確認してください。",
+   "en": "Check consultation booking and service scope with the Health Support Center."
+  },
+  "sources": [
+   {
+    "label": "健康支援中心 · 访问",
+    "url": "https://chc.kyushu-u.ac.jp/access/"
+   }
+  ],
+  "checked": "2026-10-05",
+  "hourIds": [
+   "health-center1"
+  ],
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-career-east",
+  "type": "information_room",
+  "name": "イースト就職情報室",
+  "name_zh": "East 就职信息室",
+  "name_ja": "イースト就職情報室",
+  "name_en": "East Career Information Room",
+  "aliases": [
+   "就业资料",
+   "就职信息室",
+   "就職情報室",
+   "career information",
+   "East 就职信息室",
+   "イースト就職情報室",
+   "East Career Information Room"
+  ],
+  "building": "770575334",
+  "floor": "2F",
+  "room": "E-B-204",
+  "lon": 130.227059,
+  "lat": 33.599373,
+  "notes": {
+   "zh": "用于阅览就职资料，与需预约的个别职业咨询不同。",
+   "ja": "就職資料の閲覧スペースです。予約制の個別相談とは異なります。",
+   "en": "A career-materials reading room, distinct from booked individual counselling."
+  },
+  "sources": [
+   {
+    "label": "就职信息室",
+    "url": "https://www.kyushu-u.ac.jp/ja/education/employment/consultation_office/"
+   }
+  ],
+  "checked": "2026-10-05",
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-career-west",
+  "type": "information_room",
+  "name": "ウエスト就職情報室",
+  "name_zh": "West 就职信息室",
+  "name_ja": "ウエスト就職情報室",
+  "name_en": "West Career Information Room",
+  "aliases": [
+   "就业资料",
+   "就职信息室",
+   "就職情報室",
+   "career information",
+   "West 就职信息室",
+   "ウエスト就職情報室",
+   "West Career Information Room"
+  ],
+  "building": "10019151272",
+  "floor": "2F",
+  "room": "202",
+  "lon": 130.21653,
+  "lat": 33.595132,
+  "notes": {
+   "zh": "用于阅览就职资料，与需预约的个别职业咨询不同。",
+   "ja": "就職資料の閲覧スペースです。予約制の個別相談とは異なります。",
+   "en": "A career-materials reading room, distinct from booked individual counselling."
+  },
+  "sources": [
+   {
+    "label": "就职信息室",
+    "url": "https://www.kyushu-u.ac.jp/ja/education/employment/consultation_office/"
+   }
+  ],
+  "checked": "2026-10-05",
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "w166556363",
+  "type": "restaurant",
+  "lon": 130.222574,
+  "lat": 33.596648,
+  "name": "ビッグさんど メインダイニング",
+  "name_en": "Big Sand Main Dining",
+  "name_zh": "Big Sand 主食堂",
+  "name_ja": "ビッグさんど メインダイニング",
+  "aliases": [
+   "Main Dining",
+   "メインダイニング",
+   "Big Sand",
+   "Big Sand 主食堂",
+   "ビッグさんど メインダイニング",
+   "Big Sand Main Dining",
+   "ビックさんど"
+  ],
+  "building": "166556363",
+  "floor": "1F",
+  "notes": {
+   "zh": "营业时间请查看该店自己的时间记录或生协最新公告；同楼店铺时间不通用。",
+   "ja": "店舗ごとの営業時間または生協の最新案内を確認してください。同じ建物でも時間は異なります。",
+   "en": "Use this shop's own hours or the latest Co-op notice; shops in the same building have different schedules."
+  },
+  "sources": [
+   {
+    "label": "九大生协营业说明（2026-10-01）",
+    "url": "https://www.coop.kyushu-u.ac.jp/hours_information.html"
+   }
+  ],
+  "checked": "2026-10-05",
+  "hourIds": [
+   "sand-main"
+  ],
+  "position_precision": "building"
+ },
+ {
+  "id": "indoor-big-dining",
+  "type": "restaurant",
+  "name": "ビッグさんど ビッグダイニング",
+  "name_zh": "Big Sand 地下食堂",
+  "name_ja": "ビッグさんど ビッグダイニング",
+  "name_en": "Big Sand Big Dining",
+  "aliases": [
+   "Big Dining",
+   "ビッグダイニング",
+   "地下食堂",
+   "Big Sand 地下食堂",
+   "ビッグさんど ビッグダイニング",
+   "Big Sand Big Dining"
+  ],
+  "building": "166556363",
+  "floor": "B1F",
+  "lon": 130.222574,
+  "lat": 33.596648,
+  "notes": {
+   "zh": "营业时间请查看该店自己的时间记录或生协最新公告；同楼店铺时间不通用。",
+   "ja": "店舗ごとの営業時間または生協の最新案内を確認してください。同じ建物でも時間は異なります。",
+   "en": "Use this shop's own hours or the latest Co-op notice; shops in the same building have different schedules."
+  },
+  "sources": [
+   {
+    "label": "九大生协营业说明（2026-10-01）",
+    "url": "https://www.coop.kyushu-u.ac.jp/hours_information.html"
+   }
+  ],
+  "checked": "2026-10-05",
+  "hourIds": [
+   "sand-big"
+  ],
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-sand-takeout",
+  "type": "restaurant",
+  "name": "ビッグさんど テイクアウトコーナー",
+  "name_zh": "Big Sand 外带柜台",
+  "name_ja": "ビッグさんど テイクアウトコーナー",
+  "name_en": "Big Sand Takeout Counter",
+  "aliases": [
+   "takeout",
+   "テイクアウト",
+   "外带",
+   "外卖",
+   "Big Sand 外带柜台",
+   "ビッグさんど テイクアウトコーナー",
+   "Big Sand Takeout Counter"
+  ],
+  "building": "166556363",
+  "lon": 130.222574,
+  "lat": 33.596648,
+  "notes": {
+   "zh": "营业时间请查看该店自己的时间记录或生协最新公告；同楼店铺时间不通用。",
+   "ja": "店舗ごとの営業時間または生協の最新案内を確認してください。同じ建物でも時間は異なります。",
+   "en": "Use this shop's own hours or the latest Co-op notice; shops in the same building have different schedules."
+  },
+  "sources": [
+   {
+    "label": "九大生协营业说明（2026-10-01）",
+    "url": "https://www.coop.kyushu-u.ac.jp/hours_information.html"
+   }
+  ],
+  "checked": "2026-10-05",
+  "hourIds": [
+   "sand-takeout"
+  ],
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-sand-seven",
+  "type": "convenience",
+  "name": "セブンイレブン ビッグさんど",
+  "name_zh": "Big Sand 七便利店",
+  "name_ja": "セブンイレブン ビッグさんど",
+  "name_en": "Big Sand Seven-Eleven",
+  "aliases": [
+   "Seven-Eleven Big Sand",
+   "セブンイレブン",
+   "Big Sand 便利店",
+   "Big Sand 七便利店",
+   "セブンイレブン ビッグさんど",
+   "Big Sand Seven-Eleven"
+  ],
+  "building": "166556363",
+  "lon": 130.222574,
+  "lat": 33.596648,
+  "notes": {
+   "zh": "营业时间请查看该店自己的时间记录或生协最新公告；同楼店铺时间不通用。",
+   "ja": "店舗ごとの営業時間または生協の最新案内を確認してください。同じ建物でも時間は異なります。",
+   "en": "Use this shop's own hours or the latest Co-op notice; shops in the same building have different schedules."
+  },
+  "sources": [
+   {
+    "label": "九大生协营业说明（2026-10-01）",
+    "url": "https://www.coop.kyushu-u.ac.jp/hours_information.html"
+   }
+  ],
+  "checked": "2026-10-05",
+  "hourIds": [
+   "sand-seven"
+  ],
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-dora-shop",
+  "type": "convenience",
+  "name": "ビッグどら売店",
+  "name_zh": "Big Dora 生协店",
+  "name_ja": "ビッグどら売店",
+  "name_en": "Big Dora Co-op Shop",
+  "aliases": [
+   "Big Dora shop",
+   "ビッグどら売店",
+   "Big Dora 生协店",
+   "Big Dora Co-op Shop"
+  ],
+  "building": "166556131",
+  "lon": 130.216211,
+  "lat": 33.594393,
+  "notes": {
+   "zh": "营业时间请查看该店自己的时间记录或生协最新公告；同楼店铺时间不通用。",
+   "ja": "店舗ごとの営業時間または生協の最新案内を確認してください。同じ建物でも時間は異なります。",
+   "en": "Use this shop's own hours or the latest Co-op notice; shops in the same building have different schedules."
+  },
+  "sources": [
+   {
+    "label": "九大生协营业说明（2026-10-01）",
+    "url": "https://www.coop.kyushu-u.ac.jp/hours_information.html"
+   }
+  ],
+  "checked": "2026-10-05",
+  "hourIds": [
+   "dora-shop"
+  ],
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-east-shop",
+  "type": "convenience",
+  "name": "イースト1号館売店",
+  "name_zh": "East 1 生协店",
+  "name_ja": "イースト1号館売店",
+  "name_en": "East 1 Co-op Shop",
+  "aliases": [
+   "East shop",
+   "イースト売店",
+   "East 1 生协店",
+   "イースト1号館売店",
+   "East 1 Co-op Shop"
+  ],
+  "building": "770575334",
+  "lon": 130.227059,
+  "lat": 33.599373,
+  "notes": {
+   "zh": "营业时间请查看该店自己的时间记录或生协最新公告；同楼店铺时间不通用。",
+   "ja": "店舗ごとの営業時間または生協の最新案内を確認してください。同じ建物でも時間は異なります。",
+   "en": "Use this shop's own hours or the latest Co-op notice; shops in the same building have different schedules."
+  },
+  "sources": [
+   {
+    "label": "九大生协营业说明（2026-10-01）",
+    "url": "https://www.coop.kyushu-u.ac.jp/hours_information.html"
+   }
+  ],
+  "checked": "2026-10-05",
+  "hourIds": [
+   "east1-shop"
+  ],
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-central-shop",
+  "type": "convenience",
+  "name": "中央図書館売店",
+  "name_zh": "中央图书馆生协店",
+  "name_ja": "中央図書館売店",
+  "name_en": "Central Library Co-op Shop",
+  "aliases": [
+   "图书馆商店",
+   "中央図書館売店",
+   "中央图书馆生协店",
+   "Central Library Co-op Shop"
+  ],
+  "building": "770575330",
+  "lon": 130.226718,
+  "lat": 33.598313,
+  "notes": {
+   "zh": "营业时间请查看该店自己的时间记录或生协最新公告；同楼店铺时间不通用。",
+   "ja": "店舗ごとの営業時間または生協の最新案内を確認してください。同じ建物でも時間は異なります。",
+   "en": "Use this shop's own hours or the latest Co-op notice; shops in the same building have different schedules."
+  },
+  "sources": [
+   {
+    "label": "九大生协营业说明（2026-10-01）",
+    "url": "https://www.coop.kyushu-u.ac.jp/hours_information.html"
+   }
+  ],
+  "checked": "2026-10-05",
+  "hourIds": [
+   "central-shop"
+  ],
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-libca",
+  "type": "cafe",
+  "name": "リブカフェ",
+  "name_zh": "Libca 咖啡",
+  "name_ja": "リブカフェ",
+  "name_en": "Libca Cafe",
+  "aliases": [
+   "Libca",
+   "Libca cafe",
+   "リブカフェ",
+   "Libca 咖啡",
+   "Libca Cafe"
+  ],
+  "building": "166554943",
+  "floor": "1F",
+  "lon": 130.22006,
+  "lat": 33.59573,
+  "notes": {
+   "zh": "营业时间请查看该店自己的时间记录或生协最新公告；同楼店铺时间不通用。",
+   "ja": "店舗ごとの営業時間または生協の最新案内を確認してください。同じ建物でも時間は異なります。",
+   "en": "Use this shop's own hours or the latest Co-op notice; shops in the same building have different schedules."
+  },
+  "sources": [
+   {
+    "label": "九大生协营业说明（2026-10-01）",
+    "url": "https://www.coop.kyushu-u.ac.jp/hours_information.html"
+   }
+  ],
+  "checked": "2026-10-05",
+  "hourIds": [
+   "libca"
+  ],
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "n3362698194",
+  "type": "cafe",
+  "lon": 130.223757,
+  "lat": 33.596983,
+  "name": "クアシス",
+  "name_en": "QASIS Cafe",
+  "name_zh": "QASIS 咖啡",
+  "name_ja": "クアシス",
+  "aliases": [
+   "QASIS",
+   "Qasis",
+   "クアシス",
+   "QASIS 咖啡",
+   "QASIS Cafe",
+   "Qasis ( クアシス )"
+  ],
+  "building": "165694554",
+  "floor": "1F",
+  "notes": {
+   "zh": "营业时间请查看该店自己的时间记录或生协最新公告；同楼店铺时间不通用。",
+   "ja": "店舗ごとの営業時間または生協の最新案内を確認してください。同じ建物でも時間は異なります。",
+   "en": "Use this shop's own hours or the latest Co-op notice; shops in the same building have different schedules."
+  },
+  "sources": [
+   {
+    "label": "九大生协营业说明（2026-10-01）",
+    "url": "https://www.coop.kyushu-u.ac.jp/hours_information.html"
+   }
+  ],
+  "checked": "2026-10-05",
+  "hourIds": [
+   "qasis"
+  ],
+  "position_precision": "building"
+ },
+ {
+  "id": "n6849320891",
+  "type": "restaurant",
+  "lon": 130.213858,
+  "lat": 33.594022,
+  "name": "アグリダイニング",
+  "name_en": "Agri Dining",
+  "name_zh": "Agri Dining 农学食堂",
+  "name_ja": "アグリダイニング",
+  "aliases": [
+   "Agri Dining",
+   "农学食堂",
+   "アグリダイニング",
+   "Agri Dining 农学食堂",
+   "agridining"
+  ],
+  "building": "10012235222",
+  "floor": "1F",
+  "notes": {
+   "zh": "营业时间请查看该店自己的时间记录或生协最新公告；同楼店铺时间不通用。",
+   "ja": "店舗ごとの営業時間または生協の最新案内を確認してください。同じ建物でも時間は異なります。",
+   "en": "Use this shop's own hours or the latest Co-op notice; shops in the same building have different schedules."
+  },
+  "sources": [
+   {
+    "label": "九大生协营业说明（2026-10-01）",
+    "url": "https://www.coop.kyushu-u.ac.jp/hours_information.html"
+   }
+  ],
+  "checked": "2026-10-05",
+  "hourIds": [
+   "agri"
+  ],
+  "position_precision": "building"
+ },
+ {
+  "id": "n6849323127",
+  "type": "convenience",
+  "lon": 130.213858,
+  "lat": 33.594022,
+  "name": "農学部生協売店",
+  "name_en": "West 5 Agriculture Co-op Shop",
+  "name_zh": "West 5 农学生协店",
+  "name_ja": "農学部生協売店",
+  "aliases": [
+   "農学部生協",
+   "农学生协",
+   "West 5 shop",
+   "West 5 农学生协店",
+   "農学部生協売店",
+   "West 5 Agriculture Co-op Shop"
+  ],
+  "building": "10012235222",
+  "notes": {
+   "zh": "营业时间请查看该店自己的时间记录或生协最新公告；同楼店铺时间不通用。",
+   "ja": "店舗ごとの営業時間または生協の最新案内を確認してください。同じ建物でも時間は異なります。",
+   "en": "Use this shop's own hours or the latest Co-op notice; shops in the same building have different schedules."
+  },
+  "sources": [
+   {
+    "label": "九大生协营业说明（2026-10-01）",
+    "url": "https://www.coop.kyushu-u.ac.jp/hours_information.html"
+   }
+  ],
+  "checked": "2026-10-05",
+  "hourIds": [
+   "west5-shop"
+  ],
+  "position_precision": "building"
+ },
+ {
+  "id": "n2335027348",
+  "type": "convenience",
+  "lon": 130.218438,
+  "lat": 33.595996,
+  "name": "伊都コンビニ",
+  "name_en": "West 2 Ito Convenience Shop",
+  "name_zh": "West 2 伊都便利店",
+  "name_ja": "伊都コンビニ",
+  "aliases": [
+   "生協",
+   "伊都コンビニ",
+   "Ito convenience",
+   "West 2 伊都便利店",
+   "West 2 Ito Convenience Shop"
+  ],
+  "building": "10019151271",
+  "notes": {
+   "zh": "营业时间请查看该店自己的时间记录或生协最新公告；同楼店铺时间不通用。",
+   "ja": "店舗ごとの営業時間または生協の最新案内を確認してください。同じ建物でも時間は異なります。",
+   "en": "Use this shop's own hours or the latest Co-op notice; shops in the same building have different schedules."
+  },
+  "sources": [
+   {
+    "label": "九大生协营业说明（2026-10-01）",
+    "url": "https://www.coop.kyushu-u.ac.jp/hours_information.html"
+   }
+  ],
+  "checked": "2026-10-05",
+  "hourIds": [
+   "west2-shop"
+  ],
+  "position_precision": "building"
+ },
+ {
+  "id": "n6849319936",
+  "type": "cafe",
+  "lon": 130.226718,
+  "lat": 33.598313,
+  "name": "童夢カフェ 中央図書館",
+  "name_en": "Doumu Cafe (Central Library)",
+  "name_zh": "中央馆童梦咖啡",
+  "name_ja": "童夢カフェ 中央図書館",
+  "aliases": [
+   "童夢カフェ",
+   "童梦咖啡",
+   "Doumu cafe",
+   "中央馆童梦咖啡",
+   "童夢カフェ 中央図書館",
+   "Doumu Cafe (Central Library)",
+   "Domu cafe"
+  ],
+  "building": "770575330",
+  "notes": {
+   "zh": "营业时间请查看该店自己的时间记录或生协最新公告；同楼店铺时间不通用。",
+   "ja": "店舗ごとの営業時間または生協の最新案内を確認してください。同じ建物でも時間は異なります。",
+   "en": "Use this shop's own hours or the latest Co-op notice; shops in the same building have different schedules."
+  },
+  "sources": [
+   {
+    "label": "九大生协营业说明（2026-10-01）",
+    "url": "https://www.coop.kyushu-u.ac.jp/hours_information.html"
+   }
+  ],
+  "checked": "2026-10-05",
+  "hourIds": [
+   "doumu-central"
+  ],
+  "position_precision": "building"
+ },
+ {
+  "id": "indoor-foucault",
+  "type": "exhibit",
+  "name": "フーコーの振り子",
+  "name_zh": "傅科摆展示",
+  "name_ja": "フーコーの振り子",
+  "name_en": "Foucault Pendulum",
+  "aliases": [
+   "傅科摆",
+   "Foucault",
+   "フーコー",
+   "傅科摆展示",
+   "フーコーの振り子",
+   "Foucault Pendulum"
+  ],
+  "building": "10019151271",
+  "lon": 130.218438,
+  "lat": 33.595996,
+  "notes": {
+   "zh": "展品位置已确认；一般参观时间和进入条件请向管理方确认。",
+   "ja": "展示場所を掲載しています。見学時間・入室条件は管理者に確認してください。",
+   "en": "The exhibit's building is confirmed. Check visiting hours and access conditions with its operator."
+  },
+  "sources": [
+   {
+    "label": "工学部设施介绍",
+    "url": "https://www.eng.kyushu-u.ac.jp/about/facilities/"
+   }
+  ],
+  "checked": "2026-10-05",
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-crystal",
+  "type": "exhibit",
+  "name": "巨大水晶",
+  "name_zh": "大水晶展示",
+  "name_ja": "巨大水晶",
+  "name_en": "Giant Crystal Exhibit",
+  "aliases": [
+   "水晶",
+   "crystal",
+   "巨大水晶",
+   "大水晶展示",
+   "Giant Crystal Exhibit"
+  ],
+  "building": "10019151271",
+  "lon": 130.218438,
+  "lat": 33.595996,
+  "notes": {
+   "zh": "展品位置已确认；一般参观时间和进入条件请向管理方确认。",
+   "ja": "展示場所を掲載しています。見学時間・入室条件は管理者に確認してください。",
+   "en": "The exhibit's building is confirmed. Check visiting hours and access conditions with its operator."
+  },
+  "sources": [
+   {
+    "label": "工学部设施介绍",
+    "url": "https://www.eng.kyushu-u.ac.jp/about/facilities/"
+   }
+  ],
+  "checked": "2026-10-05",
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-centenary",
+  "type": "exhibit",
+  "name": "工学部百周年記念展示室",
+  "name_zh": "工学部百周年展示室",
+  "name_ja": "工学部百周年記念展示室",
+  "name_en": "Engineering Centenary Exhibition Room",
+  "aliases": [
+   "百周年展示室",
+   "centenary exhibit",
+   "百周年",
+   "工学部百周年展示室",
+   "工学部百周年記念展示室",
+   "Engineering Centenary Exhibition Room"
+  ],
+  "building": "10019151272",
+  "lon": 130.21653,
+  "lat": 33.595132,
+  "notes": {
+   "zh": "展品位置已确认；一般参观时间和进入条件请向管理方确认。",
+   "ja": "展示場所を掲載しています。見学時間・入室条件は管理者に確認してください。",
+   "en": "The exhibit's building is confirmed. Check visiting hours and access conditions with its operator."
+  },
+  "sources": [
+   {
+    "label": "工学部设施介绍",
+    "url": "https://www.eng.kyushu-u.ac.jp/about/facilities/"
+   }
+  ],
+  "checked": "2026-10-05",
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
+ },
+ {
+  "id": "indoor-kofun",
+  "type": "exhibit",
+  "name": "石ヶ原古墳展望展示室",
+  "name_zh": "石ヶ原古坟展望展示室",
+  "name_ja": "石ヶ原古墳展望展示室",
+  "name_en": "Ishigahara Kofun Observation Exhibition Room",
+  "aliases": [
+   "古坟",
+   "古墳",
+   "kofun",
+   "Ishigahara",
+   "石ヶ原古坟展望展示室",
+   "石ヶ原古墳展望展示室",
+   "Ishigahara Kofun Observation Exhibition Room"
+  ],
+  "building": "770575334",
+  "floor": "9F",
+  "lon": 130.227059,
+  "lat": 33.599373,
+  "notes": {
+   "zh": "一般参观需按博物馆说明预约或领取钥匙；不标为全天开放。",
+   "ja": "見学予約・鍵の受け取りは博物館の案内に従ってください。終日開放ではありません。",
+   "en": "Follow museum instructions for booking/key collection. This is not open all day."
+  },
+  "sources": [
+   {
+    "label": "九大博物馆展示与活动",
+    "url": "https://www.museum.kyushu-u.ac.jp/event/"
+   }
+  ],
+  "checked": "2026-10-05",
+  "position_precision": "building",
+  "directory_owner": "official-indoor-directory"
  }
 ]

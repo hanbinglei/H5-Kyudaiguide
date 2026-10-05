@@ -19,7 +19,7 @@ const UI = {
     self:'中文', brandSub:'九大伊都 · 留学生指南', searchPh:'搜索标题 / 正文',
     tabs:{map:'地图',guide:'指南',cunli:'村历',faculty:'官网',history:'历史'},
     guideHead:'指南 · %n% 个场景', guideSub:'选择分类查看指南',
-    nzTitle:'落地后手续办理顺序', nzSub:'三个月内需办理的手续按时间排列，可直接跳转至对应小节', nzResourcesTitle:'常用资料', nzResourcesSub:'不属于固定日程的资料入口', skipAll:'全部主题 ↓',
+    nzTitle:'落地后手续办理顺序', nzSub:'三个月内需办理的手续按时间排列，可直接跳转至对应小节', nzResourcesTitle:'近期关注与常用资料', nzResourcesSub:'课程报名、宿舍与手续资料，按本人情况查看', skipAll:'全部主题 ↓',
     emptyCat:'该分类内容整理中，敬请期待', backGrid:'‹ 全部品类',
     searchLabel:'搜索', noResults:'没有匹配结果',
     prevArticle:'上一篇', nextArticle:'下一篇',
@@ -79,7 +79,7 @@ const UI = {
     self:'日本語', brandSub:'九大伊都・留学生ガイド', searchPh:'タイトル / 本文で検索',
     tabs:{map:'地図',guide:'ガイド',cunli:'村暦',faculty:'公式',history:'履歴'},
     guideHead:'ガイド · %n% カテゴリ', guideSub:'カテゴリを選んでガイドを開く',
-    nzTitle:'来日後の手続き順序', nzSub:'3 か月以内に必要な手続きを時系列に整理しています。タップで該当節へ移動します', nzResourcesTitle:'よく使う資料', nzResourcesSub:'確定した日程ではない資料へのリンクです', skipAll:'すべてのカテゴリ ↓',
+    nzTitle:'来日後の手続き順序', nzSub:'3 か月以内に必要な手続きを時系列に整理しています。タップで該当節へ移動します', nzResourcesTitle:'近日の重要案内・参考資料', nzResourcesSub:'授業の申込、寮、手続きの資料を、ご自身の状況に合わせて確認してください', skipAll:'すべてのカテゴリ ↓',
     emptyCat:'このカテゴリは準備中です', backGrid:'‹ 全カテゴリ',
     searchLabel:'検索', noResults:'該当する結果がありません',
     prevArticle:'前の記事', nextArticle:'次の記事',
@@ -137,7 +137,7 @@ const UI = {
     self:'English', brandSub:'Kyushu U Ito · Student Guide', searchPh:'Search titles / text',
     tabs:{map:'Map',guide:'Guide',cunli:'Calendar',faculty:'Sites',history:'History'},
     guideHead:'Guide · %n% categories', guideSub:'Pick a category to read',
-    nzTitle:'Order of procedures after arrival', nzSub:'Procedures needed within three months, arranged chronologically; tap to jump to the relevant section', nzResourcesTitle:'Common resources', nzResourcesSub:'Reference links, separate from dated events', skipAll:'All categories ↓',
+    nzTitle:'Order of procedures after arrival', nzSub:'Procedures needed within three months, arranged chronologically; tap to jump to the relevant section', nzResourcesTitle:'Upcoming notices and useful resources', nzResourcesSub:'Course registration, dormitory and procedure resources; check what applies to you', skipAll:'All categories ↓',
     emptyCat:'Content coming soon', backGrid:'‹ All Categories',
     searchLabel:'Search', noResults:'No results found',
     prevArticle:'Previous', nextArticle:'Next',
@@ -196,7 +196,7 @@ const UI = {
     self:'한국어', brandSub:'큐슈대 이토 · 유학생 가이드', searchPh:'제목 / 본문 검색',
     tabs:{map:'지도',guide:'가이드',cunli:'마을달력',faculty:'사이트',history:'기록'},
     guideHead:'가이드 · %n% 카테고리', guideSub:'카테고리를 눌러 가이드 열기',
-    nzTitle:'입국 후 수속 순서', nzSub:'3개월 이내에 필요한 수속을 시간순으로 정리했습니다. 탭하면 해당 절로 이동합니다', nzResourcesTitle:'자주 보는 자료', nzResourcesSub:'확정된 일정과 별도의 참고 링크', skipAll:'전체 카테고리 ↓',
+    nzTitle:'입국 후 수속 순서', nzSub:'3개월 이내에 필요한 수속을 시간순으로 정리했습니다. 탭하면 해당 절로 이동합니다', nzResourcesTitle:'최근 주요 공지와 참고 자료', nzResourcesSub:'수업 신청, 기숙사 및 수속 자료에서 본인에게 해당하는 내용을 확인하세요', skipAll:'전체 카테고리 ↓',
     emptyCat:'해당 카테고리 준비 중', backGrid:'‹ 전체 카테고리',
     searchLabel:'검색', noResults:'검색 결과가 없습니다',
     prevArticle:'이전 글', nextArticle:'다음 글',
@@ -254,7 +254,7 @@ const UI = {
     self:'Español', brandSub:'Kyushu U Ito · Guía para estudiantes', searchPh:'Buscar en títulos / texto',
     tabs:{map:'Mapa',guide:'Guía',cunli:'Calendario',faculty:'Facultades',history:'Historial'},
     guideHead:'Guía · %n% categorías', guideSub:'Elige una categoría para leer', skipAll:'Todas las categorías ↓',
-    nzTitle:'Orden de los trámites tras la llegada', nzSub:'Los trámites necesarios en los primeros tres meses, en orden cronológico; toca para ir a la sección', nzResourcesTitle:'Recursos habituales', nzResourcesSub:'Enlaces de consulta, separados de los eventos con fecha',
+    nzTitle:'Orden de los trámites tras la llegada', nzSub:'Los trámites necesarios en los primeros tres meses, en orden cronológico; toca para ir a la sección', nzResourcesTitle:'Avisos próximos y recursos útiles', nzResourcesSub:'Inscripción a cursos, residencias y trámites: consulta lo que corresponda a tu situación',
     emptyCat:'Contenido en preparación', backGrid:'‹ Todas las categorías',
     searchLabel:'Buscar', noResults:'Sin resultados',
     prevArticle:'Anterior', nextArticle:'Siguiente',
@@ -358,6 +358,11 @@ function setLang(v){ if(!UI[v]) v='zh'; lang=v; try{ localStorage.setItem('kyuda
    往里加生成器不产出的字段会造成两边漂移。按【日文原名】索引。
    祝日的英文名用内閣府的官方译法。 */
 const CUNLI_NAMES = {
+  "JTCs 新規登録・オンラインプレースメントテスト":{"en":"JTCs new registration and online placement test","ko":"JTCs 신규 등록·온라인 분반 테스트","es":"JTCs: nuevo registro y prueba de nivel en línea"},
+  "JTCs プレースメントテスト結果通知":{"en":"JTCs placement test results","ko":"JTCs 분반 테스트 결과 통지","es":"JTCs: resultados de la prueba de nivel"},
+  "JTCs クラス登録":{"en":"JTCs class selection","ko":"JTCs 반 선택 등록","es":"JTCs: selección de clase"},
+  "JTCs 後期開講期間の開始":{"en":"JTCs fall course period begins","ko":"JTCs 후기 수업 기간 시작","es":"JTCs: comienza el periodo del curso de otoño"},
+  "JTCs 後期開講期間の終了":{"en":"JTCs fall course period ends","ko":"JTCs 후기 수업 기간 종료","es":"JTCs: termina el periodo del curso de otoño"},
   '元日':{en:"New Year's Day",ko:'신정',es:'Año Nuevo'},
   '成人の日':{en:'Coming of Age Day',ko:'성인의 날',es:'Día de la Mayoría de Edad'},
   '建国記念の日':{en:'National Foundation Day',ko:'건국기념일',es:'Día de la Fundación Nacional'},
@@ -482,6 +487,11 @@ function getLangNow(){return lang}
    note 按 **条目 id** 索引（每条说明都是独立文案，不像活动名会重复）；
    place 按**日文原名**索引，与 CUNLI_NAMES 一致（同一地点会被多条复用）。 */
 const CUNLI_NOTES = {
+  "nc2026-jtcs-0":{"ja":"10/16 12:00—10/21 23:59（JST）。新規登録とオンラインテストを両方完了してください。クラス選択とは別の期間です。","en":"10/16 12:00—10/21 23:59 (JST). Complete both new registration and the online placement test. This is not the class-selection period.","ko":"10/16 12:00—10/21 23:59(JST). 신규 등록과 온라인 분반 테스트를 모두 완료하세요. 반 선택 기간과는 다릅니다.","es":"10/16 12:00—10/21 23:59 (JST). Completa el nuevo registro y la prueba de nivel en línea. Este no es el periodo para elegir clase."},
+  "nc2026-jtcs-1":{"ja":"10/23 午後（JST）に結果をメールで通知。具体的な時刻は未公表です。登録したメールを確認してください。","en":"Results are emailed on 10/23 in the afternoon (JST); no exact time is published. Check your registered email address.","ko":"10/23 오후(JST)에 결과가 이메일로 통지됩니다. 정확한 시각은 미공개입니다. 등록한 이메일을 확인하세요.","es":"Resultados por correo el 10/23 por la tarde (JST); no se ha publicado una hora exacta. Revisa el correo registrado."},
+  "nc2026-jtcs-2":{"ja":"10/26 12:30—10/27 23:59（JST）。結果に応じてクラスを登録します。先着順で、満員になり次第締切です。","en":"10/26 12:30—10/27 23:59 (JST). Select classes based on your result. First come, first served; closes when full.","ko":"10/26 12:30—10/27 23:59(JST). 테스트 결과에 따라 반을 선택하세요. 선착순이며 정원이 차면 마감됩니다.","es":"10/26 12:30—10/27 23:59 (JST). Elige clase según tu resultado. Por orden de inscripción, hasta completar el aforo."},
+  "nc2026-jtcs-3":{"ja":"開講期間は 2026/11/9—2027/2/8 です。毎日授業があるわけではなく、全員の初回が 11/9 とは限りません。クラスごとの時間割・休講日は公式ガイドで確認してください。","en":"The course period is 2026/11/9—2027/2/8. Classes are not daily, and not everyone’s first lesson is on 11/9. See the official guide for your class timetable and days off.","ko":"수업 기간은 2026/11/9—2027/2/8입니다. 매일 수업하지 않으며 모두의 첫 수업이 11/9인 것은 아닙니다. 반별 시간표와 휴강일은 공식 안내를 확인하세요.","es":"El periodo del curso es 2026/11/9—2027/2/8. No hay clase a diario y la primera sesión no es el 11/9 para todos. Consulta el horario y los días sin clase en la guía oficial."},
+  "nc2026-jtcs-4":{"ja":"公式の開講期間は 2027/2/8 に終了します。本人の最終授業日は選んだクラスの時間割で確認してください。","en":"The official course period ends on 2027/2/8. Check your selected class timetable for your own final lesson.","ko":"공식 수업 기간은 2027/2/8에 끝납니다. 본인의 마지막 수업은 선택한 반 시간표로 확인하세요.","es":"El periodo oficial termina el 2027/2/8. Consulta el horario de tu clase para saber cuándo es tu última sesión."},
   c62:{en:'Not yet published on the Kyushu U academic calendar — check the student affairs system (Gakumu) or your faculty notice.',
        ko:'규슈대 학사력에 아직 미공개 — 학무시스템 또는 소속 학부 공지를 확인하세요.',
        es:'Aún no publicado en el calendario académico de la Universidad de Kyushu — consulta el sistema de asuntos estudiantiles (Gakumu) o el tablón de tu facultad.'},
