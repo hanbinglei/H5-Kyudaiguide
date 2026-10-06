@@ -865,30 +865,34 @@ body.fb-open{overflow:hidden}
 .fb-fab:active{transform:scale(.94)}
 @media(min-width:1024px){.fb-fab{left:calc(50% - 640px + 16px);bottom:28px}}
 
-/* ── 「支持这个项目」卡片（指南页底部）─────────────────────────
-   一页只出现一次，不像文章页那样每篇都推，避免变成乞讨。 */
-.support-card{margin:22px 0 6px;padding:15px 16px;border:1px solid var(--line);
-  border-radius:12px;background:linear-gradient(180deg,#fffaf9,#fff)}
+/* 支持邀请前移到指南入口；强调主动作，但不固定遮挡、不弹窗、不锁阅读。 */
+.support-card{margin:8px 0 20px;padding:16px;border:1px solid #dfbbc5;
+  border-left:4px solid var(--brand);border-radius:14px;
+  background:linear-gradient(120deg,#fff5f7,#fffdf7);box-shadow:0 4px 14px rgba(123,45,62,.06)}
 .support-card[hidden]{display:none}
-.sup-t{font-size:14px;font-weight:700;color:#2b2b2b;margin-bottom:5px}
-.sup-note{font-size:12.5px;color:#777;line-height:1.6;margin:0 0 13px}
+.sup-t{font-size:16px;font-weight:750;color:#542330;line-height:1.5;margin-bottom:6px}
+.sup-note{font-size:13px;color:#655960;line-height:1.65;margin:0 0 13px;overflow-wrap:anywhere}
 .sup-acts{display:flex;flex-wrap:wrap;gap:8px}
 .sup-btn{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 14px;
   border-radius:9px;font-size:13px;font-weight:700;cursor:pointer;text-decoration:none;
   font-family:inherit;border:1px solid var(--line);background:#fff;color:#4a4a4a;
-  transition:border-color .15s,color .15s}
+  white-space:normal;overflow-wrap:anywhere;text-align:center;line-height:1.5;
+  transition:border-color .15s,color .15s,background-color .15s}
 .sup-btn:hover{border-color:var(--brand);color:var(--brand)}
-.sup-star{border-color:#f0dfae;background:#fffdf5;color:#8a6a15}
-.sup-star:hover{border-color:#d9b95c;color:#8a6a15}
+.sup-star{border-color:var(--brand);background:var(--brand);color:#fff;box-shadow:0 3px 8px rgba(123,45,62,.16)}
+.sup-star:hover{border-color:#542330;background:#542330;color:#fff}
+.sup-star:active,.star-entry:active{box-shadow:inset 0 2px 4px rgba(0,0,0,.18)}
+.sup-btn:focus-visible,.star-entry:focus-visible{outline:2px solid var(--brand);outline-offset:3px}
 .sup-ic{font-size:14px;line-height:1}
 @media(max-width:479px){.sup-acts{gap:6px}.sup-btn{flex:1;justify-content:center;font-size:12.5px}}
 
 /* ── 文章底部的 ★ 好评入口 ───────────────────────────────────
    为什么加：宫格页那支持卡片在折叠线以下（距视口顶 1203px / 视口 1024px），
    实测连作者本人都没看到。阅读动线的终点才是路径最短的位置。 */
-.star-entry{margin-top:10px;display:inline-flex;text-decoration:none;
-  border-color:#f0dfae;background:#fffdf5;color:#8a6a15}
-.star-entry:hover{border-color:#d9b95c;color:#8a6a15}
+.star-entry{margin:14px 0 10px;display:inline-flex;text-decoration:none;padding:14px 16px;
+  border-color:var(--brand);background:var(--brand);color:#fff;font-size:14px;font-weight:700;
+  line-height:1.6;white-space:normal;overflow-wrap:anywhere;text-align:center}
+.star-entry:hover{border-color:#542330;background:#542330;color:#fff}
 .article-foot .star-entry{display:flex;justify-content:center;width:100%}
 
 /* ── 文章内插图（机场指南等图文类文章）────────────────────

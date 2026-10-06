@@ -114,7 +114,7 @@
     if (gf0) gf0.textContent = t('fbEntryGeneral', '意见与建议');
     // 文章底部的 ★ 入口：读者读完的瞬间，路径最短的好评位置
     const st0 = $('btnStar');
-    if (st0) st0.textContent = t('starEntryArticle', '★ 这份指南有用的话，去 GitHub 给个 star');
+    if (st0) st0.textContent = t('starEntryArticle', '★ 帮到你了？请去 GitHub 给我点个 Star');
     // 支持卡片也要在守卫之前重建 —— 面板从未打开过时 built 仍是 false，
     // 放在守卫后面就会漏掉，卡片永远停在第一个语言（和入口按钮同一个坑）
     if ($('supportCard')) buildSupport();
@@ -214,16 +214,16 @@
   const REPO = 'https://github.com/hanbinglei/H5-Kyudaiguide';
 
   /** 「支持这个项目」卡片：GitHub star + 复制链接分享。
-   *  放在指南页底部（一页只出现一次，不像文章页那样每篇都推，避免打扰）。 */
+   *  放在指南内容之前，每页仅一张内联卡片；不额外弹窗或要求用户点赞才能阅读。 */
   function buildSupport() {
     const box = $('supportCard');
     if (!box || !enabled()) return;
     box.innerHTML =
-      '<div class="sup-t">' + esc(t('supportTitle', '这份指南帮到你了吗？')) + '</div>'
-      + '<p class="sup-note">' + esc(t('supportNote', '你的支持会直接决定接下来优先更新哪部分。')) + '</p>'
+      '<div class="sup-t">' + esc(t('supportTitle', '这份指南有用？请给我一个 GitHub Star')) + '</div>'
+      + '<p class="sup-note">' + esc(t('supportNote', '个人持续整理与维护。一个 Star，是我继续更新的动力；没有 GitHub 账号，也欢迎分享给同学。')) + '</p>'
       + '<div class="sup-acts">'
       + '<a class="sup-btn sup-star" href="' + REPO + '" target="_blank" rel="noopener">'
-      + '<span class="sup-ic">★</span>' + esc(t('supportStar', '在 GitHub 上点个 star')) + '</a>'
+      + '<span class="sup-ic">★</span>' + esc(t('supportStar', '去 GitHub 点 Star →')) + '</a>'
       + '<button class="sup-btn" type="button" id="supShare">'
       + '<span class="sup-ic">🔗</span>' + esc(t('supportShare', '复制链接分享给同学')) + '</button>'
       + '</div>';
@@ -270,7 +270,7 @@
       return;
     }
     relabel();                                   // 不依赖面板是否已打开
-    buildSupport();                              // 「支持这个项目」卡片（指南页底部）
+    buildSupport();                              // 指南入口的内联支持卡片
     // 来源 token 用语言中立的英文短标识，直接进邮件与表格，便于统计哪个入口有用
     const a = $('btnReportArticle');
     if (a) a.addEventListener('click', () => open('article', (window.__fbArticleTitle || ''), 'article-footer'));

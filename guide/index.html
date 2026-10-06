@@ -27,7 +27,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Kyudai Guide">
 
-<link rel="stylesheet" href="css/style.css?v=20261006b">
+<link rel="stylesheet" href="css/style.css?v=20261006c">
 </head>
 <body>
 <div id="app">
@@ -52,9 +52,9 @@
     <section id="pane-map" class="pane pane-map" style="display:none">
       <!-- src 延迟到用户点「地图」tab 才注入：地图数据约 500KB，
            而默认进来的人是要看指南的，不该先替他下载地图。见 app.js mountMap()
-           ?v=20261006b 必须带上：app.html 会把它透传给 data/*.json（见其中的 DATA_V），
+           ?v=20261006c 必须带上：app.html 会把它透传给 data/*.json（见其中的 DATA_V），
            不带的话改了数据也换不掉老用户缓存里的那份，而 HTML 却已经是新的。 -->
-      <iframe id="mapFrame" title="校园地图" data-a11y="mapTitle" data-src="../h5-mvp/app.html?v=20261006b" loading="lazy"></iframe>
+      <iframe id="mapFrame" title="校园地图" data-a11y="mapTitle" data-src="../h5-mvp/app.html?v=20261006c" loading="lazy"></iframe>
       <div class="map-tip" id="mapTip">地图由 Kyudaimap 提供 · 支持搜索与定位</div>
     </section>
 
@@ -63,6 +63,8 @@
       <!-- 状态条：今日来访 / 下一件大事 / 福冈天气 / 阅读打卡。
            四条都是纯增强 —— 任一条拿不到数据就整条隐藏，不留空壳。 -->
       <div id="pulse" class="pulse" hidden></div>
+      <!-- 支持邀请前移，但不遮挡内容，也不要求点Star才能阅读。 -->
+      <div class="support-card" id="supportCard" hidden></div>
       <!-- 宫格视图 -->
       <!-- 🆕 新生专区：服务"刚到日本"的人 —— 不复制正文，只把散在各篇的关键步骤
            按时间顺序串起来，每条用 ?sec=<区块ID> 深链到对应小节。
@@ -101,7 +103,6 @@
         <div id="catListArticles" class="list"></div>
       </div>
       <div id="guideEmpty" class="empty" style="display:none"></div>
-      <div class="support-card" id="supportCard" hidden></div>
       <!-- 综合反馈入口：没有具体文章时用这个 -->
       <button class="fb-entry fb-entry-wide" id="btnFeedback" type="button"></button>
       <!-- 非官方声明。读者看到「像官方」的站点会犹豫要不要转发，
@@ -182,13 +183,13 @@
             <div id="articleBody" class="article-body"></div>
             <div class="article-foot">
               <div class="article-end" id="articleEnd">— 全文完 —</div>
-              <!-- 纠错入口：读者发现错误时路径最短的地方。文案由 feedback.js 按语言填 -->
-              <button class="fb-entry" id="btnReportArticle" type="button"></button>
               <!-- 好评入口：读者**刚好读完全文**的时刻，路径最短。
                    宫格页底部那张支持卡片在折叠线以下（实测距视口顶 1203px、
                    视口 1024px），连作者本人都没看到过 —— 所以在阅读动线上补一个。 -->
               <a class="fb-entry star-entry" id="btnStar" href="https://github.com/hanbinglei/H5-Kyudaiguide"
                  target="_blank" rel="noopener"></a>
+              <!-- 纠错入口仍保留；支持按钮优先展示，不改变反馈流程。 -->
+              <button class="fb-entry" id="btnReportArticle" type="button"></button>
               <!-- 读完只能返回宫格太断了：按宫格顺序给上一篇/下一篇 -->
               <nav id="articleNav" class="article-nav" hidden></nav>
             </div>
@@ -234,23 +235,23 @@
   </div>
 </div>
 
-<script src="js/data-newcomer-zone.js?v=20261006b"></script>
-<script src="js/data-categories.js?v=20261006b"></script>
-<script src="js/data-faculties.js?v=20261006b"></script>
-<script src="js/data-articles.js?v=20261006b"></script>
-<script src="js/articles-i18n.js?v=20261006b"></script>
+<script src="js/data-newcomer-zone.js?v=20261006c"></script>
+<script src="js/data-categories.js?v=20261006c"></script>
+<script src="js/data-faculties.js?v=20261006c"></script>
+<script src="js/data-articles.js?v=20261006c"></script>
+<script src="js/articles-i18n.js?v=20261006c"></script>
 <!-- articles-body-i18n.js 不在这里加载：它是全站最大的一个文件（gzip 约 165KB），
      而中文读者一个字节都用不上。改由 app.js 的 ensureBodyI18N() 在非中文时按需并行拉。 -->
-<script src="js/data-cunli.js?v=20261006b"></script>
-<script src="js/cunli-utils.js?v=20261006b"></script>
-<script src="js/cunli-export.js?v=20261006b"></script>
-<script src="js/i18n.js?v=20261006b"></script>
-<script src="js/render.js?v=20261006b"></script>
-<script src="js/bus-live.js?v=20261006b"></script>
-<script src="js/search.js?v=20261006b"></script>
-<script src="js/app.js?v=20261006b"></script>
-<script src="js/pulse.js?v=20261006b"></script>
-<script src="js/feedback.js?v=20261006b"></script>
-<script src="js/tour.js?v=20261006b"></script>
+<script src="js/data-cunli.js?v=20261006c"></script>
+<script src="js/cunli-utils.js?v=20261006c"></script>
+<script src="js/cunli-export.js?v=20261006c"></script>
+<script src="js/i18n.js?v=20261006c"></script>
+<script src="js/render.js?v=20261006c"></script>
+<script src="js/bus-live.js?v=20261006c"></script>
+<script src="js/search.js?v=20261006c"></script>
+<script src="js/app.js?v=20261006c"></script>
+<script src="js/pulse.js?v=20261006c"></script>
+<script src="js/feedback.js?v=20261006c"></script>
+<script src="js/tour.js?v=20261006c"></script>
 </body>
 </html>
