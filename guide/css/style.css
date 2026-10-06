@@ -507,6 +507,13 @@ details[open]>summary{color:var(--brand)}
 .bus-live-stop{font-weight:600}
 .bus-live-note{font-size:12px;color:#888;margin-top:8px}
 .bus-live-loading{color:#999;font-size:13px;padding:8px}
+/* 季后替代候车表：同一位置整卡跳转，文字可换行，保留键盘焦点反馈。 */
+.bus-ended-link{display:block;padding:8px 4px;color:var(--brand);text-decoration:none;overflow-wrap:anywhere}
+.bus-ended-link strong{display:block;font-size:15px;line-height:1.6;color:#344149}
+.bus-ended-link>span{display:block;font-size:13px;line-height:1.7;margin-top:6px}
+.bus-ended-link:hover{background:#f7f4f1;border-radius:8px}
+.bus-ended-link:active{background:#eee7e5}
+.bus-ended-link:focus-visible{outline:2px solid var(--brand);outline-offset:4px;border-radius:8px}
 
 /* ── 电脑端 / 非触屏体验（2026-09-02）─────────────────────────────
    触屏可以随手划，桌面端没有那个自由度：滚轮、滚动条、键盘是它的手指。

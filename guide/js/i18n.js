@@ -63,6 +63,7 @@ const UI = {
         busRunning:'今日运行中', busNotRunning:'今日不运行', busRunDays:'运行日',
         busLastBusGone:'今日末班已过', busNoData:'无数据',
         busNote:'每 30 秒自动更新 · 时刻以官方海报 PDF 为准',
+        busSeasonEnded:'生活支援巴士已结束', busTravelGuide:'日常出行请查看交通章节',
         bus_stop_kyousoukan:'伊都协奏馆', bus_stop_dorm:'ドミトリー 1-3', bus_stop_settle:'セトルインターナショナル', bus_stop_gakkentoshi:'九大学研都市站',
         // 新手引导
     tour:{ open:'新手引导', skip:'跳过', prev:'上一步', next:'下一步', done:'开始使用',
@@ -121,6 +122,7 @@ const UI = {
         busRunning:'本日運行中', busNotRunning:'本日運行なし', busRunDays:'運行日',
         busLastBusGone:'本日の最終便は出発済み', busNoData:'データなし',
         busNote:'30 秒ごとに自動更新 · 時刻は公式ポスター PDF に基づく',
+        busSeasonEnded:'今期の生活支援バスは終了しました', busTravelGuide:'普段の移動は交通ガイドをご覧ください',
         bus_stop_kyousoukan:'伊都協奏館', bus_stop_dorm:'ドミトリー 1-3', bus_stop_settle:'セトルインターナショナル', bus_stop_gakkentoshi:'九大学研都市駅',
         // チュートリアル
     tour:{ open:'使い方ガイド', skip:'スキップ', prev:'戻る', next:'次へ', done:'使ってみる',
@@ -180,6 +182,7 @@ const UI = {
         busRunning:'Running today', busNotRunning:'Not running today', busRunDays:'Operating days',
         busLastBusGone:'Last bus has left', busNoData:'No data',
         busNote:'Auto-updates every 30s · Times from official poster PDF',
+        busSeasonEnded:'The shopping shuttle service has ended for this term', busTravelGuide:'For everyday travel, see the transport guide',
         bus_stop_kyousoukan:'Ito Harmony House', bus_stop_dorm:'Dormitory 1-3', bus_stop_settle:'SETTLE International', bus_stop_gakkentoshi:'Kyudai Gakkentoshi Stn.',
         // Onboarding
     tour:{ open:'How to use', skip:'Skip', prev:'Back', next:'Next', done:'Get started',
@@ -238,6 +241,7 @@ const UI = {
         busRunning:'오늘 운행 중', busNotRunning:'오늘 운행 없음', busRunDays:'운행일',
         busLastBusGone:'오늘 막차 출발함', busNoData:'데이터 없음',
         busNote:'30초마다 자동 갱신 · 시각은 공식 포스터 PDF 기준',
+        busSeasonEnded:'이번 학기 생활지원 버스 운행이 종료되었습니다', busTravelGuide:'일상적인 이동은 교통 안내를 확인하세요',
         bus_stop_kyousoukan:'이토 협주관', bus_stop_dorm:'도미토리 1-3', bus_stop_settle:'세틀 인터내셔널', bus_stop_gakkentoshi:'큐다이 가켄토시역',
         // 사용 안내
     tour:{ open:'사용법 안내', skip:'건너뛰기', prev:'이전', next:'다음', done:'시작하기',
@@ -256,7 +260,8 @@ const UI = {
     guideHead:'Guía · %n% categorías', guideSub:'Elige una categoría para leer', skipAll:'Todas las categorías ↓',
     nzTitle:'Orden de los trámites tras la llegada', nzSub:'Los trámites necesarios en los primeros tres meses, en orden cronológico; toca para ir a la sección', nzResourcesTitle:'Avisos próximos y recursos útiles', nzResourcesSub:'Inscripción a cursos, residencias y trámites: consulta lo que corresponda a tu situación',
     emptyCat:'Contenido en preparación', backGrid:'‹ Todas las categorías',
-    searchLabel:'Buscar', noResults:'Sin resultados',
+    searchLabel:'Buscar', noResults:'Sin resultados',
+    busSeasonEnded:'El autobús de compras de este semestre ha finalizado', busTravelGuide:'Para los desplazamientos diarios, consulta la guía de transporte',
     prevArticle:'Anterior', nextArticle:'Siguiente',
     installTitle:'Añadir a la pantalla de inicio', installDesc:'Funciona sin conexión y abre más rápido', installGo:'Añadir', installNo:'Más tarde',
     searchHist:'Búsquedas recientes', searchHistClear:'Borrar', toTop:'Volver arriba',

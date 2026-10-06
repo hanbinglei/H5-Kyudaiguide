@@ -19,9 +19,17 @@ function nextRun(times, nowMin){
   return best;
 }
 
-function isRunDay(days){
-  const d=new Date();
-  return (days||[]).some(([mo,da])=>d.getMonth()+1===mo && d.getDate()===da);
+/* 日本时刻只用于季节窗口与候车计算，不随读者手机所在时区改变。 */
+function tokyoDate(now=Date.now()){ return new Date(now+9*60*MIN); }
+function isRunDay(days, year){
+  const d=tokyoDate();
+  return (!year || d.getUTCFullYear()===year) && (days||[]).some(([mo,da])=>d.getUTCMonth()+1===mo && d.getUTCDate()===da);
+}
+/* 只依据该批次的明确年份和最后运行日；旧数据不推断成下一年的运行安排。 */
+function seasonEnded(block, now=Date.now()){
+  if(!block.year || !block.days || !block.days.length) return false;
+  const end=Math.max(...block.days.map(([m,d])=>Date.UTC(block.year,m-1,d+1)-9*60*MIN));
+  return now>=end;
 }
 
 /* 站名显示：优先用 UI 词典（按 labelKey），核心文案也一样 */
@@ -30,10 +38,14 @@ function txt(key){
 }
 
 function renderTable(root, block){
+  if(seasonEnded(block)){
+    root.innerHTML=`<a class="bus-ended-link" href="#article/guide-transport"><strong>${esc(txt('busSeasonEnded'))}</strong><span>${esc(txt('busTravelGuide'))} <span aria-hidden="true">›</span></span></a>`;
+    return;
+  }
   const days=block.days||[];
-  const d=new Date();
-  const nowMin=d.getHours()*60+d.getMinutes();
-  const running=isRunDay(days);
+  const d=tokyoDate();
+  const nowMin=d.getUTCHours()*60+d.getUTCMinutes();
+  const running=isRunDay(days,block.year);
   const dirs=block.stops||[];
   const dirLabel=dir=>txt(dir.labelKey||'');
 
@@ -96,7 +108,14 @@ function init(root){
   try{ block=JSON.parse(root.dataset.schedule||'null'); }catch(e){ block=null; }
   if(!block) return;
   renderTable(root, block);
-  setInterval(function(){ renderTable(root, block); }, 30000);
+  if(root._busTimer) clearInterval(root._busTimer);
+  // 季后没有倒计时；切换语言或离开文章时不残留重复刷新器。
+  if(seasonEnded(block)) return;
+  root._busTimer=setInterval(function(){
+    if(!root.isConnected){clearInterval(root._busTimer);root._busTimer=null;return;}
+    renderTable(root, block);
+    if(seasonEnded(block)){clearInterval(root._busTimer);root._busTimer=null;}
+  }, 30000);
 }
 
 /* 等页面语言切换完成后由 app.js 调 refresh：重建全部容器 */
@@ -108,5 +127,5 @@ function refreshAll(){
   });
 }
 
-window.GuideBusLive={ init, refreshAll, renderTable };
+window.GuideBusLive={ init, refreshAll, renderTable, seasonEnded };
 })();

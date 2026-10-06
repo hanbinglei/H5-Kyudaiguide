@@ -52,6 +52,7 @@ run_soft() {   # 名称 · 命令（只报数字）
 echo "=== 硬性校验（失败即 CI 红）==="
 run_hard "楼内设施目录与搜索" node tools/test_indoor_facilities.js
 run_hard "JTCs 后期日程与译文" node tools/test_jtcs_2026f.js
+run_hard "巴士季后交通入口" node tools/test_bus_season_ended.js
 
 # 比较重建前后的产物，不比较 HEAD：正确的未提交内容也应能本地验收。
 # 旧产物或缺失产物会在重建后改变哈希，仍能发现“改内容后忘记构建”。

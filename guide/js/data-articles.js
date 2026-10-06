@@ -6448,6 +6448,7 @@ window.ARTICLES = [
    {
     "id": "b0c1d2",
     "type": "bus_live",
+    "year": 2026,
     "days": [
      [
       9,
