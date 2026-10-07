@@ -26,7 +26,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "アカウントと各種証明書"
    },
    "3b7366": {
-    "text": "SSO-KID の有効化には大学のメールアドレス以外は使えません。成績証明書、在学証明書、新幹線の学割証などは九大公式サイトの certificate ページから申請します。大学院生向けの証明書は ku-cert を使います。"
+    "text": "SSO-KID の有効化には大学のメールアドレス以外は使えません。 学籍と受取方法は大学公式の証明書入口から選びます。ku-certは大学院生だけのサービスではありません。本記事の証明書の節をご確認ください。"
    },
    "5ed19b": {
     "items": [
@@ -35,8 +35,8 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://www.kyushu-u.ac.jp/ja/education/procedure/certificate/"
      },
      {
-      "text": "大学院生の証明書（ku-cert）",
-      "url": "https://ku-cert.kyushu-u.ac.jp/cert/z/c_menu.html/_/g"
+      "text": "在籍生の証明書申請（ku-cert）",
+      "url": "https://ku-cert.kyushu-u.ac.jp/cert/z/z_login.html"
      },
      {
       "text": "履修システム（JTC）",
@@ -389,20 +389,36 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "1240ad": {
-    "text": "証明書の申請方法"
+    "text": "証明書：対象者・申請・印刷"
    },
    "7d38ec": {
-    "text": "在学証明書・成績証明書・卒業（修了）見込証明書などは、大学の証明書発行窓口で申請します。一部は**学内の自動発券機**でも取得できます（下記参照）。"
+    "text": "確認日：2026-10-07。学籍、必要な証明書と提出条件を確認してから受取方法を選びます。一般のPDF印刷やコピーとは異なります。このガイドでは代理申請できません。"
    },
    "d2ae99": {
     "items": [
      {
-      "text": "九州大学・各種証明書の発行",
+      "text": "九大証明書総合案内・学生係",
       "url": "https://www.kyushu-u.ac.jp/ja/education/procedure/certificate/"
      },
      {
-      "text": "ISC・留学生の日常生活ガイド",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/page-019"
+      "text": "証明書公式案内（英語）",
+      "url": "https://www.kyushu-u.ac.jp/en/education/procedure/certificate/"
+     },
+     {
+      "text": "在籍生公式申請入口",
+      "url": "https://ku-cert.kyushu-u.ac.jp/cert/z/z_login.html"
+     },
+     {
+      "text": "2026学生ハンドブック：発行機（8ページ）",
+      "url": "https://www.kyushu-u.ac.jp/f/65764/2026%20Student%20Handbook_en.pdf"
+     },
+     {
+      "text": "2026年度健康診断証明書の案内",
+      "url": "https://chc.kyushu-u.ac.jp/chcwpsite/wp-content/uploads/2026/04/syoumeisyo_r804.pdf"
+     },
+     {
+      "text": "工学部：非正課生・交換生成績の案内",
+      "url": "https://www.eng.kyushu-u.ac.jp/en/student-supports/certificate/"
      }
     ]
    },
@@ -487,48 +503,48 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "8d720b": {
-    "text": "自動発券機（8:30〜17:15）"
+    "text": "学内発行機の場所"
    },
    "7ddd0f": {
-    "text": "在学証明書・通学証明書・学割証・健康診断証明書をセルフで発行できます。**並ばずに済みます**。注意：**利用できるのは正規課程の学生のみ** —— 研究生・交換留学生は所属窓口へ。"
+    "text": "2026学生ハンドブック8ページの所在地・時間です。土日祝は利用不可、臨時停止は現地案内優先。大橋は2026年5月頃までCo-Labの仮設場所との注記があるため移転状況を確認。筑紫は本版の管理棟1Fを採用し、旧Vista Hall表記は使用しません。"
    },
    "9dc610": {
     "headers": [
      "キャンパス",
-     "場所"
+     "場所・利用時間"
     ],
     "rows": [
      [
       "伊都",
-      "センター1号館 2F"
+      "センター1号館2F 学務部ロビー · 8:30–17:15"
      ],
      [
       "伊都",
-      "イースト1号館C棟 1F"
+      "イースト1号館C棟1F 人社系学務窓口前 · 8:30–17:15"
      ],
      [
       "伊都",
-      "ウエスト1号館A棟 3F"
+      "ウエスト1号館A棟3F 理学部教務事務室内 · 8:30–17:15"
      ],
      [
       "伊都",
-      "ウエスト4号館 2F"
+      "ウエスト4号館2F 工学部教務区域の学生ホール · 8:30–17:15"
      ],
      [
       "伊都",
-      "ウエスト5号館東 3F"
-     ],
-     [
-      "筑紫",
-      "ビスタホール売店入口"
-     ],
-     [
-      "大橋",
-      "芸術工学部管理棟 1F"
+      "ウエスト5号館東棟3F 農学部学生係事務室内 · 8:30–17:15"
      ],
      [
       "病院",
-      "基礎研究棟A棟 1F"
+      "基礎研究A棟1F · 9:00–17:15"
+     ],
+     [
+      "大橋",
+      "芸術工学部管理棟1F 学務区域 · 8:30–17:15"
+     ],
+     [
+      "筑紫",
+      "管理棟1F · 8:30–17:15"
      ]
     ]
    },
@@ -536,7 +552,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "**健康診断を受けていないと健康診断証明書は発行できません。** 奨学金の申請や就職活動で必要になります。必ず受けてください。"
    },
    "0c0390": {
-    "text": "証明書の受け取り：正規課程の学生は**自動発券機**、研究生・交換留学生は各キャンパスの**キャンパスライフ・健康支援センター**で申請（無料）。"
+    "text": "健康証明は学籍証明とは別です。当期健診の完了が必要で、非正課生・再検査対象者・一部学府は自動発行不可。証明書の節で対象者と当年度の期間を確認してください。"
    },
    "b41e84": {
     "text": "ハラスメント対策推進室：ハラスメント（セクシュアル・アカデミック・パワー）の相談・申告窓口。"
@@ -654,6 +670,143 @@ window.ARTICLES_BODY_I18N = {
       }
      ]
     }
+   },
+   "c7who": {
+    "text": "最初に学籍と利用できる方法を確認"
+   },
+   "c7whoTable": {
+    "headers": [
+     "学籍",
+     "受取方法と制限"
+    ],
+    "rows": [
+     [
+      "正規の学部・修士・博士学生",
+      "現課程の証明書はシステムの種類・発行条件に従って申請。学内発行機、コンビニ、窓口・郵送を選択。"
+     ],
+     [
+      "非正課生：研究生・交換留学生等",
+      "コンビニ・学内発行機は不可。窓口・郵送を利用。発行できる在籍・在学等の証明書名は所属学生係へ確認。"
+     ],
+     [
+      "卒業・退学・除籍した方",
+      "離籍生入口で初回登録・承認が必要。学内発行機は不可。コンビニは課程・入学年度等で対象が限定。海外居住者は郵送のみ。"
+     ],
+     [
+      "在籍中だが過去の課程の証明書が必要な方",
+      "修士学生が九大の学部の成績・卒業証明を申請する例では原則離籍生扱い。現在の学生証だけで無料にはなりません。"
+     ]
+    ]
+   },
+   "c7kind": {
+    "text": "証明書の名前を区別する"
+   },
+   "c7docs": {
+    "items": [
+     {
+      "text": "在学証明書：現在の在学を示し、在留・奨学金等に使用。非正課生は所属窓口で適切な在籍・在学証明を確認します。"
+     },
+     {
+      "text": "成績証明書：登録済み成績を示します。ポータルに表示された直後に反映されるとは限りません。研究生・交換生に正規課程と同じ条件を当てはめないでください。"
+     },
+     {
+      "text": "卒業・修了見込証明書：所属課程の見込条件を満たしてから発行。新入生全員が取得できるものではありません。卒業・修了証明書は修了した課程用です。"
+     },
+     {
+      "text": "JR学割証：学内発行機のみで発行し、コンビニは不可。通学定期券用の通学証明とは別です。定期券の必要書類は交通機関の案内を確認してください。"
+     },
+     {
+      "text": "健康診断証明書：当期の大学定期健診を完了する必要があります。例外は下記。コンビニの公式一覧は和文のみ。英文や指定検査項目は健セに相談してください。"
+     },
+     {
+      "text": "博士学位授与証明書：学位記番号が必要なら修了証明書だけで代用しません。国費等の奨学金証明、推薦状、特殊な在籍証明など一覧にないものは担当学生係・留学課に確認します。"
+     }
+    ]
+   },
+   "c7apply": {
+    "text": "オンライン申請から受取りまで"
+   },
+   "c7steps": {
+    "items": [
+     {
+      "title": "提出条件を確認",
+      "desc": "和文・英文、部数、課程、締切、厳封・指定様式を確認。支払い前に提出先へ確認します。"
+     },
+     {
+      "title": "大学公式ページから申請",
+      "desc": "在籍生・離籍生の適切な入口を選び、公式ログイン説明に従います。初回メール登録後は認証を完了。大学アカウントがあっても非正課生は発行機を使えません。"
+     },
+     {
+      "title": "証明書と受取方法を選択",
+      "desc": "学内発行機・学内印刷を選び、オンライン申請時の確認番号で発行機を操作。コンビニは国内対応店舗のマルチコピー機で、画面の番号・支払い・期限に従います。"
+     },
+     {
+      "title": "窓口・郵送・特殊様式",
+      "desc": "窓口は「郵送・窓口」から「大学窓口での受取り」。郵送は切手付き返信用封筒を担当係へ。必要書類がメニューにない場合、発行可否を確認してから「その他の証明書」と備考欄を使います。"
+     }
+    ]
+   },
+   "c7fee": {
+    "text": "費用と期限"
+   },
+   "c7feeTable": {
+    "headers": [
+     "方法・学籍",
+     "料金・注意"
+    ],
+    "rows": [
+     [
+      "在籍生：学内発行機・窓口",
+      "発行料無料。非正課生は発行機を利用できません。"
+     ],
+     [
+      "在籍生：コンビニ",
+      "400円/通＋印刷代60円/枚。対象者・発行可能な種類のみ。"
+     ],
+     [
+      "在籍生：郵送",
+      "発行料無料。切手付き返信用封筒が必要。"
+     ],
+     [
+      "離籍生",
+      "原則800円/通＋印刷代・郵送料。利用方法には条件あり。"
+     ]
+    ]
+   },
+   "c7feeNote": {
+    "text": "コンビニ印刷期限は申請後7日間（8日目0時まで）。画面で確認してください。支払済み発行料・郵送料は返金されません。在籍生が就職活動用に過去課程の卒業・修了・成績証明を窓口申請・交付で受ける場合は免除例外があるため先に確認。支払い後の申出では返金不可。窓口・郵送は和文約3日、英文約1週間が目安で、郵送日数は別です。即日を保証しません。"
+   },
+   "c7health": {
+    "text": "健康証明：健診済みでも窓口が必要な場合"
+   },
+   "c7healthBody": {
+    "items": [
+     {
+      "text": "当期健診とWeb問診等の全項目の完了が必要。未受診・未完了項目がある場合は発行できません。"
+     },
+     {
+      "text": "2026年度は胸部X線再検査が必要な学生、マス・フォア・イノベーション連係学府学生、非正課生は発行機・コンビニ不可。最寄りの健セ健康相談室へ早めに相談してください。"
+     },
+     {
+      "text": "2026年度分の発行は2027-03-31まで。これは発行期間であり、提出先の有効期限を保証しません。受診日と発行可能状態を確認し、過年度結果を当期結果として使わないでください。"
+     }
+    ]
+   },
+   "c7special": {
+    "text": "様式・メニュー不足・不具合の相談"
+   },
+   "c7help": {
+    "items": [
+     {
+      "text": "偽造防止処理があり、コピーや一般印刷を正式原本の代わりにしません。外務省提出用はコンビニ発行不可。学内発行機・郵送・窓口を選びます。"
+     },
+     {
+      "text": "厳封は原則しません。必要な場合、発行機・コンビニ原本を所属学生係で厳封してもらえます。指定様式・資格試験証明は申請前に相談し、備考と様式送付で対応。"
+     },
+     {
+      "text": "ログイン・メール・支払い等は06-6809-4327（24時間）。内容・作成・発送・初回登録承認は所属学生係へ。公式一覧の学部・学府窓口、学務相談092-802-5939（平日8:30–17:15）を利用。本ガイドへ身分証やパスワードを送らないでください。"
+     }
+    ]
    }
   },
   "en": {
@@ -670,7 +823,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Accounts and Certificates"
    },
    "3b7366": {
-    "text": "Activating your SSO-KID requires a university email address; no other address will work. Transcripts, enrolment certificates, and Shinkansen student-discount certificates are requested from the certificate page on the university website; graduate students use ku-cert for their certificates."
+    "text": "Activating your SSO-KID requires a university email address; no other address will work. Choose your status and collection through the university’s official certificate page. ku-cert is not only for graduate students. See the Certificates section of this article for eligibility."
    },
    "5ed19b": {
     "items": [
@@ -679,8 +832,8 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://www.kyushu-u.ac.jp/ja/education/procedure/certificate/"
      },
      {
-      "text": "Graduate student certificates (ku-cert)",
-      "url": "https://ku-cert.kyushu-u.ac.jp/cert/z/c_menu.html/_/g"
+      "text": "Current-student certificates (ku-cert)",
+      "url": "https://ku-cert.kyushu-u.ac.jp/cert/z/z_login.html"
      },
      {
       "text": "Course registration system (JTC)",
@@ -1033,20 +1186,36 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "1240ad": {
-    "text": "How to request certificates"
+    "text": "Certificates: eligibility, application and printing"
    },
    "7d38ec": {
-    "text": "Certificates of enrolment, transcripts and expected-graduation certificates are issued through the university's certificate desk. Some are also available from the **self-service machines** on campus (see below)."
+    "text": "Checked: 2026-10-07. Confirm your student status, certificate name and recipient requirements before choosing collection. Official issuance is not ordinary PDF printing or photocopying. This guide cannot apply on your behalf."
    },
    "d2ae99": {
     "items": [
      {
-      "text": "Kyushu University · issuing certificates",
+      "text": "Official certificate guide and student affairs contacts",
       "url": "https://www.kyushu-u.ac.jp/ja/education/procedure/certificate/"
      },
      {
-      "text": "ISC · daily life guide for international students",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/page-019"
+      "text": "Official certificate guide in English",
+      "url": "https://www.kyushu-u.ac.jp/en/education/procedure/certificate/"
+     },
+     {
+      "text": "Current-student application portal",
+      "url": "https://ku-cert.kyushu-u.ac.jp/cert/z/z_login.html"
+     },
+     {
+      "text": "2026 Student Handbook: machines on page 8",
+      "url": "https://www.kyushu-u.ac.jp/f/65764/2026%20Student%20Handbook_en.pdf"
+     },
+     {
+      "text": "2026 medical certificate issuance notice",
+      "url": "https://chc.kyushu-u.ac.jp/chcwpsite/wp-content/uploads/2026/04/syoumeisyo_r804.pdf"
+     },
+     {
+      "text": "Engineering: non-degree and exchange transcript guidance",
+      "url": "https://www.eng.kyushu-u.ac.jp/en/student-supports/certificate/"
      }
     ]
    },
@@ -1131,48 +1300,48 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "8d720b": {
-    "text": "Self-service certificate machines (8:30-17:15)"
+    "text": "Where campus issuing machines are"
    },
    "7ddd0f": {
-    "text": "Enrolment certificates, commuter certificates, student discounts and health-check certificates print straight from the machine - **no queue**. Note: **regular-course students only** - research and exchange students go to their faculty counter."
+    "text": "Locations/hours: 2026 Student Handbook, page 8. Closed weekends/public holidays; local notices take priority for outages. Ohashi also notes temporary Co-Lab placement until around May 2026: check relocation notices before visiting. For Chikushi use this edition’s Administration Building 1F, not the older Vista Hall listing."
    },
    "9dc610": {
     "headers": [
      "Campus",
-     "Location"
+     "Location/hours"
     ],
     "rows": [
      [
       "Ito",
-      "Center Bldg 1, 2F"
+      "Center Zone 1, 2F, Student Affairs lobby · 8:30–17:15"
      ],
      [
       "Ito",
-      "East Bldg 1C, 1F"
+      "East Zone 1-C, 1F, outside humanities/social sciences student affairs · 8:30–17:15"
      ],
      [
       "Ito",
-      "West Bldg 1A, 3F"
+      "West Zone 1-A, 3F, Science academic affairs office · 8:30–17:15"
      ],
      [
       "Ito",
-      "West Bldg 4, 2F"
+      "West Zone 4, 2F, Engineering academic affairs student hall · 8:30–17:15"
      ],
      [
       "Ito",
-      "West Bldg 5 East, 3F"
-     ],
-     [
-      "Chikushi",
-      "Vista Hall shop entrance"
-     ],
-     [
-      "Ohashi",
-      "Design Bldg admin, 1F"
+      "West Zone 5 East, 3F, Agriculture student affairs office · 8:30–17:15"
      ],
      [
       "Hospital",
-      "Basic Research A, 1F"
+      "Basic Research Building A, 1F · 9:00–17:15"
+     ],
+     [
+      "Ohashi",
+      "School of Design Administration Building, 1F, student affairs · 8:30–17:15"
+     ],
+     [
+      "Chikushi",
+      "Administration Building, 1F · 8:30–17:15"
      ]
     ]
    },
@@ -1180,7 +1349,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "**No health check, no health certificate.** Scholarship applications and job hunting both require it - make sure you attend."
    },
    "0c0390": {
-    "text": "Collecting the certificate: regular students use the **self-service machine**; research and exchange students apply at the **Campus Life & Health Support Centre** on each campus (free)."
+    "text": "A medical certificate is different from a student-status certificate. Complete the current checkup; non-degree students, repeat-examination cases and some programmes cannot use automatic issuance. See the Certificates section for this year’s rules."
    },
    "b41e84": {
     "text": "Harassment Prevention Office: the contact point for consultation and reports on harassment (sexual, academic, power)."
@@ -1298,6 +1467,143 @@ window.ARTICLES_BODY_I18N = {
       }
      ]
     }
+   },
+   "c7who": {
+    "text": "Start with your status"
+   },
+   "c7whoTable": {
+    "headers": [
+     "Status",
+     "Collection and restrictions"
+    ],
+    "rows": [
+     [
+      "Degree students: undergraduate, master’s, doctoral",
+      "For the current programme, apply for the certificate types you are eligible for in the system. Choose a campus machine, convenience store, office or post."
+     ],
+     [
+      "Non-degree students: research, exchange, etc.",
+      "No campus machines or convenience-store issuance. Use the office/post; ask your student affairs section which enrolment or attendance documents can be issued."
+     ],
+     [
+      "Graduated, withdrawn or removed from the register",
+      "Use the former-student portal; first registration requires approval. No campus machines. Convenience-store eligibility depends on programme/intake etc. Overseas residents: post only."
+     ],
+     [
+      "Current student requesting a previous programme’s records",
+      "A master’s student requesting Kyushu undergraduate transcripts/graduation records is normally treated as a former student for those records; a current student card does not make them free."
+     ]
+    ]
+   },
+   "c7kind": {
+    "text": "Choose the correct document"
+   },
+   "c7docs": {
+    "items": [
+     {
+      "text": "Certificate of Enrolment (在学証明書): current student status, often used for visas or scholarships. Non-degree students should ask which enrolment/attendance certificate applies."
+     },
+     {
+      "text": "Academic Transcript (成績証明書): recorded grades. Newly visible portal grades may not appear immediately. Do not assume the same transcript rules for research or exchange students."
+     },
+     {
+      "text": "Expected Graduation/Completion: only after meeting your programme’s eligibility conditions; not available to every new student. Graduation/Completion certificates concern completed programmes."
+     },
+     {
+      "text": "JR student discount certificate (学割証): campus machines only, not convenience stores. It is different from documents for a commuting season ticket; check the transport operator’s requirements separately."
+     },
+     {
+      "text": "Medical examination certificate: requires completion of the current university checkup; see exceptions below. The official convenience-store list specifies Japanese only. Ask CHC about English or specified examination items."
+     },
+     {
+      "text": "Doctoral Degree Conferral certificate: if a degree certificate number is required, do not substitute a completion certificate alone. Ask the relevant student affairs section/ISED about scholarship confirmation, references or special attendance documents absent from the standard list."
+     }
+    ]
+   },
+   "c7apply": {
+    "text": "Apply first, then collect"
+   },
+   "c7steps": {
+    "items": [
+     {
+      "title": "Check recipient requirements",
+      "desc": "Confirm Japanese/English, copies, programme, deadline, sealing and any required template. Ask before paying for the wrong format."
+     },
+     {
+      "title": "Enter through the university website",
+      "desc": "Choose the current- or former-student portal and follow its login instructions. Complete email verification at first registration. Having a university account does not give non-degree students access to issuing machines."
+     },
+     {
+      "title": "Select document and collection",
+      "desc": "For campus printing select the campus-machine option and enter the confirmation number from your online application. At supported multi-copy machines in Japan, follow the application screen’s codes, payment and deadline instructions."
+     },
+     {
+      "title": "Office, post or special forms",
+      "desc": "For office pickup choose 郵送・窓口 then 大学窓口での受取り. For post, send the stamped return envelope as instructed. If a document is not listed, ask whether it can be issued before selecting その他の証明書 and explaining in remarks."
+     }
+    ]
+   },
+   "c7fee": {
+    "text": "Fees and deadlines"
+   },
+   "c7feeTable": {
+    "headers": [
+     "Route/status",
+     "Cost/conditions"
+    ],
+    "rows": [
+     [
+      "Current: campus machine/office",
+      "No issuance fee. Non-degree students cannot use campus machines."
+     ],
+     [
+      "Current: convenience store",
+      "400 yen/certificate plus 60 yen/page printing. Only eligible users and available documents."
+     ],
+     [
+      "Current: post",
+      "No issuance fee; provide a stamped return envelope."
+     ],
+     [
+      "Former students",
+      "Normally 800 yen/certificate plus printing or postage, subject to eligibility."
+     ]
+    ]
+   },
+   "c7feeNote": {
+    "text": "Convenience-store printing expires 7 days after application, at 0:00 on day 8; check the screen. Paid fees/postage are not refunded. Current students requesting previous-programme graduation/completion/transcripts for job hunting may qualify for a fee exception when applying and collecting at the office; confirm before paying. A later explanation does not secure a refund. Office/post issuance is roughly 3 days for Japanese or 1 week for English, plus delivery time—not guaranteed same-day service."
+   },
+   "c7health": {
+    "text": "Medical certificates: when an office is needed"
+   },
+   "c7healthBody": {
+    "items": [
+     {
+      "text": "Complete the current checkup and all required items, including web screening. No certificate without the checkup or with incomplete items."
+     },
+     {
+      "text": "For 2026, students needing a repeat chest X-ray, students in the Joint Graduate School of Mathematics for Innovation (マス・フォア・イノベーション連係学府), and non-degree students cannot use machines/stores for this certificate. Contact the nearest CHC health consultation room early."
+     },
+     {
+      "text": "2026 checkup certificates can be issued until 2027-03-31. This is the issuance window, not a guarantee of the recipient’s validity period. Check your examination date and system availability; do not treat previous-year results as current."
+     }
+    ]
+   },
+   "c7special": {
+    "text": "Special formats, missing options and help"
+   },
+   "c7help": {
+    "items": [
+     {
+      "text": "Certificates have anti-forgery protection; photocopies or ordinary printouts do not replace issued originals. Japan’s Ministry of Foreign Affairs does not accept this convenience-store service’s certificates: choose campus machine, post or office."
+     },
+     {
+      "text": "Sealing is not automatic. Your student affairs section can seal an original issued at a campus machine or convenience store when required. For specified templates/qualification exams, ask first, explain in remarks and send the template."
+     },
+     {
+      "text": "Login, email and payment problems: 06-6809-4327 (24 hours). Content, preparation, dispatch and first-registration approval: your student affairs section listed on the official page. General academic affairs: 092-802-5939 (weekdays 8:30–17:15). Do not send identity documents or passwords to this guide."
+     }
+    ]
    }
   },
   "ko": {
@@ -1314,7 +1620,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "계정과 각종 증명서"
    },
    "3b7366": {
-    "text": "SSO-KID 활성화에는 학교 메일 주소 외에는 사용할 수 없습니다. 성적증명서, 재학증명서, 신칸센 학할증명서 등은 규슈대 공식 사이트의 certificate 페이지에서 신청합니다. 대학원생 관련 증명서는 ku-cert를 이용합니다."
+    "text": "SSO-KID 활성화에는 학교 메일 주소 외에는 사용할 수 없습니다. 증명서는 대학 공식 페이지에서 학적·수령 방법을 선택합니다. ku-cert는 대학원생 전용이 아닙니다. 이 글의 증명서 항목에서 조건을 확인하세요."
    },
    "5ed19b": {
     "items": [
@@ -1323,8 +1629,8 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://www.kyushu-u.ac.jp/ja/education/procedure/certificate/"
      },
      {
-      "text": "대학원생 증명서(ku-cert)",
-      "url": "https://ku-cert.kyushu-u.ac.jp/cert/z/c_menu.html/_/g"
+      "text": "재학생 증명서 신청(ku-cert)",
+      "url": "https://ku-cert.kyushu-u.ac.jp/cert/z/z_login.html"
      },
      {
       "text": "수강신청 시스템(JTC)",
@@ -1677,20 +1983,36 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "1240ad": {
-    "text": "증명서 신청 방법"
+    "text": "증명서: 신청 자격·발급·출력"
    },
    "7d38ec": {
-    "text": "재학증명서·성적증명서·졸업(수료)예정증명서 등은 대학 증명서 발급 창구에서 신청합니다. 일부는 **교내 자동 발권기**에서도 발급됩니다(아래 참조)."
+    "text": "확인일: 2026-10-07. 학적, 필요한 증명서명과 제출 조건을 확인한 뒤 수령 방법을 선택하세요. 공식 증명서 발급은 일반 PDF 출력이나 복사와 다릅니다. 이 가이드는 대리 신청을 하지 않습니다."
    },
    "d2ae99": {
     "items": [
      {
-      "text": "규슈대학 · 각종 증명서 발급",
+      "text": "규슈대 증명서 공식 안내·학생 창구",
       "url": "https://www.kyushu-u.ac.jp/ja/education/procedure/certificate/"
      },
      {
-      "text": "ISC · 유학생 일상생활 가이드",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/page-019"
+      "text": "영문 증명서 공식 안내",
+      "url": "https://www.kyushu-u.ac.jp/en/education/procedure/certificate/"
+     },
+     {
+      "text": "재학생 공식 신청 포털",
+      "url": "https://ku-cert.kyushu-u.ac.jp/cert/z/z_login.html"
+     },
+     {
+      "text": "2026학생 핸드북: 발급기8페이지",
+      "url": "https://www.kyushu-u.ac.jp/f/65764/2026%20Student%20Handbook_en.pdf"
+     },
+     {
+      "text": "2026건강증명 발급 안내",
+      "url": "https://chc.kyushu-u.ac.jp/chcwpsite/wp-content/uploads/2026/04/syoumeisyo_r804.pdf"
+     },
+     {
+      "text": "공학부 비정규·교환학생 성적 안내",
+      "url": "https://www.eng.kyushu-u.ac.jp/en/student-supports/certificate/"
      }
     ]
    },
@@ -1775,48 +2097,48 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "8d720b": {
-    "text": "자동 발권기(8:30~17:15)"
+    "text": "교내 발급기 위치"
    },
    "7ddd0f": {
-    "text": "재학증명서·통학증명서·학할증·건강진단증명서를 셀프로 발급할 수 있습니다. **줄 서지 않아도 됩니다**. 주의: **정규 과정 학생만 이용 가능** —— 연구생·교환유학생은 소속 창구로."
+    "text": "2026학생 핸드북8페이지의 위치·시간입니다. 토·일·공휴일은 닫으며 임시 중단은 현장 안내 우선. 오하시는2026년5월경까지Co-Lab 임시 위치라는 주석이 있으므로 이전 공지를 확인하세요. 치쿠시는 본판의 관리동1F를 사용하고 옛Vista Hall 표기를 따르지 않습니다."
    },
    "9dc610": {
     "headers": [
      "캠퍼스",
-     "위치"
+     "위치·이용 시간"
     ],
     "rows": [
      [
       "이토",
-      "센터1호관 2F"
+      "센터1호관2F 학생업무 로비 · 8:30–17:15"
      ],
      [
       "이토",
-      "이스트1호관 C동 1F"
+      "이스트1호관C동1F 인문사회 학생 창구 앞 · 8:30–17:15"
      ],
      [
       "이토",
-      "웨스트1호관 A동 3F"
+      "웨스트1호관A동3F 이학부 교무 사무실 · 8:30–17:15"
      ],
      [
       "이토",
-      "웨스트4호관 2F"
+      "웨스트4호관2F 공학부 교무 학생홀 · 8:30–17:15"
      ],
      [
       "이토",
-      "웨스트5호관 동관 3F"
-     ],
-     [
-      "치쿠시",
-      "비스타홀 매점 입구"
-     ],
-     [
-      "오하시",
-      "예술공학부 관리동 1F"
+      "웨스트5호관 동관3F 농학부 학생 창구 사무실 · 8:30–17:15"
      ],
      [
       "병원",
-      "기초연구동 A동 1F"
+      "기초연구A동1F · 9:00–17:15"
+     ],
+     [
+      "오하시",
+      "예술공학부 관리동1F 학생업무 구역 · 8:30–17:15"
+     ],
+     [
+      "치쿠시",
+      "관리동1F · 8:30–17:15"
      ]
     ]
    },
@@ -1824,7 +2146,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "**건강진단을 받지 않으면 건강진단증명서를 발급받을 수 없습니다.** 장학금 신청과 취업활동에 필요합니다. 반드시 받으세요."
    },
    "0c0390": {
-    "text": "증명서 수령: 정규 과정 학생은 **자동 발권기**, 연구생·교환유학생은 각 캠퍼스 **캠퍼스라이프·건강지원센터**에서 신청(무료)."
+    "text": "건강 증명은 재학 증명과 다릅니다. 당기 검진 완료가 필요하며 비정규생·재검사 대상·일부 과정은 자동 발급 불가. 증명서 항목에서 대상과 해당 연도 기간을 확인하세요."
    },
    "b41e84": {
     "text": "괴롭힘 대책 추진실: 괴롭힘(성희롱·학술·권력) 상담 및 신고 창구."
@@ -1942,6 +2264,143 @@ window.ARTICLES_BODY_I18N = {
       }
      ]
     }
+   },
+   "c7who": {
+    "text": "먼저 학적과 이용 가능한 방법 확인"
+   },
+   "c7whoTable": {
+    "headers": [
+     "학적",
+     "수령 방법·제한"
+    ],
+    "rows": [
+     [
+      "정규 학부·석사·박사 학생",
+      "현재 과정의 증명서는 시스템의 종류·발급 자격에 따라 신청. 교내 기기, 편의점, 창구·우편 중 선택합니다."
+     ],
+     [
+      "비정규 과정: 연구생·교환학생 등",
+      "교내 기기·편의점 발급 불가. 창구·우편을 이용하고, 발급 가능한 재학·재적 증명서명은 소속 학생 담당 창구에 확인합니다."
+     ],
+     [
+      "졸업·퇴학·제적자",
+      "이적생(離籍生) 포털의 최초 등록·승인 필요. 교내 기기 불가. 편의점은 과정·입학 연도 등에 따라 제한. 해외 거주자는 우편만 가능합니다."
+     ],
+     [
+      "재학 중 이전 과정의 증명서가 필요한 경우",
+      "석사생이 규슈대 학부 성적·졸업 증명서를 신청하면 보통 이전 학적 기준으로 처리. 현재 학생증이 있어도 자동으로 무료가 되지 않습니다."
+     ]
+    ]
+   },
+   "c7kind": {
+    "text": "증명서 이름을 구분하세요"
+   },
+   "c7docs": {
+    "items": [
+     {
+      "text": "재학증명서(在学証明書): 현재 재학 상태를 증명하며 비자·장학금 등에 사용. 비정규생은 적합한 재학·재적 증명서를 소속 창구에 확인하세요."
+     },
+     {
+      "text": "성적증명서(成績証明書): 등록된 성적을 증명. 포털에 막 표시된 성적이 즉시 반영되지는 않습니다. 연구생·교환학생에게 정규 과정의 조건을 그대로 적용하지 마세요."
+     },
+     {
+      "text": "졸업·수료예정증명서: 소속 과정의 예정 자격을 충족한 뒤 발급. 모든 신입생에게 발급되는 것은 아닙니다. 졸업·수료증명서는 이미 마친 과정에 사용합니다."
+     },
+     {
+      "text": "JR 학생할인증(学割証): 교내 기기에서만 발급, 편의점 불가. 통학 정기권에 필요한 통학 증명과 다르므로 교통회사의 서류 조건을 따로 확인하세요."
+     },
+     {
+      "text": "건강진단증명서: 해당 대학 정기검진을 완료해야 합니다. 아래 예외를 확인하세요. 공식 편의점 목록은 일본어만 명시하므로 영문·지정 검사항목은 건강지원센터에 문의하세요."
+     },
+     {
+      "text": "박사학위수여증명서: 학위기 번호가 필요하면 수료증명서만으로 대체하지 마세요. 국비 등 장학금 증명, 추천서, 특수 재적 증명이 일반 목록에 없으면 해당 학생 창구·유학과에 확인하세요."
+     }
+    ]
+   },
+   "c7apply": {
+    "text": "먼저 신청하고 수령하세요"
+   },
+   "c7steps": {
+    "items": [
+     {
+      "title": "제출 조건 확인",
+      "desc": "일본어·영어, 부수, 과정, 기한, 밀봉·지정 양식을 확인. 잘못 선택해 결제하기 전에 제출처에 문의하세요."
+     },
+     {
+      "title": "대학 공식 페이지에서 신청",
+      "desc": "현재 재학생 또는 이적생(離籍生) 포털을 선택하고 공식 로그인 안내를 따릅니다. 최초 이메일 등록 뒤 인증을 완료하세요. 대학 계정이 있어도 비정규생은 발급기를 이용할 수 없습니다."
+     },
+     {
+      "title": "증명서·수령 방법 선택",
+      "desc": "교내 발급기·교내 출력 항목을 선택하고 온라인 신청의 확인 번호로 기기를 조작. 일본 국내 지원 편의점의 복합기에서 신청 화면의 번호·결제·기한을 따릅니다."
+     },
+     {
+      "title": "창구·우편·특수 양식",
+      "desc": "창구 수령은「郵送・窓口」에서「大学窓口での受取り」선택. 우편은 담당 창구 안내에 따라 우표를 붙인 회신 봉투 발송. 목록에 없는 증명은 발급 가능 여부를 먼저 문의한 뒤「その他の証明書」와 비고란을 이용하세요."
+     }
+    ]
+   },
+   "c7fee": {
+    "text": "비용·기한"
+   },
+   "c7feeTable": {
+    "headers": [
+     "방법·학적",
+     "비용·주의"
+    ],
+    "rows": [
+     [
+      "재학생: 교내 기기·창구",
+      "발급 수수료 무료. 비정규생은 교내 기기 이용 불가."
+     ],
+     [
+      "재학생: 편의점",
+      "400円/통＋출력비60円/페이지. 자격 있는 이용자·발급 가능한 증명서만 해당."
+     ],
+     [
+      "재학생: 우편",
+      "발급 수수료 무료. 우표를 붙인 회신 봉투 필요."
+     ],
+     [
+      "이적생(離籍生)",
+      "보통800円/통＋출력비·우편료. 이용 방식에 자격 제한이 있습니다."
+     ]
+    ]
+   },
+   "c7feeNote": {
+    "text": "편의점 출력 기한은 신청 후7일(8일째0시까지), 실제 화면에서 확인하세요. 결제한 수수료·우편료는 환불되지 않습니다. 재학생이 구직용 이전 과정 졸업·수료·성적 증명을 창구에서 신청·수령하면 면제 예외가 있을 수 있으니 결제 전 확인. 나중에 구직용이라고 설명해도 환불 불가. 창구·우편 발급은 일본어 약3일, 영어 약1주가 기준이며 배송 시간은 별도, 당일 발급을 보장하지 않습니다."
+   },
+   "c7health": {
+    "text": "건강 증명: 검진 후에도 창구가 필요한 경우"
+   },
+   "c7healthBody": {
+    "items": [
+     {
+      "text": "해당 검진과 Web 문진 등 모든 필수 항목을 완료해야 합니다. 미검진·미완료 항목이 있으면 발급되지 않습니다."
+     },
+     {
+      "text": "2026년도는 흉부X선 재검사 대상, マス・フォア・イノベーション連係学府 학생, 비정규생은 기기·편의점 발급 불가. 가까운 건강지원센터 건강상담실에 일찍 문의하세요."
+     },
+     {
+      "text": "2026년도 건강증명 발급은2027-03-31까지. 이는 발급 기간이며 제출처의 인정 유효기간을 보장하지 않습니다. 검진일·발급 가능 상태를 확인하고 지난 연도 결과를 현재 결과로 사용하지 마세요."
+     }
+    ]
+   },
+   "c7special": {
+    "text": "양식·누락 메뉴·장애 문의"
+   },
+   "c7help": {
+    "items": [
+     {
+      "text": "위조 방지 처리가 있으므로 복사본·일반 출력물을 정식 원본 대신 쓰지 마세요. 일본 외무성은 이 편의점 서비스 증명을 받지 않습니다. 외무성 제출용은 교내 기기·우편·창구를 선택하세요."
+     },
+     {
+      "text": "기본적으로 밀봉하지 않습니다. 필요하면 기기·편의점 원본을 소속 학생 창구에서 밀봉 처리합니다. 지정 양식·자격시험 증명은 신청 전 문의하고 비고와 양식 발송으로 처리하세요."
+     },
+     {
+      "text": "로그인·이메일·결제:06-6809-4327(24시간). 내용·작성·발송·최초 등록 승인: 소속 학생 창구. 공식 학부·학부 대학원 창구표 또는 학무 문의092-802-5939(평일8:30–17:15)를 이용하세요. 이 가이드에 신분증·비밀번호를 보내지 마세요."
+     }
+    ]
    }
   },
   "es": {
@@ -1958,7 +2417,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Cuentas y certificados"
    },
    "3b7366": {
-    "text": "La activación de SSO-KID no se puede hacer con un correo distinto al de la universidad. El certificado de notas, el certificado de matrícula, el certificado de descuento de estudiante para el Shinkansen（新幹線学割）y otros se solicitan a través de la página de certificados (certificate) del sitio oficial de Kyushu University; los certificados de los estudiantes de posgrado se tramitan en ku-cert."
+    "text": "La activación de SSO-KID no se puede hacer con un correo distinto al de la universidad. Elige situación y entrega desde la página oficial de certificados. ku-cert no es solo para posgrado. Consulta la sección de certificados de este artículo."
    },
    "5ed19b": {
     "items": [
@@ -1967,8 +2426,8 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://www.kyushu-u.ac.jp/ja/education/procedure/certificate/"
      },
      {
-      "text": "Certificados de estudiantes de posgrado (ku-cert)",
-      "url": "https://ku-cert.kyushu-u.ac.jp/cert/z/c_menu.html/_/g"
+      "text": "Certificados de estudiantes actuales(ku-cert)",
+      "url": "https://ku-cert.kyushu-u.ac.jp/cert/z/z_login.html"
      },
      {
       "text": "Sistema de selección de cursos (JTC)",
@@ -2338,7 +2797,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "**Sin haberse sometido al reconocimiento, no se puede expedir el certificado de reconocimiento médico.** Lo necesitarás para solicitar becas y para encontrar trabajo; asegúrate de asistir."
    },
    "0c0390": {
-    "text": "Retirada de certificados: los estudiantes de cursos regulares usan las **máquinas expendedoras automáticas**; los research students y los estudiantes de intercambio las solicitan en el **Centro de Apoyo a la Vida en el Campus y a la Salud**（キャンパスライフ・健康支援センター）de cada campus, gratis."
+    "text": "El certificado médico es distinto del académico. Completa el examen actual; estudiantes sin titulación, casos de reexamen y algunos programas no pueden emitirlo automáticamente. Consulta condiciones y plazo anual en la sección de certificados."
    },
    "c29b18": {
     "text": "Lista de ventanillas de consulta"
@@ -2467,66 +2926,82 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "1240ad": {
-    "text": "Cómo solicitar certificados"
+    "text": "Certificados: quién puede obtenerlos y cómo imprimirlos"
    },
    "7d38ec": {
-    "text": "El certificado de matrícula（在学証明）, el certificado de notas, el certificado de finalización prevista de estudios（卒業/修了見込証明）y otros se tramitan a través del portal de emisión de certificados de la universidad. Algunos se pueden imprimir por cuenta propia en las **máquinas expendedoras automáticas del campus** (ver más abajo)."
+    "text": "Verificado: 2026-10-07. Confirma tu situación académica, el certificado y los requisitos del destinatario antes de elegir la entrega. La emisión oficial no es imprimir un PDF cualquiera ni hacer una fotocopia. Esta guía no tramita solicitudes por ti."
    },
    "8d720b": {
-    "text": "Máquinas expendedoras automáticas (8:30〜17:15)"
+    "text": "Dónde están las máquinas del campus"
    },
    "7ddd0f": {
-    "text": "El certificado de matrícula（在学証明書）, el certificado de desplazamiento（通学証明書）, el certificado de descuento de estudiante（学割証）y el certificado de reconocimiento médico（健康診断証明書）se pueden imprimir por cuenta propia, **sin hacer cola**. Ojo: **solo pueden usarlas los estudiantes de cursos regulares**; los research students y los estudiantes de intercambio deben acudir a su ventanilla correspondiente."
+    "text": "Ubicación y horario: Manual del estudiante2026,página8. Cerradas fines de semana/festivos; los avisos locales tienen prioridad. Ohashi también indica ubicación provisional enCo-Lab hasta alrededor de mayo2026: confirma el traslado. Para Chikushi se usa Administración1F de esta edición, no la referencia antigua aVista Hall."
    },
    "9dc610": {
     "headers": [
      "Campus",
-     "Ubicación"
+     "Lugar/horario"
     ],
     "rows": [
      [
       "Ito",
-      "Edificio Center 1, 2F"
+      "Center1,2F, vestíbulo de asuntos estudiantiles · 8:30–17:15"
      ],
      [
       "Ito",
-      "Edificio East 1, Bloque C, 1F"
+      "East1-C,1F, frente a asuntos estudiantiles de humanidades/ciencias sociales · 8:30–17:15"
      ],
      [
       "Ito",
-      "Edificio West 1, Bloque A, 3F"
+      "West1-A,3F, oficina académica de Ciencias · 8:30–17:15"
      ],
      [
       "Ito",
-      "Edificio West 4, 2F"
+      "West4,2F, vestíbulo estudiantil de asuntos académicos de Ingeniería · 8:30–17:15"
      ],
      [
       "Ito",
-      "Edificio West 5 Este, 3F"
+      "West5 Este,3F, oficina de estudiantes de Agricultura · 8:30–17:15"
      ],
      [
-      "Chikushi",
-      "entrada de la tienda del Vista Hall（ビスタホール売店入口）"
+      "Hospital",
+      "Investigación Básica A,1F · 9:00–17:15"
      ],
      [
       "Ohashi",
-      "edificio administrativo de la Facultad de Diseño（芸術工学部管理棟）, 1F"
+      "Administración de Diseño,1F, asuntos estudiantiles · 8:30–17:15"
      ],
      [
-      "Hospital（病院）",
-      "Edificio de Investigación Básica, Bloque A, 1F"
+      "Chikushi",
+      "Administración,1F · 8:30–17:15"
      ]
     ]
    },
    "d2ae99": {
     "items": [
      {
-      "text": "Kyushu University · emisión de certificados",
+      "text": "Guía oficial de certificados y contactos",
       "url": "https://www.kyushu-u.ac.jp/ja/education/procedure/certificate/"
      },
      {
-      "text": "ISC · guía de vida diaria para estudiantes internacionales",
-      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/page-019"
+      "text": "Guía oficial de certificados en inglés",
+      "url": "https://www.kyushu-u.ac.jp/en/education/procedure/certificate/"
+     },
+     {
+      "text": "Portal oficial para estudiantes actuales",
+      "url": "https://ku-cert.kyushu-u.ac.jp/cert/z/z_login.html"
+     },
+     {
+      "text": "Manual2026: máquinas,página8",
+      "url": "https://www.kyushu-u.ac.jp/f/65764/2026%20Student%20Handbook_en.pdf"
+     },
+     {
+      "text": "Aviso de certificados médicos2026",
+      "url": "https://chc.kyushu-u.ac.jp/chcwpsite/wp-content/uploads/2026/04/syoumeisyo_r804.pdf"
+     },
+     {
+      "text": "Ingeniería: investigación e intercambio",
+      "url": "https://www.eng.kyushu-u.ac.jp/en/student-supports/certificate/"
      }
     ]
    },
@@ -2586,6 +3061,143 @@ window.ARTICLES_BODY_I18N = {
       }
      ]
     }
+   },
+   "c7who": {
+    "text": "Primero, confirma tu situación"
+   },
+   "c7whoTable": {
+    "headers": [
+     "Situación",
+     "Entrega y restricciones"
+    ],
+    "rows": [
+     [
+      "Grado, máster y doctorado regulares",
+      "Solicita los documentos del programa actual según los tipos y condiciones disponibles en el sistema. Elige máquina del campus, tienda, ventanilla o correo."
+     ],
+     [
+      "Estudiantes sin titulación: investigación, intercambio, etc.",
+      "No pueden usar máquinas del campus ni tiendas. Utiliza ventanilla/correo y confirma con tu sección de estudiantes qué documento de matrícula o estancia se puede emitir."
+     ],
+     [
+      "Graduados, bajas o excluidos del registro",
+      "Portal de antiguos estudiantes; el registro inicial requiere aprobación. No pueden usar máquinas del campus. La elegibilidad en tiendas depende del programa/año de ingreso, etc. Residentes fuera de Japón: solo correo."
+     ],
+     [
+      "Estudiante actual que necesita documentos de un programa anterior",
+      "Un estudiante de máster que pide notas o graduación del grado de Kyushu se trata normalmente como antiguo estudiante para esos documentos; su carné actual no los hace gratuitos."
+     ]
+    ]
+   },
+   "c7kind": {
+    "text": "Elige el documento correcto"
+   },
+   "c7docs": {
+    "items": [
+     {
+      "text": "Certificado de matrícula(在学証明書): acredita la situación actual, para visados o becas. Los estudiantes sin titulación deben confirmar qué certificado de matrícula/estancia corresponde."
+     },
+     {
+      "text": "Expediente académico(成績証明書): recoge notas registradas. Una nota recién visible en el portal puede tardar en aparecer. Investigación e intercambio no tienen necesariamente las mismas condiciones que un programa regular."
+     },
+     {
+      "text": "Graduación/finalización prevista: solo si se cumplen las condiciones del programa; no está disponible para todos los nuevos estudiantes. Los certificados de graduación/finalización corresponden a programas ya terminados."
+     },
+     {
+      "text": "Descuento estudiantil JR(学割証): solo en máquinas del campus, no en tiendas. Es diferente del documento para abonos de desplazamiento al campus; comprueba aparte los requisitos del operador."
+     },
+     {
+      "text": "Certificado médico: exige completar el reconocimiento periódico actual de la universidad; consulta las excepciones. La lista oficial de tiendas solo indica japonés. Para inglés o pruebas específicas, consulta CHC."
+     },
+     {
+      "text": "Certificado de concesión del doctorado: si se requiere el número del título, no lo sustituyas únicamente por el certificado de finalización. Para acreditar becas, recomendaciones o una estancia especial no incluida en la lista, consulta la sección correspondiente o ISED."
+     }
+    ]
+   },
+   "c7apply": {
+    "text": "Primero solicita; después recoge"
+   },
+   "c7steps": {
+    "items": [
+     {
+      "title": "Confirma los requisitos",
+      "desc": "Japonés/inglés, copias, programa, plazo, sobre sellado y formato obligatorio. Pregunta al destinatario antes de pagar."
+     },
+     {
+      "title": "Accede desde la web oficial",
+      "desc": "Elige el portal de estudiantes actuales o antiguos y sigue las instrucciones de acceso. Verifica el correo en el primer registro. Tener cuenta universitaria no permite a estudiantes sin titulación usar las máquinas."
+     },
+     {
+      "title": "Elige certificado y entrega",
+      "desc": "Para el campus, selecciona la máquina/impresión del campus y utiliza el número de confirmación de la solicitud. En tiendas admitidas de Japón, sigue los códigos, pago y plazo indicados en pantalla para su máquina multicopia."
+     },
+     {
+      "title": "Ventanilla, correo o formatos especiales",
+      "desc": "Para ventanilla:「郵送・窓口」y「大学窓口での受取り」. Por correo, envía el sobre de devolución con sellos indicado. Si falta el documento, confirma primero que puede emitirse y utiliza「その他の証明書」y observaciones."
+     }
+    ]
+   },
+   "c7fee": {
+    "text": "Costes y plazos"
+   },
+   "c7feeTable": {
+    "headers": [
+     "Situación/método",
+     "Coste/condiciones"
+    ],
+    "rows": [
+     [
+      "Actual: máquina del campus/ventanilla",
+      "Emisión gratuita. Sin titulación: no puede usar la máquina."
+     ],
+     [
+      "Actual: tienda",
+      "400 yenes/certificado＋60 yenes/página. Solo usuarios elegibles y documentos disponibles."
+     ],
+     [
+      "Actual: correo",
+      "Emisión gratuita; prepara el sobre de devolución con sellos."
+     ],
+     [
+      "Antiguos estudiantes",
+      "Normalmente800 yenes/certificado＋impresión o franqueo, según elegibilidad."
+     ]
+    ]
+   },
+   "c7feeNote": {
+    "text": "La impresión en tiendas vence7 días después de solicitar, a las0:00 del día8; comprueba la pantalla. Las tasas y el franqueo pagados no se reembolsan. Un estudiante actual puede tener una excepción para graduación/finalización/notas de un programa anterior con fines de empleo si solicita y recoge en ventanilla: confirma antes de pagar. Explicarlo después no permite recuperar el pago. Ventanilla/correo: aproximadamente3 días en japonés o1 semana en inglés, más el envío; no se garantiza el mismo día."
+   },
+   "c7health": {
+    "text": "Certificados médicos: cuándo acudir a la oficina"
+   },
+   "c7healthBody": {
+    "items": [
+     {
+      "text": "Completa el reconocimiento actual y todos los elementos, incluido el cuestionario web. Sin examen o con elementos pendientes, no se emite."
+     },
+     {
+      "text": "En2026, quienes necesitan repetir la radiografía de tórax, estudiantes de マス・フォア・イノベーション連係学府 y estudiantes sin titulación no pueden usar máquinas/tiendas. Consulta pronto la sala de salud CHC más cercana."
+     },
+     {
+      "text": "Los certificados del reconocimiento2026 se emiten hasta2027-03-31. Es el plazo de emisión, no una garantía de validez para el destinatario. Confirma fecha y disponibilidad; no uses resultados anteriores como actuales."
+     }
+    ]
+   },
+   "c7special": {
+    "text": "Formatos especiales, menús y ayuda"
+   },
+   "c7help": {
+    "items": [
+     {
+      "text": "Los certificados tienen protección contra falsificaciones; una fotocopia o impresión corriente no sustituye al original emitido. Exteriores de Japón no acepta certificados de este servicio de tiendas: elige máquina del campus, correo o ventanilla."
+     },
+     {
+      "text": "No se sellan automáticamente. Si es necesario, la sección de estudiantes puede sellar un original emitido en máquina o tienda. Para formatos obligatorios/exámenes profesionales, consulta antes, explica en observaciones y envía la plantilla."
+     },
+     {
+      "text": "Problemas de acceso, correo o pago:06-6809-4327(24 horas). Contenido, preparación, envío y aprobación inicial: tu sección de estudiantes en la lista oficial. Consulta académica general:092-802-5939(laborables8:30–17:15). No envíes documentos de identidad ni contraseñas a esta guía."
+     }
+    ]
    }
   }
  },
