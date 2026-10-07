@@ -7,10 +7,24 @@
 > For international students and freshmen: find classrooms, offices and facilities, check buses,
 > get walking routes, read living guides — no app, works offline.
 
-**Live** (once GitHub Pages is enabled):
-- 🗺️ Map — `https://hanbinglei.github.io/H5-Kyudaiguide/h5-mvp/app.html`
-- 📖 Guide — `https://hanbinglei.github.io/H5-Kyudaiguide/guide/`
+**Live**:
+
+- 📖 [Open the International Student Guide](https://hanbinglei.github.io/H5-Kyudaiguide/guide/)
+- 🗺️ [Open the Ito Campus Map](https://hanbinglei.github.io/H5-Kyudaiguide/h5-mvp/app.html)
 - 📦 Offline single file (double-click to run, shareable over WeChat/LINE) — [`dist/kyudaimap-offline.html`](dist/kyudaimap-offline.html) (2.7 MB, zero network requests)
+
+---
+
+## Recent updates — 2026-10-07
+
+- Expanded existing guides with university-sourced procedures: certificates and eligibility, student-card replacement, SSO-KID / Wi-Fi, printing, library borrowing, university software, moving, dormitory repairs and first-time sports use.
+- Updated the newcomer section and calendar with the JTCs autumn registration / online-test period (October 16–21). The expired daily-life support bus now directs readers to the transport guide.
+- Added searchable indoor facilities, including the gym and pool, with source links and confirmed usage conditions. Map markers locate buildings, not indoor entrances; dated opening hours should be checked against current facility notices.
+- Improved long-article structure and mobile readability. The latest review corrected recovery-email requirements, student-card access-permission steps, sports-use hours and the placement of campus activities within the life guide.
+
+This is an independently maintained student project, **not an official university service**. University sources are linked in the guide; campus- or student-status-specific rules are not universal. The H5 map focuses on **Ito Campus**; the WeChat Mini Program is maintained separately, including its multi-campus content. These updates do not mean that H5 offers maps for all four campuses.
+
+Found a mistake? Use the guide's feedback button or [open an issue](https://github.com/hanbinglei/H5-Kyudaiguide/issues). If it helps you, a GitHub Star makes the project easier for other students to find. [Full commit history](https://github.com/hanbinglei/H5-Kyudaiguide/commits/main/).
 
 ---
 
@@ -27,8 +41,8 @@
 
 A read-only H5 build of the campus guide — four content tabs plus faculty links. No account, no server:
 
-- **Guide** — **17 in-depth articles** across 12 categories (arrival, residence, housing, banking, SIM,
-  scholarships, part-time work, medical, transport, life tips, shopping, emergency), rendered from local
+- **Guide** — **18 articles** across 12 categories (arrival, residence, dormitories & housing, banking, phone & internet,
+  academics & scholarships, part-time work, medical, transport, life tips, shopping, emergency), rendered from local
   content blocks. Includes a **newcomer timeline** that strings the scattered procedures into the order
   you actually have to do them.
 - **Calendar (村暦)** — academic-year & holiday calendar (Cabinet Office public holidays + KU academic calendar).
@@ -45,10 +59,8 @@ A read-only H5 build of the campus guide — four content tabs plus faculty link
 - **Feedback & correction** — a form at the end of each article plus a floating button while reading.
   Submissions go to a Google Apps Script endpoint (writes a Sheet + sends notification mail); the entry
   point is recorded so the maintainer can see which button was used.
-- **Installable & fully offline** — Service Worker precaches everything; add to home screen and it still
-  works with no network.
-- 4 UI languages (zh / ja / en / ko) — and not just UI strings: **all 1447 content units are translated**
-  (unit-level completeness, enforced by a checker).
+- **Installable & offline-capable** — cached guide content can be read offline after a successful online load; external websites, live weather and feedback submission still require a connection.
+- **5 guide languages** (zh / ja / en / ko / es), including article bodies; translation completeness and block structure are checked automatically. The standalone map supports 7 languages.
 
 **Search** is four layers — literal → alias → fuzzy → **CJK bigram fallback** — with an IDF-weighted
 coverage score deciding what even counts as a result. Real-phrasing queries (「怎么开银行账户」,
@@ -210,11 +222,8 @@ place them in the repo root (keep the filenames) to re-run the pipeline:
   threshold.
 - **English vocabulary gaps**: a query saying "sick" will not find a section that says "unwell".
   A synonym layer is still to come.
-- **Verified in Chrome only** (desktop plus emulated mobile widths). iOS Safari is untested — and that is
-  the browser most readers here actually use.
-- **No real users yet** besides the author. Everything above is self-testing; the failure modes that only
-  show up with real readers (wording that confuses, sections nobody finishes) are structurally invisible
-  to these checkers.
+- **Browser checks are not physical-device acceptance.** The latest campus-services review was tested in desktop Edge at 320 / 375 / 430 px in all five guide languages. This is not verification on an iPhone or iOS Safari.
+- **User feedback remains important.** Automated checks cannot establish whether a procedure is clear to readers or whether on-site arrangements have changed.
 - **Drifts over time**: timetables change, buildings change. Data carries a `fetched` date and scripts are
   re-runnable — re-run periodically, don't treat it as static truth.
 - Buses are **outbound only** (station → KU); return trips pending (`build_bus_schedule.py` with `updown=1`).
