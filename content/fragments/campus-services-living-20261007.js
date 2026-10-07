@@ -192,7 +192,7 @@ const sections = [
         { id: 'm7sportIntro', type: 'paragraph', text: '本节仅说明伊都校区。体育馆、训练室与泳池的使用要求不同，不把某一设施规则套到其他校区或所有训练室。' },
         { id: 'm7sport1', type: 'subheading', text: '体育馆与健身/训练室' },
         { id: 'm7sport2', type: 'list', items: [
-          { text: '九大学生使用伊都地区体育设施：学校说明一般学生可在体育课和公认学生团体活动未占用的时段使用；开放时间见地图设施卡片及官方当月安排，具体场地条件先向窗口确认。' },
+          { text: '伊都一般学生原则上可在平日09:00–16:00、没有体育课或公认学生团体活动占用时使用体育设施。具体场地条件和临时安排向设施窗口确认；泳池另查当月开放安排，不能把泳池月历套用到其他设施。' },
           { text: '健身房/训练室：公开资料没有说明各训练室统一的首次讲习、登记或预约规则；先联系设施窗口确认资格与流程，不要默认可直接入场。' }
         ] },
         { id: 'm7sport3', type: 'subheading', text: '总合体育馆室内泳池：首次到场' },
@@ -212,7 +212,7 @@ const sections = [
         { id: 'm7sportIntro', type: 'paragraph', text: 'この案内は伊都キャンパスのみを対象とします。体育館、トレーニング室、プールで利用条件が異なるため、ある施設の規則を他地区や全てのトレーニング室に当てはめないでください。' },
         { id: 'm7sport1', type: 'subheading', text: '体育館・トレーニング室' },
         { id: 'm7sport2', type: 'list', items: [
-          { text: '九州大学の学生が伊都地区の体育施設を利用する場合：大学は一般学生も授業や公認学生団体の活動がない時間に利用可能と案内しています。開放時間は地図の施設カードと大学の当月予定で確認し、施設ごとの条件は窓口に問い合わせてください。' },
+          { text: '伊都地区の一般学生は、原則として平日09:00–16:00のうち、授業や公認学生団体の活動がない時間に体育施設を利用できます。施設ごとの条件や臨時変更は窓口に確認してください。プールは当月の開放予定を別に確認し、他の施設にその予定を適用しないでください。' },
           { text: 'ジム・トレーニング室：施設ごとに共通する初回講習、登録、予約の手順は公開資料で確認できません。利用資格と手順を施設窓口に確認してから利用してください。' }
         ] },
         { id: 'm7sport3', type: 'subheading', text: '総合体育館屋内プール：初回利用' },
@@ -232,7 +232,7 @@ const sections = [
         { id: 'm7sportIntro', type: 'paragraph', text: 'This section covers Ito Campus only. Gyms, training rooms, and the pool may have different conditions; do not apply one facility’s rules to other campuses or every training room.' },
         { id: 'm7sport1', type: 'subheading', text: 'Gymnasium and fitness/training rooms' },
         { id: 'm7sport2', type: 'list', items: [
-          { text: 'For Kyushu University students using Ito sports facilities: the university says general students may use them when there are no classes or activities by officially recognized student groups. Check opening times in the map facility card and the current university schedule, and confirm room-specific conditions with the facility office.' },
+          { text: 'General student use of Ito sports facilities is normally limited to weekdays, 09:00–16:00, when there are no classes or activities by officially recognized student groups. Confirm facility-specific conditions and temporary changes with the office. Check the pool’s monthly opening schedule separately; do not apply it to other facilities.' },
           { text: 'Fitness and training rooms: public information does not give a single first-use course, registration, or reservation procedure for every room. Confirm eligibility and the process with the facility office before going; do not assume walk-in access.' }
         ] },
         { id: 'm7sport3', type: 'subheading', text: 'Indoor pool at the General Gymnasium: first visit' },
@@ -252,7 +252,7 @@ const sections = [
         { id: 'm7sportIntro', type: 'paragraph', text: '이 안내는 이토 캠퍼스에만 적용됩니다. 체육관, 트레이닝실, 수영장의 이용 조건은 다를 수 있으므로 한 시설의 규정을 다른 캠퍼스나 모든 트레이닝실에 적용하지 마세요.' },
         { id: 'm7sport1', type: 'subheading', text: '체육관·헬스/트레이닝실' },
         { id: 'm7sport2', type: 'list', items: [
-          { text: '규슈대학 학생의 이토 체육시설 이용: 대학 안내에 따르면 일반 학생은 체육 수업이나 공인 학생단체 활동이 없는 시간에 이용할 수 있습니다. 개방 시간은 지도 시설 카드와 대학의 당월 일정에서 확인하고, 시설별 조건은 창구에 문의하세요.' },
+          { text: '이토 지역 일반 학생의 체육시설 이용은 원칙적으로 평일09:00–16:00 중 수업이나 공인 학생단체 활동이 없는 시간에 가능합니다. 시설별 조건과 임시 변경은 담당 창구에 확인하세요. 수영장은 당월 개방 일정을 별도로 확인하고 그 일정을 다른 시설에 적용하지 마세요.' },
           { text: '헬스장·트레이닝실: 공개 자료에는 모든 시설에 공통되는 첫 이용 강습, 등록 또는 예약 절차가 안내되어 있지 않습니다. 바로 입장할 수 있다고 가정하지 말고 이용 자격과 절차를 시설 창구에 확인하세요.' }
         ] },
         { id: 'm7sport3', type: 'subheading', text: '종합체육관 실내 수영장: 첫 이용' },
@@ -272,7 +272,7 @@ const sections = [
         { id: 'm7sportIntro', type: 'paragraph', text: 'Esta sección cubre solo el campus de Ito. El gimnasio, las salas de entrenamiento y la piscina pueden tener condiciones distintas; no apliques las reglas de una instalación a otros campus ni a todas las salas.' },
         { id: 'm7sport1', type: 'subheading', text: 'Gimnasio y salas de fitness/entrenamiento' },
         { id: 'm7sport2', type: 'list', items: [
-          { text: 'Para estudiantes de Kyushu University que usan instalaciones deportivas de Ito: la universidad indica que pueden utilizarlas cuando no haya clases ni actividades de grupos estudiantiles reconocidos. Consulta los horarios en la tarjeta de la instalación del mapa y en el calendario mensual vigente, y confirma las condiciones de cada sala con la oficina.' },
+          { text: 'El uso general de las instalaciones deportivas de Ito por estudiantes se permite, en principio, entre semana de 09:00 a 16:00, cuando no haya clases ni actividades de grupos estudiantiles reconocidos. Confirma con la oficina las condiciones de cada instalación y los cambios temporales. Consulta por separado el calendario mensual de la piscina; no lo apliques a otras instalaciones.' },
           { text: 'Salas de fitness y entrenamiento: la información pública no establece un curso inicial, registro o sistema de reservas común para todas las salas. Confirma los requisitos y el procedimiento con la oficina antes de ir; no des por hecho que se permite entrar sin aviso.' }
         ] },
         { id: 'm7sport3', type: 'subheading', text: 'Piscina cubierta del Gimnasio General: primera visita' },
@@ -291,7 +291,7 @@ const sections = [
     sources: SOURCES.sports,
     notes: [
       '融合点：h5-mvp/data/buildings.json 的 B006 将体育馆描述为体育课、社团活动；indoor-facilities.json 已标出总合体育馆训练室、室内泳池与松濤錬成場训练室，但设施标签不等于使用资格或首次讲习规则。',
-      '伊都体育设施页面公开一般学生使用条件及两个咨询窗口；泳池规则 PDF 仍由学校当前体育设施页链接，写有学生资格、现场出示学生证和登记名簿。体育开放时间不在片段重复，沿用现有地图设施卡片与大学当月安排。',
+      '伊都体育设施页明确一般学生原则平日09:00–16:00且无课程/公认团体占用；这项使用资格必须在指南保留，不能用泳池月历或建筑营业时间替代。泳池仍单独按当月安排；两个咨询窗口与到场登记规则保持原出处。',
       '公开资料未确认健身/训练室统一的首次登记、讲习或预约；泳池也未列学生首次讲习/预约步骤。仅泳池流程达到可短写程度，其余必须向对应窗口确认。',
       '体育设施页链接按月更新的泳池开放安排。本片段不写任何固定泳池开放时段、历史月份安排或旧预约时间。'
     ]

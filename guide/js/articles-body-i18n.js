@@ -822,11 +822,15 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "title": "学籍区分に応じて再発行申請",
-      "desc": "見つからない場合やカードが破損した場合は、所属の学務担当窓口に申請します。正課生は学生証再発行願、非正課生（研究生等）はパーソナルカード貸与願で再発行を選び、本人の正面写真を添付します。"
+      "desc": "見つからない場合やカードが破損した場合は、所属の学務担当窓口に申請します。正課生は学生証再発行願、非正課生（研究生等）はパーソナルカード貸与願で再発行を選びます。どちらも脱帽・正面の写真が必要で、写真データでも提出できます。"
      },
      {
       "title": "現在の案内に従って納付し、本人が受領",
       "desc": "ICカードチームおよび所属の学務担当窓口の最新案内に従って納付し、必要な領収書を提出します。申請書が当事業室に到着後、1週間前後です。利用者が窓口に提出した日から1週間とするものではありません。カードは本人が受領し、窓口の指示に従って受領確認・押印等を行います。"
+     },
+     {
+      "title": "受領後、電子錠・入構証の権限を再登録",
+      "desc": "電子錠や入構証を利用していた場合、新しいカードに利用権限を再度書き込む手続きが必要です。電子錠は建物の管理窓口、入構証は所属の学務担当窓口に確認してください。以前の権限が自動で引き継がれるとは限りません。"
      }
     ]
    },
@@ -1887,11 +1891,15 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "title": "Apply according to student status",
-      "desc": "If the card is not found or is damaged, apply through your affiliated academic affairs office. Regular-course students use the Student Card Reissue Application. Non-regular students, such as research students, use the Personal Card Loan Application, select reissue, and attach a front-facing photo."
+      "desc": "If the card is not found or is damaged, apply through your affiliated academic affairs office. Regular-course students use the Student Card Reissue Application. Non-regular students, such as research students, use the Personal Card Loan Application and select reissue. Both applications require a front-facing photo without a hat; a digital photo is accepted."
      },
      {
       "title": "Pay under current instructions and collect in person",
       "desc": "Pay and submit any required receipt according to current instructions from the IC Card Team and your academic affairs office. Processing takes about one week after the application reaches the IC Card Office; this is not counted or guaranteed from the day you submit it. The cardholder must collect the card and complete any receipt acknowledgment/stamping required by the office."
+     },
+     {
+      "title": "Restore existing electronic-lock and campus-entry permissions",
+      "desc": "If you used electronic locks or a campus-entry permit, the permissions must be written onto the new card again. Contact the building management office for electronic locks and your academic affairs office for campus entry. Do not assume that all previous permissions transfer automatically."
      }
     ]
    },
@@ -2952,11 +2960,15 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "title": "학적 구분에 따라 재발급 신청",
-      "desc": "찾지 못했거나 카드가 파손되면 소속 학무 담당 창구에서 신청하세요. 정규 과정 학생은 학생증 재발급 신청서를 사용합니다. 연구생 등 비정규 과정 학생은 개인 카드 대여 신청서에서 재발급을 선택하고 정면 사진을 첨부합니다."
+      "desc": "찾지 못했거나 카드가 파손되면 소속 학무 담당 창구에서 신청하세요. 정규 과정 학생은 학생증 재발급 신청서를, 연구생 등 비정규 과정 학생은 개인 카드 대여 신청서의 재발급 항목을 사용합니다. 두 경우 모두 모자를 벗고 촬영한 정면 사진이 필요하며 사진 데이터도 제출할 수 있습니다."
      },
      {
       "title": "현재 안내에 따라 납부하고 본인 수령",
       "desc": "IC 카드팀 및 소속 학무 담당 창구의 현재 안내에 따라 납부하고 필요한 영수증을 제출하세요. 신청서가 IC 카드 업무실에 도착한 뒤 약 1주일입니다. 사용자가 신청서를 제출한 날부터 계산하거나 1주일 내 완료를 보장하는 뜻은 아닙니다. 본인이 카드를 수령하고 창구 안내에 따라 수령 확인/날인을 하세요."
+     },
+     {
+      "title": "수령 후 전자 잠금장치·캠퍼스 출입 권한 재등록",
+      "desc": "기존에 전자 잠금장치나 캠퍼스 출입증을 이용했다면 새 카드에 권한을 다시 기록하는 절차가 필요합니다. 전자 잠금장치는 건물 관리 창구에, 캠퍼스 출입증은 소속 학무 창구에 문의하세요. 모든 기존 권한이 자동 이전된다고 가정하지 마세요."
      }
     ]
    },
@@ -4017,11 +4029,15 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "title": "Solicite según su situación académica",
-      "desc": "Si no la encuentra o está dañada, solicite la reemisión en su oficina académica. El alumnado de programas regulares usa la solicitud de reemisión de tarjeta. El alumnado no regular, como investigación, usa la solicitud de préstamo de tarjeta personal, elige reemisión y adjunta una foto frontal."
+      "desc": "Si no la encuentra o está dañada, solicite la reemisión en su oficina académica. El alumnado de programas regulares usa la solicitud de reemisión de tarjeta; el no regular, como estudiantes de investigación, usa la solicitud de préstamo de tarjeta personal y selecciona reemisión. Ambos deben aportar una foto frontal sin sombrero; se acepta una foto digital."
      },
      {
       "title": "Pague según las instrucciones vigentes y recoja en persona",
       "desc": "Pague y presente los recibos necesarios según las instrucciones vigentes del equipo IC y de su oficina académica. El plazo es de aproximadamente 1 semana desde que la solicitud llega a la oficina de tarjetas IC; no se cuenta ni se garantiza desde el día en que el estudiante la entrega. El titular debe recoger la tarjeta y completar la confirmación de recepción/sello que indique la oficina."
+     },
+     {
+      "title": "Restablezca los permisos de cerraduras electrónicas y acceso al campus",
+      "desc": "Si utilizaba cerraduras electrónicas o un permiso de acceso al campus, debe volver a registrar los permisos en la nueva tarjeta. Consulte a la administración del edificio para las cerraduras y a su oficina académica para el acceso al campus. No suponga que todos los permisos anteriores se transfieren automáticamente."
      }
     ]
    },
@@ -11501,7 +11517,7 @@ window.ARTICLES_BODY_I18N = {
    "m7sport2": {
     "items": [
      {
-      "text": "九州大学の学生が伊都地区の体育施設を利用する場合：大学は一般学生も授業や公認学生団体の活動がない時間に利用可能と案内しています。開放時間は地図の施設カードと大学の当月予定で確認し、施設ごとの条件は窓口に問い合わせてください。"
+      "text": "伊都地区の一般学生は、原則として平日09:00–16:00のうち、授業や公認学生団体の活動がない時間に体育施設を利用できます。施設ごとの条件や臨時変更は窓口に確認してください。プールは当月の開放予定を別に確認し、他の施設にその予定を適用しないでください。"
      },
      {
       "text": "ジム・トレーニング室：施設ごとに共通する初回講習、登録、予約の手順は公開資料で確認できません。利用資格と手順を施設窓口に確認してから利用してください。"
@@ -11915,7 +11931,7 @@ window.ARTICLES_BODY_I18N = {
    "m7sport2": {
     "items": [
      {
-      "text": "For Kyushu University students using Ito sports facilities: the university says general students may use them when there are no classes or activities by officially recognized student groups. Check opening times in the map facility card and the current university schedule, and confirm room-specific conditions with the facility office."
+      "text": "General student use of Ito sports facilities is normally limited to weekdays, 09:00–16:00, when there are no classes or activities by officially recognized student groups. Confirm facility-specific conditions and temporary changes with the office. Check the pool’s monthly opening schedule separately; do not apply it to other facilities."
      },
      {
       "text": "Fitness and training rooms: public information does not give a single first-use course, registration, or reservation procedure for every room. Confirm eligibility and the process with the facility office before going; do not assume walk-in access."
@@ -12329,7 +12345,7 @@ window.ARTICLES_BODY_I18N = {
    "m7sport2": {
     "items": [
      {
-      "text": "규슈대학 학생의 이토 체육시설 이용: 대학 안내에 따르면 일반 학생은 체육 수업이나 공인 학생단체 활동이 없는 시간에 이용할 수 있습니다. 개방 시간은 지도 시설 카드와 대학의 당월 일정에서 확인하고, 시설별 조건은 창구에 문의하세요."
+      "text": "이토 지역 일반 학생의 체육시설 이용은 원칙적으로 평일09:00–16:00 중 수업이나 공인 학생단체 활동이 없는 시간에 가능합니다. 시설별 조건과 임시 변경은 담당 창구에 확인하세요. 수영장은 당월 개방 일정을 별도로 확인하고 그 일정을 다른 시설에 적용하지 마세요."
      },
      {
       "text": "헬스장·트레이닝실: 공개 자료에는 모든 시설에 공통되는 첫 이용 강습, 등록 또는 예약 절차가 안내되어 있지 않습니다. 바로 입장할 수 있다고 가정하지 말고 이용 자격과 절차를 시설 창구에 확인하세요."
@@ -12732,7 +12748,7 @@ window.ARTICLES_BODY_I18N = {
    "m7sport2": {
     "items": [
      {
-      "text": "Para estudiantes de Kyushu University que usan instalaciones deportivas de Ito: la universidad indica que pueden utilizarlas cuando no haya clases ni actividades de grupos estudiantiles reconocidos. Consulta los horarios en la tarjeta de la instalación del mapa y en el calendario mensual vigente, y confirma las condiciones de cada sala con la oficina."
+      "text": "El uso general de las instalaciones deportivas de Ito por estudiantes se permite, en principio, entre semana de 09:00 a 16:00, cuando no haya clases ni actividades de grupos estudiantiles reconocidos. Confirma con la oficina las condiciones de cada instalación y los cambios temporales. Consulta por separado el calendario mensual de la piscina; no lo apliques a otras instalaciones."
      },
      {
       "text": "Salas de fitness y entrenamiento: la información pública no establece un curso inicial, registro o sistema de reservas común para todas las salas. Confirma los requisitos y el procedimiento con la oficina antes de ir; no des por hecho que se permite entrar sin aviso."
@@ -22163,7 +22179,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "来日後にネット環境が整っていない新入留学生に対し、留学課は**臨時の Wi-Fi ログイン ID・パスワード**を提供します（9月下旬に入国支援システムに登録したメールアドレスへ送付）。九州大学キャンパス内には複数の無線アクセスポイントがあります。**SSO-KID** は入学時に一人ずつ付与される全学共通の ID で、学内 Wi-Fi や学生用メールアドレスなどの利用に必要です。"
    },
    "w3c4d5": {
-    "text": "臨時ログイン情報の有効期間：**2026年9月24日(木)～10月9日(金)**。10月9日以降は利用できませんので、ご自身の **SSO-KID** で kitenet（九大生用キャンパス Wi-Fi）を設定してください。"
+    "text": "公式案内は臨時IDの期間を2026年9月24日～10月9日とする一方、10月9日以降は利用できないとも記しています。10月9日より前に、ご自身のSSO-KIDでkitenetを設定してください。最終日当日も使えるとは考えないでください。"
    },
    "w4d5e6": {
     "items": [
@@ -22946,7 +22962,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "For new international students whose network environment is not yet ready after arrival in Japan, 留学課 provides a **temporary Wi-Fi login ID and password** (sent in late September to the email address registered in the 入国支援システム). Wireless access points are available at many locations on Kyushu University campuses.The **SSO-KID** is a university-wide ID issued to every incoming student; it is required to use campus Wi-Fi, the student email account and other services."
    },
    "w3c4d5": {
-    "text": "Validity of the temporary login credentials: **September 24, 2026 (Thu) – October 9, 2026 (Fri)**. The credentials can no longer be used after October 9; kitenet (Kyushu University student campus Wi-Fi) must be set up with the student's own **SSO-KID**."
+    "text": "The official notice lists September 24–October 9, 2026 as the temporary-ID period, but also says it is unavailable from October 9. Set up kitenet with your own SSO-KID before October 9; do not assume temporary access remains available on that day."
    },
    "w4d5e6": {
     "items": [
@@ -23729,7 +23745,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "일본 입국 후 네트워크 환경이 갖추어지지 않은 신입 유학생을 위해 留学課가 **임시 Wi-Fi 로그인 ID・비밀번호**를 제공합니다（9월 하순에 입국 지원 시스템에 등록된 메일 주소로 발송）. 九州大学 캠퍼스 내에는 무선 액세스 포인트가 여러 곳 있습니다.**SSO-KID**는 입학 시 한 사람당 하나씩 부여되는 전교 공통 ID로, 교내 Wi-Fi와 학생용 메일 주소 등의 이용에 필요합니다."
    },
    "w3c4d5": {
-    "text": "임시 로그인 정보 유효 기간: **2026年9月24日(木)～10月9日(金)**. 10月9日 이후에는 사용할 수 없으며, 본인의 **SSO-KID**로 kitenet（九大生 캠퍼스 Wi-Fi）을 설정해야 합니다."
+    "text": "공식 안내에는 임시 ID 이용 기간이 2026년 9월 24일~10월 9일로 표시되어 있지만, 동시에 10월 9일부터 사용할 수 없다고 명시되어 있습니다. 10월 9일 전에 본인의 SSO-KID로 kitenet을 설정하고 마지막 날에도 임시 계정을 사용할 수 있다고 가정하지 마세요."
    },
    "w4d5e6": {
     "items": [
@@ -24512,7 +24528,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Para los estudiantes internacionales de nuevo ingreso que aún no tengan conexión de red preparada tras su llegada a Japón, la oficina de estudiantes internacionales proporciona **ID y contraseña temporales de acceso al Wi-Fi** (se envían a finales de septiembre al correo registrado en el sistema de apoyo a la llegada). La Universidad de Kyushu cuenta con múltiples puntos de acceso inalámbrico en el campus.El **SSO-KID** es un identificador común de toda la universidad que se asigna a cada estudiante al ingresar; es necesario para usar el Wi-Fi del campus, el correo de estudiante y otros servicios."
    },
    "w3c4d5": {
-    "text": "Validez de las credenciales temporales: **2026年9月24日(木)～10月9日(金)**. Después de 10月9日 ya no se podrán usar; deberás configurar kitenet（Wi-Fi del campus para estudiantes de Kyushu University）con tu propio **SSO-KID**."
+    "text": "El aviso oficial indica del 24 de septiembre al 9 de octubre de 2026 como período del ID temporal, pero también dice que no se puede usar desde el 9 de octubre. Configura kitenet con tu propio SSO-KID antes del 9 de octubre; no supongas que el acceso temporal seguirá disponible ese día."
    },
    "w4d5e6": {
     "items": [

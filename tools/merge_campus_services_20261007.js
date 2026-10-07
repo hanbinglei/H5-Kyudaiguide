@@ -8,8 +8,9 @@ const RULES={
   software:{article:'guide-academic',before:'c8e67d'},
   library:{article:'guide-academic',before:'c8e67d'},
   'account-help':{article:'guide-phone',before:'93c21c'},
-  printing:{article:'guide-life',before:'2b45db'},
-  'sports-use':{article:'guide-life',before:'2b45db'},
+  // 活动小标题2b45db仍属于原校园生活大节；新增大节插在其完整结束之后。
+  printing:{article:'guide-life',before:'222467'},
+  'sports-use':{article:'guide-life',before:'222467'},
   'dorm-help':{article:'guide-housing',before:'0785ee'},
   'moving-campus':{article:'guide-residence',before:'ec20eb'}
 };
@@ -75,6 +76,8 @@ function main(){
   if(corrections.activation){
     const b=one(docs['guide-newcomer'],'w4d5e6');b.items[1].desc=corrections.activation.zh;
     for(const l of LANGS.slice(1))tr['guide-newcomer'][l]['w4d5e6'].items[1].desc=corrections.activation[l];
+    // 原通知同时列9/24–10/9和10/9起不可用；保留公示日期，不承诺截止日当天仍可用。
+    text(docs['guide-newcomer'],tr,'w3c4d5',corrections.temporaryWifiNotice);
     const a=docs['guide-academic'],labels={zh:'SSO账号与密码恢复（官方说明）',ja:'SSOアカウント・パスワード復旧案内',en:'SSO account and password recovery',ko:'SSO 계정·비밀번호 복구 안내',es:'Recuperar cuenta y contraseña SSO'};
     const groups={zh:one(a,'5ed19b'),...Object.fromEntries(LANGS.slice(1).map(l=>[l,tr[a._id][l]['5ed19b']]))};
     for(const l of LANGS)groups[l].items[4]={text:labels[l],url:'https://web.sso.kyushu-u.ac.jp/idpw/lost.html'};

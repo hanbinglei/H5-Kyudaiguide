@@ -19,7 +19,11 @@ async function main(){const server=http.createServer(serve);await new Promise(r=
         const text=await page.locator('#articleBody').innerText();
         if(id==='guide-academic'){check(text.includes('2,000')||text.includes('2000'),'当前卡片费用');check(text.includes('100'),'离校数据处理边界');}
         if(id==='guide-phone'){check(text.includes('@m.kyushu-u.ac.jp')&&text.includes('@s.kyushu-u.ac.jp'),'恢复邮箱排除');check(text.includes('SSO-KID@edunet'),'edunet格式');}
-        if(id==='guide-life')check(text.includes('Cloud On-Demand Print')&&text.includes('USB'),'按馆不同打印方式');
+        if(id==='guide-life'){
+          check(text.includes('Cloud On-Demand Print')&&text.includes('USB'),'按馆不同打印方式');
+          check(await page.evaluate(()=>{let e=document.querySelector('#articleBody [data-blk="2b45db"]');while(e&&e.tagName!=='H2')e=e.previousElementSibling;return e&&e.dataset.blk==='3b5a1b';}),'实际DOM保留校园活动的原父节');
+          check(text.includes('09:00')&&text.includes('16:00'),'实际显示一般体育使用时段');
+        }
         check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),width+'/'+lang+'/'+id+' 无整页横向溢出');
         if(width===375&&lang==='zh'&&id==='guide-academic'&&process.env.SERVICES_SCREENSHOT){await page.locator('[data-blk="m7card0"]').scrollIntoViewIfNeeded();await page.screenshot({path:process.env.SERVICES_SCREENSHOT});}
       }

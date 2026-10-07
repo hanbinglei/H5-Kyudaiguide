@@ -16,6 +16,14 @@ const corrections = {
     ko: '규슈대학교 교내 무선망에는 kitenet과 edunet이 있습니다. kitenet에는 SSO-KID@kitenet, edunet에는 SSO-KID@edunet을 사용하며, 두 서비스 모두 SSO-KID 비밀번호를 입력합니다. 정규 과정 학생(학부생·대학원생)의 10자리 SSO-KID는 학생증 뒷면에 표시되어 있습니다. 비정규 과정 학생(연구생 등)은 소속 학무 담당 창구에서 SSO-KID를 확인하세요.',
     es: 'La red Wi-Fi del campus incluye kitenet y edunet. Para kitenet use SSO-KID@kitenet y para edunet, SSO-KID@edunet; ambas requieren la contraseña del SSO-KID. En estudiantes de programas regulares (grado y posgrado), el SSO-KID de 10 dígitos figura en el reverso de la tarjeta de estudiante. Los estudiantes de programas no regulares, como los de investigación, deben solicitarlo a la oficina académica de su departamento.'
   },
+  // 临时Wi-Fi通知的日期写法有歧义：保留公示区间，仅提醒在10/9前完成个人账号切换。
+  temporaryWifiNotice: {
+    zh:'官方列出的临时ID期间为2026年9月24日～10月9日，同一通知又注明10月9日起无法使用。请在10月9日前完成个人SSO-KID和kitenet设置，不要假定截止日当天仍能使用临时账号。',
+    ja:'公式案内は臨時IDの期間を2026年9月24日～10月9日とする一方、10月9日以降は利用できないとも記しています。10月9日より前に、ご自身のSSO-KIDでkitenetを設定してください。最終日当日も使えるとは考えないでください。',
+    en:'The official notice lists September 24–October 9, 2026 as the temporary-ID period, but also says it is unavailable from October 9. Set up kitenet with your own SSO-KID before October 9; do not assume temporary access remains available on that day.',
+    ko:'공식 안내에는 임시 ID 이용 기간이 2026년 9월 24일~10월 9일로 표시되어 있지만, 동시에 10월 9일부터 사용할 수 없다고 명시되어 있습니다. 10월 9일 전에 본인의 SSO-KID로 kitenet을 설정하고 마지막 날에도 임시 계정을 사용할 수 있다고 가정하지 마세요.',
+    es:'El aviso oficial indica del 24 de septiembre al 9 de octubre de 2026 como período del ID temporal, pero también dice que no se puede usar desde el 9 de octubre. Configura kitenet con tu propio SSO-KID antes del 9 de octubre; no supongas que el acceso temporal seguirá disponible ese día.'
+  },
   wifiOverview: {
     zh: '九大校内无线网有面向学生、教职员的 kitenet，以及主要用于学生自带电脑和讲义室教学的 edunet。无法连接时，先检查账号输入，再按 KITE 官方设置说明排查。eduroam 是独立的漫游服务，需另行申请 NII 提供的账号；校内仅在官方地点列表标明处可用。',
     ja: '九州大学の学内無線LANには、学生・教職員向けの kitenet と、学生のPC持参・講義室での利用を想定した edunet があります。接続できない場合は、まずIDの入力を確認し、KITEの設定案内をご覧ください。eduroamは別のローミングサービスで、NIIが発行するアカウントが必要です。学内では公式の設置場所一覧に掲載された場所で利用できます。',
@@ -90,8 +98,9 @@ const COPY = {
       intro:'适用范围：九州大学学生。遗失后应尽快停用；再发行向所属学务窗口办理。受理窗口和具体流程可能因学部、学府而异。',
       steps:[
         {title:'遗失后先停用',desc:'从学校官方IC卡故障页提交停用申请；这是停卡手续，不是再发行申请。若在再发行前找回，另交恢复申请，窗口处理后下一个工作日恢复使用。'},
-        {title:'按学籍类别申请再发行',desc:'确认无法找回或卡片损坏时，向所属学务窗口申请。正课生使用学生证再发行申请；非正课生（如研究生）使用个人卡借用申请并选择再发行，附本人正面照片。'},
-        {title:'按当前指引缴费并本人领取',desc:'按IC卡团队及所属学务窗口的当前指引缴费并提交所需收据。申请书送达IC卡业务室后约1周；不是从用户交表日计算或保证一周。卡片由本人领取，并按窗口要求办理受领确认/盖章。'}
+        {title:'按学籍类别申请再发行',desc:'确认无法找回或卡片损坏时，向所属学务窗口申请。正课生使用学生证再发行申请；非正课生（如研究生）使用个人卡借用申请并选择再发行。两类申请均须提供免冠正面照片，可提交照片数据。'},
+        {title:'按当前指引缴费并本人领取',desc:'按IC卡团队及所属学务窗口的当前指引缴费并提交所需收据。申请书送达IC卡业务室后约1周；不是从用户交表日计算或保证一周。卡片由本人领取，并按窗口要求办理受领确认/盖章。'},
+        {title:'领取后恢复原有门禁与入构权限',desc:'原来使用电子锁门禁或入构证的，须在新卡重新写入相应权限：电子锁联系建筑管理窗口，入构证联系所属学务窗口。不要默认新卡会自动带回全部旧权限。'}
       ],
       feeHeaders:['项目','官方说明'],
       feeRows:[
@@ -140,8 +149,9 @@ const COPY = {
       intro:'対象：九州大学の学生。紛失したら早めに利用停止し、再発行は所属の学務担当窓口で申請します。受付窓口や手順は学部・学府により異なる場合があります。',
       steps:[
         {title:'紛失後、まず利用停止',desc:'大学公式ICカード故障案内から利用停止を申請します。これはカード停止の手続で、再発行申請とは別です。再発行前に見つかった場合は別途利用再開を届け出ます。窓口処理後、翌営業日に利用再開となります。'},
-        {title:'学籍区分に応じて再発行申請',desc:'見つからない場合やカードが破損した場合は、所属の学務担当窓口に申請します。正課生は学生証再発行願、非正課生（研究生等）はパーソナルカード貸与願で再発行を選び、本人の正面写真を添付します。'},
-        {title:'現在の案内に従って納付し、本人が受領',desc:'ICカードチームおよび所属の学務担当窓口の最新案内に従って納付し、必要な領収書を提出します。申請書が当事業室に到着後、1週間前後です。利用者が窓口に提出した日から1週間とするものではありません。カードは本人が受領し、窓口の指示に従って受領確認・押印等を行います。'}
+        {title:'学籍区分に応じて再発行申請',desc:'見つからない場合やカードが破損した場合は、所属の学務担当窓口に申請します。正課生は学生証再発行願、非正課生（研究生等）はパーソナルカード貸与願で再発行を選びます。どちらも脱帽・正面の写真が必要で、写真データでも提出できます。'},
+        {title:'現在の案内に従って納付し、本人が受領',desc:'ICカードチームおよび所属の学務担当窓口の最新案内に従って納付し、必要な領収書を提出します。申請書が当事業室に到着後、1週間前後です。利用者が窓口に提出した日から1週間とするものではありません。カードは本人が受領し、窓口の指示に従って受領確認・押印等を行います。'},
+        {title:'受領後、電子錠・入構証の権限を再登録',desc:'電子錠や入構証を利用していた場合、新しいカードに利用権限を再度書き込む手続きが必要です。電子錠は建物の管理窓口、入構証は所属の学務担当窓口に確認してください。以前の権限が自動で引き継がれるとは限りません。'}
       ],
       feeHeaders:['項目','公式案内'],
       feeRows:[
@@ -190,8 +200,9 @@ const COPY = {
       intro:'Scope: Kyushu University students. If your card is lost, request suspension promptly; apply for a replacement through your affiliated academic affairs office. Intake counters and procedures may vary by faculty or graduate school.',
       steps:[
         {title:'Suspend a lost card first',desc:'Submit the suspension request through the university’s official IC-card trouble page. This disables the card and is separate from a reissue application. If you find it before reissue, submit a separate reactivation notice; use resumes on the next business day after the office processes it.'},
-        {title:'Apply according to student status',desc:'If the card is not found or is damaged, apply through your affiliated academic affairs office. Regular-course students use the Student Card Reissue Application. Non-regular students, such as research students, use the Personal Card Loan Application, select reissue, and attach a front-facing photo.'},
-        {title:'Pay under current instructions and collect in person',desc:'Pay and submit any required receipt according to current instructions from the IC Card Team and your academic affairs office. Processing takes about one week after the application reaches the IC Card Office; this is not counted or guaranteed from the day you submit it. The cardholder must collect the card and complete any receipt acknowledgment/stamping required by the office.'}
+        {title:'Apply according to student status',desc:'If the card is not found or is damaged, apply through your affiliated academic affairs office. Regular-course students use the Student Card Reissue Application. Non-regular students, such as research students, use the Personal Card Loan Application and select reissue. Both applications require a front-facing photo without a hat; a digital photo is accepted.'},
+        {title:'Pay under current instructions and collect in person',desc:'Pay and submit any required receipt according to current instructions from the IC Card Team and your academic affairs office. Processing takes about one week after the application reaches the IC Card Office; this is not counted or guaranteed from the day you submit it. The cardholder must collect the card and complete any receipt acknowledgment/stamping required by the office.'},
+        {title:'Restore existing electronic-lock and campus-entry permissions',desc:'If you used electronic locks or a campus-entry permit, the permissions must be written onto the new card again. Contact the building management office for electronic locks and your academic affairs office for campus entry. Do not assume that all previous permissions transfer automatically.'}
       ],
       feeHeaders:['Item','Official information'],
       feeRows:[
@@ -240,8 +251,9 @@ const COPY = {
       intro:'적용 대상: 규슈대학교 학생. 분실하면 신속히 이용 정지를 신청하고, 재발급은 소속 학무 담당 창구에서 신청하세요. 접수 창구와 절차는 학부·대학원별로 다를 수 있습니다.',
       steps:[
         {title:'분실 시 먼저 이용 정지',desc:'대학 공식 IC 카드 문제 안내에서 이용 정지를 신청하세요. 이는 카드 정지 절차이며 재발급 신청과는 별개입니다. 재발급 전에 찾으면 별도의 이용 재개 신청을 하며, 창구 처리 후 다음 영업일부터 다시 사용할 수 있습니다.'},
-        {title:'학적 구분에 따라 재발급 신청',desc:'찾지 못했거나 카드가 파손되면 소속 학무 담당 창구에서 신청하세요. 정규 과정 학생은 학생증 재발급 신청서를 사용합니다. 연구생 등 비정규 과정 학생은 개인 카드 대여 신청서에서 재발급을 선택하고 정면 사진을 첨부합니다.'},
-        {title:'현재 안내에 따라 납부하고 본인 수령',desc:'IC 카드팀 및 소속 학무 담당 창구의 현재 안내에 따라 납부하고 필요한 영수증을 제출하세요. 신청서가 IC 카드 업무실에 도착한 뒤 약 1주일입니다. 사용자가 신청서를 제출한 날부터 계산하거나 1주일 내 완료를 보장하는 뜻은 아닙니다. 본인이 카드를 수령하고 창구 안내에 따라 수령 확인/날인을 하세요.'}
+        {title:'학적 구분에 따라 재발급 신청',desc:'찾지 못했거나 카드가 파손되면 소속 학무 담당 창구에서 신청하세요. 정규 과정 학생은 학생증 재발급 신청서를, 연구생 등 비정규 과정 학생은 개인 카드 대여 신청서의 재발급 항목을 사용합니다. 두 경우 모두 모자를 벗고 촬영한 정면 사진이 필요하며 사진 데이터도 제출할 수 있습니다.'},
+        {title:'현재 안내에 따라 납부하고 본인 수령',desc:'IC 카드팀 및 소속 학무 담당 창구의 현재 안내에 따라 납부하고 필요한 영수증을 제출하세요. 신청서가 IC 카드 업무실에 도착한 뒤 약 1주일입니다. 사용자가 신청서를 제출한 날부터 계산하거나 1주일 내 완료를 보장하는 뜻은 아닙니다. 본인이 카드를 수령하고 창구 안내에 따라 수령 확인/날인을 하세요.'},
+        {title:'수령 후 전자 잠금장치·캠퍼스 출입 권한 재등록',desc:'기존에 전자 잠금장치나 캠퍼스 출입증을 이용했다면 새 카드에 권한을 다시 기록하는 절차가 필요합니다. 전자 잠금장치는 건물 관리 창구에, 캠퍼스 출입증은 소속 학무 창구에 문의하세요. 모든 기존 권한이 자동 이전된다고 가정하지 마세요.'}
       ],
       feeHeaders:['항목','공식 안내'],
       feeRows:[
@@ -290,8 +302,9 @@ const COPY = {
       intro:'Ámbito: estudiantes de Kyushu University. Si pierde la tarjeta, solicite su suspensión cuanto antes; la reemisión se tramita en la oficina académica de su departamento. La oficina y el procedimiento pueden variar según la facultad o posgrado.',
       steps:[
         {title:'Suspenda primero una tarjeta perdida',desc:'Presente la solicitud de suspensión desde la página oficial de problemas con tarjetas IC de la universidad. Es un trámite para desactivar la tarjeta, distinto de la reemisión. Si la encuentra antes de la reemisión, presente por separado el aviso de reactivación; el uso se reanuda el siguiente día laborable después de que la oficina lo tramite.'},
-        {title:'Solicite según su situación académica',desc:'Si no la encuentra o está dañada, solicite la reemisión en su oficina académica. El alumnado de programas regulares usa la solicitud de reemisión de tarjeta. El alumnado no regular, como investigación, usa la solicitud de préstamo de tarjeta personal, elige reemisión y adjunta una foto frontal.'},
-        {title:'Pague según las instrucciones vigentes y recoja en persona',desc:'Pague y presente los recibos necesarios según las instrucciones vigentes del equipo IC y de su oficina académica. El plazo es de aproximadamente 1 semana desde que la solicitud llega a la oficina de tarjetas IC; no se cuenta ni se garantiza desde el día en que el estudiante la entrega. El titular debe recoger la tarjeta y completar la confirmación de recepción/sello que indique la oficina.'}
+        {title:'Solicite según su situación académica',desc:'Si no la encuentra o está dañada, solicite la reemisión en su oficina académica. El alumnado de programas regulares usa la solicitud de reemisión de tarjeta; el no regular, como estudiantes de investigación, usa la solicitud de préstamo de tarjeta personal y selecciona reemisión. Ambos deben aportar una foto frontal sin sombrero; se acepta una foto digital.'},
+        {title:'Pague según las instrucciones vigentes y recoja en persona',desc:'Pague y presente los recibos necesarios según las instrucciones vigentes del equipo IC y de su oficina académica. El plazo es de aproximadamente 1 semana desde que la solicitud llega a la oficina de tarjetas IC; no se cuenta ni se garantiza desde el día en que el estudiante la entrega. El titular debe recoger la tarjeta y completar la confirmación de recepción/sello que indique la oficina.'},
+        {title:'Restablezca los permisos de cerraduras electrónicas y acceso al campus',desc:'Si utilizaba cerraduras electrónicas o un permiso de acceso al campus, debe volver a registrar los permisos en la nueva tarjeta. Consulte a la administración del edificio para las cerraduras y a su oficina académica para el acceso al campus. No suponga que todos los permisos anteriores se transfieren automáticamente.'}
       ],
       feeHeaders:['Concepto','Información oficial'],
       feeRows:[
