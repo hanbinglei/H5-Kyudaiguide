@@ -54,6 +54,8 @@ run_hard "楼内设施目录与搜索" node tools/test_indoor_facilities.js
 run_hard "JTCs 后期日程与译文" node tools/test_jtcs_2026f.js
 run_hard "巴士季后交通入口" node tools/test_bus_season_ended.js
 run_hard "证明书资格费用与五语" node tools/test_certificates.js
+run_hard "校园小事项与SSO纠正" node tools/test_campus_services.js
+run_hard "搜索精确匹配优先" node tools/test_search_priority_regression.js
 
 # 比较重建前后的产物，不比较 HEAD：正确的未提交内容也应能本地验收。
 # 旧产物或缺失产物会在重建后改变哈希，仍能发现“改内容后忘记构建”。

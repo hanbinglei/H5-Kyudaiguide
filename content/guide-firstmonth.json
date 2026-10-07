@@ -11,7 +11,7 @@
     "住址登记"
   ],
   "author": "管理员",
-  "updatedAt": "2026-09-30",
+  "updatedAt": "2026-10-07",
   "isPinned": true,
   "pinOrder": 20,
   "blocks": [
@@ -295,7 +295,7 @@
     {
       "id": "36cd13",
       "type": "paragraph",
-      "text": "学校账号两个坑：SSO-KID 激活**不能用学校邮箱以外的邮箱**；校内 WiFi 的账号是 SSO-KID@kitenet，密码就是激活 SSO-KID 时设的那个。见【在留手续】"
+      "text": "激活 SSO-KID 时需登记一个可及时收信的密码重设邮箱；九大全学基本邮箱（@m.kyushu-u.ac.jp、@s.kyushu-u.ac.jp）不能登记，短信也不可用。 校内无线网有 kitenet 和 edunet：kitenet 登录 ID 为 SSO-KID@kitenet，edunet 为 SSO-KID@edunet；两者均使用 SSO-KID 密码。正课生（学部生、大学院生）的 SSO-KID 是学生证背面的10位数字；非正课生（如研究生）请向所属学务窗口确认。"
     },
     {
       "id": "082061",

@@ -26,7 +26,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "アカウントと各種証明書"
    },
    "3b7366": {
-    "text": "SSO-KID の有効化には大学のメールアドレス以外は使えません。 学籍と受取方法は大学公式の証明書入口から選びます。ku-certは大学院生だけのサービスではありません。本記事の証明書の節をご確認ください。"
+    "text": "SSO-KIDのアクティベーション時には、パスワード再設定用としてすぐ受信できるメールアドレスを登録します。九大の全学基本メールアドレス（@m.kyushu-u.ac.jp、@s.kyushu-u.ac.jp）は登録できず、SMSも利用できません。 学籍と受取方法は大学公式の証明書入口から選びます。ku-certは大学院生だけのサービスではありません。本記事の証明書の節をご確認ください。"
    },
    "5ed19b": {
     "items": [
@@ -47,8 +47,8 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://outlook.office.com/mail/"
      },
      {
-      "text": "SSO のパスワード・アカウント（passchg）",
-      "url": "https://ci.iii.kyushu-u.ac.jp/m/"
+      "text": "SSOアカウント・パスワード復旧案内",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/lost.html"
      }
     ]
    },
@@ -807,6 +807,274 @@ window.ARTICLES_BODY_I18N = {
       "text": "ログイン・メール・支払い等は06-6809-4327（24時間）。内容・作成・発送・初回登録承認は所属学生係へ。公式一覧の学部・学府窓口、学務相談092-802-5939（平日8:30–17:15）を利用。本ガイドへ身分証やパスワードを送らないでください。"
      }
     ]
+   },
+   "m7card0": {
+    "text": "学生証の紛失・破損・再発行"
+   },
+   "studentid1": {
+    "text": "対象：九州大学の学生。紛失したら早めに利用停止し、再発行は所属の学務担当窓口で申請します。受付窓口や手順は学部・学府により異なる場合があります。"
+   },
+   "studentid2": {
+    "items": [
+     {
+      "title": "紛失後、まず利用停止",
+      "desc": "大学公式ICカード故障案内から利用停止を申請します。これはカード停止の手続で、再発行申請とは別です。再発行前に見つかった場合は別途利用再開を届け出ます。窓口処理後、翌営業日に利用再開となります。"
+     },
+     {
+      "title": "学籍区分に応じて再発行申請",
+      "desc": "見つからない場合やカードが破損した場合は、所属の学務担当窓口に申請します。正課生は学生証再発行願、非正課生（研究生等）はパーソナルカード貸与願で再発行を選び、本人の正面写真を添付します。"
+     },
+     {
+      "title": "現在の案内に従って納付し、本人が受領",
+      "desc": "ICカードチームおよび所属の学務担当窓口の最新案内に従って納付し、必要な領収書を提出します。申請書が当事業室に到着後、1週間前後です。利用者が窓口に提出した日から1週間とするものではありません。カードは本人が受領し、窓口の指示に従って受領確認・押印等を行います。"
+     }
+    ]
+   },
+   "studentid3": {
+    "headers": [
+     "項目",
+     "公式案内"
+    ],
+    "rows": [
+     [
+      "再発行手数料",
+      "現行の学生証再発行案内は2,000円としています。紛失や本人責任による目立つ破損等は有償例です。"
+     ],
+     [
+      "無償となる場合",
+      "本人責任でない故障等は無償となる場合があります。該当するかは具体的な事情に基づきICカードチームまたは所属窓口に確認してください。"
+     ],
+     [
+      "所要期間・受領",
+      "申請書が認証基盤事業室に到着後、1週間前後です。本人が受領し、窓口の指示に従って受領確認・押印等を行います。申請書の提出日からの一律1週間ではありません。"
+     ]
+    ]
+   },
+   "studentid4": {
+    "text": "農学部局は2025-12からオンラインの紛失・再開手続を別途案内していますが、同部局に限る案内です。他の学生は所属窓口の現在の案内に従ってください。"
+   },
+   "studentid5": {
+    "items": [
+     {
+      "text": "ICカードの紛失・利用停止案内",
+      "url": "https://web.card.kyushu-u.ac.jp/trouble/index.html"
+     },
+     {
+      "text": "学生証の再発行手続",
+      "url": "https://web.card.kyushu-u.ac.jp/students/trouble.html"
+     },
+     {
+      "text": "ICカードの有償条件",
+      "url": "https://web.card.kyushu-u.ac.jp/warranty/index.html"
+     },
+     {
+      "text": "2026年度学生ハンドブック",
+      "url": "https://www.kyushu-u.ac.jp/f/64451/R8_guidebook_half.pdf"
+     },
+     {
+      "text": "農学部局の紛失手続案内",
+      "url": "https://www.agr.kyushu-u.ac.jp/gakusei/helpie_faq/q%EF%BC%9A%E5%AD%A6%E7%94%9F%E8%A8%BC%E3%82%92%E7%B4%9B%E5%A4%B1%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F%E3%81%8C%E3%81%A9%E3%81%86%E3%81%99%E3%82%8C%E3%81%B0%E3%82%88%E3%81%84%E3%81%A7%E3%81%99%E3%81%8B"
+     }
+    ]
+   },
+   "m7soft0": {
+    "text": "Officeソフトと離籍前のバックアップ"
+   },
+   "software1": {
+    "text": "対象：九州大学Microsoft 365の利用資格があり、有効なSSO-KIDを持つ構成員です。利用できるサービスはアカウント・学籍区分により異なります。初回利用時は多要素認証（MFA）の設定が必要です。"
+   },
+   "software2": {
+    "text": "OfficeとMicrosoft 365"
+   },
+   "software3": {
+    "items": [
+     {
+      "title": "利用資格とMFAを確認",
+      "desc": "大学のMicrosoft 365入口を使う前にSSO-KIDが有効であることを確認し、公式手順でMFAを設定します。公式案内では、SSO-KIDがaで始まるアカウントは通常Microsoft 365 Appsを利用できませんが、例外も記載されています。本人のアカウント資格を確認し、全員利用可能とは案内しないでください。"
+     },
+     {
+      "title": "端末ごとにOfficeライセンスを確認",
+      "desc": "資格のある学生・教職員は、大学の案内に従って個人PCでMicrosoft 365 Appsを利用できます。大学設備と個人PCではライセンス方式が異なります。「大学貸与」というだけで方式を推定せず、機器管理者と公式案内で確認してください。"
+     }
+    ]
+   },
+   "software4": {
+    "text": "九大内の内部進学では、公式案内上SSO-KIDとパスワードは引き継がれます。Microsoft 365の利用資格はアカウントと学籍状況によります。卒業・退職等による停止ルールは、本人の利用資格が実際に終了した場合に適用されます。"
+   },
+   "software5": {
+    "text": "卒業・退職・離籍前のバックアップ"
+   },
+   "software6": {
+    "items": [
+     {
+      "text": "離籍前に、残しておきたい個人ファイルを事前にバックアップしてください。"
+     },
+     {
+      "text": "利用資格が実際に終了した後、公式一覧の削除猶予期間はOffice/Teamsが即日、SharePoint/OneDriveが100日です。100日はデータ削除までの期間であり、ログインやファイル取得ができる期間ではありません。"
+     }
+    ]
+   },
+   "software7": {
+    "items": [
+     {
+      "text": "Microsoft 365サービス案内",
+      "url": "https://ci.iii.kyushu-u.ac.jp/365/"
+     },
+     {
+      "text": "Officeアプリのインストール案内",
+      "url": "https://ci.iii.kyushu-u.ac.jp/howto/office_apps/"
+     },
+     {
+      "text": "Microsoft 365初期設定",
+      "url": "https://ci.iii.kyushu-u.ac.jp/1st/index_new/"
+     },
+     {
+      "text": "OneDrive利用案内",
+      "url": "https://ci.iii.kyushu-u.ac.jp/365/onedrive/"
+     },
+     {
+      "text": "Microsoft 365 FAQ",
+      "url": "https://ci.iii.kyushu-u.ac.jp/365/q_a/"
+     },
+     {
+      "text": "SSOサービス一覧と資格終了後の扱い",
+      "url": "https://web.sso.kyushu-u.ac.jp/ssokid/services.html"
+     },
+     {
+      "text": "Microsoft 365利用上の注意",
+      "url": "https://ci.iii.kyushu-u.ac.jp/365/pdf/essential.pdf"
+     },
+     {
+      "text": "学生SSO-KIDと内部進学",
+      "url": "https://web.sso.kyushu-u.ac.jp/ssokid/students.html"
+     }
+    ]
+   },
+   "m7lib0": {
+    "text": "図書館を初めて使う：入館・貸出／返却・学習室"
+   },
+   "m7lib1": {
+    "text": "確認日：2026-10-07。中央・理系・医学・芸術工学・筑紫の5館が対象です。利用条件やサービスは館ごとに異なります。図書館利用者票は九大の図書館で使えますが、各館の規則は同一ではありません。実際の返却期限はMy Page／貸出記録で確認してください。"
+   },
+   "m7lib2": {
+    "text": "初めての入館と貸出"
+   },
+   "m7lib3": {
+    "items": [
+     {
+      "title": "学生証を持参",
+      "desc": "九大学生は学生証を図書館利用者票として使えます。非正課生で学生証がICカードでない場合は、所属の学生係にICパーソナルカードの交付を申請してください。"
+     },
+     {
+      "title": "入館ゲートを通る",
+      "desc": "ゲートのある館では、学生証または図書館利用者票を読み取り部にかざします。忘れた場合はカウンターへ。カウンターが遠いときはインターフォンで係員を呼んでください。"
+     },
+     {
+      "title": "貸出手続きをし、開館カレンダーを確認",
+      "desc": "借りる資料と図書館利用者票をカウンターへお持ちください。開館時間は利用する館の最新カレンダーで確認してください。"
+     }
+    ]
+   },
+   "m7lib4": {
+    "text": "一般貸出冊数・期間（館別の特別貸出あり）"
+   },
+   "m7lib5": {
+    "headers": [
+     "図書館／区分",
+     "貸出冊数",
+     "貸出期間"
+    ],
+    "rows": [
+     [
+      "中央／理系／医学",
+      "図書・雑誌 合計10冊",
+      "図書2週間、雑誌1週間"
+     ],
+     [
+      "芸術工学：学部生",
+      "図書10冊、雑誌5冊",
+      "図書15日、雑誌8日"
+     ],
+     [
+      "芸術工学：大学院生",
+      "図書20冊、雑誌10冊",
+      "図書30日、雑誌8日"
+     ],
+     [
+      "筑紫",
+      "図書10冊、雑誌5冊",
+      "図書2週間、雑誌2日間"
+     ]
+    ]
+   },
+   "m7lib6": {
+    "text": "延長・返却・予約"
+   },
+   "m7lib7": {
+    "items": [
+     {
+      "text": "返却期限内にMy Pageまたはカウンターで延長します。通常は1回まで。他の利用者の予約がある場合と雑誌は延長できません。筑紫図書館は図書を2回まで延長できます。延長後の期間は手続日から数えます。"
+     },
+     {
+      "text": "カウンターへ返却し、閉館時は返却ポストを利用できます。九大所蔵資料は借りた館以外の九大図書館にも返却できます。1点でも延滞中は新たな貸出・延長ができず、延滞日数分の貸出停止になります。"
+     },
+     {
+      "text": "他の利用者が借りている図書は、九大コレクションの「予約・取寄」ボタンまたはカウンターで申し込めます。予約対象外の資料や、利用可能になるまで時間がかかる資料もあります。"
+     }
+    ]
+   },
+   "m7lib8": {
+    "text": "学習室と特別開館"
+   },
+   "m7lib9": {
+    "items": [
+     {
+      "text": "学習室の予約可否・方法・利用条件は、利用する館の最新案内を確認し、必要に応じて館へお問い合わせください。"
+     },
+     {
+      "text": "医学図書館の24時間無人開館は病院地区の学生・教員・医療従事者に限られ、事前申請が必要です。医学系の学生全員が使える制度ではありません。"
+     }
+    ]
+   },
+   "m7lib10": {
+    "items": [
+     {
+      "text": "学生・教職員の利用手続",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/services/members/procedures"
+     },
+     {
+      "text": "貸出・延長・返却・予約",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/services/members/borrow"
+     },
+     {
+      "text": "九大コレクション（所蔵・予約状況）",
+      "url": "https://catalog.lib.kyushu-u.ac.jp/ja"
+     },
+     {
+      "text": "5館一覧・最新カレンダー・連絡先",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries"
+     },
+     {
+      "text": "中央図書館：貸出案内（特別貸出等）",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/central/guides_members"
+     },
+     {
+      "text": "理系図書館：貸出案内（特別貸出等）",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/scitech/guides_members"
+     },
+     {
+      "text": "医学図書館：貸出案内（特別貸出等）",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/medical/guides_members"
+     },
+     {
+      "text": "芸術工学図書館：貸出案内（特別貸出等）",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/design/guides_members-0"
+     },
+     {
+      "text": "筑紫図書館：貸出案内（特別貸出等）",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/chikushi/guides_members"
+     }
+    ]
    }
   },
   "en": {
@@ -823,7 +1091,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Accounts and Certificates"
    },
    "3b7366": {
-    "text": "Activating your SSO-KID requires a university email address; no other address will work. Choose your status and collection through the university’s official certificate page. ku-cert is not only for graduate students. See the Certificates section of this article for eligibility."
+    "text": "When activating your SSO-KID, register an email address you can access promptly for password recovery. Kyushu University's primary email addresses (@m.kyushu-u.ac.jp and @s.kyushu-u.ac.jp) and SMS cannot be used. Choose your status and collection through the university’s official certificate page. ku-cert is not only for graduate students. See the Certificates section of this article for eligibility."
    },
    "5ed19b": {
     "items": [
@@ -844,8 +1112,8 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://outlook.office.com/mail/"
      },
      {
-      "text": "SSO password / account (passchg)",
-      "url": "https://ci.iii.kyushu-u.ac.jp/m/"
+      "text": "SSO account and password recovery",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/lost.html"
      }
     ]
    },
@@ -1604,6 +1872,274 @@ window.ARTICLES_BODY_I18N = {
       "text": "Login, email and payment problems: 06-6809-4327 (24 hours). Content, preparation, dispatch and first-registration approval: your student affairs section listed on the official page. General academic affairs: 092-802-5939 (weekdays 8:30–17:15). Do not send identity documents or passwords to this guide."
      }
     ]
+   },
+   "m7card0": {
+    "text": "Lost, damaged, or reissued student cards"
+   },
+   "studentid1": {
+    "text": "Scope: Kyushu University students. If your card is lost, request suspension promptly; apply for a replacement through your affiliated academic affairs office. Intake counters and procedures may vary by faculty or graduate school."
+   },
+   "studentid2": {
+    "items": [
+     {
+      "title": "Suspend a lost card first",
+      "desc": "Submit the suspension request through the university’s official IC-card trouble page. This disables the card and is separate from a reissue application. If you find it before reissue, submit a separate reactivation notice; use resumes on the next business day after the office processes it."
+     },
+     {
+      "title": "Apply according to student status",
+      "desc": "If the card is not found or is damaged, apply through your affiliated academic affairs office. Regular-course students use the Student Card Reissue Application. Non-regular students, such as research students, use the Personal Card Loan Application, select reissue, and attach a front-facing photo."
+     },
+     {
+      "title": "Pay under current instructions and collect in person",
+      "desc": "Pay and submit any required receipt according to current instructions from the IC Card Team and your academic affairs office. Processing takes about one week after the application reaches the IC Card Office; this is not counted or guaranteed from the day you submit it. The cardholder must collect the card and complete any receipt acknowledgment/stamping required by the office."
+     }
+    ]
+   },
+   "studentid3": {
+    "headers": [
+     "Item",
+     "Official information"
+    ],
+    "rows": [
+     [
+      "Reissue fee",
+      "The current student-card reissue page lists ¥2,000. Loss and visible damage caused by the cardholder are examples of chargeable cases."
+     ],
+     [
+      "Possible no-fee cases",
+      "Malfunctions not caused by the cardholder may be free. Ask the IC Card Team or your affiliated office to assess the specific cause."
+     ],
+     [
+      "Timing and collection",
+      "About one week after the application reaches the IC Card Office. The cardholder must collect it and complete any receipt acknowledgment/stamping required by the office; the period is not counted from the user’s submission date."
+     ]
+    ]
+   },
+   "studentid4": {
+    "text": "The Faculty of Agriculture has a separate online loss/reactivation procedure from 2025-12; it applies only to that faculty. Other students should follow the current instructions from their affiliated office."
+   },
+   "studentid5": {
+    "items": [
+     {
+      "text": "IC card loss and suspension guidance",
+      "url": "https://web.card.kyushu-u.ac.jp/trouble/index.html"
+     },
+     {
+      "text": "Student card reissue procedure",
+      "url": "https://web.card.kyushu-u.ac.jp/students/trouble.html"
+     },
+     {
+      "text": "IC card warranty and fee conditions",
+      "url": "https://web.card.kyushu-u.ac.jp/warranty/index.html"
+     },
+     {
+      "text": "2026 Student Handbook",
+      "url": "https://www.kyushu-u.ac.jp/f/64451/R8_guidebook_half.pdf"
+     },
+     {
+      "text": "Agriculture-specific loss procedure",
+      "url": "https://www.agr.kyushu-u.ac.jp/gakusei/helpie_faq/q%EF%BC%9A%E5%AD%A6%E7%94%9F%E8%A8%BC%E3%82%92%E7%B4%9B%E5%A4%B1%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F%E3%81%8C%E3%81%A9%E3%81%86%E3%81%99%E3%82%8C%E3%81%B0%E3%82%88%E3%81%84%E3%81%A7%E3%81%99%E3%81%8B"
+     }
+    ]
+   },
+   "m7soft0": {
+    "text": "Office software and backing up files before leaving"
+   },
+   "software1": {
+    "text": "Scope: Kyushu University members who are eligible for Microsoft 365 and have an active SSO-KID. Available services vary by account and student status. Multi-factor authentication (MFA) is required for initial use."
+   },
+   "software2": {
+    "text": "Office and Microsoft 365"
+   },
+   "software3": {
+    "items": [
+     {
+      "title": "Check eligibility and configure MFA",
+      "desc": "Before signing in to the university Microsoft 365 portal, confirm that your SSO-KID is active and configure MFA using the official instructions. The university says accounts whose SSO-KID starts with “a” generally cannot use Microsoft 365 Apps, but lists exceptions. Check your own account eligibility; do not promise access to every member."
+     },
+     {
+      "title": "Check the Office license for your device",
+      "desc": "Eligible students and faculty/staff may use Microsoft 365 Apps on personal computers under university guidance. Licenses differ between personal and university devices; confirm with the device manager and official instructions instead of inferring the license only from “university-provided.”"
+     }
+    ]
+   },
+   "software4": {
+    "text": "For internal progression within Kyushu University, the official page says the SSO-KID and password are carried over. Microsoft 365 eligibility still depends on the account and student status. Account/service termination rules apply only when the person’s eligibility actually ends, such as after leaving enrollment or employment."
+   },
+   "software5": {
+    "text": "Back up before graduation, retirement, or leaving"
+   },
+   "software6": {
+    "items": [
+     {
+      "text": "Before leaving, back up personal files you need to keep."
+     },
+     {
+      "text": "When eligibility actually ends, the official deletion grace period is immediate for Office/Teams and 100 days for SharePoint/OneDrive. The 100 days is a data-deletion period, not a login or retrieval period."
+     }
+    ]
+   },
+   "software7": {
+    "items": [
+     {
+      "text": "Microsoft 365 service overview",
+      "url": "https://ci.iii.kyushu-u.ac.jp/365/"
+     },
+     {
+      "text": "Office apps installation guide",
+      "url": "https://ci.iii.kyushu-u.ac.jp/howto/office_apps/"
+     },
+     {
+      "text": "Microsoft 365 first-time setup",
+      "url": "https://ci.iii.kyushu-u.ac.jp/1st/index_new/"
+     },
+     {
+      "text": "OneDrive guide",
+      "url": "https://ci.iii.kyushu-u.ac.jp/365/onedrive/"
+     },
+     {
+      "text": "Microsoft 365 FAQ",
+      "url": "https://ci.iii.kyushu-u.ac.jp/365/q_a/"
+     },
+     {
+      "text": "SSO services after eligibility ends",
+      "url": "https://web.sso.kyushu-u.ac.jp/ssokid/services.html"
+     },
+     {
+      "text": "Microsoft 365 terms of use",
+      "url": "https://ci.iii.kyushu-u.ac.jp/365/pdf/essential.pdf"
+     },
+     {
+      "text": "Student SSO-KID and internal progression",
+      "url": "https://web.sso.kyushu-u.ac.jp/ssokid/students.html"
+     }
+    ]
+   },
+   "m7lib0": {
+    "text": "First Use of the Library: Entry, Borrowing and Study Spaces"
+   },
+   "m7lib1": {
+    "text": "Checked on 2026-10-07. This guide covers the Central, Science and Technology, Medical, Design and Chikushi Libraries. Eligibility and services vary by library. A Kyushu University library card works across the university libraries, but local rules are not identical. Check My Page/your loan record for the actual due date."
+   },
+   "m7lib2": {
+    "text": "First entry and borrowing"
+   },
+   "m7lib3": {
+    "items": [
+     {
+      "title": "Bring your student ID",
+      "desc": "For Kyushu University students, the student ID serves as the library card. Non-degree students whose student ID is not an IC card should ask their student affairs office about an IC personal card."
+     },
+     {
+      "title": "Use the entrance gate",
+      "desc": "At a library with a gate, tap your student or library card on the reader. If you forgot it, ask the circulation desk; use the intercom if the desk is not nearby."
+     },
+     {
+      "title": "Check out items and the current calendar",
+      "desc": "Take the items and your library card to the circulation desk. Check the current calendar for the library you plan to visit."
+     }
+    ]
+   },
+   "m7lib4": {
+    "text": "Standard loan limits and periods (special loans vary by library)"
+   },
+   "m7lib5": {
+    "headers": [
+     "Library / status",
+     "Loan limit",
+     "Loan period"
+    ],
+    "rows": [
+     [
+      "Central / SciTech / Medical",
+      "10 books and journals combined",
+      "Books: 2 weeks; journals: 1 week"
+     ],
+     [
+      "Design: undergraduate",
+      "10 books; 5 journals",
+      "Books: 15 days; journals: 8 days"
+     ],
+     [
+      "Design: graduate",
+      "20 books; 10 journals",
+      "Books: 30 days; journals: 8 days"
+     ],
+     [
+      "Chikushi",
+      "10 books; 5 journals",
+      "Books: 2 weeks; journals: 2 days"
+     ]
+    ]
+   },
+   "m7lib6": {
+    "text": "Renewals, returns and reservations"
+   },
+   "m7lib7": {
+    "items": [
+     {
+      "text": "Renew before the due date through My Page or at the desk. Normally, renewal is allowed once; items cannot be renewed if reserved by another user or if they are journals. Chikushi allows up to two renewals for books. The renewed period starts on the processing date."
+     },
+     {
+      "text": "Return items at the desk or use the book drop when the library is closed. Kyushu University holdings may be returned to a different Kyushu University library. If any item is overdue, you cannot borrow or renew; borrowing is suspended for the same number of days as the overdue period."
+     },
+     {
+      "text": "If a book is checked out, use the “Reserve / Request” button in the Kyushu University catalog or ask at the desk. Some items cannot be reserved, and availability may take time."
+     }
+    ]
+   },
+   "m7lib8": {
+    "text": "Study rooms and special access"
+   },
+   "m7lib9": {
+    "items": [
+     {
+      "text": "Check the current information from the library you plan to use for study-room reservation availability, method and conditions; contact that library if needed."
+     },
+     {
+      "text": "The Medical Library’s 24-hour unstaffed access is limited to students, faculty and healthcare professionals at the Hospital Campus and requires prior application. It is not available automatically to every medical student."
+     }
+    ]
+   },
+   "m7lib10": {
+    "items": [
+     {
+      "text": "Procedures for students and faculty",
+      "url": "https://www.lib.kyushu-u.ac.jp/en/services/members/procedures"
+     },
+     {
+      "text": "Borrowing, renewing, returning and reserving items",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/services/members/borrow"
+     },
+     {
+      "text": "Kyushu University Library Catalog",
+      "url": "https://catalog.lib.kyushu-u.ac.jp/opac_search/?lang=1"
+     },
+     {
+      "text": "Library directory, current calendars and contacts",
+      "url": "https://www.lib.kyushu-u.ac.jp/en/libraries"
+     },
+     {
+      "text": "Central Library: borrowing guide and special-loan details",
+      "url": "https://www.lib.kyushu-u.ac.jp/en/libraries/central/guides_members"
+     },
+     {
+      "text": "Science and Technology Library: borrowing guide and special-loan details",
+      "url": "https://www.lib.kyushu-u.ac.jp/en/libraries/scitech/guides_members"
+     },
+     {
+      "text": "Medical Library: borrowing guide and special-loan details",
+      "url": "https://www.lib.kyushu-u.ac.jp/en/libraries/medical/guides_members"
+     },
+     {
+      "text": "Design Library: borrowing guide and special-loan details",
+      "url": "https://www.lib.kyushu-u.ac.jp/en/libraries/design/guides_members-0"
+     },
+     {
+      "text": "Chikushi Library: borrowing guide and special-loan details",
+      "url": "https://www.lib.kyushu-u.ac.jp/en/libraries/chikushi/guides_members"
+     }
+    ]
    }
   },
   "ko": {
@@ -1620,7 +2156,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "계정과 각종 증명서"
    },
    "3b7366": {
-    "text": "SSO-KID 활성화에는 학교 메일 주소 외에는 사용할 수 없습니다. 증명서는 대학 공식 페이지에서 학적·수령 방법을 선택합니다. ku-cert는 대학원생 전용이 아닙니다. 이 글의 증명서 항목에서 조건을 확인하세요."
+    "text": "SSO-KID를 활성화할 때 비밀번호 재설정용으로 바로 확인할 수 있는 이메일 주소를 등록해야 합니다. 규슈대학교의 기본 이메일 주소(@m.kyushu-u.ac.jp, @s.kyushu-u.ac.jp)는 등록할 수 없으며 SMS도 사용할 수 없습니다. 증명서는 대학 공식 페이지에서 학적·수령 방법을 선택합니다. ku-cert는 대학원생 전용이 아닙니다. 이 글의 증명서 항목에서 조건을 확인하세요."
    },
    "5ed19b": {
     "items": [
@@ -1641,8 +2177,8 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://outlook.office.com/mail/"
      },
      {
-      "text": "SSO 비밀번호/계정(passchg)",
-      "url": "https://ci.iii.kyushu-u.ac.jp/m/"
+      "text": "SSO 계정·비밀번호 복구 안내",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/lost.html"
      }
     ]
    },
@@ -2401,6 +2937,274 @@ window.ARTICLES_BODY_I18N = {
       "text": "로그인·이메일·결제:06-6809-4327(24시간). 내용·작성·발송·최초 등록 승인: 소속 학생 창구. 공식 학부·학부 대학원 창구표 또는 학무 문의092-802-5939(평일8:30–17:15)를 이용하세요. 이 가이드에 신분증·비밀번호를 보내지 마세요."
      }
     ]
+   },
+   "m7card0": {
+    "text": "학생증 분실·파손·재발급"
+   },
+   "studentid1": {
+    "text": "적용 대상: 규슈대학교 학생. 분실하면 신속히 이용 정지를 신청하고, 재발급은 소속 학무 담당 창구에서 신청하세요. 접수 창구와 절차는 학부·대학원별로 다를 수 있습니다."
+   },
+   "studentid2": {
+    "items": [
+     {
+      "title": "분실 시 먼저 이용 정지",
+      "desc": "대학 공식 IC 카드 문제 안내에서 이용 정지를 신청하세요. 이는 카드 정지 절차이며 재발급 신청과는 별개입니다. 재발급 전에 찾으면 별도의 이용 재개 신청을 하며, 창구 처리 후 다음 영업일부터 다시 사용할 수 있습니다."
+     },
+     {
+      "title": "학적 구분에 따라 재발급 신청",
+      "desc": "찾지 못했거나 카드가 파손되면 소속 학무 담당 창구에서 신청하세요. 정규 과정 학생은 학생증 재발급 신청서를 사용합니다. 연구생 등 비정규 과정 학생은 개인 카드 대여 신청서에서 재발급을 선택하고 정면 사진을 첨부합니다."
+     },
+     {
+      "title": "현재 안내에 따라 납부하고 본인 수령",
+      "desc": "IC 카드팀 및 소속 학무 담당 창구의 현재 안내에 따라 납부하고 필요한 영수증을 제출하세요. 신청서가 IC 카드 업무실에 도착한 뒤 약 1주일입니다. 사용자가 신청서를 제출한 날부터 계산하거나 1주일 내 완료를 보장하는 뜻은 아닙니다. 본인이 카드를 수령하고 창구 안내에 따라 수령 확인/날인을 하세요."
+     }
+    ]
+   },
+   "studentid3": {
+    "headers": [
+     "항목",
+     "공식 안내"
+    ],
+    "rows": [
+     [
+      "재발급 수수료",
+      "현행 학생증 재발급 안내에는 2,000엔으로 기재되어 있습니다. 분실 및 사용자 책임으로 발생한 눈에 띄는 파손 등이 유상 사례입니다."
+     ],
+     [
+      "무료일 수 있는 경우",
+      "사용자 책임이 아닌 고장 등은 무료일 수 있습니다. 구체적인 원인에 따른 적용 여부는 IC 카드팀 또는 소속 창구에 확인하세요."
+     ],
+     [
+      "처리 기간·수령",
+      "신청서가 IC 카드 업무실에 도착한 뒤 약 1주일입니다. 본인이 수령하고 창구 안내에 따라 수령 확인/날인을 하세요. 신청서 제출일부터 일률적으로 계산하는 기간은 아닙니다."
+     ]
+    ]
+   },
+   "studentid4": {
+    "text": "농학부 소속은 2025-12부터 별도의 온라인 분실·재개 절차를 안내하지만 해당 부서에 한정됩니다. 그 외 학생은 소속 창구의 현재 안내를 따르세요."
+   },
+   "studentid5": {
+    "items": [
+     {
+      "text": "IC 카드 분실·이용 정지 안내",
+      "url": "https://web.card.kyushu-u.ac.jp/trouble/index.html"
+     },
+     {
+      "text": "학생증 재발급 절차",
+      "url": "https://web.card.kyushu-u.ac.jp/students/trouble.html"
+     },
+     {
+      "text": "IC 카드 유상 조건",
+      "url": "https://web.card.kyushu-u.ac.jp/warranty/index.html"
+     },
+     {
+      "text": "2026 학생 핸드북",
+      "url": "https://www.kyushu-u.ac.jp/f/64451/R8_guidebook_half.pdf"
+     },
+     {
+      "text": "농학부 소속 분실 절차",
+      "url": "https://www.agr.kyushu-u.ac.jp/gakusei/helpie_faq/q%EF%BC%9A%E5%AD%A6%E7%94%9F%E8%A8%BC%E3%82%92%E7%B4%9B%E5%A4%B1%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F%E3%81%8C%E3%81%A9%E3%81%86%E3%81%99%E3%82%8C%E3%81%B0%E3%82%88%E3%81%84%E3%81%A7%E3%81%99%E3%81%8B"
+     }
+    ]
+   },
+   "m7soft0": {
+    "text": "Office 소프트웨어와 떠나기 전 백업"
+   },
+   "software1": {
+    "text": "적용 대상: 규슈대학교 Microsoft 365 이용 자격이 있고 유효한 SSO-KID를 가진 구성원입니다. 이용 가능한 서비스는 계정 및 학적에 따라 다릅니다. 처음 이용할 때 다중 인증(MFA) 설정이 필요합니다."
+   },
+   "software2": {
+    "text": "Office 및 Microsoft 365"
+   },
+   "software3": {
+    "items": [
+     {
+      "title": "이용 자격과 MFA 확인",
+      "desc": "대학 Microsoft 365 포털에 로그인하기 전에 SSO-KID가 활성화되어 있는지 확인하고 공식 안내에 따라 MFA를 설정하세요. 대학 안내에 따르면 SSO-KID가 “a”로 시작하는 계정은 일반적으로 Microsoft 365 Apps를 사용할 수 없지만 예외도 기재되어 있습니다. 계정별 자격을 확인하고 모든 구성원이 이용 가능하다고 단정하지 마세요."
+     },
+     {
+      "title": "기기별 Office 라이선스 확인",
+      "desc": "자격이 있는 학생·교직원은 대학 안내에 따라 개인 컴퓨터에서 Microsoft 365 Apps를 이용할 수 있습니다. 대학 기기와 개인 컴퓨터의 라이선스 방식은 다릅니다. “대학에서 제공한 기기”라는 이유만으로 라이선스를 추정하지 말고 기기 관리자와 공식 안내를 확인하세요."
+     }
+    ]
+   },
+   "software4": {
+    "text": "규슈대학교 내부 진학 시 공식 안내에 따르면 SSO-KID와 비밀번호는 이어서 사용합니다. Microsoft 365 이용 자격은 계정과 학적 상태에 따라 달라집니다. 졸업·퇴직 등에 따른 중지 규칙은 본인의 이용 자격이 실제로 종료된 경우에 적용됩니다."
+   },
+   "software5": {
+    "text": "졸업·퇴직·학적 종료 전 백업"
+   },
+   "software6": {
+    "items": [
+     {
+      "text": "학교를 떠나기 전에 보관할 개인 파일을 미리 백업하세요."
+     },
+     {
+      "text": "이용 자격이 실제로 종료된 뒤 공식 삭제 유예 기간은 Office/Teams 즉시, SharePoint/OneDrive 100일입니다. 100일은 데이터 삭제 기간이며 로그인이나 파일을 되찾을 수 있는 기간이 아닙니다."
+     }
+    ]
+   },
+   "software7": {
+    "items": [
+     {
+      "text": "Microsoft 365 서비스 안내",
+      "url": "https://ci.iii.kyushu-u.ac.jp/365/"
+     },
+     {
+      "text": "Office 앱 설치 안내",
+      "url": "https://ci.iii.kyushu-u.ac.jp/howto/office_apps/"
+     },
+     {
+      "text": "Microsoft 365 초기 설정",
+      "url": "https://ci.iii.kyushu-u.ac.jp/1st/index_new/"
+     },
+     {
+      "text": "OneDrive 안내",
+      "url": "https://ci.iii.kyushu-u.ac.jp/365/onedrive/"
+     },
+     {
+      "text": "Microsoft 365 FAQ",
+      "url": "https://ci.iii.kyushu-u.ac.jp/365/q_a/"
+     },
+     {
+      "text": "SSO 서비스와 자격 종료 후 처리",
+      "url": "https://web.sso.kyushu-u.ac.jp/ssokid/services.html"
+     },
+     {
+      "text": "Microsoft 365 이용 규칙",
+      "url": "https://ci.iii.kyushu-u.ac.jp/365/pdf/essential.pdf"
+     },
+     {
+      "text": "학생 SSO-KID와 내부 진학",
+      "url": "https://web.sso.kyushu-u.ac.jp/ssokid/students.html"
+     }
+    ]
+   },
+   "m7lib0": {
+    "text": "도서관 첫 이용: 입관·대출/반납·학습실"
+   },
+   "m7lib1": {
+    "text": "확인일: 2026-10-07. 중앙·이공·의학·예술공학·치쿠시 도서관 5곳을 대상으로 합니다. 이용 자격과 서비스는 도서관마다 다릅니다. 규슈대 도서관 이용증은 각 도서관에서 사용할 수 있지만, 세부 규칙은 동일하지 않습니다. 실제 반납기한은 My Page／대출 기록에서 확인하세요."
+   },
+   "m7lib2": {
+    "text": "첫 입관과 대출"
+   },
+   "m7lib3": {
+    "items": [
+     {
+      "title": "학생증 지참",
+      "desc": "규슈대 학생은 학생증을 도서관 이용증으로 사용할 수 있습니다. 비정규 학생 중 학생증이 IC 카드가 아닌 경우 소속 학생 담당 부서에 IC 개인카드 발급을 문의하세요."
+     },
+     {
+      "title": "입구 게이트 통과",
+      "desc": "게이트가 있는 도서관에서는 학생증 또는 도서관 이용증을 판독기에 대세요. 잊고 왔다면 대출대에 문의하고, 대출대가 멀면 인터폰으로 직원을 부르세요."
+     },
+     {
+      "title": "대출 처리와 당일 일정 확인",
+      "desc": "자료와 도서관 이용증을 대출대에 가져가세요. 방문할 도서관의 최신 개관 일정을 확인하세요."
+     }
+    ]
+   },
+   "m7lib4": {
+    "text": "일반 대출 권수와 기간(도서관별 특별 대출은 별도)"
+   },
+   "m7lib5": {
+    "headers": [
+     "도서관／구분",
+     "대출 한도",
+     "대출 기간"
+    ],
+    "rows": [
+     [
+      "중앙／이공／의학",
+      "도서·잡지 합계 10권",
+      "도서 2주, 잡지 1주"
+     ],
+     [
+      "예술공학: 학부생",
+      "도서 10권, 잡지 5권",
+      "도서 15일, 잡지 8일"
+     ],
+     [
+      "예술공학: 대학원생",
+      "도서 20권, 잡지 10권",
+      "도서 30일, 잡지 8일"
+     ],
+     [
+      "치쿠시",
+      "도서 10권, 잡지 5권",
+      "도서 2주, 잡지 2일"
+     ]
+    ]
+   },
+   "m7lib6": {
+    "text": "연장·반납·예약"
+   },
+   "m7lib7": {
+    "items": [
+     {
+      "text": "반납기한 전에 My Page 또는 대출대에서 연장하세요. 일반적으로 1회만 가능하며 다른 이용자의 예약이 있거나 잡지인 경우 연장할 수 없습니다. 치쿠시 도서관은 도서를 최대 2회 연장할 수 있습니다. 연장 기간은 처리일부터 계산합니다."
+     },
+     {
+      "text": "대출대에 반납하고, 폐관 중에는 반납함을 이용하세요. 규슈대 소장 자료는 대출한 곳이 아닌 다른 규슈대 도서관에도 반납할 수 있습니다. 연체 자료가 하나라도 있으면 새 대출과 연장이 불가하며 연체 일수만큼 대출이 정지됩니다."
+     },
+     {
+      "text": "다른 이용자가 대출한 도서는 규슈대 컬렉션의 “예약·신청” 버튼이나 대출대에서 신청할 수 있습니다. 예약 대상이 아닌 자료가 있고 이용 가능해질 때까지 시간이 걸릴 수 있습니다."
+     }
+    ]
+   },
+   "m7lib8": {
+    "text": "학습실과 특별 이용"
+   },
+   "m7lib9": {
+    "items": [
+     {
+      "text": "학습실 예약 가능 여부, 방법과 이용 조건은 이용하려는 도서관의 최신 안내를 확인하고, 필요하면 해당 도서관에 문의하세요."
+     },
+     {
+      "text": "의학도서관의 24시간 무인 개관은 병원 캠퍼스의 학생·교직원·의료 종사자만 이용할 수 있고 사전 신청이 필요합니다. 의학 관련 학생 모두에게 자동으로 적용되는 제도가 아닙니다."
+     }
+    ]
+   },
+   "m7lib10": {
+    "items": [
+     {
+      "text": "학생·교직원 이용 절차",
+      "url": "https://www.lib.kyushu-u.ac.jp/en/services/members/procedures"
+     },
+     {
+      "text": "대출·연장·반납·예약 규칙",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/services/members/borrow"
+     },
+     {
+      "text": "규슈대 도서관 검색",
+      "url": "https://catalog.lib.kyushu-u.ac.jp/opac_search/?lang=1"
+     },
+     {
+      "text": "도서관 목록·최신 일정·연락처",
+      "url": "https://www.lib.kyushu-u.ac.jp/en/libraries"
+     },
+     {
+      "text": "중앙도서관: 대출 및 특별 대출 안내",
+      "url": "https://www.lib.kyushu-u.ac.jp/en/libraries/central/guides_members"
+     },
+     {
+      "text": "이공도서관: 대출 및 특별 대출 안내",
+      "url": "https://www.lib.kyushu-u.ac.jp/en/libraries/scitech/guides_members"
+     },
+     {
+      "text": "의학도서관: 대출 및 특별 대출 안내",
+      "url": "https://www.lib.kyushu-u.ac.jp/en/libraries/medical/guides_members"
+     },
+     {
+      "text": "예술공학도서관: 대출 및 특별 대출 안내",
+      "url": "https://www.lib.kyushu-u.ac.jp/en/libraries/design/guides_members-0"
+     },
+     {
+      "text": "치쿠시도서관: 대출 및 특별 대출 안내",
+      "url": "https://www.lib.kyushu-u.ac.jp/en/libraries/chikushi/guides_members"
+     }
+    ]
    }
   },
   "es": {
@@ -2417,7 +3221,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Cuentas y certificados"
    },
    "3b7366": {
-    "text": "La activación de SSO-KID no se puede hacer con un correo distinto al de la universidad. Elige situación y entrega desde la página oficial de certificados. ku-cert no es solo para posgrado. Consulta la sección de certificados de este artículo."
+    "text": "Al activar el SSO-KID, registre una dirección de correo a la que pueda acceder de inmediato para recuperar la contraseña. No se admiten las direcciones institucionales de Kyushu University (@m.kyushu-u.ac.jp y @s.kyushu-u.ac.jp) ni los SMS. Elige situación y entrega desde la página oficial de certificados. ku-cert no es solo para posgrado. Consulta la sección de certificados de este artículo."
    },
    "5ed19b": {
     "items": [
@@ -2438,8 +3242,8 @@ window.ARTICLES_BODY_I18N = {
       "url": "https://outlook.office.com/mail/"
      },
      {
-      "text": "Contraseña/cuenta SSO (passchg)",
-      "url": "https://ci.iii.kyushu-u.ac.jp/m/"
+      "text": "Recuperar cuenta y contraseña SSO",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/lost.html"
      }
     ]
    },
@@ -3196,6 +4000,274 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "text": "Problemas de acceso, correo o pago:06-6809-4327(24 horas). Contenido, preparación, envío y aprobación inicial: tu sección de estudiantes en la lista oficial. Consulta académica general:092-802-5939(laborables8:30–17:15). No envíes documentos de identidad ni contraseñas a esta guía."
+     }
+    ]
+   },
+   "m7card0": {
+    "text": "Pérdida, daño y reemisión de la tarjeta de estudiante"
+   },
+   "studentid1": {
+    "text": "Ámbito: estudiantes de Kyushu University. Si pierde la tarjeta, solicite su suspensión cuanto antes; la reemisión se tramita en la oficina académica de su departamento. La oficina y el procedimiento pueden variar según la facultad o posgrado."
+   },
+   "studentid2": {
+    "items": [
+     {
+      "title": "Suspenda primero una tarjeta perdida",
+      "desc": "Presente la solicitud de suspensión desde la página oficial de problemas con tarjetas IC de la universidad. Es un trámite para desactivar la tarjeta, distinto de la reemisión. Si la encuentra antes de la reemisión, presente por separado el aviso de reactivación; el uso se reanuda el siguiente día laborable después de que la oficina lo tramite."
+     },
+     {
+      "title": "Solicite según su situación académica",
+      "desc": "Si no la encuentra o está dañada, solicite la reemisión en su oficina académica. El alumnado de programas regulares usa la solicitud de reemisión de tarjeta. El alumnado no regular, como investigación, usa la solicitud de préstamo de tarjeta personal, elige reemisión y adjunta una foto frontal."
+     },
+     {
+      "title": "Pague según las instrucciones vigentes y recoja en persona",
+      "desc": "Pague y presente los recibos necesarios según las instrucciones vigentes del equipo IC y de su oficina académica. El plazo es de aproximadamente 1 semana desde que la solicitud llega a la oficina de tarjetas IC; no se cuenta ni se garantiza desde el día en que el estudiante la entrega. El titular debe recoger la tarjeta y completar la confirmación de recepción/sello que indique la oficina."
+     }
+    ]
+   },
+   "studentid3": {
+    "headers": [
+     "Concepto",
+     "Información oficial"
+    ],
+    "rows": [
+     [
+      "Tasa de reemisión",
+      "La página vigente de reemisión indica 2,000 yenes. La pérdida y los daños visibles causados por el titular son ejemplos de casos de pago."
+     ],
+     [
+      "Posibles casos gratuitos",
+      "Las averías no causadas por el titular pueden ser gratuitas. Consulte al equipo IC o a su oficina académica según la causa concreta."
+     ],
+     [
+      "Plazo y recogida",
+      "Aproximadamente 1 semana desde que la solicitud llega a la oficina de tarjetas IC. El titular debe recogerla y completar la confirmación/sello que indique la oficina; no es un plazo general desde la fecha en que se entrega la solicitud."
+     ]
+    ]
+   },
+   "studentid4": {
+    "text": "La Facultad de Agricultura publica un procedimiento en línea separado para pérdida/reactivación desde 2025-12; solo se aplica a esa facultad. Los demás estudiantes deben seguir las instrucciones vigentes de su oficina académica."
+   },
+   "studentid5": {
+    "items": [
+     {
+      "text": "Pérdida y suspensión de la tarjeta IC",
+      "url": "https://web.card.kyushu-u.ac.jp/trouble/index.html"
+     },
+     {
+      "text": "Procedimiento de reemisión",
+      "url": "https://web.card.kyushu-u.ac.jp/students/trouble.html"
+     },
+     {
+      "text": "Condiciones de cobro y garantía",
+      "url": "https://web.card.kyushu-u.ac.jp/warranty/index.html"
+     },
+     {
+      "text": "Manual del estudiante 2026",
+      "url": "https://www.kyushu-u.ac.jp/f/64451/R8_guidebook_half.pdf"
+     },
+     {
+      "text": "Procedimiento específico de Agricultura",
+      "url": "https://www.agr.kyushu-u.ac.jp/gakusei/helpie_faq/q%EF%BC%9A%E5%AD%A6%E7%94%9F%E8%A8%BC%E3%82%92%E7%B4%9B%E5%A4%B1%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F%E3%81%8C%E3%81%A9%E3%81%86%E3%81%99%E3%82%8C%E3%81%B0%E3%82%88%E3%81%84%E3%81%A7%E3%81%99%E3%81%8B"
+     }
+    ]
+   },
+   "m7soft0": {
+    "text": "Office y copias de seguridad antes de salir"
+   },
+   "software1": {
+    "text": "Ámbito: miembros de Kyushu University con derecho a Microsoft 365 y un SSO-KID activo. Los servicios disponibles varían según la cuenta y la situación académica. El primer uso requiere configurar la autenticación multifactor (MFA)."
+   },
+   "software2": {
+    "text": "Office y Microsoft 365"
+   },
+   "software3": {
+    "items": [
+     {
+      "title": "Compruebe el derecho de uso y configure MFA",
+      "desc": "Antes de entrar en el portal universitario de Microsoft 365, confirme que el SSO-KID esté activo y configure MFA siguiendo las instrucciones oficiales. La universidad indica que las cuentas cuyo SSO-KID empieza por “a” normalmente no pueden usar Microsoft 365 Apps, aunque la página contempla excepciones. Compruebe el derecho de su cuenta; no lo prometa a todos."
+     },
+     {
+      "title": "Confirme la licencia de Office para cada dispositivo",
+      "desc": "Los estudiantes y el personal elegibles pueden usar Microsoft 365 Apps en un ordenador personal según la guía universitaria. Las licencias difieren entre dispositivos personales y universitarios; confirme con el responsable del dispositivo y las instrucciones oficiales, sin deducir el tipo de licencia solo porque el equipo sea “proporcionado por la universidad”."
+     }
+    ]
+   },
+   "software4": {
+    "text": "En una progresión interna dentro de Kyushu University, la página oficial indica que se conserva el SSO-KID y la contraseña. El derecho a Microsoft 365 sigue dependiendo de la cuenta y la situación académica. Las reglas de fin de cuenta/servicio solo se aplican cuando termina realmente la elegibilidad de la persona."
+   },
+   "software5": {
+    "text": "Copias antes de graduarse, jubilarse o dejar la universidad"
+   },
+   "software6": {
+    "items": [
+     {
+      "text": "Antes de dejar la universidad, haga una copia de seguridad de los archivos personales que quiera conservar."
+     },
+     {
+      "text": "Cuando termina realmente la elegibilidad, el plazo oficial de eliminación es inmediato para Office/Teams y de 100 días para SharePoint/OneDrive. Los 100 días son un plazo de eliminación de datos, no un periodo garantizado para iniciar sesión o recuperarlos."
+     }
+    ]
+   },
+   "software7": {
+    "items": [
+     {
+      "text": "Servicio Microsoft 365",
+      "url": "https://ci.iii.kyushu-u.ac.jp/365/"
+     },
+     {
+      "text": "Instalación de aplicaciones Office",
+      "url": "https://ci.iii.kyushu-u.ac.jp/howto/office_apps/"
+     },
+     {
+      "text": "Configuración inicial de Microsoft 365",
+      "url": "https://ci.iii.kyushu-u.ac.jp/1st/index_new/"
+     },
+     {
+      "text": "Guía de OneDrive",
+      "url": "https://ci.iii.kyushu-u.ac.jp/365/onedrive/"
+     },
+     {
+      "text": "FAQ de Microsoft 365",
+      "url": "https://ci.iii.kyushu-u.ac.jp/365/q_a/"
+     },
+     {
+      "text": "Servicios SSO al terminar la elegibilidad",
+      "url": "https://web.sso.kyushu-u.ac.jp/ssokid/services.html"
+     },
+     {
+      "text": "Reglas de uso de Microsoft 365",
+      "url": "https://ci.iii.kyushu-u.ac.jp/365/pdf/essential.pdf"
+     },
+     {
+      "text": "SSO-KID del alumnado y progresión interna",
+      "url": "https://web.sso.kyushu-u.ac.jp/ssokid/students.html"
+     }
+    ]
+   },
+   "m7lib0": {
+    "text": "Primera visita a la biblioteca: acceso, préstamo y espacios de estudio"
+   },
+   "m7lib1": {
+    "text": "Verificado el 2026-10-07. Esta guía cubre las bibliotecas Central, de Ciencia y Tecnología, Médica, de Diseño y Chikushi. Los requisitos y servicios varían según la biblioteca. La tarjeta bibliotecaria de Kyushu University se puede usar en sus bibliotecas, pero las reglas locales no son idénticas. Consulta My Page/el registro de préstamo para ver la fecha de devolución efectiva."
+   },
+   "m7lib2": {
+    "text": "Primera entrada y préstamo"
+   },
+   "m7lib3": {
+    "items": [
+     {
+      "title": "Lleva tu tarjeta de estudiante",
+      "desc": "Para estudiantes de Kyushu University, la tarjeta de estudiante sirve como tarjeta bibliotecaria. Si eres estudiante no regular y tu tarjeta no es IC, consulta con la oficina estudiantil de tu facultad sobre la tarjeta personal IC."
+     },
+     {
+      "title": "Pasa por el control de entrada",
+      "desc": "En las bibliotecas con puerta de acceso, acerca tu tarjeta de estudiante o bibliotecaria al lector. Si la olvidaste, pregunta en el mostrador; usa el interfono si está lejos."
+     },
+     {
+      "title": "Tramita el préstamo y consulta el calendario actual",
+      "desc": "Lleva los materiales y tu tarjeta bibliotecaria al mostrador. Consulta el calendario vigente de la biblioteca que visitarás."
+     }
+    ]
+   },
+   "m7lib4": {
+    "text": "Límites y plazos generales (cada biblioteca puede ofrecer préstamos especiales)"
+   },
+   "m7lib5": {
+    "headers": [
+     "Biblioteca / condición",
+     "Límite",
+     "Plazo"
+    ],
+    "rows": [
+     [
+      "Central / Ciencia y Tecnología / Médica",
+      "10 libros y revistas en total",
+      "Libros: 2 semanas; revistas: 1 semana"
+     ],
+     [
+      "Diseño: grado",
+      "10 libros; 5 revistas",
+      "Libros: 15 días; revistas: 8 días"
+     ],
+     [
+      "Diseño: posgrado",
+      "20 libros; 10 revistas",
+      "Libros: 30 días; revistas: 8 días"
+     ],
+     [
+      "Chikushi",
+      "10 libros; 5 revistas",
+      "Libros: 2 semanas; revistas: 2 días"
+     ]
+    ]
+   },
+   "m7lib6": {
+    "text": "Renovaciones, devoluciones y reservas"
+   },
+   "m7lib7": {
+    "items": [
+     {
+      "text": "Renueva antes del vencimiento en My Page o en el mostrador. Normalmente se permite una renovación; no se puede renovar si otra persona reservó el material o si es una revista. Chikushi permite hasta dos renovaciones de libros. El nuevo plazo cuenta desde el día de la gestión."
+     },
+     {
+      "text": "Devuelve en el mostrador o usa el buzón cuando la biblioteca esté cerrada. Los materiales de Kyushu University se pueden devolver en otra biblioteca de la universidad. Si tienes algún material vencido, no puedes pedir ni renovar préstamos; la suspensión dura tantos días como el retraso."
+     },
+     {
+      "text": "Si otra persona tiene prestado un libro, usa el botón «Reservar / Solicitar» del catálogo de Kyushu University o pregunta en el mostrador. Algunos materiales no se pueden reservar y la disponibilidad puede tardar."
+     }
+    ]
+   },
+   "m7lib8": {
+    "text": "Salas de estudio y acceso especial"
+   },
+   "m7lib9": {
+    "items": [
+     {
+      "text": "Consulta la información vigente de la biblioteca que quieres utilizar para conocer si se pueden reservar salas de estudio y cuáles son las condiciones; pregunta a esa biblioteca si hace falta."
+     },
+     {
+      "text": "El acceso sin personal las 24 horas de la Biblioteca Médica se limita a estudiantes, docentes y profesionales sanitarios del Campus Hospitalario, y requiere solicitud previa. No se aplica automáticamente a todo estudiante de medicina."
+     }
+    ]
+   },
+   "m7lib10": {
+    "items": [
+     {
+      "text": "Procedimientos para estudiantes y personal",
+      "url": "https://www.lib.kyushu-u.ac.jp/en/services/members/procedures"
+     },
+     {
+      "text": "Préstamo, renovación, devolución y reservas",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/services/members/borrow"
+     },
+     {
+      "text": "Catálogo de bibliotecas de Kyushu University",
+      "url": "https://catalog.lib.kyushu-u.ac.jp/opac_search/?lang=1"
+     },
+     {
+      "text": "Bibliotecas, calendarios y contactos actuales",
+      "url": "https://www.lib.kyushu-u.ac.jp/en/libraries"
+     },
+     {
+      "text": "Biblioteca Central: préstamos y préstamos especiales",
+      "url": "https://www.lib.kyushu-u.ac.jp/en/libraries/central/guides_members"
+     },
+     {
+      "text": "Biblioteca de Ciencia y Tecnología: préstamos y especiales",
+      "url": "https://www.lib.kyushu-u.ac.jp/en/libraries/scitech/guides_members"
+     },
+     {
+      "text": "Biblioteca Médica: préstamos y préstamos especiales",
+      "url": "https://www.lib.kyushu-u.ac.jp/en/libraries/medical/guides_members"
+     },
+     {
+      "text": "Biblioteca de Diseño: préstamos y préstamos especiales",
+      "url": "https://www.lib.kyushu-u.ac.jp/en/libraries/design/guides_members-0"
+     },
+     {
+      "text": "Biblioteca Chikushi: préstamos y préstamos especiales",
+      "url": "https://www.lib.kyushu-u.ac.jp/en/libraries/chikushi/guides_members"
      }
     ]
    }
@@ -8034,6 +9106,82 @@ window.ARTICLES_BODY_I18N = {
    },
    "3218b7": {
     "text": "本記事の一部は『新伊都国風土記』（作者：Hato_Tsubame、CantonSimon）をもとに、作者の許可を得て収録したものです。文中の料金・バスの本数・手続きは時間とともに変わるため、重要な事項は各公式サイトをご確認ください。"
+   },
+   "m7dorm0": {
+    "text": "寮の鍵・修理：住居ごとに連絡"
+   },
+   "m7dormIntro": {
+    "text": "この案内は伊都キャンパスの学生寄宿舎 D1、D2、D3、伊都協奏館のみを対象とします。SETTLE と他地区の宿舎は管理・夜間対応が異なるため、各自の入居資料に記載された連絡先を確認してください。"
+   },
+   "m7dorm1": {
+    "text": "鍵の紛失・締め出し"
+   },
+   "m7dorm2": {
+    "items": [
+     {
+      "text": "鍵またはカードを紛失した場合：九州大学の公開規則では、直ちに当該棟の管理人へ届け出るよう案内されています。再発行の手続きや費用は、本人の住居の最新入居資料で確認してください。"
+     },
+     {
+      "text": "締め出し・夜間の相談：まず自分の住居の管理人室へ連絡してください。全宿舎共通の解錠手順や夜間電話は公開資料にないため、本人の入居資料で現在の連絡先を確認してください。他の宿舎の手順を流用しないでください。"
+     }
+    ]
+   },
+   "m7dorm3": {
+    "text": "日常の修理とキャンパスの緊急事態"
+   },
+   "m7dorm4": {
+    "items": [
+     {
+      "text": "漏水や設備の故障など日常の不具合：住んでいる棟の管理人室に連絡し、部屋番号と状況を伝えて修理方法を確認してください。"
+     },
+     {
+      "text": "伊都キャンパスで火災、救急、犯罪など人の安全に関わる緊急事態が起きた場合：まず安全を確保し、119（消防・救急）または110（警察）へ通報してから、伊都キャンパス警務員室 092-802-2305 に連絡してください。この電話はキャンパスの緊急事態用で、日常の寮修理窓口ではありません。"
+     }
+    ]
+   },
+   "m7dorm5": {
+    "headers": [
+     "伊都学生寄宿舎",
+     "管理人室電話"
+    ],
+    "rows": [
+     [
+      "D1",
+      "092-807-7188"
+     ],
+     [
+      "D2",
+      "092-806-6841"
+     ],
+     [
+      "D3",
+      "092-807-7072"
+     ],
+     [
+      "伊都協奏館",
+      "092-806-5779"
+     ]
+    ]
+   },
+   "m7dormLinks": {
+    "items": [
+     {
+      "text": "学生寄宿舎利用心得",
+      "url": "https://dormitory.student.kyushu-u.ac.jp/_userdata/kokoroe_J.pdf"
+     },
+     {
+      "text": "宿舎情報・管理人室の電話番号",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/housing/dormitory"
+     },
+     {
+      "text": "留学生向け宿舎連絡資料",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2025/04/JP_USEFUL-INFORMATION-1.pdf"
+     },
+     {
+      "text": "学内の緊急連絡先",
+      "url": "https://chc.kyushu-u.ac.jp/emergency/"
+     }
+    ]
    }
   },
   "en": {
@@ -8610,6 +9758,82 @@ window.ARTICLES_BODY_I18N = {
    },
    "3218b7": {
     "text": "Parts of this article are compiled from《新伊都国風土記》(authors: Hato_Tsubame and CantonSimon), included with the authors' permission. Prices, schedules and procedures in the text change over time; for important matters, refer to the respective official websites."
+   },
+   "m7dorm0": {
+    "text": "Dorm keys and repairs: contact your residence"
+   },
+   "m7dormIntro": {
+    "text": "This section covers only Ito Campus student residences D1, D2, D3, and Ito Kyosokan. SETTLE and residences on other campuses have separate management and after-hours arrangements; use the contact details in your own move-in materials."
+   },
+   "m7dorm1": {
+    "text": "Lost keys or being locked out"
+   },
+   "m7dorm2": {
+    "items": [
+     {
+      "text": "Lost key or access card: Kyushu University’s published dormitory rules say to report the loss to your building manager immediately. Confirm any replacement steps or charges in the current move-in information for your residence."
+     },
+     {
+      "text": "Locked out or need help at night: contact the manager’s office for your residence first. Public materials do not give one unlocking procedure or after-hours phone number for every residence, so check the current contact details in your own move-in materials. Do not assume another residence follows the same procedure."
+     }
+    ]
+   },
+   "m7dorm3": {
+    "text": "Routine repairs and campus safety emergencies"
+   },
+   "m7dorm4": {
+    "items": [
+     {
+      "text": "For routine problems such as leaks or damaged equipment, contact your residence manager’s office to confirm how to request a repair, and describe your room and the problem."
+     },
+     {
+      "text": "For a fire, medical emergency, crime, or other immediate safety incident on Ito Campus, get to safety, call 119 (fire/ambulance) or 110 (police), then contact the Ito Campus security office at 092-802-2305. This number is for campus emergencies, not routine dorm repairs."
+     }
+    ]
+   },
+   "m7dorm5": {
+    "headers": [
+     "Ito student residence",
+     "Manager’s office"
+    ],
+    "rows": [
+     [
+      "D1",
+      "092-807-7188"
+     ],
+     [
+      "D2",
+      "092-806-6841"
+     ],
+     [
+      "D3",
+      "092-807-7072"
+     ],
+     [
+      "Ito Kyosokan",
+      "092-806-5779"
+     ]
+    ]
+   },
+   "m7dormLinks": {
+    "items": [
+     {
+      "text": "Student dormitory rules",
+      "url": "https://dormitory.student.kyushu-u.ac.jp/_userdata/kokoroe_J.pdf"
+     },
+     {
+      "text": "Dormitory information and manager contacts",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/housing/dormitory"
+     },
+     {
+      "text": "International student housing contacts",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2025/04/JP_USEFUL-INFORMATION-1.pdf"
+     },
+     {
+      "text": "Campus emergency contacts",
+      "url": "https://chc.kyushu-u.ac.jp/emergency/"
+     }
+    ]
    }
   },
   "ko": {
@@ -9186,6 +10410,82 @@ window.ARTICLES_BODY_I18N = {
    },
    "3218b7": {
     "text": "이 문서의 일부 내용은 「新伊都国風土記」(저자 Hato_Tsubame, CantonSimon)를 정리한 것이며 저자의 허가를 받아 수록했습니다. 본문의 가격, 배차, 절차는 모두 시간에 따라 변할 수 있으므로 중요한 사항은 각 공식 홈페이지를 기준으로 하세요."
+   },
+   "m7dorm0": {
+    "text": "기숙사 열쇠·수리: 거주지별 연락"
+   },
+   "m7dormIntro": {
+    "text": "이 안내는 이토 캠퍼스 학생 기숙사 D1, D2, D3, 이토 교소칸에만 적용됩니다. SETTLE 및 다른 캠퍼스 기숙사는 관리와 야간 대응이 다르므로 본인의 입주 안내에 있는 연락처를 확인하세요."
+   },
+   "m7dorm1": {
+    "text": "열쇠 분실 또는 문이 잠긴 경우"
+   },
+   "m7dorm2": {
+    "items": [
+     {
+      "text": "열쇠나 출입 카드를 분실한 경우: 규슈대학의 공개 기숙사 규정은 즉시 해당 건물 관리인에게 알리도록 안내합니다. 재발급 절차와 비용은 본인 기숙사의 최신 입주 안내에서 확인하세요."
+     },
+     {
+      "text": "문이 잠겨 들어갈 수 없거나 야간에 도움이 필요한 경우: 먼저 본인 기숙사의 관리실에 연락하세요. 공개 자료에는 모든 기숙사에 공통으로 적용되는 문 열기 절차나 야간 전화번호가 없습니다. 본인의 최신 입주 안내에서 연락처를 확인하고 다른 기숙사의 절차를 적용하지 마세요."
+     }
+    ]
+   },
+   "m7dorm3": {
+    "text": "일상 수리와 캠퍼스 안전 긴급상황"
+   },
+   "m7dorm4": {
+    "items": [
+     {
+      "text": "누수나 설비 고장 등 일상적인 문제는 해당 기숙사 관리실에 연락해 수리 신청 방법을 확인하고 방 번호와 상황을 설명하세요."
+     },
+     {
+      "text": "이토 캠퍼스에서 화재, 응급환자, 범죄 등 즉각적인 안전 문제가 발생하면 먼저 안전을 확보하고 119(소방·구급) 또는 110(경찰)에 신고한 뒤 이토 캠퍼스 경무원실 092-802-2305에 연락하세요. 이 번호는 캠퍼스 긴급상황용이며 일상적인 기숙사 수리 창구가 아닙니다."
+     }
+    ]
+   },
+   "m7dorm5": {
+    "headers": [
+     "이토 학생 기숙사",
+     "관리실 전화"
+    ],
+    "rows": [
+     [
+      "D1",
+      "092-807-7188"
+     ],
+     [
+      "D2",
+      "092-806-6841"
+     ],
+     [
+      "D3",
+      "092-807-7072"
+     ],
+     [
+      "이토 교소칸",
+      "092-806-5779"
+     ]
+    ]
+   },
+   "m7dormLinks": {
+    "items": [
+     {
+      "text": "학생 기숙사 이용 규정",
+      "url": "https://dormitory.student.kyushu-u.ac.jp/_userdata/kokoroe_J.pdf"
+     },
+     {
+      "text": "기숙사 정보 및 관리실 전화번호",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/housing/dormitory"
+     },
+     {
+      "text": "유학생 기숙사 연락 안내",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2025/04/JP_USEFUL-INFORMATION-1.pdf"
+     },
+     {
+      "text": "교내 긴급 연락처",
+      "url": "https://chc.kyushu-u.ac.jp/emergency/"
+     }
+    ]
    }
   },
   "es": {
@@ -9762,6 +11062,82 @@ window.ARTICLES_BODY_I18N = {
    },
    "3218b7": {
     "text": "Parte del contenido de esta página procede de《新伊都国風土記》(autores: Hato_Tsubame y CantonSimon), recopilado con autorización de los autores. Los precios, las frecuencias y los trámites indicados cambian con el tiempo; para los asuntos importantes, consulta las páginas oficiales correspondientes."
+   },
+   "m7dorm0": {
+    "text": "Llaves y reparaciones: contacta con tu residencia"
+   },
+   "m7dormIntro": {
+    "text": "Esta sección cubre solo las residencias estudiantiles D1, D2, D3 e Ito Kyosokan del campus de Ito. SETTLE y las residencias de otros campus tienen una gestión y atención nocturna distintas; usa los contactos de tus documentos de entrada."
+   },
+   "m7dorm1": {
+    "text": "Pérdida de llaves o bloqueo"
+   },
+   "m7dorm2": {
+    "items": [
+     {
+      "text": "Si pierdes la llave o la tarjeta de acceso: las normas públicas de las residencias de Kyushu University indican que debes avisar inmediatamente al administrador del edificio. Confirma el procedimiento de reposición y cualquier coste en la información de entrada vigente de tu residencia."
+     },
+     {
+      "text": "Si te quedas fuera o necesitas ayuda de noche: contacta primero con la oficina de administración de tu residencia. La información pública no establece un procedimiento de apertura ni un teléfono nocturno común a todas las residencias; consulta los datos vigentes en tus documentos de entrada y no apliques el procedimiento de otra residencia."
+     }
+    ]
+   },
+   "m7dorm3": {
+    "text": "Reparaciones habituales y emergencias de seguridad"
+   },
+   "m7dorm4": {
+    "items": [
+     {
+      "text": "Para problemas habituales, como fugas o equipos averiados, contacta con la oficina de administración de tu residencia para confirmar cómo solicitar la reparación e indica la habitación y el problema."
+     },
+     {
+      "text": "Ante un incendio, una urgencia médica, un delito u otro peligro inmediato en el campus de Ito, ponte a salvo, llama al 119 (bomberos/ambulancia) o al 110 (policía) y después contacta con la oficina de seguridad del campus de Ito: 092-802-2305. Este teléfono es para emergencias del campus, no para reparaciones habituales de la residencia."
+     }
+    ]
+   },
+   "m7dorm5": {
+    "headers": [
+     "Residencia estudiantil de Ito",
+     "Oficina de administración"
+    ],
+    "rows": [
+     [
+      "D1",
+      "092-807-7188"
+     ],
+     [
+      "D2",
+      "092-806-6841"
+     ],
+     [
+      "D3",
+      "092-807-7072"
+     ],
+     [
+      "Ito Kyosokan",
+      "092-806-5779"
+     ]
+    ]
+   },
+   "m7dormLinks": {
+    "items": [
+     {
+      "text": "Normas de las residencias estudiantiles",
+      "url": "https://dormitory.student.kyushu-u.ac.jp/_userdata/kokoroe_J.pdf"
+     },
+     {
+      "text": "Residencias y teléfonos de administración",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/housing/dormitory"
+     },
+     {
+      "text": "Contactos de alojamiento para estudiantes internacionales",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2025/04/JP_USEFUL-INFORMATION-1.pdf"
+     },
+     {
+      "text": "Contactos de emergencia del campus",
+      "url": "https://chc.kyushu-u.ac.jp/emergency/"
+     }
+    ]
    }
   }
  },
@@ -9838,7 +11214,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "寮の修理依頼（水漏れ・カビ）"
    },
    "d7dc2a": {
-    "text": "水漏れやカビを見つけたら、写真を撮り、寮の管理人に状況と部屋番号を伝えてください。在校生に連絡を手伝ってもらうこともできます。その後、管理人から本人へ連絡があります。処置は管理側の指示に従ってください。"
+    "text": "鍵の紛失・閉め出し・設備の故障は、入居している寮の管理案内に従ってください。手順・連絡先は参照【寮・住まい探し】。他の寮の手順をそのまま使わないでください。"
    },
    "4f9189": {
     "text": "Coffee Hour は各寮で毎週定期的に開催される集まりで、さまざまな国や文化背景を持つ参加者が集まります。新しい友達を作る機会です。"
@@ -10047,6 +11423,137 @@ window.ARTICLES_BODY_I18N = {
    },
    "b46d7c": {
     "text": "Coffee Hour（交流会）"
+   },
+   "m7print0": {
+    "text": "図書館での一般ファイル印刷・所蔵資料の複写"
+   },
+   "m7print1": {
+    "text": "確認日：2026-10-07。ここでは個人の一般ファイル印刷と図書館所蔵資料の複写を扱います。大学の正式な証明書発行とは別です。機器・方法・料金は館ごとに異なります。"
+   },
+   "m7print2": {
+    "text": "一般PDFファイルの印刷"
+   },
+   "m7print3": {
+    "items": [
+     {
+      "text": "Cloud On-Demand Print：中央・理系・医学・芸術工学図書館で利用できます。事前にインターネット上でファイルを登録し、館内の複合機で印刷します。学内限定です。"
+     },
+     {
+      "text": "USBプリント：理系・医学・芸術工学・筑紫図書館で利用できます。USBメモリからPDFを直接印刷できます。Word・Excel等は事前にPDFへ変換してください。"
+     },
+     {
+      "text": "白黒／カラー対応と印刷料金は各館の機器で確認するか、館へお問い合わせください。他キャンパスの料金を当てはめないでください。"
+     }
+    ]
+   },
+   "m7print4": {
+    "text": "図書館所蔵資料の複写"
+   },
+   "m7print5": {
+    "items": [
+     {
+      "text": "所蔵資料の複写は、営利目的でなく、著作物の一部分を1人につき1部に限ります。個人PDFの印刷とは別のサービスです。和装本・貴重資料などは複写が制限される場合があります。"
+     },
+     {
+      "text": "各館に複写機があります。コイン式と公費払い用カード式があり、カードの取扱窓口は館ごとに異なります。コイン式は高額紙幣を使えず、図書館で両替はできません。"
+     }
+    ]
+   },
+   "m7print6": {
+    "text": "正式な証明書などの手続き"
+   },
+   "m7print7": {
+    "items": [
+     {
+      "text": "在学・成績等の正式な証明書は九州大学の発行手続きを利用してください。一般ファイル印刷は証明書の発行ではありません。スキャンが必要な場合は利用館へ相談し、複合機が対応すると決めつけないでください。"
+     }
+    ]
+   },
+   "m7print8": {
+    "items": [
+     {
+      "text": "図書館で印刷する方法・対応館",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/faq/900"
+     },
+     {
+      "text": "所蔵資料の複写と貸出案内",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/services/members/borrow"
+     },
+     {
+      "text": "九州大学の正式な証明書発行案内",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/procedure/certificate/"
+     },
+     {
+      "text": "各館の最新カレンダー・連絡先",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries"
+     }
+    ]
+   },
+   "m7sport0": {
+    "text": "伊都の体育施設を初めて使う前に資格を確認"
+   },
+   "m7sportIntro": {
+    "text": "この案内は伊都キャンパスのみを対象とします。体育館、トレーニング室、プールで利用条件が異なるため、ある施設の規則を他地区や全てのトレーニング室に当てはめないでください。"
+   },
+   "m7sport1": {
+    "text": "体育館・トレーニング室"
+   },
+   "m7sport2": {
+    "items": [
+     {
+      "text": "九州大学の学生が伊都地区の体育施設を利用する場合：大学は一般学生も授業や公認学生団体の活動がない時間に利用可能と案内しています。開放時間は地図の施設カードと大学の当月予定で確認し、施設ごとの条件は窓口に問い合わせてください。"
+     },
+     {
+      "text": "ジム・トレーニング室：施設ごとに共通する初回講習、登録、予約の手順は公開資料で確認できません。利用資格と手順を施設窓口に確認してから利用してください。"
+     }
+    ]
+   },
+   "m7sport3": {
+    "text": "総合体育館屋内プール：初回利用"
+   },
+   "m7sport4": {
+    "items": [
+     {
+      "title": "資格を確認して受付",
+      "desc": "公開されているプール規則では九州大学の学生は利用資格者です。到着後、総合体育館事務室で学生証を提示し、利用者名簿に記入してください。"
+     },
+     {
+      "title": "入水ルールを守る",
+      "desc": "公開規則に従い、入水前にシャワーを浴び、スイミングキャップを着用してください。監視員の指示に従い、健康状態を確認して利用してください。"
+     },
+     {
+      "title": "当月の開放予定を確認",
+      "desc": "一般開放予定は月ごとに公開され、授業や行事で変更されることがあります。利用前に大学の体育施設ページで当月の予定を確認してください。学生向けの初回講習や予約手順は公開資料に記載がないため、不明点は総合体育館事務室 092-802-5994 へ確認してください。"
+     }
+    ]
+   },
+   "m7sport5": {
+    "headers": [
+     "伊都地区の公開窓口",
+     "電話"
+    ],
+    "rows": [
+     [
+      "伊都地区総合体育館事務室",
+      "092-802-5994"
+     ],
+     [
+      "伊都地区課外活動施設Ⅱ管理人室",
+      "092-802-2420"
+     ]
+    ]
+   },
+   "m7sportLinks": {
+    "items": [
+     {
+      "text": "体育施設・当月の開放予定",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/life/institution/gym1/"
+     },
+     {
+      "text": "屋内プール利用規則",
+      "url": "https://www.kyushu-u.ac.jp/f/48426/20220616_%E3%83%97%E3%83%BC%E3%83%AB%E3%81%AE%E5%88%A9%E7%94%A8%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf"
+     }
+    ]
    }
   },
   "en": {
@@ -10121,7 +11628,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Dormitory Repairs (Leaks / Mold)"
    },
    "d7dc2a": {
-    "text": "If you find a leak or mould, take photos and tell the residence manager what happened and your room number. A current student can help pass on the message; the manager will then contact you. Follow the manager's instructions for treatment."
+    "text": "For lost keys, lockouts or faulty room facilities, follow your own residence’s management instructions. See【Dorms & Housing】 for steps and contact links; do not apply one dormitory’s rules to another."
    },
    "4f9189": {
     "text": "Coffee Hour is a gathering held weekly at each dormitory, with participants from different countries and cultural backgrounds — an opportunity to make new friends."
@@ -10289,7 +11796,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Parts of this article are compiled from 《新伊都国風土記》 (authors: Hato_Tsubame, CantonSimon), included with the authors' permission. Prices, schedules, and procedures in this article change over time; for important matters, refer to the official websites."
    },
    "e1e701": {
-    "text": "If you lose something"
+    "text": "Lost a phone or other belongings"
    },
    "e1e702": {
     "text": "The counter differs depending on whether you lost it on or off campus — first work out where."
@@ -10330,6 +11837,137 @@ window.ARTICLES_BODY_I18N = {
    },
    "b46d7c": {
     "text": "Coffee Hour"
+   },
+   "m7print0": {
+    "text": "Library Printing of Personal Files and Copying Collections"
+   },
+   "m7print1": {
+    "text": "Checked on 2026-10-07. This covers printing personal files and copying library collection materials, not formal university certificate issuance. Machines, methods and fees vary by library."
+   },
+   "m7print2": {
+    "text": "Printing ordinary PDF files"
+   },
+   "m7print3": {
+    "items": [
+     {
+      "text": "Cloud On-Demand Print is available at the Central, SciTech, Medical and Design Libraries. Register the file online in advance and print it on a library multifunction printer. This is an internal university service."
+     },
+     {
+      "text": "USB printing is available at the SciTech, Medical, Design and Chikushi Libraries. PDF files can be printed directly from a USB drive; convert Word, Excel and other formats to PDF first."
+     },
+     {
+      "text": "Check each library’s machine or ask the library about black-and-white/color support and prices. Do not assume another campus’s prices apply."
+     }
+    ]
+   },
+   "m7print4": {
+    "text": "Copying library collection materials"
+   },
+   "m7print5": {
+    "items": [
+     {
+      "text": "Copying library materials is limited to non-commercial purposes, one copy per person, and only part of a work. This is separate from printing a personal PDF. Japanese-bound and rare materials may have additional restrictions."
+     },
+     {
+      "text": "Each library has copy machines. Coin payment and cards for public-expense billing are available; card sales differ by library. Coin machines do not accept high-value bills, and the library does not make change."
+     }
+    ]
+   },
+   "m7print6": {
+    "text": "Formal certificates and other requests"
+   },
+   "m7print7": {
+    "items": [
+     {
+      "text": "Use Kyushu University’s official process for formal enrollment or transcript certificates; general file printing does not issue certificates. If you need scanning, ask the library first rather than assuming its multifunction printer supports it."
+     }
+    ]
+   },
+   "m7print8": {
+    "items": [
+     {
+      "text": "Library printing methods and supported libraries",
+      "url": "https://www.lib.kyushu-u.ac.jp/en/faq/900"
+     },
+     {
+      "text": "Copying collection materials and borrowing guide",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/services/members/borrow"
+     },
+     {
+      "text": "Official Kyushu University certificate guidance",
+      "url": "https://www.kyushu-u.ac.jp/en/education/procedure/certificate/"
+     },
+     {
+      "text": "Current library calendars and contacts",
+      "url": "https://www.lib.kyushu-u.ac.jp/en/libraries"
+     }
+    ]
+   },
+   "m7sport0": {
+    "text": "Before your first visit to Ito sports facilities, check eligibility"
+   },
+   "m7sportIntro": {
+    "text": "This section covers Ito Campus only. Gyms, training rooms, and the pool may have different conditions; do not apply one facility’s rules to other campuses or every training room."
+   },
+   "m7sport1": {
+    "text": "Gymnasium and fitness/training rooms"
+   },
+   "m7sport2": {
+    "items": [
+     {
+      "text": "For Kyushu University students using Ito sports facilities: the university says general students may use them when there are no classes or activities by officially recognized student groups. Check opening times in the map facility card and the current university schedule, and confirm room-specific conditions with the facility office."
+     },
+     {
+      "text": "Fitness and training rooms: public information does not give a single first-use course, registration, or reservation procedure for every room. Confirm eligibility and the process with the facility office before going; do not assume walk-in access."
+     }
+    ]
+   },
+   "m7sport3": {
+    "text": "Indoor pool at the General Gymnasium: first visit"
+   },
+   "m7sport4": {
+    "items": [
+     {
+      "title": "Check eligibility and register",
+      "desc": "The published pool rules list Kyushu University students as eligible. On arrival, show your student ID at the General Gymnasium office and enter your name in the user register."
+     },
+     {
+      "title": "Follow entry requirements",
+      "desc": "The published rules require a shower before swimming and a swim cap. Follow the lifeguard’s instructions and use the pool only when your health permits."
+     },
+     {
+      "title": "Check the current monthly schedule",
+      "desc": "The public-use schedule is posted by month and may change for classes or events. Check the university sports facilities page before each visit. Public information does not list a first-use course or student reservation procedure; ask the General Gymnasium office at 092-802-5994 if unsure."
+     }
+    ]
+   },
+   "m7sport5": {
+    "headers": [
+     "Published Ito contact offices",
+     "Phone"
+    ],
+    "rows": [
+     [
+      "Ito General Gymnasium office",
+      "092-802-5994"
+     ],
+     [
+      "Ito Extracurricular Activities Facility II manager’s office",
+      "092-802-2420"
+     ]
+    ]
+   },
+   "m7sportLinks": {
+    "items": [
+     {
+      "text": "Sports facilities and current monthly schedule",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/life/institution/gym1/"
+     },
+     {
+      "text": "Indoor pool usage rules",
+      "url": "https://www.kyushu-u.ac.jp/f/48426/20220616_%E3%83%97%E3%83%BC%E3%83%AB%E3%81%AE%E5%88%A9%E7%94%A8%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf"
+     }
+    ]
    }
   },
   "ko": {
@@ -10404,7 +12042,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "기숙사 수리 신청(누수/곰팡이)"
    },
    "d7dc2a": {
-    "text": "누수나 곰팡이를 발견하면 사진을 찍고 숙소 관리자에게 상황과 방 번호를 알려 주세요. 재학생에게 전달을 부탁할 수도 있으며 이후 관리자가 본인에게 연락합니다. 처리 방법은 관리자 지시를 따르세요."
+    "text": "열쇠 분실·잠금·설비 고장은 거주 중인 기숙사의 관리 안내를 따르세요. 절차와 연락처는 참조【기숙사·주거】. 다른 기숙사의 규칙을 그대로 적용하지 마세요."
    },
    "4f9189": {
     "text": "Coffee Hour는 각 기숙사에서 매주 정기적으로 열리는 모임으로, 다양한 국가와 문화 배경의 참가자가 모여 새로운 친구를 사귈 수 있는 기회입니다."
@@ -10613,6 +12251,137 @@ window.ARTICLES_BODY_I18N = {
    },
    "b46d7c": {
     "text": "Coffee Hour（교류 모임）"
+   },
+   "m7print0": {
+    "text": "도서관 일반 파일 인쇄·소장 자료 복사"
+   },
+   "m7print1": {
+    "text": "확인일: 2026-10-07. 개인 파일 인쇄와 도서관 소장 자료 복사를 다룹니다. 대학의 공식 증명서 발급과는 별개입니다. 기기·방법·요금은 도서관별로 다릅니다."
+   },
+   "m7print2": {
+    "text": "일반 PDF 파일 인쇄"
+   },
+   "m7print3": {
+    "items": [
+     {
+      "text": "Cloud On-Demand Print: 중앙·이공·의학·예술공학 도서관에서 지원합니다. 파일을 미리 인터넷에 등록한 뒤 도서관 복합기에서 출력합니다. 학내 전용 서비스입니다."
+     },
+     {
+      "text": "USB 인쇄: 이공·의학·예술공학·치쿠시 도서관에서 지원합니다. USB에서 PDF를 바로 출력할 수 있습니다. Word·Excel 등은 미리 PDF로 변환하세요."
+     },
+     {
+      "text": "흑백/컬러 지원과 인쇄 요금은 각 도서관 기기에서 확인하거나 해당 도서관에 문의하세요. 다른 캠퍼스의 요금을 적용하지 마세요."
+     }
+    ]
+   },
+   "m7print4": {
+    "text": "도서관 소장 자료 복사"
+   },
+   "m7print5": {
+    "items": [
+     {
+      "text": "소장 자료 복사는 비영리 목적에 한해 저작물 일부를 1인당 1부만 허용합니다. 개인 PDF 인쇄와는 다른 서비스입니다. 일본식 제본 자료와 귀중 자료 등은 복사가 제한될 수 있습니다."
+     },
+     {
+      "text": "각 도서관에 복사기가 있습니다. 동전식과 공비 결제용 카드식이 있으며 카드 판매 창구는 도서관마다 다릅니다. 동전식은 고액권을 사용할 수 없고 도서관에서 환전할 수 없습니다."
+     }
+    ]
+   },
+   "m7print6": {
+    "text": "공식 증명서와 그 밖의 요청"
+   },
+   "m7print7": {
+    "items": [
+     {
+      "text": "재학·성적 등 공식 증명서는 규슈대의 정식 발급 절차를 이용하세요. 일반 파일 인쇄는 증명서 발급이 아닙니다. 스캔이 필요하면 도서관에 먼저 문의하고 복합기 지원을 가정하지 마세요."
+     }
+    ]
+   },
+   "m7print8": {
+    "items": [
+     {
+      "text": "도서관 인쇄 방법·지원 도서관",
+      "url": "https://www.lib.kyushu-u.ac.jp/en/faq/900"
+     },
+     {
+      "text": "소장 자료 복사와 대출 안내",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/services/members/borrow"
+     },
+     {
+      "text": "규슈대 공식 증명서 안내",
+      "url": "https://www.kyushu-u.ac.jp/en/education/procedure/certificate/"
+     },
+     {
+      "text": "도서관 최신 일정·연락처",
+      "url": "https://www.lib.kyushu-u.ac.jp/en/libraries"
+     }
+    ]
+   },
+   "m7sport0": {
+    "text": "이토 체육시설 첫 이용 전 자격 확인"
+   },
+   "m7sportIntro": {
+    "text": "이 안내는 이토 캠퍼스에만 적용됩니다. 체육관, 트레이닝실, 수영장의 이용 조건은 다를 수 있으므로 한 시설의 규정을 다른 캠퍼스나 모든 트레이닝실에 적용하지 마세요."
+   },
+   "m7sport1": {
+    "text": "체육관·헬스/트레이닝실"
+   },
+   "m7sport2": {
+    "items": [
+     {
+      "text": "규슈대학 학생의 이토 체육시설 이용: 대학 안내에 따르면 일반 학생은 체육 수업이나 공인 학생단체 활동이 없는 시간에 이용할 수 있습니다. 개방 시간은 지도 시설 카드와 대학의 당월 일정에서 확인하고, 시설별 조건은 창구에 문의하세요."
+     },
+     {
+      "text": "헬스장·트레이닝실: 공개 자료에는 모든 시설에 공통되는 첫 이용 강습, 등록 또는 예약 절차가 안내되어 있지 않습니다. 바로 입장할 수 있다고 가정하지 말고 이용 자격과 절차를 시설 창구에 확인하세요."
+     }
+    ]
+   },
+   "m7sport3": {
+    "text": "종합체육관 실내 수영장: 첫 이용"
+   },
+   "m7sport4": {
+    "items": [
+     {
+      "title": "자격 확인 및 등록",
+      "desc": "공개 수영장 규정은 규슈대학 학생을 이용 자격자로 안내합니다. 도착 후 종합체육관 사무실에서 학생증을 제시하고 이용자 명부에 이름을 적으세요."
+     },
+     {
+      "title": "입수 규칙 준수",
+      "desc": "공개 규정에 따라 입수 전에 샤워하고 수영모를 착용하세요. 감시원의 안내를 따르고 건강 상태가 수영에 적합한지 확인하세요."
+     },
+     {
+      "title": "당월 개방 일정 확인",
+      "desc": "일반 개방 일정은 매월 게시되며 수업이나 행사에 따라 달라질 수 있습니다. 방문할 때마다 대학 체육시설 페이지에서 당월 일정을 확인하세요. 학생 대상 첫 이용 강습이나 예약 절차는 공개 자료에 없으므로 문의는 종합체육관 사무실 092-802-5994로 하세요."
+     }
+    ]
+   },
+   "m7sport5": {
+    "headers": [
+     "이토 지역 공개 문의 창구",
+     "전화"
+    ],
+    "rows": [
+     [
+      "이토 종합체육관 사무실",
+      "092-802-5994"
+     ],
+     [
+      "이토 과외활동시설 II 관리실",
+      "092-802-2420"
+     ]
+    ]
+   },
+   "m7sportLinks": {
+    "items": [
+     {
+      "text": "체육 시설 및 월간 개방 일정",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/life/institution/gym1/"
+     },
+     {
+      "text": "실내 수영장 이용 규정",
+      "url": "https://www.kyushu-u.ac.jp/f/48426/20220616_%E3%83%97%E3%83%BC%E3%83%AB%E3%81%AE%E5%88%A9%E7%94%A8%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf"
+     }
+    ]
    }
   },
   "es": {
@@ -10685,7 +12454,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Aviso de averías en el dormitorio (fugas de agua/moho)"
    },
    "d7dc2a": {
-    "text": "Si encuentras una fuga o moho, toma fotos y comunica al responsable lo ocurrido y tu número de habitación. Un estudiante puede ayudarte a transmitirlo; el responsable te contactará después. Sigue sus indicaciones."
+    "text": "Si pierdes la llave, te quedas fuera o falla un equipo, sigue las instrucciones de tu residencia. Consulta【Residencias y vivienda】 para los pasos y contactos; no apliques las reglas de otra residencia."
    },
    "4f9189": {
     "text": "Coffee Hour es una reunión que se celebra semanalmente en cada dormitorio; los participantes vienen de distintos países y culturas, y es una oportunidad para conocer gente nueva."
@@ -10885,6 +12654,137 @@ window.ARTICLES_BODY_I18N = {
    },
    "b46d7c": {
     "text": "Coffee Hour (encuentro social)"
+   },
+   "m7print0": {
+    "text": "Impresión de archivos personales y copias de materiales de la colección"
+   },
+   "m7print1": {
+    "text": "Verificado el 2026-10-07. Esta sección trata la impresión de archivos personales y las copias de materiales de la colección, no la expedición oficial de certificados universitarios. Los equipos, métodos y precios varían por biblioteca."
+   },
+   "m7print2": {
+    "text": "Imprimir archivos PDF ordinarios"
+   },
+   "m7print3": {
+    "items": [
+     {
+      "text": "Cloud On-Demand Print está disponible en las bibliotecas Central, de Ciencia y Tecnología, Médica y de Diseño. Registra el archivo en Internet con antelación e imprímelo en una multifunción de la biblioteca. Es un servicio limitado al ámbito universitario."
+     },
+     {
+      "text": "La impresión desde USB está disponible en las bibliotecas de Ciencia y Tecnología, Médica, Diseño y Chikushi. Se pueden imprimir archivos PDF directamente desde una memoria USB; convierte antes Word, Excel y otros formatos a PDF."
+     },
+     {
+      "text": "Consulta en cada máquina o biblioteca si admite blanco y negro/color y cuáles son los precios. No des por hecho que se aplican los precios de otro campus."
+     }
+    ]
+   },
+   "m7print4": {
+    "text": "Copiar materiales de la colección"
+   },
+   "m7print5": {
+    "items": [
+     {
+      "text": "Las copias de materiales de la colección se limitan a fines no comerciales, una copia por persona y solo una parte de la obra. Es un servicio distinto de imprimir un PDF personal. Puede haber restricciones adicionales para libros encuadernados al estilo japonés y materiales raros."
+     },
+     {
+      "text": "Cada biblioteca dispone de fotocopiadoras. Hay pago con monedas y tarjetas para gastos públicos; los puntos de venta de tarjetas varían. Las máquinas de monedas no aceptan billetes de alta denominación y la biblioteca no cambia dinero."
+     }
+    ]
+   },
+   "m7print6": {
+    "text": "Certificados oficiales y otras consultas"
+   },
+   "m7print7": {
+    "items": [
+     {
+      "text": "Solicita los certificados oficiales de matrícula o calificaciones mediante el procedimiento de Kyushu University; la impresión general no los expide. Si necesitas escanear, consulta primero a la biblioteca y no presupongas que la multifunción lo permite."
+     }
+    ]
+   },
+   "m7print8": {
+    "items": [
+     {
+      "text": "Métodos de impresión y bibliotecas compatibles",
+      "url": "https://www.lib.kyushu-u.ac.jp/en/faq/900"
+     },
+     {
+      "text": "Copias de materiales de colección y préstamos",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/services/members/borrow"
+     },
+     {
+      "text": "Información oficial sobre certificados",
+      "url": "https://www.kyushu-u.ac.jp/en/education/procedure/certificate/"
+     },
+     {
+      "text": "Calendarios y contactos actuales",
+      "url": "https://www.lib.kyushu-u.ac.jp/en/libraries"
+     }
+    ]
+   },
+   "m7sport0": {
+    "text": "Antes de tu primera visita a las instalaciones deportivas de Ito, confirma el acceso"
+   },
+   "m7sportIntro": {
+    "text": "Esta sección cubre solo el campus de Ito. El gimnasio, las salas de entrenamiento y la piscina pueden tener condiciones distintas; no apliques las reglas de una instalación a otros campus ni a todas las salas."
+   },
+   "m7sport1": {
+    "text": "Gimnasio y salas de fitness/entrenamiento"
+   },
+   "m7sport2": {
+    "items": [
+     {
+      "text": "Para estudiantes de Kyushu University que usan instalaciones deportivas de Ito: la universidad indica que pueden utilizarlas cuando no haya clases ni actividades de grupos estudiantiles reconocidos. Consulta los horarios en la tarjeta de la instalación del mapa y en el calendario mensual vigente, y confirma las condiciones de cada sala con la oficina."
+     },
+     {
+      "text": "Salas de fitness y entrenamiento: la información pública no establece un curso inicial, registro o sistema de reservas común para todas las salas. Confirma los requisitos y el procedimiento con la oficina antes de ir; no des por hecho que se permite entrar sin aviso."
+     }
+    ]
+   },
+   "m7sport3": {
+    "text": "Piscina cubierta del Gimnasio General: primera visita"
+   },
+   "m7sport4": {
+    "items": [
+     {
+      "title": "Confirma el acceso y regístrate",
+      "desc": "Las normas públicas de la piscina incluyen a los estudiantes de Kyushu University entre las personas autorizadas. Al llegar, muestra tu tarjeta de estudiante en la oficina del Gimnasio General y escribe tu nombre en el registro de usuarios."
+     },
+     {
+      "title": "Cumple las reglas de entrada",
+      "desc": "Las normas publicadas requieren ducharse antes de nadar y llevar gorro de natación. Sigue las instrucciones del personal de vigilancia y utiliza la piscina solo si tu salud lo permite."
+     },
+     {
+      "title": "Consulta el calendario mensual vigente",
+      "desc": "El calendario de apertura general se publica cada mes y puede cambiar por clases o eventos. Antes de cada visita, consulta el calendario del mes en la página oficial de instalaciones deportivas. La información pública no indica un curso inicial ni un procedimiento de reserva para estudiantes; pregunta en la oficina del Gimnasio General: 092-802-5994."
+     }
+    ]
+   },
+   "m7sport5": {
+    "headers": [
+     "Oficinas publicadas de Ito",
+     "Teléfono"
+    ],
+    "rows": [
+     [
+      "Oficina del Gimnasio General de Ito",
+      "092-802-5994"
+     ],
+     [
+      "Oficina de administración de la Instalación II de actividades extracurriculares de Ito",
+      "092-802-2420"
+     ]
+    ]
+   },
+   "m7sportLinks": {
+    "items": [
+     {
+      "text": "Instalaciones deportivas y horario mensual vigente",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/life/institution/gym1/"
+     },
+     {
+      "text": "Normas de uso de la piscina cubierta",
+      "url": "https://www.kyushu-u.ac.jp/f/48426/20220616_%E3%83%97%E3%83%BC%E3%83%AB%E3%81%AE%E5%88%A9%E7%94%A8%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf"
+     }
+    ]
    }
   }
  },
@@ -12259,16 +14159,48 @@ window.ARTICLES_BODY_I18N = {
     "text": "eSIM は**機種が非対応の場合は正常に利用できないことがあります**。初めて契約する場合は、まず物理SIMを選ぶか、念のため物理SIMをもう1枚用意しておくことをおすすめします。"
    },
    "a747f8": {
-    "text": "キャンパスネットワーク"
+    "text": "SSOアカウントと学内Wi-Fi"
    },
    "7bdf67": {
-    "text": "学校アカウントを取得すると学内 Wi-Fi（kitenet）に接続できます。eduroam は大学間で利用できる Wi-Fi サービスで、別途登録が必要です。公式マニュアルのページは、SSO-KID でログインしてから閲覧してください。"
+    "text": "対象：九州大学の学生。SSO-KIDの取得方法は正課生・非正課生で異なります。学内Wi-Fiの範囲や端末設定は公式案内に従い、全校区・全室内で接続できることを保証するものではありません。"
    },
    "72a8d0": {
-    "text": "学内 Wi-Fi（kitenet）の接続用 ID は **SSO-KID@kitenet**（SSO-KID は学生証の裏面に記載された 10 桁の数字）、パスワードは SSO-KID のパスワードです（Campusmate と同じ）。"
+    "text": "学内無線LANには kitenet と edunet があります。kitenet のログインIDは SSO-KID@kitenet、edunet は SSO-KID@edunet で、どちらも SSO-KID のパスワードを使います。正課生（学部生・大学院生）のSSO-KIDは学生証裏面に記載された10桁です。非正課生（研究生等）は所属の学務担当窓口に確認してください。"
    },
    "0fb853": {
     "items": [
+     {
+      "text": "SSO-KIDアクティベーション案内",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
+     },
+     {
+      "text": "SSOパスワードを忘れた場合",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/lost.html"
+     },
+     {
+      "text": "SSO-KID・登録コード再発行",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/reissue.html"
+     },
+     {
+      "text": "学生のSSO-KIDと学籍区分",
+      "url": "https://web.sso.kyushu-u.ac.jp/ssokid/students.html"
+     },
+     {
+      "text": "情報相談室のICT案内",
+      "url": "https://www.artsci.kyushu-u.ac.jp/~csr/services.html"
+     },
+     {
+      "text": "Wi-Fi接続の公開FAQ",
+      "url": "https://web.sso.kyushu-u.ac.jp/contactus/faq.html"
+     },
+     {
+      "text": "学内Wi-Fiと問い合わせ先",
+      "url": "https://www.nc.kyushu-u.ac.jp/campus-wifi/"
+     },
+     {
+      "text": "eduroam公式案内",
+      "url": "https://www.nc.kyushu-u.ac.jp/net/eduroam/"
+     },
      {
       "text": "kitenet 設定マニュアル：iOS",
       "url": "https://www.nc.kyushu-u.ac.jp/kitenet/manual-ios/"
@@ -12288,10 +14220,6 @@ window.ARTICLES_BODY_I18N = {
      {
       "text": "KiteNet 接続マニュアル（英語）",
       "url": "https://www.nc.kyushu-u.ac.jp/en/kitenet-en/#manual"
-     },
-     {
-      "text": "eduroam 登録",
-      "url": "https://www.nc.kyushu-u.ac.jp/net/eduroam/"
      }
     ]
    },
@@ -12419,6 +14347,41 @@ window.ARTICLES_BODY_I18N = {
    },
    "3fc4be": {
     "text": "eSIM"
+   },
+   "accounthelp2": {
+    "text": "SSO-KIDの有効化とパスワード再設定"
+   },
+   "accounthelp3": {
+    "items": [
+     {
+      "title": "有効化情報を用意し、連絡用メールを登録",
+      "desc": "公式ページでSSO-KID、登録コード、生年月日、画像認証を入力し、すぐ受信できるパスワード再設定用メールアドレスを登録します。@m.kyushu-u.ac.jp と @s.kyushu-u.ac.jp の全学基本メールアドレスは登録できず、SMSも利用できません。"
+     },
+     {
+      "title": "登録コードがあればオンラインで再設定",
+      "desc": "公式のパスワード忘失ページを使い、登録済みメールで認証情報を受け取ります。リンク/コードは15分以内に使用してください。登録コードがない場合は公式の再発行手続を確認します。"
+     },
+     {
+      "title": "学籍区分と窓口手続を確認",
+      "desc": "正課生（学部・大学院）は通常、学生証でSSO-KIDと登録コードを確認できます。非正課生（研究生等）は所属の学務担当窓口に確認してください。オンラインで再設定できない学生は学生証または他の本人確認書類を持参し、情報統括本部認証基盤事業室または所属の学務窓口へ。学生のパスワード初期化は電話・メールでは受け付けません。認証基盤事業室が案内する受付時間は平日8:30–12:00、13:00–17:00です。所属学務窓口の時間は各窓口の案内を確認してください。"
+     }
+    ]
+   },
+   "accounthelp4": {
+    "text": "学内Wi-Fiと接続トラブル"
+   },
+   "accounthelp6": {
+    "items": [
+     {
+      "text": "kitenetは学生・教職員向け、edunetは主に学生のPC持参や講義室での利用を想定しています。公式案内はkitenetを「ほぼ全学内」としていますが、校区ごとの接続保証はありません。"
+     },
+     {
+      "text": "eduroamは別のローミングサービスです。国立情報学研究所（NII）が発行するアカウントを別途取得し、学内では公式設置場所一覧に掲載された場所で利用します。"
+     },
+     {
+      "text": "解決しない場合の九大ネットワーク窓口：092-802-2687、092-802-2688、092-802-2686；n-room@iii.kyushu-u.ac.jp。"
+     }
+    ]
    }
   },
   "en": {
@@ -12481,16 +14444,48 @@ window.ARTICLES_BODY_I18N = {
     "text": "eSIM **may not work properly due to device incompatibility**; for the first contract, a physical SIM is the first choice, or carry an extra physical card as a backup."
    },
    "a747f8": {
-    "text": "Campus Network"
+    "text": "SSO account and campus Wi-Fi"
    },
    "7bdf67": {
-    "text": "Once the university account is obtained, the campus Wi-Fi (kitenet) can be used. eduroam is a Wi-Fi service shared between universities and requires separate registration. The official manual pages require signing in with the SSO-KID."
+    "text": "Scope: Kyushu University students. How you obtain an SSO-KID depends on whether you are a regular-course or non-regular student. Follow official pages for Wi-Fi coverage and setup; they do not guarantee a signal in every campus or indoor location."
    },
    "72a8d0": {
-    "text": "The login ID for the campus Wi-Fi (kitenet) is **SSO-KID@kitenet** (the SSO-KID is the 10-digit number printed on the back of the student ID card), and the password is the SSO-KID password (the same as for Campusmate)."
+    "text": "Kyushu University has two campus Wi-Fi services: kitenet and edunet. Use SSO-KID@kitenet for kitenet and SSO-KID@edunet for edunet; both use your SSO-KID password. For regular students (undergraduate and graduate students), the 10-digit SSO-KID is printed on the back of the student card. Non-regular students, such as research students, should obtain their SSO-KID from their department's academic affairs office."
    },
    "0fb853": {
     "items": [
+     {
+      "text": "SSO-KID activation guide",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
+     },
+     {
+      "text": "Forgotten SSO password",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/lost.html"
+     },
+     {
+      "text": "SSO-KID and registration-code reissue",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/reissue.html"
+     },
+     {
+      "text": "Student SSO-KID and status categories",
+      "url": "https://web.sso.kyushu-u.ac.jp/ssokid/students.html"
+     },
+     {
+      "text": "Information Consultation Room ICT guide",
+      "url": "https://www.artsci.kyushu-u.ac.jp/~csr/services.html"
+     },
+     {
+      "text": "Public Wi-Fi troubleshooting FAQ",
+      "url": "https://web.sso.kyushu-u.ac.jp/contactus/faq.html"
+     },
+     {
+      "text": "Campus Wi-Fi overview and support contacts",
+      "url": "https://www.nc.kyushu-u.ac.jp/campus-wifi/"
+     },
+     {
+      "text": "Official eduroam information",
+      "url": "https://www.nc.kyushu-u.ac.jp/net/eduroam/"
+     },
      {
       "text": "kitenet setup manual: iOS",
       "url": "https://www.nc.kyushu-u.ac.jp/kitenet/manual-ios/"
@@ -12510,10 +14505,6 @@ window.ARTICLES_BODY_I18N = {
      {
       "text": "KiteNet connection guide (English)",
       "url": "https://www.nc.kyushu-u.ac.jp/en/kitenet-en/#manual"
-     },
-     {
-      "text": "eduroam registration",
-      "url": "https://www.nc.kyushu-u.ac.jp/net/eduroam/"
      }
     ]
    },
@@ -12641,6 +14632,41 @@ window.ARTICLES_BODY_I18N = {
    },
    "3fc4be": {
     "text": "eSIM"
+   },
+   "accounthelp2": {
+    "text": "Activate SSO-KID and recover your password"
+   },
+   "accounthelp3": {
+    "items": [
+     {
+      "title": "Prepare activation details and register a recovery email",
+      "desc": "On the official page, enter your SSO-KID, registration code, date of birth, and CAPTCHA, then register an email address you can access promptly for password recovery. The primary addresses @m.kyushu-u.ac.jp and @s.kyushu-u.ac.jp cannot be registered, and SMS is not supported."
+     },
+     {
+      "title": "Reset online if you have the registration code",
+      "desc": "Use the official forgotten-password page and receive verification information at your registered email. Use the link/code within 15 minutes. If you do not have the registration code, follow the official reissue procedure."
+     },
+     {
+      "title": "Check your status and in-person options",
+      "desc": "Regular students (undergraduate and graduate) can usually find their SSO-KID and registration code on the student card. Non-regular students, such as research students, should ask their affiliated academic affairs office. If online reset fails, students must go in person with a student card or other identity document to the Information Infrastructure Initiative Authentication Infrastructure Office or their affiliated academic affairs office. Student password initialization is not handled by phone or email. The Authentication Infrastructure Office lists its hours as weekdays 8:30–12:00 and 13:00–17:00; check the posted hours of your own academic affairs office."
+     }
+    ]
+   },
+   "accounthelp4": {
+    "text": "Campus Wi-Fi and troubleshooting"
+   },
+   "accounthelp6": {
+    "items": [
+     {
+      "text": "kitenet is for students and faculty/staff; edunet is mainly for student-owned computers and classroom learning. The official page describes kitenet as available on “almost all” of campus, but does not guarantee coverage campus by campus."
+     },
+     {
+      "text": "eduroam is a separate roaming service. Obtain an account issued by the National Institute of Informatics (NII); on campus it is available only at locations on the official list."
+     },
+     {
+      "text": "If the issue remains, contact Kyushu University network support: 092-802-2687, 092-802-2688, 092-802-2686; n-room@iii.kyushu-u.ac.jp."
+     }
+    ]
    }
   },
   "ko": {
@@ -12703,16 +14729,48 @@ window.ARTICLES_BODY_I18N = {
     "text": "eSIM은 **기기 모델과 호환되지 않아 정상적으로 사용하지 못할 수 있습니다**. 처음 가입할 때는 실물 SIM을 우선 선택하고, 만약에 대비해 실물 카드를 하나 더 준비할 것을 권장합니다."
    },
    "a747f8": {
-    "text": "교내 네트워크"
+    "text": "SSO 계정과 교내 Wi-Fi"
    },
    "7bdf67": {
-    "text": "학교 계정을 받으면 교내 Wi-Fi(kitenet)에 연결할 수 있습니다. eduroam은 대학 간에 이용할 수 있는 Wi-Fi 서비스로 별도 등록이 필요합니다. 공식 매뉴얼 페이지는 SSO-KID로 로그인한 뒤 열람할 수 있습니다."
+    "text": "적용 대상: 규슈대학교 학생. SSO-KID 발급 방법은 정규 과정과 비정규 과정 학생에 따라 다릅니다. Wi-Fi 범위와 기기 설정은 공식 안내를 확인하세요. 모든 캠퍼스와 실내에서 연결된다는 보장은 없습니다."
    },
    "72a8d0": {
-    "text": "교내 Wi-Fi(kitenet)의 접속 ID는 **SSO-KID@kitenet**(SSO-KID는 학생증 뒷면에 적힌 10자리 숫자)이며, 비밀번호는 SSO-KID 비밀번호입니다(Campusmate와 동일)."
+    "text": "규슈대학교 교내 무선망에는 kitenet과 edunet이 있습니다. kitenet에는 SSO-KID@kitenet, edunet에는 SSO-KID@edunet을 사용하며, 두 서비스 모두 SSO-KID 비밀번호를 입력합니다. 정규 과정 학생(학부생·대학원생)의 10자리 SSO-KID는 학생증 뒷면에 표시되어 있습니다. 비정규 과정 학생(연구생 등)은 소속 학무 담당 창구에서 SSO-KID를 확인하세요."
    },
    "0fb853": {
     "items": [
+     {
+      "text": "SSO-KID 활성화 안내",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
+     },
+     {
+      "text": "SSO 비밀번호 분실 시",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/lost.html"
+     },
+     {
+      "text": "SSO-KID·등록 코드 재발급",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/reissue.html"
+     },
+     {
+      "text": "학생 SSO-KID와 학적 구분",
+      "url": "https://web.sso.kyushu-u.ac.jp/ssokid/students.html"
+     },
+     {
+      "text": "정보상담실 ICT 안내",
+      "url": "https://www.artsci.kyushu-u.ac.jp/~csr/services.html"
+     },
+     {
+      "text": "Wi-Fi 연결 공개 FAQ",
+      "url": "https://web.sso.kyushu-u.ac.jp/contactus/faq.html"
+     },
+     {
+      "text": "교내 Wi-Fi 및 문의처",
+      "url": "https://www.nc.kyushu-u.ac.jp/campus-wifi/"
+     },
+     {
+      "text": "eduroam 공식 안내",
+      "url": "https://www.nc.kyushu-u.ac.jp/net/eduroam/"
+     },
      {
       "text": "kitenet 설정 매뉴얼: iOS",
       "url": "https://www.nc.kyushu-u.ac.jp/kitenet/manual-ios/"
@@ -12732,10 +14790,6 @@ window.ARTICLES_BODY_I18N = {
      {
       "text": "KiteNet 연결 매뉴얼(영어)",
       "url": "https://www.nc.kyushu-u.ac.jp/en/kitenet-en/#manual"
-     },
-     {
-      "text": "eduroam 등록",
-      "url": "https://www.nc.kyushu-u.ac.jp/net/eduroam/"
      }
     ]
    },
@@ -12863,6 +14917,41 @@ window.ARTICLES_BODY_I18N = {
    },
    "3fc4be": {
     "text": "eSIM"
+   },
+   "accounthelp2": {
+    "text": "SSO-KID 활성화 및 비밀번호 복구"
+   },
+   "accounthelp3": {
+    "items": [
+     {
+      "title": "활성화 정보 준비 및 복구 이메일 등록",
+      "desc": "공식 페이지에 SSO-KID, 등록 코드, 생년월일, CAPTCHA를 입력하고 바로 확인할 수 있는 비밀번호 복구용 이메일을 등록합니다. @m.kyushu-u.ac.jp 및 @s.kyushu-u.ac.jp 기본 이메일은 등록할 수 없고 SMS도 지원하지 않습니다."
+     },
+     {
+      "title": "등록 코드가 있으면 온라인 재설정",
+      "desc": "공식 비밀번호 분실 페이지를 이용해 등록 이메일로 인증 정보를 받으세요. 링크/코드는 15분 이내에 사용해야 합니다. 등록 코드가 없으면 공식 재발급 절차를 확인하세요."
+     },
+     {
+      "title": "학적과 대면 창구 절차 확인",
+      "desc": "정규 과정 학생(학부·대학원)은 보통 학생증에서 SSO-KID와 등록 코드를 확인할 수 있습니다. 연구생 등 비정규 과정 학생은 소속 학무 담당 창구에 문의하세요. 온라인 재설정이 안 되는 학생은 학생증 또는 다른 신분증을 지참해 정보통괄본부 인증기반사업실 또는 소속 학무 창구를 방문해야 합니다. 학생 비밀번호 초기화는 전화나 이메일로 처리하지 않습니다. 인증기반사업실이 안내하는 접수 시간은 평일 8:30–12:00, 13:00–17:00입니다. 소속 학무 창구 시간은 해당 창구 공지를 확인하세요."
+     }
+    ]
+   },
+   "accounthelp4": {
+    "text": "교내 Wi-Fi 및 연결 문제"
+   },
+   "accounthelp6": {
+    "items": [
+     {
+      "text": "kitenet은 학생·교직원용이며 edunet은 주로 학생 개인 PC와 강의실 학습을 위한 서비스입니다. 공식 페이지는 kitenet을 “거의 전 캠퍼스”에서 이용할 수 있다고 설명하지만 캠퍼스별 연결을 보장하지 않습니다."
+     },
+     {
+      "text": "eduroam은 별도의 로밍 서비스입니다. 국립정보학연구소(NII)가 발급하는 계정을 따로 신청해야 하며, 교내에서는 공식 장소 목록에 표시된 곳에서만 사용할 수 있습니다."
+     },
+     {
+      "text": "문제가 계속되면 규슈대학교 네트워크 지원에 문의하세요: 092-802-2687, 092-802-2688, 092-802-2686; n-room@iii.kyushu-u.ac.jp."
+     }
+    ]
    }
   },
   "es": {
@@ -13015,16 +15104,48 @@ window.ARTICLES_BODY_I18N = {
     ]
    },
    "a747f8": {
-    "text": "Red del campus"
+    "text": "Cuenta SSO y Wi-Fi del campus"
    },
    "7bdf67": {
-    "text": "Una vez obtenida la cuenta de la universidad se puede usar el Wi-Fi del campus (kitenet). eduroam es un servicio de Wi-Fi compartido entre universidades y requiere un registro aparte. Las páginas del manual oficial requieren iniciar sesión con el SSO-KID."
+    "text": "Ámbito: estudiantes de Kyushu University. La forma de obtener el SSO-KID depende de si el programa es regular o no regular. Consulte las páginas oficiales para cobertura y configuración Wi-Fi; no garantizan señal en todos los campus ni interiores."
    },
    "72a8d0": {
-    "text": "El ID de acceso al Wi-Fi del campus (kitenet) es **SSO-KID@kitenet** (el SSO-KID es el número de 10 dígitos del reverso de la tarjeta de estudiante) y la contraseña es la del SSO-KID (la misma que la de Campusmate)."
+    "text": "La red Wi-Fi del campus incluye kitenet y edunet. Para kitenet use SSO-KID@kitenet y para edunet, SSO-KID@edunet; ambas requieren la contraseña del SSO-KID. En estudiantes de programas regulares (grado y posgrado), el SSO-KID de 10 dígitos figura en el reverso de la tarjeta de estudiante. Los estudiantes de programas no regulares, como los de investigación, deben solicitarlo a la oficina académica de su departamento."
    },
    "0fb853": {
     "items": [
+     {
+      "text": "Activación de SSO-KID",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
+     },
+     {
+      "text": "Olvido de contraseña SSO",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/lost.html"
+     },
+     {
+      "text": "Reemisión de SSO-KID y código",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/reissue.html"
+     },
+     {
+      "text": "SSO-KID según situación académica",
+      "url": "https://web.sso.kyushu-u.ac.jp/ssokid/students.html"
+     },
+     {
+      "text": "Guía TIC de la sala de consulta",
+      "url": "https://www.artsci.kyushu-u.ac.jp/~csr/services.html"
+     },
+     {
+      "text": "FAQ público de conexión Wi-Fi",
+      "url": "https://web.sso.kyushu-u.ac.jp/contactus/faq.html"
+     },
+     {
+      "text": "Wi-Fi del campus y contactos",
+      "url": "https://www.nc.kyushu-u.ac.jp/campus-wifi/"
+     },
+     {
+      "text": "Información oficial de eduroam",
+      "url": "https://www.nc.kyushu-u.ac.jp/net/eduroam/"
+     },
      {
       "text": "Manual de configuración de kitenet: iOS",
       "url": "https://www.nc.kyushu-u.ac.jp/kitenet/manual-ios/"
@@ -13044,10 +15165,6 @@ window.ARTICLES_BODY_I18N = {
      {
       "text": "Manual de conexión de KiteNet (inglés)",
       "url": "https://www.nc.kyushu-u.ac.jp/en/kitenet-en/#manual"
-     },
-     {
-      "text": "Registro en eduroam",
-      "url": "https://www.nc.kyushu-u.ac.jp/net/eduroam/"
      }
     ]
    },
@@ -13085,6 +15202,41 @@ window.ARTICLES_BODY_I18N = {
    },
    "3fc4be": {
     "text": "eSIM"
+   },
+   "accounthelp2": {
+    "text": "Activación del SSO-KID y recuperación de contraseña"
+   },
+   "accounthelp3": {
+    "items": [
+     {
+      "title": "Prepare los datos de activación y registre un correo de recuperación",
+      "desc": "En la página oficial introduzca el SSO-KID, el código de registro, la fecha de nacimiento y el CAPTCHA; después registre un correo al que pueda acceder de inmediato para recuperar la contraseña. No se admiten las direcciones institucionales @m.kyushu-u.ac.jp ni @s.kyushu-u.ac.jp, y los SMS no están disponibles."
+     },
+     {
+      "title": "Restablezca en línea si tiene el código de registro",
+      "desc": "Use la página oficial de contraseña olvidada y reciba la verificación en el correo registrado. Use el enlace/código en un plazo de 15 minutos. Si no tiene el código de registro, siga el procedimiento oficial de reemisión."
+     },
+     {
+      "title": "Confirme su situación y la atención presencial",
+      "desc": "El alumnado regular (grado y posgrado) normalmente puede consultar el SSO-KID y el código de registro en la tarjeta. El alumnado no regular, como investigación, debe preguntar a su oficina académica. Si no puede restablecerlo en línea, el estudiante debe acudir con la tarjeta u otro documento de identidad a la Oficina de Infraestructura de Información, Authentication Infrastructure Office, o a su oficina académica. No se inicializan contraseñas de estudiantes por teléfono ni correo. La Authentication Infrastructure Office publica horario de atención de laborables 8:30–12:00 y 13:00–17:00; consulte el horario publicado por su propia oficina académica."
+     }
+    ]
+   },
+   "accounthelp4": {
+    "text": "Wi-Fi del campus y solución de problemas"
+   },
+   "accounthelp6": {
+    "items": [
+     {
+      "text": "kitenet es para estudiantes y personal; edunet se orienta sobre todo a ordenadores personales del alumnado y aulas. La página oficial describe kitenet como disponible en “casi todo” el campus, pero no garantiza cobertura por campus."
+     },
+     {
+      "text": "eduroam es un servicio de itinerancia separado. Requiere una cuenta emitida por el Instituto Nacional de Informática (NII); en el campus solo funciona en las ubicaciones de la lista oficial."
+     },
+     {
+      "text": "Si el problema continúa, contacte con soporte de red de Kyushu University: 092-802-2687, 092-802-2688, 092-802-2686; n-room@iii.kyushu-u.ac.jp."
+     }
+    ]
    }
   }
  },
@@ -13230,7 +15382,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "SSO-KID のログインとアクティベーション"
    },
    "d66ea0": {
-    "text": "学校の統一アカウント（SSO-KID）のログイン／アクティベーションがうまくいかない場合は、以下の入口を参考にしてください。注意：SSO-KID のアクティベーションには**大学のメールアドレス以外は使用できません**。"
+    "text": "SSO-KIDのアクティベーション時には、パスワード再設定用としてすぐ受信できるメールアドレスを登録します。九大の全学基本メールアドレス（@m.kyushu-u.ac.jp、@s.kyushu-u.ac.jp）は登録できず、SMSも利用できません。"
    },
    "7d1d01": {
     "items": [
@@ -13425,6 +15577,36 @@ window.ARTICLES_BODY_I18N = {
    },
    "526eaa": {
     "text": "本記事の一部は『新伊都国風土記』（著者：Hato_Tsubame、CantonSimon）をもとに、著者の許可を得て収録しています。記事中の料金・時刻・手続きは時期により変わるため、重要事項は各公式サイトでご確認ください。"
+   },
+   "m7move0": {
+    "text": "引越し後に学内の住所情報も更新"
+   },
+   "m7moveIntro": {
+    "text": "この案内で確認できた対象は九州大学の留学生・研究者です。区役所での住所・在留カードの手続きとは別に、大学の所属部局にも住所変更を届け出てください。自治体への届出だけで学内情報も更新されたとは限りません。他の身分の方は所属窓口に確認してください。"
+   },
+   "m7move1": {
+    "items": [
+     {
+      "title": "在学生は学生担当窓口へ",
+      "desc": "所属する学部・学府の学生担当窓口に住所変更を届け出てください。"
+     },
+     {
+      "title": "研究者は部局の担当窓口へ",
+      "desc": "所属部局の担当窓口に住所変更を届け出てください。公開案内ではオンライン申請フォームやシステム名、学内情報の自動連携は確認できません。窓口に手続方法と更新対象を確認してください。"
+     }
+    ]
+   },
+   "m7moveLinks": {
+    "items": [
+     {
+      "text": "引越し後に必要な手続き",
+      "url": "https://isc.kyushu-u.ac.jp/invitation/support/accommodation.php"
+     },
+     {
+      "text": "各学部・学府の学生担当窓口",
+      "url": "https://www.kyushu-u.ac.jp/ja/contact/student_section/"
+     }
+    ]
    }
   },
   "en": {
@@ -13568,7 +15750,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "SSO-KID login and activation"
    },
    "d66ea0": {
-    "text": "If the university unified account (SSO-KID) cannot be logged into or activated, the entry points below can be used. Note: for SSO-KID activation, **an email address other than the school email address cannot be used**."
+    "text": "When activating your SSO-KID, register an email address you can access promptly for password recovery. Kyushu University's primary email addresses (@m.kyushu-u.ac.jp and @s.kyushu-u.ac.jp) and SMS cannot be used."
    },
    "7d1d01": {
     "items": [
@@ -13763,6 +15945,36 @@ window.ARTICLES_BODY_I18N = {
    },
    "526eaa": {
     "text": "Part of this article is compiled from 《新伊都国風土記》(by Hato_Tsubame and CantonSimon), included with the authors' permission. Prices, schedules and procedures in this article change over time; for important matters, the official websites take precedence."
+   },
+   "m7move0": {
+    "text": "Update your university address details after moving"
+   },
+   "m7moveIntro": {
+    "text": "This guidance is confirmed for Kyushu University international students and researchers: in addition to address and residence-card procedures at the local ward office, notify your university department. A local address registration does not by itself confirm that university records have been updated. If you have another status, check with your department."
+   },
+   "m7move1": {
+    "items": [
+     {
+      "title": "Students: contact student affairs",
+      "desc": "Report your new address to the student affairs section of your faculty or graduate school."
+     },
+     {
+      "title": "Researchers: contact your department",
+      "desc": "Report your new address to the section in charge of your department. The public guidance does not name an online form or system, or confirm that university records update automatically; ask the section how to submit the change and which records need updating."
+     }
+    ]
+   },
+   "m7moveLinks": {
+    "items": [
+     {
+      "text": "Procedures required after moving",
+      "url": "https://isc.kyushu-u.ac.jp/invitation/support/accommodation.php"
+     },
+     {
+      "text": "Student affairs contacts by department",
+      "url": "https://www.kyushu-u.ac.jp/ja/contact/student_section/"
+     }
+    ]
    }
   },
   "ko": {
@@ -13906,7 +16118,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "SSO-KID 로그인과 활성화"
    },
    "d66ea0": {
-    "text": "학교 통합 계정(SSO-KID)의 로그인/활성화가 계속되지 않을 때에는 아래 진입 경로를 참고하십시오. 주의: SSO-KID 활성화는 **학교 메일 이외의 이메일을 사용할 수 없습니다**."
+    "text": "SSO-KID를 활성화할 때 비밀번호 재설정용으로 바로 확인할 수 있는 이메일 주소를 등록해야 합니다. 규슈대학교의 기본 이메일 주소(@m.kyushu-u.ac.jp, @s.kyushu-u.ac.jp)는 등록할 수 없으며 SMS도 사용할 수 없습니다."
    },
    "7d1d01": {
     "items": [
@@ -14101,6 +16313,36 @@ window.ARTICLES_BODY_I18N = {
    },
    "526eaa": {
     "text": "본편의 일부 내용은 《新伊都国風土記(신이토국풍토기)》(저자 Hato_Tsubame, CantonSimon)에서 정리한 것으로, 저자의 허가를 받아 수록되었습니다. 본문의 가격, 운행 횟수와 절차는 시간이 지나면 변할 수 있으므로, 중요한 사항은 각 공식 사이트를 기준으로 하십시오."
+   },
+   "m7move0": {
+    "text": "이사 후 교내 주소 정보도 업데이트"
+   },
+   "m7moveIntro": {
+    "text": "이 안내에서 확인된 대상은 규슈대학교 유학생과 연구자입니다. 구청의 주소·재류카드 절차와 별도로 대학 소속 부서에도 주소 변경을 알려야 합니다. 구청에 신고했다고 교내 정보까지 갱신된 것은 아닙니다. 다른 신분은 소속 창구에 확인하세요."
+   },
+   "m7move1": {
+    "items": [
+     {
+      "title": "재학생은 학생 담당 창구에 연락",
+      "desc": "소속 학부 또는 대학원의 학생 담당 창구에 새 주소를 신고하세요."
+     },
+     {
+      "title": "연구자는 소속 부서 창구에 연락",
+      "desc": "소속 부서의 담당 창구에 새 주소를 신고하세요. 공개 안내에는 온라인 양식이나 시스템 이름, 교내 정보의 자동 연동 여부가 나와 있지 않습니다. 제출 방법과 갱신해야 할 정보를 창구에 확인하세요."
+     }
+    ]
+   },
+   "m7moveLinks": {
+    "items": [
+     {
+      "text": "이사 후 필요한 절차",
+      "url": "https://isc.kyushu-u.ac.jp/invitation/support/accommodation.php"
+     },
+     {
+      "text": "학부·대학원별 학생 담당 창구",
+      "url": "https://www.kyushu-u.ac.jp/ja/contact/student_section/"
+     }
+    ]
    }
   },
   "es": {
@@ -14238,7 +16480,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Inicio de sesión y activación de SSO-KID"
    },
    "d66ea0": {
-    "text": "Si no consigues iniciar sesión o activar la cuenta unificada de la universidad (SSO-KID), consulta los accesos siguientes. Atención: para activar SSO-KID **no se puede usar un correo distinto del correo institucional**."
+    "text": "Al activar el SSO-KID, registre una dirección de correo a la que pueda acceder de inmediato para recuperar la contraseña. No se admiten las direcciones institucionales de Kyushu University (@m.kyushu-u.ac.jp y @s.kyushu-u.ac.jp) ni los SMS."
    },
    "7d1d01": {
     "items": [
@@ -14439,6 +16681,36 @@ window.ARTICLES_BODY_I18N = {
    },
    "526eaa": {
     "text": "Parte del contenido de este artículo proviene de《新伊都国風土記》(autores: Hato_Tsubame, CantonSimon), recopilado con autorización de los autores. Los precios, horarios y procedimientos indicados en el texto cambian con el tiempo; para los asuntos importantes, consulta siempre los sitios web oficiales."
+   },
+   "m7move0": {
+    "text": "Actualiza tus datos universitarios después de mudarte"
+   },
+   "m7moveIntro": {
+    "text": "Esta guía está confirmada para estudiantes internacionales e investigadores de la Universidad de Kyushu: además de los trámites de domicilio y tarjeta de residencia en la oficina municipal, debes avisar al departamento de la universidad. El registro municipal no confirma por sí solo que los datos universitarios estén actualizados. Si tienes otra condición, consulta con tu departamento."
+   },
+   "m7move1": {
+    "items": [
+     {
+      "title": "Estudiantes: contacta con asuntos estudiantiles",
+      "desc": "Comunica tu nueva dirección a la sección de asuntos estudiantiles de tu facultad o escuela de posgrado."
+     },
+     {
+      "title": "Investigadores: contacta con tu departamento",
+      "desc": "Comunica tu nueva dirección a la sección responsable de tu departamento. La información pública no indica un formulario o sistema en línea ni confirma que los registros universitarios se actualicen automáticamente; pregunta cómo presentar el cambio y qué datos hay que actualizar."
+     }
+    ]
+   },
+   "m7moveLinks": {
+    "items": [
+     {
+      "text": "Trámites necesarios después de mudarse",
+      "url": "https://isc.kyushu-u.ac.jp/invitation/support/accommodation.php"
+     },
+     {
+      "text": "Contactos de asuntos estudiantiles por departamento",
+      "url": "https://www.kyushu-u.ac.jp/ja/contact/student_section/"
+     }
+    ]
    }
   }
  },
@@ -18912,7 +21184,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "福岡市のゴミは 3 種類に分かれ、定期収集です。**指定袋を使う必要があります**（コンビニやスーパーで購入でき、種類ごとに袋の印字が違います）。燃えるゴミは週 2 回、そのほかは月 1 回。夜間収集が中心で、通常は収集日の前日の日没後から 24 時までの間に出します。市の公式サイトには品目名で分別を調べられる検索システムがあります。参照【生活のコツ】"
    },
    "36cd13": {
-    "text": "大学アカウントの落とし穴が 2 つ：SSO-KID の有効化には**大学のメールアドレス以外は使えません**。学内 Wi-Fi のアカウントは SSO-KID@kitenet で、パスワードは SSO-KID を有効化したときに設定したものです。参照【在留手続き】"
+    "text": "SSO-KIDのアクティベーション時には、パスワード再設定用としてすぐ受信できるメールアドレスを登録します。九大の全学基本メールアドレス（@m.kyushu-u.ac.jp、@s.kyushu-u.ac.jp）は登録できず、SMSも利用できません。 学内無線LANには kitenet と edunet があります。kitenet のログインIDは SSO-KID@kitenet、edunet は SSO-KID@edunet で、どちらも SSO-KID のパスワードを使います。正課生（学部生・大学院生）のSSO-KIDは学生証裏面に記載された10桁です。非正課生（研究生等）は所属の学務担当窓口に確認してください。"
    },
    "082061": {
     "text": "緊急時の連絡先"
@@ -19170,7 +21442,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "Fukuoka City sorts household waste into three types on a fixed collection schedule, and **you must use the designated bags** (sold at convenience stores and supermarkets, with different printing for each type). Burnable waste is collected twice a week, the rest once a month. Collection is mostly at night: put your bags out between sunset the day before and midnight. The city website has a search where you enter an item name to find its category. See【Life Tips】"
    },
    "36cd13": {
-    "text": "Two traps with the university account: activating your SSO-KID **cannot be done with any address other than your university email**. The campus Wi-Fi username is SSO-KID@kitenet, and the password is the one you set when you activated the SSO-KID. See【Residence Procedures】"
+    "text": "When activating your SSO-KID, register an email address you can access promptly for password recovery. Kyushu University's primary email addresses (@m.kyushu-u.ac.jp and @s.kyushu-u.ac.jp) and SMS cannot be used. Kyushu University has two campus Wi-Fi services: kitenet and edunet. Use SSO-KID@kitenet for kitenet and SSO-KID@edunet for edunet; both use your SSO-KID password. For regular students (undergraduate and graduate students), the 10-digit SSO-KID is printed on the back of the student card. Non-regular students, such as research students, should obtain their SSO-KID from their department's academic affairs office."
    },
    "082061": {
     "text": "Emergency contacts"
@@ -19428,7 +21700,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "후쿠오카시의 쓰레기는 세 종류로 나뉘어 정기 수거됩니다. **지정 봉투를 사용해야 합니다**(편의점과 슈퍼에서 판매하며 종류별로 봉투의 인쇄가 다릅니다). 타는 쓰레기는 주 2회, 나머지는 월 1회. 야간 수거가 중심이라, 보통 수거일 전날 해가 진 뒤부터 24시 사이에 내놓습니다. 시 공식 사이트에는 품목명을 입력해 분류를 찾는 검색 시스템이 있습니다. 참조【생활의 요령】"
    },
    "36cd13": {
-    "text": "대학 계정의 함정이 두 가지: SSO-KID 활성화에는 **대학 메일 이외의 주소는 쓸 수 없습니다**. 교내 Wi-Fi 계정은 SSO-KID@kitenet이고, 비밀번호는 SSO-KID를 활성화할 때 설정한 그것입니다. 참조【체류 수속】"
+    "text": "SSO-KID를 활성화할 때 비밀번호 재설정용으로 바로 확인할 수 있는 이메일 주소를 등록해야 합니다. 규슈대학교의 기본 이메일 주소(@m.kyushu-u.ac.jp, @s.kyushu-u.ac.jp)는 등록할 수 없으며 SMS도 사용할 수 없습니다. 규슈대학교 교내 무선망에는 kitenet과 edunet이 있습니다. kitenet에는 SSO-KID@kitenet, edunet에는 SSO-KID@edunet을 사용하며, 두 서비스 모두 SSO-KID 비밀번호를 입력합니다. 정규 과정 학생(학부생·대학원생)의 10자리 SSO-KID는 학생증 뒷면에 표시되어 있습니다. 비정규 과정 학생(연구생 등)은 소속 학무 담당 창구에서 SSO-KID를 확인하세요."
    },
    "082061": {
     "text": "긴급 연락처"
@@ -19662,7 +21934,7 @@ window.ARTICLES_BODY_I18N = {
     "text": "En la ciudad de Fukuoka la basura se recoge por tipos de forma periódica, y **es obligatorio usar las bolsas designadas**（se venden en tiendas de conveniencia y supermercados, con impresión distinta según el tipo）. La basura combustible se recoge 2 veces por semana y el resto 1 vez al mes, casi siempre de noche; normalmente se saca entre la puesta de sol y las 24:00 del día anterior al de la recogida. La web oficial de la ciudad tiene un buscador de clasificación en chino: introduces el nombre del objeto y te dice cómo clasificarlo. Véase 【Consejos de vida diaria】"
    },
    "36cd13": {
-    "text": "Dos trampas con las cuentas de la universidad: para activar SSO-KID **no se puede usar un correo distinto del correo de la universidad**; la cuenta del WiFi del campus es SSO-KID@kitenet, y la contraseña es la que pusiste al activar SSO-KID. Véase 【Trámites de residencia】"
+    "text": "Al activar el SSO-KID, registre una dirección de correo a la que pueda acceder de inmediato para recuperar la contraseña. No se admiten las direcciones institucionales de Kyushu University (@m.kyushu-u.ac.jp y @s.kyushu-u.ac.jp) ni los SMS. La red Wi-Fi del campus incluye kitenet y edunet. Para kitenet use SSO-KID@kitenet y para edunet, SSO-KID@edunet; ambas requieren la contraseña del SSO-KID. En estudiantes de programas regulares (grado y posgrado), el SSO-KID de 10 dígitos figura en el reverso de la tarjeta de estudiante. Los estudiantes de programas no regulares, como los de investigación, deben solicitarlo a la oficina académica de su departamento."
    },
    "082061": {
     "text": "Teléfonos de emergencia"
@@ -19901,7 +22173,7 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "title": "必要書類の準備",
-      "desc": "登録コード ＋ @s.kyushu-u.ac.jp 以外のメールアドレス。"
+      "desc": "SSO-KIDのアクティベーション時には、パスワード再設定用としてすぐ受信できるメールアドレスを登録します。九大の全学基本メールアドレス（@m.kyushu-u.ac.jp、@s.kyushu-u.ac.jp）は登録できず、SMSも利用できません。"
      },
      {
       "title": "SSO-KID の有効化",
@@ -20684,7 +22956,7 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "title": "Prepare the required items",
-      "desc": "Registration code + an email address other than @s.kyushu-u.ac.jp."
+      "desc": "When activating your SSO-KID, register an email address you can access promptly for password recovery. Kyushu University's primary email addresses (@m.kyushu-u.ac.jp and @s.kyushu-u.ac.jp) and SMS cannot be used."
      },
      {
       "title": "Activate the SSO-KID",
@@ -21467,7 +23739,7 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "title": "서류 준비",
-      "desc": "등록 코드 + @s.kyushu-u.ac.jp 이외의 메일 주소."
+      "desc": "SSO-KID를 활성화할 때 비밀번호 재설정용으로 바로 확인할 수 있는 이메일 주소를 등록해야 합니다. 규슈대학교의 기본 이메일 주소(@m.kyushu-u.ac.jp, @s.kyushu-u.ac.jp)는 등록할 수 없으며 SMS도 사용할 수 없습니다."
      },
      {
       "title": "SSO-KID 활성화",
@@ -22250,7 +24522,7 @@ window.ARTICLES_BODY_I18N = {
      },
      {
       "title": "Prepara los materiales",
-      "desc": "Código de registro + una dirección de correo que no sea @s.kyushu-u.ac.jp."
+      "desc": "Al activar el SSO-KID, registre una dirección de correo a la que pueda acceder de inmediato para recuperar la contraseña. No se admiten las direcciones institucionales de Kyushu University (@m.kyushu-u.ac.jp y @s.kyushu-u.ac.jp) ni los SMS."
      },
      {
       "title": "Activa el SSO-KID",

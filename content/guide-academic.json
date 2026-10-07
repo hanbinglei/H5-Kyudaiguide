@@ -25,7 +25,7 @@
     {
       "id": "3b7366",
       "type": "paragraph",
-      "text": "SSO-KID 激活不能使用学校邮箱以外的邮箱。 各类证明统一从大学官网证明书入口选择本人学籍与领取方式，不是只有大学院生才使用ku-cert。详细条件见本篇「证明书」小节。"
+      "text": "激活 SSO-KID 时需登记一个可及时收信的密码重设邮箱；九大全学基本邮箱（@m.kyushu-u.ac.jp、@s.kyushu-u.ac.jp）不能登记，短信也不可用。 各类证明统一从大学官网证明书入口选择本人学籍与领取方式，不是只有大学院生才使用ku-cert。详细条件见本篇「证明书」小节。"
     },
     {
       "id": "5ed19b",
@@ -48,8 +48,8 @@
           "url": "https://outlook.office.com/mail/"
         },
         {
-          "text": "SSO 密码/账号（passchg）",
-          "url": "https://ci.iii.kyushu-u.ac.jp/m/"
+          "text": "SSO账号与密码恢复（官方说明）",
+          "url": "https://web.sso.kyushu-u.ac.jp/idpw/lost.html"
         }
       ]
     },
@@ -183,6 +183,324 @@
         {
           "text": "所属学务课咨询指引（公开咨询入口；不是学生证表原件）",
           "url": "https://notepm.jp/sharing/2ea39b87-b202-435c-bc50-938b9e5a9488"
+        }
+      ]
+    },
+    {
+      "id": "m7card0",
+      "type": "heading",
+      "text": "学生证遗失、损坏与再发行"
+    },
+    {
+      "id": "studentid1",
+      "type": "paragraph",
+      "text": "适用范围：九州大学学生。遗失后应尽快停用；再发行向所属学务窗口办理。受理窗口和具体流程可能因学部、学府而异。"
+    },
+    {
+      "id": "studentid2",
+      "type": "steps",
+      "items": [
+        {
+          "title": "遗失后先停用",
+          "desc": "从学校官方IC卡故障页提交停用申请；这是停卡手续，不是再发行申请。若在再发行前找回，另交恢复申请，窗口处理后下一个工作日恢复使用。"
+        },
+        {
+          "title": "按学籍类别申请再发行",
+          "desc": "确认无法找回或卡片损坏时，向所属学务窗口申请。正课生使用学生证再发行申请；非正课生（如研究生）使用个人卡借用申请并选择再发行，附本人正面照片。"
+        },
+        {
+          "title": "按当前指引缴费并本人领取",
+          "desc": "按IC卡团队及所属学务窗口的当前指引缴费并提交所需收据。申请书送达IC卡业务室后约1周；不是从用户交表日计算或保证一周。卡片由本人领取，并按窗口要求办理受领确认/盖章。"
+        }
+      ]
+    },
+    {
+      "id": "studentid3",
+      "type": "fee_table",
+      "headers": [
+        "项目",
+        "官方说明"
+      ],
+      "rows": [
+        [
+          "再发行费",
+          "现行学生证再发行页面列明2,000日元。遗失及使用者责任造成的明显破损等属于收费例。"
+        ],
+        [
+          "可能免费情形",
+          "非使用者责任造成的故障等可能免费；是否适用由IC卡团队/所属窗口按具体原因确认。"
+        ],
+        [
+          "处理时间与领取",
+          "申请书送达IC卡业务室后约1周；本人领取并按窗口要求办理受领确认/盖章。不是从用户交表日起保证一周。"
+        ]
+      ]
+    },
+    {
+      "id": "studentid4",
+      "type": "paragraph",
+      "text": "农业部局另公布自2025-12起的在线遗失/恢复申请流程，仅适用于该部局；其他学生按所属窗口当前指引办理。"
+    },
+    {
+      "id": "studentid5",
+      "type": "links",
+      "items": [
+        {
+          "text": "IC卡遗失与停用指引",
+          "url": "https://web.card.kyushu-u.ac.jp/trouble/index.html"
+        },
+        {
+          "text": "学生证再发行手续",
+          "url": "https://web.card.kyushu-u.ac.jp/students/trouble.html"
+        },
+        {
+          "text": "IC卡收费条件",
+          "url": "https://web.card.kyushu-u.ac.jp/warranty/index.html"
+        },
+        {
+          "text": "2026学生手册",
+          "url": "https://www.kyushu-u.ac.jp/f/64451/R8_guidebook_half.pdf"
+        },
+        {
+          "text": "农业部局专用遗失手续",
+          "url": "https://www.agr.kyushu-u.ac.jp/gakusei/helpie_faq/q%EF%BC%9A%E5%AD%A6%E7%94%9F%E8%A8%BC%E3%82%92%E7%B4%9B%E5%A4%B1%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F%E3%81%8C%E3%81%A9%E3%81%86%E3%81%99%E3%82%8C%E3%81%B0%E3%82%88%E3%81%84%E3%81%A7%E3%81%99%E3%81%8B"
+        }
+      ]
+    },
+    {
+      "id": "m7soft0",
+      "type": "heading",
+      "text": "Office软件与离校前备份"
+    },
+    {
+      "id": "software1",
+      "type": "paragraph",
+      "text": "适用范围：符合九州大学Microsoft 365服务资格且持有效SSO-KID的成员；具体服务随账号类型/学籍而异。首次使用需完成多重身份验证（MFA）。"
+    },
+    {
+      "id": "software2",
+      "type": "subheading",
+      "text": "Office与Microsoft 365"
+    },
+    {
+      "id": "software3",
+      "type": "steps",
+      "items": [
+        {
+          "title": "先核对账号资格并完成MFA",
+          "desc": "登录学校Microsoft 365入口前，确认SSO-KID已启用并按官方流程配置MFA。官方页面提示，SSO-KID以a开头的账号通常不能使用Microsoft 365 Apps，但页面列有例外；按本人账号资格确认，不作全体成员承诺。"
+        },
+        {
+          "title": "按设备类型确认Office许可",
+          "desc": "符合资格的学生/教职员可按学校说明在个人电脑使用Microsoft 365 Apps。学校设备与个人电脑的许可方式不同；请按设备管理方和官方说明确认，不要仅凭“学校配发”推定许可类型。"
+        }
+      ]
+    },
+    {
+      "id": "software4",
+      "type": "paragraph",
+      "text": "九大内部升学时，官方说明SSO-KID和密码可延续；实际Microsoft 365服务资格仍依账号与学籍状态判断。毕业、退职等只有在本人资格实际终止时才适用账号/服务停止规则。"
+    },
+    {
+      "id": "software5",
+      "type": "subheading",
+      "text": "毕业、离职或离校前备份"
+    },
+    {
+      "id": "software6",
+      "type": "list",
+      "items": [
+        {
+          "text": "离校前提前备份需要保留的个人文件。"
+        },
+        {
+          "text": "资格实际终止后，官方列出的Office/Teams删除宽限期为即日，SharePoint/OneDrive为100天；100天是数据删除期限，不是可登录或取回文件的期限。"
+        }
+      ]
+    },
+    {
+      "id": "software7",
+      "type": "links",
+      "items": [
+        {
+          "text": "Microsoft 365服务说明",
+          "url": "https://ci.iii.kyushu-u.ac.jp/365/"
+        },
+        {
+          "text": "Office应用安装说明",
+          "url": "https://ci.iii.kyushu-u.ac.jp/howto/office_apps/"
+        },
+        {
+          "text": "Microsoft 365初始设置",
+          "url": "https://ci.iii.kyushu-u.ac.jp/1st/index_new/"
+        },
+        {
+          "text": "OneDrive使用说明",
+          "url": "https://ci.iii.kyushu-u.ac.jp/365/onedrive/"
+        },
+        {
+          "text": "Microsoft 365常见问题",
+          "url": "https://ci.iii.kyushu-u.ac.jp/365/q_a/"
+        },
+        {
+          "text": "SSO服务目录与资格终止后的处理",
+          "url": "https://web.sso.kyushu-u.ac.jp/ssokid/services.html"
+        },
+        {
+          "text": "Microsoft 365使用规则",
+          "url": "https://ci.iii.kyushu-u.ac.jp/365/pdf/essential.pdf"
+        },
+        {
+          "text": "学生SSO-KID与内部升学",
+          "url": "https://web.sso.kyushu-u.ac.jp/ssokid/students.html"
+        }
+      ]
+    },
+    {
+      "id": "m7lib0",
+      "type": "heading",
+      "text": "图书馆首次使用：入馆、借还与学习空间"
+    },
+    {
+      "id": "m7lib1",
+      "type": "paragraph",
+      "text": "核对日：2026-10-07。以下适用于中央、理系、医学、艺术工学、筑紫五馆；各馆的使用条件和服务不同。图书馆利用证可在九大图书馆使用，但不代表每馆规则相同。实际还书到期日以 My Page／借阅记录为准。"
+    },
+    {
+      "id": "m7lib2",
+      "type": "subheading",
+      "text": "首次入馆与借书"
+    },
+    {
+      "id": "m7lib3",
+      "type": "steps",
+      "items": [
+        {
+          "title": "带好学生证",
+          "desc": "九大学生的学生证可作图书馆利用证。非正课生若学生证不是 IC 卡，请向所属学生係申请 IC 个人卡。"
+        },
+        {
+          "title": "通过入口闸机",
+          "desc": "设有闸机的馆，将学生证或图书馆利用证贴近读卡处。忘带时向柜台人员求助；柜台较远可按对讲机。"
+        },
+        {
+          "title": "办理借阅并先看本馆日历",
+          "desc": "借书时把资料和图书馆利用证带到柜台。开放时间按目标馆的当前日历确认。"
+        }
+      ]
+    },
+    {
+      "id": "m7lib4",
+      "type": "subheading",
+      "text": "一般借阅量与期限（各馆另有特殊借阅条件）"
+    },
+    {
+      "id": "m7lib5",
+      "type": "fee_table",
+      "headers": [
+        "图书馆／身份",
+        "借阅量",
+        "期限"
+      ],
+      "rows": [
+        [
+          "中央／理系／医学",
+          "图书与期刊合计10册",
+          "图书2周；期刊1周"
+        ],
+        [
+          "艺术工学：本科生",
+          "图书10册；期刊5册",
+          "图书15日；期刊8日"
+        ],
+        [
+          "艺术工学：大学院生（硕士/博士）",
+          "图书20册；期刊10册",
+          "图书30天；期刊8日"
+        ],
+        [
+          "筑紫",
+          "图书10册；期刊5册",
+          "图书2周；期刊2天"
+        ]
+      ]
+    },
+    {
+      "id": "m7lib6",
+      "type": "subheading",
+      "text": "续借、归还与预约"
+    },
+    {
+      "id": "m7lib7",
+      "type": "list",
+      "items": [
+        {
+          "text": "在到期日前通过 My Page 或柜台续借。一般只能续借1次；有他人预约或资料为期刊时不能续借。筑紫馆的图书最多可续借2次；新期限从办理日开始计算。"
+        },
+        {
+          "text": "在柜台归还；闭馆时可用还书箱。九大馆藏可在办理借出的图书馆以外的九大图书馆归还。只要有资料逾期，就不能新借或续借；逾期几天，停借相同天数。"
+        },
+        {
+          "text": "他人已借走的图书，可从九大馆藏目录的“预约·取寄”按钮申请，或向柜台咨询。部分资料不接受预约，送达也可能需要时间。"
+        }
+      ]
+    },
+    {
+      "id": "m7lib8",
+      "type": "subheading",
+      "text": "学习室与特别开放"
+    },
+    {
+      "id": "m7lib9",
+      "type": "list",
+      "items": [
+        {
+          "text": "学习室是否可预约、预约方式与使用条件请按目标馆的当前页面确认，必要时咨询该馆。"
+        },
+        {
+          "text": "医学图书馆的24小时无人开放仅限病院地区学生、教职员及医疗从业人员，且须事先申请；不等于所有医学相关学生都可使用。"
+        }
+      ]
+    },
+    {
+      "id": "m7lib10",
+      "type": "links",
+      "items": [
+        {
+          "text": "学生／教职员图书馆使用手续",
+          "url": "https://www.lib.kyushu-u.ac.jp/ja/services/members/procedures"
+        },
+        {
+          "text": "借阅、续借、归还与预约规则",
+          "url": "https://www.lib.kyushu-u.ac.jp/ja/services/members/borrow"
+        },
+        {
+          "text": "九大图书馆目录（查询馆藏与预约选项）",
+          "url": "https://catalog.lib.kyushu-u.ac.jp/ja"
+        },
+        {
+          "text": "五馆列表、当前开馆日历与联系入口",
+          "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries"
+        },
+        {
+          "text": "中央图书馆借阅说明（含馆别特殊借阅）",
+          "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/central/guides_members"
+        },
+        {
+          "text": "理系图书馆借阅说明（含馆别特殊借阅）",
+          "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/scitech/guides_members"
+        },
+        {
+          "text": "医学图书馆借阅说明（含馆别特殊借阅）",
+          "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/medical/guides_members"
+        },
+        {
+          "text": "艺术工学图书馆借阅说明（含馆别特殊借阅）",
+          "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/design/guides_members-0"
+        },
+        {
+          "text": "筑紫图书馆借阅说明（含馆别特殊借阅）",
+          "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/chikushi/guides_members"
         }
       ]
     },

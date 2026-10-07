@@ -1,7 +1,7 @@
 // data-articles.js — 12 篇主指南（cat 1–12）+ 置顶反诈（cat 13）
 // 由 tools/build_guide_articles.js 从 content/ 生成，勿手改。
 // **要改内容请改 content/<article>.json**，然后重跑构建。
-// 共 18 篇 · 845 块
+// 共 18 篇 · 903 块
 //
 // ⚠️ 这里不写生成日期。CI 的做法是「重跑构建 → git diff 必须为空」，
 //    用来抓「改了 content/ 却忘了重跑」。而日期戳会让产物每天都不一样，
@@ -585,7 +585,7 @@ window.ARTICLES = [
    "SSO"
   ],
   "author": "管理员",
-  "updatedAt": "2026-08-15",
+  "updatedAt": "2026-10-07",
   "blocks": [
    {
     "id": "8988f9",
@@ -663,6 +663,44 @@ window.ARTICLES = [
     "id": "3eed49",
     "type": "paragraph",
     "text": "搬家后（含同一市区町村内搬家），须在 **14 天以内** 到新住址的区役所办理迁入申报，并在在留卡背面更新住址。需带：在留卡、护照、搬家前的住民票（如有）。跨市区搬迁的，须先在原住地区役所办 転出届，再到新住地办 転入届。"
+   },
+   {
+    "id": "m7move0",
+    "type": "heading",
+    "text": "搬家后同步更新校内地址资料"
+   },
+   {
+    "id": "m7moveIntro",
+    "type": "paragraph",
+    "text": "本节确认适用于九州大学国际学生及研究人员：除区役所办理地址与在留卡手续外，还要另行通知大学所属部门。向市区町村申报不代表校内资料已更新；其他身份请向所属窗口确认。"
+   },
+   {
+    "id": "m7move1",
+    "type": "steps",
+    "items": [
+     {
+      "title": "在读学生联系学生担当",
+      "desc": "向所属学部或学府的学生担当窗口报告地址变更。"
+     },
+     {
+      "title": "研究者联系部门窗口",
+      "desc": "向所属部门负责窗口报告地址变更。公开指引没有说明使用哪个线上表单/系统，也未确认各校内记录会自动联动；请向窗口确认办理方法及需要更新的项目。"
+     }
+    ]
+   },
+   {
+    "id": "m7moveLinks",
+    "type": "links",
+    "items": [
+     {
+      "text": "搬家后必要手续",
+      "url": "https://isc.kyushu-u.ac.jp/invitation/support/accommodation.php"
+     },
+     {
+      "text": "各学部/学府学生担当窗口",
+      "url": "https://www.kyushu-u.ac.jp/ja/contact/student_section/"
+     }
+    ]
    },
    {
     "id": "ec20eb",
@@ -750,7 +788,7 @@ window.ARTICLES = [
    },
    {
     "id": "d66ea0",
-    "text": "登录/激活学校统一账号（SSO-KID）时若一直登不上，可参考以下入口。注意：SSO-KID 激活**不能使用学校邮箱以外的邮箱**。",
+    "text": "激活 SSO-KID 时需登记一个可及时收信的密码重设邮箱；九大全学基本邮箱（@m.kyushu-u.ac.jp、@s.kyushu-u.ac.jp）不能登记，短信也不可用。",
     "type": "paragraph"
    },
    {
@@ -1081,7 +1119,7 @@ window.ARTICLES = [
    "周船寺"
   ],
   "author": "管理员",
-  "updatedAt": "2026-09-30",
+  "updatedAt": "2026-10-07",
   "blocks": [
    {
     "id": "67f6a8",
@@ -1378,6 +1416,98 @@ window.ARTICLES = [
      {
       "text": "九州大学留学生宿舍：设备与各宿舍页面",
       "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/housing/dormitory"
+     }
+    ]
+   },
+   {
+    "id": "m7dorm0",
+    "type": "heading",
+    "text": "宿舍钥匙与报修：按住所处理"
+   },
+   {
+    "id": "m7dormIntro",
+    "type": "paragraph",
+    "text": "本节仅覆盖伊都校区 D1、D2、D3 与伊都協奏館；SETTLE 和其他校区住宿的管理、夜间规则不同，请按各自入住资料联系。"
+   },
+   {
+    "id": "m7dorm1",
+    "type": "subheading",
+    "text": "钥匙遗失或反锁"
+   },
+   {
+    "id": "m7dorm2",
+    "type": "list",
+    "items": [
+     {
+      "text": "遗失钥匙或门卡：九大学生寄宿舎公开规约要求立即向本栋管理人报告；补发手续及是否收费按本人住所的当前入住说明确认。"
+     },
+     {
+      "text": "反锁或夜间求助：先联系本住所管理人室。公开资料未给出适用于所有宿舍的开锁步骤或统一夜间电话；请按本人入住材料核实当期联系人，不套用其他宿舍的规则。"
+     }
+    ]
+   },
+   {
+    "id": "m7dorm3",
+    "type": "subheading",
+    "text": "日常报修与校区安全急事"
+   },
+   {
+    "id": "m7dorm4",
+    "type": "list",
+    "items": [
+     {
+      "text": "漏水、设备损坏等日常故障：联系所属宿舍管理人室确认报修方式，并说明房间与故障情况。"
+     },
+     {
+      "text": "伊都校区发生火灾、急救或犯罪等人身安全紧急情况：先确保安全，拨 119（消防/急救）或 110（警察），再联系伊都校区警务员室 092-802-2305。该电话用于校区紧急事件，不是日常宿舍维修热线。"
+     }
+    ]
+   },
+   {
+    "id": "m7dorm5",
+    "type": "fee_table",
+    "headers": [
+     "伊都学生寄宿舎",
+     "管理人室电话"
+    ],
+    "rows": [
+     [
+      "D1",
+      "092-807-7188"
+     ],
+     [
+      "D2",
+      "092-806-6841"
+     ],
+     [
+      "D3",
+      "092-807-7072"
+     ],
+     [
+      "伊都協奏館",
+      "092-806-5779"
+     ]
+    ]
+   },
+   {
+    "id": "m7dormLinks",
+    "type": "links",
+    "items": [
+     {
+      "text": "学生寄宿舎利用规约",
+      "url": "https://dormitory.student.kyushu-u.ac.jp/_userdata/kokoroe_J.pdf"
+     },
+     {
+      "text": "宿舍信息与管理人室电话",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/student/housing/dormitory"
+     },
+     {
+      "text": "国际学生宿舍联系资料",
+      "url": "https://www.isc.kyushu-u.ac.jp/intlweb/web/wp-content/uploads/2025/04/JP_USEFUL-INFORMATION-1.pdf"
+     },
+     {
+      "text": "校园紧急联络先",
+      "url": "https://chc.kyushu-u.ac.jp/emergency/"
      }
     ]
    },
@@ -2112,7 +2242,7 @@ window.ARTICLES = [
    "eduroam"
   ],
   "author": "管理员",
-  "updatedAt": "2026-09-30",
+  "updatedAt": "2026-10-07",
   "blocks": [
    {
     "id": "a3ea1a",
@@ -2322,22 +2452,97 @@ window.ARTICLES = [
    {
     "id": "a747f8",
     "type": "heading",
-    "text": "校园网络"
+    "text": "SSO账号与校园Wi-Fi"
    },
    {
     "id": "7bdf67",
     "type": "paragraph",
-    "text": "拿到学校账号后即可连接校内 WiFi（kitenet）；eduroam 是跨校 WiFi 服务，需另行注册。官方手册页需先用 SSO-KID 登录后查看。"
+    "text": "适用范围：九州大学学生；SSO-KID的领取方式依正课生/非正课生学籍而不同。校园Wi-Fi覆盖和设备设置以官方服务页面为准，不代表每个校区或室内位置均有信号。"
+   },
+   {
+    "id": "accounthelp2",
+    "type": "subheading",
+    "text": "SSO-KID激活与密码恢复"
+   },
+   {
+    "id": "accounthelp3",
+    "type": "steps",
+    "items": [
+     {
+      "title": "激活时准备信息并登记恢复邮箱",
+      "desc": "按官方页面输入SSO-KID、注册代码、出生日期及验证码，并登记可及时收信的密码恢复邮箱。@m.kyushu-u.ac.jp 与 @s.kyushu-u.ac.jp 全学基本邮箱不能登记；短信不可用于恢复。"
+     },
+     {
+      "title": "有注册代码时自行重设密码",
+      "desc": "使用官方忘记密码入口并通过已登记邮箱收取验证信息；链接/代码须在15分钟内使用。若缺少注册代码，按官方再发行流程办理。"
+     },
+     {
+      "title": "确认学籍与线下办理条件",
+      "desc": "正课生（学部、大学院）通常可从学生证取得SSO-KID和注册代码；非正课生（如研究生）向所属学务窗口取得。若无法在线重设，学生须携学生证或其他身份证明到信息统括本部认证基础事业室或所属学务窗口；学生密码不能通过电话或邮件初始化。认证基础事业室公布的受理时间为工作日8:30–12:00、13:00–17:00；所属学务窗口按各自公告办理。"
+     }
+    ]
+   },
+   {
+    "id": "accounthelp4",
+    "type": "subheading",
+    "text": "校园Wi-Fi与故障排查"
    },
    {
     "id": "72a8d0",
-    "text": "校内 WiFi（kitenet）的登录账号为 **SSO-KID@kitenet**（SSO-KID 为学生证背面的 10 位数字），密码为 SSO-KID 的密码（与 Campusmate 相同）。",
-    "type": "paragraph"
+    "type": "paragraph",
+    "text": "校内无线网有 kitenet 和 edunet：kitenet 登录 ID 为 SSO-KID@kitenet，edunet 为 SSO-KID@edunet；两者均使用 SSO-KID 密码。正课生（学部生、大学院生）的 SSO-KID 是学生证背面的10位数字；非正课生（如研究生）请向所属学务窗口确认。"
+   },
+   {
+    "id": "accounthelp6",
+    "type": "list",
+    "items": [
+     {
+      "text": "kitenet面向学生、教职员；edunet主要用于学生自带电脑及讲义室教学。官方说明称kitenet覆盖“几乎全校”，但没有逐校区的覆盖保证。"
+     },
+     {
+      "text": "eduroam是独立漫游服务，需要另行申请国立信息学研究所（NII）发放的账号；校内仅在官方地点列表标示处可用。"
+     },
+     {
+      "text": "仍无法连接时，可联系九大网络服务窗口：092-802-2687、092-802-2688、092-802-2686；n-room@iii.kyushu-u.ac.jp。"
+     }
+    ]
    },
    {
     "id": "0fb853",
     "type": "links",
     "items": [
+     {
+      "text": "SSO-KID激活指南",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/activation.html"
+     },
+     {
+      "text": "忘记SSO密码时",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/lost.html"
+     },
+     {
+      "text": "SSO-KID与注册代码再发行",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/reissue.html"
+     },
+     {
+      "text": "学生SSO-KID与学籍区分",
+      "url": "https://web.sso.kyushu-u.ac.jp/ssokid/students.html"
+     },
+     {
+      "text": "信息咨询室ICT说明",
+      "url": "https://www.artsci.kyushu-u.ac.jp/~csr/services.html"
+     },
+     {
+      "text": "Wi-Fi连接故障FAQ",
+      "url": "https://web.sso.kyushu-u.ac.jp/contactus/faq.html"
+     },
+     {
+      "text": "校园Wi-Fi总览与支持联系方式",
+      "url": "https://www.nc.kyushu-u.ac.jp/campus-wifi/"
+     },
+     {
+      "text": "eduroam官方说明",
+      "url": "https://www.nc.kyushu-u.ac.jp/net/eduroam/"
+     },
      {
       "text": "kitenet 设置手册：iOS",
       "url": "https://www.nc.kyushu-u.ac.jp/kitenet/manual-ios/"
@@ -2357,10 +2562,6 @@ window.ARTICLES = [
      {
       "text": "KiteNet 连接手册（英文）",
       "url": "https://www.nc.kyushu-u.ac.jp/en/kitenet-en/#manual"
-     },
-     {
-      "text": "eduroam 注册",
-      "url": "https://www.nc.kyushu-u.ac.jp/net/eduroam/"
      }
     ]
    },
@@ -2438,7 +2639,7 @@ window.ARTICLES = [
    {
     "id": "3b7366",
     "type": "paragraph",
-    "text": "SSO-KID 激活不能使用学校邮箱以外的邮箱。 各类证明统一从大学官网证明书入口选择本人学籍与领取方式，不是只有大学院生才使用ku-cert。详细条件见本篇「证明书」小节。"
+    "text": "激活 SSO-KID 时需登记一个可及时收信的密码重设邮箱；九大全学基本邮箱（@m.kyushu-u.ac.jp、@s.kyushu-u.ac.jp）不能登记，短信也不可用。 各类证明统一从大学官网证明书入口选择本人学籍与领取方式，不是只有大学院生才使用ku-cert。详细条件见本篇「证明书」小节。"
    },
    {
     "id": "5ed19b",
@@ -2461,8 +2662,8 @@ window.ARTICLES = [
       "url": "https://outlook.office.com/mail/"
      },
      {
-      "text": "SSO 密码/账号（passchg）",
-      "url": "https://ci.iii.kyushu-u.ac.jp/m/"
+      "text": "SSO账号与密码恢复（官方说明）",
+      "url": "https://web.sso.kyushu-u.ac.jp/idpw/lost.html"
      }
     ]
    },
@@ -2596,6 +2797,324 @@ window.ARTICLES = [
      {
       "text": "所属学务课咨询指引（公开咨询入口；不是学生证表原件）",
       "url": "https://notepm.jp/sharing/2ea39b87-b202-435c-bc50-938b9e5a9488"
+     }
+    ]
+   },
+   {
+    "id": "m7card0",
+    "type": "heading",
+    "text": "学生证遗失、损坏与再发行"
+   },
+   {
+    "id": "studentid1",
+    "type": "paragraph",
+    "text": "适用范围：九州大学学生。遗失后应尽快停用；再发行向所属学务窗口办理。受理窗口和具体流程可能因学部、学府而异。"
+   },
+   {
+    "id": "studentid2",
+    "type": "steps",
+    "items": [
+     {
+      "title": "遗失后先停用",
+      "desc": "从学校官方IC卡故障页提交停用申请；这是停卡手续，不是再发行申请。若在再发行前找回，另交恢复申请，窗口处理后下一个工作日恢复使用。"
+     },
+     {
+      "title": "按学籍类别申请再发行",
+      "desc": "确认无法找回或卡片损坏时，向所属学务窗口申请。正课生使用学生证再发行申请；非正课生（如研究生）使用个人卡借用申请并选择再发行，附本人正面照片。"
+     },
+     {
+      "title": "按当前指引缴费并本人领取",
+      "desc": "按IC卡团队及所属学务窗口的当前指引缴费并提交所需收据。申请书送达IC卡业务室后约1周；不是从用户交表日计算或保证一周。卡片由本人领取，并按窗口要求办理受领确认/盖章。"
+     }
+    ]
+   },
+   {
+    "id": "studentid3",
+    "type": "fee_table",
+    "headers": [
+     "项目",
+     "官方说明"
+    ],
+    "rows": [
+     [
+      "再发行费",
+      "现行学生证再发行页面列明2,000日元。遗失及使用者责任造成的明显破损等属于收费例。"
+     ],
+     [
+      "可能免费情形",
+      "非使用者责任造成的故障等可能免费；是否适用由IC卡团队/所属窗口按具体原因确认。"
+     ],
+     [
+      "处理时间与领取",
+      "申请书送达IC卡业务室后约1周；本人领取并按窗口要求办理受领确认/盖章。不是从用户交表日起保证一周。"
+     ]
+    ]
+   },
+   {
+    "id": "studentid4",
+    "type": "paragraph",
+    "text": "农业部局另公布自2025-12起的在线遗失/恢复申请流程，仅适用于该部局；其他学生按所属窗口当前指引办理。"
+   },
+   {
+    "id": "studentid5",
+    "type": "links",
+    "items": [
+     {
+      "text": "IC卡遗失与停用指引",
+      "url": "https://web.card.kyushu-u.ac.jp/trouble/index.html"
+     },
+     {
+      "text": "学生证再发行手续",
+      "url": "https://web.card.kyushu-u.ac.jp/students/trouble.html"
+     },
+     {
+      "text": "IC卡收费条件",
+      "url": "https://web.card.kyushu-u.ac.jp/warranty/index.html"
+     },
+     {
+      "text": "2026学生手册",
+      "url": "https://www.kyushu-u.ac.jp/f/64451/R8_guidebook_half.pdf"
+     },
+     {
+      "text": "农业部局专用遗失手续",
+      "url": "https://www.agr.kyushu-u.ac.jp/gakusei/helpie_faq/q%EF%BC%9A%E5%AD%A6%E7%94%9F%E8%A8%BC%E3%82%92%E7%B4%9B%E5%A4%B1%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F%E3%81%8C%E3%81%A9%E3%81%86%E3%81%99%E3%82%8C%E3%81%B0%E3%82%88%E3%81%84%E3%81%A7%E3%81%99%E3%81%8B"
+     }
+    ]
+   },
+   {
+    "id": "m7soft0",
+    "type": "heading",
+    "text": "Office软件与离校前备份"
+   },
+   {
+    "id": "software1",
+    "type": "paragraph",
+    "text": "适用范围：符合九州大学Microsoft 365服务资格且持有效SSO-KID的成员；具体服务随账号类型/学籍而异。首次使用需完成多重身份验证（MFA）。"
+   },
+   {
+    "id": "software2",
+    "type": "subheading",
+    "text": "Office与Microsoft 365"
+   },
+   {
+    "id": "software3",
+    "type": "steps",
+    "items": [
+     {
+      "title": "先核对账号资格并完成MFA",
+      "desc": "登录学校Microsoft 365入口前，确认SSO-KID已启用并按官方流程配置MFA。官方页面提示，SSO-KID以a开头的账号通常不能使用Microsoft 365 Apps，但页面列有例外；按本人账号资格确认，不作全体成员承诺。"
+     },
+     {
+      "title": "按设备类型确认Office许可",
+      "desc": "符合资格的学生/教职员可按学校说明在个人电脑使用Microsoft 365 Apps。学校设备与个人电脑的许可方式不同；请按设备管理方和官方说明确认，不要仅凭“学校配发”推定许可类型。"
+     }
+    ]
+   },
+   {
+    "id": "software4",
+    "type": "paragraph",
+    "text": "九大内部升学时，官方说明SSO-KID和密码可延续；实际Microsoft 365服务资格仍依账号与学籍状态判断。毕业、退职等只有在本人资格实际终止时才适用账号/服务停止规则。"
+   },
+   {
+    "id": "software5",
+    "type": "subheading",
+    "text": "毕业、离职或离校前备份"
+   },
+   {
+    "id": "software6",
+    "type": "list",
+    "items": [
+     {
+      "text": "离校前提前备份需要保留的个人文件。"
+     },
+     {
+      "text": "资格实际终止后，官方列出的Office/Teams删除宽限期为即日，SharePoint/OneDrive为100天；100天是数据删除期限，不是可登录或取回文件的期限。"
+     }
+    ]
+   },
+   {
+    "id": "software7",
+    "type": "links",
+    "items": [
+     {
+      "text": "Microsoft 365服务说明",
+      "url": "https://ci.iii.kyushu-u.ac.jp/365/"
+     },
+     {
+      "text": "Office应用安装说明",
+      "url": "https://ci.iii.kyushu-u.ac.jp/howto/office_apps/"
+     },
+     {
+      "text": "Microsoft 365初始设置",
+      "url": "https://ci.iii.kyushu-u.ac.jp/1st/index_new/"
+     },
+     {
+      "text": "OneDrive使用说明",
+      "url": "https://ci.iii.kyushu-u.ac.jp/365/onedrive/"
+     },
+     {
+      "text": "Microsoft 365常见问题",
+      "url": "https://ci.iii.kyushu-u.ac.jp/365/q_a/"
+     },
+     {
+      "text": "SSO服务目录与资格终止后的处理",
+      "url": "https://web.sso.kyushu-u.ac.jp/ssokid/services.html"
+     },
+     {
+      "text": "Microsoft 365使用规则",
+      "url": "https://ci.iii.kyushu-u.ac.jp/365/pdf/essential.pdf"
+     },
+     {
+      "text": "学生SSO-KID与内部升学",
+      "url": "https://web.sso.kyushu-u.ac.jp/ssokid/students.html"
+     }
+    ]
+   },
+   {
+    "id": "m7lib0",
+    "type": "heading",
+    "text": "图书馆首次使用：入馆、借还与学习空间"
+   },
+   {
+    "id": "m7lib1",
+    "type": "paragraph",
+    "text": "核对日：2026-10-07。以下适用于中央、理系、医学、艺术工学、筑紫五馆；各馆的使用条件和服务不同。图书馆利用证可在九大图书馆使用，但不代表每馆规则相同。实际还书到期日以 My Page／借阅记录为准。"
+   },
+   {
+    "id": "m7lib2",
+    "type": "subheading",
+    "text": "首次入馆与借书"
+   },
+   {
+    "id": "m7lib3",
+    "type": "steps",
+    "items": [
+     {
+      "title": "带好学生证",
+      "desc": "九大学生的学生证可作图书馆利用证。非正课生若学生证不是 IC 卡，请向所属学生係申请 IC 个人卡。"
+     },
+     {
+      "title": "通过入口闸机",
+      "desc": "设有闸机的馆，将学生证或图书馆利用证贴近读卡处。忘带时向柜台人员求助；柜台较远可按对讲机。"
+     },
+     {
+      "title": "办理借阅并先看本馆日历",
+      "desc": "借书时把资料和图书馆利用证带到柜台。开放时间按目标馆的当前日历确认。"
+     }
+    ]
+   },
+   {
+    "id": "m7lib4",
+    "type": "subheading",
+    "text": "一般借阅量与期限（各馆另有特殊借阅条件）"
+   },
+   {
+    "id": "m7lib5",
+    "type": "fee_table",
+    "headers": [
+     "图书馆／身份",
+     "借阅量",
+     "期限"
+    ],
+    "rows": [
+     [
+      "中央／理系／医学",
+      "图书与期刊合计10册",
+      "图书2周；期刊1周"
+     ],
+     [
+      "艺术工学：本科生",
+      "图书10册；期刊5册",
+      "图书15日；期刊8日"
+     ],
+     [
+      "艺术工学：大学院生（硕士/博士）",
+      "图书20册；期刊10册",
+      "图书30天；期刊8日"
+     ],
+     [
+      "筑紫",
+      "图书10册；期刊5册",
+      "图书2周；期刊2天"
+     ]
+    ]
+   },
+   {
+    "id": "m7lib6",
+    "type": "subheading",
+    "text": "续借、归还与预约"
+   },
+   {
+    "id": "m7lib7",
+    "type": "list",
+    "items": [
+     {
+      "text": "在到期日前通过 My Page 或柜台续借。一般只能续借1次；有他人预约或资料为期刊时不能续借。筑紫馆的图书最多可续借2次；新期限从办理日开始计算。"
+     },
+     {
+      "text": "在柜台归还；闭馆时可用还书箱。九大馆藏可在办理借出的图书馆以外的九大图书馆归还。只要有资料逾期，就不能新借或续借；逾期几天，停借相同天数。"
+     },
+     {
+      "text": "他人已借走的图书，可从九大馆藏目录的“预约·取寄”按钮申请，或向柜台咨询。部分资料不接受预约，送达也可能需要时间。"
+     }
+    ]
+   },
+   {
+    "id": "m7lib8",
+    "type": "subheading",
+    "text": "学习室与特别开放"
+   },
+   {
+    "id": "m7lib9",
+    "type": "list",
+    "items": [
+     {
+      "text": "学习室是否可预约、预约方式与使用条件请按目标馆的当前页面确认，必要时咨询该馆。"
+     },
+     {
+      "text": "医学图书馆的24小时无人开放仅限病院地区学生、教职员及医疗从业人员，且须事先申请；不等于所有医学相关学生都可使用。"
+     }
+    ]
+   },
+   {
+    "id": "m7lib10",
+    "type": "links",
+    "items": [
+     {
+      "text": "学生／教职员图书馆使用手续",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/services/members/procedures"
+     },
+     {
+      "text": "借阅、续借、归还与预约规则",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/services/members/borrow"
+     },
+     {
+      "text": "九大图书馆目录（查询馆藏与预约选项）",
+      "url": "https://catalog.lib.kyushu-u.ac.jp/ja"
+     },
+     {
+      "text": "五馆列表、当前开馆日历与联系入口",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries"
+     },
+     {
+      "text": "中央图书馆借阅说明（含馆别特殊借阅）",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/central/guides_members"
+     },
+     {
+      "text": "理系图书馆借阅说明（含馆别特殊借阅）",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/scitech/guides_members"
+     },
+     {
+      "text": "医学图书馆借阅说明（含馆别特殊借阅）",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/medical/guides_members"
+     },
+     {
+      "text": "艺术工学图书馆借阅说明（含馆别特殊借阅）",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/design/guides_members-0"
+     },
+     {
+      "text": "筑紫图书馆借阅说明（含馆别特殊借阅）",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries/chikushi/guides_members"
      }
     ]
    },
@@ -4621,7 +5140,7 @@ window.ARTICLES = [
    "宿舍"
   ],
   "author": "管理员",
-  "updatedAt": "2026-08-15",
+  "updatedAt": "2026-10-07",
   "blocks": [
    {
     "id": "9d0f73",
@@ -4737,7 +5256,7 @@ window.ARTICLES = [
    {
     "id": "d7dc2a",
     "type": "paragraph",
-    "text": "发现漏水或发霉时，先拍照，再向宿管说明情况并提供房间号。可请在校生协助转达，宿管随后联系本人。处理方式按管理处指示。"
+    "text": "宿舍钥匙丢失、反锁或设施故障，按所住宿舍的管理通知办理；步骤与联络入口见【宿舍·租房】。不要把某一宿舍的处理方式套到其他住处。"
    },
    {
     "id": "b46d7c",
@@ -4776,6 +5295,171 @@ window.ARTICLES = [
      {
       "text": "生协食堂月度菜单",
       "url": "https://www.coop.kyushu-u.ac.jp/shokudou/month_menu.html"
+     }
+    ]
+   },
+   {
+    "id": "m7print0",
+    "type": "heading",
+    "text": "图书馆普通文件打印与馆藏资料复印"
+   },
+   {
+    "id": "m7print1",
+    "type": "paragraph",
+    "text": "核对日：2026-10-07。这里说的是个人普通文件打印和图书馆馆藏资料复印，不是大学正式证明书发行。各馆机器、操作方式和费用不同。"
+   },
+   {
+    "id": "m7print2",
+    "type": "subheading",
+    "text": "普通 PDF 文件打印"
+   },
+   {
+    "id": "m7print3",
+    "type": "list",
+    "items": [
+     {
+      "text": "Cloud On-Demand Print：中央、理系、医学、艺术工学馆支持。须先在网上登记文件，再到馆内多功能复合机打印；该服务标注为学内限定。"
+     },
+     {
+      "text": "USB 打印：理系、医学、艺术工学、筑紫馆支持。可从 USB 直接打印 PDF；Word、Excel 等文件需预先转成 PDF。"
+     },
+     {
+      "text": "各馆机器的黑白／彩色支持与打印价格请看现场机器或向该馆确认；不要按其他校区的价格推定。"
+     }
+    ]
+   },
+   {
+    "id": "m7print4",
+    "type": "subheading",
+    "text": "复印图书馆馆藏资料"
+   },
+   {
+    "id": "m7print5",
+    "type": "list",
+    "items": [
+     {
+      "text": "馆藏资料的复印限非营利目的、每人一份、作品的一部分；和打印个人 PDF 是不同服务。和装本、贵重资料等可能限制复印。"
+     },
+     {
+      "text": "各馆设有复印机；投币式与公费用卡式的办理方式、卡片购买窗口依馆而异。投币机不收大额纸币，图书馆不提供兑换。"
+     }
+    ]
+   },
+   {
+    "id": "m7print6",
+    "type": "subheading",
+    "text": "正式证明书与其他需求"
+   },
+   {
+    "id": "m7print7",
+    "type": "list",
+    "items": [
+     {
+      "text": "需要正式在学、成绩等证明书时，走九州大学正式证明书发行流程；普通打印不是证明书发行。若需扫描，先咨询目标馆，不预设复合机支持。"
+     }
+    ]
+   },
+   {
+    "id": "m7print8",
+    "type": "links",
+    "items": [
+     {
+      "text": "图书馆普通文件打印：方式与支持馆",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/faq/900"
+     },
+     {
+      "text": "馆藏资料复印与借阅规则",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/services/members/borrow"
+     },
+     {
+      "text": "九州大学正式证明书发行说明",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/procedure/certificate/"
+     },
+     {
+      "text": "各馆当前日历与联系入口",
+      "url": "https://www.lib.kyushu-u.ac.jp/ja/libraries"
+     }
+    ]
+   },
+   {
+    "id": "m7sport0",
+    "type": "heading",
+    "text": "伊都体育设施首次使用：先核对资格"
+   },
+   {
+    "id": "m7sportIntro",
+    "type": "paragraph",
+    "text": "本节仅说明伊都校区。体育馆、训练室与泳池的使用要求不同，不把某一设施规则套到其他校区或所有训练室。"
+   },
+   {
+    "id": "m7sport1",
+    "type": "subheading",
+    "text": "体育馆与健身/训练室"
+   },
+   {
+    "id": "m7sport2",
+    "type": "list",
+    "items": [
+     {
+      "text": "九大学生使用伊都地区体育设施：学校说明一般学生可在体育课和公认学生团体活动未占用的时段使用；开放时间见地图设施卡片及官方当月安排，具体场地条件先向窗口确认。"
+     },
+     {
+      "text": "健身房/训练室：公开资料没有说明各训练室统一的首次讲习、登记或预约规则；先联系设施窗口确认资格与流程，不要默认可直接入场。"
+     }
+    ]
+   },
+   {
+    "id": "m7sport3",
+    "type": "subheading",
+    "text": "总合体育馆室内泳池：首次到场"
+   },
+   {
+    "id": "m7sport4",
+    "type": "steps",
+    "items": [
+     {
+      "title": "确认资格并登记",
+      "desc": "公开泳池规则将九州大学学生列为利用资格者；到场后在总合体育馆事务室出示学生证，并填写利用者名簿。"
+     },
+     {
+      "title": "遵守入水要求",
+      "desc": "按公开规则，入水前淋浴并佩戴泳帽；同时遵守监视员指示，确认本人健康状况适合游泳。"
+     },
+     {
+      "title": "出发前查当月安排",
+      "desc": "泳池一般开放予定按月发布，并可能受课程或活动影响。每次前往前打开官方体育设施页核对当月安排；公开资料未列学生首次讲习或预约步骤，疑问可先问总合体育馆事务室 092-802-5994。"
+     }
+    ]
+   },
+   {
+    "id": "m7sport5",
+    "type": "fee_table",
+    "headers": [
+     "伊都地区公开咨询窗口",
+     "电话"
+    ],
+    "rows": [
+     [
+      "伊都地区总合体育馆事务室",
+      "092-802-5994"
+     ],
+     [
+      "伊都地区课外活动设施Ⅱ管理人室",
+      "092-802-2420"
+     ]
+    ]
+   },
+   {
+    "id": "m7sportLinks",
+    "type": "links",
+    "items": [
+     {
+      "text": "体育设施与当月开放安排",
+      "url": "https://www.kyushu-u.ac.jp/ja/education/life/institution/gym1/"
+     },
+     {
+      "text": "室内泳池使用规则",
+      "url": "https://www.kyushu-u.ac.jp/f/48426/20220616_%E3%83%97%E3%83%BC%E3%83%AB%E3%81%AE%E5%88%A9%E7%94%A8%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf"
      }
     ]
    },
@@ -6440,7 +7124,7 @@ window.ARTICLES = [
    "日语课程"
   ],
   "author": "管理员",
-  "updatedAt": "2026-09-27",
+  "updatedAt": "2026-10-07",
   "isPinned": true,
   "pinOrder": 5,
   "blocks": [
@@ -6791,7 +7475,7 @@ window.ARTICLES = [
      },
      {
       "title": "准备材料",
-      "desc": "注册代码 + 非 @s.kyushu-u.ac.jp 的邮箱地址。"
+      "desc": "激活 SSO-KID 时需登记一个可及时收信的密码重设邮箱；九大全学基本邮箱（@m.kyushu-u.ac.jp、@s.kyushu-u.ac.jp）不能登记，短信也不可用。"
      },
      {
       "title": "激活 SSO-KID",
@@ -7510,7 +8194,7 @@ window.ARTICLES = [
    "住址登记"
   ],
   "author": "管理员",
-  "updatedAt": "2026-09-30",
+  "updatedAt": "2026-10-07",
   "isPinned": true,
   "pinOrder": 20,
   "blocks": [
@@ -7794,7 +8478,7 @@ window.ARTICLES = [
    {
     "id": "36cd13",
     "type": "paragraph",
-    "text": "学校账号两个坑：SSO-KID 激活**不能用学校邮箱以外的邮箱**；校内 WiFi 的账号是 SSO-KID@kitenet，密码就是激活 SSO-KID 时设的那个。见【在留手续】"
+    "text": "激活 SSO-KID 时需登记一个可及时收信的密码重设邮箱；九大全学基本邮箱（@m.kyushu-u.ac.jp、@s.kyushu-u.ac.jp）不能登记，短信也不可用。 校内无线网有 kitenet 和 edunet：kitenet 登录 ID 为 SSO-KID@kitenet，edunet 为 SSO-KID@edunet；两者均使用 SSO-KID 密码。正课生（学部生、大学院生）的 SSO-KID 是学生证背面的10位数字；非正课生（如研究生）请向所属学务窗口确认。"
    },
    {
     "id": "082061",

@@ -71,8 +71,8 @@ window.NEWCOMER_ZONE = {
     { "ref": "guide-medical", "sec": "40a340",
       "title": { "zh": "学生保险与医疗", "ja": "学生保険と医療", "en": "Student insurance and healthcare", "ko": "학생 보험 및 의료", "es": "Seguro estudiantil y atención médica" },
       "desc": { "zh": "区分学研災、责任险、留学生综合保险、ESP 与国保的适用范围。", "ja": "学研災、賠償責任保険、留学生総合保険、ESP、国保の適用範囲を区別します。", "en": "Understand the scope of Gakkensai, liability cover, inbound student insurance, ESP and NHI.", "ko": "학연재해보험, 배상책임보험, 유학생 종합보험, ESP와 국민건강보험의 적용 범위를 구분합니다.", "es": "Distingue el alcance de Gakkensai, la responsabilidad civil, el seguro para estudiantes internacionales, ESP y el seguro nacional." } },
-    { "ref": "guide-academic", "sec": "e2c3d0",
-      "title": { "zh": "学生证领取安排", "ja": "学生証の受取日程", "en": "Student ID pickup schedule", "ko": "학생증 수령 일정", "es": "Calendario de recogida del carné" },
-      "desc": { "zh": "仅列五个所属通知中的 12 组身份；按本人所属核对日期与开放窗口。", "ja": "5つの所属の通知にある12の身分のみ掲載。所属別の日程と窓口を確認してください。", "en": "Covers only the 12 groups in notices from five academic units; check the dates and window by affiliation.", "ko": "5개 소속 공지의 12개 신분만 포함합니다. 소속별 일정과 창구를 확인하세요.", "es": "Incluye solo los 12 grupos de cinco unidades académicas; comprueba la fecha y ventanilla según tu afiliación." } }
+    { "ref": "guide-academic", "sec": "m7card0",
+      "title": { "zh": "学生证：领取、遗失与补办", "ja": "学生証：受取・紛失・再発行", "en": "Student cards: pickup, loss and replacement", "ko": "학생증: 수령·분실·재발급", "es": "Carné estudiantil: recogida, pérdida y reposición" },
+      "desc": { "zh": "含停用、损坏、补办费用与所属窗口；初次领取仍按本人所属的入学通知。", "ja": "利用停止・故障・再発行料金と所属窓口。初回受取は所属の入学案内で確認。", "en": "Card suspension, faults, replacement fees and your department’s office. Check your own admission notice for initial pickup.", "ko": "이용 정지·고장·재발급 비용과 소속 창구를 안내합니다. 최초 수령은 소속 입학 안내를 확인하세요.", "es": "Suspensión, averías, tarifas de reposición y oficina de tu unidad. Consulta el aviso de admisión para la primera recogida." } }
   ]
 };

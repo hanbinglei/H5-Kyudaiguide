@@ -33,6 +33,16 @@ const CONTACT_LOCALIZED = {
   'guide-firstmonth': ['ja', 'en', 'ko', 'es'],
 };
 
+// 2026-10-07核对：新图书馆片段为国际读者链接官方英文对应页。
+// 仅认可这八个明确对应URL、学业篇及en/ko/es；其他新增/丢失URL仍判错。
+const LIBRARY_EN_URLS = new Map([
+  ['https://catalog.lib.kyushu-u.ac.jp/opac_search/?lang=1','https://catalog.lib.kyushu-u.ac.jp/ja'],
+  ...['libraries','libraries/central/guides_members','libraries/chikushi/guides_members',
+    'libraries/design/guides_members-0','libraries/medical/guides_members',
+    'libraries/scitech/guides_members','services/members/procedures']
+    .map(p=>['https://www.lib.kyushu-u.ac.jp/en/'+p,'https://www.lib.kyushu-u.ac.jp/ja/'+p])
+]);
+
 function loadWin(file, name) {
   const sandbox = { window: {} };
   new vm.Script(fs.readFileSync(path.join(ROOT, 'guide', 'js', file), 'utf8')).runInNewContext(sandbox);
@@ -120,6 +130,10 @@ for (const art of ARTICLES) {
       if (A.join('|') === B.join('|')) return;
       const miss = A.filter(x => !B.includes(x)), extra = B.filter(x => !A.includes(x));
       const msg = `${art._id}/${lang}: ${what} 中文有而译本无=${JSON.stringify(miss)} 译本新增=${JSON.stringify(extra)}`;
+      if (what === 'URL' && art._id === 'guide-academic' && ['en','ko','es'].includes(lang)) {
+        const canonicalB = [...new Set(B.map(url=>LIBRARY_EN_URLS.get(url)||url))].sort();
+        if (A.join('|') === canonicalB.join('|')) { notes.push(msg + '（已核对的官方图书馆英文对应页）'); return; }
+      }
       (localized ? notes : errors).push(msg);
     };
     setEq(zu, tu, 'URL');

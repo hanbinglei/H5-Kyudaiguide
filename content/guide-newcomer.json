@@ -16,7 +16,7 @@
     "日语课程"
   ],
   "author": "管理员",
-  "updatedAt": "2026-09-27",
+  "updatedAt": "2026-10-07",
   "isPinned": true,
   "pinOrder": 5,
   "blocks": [
@@ -367,7 +367,7 @@
         },
         {
           "title": "准备材料",
-          "desc": "注册代码 + 非 @s.kyushu-u.ac.jp 的邮箱地址。"
+          "desc": "激活 SSO-KID 时需登记一个可及时收信的密码重设邮箱；九大全学基本邮箱（@m.kyushu-u.ac.jp、@s.kyushu-u.ac.jp）不能登记，短信也不可用。"
         },
         {
           "title": "激活 SSO-KID",

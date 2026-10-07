@@ -241,6 +241,19 @@
     return acc.join(' ');
   }
 
+  // 把译文中与原始标题/小标题 ID 对应的文本也纳入主题索引。
+  function joinLocalizedHead(blocks, map, acc) {
+    const walk = b => {
+      if (!b) return;
+      const isHead = b.type === 'heading' || b.type === 'subheading';
+      const translated = b.id && map[b.id];
+      if (isHead && translated && translated.text) acc.push(translated.text);
+      (b.blocks || []).forEach(walk);
+    };
+    (blocks || []).forEach(walk);
+    return acc.join(' ');
+  }
+
   function joinTr(m) {
     const acc = [];
     for (const id in m) {
@@ -295,10 +308,11 @@
       f.t_all = langs.filter(l => l !== 'zh').map(l => f['t_' + l] || '').filter(Boolean).join(' ');
       f.s_all = langs.filter(l => l !== 'zh').map(l => f['s_' + l] || '').filter(Boolean).join(' ');
       f.tags = norm((a.tags || []).join(' '));
+      const bmap = body[a._id] || {};
       f.head = norm(joinBlocks(a.blocks, [], true));
+      for (const l of langs) f['head_' + l] = norm(joinLocalizedHead(a.blocks, bmap[l] || {}, []));
       // 正文（中文真源）—— 不额外放一份到通用 body，否则同一段文字被算两次
       f.body_zh = norm(joinBlocks(a.blocks, [], false));
-      const bmap = body[a._id] || {};
       for (const l of langs) {
         if (l === 'zh') continue;
         const m = bmap[l]; if (!m) continue;
@@ -585,6 +599,20 @@
     return best || 1;
   }
 
+  // 多语标题只在分数完全相同时作本语言标题覆盖率的次级排序，不改变字段权重。
+  function localizedHeadFit(entry, terms, m, lang) {
+    const head = entry.f['head_' + lang] || '';
+    if (!head || !terms.length) return 0;
+    let matched = 0;
+    for (const t of terms) {
+      let ok = hits(head, t) > 0;
+      if (!ok) for (const a of m.alias) if (a.q === t && hits(head, a.hit) > 0) { ok = true; break; }
+      if (!ok) for (const n of m.near) if (n.q === t && hits(head, n.hit) > 0) { ok = true; break; }
+      if (ok) matched++;
+    }
+    return matched / terms.length;
+  }
+
   /** 覆盖率 = 命中的词数 / 查询词数。
       为什么用覆盖率而不是「分数阈值」：本项目先前删过一次分数阈值 —— 它在医学篇
       「病院」那种低分正确答案上会**静默丢结果**（见 query() 末尾的注释）。
@@ -618,9 +646,10 @@
       }
       if (cov + 1e-9 < minCov) continue;
       // 覆盖率进分数：全命中的排在部分命中之前（0.6 ~ 1.0 的温和偏好，不改变量级）
-      out.push({ id: e.id, score: score(e, terms, m, lang, opt) * (0.6 + 0.4 * cov), why: m, cov });
+      out.push({ id: e.id, score: score(e, terms, m, lang, opt) * (0.6 + 0.4 * cov),
+        headFit: localizedHeadFit(e, terms, m, lang), why: m, cov });
     }
-    out.sort((a, b) => b.score - a.score);
+    out.sort((a, b) => (b.score - a.score) || (b.headFit - a.headFit));
     return out;
   }
 
@@ -665,8 +694,24 @@
       if (keys.length) {
         // idfScore：让稀有键主导 —— 「手机丢了」里「丢了」比「手机」稀有，
         // 而用户要的正是「丢」这件事。不加权时「手机」的字段权重会压过它。
-        const rk = run(keys, lang, { alias: true, fuzzy: false, minCov: 1, idfScore: true });
-        if (rk.length) { r = rk; via = 'key'; }
+        const exactKeys = run(keys, lang, { alias: false, fuzzy: false, minCov: 1, idfScore: true });
+        if (exactKeys.length) {
+          r = exactKeys;
+          // 键词的全字面命中优先；别名仅补充召回，不与精确候选混排。
+          if (r.length < 4) {
+            const have = new Set(r.map(x => x.id));
+            for (const x of run(keys, lang, { alias: true, fuzzy: false, minCov: 1, idfScore: true })) {
+              if (have.has(x.id) || !x.why.alias.length) continue;
+              x.score *= 0.55;
+              have.add(x.id);
+              r.push(x);
+            }
+          }
+          via = 'key';
+        } else {
+          const rk = run(keys, lang, { alias: true, fuzzy: false, minCov: 1, idfScore: true });
+          if (rk.length) { r = rk; via = 'key'; }
+        }
       }
     }
         // 第 4 层（模糊）：改为「覆盖率」裁决。原先要求每个词都近似命中，而 what/to/do 这类虚词
@@ -706,8 +751,12 @@
     // 严格命中太少时用同义词补召回（排位靠后，不挤掉字面命中）
     if (via === 'literal' && r.length < 4) {
       const have = new Set(r.map(x => x.id));
-      for (const x of run(terms, lang, { alias: true, fuzzy: false })) if (!have.has(x.id)) { x.score *= 0.55; r.push(x); }
-      r.sort((a, b) => b.score - a.score);
+      for (const x of run(terms, lang, { alias: true, fuzzy: false })) {
+        if (have.has(x.id) || !x.why.alias.length) continue;
+        x.score *= 0.55;
+        have.add(x.id);
+        r.push(x);
+      }
     }
     const byId = new Map(IDX.map(e => [e.id, e]));
     // 这里原本还有一道「相对阈值」，用来砍宽泛词撑出来的长尾。现在不要了 ——
